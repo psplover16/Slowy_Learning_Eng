@@ -1,0 +1,168 @@
+schema: spec-driven
+
+# ============================================================
+# 專案脈絡（context）
+# 此段內容會在 AI 建立任何產出物時讀入。
+# 寫得越具體，AI 越能做出貼合專案的決策。
+# 段落由上至下依重要性排序，衝突時以上方為準。
+# ============================================================
+context: |
+  ## 專案定位
+
+  - **產品**：英語學習 PWA（漸進式網頁應用）
+  - **規模**：單人個人專案，無多人協作、無外部支援
+  - **使用者**：英語自學者
+  - **目標**：讓使用者能透過文章來學習英語，零網路也能用
+
+  ## 核心原則（憲法精簡版）
+
+  以下七條原則凌駕本檔其他細節，與其他段落衝突時以此為準。
+
+  ### 倉儲衛生
+  - `.gitignore` 為必備
+  - 不入 git：`node_modules/`、`dist/`、`build/`、`coverage/`、`test-results/`、`playwright-report/`
+  - `PROJECT_ARCHITECTURE.md` 為活文件，src/ 結構變動時必須於同一變更中同步更新
+
+  ### 測試補強
+  - bug 修正前先寫一個會失敗的測試，再修到通過
+  - empty / error / loading / placeholder 狀態不可造成 console error 或渲染失敗
+  - 主要路由與高風險互動元件至少各有 1 個 smoke test
+
+  ### UX 一致性
+  - 共用樣式只用於「視覺與互動確實相同」的場景，不為便利硬套
+  - loading / empty / error / success 與 happy path 同等照顧
+  - 路由或元件有明確規格時，規格優先於共用抽象
+
+  ### 規格回寫
+  - 實作完成後若行為與原 spec 不一致，同一工作項必須回寫 `openspec/specs/` 對應檔
+  - 行為變更不可只留在程式碼或對話中
+  - spec 必須是「目前實作的真相」
+
+  ### 範圍與復用邊界
+  - 共享 state 不等於共享 UI；同一份資料可被多處消費，UI 仍須依規格實作
+  - tasks 須記錄正向（功能出現於哪）與反向（不出現於哪）所有權
+  - 復用不可覆蓋路由或元件的特定規格要求
+
+  ### 簡潔與驗證
+  - 預設採「最簡可行解」，刻意複雜化須在 design 寫理由
+  - 對外可見行為變更須有驗證證據（測試或手動驗證紀錄）才算完成
+
+  ### 效能感知（輕量版）
+  - vite build chunk 警戒線設為 500 KB
+  - 加入新依賴前先查 bundlephobia.com，>30 KB（gzip 後）須在 design 寫理由
+  - 使用者明顯感覺到的卡頓視為 bug，發布前必須處理
+  - 離線儲存（localStorage / IndexedDB）使用量須有清理或上限機制
+
+  ## 技術棧
+
+  - **語言**：TypeScript（strict 模式，禁用 `any` 除非有註解理由）
+  - **框架**：Vue 3（Composition API、`<script setup lang="ts">`）
+  - **樣式**：Tailwind CSS（utility-first，避免自寫大量 css）
+  - **路由**：Vue Router
+  - **狀態管理**：Pinia
+  - **離線儲存**：localStorage（小量設定、進度旗標）/ IndexedDB（大量學習資料、字卡）
+  - **建構**：Vite
+  - **測試**：Vitest（單元）、Playwright（E2E）
+  - **部署形態**：PWA（可安裝、可完全離線、Service Worker 快取資源）
+
+  ## 架構慣例
+
+  ### 程式碼風格
+  - 一律 Composition API + `<script setup lang="ts">`，不寫 Options API、不寫純 .js
+  - public API、props、emits、store state、composable 回傳值都要明確型別
+  - 物件結構用 `interface`，聯集／工具型別用 `type`
+  - 縮排 2 空格、字串單引號
+
+  ### 命名規則
+  - **元件檔名**：PascalCase（例：`FlashCard.vue`、`ExamModal.vue`）
+  - **composable / utility 檔名**：camelCase（例：`useExamSession.ts`、`formatKana.ts`）
+  - **type / interface 名稱**：PascalCase（例：`type ExamMode`、`interface FlashcardItem`）
+  - **常數**：SCREAMING_SNAKE_CASE（例：`const MAX_REVIEW_PER_DAY = 50`）
+
+  ### 檔案組織
+  - 依「功能（feature）」分組：`src/modules/<feature>/{components,composables,storage,types}`
+  - 跨模組共用元件放 `src/shared/`
+  - 應用骨幹放 `src/app/`（router、main、AppShell）
+  - 不依「類型」分組（避免 `src/components/` 把所有元件混在一起）
+
+  ### 元件結構
+  - `.vue` 檔順序：`<script setup lang="ts">` → `<template>` → `<style>`
+  - 一個 `.vue` 對應單一元件職責，不混合多個無關元件
+
+  ## 領域知識
+
+  ### 學習機制
+  - **SRS**（Spaced Repetition System，間隔重複）：依使用者答對／答錯動態調整下次複習時間
+  - **口語文章**：每日一篇文章，文章性質屬於 偏向口語化，目的是要來讓使用者快速學習口說的英語形式
+  - **常見單字及片語**：根據文章，挑選出常用單字及片語
+  - **文法**：彙整該文章的文法
+
+  ## 使用情境
+
+  ### 主要場景
+  - **裝置**：iPhone Safari、Android Chrome（手機優先設計）
+  - **次要裝置**：桌機瀏覽器（功能正常但非設計主軸）
+  - **典型 session**：15–30 分鐘短時段（通勤、午休、睡前）
+  - **網路狀況**：經常離線或不穩（地鐵、戶外、飛航）
+
+  ### 設計準則
+  - 任何新功能必須先確保「**離線可用**」
+  - 網路相關功能必須有優雅降級（顯示快取、停用按鈕、明確錯誤提示）
+  - 介面須能單手操作，主要按鈕落在拇指可達範圍
+
+  ## 反模式（明確不做什麼）
+
+  - **不**引入 jQuery、Bootstrap、UI Kit 等重量級框架
+  - **不**引入需要伺服器的功能（純前端 PWA）
+  - **不**蒐集使用者行為遙測、不發送 analytics 請求
+  - **不**要求使用者註冊帳號，所有資料僅存使用者本機
+  - **不**為了便利硬套共用樣式（違反「UX 一致性」原則）
+  - **不**在 .vue / .ts 檔內寫純 JavaScript
+  - **不**為了「未來擴充」預先抽象（違反「最簡可行解」原則）
+
+  ## 語言與編碼
+
+  - commit 訊息、規格、提案、對外說明一律使用繁體中文
+  - 所有檔案以 UTF-8 儲存，不可有亂碼、問號替代字元、BOM 汙染
+  - commit 訊息遵循 conventional commits（例：`feat(srs): 新增間隔重複演算法`、`fix(exam): 修正空題庫崩潰`）
+
+  ## 存取限制
+
+  - 不得讀取或修改 `_private/_private_notes/筆記.txt`
+  - 受限資料夾名稱：`done`
+  - 在 `_private/_private_notes/` 與 `_private/_private_fileAssets/` 下，名稱符合受限資料夾名稱的目錄及其底下任何檔案皆不得讀寫
+
+# ============================================================
+# 各類產出物的規則（rules）
+# 對應 /spectra-propose、/spectra-apply 等流程產生的內容。
+# ============================================================
+rules:
+  # 變更提案（openspec/changes/<change-id>/proposal.md）
+  proposal:
+    - 開頭明確陳述「使用者要解決的問題」與「為什麼現在要做」
+    - 必須有「Non-goals（不做什麼）」一節，避免範圍蔓延
+    - 控制在 1500 字以內，聚焦 What / Why，不寫實作演算法
+    - 涉及離線資料的提案必須說明：資料如何儲存、同步策略、衝突處理
+
+  # 技術設計（openspec/changes/<change-id>/design.md）
+  design:
+    - 描述「怎麼做」與技術決策的原因，不直接貼大段程式碼
+    - 必須有「替代方案」段落，列出至少一個被淘汰的選項與淘汰原因
+    - 涉及離線資料時須明確劃分職責：localStorage / IndexedDB / Pinia store 各自負責什麼
+    - 涉及狀態管理需描述 store 的 state shape（欄位、型別、初始值）
+    - UI 設計以手機優先（mobile-first），桌機為加分項而非主軸
+    - 與外部 API 互動需說明離線時的降級策略（顯示快取、停用功能、錯誤訊息）
+
+  # 任務拆解（openspec/changes/<change-id>/tasks.md）
+  tasks:
+    - 每個任務拆成可在 2 小時內完成的粒度
+    - 每個任務需有明確「完成定義」，可獨立驗證
+    - 必須包含測試任務（單元測試或手動測試步驟），不可只列實作
+    - 涉及 UI 的任務需含「在實機/模擬器離線情境下驗證」步驟
+
+  # 規格文件（openspec/specs/<capability>/spec.md）
+  spec:
+    - 描述「行為」與「介面」，不寫實作細節
+    - 用具體例子說明邊界條件（空資料、首次使用、無網路）
+    - 離線情境必須明確涵蓋（資料快取、同步、衝突）
+    - 使用者可見文案以繁體中文範例呈現

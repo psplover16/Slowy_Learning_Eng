@@ -1,0 +1,70 @@
+# Spectra application config
+# See: https://github.com/spectra-app/spectra
+# 詳細說明請參考專案根目錄的 spectraYaml.md
+
+# OpenSpec directory path (relative to project root)
+# Changing this requires rebuilding the vector search index.
+# spec_dir: docs/specs
+
+# Language for AI-generated artifacts
+# 產出文件以繁體中文撰寫
+locale: tw
+
+# Workflow toggles
+# tdd:    開啟測試驅動開發流程，確保每個功能都有測試保護
+tdd: true
+# audit:  變更完成時自動執行稽核，提升程式碼品質與可維護性
+audit: true
+# 允許平行執行子任務
+parallel_tasks: true
+
+# Claude slash commands (set true to also generate /spectra:X commands)
+# 同時為 Claude Code 產生 /spectra:X 斜線指令，提升輸入體驗
+claude_slash_commands: true
+
+# 啟用 Git worktree 隔離分支
+worktree: true
+
+# worktree 自訂路徑
+# worktrees_dir: .spectra/worktrees
+
+# Claude Code skill effort levels (low/medium/high/xhigh/max)
+# 此為要投入多少資源
+# 註：要讓某個 skill 吃 effort，該 skill 的 SKILL.md frontmatter 必須有 effort 欄位。
+#     此處 12 個 spectra skill 的 SKILL.md 都已補上 effort 欄位。
+# 警告：SKILL.md 由 spectra 產出，重新生成時可能覆蓋這些手動加上的 effort 欄位；
+#     若 spectra CLI 有讀取此檔案的 claude_effort 並寫入 SKILL.md，則重產時會以此處為準。
+claude_effort:
+  # 實作任務、寫程式
+  apply: max
+  # 變更完成時稽核（安全、品質）
+  audit: max
+  # 建立提案（What / Why）
+  propose: max
+  # 封存完成的變更（搬檔、改索引，機械性動作）
+  archive: low
+  # 吸收外部脈絡／計畫回變更檔（需比對新舊內容做合併判斷）
+  ingest: max
+  # 聚焦討論直到收斂結論（值得多花推理）
+  discuss: max
+  # 查詢 spec / 文件並回答問題
+  ask: max
+  # 提交某變更相關的檔案（多為 git 機械動作）
+  commit: low
+  # 四階段系統性 debug（多步推理、假設驗證）
+  debug: max
+  # 偵測變更與目前程式碼的偏移（仔細比對）
+  drift: medium
+  # 分析變更內各 artifact 一致性（仔細比對）
+  analyze: medium
+  # 驗證實作是否符合 artifact（仔細比對）
+  verify: medium
+
+# spectra對claude比較多設定
+
+# AI tools to generate instruction files for
+# 本專案同時使用 Claude Code 與 Codex，兩者皆需產生對應的指引檔
+tools:
+  - claude
+  - codex
+#   - cursor

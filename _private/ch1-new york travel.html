@@ -1,0 +1,1999 @@
+<!-- 英語學習講義：My Trip to New York City（Slow English Podcast, B1） -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>我的紐約之旅 — 英語學習講義</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+  rel="stylesheet">
+
+<style>
+  :root {
+    --paper: #F4ECDC;
+    --paper-2: #FBF6EA;
+    --paper-3: #FFFCF4;
+    --ink: #322B22;
+    --ink-soft: #5E5446;
+    --ink-faint: #897C66;
+    --terracotta: #BF5635;
+    --terracotta-deep: #9C4226;
+    --sage: #6B7848;
+    --sage-deep: #525C36;
+    --ochre: #C28A2C;
+    --ochre-deep: #9C6E1C;
+    --teal: #3F726E;
+    --teal-deep: #2F5754;
+    --line: #D9C9A8;
+    --line-soft: #E6DAC0;
+    --shadow: rgba(60, 46, 28, .10);
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--paper);
+    background-image:
+      radial-gradient(circle at 12% 8%, rgba(191, 86, 53, .05), transparent 42%),
+      radial-gradient(circle at 88% 92%, rgba(107, 120, 72, .06), transparent 45%);
+    color: var(--ink);
+    font-family: "Noto Sans TC", "Helvetica Neue", sans-serif;
+    line-height: 1.95;
+    font-size: 16px;
+    padding: 48px 20px 90px;
+  }
+
+  .wrap {
+    max-width: 840px;
+    margin: 0 auto;
+  }
+
+  /* ---------- HEADER ---------- */
+  .masthead {
+    position: relative;
+    background: var(--paper-3);
+    border: 1.5px solid var(--line);
+    border-radius: 18px;
+    padding: 42px 40px 38px;
+    box-shadow: 0 14px 34px var(--shadow);
+    overflow: hidden;
+  }
+
+  .masthead::before {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    border: 1px solid var(--line-soft);
+    border-radius: 12px;
+    pointer-events: none;
+  }
+
+  .kicker {
+    font-family: "Newsreader", serif;
+    font-style: italic;
+    color: var(--terracotta);
+    font-size: 1.05rem;
+    letter-spacing: .02em;
+  }
+
+  .masthead h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.18;
+    margin: .18em 0 .12em;
+    letter-spacing: -.01em;
+  }
+
+  .masthead h1 .en {
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.45rem;
+    color: var(--ink-soft);
+    margin-top: .16em;
+  }
+
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+  }
+
+  .tag {
+    font-size: .82rem;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    color: var(--ink-soft);
+  }
+
+  .tag.lv {
+    background: var(--terracotta);
+    color: #fff;
+    border-color: var(--terracotta);
+    font-weight: 500;
+  }
+
+  /* ---------- HOW TO USE ---------- */
+  .howto {
+    margin-top: 22px;
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--ochre);
+    border-radius: 12px;
+    padding: 20px 24px;
+  }
+
+  .howto h3 {
+    font-family: "Fraunces", serif;
+    font-size: 1.12rem;
+    margin-bottom: 8px;
+    color: var(--ochre-deep);
+  }
+
+  .howto ol {
+    margin-left: 1.25em;
+  }
+
+  .howto li {
+    margin: 3px 0;
+  }
+
+  /* ---------- SECTION ---------- */
+  section {
+    margin-top: 54px;
+  }
+
+  .sec-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 10px;
+    margin-bottom: 26px;
+  }
+
+  .sec-num {
+    font-family: "Fraunces", serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--terracotta);
+  }
+
+  .sec-title {
+    font-family: "Fraunces", serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .sec-title .en {
+    display: block;
+    font-family: "Newsreader", serif;
+    font-style: italic;
+    font-size: .95rem;
+    font-weight: 400;
+    color: var(--ink-faint);
+    margin-top: 1px;
+  }
+
+  /* ---------- SCENE CARD (translation) ---------- */
+  .scene {
+    background: var(--paper-3);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 22px 26px;
+    margin-bottom: 16px;
+    box-shadow: 0 5px 16px var(--shadow);
+  }
+
+  .scene-head {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 10px;
+  }
+
+  .scene-no {
+    flex: none;
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: .95rem;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--terracotta);
+    color: #fff;
+    border-radius: 50%;
+  }
+
+  .scene-title {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: 1.16rem;
+    line-height: 1.3;
+  }
+
+  .scene-title .en {
+    display: block;
+    font-family: "Newsreader", serif;
+    font-style: italic;
+    font-size: .86rem;
+    font-weight: 400;
+    color: var(--ink-faint);
+  }
+
+  .scene p {
+    color: var(--ink);
+  }
+
+  .sent {
+    margin: 0 0 13px;
+  }
+
+  .sent:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .s-en {
+    display: block;
+    font-family: "Newsreader", serif;
+    font-size: 1.07rem;
+    line-height: 1.6;
+    color: var(--ink);
+  }
+
+  .s-en .hl {
+    background: linear-gradient(transparent 60%, rgba(194, 138, 44, .36) 60%);
+    font-weight: 500;
+  }
+
+  .s-cn {
+    display: block;
+    color: var(--ink-soft);
+    font-size: .95rem;
+    line-height: 1.7;
+    padding-left: 14px;
+    border-left: 2px solid var(--line);
+    margin-top: 4px;
+  }
+
+  .s-cn::before {
+    content: "↳ ";
+    color: var(--terracotta);
+  }
+
+  .scene-tags {
+    margin-top: 12px;
+    padding-top: 11px;
+    border-top: 1px dashed var(--line);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+
+  .word-tag {
+    font-family: "Newsreader", serif;
+    font-size: .84rem;
+    background: var(--paper);
+    border: 1px solid var(--line-soft);
+    border-radius: 6px;
+    padding: 2px 9px;
+    color: var(--ink-soft);
+    word-break: keep-all;
+  }
+
+  .word-tag b {
+    color: var(--terracotta-deep);
+    font-style: normal;
+  }
+
+  /* ---------- VOCAB TABLE ---------- */
+  .vocab-group {
+    margin-bottom: 24px;
+  }
+
+  .vocab-group h3 {
+    font-family: "Fraunces", serif;
+    font-size: 1.1rem;
+    color: var(--sage-deep);
+    margin-bottom: 9px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .vocab-group h3::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 2px;
+    background: var(--sage);
+    display: inline-block;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--paper-3);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: .93rem;
+  }
+
+  thead th {
+    background: var(--sage);
+    color: #fff;
+    font-weight: 500;
+    text-align: left;
+    padding: 9px 13px;
+    font-size: .85rem;
+  }
+
+  tbody td {
+    padding: 9px 13px;
+    border-top: 1px solid var(--line-soft);
+    vertical-align: top;
+  }
+
+  tbody tr:nth-child(even) {
+    background: var(--paper-2);
+  }
+
+  .v-en {
+    font-family: "Newsreader", serif;
+    font-weight: 500;
+    font-size: 1.04rem;
+    color: var(--terracotta-deep);
+    white-space: nowrap;
+  }
+
+  .v-pos {
+    font-style: italic;
+    color: var(--ink-faint);
+    font-family: "Newsreader", serif;
+    white-space: nowrap;
+  }
+
+  .v-ex {
+    font-family: "Newsreader", serif;
+    font-style: italic;
+    color: var(--ink-soft);
+    font-size: .9rem;
+  }
+
+  /* ---------- PHRASE CARD ---------- */
+  .phrase {
+    background: var(--paper-3);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--ochre);
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin-bottom: 14px;
+  }
+
+  .phrase-en {
+    font-family: "Newsreader", serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--ochre-deep);
+  }
+
+  .phrase-cn {
+    font-weight: 500;
+    color: var(--ink);
+    margin: 2px 0 6px;
+  }
+
+  .phrase-cn::before {
+    content: "→ ";
+    color: var(--ochre);
+  }
+
+  .phrase-note {
+    color: var(--ink-soft);
+    font-size: .95rem;
+  }
+
+  .ex {
+    margin-top: 9px;
+    background: var(--paper-2);
+    border-radius: 8px;
+    padding: 8px 13px;
+    font-size: .93rem;
+  }
+
+  .ex .e {
+    font-family: "Newsreader", serif;
+    font-style: italic;
+    color: var(--ink);
+  }
+
+  .ex .c {
+    color: var(--ink-faint);
+    font-size: .9rem;
+  }
+
+  /* ---------- GRAMMAR BOX ---------- */
+  .gbox {
+    background: var(--paper-3);
+    border: 1px solid var(--line);
+    border-radius: 13px;
+    padding: 22px 25px;
+    margin-bottom: 16px;
+    box-shadow: 0 5px 16px var(--shadow);
+  }
+
+  .gbox h3 {
+    font-family: "Fraunces", serif;
+    font-size: 1.18rem;
+    color: var(--teal-deep);
+    margin-bottom: 4px;
+  }
+
+  .gbox h3 .badge {
+    font-family: "Newsreader", serif;
+    font-style: italic;
+    font-size: .8rem;
+    font-weight: 400;
+    color: #fff;
+    background: var(--teal);
+    border-radius: 5px;
+    padding: 1px 8px;
+    margin-right: 8px;
+    vertical-align: 2px;
+  }
+
+  .formula {
+    font-family: "Newsreader", serif;
+    background: var(--teal);
+    color: #fff;
+    border-radius: 8px;
+    padding: 9px 15px;
+    margin: 11px 0;
+    font-size: 1.02rem;
+    display: inline-block;
+  }
+
+  .gbox ul {
+    margin: 6px 0 0 1.2em;
+  }
+
+  .gbox li {
+    margin: 4px 0;
+  }
+
+  .gbox .eg {
+    font-family: "Newsreader", serif;
+    font-style: italic;
+    color: var(--terracotta-deep);
+  }
+
+  .mini-table {
+    margin-top: 12px;
+    font-size: .9rem;
+  }
+
+  .mini-table th {
+    background: var(--teal);
+  }
+
+  .mini-table tbody tr:nth-child(even) {
+    background: var(--paper-2);
+  }
+
+  .mini-table td {
+    font-family: "Newsreader", serif;
+  }
+
+  .mini-table td:last-child {
+    font-family: "Noto Sans TC", sans-serif;
+    color: var(--ink-soft);
+  }
+
+  /* ---------- SENTENCE BREAKDOWN ---------- */
+  .bd {
+    background: var(--paper-3);
+    border: 1px solid var(--line);
+    border-radius: 13px;
+    padding: 20px 24px;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 16px var(--shadow);
+  }
+
+  .bd-sentence {
+    font-family: "Newsreader", serif;
+    font-size: 1.12rem;
+    line-height: 1.6;
+    color: var(--ink);
+    border-left: 4px solid var(--terracotta);
+    padding-left: 14px;
+    margin-bottom: 6px;
+  }
+
+  .bd-cn {
+    color: var(--ink-soft);
+    margin-bottom: 11px;
+  }
+
+  .bd-cn::before {
+    content: "中譯　";
+    color: var(--terracotta);
+    font-weight: 500;
+  }
+
+  .chunk {
+    display: flex;
+    gap: 11px;
+    padding: 7px 0;
+    border-top: 1px dashed var(--line);
+  }
+
+  .chunk-en {
+    font-family: "Newsreader", serif;
+    font-weight: 500;
+    color: var(--terracotta-deep);
+    flex: none;
+    width: 38%;
+  }
+
+  .chunk-ex {
+    color: var(--ink-soft);
+    font-size: .94rem;
+  }
+
+  /* ---------- EXERCISE ---------- */
+  .ex-block {
+    background: var(--paper-3);
+    border: 1px solid var(--line);
+    border-radius: 13px;
+    padding: 20px 24px;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 16px var(--shadow);
+  }
+
+  .ex-block h3 {
+    font-family: "Fraunces", serif;
+    font-size: 1.12rem;
+    color: var(--sage-deep);
+    margin-bottom: 10px;
+  }
+
+  .ex-block h3 .q {
+    font-family: "Newsreader", serif;
+    background: var(--sage);
+    color: #fff;
+    border-radius: 6px;
+    padding: 1px 9px;
+    font-size: .82rem;
+    margin-right: 8px;
+  }
+
+  .ex-block ol {
+    margin-left: 1.4em;
+  }
+
+  .ex-block ol li {
+    margin: 7px 0;
+  }
+
+  .ex-block .en {
+    font-family: "Newsreader", serif;
+    color: var(--ink);
+  }
+
+  .blank {
+    display: inline-block;
+    min-width: 90px;
+    border-bottom: 1.5px solid var(--terracotta);
+    margin: 0 3px;
+  }
+
+  .pool {
+    background: var(--paper-2);
+    border: 1px dashed var(--line);
+    border-radius: 8px;
+    padding: 9px 14px;
+    margin: 4px 0 12px;
+    font-family: "Newsreader", serif;
+    font-style: italic;
+    color: var(--ink-soft);
+    font-size: .93rem;
+  }
+
+  details {
+    margin-top: 12px;
+    background: var(--sage-deep);
+    border-radius: 9px;
+    color: #F4ECDC;
+  }
+
+  details summary {
+    cursor: pointer;
+    padding: 9px 16px;
+    font-weight: 500;
+    font-size: .92rem;
+    list-style: none;
+  }
+
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  details summary::before {
+    content: "▸ ";
+  }
+
+  details[open] summary::before {
+    content: "▾ ";
+  }
+
+  details .ans {
+    padding: 4px 18px 15px;
+    font-size: .93rem;
+    line-height: 1.85;
+  }
+
+  details .ans .en {
+    font-family: "Newsreader", serif;
+    color: #FBF6EA;
+  }
+
+  /* ---------- Q&A (speaking) ---------- */
+  .qa {
+    background: var(--paper-3);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--terracotta);
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin-bottom: 14px;
+  }
+
+  .qa .q-en {
+    font-family: "Newsreader", serif;
+    font-style: italic;
+    font-size: 1.08rem;
+    color: var(--terracotta-deep);
+  }
+
+  .qa .q-cn {
+    color: var(--ink-soft);
+    margin: 3px 0 9px;
+  }
+
+  .qa .starter {
+    font-family: "Newsreader", serif;
+    background: var(--paper-2);
+    border-radius: 7px;
+    padding: 6px 12px;
+    margin: 5px 0;
+    font-size: .93rem;
+  }
+
+  .qa .starter b {
+    color: var(--terracotta-deep);
+    font-style: normal;
+  }
+
+  /* ---------- FOOTER ---------- */
+  .foot {
+    margin-top: 60px;
+    text-align: center;
+    color: var(--ink-faint);
+    font-family: "Newsreader", serif;
+    font-style: italic;
+    font-size: .95rem;
+    border-top: 1px solid var(--line);
+    padding-top: 24px;
+  }
+
+  @media (max-width:560px) {
+    body {
+      padding: 26px 12px 60px;
+      font-size: 15px;
+    }
+
+    .masthead {
+      padding: 30px 24px;
+    }
+
+    .masthead h1 {
+      font-size: 1.9rem;
+    }
+
+    .masthead h1 .en {
+      font-size: 1.15rem;
+    }
+
+    .scene,
+    .gbox,
+    .bd,
+    .ex-block,
+    .phrase,
+    .qa {
+      padding: 16px 17px;
+    }
+
+    .sec-num {
+      font-size: 1.9rem;
+    }
+
+    .sec-title {
+      font-size: 1.25rem;
+    }
+
+    .chunk {
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .chunk-en {
+      width: auto;
+    }
+
+    table {
+      font-size: .86rem;
+    }
+
+    thead th,
+    tbody td {
+      padding: 7px 9px;
+    }
+  }
+</style>
+
+<div class="wrap">
+
+  <!-- ============ HEADER ============ -->
+  <header class="masthead">
+    <h1>我的紐約之旅
+      <span class="en">My Trip to New York City</span>
+    </h1>
+    <h4>
+      <a target="_blank" href="https://youtu.be/VGoJrwil_7c?si=uWPdyO8n9PCSoY3M">
+        https://youtu.be/VGoJrwil_7c?si=uWPdyO8n9PCSoY3M
+      </a>
+    </h4>
+    <div class="meta-row">
+      <span class="tag lv">程度 B1 初中級</span>
+      <span class="tag">主題：旅行・童年回憶</span>
+    </div>
+
+    <!-- <div class="howto">
+      <h3>如何使用這份講義</h3>
+      <ol>
+        <li><b></li>
+      </ol>
+    </div> -->
+  </header>
+
+  <!-- ============ PART 1 — TRANSLATION ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">1</span>
+      <span class="sec-title">中英對照全文
+        <span class="en">Bilingual Full Text — sentence by sentence</span>
+      </span>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">01</span>
+        <span class="scene-title">凌晨出發
+          <span class="en">An early start</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">Hello and welcome back to my Slow English podcast.</span><span
+          class="s-cn">哈囉，歡迎回到我的慢速英語 podcast。</span></div>
+      <div class="sent"><span class="s-en">Today I'm going to talk about my trip to New York — the whole entire story,
+          from the moment I arrived at the airport, to my home in Nebraska, to New York, and back in Mexico
+          City.</span><span class="s-cn">今天我要分享我的紐約之旅——完整的故事，從我抵達機場那一刻，到我在內布拉斯加州的家、到紐約，再回到墨西哥城。</span></div>
+      <div class="sent"><span class="s-en">First in the morning, my family and I woke up at around 4 a.m. — super early
+          — because my dad had to drive us to the airport and then go to his work.</span><span
+          class="s-cn">一大早，我和家人大約凌晨四點就起床了，非常早，因為爸爸得先載我們去機場，然後再去上班。</span></div>
+      <div class="sent"><span class="s-en">So, my mom, my sister, my brother, and I woke up, got our bags, and <span
+            class="hl">headed to</span> the airport in Mexico City.</span><span
+          class="s-cn">於是媽媽、姊姊、哥哥和我起床、拿好行李，前往墨西哥城的機場。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>the whole entire story</b>
+          <div>完整的、全部的故事，此為口語化用法</div>
+        </span>
+        <span class="word-tag"><b>head to</b>
+          <div>前往</div>
+        </span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">02</span>
+        <span class="scene-title">機場安檢與卡樂星早餐
+          <span class="en">Security check &amp; breakfast</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">Once we arrived at the airport, we had to find our airline.</span><span
+          class="s-cn">一抵達機場，我們就得找到自己的航空公司。</span></div>
+      <div class="sent"><span class="s-en">Our airline was United or Aeroméxico. So we found our airline. We <span
+            class="hl">checked in</span>.</span><span class="s-cn">我們的航空公司是 United 或
+          Aeroméxico。我們找到了航空公司，辦理了登機手續。</span></div>
+      <div class="sent"><span class="s-en">We checked a bag and we went through the security check.</span><span
+          class="s-cn">我們托運了一件行李，然後通過安檢。</span></div>
+      <div class="sent"><span class="s-en">The security check this time was so chill. The security guards were super
+          friendly and not intense or angry at all.</span><span class="s-cn">這次的安檢非常輕鬆。安檢人員都非常友善，一點也不嚴厲或兇。</span></div>
+      <div class="sent"><span class="s-en">So, it was a good start to a good trip.</span><span
+          class="s-cn">所以這是一趟美好旅程的好開始。</span></div>
+      <div class="sent"><span class="s-en">Then once we were past security, we had to walk through the duty-free section
+          — the section where everything is duty-free.</span><span class="s-cn">過了安檢後，我們得穿過免稅區——也就是所有東西都免稅的區域。</span>
+      </div>
+      <div class="sent"><span class="s-en">And we were so hungry. We hadn't eaten anything since the night
+          before.</span><span class="s-cn">我們都好餓，從前一晚就沒吃過任何東西。</span></div>
+      <div class="sent"><span class="s-en">So, we all made a <span class="hl">unanimous</span> decision to get breakfast
+          at Carl's Jr., and it was so yummy.</span><span class="s-cn">於是我們全體一致決定在 Carl's Jr.（卡樂星）吃早餐，超級好吃。</span></div>
+      <div class="sent"><span class="s-en">I had the deluxe meal that has pancakes, bacon, tater tots, and a piece of
+          toast.</span><span class="s-cn">我點了豪華餐，裡面有鬆餅、培根、薯餅和一片吐司。</span></div>
+      <div class="sent"><span class="s-en">My brother and my sister got the breakfast burrito, and my mom got the
+          breakfast burger.</span><span class="s-cn">哥哥和姊姊點了早餐捲餅，媽媽點了早餐漢堡。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>check in</b>
+          <div>辦登機手續</div>
+        </span>
+        <span class="word-tag"><b>security check</b>
+          <div>安檢</div>
+        </span>
+        <span class="word-tag"><b>unanimous</b>
+          <div>全體一致同意的</div>
+        </span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">03</span>
+        <span class="scene-title">轉機飛往奧馬哈
+          <span class="en">A layover in Dallas</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">We had plenty of time to find our gate, so we were <span class="hl">in no
+            rush</span>. We were in no hurry.</span><span class="s-cn">我們有充裕的時間找登機門，所以一點也不趕、不急。</span></div>
+      <div class="sent"><span class="s-en">We took our first flight in Dallas. That was our first layover.</span><span
+          class="s-cn">我們搭第一段班機，在達拉斯轉機——那是我們的第一次中停。</span></div>
+      <div class="sent"><span class="s-en">And then our second flight to Omaha, Nebraska.</span><span
+          class="s-cn">接著第二段班機飛往內布拉斯加州的奧馬哈。</span></div>
+      <div class="sent"><span class="s-en">And that's where my aunt picked us up in her car and drove us to her
+          home.</span><span class="s-cn">阿姨就在那裡開車接我們，載我們回她家。</span></div>
+      <div class="sent"><span class="s-en">I saw the big roads right away. The roads in the United States always
+          surprise me. They're so big.</span><span class="s-cn">我馬上就看到了那些寬闊的大馬路。美國的馬路總是讓我很驚訝，它們好大。</span></div>
+      <div class="sent"><span class="s-en">They're unnecessarily big with almost no cars, just roads.</span><span
+          class="s-cn">它們大得不必要，幾乎沒什麼車，就只是一條條的路。</span></div>
+      <div class="sent"><span class="s-en">I can't imagine walking somewhere in the United States.</span><span
+          class="s-cn">我無法想像在美國要靠走路去任何地方。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>layover</b> 轉機停留</span>
+        <span class="word-tag"><b>in no rush</b> 不趕時間</span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">04</span>
+        <span class="scene-title">阿姨家與超大冰淇淋
+          <span class="en">The biggest ice cream cones</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">Right away, my aunt took us all to eat ice cream.</span><span
+          class="s-cn">阿姨馬上帶我們所有人去吃冰淇淋。</span></div>
+      <div class="sent"><span class="s-en">We got <span class="hl">the biggest ice cream cones I've ever seen</span>.
+          You can't even imagine. Unnecessarily big.</span><span class="s-cn">我們拿到我這輩子看過最大的冰淇淋甜筒，你甚至無法想像，大得太誇張了。</span>
+      </div>
+      <div class="sent"><span class="s-en">But they were very friendly at the ice cream shop, and it was a very
+          delicious ice cream.</span><span class="s-cn">不過冰淇淋店的人非常親切，冰淇淋也很美味。</span></div>
+      <div class="sent"><span class="s-en">We relaxed at my aunt's house for a few days, and we ate some delicious fresh
+          vegetables from my aunt's garden.</span><span class="s-cn">我們在阿姨家放鬆了幾天，還吃了阿姨菜園裡新鮮又美味的蔬菜。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>cone</b> <div>甜筒</div></span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">05</span>
+        <span class="scene-title">表哥的高中畢業派對
+          <span class="en">My cousin's graduation party</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">And after a few days, we went to my cousin's graduation.</span><span
+          class="s-cn">過了幾天，我們去參加表哥的畢業典禮。</span></div>
+      <div class="sent"><span class="s-en">He is 19, graduating from high school.</span><span
+          class="s-cn">他十九歲，剛從高中畢業。</span></div>
+      <div class="sent"><span class="s-en">My aunt, my cousin's mom, made a huge celebration.</span><span
+          class="s-cn">我阿姨，也就是表哥的媽媽，辦了一場盛大的慶祝會。</span></div>
+      <div class="sent"><span class="s-en">She <span class="hl">went all out</span> on this graduation
+          party.</span><span class="s-cn">她為這場畢業派對卯足了全力。</span></div>
+      <div class="sent"><span class="s-en">She had an ice cream machine, unlimited ice cream. She had a candy
+          table.</span><span class="s-cn">她準備了冰淇淋機、無限量的冰淇淋，還有一整桌糖果。</span></div>
+      <div class="sent"><span class="s-en">She had hot dogs, hamburgers, nachos, and lots of fun games like Jenga or
+          tic-tac-toe.</span><span class="s-cn">她準備了熱狗、漢堡、玉米片，以及很多好玩的遊戲，像是疊疊樂和井字遊戲。</span></div>
+      <div class="sent"><span class="s-en">The graduation party was really fun.</span><span
+          class="s-cn">那場畢業派對真的很好玩。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>graduation</b> 畢業</span>
+        <span class="word-tag"><b>celebration</b> 慶祝活動</span>
+        <span class="word-tag"><b>go all out</b> 卯足全力</span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">06</span>
+        <span class="scene-title">重返兒時的城市 Sioux City
+          <span class="en">Nostalgic feelings</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">And for the next few days, we hung out at my aunt's house.</span><span
+          class="s-cn">接下來幾天，我們都在阿姨家附近走走。</span></div>
+      <div class="sent"><span class="s-en">My aunt's house is in the same city where me and my family <span
+            class="hl">used to live</span>.</span><span class="s-cn">阿姨家就在我和家人以前住的同一座城市。</span></div>
+      <div class="sent"><span class="s-en">We all used to live in Sioux City, and it <span class="hl">brought
+            back</span> so many nostalgic feelings. So many warm memories.</span><span class="s-cn">我們以前都住在 Sioux
+          City（蘇城），回到這裡勾起了好多懷舊的情感、好多溫暖的回憶。</span></div>
+      <div class="sent"><span class="s-en">I walked around the streets in Sioux City with my sister, and we saw all of
+          the old houses that we used to see every day on our way to our cousin's house, or just going for walks every
+          day when we were little.</span><span class="s-cn">我和姊姊在 Sioux City
+          的街上散步，看見了所有那些老房子——就是我們小時候每天去表親家的路上、或單純出門散步時，天天都會看到的房子。</span></div>
+      <div class="sent"><span class="s-en"><span class="hl">There's nothing like</span> that nostalgic feeling of being
+          in your childhood home or childhood city.</span><span class="s-cn">沒有什麼比得上重回童年的家、或童年城市時，那種懷舊的感覺。</span></div>
+      <div class="sent"><span class="s-en">What place brings back nostalgic feelings for you? What things bring back
+          nostalgic feelings?</span><span class="s-cn">什麼地方會勾起你的懷舊情感呢？哪些事物會喚起你的懷舊情感？</span></div>
+      <div class="sent"><span class="s-en">For me, it's all of the green trees and the big houses and even the big
+          roads.</span><span class="s-cn">對我來說，是那些綠樹、大房子，甚至是寬闊的馬路。</span></div>
+      <div class="sent"><span class="s-en">What brings those feelings for you?</span><span
+          class="s-cn">是什麼會喚起你那樣的感受呢？</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>nostalgic</b> 懷舊的</span>
+        <span class="word-tag"><b>bring back</b> 勾起</span>
+        <span class="word-tag"><b>used to</b> 以前曾經</span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">07</span>
+        <span class="scene-title">前往外公外婆的農場
+          <span class="en">Off to the farm</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">We saw a house with cute little mushrooms and a tree that had a hole cut
+          through the middle for the cable lines going through the tree.</span><span
+          class="s-cn">我們看到一間有可愛小蘑菇（裝飾）的房子，還有一棵樹，樹中間被切了一個洞，好讓電纜線穿過去。</span></div>
+      <div class="sent"><span class="s-en"><span class="hl">It was funny to see</span> that instead of chopping down the
+          whole tree, they just cut around so the cable could go through it.</span><span
+          class="s-cn">看到這景象覺得很有趣——他們沒有把整棵樹砍掉，而是只在線路周圍切開，讓電纜可以穿過。</span></div>
+      <div class="sent"><span class="s-en">And one day before heading to my grandma and grandpa's farm, we decided to go
+          to the gym with my cousin.</span><span class="s-cn">在前往外公外婆農場的前一天，我們決定和表親一起去健身房。</span></div>
+      <div class="sent"><span class="s-en">It was so nice because we got a hydro massage after a very relaxing
+          massage.</span><span class="s-cn">感覺真好，因為做完一場很放鬆的按摩後，我們還做了水療按摩。</span></div>
+      <div class="sent"><span class="s-en">The next day, my aunt drove us to my grandma and grandpa's farm.</span><span
+          class="s-cn">隔天，阿姨開車載我們去外公外婆的農場。</span></div>
+      <div class="sent"><span class="s-en">I <span class="hl">got to see</span> all of the huge landscapes of fields and
+          fields of grass, fields and fields of corn, and fields and fields of just lots of vegetation.</span><span
+          class="s-cn">我得以看見遼闊的地景——一片又一片的草地、一片又一片的玉米田、還有一片又一片茂密的草木。</span></div>
+      <div class="sent"><span class="s-en">The huge windmills and arriving at my grandma and grandpa's farmhouse brought
+          back so many warm and nostalgic feelings.</span><span
+          class="s-cn">那些巨大的風車，以及抵達外公外婆農舍的那一刻，勾起了好多溫暖又懷念的情感。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>landscape</b> 地景</span>
+        <span class="word-tag"><b>vegetation</b> 草木</span>
+        <span class="word-tag"><b>windmill</b> 風車</span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">08</span>
+        <span class="scene-title">農場裡的童年回憶
+          <span class="en">So many wonderful memories</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">The piano that I <span class="hl">used to play</span> when I was little —
+          even though I didn't know how to play the piano — the screen door to keep bugs out of the house, the living
+          room, the photos, the farm.</span><span
+          class="s-cn">那台我小時候常彈的鋼琴——即使我根本不會彈、那扇用來把蟲子擋在屋外的紗門、那間客廳、那些照片、那座農場。</span></div>
+      <div class="sent"><span class="s-en">So many wonderful memories.</span><span class="s-cn">好多美好的回憶。</span></div>
+      <div class="sent"><span class="s-en">I feel so lucky to have had such a beautiful childhood.</span><span
+          class="s-cn">我覺得自己好幸運，能擁有這麼美好的童年。</span></div>
+      <div class="sent"><span class="s-en">Can you think of one heartwarming story from your childhood?</span><span
+          class="s-cn">你能想起一個童年裡溫馨的小故事嗎？</span></div>
+      <div class="sent"><span class="s-en">One person, thing, place, or story that you feel <span class="hl">grateful
+            for</span> having as a kid.</span><span class="s-cn">一個你慶幸自己小時候曾擁有的人、事物、地方或故事。</span></div>
+      <div class="sent"><span class="s-en">I went outside with my grandpa to see his vegetables, like his rhubarb, his
+          tomatoes, his potatoes, and more.</span><span class="s-cn">我和外公一起到外面看他種的蔬菜，像是大黃、番茄、馬鈴薯等等。</span></div>
+      <div class="sent"><span class="s-en">He's very proud of his garden. And I felt very proud of his garden,
+          too.</span><span class="s-cn">他對自己的菜園非常自豪，我也為他的菜園感到驕傲。</span></div>
+      <div class="sent"><span class="s-en">We hung out in the living room for a little while and played with our cousins
+          and grandparents.</span><span class="s-cn">我們在客廳待了一會兒，和表親、外公外婆一起玩。</span></div>
+      <div class="sent"><span class="s-en">And it was a wonderful day full of remembering happy days from the
+          past.</span><span class="s-cn">那是美好的一天，整天都在回味過去那些快樂的日子。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>screen door</b> 紗門</span>
+        <span class="word-tag"><b>grateful</b> 感激的</span>
+        <span class="word-tag"><b>heartwarming</b> 暖心的</span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">09</span>
+        <span class="scene-title">考駕照與破舊的老車
+          <span class="en">A funny memory at the DMV</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">The next day, we had to go to get my driver's license.</span><span
+          class="s-cn">隔天，我們得去辦我的駕照。</span></div>
+      <div class="sent"><span class="s-en">So, we drove my grandma and grandpa's car all the way to the DMV — the place
+          where you renew or get your driver's license.</span><span class="s-cn">於是我們開著外公外婆的車，一路開到
+          DMV（監理所，也就是換發或申辦駕照的地方）。</span></div>
+      <div class="sent"><span class="s-en">It was really funny because the car was all torn apart everywhere for some
+          weird reason.</span><span class="s-cn">過程很好笑，因為那台車不知為何到處都破破爛爛的。</span></div>
+      <div class="sent"><span class="s-en">I don't even know how it could have gotten torn up on the
+          ceiling.</span><span class="s-cn">我甚至不知道車頂是怎麼破成那樣的。</span></div>
+      <div class="sent"><span class="s-en">It's an old car, definitely, but it was a funny memory.</span><span
+          class="s-cn">它確實是台老車沒錯，但這也成了一段有趣的回憶。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>driver's license</b> 駕照</span>
+        <span class="word-tag"><b>renew</b> 換發</span>
+        <span class="word-tag"><b>torn apart</b> 破爛的</span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">10</span>
+        <span class="scene-title">農場的悠閒時光
+          <span class="en">Relaxing under the trees</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">We arrived back at the farmhouse and my brother mowed the lawn.</span><span
+          class="s-cn">我們回到農舍，哥哥去修剪草坪。</span></div>
+      <div class="sent"><span class="s-en">I relaxed under the trees. I like looking at the view from underneath the
+          trees.</span><span class="s-cn">我則在樹下放鬆。我喜歡從樹底下望出去的景色。</span></div>
+      <div class="sent"><span class="s-en">And I chatted with my grandma and grandpa.</span><span
+          class="s-cn">我也和外公外婆聊天。</span></div>
+      <div class="sent"><span class="s-en">It's always so nice to see the hogs, the chickens, and the cows at my grandma
+          and grandpa's farm.</span><span class="s-cn">在外公外婆的農場看到那些豬、雞和牛，總是讓人覺得很開心。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>mow the lawn</b> 修剪草坪</span>
+        <span class="word-tag"><b>hog</b> 豬</span>
+        <span class="word-tag"><b>chat</b> 聊天</span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">11</span>
+        <span class="scene-title">飛往紐約・空中的城市風景
+          <span class="en">Flying into New York</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">The next day, we had to <span class="hl">head back</span> to Nebraska and
+          take our flight to New York City.</span><span class="s-cn">隔天，我們得回內布拉斯加，搭機飛往紐約市。</span></div>
+      <div class="sent"><span class="s-en">The view from our first flight was so beautiful — a huge river winding around
+          the city.</span><span class="s-cn">第一段班機看出去的風景好美——一條巨大的河流蜿蜒繞著城市。</span></div>
+      <div class="sent"><span class="s-en">But the view of New York City when we were flying in was <span
+            class="hl">even more impressive</span> to see — buildings and lights everywhere.</span><span
+          class="s-cn">但飛進紐約市時看到的景色更令人驚艷——到處都是高樓和燈光。</span></div>
+      <div class="sent"><span class="s-en">Even the taxi drive to our hostel was so impressive — to see all of the
+          lights, the buildings, the cars, the people.</span><span
+          class="s-cn">連搭計程車去青年旅館的路上都讓人印象深刻——看著那些燈光、建築、車輛和人群。</span></div>
+      <div class="sent"><span class="s-en">And our taxi driver drove us through Times Square, which was really nice of
+          him to do. And that was crazy to see.</span><span class="s-cn">我們的計程車司機還特地載我們穿過時代廣場，這點真的很貼心。那畫面太震撼了。</span>
+      </div>
+      <div class="sent"><span class="s-en"><span class="hl">It felt like</span> I was in a movie because I feel like
+          every movie is filmed or based in New York.</span><span
+          class="s-cn">感覺就像置身電影裡，因為我覺得每部電影好像都是在紐約拍的、或以紐約為背景。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>impressive</b> 令人驚艷的</span>
+        <span class="word-tag"><b>wind</b> 蜿蜒</span>
+        <span class="word-tag"><b>hostel</b> 青年旅館</span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">12</span>
+        <span class="scene-title">紐約漫遊・$20 烤肉串與街頭藝人
+          <span class="en">Walking around the city</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">We arrived pretty late in New York City, so the first thing we did was head
+          to bed.</span><span class="s-cn">我們很晚才抵達紐約市，所以第一件事就是去睡覺。</span></div>
+      <div class="sent"><span class="s-en">I <span class="hl">passed out</span>. We were all so sleepy.</span><span
+          class="s-cn">我一倒下就睡死了，我們都好睏。</span></div>
+      <div class="sent"><span class="s-en">But the next day, we all woke up early to walk around the city.</span><span
+          class="s-cn">但隔天，我們都早早起床去逛這座城市。</span></div>
+      <div class="sent"><span class="s-en">We saw gift shops, construction sites, the Rockefeller Center, buildings and
+          more buildings.</span><span class="s-cn">我們看到禮品店、工地、洛克菲勒中心，還有一棟又一棟的高樓。</span></div>
+      <div class="sent"><span class="s-en">It was sprinkling on our first day — just a little bit of rain. And for me,
+          that was perfect.</span><span class="s-cn">第一天下著毛毛雨，只有一點點。對我來說那很完美。</span></div>
+      <div class="sent"><span class="s-en">That way we could walk all around the city without feeling hot.</span><span
+          class="s-cn">這樣我們就能逛遍整座城市又不會覺得熱。</span></div>
+      <div class="sent"><span class="s-en">We ordered at a food stand in the streets. I ordered a chicken kebab because
+          I love kebabs, and it was pretty decent — but it was $20.</span><span
+          class="s-cn">我們在街上的小吃攤點餐。我點了一份雞肉串，因為我超愛烤肉串，味道還算不錯——但要價二十美元。</span></div>
+      <div class="sent"><span class="s-en">Now, I don't know if <span class="hl">I was scammed</span> because I looked
+          like a tourist, but to me that was crazy expensive.</span><span
+          class="s-cn">我不確定自己是不是因為看起來像觀光客而被坑了，但對我來說這貴得太離譜了。</span></div>
+      <div class="sent"><span class="s-en">I still sat down at Central Park and enjoyed my kebab — my $20
+          kebab.</span><span class="s-cn">儘管如此，我還是坐在中央公園裡，享用我那份烤肉串——我那份二十美元的烤肉串。</span></div>
+      <div class="sent"><span class="s-en">We saw some street performers, but they didn't really do anything that
+          impressive. It was pretty average.</span><span class="s-cn">我們看到一些街頭藝人，但他們的表演沒什麼特別的，相當普通。</span></div>
+      <div class="sent"><span class="s-en">I think they are just good at scamming people, getting you to pay attention
+          to the show so that behind you they can take your wallets and your phones.</span><span
+          class="s-cn">我覺得他們其實只是很擅長騙人——讓你把注意力放在表演上，好讓同夥在你背後偷走你的錢包和手機。</span></div>
+      <div class="sent"><span class="s-en">So be careful. <span class="hl">Be aware</span> in big cities.</span><span
+          class="s-cn">所以要小心。在大城市裡要提高警覺。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>pass out</b> 睡死</span>
+        <span class="word-tag"><b>scam</b> 詐騙</span>
+        <span class="word-tag"><b>be aware of</b> 注意</span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">13</span>
+        <span class="scene-title">紐約美食・Canes 與 Crumbl 餅乾
+          <span class="en">Chicken strips &amp; cookies</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">Later that evening, we ate some chicken strips and French fries at
+          Canes.</span><span class="s-cn">那天傍晚稍晚，我們在 Canes 吃了炸雞柳和薯條。</span></div>
+      <div class="sent"><span class="s-en">It's the first time that I've ever been to Canes. It was pretty
+          good.</span><span class="s-cn">這是我第一次去 Canes，味道還不錯。</span></div>
+      <div class="sent"><span class="s-en">Then for dessert, we had to get a crumble cookie.</span><span
+          class="s-cn">接著甜點，我們一定要吃 Crumbl 餅乾。</span></div>
+      <div class="sent"><span class="s-en">I've <span class="hl">been obsessed with</span> trying crumble cookies since
+          the first time I saw a video of somebody eating one.</span><span class="s-cn">自從第一次看到有人吃 Crumbl
+          餅乾的影片後，我就對它念念不忘。</span></div>
+      <div class="sent"><span class="s-en">I've been dreaming of this moment for so long because in Mexico there's no
+          crumble cookie.</span><span class="s-cn">我夢想這一刻好久了，因為墨西哥沒有 Crumbl 餅乾。</span></div>
+      <div class="sent"><span class="s-en">We tried a snickerdoodle cookie and it was everything I expected and
+          more.</span><span class="s-cn">我們嘗了肉桂糖餅乾，完全符合我的期待，甚至更棒。</span></div>
+      <div class="sent"><span class="s-en">I definitely love cookies, specifically doughy cookies.</span><span
+          class="s-cn">我真的很愛餅乾，特別是口感軟黏的餅乾。</span></div>
+      <div class="sent"><span class="s-en">So maybe I'm being biased because of that, but in my opinion, they're the
+          best.</span><span class="s-cn">所以也許我因此有點偏心，但在我看來，它們是最棒的。</span></div>
+      <div class="sent"><span class="s-en">Have you ever tried a crumble cookie? If not, would you like to?</span><span
+          class="s-cn">你吃過 Crumbl 餅乾嗎？如果沒有，你會想試試看嗎？</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>be obsessed with</b> 著迷於</span>
+        <span class="word-tag"><b>decent</b> 還不錯的</span>
+        <span class="word-tag"><b>doughy</b> 軟黏的</span>
+        <span class="word-tag"><b>biased</b> 偏心的</span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">14</span>
+        <span class="scene-title">自由女神與哈利波特商店
+          <span class="en">The Statue of Liberty</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">The next day, we woke up, got some smoothies and some ginger shots, and we
+          took the subway to see the Statue of Liberty.</span><span class="s-cn">隔天我們起床，買了冰沙和薑汁飲，然後搭地鐵去看自由女神像。</span>
+      </div>
+      <div class="sent"><span class="s-en">And like I said before, it felt like I was in a movie eating a salted pretzel
+          in New York. It was a dream.</span><span class="s-cn">就像我之前說的，在紐約一邊吃著鹹味蝴蝶餅，感覺就像置身電影裡，像在做夢一樣。</span></div>
+      <div class="sent"><span class="s-en">And then for dinner, we had the best pizza ever at a place called Joe's
+          Pizza.</span><span class="s-cn">晚餐我們在一家叫 Joe's Pizza 的店吃到了有史以來最好吃的披薩。</span></div>
+      <div class="sent"><span class="s-en">Later that evening, we walked to Times Square and we were able to see
+          everything completely <span class="hl">by ourselves</span>.</span><span
+          class="s-cn">那天傍晚稍晚，我們走到時代廣場，這次完全靠我們自己把每個地方都看遍了。</span></div>
+      <div class="sent"><span class="s-en">The next morning, we got breakfast and I ate an avocado toast, and we went to
+          see the Harry Potter shop.</span><span class="s-cn">隔天早上，我們吃了早餐，我吃了酪梨吐司，接著去逛哈利波特商店。</span></div>
+      <div class="sent"><span class="s-en">Now, I'm not the biggest fan of Harry Potter, but my brother and my mom
+          are.</span><span class="s-cn">其實我不算是哈利波特的鐵粉，但哥哥和媽媽是。</span></div>
+      <div class="sent"><span class="s-en">So, of course, I had to go and send them some pictures and buy them some
+          souvenirs.</span><span class="s-cn">所以我當然得去拍些照片傳給他們、再買些紀念品。</span></div>
+      <div class="sent"><span class="s-en">I got my brother a Harry Potter wand and I got my mom a Gryffindor
+          mug.</span><span class="s-cn">我幫哥哥買了一支哈利波特魔杖，幫媽媽買了一個葛來分多馬克杯。</span></div>
+      <div class="sent"><span class="s-en">We walked to see the Empire State, and we got some Chinese food to eat and
+          chill at a really pretty spot.</span><span class="s-cn">我們走去看帝國大廈，還買了中式料理，在一個很漂亮的地方邊吃邊放鬆。</span></div>
+      <div class="sent"><span class="s-en">And that was our last day in New York City.</span><span
+          class="s-cn">那是我們在紐約市的最後一天。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>subway</b> 地鐵</span>
+        <span class="word-tag"><b>souvenir</b> 紀念品</span>
+        <span class="word-tag"><b>by ourselves</b> 靠我們自己</span>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="scene-head">
+        <span class="scene-no">15</span>
+        <span class="scene-title">回家・美麗的起降
+          <span class="en">Back home in Mexico City</span>
+        </span>
+      </div>
+      <div class="sent"><span class="s-en">The next morning, we took the train to the JFK airport.</span><span
+          class="s-cn">隔天早上，我們搭火車去 JFK 機場。</span></div>
+      <div class="sent"><span class="s-en">We ate our leftover Chipotle while waiting for our plane to
+          board.</span><span class="s-cn">我們一邊吃著前一餐沒吃完的 Chipotle，一邊等候登機。</span></div>
+      <div class="sent"><span class="s-en">I always prefer to be early to my flights.</span><span
+          class="s-cn">我總是喜歡提早到機場搭飛機。</span></div>
+      <div class="sent"><span class="s-en">So, I'm always just chilling, eating a snack, and waiting for my flight to
+          board.</span><span class="s-cn">所以我總是悠閒地吃著點心、等待登機。</span></div>
+      <div class="sent"><span class="s-en">We put on our hats and we boarded the plane.</span><span
+          class="s-cn">我們戴上帽子、登上飛機。</span></div>
+      <div class="sent"><span class="s-en">The takeoff was <span class="hl">just as beautiful as</span> the
+          landing.</span><span class="s-cn">起飛的景色和降落時一樣美。</span></div>
+      <div class="sent"><span class="s-en">Taking off from New York City in the daylight was so beautiful. It's probably
+          one of my favorite cities to see from the sky.</span><span
+          class="s-cn">在白天從紐約市起飛真的好美，紐約大概是我最喜歡從空中俯瞰的城市之一。</span></div>
+      <div class="sent"><span class="s-en">Then we arrived back in Mexico City. A beautiful sight to land with beautiful
+          lights and buildings. And my family, of course.</span><span
+          class="s-cn">然後我們回到了墨西哥城。降落時看到美麗的燈光與建築，當然還有我的家人，是很美的景象。</span></div>
+      <div class="sent"><span class="s-en">I got to see my mom and dad's new dogs, Pablo and Wa. They're so cute. And it
+          was really nice to be home.</span><span class="s-cn">我見到了爸媽養的新狗狗——Pablo 和 Wa，牠們好可愛。能回到家真好。</span></div>
+      <div class="sent" style="margin-top:14px;padding-top:12px;border-top:1px dashed var(--line);"><span
+          class="s-en">Stay tuned for next week when I show you my vlog-styled podcast for my trip in Puerto Escondido
+          so far.</span><span class="s-cn">敬請期待下週——我會分享我到 Puerto Escondido 旅行的 vlog 風格 podcast。</span></div>
+      <div class="sent"><span class="s-en">If you like this type of slow English podcasts, then let me know in the
+          comments.</span><span class="s-cn">如果你喜歡這類慢速英語 podcast，留言告訴我。</span></div>
+      <div class="sent"><span class="s-en">Like and subscribe. Have a wonderful day, and don't forget to practice
+          English every day.</span><span class="s-cn">記得按讚和訂閱。祝你有美好的一天，別忘了每天練習英語。</span></div>
+      <div class="scene-tags">
+        <span class="word-tag"><b>leftover</b> 剩下的食物</span>
+        <span class="word-tag"><b>board</b> 登機</span>
+        <span class="word-tag"><b>takeoff</b> 起飛</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PART 2 — VOCABULARY ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">2</span>
+      <span class="sec-title">重點單字
+        <span class="en">Key Vocabulary — grouped by theme</span>
+      </span>
+    </div>
+
+    <div class="vocab-group">
+      <h3>主題一・旅行與機場</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>單字</th>
+            <th>詞性</th>
+            <th>中文意思</th>
+            <th>文章例句</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="v-en">airline</td>
+            <td class="v-pos">n.</td>
+            <td>航空公司</td>
+            <td class="v-ex">We found our airline.</td>
+          </tr>
+          <tr>
+            <td class="v-en">check in</td>
+            <td class="v-pos">phr. v.</td>
+            <td>辦理登機 / 入住手續</td>
+            <td class="v-ex">We checked in.</td>
+          </tr>
+          <tr>
+            <td class="v-en">security check</td>
+            <td class="v-pos">n.</td>
+            <td>安全檢查</td>
+            <td class="v-ex">The security check was so chill.</td>
+          </tr>
+          <tr>
+            <td class="v-en">duty-free</td>
+            <td class="v-pos">adj.</td>
+            <td>免稅的</td>
+            <td class="v-ex">the duty-free section</td>
+          </tr>
+          <tr>
+            <td class="v-en">gate</td>
+            <td class="v-pos">n.</td>
+            <td>登機門</td>
+            <td class="v-ex">We had time to find our gate.</td>
+          </tr>
+          <tr>
+            <td class="v-en">layover</td>
+            <td class="v-pos">n.</td>
+            <td>轉機停留</td>
+            <td class="v-ex">That was our first layover.</td>
+          </tr>
+          <tr>
+            <td class="v-en">board</td>
+            <td class="v-pos">v.</td>
+            <td>登（機 / 車 / 船）</td>
+            <td class="v-ex">We boarded the plane.</td>
+          </tr>
+          <tr>
+            <td class="v-en">takeoff</td>
+            <td class="v-pos">n.</td>
+            <td>起飛</td>
+            <td class="v-ex">The takeoff was beautiful.</td>
+          </tr>
+          <tr>
+            <td class="v-en">tourist</td>
+            <td class="v-pos">n.</td>
+            <td>觀光客</td>
+            <td class="v-ex">I looked like a tourist.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="vocab-group">
+      <h3>主題二・農場與大自然</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>單字</th>
+            <th>詞性</th>
+            <th>中文意思</th>
+            <th>文章例句</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="v-en">landscape</td>
+            <td class="v-pos">n.</td>
+            <td>地景、風景</td>
+            <td class="v-ex">huge landscapes of fields</td>
+          </tr>
+          <tr>
+            <td class="v-en">vegetation</td>
+            <td class="v-pos">n.</td>
+            <td>草木、植被</td>
+            <td class="v-ex">fields of lots of vegetation</td>
+          </tr>
+          <tr>
+            <td class="v-en">windmill</td>
+            <td class="v-pos">n.</td>
+            <td>風車</td>
+            <td class="v-ex">the huge windmills</td>
+          </tr>
+          <tr>
+            <td class="v-en">screen door</td>
+            <td class="v-pos">n.</td>
+            <td>紗門</td>
+            <td class="v-ex">the screen door to keep bugs out</td>
+          </tr>
+          <tr>
+            <td class="v-en">rhubarb</td>
+            <td class="v-pos">n.</td>
+            <td>大黃（一種蔬菜）</td>
+            <td class="v-ex">his rhubarb, his tomatoes</td>
+          </tr>
+          <tr>
+            <td class="v-en">mow</td>
+            <td class="v-pos">v.</td>
+            <td>修剪（草坪）</td>
+            <td class="v-ex">my brother mowed the lawn</td>
+          </tr>
+          <tr>
+            <td class="v-en">lawn</td>
+            <td class="v-pos">n.</td>
+            <td>草坪</td>
+            <td class="v-ex">mowed the lawn</td>
+          </tr>
+          <tr>
+            <td class="v-en">hog</td>
+            <td class="v-pos">n.</td>
+            <td>豬（尤指肉豬）</td>
+            <td class="v-ex">to see the hogs and the cows</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="vocab-group">
+      <h3>主題三・情緒與形容詞</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>單字</th>
+            <th>詞性</th>
+            <th>中文意思</th>
+            <th>文章例句</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="v-en">nostalgic</td>
+            <td class="v-pos">adj.</td>
+            <td>懷舊的、念舊的</td>
+            <td class="v-ex">that nostalgic feeling</td>
+          </tr>
+          <tr>
+            <td class="v-en">heartwarming</td>
+            <td class="v-pos">adj.</td>
+            <td>暖心的、感人的</td>
+            <td class="v-ex">one heartwarming story</td>
+          </tr>
+          <tr>
+            <td class="v-en">grateful</td>
+            <td class="v-pos">adj.</td>
+            <td>感激的、慶幸的</td>
+            <td class="v-ex">a story you feel grateful for</td>
+          </tr>
+          <tr>
+            <td class="v-en">impressive</td>
+            <td class="v-pos">adj.</td>
+            <td>令人印象深刻的</td>
+            <td class="v-ex">even more impressive to see</td>
+          </tr>
+          <tr>
+            <td class="v-en">unanimous</td>
+            <td class="v-pos">adj.</td>
+            <td>全體一致的</td>
+            <td class="v-ex">a unanimous decision</td>
+          </tr>
+          <tr>
+            <td class="v-en">biased</td>
+            <td class="v-pos">adj.</td>
+            <td>有偏見的、偏心的</td>
+            <td class="v-ex">maybe I'm being biased</td>
+          </tr>
+          <tr>
+            <td class="v-en">decent</td>
+            <td class="v-pos">adj.</td>
+            <td>還不錯的、過得去的</td>
+            <td class="v-ex">it was pretty decent</td>
+          </tr>
+          <tr>
+            <td class="v-en">doughy</td>
+            <td class="v-pos">adj.</td>
+            <td>有麵團口感的、軟黏的</td>
+            <td class="v-ex">specifically doughy cookies</td>
+          </tr>
+          <tr>
+            <td class="v-en">unnecessarily</td>
+            <td class="v-pos">adv.</td>
+            <td>不必要地、過度地</td>
+            <td class="v-ex">unnecessarily big roads</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="vocab-group">
+      <h3>主題四・城市生活與其他</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>單字</th>
+            <th>詞性</th>
+            <th>中文意思</th>
+            <th>文章例句</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="v-en">graduation</td>
+            <td class="v-pos">n.</td>
+            <td>畢業（典禮）</td>
+            <td class="v-ex">my cousin's graduation</td>
+          </tr>
+          <tr>
+            <td class="v-en">celebration</td>
+            <td class="v-pos">n.</td>
+            <td>慶祝活動</td>
+            <td class="v-ex">she made a huge celebration</td>
+          </tr>
+          <tr>
+            <td class="v-en">construction site</td>
+            <td class="v-pos">n.</td>
+            <td>工地</td>
+            <td class="v-ex">gift shops, construction sites</td>
+          </tr>
+          <tr>
+            <td class="v-en">scam</td>
+            <td class="v-pos">v. / n.</td>
+            <td>詐騙、坑（人）</td>
+            <td class="v-ex">I don't know if I was scammed</td>
+          </tr>
+          <tr>
+            <td class="v-en">surroundings</td>
+            <td class="v-pos">n.</td>
+            <td>周遭環境</td>
+            <td class="v-ex">be aware of your surroundings</td>
+          </tr>
+          <tr>
+            <td class="v-en">souvenir</td>
+            <td class="v-pos">n.</td>
+            <td>紀念品</td>
+            <td class="v-ex">buy them some souvenirs</td>
+          </tr>
+          <tr>
+            <td class="v-en">subway</td>
+            <td class="v-pos">n.</td>
+            <td>地鐵</td>
+            <td class="v-ex">we took the subway</td>
+          </tr>
+          <tr>
+            <td class="v-en">leftover</td>
+            <td class="v-pos">n. / adj.</td>
+            <td>剩菜、剩下的</td>
+            <td class="v-ex">our leftover Chipotle</td>
+          </tr>
+          <tr>
+            <td class="v-en">renew</td>
+            <td class="v-pos">v.</td>
+            <td>更新、換發</td>
+            <td class="v-ex">the place where you renew your license</td>
+          </tr>
+          <tr>
+            <td class="v-en">exclusive</td>
+            <td class="v-pos">adj.</td>
+            <td>獨家的</td>
+            <td class="v-ex">more exclusive content</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ PART 3 — PHRASES ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">3</span>
+      <span class="sec-title">重點片語與慣用語
+        <span class="en">Key Phrases &amp; Idioms</span>
+      </span>
+    </div>
+
+    <div class="phrase">
+      <div class="phrase-en">bring back (feelings / memories)</div>
+      <div class="phrase-cn">勾起、喚起（情感、回憶）</div>
+      <div class="phrase-note">字面是「帶回來」。那些感覺本來淡掉了，某個事物把它們「帶回」你心裡。是這篇文章的核心片語。</div>
+      <div class="ex"><span class="e">It brought back so many nostalgic feelings.</span><br><span
+          class="c">它勾起了好多懷舊的情感。</span></div>
+    </div>
+
+    <div class="phrase">
+      <div class="phrase-en">used to + 原形動詞</div>
+      <div class="phrase-cn">以前經常 / 曾經（現在已經不是了）</div>
+      <div class="phrase-note">表示「過去的習慣或狀態」，並暗示「現在不同了」。注意後面一定接動詞原形。</div>
+      <div class="ex"><span class="e">We used to live in Sioux City.</span><br><span class="c">我們以前住在蘇城（現在不住了）。</span>
+      </div>
+    </div>
+
+    <div class="phrase">
+      <div class="phrase-en">on one's way to + 地點</div>
+      <div class="phrase-cn">在前往某地的路上</div>
+      <div class="phrase-note">很常用的片語。注意 home 是副詞，要說 on our way home，不加 to。</div>
+      <div class="ex"><span class="e">houses we saw on our way to our cousin's house</span><br><span
+          class="c">我們去表親家路上會看到的房子</span></div>
+    </div>
+
+    <div class="phrase">
+      <div class="phrase-en">there's nothing like ~</div>
+      <div class="phrase-cn">沒有什麼比得上～（極力稱讚）</div>
+      <div class="phrase-note">用來說某樣東西「最棒、無可取代」，是讚美的語氣，不是「不像」。</div>
+      <div class="ex"><span class="e">There's nothing like that nostalgic feeling.</span><br><span
+          class="c">沒有什麼比得上那種懷舊的感覺。</span></div>
+    </div>
+
+    <div class="phrase">
+      <div class="phrase-en">head to / head back</div>
+      <div class="phrase-cn">前往 / 返回（某地）</div>
+      <div class="phrase-note">head 當動詞是「朝某方向前進」。head back = 回去；head to bed = 去睡覺。</div>
+      <div class="ex"><span class="e">We had to head back to Nebraska.</span><br><span class="c">我們得返回內布拉斯加。</span>
+      </div>
+    </div>
+
+    <div class="phrase">
+      <div class="phrase-en">get to + 原形動詞</div>
+      <div class="phrase-cn">有機會、得以（做某事）</div>
+      <div class="phrase-note">帶有「幸運、難得」的正面語氣，和單純的 can 不同。</div>
+      <div class="ex"><span class="e">I got to see all of the huge landscapes.</span><br><span
+          class="c">我得以看見那遼闊的地景。</span></div>
+    </div>
+
+    <div class="phrase">
+      <div class="phrase-en">pass out</div>
+      <div class="phrase-cn">睡死、累倒、昏過去</div>
+      <div class="phrase-note">這裡是口語用法，指「太累一倒下就睡著」。</div>
+      <div class="ex"><span class="e">We were so sleepy. I passed out.</span><br><span class="c">我們都好睏，我一倒下就睡死了。</span>
+      </div>
+    </div>
+
+    <div class="phrase">
+      <div class="phrase-en">be obsessed with ~</div>
+      <div class="phrase-cn">對～非常著迷、念念不忘</div>
+      <div class="phrase-note">with 後面接名詞或動名詞（V-ing）。</div>
+      <div class="ex"><span class="e">I've been obsessed with trying crumble cookies.</span><br><span class="c">我一直對嘗試
+          Crumbl 餅乾念念不忘。</span></div>
+    </div>
+
+    <div class="phrase">
+      <div class="phrase-en">go all out</div>
+      <div class="phrase-cn">卯足全力、全力以赴</div>
+      <div class="phrase-note">指做某件事時毫無保留、傾盡全力。</div>
+      <div class="ex"><span class="e">She went all out on this graduation party.</span><br><span
+          class="c">她為這場畢業派對卯足了全力。</span></div>
+    </div>
+
+    <div class="phrase">
+      <div class="phrase-en">be aware of ~</div>
+      <div class="phrase-cn">注意、警覺、留意</div>
+      <div class="phrase-note">aware 是「察覺到的」。be aware of your surroundings = 注意周遭環境。</div>
+      <div class="ex"><span class="e">Be aware of your surroundings in big cities.</span><br><span
+          class="c">在大城市要留意你的周遭環境。</span></div>
+    </div>
+
+    <div class="phrase">
+      <div class="phrase-en">in no rush / in no hurry</div>
+      <div class="phrase-cn">不趕時間、不急</div>
+      <div class="phrase-note">兩個說法意思一樣。rush 和 hurry 都是「匆忙」。</div>
+      <div class="ex"><span class="e">We were in no rush.</span><br><span class="c">我們一點也不趕。</span></div>
+    </div>
+
+    <div class="phrase">
+      <div class="phrase-en">stay tuned</div>
+      <div class="phrase-cn">敬請期待、鎖定後續</div>
+      <div class="phrase-note">影片、節目結尾的固定說法，原意是「保持在這個頻道」。</div>
+      <div class="ex"><span class="e">Stay tuned for next week.</span><br><span class="c">敬請期待下週。</span></div>
+    </div>
+  </section>
+
+  <!-- ============ PART 4 — GRAMMAR ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">4</span>
+      <span class="sec-title">文法重點
+        <span class="en">Grammar Focus</span>
+      </span>
+    </div>
+
+    <div class="gbox">
+      <h3><span class="badge">G1</span>用過去式說故事</h3>
+      <p>整篇文章都在講「已經發生的事」，所以動詞幾乎都是<b>過去式</b>。規則動詞直接加 <b>-ed</b>，但很多常用動詞是<b>不規則</b>的，必須一個個記。</p>
+      <div class="formula">規則：walk → walked　／　不規則：go → went</div>
+      <table class="mini-table">
+        <thead>
+          <tr>
+            <th>原形</th>
+            <th>過去式</th>
+            <th>中文</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>wake</td>
+            <td>woke</td>
+            <td>醒來</td>
+          </tr>
+          <tr>
+            <td>get</td>
+            <td>got</td>
+            <td>拿到、變得</td>
+          </tr>
+          <tr>
+            <td>take</td>
+            <td>took</td>
+            <td>搭乘、拿</td>
+          </tr>
+          <tr>
+            <td>see</td>
+            <td>saw</td>
+            <td>看見</td>
+          </tr>
+          <tr>
+            <td>drive</td>
+            <td>drove</td>
+            <td>開車</td>
+          </tr>
+          <tr>
+            <td>eat</td>
+            <td>ate</td>
+            <td>吃</td>
+          </tr>
+          <tr>
+            <td>feel</td>
+            <td>felt</td>
+            <td>感覺</td>
+          </tr>
+          <tr>
+            <td>fly</td>
+            <td>flew</td>
+            <td>飛</td>
+          </tr>
+          <tr>
+            <td>bring</td>
+            <td>brought</td>
+            <td>帶來</td>
+          </tr>
+          <tr>
+            <td>have</td>
+            <td>had</td>
+            <td>有</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="gbox">
+      <h3><span class="badge">G2</span>used to：過去的習慣</h3>
+      <p><b>used to + 原形動詞</b>，表示「以前經常這樣，但現在不同了」。這是這篇懷舊主題的關鍵文法。</p>
+      <div class="formula">主詞 + used to + 原形V</div>
+      <ul>
+        <li><span class="eg">We used to live in Sioux City.</span> 我們以前住在蘇城。</li>
+        <li><span class="eg">the piano that I used to play</span> 那台我以前常彈的鋼琴</li>
+        <li><span class="eg">houses that we used to see every day</span> 我們以前每天都會看到的房子</li>
+      </ul>
+    </div>
+
+    <div class="gbox">
+      <h3><span class="badge">G3</span>so 與 such：強調「好…／如此…」</h3>
+      <p>兩個都表示「非常」，但接的東西不同，很容易搞混。</p>
+      <div class="formula">so + 形容詞　／　such + (a/an) + 形容詞 + 名詞</div>
+      <ul>
+        <li><span class="eg">It was so nice.</span> 太棒了。（so + 形容詞）</li>
+        <li><span class="eg">such a beautiful childhood</span> 如此美好的童年（such + a + 形容詞 + 名詞）</li>
+      </ul>
+      <p style="margin-top:6px;color:var(--ink-faint);font-size:.9rem;">小訣竅：後面有「名詞」就用 such；只有形容詞就用 so。</p>
+    </div>
+
+    <div class="gbox">
+      <h3><span class="badge">G4</span>比較級與最高級</h3>
+      <p>描述「更…」或「最…」。文章裡出現了好幾種：</p>
+      <ul>
+        <li><b>比較級</b>：<span class="eg">even more impressive</span> 更令人驚艷（even 用來加強「更」）</li>
+        <li><b>as … as</b>：<span class="eg">just as beautiful as the landing</span> 和降落時一樣美</li>
+        <li><b>最高級</b>：<span class="eg">the biggest cones I've ever seen</span> 我看過最大的甜筒</li>
+        <li><b>one of the + 最高級</b>：<span class="eg">one of my favorite cities</span> 我最愛的城市之一</li>
+      </ul>
+    </div>
+
+    <div class="gbox">
+      <h3><span class="badge">G5</span>It was + 形容詞 + to V ／ It felt like…</h3>
+      <p>想表達「做某件事『是』怎樣的感覺」，英文常用 <b>It</b> 開頭，把真正的主詞往後放。</p>
+      <div class="formula">It was + 形容詞 + to + 原形V</div>
+      <ul>
+        <li><span class="eg">It was funny to see the tree.</span> 看到那棵樹很有趣。</li>
+        <li><span class="eg">It felt like I was in a movie.</span> 感覺就像我置身電影裡。（felt like + 句子）</li>
+      </ul>
+    </div>
+
+    <div class="gbox">
+      <h3><span class="badge">G6</span>現在完成式：have / has + 過去分詞</h3>
+      <p>表示「從過去持續到現在」或「到目前為止的經驗」。常和 <b>since</b>（自從）、<b>ever</b>（曾經）、<b>for</b>（持續多久）一起出現。</p>
+      <div class="formula">主詞 + have / has + 過去分詞 (p.p.)</div>
+      <ul>
+        <li><span class="eg">I've been obsessed with cookies since…</span> 我從…就對餅乾著迷至今。</li>
+        <li><span class="eg">the first time I've ever been to Canes</span> 我第一次去 Canes</li>
+        <li><span class="eg">We hadn't eaten anything since the night before.</span> 我們從前一晚就沒吃東西。</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ PART 5 — SENTENCE BREAKDOWN ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">5</span>
+      <span class="sec-title">句型解析
+        <span class="en">Sentence Breakdown</span>
+      </span>
+    </div>
+
+    <div class="bd">
+      <div class="bd-sentence">We all made a unanimous decision to get breakfast at Carl's Jr.</div>
+      <div class="bd-cn">我們全體一致決定在卡樂星吃早餐。</div>
+      <div class="chunk"><span class="chunk-en">We all</span><span class="chunk-ex">我們全部的人（all 放在主詞後面加強語氣）</span></div>
+      <div class="chunk"><span class="chunk-en">made a … decision</span><span class="chunk-ex">做了一個決定（make a decision
+          是固定搭配）</span></div>
+      <div class="chunk"><span class="chunk-en">to get breakfast</span><span class="chunk-ex">去吃早餐（to + V
+          說明「什麼決定」）</span></div>
+    </div>
+
+    <div class="bd">
+      <div class="bd-sentence">The huge windmills and arriving at the farmhouse brought back so many nostalgic feelings.
+      </div>
+      <div class="bd-cn">那些巨大的風車，以及抵達農舍的那一刻，勾起了好多懷舊的情感。</div>
+      <div class="chunk"><span class="chunk-en">The huge windmills and arriving…</span><span
+          class="chunk-ex">兩個並列的主詞：一個名詞 + 一個動名詞（arriving）</span></div>
+      <div class="chunk"><span class="chunk-en">brought back</span><span class="chunk-ex">勾起（bring back 的過去式）</span>
+      </div>
+      <div class="chunk"><span class="chunk-en">so many … feelings</span><span class="chunk-ex">好多情感（so many +
+          可數名詞複數）</span></div>
+    </div>
+
+    <div class="bd">
+      <div class="bd-sentence">It felt like I was in a movie because every movie is filmed or based in New York.</div>
+      <div class="bd-cn">感覺就像置身電影裡，因為每部電影都是在紐約拍的或以紐約為背景。</div>
+      <div class="chunk"><span class="chunk-en">It felt like + 子句</span><span class="chunk-ex">感覺好像……（like
+          後面接一個完整句子）</span></div>
+      <div class="chunk"><span class="chunk-en">is filmed / based</span><span class="chunk-ex">被拍攝 / 以…為背景（be + 過去分詞 =
+          被動語態）</span></div>
+      <div class="chunk"><span class="chunk-en">because…</span><span class="chunk-ex">因為……（帶出原因）</span></div>
+    </div>
+
+    <div class="bd">
+      <div class="bd-sentence">I've been obsessed with trying crumble cookies since the first time I saw a video.</div>
+      <div class="bd-cn">自從第一次看到影片後，我就對嘗試 Crumbl 餅乾念念不忘。</div>
+      <div class="chunk"><span class="chunk-en">I've been obsessed</span><span class="chunk-ex">現在完成式：從過去著迷到現在</span>
+      </div>
+      <div class="chunk"><span class="chunk-en">with trying…</span><span class="chunk-ex">with 後面接動名詞 V-ing</span></div>
+      <div class="chunk"><span class="chunk-en">since the first time…</span><span class="chunk-ex">自從……（since
+          帶出起點，常配現在完成式）</span></div>
+    </div>
+
+    <div class="bd">
+      <div class="bd-sentence">The takeoff was just as beautiful as the landing.</div>
+      <div class="bd-cn">起飛的景色和降落時一樣美。</div>
+      <div class="chunk"><span class="chunk-en">as beautiful as</span><span class="chunk-ex">和……一樣美（as + 形容詞 + as =
+          程度相同）</span></div>
+      <div class="chunk"><span class="chunk-en">just</span><span class="chunk-ex">在這裡是「就、完全」，加強「一樣」的語氣</span></div>
+    </div>
+  </section>
+
+  <!-- ============ PART 6 — EXERCISES ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">6</span>
+      <span class="sec-title">練習區
+        <span class="en">Practice — check your answers below</span>
+      </span>
+    </div>
+
+    <div class="ex-block">
+      <h3><span class="q">練習 A</span>單字配對</h3>
+      <p style="margin-bottom:8px;color:var(--ink-soft);font-size:.93rem;">把英文單字和正確的中文意思配對（寫下號碼）。</p>
+      <ol>
+        <li><span class="en">nostalgic</span></li>
+        <li><span class="en">layover</span></li>
+        <li><span class="en">grateful</span></li>
+        <li><span class="en">scam</span></li>
+        <li><span class="en">vegetation</span></li>
+        <li><span class="en">souvenir</span></li>
+      </ol>
+      <div class="pool">( ) 草木植被　( ) 懷舊的　( ) 詐騙　( ) 轉機停留　( ) 紀念品　( ) 感激的</div>
+      <details>
+        <summary>查看解答</summary>
+        <div class="ans">
+          1 <span class="en">nostalgic</span> = 懷舊的　|　2 <span class="en">layover</span> = 轉機停留　|　3 <span
+            class="en">grateful</span> = 感激的<br>
+          4 <span class="en">scam</span> = 詐騙　|　5 <span class="en">vegetation</span> = 草木植被　|　6 <span
+            class="en">souvenir</span> = 紀念品
+        </div>
+      </details>
+    </div>
+
+    <div class="ex-block">
+      <h3><span class="q">練習 B</span>片語填空</h3>
+      <p style="margin-bottom:8px;color:var(--ink-soft);font-size:.93rem;">從下方選出最適合的片語填入空格（注意時態）。</p>
+      <div class="pool">used to　|　bring back　|　head back　|　pass out　|　be aware of</div>
+      <ol>
+        <li><span class="en">Old photos always <span class="blank"></span> happy memories.</span></li>
+        <li><span class="en">We <span class="blank"></span> live in this city when I was a child.</span></li>
+        <li><span class="en">I was so tired that I <span class="blank"></span> as soon as I lay down.</span></li>
+        <li><span class="en">In big cities, you should <span class="blank"></span> your surroundings.</span></li>
+        <li><span class="en">It got late, so we decided to <span class="blank"></span> to the hotel.</span></li>
+      </ol>
+      <details>
+        <summary>查看解答</summary>
+        <div class="ans">
+          1. <span class="en">bring back</span>（主詞 photos 是複數，現在式用原形）老照片總是勾起快樂的回憶。<br>
+          2. <span class="en">used to</span> 我小時候曾住在這座城市。<br>
+          3. <span class="en">passed out</span>（過去式）我太累了，一躺下就睡死了。<br>
+          4. <span class="en">be aware of</span>（should 後接原形）在大城市，你應該留意周遭環境。<br>
+          5. <span class="en">head back</span>（to 後接原形）天色晚了，我們決定回飯店。
+        </div>
+      </details>
+    </div>
+
+    <div class="ex-block">
+      <h3><span class="q">練習 C</span>寫出動詞過去式</h3>
+      <p style="margin-bottom:8px;color:var(--ink-soft);font-size:.93rem;">這些都是文章裡出現過的動詞，寫出它們的過去式。</p>
+      <ol>
+        <li><span class="en">wake → __________</span></li>
+        <li><span class="en">drive → __________</span></li>
+        <li><span class="en">see → __________</span></li>
+        <li><span class="en">eat → __________</span></li>
+        <li><span class="en">bring → __________</span></li>
+        <li><span class="en">feel → __________</span></li>
+        <li><span class="en">walk → __________</span></li>
+        <li><span class="en">take → __________</span></li>
+      </ol>
+      <details>
+        <summary>查看解答</summary>
+        <div class="ans">
+          1. <span class="en">woke</span>　2. <span class="en">drove</span>　3. <span class="en">saw</span>　4. <span
+            class="en">ate</span><br>
+          5. <span class="en">brought</span>　6. <span class="en">felt</span>　7. <span class="en">walked</span>（規則：加
+          -ed）　8. <span class="en">took</span>
+        </div>
+      </details>
+    </div>
+
+    <div class="ex-block">
+      <h3><span class="q">練習 D</span>翻譯練習</h3>
+      <p style="margin-bottom:8px;color:var(--ink-soft);font-size:.93rem;">試著翻譯下列句子，再對照參考答案。</p>
+      <ol>
+        <li>〔英譯中〕<span class="en">There's nothing like the feeling of being home.</span></li>
+        <li>〔英譯中〕<span class="en">It felt like I was in a movie.</span></li>
+        <li>〔中譯英〕我們以前每天都會看到那些老房子。</li>
+        <li>〔中譯英〕抵達農場勾起了好多懷舊的情感。</li>
+      </ol>
+      <details>
+        <summary>查看解答</summary>
+        <div class="ans">
+          1. 沒有什麼比得上回到家的那種感覺。<br>
+          2. 感覺就像我置身在一部電影裡。<br>
+          3. <span class="en">We used to see those old houses every day.</span><br>
+          4. <span class="en">Arriving at the farm brought back so many nostalgic feelings.</span>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ PART 7 — SPEAKING ============ -->
+  <section>
+    <div class="sec-head">
+      <span class="sec-num">7</span>
+      <span class="sec-title">口說與寫作練習
+        <span class="en">Speaking &amp; Writing — answer these aloud</span>
+      </span>
+    </div>
+    <p style="margin-bottom:18px;color:var(--ink-soft);">這些是 podcast 主持人問聽眾的問題。試著用下面的「開頭句」開口說出 3～4
+      句完整的英文，這是把單字片語變成「自己的話」最有效的練習。</p>
+
+    <div class="qa">
+      <div class="q-en">What place brings back nostalgic feelings for you?</div>
+      <div class="q-cn">什麼地方會勾起你的懷舊情感？</div>
+      <div class="starter"><b>For me, it's…</b> ＿＿＿ . <span style="color:var(--ink-faint)">（對我來說，是＿＿＿。）</span></div>
+      <div class="starter"><b>I used to…</b> ＿＿＿ when I was little. <span
+          style="color:var(--ink-faint)">（我小時候常＿＿＿。）</span></div>
+    </div>
+
+    <div class="qa">
+      <div class="q-en">Can you think of one heartwarming story from your childhood?</div>
+      <div class="q-cn">你能想起一個童年裡溫馨的小故事嗎？</div>
+      <div class="starter"><b>One memory I feel grateful for is…</b> ＿＿＿ .</div>
+      <div class="starter"><b>It brought back…</b> when I ＿＿＿ . <span
+          style="color:var(--ink-faint)">（當我＿＿＿時，它勾起了……）</span></div>
+    </div>
+
+    <div class="qa">
+      <div class="q-en">Is there a big city where you need to be careful with your things?</div>
+      <div class="q-cn">有沒有哪個大城市，你需要小心看好自己的東西？</div>
+      <div class="starter"><b>Yes, in…</b> you need to be aware of ＿＿＿ .</div>
+    </div>
+
+    <div class="qa">
+      <div class="q-en">Have you ever tried a crumble cookie? If not, would you like to?</div>
+      <div class="q-cn">你吃過 Crumbl 餅乾嗎？如果沒有，你會想試試看嗎？</div>
+      <div class="starter"><b>I've never tried…</b> , but I'd love to because ＿＿＿ .</div>
+      <div class="starter"><b>I've been obsessed with…</b> ＿＿＿ . <span style="color:var(--ink-faint)">（我一直很迷＿＿＿。）</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">
+    講義基於「Slow English Podcast — My Trip to New York City (B1)」製作 ·<br>
+    每天讀一段、開口說一題，進步會比想像中快。Have a wonderful day!
+  </div>
+
+</div>
