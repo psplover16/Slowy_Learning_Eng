@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #F4ECDC;
+    color: #322B22;
+  }
+
+  .font-fraunces {
+    font-family: 'Fraunces', serif;
+  }
+
+  .font-newsreader {
+    font-family: 'Newsreader', serif;
+  }
+}
+
+/* iOS safe area utilities */
+.pt-safe-top {
+  padding-top: max(env(safe-area-inset-top), 0px);
+}
+

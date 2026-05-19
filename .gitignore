@@ -1,2 +1,10 @@
 .spectra/
 openspec/.vector-search.db*
+node_modules/
+dist/
+build/
+coverage/
+test-results/
+playwright-report/
+*.local
+.DS_Store
