@@ -1,417 +1,402 @@
-# Proposal（定稿）— 文法子路由新增「閱讀位置書籤」功能
+# Proposal — Slowy Learning Eng：行動優先英語學習 PWA
 
-> 此檔由 `/spectra-discuss` 產出。輸入：`_private/discuss.txt`（共 5 項需求）。
-> **狀態：定稿** — 7 條假設全部收斂，使用者回覆已整合至下方「結論」區塊。可直接以 `/spectra-propose` 立案。
-
----
-
-## 原始輸入（`_private/discuss.txt`）
-
-1. 在容器的標題左側，設立書籤的 icon，大小、padding、觸發範圍與 checkbox 一致的書籤功能按鈕。
-2. 一個 N5 文法只能有一個實心書籤，其餘都是空心書籤。
-3. 預設全部都是空心書籤，空心書籤表示沒看過，實心書籤表示看過。
-4. 因為未來可能會做 N4 文法，所以要先設立好，N5 一個書籤、N4 一個書籤，以此類推，此部分要有紀錄功能，也就是關掉網頁或 APP 之後，下次打開要記得上次是點選哪個書籤開啟。
-5. 此部分要用 IndexedDB 做。
+> 此檔由 `/spectra-discuss` 產出。輸入：`_private/discuss.txt`。
+> **狀態：定稿** — Q1–Q5 已全部確認，可執行 `/spectra-apply`。
 
 ---
 
-## Codebase 偵察結果（assumptions mode 依據）
+## 決議紀錄（Q&A 彙整）
 
-已讀過的相關來源檔（前幾輪對話 + 本輪）：
-
-| 檔案 | 用途 |
-|---|---|
-| `src/modules/n5Grammar/views/N5GrammarView.vue` | N5 文法主頁，分「未完成 / 已完成」兩區渲染 |
-| `src/modules/n5Grammar/components/N5GrammarSectionCard.vue` | 每個容器卡片，標題列有 checkbox + 可展開按鈕 |
-| `src/modules/n5Grammar/storage/n5GrammarCompletionStorage.ts` | 現有「已學完」狀態的 localStorage 封裝 |
-| `src/shared/utils/storageGuard.ts` | localStorage 通用工具（`readJsonStorage` / `writeJsonStorage`） |
-| `src/shared/config/storageKeys.ts` | storage key 集中管理 |
-| `src/modules/vocabulary/storage/vocabularyMarksDb.ts` | 專案唯一 IndexedDB 實例（單字練習用） |
-| `src/modules/vocabulary/storage/vocabularyMarksMigration.ts` | localStorage → IndexedDB 遷移範例 |
-| `package.json` / `vite.config.ts` | 確認已裝 `unplugin-icons` + `@iconify-json/fa6-solid` |
-
-**Spectra 狀態**：`spectra list` 無進行中變更。
-**LANGUAGE.md**：不存在，跳過語彙載入。
-**介面深度檢查**：觸發（新增儲存抽象 + 新 IPC 形狀）。
-
----
-
-## 7 條假設
-
-### 假設 1：書籤的語意是「閱讀位置標記」，不是另一種「已讀」
-
-**做法**：書籤表示「目前/上次讀到這個段落」，全等級僅一個實心；checkbox 維持原意「永久標記為已學完」。兩者職責正交、可獨立切換。
-
-**證據**：
-- `discuss.txt` 第 2 行「只能有一個實心書籤」與「已讀」(可多筆) 的語意衝突
-- 第 4 行「下次打開要記得上次是點選哪個書籤開啟」明確指向 reading position
-
-**如果錯**：若實際上是「另一種已讀標記」，會跟現有 checkbox 重複，且「只能一個」的限制不合理 — 需要重新設計成多選或併入 checkbox。
-
-**用語建議**：`discuss.txt` 用「沒看過 / 看過」描述書籤狀態，但這跟「只能一個實心」相矛盾。建議在 propose 中改用「**未標記 / 上次讀到**」這組精確用語，避免和 checkbox 的「未讀 / 已讀」混淆。
-
-**❓ 需要使用者確認**：是不是這個意思？
-
-**我的傾向**：✅ 是「閱讀位置標記」(reading position bookmark)，與 checkbox 職責正交。
-
----
-
-### 假設 2：採用 IndexedDB（尊重指示，但記錄為有意識選擇）
-
-**做法**：照 `discuss.txt` 第 5 行指示用 IndexedDB，仿 `vocabularyMarksDb.ts` 寫一個 thin wrapper。
-
-**證據**：
-- 使用者明確指定（第 5 行）
-- 專案已有 IndexedDB 先例（`src/modules/vocabulary/storage/vocabularyMarksDb.ts`）
-
-**技術權衡備註**：本資料規模（最多 5 筆 × ~50 bytes ≈ < 1 KB）落在 localStorage 的舒適區。前幾輪對話的技術比較：
-
-| 維度 | localStorage | IndexedDB | 本案需要 |
-|---|---|---|---|
-| 容量 | ~5 MB | 數百 MB+ | < 1 KB ❌ 用不到 |
-| API | 同步 | 非同步（Promise） | 同步較簡單 ✅ |
-| 查詢 | 只有 key | 索引、cursor | 無查詢需求 ❌ 用不到 |
-| 結構 | 字串 | 物件、Blob 等 | 單一物件 ❌ 用不到 |
-| 一致性 | 同模組已用 | — | 已用 localStorage ✅ |
-
-**如果錯**：如果是被指示「應該用」而不是「想要用」IndexedDB，那以技術考量 localStorage 才合適 — 開發成本更低、API 同步寫起來更簡單、跟模組現有 storage 一致。
-
-**❓ 需要使用者確認**：
-- (A) 保留 IndexedDB（建議：在 `design.md` 註明「有意識的學習實踐 / 統一儲存層」選擇）
-- (B) 改用 localStorage（建議理由：YAGNI、與現有 completion storage 一致）
-
-**我的傾向**：技術上 ⭐ localStorage 更合適；若使用者堅持 IndexedDB 我會尊重並仿 vocabulary 模式實作。
-
----
-
-### 假設 3：書籤位置在 checkbox 與標題之間，視覺/觸發區與 checkbox 一致
-
-**做法**：HTML 結構新增書籤按鈕，順序變成 `[checkbox] [bookmark] [title]`；尺寸、padding、hit-area 比照現有 `n5-grammar-section-completion-hit-area`。
-
-**證據**：
-- `discuss.txt` 第 1 行「容器標題**左側**」+「大小、padding、觸發範圍與 checkbox 一致」
-- 現有 `N5GrammarSectionCard.vue:62-89` 結構是 `<label>[checkbox]</label><button>[title]</button>`
-- 書籤插在中間最自然，仍位於 title 的左側
-
-**如果錯**：若「左側」指的是整個 header 列的最左邊（也就是要在 checkbox 之前），順序變成 `[bookmark] [checkbox] [title]` — 也可以，但會把書籤推到視覺最起點，反而搶過已讀勾選的優先級。
-
-**❓ 需要使用者確認**：
-- (A) `[checkbox] [bookmark] [title]` — 書籤在 title 左、checkbox 右（我的傾向）
-- (B) `[bookmark] [checkbox] [title]` — 書籤在最左
-
-**我的傾向**：⭐ (A)，視覺優先級「已讀 > 書籤 > 內容」較合理。
-
----
-
-### 假設 4：跨等級（N5/N4/...）用單一 IndexedDB store + level 當 keyPath
-
-**做法**：
-
-```
-DB: grammarBookmarks  (version: 1)
-└─ Store: bookmarks (keyPath: 'level')
-   ├─ { level: 'n5', sectionId: 'particles-wa',    updatedAt: '2026-05-11T...' }
-   ├─ { level: 'n4', sectionId: '...',             updatedAt: '...' }
-   └─ ...
-```
-
-- 每個等級最多一筆
-- 切換書籤 = `put({ level, sectionId, updatedAt })`
-- 取消書籤 = `delete(level)`
-- 「同等級只能一個實心」由 keyPath 自然強制（同 level 寫入會覆蓋）
-
-**證據**：`discuss.txt` 第 4 行明確要求 N5/N4 各一個書籤、且要「先設立好」結構。
-
-**如果錯**：
-- 若每個等級獨立一個 store（n5Bookmarks、n4Bookmarks）→ 冗餘、多次寫 migration、新增等級要動 DB version
-- 若用 `${level}-${sectionId}` 當複合 key → 「只能一個」需在 app 層額外處理，較囉嗦
-
-**❓ 預設採納**（除非使用者反對）
-
-**我的傾向**：✅ 採用此設計。
-
----
-
-### 假設 5：互動細節
-
-**做法**：
-1. 點空心書籤 → 變實心；同等級的舊書籤自動變回空心（資料層覆蓋即可）
-2. 點實心書籤 → 變回空心（從 store 刪除該等級記錄）
-3. 被書籤的 section 若被勾為「已學完」→ 自動清掉書籤（reading position 對已完成段落無意義）
-4. 已學完區（finished zone）裡的 section 不顯示書籤按鈕
-
-**證據**：
-- 前幾輪討論中 #3 約定（被勾已讀清書籤）
-- 單一書籤原則來自 `discuss.txt` 第 2 行
-- 隱藏 finished 區的書籤是減少視覺雜訊
-
-**如果錯**：
-- 若希望已學完的 section 也能標書籤（複習用）→ 拿掉自動清除邏輯，書籤可獨立於 completion 存在
-- 若希望點實心無法取消（必須切到另一個才會消失）→ 移除 #2
-
-**❓ 需要使用者確認**：
-- 行為 #1（單一書籤、自動切換）：✅ 預設採納
-- 行為 #2（點實心可取消）：保留 / 移除？
-- 行為 #3（勾已讀清書籤）：保留 / 移除？
-- 行為 #4（已完成區隱藏書籤）：保留 / 移除？
-
-**我的傾向**：⭐ 全部保留（語意最一致、UI 最乾淨）。
-
----
-
-### 假設 6：實作範圍只做 N5，但 schema 預留 N4+
-
-**做法**：
-- 本次只在 `N5GrammarView.vue` / `N5GrammarSectionCard.vue` 加 UI
-- IndexedDB schema 與 wrapper 直接設計成可接 N4/N3/N2/N1
-- 不寫 N4 的 UI（N4 文法資料目前不存在）
-- 未來 N4 模組做時，import 同一個 wrapper 傳 `level: 'n4'`
-
-**證據**：
-- `discuss.txt` 第 4 行「要先設立好」=結構先做好，不是 UI 都做出來
-- YAGNI 原則 — 沒做 N4 UI 之前先寫 N4 邏輯是浪費
-
-**❓ 預設採納**（除非使用者反對）
-
-**我的傾向**：✅ 採用此設計。
-
----
-
-### 假設 7：Seam 設計（介面深度檢查回答）
-
-| 深度檢查問題 | 回答 |
-|---|---|
-| **Seam 位置** | `src/modules/grammar/storage/grammarBookmarkStorage.ts`（共用層，非 N5 專屬） |
-| **Adapter 數量** | 1 個（thin wrapper over native IndexedDB，仿 `vocabularyMarksDb.ts`） |
-| **深度** | 封裝 DB open / version migration / 失敗降級 (`console.warn` 一次) / 型別保護 — 不只是轉發 |
-| **刪除測試** | 刪掉 → 全等級書籤功能無法持久化，重整即遺失 — **有實質意義，非 pass-through** ✅ |
-
-**對外 API（草稿）**：
-
-```ts
-// src/modules/grammar/storage/grammarBookmarkStorage.ts
-export type JlptLevel = 'n5' | 'n4' | 'n3' | 'n2' | 'n1';
-
-export interface GrammarBookmarkRecord {
-  level: JlptLevel;
-  sectionId: string;
-  updatedAt: string;  // ISO timestamp
-}
-
-export async function readGrammarBookmark(level: JlptLevel): Promise<GrammarBookmarkRecord | null>;
-export async function writeGrammarBookmark(level: JlptLevel, sectionId: string): Promise<boolean>;
-export async function clearGrammarBookmark(level: JlptLevel): Promise<void>;
-```
-
-**注意**：放在 `src/modules/grammar/`（新增共用層）而不是 `src/modules/n5Grammar/`，是為了配合假設 #4 的跨等級設計。
-
-**❓ 需要使用者確認**：
-- (A) `src/modules/grammar/storage/`（新增共用層；我的傾向）
-- (B) `src/modules/n5Grammar/storage/`（暫放 N5 內，未來再搬）— schema 已經跨等級會語意彆扭
-
-**我的傾向**：⭐ (A) 共用層。
-
----
-
-## Icon 套件確認（前期討論結論）
-
-- 已裝 `unplugin-icons` + `@iconify-json/fa6-solid`，按需匯入、不會打整包進 bundle。
-- 實心書籤：`import IconBookmarkSolid from '~icons/fa6-solid/bookmark';`
-- 空心書籤需另裝：`npm install -D @iconify-json/fa6-regular`，然後 `import IconBookmarkOutline from '~icons/fa6-regular/bookmark';`
-- Vite 設定（`vite.config.ts:93`）已註冊 `Icons({ compiler: 'vue3' })`，新增 icon 不用改設定。
-
----
-
-## 待使用者回答的問題（彙整 — 對應全部 7 條假設）
-
-> 上一版只列了 5 題（漏掉預設採納的假設 4、6，且把假設 5 的 4 個子行為壓成 1 題）。本表展開為完整 7 條對應，並把假設 5 拆出子問題。
-
-### 主表
-
-| # | 對應假設 | 問題 | 選項 | 我的傾向 |
-|---|---|---|---|---|
-| Q1 | 假設 1 | 書籤 = 閱讀位置？（非「已讀」） | (A) 是 / (B) 否（其實是另一種已讀） | ⭐ (A) |
-| Q2 | 假設 2 | 儲存技術 | (A) IndexedDB（照原始指示）/ (B) localStorage（技術建議） | ⭐ (B) — 但若你想實踐 IndexedDB 我尊重 |
-| Q3 | 假設 3 | 書籤位置 | (A) `[chk][bm][title]` / (B) `[bm][chk][title]` | ⭐ (A) |
-| Q4 | 假設 4 | 跨等級 schema | (A) 單一 store + level keyPath（預設）/ (B) 每等級獨立 store | ⭐ (A) — **預設採納**，除非反對 |
-| Q5 | 假設 5 | 互動細節 4 個子行為 | 見下方子表 | 見下方子表 |
-| Q6 | 假設 6 | 實作範圍 | (A) 只做 N5、schema 預留 N4+（預設）/ (B) 連 N4 placeholder 一起做 | ⭐ (A) — **預設採納**，除非反對；(B) 需要 N4 文法資料（目前不存在） |
-| Q7 | 假設 7 | Seam 位置 | (A) `modules/grammar/` 共用層 / (B) `modules/n5Grammar/` 內 | ⭐ (A) |
-
-### Q5 子表（互動細節）
-
-| 子 # | 行為 | 選項 | 我的傾向 |
-|---|---|---|---|
-| Q5-1 | 切換書籤：點空心 → 變實心、同等級舊書籤自動變回空心 | (A) 採用（單一書籤原則）/ (B) 允許多個實心 | ⭐ (A) — 由 IndexedDB keyPath 自然強制；(B) 違反 `discuss.txt` 第 2 行 |
-| Q5-2 | 點實心書籤是否可取消（刪除該等級記錄） | (A) 可取消 / (B) 不可取消，必須點另一個才會切走 | ⭐ (A) — 對稱、可預測 |
-| Q5-3 | 被標書籤的 section 被勾為「已學完」時 | (A) 自動清書籤 / (B) 書籤保留（與 completion 獨立） | ⭐ (A) — reading position 對已完成段落無意義 |
-| Q5-4 | 已完成（finished）區裡的 section 是否顯示書籤按鈕 | (A) 不顯示 / (B) 顯示，方便複習標記 | ⭐ (A) — 減少視覺雜訊；與 Q5-3 一致 |
-
-### 摘要
-
-- **必須回答（決定走向）**：Q1、Q2、Q3、Q7 — 4 條
-- **預設採納，可反對**：Q4、Q6 — 2 條
-- **互動細節**：Q5-1（基本不會反對）、Q5-2、Q5-3、Q5-4 — 4 條子問題
-
-若你只想最快通過，回 **Q2 與 Q5-2/Q5-3/Q5-4 是否同意我的傾向** 即可，其餘照⭐走。
-
----
-
----
-
-## 結論（已定稿）
-
-### 決議總表
-
-| Q | 決議 | 備註 |
+| Q | 問題 | 決議 |
 |---|---|---|
-| Q1 | 書籤語意 = **閱讀位置標記**（reading position bookmark） | 與 checkbox「已學完」職責正交 |
-| Q2 | **改用 localStorage**（不採用 `discuss.txt` 第 5 行的 IndexedDB） | 覆蓋原始指示；理由：< 1 KB 資料、無查詢需求、與現有 `n5GrammarCompletionStorage` 一致 |
-| Q3 | **`[bookmark] [title] [checkbox]`**：書籤新增於左側、title 維持置中、checkbox 維持原位（右側） | 現有 CSS 用絕對定位：`.completion-hit-area` 已 `position: absolute; right: -0.375rem`、`.toggle` 滿寬置中。**新增書籤只需鏡像 checkbox 的 pattern 放到 left 側**，不動既有元素 |
-| Q4 | 跨等級採單一 storage + `byLevel` map（因 Q2 改 localStorage 連帶調整） | 單 key、整包 JSON 讀寫 |
-| Q5-1 | 單一書籤、自動切換（覆蓋同等級舊書籤） | |
-| Q5-2 | 點實心可取消（從 storage 刪除該等級記錄） | |
-| Q5-3 | 被標書籤的 section 被勾為已學完 → 自動清書籤 | |
-| Q5-4 | 已完成（finished）區裡的 section 不顯示書籤按鈕 | |
-| Q6 | 只做 N5 UI；storage schema 預留 N4/N3/N2/N1 | YAGNI |
-| Q7 | Seam 位置 = `src/modules/grammar/storage/`（新增共用層） | 不放 N5 內 |
+| Q1 | 舊 propose.md 是否保留 | 覆蓋無所謂，不保留 |
+| Q2 | 技術棧 | **Vue3 + Tailwind**；`ch1-new york travel.html` 僅作設計/排版參考，不是實作技術棧 |
+| Q3 | 文法頁範圍 | **B**：文法頁只放通用文法（英語詞性介紹 + like 的用法）；其餘詞彙/句型說明放在各**內容頁下方** |
+| Q4 | MP3 來源 | Ch1 目前**無音檔**；播放器元件須條件渲染（有 mp3Src prop 才顯示），未來有音檔時傳入即可 |
+| Q5 | 底線單字互動 | 平滑捲動至下方說明 + 右下角懸浮「回到單字」按鈕；按鈕記錄**被點選的那個底線單字**的位置（非說明區塊），避免多個底線字對應同一說明時回錯位置 |
 
-### 最終設計（已套用 Q2/Q4 改動）
+---
 
-#### Storage 層
+## 一、專案定位
 
-**新增 key**：
+以 `_private/ch1-new york travel.html` 的**視覺設計語言**為參考，使用 **Vue3 + Tailwind CSS** 打造一個行動優先、可離線使用的英語學習 PWA，供使用者閱讀文章、學習文法、追蹤學習進度。
 
-```ts
-// src/shared/config/storageKeys.ts
-export const grammarBookmarkStorageKey = 'spectra:grammar:bookmark';
+---
+
+## 二、整體架構（3 個路由）
+
+```
+┌────────────────────────────────────┐
+│          導覽列（頂部固定）          │
+│  [首頁]          [文法]            │
+└────────────────────────────────────┘
+         │                 │
+    ┌────┴────┐       ┌────┴────┐
+    │  首頁   │       │  文法   │
+    │  列表   │       │ 通用文法 │
+    └────┬────┘       └─────────┘
+         │ 點選列表
+    ┌────┴────┐
+    │  內容頁  │  （多頁，Ch1、Ch2…）
+    │  文章   │
+    └─────────┘
 ```
 
-**新增 wrapper**：
+**技術選型**：
 
-```ts
-// src/modules/grammar/storage/grammarBookmarkStorage.ts
-import { grammarBookmarkStorageKey } from '@/shared/config/storageKeys';
-import { readJsonStorage, removeStorage, writeJsonStorage } from '@/shared/utils/storageGuard';
+| 項目 | 選型 |
+|---|---|
+| 框架 | Vue 3（Composition API + `<script setup>`）|
+| 樣式 | Tailwind CSS + 自訂 CSS variables（沿用 ch1 色系）|
+| 路由 | Vue Router 4（History 或 Hash mode）|
+| 建置 | Vite |
+| PWA | vite-plugin-pwa（含 Service Worker）|
+| 狀態 / 持久化 | localStorage（completion + bookmark）|
 
-export type JlptLevel = 'n5' | 'n4' | 'n3' | 'n2' | 'n1';
+---
 
-interface BookmarkEntry {
-  sectionId: string;
-  updatedAt: string;  // ISO timestamp
-}
+## 三、路由詳細規格
 
-interface GrammarBookmarkSnapshot {
-  version: 1;
-  byLevel: Partial<Record<JlptLevel, BookmarkEntry>>;
-}
+### 3.1 首頁（`/`）
 
-export function readGrammarBookmark(level: JlptLevel): BookmarkEntry | null;
-export function writeGrammarBookmark(level: JlptLevel, sectionId: string): boolean;
-export function clearGrammarBookmark(level: JlptLevel): void;
+| 元素 | 規格 |
+|---|---|
+| 頂部導覽列 | 固定頂部；兩個按鈕：首頁、文法；高亮當前路由 |
+| 內容列表 | 每列 = 一篇文章（標題 + 副標題）|
+| 完成標記 icon | 每列末端；預設空心；點選 → 填實心並寫入 localStorage |
+| 下次開啟 | 恢復上次的完成狀態 |
+
+**Storage key**：`slowy:completion` → `{ "ch1": true, "ch2": false, … }`
+
+---
+
+### 3.2 文法頁（`/grammar`）
+
+範圍：**通用文法** —— 英語常見詞性介紹 + like 的全用法。  
+內容頁相關的詞彙/句型說明**不放此處**，留在各內容頁下方。
+
+每個文法容器的規格：
+
+- **詞性 / 類別** badge
+- **用途說明**（中文）
+- **用法公式**（Newsreader 字型，底色 teal）
+- **例句**（英文 + 中文翻譯，斜體）
+- **常見用法表格**（如有多種用法）
+- **注意事項 / 易混淆**（如有）
+
+**初始內容**：
+
+| # | 主題 |
+|---|---|
+| G01 | **英語常見詞性介紹** — n. / v. / adj. / adv. / prep. / conj. / pron. 各自的用途與識別方式 |
+| G02 | **like 的全用法** — 動詞（喜歡）/ 介系詞（像）/ 連接詞（feel like + 子句）|
+
+---
+
+### 3.3 內容頁（`/ch1`、`/ch2`…）
+
+#### MP3 播放器（Sticky 頂部）
+
+```
+┌─────────────────────────────────────────────┐
+│ ◀━━━━━━━━━━━━━━━━━━━━━━━━▶  00:00 / 00:00  │ sticky top
+│ ⏮5s  ⏸/▶  ⏭10s  🔊──●──  🔁 Loop        │
+└─────────────────────────────────────────────┘
 ```
 
-**儲存樣態示例**：
+| 功能 | 規格 |
+|---|---|
+| 播放 / 暫停 | 切換圖示 |
+| 前進 5 秒 | 按鈕 |
+| 前進 10 秒 | 按鈕 |
+| 音量調整 | slider |
+| 拖拉時間軸 | range input |
+| 重複播放 | loop toggle，預設 ON |
+| 離線播放 | Service Worker 快取 MP3 |
+| **無 MP3 時** | 整個播放器元件不渲染（prop `mp3Src` 為空時隱藏）|
+
+> Ch1 目前無音檔，播放器預設隱藏；未來提供音檔路徑即可啟用。
+
+---
+
+#### 段落書籤（閱讀位置記憶）
+
+- 每個段落標題可點選
+- 點選 → 寫入 localStorage 作為「上次讀到」書籤
+- 同一路由只能有一個書籤
+- 下次進入同一路由 → 自動平滑捲動到書籤位置
+
+**Storage key**：`slowy:bookmark` → `{ "ch1": "scene-04", … }`
+
+---
+
+#### 底線單字互動（Q5 規格）
+
+```
+使用者點選文章中底線單字
+        │
+        ▼
+平滑捲動至該單字對應的「詳細說明區塊」
+        │
+        ▼
+右下角出現懸浮「↑ 回到單字」按鈕
+（按鈕內部記錄：被點選單字的 DOM id 或 scrollY 位置）
+        │
+        ▼
+點擊按鈕 → 平滑捲動回到「當初點選的那個底線單字」
+（非說明區塊，確保多個底線字 → 同一說明時，回到正確位置）
+        │
+        ▼
+懸浮按鈕消失
+```
+
+**注意**：多個底線單字可能對應同一個說明區塊，因此懸浮按鈕必須記錄**觸發來源的單字位置**，而非說明區塊的位置。
+
+---
+
+#### 單字標記格式（行動裝置優先）
+
+英語、KK音標、中文**各佔一行**，不並排：
+
+```
+英語單字 / 片語
+[KK ˈfəʊnɛtɪks]   ← 字體較小
+中文翻譯或註釋
+```
+
+- 文章行內有額外說明的單字/片語：加**底線**
+- 底線單字的詳細說明放在**本段落下方的詞彙/句型補充區**
+
+---
+
+#### 詞彙補充區（段落下方）
+
+| 類型 | 呈現元件 |
+|---|---|
+| 簡單單字 | word-tag（英語 / KK / 詞性 / 中文）|
+| 複雜片語 / 慣用語 | phrase card（左 ochre 色條，含用法 + 例句）|
+| 句型解析 | sentence breakdown card（含中譯 + 逐段拆解）|
+
+---
+
+## 四、Ch1 內容清單（全部必須收錄）
+
+> 使用者確認：discuss.txt 中所有英語用法皆為不熟悉項目，**一個都不能省略**。
+
+### 4.1 詞彙補充（KK 音標 + 詞性 + 意思）
+
+| 英語 | 補充項目 |
+|---|---|
+| from the moment | 片語說明 + 用法 |
+| chill | adj./v. KK + 意思 |
+| intense | adj. KK + 意思 |
+| since the night before | 片語 |
+| deluxe | adj. KK + 意思 |
+| tater tots | n. KK + 意思 |
+| burrito | n. KK + 意思 |
+| plenty of time | 片語 |
+| layover | n. KK + 意思 |
+| right away | 片語 |
+| unnecessarily | adv. KK + 意思 |
+| cone | n. KK + 意思 |
+| graduation | n. KK + 意思 |
+| huge | adj. KK + 意思 |
+| went all out | 片語 |
+| candy table | n. 意思 |
+| nachos | n. KK + 意思 |
+| Jenga | n. 意思 |
+| tic tac toe | n. 意思 |
+| mushroom | n. KK + 意思 |
+| hydro | n. 意思（語境：水力發電）|
+| got to see | 片語（get to + V = 有機會做）|
+| landscapes | n. KK + 意思 |
+| fields and fields of | 片語 |
+| vegetation | n. KK + 意思 |
+| windmills | n. KK + 意思 |
+| screen door | n. 意思 |
+| rhubarb | n. KK + 意思 |
+| a little while | 片語 |
+| renew | v. KK + 意思 |
+| license | n. KK + 意思 |
+| all the way | 片語 |
+| weird | adj. KK + 意思 |
+| definitely | adv. KK + 意思 |
+| mowed | v. KK + 意思（mow 過去式）|
+| lawn | n. KK + 意思 |
+| underneath | prep. KK + 意思 |
+| hogs | n. KK + 意思（豬）|
+| head back | 片語 |
+| winding around | 片語 |
+| even more impressive | 比較級強調 |
+| hostel | n. KK + 意思 |
+| filmed | v. 意思 |
+| passed out | 片語（昏倒 / 沉沉睡去）|
+| construction sites | n. 意思 |
+| sprinkling | v./n. KK + 意思（毛毛雨）|
+| kebab | n. KK + 意思 |
+| decent | adj. KK + 意思 |
+| scammed / scamming | v. KK + 意思 |
+| tourist | n. KK + 意思 |
+| obsessed | adj. KK + 意思 |
+| specifically | adv. KK + 意思 |
+| doughy | adj. KK + 意思 |
+| biased | adj. KK + 意思 |
+| opinion | n. KK + 意思 |
+| smoothies | n. KK + 意思 |
+| ginger | n. KK + 意思 |
+| shots（ginger shots）| n. 意思（一口量飲品）|
+| salted | adj. 意思 |
+| pretzel | n. KK + 意思 |
+| avocado | n. KK + 意思 |
+| souvenirs | n. KK + 意思 |
+| mug | n. KK + 意思（馬克杯）|
+| leftover | n./adj. 意思（名詞：剩菜；形容詞：剩餘的）|
+| to board | v. 意思（登機 / 登船 / 上車）|
+
+### 4.2 句型 / 用法解析（放在各段落下方）
+
+| 原句 / 主題 | 解析項目 |
+|---|---|
+| `that's where my aunt picked us up` | that's where 強調句型；pick up 結構 |
+| `imagine walking somewhere` | imagine + V-ing；somewhere 在此的意思 |
+| `for the next few days` | for 表示「在接下來的…時間」 |
+| `hung out with them` | hang out 完整用法（搭配 with / at / in）|
+| `used to + V` | 過去曾經…（現已不）用法 |
+| `it brought back so many nostalgic feelings` | bring back + 抽象名詞；nostalgic / nostalgia |
+| `There's nothing like that nostalgic feeling of being in...` | 三層拆解：There's nothing like / feeling of / being in |
+| `What brings those feelings for you?` | those 作指示代名詞；brings 在情感語境的意思 |
+| `cut through the middle` / `going through the tree` | cut through / go through 穿越 / 貫穿 |
+| `instead of chopping down` | instead of + V-ing；chopping down 意思 |
+| `cut around so the cable could go through` | so 表示「這樣一來」；句子拆解 |
+| `to have had such a beautiful childhood` | 不定詞完成式 to have had：使用時機、如何用、舉例 |
+| `grateful for having as a kid` | 關係代名詞省略規則；grateful for + V-ing；as a kid |
+| `for + 時間長度` | 列舉常見用法：for a while / for an hour / for days… |
+| `all torn apart everywhere` | all 加強語氣；torn apart；副詞片語 everywhere |
+| `The first thing we did was head to bed` | 關係代名詞受詞省略 + be 動詞後接原形 |
+| `I don't know if I was scammed` | if 作「是否 / whether」用法；與假設用法的差異 |
+| `getting you to pay attention... so that behind you they can take your wallets` | 分詞片語介紹（種類 / 意義 / 現在 vs 過去分詞）；使役動詞 make / have / get / let；so that 表目的；語序強調說明 |
+| `be aware of` vs `be aware` | 有具體對象時接 of；單獨使用表保持警覺 |
+| `ever`（疑問句 / 最高級後 / 否定句）| 三種語境的強調用法 |
+| `I have been obsessed` | 現在完成式：have/has + 過去分詞；語意說明 |
+| `I've been dreaming of this moment for so long` | 現在完成進行式：have been + V-ing；與完成式差異 |
+| `get` 各種用法 | 取得 / 變成 / 使某人 / 到達 / 搭（交通）逐一列舉 |
+| `it felt like I was in a movie eating a salted pretzel` | feel like + 子句；eating 作現在分詞修飾 I |
+| `the best pizza that I have ever had` | 現在完成式 + ever 強調 |
+| `while boarding` | while + V-ing 用法 |
+| `prefer to + V` | 比較喜歡；與 prefer V-ing 的差異 |
+| `put on` | 穿上 / 放到身上 / 開啟（電器 / 節目）|
+| `just as beautiful as the landing` | just as + 形容詞 + as 結構 |
+
+---
+
+## 五、技術方案
+
+### 5.1 專案結構（Vue3 + Vite + Tailwind）
+
+```
+Slowy_Learning_Eng/
+├── public/
+│   ├── manifest.json         ← PWA manifest
+│   └── audio/                ← 未來 MP3 音檔放置處
+├── src/
+│   ├── main.ts
+│   ├── App.vue               ← 殼層（NavBar + <RouterView>）
+│   ├── router/
+│   │   └── index.ts          ← Vue Router（/ , /grammar, /ch1…）
+│   ├── views/
+│   │   ├── HomeView.vue      ← 首頁列表
+│   │   ├── GrammarView.vue   ← 文法頁（詞性 + like）
+│   │   └── Ch1View.vue       ← Ch1 內容頁
+│   ├── components/
+│   │   ├── NavBar.vue        ← 頂部固定導覽
+│   │   ├── Mp3Player.vue     ← 播放器（mp3Src 為空則不渲染）
+│   │   ├── WordTag.vue       ← 單字標記（KK / 詞性 / 中文）
+│   │   ├── PhraseCard.vue    ← 片語卡片
+│   │   ├── SentenceBreakdown.vue ← 句型拆解卡片
+│   │   └── BackToWordFab.vue ← 右下角懸浮「回到單字」按鈕
+│   └── composables/
+│       ├── useCompletion.ts  ← 完成標記讀寫
+│       └── useBookmark.ts    ← 段落書籤讀寫
+├── tailwind.config.ts
+├── vite.config.ts            ← 含 vite-plugin-pwa
+└── package.json
+```
+
+### 5.2 Storage Schema
 
 ```json
-{
-  "version": 1,
-  "byLevel": {
-    "n5": { "sectionId": "particles-wa", "updatedAt": "2026-05-11T..." }
-  }
-}
+// localStorage key: "slowy:completion"
+{ "ch1": true, "ch2": false }
+
+// localStorage key: "slowy:bookmark"
+{ "ch1": "scene-04", "ch2": null }
 ```
 
-#### UI 層改動（`N5GrammarSectionCard.vue`）
+### 5.3 PWA / Service Worker（vite-plugin-pwa）
 
-**現況視覺**（CSS 絕對定位實作，非 source order）：
-
-```
-┌──────────────────────────────────────────────────────────┐
-│                     title (置中)                  [chk]  │
-└──────────────────────────────────────────────────────────┘
-```
-
-- `.n5-grammar-section-heading` 是 `position: relative`（定位脈絡）
-- `.n5-grammar-section-completion-hit-area` 是 `position: absolute; right: -0.375rem`（checkbox 在右側）
-- `.n5-grammar-section-toggle` 是 `w-full justify-center`（title 滿寬置中）
-
-**目標視覺**：
-
-```
-┌──────────────────────────────────────────────────────────┐
-│  [bm]               title (置中)                  [chk]  │
-└──────────────────────────────────────────────────────────┘
-```
-
-**改動內容**（**checkbox 與 title 完全不動**，只新增書籤按鈕）：
-
-- 新增 `<button class="n5-grammar-section-bookmark-hit-area">`，鏡像現有 completion 的絕對定位 pattern，但定位 `left: -0.375rem`
-- 尺寸、padding、hit-area（h-11 w-11）比照 `.n5-grammar-section-completion-hit-area`
-- 書籤 icon：空心 `~icons/fa6-regular/bookmark`（需 `npm i -D @iconify-json/fa6-regular`）/ 實心 `~icons/fa6-solid/bookmark`
-- 在 finished 區（`N5GrammarView.vue` 下半區）的 SectionCard 不渲染書籤按鈕（Q5-4）— 透過新增 prop `showBookmark`（預設 `true`）控制
-- 新增 prop `bookmarked: boolean`、新增 emit `update:bookmarked`
-
-#### View 層改動（`N5GrammarView.vue`）
-
-新增書籤狀態管理：
-- `onMounted` / `onActivated` 時讀 `readGrammarBookmark('n5')`
-- 點書籤 → `writeGrammarBookmark('n5', sectionId)` 或 `clearGrammarBookmark('n5')`
-- `updateSectionCompleted(sectionId, true)` 時若該 sectionId === 書籤位置 → 自動清書籤（Q5-3）
-
-#### Icon 套件
-
-新增 dev 依賴：
-
-```bash
-npm install -D @iconify-json/fa6-regular
-```
-
-### 影響範圍
-
-| 檔案 | 改動 |
-|---|---|
-| `src/shared/config/storageKeys.ts` | 新增 `grammarBookmarkStorageKey` |
-| `src/modules/grammar/storage/grammarBookmarkStorage.ts` | **新檔** — storage wrapper |
-| `src/modules/n5Grammar/components/N5GrammarSectionCard.vue` | 新增書籤按鈕（絕對定位 left 側）、props（`bookmarked`、`showBookmark`）、emit `update:bookmarked` — checkbox 與 title 不動 |
-| `src/modules/n5Grammar/views/N5GrammarView.vue` | 書籤狀態讀寫、勾已讀自動清書籤、unfinished 區傳 `showBookmark=true`、finished 區傳 `showBookmark=false` |
-| `src/styles/main.css` | 新增 `.n5-grammar-section-bookmark-hit-area`（鏡像 completion-hit-area，改 `left` 而非 `right`） |
-| `tests/unit/` | 新增 `grammarBookmarkStorage.spec.ts` |
-| `tests/e2e/n5-grammar-layout.spec.ts` | 新增書籤按鈕的存在 / 視覺位置（左側）斷言 — 既有 checkbox / title 斷言不動 |
-| `package.json` | 新增 `@iconify-json/fa6-regular` |
-
-### 介面深度檢查（已套用 Q2 改動後重新評估）
-
-| 問題 | 回答 |
-|---|---|
-| **Seam 位置** | `src/modules/grammar/storage/grammarBookmarkStorage.ts` |
-| **Adapter 數量** | 1 個（thin wrapper over `storageGuard`） |
-| **深度** | 封裝 byLevel partial map 操作（讀/寫/刪單一 level 而不影響其他 level）+ 型別保護 — 雖然底層用同步 localStorage，但抽象層仍有實質責任，非 pass-through |
-| **刪除測試** | 刪掉 → 所有等級書籤無法持久化、無單一進入點 → SectionCard 必須直接碰 storage key 與 JSON schema，違反邊界 — **有實質意義** ✅ |
+- 快取策略：Cache First（HTML / CSS / JS）
+- MP3：Network First with fallback to cache
+- `manifest.json`：`display: "standalone"`, `theme_color: "#F4ECDC"`
 
 ---
 
-## 使用者原始回覆（已整合至上方結論，保留作為來源紀錄）
+## 六、設計規範（參考 ch1 設計語言）
 
-```
-Q1: 是「閱讀位置標記」
-Q2: localStorage才對
-Q3: 顯示上， [bookmark] [title] [checkbox] — 書籤在最左，標題置中，checkbox為最右
-Q4: 採納你的設計
-Q5: 全部保留
-Q6: 採納你的設計
-Q7: A
-```
+| 色彩 token | 對應 Tailwind 自訂色 | 用途 |
+|---|---|---|
+| `--paper` `#F4ECDC` | `paper` | 主背景 |
+| `--paper-2` `#FBF6EA` | `paper-2` | 次背景 |
+| `--paper-3` `#FFFCF4` | `paper-3` | 卡片背景 |
+| `--terracotta` `#BF5635` | `terracotta` | 強調色（數字、標題）|
+| `--sage` `#6B7848` | `sage` | 詞彙分組標題 |
+| `--ochre` `#C28A2C` | `ochre` | 片語卡片左邊條 |
+| `--teal` `#3F726E` | `teal-eng` | 文法公式底色 |
+| `--ink` `#322B22` | `ink` | 主文字 |
+
+**字型**（Google Fonts）：Fraunces（標題）/ Newsreader（英文內文）/ Noto Sans TC（中文）
+
+**行動優先斷行**：英語與中文之間使用 `block` 顯示，不並排。
 
 ---
 
-## 下一步
+## 七、影響範圍（全新建立）
 
-執行 `/spectra-propose` 立案，產生：
+| 檔案 / 目錄 | 說明 |
+|---|---|
+| `src/App.vue` | 殼層 + NavBar + RouterView |
+| `src/router/index.ts` | 路由設定 |
+| `src/views/HomeView.vue` | 首頁列表 + 完成標記 |
+| `src/views/GrammarView.vue` | 文法頁（詞性 + like）|
+| `src/views/Ch1View.vue` | Ch1 完整內容（詞彙 + 句型解析）|
+| `src/components/NavBar.vue` | 頂部固定導覽列 |
+| `src/components/Mp3Player.vue` | 播放器，mp3Src 空則隱藏 |
+| `src/components/WordTag.vue` | 單字標記 |
+| `src/components/PhraseCard.vue` | 片語卡片 |
+| `src/components/SentenceBreakdown.vue` | 句型拆解卡片 |
+| `src/components/BackToWordFab.vue` | 懸浮「回到單字」按鈕 |
+| `src/composables/useCompletion.ts` | 完成標記邏輯 |
+| `src/composables/useBookmark.ts` | 段落書籤邏輯 |
+| `tailwind.config.ts` | 自訂色彩 token |
+| `vite.config.ts` | 含 vite-plugin-pwa |
+| `public/manifest.json` | PWA manifest |
 
-- `openspec/changes/<name>/proposal.md`
-- `openspec/changes/<name>/design.md`（含 Q2 從 IndexedDB 改為 localStorage 的有意識記錄、Q3 重新排版的理由、互動規則表）
-- `openspec/changes/<name>/tasks.md`
-- `openspec/specs/grammar-bookmark/spec.md`（新 capability）
+---
 
-建議的 change name：`add-grammar-reading-position-bookmark`
+## 八、下一步
+
+執行 `/spectra-propose` 正式立案，產出 `openspec/changes/<name>/`，建議 change name：
+
+```
+build-slowy-learning-eng-pwa
+```
+
+實作建議順序：
+
+1. 建立 Vite + Vue3 + Tailwind 專案骨架
+2. `NavBar.vue` + Router（3 個路由）
+3. `HomeView.vue`（列表 + 完成標記）
+4. `Mp3Player.vue`（播放器，Ch1 暫無音檔）
+5. `Ch1View.vue`（文章 + 詞彙 + 書籤 + 底線單字互動）
+6. `BackToWordFab.vue`
+7. `GrammarView.vue`（詞性 + like）
+8. PWA（manifest + Service Worker）
