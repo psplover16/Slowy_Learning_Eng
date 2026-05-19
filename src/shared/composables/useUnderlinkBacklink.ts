@@ -16,7 +16,16 @@ export function useUnderlinkBacklink(): UnderlinkBacklink {
     sourceScrollY.value = window.scrollY
     targetId.value = id
     const el = document.getElementById(id)
-    el?.scrollIntoView({ behavior: 'smooth' })
+    if (!el) return
+
+    const rect = el.getBoundingClientRect()
+    const elAbsTop = rect.top + window.scrollY
+
+    const navHeight = (document.querySelector('nav') as HTMLElement | null)?.offsetHeight ?? 0
+    const visibleHeight = window.innerHeight - navHeight
+    const centered = elAbsTop - navHeight - (visibleHeight - rect.height) / 2
+
+    window.scrollTo({ top: Math.max(0, centered), behavior: 'smooth' })
   }
 
   function returnToSource(): void {
