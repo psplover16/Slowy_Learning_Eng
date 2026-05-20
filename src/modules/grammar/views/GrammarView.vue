@@ -6,6 +6,12 @@
       </h1>
     </div>
 
+    <!-- Section 1: 詞類基礎 -->
+    <h2
+      data-testid="grammar-section-header"
+      class="font-fraunces text-xl font-semibold text-teal-eng-deep mt-8 mb-3 first:mt-0 pb-1 border-b border-line-soft"
+    >1. 詞類基礎</h2>
+
     <!-- G01: Parts of Speech -->
     <GrammarCard badge="G01" title="英語常見詞性">
       <p class="text-ink-soft text-sm mb-3">認識詞性，是讀懂句子的第一步。每個詞性都有固定的「位置」和「功能」。</p>
@@ -31,29 +37,14 @@
       </div>
     </GrammarCard>
 
-    <!-- G02: like usage -->
-    <GrammarCard badge="G02" title="like 的全用法">
-      <p class="text-ink-soft text-sm mb-4">like 是英語中「功能最多」的字之一，同一個字可以是動詞、介系詞或連接詞。</p>
-      <div v-for="usage in likeUsages" :key="usage.role" class="mb-4 last:mb-0">
-        <div class="inline-block bg-teal-eng text-white font-newsreader rounded-lg px-3 py-1.5 mb-2 text-sm">
-          {{ usage.formula }}
-        </div>
-        <p class="text-ink-soft text-sm mb-2">{{ usage.note }}</p>
-        <ul class="space-y-1">
-          <li v-for="ex in usage.examples" :key="ex.en" class="text-sm">
-            <span class="font-newsreader italic text-terracotta-deep">{{ ex.en }}</span>
-            <span class="text-ink-faint ml-2">{{ ex.tc }}</span>
-          </li>
-        </ul>
-      </div>
-      <div class="mt-4 bg-paper-2 border border-line-soft rounded-lg px-4 py-3 text-sm text-ink-soft">
-        <span class="font-medium text-ink">注意：</span>like 在 feel like 後面接子句（完整句子），例如：
-        <span class="font-newsreader italic text-terracotta-deep ml-1">It felt like I was in a movie.</span>
-      </div>
-    </GrammarCard>
+    <!-- Section 2: 名詞片語家族 -->
+    <h2
+      data-testid="grammar-section-header"
+      class="font-fraunces text-xl font-semibold text-teal-eng-deep mt-8 mb-3 first:mt-0 pb-1 border-b border-line-soft"
+    >2. 名詞片語家族</h2>
 
-    <!-- G03: Noun Phrases -->
-    <GrammarCard badge="G03" title="名詞片語 Noun Phrase">
+    <!-- G02: Noun Phrases -->
+    <GrammarCard badge="G02" title="名詞片語 Noun Phrase">
       <p class="text-ink-soft text-sm mb-4">名詞片語（Noun Phrase）是「以名詞為核心」的一組字詞。整體在句子中扮演名詞的功能，可以當主詞、受詞、補語等。</p>
 
       <div class="mb-4">
@@ -113,8 +104,8 @@
       </div>
     </GrammarCard>
 
-    <!-- G04: Relative Clauses -->
-    <GrammarCard badge="G04" title="關係子句 Relative Clause">
+    <!-- G03: Relative Clauses -->
+    <GrammarCard badge="G03" title="關係子句 Relative Clause">
       <p class="text-ink-soft text-sm mb-4">關係子句用來修飾名詞（先行詞），由「關係代名詞」引導，把兩個句子合併成一個更豐富的句子。</p>
 
       <div class="overflow-x-auto mb-4">
@@ -160,6 +151,57 @@
         </div>
       </div>
     </GrammarCard>
+
+    <!-- G04: Participial Phrases -->
+    <GrammarCard badge="G04" title="分詞片語 Participial Phrase">
+      <p class="text-ink-soft text-sm mb-4">分詞片語用「現在分詞（V-ing）」或「過去分詞（V-pp）」為核心，補充說明名詞或主要子句，功能類似形容詞子句或副詞子句，但更簡潔。</p>
+
+      <div class="overflow-x-auto mb-4">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="bg-teal-eng text-white text-left">
+              <th class="px-3 py-2 rounded-tl-lg">種類</th>
+              <th class="px-3 py-2">形式</th>
+              <th class="px-3 py-2">含意</th>
+              <th class="px-3 py-2 rounded-tr-lg">例子</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(row, i) in participleTypes" :key="row.type" :class="i % 2 === 1 ? 'bg-paper-2' : 'bg-paper-3'">
+              <td class="px-3 py-2 font-medium text-teal-eng-deep text-xs">{{ row.type }}</td>
+              <td class="px-3 py-2 font-newsreader italic">{{ row.form }}</td>
+              <td class="px-3 py-2 text-ink-soft">{{ row.meaning }}</td>
+              <td class="px-3 py-2 font-newsreader italic text-terracotta-deep">{{ row.example }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mb-4">
+        <p class="text-sm font-medium text-ink mb-2">課文例句解析</p>
+        <div class="space-y-3">
+          <div v-for="ex in participleExamples" :key="ex.sentence" class="bg-paper-2 rounded-lg px-4 py-3 text-sm">
+            <p class="font-newsreader italic text-terracotta-deep mb-1">{{ ex.sentence }}</p>
+            <p class="text-ink-soft text-xs">{{ ex.analysis }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-paper-2 border border-line-soft rounded-lg px-4 py-3 text-sm">
+        <p class="font-medium text-ink mb-1">⚠ 注意：懸垂分詞（Dangling Participle）</p>
+        <p class="text-ink-soft text-xs mb-2">分詞片語的「隱含主詞」必須和主要子句的主詞相同，否則語意會錯亂：</p>
+        <p class="font-newsreader italic text-terracotta text-xs">❌ Walking down the street, the rain started.</p>
+        <p class="text-ink-faint text-xs mb-1">（語意：雨在走路？）</p>
+        <p class="font-newsreader italic text-sage text-xs">✓ Walking down the street, I got caught in the rain.</p>
+        <p class="text-ink-faint text-xs">（主詞 I 跟分詞片語的主詞一致）</p>
+      </div>
+    </GrammarCard>
+
+    <!-- Section 3: 動詞時態 -->
+    <h2
+      data-testid="grammar-section-header"
+      class="font-fraunces text-xl font-semibold text-teal-eng-deep mt-8 mb-3 first:mt-0 pb-1 border-b border-line-soft"
+    >3. 動詞時態</h2>
 
     <!-- G05: used to + V -->
     <GrammarCard badge="G05" title="used to + V　過去曾經……">
@@ -273,6 +315,12 @@
       </div>
     </GrammarCard>
 
+    <!-- Section 4: V-ing 後接慣例 -->
+    <h2
+      data-testid="grammar-section-header"
+      class="font-fraunces text-xl font-semibold text-teal-eng-deep mt-8 mb-3 first:mt-0 pb-1 border-b border-line-soft"
+    >4. V-ing 後接慣例</h2>
+
     <!-- G08: Preposition + Gerund -->
     <GrammarCard badge="G08" title="介系詞後面一定接 V-ing（動名詞）">
       <p class="text-ink-soft text-sm mb-4">在英語中，介系詞（at / for / of / in / without / instead of…）後面<strong>不能接原形動詞</strong>，必須接「動名詞（V-ing）」。</p>
@@ -299,84 +347,64 @@
       </div>
     </GrammarCard>
 
-    <!-- G09: Participial Phrases -->
-    <GrammarCard badge="G09" title="分詞片語 Participial Phrase">
-      <p class="text-ink-soft text-sm mb-4">分詞片語用「現在分詞（V-ing）」或「過去分詞（V-pp）」為核心，補充說明名詞或主要子句，功能類似形容詞子句或副詞子句，但更簡潔。</p>
+    <!-- G09: while + V-ing -->
+    <GrammarCard badge="G09" title="while ＋ V-ing　同時進行">
+      <p class="text-ink-soft text-sm mb-4">「while ＋ V-ing」是 「while ＋ 子句」的省略形式，表示「在做某事的同時」或「當……的時候」。</p>
 
-      <div class="overflow-x-auto mb-4">
-        <table class="w-full text-sm border-collapse">
-          <thead>
-            <tr class="bg-teal-eng text-white text-left">
-              <th class="px-3 py-2 rounded-tl-lg">種類</th>
-              <th class="px-3 py-2">形式</th>
-              <th class="px-3 py-2">含意</th>
-              <th class="px-3 py-2 rounded-tr-lg">例子</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(row, i) in participleTypes" :key="row.type" :class="i % 2 === 1 ? 'bg-paper-2' : 'bg-paper-3'">
-              <td class="px-3 py-2 font-medium text-teal-eng-deep text-xs">{{ row.type }}</td>
-              <td class="px-3 py-2 font-newsreader italic">{{ row.form }}</td>
-              <td class="px-3 py-2 text-ink-soft">{{ row.meaning }}</td>
-              <td class="px-3 py-2 font-newsreader italic text-terracotta-deep">{{ row.example }}</td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="inline-block bg-teal-eng text-white font-newsreader rounded-lg px-3 py-1.5 mb-4 text-sm">
+        公式：while ＋ V-ing（省略了與主要子句相同的主詞 ＋ be 動詞）
       </div>
 
-      <div class="mb-4">
-        <p class="text-sm font-medium text-ink mb-2">課文例句解析</p>
-        <div class="space-y-3">
-          <div v-for="ex in participleExamples" :key="ex.sentence" class="bg-paper-2 rounded-lg px-4 py-3 text-sm">
-            <p class="font-newsreader italic text-terracotta-deep mb-1">{{ ex.sentence }}</p>
-            <p class="text-ink-soft text-xs">{{ ex.analysis }}</p>
-          </div>
+      <div class="space-y-2 mb-4">
+        <div v-for="ex in whileExamples" :key="ex.full" class="bg-paper-2 rounded-lg px-4 py-3 text-sm">
+          <p class="text-ink-soft text-xs mb-1">完整形式：</p>
+          <p class="font-newsreader italic text-terracotta-deep mb-1">{{ ex.full }}</p>
+          <p class="text-ink-soft text-xs mb-1">省略後：</p>
+          <p class="font-newsreader italic text-terracotta-deep mb-1">{{ ex.short }}</p>
+          <p class="text-ink-faint text-xs">{{ ex.tc }}</p>
+        </div>
+      </div>
+
+      <div class="bg-paper-2 border border-line-soft rounded-lg px-4 py-3 text-sm text-xs text-ink-soft">
+        <span class="font-medium text-ink">注意：</span>省略後的主詞必須與主要子句相同，否則語意會出錯。
+      </div>
+    </GrammarCard>
+
+    <!-- Section 5: 從屬子句與時間 -->
+    <h2
+      data-testid="grammar-section-header"
+      class="font-fraunces text-xl font-semibold text-teal-eng-deep mt-8 mb-3 first:mt-0 pb-1 border-b border-line-soft"
+    >5. 從屬子句與時間</h2>
+
+    <!-- G10: for + duration -->
+    <GrammarCard badge="G10" title="for ＋ 時間長度　持續多久">
+      <p class="text-ink-soft text-sm mb-4">for ＋ 時間長度，用來說明一個動作或狀態「持續了多長時間」，中文是「……了多久」。</p>
+
+      <div class="inline-block bg-teal-eng text-white font-newsreader rounded-lg px-3 py-1.5 mb-4 text-sm">
+        公式：for ＋ 時間長度（a week / two days / a while…）
+      </div>
+
+      <div class="mb-4 space-y-2">
+        <div v-for="ex in forDurationExamples" :key="ex.en" class="bg-paper-2 rounded-lg px-4 py-3 text-sm">
+          <p class="font-newsreader italic text-terracotta-deep mb-1">{{ ex.en }}</p>
+          <p class="text-ink-faint text-xs">{{ ex.tc }}</p>
         </div>
       </div>
 
       <div class="bg-paper-2 border border-line-soft rounded-lg px-4 py-3 text-sm">
-        <p class="font-medium text-ink mb-1">⚠ 注意：懸垂分詞（Dangling Participle）</p>
-        <p class="text-ink-soft text-xs mb-2">分詞片語的「隱含主詞」必須和主要子句的主詞相同，否則語意會錯亂：</p>
-        <p class="font-newsreader italic text-terracotta text-xs">❌ Walking down the street, the rain started.</p>
-        <p class="text-ink-faint text-xs mb-1">（語意：雨在走路？）</p>
-        <p class="font-newsreader italic text-sage text-xs">✓ Walking down the street, I got caught in the rain.</p>
-        <p class="text-ink-faint text-xs">（主詞 I 跟分詞片語的主詞一致）</p>
-      </div>
-    </GrammarCard>
-
-    <!-- G10: Causative Verbs -->
-    <GrammarCard badge="G10" title="使役動詞 make / have / get / let">
-      <p class="text-ink-soft text-sm mb-4">使役動詞表示「讓/叫/允許某人做某事」，四個動詞語氣不同，後面接法也有差異。</p>
-
-      <div class="overflow-x-auto mb-4">
-        <table class="w-full text-sm border-collapse">
-          <thead>
-            <tr class="bg-teal-eng text-white text-left">
-              <th class="px-3 py-2 rounded-tl-lg">動詞</th>
-              <th class="px-3 py-2">公式</th>
-              <th class="px-3 py-2">含意</th>
-              <th class="px-3 py-2 rounded-tr-lg">例句</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="(row, i) in causativeVerbs" :key="row.verb" :class="i % 2 === 1 ? 'bg-paper-2' : 'bg-paper-3'">
-              <td class="px-3 py-2 font-newsreader font-bold text-teal-eng-deep text-base">{{ row.verb }}</td>
-              <td class="px-3 py-2 font-newsreader italic text-xs">{{ row.formula }}</td>
-              <td class="px-3 py-2 text-ink-soft">{{ row.meaning }}</td>
-              <td class="px-3 py-2 font-newsreader italic text-terracotta-deep text-xs">{{ row.example }}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="bg-paper-2 border border-line-soft rounded-lg px-4 py-3 text-sm">
-        <p class="font-medium text-ink mb-2">記憶口訣</p>
-        <ul class="space-y-1 text-xs text-ink-soft">
-          <li><span class="font-medium text-ink">make</span>：強迫（對方沒有選擇）→ 接<span class="font-newsreader italic"> 原形動詞</span></li>
-          <li><span class="font-medium text-ink">have</span>：指派、安排（中性，職責分配）→ 接<span class="font-newsreader italic"> 原形動詞</span></li>
-          <li><span class="font-medium text-ink">get</span>：說服、促使（需要溝通努力）→ 接<span class="font-newsreader italic"> to + V</span>（唯一一個！）</li>
-          <li><span class="font-medium text-ink">let</span>：允許（給予許可）→ 接<span class="font-newsreader italic"> 原形動詞</span></li>
-        </ul>
+        <p class="font-medium text-ink mb-2">for vs since 的對比</p>
+        <div class="space-y-1.5 text-xs">
+          <div>
+            <span class="font-newsreader italic text-teal-eng-deep">for ＋ 時間長度</span>
+            <span class="text-ink-soft ml-1">→ 持續了多久（段落）</span>
+            <p class="font-newsreader italic text-terracotta-deep ml-2">I've lived here for three years.</p>
+          </div>
+          <div>
+            <span class="font-newsreader italic text-teal-eng-deep">since ＋ 時間點</span>
+            <span class="text-ink-soft ml-1">→ 從什麼時候開始（起點）</span>
+            <p class="font-newsreader italic text-terracotta-deep ml-2">I've lived here since 2021.</p>
+          </div>
+        </div>
       </div>
     </GrammarCard>
 
@@ -441,8 +469,119 @@
       </div>
     </GrammarCard>
 
-    <!-- G13: ever -->
-    <GrammarCard badge="G13" title="ever 的語氣加強用法">
+    <!-- Section 6: 多功能動詞 -->
+    <h2
+      data-testid="grammar-section-header"
+      class="font-fraunces text-xl font-semibold text-teal-eng-deep mt-8 mb-3 first:mt-0 pb-1 border-b border-line-soft"
+    >6. 多功能動詞</h2>
+
+    <!-- G13: Causative Verbs -->
+    <GrammarCard badge="G13" title="使役動詞 make / have / get / let">
+      <p class="text-ink-soft text-sm mb-4">使役動詞表示「讓/叫/允許某人做某事」，四個動詞語氣不同，後面接法也有差異。</p>
+
+      <div class="overflow-x-auto mb-4">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="bg-teal-eng text-white text-left">
+              <th class="px-3 py-2 rounded-tl-lg">動詞</th>
+              <th class="px-3 py-2">公式</th>
+              <th class="px-3 py-2">含意</th>
+              <th class="px-3 py-2 rounded-tr-lg">例句</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(row, i) in causativeVerbs" :key="row.verb" :class="i % 2 === 1 ? 'bg-paper-2' : 'bg-paper-3'">
+              <td class="px-3 py-2 font-newsreader font-bold text-teal-eng-deep text-base">{{ row.verb }}</td>
+              <td class="px-3 py-2 font-newsreader italic text-xs">{{ row.formula }}</td>
+              <td class="px-3 py-2 text-ink-soft">{{ row.meaning }}</td>
+              <td class="px-3 py-2 font-newsreader italic text-terracotta-deep text-xs">{{ row.example }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bg-paper-2 border border-line-soft rounded-lg px-4 py-3 text-sm">
+        <p class="font-medium text-ink mb-2">記憶口訣</p>
+        <ul class="space-y-1 text-xs text-ink-soft">
+          <li><span class="font-medium text-ink">make</span>：強迫（對方沒有選擇）→ 接<span class="font-newsreader italic"> 原形動詞</span></li>
+          <li><span class="font-medium text-ink">have</span>：指派、安排（中性，職責分配）→ 接<span class="font-newsreader italic"> 原形動詞</span></li>
+          <li><span class="font-medium text-ink">get</span>：說服、促使（需要溝通努力）→ 接<span class="font-newsreader italic"> to + V</span>（唯一一個！）</li>
+          <li><span class="font-medium text-ink">let</span>：允許（給予許可）→ 接<span class="font-newsreader italic"> 原形動詞</span></li>
+        </ul>
+      </div>
+    </GrammarCard>
+
+    <!-- G14: get usage -->
+    <GrammarCard badge="G14" title="get 的各種用法">
+      <p class="text-ink-soft text-sm mb-4">get 是英語中最常用的字之一，根據後面接什麼，意思完全不同。</p>
+
+      <div class="space-y-3 mb-4">
+        <div v-for="usage in getUsages" :key="usage.pattern" class="bg-paper-2 rounded-lg px-4 py-3 text-sm">
+          <div class="flex items-center gap-2 mb-1">
+            <div class="inline-block bg-teal-eng text-white font-newsreader rounded px-2 py-0.5 text-xs">
+              {{ usage.pattern }}
+            </div>
+            <span class="text-ink-soft text-xs">→ {{ usage.meaning }}</span>
+          </div>
+          <ul class="space-y-0.5 mt-1">
+            <li v-for="ex in usage.examples" :key="ex.en">
+              <span class="font-newsreader italic text-terracotta-deep text-xs">{{ ex.en }}</span>
+              <span class="text-ink-faint text-xs ml-2">{{ ex.tc }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </GrammarCard>
+
+    <!-- G15: like usage -->
+    <GrammarCard badge="G15" title="like 的全用法">
+      <p class="text-ink-soft text-sm mb-4">like 是英語中「功能最多」的字之一，同一個字可以是動詞、介系詞或連接詞。</p>
+      <div v-for="usage in likeUsages" :key="usage.role" class="mb-4 last:mb-0">
+        <div class="inline-block bg-teal-eng text-white font-newsreader rounded-lg px-3 py-1.5 mb-2 text-sm">
+          {{ usage.formula }}
+        </div>
+        <p class="text-ink-soft text-sm mb-2">{{ usage.note }}</p>
+        <ul class="space-y-1">
+          <li v-for="ex in usage.examples" :key="ex.en" class="text-sm">
+            <span class="font-newsreader italic text-terracotta-deep">{{ ex.en }}</span>
+            <span class="text-ink-faint ml-2">{{ ex.tc }}</span>
+          </li>
+        </ul>
+      </div>
+      <div class="mt-4 bg-paper-2 border border-line-soft rounded-lg px-4 py-3 text-sm text-ink-soft">
+        <span class="font-medium text-ink">注意：</span>like 在 feel like 後面接子句（完整句子），例如：
+        <span class="font-newsreader italic text-terracotta-deep ml-1">It felt like I was in a movie.</span>
+      </div>
+    </GrammarCard>
+
+    <!-- G16: prefer -->
+    <GrammarCard badge="G16" title="prefer 偏好表達">
+      <p class="text-ink-soft text-sm mb-4">prefer 表示「比較喜歡、偏好」，有三種常用句型。</p>
+
+      <div class="space-y-3 mb-4">
+        <div v-for="pattern in preferPatterns" :key="pattern.formula" class="bg-paper-2 rounded-lg px-4 py-3 text-sm">
+          <div class="inline-block bg-teal-eng text-white font-newsreader rounded px-2 py-0.5 mb-2 text-xs">
+            {{ pattern.formula }}
+          </div>
+          <p class="text-ink-soft text-xs mb-2">{{ pattern.desc }}</p>
+          <ul class="space-y-1">
+            <li v-for="ex in pattern.examples" :key="ex.en">
+              <p class="font-newsreader italic text-terracotta-deep">{{ ex.en }}</p>
+              <p class="text-ink-faint text-xs">{{ ex.tc }}</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </GrammarCard>
+
+    <!-- Section 7: 語氣與比較 -->
+    <h2
+      data-testid="grammar-section-header"
+      class="font-fraunces text-xl font-semibold text-teal-eng-deep mt-8 mb-3 first:mt-0 pb-1 border-b border-line-soft"
+    >7. 語氣與比較</h2>
+
+    <!-- G17: ever -->
+    <GrammarCard badge="G17" title="ever 的語氣加強用法">
       <p class="text-ink-soft text-sm mb-4">ever 字面是「曾經、在任何時候」，但更常見的功能是<strong>加強語氣</strong>，常出現在三種場合。</p>
 
       <div class="space-y-3 mb-4">
@@ -467,63 +606,8 @@
       </div>
     </GrammarCard>
 
-    <!-- G14: for + duration -->
-    <GrammarCard badge="G14" title="for ＋ 時間長度　持續多久">
-      <p class="text-ink-soft text-sm mb-4">for ＋ 時間長度，用來說明一個動作或狀態「持續了多長時間」，中文是「……了多久」。</p>
-
-      <div class="inline-block bg-teal-eng text-white font-newsreader rounded-lg px-3 py-1.5 mb-4 text-sm">
-        公式：for ＋ 時間長度（a week / two days / a while…）
-      </div>
-
-      <div class="mb-4 space-y-2">
-        <div v-for="ex in forDurationExamples" :key="ex.en" class="bg-paper-2 rounded-lg px-4 py-3 text-sm">
-          <p class="font-newsreader italic text-terracotta-deep mb-1">{{ ex.en }}</p>
-          <p class="text-ink-faint text-xs">{{ ex.tc }}</p>
-        </div>
-      </div>
-
-      <div class="bg-paper-2 border border-line-soft rounded-lg px-4 py-3 text-sm">
-        <p class="font-medium text-ink mb-2">for vs since 的對比</p>
-        <div class="space-y-1.5 text-xs">
-          <div>
-            <span class="font-newsreader italic text-teal-eng-deep">for ＋ 時間長度</span>
-            <span class="text-ink-soft ml-1">→ 持續了多久（段落）</span>
-            <p class="font-newsreader italic text-terracotta-deep ml-2">I've lived here for three years.</p>
-          </div>
-          <div>
-            <span class="font-newsreader italic text-teal-eng-deep">since ＋ 時間點</span>
-            <span class="text-ink-soft ml-1">→ 從什麼時候開始（起點）</span>
-            <p class="font-newsreader italic text-terracotta-deep ml-2">I've lived here since 2021.</p>
-          </div>
-        </div>
-      </div>
-    </GrammarCard>
-
-    <!-- G15: while + V-ing -->
-    <GrammarCard badge="G15" title="while ＋ V-ing　同時進行">
-      <p class="text-ink-soft text-sm mb-4">「while ＋ V-ing」是 「while ＋ 子句」的省略形式，表示「在做某事的同時」或「當……的時候」。</p>
-
-      <div class="inline-block bg-teal-eng text-white font-newsreader rounded-lg px-3 py-1.5 mb-4 text-sm">
-        公式：while ＋ V-ing（省略了與主要子句相同的主詞 ＋ be 動詞）
-      </div>
-
-      <div class="space-y-2 mb-4">
-        <div v-for="ex in whileExamples" :key="ex.full" class="bg-paper-2 rounded-lg px-4 py-3 text-sm">
-          <p class="text-ink-soft text-xs mb-1">完整形式：</p>
-          <p class="font-newsreader italic text-terracotta-deep mb-1">{{ ex.full }}</p>
-          <p class="text-ink-soft text-xs mb-1">省略後：</p>
-          <p class="font-newsreader italic text-terracotta-deep mb-1">{{ ex.short }}</p>
-          <p class="text-ink-faint text-xs">{{ ex.tc }}</p>
-        </div>
-      </div>
-
-      <div class="bg-paper-2 border border-line-soft rounded-lg px-4 py-3 text-sm text-xs text-ink-soft">
-        <span class="font-medium text-ink">注意：</span>省略後的主詞必須與主要子句相同，否則語意會出錯。
-      </div>
-    </GrammarCard>
-
-    <!-- G16: just as...as -->
-    <GrammarCard badge="G16" title="just as...as　同等比較">
+    <!-- G18: just as...as -->
+    <GrammarCard badge="G18" title="just as...as　同等比較">
       <p class="text-ink-soft text-sm mb-4">「just as ＋ 形容詞／副詞 ＋ as」表示「和……一樣……」，強調兩者程度完全相同。</p>
 
       <div class="inline-block bg-teal-eng text-white font-newsreader rounded-lg px-3 py-1.5 mb-4 text-sm">
@@ -543,48 +627,6 @@
         <span class="font-newsreader italic text-teal-eng-deep">as...as</span> 也表示同等比較，just 是加強語氣（「就和……一樣」），可省略。
         <p class="font-newsreader italic text-terracotta-deep mt-1">The takeoff was just as beautiful as the landing.</p>
         <p>→ 起飛和降落一樣美（就和……一樣美）</p>
-      </div>
-    </GrammarCard>
-
-    <!-- G17: prefer to + V -->
-    <GrammarCard badge="G17" title="prefer 偏好表達">
-      <p class="text-ink-soft text-sm mb-4">prefer 表示「比較喜歡、偏好」，有三種常用句型。</p>
-
-      <div class="space-y-3 mb-4">
-        <div v-for="pattern in preferPatterns" :key="pattern.formula" class="bg-paper-2 rounded-lg px-4 py-3 text-sm">
-          <div class="inline-block bg-teal-eng text-white font-newsreader rounded px-2 py-0.5 mb-2 text-xs">
-            {{ pattern.formula }}
-          </div>
-          <p class="text-ink-soft text-xs mb-2">{{ pattern.desc }}</p>
-          <ul class="space-y-1">
-            <li v-for="ex in pattern.examples" :key="ex.en">
-              <p class="font-newsreader italic text-terracotta-deep">{{ ex.en }}</p>
-              <p class="text-ink-faint text-xs">{{ ex.tc }}</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </GrammarCard>
-
-    <!-- G18: get usage -->
-    <GrammarCard badge="G18" title="get 的各種用法">
-      <p class="text-ink-soft text-sm mb-4">get 是英語中最常用的字之一，根據後面接什麼，意思完全不同。</p>
-
-      <div class="space-y-3 mb-4">
-        <div v-for="usage in getUsages" :key="usage.pattern" class="bg-paper-2 rounded-lg px-4 py-3 text-sm">
-          <div class="flex items-center gap-2 mb-1">
-            <div class="inline-block bg-teal-eng text-white font-newsreader rounded px-2 py-0.5 text-xs">
-              {{ usage.pattern }}
-            </div>
-            <span class="text-ink-soft text-xs">→ {{ usage.meaning }}</span>
-          </div>
-          <ul class="space-y-0.5 mt-1">
-            <li v-for="ex in usage.examples" :key="ex.en">
-              <span class="font-newsreader italic text-terracotta-deep text-xs">{{ ex.en }}</span>
-              <span class="text-ink-faint text-xs ml-2">{{ ex.tc }}</span>
-            </li>
-          </ul>
-        </div>
       </div>
     </GrammarCard>
   </main>

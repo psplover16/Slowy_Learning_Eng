@@ -27,4 +27,71 @@ describe('GrammarView', () => {
     const wrapper = mountGrammar()
     expect(wrapper.findAll('[data-testid="grammar-card"]').length).toBeGreaterThanOrEqual(2)
   })
+
+  // --- reorder-grammar-by-pedagogy ---
+
+  it('orders grammar cards into the pedagogical 18-topic sequence', () => {
+    const wrapper = mountGrammar()
+    const cards = wrapper.findAll('[data-testid="grammar-card"]')
+    const titles = cards.map((card) => {
+      const h3 = card.find('h3')
+      // The h3 contains a <span> with the badge plus the title text. We want the
+      // visible title text only (badge stripped).
+      const badgeSpan = h3.find('span')
+      const fullText = h3.text()
+      const badgeText = badgeSpan.exists() ? badgeSpan.text() : ''
+      return fullText.replace(badgeText, '').trim()
+    })
+
+    expect(titles).toEqual([
+      '英語常見詞性',
+      '名詞片語 Noun Phrase',
+      '關係子句 Relative Clause',
+      '分詞片語 Participial Phrase',
+      'used to + V　過去曾經……',
+      '現在完成式 vs 現在完成進行式',
+      '不定詞完成式 to have + V-pp',
+      '介系詞後面一定接 V-ing（動名詞）',
+      'while ＋ V-ing　同時進行',
+      'for ＋ 時間長度　持續多久',
+      'if 的雙重用法：如果 vs 是否',
+      'so that　目的／結果子句',
+      '使役動詞 make / have / get / let',
+      'get 的各種用法',
+      'like 的全用法',
+      'prefer 偏好表達',
+      'ever 的語氣加強用法',
+      'just as...as　同等比較',
+    ])
+  })
+
+  it('renders exactly 7 thematic section headers with the expected text', () => {
+    const wrapper = mountGrammar()
+    const headers = wrapper.findAll('[data-testid="grammar-section-header"]')
+    expect(headers).toHaveLength(7)
+    const headerTexts = headers.map((h) => h.text())
+    expect(headerTexts).toEqual([
+      '1. 詞類基礎',
+      '2. 名詞片語家族',
+      '3. 動詞時態',
+      '4. V-ing 後接慣例',
+      '5. 從屬子句與時間',
+      '6. 多功能動詞',
+      '7. 語氣與比較',
+    ])
+  })
+
+  it('numbers grammar card badges consecutively G01 through G18 in display order', () => {
+    const wrapper = mountGrammar()
+    const cards = wrapper.findAll('[data-testid="grammar-card"]')
+    const badges = cards.map((card) => {
+      const span = card.find('h3 span')
+      return span.text()
+    })
+    expect(badges).toEqual([
+      'G01', 'G02', 'G03', 'G04', 'G05', 'G06',
+      'G07', 'G08', 'G09', 'G10', 'G11', 'G12',
+      'G13', 'G14', 'G15', 'G16', 'G17', 'G18',
+    ])
+  })
 })
