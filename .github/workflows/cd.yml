@@ -1,0 +1,84 @@
+name: CD
+
+on:
+  push:
+    branches:
+      - dev
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Build and publish to gh-pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Resolve deployment target
+        shell: bash
+        run: |
+          if [[ "$GITHUB_REF_NAME" == "main" ]]; then
+            echo "PUBLISH_TARGET=production" >> "$GITHUB_ENV"
+            echo "VITE_APP_BASE_PATH=/Slowy_Learning_Eng/" >> "$GITHUB_ENV"
+            echo "VITE_APP_START_URL=/Slowy_Learning_Eng/" >> "$GITHUB_ENV"
+          else
+            echo "PUBLISH_TARGET=staging" >> "$GITHUB_ENV"
+            echo "VITE_APP_BASE_PATH=/Slowy_Learning_Eng/staging/" >> "$GITHUB_ENV"
+            echo "VITE_APP_START_URL=/Slowy_Learning_Eng/staging/" >> "$GITHUB_ENV"
+          fi
+
+      - name: Build site
+        run: npm run build
+
+      - name: Configure git author
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Prepare gh-pages worktree
+        shell: bash
+        run: |
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git fetch origin gh-pages:gh-pages
+            git worktree add .deploy-pages gh-pages
+          else
+            git worktree add --detach .deploy-pages
+            git -C .deploy-pages checkout --orphan gh-pages
+            find .deploy-pages -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          fi
+
+      - name: Synchronize dist into gh-pages worktree
+        shell: bash
+        run: |
+          node scripts/publishPages.mjs --worktree .deploy-pages --dist dist --target "$PUBLISH_TARGET"
+
+      - name: Commit and push gh-pages
+        shell: bash
+        working-directory: .deploy-pages
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to publish for target=${PUBLISH_TARGET}, skipping commit."
+            exit 0
+          fi
+          git commit -m "deploy: publish ${PUBLISH_TARGET}"
+          git push origin gh-pages
