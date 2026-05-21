@@ -221,6 +221,34 @@ describe('ChapterView (id="ch2") — dynamic sections (real data)', () => {
   })
 })
 
+describe('ChapterView (id="ch3") — dynamic sections (real data)', () => {
+  it('quick nav has exactly 3 buttons: 全文, 單字, 片語', async () => {
+    const wrapper = await mountChapter('ch3')
+    const nav = wrapper.find('[data-testid="ch3-quick-nav"]')
+    expect(nav.exists()).toBe(true)
+    const buttons = nav.findAll('button')
+    expect(buttons.length).toBe(3)
+    expect(buttons[0].text()).toBe('全文')
+    expect(buttons[1].text()).toBe('單字')
+    expect(buttons[2].text()).toBe('片語')
+  })
+
+  it('bilingual section IS in DOM', async () => {
+    const wrapper = await mountChapter('ch3')
+    expect(wrapper.find('#ch3-section-bilingual').exists()).toBe(true)
+  })
+
+  it('renders 10 scene blocks', async () => {
+    const wrapper = await mountChapter('ch3')
+    expect(wrapper.findAll('[data-testid^="scene-"]').length).toBe(10)
+  })
+
+  it('displays ch3 chapter title 傳統學習法為何無法帶來流暢', async () => {
+    const wrapper = await mountChapter('ch3')
+    expect(wrapper.text()).toContain('傳統學習法為何無法帶來流暢')
+  })
+})
+
 describe('ChapterView — error states', () => {
   it('shows "找不到此章節" when id has no chapters config entry', async () => {
     const wrapper = await mountChapter('nonexistent-chapter')

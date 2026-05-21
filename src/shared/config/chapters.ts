@@ -26,4 +26,12 @@ export const chapters: ChapterEntry[] = [
     titleEn: 'How Languages Are Really Learned',
     dataLoader: () => import('../../modules/chapters/data/ch2'),
   },
+  {
+    id: 'ch3',
+    path: '/ch3',
+    shortLabel: 'Ch3',
+    titleZh: '傳統學習法為何無法帶來流暢',
+    titleEn: "Why Traditional Study Can't Create Fluency",
+    dataLoader: () => import('../../modules/chapters/data/ch3'),
+  },
 ]
