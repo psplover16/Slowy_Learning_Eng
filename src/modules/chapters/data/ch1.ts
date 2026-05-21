@@ -8,6 +8,7 @@ const chapter: ChapterData = {
   headerLevelTag: '程度 B1 初中級',
   headerTopicTag: '主題：旅行・童年回憶',
   mp3Src: null,
+  sourceSrc: 'https://www.youtube.com/watch?v=VGoJrwil_7c&t=972s',
   scenes: [
     {
       id: 'scene-01',

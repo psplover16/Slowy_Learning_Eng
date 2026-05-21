@@ -11,6 +11,7 @@ const routes: Array<{ path: string; selector: string }> = [
   { path: '/', selector: 'main' },
   { path: '/grammar', selector: 'main' },
   { path: '/ch1', selector: 'main' },
+  { path: '/ch2', selector: 'main' },
 ]
 
 test.describe('app shell smoke', () => {

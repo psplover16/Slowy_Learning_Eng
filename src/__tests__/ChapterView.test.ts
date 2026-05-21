@@ -180,6 +180,47 @@ describe('ChapterView (id="ch1") — quick nav + back-to-top integration', () =>
   })
 })
 
+describe('ChapterView (id="ch2") — dynamic sections (real data)', () => {
+  it('quick nav has exactly 4 buttons: 全文, 單字, 片語, 句型', async () => {
+    const wrapper = await mountChapter('ch2')
+    const nav = wrapper.find('[data-testid="ch2-quick-nav"]')
+    expect(nav.exists()).toBe(true)
+    const buttons = nav.findAll('button')
+    expect(buttons.length).toBe(4)
+    expect(buttons[0].text()).toBe('全文')
+    expect(buttons[1].text()).toBe('單字')
+    expect(buttons[2].text()).toBe('片語')
+    expect(buttons[3].text()).toBe('句型')
+  })
+
+  it('bilingual section IS in DOM', async () => {
+    const wrapper = await mountChapter('ch2')
+    expect(wrapper.find('#ch2-section-bilingual').exists()).toBe(true)
+  })
+
+  it('vocabulary section number=2, phrases=3, breakdown=4', async () => {
+    const wrapper = await mountChapter('ch2')
+    expect(wrapper.find('#ch2-section-vocabulary .font-fraunces.text-4xl').text()).toBe('2')
+    expect(wrapper.find('#ch2-section-phrases .font-fraunces.text-4xl').text()).toBe('3')
+    expect(wrapper.find('#ch2-section-breakdown .font-fraunces.text-4xl').text()).toBe('4')
+  })
+
+  it('renders 10 scene blocks', async () => {
+    const wrapper = await mountChapter('ch2')
+    expect(wrapper.findAll('[data-testid^="scene-"]').length).toBe(10)
+  })
+
+  it('header has no badge (empty headerLevelTag and headerTopicTag)', async () => {
+    const wrapper = await mountChapter('ch2')
+    expect(wrapper.find('header .bg-terracotta').exists()).toBe(false)
+  })
+
+  it('displays title 語言究竟是怎麼學會的', async () => {
+    const wrapper = await mountChapter('ch2')
+    expect(wrapper.text()).toContain('語言究竟是怎麼學會的')
+  })
+})
+
 describe('ChapterView — error states', () => {
   it('shows "找不到此章節" when id has no chapters config entry', async () => {
     const wrapper = await mountChapter('nonexistent-chapter')

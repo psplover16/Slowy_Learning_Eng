@@ -1,7 +1,7 @@
 <template>
   <div
     ref="rootEl"
-    data-testid="ch1-quick-nav"
+    :data-testid="`${chapterId}-quick-nav`"
     class="flex flex-nowrap gap-2 overflow-x-auto py-3"
   >
     <button
@@ -23,6 +23,7 @@ interface QuickNavSection {
 }
 
 defineProps<{
+  chapterId: string
   sections: QuickNavSection[]
 }>()
 

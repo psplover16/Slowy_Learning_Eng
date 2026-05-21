@@ -56,6 +56,7 @@ export interface ChapterData {
   headerLevelTag: string
   headerTopicTag: string
   mp3Src?: string | null
+  sourceSrc?: string
   scenes: Scene[]
   vocabGroups: VocabGroup[]
   phrases: PhraseCard[]

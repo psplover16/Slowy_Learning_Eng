@@ -13,16 +13,23 @@
             <span class="block font-newsreader italic text-base font-normal text-ink-soft mt-1">{{ chapterData.headerTitleEn }}</span>
           </h1>
           <div class="flex flex-wrap gap-2 mt-3">
-            <span class="text-xs px-3 py-1 rounded-full bg-terracotta text-white">{{ chapterData.headerLevelTag }}</span>
-            <span class="text-xs px-3 py-1 rounded-full bg-paper border border-line text-ink-soft">{{ chapterData.headerTopicTag }}</span>
+            <span v-if="chapterData.headerLevelTag" class="text-xs px-3 py-1 rounded-full bg-terracotta text-white">{{ chapterData.headerLevelTag }}</span>
+            <span v-if="chapterData.headerTopicTag" class="text-xs px-3 py-1 rounded-full bg-paper border border-line text-ink-soft">{{ chapterData.headerTopicTag }}</span>
           </div>
+          <a
+            v-if="chapterData.sourceSrc"
+            :href="chapterData.sourceSrc"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block mt-3 text-xs text-ink-faint hover:text-terracotta transition-colors"
+          >▶ YouTube 原聲影片</a>
         </header>
 
-        <SectionQuickNav ref="quickNavRef" :sections="quickNavSections" />
+        <SectionQuickNav ref="quickNavRef" :chapter-id="id" :sections="quickNavSections" />
 
-        <section :id="`${id}-section-bilingual`" class="mb-10">
+        <section v-if="chapterData.scenes.length" :id="`${id}-section-bilingual`" class="mb-10">
           <div class="flex items-baseline gap-3 border-b-2 border-ink pb-2 mb-6">
-            <span class="font-fraunces text-4xl font-semibold text-terracotta">1</span>
+            <span class="font-fraunces text-4xl font-semibold text-terracotta">{{ sectionNums['bilingual'] }}</span>
             <span class="font-fraunces text-xl font-semibold">中英對照全文
               <span class="block font-newsreader italic text-sm font-normal text-ink-faint">Bilingual Full Text</span>
             </span>
@@ -49,9 +56,9 @@
           </div>
         </section>
 
-        <section :id="`${id}-section-vocabulary`" class="mb-10">
+        <section v-if="chapterData.vocabGroups.length" :id="`${id}-section-vocabulary`" class="mb-10">
           <div class="flex items-baseline gap-3 border-b-2 border-ink pb-2 mb-6">
-            <span class="font-fraunces text-4xl font-semibold text-terracotta">2</span>
+            <span class="font-fraunces text-4xl font-semibold text-terracotta">{{ sectionNums['vocabulary'] }}</span>
             <span class="font-fraunces text-xl font-semibold">重點單字
               <span class="block font-newsreader italic text-sm font-normal text-ink-faint">Key Vocabulary</span>
             </span>
@@ -68,9 +75,9 @@
           </div>
         </section>
 
-        <section :id="`${id}-section-phrases`" class="mb-10">
+        <section v-if="chapterData.phrases.length" :id="`${id}-section-phrases`" class="mb-10">
           <div class="flex items-baseline gap-3 border-b-2 border-ink pb-2 mb-6">
-            <span class="font-fraunces text-4xl font-semibold text-terracotta">3</span>
+            <span class="font-fraunces text-4xl font-semibold text-terracotta">{{ sectionNums['phrases'] }}</span>
             <span class="font-fraunces text-xl font-semibold">重點片語與慣用語
               <span class="block font-newsreader italic text-sm font-normal text-ink-faint">Key Phrases &amp; Idioms</span>
             </span>
@@ -79,9 +86,9 @@
           <PhraseCard v-for="p in chapterData.phrases" :key="p.id" v-bind="p" />
         </section>
 
-        <section :id="`${id}-section-breakdown`" class="mb-10">
+        <section v-if="chapterData.breakdowns.length" :id="`${id}-section-breakdown`" class="mb-10">
           <div class="flex items-baseline gap-3 border-b-2 border-ink pb-2 mb-6">
-            <span class="font-fraunces text-4xl font-semibold text-terracotta">4</span>
+            <span class="font-fraunces text-4xl font-semibold text-terracotta">{{ sectionNums['breakdown'] }}</span>
             <span class="font-fraunces text-xl font-semibold">句型解析
               <span class="block font-newsreader italic text-sm font-normal text-ink-faint">Sentence Breakdown</span>
             </span>
@@ -98,7 +105,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, nextTick, ref, computed } from 'vue'
+import { onMounted, nextTick, ref, computed, watch } from 'vue'
 import Mp3Player from '../../shared/components/Mp3Player.vue'
 import BackToWordFab from '../../shared/components/BackToWordFab.vue'
 import BackToTopFab from '../../shared/components/BackToTopFab.vue'
@@ -120,18 +127,36 @@ const notFound = ref(false)
 const { getBookmark } = useReadingBookmark()
 const { sourceScrollY, triggerScroll, returnToSource } = useUnderlinkBacklink()
 
-const quickNavSections = computed(() => [
-  { id: `${props.id}-section-bilingual`, label: '全文' },
-  { id: `${props.id}-section-vocabulary`, label: '單字' },
-  { id: `${props.id}-section-phrases`, label: '片語' },
-  { id: `${props.id}-section-breakdown`, label: '句型' },
-])
+const quickNavSections = computed(() => {
+  if (!chapterData.value) return []
+  const d = chapterData.value
+  let n = 1
+  const sections: { id: string; label: string; num: number }[] = []
+  if (d.scenes.length)      sections.push({ id: `${props.id}-section-bilingual`,  label: '全文', num: n++ })
+  if (d.vocabGroups.length)  sections.push({ id: `${props.id}-section-vocabulary`, label: '單字', num: n++ })
+  if (d.phrases.length)      sections.push({ id: `${props.id}-section-phrases`,    label: '片語', num: n++ })
+  if (d.breakdowns.length)   sections.push({ id: `${props.id}-section-breakdown`,  label: '句型', num: n++ })
+  return sections
+})
+
+const sectionNums = computed(() => {
+  const map: Record<string, number> = {}
+  for (const s of quickNavSections.value) {
+    const key = s.id.replace(`${props.id}-section-`, '')
+    map[key] = s.num
+  }
+  return map
+})
 
 const quickNavRef = ref<{ rootEl: HTMLElement | null } | null>(null)
 const quickNavRootEl = ref<HTMLElement | null>(null)
 
-onMounted(async () => {
-  const entry = chapters.find((c) => c.id === props.id)
+async function loadChapter(id: string, restoreBookmark: boolean) {
+  window.scrollTo(0, 0)
+  notFound.value = false
+  chapterData.value = null
+
+  const entry = chapters.find((c) => c.id === id)
   if (!entry) {
     notFound.value = true
     return
@@ -143,12 +168,17 @@ onMounted(async () => {
   await nextTick()
   quickNavRootEl.value = quickNavRef.value?.rootEl ?? null
 
-  const bookmarkedId = getBookmark(props.id)
-  if (bookmarkedId) {
-    const el = document.getElementById(bookmarkedId)
-    el?.scrollIntoView({ behavior: 'smooth' })
+  if (restoreBookmark) {
+    const bookmarkedId = getBookmark(id)
+    if (bookmarkedId) {
+      const el = document.getElementById(bookmarkedId)
+      el?.scrollIntoView({ behavior: 'smooth' })
+    }
   }
-})
+}
+
+onMounted(() => loadChapter(props.id, true))
+watch(() => props.id, (newId) => loadChapter(newId, false))
 
 function handleVocabClick(e: Event) {
   const target = e.target as HTMLElement
