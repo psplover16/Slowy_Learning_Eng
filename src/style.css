@@ -23,3 +23,11 @@
   padding-top: max(env(safe-area-inset-top), 0px);
 }
 
+/* Offset scrollIntoView so anchored content (Ch1 section headings, reading
+ * bookmark scene targets, etc.) lands below the sticky NavBar instead of
+ * being occluded by it. NavBar height ≈ 50px on desktop; add safe-area inset
+ * for iOS notch devices. */
+html {
+  scroll-padding-top: calc(4rem + env(safe-area-inset-top, 0px));
+}
+

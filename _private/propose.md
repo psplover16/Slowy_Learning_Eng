@@ -1,402 +1,278 @@
-# Proposal — Slowy Learning Eng：行動優先英語學習 PWA
+# Proposal — `/ch1` 路由切換與頁內快捷導覽
 
 > 此檔由 `/spectra-discuss` 產出。輸入：`_private/discuss.txt`。
-> **狀態：定稿** — Q1–Q5 已全部確認，可執行 `/spectra-apply`。
+> **狀態：定稿** — 5 個 assumption 全部接受，可執行 `/spectra-propose` 立案。
 
 ---
 
-## 決議紀錄（Q&A 彙整）
+## 一、問題
 
-| Q | 問題 | 決議 |
-|---|---|---|
-| Q1 | 舊 propose.md 是否保留 | 覆蓋無所謂，不保留 |
-| Q2 | 技術棧 | **Vue3 + Tailwind**；`ch1-new york travel.html` 僅作設計/排版參考，不是實作技術棧 |
-| Q3 | 文法頁範圍 | **B**：文法頁只放通用文法（英語詞性介紹 + like 的用法）；其餘詞彙/句型說明放在各**內容頁下方** |
-| Q4 | MP3 來源 | Ch1 目前**無音檔**；播放器元件須條件渲染（有 mp3Src prop 才顯示），未來有音檔時傳入即可 |
-| Q5 | 底線單字互動 | 平滑捲動至下方說明 + 右下角懸浮「回到單字」按鈕；按鈕記錄**被點選的那個底線單字**的位置（非說明區塊），避免多個底線字對應同一說明時回錯位置 |
+`_private/discuss.txt` 兩個訴求：
 
----
-
-## 一、專案定位
-
-以 `_private/ch1-new york travel.html` 的**視覺設計語言**為參考，使用 **Vue3 + Tailwind CSS** 打造一個行動優先、可離線使用的英語學習 PWA，供使用者閱讀文章、學習文法、追蹤學習進度。
+1. **路由切換不便**：在 `/ch1` 想去 `/grammar`，看完想回 `/ch1` 沒辦法——必須先切到首頁 `/`，再從首頁列表點 ch1。多一個步驟，太麻煩。
+2. **`/ch1` 頁內缺乏快捷導覽**：ch1 文章很長（15 個 scene + 6 個 vocab group + 13 個 phrase + 30 個 sentence breakdown），分四大段（中英對照全文、重點單字、重點片語與慣用語、句型解析），想：
+   - 頂部 4 個快捷按鈕，點下 smooth scroll 到對應段落
+   - 當畫面滾動到快捷按鈕看不見時，右下角顯示懸浮 fab，點下 smooth scroll 回頂
 
 ---
 
-## 二、整體架構（3 個路由）
+## 二、決議
+
+| # | 決議 | 理由 |
+|---|------|------|
+| D1 | NavBar 直接加第三個按鈕「Ch1」連到 `/ch1` | YAGNI——目前只有一篇內容，未來真出 Ch2 再 refactor 為下拉選單；最直接、不影響既有體驗 |
+| D2 | 頁內快捷按鈕**不 sticky**，是 header 下方的普通元素 | discuss.txt 明示「滾到看不見快捷按鈕時」才出 fab；若 sticky 則永遠看得到 fab 永遠不需出現，矛盾 |
+| D3 | 4 個 section 加 id，按鈕用 `scrollIntoView({behavior:"smooth"})` | 專案 `Ch1View.vue:120` 已用相同 API；id 用 `ch1-section-*` 前綴避免未來 Ch2 重複 |
+| D4 | 用 `IntersectionObserver` 偵測快捷按鈕區塊可見性，決定 fab 顯示 | 比 scrollY threshold 精確；元素長度變化也不需重抓 threshold |
+| D5 | 抽共用元件 `SectionQuickNav.vue` + `BackToTopFab.vue` 放 `src/shared/components/` | 未來 Ch2/Ch3 可重用；接受 `sections: Array<{id, label}>` prop |
+| D6 | `BackToTopFab` 與既有 `BackToWordFab` 同時出現時**垂直堆疊**（回單字在上、回頂在下） | 兩個 fab 都用 `bottom-6 right-6 z-40`，需錯位；垂直堆疊不破壞既有 BackToWord 體驗 |
+
+---
+
+## 三、規格
+
+### 3.1 NavBar 變更（D1）
+
+`src/shared/components/NavBar.vue` 在「首頁」「文法」之間或之後加第三個 `<RouterLink>`：
 
 ```
-┌────────────────────────────────────┐
-│          導覽列（頂部固定）          │
-│  [首頁]          [文法]            │
-└────────────────────────────────────┘
-         │                 │
-    ┌────┴────┐       ┌────┴────┐
-    │  首頁   │       │  文法   │
-    │  列表   │       │ 通用文法 │
-    └────┬────┘       └─────────┘
-         │ 點選列表
-    ┌────┴────┐
-    │  內容頁  │  （多頁，Ch1、Ch2…）
-    │  文章   │
-    └─────────┘
+[首頁]  [Ch1]  [文法]
 ```
 
-**技術選型**：
+- 連結 `to="/ch1"`
+- 樣式同既有兩個按鈕：未 active 時 `bg-paper text-ink`，active 時 `bg-terracotta text-white`
+- `data-testid="nav-ch1"`（為了測試）
 
-| 項目 | 選型 |
-|---|---|
-| 框架 | Vue 3（Composition API + `<script setup>`）|
-| 樣式 | Tailwind CSS + 自訂 CSS variables（沿用 ch1 色系）|
-| 路由 | Vue Router 4（History 或 Hash mode）|
-| 建置 | Vite |
-| PWA | vite-plugin-pwa（含 Service Worker）|
-| 狀態 / 持久化 | localStorage（completion + bookmark）|
+按鈕順序：首頁 → Ch1 → 文法（讓「內容」位於中間，文法在右）。
+
+### 3.2 `/ch1` 頁面快捷導覽（D2、D3）
+
+`src/modules/ch1/views/Ch1View.vue` 結構變更：
+
+```html
+<main>
+  <header>...</header>
+
+  <!-- 新增：快捷導覽列（非 sticky，會跟著滾走）-->
+  <SectionQuickNav :sections="ch1Sections" />
+
+  <section id="ch1-section-bilingual">中英對照全文...</section>
+  <section id="ch1-section-vocabulary">重點單字...</section>
+  <section id="ch1-section-phrases">重點片語與慣用語...</section>
+  <section id="ch1-section-breakdown">句型解析...</section>
+</main>
+
+<BackToWordFab ... />            <!-- 既有 -->
+<BackToTopFab :anchorEl="..." /> <!-- 新增 -->
+```
+
+#### `SectionQuickNav.vue` 規格
+
+```ts
+interface QuickNavSection {
+  id: string      // section 元素 id
+  label: string   // 按鈕文字
+}
+defineProps<{ sections: QuickNavSection[] }>()
+```
+
+- 4 個按鈕橫向排列（手機優先：必要時可橫向 scroll；`flex flex-nowrap overflow-x-auto`）
+- 每個按鈕點下 `document.getElementById(id)?.scrollIntoView({behavior:"smooth", block:"start"})`
+- 元素本身**不 sticky**，跟著頁面滾動
+- 暴露根元素 ref（用 `defineExpose({ rootEl })` 或讓父層用 ref 抓）——給 `BackToTopFab` 監看用
+- `data-testid="ch1-quick-nav"`
+
+#### `Ch1View.vue` 的 sections 設定
+
+```ts
+const ch1Sections = [
+  { id: 'ch1-section-bilingual', label: '全文' },
+  { id: 'ch1-section-vocabulary', label: '單字' },
+  { id: 'ch1-section-phrases', label: '片語' },
+  { id: 'ch1-section-breakdown', label: '句型' },
+]
+```
+
+label 用簡稱（手機橫向空間有限）。
+
+### 3.3 回頂 fab（D4、D6）
+
+#### `BackToTopFab.vue` 規格
+
+```ts
+defineProps<{
+  /** 監看此元素是否在 viewport；元素不在時顯示 fab */
+  anchorEl: HTMLElement | null
+  /** 若已有其他 fab 顯示在 right-6 bottom-6，此 fab 上推；單位 px */
+  offsetBottom?: number  // default 0
+}>()
+```
+
+行為：
+- 用 `IntersectionObserver` 監看 `anchorEl`
+- 當 `anchorEl` 不在 viewport（`!isIntersecting`）→ 顯示 fab
+- 點 fab → `window.scrollTo({top:0, behavior:"smooth"})`
+- 樣式：`fixed right-6 z-40`，`bottom` 由 `offsetBottom` 計算（預設 `bottom: 1.5rem`，即 `bottom-6`）
+- 圖示 / 文字：「↑ 回頂」
+- Transition：複用 `BackToWordFab.vue` 的 fab fade pattern
+- `data-testid="back-to-top-fab"`
+
+#### Ch1View.vue 同時掛兩個 fab（D6 堆疊）
+
+```vue
+<BackToWordFab
+  :source-scroll-y="sourceScrollY"
+  @return-to-source="returnToSource"
+/>
+<BackToTopFab
+  :anchor-el="quickNavRef"
+  :offset-bottom="sourceScrollY !== null ? 60 : 0"
+/>
+```
+
+- `BackToWordFab` 永遠在最底（`bottom-6 right-6`）
+- `BackToTopFab` 若同時要顯示 → `offsetBottom=60`（堆疊在 BackToWord 上方）
+- `BackToTopFab` 若獨自顯示 → `offsetBottom=0`（自己貼底）
+
+這條件可由 `BackToTopFab` 自己查 DOM，但更乾淨是父層 `Ch1View` 控制（passing prop）。
 
 ---
 
-## 三、路由詳細規格
+## 四、影響範圍
 
-### 3.1 首頁（`/`）
+### 新增檔案
 
-| 元素 | 規格 |
-|---|---|
-| 頂部導覽列 | 固定頂部；兩個按鈕：首頁、文法；高亮當前路由 |
-| 內容列表 | 每列 = 一篇文章（標題 + 副標題）|
-| 完成標記 icon | 每列末端；預設空心；點選 → 填實心並寫入 localStorage |
-| 下次開啟 | 恢復上次的完成狀態 |
+| 路徑 | 說明 |
+|------|------|
+| `src/shared/components/SectionQuickNav.vue` | 4 段快捷按鈕橫向 toolbar |
+| `src/shared/components/BackToTopFab.vue` | IntersectionObserver 觸發的回頂 fab |
+| `src/__tests__/SectionQuickNav.test.ts` | 單元測試：sections prop、click → scrollIntoView 呼叫 |
+| `src/__tests__/BackToTopFab.test.ts` | 單元測試：anchorEl 進出 viewport → fab 顯隱、offsetBottom 套用 |
 
-**Storage key**：`slowy:completion` → `{ "ch1": true, "ch2": false, … }`
+### 修改檔案
 
----
+| 路徑 | 變動 |
+|------|------|
+| `src/shared/components/NavBar.vue` | 加第 3 個 RouterLink「Ch1」連 `/ch1` |
+| `src/modules/ch1/views/Ch1View.vue` | (a) 4 個 `<section>` 加 `id="ch1-section-*"`；(b) header 後加 `<SectionQuickNav>`；(c) 結尾加 `<BackToTopFab>` 並把 quickNavRef 串進去 |
+| `src/__tests__/NavBar.test.ts` | 加斷言：第 3 個按鈕存在、文字「Ch1」、`to="/ch1"` |
+| `src/__tests__/Ch1View.test.ts` | 加斷言：4 個 section 有對應 id、SectionQuickNav 渲染、BackToTopFab 渲染 |
 
-### 3.2 文法頁（`/grammar`）
+### 不動的檔案
 
-範圍：**通用文法** —— 英語常見詞性介紹 + like 的全用法。  
-內容頁相關的詞彙/句型說明**不放此處**，留在各內容頁下方。
-
-每個文法容器的規格：
-
-- **詞性 / 類別** badge
-- **用途說明**（中文）
-- **用法公式**（Newsreader 字型，底色 teal）
-- **例句**（英文 + 中文翻譯，斜體）
-- **常見用法表格**（如有多種用法）
-- **注意事項 / 易混淆**（如有）
-
-**初始內容**：
-
-| # | 主題 |
-|---|---|
-| G01 | **英語常見詞性介紹** — n. / v. / adj. / adv. / prep. / conj. / pron. 各自的用途與識別方式 |
-| G02 | **like 的全用法** — 動詞（喜歡）/ 介系詞（像）/ 連接詞（feel like + 子句）|
+- `src/app/router/index.ts` — `/ch1` 路由已存在
+- `src/shared/components/BackToWordFab.vue` — 既有 fab 不動，只透過父層 prop 調整位置
+- `src/shared/composables/useUnderlinkBacklink.ts` — 不動
+- `src/modules/grammar/views/GrammarView.vue` — 不動
 
 ---
 
-### 3.3 內容頁（`/ch1`、`/ch2`…）
+## 五、Non-Goals（明確不做）
 
-#### MP3 播放器（Sticky 頂部）
+- 不為 `/grammar` 加類似快捷導覽（文法頁是單一連續清單，G01–G18 已用 badge 編號夠用）
+- 不為 NavBar 加動態內容頁選單（YAGNI——目前只有 ch1）
+- 不改 NavBar 視覺風格／高度／背景色
+- 不新增「上一篇 / 下一篇」內容頁切換（單一篇內容，無需要）
+- 不調整既有 `BackToWordFab` 的位置或行為
+- 不引入 scroll spy（按鈕 highlight 當前 section）——這是 nice-to-have，可未來變更再做
+- 不引入 `<a href="#anchor">` URL hash 同步——只用 JS scrollIntoView，URL 不變
+
+---
+
+## 六、設計與測試示例
+
+### 6.1 SectionQuickNav 視覺示意
 
 ```
 ┌─────────────────────────────────────────────┐
-│ ◀━━━━━━━━━━━━━━━━━━━━━━━━▶  00:00 / 00:00  │ sticky top
-│ ⏮5s  ⏸/▶  ⏭10s  🔊──●──  🔁 Loop        │
+│ [全文]  [單字]  [片語]  [句型]              │ ← 普通 flex 元素
+└─────────────────────────────────────────────┘   非 sticky，會跟頁面滾走
+        ↓ 點「單字」
+┌─────────────────────────────────────────────┐
+│  scrollIntoView({behavior:"smooth"})        │
+│  捲到 <section id="ch1-section-vocabulary"> │
 └─────────────────────────────────────────────┘
 ```
 
-| 功能 | 規格 |
-|---|---|
-| 播放 / 暫停 | 切換圖示 |
-| 前進 5 秒 | 按鈕 |
-| 前進 10 秒 | 按鈕 |
-| 音量調整 | slider |
-| 拖拉時間軸 | range input |
-| 重複播放 | loop toggle，預設 ON |
-| 離線播放 | Service Worker 快取 MP3 |
-| **無 MP3 時** | 整個播放器元件不渲染（prop `mp3Src` 為空時隱藏）|
+### 6.2 BackToTopFab 觸發示意
 
-> Ch1 目前無音檔，播放器預設隱藏；未來提供音檔路徑即可啟用。
+```
+ViewPort 頂部
+─────────────
+│ NavBar
+│ Header
+│ [全文][單字][片語][句型]  ← anchorEl
+│ ...                       ← 在 viewport，fab 隱藏
+─────────────
+↓ 使用者向下滾動
+
+ViewPort 頂部
+─────────────
+│ ...單字 section 內容
+│ ...                                       ┌──────┐
+│                                           │↑回頂│ ← fab
+─────────────                               └──────┘
+                                             bottom:6
+```
+
+### 6.3 兩 fab 堆疊示意（同時顯示）
+
+```
+                                          ┌──────┐
+                                          │↑回頂│ ← BackToTopFab, bottom:60+6
+                                          └──────┘
+                                          ┌────────┐
+                                          │↑回單字│ ← BackToWordFab, bottom:6
+                                          └────────┘
+```
+
+### 6.4 主要測試案例
+
+**NavBar.test.ts**：
+- 渲染後 `[data-testid="nav-ch1"]` 存在、文字是「Ch1」、`href` 包含 `/ch1`
+- 點下後 router 切到 `/ch1`（用 mock router 驗證）
+
+**SectionQuickNav.test.ts**：
+- 給 4 個 sections → 渲染 4 個按鈕，文字符合 `section.label`
+- 點第 N 個按鈕 → 呼叫 `document.getElementById(sections[N].id).scrollIntoView` with `{behavior:"smooth"}`
+- 找不到對應 id 的元素時不 throw（gracefully no-op）
+
+**BackToTopFab.test.ts**：
+- anchorEl=null → fab 不顯示
+- anchorEl 在 viewport（mock IntersectionObserver entry `isIntersecting=true`）→ fab 不顯示
+- anchorEl 離開 viewport（`isIntersecting=false`）→ fab 顯示
+- 再回到 viewport → fab 重新隱藏
+- 點 fab → `window.scrollTo` 被呼叫且傳入 `{top:0, behavior:"smooth"}`
+- `offsetBottom=60` prop → 樣式 `bottom: calc(1.5rem + 60px)` 或等價
+
+**Ch1View.test.ts**（追加）：
+- 4 個 `<section>` 有對應 `id`（`ch1-section-bilingual`、`ch1-section-vocabulary`、`ch1-section-phrases`、`ch1-section-breakdown`）
+- `SectionQuickNav` 元件被渲染、`sections` prop 是 4 筆
+- `BackToTopFab` 元件被渲染
 
 ---
 
-#### 段落書籤（閱讀位置記憶）
+## 七、下一步
 
-- 每個段落標題可點選
-- 點選 → 寫入 localStorage 作為「上次讀到」書籤
-- 同一路由只能有一個書籤
-- 下次進入同一路由 → 自動平滑捲動到書籤位置
-
-**Storage key**：`slowy:bookmark` → `{ "ch1": "scene-04", … }`
-
----
-
-#### 底線單字互動（Q5 規格）
+執行 `/spectra-propose` 立案，建議 change name：
 
 ```
-使用者點選文章中底線單字
-        │
-        ▼
-平滑捲動至該單字對應的「詳細說明區塊」
-        │
-        ▼
-右下角出現懸浮「↑ 回到單字」按鈕
-（按鈕內部記錄：被點選單字的 DOM id 或 scrollY 位置）
-        │
-        ▼
-點擊按鈕 → 平滑捲動回到「當初點選的那個底線單字」
-（非說明區塊，確保多個底線字 → 同一說明時，回到正確位置）
-        │
-        ▼
-懸浮按鈕消失
+add-ch1-quick-nav-and-nav-ch1-link
 ```
 
-**注意**：多個底線單字可能對應同一個說明區塊，因此懸浮按鈕必須記錄**觸發來源的單字位置**，而非說明區塊的位置。
-
----
-
-#### 單字標記格式（行動裝置優先）
-
-英語、KK音標、中文**各佔一行**，不並排：
+或拆成兩個 change（單一職責更清晰）：
 
 ```
-英語單字 / 片語
-[KK ˈfəʊnɛtɪks]   ← 字體較小
-中文翻譯或註釋
+add-nav-ch1-link              ← 只動 NavBar（小）
+add-ch1-section-quick-nav     ← 動 Ch1View + 兩個新共用元件（中）
 ```
 
-- 文章行內有額外說明的單字/片語：加**底線**
-- 底線單字的詳細說明放在**本段落下方的詞彙/句型補充區**
-
----
-
-#### 詞彙補充區（段落下方）
-
-| 類型 | 呈現元件 |
-|---|---|
-| 簡單單字 | word-tag（英語 / KK / 詞性 / 中文）|
-| 複雜片語 / 慣用語 | phrase card（左 ochre 色條，含用法 + 例句）|
-| 句型解析 | sentence breakdown card（含中譯 + 逐段拆解）|
-
----
-
-## 四、Ch1 內容清單（全部必須收錄）
-
-> 使用者確認：discuss.txt 中所有英語用法皆為不熟悉項目，**一個都不能省略**。
-
-### 4.1 詞彙補充（KK 音標 + 詞性 + 意思）
-
-| 英語 | 補充項目 |
-|---|---|
-| from the moment | 片語說明 + 用法 |
-| chill | adj./v. KK + 意思 |
-| intense | adj. KK + 意思 |
-| since the night before | 片語 |
-| deluxe | adj. KK + 意思 |
-| tater tots | n. KK + 意思 |
-| burrito | n. KK + 意思 |
-| plenty of time | 片語 |
-| layover | n. KK + 意思 |
-| right away | 片語 |
-| unnecessarily | adv. KK + 意思 |
-| cone | n. KK + 意思 |
-| graduation | n. KK + 意思 |
-| huge | adj. KK + 意思 |
-| went all out | 片語 |
-| candy table | n. 意思 |
-| nachos | n. KK + 意思 |
-| Jenga | n. 意思 |
-| tic tac toe | n. 意思 |
-| mushroom | n. KK + 意思 |
-| hydro | n. 意思（語境：水力發電）|
-| got to see | 片語（get to + V = 有機會做）|
-| landscapes | n. KK + 意思 |
-| fields and fields of | 片語 |
-| vegetation | n. KK + 意思 |
-| windmills | n. KK + 意思 |
-| screen door | n. 意思 |
-| rhubarb | n. KK + 意思 |
-| a little while | 片語 |
-| renew | v. KK + 意思 |
-| license | n. KK + 意思 |
-| all the way | 片語 |
-| weird | adj. KK + 意思 |
-| definitely | adv. KK + 意思 |
-| mowed | v. KK + 意思（mow 過去式）|
-| lawn | n. KK + 意思 |
-| underneath | prep. KK + 意思 |
-| hogs | n. KK + 意思（豬）|
-| head back | 片語 |
-| winding around | 片語 |
-| even more impressive | 比較級強調 |
-| hostel | n. KK + 意思 |
-| filmed | v. 意思 |
-| passed out | 片語（昏倒 / 沉沉睡去）|
-| construction sites | n. 意思 |
-| sprinkling | v./n. KK + 意思（毛毛雨）|
-| kebab | n. KK + 意思 |
-| decent | adj. KK + 意思 |
-| scammed / scamming | v. KK + 意思 |
-| tourist | n. KK + 意思 |
-| obsessed | adj. KK + 意思 |
-| specifically | adv. KK + 意思 |
-| doughy | adj. KK + 意思 |
-| biased | adj. KK + 意思 |
-| opinion | n. KK + 意思 |
-| smoothies | n. KK + 意思 |
-| ginger | n. KK + 意思 |
-| shots（ginger shots）| n. 意思（一口量飲品）|
-| salted | adj. 意思 |
-| pretzel | n. KK + 意思 |
-| avocado | n. KK + 意思 |
-| souvenirs | n. KK + 意思 |
-| mug | n. KK + 意思（馬克杯）|
-| leftover | n./adj. 意思（名詞：剩菜；形容詞：剩餘的）|
-| to board | v. 意思（登機 / 登船 / 上車）|
-
-### 4.2 句型 / 用法解析（放在各段落下方）
-
-| 原句 / 主題 | 解析項目 |
-|---|---|
-| `that's where my aunt picked us up` | that's where 強調句型；pick up 結構 |
-| `imagine walking somewhere` | imagine + V-ing；somewhere 在此的意思 |
-| `for the next few days` | for 表示「在接下來的…時間」 |
-| `hung out with them` | hang out 完整用法（搭配 with / at / in）|
-| `used to + V` | 過去曾經…（現已不）用法 |
-| `it brought back so many nostalgic feelings` | bring back + 抽象名詞；nostalgic / nostalgia |
-| `There's nothing like that nostalgic feeling of being in...` | 三層拆解：There's nothing like / feeling of / being in |
-| `What brings those feelings for you?` | those 作指示代名詞；brings 在情感語境的意思 |
-| `cut through the middle` / `going through the tree` | cut through / go through 穿越 / 貫穿 |
-| `instead of chopping down` | instead of + V-ing；chopping down 意思 |
-| `cut around so the cable could go through` | so 表示「這樣一來」；句子拆解 |
-| `to have had such a beautiful childhood` | 不定詞完成式 to have had：使用時機、如何用、舉例 |
-| `grateful for having as a kid` | 關係代名詞省略規則；grateful for + V-ing；as a kid |
-| `for + 時間長度` | 列舉常見用法：for a while / for an hour / for days… |
-| `all torn apart everywhere` | all 加強語氣；torn apart；副詞片語 everywhere |
-| `The first thing we did was head to bed` | 關係代名詞受詞省略 + be 動詞後接原形 |
-| `I don't know if I was scammed` | if 作「是否 / whether」用法；與假設用法的差異 |
-| `getting you to pay attention... so that behind you they can take your wallets` | 分詞片語介紹（種類 / 意義 / 現在 vs 過去分詞）；使役動詞 make / have / get / let；so that 表目的；語序強調說明 |
-| `be aware of` vs `be aware` | 有具體對象時接 of；單獨使用表保持警覺 |
-| `ever`（疑問句 / 最高級後 / 否定句）| 三種語境的強調用法 |
-| `I have been obsessed` | 現在完成式：have/has + 過去分詞；語意說明 |
-| `I've been dreaming of this moment for so long` | 現在完成進行式：have been + V-ing；與完成式差異 |
-| `get` 各種用法 | 取得 / 變成 / 使某人 / 到達 / 搭（交通）逐一列舉 |
-| `it felt like I was in a movie eating a salted pretzel` | feel like + 子句；eating 作現在分詞修飾 I |
-| `the best pizza that I have ever had` | 現在完成式 + ever 強調 |
-| `while boarding` | while + V-ing 用法 |
-| `prefer to + V` | 比較喜歡；與 prefer V-ing 的差異 |
-| `put on` | 穿上 / 放到身上 / 開啟（電器 / 節目）|
-| `just as beautiful as the landing` | just as + 形容詞 + as 結構 |
-
----
-
-## 五、技術方案
-
-### 5.1 專案結構（Vue3 + Vite + Tailwind）
-
-```
-Slowy_Learning_Eng/
-├── public/
-│   ├── manifest.json         ← PWA manifest
-│   └── audio/                ← 未來 MP3 音檔放置處
-├── src/
-│   ├── main.ts
-│   ├── App.vue               ← 殼層（NavBar + <RouterView>）
-│   ├── router/
-│   │   └── index.ts          ← Vue Router（/ , /grammar, /ch1…）
-│   ├── views/
-│   │   ├── HomeView.vue      ← 首頁列表
-│   │   ├── GrammarView.vue   ← 文法頁（詞性 + like）
-│   │   └── Ch1View.vue       ← Ch1 內容頁
-│   ├── components/
-│   │   ├── NavBar.vue        ← 頂部固定導覽
-│   │   ├── Mp3Player.vue     ← 播放器（mp3Src 為空則不渲染）
-│   │   ├── WordTag.vue       ← 單字標記（KK / 詞性 / 中文）
-│   │   ├── PhraseCard.vue    ← 片語卡片
-│   │   ├── SentenceBreakdown.vue ← 句型拆解卡片
-│   │   └── BackToWordFab.vue ← 右下角懸浮「回到單字」按鈕
-│   └── composables/
-│       ├── useCompletion.ts  ← 完成標記讀寫
-│       └── useBookmark.ts    ← 段落書籤讀寫
-├── tailwind.config.ts
-├── vite.config.ts            ← 含 vite-plugin-pwa
-└── package.json
-```
-
-### 5.2 Storage Schema
-
-```json
-// localStorage key: "slowy:completion"
-{ "ch1": true, "ch2": false }
-
-// localStorage key: "slowy:bookmark"
-{ "ch1": "scene-04", "ch2": null }
-```
-
-### 5.3 PWA / Service Worker（vite-plugin-pwa）
-
-- 快取策略：Cache First（HTML / CSS / JS）
-- MP3：Network First with fallback to cache
-- `manifest.json`：`display: "standalone"`, `theme_color: "#F4ECDC"`
-
----
-
-## 六、設計規範（參考 ch1 設計語言）
-
-| 色彩 token | 對應 Tailwind 自訂色 | 用途 |
-|---|---|---|
-| `--paper` `#F4ECDC` | `paper` | 主背景 |
-| `--paper-2` `#FBF6EA` | `paper-2` | 次背景 |
-| `--paper-3` `#FFFCF4` | `paper-3` | 卡片背景 |
-| `--terracotta` `#BF5635` | `terracotta` | 強調色（數字、標題）|
-| `--sage` `#6B7848` | `sage` | 詞彙分組標題 |
-| `--ochre` `#C28A2C` | `ochre` | 片語卡片左邊條 |
-| `--teal` `#3F726E` | `teal-eng` | 文法公式底色 |
-| `--ink` `#322B22` | `ink` | 主文字 |
-
-**字型**（Google Fonts）：Fraunces（標題）/ Newsreader（英文內文）/ Noto Sans TC（中文）
-
-**行動優先斷行**：英語與中文之間使用 `block` 顯示，不並排。
-
----
-
-## 七、影響範圍（全新建立）
-
-| 檔案 / 目錄 | 說明 |
-|---|---|
-| `src/App.vue` | 殼層 + NavBar + RouterView |
-| `src/router/index.ts` | 路由設定 |
-| `src/views/HomeView.vue` | 首頁列表 + 完成標記 |
-| `src/views/GrammarView.vue` | 文法頁（詞性 + like）|
-| `src/views/Ch1View.vue` | Ch1 完整內容（詞彙 + 句型解析）|
-| `src/components/NavBar.vue` | 頂部固定導覽列 |
-| `src/components/Mp3Player.vue` | 播放器，mp3Src 空則隱藏 |
-| `src/components/WordTag.vue` | 單字標記 |
-| `src/components/PhraseCard.vue` | 片語卡片 |
-| `src/components/SentenceBreakdown.vue` | 句型拆解卡片 |
-| `src/components/BackToWordFab.vue` | 懸浮「回到單字」按鈕 |
-| `src/composables/useCompletion.ts` | 完成標記邏輯 |
-| `src/composables/useBookmark.ts` | 段落書籤邏輯 |
-| `tailwind.config.ts` | 自訂色彩 token |
-| `vite.config.ts` | 含 vite-plugin-pwa |
-| `public/manifest.json` | PWA manifest |
-
----
-
-## 八、下一步
-
-執行 `/spectra-propose` 正式立案，產出 `openspec/changes/<name>/`，建議 change name：
-
-```
-build-slowy-learning-eng-pwa
-```
+**推薦**：合成一個 change，因為兩者都源自同一個使用者痛點（「在 ch1 內無法快速導航」），分兩個 PR 會打散 review context。tasks.md 內部分群即可。
 
 實作建議順序：
 
-1. 建立 Vite + Vue3 + Tailwind 專案骨架
-2. `NavBar.vue` + Router（3 個路由）
-3. `HomeView.vue`（列表 + 完成標記）
-4. `Mp3Player.vue`（播放器，Ch1 暫無音檔）
-5. `Ch1View.vue`（文章 + 詞彙 + 書籤 + 底線單字互動）
-6. `BackToWordFab.vue`
-7. `GrammarView.vue`（詞性 + like）
-8. PWA（manifest + Service Worker）
+1. `BackToTopFab.vue` + 單元測試（純元件，無依賴，先寫先綠）
+2. `SectionQuickNav.vue` + 單元測試
+3. `Ch1View.vue` 串接（加 section id、放兩個新元件、串 ref/prop）+ test 追加
+4. `NavBar.vue` 加 Ch1 按鈕 + test 追加
+5. 手機 viewport 手動驗證：點按鈕跳轉、滾出畫面看 fab 出現、fab 點下回頂、底線單字觸發兩 fab 並存時不重疊

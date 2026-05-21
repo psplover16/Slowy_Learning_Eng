@@ -4,7 +4,14 @@ import { createRouter, createMemoryHistory } from 'vue-router'
 import App from '../app/App.vue'
 import HomeView from '../modules/home/views/HomeView.vue'
 import GrammarView from '../modules/grammar/views/GrammarView.vue'
-import Ch1View from '../modules/ch1/views/Ch1View.vue'
+import ChapterView from '../modules/chapters/ChapterView.vue'
+
+class MockIntersectionObserver {
+  observe = vi.fn()
+  unobserve = vi.fn()
+  disconnect = vi.fn()
+  constructor(_cb: IntersectionObserverCallback) {}
+}
 
 function makeRouter(path: string) {
   const router = createRouter({
@@ -12,7 +19,7 @@ function makeRouter(path: string) {
     routes: [
       { path: '/', component: HomeView },
       { path: '/grammar', component: GrammarView },
-      { path: '/ch1', component: Ch1View },
+      { path: '/ch1', component: ChapterView, props: { id: 'ch1' } },
     ],
   })
   router.push(path)
@@ -23,6 +30,8 @@ beforeEach(() => {
   localStorage.clear()
   vi.spyOn(window, 'scrollTo').mockImplementation(() => {})
   vi.spyOn(window, 'scrollY', 'get').mockReturnValue(0)
+  ;(globalThis as unknown as { IntersectionObserver: typeof MockIntersectionObserver }).IntersectionObserver =
+    MockIntersectionObserver
 })
 
 describe('Smoke tests', () => {
