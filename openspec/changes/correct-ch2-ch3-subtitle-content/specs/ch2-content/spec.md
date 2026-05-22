@@ -45,3 +45,10 @@ Ch2 SHALL have a `scenes` array containing exactly 10 bilingual scene objects. E
 - **WHEN** the Ch2 English text is inspected
 - **THEN** obvious subtitle artifacts SHALL be corrected without adding unrelated new arguments
 - **THEN** the text SHALL NOT contain raw broken fragments from the source proposal such as `fram repeating more`, `habits are built t proof repetition`, `The I push themselves`, or `H sounds anymore`
+
+#### Scenario: Ch2 transcript signals are not omitted
+
+- **WHEN** the Ch2 `scenes` text is inspected
+- **THEN** the English text SHALL preserve representative transcript signals from `_private/discuss.txt` beyond topic summaries
+- **THEN** those signals SHALL include the opening memorization question, the listening-to-speaking bridge, child repetition freedom, repeat-short/easy/often guidance, slow-speaking control, passive learning, active study limits, and the final preparation/trust guidance
+- **THEN** repeated transcript wording such as `They ask` SHALL be preserved when it is part of the original teaching rhythm

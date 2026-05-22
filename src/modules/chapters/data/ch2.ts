@@ -18,8 +18,8 @@ const chapter: ChapterData = {
       titleEn: 'Start With Listening',
       sentences: [
         {
-          en: 'When people start learning English, many of them ask the same question: "What grammar should I study first?"',
-          tc: '當人們開始學英語，大多數人都問同樣的問題：「我應該先學哪些文法？」',
+          en: 'When people start learning English, many of them ask the same question. They ask, "What grammar should I study first?" They ask, "How many words should I memorize?"',
+          tc: '當人們開始學英語，大多數人都問同樣的問題。他們問：「我應該先學哪些文法？」他們也問：「我應該背多少單字？」',
         },
         {
           en: 'But this question is already a little wrong, because languages are not learned first through rules or books.',
@@ -122,8 +122,8 @@ const chapter: ChapterData = {
       titleEn: 'Listening Builds Speaking',
       sentences: [
         {
-          en: 'Words stop feeling strange. Sentences stop feeling confusing. One day you hear a sentence and think, "Oh, I know this." And you did not memorize it. You only listened.',
-          tc: '單字不再陌生，句子不再令人困惑。有一天你聽到一個句子，腦海裡浮現：「啊，我知道這個！」你沒有背過它——你只是聆聽了。',
+          en: 'Words stop feeling strange. Sentences stop feeling confusing. One day you hear a sentence and think, "Oh, I know this." And you did not memorize it. You did not study it. You only listened.',
+          tc: '單字不再陌生，句子不再令人困惑。有一天你聽到一個句子，腦海裡浮現：「啊，我知道這個！」你沒有背過它，也沒有特地讀過它——你只是聆聽了。',
         },
         {
           en: `Listening builds understanding naturally. It ${hl('builds confidence quietly', 'vocab-builds-quietly')}.`,
@@ -136,6 +136,10 @@ const chapter: ChapterData = {
         {
           en: `And memory ${hl('is built through listening', 'vocab-built-through')}. When you listen many times, your brain stores sounds and sentences.`,
           tc: '而記憶是透過聆聽慢慢建立起來的。你聆聽越多次，大腦就儲存越多聲音和句子。',
+        },
+        {
+          en: 'Later, when you want to speak, your mouth uses what your ears already know. This is why listening comes before speaking. If you try to speak without listening, speaking feels hard. You feel blocked. You feel nervous. But when you listen a lot, speaking feels easier. Words come faster. Sentences feel more natural. You are not translating. You are not thinking about rules. You are simply expressing ideas. That is real fluency.',
+          tc: '之後當你想開口時，你的嘴巴會使用耳朵早已熟悉的東西。這就是為什麼聆聽在口說之前。如果沒有足夠聆聽就急著說，口說會很困難，你會卡住，也會緊張；但大量聆聽後，口說會變容易，字詞來得更快，句子也更自然。你不是在翻譯，不是在想規則，而是在表達想法。這才是真正的流暢。',
         },
       ],
       tags: [],
@@ -162,6 +166,10 @@ const chapter: ChapterData = {
           en: 'So if you feel stuck in English, do not push harder. Do not add more grammar books. Instead, listen more. Listen slowly. Listen calmly. Let English enter your mind naturally.',
           tc: '所以如果你感覺英語學習卡住了，不要更加逼迫自己，不要再添加更多文法書。取而代之，多聆聽——慢慢聽，平靜地聽，讓英語自然進入你的心中。',
         },
+        {
+          en: 'Do not pressure yourself. Let your brain do its work, because languages are not learned by force. They are learned through patience, repetition, and listening. This is how languages are really learned.',
+          tc: '不要給自己壓力。讓大腦做它自己的工作，因為語言不是靠強迫學會的，而是透過耐心、重複與聆聽慢慢學會的。這才是語言真正被學會的方式。',
+        },
       ],
       tags: [],
     },
@@ -184,8 +192,8 @@ const chapter: ChapterData = {
           tc: '孩子學說話時，從不等待完美。他們犯錯，反覆重複聲音、單字和句子。',
         },
         {
-          en: 'As adults, we forget this. We become afraid of mistakes. But mistakes are not bad. Mistakes are part of learning. In language learning, repetition is more important than accuracy.',
-          tc: '成年人卻忘了這一點。我們開始害怕犯錯。但錯誤不是壞事——在語言學習中，重複比準確性更重要。',
+          en: 'Nobody corrects them all the time. Nobody tells them to stop. They are allowed to try. This freedom is very important. As adults, we forget this. We become afraid of mistakes. We think mistakes are bad. But mistakes are not bad. Mistakes are part of learning. In language learning, repetition is more important than accuracy.',
+          tc: '沒有人一直糾正他們，也沒有人叫他們停止。他們被允許嘗試，這份自由非常重要。成年人卻忘了這一點，我們開始害怕犯錯，以為錯誤很糟。但錯誤不是壞事，它是學習的一部分。在語言學習中，重複比準確性更重要。',
         },
       ],
       tags: [],
@@ -205,12 +213,20 @@ const chapter: ChapterData = {
           tc: '起初說話感覺很慢，你說的句子聽起來很沉重，發音感覺很奇怪。這是正常的——重複練習會消除這種感覺。',
         },
         {
+          en: 'When you repeat something many times, it becomes lighter. It becomes easier. It becomes automatic.',
+          tc: '當你把某個東西重複很多次，它會變得更輕、更容易，最後變成自動反應。',
+        },
+        {
           en: 'Think about driving a car. At first, it feels difficult. But after repetition, you drive without thinking. Speaking English works the same way.',
           tc: '想想開車。起初感覺很難，但反覆練習之後，你就能不假思索地開車了。說英語也是同樣的道理。',
         },
         {
-          en: 'This is why shadowing practice is powerful. You listen to a sentence. You repeat it immediately. You copy the rhythm, not the rules. You simply repeat.',
-          tc: '這就是為什麼影子跟讀如此有效。你聽一個句子，立刻複述——你模仿的是節奏，不是規則。你只是重複。',
+          en: 'Many learners try to speak by creating sentences in their head. They translate from their first language. This makes speaking slow and stressful. But repetition changes this. When you repeat natural English sentences, you stop translating. You start remembering. Memory is faster than thinking.',
+          tc: '許多學習者試著在腦中創造句子，再從母語翻譯過來，這讓口說變慢、變得有壓力。但重複會改變這件事。當你重複自然的英文句子，你會停止翻譯，開始記得；記憶比思考更快。',
+        },
+        {
+          en: 'This is why shadowing practice is powerful. You listen to a sentence. You repeat it immediately. You copy the rhythm, not the rules. You do not stop to analyze grammar. You simply repeat. At first, you may feel uncomfortable. Your voice may sound strange to you. That is okay. Your brain is adjusting. Your mouth is learning new movements. This takes time.',
+          tc: '這就是為什麼影子跟讀如此有效。你聽一個句子，立刻複述——你模仿的是節奏，不是規則。你不停下來分析文法，只是重複。起初你可能覺得不自在，自己的聲音聽起來很陌生，這沒關係。大腦正在調整，嘴巴正在學習新的動作，這需要時間。',
         },
       ],
       tags: [],
@@ -230,12 +246,24 @@ const chapter: ChapterData = {
           tc: '這種改變不是來自更努力地學習，而是來自更多的重複。',
         },
         {
+          en: 'Many learners ask, "How many times should I repeat?" There is no perfect number, but more is always better than less. Repeat short sentences. Repeat easy sentences. Repeat sentences you hear often. Do not chase difficult words. Do not chase advanced grammar. Fluency grows from simple language repeated many times.',
+          tc: '許多學習者會問：「我應該重複幾次？」沒有完美的數字，但多總比少好。重複短句，重複簡單句，重複你常聽到的句子。不要追逐困難單字，不要追逐高階文法；流暢來自簡單語言的多次重複。',
+        },
+        {
+          en: 'When you repeat simple English, your brain builds a strong foundation. Later advanced English becomes easier. Another important idea is this. You do not need to speak fast. You only need to speak clearly. Slow speaking is not weak speaking. Slow speaking is confident speaking. When you repeat slowly, you control your voice. You control your breath. You control your message.',
+          tc: '當你重複簡單英文，大腦會建立穩固的基礎，之後高階英文也會變容易。另一個重要觀念是：你不需要說得快，只需要說得清楚。慢慢說不是弱，而是有信心。當你慢慢重複，你能控制聲音、呼吸與訊息。',
+        },
+        {
+          en: 'Native speakers also repeat phrases. They use the same expressions again and again. This is how language stays natural. You are not boring when you repeat. You are building fluency. If you wait for perfect grammar, you may never speak. But if you repeat daily, speaking will come naturally.',
+          tc: '母語者也會重複片語，一次又一次使用相同表達，這就是語言保持自然的方式。重複時你並不無聊，你是在建立流暢。如果等待完美文法，你可能永遠不會開口；但如果每天重複，口說會自然出現。',
+        },
+        {
           en: `Even 5 minutes of repetition every day is powerful. ${hl('Consistency matters more than time', 'vocab-consistency-matters')}. Make repetition part of your daily life.`,
           tc: '即使每天只有5分鐘的重複練習也很有力量。持之以恆比一次花多少時間更重要。讓重複成為你日常生活的一部分。',
         },
         {
-          en: 'Do not judge yourself. Do not compare yourself to others. Your only job is to repeat. With time, your mouth will move without effort. Your sentences will flow naturally.',
-          tc: '不要評判自己，不要與他人比較。你唯一的任務就是重複。假以時日，你的嘴巴就能不費力地動起來，句子將會自然流出。',
+          en: 'Repeat while walking. Repeat while cooking. Repeat while listening to podcasts. Do not judge yourself. Do not compare yourself to others. Your only job is to repeat. With time, your mouth will move without effort. Your sentences will flow naturally. Your confidence will grow quietly. Speaking is not a test. It is a habit, and habits are built through repetition. So stop waiting to be perfect. Start repeating. This is how speaking really begins.',
+          tc: '走路時重複，做飯時重複，聽 podcast 時也重複。不要評判自己，不要與他人比較。你唯一的任務就是重複。假以時日，你的嘴巴會不費力地動起來，句子會自然流出，信心也會悄悄成長。說話不是考試，而是一種習慣；習慣是透過重複建立的。所以停止等待完美，開始重複，這才是口說真正開始的方式。',
         },
       ],
       tags: [],
@@ -251,20 +279,44 @@ const chapter: ChapterData = {
           tc: '許多英語學習者感到沮喪。他們每天聆聽英語，卻仍無法輕鬆說話；他們理解很多單字，但口說仍感覺遲緩。這是正常的——理解永遠先於流暢。',
         },
         {
+          en: 'When you listen to English, your brain is learning quietly. Even when you do not speak, learning is happening. Your brain is collecting sounds, words, and patterns. Think about how children learn language. They listen for a long time before they speak. They hear conversations. They hear stories. They hear questions. They do not speak immediately, but their understanding grows.',
+          tc: '當你聽英文時，大腦正在安靜地學習。即使你沒有開口，學習仍在發生；大腦正在收集聲音、單字與模式。想想孩子如何學語言：他們在開口前先聽很久，聽對話、聽故事、聽問題。他們不會立刻說，但理解會慢慢成長。',
+        },
+        {
+          en: 'Adults are the same. Listening creates a strong base in your mind. Speaking grows from this base. Many learners think they are failing because they are not speaking yet. But they are not failing. They are preparing. Your brain needs time to recognize English naturally. This means hearing the same words many times. This means hearing the same sentence patterns again and again.',
+          tc: '成人也是一樣。聆聽在心中建立強大的基礎，口說從這個基礎長出來。許多學習者因為還不能開口就以為自己失敗了，但他們不是失敗，而是在準備。大腦需要時間自然辨識英文，這表示要多次聽到相同單字，也要一次又一次聽到相同句型。',
+        },
+        {
+          en: 'At first, English sounds fast. Words feel mixed together. Nothing feels clear. Slowly, something changes. You begin to hear where one word ends and another begins. You begin to understand common phrases. You begin to guess meaning without translating. This is a very important stage.',
+          tc: '起初，英文聽起來很快，單字混在一起，什麼都不清楚。慢慢地，某些事情改變了。你開始聽出一個字在哪裡結束、下一個字在哪裡開始；你開始理解常見片語，也開始不用翻譯就能猜出意思。這是非常重要的階段。',
+        },
+        {
           en: `${hl('Do not rush', 'vocab-rush')} this stage. When learners rush, they feel stress. They push themselves to speak before understanding. But when you allow understanding to grow first, speaking becomes easier.`,
           tc: '不要急著跳過這個階段。當學習者太急著求快，就會感到壓力，在理解還不到位時就逼自己說話。但當你讓理解先慢慢生長，口說就會變得更容易。',
         },
         {
-          en: 'Listening trains your brain to think in English. You learn how sentences are built. You learn natural word order. You learn rhythm and tone. Only listening can teach this feeling.',
-          tc: '聆聽訓練你的大腦用英語思考。你學會了句子的構造、自然的語序、節奏和語調——只有聆聽才能教給你這種感受。',
+          en: 'Listening trains your brain to think in English. You learn how sentences are built. You learn natural word order. You learn rhythm and tone. Grammar books cannot teach this feeling. Only listening can. Slow listening is especially powerful. When English is slow, your brain has time to notice details. You hear pronunciation clearly. You hear how words connect. This is why slow podcasts are helpful. You are not listening to memorize. You are listening to feel the language.',
+          tc: '聆聽訓練你的大腦用英語思考。你學會句子的構造、自然語序、節奏和語調。文法書無法教你這種感覺，只有聆聽能做到。慢速聆聽尤其有力量，因為英文變慢時，大腦有時間注意細節；你能清楚聽到發音，也能聽出字詞如何連接。這就是為什麼慢速 podcast 有幫助：你不是為了背誦而聽，而是為了感受語言而聽。',
+        },
+        {
+          en: 'Understanding does not come in one day. It comes quietly. One day you will listen and think, "I understand this." Then later you will speak without planning, and you will surprise yourself. Speaking grows naturally from understanding.',
+          tc: '理解不是一天內出現的，它是安靜地到來。有一天你會聽著英文，心想：「我懂這個。」之後你會不經規劃地開口，連自己都感到驚喜。口說會從理解中自然生長。',
         },
         {
           en: `Do not worry if you understand only 60%. Your brain ${hl('fills the gaps', 'vocab-fills-the-gaps')} with time. The more you hear English, the more familiar it becomes. Fluency is not fast understanding. Fluency is comfortable understanding. Trust this process.`,
           tc: '就算只聽懂60%也不必擔心——你的大腦會隨著時間慢慢補齊那些空缺。你聽英語越多，它就越來越熟悉。流暢不是快速理解，而是舒適地理解。相信這個過程。',
         },
         {
-          en: 'Another important idea is passive learning. Passive learning means learning without effort. You hear English in the background, meet the same sounds again, and let repeated exposure lower your fear before speaking follows naturally.',
-          tc: '另一個重要概念是被動學習。被動學習表示不用硬逼自己也能學。你讓英語在背景中出現，反覆遇見相同聲音，讓重複接觸降低恐懼，說話就會自然跟上。',
+          en: 'Another important idea is passive learning. Passive learning means learning without effort. You listen while relaxing. You listen without pressure. Your brain learns naturally. This kind of learning is powerful. Many learners only study actively. They focus on rules. They memorize lists. Active study has value, but it is not enough. Understanding comes from exposure. Exposure means hearing English again and again.',
+          tc: '另一個重要概念是被動學習。被動學習表示不費力地學習。你在放鬆時聆聽，在沒有壓力時聆聽，大腦就自然學會；這種學習很有力量。許多學習者只做主動學習，專注規則、背清單。主動學習有價值，但不夠。理解來自接觸，而接觸就是一次又一次聽見英文。',
+        },
+        {
+          en: 'The more you hear English, the more familiar it becomes. Familiarity creates comfort. Comfort creates confidence. When you understand more, your fear becomes smaller. You are not afraid of English sounds anymore. They feel normal. Even partial understanding is useful. Repetition increases understanding. Each time you notice something new. First you understand the topic, then you understand sentences, then you understand small details.',
+          tc: '你聽英文越多，它就越熟悉。熟悉創造舒適，舒適創造信心。當你理解更多，恐懼就變小；你不再害怕英文聲音，它們變得正常。即使部分理解也有用。重複會增加理解，每一次你都會注意到新的東西：先理解主題，再理解句子，最後理解小細節。',
+        },
+        {
+          en: 'Be patient with yourself. Fluency is not fast understanding. Fluency is comfortable understanding. When English feels comfortable, speaking follows. You cannot force fluency. You can only prepare for it. Listening is preparation. Understanding is preparation. Trust this process. You are learning even when you feel silent. You are growing even when you feel slow. Do not compare yourself to others. Everyone learns at a different speed. Your journey is your own. So keep listening. Keep hearing English daily. Let understanding grow naturally. Speaking will come.',
+          tc: '對自己有耐心。流暢不是快速理解，而是舒適理解。當英文變得舒適，口說就會跟上。你無法強迫流暢，只能為它做準備。聆聽是準備，理解也是準備。相信這個過程：即使沉默，你也在學；即使覺得慢，你也在成長。不要與他人比較，每個人的速度不同，你的旅程屬於你自己。所以持續聽，每天接觸英文，讓理解自然生長，口說會來。',
         },
       ],
       tags: [],

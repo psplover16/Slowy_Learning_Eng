@@ -64,12 +64,28 @@ const chapter: ChapterData = {
           tc: '學習還有一種心理效應：當學習者只專注在「學習」本身，往往只有在學到新東西時才感到進步。但流暢是透過重複建立的，不是新奇感。不斷重複簡單句型，能鍛鍊口說的力量，即使乍看之下很無聊。',
         },
         {
+          en: 'Another problem with traditional study is that it separates skills. You study reading, then you study writing, then maybe listening. Speaking is often left for last. But speaking needs to be trained directly. You cannot become a swimmer by reading about swimming. Conversation practice trains speaking in context. Sentences are connected. Ideas flow naturally. This prepares your brain for real situations. When practice feels real, learning becomes real.',
+          tc: '傳統學習的另一個問題，是它把技能分開。你先學閱讀，再學寫作，也許再學聽力，而口說常常被放到最後。但口說需要被直接訓練。只讀游泳知識不會讓你變成游泳者；對話練習會在情境中訓練口說，句子彼此連接，想法自然流動，這會讓大腦準備好面對真實情境。當練習感覺真實，學習也會變得真實。',
+        },
+        {
           en: 'Speaking must be trained directly. Reading about swimming cannot make you a swimmer, and reading about English cannot make speaking automatic. You need calm practice with sound, movement, and repetition.',
           tc: '口說必須直接訓練。只讀游泳知識不會讓你變成游泳者，只讀英文知識也不會讓說話自動化。你需要用聲音、動作與重複做平靜的練習。',
         },
         {
+          en: 'Slow English podcasts are powerful because they slow down the process without slowing progress. You hear natural English at a comfortable speed. You understand more. Understanding creates confidence. Confidence creates willingness to speak. Fluency is not about speed. It is about ease. When speaking feels easy, fluency appears. This ease comes from familiarity. Familiarity comes from hearing and using the same structures again and again.',
+          tc: '慢速英語 podcast 很有力量，因為它們放慢的是過程，不是進步。你以舒適速度聽到自然英文，理解更多；理解創造信心，信心創造開口的意願。流暢不是速度，而是輕鬆感。當說話感覺輕鬆，流暢就出現了。這份輕鬆來自熟悉，而熟悉來自一次又一次聽見並使用相同結構。',
+        },
+        {
+          en: 'Traditional study often ignores this truth. It moves too fast. It introduces new topics before the old ones become comfortable. This creates shallow knowledge instead of deep skill. Conversation-based podcast practice goes deeper. It teaches you how English sounds, how it flows, and how it feels. Over time, English stops feeling foreign.',
+          tc: '傳統學習常常忽略這個事實。它走得太快，在舊內容變得舒適之前就引入新主題，這創造的是淺層知識，而不是深層技能。以對話為基礎的 podcast 練習走得更深，它教你英文聽起來如何、流動方式如何、感覺如何。隨著時間，英文不再像外語。',
+        },
+        {
           en: `${hl('Philosophically', 'vocab-philosophically')}, fluency is a state of trust. You trust your voice, you trust your brain, you trust that words will come. This trust is built through gentle repeated practice. The method was ${hl('incomplete', 'vocab-incomplete')}. Knowledge without use cannot create fluency. The solution is not more pressure. It is more natural practice.`,
           tc: '從哲學的角度來說，流暢是一種信任——你信任自己的聲音，信任自己的大腦，相信話語會自然湧現。這份信任，是透過溫和的重複練習逐漸建立的。這個方法是不完整的：沒有使用的知識，無法創造流暢。解決方法不是施加更多壓力，而是更自然的練習。',
+        },
+        {
+          en: 'Listen slowly. Repeat calmly. Speak without fear. Fluency grows when English becomes something you do, not something you think about. And that is where real conversation begins.',
+          tc: '慢慢聽，平靜地重複，無懼地開口。當英文變成你會去做的事，而不是只會思考的事，流暢就會成長；真正的對話也從那裡開始。',
         },
       ],
       tags: [],
@@ -89,7 +105,7 @@ const chapter: ChapterData = {
           tc: '慢速聆聽，就是以舒適的速度聆聽英文：不快、不緊張，只是慢到大腦能夠跟上意義，不需要恐慌。當英文變慢，心靈就會放鬆；心靈放鬆，學習才真正開始。',
         },
         {
-          en: 'Shadowing means speaking at the same time as the speaker. You listen and repeat together. There is no pause to translate. There is no time to think too much. You simply follow the sound. This combination changes everything. When you listen slowly, your brain understands the message. When you shadow, your mouth learns the movements.',
+          en: 'Shadowing means speaking at the same time as the speaker. You listen and repeat together. There is no pause to translate. There is no time to think too much. You simply follow the sound. This combination changes everything. When you listen slowly, your brain understands the message. When you shadow, your mouth learns the movement. Together, they train understanding and speaking at the same time.',
           tc: '影子跟讀，就是跟著說話者同步開口。你邊聽邊跟著重複，沒有暫停翻譯的時間，沒有過度思考的餘地，只是跟隨聲音。這個組合改變了一切：慢速聆聽讓大腦理解訊息，影子跟讀讓嘴巴學習動作，兩者同時訓練「理解」與「口說」。',
         },
       ],
@@ -131,8 +147,12 @@ const chapter: ChapterData = {
           tc: '這個技巧也建立了肌肉記憶。說話是身體的動作：舌頭、嘴唇、下顎，都必須學習新的動作模式。影子跟讀溫和而自然地訓練這些肌肉。許多學習者驚訝地發現，自己的聲音變清晰了，也變有力了，這帶來了動力。',
         },
         {
-          en: 'Philosophically, this technique teaches presence. You are fully in the moment. You are listening. You are speaking. You are not judging. You are practicing. This presence creates deep learning. When you are present, your brain absorbs more. When you rush, it resists. You do not need long sessions. 10 to 15 minutes of focused shadowing is enough.',
-          tc: '從哲學的角度來說，這個技巧教你「活在當下」——你完全投入，邊聽邊說，不在評判自己，而是在練習。這種臨在感創造了深度學習：當你活在當下，大腦吸收得更多；當你急著前進，大腦反而抗拒。你不需要長時間的練習，每天 10 到 15 分鐘的專注影子跟讀就夠了。',
+          en: 'Slow listening also builds patience. It teaches you that fluency does not need speed. It needs control. When you control your pace, you control your confidence. Philosophically, this technique teaches presence. You are fully in the moment. You are listening. You are speaking. You are not judging. You are practicing. This presence creates deep learning. When you are present, your brain absorbs more. When you rush, it resists. You do not need long sessions. 10 to 15 minutes of focused shadowing is enough.',
+          tc: '慢速聆聽也建立耐心。它教你：流暢不需要速度，而需要掌控。當你控制自己的步調，你也控制了信心。從哲學的角度來說，這個技巧教你「活在當下」——你完全投入，邊聽邊說，不在評判自己，而是在練習。這種臨在感創造了深度學習：當你活在當下，大腦吸收得更多；當你急著前進，大腦反而抗拒。你不需要長時間的練習，每天 10 到 15 分鐘的專注影子跟讀就夠了。',
+        },
+        {
+          en: 'Consistency matters more than time. With daily practice, you will notice change. You will speak with less hesitation. You will recognize phrases instantly. You will respond faster. This is fluency forming quietly. So do not overthink this technique. Trust it. Let it work slowly. Listen calmly. Shadow gently. Repeat daily. Fluency is not built by forcing speech. It is built by following sound. And with this technique, English begins to speak through you naturally, confidently, and without fear.',
+          tc: '一致性比時間長短更重要。每天練習，你會注意到改變：猶豫變少，片語更快被辨識，回應也更快。這就是流暢在安靜形成。所以不要過度思考這個技巧，信任它，讓它慢慢發揮作用。平靜地聽，溫和地跟讀，每天重複。流暢不是靠強迫開口建立，而是靠跟隨聲音建立。透過這個技巧，英文開始自然、自信、無懼地從你口中說出來。',
         },
       ],
       tags: [],
@@ -180,6 +200,18 @@ const chapter: ChapterData = {
           en: `A helpful ${hl('mindset', 'vocab-mindset')} shift is to see mistakes as signals of growth. Each mistake means you are trying. Each ${hl('attempt', 'vocab-attempt')} strengthens your speaking muscles. Children learn languages by speaking badly at first. Adults can do the same. The only difference is adults judge themselves too much. Release that judgment. Philosophically, fluency is trust. You trust that the words will come. You trust yourself. When you stop forcing correctness, fluency appears.`,
           tc: '一個有幫助的心態轉變，是把錯誤視為成長的訊號。每一個錯誤都代表你在嘗試，每一次嘗試都在強化你的口說肌肉。孩子學語言，一開始都說得很糟，大人也可以如此。唯一的差別是，大人太過評判自己了——放下這份評判吧。從哲學的角度來說，流暢是信任：相信話語會來，相信自己。當你不再強迫自己追求完美，流暢就出現了。',
         },
+        {
+          en: 'When you practice speaking daily, even for 5 minutes, your brain learns that speaking is safe. Safety creates fluency. Shadowing also helps here. When you shadow, there is no hesitation because the sentence is already moving. You follow the flow. This trains your brain to stay in motion. Over time, your brain learns that stopping is not necessary.',
+          tc: '當你每天練習說話，即使只有 5 分鐘，大腦也會學到「說話是安全的」。安全感創造流暢。影子跟讀在這裡也很有幫助，因為跟讀時句子已經在移動，你跟著流動，就沒有猶豫。這會訓練大腦保持前進；久了之後，大腦會明白停下來不是必要的。',
+        },
+        {
+          en: 'This does not mean you ignore grammar forever. Grammar improves naturally through exposure and practice. But during speaking, flow comes first. So when you speak, let it be imperfect. Let it be slow. Let it be real. Hesitation fades when fear fades. And fear fades when you speak anyway. Each time you continue speaking, even with mistakes, you are becoming more fluent. Not tomorrow, not someday, but right now.',
+          tc: '這不代表你永遠忽略文法。文法會透過接觸與練習自然進步；但在說話時，流動要放在第一位。所以開口時，允許它不完美，允許它慢，允許它真實。當恐懼消退，猶豫就會消退；而當你無論如何都開口，恐懼就會消退。每一次你即使犯錯仍繼續說，你正在變得更流暢，不是明天，不是某一天，而是現在。',
+        },
+        {
+          en: "Now, let's talk about a problem many English learners face every day. It is not grammar. It is not vocabulary. It is hesitation. You know the words, you know the sentence, but when it is time to speak, you stop. This hesitation happens because your brain is searching for the perfect sentence. You want correct grammar. You want perfect pronunciation. You want no mistakes. This pressure blocks your speech. Fluency does not come from perfection. Fluency comes from flow. Flow means speaking without stopping too much. It means allowing small mistakes. It means continuing even when the sentence is not perfect. When you speak your native language, you do not plan every sentence. You start speaking and the sentence forms naturally. This is what we want in English too. To reduce hesitation, we must change the goal. The goal is not perfect English. The goal is clear communication. One of the best ways to reduce hesitation is to use simple sentence patterns again and again. These patterns become safe paths for your brain.",
+          tc: '讓我們再談一次許多英語學習者每天面對的問題。不是文法，不是單字，而是猶豫。你認識那些字，也知道句子，但到了開口時卻停住了。這種猶豫來自大腦在尋找完美句子：你想要正確文法、完美發音、沒有錯誤，而這股壓力會阻擋你開口。流暢不是來自完美，而是來自流動；流動代表不要停太多，允許小錯誤，即使句子不完美也繼續。要減少猶豫，我們必須改變目標：目標不是完美英文，目標是清楚溝通。反覆使用簡單句型，會為大腦建立安全路徑。',
+        },
       ],
       tags: [],
     },
@@ -198,8 +230,12 @@ const chapter: ChapterData = {
           tc: '每天說英文，即使只是短短的時間，大腦就與語言保持連結，不會忘記，不會重置。這種每日接觸建立了舒適感，舒適感帶來信心，信心帶來流暢。把英文想成日常習慣，就像喝水或刷牙，你不會等到「有動力」才刷牙，因為它是你生活的一部分。學語言也一樣——移除情緒的干擾，只要出現就好。',
         },
         {
-          en: 'Another key to consistency is creating a simple routine. Your routine should be easy. If it is too difficult, your brain will resist. For example, your daily routine can be listen to slow English for 5 minutes, repeat sentences for 5 minutes, speak freely for 5 minutes. That is only 15 minutes. But 15 minutes every day changes everything. Your brain begins to expect English. Speaking becomes normal. Consistency also builds automaticity. This means your brain no longer translates every sentence. Words begin to appear naturally. This is real fluency.',
-          tc: '一致性的另一個關鍵，是建立簡單的例行程序。例程要簡單，太難大腦就會抗拒。例如，每天的練習可以是：慢速英文聆聽 5 分鐘、重複句子 5 分鐘、自由說話 5 分鐘——只要 15 分鐘。但每天 15 分鐘，改變一切。大腦開始期待英文，說話變成了常態。一致性也建立了自動性：大腦不再逐字翻譯，字詞自然湧現——這就是真正的流暢。',
+          en: 'One reason many learners stop improving is because they study in waves. They study hard for one week. Then they stop for 2 weeks. When they return, they feel slow again. This cycle creates frustration. Instead, think of English as a daily habit like drinking water or brushing your teeth.',
+          tc: '許多學習者停止進步的一個原因，是他們用一波一波的方式學習：努力學一週，然後停兩週。等他們回來時，又覺得自己變慢了。這個循環會創造挫折。相反地，把英文看成日常習慣，就像喝水或刷牙。',
+        },
+        {
+          en: 'Another key to consistency is creating a simple routine. Your routine should be easy. If it is too difficult, your brain will resist. For example, your daily routine can be listen to slow English for 5 minutes, repeat sentences for 5 minutes, speak freely for 5 minutes. That is only 15 minutes. But 15 minutes every day changes everything. Your brain begins to expect English. It prepares for it. Speaking becomes normal. Consistency also builds automaticity. This means your brain no longer translates every sentence. Words begin to appear naturally. This is real fluency.',
+          tc: '一致性的另一個關鍵，是建立簡單的例行程序。例程要簡單，太難大腦就會抗拒。例如，每天的練習可以是：慢速英文聆聽 5 分鐘、重複句子 5 分鐘、自由說話 5 分鐘——只要 15 分鐘。但每天 15 分鐘，改變一切。大腦開始期待英文，也會為它準備；說話變成了常態。一致性也建立了自動性：大腦不再逐字翻譯，字詞自然湧現——這就是真正的流暢。',
         },
       ],
       tags: [],
@@ -215,8 +251,12 @@ const chapter: ChapterData = {
           tc: '另一個強大的習慣是重複。許多學習者避免重複同樣的內容，覺得重複很無聊——但重複正是大腦深度學習的方式。在不同的日子重複同樣的句子，神奇的事情就發生了：先是理解，然後記住，接著你能預測接下來的字，最後自然地說出口。重複創造了輕鬆，輕鬆創造了速度，速度創造了信心。',
         },
         {
-          en: `Another important idea is patience. Fluency is not a moment. It is a process. Some days you will feel fluent. Other days you will feel slow. This is normal. Do not ${hl('measure', 'vocab-measure')} progress daily. Measure it monthly. If you speak more easily than last month, you are improving. Psychologically, consistency builds identity. You stop saying I am learning English. You start saying I speak English. This identity shift is powerful. This is how fluency ${hl('accelerates', 'vocab-accelerate')}.`,
-          tc: '另一個重要的觀念是耐心。流暢不是一個瞬間，它是一個過程。有些日子你感覺說得流暢，有些日子感覺很緩慢——這是正常的。不要每天衡量進步，而是每個月衡量。如果你比上個月說得更輕鬆，你就在進步了。從心理層面來說，一致性建立了身分認同：你不再說「我在學英文」，而是說「我說英文」。這種身分轉變很有力量，這就是流暢加速的方式。',
+          en: `Another important idea is patience. Fluency is not a moment. It is a process. Some days you will feel fluent. Other days you will feel slow. This is normal. Do not ${hl('measure', 'vocab-measure')} progress daily. Measure it monthly. If you speak more easily than last month, you are improving. Psychologically, consistency builds identity. You stop saying I am learning English. You start saying I speak English. This identity shift is powerful. When you see yourself as an English speaker, your behavior changes. You take more risks. You speak more often. You stop waiting for permission. This is how fluency ${hl('accelerates', 'vocab-accelerate')}.`,
+          tc: '另一個重要的觀念是耐心。流暢不是一個瞬間，它是一個過程。有些日子你感覺說得流暢，有些日子感覺很緩慢——這是正常的。不要每天衡量進步，而是每個月衡量。如果你比上個月說得更輕鬆，你就在進步了。從心理層面來說，一致性建立了身分認同：你不再說「我在學英文」，而是說「我說英文」。這種身分轉變很有力量。當你把自己看成英文使用者，行為會改變：你會冒更多險，更常開口，也停止等待許可。這就是流暢加速的方式。',
+        },
+        {
+          en: 'A calm mind is also important. Stress blocks language. Relaxation opens it. Choose learning methods that feel peaceful, not stressful. Slow podcasts, simple conversations, gentle repetition. Fluency grows in calm environments.',
+          tc: '平靜的心也很重要。壓力會阻塞語言，放鬆會打開語言。選擇讓你感到平和、而不是壓力沉重的學習方式：慢速 podcast、簡單對話、溫和重複。流暢會在平靜的環境中成長。',
         },
         {
           en: `Philosophically, language is not something you ${hl('conquer', 'vocab-conquer')}. It is something you live with. When English becomes part of your daily life, fluency becomes natural. You do not chase it. It comes to you. So keep going. Even when you feel tired, even when progress feels slow, every small session is a step forward. Every sentence spoken is a victory. And one day you will notice something simple but powerful. You are speaking without fear, without hesitation, without thinking too much. That is fluency.`,

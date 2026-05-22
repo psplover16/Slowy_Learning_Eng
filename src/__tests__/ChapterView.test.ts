@@ -74,11 +74,26 @@ function expectContentToExcludeAll(text: string, snippets: string[]) {
   }
 }
 
+function expectOccurrenceCountAtLeast(text: string, snippet: string, expectedCount: number) {
+  const normalizedSnippet = snippet.toLowerCase()
+  let count = 0
+  let index = text.indexOf(normalizedSnippet)
+
+  while (index !== -1) {
+    count += 1
+    index = text.indexOf(normalizedSnippet, index + normalizedSnippet.length)
+  }
+
+  expect(count).toBeGreaterThanOrEqual(expectedCount)
+}
+
 describe('ChapterView (id="ch2") content coverage', () => {
   it('keeps the corrected listening-first learning ideas', () => {
     const text = chapterEnglishText(ch2)
 
     expectContentToIncludeAll(text, [
+      'many of them ask the same question. They ask, "What grammar should I study first?"',
+      'They ask, "How many words should I memorize?"',
       'How many words should I memorize?',
       'Listening is the real beginning of language learning',
       'Your brain does not need full understanding to learn',
@@ -87,6 +102,29 @@ describe('ChapterView (id="ch2") content coverage', () => {
       'This is why shadowing practice is powerful',
       'Understanding always comes before fluency',
       'Passive learning means learning without effort',
+      'Later, when you want to speak, your mouth uses what your ears already know',
+      'You are not translating. You are not thinking about rules. You are simply expressing ideas',
+      'languages are not learned by force',
+      'Nobody corrects them all the time. Nobody tells them to stop. They are allowed to try',
+      'When you repeat something many times, it becomes lighter. It becomes easier. It becomes automatic',
+      'Memory is faster than thinking',
+      'Many learners ask, "How many times should I repeat?"',
+      'Repeat short sentences. Repeat easy sentences. Repeat sentences you hear often',
+      'Do not chase difficult words. Do not chase advanced grammar',
+      'Slow speaking is confident speaking',
+      'You control your voice. You control your breath. You control your message',
+      'Speaking is not a test. It is a habit, and habits are built through repetition',
+      'They hear conversations. They hear stories. They hear questions',
+      'They are not failing. They are preparing',
+      'At first, English sounds fast. Words feel mixed together. Nothing feels clear',
+      'Grammar books cannot teach this feeling. Only listening can',
+      'You are not listening to memorize. You are listening to feel the language',
+      'Active study has value, but it is not enough',
+      'You are not afraid of English sounds anymore. They feel normal',
+      'Even partial understanding is useful',
+      'Listening is preparation. Understanding is preparation',
+      'You are learning even when you feel silent. You are growing even when you feel slow',
+      'Everyone learns at a different speed. Your journey is your own',
     ])
   })
 
@@ -97,7 +135,7 @@ describe('ChapterView (id="ch2") content coverage', () => {
       'fram repeating more',
       'habits are built t proof repetition',
       'The I push themselves',
-      'H sounds anymore',
+      'You are not afraid of English. H sounds anymore',
     ])
   })
 })
@@ -115,7 +153,42 @@ describe('ChapterView (id="ch3") content coverage', () => {
       'This hesitation happens because your brain is searching for the perfect sentence',
       'The goal is not perfect English. The goal is clear communication',
       '10 minutes every day is more powerful than 2 hours once a week',
+      'Another problem with traditional study is that it separates skills',
+      'Conversation practice trains speaking in context',
+      'Slow English podcasts are powerful because they slow down the process without slowing progress',
+      'It moves too fast. It introduces new topics before the old ones become comfortable',
+      'Conversation-based podcast practice goes deeper',
+      'Fluency grows when English becomes something you do, not something you think about',
+      'Together, they train understanding and speaking at the same time',
+      'Slow listening also builds patience',
+      'When you control your pace, you control your confidence',
+      'Consistency matters more than time. With daily practice, you will notice change',
+      'You will speak with less hesitation. You will recognize phrases instantly. You will respond faster',
+      'English begins to speak through you naturally, confidently, and without fear',
+      'When you practice speaking daily, even for 5 minutes, your brain learns that speaking is safe',
+      'Safety creates fluency. Shadowing also helps here',
+      'Grammar improves naturally through exposure and practice. But during speaking, flow comes first',
+      'So when you speak, let it be imperfect. Let it be slow. Let it be real',
+      'Not tomorrow, not someday, but right now',
+      'One reason many learners stop improving is because they study in waves',
+      'They study hard for one week. Then they stop for 2 weeks',
+      'It prepares for it. Speaking becomes normal',
+      'When you see yourself as an English speaker, your behavior changes',
+      'You take more risks. You speak more often. You stop waiting for permission',
+      'A calm mind is also important. Stress blocks language. Relaxation opens it',
+      'Slow podcasts, simple conversations, gentle repetition',
     ])
+
+    expectOccurrenceCountAtLeast(
+      text,
+      "Now, let's talk about a problem many English learners face every day",
+      2,
+    )
+    expectOccurrenceCountAtLeast(
+      text,
+      'The goal is not perfect English. The goal is clear communication',
+      2,
+    )
   })
 
   it('does not keep known raw subtitle fragments', () => {
@@ -128,6 +201,8 @@ describe('ChapterView (id="ch3") content coverage', () => {
       'S Oh. When you speak',
       'each time me you continue speaking',
       'Slow podcast. TS simple conversations',
+      'next. T part',
+      'fear fades when you speak. Anyway',
     ])
   })
 })

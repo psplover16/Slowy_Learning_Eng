@@ -32,3 +32,10 @@ Ch3 SHALL have a `scenes` array containing exactly 10 bilingual scene objects. E
 - **WHEN** the Ch3 English text is inspected
 - **THEN** obvious subtitle artifacts SHALL be corrected without adding unrelated new arguments
 - **THEN** the text SHALL NOT contain raw broken fragments from the source proposal such as `new M. Oments`, `PF ect sentence`, `This builds C confidence`, `S Oh. When you speak`, `each time me you continue speaking`, or `Slow podcast. TS simple conversations`
+
+#### Scenario: Ch3 transcript signals are not omitted
+
+- **WHEN** the Ch3 `scenes` text is inspected
+- **THEN** the English text SHALL preserve representative transcript signals from `_private/discuss.txt` beyond topic summaries
+- **THEN** those signals SHALL include separated skills in traditional study, conversation practice in context, slow podcasts slowing the process without slowing progress, shadowing patience and presence, hesitation safety practice, grammar improving through exposure, consistency waves, identity shift, calm learning environments, and the final language-as-life guidance
+- **THEN** repeated transcript sections SHALL be preserved after typo and grammar correction instead of being collapsed into a single summary
