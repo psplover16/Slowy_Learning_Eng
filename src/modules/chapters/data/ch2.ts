@@ -80,6 +80,10 @@ const chapter: ChapterData = {
           tc: '許多學習者因為聽不懂每個字而感到沮喪，就停止了聆聽，認為這太難了。但聽不懂所有內容是正常的——事實上，這是必要的。',
         },
         {
+          en: 'You are learning where words begin and where they end. You are learning word boundaries without studying them directly.',
+          tc: '你也在學習字詞從哪裡開始、在哪裡結束。你不用直接研究，也能慢慢聽出單字邊界。',
+        },
+        {
           en: 'Your brain does not need full understanding to learn. It only needs exposure. It needs time with the language.',
           tc: '大腦不需要完全理解才能學習，它只需要「接觸」——需要與語言相處的時間。',
         },
@@ -257,6 +261,10 @@ const chapter: ChapterData = {
         {
           en: `Do not worry if you understand only 60%. Your brain ${hl('fills the gaps', 'vocab-fills-the-gaps')} with time. The more you hear English, the more familiar it becomes. Fluency is not fast understanding. Fluency is comfortable understanding. Trust this process.`,
           tc: '就算只聽懂60%也不必擔心——你的大腦會隨著時間慢慢補齊那些空缺。你聽英語越多，它就越來越熟悉。流暢不是快速理解，而是舒適地理解。相信這個過程。',
+        },
+        {
+          en: 'Another important idea is passive learning. Passive learning means learning without effort. You hear English in the background, meet the same sounds again, and let repeated exposure lower your fear before speaking follows naturally.',
+          tc: '另一個重要概念是被動學習。被動學習表示不用硬逼自己也能學。你讓英語在背景中出現，反覆遇見相同聲音，讓重複接觸降低恐懼，說話就會自然跟上。',
         },
       ],
       tags: [],

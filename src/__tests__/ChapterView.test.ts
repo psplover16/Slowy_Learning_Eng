@@ -3,6 +3,9 @@ import { mount, flushPromises } from '@vue/test-utils'
 import { createRouter, createMemoryHistory } from 'vue-router'
 import { nextTick } from 'vue'
 import ChapterView from '../modules/chapters/ChapterView.vue'
+import ch2 from '../modules/chapters/data/ch2'
+import ch3 from '../modules/chapters/data/ch3'
+import type { ChapterData } from '../modules/chapters/types'
 import { chapters } from '../shared/config/chapters'
 
 class MockIntersectionObserver {
@@ -47,6 +50,86 @@ beforeEach(() => {
   vi.spyOn(window, 'scrollY', 'get').mockReturnValue(0)
   ;(globalThis as unknown as { IntersectionObserver: typeof MockIntersectionObserver }).IntersectionObserver =
     MockIntersectionObserver
+})
+
+function chapterEnglishText(chapter: ChapterData) {
+  return chapter.scenes
+    .flatMap((scene) => scene.sentences.map((sentence) => sentence.en))
+    .join(' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+([.,!?;:])/g, '$1')
+    .replace(/\s+/g, ' ')
+    .toLowerCase()
+}
+
+function expectContentToIncludeAll(text: string, snippets: string[]) {
+  for (const snippet of snippets) {
+    expect(text).toContain(snippet.toLowerCase())
+  }
+}
+
+function expectContentToExcludeAll(text: string, snippets: string[]) {
+  for (const snippet of snippets) {
+    expect(text).not.toContain(snippet.toLowerCase())
+  }
+}
+
+describe('ChapterView (id="ch2") content coverage', () => {
+  it('keeps the corrected listening-first learning ideas', () => {
+    const text = chapterEnglishText(ch2)
+
+    expectContentToIncludeAll(text, [
+      'How many words should I memorize?',
+      'Listening is the real beginning of language learning',
+      'Your brain does not need full understanding to learn',
+      'You are learning where words begin and where they end',
+      'Speaking does not come from perfection',
+      'This is why shadowing practice is powerful',
+      'Understanding always comes before fluency',
+      'Passive learning means learning without effort',
+    ])
+  })
+
+  it('does not keep known raw subtitle fragments', () => {
+    const text = chapterEnglishText(ch2)
+
+    expectContentToExcludeAll(text, [
+      'fram repeating more',
+      'habits are built t proof repetition',
+      'The I push themselves',
+      'H sounds anymore',
+    ])
+  })
+})
+
+describe('ChapterView (id="ch3") content coverage', () => {
+  it('keeps the corrected fluency practice ideas', () => {
+    const text = chapterEnglishText(ch3)
+
+    expectContentToIncludeAll(text, [
+      'Traditional study teaches knowledge',
+      'Fluency requires skill',
+      'Slow podcasts remove this pressure',
+      'Speaking must be trained directly',
+      'When you shadow, your brain does not translate. It reacts',
+      'This hesitation happens because your brain is searching for the perfect sentence',
+      'The goal is not perfect English. The goal is clear communication',
+      '10 minutes every day is more powerful than 2 hours once a week',
+    ])
+  })
+
+  it('does not keep known raw subtitle fragments', () => {
+    const text = chapterEnglishText(ch3)
+
+    expectContentToExcludeAll(text, [
+      'new M. Oments',
+      'PF ect sentence',
+      'This builds C confidence',
+      'S Oh. When you speak',
+      'each time me you continue speaking',
+      'Slow podcast. TS simple conversations',
+    ])
+  })
 })
 
 describe('ChapterView (id="ch1") — scene blocks', () => {

@@ -64,6 +64,10 @@ const chapter: ChapterData = {
           tc: '學習還有一種心理效應：當學習者只專注在「學習」本身，往往只有在學到新東西時才感到進步。但流暢是透過重複建立的，不是新奇感。不斷重複簡單句型，能鍛鍊口說的力量，即使乍看之下很無聊。',
         },
         {
+          en: 'Speaking must be trained directly. Reading about swimming cannot make you a swimmer, and reading about English cannot make speaking automatic. You need calm practice with sound, movement, and repetition.',
+          tc: '口說必須直接訓練。只讀游泳知識不會讓你變成游泳者，只讀英文知識也不會讓說話自動化。你需要用聲音、動作與重複做平靜的練習。',
+        },
+        {
           en: `${hl('Philosophically', 'vocab-philosophically')}, fluency is a state of trust. You trust your voice, you trust your brain, you trust that words will come. This trust is built through gentle repeated practice. The method was ${hl('incomplete', 'vocab-incomplete')}. Knowledge without use cannot create fluency. The solution is not more pressure. It is more natural practice.`,
           tc: '從哲學的角度來說，流暢是一種信任——你信任自己的聲音，信任自己的大腦，相信話語會自然湧現。這份信任，是透過溫和的重複練習逐漸建立的。這個方法是不完整的：沒有使用的知識，無法創造流暢。解決方法不是施加更多壓力，而是更自然的練習。',
         },
@@ -146,6 +150,10 @@ const chapter: ChapterData = {
         {
           en: 'Fluency does not come from perfection. Fluency comes from flow. Flow means speaking without stopping too much. It means allowing small mistakes. It means continuing even when the sentence is not perfect. When you speak your native language, you do not plan every sentence. You start speaking and the sentence forms naturally. This is what we want in English too.',
           tc: '流暢不是從完美中來的，它從「流動」中來。流動的意思是，說話時不要停太多，允許小小的錯誤，即使句子不完美，也繼續說下去。說母語時，你不會規劃每一句話，你只是開口，句子自然就成形了。在英文裡，我們也想達到這個境界。',
+        },
+        {
+          en: 'The goal is not perfect English. The goal is clear communication. Simple, understandable speech is stronger than a silent perfect sentence.',
+          tc: '目標不是完美英文，目標是清楚溝通。簡單、聽得懂的表達，比沉默中的完美句子更有力量。',
         },
         {
           en: `One of the best ways to reduce hesitation is to use simple sentence patterns again and again. These patterns become safe paths for your brain. For example, I think, I feel that, in my opinion, one reason is — these phrases give you time. They help your brain relax. While you speak the first part, your brain prepares the next part. This is how fluent speakers think. They do not think of full sentences. They think in ${hl('chunks', 'vocab-chunk')}. Chunks are groups of words that are used together. When you learn chunks, you speak faster and with less effort.`,
