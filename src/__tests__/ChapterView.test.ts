@@ -1,6 +1,8 @@
 import { describe, it, expect, beforeAll, beforeEach, vi } from 'vitest'
 import { mount, flushPromises } from '@vue/test-utils'
 import { createRouter, createMemoryHistory } from 'vue-router'
+import { readFileSync } from 'node:fs'
+import { resolve } from 'node:path'
 import { nextTick } from 'vue'
 import ChapterView from '../modules/chapters/ChapterView.vue'
 import ch2 from '../modules/chapters/data/ch2'
@@ -19,6 +21,31 @@ const router = createRouter({
   history: createMemoryHistory(),
   routes: [{ path: '/', component: ChapterView }],
 })
+
+function normalizeForCoverage(text: string) {
+  return text
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\r?\n/g, ' ')
+    .replace(/\s+([.,!?;:])/g, '$1')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase()
+}
+
+const normalizedDiscussTranscript = normalizeForCoverage(
+  readFileSync(resolve(process.cwd(), '_private/discuss.txt'), 'utf-8'),
+)
+
+const ch2LineBreakNormalizedSourceSignals = [
+  'many of them ask the same question. They ask, "What grammar should I study first?"',
+  'They ask, "How many words should I memorize?"',
+  'Think about driving a car. At first, it feels difficult. You think about every action, but after repetition, you drive without thinking. Speaking English works the same way.',
+]
+
+const ch3LineBreakNormalizedSourceSignals = [
+  'English learners face every day. It is not grammar. It is not vocabulary. It is hesitation',
+  'The goal is not perfect English. The goal is clear communication',
+]
 
 async function mountChapter(id: string) {
   const wrapper = mount(ChapterView, {
@@ -53,13 +80,11 @@ beforeEach(() => {
 })
 
 function chapterEnglishText(chapter: ChapterData) {
-  return chapter.scenes
-    .flatMap((scene) => scene.sentences.map((sentence) => sentence.en))
-    .join(' ')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/\s+([.,!?;:])/g, '$1')
-    .replace(/\s+/g, ' ')
-    .toLowerCase()
+  return normalizeForCoverage(
+    chapter.scenes
+      .flatMap((scene) => scene.sentences.map((sentence) => sentence.en))
+      .join(' '),
+  )
 }
 
 function expectContentToIncludeAll(text: string, snippets: string[]) {
@@ -88,6 +113,13 @@ function expectOccurrenceCountAtLeast(text: string, snippet: string, expectedCou
 }
 
 describe('ChapterView (id="ch2") content coverage', () => {
+  it('checks omission-prone signals against the line-break-normalized source transcript', () => {
+    const text = chapterEnglishText(ch2)
+
+    expectContentToIncludeAll(normalizedDiscussTranscript, ch2LineBreakNormalizedSourceSignals)
+    expectContentToIncludeAll(text, ch2LineBreakNormalizedSourceSignals)
+  })
+
   it('keeps the corrected listening-first learning ideas', () => {
     const text = chapterEnglishText(ch2)
 
@@ -107,6 +139,7 @@ describe('ChapterView (id="ch2") content coverage', () => {
       'languages are not learned by force',
       'Nobody corrects them all the time. Nobody tells them to stop. They are allowed to try',
       'When you repeat something many times, it becomes lighter. It becomes easier. It becomes automatic',
+      'You think about every action, but after repetition, you drive without thinking',
       'Memory is faster than thinking',
       'Many learners ask, "How many times should I repeat?"',
       'Repeat short sentences. Repeat easy sentences. Repeat sentences you hear often',
@@ -141,6 +174,18 @@ describe('ChapterView (id="ch2") content coverage', () => {
 })
 
 describe('ChapterView (id="ch3") content coverage', () => {
+  it('checks repeated signals against the line-break-normalized source transcript', () => {
+    const text = chapterEnglishText(ch3)
+
+    expectContentToIncludeAll(normalizedDiscussTranscript, ch3LineBreakNormalizedSourceSignals)
+    expectContentToIncludeAll(text, ch3LineBreakNormalizedSourceSignals)
+    expectOccurrenceCountAtLeast(
+      normalizedDiscussTranscript,
+      'English learners face every day. It is not grammar. It is not vocabulary. It is hesitation',
+      2,
+    )
+  })
+
   it('keeps the corrected fluency practice ideas', () => {
     const text = chapterEnglishText(ch3)
 

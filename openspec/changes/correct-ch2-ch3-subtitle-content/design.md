@@ -56,6 +56,12 @@ ch1 是目前最完整的資料驅動章節參考路徑。實作 ch2/ch3 時可�
 
 替代方案：只把此規則寫在 ch2/ch3 的特殊案例中。淘汰原因是使用者已明確要求之後新增的 route 也必須按照這個規則校正；若規則只存在於 ch2/ch3，未來新增章節時仍可能重複發生漏稿。
 
+### Normalize source line breaks before checking omissions
+
+YouTube 字幕會把同一句話切成多行，直接逐行比對容易誤判，也容易漏掉跨行句意。內容校對與 content coverage tests 必須先把 `_private/discuss.txt` 的來源主文移除斷行、壓平連續空白，形成 line-break-normalized transcript；再用代表性逐字稿訊號對照 normalized chapter data。這個方法用來判斷是否漏稿，不用來禁止必要的文法、拼字、ASR 或標點修正。
+
+替代方案：繼續只用逐行人工閱讀或只看整理後的 prose。淘汰原因是前面漏掉 `How many words should I memorize?` 與 `You think about every action` 都是跨行逐字稿訊號；先移除斷行能更早看出來源句意是否被保留。
+
 ### Verify topic coverage with content-oriented tests
 
 測試不只檢查 scene 數量，還要檢查 ch2/ch3 主文包含代表性主題群與校正結果。單元測試可從章節 data module 彙整 scenes sentence text 後檢查關鍵片語或主題標記；e2e smoke 保留 route 可渲染的驗證。
@@ -71,7 +77,8 @@ ch1 是目前最完整的資料驅動章節參考路徑。實作 ch2/ch3 時可�
 - Repetition preservation contract：不得因「句子重複」而刪除逐字稿內容。開場的 `They ask... They ask...` 節奏與 ch3 hesitation 段落的重複講述都必須在校正後保留；只修正拼字、文法、斷字與明顯 ASR 錯誤。
 - Future route correction contract：之後新增的 subtitle/transcript-backed chapter route 必須保留來源逐字稿的重複字句、問句、教學節奏與重複段落；校正只限文法、拼字、斷字、大小寫、明顯 ASR 與標點斷句。若新增 route 的資料把重複逐字稿摘要、合併或刪除，該 route content 不符合驗收。
 - Preservation contract：最終文章不得只剩摘要，ch2/ch3 必須能逐段對照 `_private/propose.md` 的 Content Scope 與 Correction Rules；重複段落也屬於逐字稿內容，不能只因重複而刪除或合併。
-- Verification contract：更新或新增測試，至少驗證 ch2/ch3 scene count、route smoke、主題群覆蓋、代表性字幕錯誤不再出現在 data text 中。完整驗證包含 `npm run test:unit`、`npm run build`、相關 e2e smoke，以及 `spectra validate correct-ch2-ch3-subtitle-content`。
+- Line-break-normalized verification contract：content coverage tests 必須直接讀取 `_private/discuss.txt`，移除來源字幕斷行並壓平空白後，確認 omission-prone source signals 存在於 normalized source transcript，也存在於 normalized ch2/ch3 article text。
+- Verification contract：更新或新增測試，至少驗證 ch2/ch3 scene count、route smoke、主題群覆蓋、line-break-normalized source signals、代表性字幕錯誤不再出現在 data text 中。完整驗證包含 `npm run test:unit`、`npm run build`、相關 e2e smoke，以及 `spectra validate correct-ch2-ch3-subtitle-content`。
 - Transcript preservation contract：除了主題群覆蓋外，Ch2/Ch3 content coverage tests 必須包含來自 `_private/discuss.txt` 的代表性逐字稿句子，尤其是曾被漏掉的 opening questions、listening-to-speaking bridge、child repetition freedom、repeat-short/easy/often guidance、slow-speaking control、traditional-study separated skills、shadowing patience、hesitation safety practice、consistency waves、identity shift、calm environment 等唯一語意。
 
 ## Risks / Trade-offs

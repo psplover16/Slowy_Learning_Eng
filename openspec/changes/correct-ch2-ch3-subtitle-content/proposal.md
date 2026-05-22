@@ -7,6 +7,7 @@
 - 修正 ch2 主文：補齊 listening、repetition、shadowing、understanding before fluency、passive exposure 等段落群，保留原教學節奏與重複感。
 - 補回 ch2 開場逐字稿中的獨立問題 `How many words should I memorize?`，避免把「單字背誦」學習迷思摘要掉。
 - 重新逐段校對 `_private/discuss.txt`，用代表性逐字稿句子鎖住 ch2/ch3 不得再次摘要化或漏稿。
+- 新增 line-break-normalized transcript coverage 檢查：先移除來源字幕斷行並壓平空白，再拿代表性逐字稿訊號對照 ch2/ch3 data，降低因 YouTube 字幕換行造成漏稿誤判。
 - 修正 ch3 主文：補齊 traditional study limitations、slow listening + shadowing、hesitation、clear communication、consistency 等段落群。
 - 校正明顯 YouTube 字幕錯誤，例如斷字、拼字、文法、大小寫、句點切錯與明顯 ASR 誤聽；不得把逐字稿中的重複問句、重複教學節奏或重複段落視為應刪除內容。
 - 之後新增的 subtitle/transcript-backed chapter routes 也必須採同一校正規則：只修正文法、拼字、斷字、明顯 ASR 錯字與標點，不因內容重複而摘要、合併或刪除。

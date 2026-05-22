@@ -217,8 +217,8 @@ const chapter: ChapterData = {
           tc: '當你把某個東西重複很多次，它會變得更輕、更容易，最後變成自動反應。',
         },
         {
-          en: 'Think about driving a car. At first, it feels difficult. But after repetition, you drive without thinking. Speaking English works the same way.',
-          tc: '想想開車。起初感覺很難，但反覆練習之後，你就能不假思索地開車了。說英語也是同樣的道理。',
+          en: 'Think about driving a car. At first, it feels difficult. You think about every action, but after repetition, you drive without thinking. Speaking English works the same way.',
+          tc: '想想開車。起初感覺很難，你會思考每一個動作；但反覆練習之後，你就能不假思索地開車了。說英語也是同樣的道理。',
         },
         {
           en: 'Many learners try to speak by creating sentences in their head. They translate from their first language. This makes speaking slow and stressful. But repetition changes this. When you repeat natural English sentences, you stop translating. You start remembering. Memory is faster than thinking.',

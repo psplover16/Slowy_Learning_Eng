@@ -39,3 +39,9 @@ Ch3 SHALL have a `scenes` array containing exactly 10 bilingual scene objects. E
 - **THEN** the English text SHALL preserve representative transcript signals from `_private/discuss.txt` beyond topic summaries
 - **THEN** those signals SHALL include separated skills in traditional study, conversation practice in context, slow podcasts slowing the process without slowing progress, shadowing patience and presence, hesitation safety practice, grammar improving through exposure, consistency waves, identity shift, calm learning environments, and the final language-as-life guidance
 - **THEN** repeated transcript sections SHALL be preserved after typo and grammar correction instead of being collapsed into a single summary
+
+#### Scenario: Ch3 source transcript is normalized before omission checks
+
+- **WHEN** Ch3 content coverage is checked against `_private/discuss.txt`
+- **THEN** the source transcript SHALL have subtitle line breaks removed and consecutive whitespace collapsed before omission-prone signals are checked
+- **AND** the normalized Ch3 article text SHALL contain the repeated hesitation and clear-communication signals found in the normalized source transcript
