@@ -80,8 +80,8 @@ const chapter: ChapterData = {
           tc: '傳統學習常常忽略這個事實。它走得太快，在舊內容變得舒適之前就引入新主題，這創造的是淺層知識，而不是深層技能。以對話為基礎的 podcast 練習走得更深，它教你英文聽起來如何、流動方式如何、感覺如何。隨著時間，英文不再像外語。',
         },
         {
-          en: `${hl('Philosophically', 'vocab-philosophically')}, fluency is a state of trust. You trust your voice, you trust your brain, you trust that words will come. This trust is built through gentle repeated practice. The method was ${hl('incomplete', 'vocab-incomplete')}. Knowledge without use cannot create fluency. The solution is not more pressure. It is more natural practice.`,
-          tc: '從哲學的角度來說，流暢是一種信任——你信任自己的聲音，信任自己的大腦，相信話語會自然湧現。這份信任，是透過溫和的重複練習逐漸建立的。這個方法是不完整的：沒有使用的知識，無法創造流暢。解決方法不是施加更多壓力，而是更自然的練習。',
+          en: `${hl('Philosophically', 'vocab-philosophically')}, fluency is a state of trust. You trust your voice, you trust your brain, you trust that words will come. This trust is built through gentle repeated practice. So if you feel frustrated after years of study, do not blame yourself. The method was ${hl('incomplete', 'vocab-incomplete')}. Knowledge without use cannot create fluency. The solution is not more pressure. It is more natural practice.`,
+          tc: '從哲學的角度來說，流暢是一種信任——你信任自己的聲音，信任自己的大腦，相信話語會自然湧現。這份信任，是透過溫和的重複練習逐漸建立的。所以如果你學了多年仍感到挫折，不要責怪自己。這個方法是不完整的：沒有使用的知識，無法創造流暢。解決方法不是施加更多壓力，而是更自然的練習。',
         },
         {
           en: 'Listen slowly. Repeat calmly. Speak without fear. Fluency grows when English becomes something you do, not something you think about. And that is where real conversation begins.',
@@ -97,8 +97,8 @@ const chapter: ChapterData = {
       titleEn: 'Slow Listening Lets the Brain Relax',
       sentences: [
         {
-          en: "Now that we understand why traditional study alone does not lead to fluency, let's talk about the technique that actually works. It is the combination of slow listening and shadowing.",
-          tc: '既然了解了為什麼傳統學習方法無法帶來流暢，讓我們來談談真正有效的技巧——慢速聆聽與影子跟讀的結合。',
+          en: "Now that we understand why traditional study alone does not lead to fluency, let's talk about the technique that actually works. This technique is simple but very powerful. It is the combination of slow listening and shadowing.",
+          tc: '既然了解了為什麼傳統學習方法無法帶來流暢，讓我們來談談真正有效的技巧。這個技巧很簡單，但非常有力量：慢速聆聽與影子跟讀的結合。',
         },
         {
           en: `Slow listening means listening to English at a comfortable speed. Not fast, not stressful, just slow enough that your brain can follow the meaning without ${hl('panic', 'vocab-panic')}. When English is slow, your mind relaxes. And when your mind relaxes, learning begins.`,

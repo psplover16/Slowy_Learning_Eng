@@ -36,16 +36,89 @@ const normalizedDiscussTranscript = normalizeForCoverage(
   readFileSync(resolve(process.cwd(), '_private/discuss.txt'), 'utf-8'),
 )
 
+const rawDiscussTranscript = readFileSync(resolve(process.cwd(), '_private/discuss.txt'), 'utf-8')
+
+const transcriptCorrections: Array<[RegExp, string]> = [
+  [/fram repeating more/g, 'from repeating more'],
+  [/habits are built t proof repetition/g, 'habits are built through repetition'],
+  [/the i push themselves/g, 'they push themselves'],
+  [/you are not afraid of english\. h sounds anymore/g, 'you are not afraid of english sounds anymore'],
+  [/new m\. oments/g, 'new moments'],
+  [/new moments/g, 'new movements'],
+  [/pf\s*ect/g, 'perfect'],
+  [/this builds c confidence/g, 'this builds confidence'],
+  [/s oh\. when you speak/g, 'so when you speak'],
+  [/each time me you continue speaking/g, 'each time you continue speaking'],
+  [/slow podcast\. ts simple conversations/g, 'slow podcasts, simple conversations'],
+  [/next\. t part/g, 'next part'],
+  [/fear fades when you speak\. anyway/g, 'fear fades when you speak anyway'],
+  [/repeating simple sentences build strength/g, 'repeating simple sentences builds strength'],
+  [/it is built by following it/g, 'it is built by following sound'],
+  [/you feel more controlled/g, 'you feel more control'],
+]
+
 const ch2LineBreakNormalizedSourceSignals = [
   'many of them ask the same question. They ask, "What grammar should I study first?"',
   'They ask, "How many words should I memorize?"',
   'Think about driving a car. At first, it feels difficult. You think about every action, but after repetition, you drive without thinking. Speaking English works the same way.',
+  'You may not feel confident yet, but your brain is working. Do not rush this stage.',
+  'This creates fear and confusion.',
 ]
 
 const ch3LineBreakNormalizedSourceSignals = [
   'English learners face every day. It is not grammar. It is not vocabulary. It is hesitation',
   'The goal is not perfect English. The goal is clear communication',
 ]
+
+function applyTranscriptCorrections(text: string) {
+  let corrected = normalizeForCoverage(text)
+
+  for (const [pattern, replacement] of transcriptCorrections) {
+    corrected = corrected.replace(pattern, replacement)
+  }
+
+  return corrected
+}
+
+function canonicalForTranscriptCoverage(text: string) {
+  return normalizeForCoverage(text)
+    .replace(/[“”]/g, '"')
+    .replace(/[’]/g, "'")
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function sourceTranscriptBlock(startText: string, endPattern?: RegExp) {
+  const startIndex = rawDiscussTranscript.indexOf(startText)
+  expect(startIndex).toBeGreaterThanOrEqual(0)
+
+  const tail = rawDiscussTranscript.slice(startIndex)
+  const endMatch = endPattern?.exec(tail)
+  return endMatch?.index === undefined ? tail : tail.slice(0, endMatch.index)
+}
+
+const ch2SourceTranscript = sourceTranscriptBlock('When people start learning English', /\r?\n2\.\s/)
+const ch3SourceTranscript = sourceTranscriptBlock('Many English learners work very hard.')
+
+function transcriptSentences(text: string) {
+  const corrected = applyTranscriptCorrections(text)
+
+  return (corrected.match(/[^.!?]+[.!?]+(?:["'])?/g) ?? [])
+    .map(canonicalForTranscriptCoverage)
+    .filter((sentence) => sentence.split(' ').length >= 4)
+}
+
+function expectEveryTranscriptSentenceCovered(sourceTranscript: string, chapter: ChapterData) {
+  const articleText = canonicalForTranscriptCoverage(
+    chapter.scenes
+      .flatMap((scene) => scene.sentences.map((sentence) => sentence.en))
+      .join(' '),
+  )
+  const missing = transcriptSentences(sourceTranscript).filter((sentence) => !articleText.includes(sentence))
+
+  expect(missing).toEqual([])
+}
 
 async function mountChapter(id: string) {
   const wrapper = mount(ChapterView, {
@@ -113,6 +186,10 @@ function expectOccurrenceCountAtLeast(text: string, snippet: string, expectedCou
 }
 
 describe('ChapterView (id="ch2") content coverage', () => {
+  it('covers every corrected source transcript sentence after line-break normalization', () => {
+    expectEveryTranscriptSentenceCovered(ch2SourceTranscript, ch2)
+  })
+
   it('checks omission-prone signals against the line-break-normalized source transcript', () => {
     const text = chapterEnglishText(ch2)
 
@@ -150,6 +227,9 @@ describe('ChapterView (id="ch2") content coverage', () => {
       'They hear conversations. They hear stories. They hear questions',
       'They are not failing. They are preparing',
       'At first, English sounds fast. Words feel mixed together. Nothing feels clear',
+      'You may not feel confident yet, but your brain is working',
+      'They push themselves to speak before understanding',
+      'This creates fear and confusion',
       'Grammar books cannot teach this feeling. Only listening can',
       'You are not listening to memorize. You are listening to feel the language',
       'Active study has value, but it is not enough',
@@ -174,6 +254,10 @@ describe('ChapterView (id="ch2") content coverage', () => {
 })
 
 describe('ChapterView (id="ch3") content coverage', () => {
+  it('covers every corrected source transcript sentence after line-break normalization', () => {
+    expectEveryTranscriptSentenceCovered(ch3SourceTranscript, ch3)
+  })
+
   it('checks repeated signals against the line-break-normalized source transcript', () => {
     const text = chapterEnglishText(ch3)
 

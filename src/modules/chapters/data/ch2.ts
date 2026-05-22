@@ -180,8 +180,8 @@ const chapter: ChapterData = {
       titleEn: 'Repetition Over Perfection',
       sentences: [
         {
-          en: 'Many English learners believe they must speak perfectly before they speak at all. They wait, they prepare, they think, they worry. And because of this, they do not speak.',
-          tc: '許多英語學習者相信，在開口說話之前必須先說得完美。他們等待、準備、思考、擔心，結果什麼都說不出口。',
+          en: 'Many English learners believe something that is not true. They believe they must speak perfectly before they speak at all. They wait, they prepare, they think, they worry. And because of this, they do not speak.',
+          tc: '許多英語學習者相信一件不正確的事：他們相信，在真正開口前必須先說得完美。他們等待、準備、思考、擔心。正因如此，他們沒有開口說。',
         },
         {
           en: 'But real speaking does not come from perfection. Real speaking comes from repetition.',
@@ -205,7 +205,7 @@ const chapter: ChapterData = {
       titleEn: 'Train Speaking Through Repetition',
       sentences: [
         {
-          en: 'When you repeat a sentence many times, your brain learns the pattern, your mouth learns the movements, your voice learns the rhythm.',
+          en: 'When you repeat a sentence many times, your brain learns the pattern, your mouth learns the movement, your voice learns the rhythm.',
           tc: '當你反覆重複一個句子，大腦學會了模式，嘴巴學會了動作，聲音學會了節奏。',
         },
         {
@@ -238,7 +238,7 @@ const chapter: ChapterData = {
       titleEn: 'Daily Repetition, Day After Day',
       sentences: [
         {
-          en: 'Repetition creates confidence quietly. You may not notice it at first, but one day you speak without fear. You realize something has changed.',
+          en: 'Repetition creates confidence quietly. You may not notice it at first, but one day you speak without fear and you realize something has changed.',
           tc: '重複練習在不知不覺中建立自信。起初你可能不會察覺，但有一天你開口說話，沒有恐懼——然後你意識到，某些事情已經改變了。',
         },
         {
@@ -291,8 +291,8 @@ const chapter: ChapterData = {
           tc: '起初，英文聽起來很快，單字混在一起，什麼都不清楚。慢慢地，某些事情改變了。你開始聽出一個字在哪裡結束、下一個字在哪裡開始；你開始理解常見片語，也開始不用翻譯就能猜出意思。這是非常重要的階段。',
         },
         {
-          en: `${hl('Do not rush', 'vocab-rush')} this stage. When learners rush, they feel stress. They push themselves to speak before understanding. But when you allow understanding to grow first, speaking becomes easier.`,
-          tc: '不要急著跳過這個階段。當學習者太急著求快，就會感到壓力，在理解還不到位時就逼自己說話。但當你讓理解先慢慢生長，口說就會變得更容易。',
+          en: `You may not feel confident yet, but your brain is working. ${hl('Do not rush', 'vocab-rush')} this stage. When learners rush, they feel stress. They push themselves to speak before understanding. This creates fear and confusion. But when you allow understanding to grow first, speaking becomes easier.`,
+          tc: '你可能還沒有信心，但你的大腦正在運作。不要急著跳過這個階段。當學習者太急著求快，就會感到壓力，在理解還不到位時就逼自己說話。這會造成恐懼和混亂。但當你讓理解先慢慢生長，口說就會變得更容易。',
         },
         {
           en: 'Listening trains your brain to think in English. You learn how sentences are built. You learn natural word order. You learn rhythm and tone. Grammar books cannot teach this feeling. Only listening can. Slow listening is especially powerful. When English is slow, your brain has time to notice details. You hear pronunciation clearly. You hear how words connect. This is why slow podcasts are helpful. You are not listening to memorize. You are listening to feel the language.',
@@ -303,8 +303,8 @@ const chapter: ChapterData = {
           tc: '理解不是一天內出現的，它是安靜地到來。有一天你會聽著英文，心想：「我懂這個。」之後你會不經規劃地開口，連自己都感到驚喜。口說會從理解中自然生長。',
         },
         {
-          en: `Do not worry if you understand only 60%. Your brain ${hl('fills the gaps', 'vocab-fills-the-gaps')} with time. The more you hear English, the more familiar it becomes. Fluency is not fast understanding. Fluency is comfortable understanding. Trust this process.`,
-          tc: '就算只聽懂60%也不必擔心——你的大腦會隨著時間慢慢補齊那些空缺。你聽英語越多，它就越來越熟悉。流暢不是快速理解，而是舒適地理解。相信這個過程。',
+          en: `Do not worry if you understand only 60%. Understanding does not need to be complete. Your brain ${hl('fills the gaps', 'vocab-fills-the-gaps')} with time. This is why it is important to listen to the same content many times. The more you hear English, the more familiar it becomes. Fluency is not fast understanding. Fluency is comfortable understanding. Trust this process.`,
+          tc: '就算只聽懂60%也不必擔心。理解不需要一開始就完整，你的大腦會隨著時間慢慢補齊那些空缺。這就是為什麼反覆聽同樣內容很重要。你聽英語越多，它就越來越熟悉。流暢不是快速理解，而是舒適地理解。相信這個過程。',
         },
         {
           en: 'Another important idea is passive learning. Passive learning means learning without effort. You listen while relaxing. You listen without pressure. Your brain learns naturally. This kind of learning is powerful. Many learners only study actively. They focus on rules. They memorize lists. Active study has value, but it is not enough. Understanding comes from exposure. Exposure means hearing English again and again.',

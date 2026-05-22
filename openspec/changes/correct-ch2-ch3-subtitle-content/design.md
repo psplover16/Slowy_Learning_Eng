@@ -12,6 +12,7 @@
 - 校正 `_private/propose.md` 指出的明顯 YouTube 字幕錯誤，並保留主文的主要語意、段落順序、教學節奏與重複練習感。
 - 補強測試，讓 ch2/ch3 主文不是短摘要，且關鍵段落群與代表性修正可以被驗證。
 - 將 `_private/discuss.txt` 中容易被摘要掉的獨立句意列為 required transcript signals，讓逐字稿保留可以被機械式檢查。
+- 將 ch2/ch3 的逐字稿檢查提升為每一句來源 transcript sentence 的全量比對：先移除來源斷行、套用明確 subtitle correction mappings，再要求每一句至少四個字的來源句子都出現在 normalized chapter article text。
 - 參照既有 ch1 route 的 registry、ChapterData module、ChapterView 渲染與 smoke test 模式，讓 ch2/ch3 的內容修復維持同一條章節實作路徑。
 - 明確規定之後新增的 subtitle/transcript-backed chapter routes 也必須按同一校正規則處理：只修正文法、拼字、斷字、明顯 ASR 與標點，不因重複而摘要、合併或刪除。
 
@@ -62,6 +63,12 @@ YouTube 字幕會把同一句話切成多行，直接逐行比對容易誤判，
 
 替代方案：繼續只用逐行人工閱讀或只看整理後的 prose。淘汰原因是前面漏掉 `How many words should I memorize?` 與 `You think about every action` 都是跨行逐字稿訊號；先移除斷行能更早看出來源句意是否被保留。
 
+### Check every source transcript sentence after correction mappings
+
+代表句檢查不足以防止再次漏稿。Ch2/Ch3 content coverage tests 必須直接從 `_private/discuss.txt` 擷取對應章節主文，先移除字幕斷行並壓平空白，再套用明確列出的 subtitle correction mappings，最後把來源拆成至少四個字的句子，逐句確認 normalized chapter article text 有覆蓋。Correction mappings 只允許處理字幕機械錯誤、文法、拼字、斷字、大小寫與標點斷句，不得把真正缺漏的來源句子藏進 mapping。
+
+替代方案：持續維護少量 omission-prone signals。淘汰原因是使用者已多次指出未列入代表句的來源句被漏掉；全量逐句比對才能把漏稿問題變成穩定紅燈。
+
 ### Verify topic coverage with content-oriented tests
 
 測試不只檢查 scene 數量，還要檢查 ch2/ch3 主文包含代表性主題群與校正結果。單元測試可從章節 data module 彙整 scenes sentence text 後檢查關鍵片語或主題標記；e2e smoke 保留 route 可渲染的驗證。
@@ -78,6 +85,7 @@ YouTube 字幕會把同一句話切成多行，直接逐行比對容易誤判，
 - Future route correction contract：之後新增的 subtitle/transcript-backed chapter route 必須保留來源逐字稿的重複字句、問句、教學節奏與重複段落；校正只限文法、拼字、斷字、大小寫、明顯 ASR 與標點斷句。若新增 route 的資料把重複逐字稿摘要、合併或刪除，該 route content 不符合驗收。
 - Preservation contract：最終文章不得只剩摘要，ch2/ch3 必須能逐段對照 `_private/propose.md` 的 Content Scope 與 Correction Rules；重複段落也屬於逐字稿內容，不能只因重複而刪除或合併。
 - Line-break-normalized verification contract：content coverage tests 必須直接讀取 `_private/discuss.txt`，移除來源字幕斷行並壓平空白後，確認 omission-prone source signals 存在於 normalized source transcript，也存在於 normalized ch2/ch3 article text。
+- Full transcript sentence coverage contract：content coverage tests 必須從 `_private/discuss.txt` 擷取 ch2/ch3 來源主文，移除字幕斷行、壓平空白、套用明確 subtitle correction mappings，並要求每個至少四個字的來源 transcript sentence 都被 normalized ch2/ch3 article text 覆蓋。Correction mappings 僅可涵蓋機械字幕錯誤、文法、拼字、斷字、大小寫與標點斷句；真正缺稿必須補回章節主文。
 - Verification contract：更新或新增測試，至少驗證 ch2/ch3 scene count、route smoke、主題群覆蓋、line-break-normalized source signals、代表性字幕錯誤不再出現在 data text 中。完整驗證包含 `npm run test:unit`、`npm run build`、相關 e2e smoke，以及 `spectra validate correct-ch2-ch3-subtitle-content`。
 - Transcript preservation contract：除了主題群覆蓋外，Ch2/Ch3 content coverage tests 必須包含來自 `_private/discuss.txt` 的代表性逐字稿句子，尤其是曾被漏掉的 opening questions、listening-to-speaking bridge、child repetition freedom、repeat-short/easy/often guidance、slow-speaking control、traditional-study separated skills、shadowing patience、hesitation safety practice、consistency waves、identity shift、calm environment 等唯一語意。
 

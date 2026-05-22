@@ -45,3 +45,9 @@ Ch3 SHALL have a `scenes` array containing exactly 10 bilingual scene objects. E
 - **WHEN** Ch3 content coverage is checked against `_private/discuss.txt`
 - **THEN** the source transcript SHALL have subtitle line breaks removed and consecutive whitespace collapsed before omission-prone signals are checked
 - **AND** the normalized Ch3 article text SHALL contain the repeated hesitation and clear-communication signals found in the normalized source transcript
+
+#### Scenario: Ch3 source transcript sentences are fully covered
+
+- **WHEN** Ch3 content coverage is checked against `_private/discuss.txt`
+- **THEN** every source transcript sentence with at least four words SHALL be represented in the normalized Ch3 article text after applying explicit subtitle correction mappings
+- **AND** the explicit correction mappings SHALL only cover mechanical subtitle artifacts, grammar fixes, spelling fixes, capitalization fixes, and punctuation or sentence-boundary fixes

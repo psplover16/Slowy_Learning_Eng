@@ -37,6 +37,7 @@ Ch2 SHALL have a `scenes` array containing exactly 10 bilingual scene objects. E
 | repeated exposure | the brain learns from exposure even without full understanding |
 | repetition before perfection | real speaking comes from repetition instead of waiting for perfect speech |
 | driving action analogy | the text preserves the idea that at first you think about every action, then repetition makes the action automatic |
+| confidence during understanding stage | the text preserves that confidence can still be absent while the brain is working, and that rushing before understanding creates fear and confusion |
 | shadowing practice | the learner listens and repeats immediately while copying rhythm |
 | understanding before fluency | understanding grows before easy speaking appears |
 | passive learning | repeated relaxed listening creates familiarity, comfort, and confidence |
@@ -51,11 +52,17 @@ Ch2 SHALL have a `scenes` array containing exactly 10 bilingual scene objects. E
 
 - **WHEN** the Ch2 `scenes` text is inspected
 - **THEN** the English text SHALL preserve representative transcript signals from `_private/discuss.txt` beyond topic summaries
-- **THEN** those signals SHALL include the opening memorization question, the listening-to-speaking bridge, child repetition freedom, the driving action analogy, repeat-short/easy/often guidance, slow-speaking control, passive learning, active study limits, and the final preparation/trust guidance
+- **THEN** those signals SHALL include the opening memorization question, the listening-to-speaking bridge, child repetition freedom, the driving action analogy, the confidence-during-understanding-stage signal, repeat-short/easy/often guidance, slow-speaking control, passive learning, active study limits, and the final preparation/trust guidance
 - **THEN** repeated transcript wording such as `They ask` SHALL be preserved when it is part of the original teaching rhythm
 
 #### Scenario: Ch2 source transcript is normalized before omission checks
 
 - **WHEN** Ch2 content coverage is checked against `_private/discuss.txt`
 - **THEN** the source transcript SHALL have subtitle line breaks removed and consecutive whitespace collapsed before omission-prone signals are checked
-- **AND** the normalized Ch2 article text SHALL contain the opening question signals and the driving action analogy found in the normalized source transcript
+- **AND** the normalized Ch2 article text SHALL contain the opening question signals, the driving action analogy, and the confidence-during-understanding-stage signal found in the normalized source transcript
+
+#### Scenario: Ch2 source transcript sentences are fully covered
+
+- **WHEN** Ch2 content coverage is checked against `_private/discuss.txt`
+- **THEN** every source transcript sentence with at least four words SHALL be represented in the normalized Ch2 article text after applying explicit subtitle correction mappings
+- **AND** the explicit correction mappings SHALL only cover mechanical subtitle artifacts, grammar fixes, spelling fixes, capitalization fixes, and punctuation or sentence-boundary fixes

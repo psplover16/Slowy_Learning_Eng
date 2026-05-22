@@ -2,7 +2,7 @@
 
 ### Requirement: Transcript-backed chapter routes SHALL preserve source repetition while correcting only mechanical subtitle errors
 
-Any chapter route added from subtitle or transcript source text SHALL use the same correction rule as the corrected ch2/ch3 content. The chapter data module SHALL preserve repeated wording, repeated questions, repeated teaching rhythm, and repeated paragraphs from the source transcript. Correction SHALL be limited to grammar, spelling, broken words, capitalization, obvious ASR errors, and punctuation or sentence-boundary fixes. The chapter data SHALL NOT summarize, deduplicate, merge, or delete repeated transcript content solely because it repeats. Reviews and tests SHALL normalize source subtitles by removing line breaks and collapsing consecutive whitespace before checking whether representative transcript signals were omitted.
+Any chapter route added from subtitle or transcript source text SHALL use the same correction rule as the corrected ch2/ch3 content. The chapter data module SHALL preserve repeated wording, repeated questions, repeated teaching rhythm, and repeated paragraphs from the source transcript. Correction SHALL be limited to grammar, spelling, broken words, capitalization, obvious ASR errors, and punctuation or sentence-boundary fixes. The chapter data SHALL NOT summarize, deduplicate, merge, or delete repeated transcript content solely because it repeats. Reviews and tests SHALL normalize source subtitles by removing line breaks and collapsing consecutive whitespace before checking whether representative transcript signals were omitted. For subtitle-backed chapter content, reviews and tests SHALL also check every source transcript sentence with at least four words against normalized chapter article text after applying explicit subtitle correction mappings. The mappings SHALL be narrow and limited to mechanical subtitle artifacts, grammar fixes, spelling fixes, capitalization fixes, and punctuation or sentence-boundary fixes.
 
 #### Scenario: Future route keeps repeated transcript content after correction
 
@@ -33,3 +33,15 @@ Any chapter route added from subtitle or transcript source text SHALL use the sa
 - **GIVEN** source subtitle lines contain `You think about every` followed by `action, but after repetition`
 - **WHEN** the review normalizes source line breaks
 - **THEN** the continuous signal `You think about every action, but after repetition` MUST be checked against the chapter article text
+
+#### Scenario: Future route review checks every source sentence
+
+- **WHEN** a future chapter route is reviewed against subtitle or transcript source text
+- **THEN** every source transcript sentence with at least four words SHALL be checked against the normalized chapter article text after explicit subtitle correction mappings are applied
+- **AND** any unmatched sentence SHALL make the route content incomplete until the sentence is restored or covered by a narrow correction mapping
+
+##### Example: missing confidence sentence
+
+- **GIVEN** normalized source contains a confidence-stage sentence saying the brain is still working
+- **WHEN** the chapter article omits that signal
+- **THEN** the route content is incomplete until the signal is restored
