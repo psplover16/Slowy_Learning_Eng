@@ -4,197 +4,361 @@
   "level": "a2",
   "title": "Slow English Reading - Learn English with Children’s Books (comprehensible input)",
   "youtubeUrl": "https://www.youtube.com/watch?v=wKZkxYCGMdw",
+  "header": {
+    "podcastLabel": "MissHoney A2",
+    "titleZh": "慢速英語閱讀 - 用童書學英語（可理解的輸入）",
+    "titleEn": "Slow English Reading - Learn English with Children’s Books (comprehensible input)",
+    "levelTag": "A2",
+    "topicTag": "language"
+  },
   "scenes": [
     {
       "id": "scene-01",
+      "no": "01",
+      "titleZh": "開場：語言學習",
+      "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Hello and welcome back to my Slow English podcast. Today we will be reading Swimming by.",
-          "tc": "您好，歡迎回到我的慢速英語播客。今天我們要讀的是《游泳》。"
+          "en": "Welcome back to my Slow English podcast. Today.",
+          "tc": "歡迎回到我的慢速英語播客。今天。"
         },
         {
-          "en": "Leo Leone. Read slow English children's books with me. A happy school of little red fish.",
-          "tc": "利奧·萊昂內.和我一起讀慢速英語兒童讀物。一群快樂的小紅魚。"
+          "en": "We will be reading Swimming by Leo Leone. Read slow English children's books with me. A happy school of little red fish lived in a corner of the sea somewhere.",
+          "tc": "我們將閱讀 Leo Leone 的《游泳》。和我一起讀慢速英語兒童讀物。在某個海域的某個角落裡，住著一群快樂的小紅魚。"
         },
         {
-          "en": "Lived in a corner of the sea somewhere. They were all red. Only one of them.",
-          "tc": "住在某處大海的一角。他們都是紅色的。只有其中之一。"
+          "en": "They were all red. Only one of them was black. as a muscle shell.",
+          "tc": "他們都是紅色的。其中只有一個是黑色的。作為肌肉外殼。"
         },
         {
-          "en": "Was black. Black as a muscle shell. He swam faster than his brothers and sisters. His.",
-          "tc": "是黑色的。黑色如肌肉殼。他比他的兄弟姐妹游得更快。他的。"
+          "en": "He swam faster than his brothers and sisters. His name was Swimmie. One day, a bad tuna fish, swift, fierce, and very hungry, came darting through the waves. In one gulp,.",
+          "tc": "他比他的兄弟姐妹游得更快。他的名字叫斯威米。有一天，一条坏金枪鱼，敏捷、凶猛，而且非常饥饿，在海浪中疾驰而来。一口氣，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "fish",
+          "kk": "/fish/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "his",
+          "kk": "/his/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 his 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段：日常生活",
+      "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "Name was Swimmie. One day, a bad tuna fish, swift, fierce, and very hungry, came darting.",
-          "tc": "名字叫斯威米。有一天，一條壞鮪魚飛過來，它又快又兇，而且非常餓。"
+          "en": "He swallowed all the little red fish. Only Swimmie escaped.",
+          "tc": "他把所有的小紅魚都吞了下去。只有史威米逃脫了。"
         },
         {
-          "en": "Through the waves. In one gulp, he swallowed all the little red fish. Only Swimmie escaped.",
-          "tc": "穿過波浪。一口氣將小紅魚全部吞了下去。只有史威米逃脫了。"
+          "en": "He swam away in the deep wet world.",
+          "tc": "他在深濕的世界裡遊走了。"
         },
         {
-          "en": "He swam away in the deep wet world. He was scared, lonely, and very sad. But.",
-          "tc": "他在深濕的世界裡遊走了。他很害怕，很孤獨，也很悲傷。但。"
+          "en": "He was scared, lonely, and very sad. But the sea was full of wonderful creatures. And as.",
+          "tc": "他很害怕，很孤獨，也很悲傷。但大海裡充滿了奇妙的生物。和作為。"
         },
         {
-          "en": "The sea was full of wonderful creatures. And as he swam from marvel to marvel, Simmyi.",
-          "tc": "大海裡充滿了奇妙的生物。當他從一個奇蹟游到另一個奇蹟時，西米。"
+          "en": "He swam from marvel to marvel, Simmyi was happy again.",
+          "tc": "他從一個奇蹟游到另一個奇蹟，西米又高興了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "fish",
+          "kk": "/fish/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "away",
+          "kk": "/away/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 away 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "Was happy again. He saw a medusa made of rainbow jelly. A lobster who walked about.",
-          "tc": "又高興了。他看到了一個由彩虹果凍製成的美杜莎。一隻四處走動的龍蝦。"
+          "en": "He saw a medusa made of rainbow jelly. A lobster who walked about like a watermoving machine. Strange fish pulled by an invisible thread. A forest of seaweeds growing from sugar candy.",
+          "tc": "他看到了一個由彩虹果凍製成的美杜莎。一隻像運水機器一樣走來走去的龍蝦。奇怪的魚被一條看不見的線拉著。從糖中長出的海藻森林。"
         },
         {
-          "en": "Like a watermoving machine. Strange fish pulled by an invisible thread. A forest of seaweeds growing.",
-          "tc": "就像一台抽水機。奇怪的魚被一條看不見的線拉著。生長著海藻的森林。"
+          "en": "Rocks. An eel whose tail was almost too far away to remember. Too far away. and sea anemies who looked like pink palm trees swaying in the wind.",
+          "tc": "岩石。一條鰻魚，尾巴離得太遠，幾乎記不清了。太遠了。還有看起來像粉紅色棕櫚樹在風中搖曳的海洋敵人。"
         },
         {
-          "en": "From sugar candy rocks. An eel whose tail was almost too far away to remember. Too.",
-          "tc": "來自糖塊。一條鰻魚，尾巴離得太遠，幾乎記不清了。也。"
+          "en": "Then hidden in his dark shade of rocks and weeds,.",
+          "tc": "然後隱藏在岩石和雜草的黑暗陰影中。"
         },
         {
-          "en": "Far away. and sea anemies who looked like pink palm trees swaying in the wind. Then.",
-          "tc": "很遠。還有看起來像粉紅色棕櫚樹在風中搖曳的海洋敵人。然後。"
+          "en": "He saw a school of little fish, just like his own. Let's go and swim and play and see things.",
+          "tc": "他看到一群小魚，就像他自己的一樣。我們去游泳、玩耍、看看東西吧。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "fish",
+          "kk": "/fish/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "away",
+          "kk": "/away/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 away 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "his",
+          "kk": "/his/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 his 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "Hidden in his dark shade of rocks and weeds, he saw a school of little fish,.",
-          "tc": "他看到一群小魚隱藏在岩石和雜草的暗影裡。"
+          "en": "He said happily.",
+          "tc": "他高興地說。"
         },
         {
-          "en": "Just like his own. Let's go and swim and play and see things. he said happily.",
-          "tc": "就像他自己的一樣。我們去游泳、玩耍、看看東西吧。他高興地說。"
+          "en": "We can't, said the little red fish. The big fish will eat us. But you can't just lie there, said Swimmie.",
+          "tc": "我們不能，小紅魚說。大魚會吃掉我們。但你不能只是躺在那裡，斯威米說。"
         },
         {
-          "en": "We can't, said the little red fish. The big fish will eat us. But you can't.",
-          "tc": "我們不能，小紅魚說。大魚會吃掉我們。但你不能。"
+          "en": "We must think of something. Swimmie thought and thought.",
+          "tc": "我們必須想點辦法。斯威米想了又想。"
         },
         {
-          "en": "Just lie there, said Swimmie. We must think of something. Swimmie thought and thought and thought.",
-          "tc": "就躺在那裡吧，斯威米說。我們必須想點辦法。斯維米想啊想啊想。"
+          "en": "He said, \"I have it.",
+          "tc": "他說：「我有。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "fish",
+          "kk": "/fish/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "red",
+          "kk": "/red/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "Then suddenly he said, \"I have it. We are going to swim all together like the.",
-          "tc": "然後他突然說：“我知道了。我們要像那樣一起游泳。”"
+          "en": "We are going to swim all together like the biggest fish in the sea.",
+          "tc": "我們要像海裡最大的魚一樣一起游泳。"
         },
         {
-          "en": "Biggest fish in the sea. He taught them how to swim close together, each in his.",
-          "tc": "海裡最大的魚。他教他們如何靠在一起游泳，每個人都在他的泳道裡。"
+          "en": "They had learned to swim like one giant fish,.",
+          "tc": "他們學會了像一條大魚一樣游泳。"
         },
         {
-          "en": "Own place. And when they had learned to swim like one giant fish, he said, \"I'll.",
-          "tc": "自己的地方。當他們學會像一條大魚一樣游泳時，他說：「我會的。"
+          "en": "They swam in the cool morning water and in the midday sun. and chased the big fish away. The end. I have a few questions for you.",
+          "tc": "他們在清晨涼爽的水中和正午的陽光下游泳。並把大魚趕走了。結束。我有幾個問題想問你。"
         },
         {
-          "en": "Be the eye.\" And so they swam in the cool morning water and in the midday.",
-          "tc": "成為眼睛。 「於是他們在清晨和中午涼爽的水中游泳。"
+          "en": "They made the big fish? and four.",
+          "tc": "他們釣到了大魚？和四個。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "fish",
+          "kk": "/fish/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "away",
+          "kk": "/away/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 away 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "one",
+          "kk": "/one/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：語言學習",
+      "titleEn": "Part 6: language",
       "sentences": [
         {
-          "en": "Sun. and chased the big fish away. The end. I have a few questions for you.",
-          "tc": "太陽。並把大魚趕走了。結束。我有幾個問題想問你。"
+          "en": "What do you think the moral of this story is? Comment your answers down below. I hope you enjoyed my slow English reading?",
+          "tc": "你認為這個故事的寓意是什麼？在下面評論你的答案。我希望你喜歡我的慢速英語閱讀？"
         },
         {
-          "en": "First one, why do you think Swimmie managed to escape from the big fish? Two. Was.",
-          "tc": "第一個，你認為 Swimmie 為何能從大魚手中逃脫？二。是。"
+          "en": "If you like these type of videos,.",
+          "tc": "如果你喜歡這些類型的視頻，。"
         },
         {
-          "en": "The eel's tail long or short? Three, why was swimming the eye when they made the.",
-          "tc": "鰻魚的尾巴是長還是短？三、他們製作時為什麼要晃動眼睛。"
-        },
-        {
-          "en": "Big fish? and four. What do you think the moral of this story is? Comment your.",
-          "tc": "大魚？和四個。你認為這個故事的寓意是什麼？評論你的."
+          "en": "Then subscribe and like for more. >>.",
+          "tc": "然後訂閱並按讚以獲取更多內容。 >>。"
         }
-      ]
-    },
-    {
-      "id": "scene-07",
-      "sentences": [
+      ],
+      "tags": [
         {
-          "en": "Answers down below. I hope you enjoyed my slow English reading. And if you like these.",
-          "tc": "答案在下面。我希望你喜歡我的慢速英語閱讀。如果你喜歡這些。"
-        },
-        {
-          "en": "Type of videos, then subscribe and like for more. >>.",
-          "tc": "輸入影片類型，然後訂閱並按讚以獲取更多內容。 >>。"
+          "english": "his",
+          "kk": "/his/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 his 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
   ],
   "vocabGroups": [
     {
-      "label": "A2 transcript keywords",
+      "title": "A2 重點單字",
       "items": [
         {
-          "word": "fish",
-          "pos": "word",
-          "meaning": "魚",
+          "english": "fish",
+          "kk": "/fish/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "his",
-          "pos": "word",
-          "meaning": "他的",
+          "english": "away",
+          "kk": "/away/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 away 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "one",
-          "pos": "word",
-          "meaning": "一",
+          "english": "his",
+          "kk": "/his/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 his 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "said",
-          "pos": "word",
-          "meaning": "說",
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "swimmie",
-          "pos": "word",
-          "meaning": "泳米",
+          "english": "one",
+          "kk": "/one/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "away",
-          "pos": "word",
-          "meaning": "離開",
+          "english": "red",
+          "kk": "/red/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "big",
-          "pos": "word",
-          "meaning": "大",
+          "english": "said",
+          "kk": "/said/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 said 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "little",
-          "pos": "word",
-          "meaning": "小",
+          "english": "sea",
+          "kk": "/sea/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 sea 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -204,33 +368,83 @@
     {
       "id": "phrase-01",
       "phrase": "what do you",
-      "meaning": "你做什麼",
+      "meaning": "你會怎麼...",
       "examples": [
         {
-          "en": "When they made the big fish? and four. What do you think the moral of this story is? Comment your answers.",
-          "tc": "他們什麼時候釣到大魚的？和四個。你認為這個故事的寓意是什麼？評論你的答案。"
+          "en": "What do you think the moral of this story is?",
+          "tc": "你認為這個故事的寓意是什麼？"
         }
       ]
     },
     {
       "id": "phrase-02",
       "phrase": "going to",
-      "meaning": "去",
+      "meaning": "常用說法，可用來表達「going to」這個意思",
       "examples": [
         {
-          "en": "Suddenly he said, \"I have it. We are going to swim all together like the biggest fish in the sea.",
-          "tc": "突然他說：「我有。」我們要像海裡最大的魚一樣一起游泳。"
+          "en": "We are going to swim all together like the biggest fish in the sea.",
+          "tc": "我們要像海裡最大的魚一樣一起游泳。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "learn english",
-      "meaning": "學英語",
+      "phrase": "one of the",
+      "meaning": "常用說法，可用來表達「one of the」這個意思",
       "examples": [
         {
-          "en": "Slow English Reading - Learn English with Children's Books (comprehensible input). Hello and welcome back to.",
-          "tc": "慢速英語閱讀 - 透過兒童讀物學習英語（可理解的輸入）。您好，歡迎回到。"
+          "en": "Only one of them was black.",
+          "tc": "其中只有一個是黑色的。"
+        }
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "breakdown-01",
+      "sentence": "Welcome back to my Slow English podcast. Today.",
+      "translation": "歡迎回到我的慢速英語播客。今天。",
+      "points": [
+        {
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-02",
+      "sentence": "We will be reading Swimming by Leo Leone. Read slow English children's books with me. A happy school of little red fish lived in a corner of the sea somewhere.",
+      "translation": "我們將閱讀 Leo Leone 的《游泳》。和我一起讀慢速英語兒童讀物。在某個海域的某個角落裡，住著一群快樂的小紅魚。",
+      "points": [
+        {
+          "label": "reading swimming leo",
+          "text": "reading swimming leo",
+          "note": "注意 \"reading swimming leo\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-03",
+      "sentence": "They were all red. Only one of them was black. as a muscle shell.",
+      "translation": "他們都是紅色的。其中只有一個是黑色的。作為肌肉外殼。",
+      "points": [
+        {
+          "label": "one of the",
+          "text": "one of the",
+          "note": "注意 \"one of the\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "He swam faster than his brothers and sisters. His name was Swimmie. One day, a bad tuna fish, swift, fierce, and very hungry, came darting through the waves. In one gulp,.",
+      "translation": "他比他的兄弟姐妹游得更快。他的名字叫斯威米。有一天，一条坏金枪鱼，敏捷、凶猛，而且非常饥饿，在海浪中疾驰而来。一口氣，。",
+      "points": [
+        {
+          "label": "swam faster his",
+          "text": "swam faster his",
+          "note": "注意 \"swam faster his\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

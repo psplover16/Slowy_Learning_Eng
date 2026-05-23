@@ -4,306 +4,381 @@
   "level": "b1",
   "title": "SLOW English Podcast for High Beginners! A2-B1 — My Trip to the USA! 🇺🇸(comprehensible input)",
   "youtubeUrl": "https://www.youtube.com/watch?v=-SyVeZYXuy8",
+  "header": {
+    "podcastLabel": "MissHoney B1",
+    "titleZh": "適合高級初學者的慢速英語播客！ A2-B1 — 我的美國之旅！ 🇺🇸（可理解的輸入）",
+    "titleEn": "SLOW English Podcast for High Beginners! A2-B1 — My Trip to the USA! 🇺🇸(comprehensible input)",
+    "levelTag": "B1",
+    "topicTag": "travel"
+  },
   "scenes": [
     {
       "id": "scene-01",
+      "no": "01",
+      "titleZh": "開場：語言學習",
+      "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Hello and welcome back to my slow English podcast. Today I am at my aunt's house.",
-          "tc": "你好，歡迎回到我的慢速英語播客。今天我在姨媽家。"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語播客。"
         },
         {
-          "en": "I traveled to the United States to visit my family. I really missed the big houses.",
-          "tc": "我去美國探望我的家人。我真的很懷念那些大房子。"
+          "en": "Today I am at my aunt's house. I traveled to the United States to visit my family.",
+          "tc": "今天我在姨媽家。我去美國探望我的家人。"
         },
         {
-          "en": "And green trees and the hot Cheetos. Flaming hot Cheetos are my favorite type of Cheetos.",
-          "tc": "還有綠樹和熱奇多。火熱的奇多是我最喜歡的奇多類型。"
+          "en": "I really missed the big houses and green trees and the hot Cheetos. Flaming hot Cheetos are.",
+          "tc": "我真的很想念那些大房子、綠樹和熱奇多。火熱的奇多是。"
         },
         {
-          "en": "I also bought a new hat at the thrift store. It was only $6. Super cheap.",
-          "tc": "我還在舊貨店買了一頂新帽子。才 6 美元。超便宜。"
+          "en": "My favorite type of Cheetos. I also bought a new hat at the thrift store. It was only $6. Super cheap.",
+          "tc": "我最喜歡的奇多類型。我還在舊貨店買了一頂新帽子。才 6 美元。超便宜。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "hot",
+          "kk": "/hot/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 hot 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "only",
+          "kk": "/only/",
+          "partOfSpeech": "adv.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 only 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段：日常生活",
+      "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "I bought it at the thrift shop. So, it's all secondhand clothing. Secondhand means that it's.",
-          "tc": "我在舊貨店買的。所以，都是二手衣服。二手的意思就是這樣。"
+          "en": "I bought it at the thrift shop. So, it's all secondhand clothing. Secondhand means that it's already been used. though it's previously been worn, but it's still really good quality. The weather.",
+          "tc": "我在舊貨店買的。所以，都是二手衣服。二手的意思是已經被使用過。雖然已經穿過了，但是品質還是不錯的。天氣。"
         },
         {
-          "en": "Already been used. though it's previously been worn, but it's still really good quality. The weather.",
-          "tc": "已經用過了。雖然已經穿過了，但是品質還是不錯的。天氣。"
+          "en": "In Nebraska has been so warm, but today, as you can see from my red nose, it's a little bit cold.",
+          "tc": "內布拉斯加州一直很溫暖，但今天，從我的紅鼻子可以看出，有點冷。"
         },
         {
-          "en": "In Nebraska has been so warm, but today, as you can see from my red nose,.",
-          "tc": "內布拉斯加州一直很溫暖，但是今天，正如你從我的紅鼻子上看到的那樣。"
+          "en": "I had to wear a sweatshirt. It's a nice breeze, but I prefer the warm sun.",
+          "tc": "我不得不穿一件運動衫。微風徐徐，但我更喜歡溫暖的陽光。"
         },
         {
-          "en": "It's a little bit cold. I had to wear a sweatshirt. It's a nice breeze, but.",
-          "tc": "天氣有點冷。我不得不穿一件運動衫。這是一陣微風，但是。"
+          "en": "How has your summer been so far? I know some people get a long vacation during the summer. But some people don't?",
+          "tc": "到目前為止你的夏天過得怎麼樣？我知道有些人在暑假期間有很長的假期。但有些人不這麼認為？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "it's",
+          "kk": "/it's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "I prefer the warm sun. How has your summer been so far? I know some people.",
-          "tc": "我比較喜歡溫暖的陽光。到目前為止你的夏天過得怎麼樣？我認識一些人。"
+          "en": "I remember my mom and my dad always had a vacation. During the summer.",
+          "tc": "我記得我媽媽和爸爸總是放假。夏季期間。"
         },
         {
-          "en": "Get a long vacation during the summer. But some people don't. I remember my mom and.",
-          "tc": "在暑假期間享受一個長假。但有些人不這麼認為。我記得我的媽媽和。"
+          "en": "When it was warm?",
+          "tc": "什麼時候暖的？"
         },
         {
-          "en": "My dad always had a vacation. During the summer when it was warm and we could.",
-          "tc": "我爸爸總是有假期。夏天天氣暖和的時候我們可以。"
+          "en": "We could all go out to swim or play at the park, but some of my friends parents would always work all year round. Some all yearround jobs are like doctors, sales.",
+          "tc": "我們都可以出去游泳或去公園玩耍，但我的一些朋友的父母總是全年工作。有些全年無休的工作，例如醫生、銷售。"
         },
         {
-          "en": "All go out to swim or play at the park, but some of my friends parents.",
-          "tc": "所有人都出去游泳或去公園玩耍，但我的一些朋友的父母除外。"
+          "en": "People, waiters, and waitresses. Lots of workers don't get summer off. only really teachers do and only because the students need a break as well.",
+          "tc": "人、服務生和女服務生。很多工人沒有暑假。只有真正的老師才會這麼做，而且只是因為學生也需要休息。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "only",
+          "kk": "/only/",
+          "partOfSpeech": "adv.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 only 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "Would always work all year round. Some all yearround jobs are like doctors, sales people, waiters,.",
-          "tc": "總是會全年工作。有些全年無休的工作，如醫生、銷售人員、服務生等。"
+          "en": "What I enjoyed the most about living in the United States, specifically Nebraska, were the seasons?",
+          "tc": "我在美國，特別是內布拉斯加州生活時最喜歡的是季節？"
         },
         {
-          "en": "And waitresses. Lots of workers don't get summer off. only really teachers do and only because.",
-          "tc": "還有女服務生。很多工人沒有暑假。只有真正的老師才會這麼做，而且只是因為。"
+          "en": "I loved having chilly autumn or fall, snowy winters, blossoming springs and warm summers, or should.",
+          "tc": "我喜歡寒冷的秋天或秋天，白雪皚皚的冬天，繁花似錦的春天和溫暖的夏天，或者應該。"
         },
         {
-          "en": "The students need a break as well. What I enjoyed the most about living in the.",
-          "tc": "學生們也需要休息。我最享受住在裡面的事。"
+          "en": "I say hot summers in Mexico. There's basically only two seasons, rainy and dry. Just like in Thailand,.",
+          "tc": "我說的是墨西哥炎熱的夏天。基本上只有兩個季節，雨季和旱季。就像在泰國一樣。"
         },
         {
-          "en": "United States, specifically Nebraska, were the seasons. I loved having chilly autumn or fall, snowy winters,.",
-          "tc": "美國，特別是內布拉斯加州，有季節。我喜歡寒冷的秋天或下雪的冬天。"
+          "en": "I remember there was only rainy season and dry season. I really missed having four seasons because even though winter here is super intense, the sidewalks are frozen ice. The streets.",
+          "tc": "我記得只有雨季和旱季。我真的很懷念四個季節，因為儘管這裡的冬天非常寒冷，人行道上卻結冰了。街道。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "here",
+          "kk": "/here/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 here 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "hot",
+          "kk": "/hot/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 hot 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "Blossoming springs and warm summers, or should I say hot summers in Mexico. There's basically only.",
-          "tc": "花朵盛開的春天和溫暖的夏天，或者我應該說墨西哥炎熱的夏天。基本上只有。"
+          "en": "Roads are slippery. It's so easy to slip and hurt yourself. The fall is chilly.",
+          "tc": "道路很滑。很容易滑倒並傷害自己。秋天是寒冷的。"
         },
         {
-          "en": "Two seasons, rainy and dry. Just like in Thailand, I remember there was only rainy season.",
-          "tc": "兩個季節，雨季和旱季。就像在泰國一樣，我記得只有雨季。"
+          "en": "Sometimes the sun never shines and I can get allergies during the spring. It's all worth it for the gorgeous summers here. The summers in Nebraska,.",
+          "tc": "有時陽光永遠不會照耀，我在春天可能會過敏。為了這裡美麗的夏天，一切都是值得的。內布拉斯加州的夏天。"
         },
         {
-          "en": "And dry season. I really missed having four seasons because even though winter here is super.",
-          "tc": "還有旱季。我真的很懷念四個季節，因為儘管這裡的冬天很棒。"
+          "en": "They're something else.",
+          "tc": "他們是別的東西。"
         },
         {
-          "en": "Intense, the sidewalks are frozen ice. The streets and roads are slippery. It's so easy to.",
-          "tc": "天氣炎熱，人行道上都結冰了。街道和道路都很滑。這太容易了。"
+          "en": "They're so lovely. The birds chirping, the green landscapes everywhere you look, the gorgeous trees blowing in the wind and kids playing everywhere. Summer here is like in the movies. Definitely.",
+          "tc": "他們是如此可愛。鳥兒在嘰嘰喳喳地叫著，到處都是綠色的風景，美麗的樹木在風中搖曳，孩子們到處玩耍。這裡的夏天就像電影裡一樣。確實。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "it's",
+          "kk": "/it's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "here",
+          "kk": "/here/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 here 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：食物與用餐",
+      "titleEn": "Part 6: food",
       "sentences": [
         {
-          "en": "Slip and hurt yourself. The fall is chilly and sometimes the sun never shines and I.",
-          "tc": "滑倒並傷害自己。秋天很冷，有時陽光永遠不會照耀我。"
+          "en": "I really enjoy visiting my aunts and uncles and seeing my grandma and grandpa and shopping for new clothes and really just relaxing and eating so much food.",
+          "tc": "我真的很喜歡拜訪我的阿姨和叔叔，看到我的奶奶和爺爺，買新衣服，真的很放鬆，吃很多食物。"
         },
         {
-          "en": "Can get allergies during the spring. It's all worth it for the gorgeous summers here. The.",
-          "tc": "春季容易過敏。為了這裡美麗的夏天，一切都是值得的。這。"
+          "en": "One thing about the United States is the food.",
+          "tc": "美國的一件事就是食物。"
         },
         {
-          "en": "Summers in Nebraska, they're something else. They're so lovely. The birds chirping, the green landscapes everywhere.",
-          "tc": "內布拉斯加州的夏天，卻是另一個景象。他們是如此可愛。鳥語花香，處處綠意盎然。"
+          "en": "I feel so unhealthy when I'm here.",
+          "tc": "當我在這裡的時候我覺得很不健康。"
         },
         {
-          "en": "You look, the gorgeous trees blowing in the wind and kids playing everywhere. Summer here is.",
-          "tc": "你看，美麗的樹木在風中飄揚，孩子們到處玩耍。這裡是夏天。"
+          "en": "I eat so much junk food. Doritos, Flaming Hot Cheetos, cinnamon rolls, nachos, hot dogs, donuts, slushies. There's too much here to eat. And it's so easy to eat everything, especially since.",
+          "tc": "我吃了很多垃圾食物。多力多滋、火焰熱奇多、肉桂捲、玉米片、熱狗、甜甜圈、冰沙。這裡有太多東西可以吃。而且吃所有東西都很容易，尤其是從那時起。"
         }
-      ]
-    },
-    {
-      "id": "scene-07",
-      "sentences": [
+      ],
+      "tags": [
         {
-          "en": "Like in the movies. Definitely. I really enjoy visiting my aunts and uncles and seeing my.",
-          "tc": "就像電影裡一樣。確實。我真的很喜歡拜訪我的阿姨和叔叔並看到我的。"
+          "english": "it's",
+          "kk": "/it's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "en": "Grandma and grandpa and shopping for new clothes and really just relaxing and eating so much.",
-          "tc": "奶奶和爺爺去買新衣服，真的只是放鬆和吃很多東西。"
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "en": "Food. One thing about the United States is the food. I feel so unhealthy when I'm.",
-          "tc": "食物。美國的一件事就是食物。當我這樣的時候，我覺得很不健康。"
-        },
-        {
-          "en": "Here. I eat so much junk food. Doritos, Flaming Hot Cheetos, cinnamon rolls, nachos, hot dogs,.",
-          "tc": "在這裡。我吃了很多垃圾食物。多力多滋、火焰熱奇多、肉桂捲、玉米片、熱狗。"
-        }
-      ]
-    },
-    {
-      "id": "scene-08",
-      "sentences": [
-        {
-          "en": "Donuts, slushies. There's too much here to eat. And it's so easy to eat everything, especially.",
-          "tc": "甜甜圈、冰沙。這裡有太多東西可以吃。而且吃所有東西都很容易，尤其是。"
-        },
-        {
-          "en": "Since I never get to eat it in Mexico. We don't have the same kind of.",
-          "tc": "因為我在墨西哥從來沒有吃過它。我們沒有同類型的。"
-        },
-        {
-          "en": "Cheetos in Mexico. We don't have Hostess donuts or the slushies that I like. The Doritos.",
-          "tc": "墨西哥的奇多。我們沒有我喜歡的女主人甜甜圈或雪泥。多力多滋。"
-        },
-        {
-          "en": "Also taste different in Mexico. Not bad, but different. So, eating junk food in the United.",
-          "tc": "墨西哥的味道也不同。不錯，但不同。所以，在美國吃垃圾食物。"
-        }
-      ]
-    },
-    {
-      "id": "scene-09",
-      "sentences": [
-        {
-          "en": "States brings me back to when I was a kid. Are there any foods, specifically junk.",
-          "tc": "國家讓我回到了小時候。有沒有什麼食物，特別是垃圾食物。"
-        },
-        {
-          "en": "Foods, that you love and can't resist when you're in your home country? Your home country.",
-          "tc": "當您在祖國時，有哪些食物是您喜愛且無法抗拒的？你的祖國。"
-        },
-        {
-          "en": "Is where you were born and raised. It was my cousin's graduation when I arrived. So,.",
-          "tc": "是你出生長大的地方。我到達時恰逢我表弟的畢業典禮。所以，。"
-        },
-        {
-          "en": "My aunt had a huge celebration planned. She got nachos, taco meat, an ice cream machine,.",
-          "tc": "我姑姑計劃了一場盛大的慶祝活動。她買了玉米片、玉米餅肉、冰淇淋機。"
-        }
-      ]
-    },
-    {
-      "id": "scene-10",
-      "sentences": [
-        {
-          "en": "A whole table filled with every candy you can imagine. Doritos, Cheetos, juices of all the.",
-          "tc": "滿滿一桌子，擺滿了你能想像的各種糖果。多力多滋、奇多、果汁應有盡有。"
-        },
-        {
-          "en": "Flavors and cake. It was definitely delicious, but my stomach hurt so bad after. Tomorrow I'm.",
-          "tc": "口味和蛋糕。確實很好吃，但吃完後我的胃很痛。明天我在。"
-        },
-        {
-          "en": "Going to visit my grandparents. They live on a farm in Nebraska. My grandpa loves his.",
-          "tc": "要去拜訪我的祖父母。他們住在內布拉斯加州的一個農場裡。我爺爺很喜歡他的。"
-        },
-        {
-          "en": "Cows and pigs and chickens and hogs. He takes care of his farm really well. And.",
-          "tc": "牛、豬、雞和豬。他把他的農場打理得很好。和。"
-        }
-      ]
-    },
-    {
-      "id": "scene-11",
-      "sentences": [
-        {
-          "en": "My grandparents bake us some rhubarb pie every time we go. Tomato soup, hamburgers, eggs, anything.",
-          "tc": "每次我們去的時候，我的祖父母都會為我們烤一些大黃餡餅。番茄湯，漢堡包，雞蛋，什麼都可以。"
-        },
-        {
-          "en": "With fresh farm ingredients. And it is wonderful. I'm really excited to show you guys my.",
-          "tc": "採用新鮮的農場食材。這真是太棒了。我真的很高興向你們展示我的。"
-        },
-        {
-          "en": "New podcast in Spanish. So, if you're interested in learning Spanish, go check out my new.",
-          "tc": "新的西班牙語播客。所以，如果您有興趣學習西班牙語，請查看我的新內容。"
-        },
-        {
-          "en": "Tik Tok account. The link is in the description. I'm excited to continue on my trip.",
-          "tc": "抖音帳號。連結在描述中。我很高興能繼續我的旅行。"
-        }
-      ]
-    },
-    {
-      "id": "scene-12",
-      "sentences": [
-        {
-          "en": "In the United States. And I hope you guys enjoyed this little slow English podcast. If.",
-          "tc": "在美國。我希望你們喜歡這個緩慢的英語播客。如果。"
-        },
-        {
-          "en": "You did, let me know in the comments below. And have a wonderful summer. See you.",
-          "tc": "你做到了，請在下面的評論中告訴我。祝你有個美好的夏天。再見。"
-        },
-        {
-          "en": "Next time. Bye.",
-          "tc": "下次。再見。"
+          "english": "here",
+          "kk": "/here/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 here 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     }
   ],
   "vocabGroups": [
     {
-      "label": "B1 transcript keywords",
+      "title": "B1 重點單字",
       "items": [
         {
-          "word": "it's",
-          "pos": "word",
-          "meaning": "這是",
+          "english": "it's",
+          "kk": "/it's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "but",
-          "pos": "word",
-          "meaning": "但是",
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "all",
-          "pos": "word",
-          "meaning": "全部",
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "cheetos",
-          "pos": "word",
-          "meaning": "奇多",
+          "english": "here",
+          "kk": "/here/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 here 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "summer",
-          "pos": "word",
-          "meaning": "夏天",
+          "english": "hot",
+          "kk": "/hot/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 hot 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "here",
-          "pos": "word",
-          "meaning": "這裡",
+          "english": "only",
+          "kk": "/only/",
+          "partOfSpeech": "adv.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 only 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "hot",
-          "pos": "word",
-          "meaning": "熱",
+          "english": "summer",
+          "kk": "/summer/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 summer 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "only",
-          "pos": "adverb",
-          "meaning": "僅",
+          "english": "been",
+          "kk": "/been/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -312,34 +387,84 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "kind of",
-      "meaning": "有點",
+      "phrase": "a little bit",
+      "meaning": "常用說法，可用來表達「a little bit」這個意思",
       "examples": [
         {
-          "en": "It in Mexico. We don't have the same kind of Cheetos in Mexico. We don't have Hostess donuts or the.",
-          "tc": "它在墨西哥。我們在墨西哥沒有同類的奇多。我們沒有女主人甜甜圈或。"
+          "en": "In Nebraska has been so warm, but today, as you can see from my red nose, it's a little bit cold.",
+          "tc": "內布拉斯加州一直很溫暖，但今天，從我的紅鼻子可以看出，有點冷。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "going to",
-      "meaning": "去",
+      "phrase": "i feel",
+      "meaning": "常用說法，可用來表達「i feel」這個意思",
       "examples": [
         {
-          "en": "My stomach hurt so bad after. Tomorrow I'm going to visit my grandparents. They live on a farm in Nebraska.",
-          "tc": "之後我的肚子痛得很厲害。明天我要去拜訪我的祖父母。他們住在內布拉斯加州的一個農場裡。"
+          "en": "I feel so unhealthy when I'm here.",
+          "tc": "當我在這裡的時候我覺得很不健康。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "a little bit",
-      "meaning": "一點點",
+      "phrase": "i love",
+      "meaning": "常用說法，可用來表達「i love」這個意思",
       "examples": [
         {
-          "en": "You can see from my red nose, it's a little bit cold. I had to wear a sweatshirt. It's a nice.",
-          "tc": "從我紅紅的鼻子就可以看出，天氣有點冷。我不得不穿一件運動衫。這是一個很好的。"
+          "en": "I loved having chilly autumn or fall, snowy winters, blossoming springs and warm summers, or should.",
+          "tc": "我喜歡寒冷的秋天或秋天，白雪皚皚的冬天，繁花似錦的春天和溫暖的夏天，或者應該。"
+        }
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "breakdown-01",
+      "sentence": "Welcome back to my slow English podcast.",
+      "translation": "歡迎回到我的慢速英語播客。",
+      "points": [
+        {
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-02",
+      "sentence": "Today I am at my aunt's house. I traveled to the United States to visit my family.",
+      "translation": "今天我在姨媽家。我去美國探望我的家人。",
+      "points": [
+        {
+          "label": "aunt's house traveled",
+          "text": "aunt's house traveled",
+          "note": "注意 \"aunt's house traveled\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-03",
+      "sentence": "I really missed the big houses and green trees and the hot Cheetos. Flaming hot Cheetos are.",
+      "translation": "我真的很想念那些大房子、綠樹和熱奇多。火熱的奇多是。",
+      "points": [
+        {
+          "label": "missed big houses",
+          "text": "missed big houses",
+          "note": "注意 \"missed big houses\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "My favorite type of Cheetos. I also bought a new hat at the thrift store. It was only $6. Super cheap.",
+      "translation": "我最喜歡的奇多類型。我還在舊貨店買了一頂新帽子。才 6 美元。超便宜。",
+      "points": [
+        {
+          "label": "favorite type cheetos",
+          "text": "favorite type cheetos",
+          "note": "注意 \"favorite type cheetos\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

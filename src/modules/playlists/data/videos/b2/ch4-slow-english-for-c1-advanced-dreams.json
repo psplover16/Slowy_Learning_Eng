@@ -4,92 +4,381 @@
   "level": "b2",
   "title": "SLOW English for C1 Advanced -- DREAMS💤💭",
   "youtubeUrl": "https://www.youtube.com/watch?v=ocATrls-IMQ",
+  "header": {
+    "podcastLabel": "MissHoney B2",
+    "titleZh": "C1 高級慢速英語 -- DREAMS💤💭",
+    "titleEn": "SLOW English for C1 Advanced -- DREAMS💤💭",
+    "levelTag": "B2",
+    "topicTag": "language"
+  },
   "scenes": [
     {
       "id": "scene-01",
+      "no": "01",
+      "titleZh": "開場：語言學習",
+      "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Hello welcome back to my slow English podcast a podcast to practice your English listening for advanced Learners today I want to talk about dreams don't be confused I don't mean dream as in your life goals and aspirations when I say dreams I'm referring to the dreams we have when we sleep the worlds we create in inside our brain our subconscious mind creating worlds creating stories creating our dreams while we sleep those are the dreams that I love talking about they are so mysterious I dream almost every night and I love it I love waking up from a crazy dream and writing it down in my dream journal it's a journal.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "Welcome back to my slow English podcast a podcast to practice your English listening for advanced Learners.",
+          "tc": "歡迎回到我的慢速英語播客，這是一​​個為高級學習者練習英語聽力的播客。"
         },
         {
-          "en": "Where I write down all of my dreams the moment I wake up from a dream I immediately start to forget right away it's really frustrating because I want to remember it that's why I write them down right away when I wake up I've had the best dreams where I wake up feeling inspired to to try new things to study new things I have had dreams where I wake up and I feel I can do anything have you ever had a dream that inspired you to learn or do something I have also dreamt that I can fly have you ever had a dream where you could fly what did it feel.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "Today I want to talk about dreams don't be confused I don't mean dream as in your life goals and aspirations when I say dreams I'm referring to the dreams.",
+          "tc": "今天我想談談夢想，不要混淆，我指的不是你的人生目標和願望中的夢想，當我說夢想時，我指的是夢想。"
         },
         {
-          "en": "Like describe the feeling to me I'm I have had flying dreams before and it feels extraordinary the wind in my hair on my skin and the nervous feeling in my stomach like I might fall at any second second it's exhilarating to feel like you're Flying high in the sky what's the coolest dream you have ever had but I've also had very scary dreams I think we all have had a scary dream before maybe a dream where we are falling falling falling and just before we hit the ground we wake up at least I have had lots of dreams like that or maybe a dream where someone is chasing you running.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "We sleep the worlds.",
+          "tc": "我們睡了整個世界。"
         },
         {
-          "en": "After you and we can't run away we keep trying and trying but our legs just won't move what's a scary dream you have had before what do you think that dream means I think dreams can have many meanings they can mean many different things I think dreams show us different signs maybe a sign that only our subconscious mind can pick up on dreams are very helpful for us I think they help us to get inspired and to get excited for new things they also show us maybe some scary maybe some worrying things but they help us to make the changes necessary for our lives to be the happiest we can.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "We create in inside our brain our subconscious mind creating worlds creating stories creating our dreams while.",
+          "tc": "我們在大腦內部創造我們的潛意識，創造世界，創造故事，創造我們的夢想。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "dreams",
+          "kk": "/dreams/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dreams 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "dream",
+          "kk": "/dream/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dream 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "our",
+          "kk": "/our/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段：日常作息",
+      "titleEn": "Part 2: daily routine",
       "sentences": [
         {
-          "en": "Possibly be sometimes I think our dreams can make us appreciate and be thankful for things we might take for granted in our lives if you take someone or something for granted maybe your dream will show you that person and show you you need to appreciate that person more I think our dreams can sometimes tell us to not take something for granted do you agree that dreams have meaning let me know your take on it if you disagree let me know why some recurring dreams that I have had before is when I dream that all my teeth are falling out I desperately try try to catch them but I just can't.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "We sleep those are the dreams that.",
+          "tc": "我們睡覺時那些都是夢。"
         },
         {
-          "en": "Another recurring dream that I have is actually a very nice dream I love my flying dreams I really enjoy those what are some of your recurring dreams recurring meaning they happen again and again how do you interpret your dreams what do you think they mean there are lots of different cultural interpretations that can be made about dreams I love hearing about them this is one of my favorite topics to talk about with my students I would absolutely love to hear your interpretations or cultural beliefs about dreams leave your comments down below I can't wait to read them and to see your progress see you next time bye.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "They are so mysterious I dream almost every night.",
+          "tc": "它們是如此神秘，我幾乎每天晚上都會夢見它們。"
+        },
+        {
+          "en": "I love it.",
+          "tc": "我喜歡它。"
+        },
+        {
+          "en": "I love waking up from a crazy dream and writing it down in my dream journal it's a journal where I write down all of my dreams the moment.",
+          "tc": "我喜歡從瘋狂的夢中醒來，然後把它寫在我的夢想日記裡，這是我當時寫下所有夢想的日記。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "dreams",
+          "kk": "/dreams/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dreams 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "dream",
+          "kk": "/dream/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dream 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "our",
+          "kk": "/our/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：日常作息",
+      "titleEn": "Part 3: daily routine",
+      "sentences": [
+        {
+          "en": "I wake up from a dream I immediately start to forget right away it's really frustrating.",
+          "tc": "我從夢中醒來，我立刻開始忘記這真的很令人沮喪。"
+        },
+        {
+          "en": "I wake up.",
+          "tc": "我醒了。"
+        },
+        {
+          "en": "I feel I can do anything have you ever had a dream that inspired.",
+          "tc": "我覺得我可以做任何有你曾經有過的夢想啟發的事情。"
+        },
+        {
+          "en": "You to learn or do something I have also dreamt that I can fly have.",
+          "tc": "你去學習或做一些我也曾經夢想過的事情，我可以飛翔。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "dream",
+          "kk": "/dream/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dream 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "ever",
+          "kk": "/ever/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 ever 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
+      "sentences": [
+        {
+          "en": "You ever had a dream where you could fly what did it feel like describe the feeling to me I'm.",
+          "tc": "你曾經有過一個可以飛翔的夢想，那是什麼感覺？請描述一下我的感覺。"
+        },
+        {
+          "en": "I have had flying dreams before and it feels extraordinary the wind in my hair on my skin and the nervous feeling in my stomach like.",
+          "tc": "我以前也做過飛翔的夢，風吹過我的頭髮，吹過我的皮膚，還有我胃裡的緊張感，這種感覺非同尋常。"
+        },
+        {
+          "en": "I might fall at any second it's exhilarating to feel like you're Flying high in the sky what's the coolest dream.",
+          "tc": "我可能隨時會墜落，感覺就像你在高空飛翔，這是最酷的夢想，這真是令人興奮。"
+        },
+        {
+          "en": "You have ever had but I've also had very scary dreams I think.",
+          "tc": "你曾經做過，但我想我也曾經做過非常可怕的夢。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "dreams",
+          "kk": "/dreams/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dreams 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "dream",
+          "kk": "/dream/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dream 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
+      "sentences": [
+        {
+          "en": "We are falling falling and just before.",
+          "tc": "我們正在墜落，就在之前。"
+        },
+        {
+          "en": "We hit the ground.",
+          "tc": "我們落地了。"
+        },
+        {
+          "en": "We wake up at least I have had lots of dreams like that or maybe a dream where someone is chasing you running after you.",
+          "tc": "我們醒了，至少我做過很多這樣的夢，或者可能是一個夢，有人在追你追你。"
+        },
+        {
+          "en": "We can't run away.",
+          "tc": "我們逃不掉。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "dreams",
+          "kk": "/dreams/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dreams 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "dream",
+          "kk": "/dream/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dream 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "before",
+          "kk": "/before/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 before 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
+      "sentences": [
+        {
+          "en": "We keep trying and trying but our legs just won't move what's a scary dream you have had before.",
+          "tc": "我們不斷地嘗試，但我們的腿就是動不了，這是你以前做過的可怕的夢。"
+        },
+        {
+          "en": "What do you think that dream means I think dreams can have many meanings?",
+          "tc": "你認為這個夢意味著什麼 我認為夢可以有很多意義？"
+        },
+        {
+          "en": "They can mean many different things I think dreams show us different signs maybe a sign that only our subconscious mind can pick up on dreams are very helpful for us.",
+          "tc": "它們可能意味著很多不同的事情，我認為夢向我們展示了不同的跡象，也許只有我們的潛意識才能捕捉到夢的跡象對我們非常有幫助。"
+        },
+        {
+          "en": "They help us to get inspired and to get excited for new things.",
+          "tc": "它們幫助我們獲得靈感並對新事物感到興奮。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "dreams",
+          "kk": "/dreams/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dreams 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "dream",
+          "kk": "/dream/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dream 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "our",
+          "kk": "/our/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
   ],
   "vocabGroups": [
     {
-      "label": "B2 transcript keywords",
+      "title": "B2 重點單字",
       "items": [
         {
-          "word": "dreams",
-          "pos": "word",
-          "meaning": "坦克。",
+          "english": "dreams",
+          "kk": "/dreams/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dreams 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "dream",
-          "pos": "word",
-          "meaning": "夢幻",
+          "english": "dream",
+          "kk": "/dream/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dream 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "our",
-          "pos": "word",
-          "meaning": "我們的",
+          "english": "our",
+          "kk": "/our/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "think",
-          "pos": "verb",
-          "meaning": "思维",
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "love",
-          "pos": "word",
-          "meaning": "愛(love)",
+          "english": "before",
+          "kk": "/before/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 before 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "maybe",
-          "pos": "word",
-          "meaning": "也許",
+          "english": "creating",
+          "kk": "/creating/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 creating 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "things",
-          "pos": "word",
-          "meaning": "事情",
+          "english": "ever",
+          "kk": "/ever/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 ever 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "before",
-          "pos": "word",
-          "meaning": "之前",
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -99,33 +388,83 @@
     {
       "id": "phrase-01",
       "phrase": "what do you",
-      "meaning": "你是做什麼的",
+      "meaning": "你會怎麼...",
       "examples": [
         {
-          "en": "What's a scary dream you have had before what do you think that dream means I think dreams can have many.",
-          "tc": "你以前做過什麼可怕的夢？你認為夢意味著什麼？我認為夢想可以有很多。"
+          "en": "What do you think that dream means I think dreams can have many meanings?",
+          "tc": "你認為這個夢意味著什麼 我認為夢可以有很多意義？"
         }
       ]
     },
     {
       "id": "phrase-02",
       "phrase": "want to",
-      "meaning": "慾望",
+      "meaning": "常用說法，可用來表達「want to」這個意思",
       "examples": [
         {
-          "en": "Your English listening for advanced Learners today I want to talk about dreams don't be confused I don't mean dream.",
-          "tc": "您今天為高級學習者提供的英語聽力我想談談夢想不要混淆我不是說夢想。"
+          "en": "Today I want to talk about dreams don't be confused I don't mean dream as in your life goals and aspirations when I say dreams I'm referring to the dreams.",
+          "tc": "今天我想談談夢想，不要混淆，我指的不是你的人生目標和願望中的夢想，當我說夢想時，我指的是夢想。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "need to",
-      "meaning": "需要",
+      "phrase": "talk about",
+      "meaning": "談論",
       "examples": [
         {
-          "en": "Show you that person and show you you need to appreciate that person more I think our dreams can sometimes.",
-          "tc": "向你展示那個人，並向你展示你需要更多地欣賞那個人，我認為我們的夢想有時可以。"
+          "en": "Today I want to talk about dreams don't be confused I don't mean dream as in your life goals and aspirations when I say dreams I'm referring to the dreams.",
+          "tc": "今天我想談談夢想，不要混淆，我指的不是你的人生目標和願望中的夢想，當我說夢想時，我指的是夢想。"
+        }
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "breakdown-01",
+      "sentence": "Welcome back to my slow English podcast a podcast to practice your English listening for advanced Learners.",
+      "translation": "歡迎回到我的慢速英語播客，這是一​​個為高級學習者練習英語聽力的播客。",
+      "points": [
+        {
+          "label": "welcome back advanced",
+          "text": "welcome back advanced",
+          "note": "注意 \"welcome back advanced\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-02",
+      "sentence": "Today I want to talk about dreams don't be confused I don't mean dream as in your life goals and aspirations when I say dreams I'm referring to the dreams.",
+      "translation": "今天我想談談夢想，不要混淆，我指的不是你的人生目標和願望中的夢想，當我說夢想時，我指的是夢想。",
+      "points": [
+        {
+          "label": "want to",
+          "text": "want to",
+          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-03",
+      "sentence": "We sleep the worlds.",
+      "translation": "我們睡了整個世界。",
+      "points": [
+        {
+          "label": "sleep worlds",
+          "text": "sleep worlds",
+          "note": "注意 \"sleep worlds\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "We create in inside our brain our subconscious mind creating worlds creating stories creating our dreams while.",
+      "translation": "我們在大腦內部創造我們的潛意識，創造世界，創造故事，創造我們的夢想。",
+      "points": [
+        {
+          "label": "create inside our",
+          "text": "create inside our",
+          "note": "注意 \"create inside our\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

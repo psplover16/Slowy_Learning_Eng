@@ -1,7 +1,7 @@
 <!--
 暫停規則：
 - 本檔列的是完整目標，全部 checkbox 完成才代表 MissHoney 全量功能完成。
-- 若本次 apply 要暫停某段，請先把要暫停的 checkbox 移到檔尾「Paused - Not Part of This Apply」並移除 `- [ ]` checkbox 語法；不要把未完成任務標成 `[x]`。
+- 若本次 apply 要暫停某段，請先把要暫停的 checkbox 移到檔尾「Paused - Not Part of This Apply」並移除未勾選 checkbox 語法；不要把未完成任務標成完成狀態。
 - 若只想口頭指定，請用 task group 編號說明，例如「本次先跳過第 8 組 A2-B2 content authoring」；執行者必須保持被跳過 task 未勾選。
 -->
 

@@ -270,6 +270,8 @@ function polishSentence(sentence) {
     .replace(/\bYour favorite dinner at 11:00 p\.m\./gi, 'At 11:00 p.m.')
     .replace(/\bwho want to learn listening to English\b/gi, 'who want to practice listening to English')
     .replace(/\bstrawberry berries\b/gi, 'strawberries')
+    .replace(/\bcomes comes\b/gi, 'comes')
+    .replace(/\bmade made\b/gi, 'made')
     .replace(/\ba\.m\. I\b/gi, 'a.m. I')
     .replace(/\bp\.m\. I\b/gi, 'p.m. I')
     .replace(/\s+(and|or|but|so|because)$/i, '')

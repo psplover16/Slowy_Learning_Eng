@@ -10,6 +10,7 @@
 - MissHoney 內容資料結構補齊正式閱讀頁需要的欄位，例如 scene title、vocab group title、KK/詞性/繁中解釋、phrase examples、sentence breakdowns
 - 內容產製流程加入校稿門檻：字幕 cue 必須先重建自然英文句子，再產生自然繁中翻譯、教學用單字片語與句型解析
 - 既有 A1–B2 影片 JSON 內容不可視為正式稿，必須依新的內容品質規則重新產生或校稿後再 promote
+- 尚未完成的 A2、B1、B2 校稿改由 AI 執行：在盡量保留完整字幕內容的前提下，檢查並修正翻譯、英文拼字、語法、斷句、單字片語與句型解析錯誤
 - validator 必須檢查新 schema 與基本品質條件，避免殘留明顯 cue 斷句、空翻譯、過長未切分段落或缺少句型解析
 - 離線資料仍以 repository 內 JSON 為唯一 runtime 來源；app runtime 不連 YouTube、翻譯服務或 AI API
 
@@ -18,6 +19,7 @@
 - 不修改 ch1–ch4 既有內容資料本身
 - 不新增 YouTube 登入、cookies 匯入、會員內容繞過或 runtime 字幕抓取
 - 不在瀏覽器 runtime 內呼叫 AI、翻譯 API 或外部內容服務
+- 不要求人工逐支校稿尚未完成的 A2、B1、B2 內容；這些內容由 apply 階段的 AI 校稿完成，再用 validator 與抽查紀錄驗收
 - 不要求一次把所有 MissHoney 內容改寫成與 ch1 完全同等篇幅；但每支 ready 影片必須達到可閱讀、可學習、無明顯機器草稿痕跡的最低品質
 - 不處理 NavBar 窄螢幕擠壓問題，除非本次 UI 變更造成新的 regression
 

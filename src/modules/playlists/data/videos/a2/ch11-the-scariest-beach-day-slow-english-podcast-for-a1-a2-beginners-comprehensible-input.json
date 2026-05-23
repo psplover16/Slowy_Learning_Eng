@@ -4,386 +4,365 @@
   "level": "a2",
   "title": "The SCARIEST BEACH DAY! 🏖️ — Slow English Podcast for A1-A2 Beginners (comprehensible input)",
   "youtubeUrl": "https://www.youtube.com/watch?v=5QOcANSJyUE",
+  "header": {
+    "podcastLabel": "MissHoney A2",
+    "titleZh": "最恐怖的海灘日！ 🏖️ — 適合 A1-A2 初學者的慢速英語播客（可理解的輸入）",
+    "titleEn": "The SCARIEST BEACH DAY! 🏖️ — Slow English Podcast for A1-A2 Beginners (comprehensible input)",
+    "levelTag": "A2",
+    "topicTag": "travel"
+  },
   "scenes": [
     {
       "id": "scene-01",
+      "no": "01",
+      "titleZh": "開場：語言學習",
+      "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Hello and welcome back to my slow English podcast. This podcast is for English beginner listeners to practice listening.",
-          "tc": "你好，歡迎回到我的慢速英語播客。這個播客是給英語初學者練習聽力的。"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語播客。"
         },
         {
-          "en": "To a slow comprehensible English. Today I want to talk to you about my week and a story of.",
-          "tc": "到一個緩慢可理解的英語。今天我想和大家談談我的一週和一個故事。"
+          "en": "This podcast is for English beginner listeners to practice listening to a slow comprehensible English.",
+          "tc": "此播客適合英語初學者聽眾練習聽慢速可理解的英語。"
         },
         {
-          "en": "Something scary that happened to me this week. This week I had a wonderful time. I met some cool.",
-          "tc": "這週發生在我身上的可怕的事。這週我度過了一段美好的時光。我遇到了一些很酷的人。"
+          "en": "Today I want to talk to you about my week and a story of something scary that happened to me this week. This week.",
+          "tc": "今天我想和大家談談我的一周以及這週發生在我身上的可怕的故事。本星期。"
         },
         {
-          "en": "People and I made some new friends. I went to the beach almost every day. Maybe only one day.",
-          "tc": "人們和我結識了一些新朋友。我幾乎每天都去海灘。也許只有一天。"
+          "en": "I had a wonderful time. I met some cool people and I made some new friends.",
+          "tc": "我度過了一段美好的時光。我遇到了一些很酷的人，也認識了一些新朋友。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "friends",
+          "kk": "/friends/",
+          "partOfSpeech": "n.",
+          "meaning": "人物與關係相關的常用字",
+          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段：旅行",
+      "titleEn": "Part 2: travel",
       "sentences": [
         {
-          "en": "I didn't go to the beach. But I just love the beach. I love the salt water. It feels.",
-          "tc": "我沒有去海灘。但我就是喜歡海灘。我喜歡鹹水。感覺。"
+          "en": "I went to the beach almost every day. Maybe only one day.",
+          "tc": "我幾乎每天都去海灘。也許只有一天。"
         },
         {
-          "en": "So good for my body. If anything is aching or hurting or sore, I always take a swim in.",
-          "tc": "對我的身體非常好。如果有地方疼痛、受傷或酸痛，我總是去游泳。"
+          "en": "I didn't go to the beach. But I just love the beach.",
+          "tc": "我沒有去海灘。但我就是喜歡海灘。"
         },
         {
-          "en": "The ocean or in salt water and I immediately feel better. The only problem is that the waves are.",
-          "tc": "在海洋或鹽水中，我立刻感覺好多了。唯一的問題是海浪。"
+          "en": "I love the salt water. It feels so good for my body. If anything is aching or hurting or sore,.",
+          "tc": "我喜歡鹹水。這對我的身體感覺很好。如果有任何疼痛、受傷或酸痛的情況。"
         },
         {
-          "en": "Massive. The waves in Puerto Escondo are huge. For example, yesterday I saw some of my old friends from.",
-          "tc": "巨大的。埃斯孔多港的海浪很大。例如，昨天我見到了我的一些老朋友。"
+          "en": "I always take a swim in the ocean or in salt water.",
+          "tc": "我總是在海裡或鹹水中游泳。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行相關的常用字",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "water",
+          "kk": "/water/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 water 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "Middle school. There is elementary school, middle school and high school. Then university and college. But my friends from.",
-          "tc": "中學。有小學、國中、高中。然後是大學和學院。但我的朋友們來自。"
+          "en": "I immediately feel better. The only problem is that the waves are massive. The waves in Puerto Escondo are huge.",
+          "tc": "我立刻感覺好多了。唯一的問題是海浪很大。埃斯孔多港的海浪很大。"
         },
         {
-          "en": "Middle school are in Puerto Escondido right now. So I went to see them yesterday. They are my old.",
-          "tc": "中學現在在埃斯孔迪多港。所以我昨天去看他們了。他們是我的舊人。"
+          "en": "For example, yesterday I saw some of my old friends from middle school. There is elementary school, middle school and high school.",
+          "tc": "例如，昨天我見到了一些中學時期的老朋友。有小學、國中、高中。"
         },
         {
-          "en": "Friends from my hometown. It had been so long since the last time I saw them, but they are.",
-          "tc": "來自我家鄉的朋友。自從我上次見到他們以來已經過去了很長時間，但他們確實是。"
+          "en": "Then university and college. But my friends from middle school are in Puerto Escondido right now. So I went to see them yesterday.",
+          "tc": "然後是大學和學院。但我中學的朋友現在在埃斯孔迪多港。所以我昨天去看他們了。"
         },
         {
-          "en": "Such beautiful friends. I have so many laughs with them. So, we met up and they picked me up.",
-          "tc": "如此美麗的朋友。我和他們一起開懷大笑。所以，我們見面了，他們來接我。"
+          "en": "They are my old friends from my hometown. It had been so long since the last time I saw them,.",
+          "tc": "他們是我家鄉的老朋友。自從我上次見到他們以來，已經過去了很長時間了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "friends",
+          "kk": "/friends/",
+          "partOfSpeech": "n.",
+          "meaning": "人物與關係相關的常用字",
+          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "school",
+          "kk": "/school/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 school 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：人物與關係",
+      "titleEn": "Part 4: people",
       "sentences": [
         {
-          "en": "From my hostel and we drove to the beach. to a new beach called Cipol, a new beach for.",
-          "tc": "從我的旅館出發，我們開車去了海灘。到了一個叫Cipol的新海灘，一個新的海灘。"
+          "en": "They are such beautiful friends. I have so many laughs with them. So,.",
+          "tc": "他們是非常美麗的朋友。我和他們一起開懷大笑。所以，。"
         },
         {
-          "en": "Me because I had never gone there. And at Cipol Beach, the waves aren't that big, so you can.",
-          "tc": "我，因為我從來沒有去過那裡。在 Cipol 海灘，海浪沒有那麼大，所以你可以。"
+          "en": "We met up.",
+          "tc": "我們見面了。"
         },
         {
-          "en": "Still swim in the ocean. So with my friends, we got into the water and we swam for a.",
-          "tc": "還是在海裡游泳。於是我和朋友們一起潛入水中，遊了一會兒。"
+          "en": "They picked me up from my hostel.",
+          "tc": "他們從宿舍接我。"
         },
         {
-          "en": "Little bit. I swam and I was just chilling in the water talking to a friend when all of.",
-          "tc": "一點點。我游泳了，當時我只是在水裡和朋友聊天。"
+          "en": "We drove to the beach. to a new beach called Cipol, a new beach for me.",
+          "tc": "我們開車去了海灘。到一個叫 Cipol 的新海灘，對我來說是一個新海灘。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行相關的常用字",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "friends",
+          "kk": "/friends/",
+          "partOfSpeech": "n.",
+          "meaning": "人物與關係相關的常用字",
+          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：旅行",
+      "titleEn": "Part 5: travel",
       "sentences": [
         {
-          "en": "The sudden out of nowhere I couldn't feel the sand and I wasn't just floating in the water but.",
-          "tc": "突然之間，我感覺不到沙子，而且我不會只是漂浮在水中。"
+          "en": "I had never gone there. And at Cipol Beach, the waves aren't that big,.",
+          "tc": "我從來沒有去過那裡。在 Cipol 海灘，海浪沒有那麼大。"
         },
         {
-          "en": "I could feel the current pulling me out. Little by little, I felt the current pull me out until.",
-          "tc": "我能感覺到水流把我拉了出來。漸漸地，我感覺到水流把我拉了出來，直到。"
+          "en": "You can still swim in the ocean. So with my friends,.",
+          "tc": "你仍然可以在海裡游泳。所以和我的朋友們一起，。"
         },
         {
-          "en": "I couldn't feel the sand at all. And it was getting really difficult to stay in one place. So.",
-          "tc": "我根本感覺不到沙子。待在一個地方變得非常困難。所以。"
+          "en": "We got into the water.",
+          "tc": "我們進入水中。"
         },
         {
-          "en": "Honestly, I got a little nervous and I started swimming back a little bit intense. But then I realized.",
-          "tc": "老實說，我有點緊張，開始遊回來時有點緊張。但後來我意識到。"
+          "en": "We swam for a little bit. I swam and I was just chilling in the water talking to a friend.",
+          "tc": "我們遊了一會兒泳。我游泳了，我只是在水裡和朋友聊天。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行相關的常用字",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "friends",
+          "kk": "/friends/",
+          "partOfSpeech": "n.",
+          "meaning": "人物與關係相關的常用字",
+          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "I couldn't swim. The current was so strong. So I started swimming back. But every time I got close,.",
-          "tc": "我不會游泳。電流是如此強大。於是我開始遊回來。但每次我靠近的時候，"
+          "en": "When all of the sudden out of nowhere I couldn't feel the sand?",
+          "tc": "當我突然感覺不到沙子時？"
         },
         {
-          "en": "I felt a current pull me back out. So I would swim again. Then a big wave would come.",
-          "tc": "我感覺到一股電流將我拉了回來。所以我會再游泳。然後一個大浪就會來。"
+          "en": "I wasn't just floating in the water but I could feel the current pulling me out. Little by little,.",
+          "tc": "我不僅漂浮在水中，而且我能感覺到水流將我拉出水面。一點一點，。"
         },
         {
-          "en": "And I would have to swim under the wave so that I wouldn't get smashed. in the face or.",
-          "tc": "我必須在海浪下游泳，這樣我才不會被壓碎。在臉上或。"
+          "en": "I felt the current pull me out until I couldn't feel the sand at all. And it was getting really difficult to stay in one place. So honestly,.",
+          "tc": "我感覺到水流把我拉了出來，直到我完全感覺不到沙子。待在一個地方變得非常困難。老實說，。"
         },
         {
-          "en": "Water in my nose, but I would get out of the wave and begin swimming with all of my.",
-          "tc": "水進了我的鼻子，但我會擺脫波浪，開始全力游泳。"
+          "en": "I got a little nervous and I started swimming back a little bit intense.",
+          "tc": "我有點緊張，開始遊回來時有點緊張。"
         }
-      ]
-    },
-    {
-      "id": "scene-07",
-      "sentences": [
+      ],
+      "tags": [
         {
-          "en": "Might and all of my strength. I would swim. Another wave would come and crash right onto me. And.",
-          "tc": "力量和我所有的力量。我會游泳。另一波浪潮就會襲來，直接砸向我。和。"
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "en": "I would get out and swim. And just as I would be reaching the sand, another current would drag.",
-          "tc": "我會出去游泳。就在我快要到達沙子的時候，另一股水流就會拖過來。"
+          "english": "water",
+          "kk": "/water/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 water 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
-          "en": "Me out until I finally realized I shouldn't swim under the wave. But I should let the wave carry.",
-          "tc": "我出去了，直到我終於意識到我不應該在海浪下游泳。但我應該讓浪潮繼續前進。"
-        },
-        {
-          "en": "Me with it. So, I managed to ride the wave back to shore. There was even a lifeguard yelling.",
-          "tc": "我與它。於是，我成功地乘著海浪回到了岸邊。甚至還有救生員大喊大叫。"
-        }
-      ]
-    },
-    {
-      "id": "scene-08",
-      "sentences": [
-        {
-          "en": "At me. He was yelling, \"Hey, you need to get out of there. There is a strong current.\" Obviously,.",
-          "tc": "對我來說。他大喊：「嘿，你需要離開那裡。那裡有很強的水流。」明顯地，。"
-        },
-        {
-          "en": "I know. So, finally I got out and my two other friends got out as well and we were.",
-          "tc": "我知道。所以，最後我出去了，我的另外兩個朋友也出去了，我們就出去了。"
-        },
-        {
-          "en": "All just panicking. We were all shook. It was scary. The ocean is very powerful. You have to respect.",
-          "tc": "所有人都只是驚慌失措。我們都震驚了。太可怕了。海洋的力量非常強大。你必須尊重。"
-        },
-        {
-          "en": "The ocean and you have to always be careful. No human is stronger than the ocean. No matter how.",
-          "tc": "海洋和你必須時刻小心。沒有人比海洋更強大。不管怎樣。"
-        }
-      ]
-    },
-    {
-      "id": "scene-09",
-      "sentences": [
-        {
-          "en": "Much we want to be, we aren't stronger than the ocean. But after that, I ate some fish tacos.",
-          "tc": "我們很想成為，但我們並不比海洋更強大。但在那之後，我吃了一些魚炸玉米餅。"
-        },
-        {
-          "en": "And I felt just fine. Then we drove back and I went out to eat pasta with my friends.",
-          "tc": "我感覺很好。然後我們開車回來，我和朋友出去吃麵食。"
-        },
-        {
-          "en": "I ordered carbonara pasta and it was amazing. But I felt so full afterwards. My belly or stomach really.",
-          "tc": "我點了carbonara義大利麵，非常棒。但事後我覺得很充實。我的肚子或胃真的。"
-        },
-        {
-          "en": "Hurt. I couldn't finish my whole meal. So I had to order it to go to take away. I.",
-          "tc": "受傷了。我無法吃完整一餐。所以我不得不命令它去帶走。我。"
-        }
-      ]
-    },
-    {
-      "id": "scene-10",
-      "sentences": [
-        {
-          "en": "Took my leftovers in a box. How often do you have leftovers? Do you like taking your leftovers with.",
-          "tc": "把我的剩菜放在盒子裡。你多久吃一次剩菜？你喜歡把剩菜帶走嗎？"
-        },
-        {
-          "en": "You or do you prefer to not carry them with you? Sometimes it's a little annoying to take my.",
-          "tc": "您還是不喜歡隨身攜帶它們？有時拿我的東西有點煩。"
-        },
-        {
-          "en": "Leftovers with me and carry them and walk with them. But I hate wasting food. So I always take.",
-          "tc": "剩菜與我同行，隨身攜帶，與它們同行。但我討厭浪費食物。所以我總是採取。"
-        },
-        {
-          "en": "My leftovers with me. No matter what, I won't waste any food. Even my family. I always eat my.",
-          "tc": "我的剩菜都在我身邊。無論如何，我不會浪費任何食物。甚至我的家人。我總是吃我的。"
-        }
-      ]
-    },
-    {
-      "id": "scene-11",
-      "sentences": [
-        {
-          "en": "Family's leftovers, especially my mom's leftovers. She doesn't eat all the chicken on the chicken bowl. So, I always.",
-          "tc": "家裡的剩菜，尤其是我媽媽的剩菜。她沒有吃完雞肉碗裡的所有雞肉。所以，我總是。"
-        },
-        {
-          "en": "Eat the leftovers on the chicken bones that my mom doesn't finish. But what can I say? I hate.",
-          "tc": "吃媽媽沒吃完的雞骨頭上的剩菜。但我能說什麼？我討厭。"
-        },
-        {
-          "en": "Wasting food. After that, my friends dropped me off back at my hostel and they told me, \"Just leave.",
-          "tc": "浪費食物。之後，我的朋友把我送回旅館，他們告訴我：「走吧。"
-        },
-        {
-          "en": "Your leftovers and then come back out to party.\" I said, \"Yes, I will.\" But I was too sleepy.",
-          "tc": "你的剩菜剩飯，然後回來參加聚會。 」我說：「是的，我會的。 「但我太睏了。"
-        }
-      ]
-    },
-    {
-      "id": "scene-12",
-      "sentences": [
-        {
-          "en": "I went straight to bed. I was exhausted from the walking and the intense swimming, from that scary wave.",
-          "tc": "我直接上床睡覺了。我因步行、激烈的游泳和那可怕的海浪而疲憊不堪。"
-        },
-        {
-          "en": "And of course, I was also exhausted from the sun. But this morning, I felt super inspired. I decided.",
-          "tc": "當然，我也被太陽曬得筋疲力盡了。但今天早上，我感到非常受啟發。我決定了。"
-        },
-        {
-          "en": "To go for a run. around 8 or 9 a.m. But the sun here is intense. Even at 800.",
-          "tc": "去跑步。早上八、九點左右，但是這裡的陽光很毒辣。即使是800。"
-        },
-        {
-          "en": "A.m., the heat was very, very intense. And when I got back, I jumped into a cold shower. A.",
-          "tc": "上午，天氣非常非常炎熱。當我回來時，我跳進冷水澡。 A."
-        }
-      ]
-    },
-    {
-      "id": "scene-13",
-      "sentences": [
-        {
-          "en": "Freezing shower is just what I need after a long run in the burning sun. It was so refreshing.",
-          "tc": "在烈日下長時間跑步後，冰水淋浴正是我所需要的。真是令人耳目一新。"
-        },
-        {
-          "en": "After my freezing shower, my friend made me some avocado toast with eggs. I had my runny eggs and.",
-          "tc": "冰冷的淋浴後，我的朋友為我做了一些酪梨雞蛋吐司。我吃了流蛋。"
-        },
-        {
-          "en": "An avocado toast and it was just what I needed. I think it's the perfect way to start your.",
-          "tc": "酪梨吐司，這正是我所需要的。我認為這是開始你的工作的完美方式。"
-        },
-        {
-          "en": "Day. So, I ate while I finished some work and I wrote some new scripts for my slow English.",
-          "tc": "日。所以，我一邊吃一邊完成一些工作，並為我緩慢的英語寫了一些新腳本。"
-        }
-      ]
-    },
-    {
-      "id": "scene-14",
-      "sentences": [
-        {
-          "en": "Podcast and I did some yoga with my friend. I've been eating avocado toast with eggs every day since.",
-          "tc": "播客和我和朋友一起做了一些瑜珈。從那時起我每天都吃酪梨吐司加雞蛋。"
-        },
-        {
-          "en": "I arrived. After that, I bought a new beautiful necklace and it's amazonite stone. It's supposed to make me.",
-          "tc": "我到了。之後，我買了一條新的漂亮項鍊，它是天河石。它應該讓我。"
-        },
-        {
-          "en": "Feel more calm and balanced. I love wearing stones. I think they're very important to balance out energy. We.",
-          "tc": "感覺更加平靜和平衡。我喜歡戴石頭。我認為它們對於平衡能量非常重要。我們。"
-        },
-        {
-          "en": "Also bought an orange ankle bracelet. After that, I took a long nap and I feel so good now.",
-          "tc": "還買了一條橘色腳鍊。之後，我睡了一個很長的午覺，現在感覺很好。"
-        }
-      ]
-    },
-    {
-      "id": "scene-15",
-      "sentences": [
-        {
-          "en": "I feel like a brand new person, energized and ready for the day. I'm excited to continue working on.",
-          "tc": "我感覺自己煥然一新，精力充沛，為新的一天做好了準備。我很高興能繼續工作。"
-        },
-        {
-          "en": "Making more English videos and I'm excited to continue expressing my creativity in ways that can benefit and help.",
-          "tc": "製作更多英語視頻，我很高興能夠繼續以有益和有幫助的方式表達我的創造力。"
-        },
-        {
-          "en": "Learn English. I'm so excited to continue meeting you guys. So try and tell me about your day so.",
-          "tc": "學習英語。我很高興能繼續見到你們。所以試著告訴我你今天的情況。"
-        },
-        {
-          "en": "Far. Something really good and maybe something not so good. And how did you deal with it? How did.",
-          "tc": "遠。有些東西確實很好，也許有些東西不太好。你是如何處理的？怎麼做到的。"
-        }
-      ]
-    },
-    {
-      "id": "scene-16",
-      "sentences": [
-        {
-          "en": "You get past that negative feeling? Thank you for listening to my Slow English podcast and I'll see you.",
-          "tc": "你擺脫了那種負面情緒嗎？感謝您收聽我的慢速英語播客，我們再見。"
-        },
-        {
-          "en": "Next time. Bye.",
-          "tc": "下次。再見。"
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     }
   ],
   "vocabGroups": [
     {
-      "label": "A2 transcript keywords",
+      "title": "A2 重點單字",
       "items": [
         {
-          "word": "but",
-          "pos": "word",
-          "meaning": "但是",
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行相關的常用字",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "out",
-          "pos": "word",
-          "meaning": "出",
+          "english": "friends",
+          "kk": "/friends/",
+          "partOfSpeech": "n.",
+          "meaning": "人物與關係相關的常用字",
+          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "back",
-          "pos": "word",
-          "meaning": "回來",
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "friends",
-          "pos": "word",
-          "meaning": "朋友",
+          "english": "school",
+          "kk": "/school/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 school 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "leftovers",
-          "pos": "word",
-          "meaning": "剩菜",
+          "english": "water",
+          "kk": "/water/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 water 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "beach",
-          "pos": "word",
-          "meaning": "海灘",
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "some",
-          "pos": "word",
-          "meaning": "一些",
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "swim",
-          "pos": "word",
-          "meaning": "游泳",
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -392,34 +371,84 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "do you like",
-      "meaning": "你喜歡嗎",
+      "phrase": "want to",
+      "meaning": "常用說法，可用來表達「want to」這個意思",
       "examples": [
         {
-          "en": "A box. How often do you have leftovers? Do you like taking your leftovers with you or do you prefer to.",
-          "tc": "一個盒子。你多久吃一次剩菜？您喜歡或願意隨身攜帶剩菜嗎？"
+          "en": "Today I want to talk to you about my week and a story of something scary that happened to me this week.",
+          "tc": "今天我想和大家談談我的一周以及這週發生在我身上的可怕的故事。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "想要",
+      "phrase": "for example",
+      "meaning": "常用說法，可用來表達「for example」這個意思",
       "examples": [
         {
-          "en": "Listening to a slow comprehensible English. Today I want to talk to you about my week and a story of.",
-          "tc": "聽緩慢可理解的英語。今天我想和大家談談我的一週和一個故事。"
+          "en": "For example, yesterday I saw some of my old friends from middle school.",
+          "tc": "例如，昨天我見到了一些中學時期的老朋友。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "have to",
-      "meaning": "必須",
+      "phrase": "a little bit",
+      "meaning": "常用說法，可用來表達「a little bit」這個意思",
       "examples": [
         {
-          "en": "A big wave would come and I would have to swim under the wave so that I wouldn't get smashed.",
-          "tc": "一個大浪會來，我必須游到浪底下才不會被壓碎。"
+          "en": "We swam for a little bit.",
+          "tc": "我們遊了一會兒泳。"
+        }
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "breakdown-01",
+      "sentence": "Welcome back to my slow English podcast.",
+      "translation": "歡迎回到我的慢速英語播客。",
+      "points": [
+        {
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-02",
+      "sentence": "This podcast is for English beginner listeners to practice listening to a slow comprehensible English.",
+      "translation": "此播客適合英語初學者聽眾練習聽慢速可理解的英語。",
+      "points": [
+        {
+          "label": "listeners",
+          "text": "listeners",
+          "note": "注意 \"listeners\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-03",
+      "sentence": "Today I want to talk to you about my week and a story of something scary that happened to me this week. This week.",
+      "translation": "今天我想和大家談談我的一周以及這週發生在我身上的可怕的故事。本星期。",
+      "points": [
+        {
+          "label": "want to",
+          "text": "want to",
+          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "I had a wonderful time. I met some cool people and I made some new friends.",
+      "translation": "我度過了一段美好的時光。我遇到了一些很酷的人，也認識了一些新朋友。",
+      "points": [
+        {
+          "label": "wonderful time met",
+          "text": "wonderful time met",
+          "note": "注意 \"wonderful time met\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

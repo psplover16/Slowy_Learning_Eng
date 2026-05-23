@@ -4,348 +4,381 @@
   "level": "b1",
   "title": "Slow English Listening Practice | Makeup Routine",
   "youtubeUrl": "https://www.youtube.com/watch?v=IkBu-zAdYkY",
+  "header": {
+    "podcastLabel": "MissHoney B1",
+    "titleZh": "慢速英語聽力練習 |化妝流程",
+    "titleEn": "Slow English Listening Practice | Makeup Routine",
+    "levelTag": "B1",
+    "topicTag": "daily routine"
+  },
   "scenes": [
     {
       "id": "scene-01",
+      "no": "01",
+      "titleZh": "開場：語言學習",
+      "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Hello and welcome back to my Slow English podcast. Me and my sister are similar, but.",
-          "tc": "中文整理：Hello and welcome back to my Slow English podcast. Me and my sister are similar, but."
+          "en": "Welcome back to my Slow English podcast. Me and my sister are similar,.",
+          "tc": "歡迎回到我的慢速英語播客。我和我姐姐很相似。"
         },
         {
-          "en": "We do our makeup differently. My makeup routine is pretty simple. My makeup routine is more.",
-          "tc": "中文整理：We do our makeup differently. My makeup routine is pretty simple. My makeup routine is more."
+          "en": "We do our makeup differently. My makeup routine is pretty simple. My makeup routine is more complicated. It has more steps and I use more products.",
+          "tc": "我們的化妝方式不同。我的化妝程序非常簡單。我的化妝程序比較複雜。它有更多的步驟，我使用更多的產品。"
         },
         {
-          "en": "Complicated. It has more steps and I use more products. What do you do First? My.",
-          "tc": "中文整理：Complicated. It has more steps and I use more products. What do you do First? My."
+          "en": "What do you do?",
+          "tc": "你做什麼工作？"
         },
         {
-          "en": "First step is to use Primer. Primer. So you spray Primer on your face. Yes. and.",
-          "tc": "中文整理：First step is to use Primer. Primer. So you spray Primer on your face. Yes. and."
+          "en": "First step is to use Primer. Primer. So you spray Primer on your face. Yes. and spray primer on my face. Okay.",
+          "tc": "第一步是使用 Primer。底漆。所以你在臉上噴了底漆。是的。然後在我臉上噴上底漆。好的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "makeup",
+          "kk": "/makeup/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 makeup 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "use",
+          "kk": "/use/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 use 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "routine",
+          "kk": "/ruːˈtiːn/",
+          "partOfSpeech": "n.",
+          "meaning": "例行生活",
+          "note": "看到 routine 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段：日常生活",
+      "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "Spray primer on my face. Okay. Then what do you do next? Next, I put on.",
-          "tc": "中文整理：Spray primer on my face. Okay. Then what do you do next? Next, I put on."
+          "en": "Next, I put on Foundation. Foundation. And what's this? Oh, I put on my foundation with a Makeup Sponge.",
+          "tc": "接下來，我塗上粉底。基礎。這是什麼？哦，我用化妝海綿上粉底。"
         },
         {
-          "en": "Foundation. Foundation. And what's this? Oh, I put on my foundation with a Makeup Sponge. I.",
-          "tc": "中文整理：Foundation. Foundation. And what's this? Oh, I put on my foundation with a Makeup Sponge. I."
+          "en": "I like the sponge. I don't like to use brushes for my foundation. To put on my foundation, I have to pat the makeup sponge on my face.",
+          "tc": "我喜歡海綿。我不喜歡用刷子打粉底。為了上粉底，我必須用化妝海綿拍在臉上。"
         },
         {
-          "en": "Like the sponge. I don't like to use brushes for my foundation. To put on my.",
-          "tc": "中文整理：Like the sponge. I don't like to use brushes for my foundation. To put on my."
+          "en": "Then do like a sparkly effect now that it's done. So, that is my.",
+          "tc": "完成後就可以製作閃閃發光的效果了。所以，那是我的。"
         },
         {
-          "en": "Foundation, I have to pat the makeup sponge on my face and then do like a.",
-          "tc": "中文整理：Foundation, I have to pat the makeup sponge on my face and then do like a."
+          "en": "What is your?",
+          "tc": "你的是什麼？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "makeup",
+          "kk": "/makeup/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 makeup 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "use",
+          "kk": "/use/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 use 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "foundation",
+          "kk": "/foundation/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 foundation 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "Sparkly effect now that it's done. So, that is my first step. What is your First.",
-          "tc": "中文整理：Sparkly effect now that it's done. So, that is my first step. What is your First."
+          "en": "First step? I don't I don't wear foundation, but I start with my It's kind of random actually.",
+          "tc": "第一步？我不，我不塗粉底，但我從我的開始，實際上有點隨機。"
         },
         {
-          "en": "Step? I don't I don't wear foundation, but I start with my It's kind of random.",
-          "tc": "中文整理：Step? I don't I don't wear foundation, but I start with my It's kind of random."
+          "en": "I I start with my eyebrows. Actually, I just started doing my makeup. like one month ago. So, I'm still building up my makeup routine.",
+          "tc": "我從眉毛開始。其實我剛開始化妝。就像一個月前一樣。所以，我仍在建立我的化妝習慣。"
         },
         {
-          "en": "Actually. I I start with my eyebrows. Actually, I just started doing my makeup. like one.",
-          "tc": "中文整理：Actually. I I start with my eyebrows. Actually, I just started doing my makeup. like one."
+          "en": "I use my eyebrow gel.",
+          "tc": "我用我的眉膠。"
         },
         {
-          "en": "Month ago. So, I'm still building up my makeup routine. And I use my eyebrow gel.",
-          "tc": "中文整理：Month ago. So, I'm still building up my makeup routine. And I use my eyebrow gel."
+          "en": "I brush them all the way up.",
+          "tc": "我把它們一直刷到上面。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "makeup",
+          "kk": "/makeup/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 makeup 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "use",
+          "kk": "/use/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 use 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "foundation",
+          "kk": "/foundation/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 foundation 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "I brush them all the way up. And then Bri, what's your next step? I usually.",
-          "tc": "中文整理：I brush them all the way up. And then Bri, what's your next step? I usually."
+          "en": "Then Bri, what's your.",
+          "tc": "那麼 Bri，你的呢？"
         },
         {
-          "en": "Continue with my face and I go with blush. My blush is very used. I do.",
-          "tc": "中文整理：Continue with my face and I go with blush. My blush is very used. I do."
+          "en": "I usually continue with my face.",
+          "tc": "我通常會繼續我的臉。"
         },
         {
-          "en": "Like this one. So, I just put it on my nose, on my cheeks, and a.",
-          "tc": "中文整理：Like this one. So, I just put it on my nose, on my cheeks, and a."
+          "en": "I go with blush. My blush is very used.",
+          "tc": "我臉紅地走。我的腮紅很常用。"
         },
         {
-          "en": "Little on my forehead and chin. And for my blush, I do like to use a.",
-          "tc": "中文整理：Little on my forehead and chin. And for my blush, I do like to use a."
+          "en": "I do like this one. So, I just put it on my nose, on my cheeks, and a little on my forehead and chin. And for my blush,.",
+          "tc": "我很喜歡這個。所以，我只是把它塗在鼻子上、臉頰上、額頭和下巴上一點。和我的臉紅，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "use",
+          "kk": "/use/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 use 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "face",
+          "kk": "/face/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 face 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "Brush. Now, what's your next step in your makeup routine? Um, so eyeliner. I like to.",
-          "tc": "中文整理：Brush. Now, what's your next step in your makeup routine? Um, so eyeliner. I like to."
+          "en": "I do like to use a brush. Now, what's your.",
+          "tc": "我很喜歡用刷子。現在，什麼是你的。"
         },
         {
-          "en": "Use black eyeliner on the bottom on my bottom eyelid, but lately I've really enjoyed using.",
-          "tc": "中文整理：Use black eyeliner on the bottom on my bottom eyelid, but lately I've really enjoyed using."
+          "en": "Next step in your makeup routine? Um, so eyeliner.",
+          "tc": "日常化妝的下一步是什麼？嗯，所以畫眼線了。"
         },
         {
-          "en": "This eyeliner. It's like a sparkly blue. It's really pretty. Okay, there we go. I put.",
-          "tc": "中文整理：This eyeliner. It's like a sparkly blue. It's really pretty. Okay, there we go. I put."
+          "en": "I like to use black eyeliner on the bottom on my bottom eyelid, but lately I've really enjoyed using this eyeliner. It's like a sparkly blue. It's really pretty. Okay, there.",
+          "tc": "我喜歡在下眼瞼的底部使用黑色眼線筆，但最近我真的很喜歡使用這種眼線筆。它就像閃閃發光的藍色。真的很漂亮。好的，就在那裡。"
         },
         {
-          "en": "Blue Eyeliner on my bottom Lash Line. And my eyes are a little bit watery now,.",
-          "tc": "中文整理：Blue Eyeliner on my bottom Lash Line. And my eyes are a little bit watery now,."
+          "en": "We go. I put blue Eyeliner on my bottom Lash Line. And my eyes are a little bit watery now,.",
+          "tc": "我們走吧。我在下睫毛線上畫了藍色眼線筆。現在我的眼睛有點流淚了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "makeup",
+          "kk": "/makeup/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 makeup 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "use",
+          "kk": "/use/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 use 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "But I love how that looks. And so, sometimes I'll use the blue eyeliner, sometimes I'll.",
-          "tc": "中文整理：But I love how that looks. And so, sometimes I'll use the blue eyeliner, sometimes I'll."
+          "en": "I love how that looks. And so,.",
+          "tc": "我喜歡它的樣子。所以，。"
         },
         {
-          "en": "Use the black, but usually I just use a blue one. And then I put a.",
-          "tc": "中文整理：Use the black, but usually I just use a blue one. And then I put a."
+          "en": "Sometimes I'll use the blue eyeliner,.",
+          "tc": "有時我會用藍色眼線筆。"
         },
         {
-          "en": "Little bit of the black one on my top lash line. Brianna, your turn. Okay, my.",
-          "tc": "中文整理：Little bit of the black one on my top lash line. Brianna, your turn. Okay, my."
+          "en": "Sometimes I'll use the black, but usually I just use a blue one.",
+          "tc": "有時我會使用黑色，但通常我只使用藍色。"
         },
         {
-          "en": "Next step is usually my eyebrow gel. Sometimes I do this before my foundation, sometimes I.",
-          "tc": "中文整理：Next step is usually my eyebrow gel. Sometimes I do this before my foundation, sometimes I."
+          "en": "Then I put a little bit of the black one on my top lash line. Brianna, your turn. Okay, my.",
+          "tc": "然後我在上睫毛線上塗了一點黑色的。布丽安娜，轮到你了。好吧，我的。"
         }
-      ]
-    },
-    {
-      "id": "scene-07",
-      "sentences": [
+      ],
+      "tags": [
         {
-          "en": "Do it after. It depends on how much makeup I use. So, today we're going for.",
-          "tc": "中文整理：Do it after. It depends on how much makeup I use. So, today we're going for."
+          "english": "use",
+          "kk": "/use/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 use 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "en": "A more subtle, chic look. Yes. Not like the other day. Brianna really likes to do.",
-          "tc": "中文整理：A more subtle, chic look. Yes. Not like the other day. Brianna really likes to do."
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
-          "en": "Her makeup a lot. She does a lot of extravaganzas. Yeah. Sometimes Brianna, she wears like.",
-          "tc": "中文整理：Her makeup a lot. She does a lot of extravaganzas. Yeah. Sometimes Brianna, she wears like."
-        },
-        {
-          "en": "Blue contact so that she can hypnotize people. What What's your next step in your makeup.",
-          "tc": "中文整理：Blue contact so that she can hypnotize people. What What's your next step in your makeup."
-        }
-      ]
-    },
-    {
-      "id": "scene-08",
-      "sentences": [
-        {
-          "en": "Routine? So, I think I usually add this white eyeliner near the tear duct. That's the.",
-          "tc": "中文整理：Routine? So, I think I usually add this white eyeliner near the tear duct. That's the."
-        },
-        {
-          "en": "Tear duct. And I put it right there. I can't really paint it. Can you help.",
-          "tc": "中文整理：Tear duct. And I put it right there. I can't really paint it. Can you help."
-        },
-        {
-          "en": "Me? You got to sharpen that one as much as you can. This is very flat.",
-          "tc": "中文整理：Me? You got to sharpen that one as much as you can. This is very flat."
-        },
-        {
-          "en": "I think I can do it. Okay. What is your Third Step or no Fourth Step?",
-          "tc": "中文整理：I think I can do it. Okay. What is your Third Step or no Fourth Step?"
-        }
-      ]
-    },
-    {
-      "id": "scene-09",
-      "sentences": [
-        {
-          "en": "For my Fourth Step, I use some translucent powder to make my makeup stay better and.",
-          "tc": "中文整理：For my Fourth Step, I use some translucent powder to make my makeup stay better and."
-        },
-        {
-          "en": "So I don't look sweaty. I use my makeup sponge for the translucent powder. Okay, now.",
-          "tc": "中文整理：So I don't look sweaty. I use my makeup sponge for the translucent powder. Okay, now."
-        },
-        {
-          "en": "My next step, I'll use the eyelash curler to curl my eyelashes. Okay, your turn. What's.",
-          "tc": "中文整理：My next step, I'll use the eyelash curler to curl my eyelashes. Okay, your turn. What's."
-        },
-        {
-          "en": "Your next step, Bri? For my Next step, I use eyeliner. Some black eyeliner. I like.",
-          "tc": "中文整理：Your next step, Bri? For my Next step, I use eyeliner. Some black eyeliner. I like."
-        }
-      ]
-    },
-    {
-      "id": "scene-10",
-      "sentences": [
-        {
-          "en": "To use a pen because it's easier. My Next step is mascara. So, mascara is for.",
-          "tc": "中文整理：To use a pen because it's easier. My Next step is mascara. So, mascara is for."
-        },
-        {
-          "en": "Your Eyelashes. I only put it on the top lash cuz I don't feel like I.",
-          "tc": "中文整理：Your Eyelashes. I only put it on the top lash cuz I don't feel like I."
-        },
-        {
-          "en": "Have enough to put it on the bottom lash. Now, what's your next step, Bri? For.",
-          "tc": "中文整理：Have enough to put it on the bottom lash. Now, what's your next step, Bri? For."
-        },
-        {
-          "en": "My Last step, I also do my lashes. So, I use my eyelash curler and then.",
-          "tc": "中文整理：My Last step, I also do my lashes. So, I use my eyelash curler and then."
-        }
-      ]
-    },
-    {
-      "id": "scene-11",
-      "sentences": [
-        {
-          "en": "I use mascara on the top and bottom lashes. And sometimes on special occasions I wear.",
-          "tc": "中文整理：I use mascara on the top and bottom lashes. And sometimes on special occasions I wear."
-        },
-        {
-          "en": "Fake eyelashes. Okay, my Last step is to use this Bronzer. I take a brush, a.",
-          "tc": "中文整理：Fake eyelashes. Okay, my Last step is to use this Bronzer. I take a brush, a."
-        },
-        {
-          "en": "Small makeup brush, and put a little bit of Bronzer. I test it first to make.",
-          "tc": "中文整理：Small makeup brush, and put a little bit of Bronzer. I test it first to make."
-        },
-        {
-          "en": "Sure that it's not too heavy. And then I put it on my cheekbone, on my.",
-          "tc": "中文整理：Sure that it's not too heavy. And then I put it on my cheekbone, on my."
-        }
-      ]
-    },
-    {
-      "id": "scene-12",
-      "sentences": [
-        {
-          "en": "Forehead, on my nose, and on my jawline, and maybe just a little bit above my.",
-          "tc": "中文整理：Forehead, on my nose, and on my jawline, and maybe just a little bit above my."
-        },
-        {
-          "en": "Eyebrow. And while Brianna finishes doing her eyelashes, I actually have one last step, which is.",
-          "tc": "中文整理：Eyebrow. And while Brianna finishes doing her eyelashes, I actually have one last step, which is."
-        },
-        {
-          "en": "Lip Gloss. So, I don't really like to use Lipstick. Lipstick is the color. I just.",
-          "tc": "中文整理：Lip Gloss. So, I don't really like to use Lipstick. Lipstick is the color. I just."
-        },
-        {
-          "en": "Like lip gloss. All set. Sometimes if I feel like it, I use lip gloss as.",
-          "tc": "中文整理：Like lip gloss. All set. Sometimes if I feel like it, I use lip gloss as."
-        }
-      ]
-    },
-    {
-      "id": "scene-13",
-      "sentences": [
-        {
-          "en": "An extra last step. Thank you guys for watching. That was our makeup routine. Our slow.",
-          "tc": "中文整理：An extra last step. Thank you guys for watching. That was our makeup routine. Our slow."
-        },
-        {
-          "en": "Makeup routine. M I hope you learned something new today. And if you did, comment down.",
-          "tc": "中文整理：Makeup routine. M I hope you learned something new today. And if you did, comment down."
-        },
-        {
-          "en": "Below what it was. Makeup brush, eyebrow gel. What's another one? Lash line. Lash line. Foundation.",
-          "tc": "中文整理：Below what it was. Makeup brush, eyebrow gel. What's another one? Lash line. Lash line. Foundation."
-        },
-        {
-          "en": "Eyeliner. What did you learn today? I'll see you next time. Bye. If you guys are.",
-          "tc": "中文整理：Eyeliner. What did you learn today? I'll see you next time. Bye. If you guys are."
-        }
-      ]
-    },
-    {
-      "id": "scene-14",
-      "sentences": [
-        {
-          "en": "Interested, I'll link Brianna's YouTube channel in the description. and she also has a YouTube channel.",
-          "tc": "中文整理：Interested, I'll link Brianna's YouTube channel in the description. and she also has a YouTube channel."
-        },
-        {
-          "en": "If you're interested and Instagram. Anything you can find in the description. Thank you guys for.",
-          "tc": "中文整理：If you're interested and Instagram. Anything you can find in the description. Thank you guys for."
-        },
-        {
-          "en": "Watching. Bye bye.",
-          "tc": "中文整理：Watching. Bye bye."
+          "english": "eyeliner",
+          "kk": "/eyeliner/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 eyeliner 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     }
   ],
   "vocabGroups": [
     {
-      "label": "B1 transcript keywords",
+      "title": "B1 重點單字",
       "items": [
         {
-          "word": "use",
-          "pos": "word",
-          "meaning": "中文整理：use",
+          "english": "makeup",
+          "kk": "/makeup/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 makeup 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "step",
-          "pos": "word",
-          "meaning": "中文整理：step",
+          "english": "use",
+          "kk": "/use/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 use 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "makeup",
-          "pos": "word",
-          "meaning": "中文整理：makeup",
+          "english": "foundation",
+          "kk": "/foundation/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 foundation 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "next",
-          "pos": "word",
-          "meaning": "下一個",
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "put",
-          "pos": "word",
-          "meaning": "中文整理：put",
+          "english": "eyeliner",
+          "kk": "/eyeliner/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 eyeliner 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "eyeliner",
-          "pos": "word",
-          "meaning": "中文整理：eyeliner",
+          "english": "routine",
+          "kk": "/ruːˈtiːn/",
+          "partOfSpeech": "n.",
+          "meaning": "例行生活",
+          "note": "看到 routine 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "foundation",
-          "pos": "noun",
-          "meaning": "中文整理：foundation",
+          "english": "blue",
+          "kk": "/blue/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 blue 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "routine",
-          "pos": "word",
-          "meaning": "中文整理：routine",
+          "english": "face",
+          "kk": "/face/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 face 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -355,33 +388,83 @@
     {
       "id": "phrase-01",
       "phrase": "what do you",
-      "meaning": "你做什麼",
+      "meaning": "你會怎麼...",
       "examples": [
         {
-          "en": "Has more steps and I use more products. What do you do First? My first step is to use Primer. Primer.",
-          "tc": "中文整理：Has more steps and I use more products. What do you do First? My first step is to use Primer. Primer."
+          "en": "What do you do?",
+          "tc": "你做什麼工作？"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "a lot of",
-      "meaning": "很多",
+      "phrase": "have to",
+      "meaning": "常用說法，可用來表達「have to」這個意思",
       "examples": [
         {
-          "en": "To do her makeup a lot. She does a lot of extravaganzas. Yeah. Sometimes Brianna, she wears like blue contact so.",
-          "tc": "中文整理：To do her makeup a lot. She does a lot of extravaganzas. Yeah. Sometimes Brianna, she wears like blue contact so."
+          "en": "To put on my foundation, I have to pat the makeup sponge on my face.",
+          "tc": "為了上粉底，我必須用化妝海綿拍在臉上。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "kind of",
-      "meaning": "有點",
+      "phrase": "a little bit",
+      "meaning": "常用說法，可用來表達「a little bit」這個意思",
       "examples": [
         {
-          "en": "Wear foundation, but I start with my It's kind of random actually. I I start with my eyebrows. Actually, I.",
-          "tc": "中文整理：Wear foundation, but I start with my It's kind of random actually. I I start with my eyebrows. Actually, I."
+          "en": "And my eyes are a little bit watery now,.",
+          "tc": "現在我的眼睛有點流淚了。"
+        }
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "breakdown-01",
+      "sentence": "Welcome back to my Slow English podcast. Me and my sister are similar,.",
+      "translation": "歡迎回到我的慢速英語播客。我和我姐姐很相似。",
+      "points": [
+        {
+          "label": "welcome back sister",
+          "text": "welcome back sister",
+          "note": "注意 \"welcome back sister\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-02",
+      "sentence": "We do our makeup differently. My makeup routine is pretty simple. My makeup routine is more complicated. It has more steps and I use more products.",
+      "translation": "我們的化妝方式不同。我的化妝程序非常簡單。我的化妝程序比較複雜。它有更多的步驟，我使用更多的產品。",
+      "points": [
+        {
+          "label": "our makeup differently",
+          "text": "our makeup differently",
+          "note": "注意 \"our makeup differently\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-03",
+      "sentence": "What do you do?",
+      "translation": "你做什麼工作？",
+      "points": [
+        {
+          "label": "what do you",
+          "text": "what do you",
+          "note": "注意 \"what do you\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "First step is to use Primer. Primer. So you spray Primer on your face. Yes. and spray primer on my face. Okay.",
+      "translation": "第一步是使用 Primer。底漆。所以你在臉上噴了底漆。是的。然後在我臉上噴上底漆。好的。",
+      "points": [
+        {
+          "label": "first step use",
+          "text": "first step use",
+          "note": "注意 \"first step use\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

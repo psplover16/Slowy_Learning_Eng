@@ -4,348 +4,373 @@
   "level": "a2",
   "title": "Slow English Podcast | A day in my life! 🎧 A2 English Listening Practice",
   "youtubeUrl": "https://www.youtube.com/watch?v=XcNt1AorUrM",
+  "header": {
+    "podcastLabel": "MissHoney A2",
+    "titleZh": "慢速英語播客 |我生命中的一天！ 🎧 A2英語聽力練習",
+    "titleEn": "Slow English Podcast | A day in my life! 🎧 A2 English Listening Practice",
+    "levelTag": "A2",
+    "topicTag": "language"
+  },
   "scenes": [
     {
       "id": "scene-01",
+      "no": "01",
+      "titleZh": "開場：日常生活",
+      "titleEn": "Opening: everyday life",
       "sentences": [
         {
-          "en": "We picked out some fresh fruits and vegetables. We got some fresh pork rinds. My grandma.",
-          "tc": "我們挑選了一些新鮮的水果和蔬菜。我們買了一些新鮮的豬皮。我的奶奶。"
+          "en": "We picked out some fresh fruits and vegetables.",
+          "tc": "我們挑選了一些新鮮的水果和蔬菜。"
         },
         {
-          "en": "Cooked chalupas. Chalupas are fried tortillas with potatoes, lettuce, and chicken. Hello and welcome back to.",
-          "tc": "煮熟的 chalupas。 Chalupas 是一種油炸玉米餅，配上馬鈴薯、生菜和雞肉。您好，歡迎回到。"
+          "en": "We got some fresh pork rinds. My grandma cooked chalupas. are fried tortillas with potatoes, lettuce, and chicken.",
+          "tc": "我們買了一些新鮮的豬皮。我奶奶煮了 chalupas。是玉米餅配馬鈴薯、生菜和雞肉。"
         },
         {
-          "en": "My slow English podcast. a podcast to practice slow, comprehensible English. Today I want to talk.",
-          "tc": "我的慢速英語播客。練習緩慢、可理解的英語的播客。今天我想談談。"
+          "en": "Welcome back to my slow English podcast. a podcast to practice slow, comprehensible English.",
+          "tc": "歡迎回到我的慢速英語播客。練習緩慢、可理解的英語的播客。"
         },
         {
-          "en": "About my day. Today was a very busy day. I did what I normally do, which.",
-          "tc": "關於我的一天。今天是非常忙碌的一天。我做了我通常會做的事，即。"
+          "en": "I normally do, which is to start my day with a banana smoothie. I have talked about banana smoothies in my videos in the past before. So,.",
+          "tc": "我通常會這樣做，即以香蕉冰沙開始新的一天。我以前在影片中談過香蕉冰沙。所以，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "some",
+          "kk": "/some/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "fresh",
+          "kk": "/fresh/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 fresh 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "banana",
+          "kk": "/banana/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 banana 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段：日常生活",
+      "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "Is to start my day with a banana smoothie. I have talked about banana smoothies in.",
-          "tc": "就是以香蕉冰沙開始我的一天。我在《香蕉冰沙》中談到香蕉冰沙。"
+          "en": "I want to show you the full creation of my banana smoothies.",
+          "tc": "我想向您展示我的香蕉冰沙的完整製作過程。"
         },
         {
-          "en": "My videos in the past before. So, I want to show you the full creation of.",
-          "tc": "我以前的影片。所以，我想向大家展示完整的創作。"
+          "en": "First, I use the strainer and I strain my kefir. is a fungi that turns milk into kefir. It's sour and a little bit sweet.",
+          "tc": "首先，我使用過濾器過濾開菲爾。是一種將牛奶變成克菲爾的真菌。它是酸的，還有一點點甜。"
         },
         {
-          "en": "My banana smoothies. First, I use the strainer and I strain my kefir. Kefir is a.",
-          "tc": "我的香蕉冰沙。首先，我使用過濾器過濾開菲爾。開菲爾是一種。"
+          "en": "I love kefir. I strain out all the milk I put into my kefir yesterday and I just strain it directly into the blender. I add one banana.",
+          "tc": "我喜歡克菲爾。我濾出了昨天放入克菲爾中的所有牛奶，然後將其直接過濾到攪拌機中。我加一根香蕉。"
         },
         {
-          "en": "Fungi that turns milk into kefir. It's sour and a little bit sweet. I love kefir.",
-          "tc": "將牛奶變成克菲爾的真菌。它是酸的，還有一點點甜。我喜歡克菲爾。"
+          "en": "Then I make my way to the freezer and I put in frozen berries. A variety of berries. Strawberries, blueberries, raspberries.",
+          "tc": "然後我走到冰箱前，放入冷凍漿果。各種漿果。草莓、藍莓、覆盆子。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "it's",
+          "kk": "/it's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "banana",
+          "kk": "/banana/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 banana 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "kefir",
+          "kk": "/kefir/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 kefir 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "I strain out all the milk I put into my kefir yesterday and I just strain.",
-          "tc": "我把昨天放入克菲爾中的所有牛奶濾掉，然後就濾掉了。"
+          "en": "Next, I add some flax seed, a good source of fiber, and a little splash of water, so that it's not too thick. I blend it and I serve it into.",
+          "tc": "接下來，我添加一些亞麻籽（一種很好的纖維來源）和一點水，這樣它就不會太濃稠。我將它混合並加入。"
         },
         {
-          "en": "It directly into the blender. I add one banana and then I make my way to.",
-          "tc": "直接放入攪拌機中。我加了一根香蕉，然後就走了。"
+          "en": "My favorite color of green. And it's actually not mine. It's my dad's,.",
+          "tc": "我最喜歡的顏色是綠色。而它實際上不是我的。這是我爸爸的，。"
         },
         {
-          "en": "The freezer and I put in frozen berries. A variety of berries. Strawberries, blueberries, raspberries. Next,.",
-          "tc": "冰箱裡我放了冷凍莓果。各種漿果。草莓、藍莓、覆盆子。下一個，。"
+          "en": "He never uses it. So,.",
+          "tc": "他從不使用它。所以，。"
         },
         {
-          "en": "I add some flax seed, a good source of fiber, and a little splash of water,.",
-          "tc": "我添加了一些亞麻籽（一種很好的纖維來源）和一點水。"
+          "en": "They sell everything and anything from fruits to seafood to clothing like hats and shirts. So, I went with them.",
+          "tc": "他們出售各種商品，從水果到海鮮，再到帽子和襯衫等服裝。於是，我就跟著他們去了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "some",
+          "kk": "/some/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "it's",
+          "kk": "/it's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "So that it's not too thick. I blend it and I serve it into my favorite.",
-          "tc": "這樣就不會太厚了。我把它混合起來，然後放進我最喜歡的菜裡。"
+          "en": "We got some fresh pork rinds to eat with guacamole.",
+          "tc": "我們買了一些新鮮的豬皮和酪梨醬一起吃。"
         },
         {
-          "en": "Mug. It's my favorite color of green. And it's actually not mine. It's my dad's, but.",
-          "tc": "馬克杯。這是我最喜歡的綠色。而它實際上不是我的。這是我爸爸的，但是。"
+          "en": "We picked up some corn to have for dinner later in the week.",
+          "tc": "我們買了一些玉米作為本週晚些時候的晚餐。"
         },
         {
-          "en": "He never uses it. So, I do. After breakfast, my parents asked me if I wanted.",
-          "tc": "他從不使用它。所以，我願意。吃完早餐，爸爸媽媽問我要不要去。"
+          "en": "I love going to the market. It's so nice walking around with my parents.",
+          "tc": "我喜歡去市場。和父母一起散步真是太好了。"
         },
         {
-          "en": "To go with them to the tiangis. The Tiangis is like an outdoor supermarket where they.",
-          "tc": "跟他們一起去天吉斯。 Tiangis就像露天超市。"
+          "en": "We had some fresh food for lunch and it's nice getting fresh ingredients for lunch. After the market,.",
+          "tc": "我們午餐吃了一些新鮮的食物，很高興午餐能吃到新鮮的食材。上市後，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "some",
+          "kk": "/some/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "it's",
+          "kk": "/it's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "fresh",
+          "kk": "/fresh/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 fresh 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：工作與學習",
+      "titleEn": "Part 5: work",
       "sentences": [
         {
-          "en": "Sell everything and anything from fruits to seafood to clothing like hats and shirts. So, I.",
-          "tc": "販售各種商品，從水果到海鮮，再到帽子和襯衫等服裝。所以，我。"
+          "en": "We should visit my grandma's house. Since I didn't have any work to do at the moment, I agreed.",
+          "tc": "我們應該去我奶奶家看看。由於我暫時沒有工作，所以我就同意了。"
         },
         {
-          "en": "Went with them and we picked out some fresh fruits and vegetables. We got some fresh.",
-          "tc": "和他們一起去，我們挑選了一些新鮮的水果和蔬菜。我們得到了一些新鮮的。"
+          "en": "We walked to my grandma's house. My grandma's house is so cute. It brings back childhood memories every time.",
+          "tc": "我們步行到了奶奶家。我奶奶的房子真可愛。每次都會勾起童年的回憶。"
         },
         {
-          "en": "Pork rinds to eat with guacamole. And we picked up some corn to have for dinner.",
-          "tc": "豬皮與酪梨醬一起吃。我們還買了一些玉米當晚餐。"
+          "en": "She sells food just like in a convenience store, but her own. Not oxo or a 7ele1, a local little store. It's called Avarotes Loose. My grandma's name is Loose. So,.",
+          "tc": "她賣的食物就像在便利商店一樣，但是是她自己的。不是 oxo 也不是當地的小商店 7ele1。它被稱為阿瓦羅特鬆散。我奶奶的名字叫松。所以，。"
         },
         {
-          "en": "Later in the week. I love going to the market. It's so nice walking around with.",
-          "tc": "本週晚些時候。我喜歡去市場。和它一起散步真是太好了。"
+          "en": "Like saying groceries loose. My sister and I always go to her store to pick out some chips or some sweets.",
+          "tc": "就像說雜貨鬆散一樣。我和妹妹總是去她的商店挑選一些薯片或糖果。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "some",
+          "kk": "/some/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "it's",
+          "kk": "/it's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "her",
+          "kk": "/her/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 her 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：食物與用餐",
+      "titleEn": "Part 6: food",
       "sentences": [
         {
-          "en": "My parents and we had some fresh food for lunch and it's nice getting fresh ingredients.",
-          "tc": "我的父母和我們午餐吃了一些新鮮的食物，很高興能得到新鮮的食材。"
+          "en": "I am more of a sweets fan. So, I always get some sweet cinnamon rolls or a candy like a Snickers bar. My sister loves spicy chips,.",
+          "tc": "我是一個比較喜歡甜食的人。所以，我總是買一些甜肉桂捲或士力架之類的糖果。我姐姐喜歡吃辣薯條。"
         },
         {
-          "en": "For lunch. After the market, we decided we should visit my grandma's house. Since I didn't.",
-          "tc": "吃午餐。市集結束後，我們決定去參觀我奶奶家。既然我沒有。"
+          "en": "She usually gets Takis or Cheetos, but my grandma is so sweet.",
+          "tc": "她通常會吃塔基斯或奇多，但我奶奶太可愛了。"
         },
         {
-          "en": "Have any work to do at the moment, I agreed. And we walked to my grandma's.",
-          "tc": "暫時還有工作要做，我同意了。然後我們就走到奶奶家了。"
+          "en": "She always gives us all the sweets and candies.",
+          "tc": "她總是給我們所有的糖果。"
         },
         {
-          "en": "House. My grandma's house is so cute. It brings back childhood memories every time I go.",
-          "tc": "房子。我奶奶的房子真可愛。每次去都會勾起我童年的回憶。"
+          "en": "She can. It's all super nostalgic to me. The green tiles on her kitchen floor. Her old clock that doesn't even work anymore. Her garden filled with pots of plants. like flowers,.",
+          "tc": "她可以。這一切對我來說都超級懷舊。她廚房地板上的綠色瓷磚。她的舊鐘已經不再運作了。她的花園裡種滿了植物盆栽。像花一樣，。"
         }
-      ]
-    },
-    {
-      "id": "scene-07",
-      "sentences": [
+      ],
+      "tags": [
         {
-          "en": "My grandma's house is actually attached to a little store where she sells food just like.",
-          "tc": "我奶奶的房子實際上附屬於一家小商店，她就像在那裡賣食物一樣。"
+          "english": "some",
+          "kk": "/some/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "en": "In a convenience store, but her own. Not oxo or a 7ele1, a local little store.",
-          "tc": "在便利商店，但是她自己的。不是 oxo 也不是當地的小商店 7ele1。"
+          "english": "it's",
+          "kk": "/it's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "en": "It's called Avarotes Loose. My grandma's name is Loose. So, it's like saying groceries loose. My.",
-          "tc": "它被稱為阿瓦羅特鬆散。我奶奶的名字叫松。所以，這就像說雜貨鬆散一樣。我的。"
-        },
-        {
-          "en": "Sister and I always go to her store to pick out some chips or some sweets.",
-          "tc": "我和妹妹總是去她的商店挑選一些薯條或一些糖果。"
-        }
-      ]
-    },
-    {
-      "id": "scene-08",
-      "sentences": [
-        {
-          "en": "I am more of a sweets fan. So, I always get some sweet cinnamon rolls or.",
-          "tc": "我是一個比較喜歡甜食的人。所以，我總是買一些甜肉桂捲或。"
-        },
-        {
-          "en": "A candy like a Snickers bar. My sister loves spicy chips, so she usually gets Takis.",
-          "tc": "像士力架這樣的糖果。我姐姐喜歡吃辣薯條，所以她通常會吃塔基斯。"
-        },
-        {
-          "en": "Or Cheetos, but my grandma is so sweet. She always gives us all the sweets and.",
-          "tc": "或奇多，但我奶奶太可愛了。她總是給我們所有的糖果。"
-        },
-        {
-          "en": "Candies she can. It's all super nostalgic to me. The green tiles on her kitchen floor.",
-          "tc": "糖果她可以。這一切對我來說都超級懷舊。她廚房地板上的綠色瓷磚。"
-        }
-      ]
-    },
-    {
-      "id": "scene-09",
-      "sentences": [
-        {
-          "en": "Her old clock that doesn't even work anymore. Her garden filled with pots of plants. Plants.",
-          "tc": "她的舊鐘已經不再運作了。她的花園裡種滿了植物盆栽。植物。"
-        },
-        {
-          "en": "Like flowers, succulents, and trees. Her dog has the sweetest little face. She has her old.",
-          "tc": "例如花卉、多肉植物和樹木。她的狗有一張最可愛的小臉。她有她的舊事。"
-        },
-        {
-          "en": "CD player, always playing music from the 60s or 70s. I love my grandma's music. What's.",
-          "tc": "CD播放器，總是播放60年代或70年代的音樂。我喜歡我奶奶的音樂。什麼是。"
-        },
-        {
-          "en": "The most nostalgic place from your childhood? After lunch with my grandma, we walked the dogs.",
-          "tc": "你童年最懷念的地方是？和奶奶吃完午餐後，我們去遛狗。"
-        }
-      ]
-    },
-    {
-      "id": "scene-10",
-      "sentences": [
-        {
-          "en": "Around the neighborhood. These are my parents dogs. Wa and Pablo. They are so energetic and.",
-          "tc": "附近。這些是我父母的狗。瓦和巴勃羅.他們是如此充滿活力和。"
-        },
-        {
-          "en": "Crazy, but they are cuties. Wa always pees when she gets excited. She can't hold it.",
-          "tc": "瘋狂，但他們很可愛。當她興奮的時候，她總是會尿尿。她撐不住了。"
-        },
-        {
-          "en": "In. She gets too excited. Do you have any pets? What are their names and why?",
-          "tc": "在。她太興奮了。你有寵物嗎？他們的名字是什麼？為什麼？"
-        },
-        {
-          "en": "After walking the dogs, I worked on my computer for a little while until my sister.",
-          "tc": "遛完狗後，我在電腦上工作了一會兒，直到我姐姐。"
-        }
-      ]
-    },
-    {
-      "id": "scene-11",
-      "sentences": [
-        {
-          "en": "Invited me to eat sushi with her. I had been craving sushi for the longest time,.",
-          "tc": "邀請我和她一起吃壽司。我想吃壽司已經很久了。"
-        },
-        {
-          "en": "So of course I accepted the invitation. It was a really nice meal. And we even.",
-          "tc": "所以我當然接受了邀請。這真是一頓美餐。我們甚至。"
-        },
-        {
-          "en": "Got fortune cookies. Mine said, \"You have lots of opportunities at your reach. Take advantage of.",
-          "tc": "得到了幸運餅乾。我的說：「你有很多機會，你可以利用。"
-        },
-        {
-          "en": "Them.\" But that really resonates with me. I want to take advantage of all the opportunities.",
-          "tc": "他們。 」但這確實引起了我的共鳴。我想利用所有的機會。"
-        }
-      ]
-    },
-    {
-      "id": "scene-12",
-      "sentences": [
-        {
-          "en": "The universe gives me and stay motivated to be the best version of myself. What motivates.",
-          "tc": "宇宙給我並保持動力，讓我成為最好的自己。是什麼動機。"
-        },
-        {
-          "en": "You to be the best you possible? Today was actually Independence Day in Mexico. So, we.",
-          "tc": "你要成為最好的自己嗎？今天其實是墨西哥的獨立紀念日。所以，我們。"
-        },
-        {
-          "en": "Had plans to eat dinner at my grandma's house to celebrate. My grandma has a new.",
-          "tc": "本來打算去奶奶家吃晚餐慶祝一下。我奶奶有一個新的。"
-        },
-        {
-          "en": "Small dog. My grandma cooked chalupas. Chalupas are fried tortillas with potatoes, lettuce, and chicken and.",
-          "tc": "小狗。我奶奶煮了 chalupas。 Chalupas 是油炸玉米餅，配上馬鈴薯、生菜和雞肉。"
-        }
-      ]
-    },
-    {
-      "id": "scene-13",
-      "sentences": [
-        {
-          "en": "Green or red salsa on top. My grandma is the best cook. Even if you don't.",
-          "tc": "上面有綠色或紅色的莎莎醬。我的奶奶是最好的廚師。即使你不這樣做。"
-        },
-        {
-          "en": "Like Mexican food, I'm sure you would like my grandma's food. So my aunt and my.",
-          "tc": "喜歡墨西哥菜，我相信你會喜歡我奶奶做的菜。所以我的阿姨和我的。"
-        },
-        {
-          "en": "Grandma worked together and cooked us chalupas and we had a delicious independence day. If you.",
-          "tc": "奶奶和我們一起工作，為我們做了 chalupas，我們度過了一個美味的獨立日。如果你。"
-        },
-        {
-          "en": "Enjoyed a day in my life, leave a like so I can focus on making more.",
-          "tc": "度過了我生命中的一天，留下一個贊，這樣我就可以專注於創造更多。"
-        }
-      ]
-    },
-    {
-      "id": "scene-14",
-      "sentences": [
-        {
-          "en": "Videos like these. And don't forget to let me know in the comments what's the most.",
-          "tc": "像這樣的影片。並且不要忘記在評論中讓我知道最重要的是什麼。"
-        },
-        {
-          "en": "Nostalgic place from your childhood and what motivates you to be your best self. If you.",
-          "tc": "童年懷舊的地方以及激勵您成為最好的自己的動力。如果你。"
-        },
-        {
-          "en": "Like this video, I'm sure you'll like these, too. Bye.",
-          "tc": "喜歡這個視頻，我相信您也會喜歡這些。再見。"
+          "english": "her",
+          "kk": "/her/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 her 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     }
   ],
   "vocabGroups": [
     {
-      "label": "A2 transcript keywords",
+      "title": "A2 重點單字",
       "items": [
         {
-          "word": "it's",
-          "pos": "word",
-          "meaning": "這是",
+          "english": "some",
+          "kk": "/some/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "some",
-          "pos": "word",
-          "meaning": "一些",
+          "english": "it's",
+          "kk": "/it's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "grandma's",
-          "pos": "word",
-          "meaning": "奶奶的",
+          "english": "fresh",
+          "kk": "/fresh/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 fresh 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "her",
-          "pos": "word",
-          "meaning": "她",
+          "english": "her",
+          "kk": "/her/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 her 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "she",
-          "pos": "word",
-          "meaning": "她",
+          "english": "banana",
+          "kk": "/banana/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 banana 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "day",
-          "pos": "word",
-          "meaning": "日",
+          "english": "grandma's",
+          "kk": "/grandma's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 grandma's 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "grandma",
-          "pos": "word",
-          "meaning": "奶奶",
+          "english": "kefir",
+          "kk": "/kefir/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 kefir 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "fresh",
-          "pos": "word",
-          "meaning": "新鮮的",
+          "english": "she",
+          "kk": "/she/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 she 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -355,33 +380,83 @@
     {
       "id": "phrase-01",
       "phrase": "going to",
-      "meaning": "去",
+      "meaning": "常用說法，可用來表達「going to」這個意思",
       "examples": [
         {
-          "en": "For dinner later in the week. I love going to the market. It's so nice walking around with my parents.",
-          "tc": "本週晚些時候吃晚餐。我喜歡去市場。和父母一起散步真是太好了。"
+          "en": "I love going to the market.",
+          "tc": "我喜歡去市場。"
         }
       ]
     },
     {
       "id": "phrase-02",
       "phrase": "want to",
-      "meaning": "想要",
+      "meaning": "常用說法，可用來表達「want to」這個意思",
       "examples": [
         {
-          "en": "Podcast to practice slow, comprehensible English. Today I want to talk about my day. Today was a very busy day.",
-          "tc": "播客練習緩慢、可理解的英語。今天我想談談我的一天。今天是非常忙碌的一天。"
+          "en": "I want to show you the full creation of my banana smoothies.",
+          "tc": "我想向您展示我的香蕉冰沙的完整製作過程。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "talk about",
-      "meaning": "談論",
+      "phrase": "a little bit",
+      "meaning": "常用說法，可用來表達「a little bit」這個意思",
       "examples": [
         {
-          "en": "Practice slow, comprehensible English. Today I want to talk about my day. Today was a very busy day. I did.",
-          "tc": "練習緩慢、可理解的英語。今天我想談談我的一天。今天是非常忙碌的一天。我做到了。"
+          "en": "It's sour and a little bit sweet.",
+          "tc": "它是酸的，還有一點點甜。"
+        }
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "breakdown-01",
+      "sentence": "We picked out some fresh fruits and vegetables.",
+      "translation": "我們挑選了一些新鮮的水果和蔬菜。",
+      "points": [
+        {
+          "label": "picked out some",
+          "text": "picked out some",
+          "note": "注意 \"picked out some\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-02",
+      "sentence": "We got some fresh pork rinds. My grandma cooked chalupas. are fried tortillas with potatoes, lettuce, and chicken.",
+      "translation": "我們買了一些新鮮的豬皮。我奶奶煮了 chalupas。是玉米餅配馬鈴薯、生菜和雞肉。",
+      "points": [
+        {
+          "label": "got some fresh",
+          "text": "got some fresh",
+          "note": "注意 \"got some fresh\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-03",
+      "sentence": "Welcome back to my slow English podcast. a podcast to practice slow, comprehensible English.",
+      "translation": "歡迎回到我的慢速英語播客。練習緩慢、可理解的英語的播客。",
+      "points": [
+        {
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "I normally do, which is to start my day with a banana smoothie. I have talked about banana smoothies in my videos in the past before. So,.",
+      "translation": "我通常會這樣做，即以香蕉冰沙開始新的一天。我以前在影片中談過香蕉冰沙。所以，。",
+      "points": [
+        {
+          "label": "normally start day",
+          "text": "normally start day",
+          "note": "注意 \"normally start day\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

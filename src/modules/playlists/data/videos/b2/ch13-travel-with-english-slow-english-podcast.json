@@ -4,92 +4,365 @@
   "level": "b2",
   "title": "Travel With English - Slow English Podcast",
   "youtubeUrl": "https://www.youtube.com/watch?v=4Q9ymisvCmA",
+  "header": {
+    "podcastLabel": "MissHoney B2",
+    "titleZh": "與英語一起旅行 - 慢速英語播客",
+    "titleEn": "Travel With English - Slow English Podcast",
+    "levelTag": "B2",
+    "topicTag": "travel"
+  },
   "scenes": [
     {
       "id": "scene-01",
+      "no": "01",
+      "titleZh": "開場：旅行",
+      "titleEn": "Opening: travel",
       "sentences": [
         {
-          "en": "Let me tell you how English changed my life. growing up without money in my family, but still being able to travel from Mexico to Thailand to Portugal, Brazil, and beyond, all by myself. I wasn't traveling in luxury. Sometimes I didn't know where I was going to stay next month. I only knew that I could teach a couple English lessons and keep going. So, someone asked me in the comments, \"What do you think you would be if you weren't an English teacher?\" So, today I'm going to answer that question, while telling you the story of how English took me around the world. If this speed is too slow for you, then just speed up the video. Give yourself a little challenge. First, let's get in to how I became a teacher. My mom and my dad are both English teachers. And when my sister turned 18 years old, she became an English teacher as well. She taught lessons online to students in China. She worked with a company called VIP Kid. And she could do it with just her TEFL certificate, and high school. High school from anywhere in the world. She made a good salary, good money, and she was able to pay for her food and rent in college with that job. Imagine working and studying and affording it all just by teaching. My sister walked so I could run. That's an expression in English. My sister walked so that I could run. It basically means my sister set the path for me to follow. And that's what I did.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "Let me tell you how English changed my life. growing up without money in my family, but still being able to travel from Mexico to Thailand to Portugal, Brazil, and beyond, all.",
+          "tc": "讓我告訴你英語如何改變了我的生活。我在家裡沒有錢的情況下長大，但仍然能夠從墨西哥到泰國到葡萄牙、巴西等等。"
         },
         {
-          "en": "I got my TEFL certificate when I was 17 years old. So the second I turned 18, I knew I wanted to start teaching online as well, just like my sister did. I started saving money right away, as much as I could, and I was able to move out into my own apartment when I was 18. I moved to Pueba. It's a bigger city outside of the town I grew up in. I lived there working for about a year, but I soon realized I felt stuck. I was getting stuck in a routine that I didn't like. I had always dreamed of traveling since I was little. And that whole year I was just waiting for someone to travel with. whether that was my sister or my friends, but nobody really wanted to as much as I did. Granted, they were studying in college, but still nobody wanted to travel with me. At this point, I had my laptop, Wi-Fi, and my English classes. I thought that's all I need. So, I decided to take my first solo trip to Tulum, Mexico. And that's when I realized this is exactly what I've been looking for. Connecting, meeting, learning. I came back home feeling more myself than I ever had. That's when I decided to book my next trip to Costa Rica. I volunteered at a hostel in Costa Rica. It was so much fun making friends and seeing beautiful new sites that when I returned back to Mexico, I knew I was certain I wanted to travel again. And I had always always.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "By myself. I wasn't traveling in luxury.",
+          "tc": "就我自己而言。我沒有豪華旅行。"
         },
         {
-          "en": "Dreamed of visiting Thailand one day. Always, lifelong dream... So one day after saving every penny I had... eating rice, beans and chickpeas for lunch every day. I finally had enough money to buy my ticket to Thailand! I figured I only need enough for my ticket there because I can work online and get money for my food and my hostel I had to stay at. So, I said goodbye to my family and I boarded my flight to Thailand. The only problem about teaching in Thailand was the time difference between Mexico and Thailand. If I was teaching at 2:00 p.m. in Mexico, that would be 3:00 a.m. in Thailand. It was brutal being nocturnal during that time. Staying up until 5 a.m. teaching. It got to me. Some nights I would cry from exhaustion. I would be so tired. But at the end of the day, my exhaustion didn't matter. I had my freedom and the most amazing experiences traveling alone. I learned a lot about myself. Just by being by myself, completely alone in Thailand. I accomplished lots of my lifelong dreams. I got my scuba diving certificate. I saw the Similan Islands, a true paradise. I lived in pretty sketchy areas and I ate lots of local food. But I managed to continue saving all of the money I got from my English classes and continue scuba diving and continue traveling. I traveled through Cambodia and Vietnam, two places that are even cheaper than Thailand, but somehow I think from being in such humid countries for so long, being so close.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "Sometimes I didn't know where I was going to stay.",
+          "tc": "有時我不知道自己要住哪裡。"
         },
         {
-          "en": "To the beach, scuba diving on boats. Somehow my computer broke. Now, this was a crucial moment because I didn't have enough money to buy a new one. I only had enough money saved to buy a ticket back home. But it was either spend those savings on a new computer to continue traveling or use those savings to buy my ticket home and then maybe save up for a new computer. and I chose the most responsible option, I think. So, I went back home and I worked on my iPad until I saved up enough to buy a new computer. Then I saved up some more and I traveled to the UK, Cornwall. I saw this boy that I was dating. I met his family and he showed me all of the beautiful places in Cornwall. But I got antsy. Antsy is when you can't stay still. So, I got antsy. I had to move again. I had to travel somewhere new. So, I booked a ticket to Portugal. That's where I met the best people while working at a hostel. I worked at reception 20 hours a week and in exchange they gave me a free place to sleep and free food. A really good deal in my opinion. And I also taught English online 2 or 3 hours a day, to make money and save for my next trip. I had so many fun moments in Portugal. biking, going to beaches, exploring the city. I adored Portugal. I adored the hostel I worked at. Hostels are a safe space where travelers can.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "Next month. I only knew that I could teach a couple English lessons and keep going. So, someone asked me in the comments, \".",
+          "tc": "下個月。我只知道我可以教幾節英文課並繼續下去。於是，有人在評論裡問我，「。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "able",
+          "kk": "/able/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 able 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "going",
+          "kk": "/going/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "money",
+          "kk": "/money/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段：日常生活",
+      "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "Connect with each other. I volunteered through World Packers. Volunteering saved me thousands of dollars and English was the reason that I could do it to communicate, to connect, and to help. It was a requirement to know English, to volunteer at most hostels. Finally, it was time to go home. I booked my ticket to Mexico and right away I had another volunteering job scheduled at a turtle sanctuary. My dream place to volunteer at. I had the most wonderful experience and I met some of the most thoughtprovoking friends. I loved watching over the turtle nests and making sure the baby turtles made it into the ocean. It was a magical experience that I also found on World Packers. Now, after the turtle sanctuary, I was ready to travel again. So my boyfriend at the time invited me to travel to New Zealand with him to live in a van. I bought my ticket. I bought everything I needed for the winter in New Zealand. and I said goodbye to my family. But he called me a few days before leaving and told me he cheated on me. I was destroyed obviously, but blessings always come out of misfortunes. At least for me, they always do. And I was feeling so sad, so lost one day that I decided to expand my reach and get new students so I could save more money and travel by myself again. So, I set up my camera and I read a very simple script in slow English. I started the video with \"hello and welcome back to.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "What do you think you would be?",
+          "tc": "你認為你會是什麼樣的人？"
         },
         {
-          "en": "My slow English podcast\". I posted it and I went to sleep. I woke up to millions of views. All of them saying that I sounded like Maestra Miel, aka Miss Honey. And they were all saying that they wanted more. And the rest is history. I am so incredibly proud of the community I built. I am so proud of you guys for sticking to your goals and never letting frustration get the best of you, never letting disappointment get the best of your dreams. I'm not telling you this story to say, \"Oh, look at what I did.\" And English didn't give me a perfect life. It gave me choices. Maybe your dream isn't to travel. Maybe it's stability, confidence, a better job. English won't magically fix everything, but it can open doors for moments in your life when things get a little bit scary. when money is tight. Sorry, it was getting too hot in the sun. And to answer your question on \"what I would be if I wasn't an English teacher\", probably a scuba dive instructor. That used to be my dream job. or owning a hostel because I love hostels. I love the way people connect, share stories, and let go of any prejudices they might have about other people. Or I might have been some other kind of teacher. I love teaching. It's definitely my passion passed on to me by my mom and my dad. The two best teachers I know. Don't forget to like and subscribe and never stop learning. Bye. Hey.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "If you weren't an English teacher?\" So,.",
+          "tc": "如果你不是英文老師呢？ 」所以，。"
+        },
+        {
+          "en": "Today I'm going to answer that question, while telling you the story of how English took me around the world. If this speed is too slow for you,.",
+          "tc": "今天我將回答這個問題，同時向大家講述英語如何帶我環遊世界的故事。如果這個速度對你來說太慢了。"
+        },
+        {
+          "en": "Then just speed up the video. Give yourself a little challenge.",
+          "tc": "然後只需加快視訊速度即可。給自己一點挑戰。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "going",
+          "kk": "/going/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "teacher",
+          "kk": "/ˈtitʃɚ/",
+          "partOfSpeech": "n.",
+          "meaning": "老師",
+          "note": "看到 teacher 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：工作與學習",
+      "titleEn": "Part 3: work",
+      "sentences": [
+        {
+          "en": "First, let's get in to how I became a teacher. My mom and my dad are both English teachers. And when my sister turned 18 years old,.",
+          "tc": "首先，讓我們來談談我是如何成為一名教師的。我的媽媽和爸爸都是英文老師。當我姐姐18歲的時候。"
+        },
+        {
+          "en": "She became an English teacher as well.",
+          "tc": "她也成為了一名英語老師。"
+        },
+        {
+          "en": "She taught lessons online to students in China.",
+          "tc": "她在中國為學生線上授課。"
+        },
+        {
+          "en": "She worked with a company called VIP Kid.",
+          "tc": "她在一家名為 VIP Kid 的公司工作。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "she",
+          "kk": "/she/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 she 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "teacher",
+          "kk": "/ˈtitʃɚ/",
+          "partOfSpeech": "n.",
+          "meaning": "老師",
+          "note": "看到 teacher 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
+      "sentences": [
+        {
+          "en": "She could do it with just her TEFL certificate, and high school. from anywhere in the world.",
+          "tc": "她只需擁有 TEFL 證書和高中就可以做到這一點。來自世界任何地方。"
+        },
+        {
+          "en": "She made a good salary, good money,.",
+          "tc": "她的薪水很好，錢也很多。"
+        },
+        {
+          "en": "She was able to pay for her food and rent in college with that job. Imagine working and studying and affording it all just by teaching. My sister walked.",
+          "tc": "透過這份工作，她能夠支付大學期間的伙食費和房租。想像一下工作和學習，並透過教學來承擔這一切。我姐姐走了。"
+        },
+        {
+          "en": "I could run. That's an expression in English. My sister walked so that.",
+          "tc": "我可以跑。這是英語中的一個表達方式。姐姐就這樣走了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "she",
+          "kk": "/she/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 she 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "able",
+          "kk": "/able/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 able 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
+      "sentences": [
+        {
+          "en": "I could run. It basically means my sister set the path for me to follow. And that's.",
+          "tc": "我可以跑。這基本上意味著我姐姐為我設定了要遵循的道路。就是這樣。"
+        },
+        {
+          "en": "What I did. I got my TEFL certificate when I was 17 years old. So the second?",
+          "tc": "我做了什麼。我17歲時獲得了TEFL證書。那麼第二個呢？"
+        },
+        {
+          "en": "I turned 18, I knew I wanted to start teaching online as well, just like my sister did.",
+          "tc": "我 18 歲了，我知道我也想開始線上教學，就像我姐姐一樣。"
+        },
+        {
+          "en": "I started saving money right away, as much as I could,.",
+          "tc": "我立即開始盡可能地存錢。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "money",
+          "kk": "/money/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
+      "sentences": [
+        {
+          "en": "I was able to move out into my own apartment when I was 18.",
+          "tc": "18 歲時，我搬進了自己的公寓。"
+        },
+        {
+          "en": "I moved to Pueba. It's a bigger city outside of the town.",
+          "tc": "我搬到普埃巴。這是城外一個更大的城市。"
+        },
+        {
+          "en": "I grew up in. I lived there working for about a year,.",
+          "tc": "我在那裡長大，在那裡工作了大約一年。"
+        },
+        {
+          "en": "I soon realized I felt stuck. I was getting stuck in a routine that.",
+          "tc": "我很快意識到我感到被困住了。我陷入了這樣的例行公事。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "able",
+          "kk": "/able/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 able 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
   ],
   "vocabGroups": [
     {
-      "label": "B2 transcript keywords",
+      "title": "B2 重點單字",
       "items": [
         {
-          "word": "but",
-          "pos": "word",
-          "meaning": "except",
+          "english": "she",
+          "kk": "/she/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 she 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "money",
-          "pos": "word",
-          "meaning": "貨幣",
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "travel",
-          "pos": "word",
-          "meaning": "旅遊",
+          "english": "able",
+          "kk": "/able/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 able 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "new",
-          "pos": "word",
-          "meaning": "新",
+          "english": "going",
+          "kk": "/going/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "thailand",
-          "pos": "word",
-          "meaning": "泰國",
+          "english": "money",
+          "kk": "/money/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "all",
-          "pos": "word",
-          "meaning": "全部",
+          "english": "teacher",
+          "kk": "/ˈtitʃɚ/",
+          "partOfSpeech": "n.",
+          "meaning": "老師",
+          "note": "看到 teacher 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "ticket",
-          "pos": "word",
-          "meaning": "票證",
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "always",
-          "pos": "word",
-          "meaning": "always",
+          "english": "became",
+          "kk": "/became/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 became 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -99,33 +372,83 @@
     {
       "id": "phrase-01",
       "phrase": "what do you",
-      "meaning": "你是做什麼的",
+      "meaning": "你會怎麼...",
       "examples": [
         {
-          "en": "Going. So, someone asked me in the comments, \"What do you think you would be if you weren't an English teacher?\".",
-          "tc": "去。所以，有人在評論中問我， “如果你不是英語老師，你會怎麼想？”"
+          "en": "What do you think you would be?",
+          "tc": "你認為你會是什麼樣的人？"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "kind of",
-      "meaning": "某種程度上",
+      "phrase": "going to",
+      "meaning": "常用說法，可用來表達「going to」這個意思",
       "examples": [
         {
-          "en": "People. Or I might have been some other kind of teacher. I love teaching. It's definitely my passion passed on.",
-          "tc": "或者我可能是其他類型的老師我熱愛教學，這絕對是我傳承下來的熱情"
+          "en": "Sometimes I didn't know where I was going to stay.",
+          "tc": "有時我不知道自己要住哪裡。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "used to",
-      "meaning": "曾經",
+      "phrase": "i want",
+      "meaning": "常用說法，可用來表達「i want」這個意思",
       "examples": [
         {
-          "en": "English teacher\", probably a scuba dive instructor. That used to be my dream job. or owning a hostel because I.",
-          "tc": "英語老師」，可能是水肺潛水教練。那曾經是我夢寐以求的工作。或者擁有一間旅舍，因為我"
+          "en": "I turned 18, I knew I wanted to start teaching online as well, just like my sister did.",
+          "tc": "我 18 歲了，我知道我也想開始線上教學，就像我姐姐一樣。"
+        }
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "breakdown-01",
+      "sentence": "Let me tell you how English changed my life. growing up without money in my family, but still being able to travel from Mexico to Thailand to Portugal, Brazil, and beyond, all.",
+      "translation": "讓我告訴你英語如何改變了我的生活。我在家裡沒有錢的情況下長大，但仍然能夠從墨西哥到泰國到葡萄牙、巴西等等。",
+      "points": [
+        {
+          "label": "let tell changed",
+          "text": "let tell changed",
+          "note": "注意 \"let tell changed\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-02",
+      "sentence": "By myself. I wasn't traveling in luxury.",
+      "translation": "就我自己而言。我沒有豪華旅行。",
+      "points": [
+        {
+          "label": "myself wasn't traveling",
+          "text": "myself wasn't traveling",
+          "note": "注意 \"myself wasn't traveling\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-03",
+      "sentence": "Sometimes I didn't know where I was going to stay.",
+      "translation": "有時我不知道自己要住哪裡。",
+      "points": [
+        {
+          "label": "going to",
+          "text": "going to",
+          "note": "注意 \"going to\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "Next month. I only knew that I could teach a couple English lessons and keep going. So, someone asked me in the comments, \".",
+      "translation": "下個月。我只知道我可以教幾節英文課並繼續下去。於是，有人在評論裡問我，「。",
+      "points": [
+        {
+          "label": "next month only",
+          "text": "next month only",
+          "note": "注意 \"next month only\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

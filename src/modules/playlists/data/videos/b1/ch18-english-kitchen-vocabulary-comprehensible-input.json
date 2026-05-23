@@ -4,344 +4,373 @@
   "level": "b1",
   "title": "English Kitchen Vocabulary (comprehensible input)",
   "youtubeUrl": "https://www.youtube.com/watch?v=toM1X6XLoUk",
+  "header": {
+    "podcastLabel": "MissHoney B1",
+    "titleZh": "英語廚房詞彙（可理解的輸入）",
+    "titleEn": "English Kitchen Vocabulary (comprehensible input)",
+    "levelTag": "B1",
+    "topicTag": "language"
+  },
   "scenes": [
     {
       "id": "scene-01",
+      "no": "01",
+      "titleZh": "開場：日常生活",
+      "titleEn": "Opening: everyday life",
       "sentences": [
         {
-          "en": "Hello. Let's learn some kitchen essentials. I am just coming back from the grocery store. Today.",
-          "tc": "中文整理：Hello. Let's learn some kitchen essentials. I am just coming back from the grocery store. Today."
+          "en": "Hello. Let's learn some kitchen essentials.",
+          "tc": "你好。讓我們來學習一些廚房必需品。"
         },
         {
-          "en": "Has been a super busy day. I am renting a new apartment and it needs to.",
-          "tc": "中文整理：Has been a super busy day. I am renting a new apartment and it needs to."
+          "en": "I am just coming back from the grocery store. Today has been a super busy day.",
+          "tc": "我剛從雜貨店回來。今天是超忙碌的一天。"
         },
         {
-          "en": "Be furnished with all of the essentials it needs, that we don't even think about! So,.",
-          "tc": "中文整理：Be furnished with all of the essentials it needs, that we don't even think about! So,."
+          "en": "I am renting a new apartment and it needs to be furnished with all of the essentials it needs, that.",
+          "tc": "我正在租一套新公寓，它需要配備所有必需品。"
         },
         {
-          "en": "I did some grocery shopping with the essentials that my kitchen needs first. I moved in.",
-          "tc": "中文整理：I did some grocery shopping with the essentials that my kitchen needs first. I moved in."
+          "en": "We don't even think about! So, I did some grocery shopping with the essentials that my kitchen needs.",
+          "tc": "我們想都沒想！因此，我去雜貨店購買了廚房所需的必需品。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "kitchen",
+          "kk": "/kitchen/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 kitchen 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "essentials",
+          "kk": "/essentials/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 essentials 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段：日常作息",
+      "titleEn": "Part 2: daily routine",
       "sentences": [
         {
-          "en": "This morning and my room is almost finished. I already bought a mattress, a chair, and.",
-          "tc": "中文整理：This morning and my room is almost finished. I already bought a mattress, a chair, and."
+          "en": "First. I moved in this morning and my room is almost finished. I already bought a mattress, a chair, and a desk for my room. The most important parts done.",
+          "tc": "第一的。我今天早上搬進來，我的房間快完工了。我已經為我的房間買了床墊、椅子和桌子。最重要的部分已經完成。"
         },
         {
-          "en": "A desk for my room. The most important parts done. But then I realized I can't.",
-          "tc": "中文整理：A desk for my room. The most important parts done. But then I realized I can't."
+          "en": "Then I realized I can't eat or cook anything.",
+          "tc": "然後我意識到我不能吃或煮任何東西。"
         },
         {
-          "en": "Eat or cook anything. I need to go to the store again, and buy some kitchen.",
-          "tc": "中文整理：Eat or cook anything. I need to go to the store again, and buy some kitchen."
+          "en": "I need to go to the store again, and buy some kitchen essentials.",
+          "tc": "我需要再次去商店，買一些廚房必需品。"
         },
         {
-          "en": "Essentials. I don't have a car and even if I did, I don't know how to.",
-          "tc": "中文整理：Essentials. I don't have a car and even if I did, I don't know how to."
+          "en": "I don't have a car and even if I did, I don't know.",
+          "tc": "我沒有車，就算有，我也不知道。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "kitchen",
+          "kk": "/kitchen/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 kitchen 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "essentials",
+          "kk": "/essentials/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 essentials 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "Drive. I know! Everybody is so shocked when I tell them I can't drive, but in.",
-          "tc": "中文整理：Drive. I know! Everybody is so shocked when I tell them I can't drive, but in."
+          "en": "How to drive. I know! Everybody is so shocked when I tell them?",
+          "tc": "如何駕駛。我知道！當我告訴他們時，每個人都很震驚？"
         },
         {
-          "en": "Mexico, I just never found it very necessary. There's public transportation to get anywhere, and it's.",
-          "tc": "中文整理：Mexico, I just never found it very necessary. There's public transportation to get anywhere, and it's."
+          "en": "I can't drive, but in Mexico, I just never found it very necessary. There's public transportation to get anywhere, and it's much cheaper and much faster! Here's my receipt.",
+          "tc": "我不會開車，但在墨西哥，我從來沒有覺得開車很有必要。有公共交通可以到達任何地方，而且更便宜、更快！這是我的收據。"
         },
         {
-          "en": "Much cheaper and much faster! Here's my receipt. I spent $614 Mexican Pesos on all of.",
-          "tc": "中文整理：Much cheaper and much faster! Here's my receipt. I spent $614 Mexican Pesos on all of."
+          "en": "I spent $614 Mexican Pesos on all of this. So, I had to walk to Bodega Aurrera. It's a grocery store in Mexico.",
+          "tc": "我在這一切上花了 614 美元墨西哥比索。所以，我只好步行去Bodega Aurrera。這是墨西哥的一家雜貨店。"
         },
         {
-          "en": "This. So, I had to walk to Bodega Aurrera. It's a grocery store in Mexico. I.",
-          "tc": "中文整理：This. So, I had to walk to Bodega Aurrera. It's a grocery store in Mexico. I."
+          "en": "I have my tote bag. Since I walked, I could only fill one tote bag of groceries and essentials.",
+          "tc": "我有我的手提包。由於我是步行，所以我只能裝滿一手提袋的雜貨和必需品。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "essentials",
+          "kk": "/essentials/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 essentials 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "it's",
+          "kk": "/it's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "Have my tote bag. Since I walked, I could only fill one tote bag of groceries.",
-          "tc": "中文整理：Have my tote bag. Since I walked, I could only fill one tote bag of groceries."
+          "en": "I got one bowl. Very important. I bought a kitchen towel. I'm going to need this to dry the dishes, dry my hands, wipe the table to dry my dishes on since.",
+          "tc": "我拿了一碗。非常重要。我買了一條廚房毛巾。從那時起我需要它來擦乾碗盤、擦乾我的手、擦桌子來擦乾我的碗碟。"
         },
         {
-          "en": "And essentials. I got one bowl. Very important. I bought a kitchen towel. I'm going to.",
-          "tc": "中文整理：And essentials. I got one bowl. Very important. I bought a kitchen towel. I'm going to."
+          "en": "I don't have a dish rack yet. I got a bowl, of course.",
+          "tc": "我還沒有碗盤。當然，我有一碗。"
         },
         {
-          "en": "Need this to dry the dishes, dry my hands, wipe the table to dry my dishes.",
-          "tc": "中文整理：Need this to dry the dishes, dry my hands, wipe the table to dry my dishes."
+          "en": "I love wooden bowls. No microlastics.",
+          "tc": "我喜歡木碗。無微塑膠。"
         },
         {
-          "en": "On since I don't have a dish rack yet. I got a bowl, of course. I.",
-          "tc": "中文整理：On since I don't have a dish rack yet. I got a bowl, of course. I."
+          "en": "Then a glass black bowl.",
+          "tc": "然後是一個黑色的玻璃碗。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "kitchen",
+          "kk": "/kitchen/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 kitchen 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "important",
+          "kk": "/important/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "Love wooden bowls. No microlastics. Then a glass black bowl. I love black dishes. And to.",
-          "tc": "中文整理：Love wooden bowls. No microlastics. Then a glass black bowl. I love black dishes. And to."
+          "en": "I want to cook rice or pasta or soup. Anything can really be cooked in this pan. It's wide enough and deep enough. Wide and deep. To come in handy is an.",
+          "tc": "我想煮飯或麵食或湯。這個鍋子裡真的什麼都能煮。它足夠寬，也足夠深。又寬又深。派上用場的是一個。"
         },
         {
-          "en": "Match a black mug for my smoothies because I don't drink coffee. a pan, which I.",
-          "tc": "中文整理：Match a black mug for my smoothies because I don't drink coffee. a pan, which I."
+          "en": "We mean something will be useful to us in the future. I got dish soap. I almost forgot about this one. It's so important.",
+          "tc": "我們的意思是某些東西將來對我們有用。我有洗潔精。我差點忘了這件事了。這非常重要。"
         },
         {
-          "en": "Think will come in handy when I want to cook rice or pasta or soup. Anything.",
-          "tc": "中文整理：Think will come in handy when I want to cook rice or pasta or soup. Anything."
+          "en": "I feel like you don't really think about it. You think about your couch, your fridge, your bed, your desk, your TV, your dishes,.",
+          "tc": "我感覺你根本就沒有認真思考過這個問題。你會想到你的沙發、你的冰箱、你的床、你的桌子、你的電視、你的盤子。"
         },
         {
-          "en": "Can really be cooked in this pan. It's wide enough and deep enough. Wide and deep.",
-          "tc": "中文整理：Can really be cooked in this pan. It's wide enough and deep enough. Wide and deep."
+          "en": "You don't think about your broom, your sponge, your dish soap, your trash can.",
+          "tc": "你不會想到你的掃帚、你的海綿、你的潔淨精、你的垃圾桶。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "important",
+          "kk": "/important/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "To come in handy is an expression we use when we mean something will be useful.",
-          "tc": "中文整理：To come in handy is an expression we use when we mean something will be useful."
+          "en": "They're super important,.",
+          "tc": "它們非常重要，。"
         },
         {
-          "en": "To us in the future. I got dish soap. I almost forgot about this one. It's.",
-          "tc": "中文整理：To us in the future. I got dish soap. I almost forgot about this one. It's."
+          "en": "We seem to forget about them because I think.",
+          "tc": "我們似乎忘記了他們，因為我認為。"
         },
         {
-          "en": "So important. But I feel like you don't really think about it. You think about your.",
-          "tc": "中文整理：So important. But I feel like you don't really think about it. You think about your."
+          "en": "They're a little bit boring, but nevertheless, very important. Definitely a kitchen essential. Of course, I couldn't forget my sponge and a potato peeler.",
+          "tc": "它們有點無聊，但仍然非常重要。絕對是廚房必備品。當然，我不能忘記我的海綿和馬鈴薯削皮器。"
         },
         {
-          "en": "Couch, your fridge, your bed, your desk, your TV, your dishes, but you don't think about.",
-          "tc": "中文整理：Couch, your fridge, your bed, your desk, your TV, your dishes, but you don't think about."
+          "en": "We call this a potato peeler because it peels potatoes. You can also peel carrots or apples. Let me know in the comments what else.",
+          "tc": "我們稱之為馬鈴薯削皮器，因為它可以削馬鈴薯皮。您也可以削胡蘿蔔或蘋果皮。請在評論中告訴我還有什麼。"
         }
-      ]
-    },
-    {
-      "id": "scene-07",
-      "sentences": [
+      ],
+      "tags": [
         {
-          "en": "Your broom, your sponge, your dish soap, your trash can. They're super important, but we seem.",
-          "tc": "中文整理：Your broom, your sponge, your dish soap, your trash can. They're super important, but we seem."
+          "english": "kitchen",
+          "kk": "/kitchen/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 kitchen 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "en": "To forget about them because I think they're a little bit boring, but nevertheless, very important.",
-          "tc": "中文整理：To forget about them because I think they're a little bit boring, but nevertheless, very important."
+          "english": "important",
+          "kk": "/important/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
-          "en": "Definitely a kitchen essential. Of course, I couldn't forget my sponge and a potato peeler. We.",
-          "tc": "中文整理：Definitely a kitchen essential. Of course, I couldn't forget my sponge and a potato peeler. We."
-        },
-        {
-          "en": "Call this a potato peeler because it peels potatoes. You can also peel carrots or apples.",
-          "tc": "中文整理：Call this a potato peeler because it peels potatoes. You can also peel carrots or apples."
-        }
-      ]
-    },
-    {
-      "id": "scene-08",
-      "sentences": [
-        {
-          "en": "Let me know in the comments what else can you peel! I also bought a knife.",
-          "tc": "中文整理：Let me know in the comments what else can you peel! I also bought a knife."
-        },
-        {
-          "en": "And I bought a broom. As I was walking home, I realized I forgot to buy.",
-          "tc": "中文整理：And I bought a broom. As I was walking home, I realized I forgot to buy."
-        },
-        {
-          "en": "A dust pan. Also, something that you easily forget because it's a little bit boring. I.",
-          "tc": "中文整理：A dust pan. Also, something that you easily forget because it's a little bit boring. I."
-        },
-        {
-          "en": "Also got a strainer. This is super important for me, because I drink kefir every day.",
-          "tc": "中文整理：Also got a strainer. This is super important for me, because I drink kefir every day."
-        }
-      ]
-    },
-    {
-      "id": "scene-09",
-      "sentences": [
-        {
-          "en": "This is kefir. Do you know what kefir is? Let me know in the comments. I.",
-          "tc": "中文整理：This is kefir. Do you know what kefir is? Let me know in the comments. I."
-        },
-        {
-          "en": "Bought chopsticks. These are all from my trip to Thailand. In Thailand, I bought so many.",
-          "tc": "中文整理：Bought chopsticks. These are all from my trip to Thailand. In Thailand, I bought so many."
-        },
-        {
-          "en": "Wooden utensils. Wooden spoons, wooden little spoons. I don't know what these are for, but they.",
-          "tc": "中文整理：Wooden utensils. Wooden spoons, wooden little spoons. I don't know what these are for, but they."
-        },
-        {
-          "en": "Were cute. Wooden forks and more wooden spoons. I also brought along my coconut oil. to.",
-          "tc": "中文整理：Were cute. Wooden forks and more wooden spoons. I also brought along my coconut oil. to."
-        }
-      ]
-    },
-    {
-      "id": "scene-10",
-      "sentences": [
-        {
-          "en": "Cook with. And in my cupboards, I keep a glass of honey. I love honey. Now,.",
-          "tc": "中文整理：Cook with. And in my cupboards, I keep a glass of honey. I love honey. Now,."
-        },
-        {
-          "en": "Some unrelated things I bought today. Some hangers. That's also something I think you don't realize.",
-          "tc": "中文整理：Some unrelated things I bought today. Some hangers. That's also something I think you don't realize."
-        },
-        {
-          "en": "You need until you're in a new apartment. What is one thing that you always forget.",
-          "tc": "中文整理：You need until you're in a new apartment. What is one thing that you always forget."
-        },
-        {
-          "en": "About? You're at the grocery store shopping for essentials... and you head home, and then you.",
-          "tc": "中文整理：About? You're at the grocery store shopping for essentials... and you head home, and then you."
-        }
-      ]
-    },
-    {
-      "id": "scene-11",
-      "sentences": [
-        {
-          "en": "Realize, UGH I forgot again. And what's your favorite thing to buy at the grocery store?",
-          "tc": "中文整理：Realize, UGH I forgot again. And what's your favorite thing to buy at the grocery store?"
-        },
-        {
-          "en": "Now, let me show you a little bit of what I did today. Some things I.",
-          "tc": "中文整理：Now, let me show you a little bit of what I did today. Some things I."
-        },
-        {
-          "en": "Already bought for my apartment. Please excuse the mess. I already bought a mattress for my.",
-          "tc": "中文整理：Already bought for my apartment. Please excuse the mess. I already bought a mattress for my."
-        },
-        {
-          "en": "Room. I also bought some toothpaste, some hand soap, a new toothbrush, and a 30 pack.",
-          "tc": "中文整理：Room. I also bought some toothpaste, some hand soap, a new toothbrush, and a 30 pack."
-        }
-      ]
-    },
-    {
-      "id": "scene-12",
-      "sentences": [
-        {
-          "en": "Of toilet paper. I forgot while I was editing my video to mention. I also got.",
-          "tc": "中文整理：Of toilet paper. I forgot while I was editing my video to mention. I also got."
-        },
-        {
-          "en": "One more kitchen essential, a blender. Very important for me. I need my smoothies every morning.",
-          "tc": "中文整理：One more kitchen essential, a blender. Very important for me. I need my smoothies every morning."
-        },
-        {
-          "en": "Kefir, milk. Hi. Bananas, milk, kefir, and honey. Also, I forgot to mention. I bought detergent.",
-          "tc": "中文整理：Kefir, milk. Hi. Bananas, milk, kefir, and honey. Also, I forgot to mention. I bought detergent."
-        },
-        {
-          "en": "To wash my clothes. Now, I think those are all the essentials I bought today, but.",
-          "tc": "中文整理：To wash my clothes. Now, I think those are all the essentials I bought today, but."
-        }
-      ]
-    },
-    {
-      "id": "scene-13",
-      "sentences": [
-        {
-          "en": "Stick around for more videos to come about essentials in your house. This is my first.",
-          "tc": "中文整理：Stick around for more videos to come about essentials in your house. This is my first."
-        },
-        {
-          "en": "Time living alone, so I'm going to be buying lots of essentials that I never had.",
-          "tc": "中文整理：Time living alone, so I'm going to be buying lots of essentials that I never had."
-        },
-        {
-          "en": "To buy before. Let me know in the comments if you enjoyed this video. Don't forget.",
-          "tc": "中文整理：To buy before. Let me know in the comments if you enjoyed this video. Don't forget."
-        },
-        {
-          "en": "To subscribe and turn on the bell notifications so you can be notified every time I.",
-          "tc": "中文整理：To subscribe and turn on the bell notifications so you can be notified every time I."
-        }
-      ]
-    },
-    {
-      "id": "scene-14",
-      "sentences": [
-        {
-          "en": "Post a new video. Remember guys, never stop learning. I hope you learned something today. Have.",
-          "tc": "中文整理：Post a new video. Remember guys, never stop learning. I hope you learned something today. Have."
-        },
-        {
-          "en": "An amazing rest of your day. Bye.",
-          "tc": "中文整理：An amazing rest of your day. Bye."
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     }
   ],
   "vocabGroups": [
     {
-      "label": "B1 transcript keywords",
+      "title": "B1 重點單字",
       "items": [
         {
-          "word": "bought",
-          "pos": "word",
-          "meaning": "中文整理：bought",
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "don't",
-          "pos": "word",
-          "meaning": "中文整理：don't",
+          "english": "kitchen",
+          "kk": "/kitchen/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 kitchen 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "essentials",
-          "pos": "word",
-          "meaning": "中文整理：essentials",
+          "english": "essentials",
+          "kk": "/essentials/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 essentials 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "but",
-          "pos": "word",
-          "meaning": "但是",
+          "english": "important",
+          "kk": "/important/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "some",
-          "pos": "word",
-          "meaning": "一些",
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "think",
-          "pos": "verb",
-          "meaning": "認為",
+          "english": "it's",
+          "kk": "/it's/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "important",
-          "pos": "word",
-          "meaning": "中文整理：important",
+          "english": "bowl",
+          "kk": "/bowl/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 bowl 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "kitchen",
-          "pos": "word",
-          "meaning": "中文整理：kitchen",
+          "english": "dish",
+          "kk": "/dish/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 dish 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -351,33 +380,83 @@
     {
       "id": "phrase-01",
       "phrase": "going to",
-      "meaning": "去",
+      "meaning": "常用說法，可用來表達「going to」這個意思",
       "examples": [
         {
-          "en": "Very important. I bought a kitchen towel. I'm going to need this to dry the dishes, dry my hands, wipe.",
-          "tc": "中文整理：Very important. I bought a kitchen towel. I'm going to need this to dry the dishes, dry my hands, wipe."
+          "en": "I'm going to need this to dry the dishes, dry my hands, wipe the table to dry my dishes on since.",
+          "tc": "從那時起我需要它來擦乾碗盤、擦乾我的手、擦桌子來擦乾我的碗碟。"
         }
       ]
     },
     {
       "id": "phrase-02",
       "phrase": "want to",
-      "meaning": "想要",
+      "meaning": "常用說法，可用來表達「want to」這個意思",
       "examples": [
         {
-          "en": "I think will come in handy when I want to cook rice or pasta or soup. Anything can really be.",
-          "tc": "中文整理：I think will come in handy when I want to cook rice or pasta or soup. Anything can really be."
+          "en": "I want to cook rice or pasta or soup.",
+          "tc": "我想煮飯或麵食或湯。"
         }
       ]
     },
     {
       "id": "phrase-03",
       "phrase": "need to",
-      "meaning": "需要",
+      "meaning": "常用說法，可用來表達「need to」這個意思",
       "examples": [
         {
-          "en": "Realized I can't eat or cook anything. I need to go to the store again, and buy some kitchen essentials.",
-          "tc": "中文整理：Realized I can't eat or cook anything. I need to go to the store again, and buy some kitchen essentials."
+          "en": "I need to go to the store again, and buy some kitchen essentials.",
+          "tc": "我需要再次去商店，買一些廚房必需品。"
+        }
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "breakdown-01",
+      "sentence": "Hello. Let's learn some kitchen essentials.",
+      "translation": "你好。讓我們來學習一些廚房必需品。",
+      "points": [
+        {
+          "label": "let's some kitchen",
+          "text": "let's some kitchen",
+          "note": "注意 \"let's some kitchen\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-02",
+      "sentence": "I am just coming back from the grocery store. Today has been a super busy day.",
+      "translation": "我剛從雜貨店回來。今天是超忙碌的一天。",
+      "points": [
+        {
+          "label": "coming back grocery",
+          "text": "coming back grocery",
+          "note": "注意 \"coming back grocery\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-03",
+      "sentence": "I am renting a new apartment and it needs to be furnished with all of the essentials it needs, that.",
+      "translation": "我正在租一套新公寓，它需要配備所有必需品。",
+      "points": [
+        {
+          "label": "renting new apartment",
+          "text": "renting new apartment",
+          "note": "注意 \"renting new apartment\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "We don't even think about! So, I did some grocery shopping with the essentials that my kitchen needs.",
+      "translation": "我們想都沒想！因此，我去雜貨店購買了廚房所需的必需品。",
+      "points": [
+        {
+          "label": "don't even think",
+          "text": "don't even think",
+          "note": "注意 \"don't even think\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

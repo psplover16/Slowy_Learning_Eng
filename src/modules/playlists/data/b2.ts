@@ -8,7 +8,7 @@ const B2: PlaylistData = {
   {
     videoId: 's03QqFmqkJw',
     slug: 'ch1-slow-english-listening-for-upper-intermediate-talking-about-comfort-foods',
-    title: 'Slow English Listening for Upper intermediate - Talking about ??Comfort Foods',
+    title: 'Slow English Listening for Upper intermediate - Talking about 👉Comfort Foods',
     titleZh: '中高級慢速英語聽力 - 談論👉Comfort Foods',
     originalIndex: 17,
     displayOrder: 1,
@@ -18,7 +18,7 @@ const B2: PlaylistData = {
   {
     videoId: 'Ac7NSxu2h1Y',
     slug: 'ch2-slow-english-for-intermediate-b2-with-subtitles-in-spanish-talking-about-languages',
-    title: 'SLOW English for Intermediate B2 (with subtitles in spanish)--- talking about ??Languages',
+    title: 'SLOW English for Intermediate B2 (with subtitles in spanish)--- talking about 👉Languages',
     titleZh: '中級B2慢速英語（西班牙語字幕）---談論👉語言',
     originalIndex: 16,
     displayOrder: 2,
@@ -28,7 +28,7 @@ const B2: PlaylistData = {
   {
     videoId: 'YFmrgkEqiIw',
     slug: 'ch3-slow-english-for-intermediate-b2-with-subtitles-in-portuguese-talking-about-languages',
-    title: 'SLOW English for Intermediate B2 (with subtitles in Portuguese)--- talking about ??Languages',
+    title: 'SLOW English for Intermediate B2 (with subtitles in Portuguese)--- talking about 👉Languages',
     titleZh: '中級B2慢速英語（葡萄牙語字幕）---談論👉語言',
     originalIndex: 15,
     displayOrder: 3,
@@ -38,7 +38,7 @@ const B2: PlaylistData = {
   {
     videoId: 'ocATrls-IMQ',
     slug: 'ch4-slow-english-for-c1-advanced-dreams',
-    title: 'SLOW English for C1 Advanced -- DREAMS????',
+    title: 'SLOW English for C1 Advanced -- DREAMS💤💭',
     titleZh: 'C1 高級慢速英語 -- DREAMS💤💭',
     originalIndex: 14,
     displayOrder: 4,
@@ -48,7 +48,7 @@ const B2: PlaylistData = {
   {
     videoId: 'XzJw0R5vxZE',
     slug: 'ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice',
-    title: 'Interview about Childhood Memories??-- FASTER English Podcast for INTERMEDIATE Listening Practice!',
+    title: 'Interview about Childhood Memories💭-- FASTER English Podcast for INTERMEDIATE Listening Practice!',
     titleZh: '童年回憶訪談💭－更快的中級聽力練習英文播客！',
     originalIndex: 13,
     displayOrder: 5,
@@ -58,7 +58,7 @@ const B2: PlaylistData = {
   {
     videoId: '5EqzbmFUX-M',
     slug: 'ch6-slow-english-podcast-my-bus-stories',
-    title: 'Slow English Podcast - My BUS STORIES??',
+    title: 'Slow English Podcast - My BUS STORIES🚐',
     titleZh: '慢速英語播客 - 我的巴士故事🚐',
     originalIndex: 12,
     displayOrder: 6,
@@ -88,7 +88,7 @@ const B2: PlaylistData = {
   {
     videoId: 'VbOpdmAPmkE',
     slug: 'ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input',
-    title: 'Intermediate Slow English Podcast | My trip to the Elephant Sanctuary??(comprehensible input)',
+    title: 'Intermediate Slow English Podcast | My trip to the Elephant Sanctuary🐘(comprehensible input)',
     titleZh: '中級慢速英語播客 |我的大象保護區之旅🐘（可理解的輸入）',
     originalIndex: 9,
     displayOrder: 9,
@@ -108,7 +108,7 @@ const B2: PlaylistData = {
   {
     videoId: 'sqkpfB6DXeo',
     slug: 'ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input',
-    title: 'SLOW English Podcast - My stressful trip to China!????(comprehensible input)',
+    title: 'SLOW English Podcast - My stressful trip to China!🇨🇳(comprehensible input)',
     titleZh: '慢英語播客 - 我壓力很大的中國之旅！ 🇨🇳（可理解的輸入）',
     originalIndex: 7,
     displayOrder: 11,

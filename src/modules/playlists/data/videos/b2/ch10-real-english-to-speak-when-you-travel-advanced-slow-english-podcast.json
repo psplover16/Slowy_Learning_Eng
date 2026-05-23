@@ -4,92 +4,365 @@
   "level": "b2",
   "title": "Real English to Speak when you Travel - Advanced Slow English Podcast",
   "youtubeUrl": "https://www.youtube.com/watch?v=U51yfnsqsmI",
+  "header": {
+    "podcastLabel": "MissHoney B2",
+    "titleZh": "旅行時說真正的英語 - 高級慢英語播客",
+    "titleEn": "Real English to Speak when you Travel - Advanced Slow English Podcast",
+    "levelTag": "B2",
+    "topicTag": "travel"
+  },
   "scenes": [
     {
       "id": "scene-01",
+      "no": "01",
+      "titleZh": "開場：語言學習",
+      "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Hello and welcome back to my Slow English podcast. I am visiting China right now. And if you didn't know, I have been learning Chinese for about 3 years now. But honestly, nothing prepared me for the Chinese that I would actually need in China. The real life Chinese. The words that help you sound natural, blend in, and even get those little compliments from locals. There's something really special about being in a country. and actually connecting with people in their own language. It feels so good to see someone be genuinely surprised or impressed when you can speak to them, even just a little. And it's such a nice feeling when you can finally understand the little phrases and just the way people here really speak. All those tiny things help you sound more polite, natural, respectful, and confident. My sister Brianna is going to help me walk through each scenario. Now, if you're ever lost and you need to ask for directions, you can say, \"Excuse me, I am lost. Do you know where this is?\" Whatever you need to find. Excuse me. Do you know where the ATM is? Yes, there's one two blocks down on this road. Great. Thanks a lot. That's a better way of asking for directions. Most native English speakers would ask this way. They wouldn't say, \"Where.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "Welcome back to my Slow English podcast.",
+          "tc": "歡迎回到我的慢速英語播客。"
         },
         {
-          "en": "Is the ATM?\" They would say, \"Do you know where the ATM is?\" A little longer, but a lot more natural. Sorry. Do you know where the closest Walmart is from here? The nearest Walmart is on Fifth Avenue between Brick and Maine. Oh, I see. Is it this way or that way? This way. Thanks a lot. I really appreciate it. Hi. Sorry. Do you know where the crispy cream is? Yes. Try the second floor to your right. Keep going until you see the food court. The crispy cream is there. I love it. Oh, okay. Okay. Thanks a lot. Is it up the escalator or down the escalator? We're on the fifth floor, so you need to go down the escalator until you're on floor two. Oh, okay. Okay, that's super helpful. Thanks a lot. No worries. What's the first thing you do when you land in a new country? You probably go straight to the bathroom. Right. At least that's what I do right away. Asking for the bathroom. Excuse me. Where is the bathroom? It's up the stairs to the left. Oh, okay. Okay. Thank you. No problem. Something you will definitely end up doing is going to eat at a restaurant. Going to a restaurant. Good morning, good afternoon, or good evening, depending on what time it is. Good morning.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "I am visiting China right now.",
+          "tc": "我現在正在訪問中國。"
         },
         {
-          "en": "Can I have a table for two, please? Yes. Write this way, please. And maybe if it looks full, there's no room. You can ask, \"Is there a table for two?\" Let me check. Unfortunately, we don't have a table available. The wait time would be about 50 minutes. Should I put you down on the list? Yes, please put me down. Perfect. I've added your name. We'll call you now. When you are ready to order, you could say, \"Excuse me.\" \"Hi, are you ready to order?\" \"Yes.\" \"Can I have a number nine without salad?\" \"Sure thing. Would you like to add anything to drink?\" \"Yes.\" \"Can I have a water, please?\" \"Of course.\" \"Would you like ice?\" \"Yes, just a little bit, please.\" Sure thing. Anything else I can get you? Not at the moment. Thanks. This sounds very natural. This is what you'll hear from a waitress or waiter taking your order. In English, we use please and thank you a lot. I think a little more than other countries do. Right now, let's say you're ordering fast food. That's a little bit different, right? You don't get served by someone. You have to go to the counter and order yourself. Ordering fast food. Good afternoon. May I take your order? Good afternoon. Can I get the double cheeseburger without pickles, please?",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "If you didn't know, I have been learning Chinese for about 3 years now. But honestly, nothing prepared me for the Chinese that.",
+          "tc": "如果你不知道的話，我已經學中文大約三年了。但說實話，我對中國人沒有任何準備。"
         },
         {
-          "en": "You got it. Would that be in a combo? Yes, please. All right. Small, medium, or large? Large, please. And what drink would you like? We're out of Coke. Do you have Fanta? Yep, we do. I'll have a Fanta, please. Okay. To confirm your order, you want a number 12 without pickles, large fries, and a small Fanta. That's right. Your order will be ready soon. Please wait on the side. Thank you. Now, you'll eventually need to go to the store. And I don't know about you guys, but I feel like stores are where people make the most conversation with me. It might go something like this. Hello. Good morning. How are you? Hey, I'm great. How are you? Not too bad. How can I help you today? I'm looking for the sunscreen section and also the chapstick. That would be in aisle 9 next to the makeup. Great. Thanks. Okay. If you need anything else, I'll be right here. Thanks a lot. What phrase did you learn today? What English phrases would you like to learn? >> How would they know what English phrases they want to learn? >> What are some other situations that you find yourself in where you could use some more English phrases? What do you think the most difficult situation to be in is? The other day.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "I would actually need in China. The real life Chinese. The words that help.",
+          "tc": "我實際上需要在中國。現實生活中的中國人。有幫助的話。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "need",
+          "kk": "/need/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "chinese",
+          "kk": "/chinese/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段：語言學習",
+      "titleEn": "Part 2: language",
       "sentences": [
         {
-          "en": "When we were out and about, we wanted to buy fresh produce at a local market. So, the woman was very busy. She did not have a lot of time to listen to us and be patient with us. She was very, very busy. It was difficult because we didn't speak the language. So, it takes longer to get the food we want, the amount that we want, and to ask questions about the produce. So, I'd say that was the most difficult situation since she did not speak any English. It was a very local business, and she was very busy. I think when you're asking for directions, it's the hardest situation to be in because you're lost, you're frustrated, and you just want to arrive where you need to arrive. We got lost on our first day in Shanghai. We were asking everyone, but nobody spoke English and nobody knew what hotel we were talking about. So, it was super frustrating to have all of our luggage with us and not know where we were going. I think speaking English when going to the US is a big help. I think many people in the USA don't encounter a lot of people that don't speak English. So, they're very bad at communicating when somebody doesn't know their language. This can make it very difficult.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "You sound natural, blend in, and even get those little compliments from locals. There's something really special about being in a country. and actually connecting with people in their own language. It.",
+          "tc": "你聽起來很自然，融入其中，甚至還得到當地人的稱讚。在一個國家確實有一些特別的東西。並用自己的語言與人們實際聯繫。它。"
         },
         {
-          "en": "When you're traveling if you don't know the correct words. So they are bad at listening and they are also bad at speaking sometimes because they're very used to speaking to people who know their language. So they will still speak to you in the same way that they would speak with a local. They speak very fast. They don't speak slow. So it's good to know what they might say and how to interpret it. So, it's good to know the different phrases they might use, not just the basic ones. The basic ones are good to know, but almost nobody actually uses those. Tell us about a strange or not so common habit that people who speak your language have. Maybe they say please too much or thank you a lot. Maybe they never say thank you. Tell me in the comments below. Thank you for joining us. I'll see you next time. Bye bye. Don't forget to like and subscribe. Bye. And if learning through videos isn't really your thing, then you can always check out my podcast on Spotify, Apple Music, and all streaming platforms where you can just listen. It's perfect for when you're on the go, in an airplane, maybe on the road, and you feel like practicing your English. Check it out. The link is in the description.",
-          "tc": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS"
+          "en": "You can speak to them, even just a little. And it's such a nice feeling.",
+          "tc": "你可以和他們說話，哪怕只是一點點。這種感覺真好。"
+        },
+        {
+          "en": "When you can?",
+          "tc": "什麼時候可以？"
+        },
+        {
+          "en": "Finally understand the little phrases and just the way people here really speak. All those tiny things help.",
+          "tc": "終於明白了這些小短語和這裡人們真正說話的方式。所有这些小事都有帮助。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "way",
+          "kk": "/way/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 way 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
+      "sentences": [
+        {
+          "en": "You sound more polite, natural, respectful, and confident. My sister Brianna is going to help me walk through each scenario. Now,.",
+          "tc": "你聽起來更有禮貌、自然、尊重和自信。我姐姐布麗安娜將幫助我演練每個場景。現在，。"
+        },
+        {
+          "en": "If you're ever lost and you need to ask for directions, you can say, \"Excuse me,.",
+          "tc": "如果你迷路了，需要問路，你可以說：“對不起，。”"
+        },
+        {
+          "en": "I am lost.",
+          "tc": "我迷路了。"
+        },
+        {
+          "en": "Do you know where this is?\" Whatever you need to find. Excuse me?",
+          "tc": "你知道這是哪裡嗎？ 「無論你需要找到什麼。打擾一下？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "need",
+          "kk": "/need/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：語言學習",
+      "titleEn": "Part 4: language",
+      "sentences": [
+        {
+          "en": "Do you know where the ATM is? Yes, there's one two blocks down on this road. Great. Thanks a lot. That's a better way of asking for directions. Most native English speakers?",
+          "tc": "你知道自動櫃員機在哪裡嗎？是的，沿著這條路走兩個街區就有一個。偉大的。多謝。這是一種更好的問路方式。大多數以英語為母語的人？"
+        },
+        {
+          "en": "Would ask this way?",
+          "tc": "會這樣問嗎？"
+        },
+        {
+          "en": "They wouldn't say, \"Where is the ATM?\".",
+          "tc": "他們不會說：「自動櫃員機在哪裡？」。"
+        },
+        {
+          "en": "They would say, \".",
+          "tc": "他們會說：「。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "way",
+          "kk": "/way/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 way 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "lot",
+          "kk": "/lot/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 lot 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
+      "sentences": [
+        {
+          "en": "Do you know where the ATM is?\" A little longer, but a lot more natural. Sorry?",
+          "tc": "你知道 ATM 機在哪裡嗎？ 」 有點長，但更自然。抱歉？"
+        },
+        {
+          "en": "Do you know where the closest Walmart is from here? The nearest Walmart is on Fifth Avenue between Brick and Maine. Oh,?",
+          "tc": "你知道離這裡最近的沃爾瑪在哪裡嗎？最近的沃爾瑪位於布里克和緬因州之間的第五大道。哦，？"
+        },
+        {
+          "en": "I see. Is it this way or that way? This way. Thanks a lot.",
+          "tc": "我懂了。是這樣還是那樣？這邊走。多謝。"
+        },
+        {
+          "en": "I really appreciate it. Hi. Sorry.",
+          "tc": "我真的很感激。你好。對不起。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "way",
+          "kk": "/way/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 way 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "lot",
+          "kk": "/lot/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 lot 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：食物與用餐",
+      "titleEn": "Part 6: food",
+      "sentences": [
+        {
+          "en": "Do you know where the crispy cream is? Yes. Try the second floor to your right. Keep going until you see the food court. The crispy cream is there?",
+          "tc": "你知道脆皮奶油在哪裡嗎？是的。試試你右邊的二樓。繼續前行，直到看到美食廣場。脆皮奶油有嗎？"
+        },
+        {
+          "en": "I love it. Oh, okay. Okay. Thanks a lot. Is it up the escalator or down the escalator?",
+          "tc": "我喜歡它。哦好的。好的。多謝。是手扶梯上還是手扶梯下？"
+        },
+        {
+          "en": "We're on the fifth floor, so you need to go down the escalator until you're on floor two. Oh, okay. Okay, that's super helpful. Thanks a lot. No worries. What's the.",
+          "tc": "我們在五樓，所以您需要走自動扶梯直到二樓。哦好的。好的，這非常有幫助。多謝。不用擔心。什麼是."
+        },
+        {
+          "en": "I do right away. Asking for the bathroom. Excuse me. Where is the bathroom? It's up the stairs to the left. Oh, okay. Okay.",
+          "tc": "我馬上就做。要求上廁所。打擾一下。廁所在哪裡？上左邊的樓梯就到了。哦好的。好的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "okay",
+          "kk": "/okay/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 okay 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "way",
+          "kk": "/way/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 way 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
   ],
   "vocabGroups": [
     {
-      "label": "B2 transcript keywords",
+      "title": "B2 重點單字",
       "items": [
         {
-          "word": "know",
-          "pos": "word",
-          "meaning": "知道",
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "please",
-          "pos": "word",
-          "meaning": "請",
+          "english": "okay",
+          "kk": "/okay/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 okay 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "good",
-          "pos": "word",
-          "meaning": "很好",
+          "english": "way",
+          "kk": "/way/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 way 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "speak",
-          "pos": "verb",
-          "meaning": "語音",
+          "english": "lot",
+          "kk": "/lot/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 lot 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "lot",
-          "pos": "word",
-          "meaning": "批次:",
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "right",
-          "pos": "word",
-          "meaning": "右",
+          "english": "need",
+          "kk": "/need/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "say",
-          "pos": "word",
-          "meaning": "說",
+          "english": "atm",
+          "kk": "/atm/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 atm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "don't",
-          "pos": "word",
-          "meaning": "不要",
+          "english": "chinese",
+          "kk": "/chinese/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -98,34 +371,84 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "how are you",
-      "meaning": "特點為兩段式可完全重複使用型，第一段為重型火箭、第二段為長期停留型的太空船。",
+      "phrase": "going to",
+      "meaning": "常用說法，可用來表達「going to」這個意思",
       "examples": [
         {
-          "en": "Might go something like this. Hello. Good morning. How are you? Hey, I'm great. How are you? Not too bad. How.",
-          "tc": "可能會變成這樣。你好，早上好，你好嗎？嘿，我很好。你好嗎？不算太糟糕，怎樣"
+          "en": "My sister Brianna is going to help me walk through each scenario.",
+          "tc": "我姐姐布麗安娜將幫助我演練每個場景。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "what do you",
-      "meaning": "你是做什麼的",
+      "phrase": "need to",
+      "meaning": "常用說法，可用來表達「need to」這個意思",
       "examples": [
         {
-          "en": "Where you could use some more English phrases? What do you think the most difficult situation to be in is? The.",
-          "tc": "在哪裡可以使用更多英語詞組？你認為最困難的情況是什麼？"
+          "en": "If you're ever lost and you need to ask for directions, you can say, \"Excuse me,.",
+          "tc": "如果你迷路了，需要問路，你可以說：“對不起，。”"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "a lot of",
-      "meaning": "有許多",
+      "phrase": "i love",
+      "meaning": "常用說法，可用來表達「i love」這個意思",
       "examples": [
         {
-          "en": "Woman was very busy. She did not have a lot of time to listen to us and be patient with us.",
-          "tc": "女人很忙。她沒有太多時間聽我們說話，對我們要有耐心。"
+          "en": "I love it.",
+          "tc": "我喜歡它。"
+        }
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "breakdown-01",
+      "sentence": "Welcome back to my Slow English podcast.",
+      "translation": "歡迎回到我的慢速英語播客。",
+      "points": [
+        {
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-02",
+      "sentence": "I am visiting China right now.",
+      "translation": "我現在正在訪問中國。",
+      "points": [
+        {
+          "label": "visiting china right",
+          "text": "visiting china right",
+          "note": "注意 \"visiting china right\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-03",
+      "sentence": "If you didn't know, I have been learning Chinese for about 3 years now. But honestly, nothing prepared me for the Chinese that.",
+      "translation": "如果你不知道的話，我已經學中文大約三年了。但說實話，我對中國人沒有任何準備。",
+      "points": [
+        {
+          "label": "didn't know been",
+          "text": "didn't know been",
+          "note": "注意 \"didn't know been\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "I would actually need in China. The real life Chinese. The words that help.",
+      "translation": "我實際上需要在中國。現實生活中的中國人。有幫助的話。",
+      "points": [
+        {
+          "label": "actually need china",
+          "text": "actually need china",
+          "note": "注意 \"actually need china\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

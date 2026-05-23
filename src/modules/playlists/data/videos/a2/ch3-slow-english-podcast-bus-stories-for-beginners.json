@@ -4,197 +4,353 @@
   "level": "a2",
   "title": "SLOW English Podcast! BUS STORIES🚍📚 for Beginners!",
   "youtubeUrl": "https://www.youtube.com/watch?v=3fmVrPDmTHo",
+  "header": {
+    "podcastLabel": "MissHoney A2",
+    "titleZh": "慢英文播客！適合初學者的巴士故事🚍📚！",
+    "titleEn": "SLOW English Podcast! BUS STORIES🚍📚 for Beginners!",
+    "levelTag": "A2",
+    "topicTag": "language"
+  },
   "scenes": [
     {
       "id": "scene-01",
+      "no": "01",
+      "titleZh": "開場：語言學習",
+      "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Hello welcome back to my slow English podcast a podcast for you to practice your English.",
-          "tc": "您好，欢迎回到我的慢速英语播客，这是一个供您练习英语的播客。"
+          "en": "Welcome back to my slow English podcast a podcast for you to practice your English listening skills.",
+          "tc": "歡迎回到我的慢速英語播客，這是一​​個供您練習英語聽力技能的播客。"
         },
         {
-          "en": "Listening skills today I want to tell you a story about the bus the other day.",
-          "tc": "今天的听力技巧我想给大家讲一个前几天关于公交车的故事。"
+          "en": "Today I want to tell you a story about the bus the other day I was on the bus my friend and I had to get home.",
+          "tc": "今天我想跟大家講一個關於公車的故事，那天我和我的朋友在公車上，我必須回家。"
         },
         {
-          "en": "I was on the bus my friend and I had to get home so we waited.",
-          "tc": "我和我的朋友在公共汽車上，我必須回家，所以我們等待。"
+          "en": "We waited for the bus to come for maybe 10 minutes until.",
+          "tc": "我們等了大概10分鐘巴士才來。"
         },
         {
-          "en": "For the bus to come for maybe 10 minutes until finally it arrived but it was.",
-          "tc": "巴士大約要等 10 分鐘才能到達，但它確實到達了。"
+          "en": "We said no.",
+          "tc": "我們說不。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "bus",
+          "kk": "/bus/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段：日常生活",
+      "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "So packed full of people like sardines the driver stopped and told us to get in.",
-          "tc": "人挤得像沙丁鱼一样，司机停下来让我们上车。"
+          "en": "We don't fit.",
+          "tc": "我們不合適。"
         },
         {
-          "en": "But we said no we don't fit we'll take the next one so the driver moved.",
-          "tc": "但我们说不，我们不适合，我们会乘坐下一辆，所以司机搬走了。"
+          "en": "We'll take the.",
+          "tc": "我們將採取。"
         },
         {
-          "en": "On and we waited another 10 minutes but at that point we had already waited 20.",
-          "tc": "我们又等了 10 分钟，但那时我们已经等了 20 分钟了。"
+          "en": "We waited another 10 minutes but at that point.",
+          "tc": "我們又等了 10 分鐘，但就在那時。"
         },
         {
-          "en": "Minutes I wasn't waiting any longer so we got on the bus and we fit just.",
-          "tc": "幾分鐘後我不再等了，所以我們上了公車，我們剛好合身。"
+          "en": "We had already waited 20 minutes I wasn't waiting any longer.",
+          "tc": "我們已經等了20分鐘了，我不再等了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "bus",
+          "kk": "/bus/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "nice",
+          "kk": "/nice/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 nice 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "Right but the driver was driving like a maniac I had to hold on so tight.",
-          "tc": "是的，但司機像個瘋子一樣開車，我必須緊緊抓住。"
+          "en": "We got on the bus.",
+          "tc": "我們上了公車。"
         },
         {
-          "en": "So that I wouldn't fall or trip I could barely hold on then the driver stopped.",
-          "tc": "為了不摔倒或絆倒，我幾乎堅持不住，然後司機停了下來。"
+          "en": "Then the driver stopped one more time to pick up a family it was a mother and her two young boys.",
+          "tc": "然後司機又停下來接一家人，那是一位母親和她的兩個小男孩。"
         },
         {
-          "en": "One more time to pick up a family it was a mother and her two young.",
-          "tc": "還有一次去接一家人，是一位母親和她的兩個孩子。"
+          "en": "They were very short so the two boys could not hold on to any of the handles.",
+          "tc": "它們很短，所以兩個男孩無法握住任何把手。"
         },
         {
-          "en": "Boys they were very short so the two boys could not hold on to any of.",
-          "tc": "男孩都很矮，所以兩個男孩抓不住任何一個。"
+          "en": "They were going side to side falling and tripping I told one of the boys hold on to me and one older lady said the same one older lady told the boys.",
+          "tc": "他們從一邊到另一邊跌倒並絆倒，我告訴其中一個男孩扶住我，一位年長的女士也說了同樣的話，一位年長的女士告訴男孩們。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "bus",
+          "kk": "/bus/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "boys",
+          "kk": "/boys/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 boys 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "The handles so they were going side to side falling and tripping I told one of.",
-          "tc": "我告诉其中一个人，把手从一边到另一边掉落并绊倒。"
+          "en": "Hold on to me hold on to my sweater so the boy did.",
+          "tc": "抓住我，抓住我的毛衣，男孩也這麼做了。"
         },
         {
-          "en": "The boys hold on to me and one older lady said the same one older lady.",
-          "tc": "男孩們緊緊抓住我，一位年長的女士也說了同樣的話。"
+          "en": "He grabbed the lady and held her tight.",
+          "tc": "他一把抓住了那位女士，緊緊地抱住了她。"
         },
         {
-          "en": "Told the boys hold on to me hold on to my sweater so the boy did.",
-          "tc": "告訴男孩們抓緊我，抓緊我的毛衣，男孩就這麼做了。"
+          "en": "He didn't fall anymore it was a very very nice scene it was a very cute experience.",
+          "tc": "他不再跌倒了，這是一個非常非常好的場景，這是一個非常可愛的體驗。"
         },
         {
-          "en": "He grabbed the lady and held her tight and he didn't fall anymore it was a.",
-          "tc": "他一把抓住了那位女士，緊緊地抱住了她，才沒有再摔倒。"
+          "en": "We all rode like sardines the whole way home and once.",
+          "tc": "我們都像沙丁魚一樣騎著馬一路回家，一次。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "nice",
+          "kk": "/nice/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 nice 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "hold",
+          "kk": "/hold/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 hold 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "Very very nice scene it was a very cute experience we all rode like sardines the.",
-          "tc": "非常非常好的場景，這是一次非常可愛的經歷，我們都像沙丁魚一樣騎著。"
+          "en": "We all said goodbye nice to meet you and it was a very nice experience I always have nice experiences on the bus.",
+          "tc": "我們都說了再見，很高興見到你，這是一次非常好的經歷，我在公車上總是有美好的經歷。"
         },
         {
-          "en": "Whole way home and once we finally arrived we all said goodbye nice to meet you.",
-          "tc": "一路回家，當我們終於到達時，我們都說了再見，很高興見到你。"
+          "en": "I love the beautiful people I can meet every day in my normal daytoday life.",
+          "tc": "我喜歡在日常生活中每天遇到的美麗的人。"
         },
         {
-          "en": "And it was a very nice experience I always have nice experiences on the bus I.",
-          "tc": "這是一次非常美好的經歷，我在公車上總是有美好的經歷。"
+          "en": "I love seeing kind actions and really appreciating all the kind people I meet throughout my days.",
+          "tc": "我喜歡看到善意的行為，也非常感謝我一生中遇到的所有善意的人。"
         },
         {
-          "en": "Love the beautiful people I can meet every day in my normal daytoday life I love.",
-          "tc": "愛我所愛的日常生活中每天都能遇到的美麗的人。"
+          "en": "I love being in Mexico where you can see all kinds of nice actions every day without a doubt tell me about a nice experience you've had with complete strangers describe.",
+          "tc": "我喜歡在墨西哥，你每天都可以看到各種美好的行為，毫無疑問，請告訴我你與完全陌生的人所描述的美好經驗。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "bus",
+          "kk": "/bus/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "nice",
+          "kk": "/nice/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 nice 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "Seeing kind actions and really appreciating all the kind people I meet throughout my days I.",
-          "tc": "看到善良的行為，並真正感謝我一生中遇到的所有善良的人。"
+          "en": "How it made you feel and why it was so special but also also so normal?",
+          "tc": "它給你什麼感覺？為什麼它如此特別但又如此正常？"
         },
         {
-          "en": "Love being in Mexico where you can see all kinds of nice actions every day without.",
-          "tc": "喜歡在墨西哥，在那裡你每天都可以看到各種美好的行為。"
+          "en": "Thank you for listening let me know.",
+          "tc": "謝謝你的聆聽讓我知道。"
         },
         {
-          "en": "A doubt tell me about a nice experience you've had with complete strangers describe how it.",
-          "tc": "一個疑問告訴我你與完全陌生的人的一次美好經驗是如何描述的。"
-        },
-        {
-          "en": "Made you feel and why it was so special but also also so normal thank you.",
-          "tc": "讓你感覺到為什麼它如此特別但也如此正常謝謝。"
+          "en": "If you enjoy my bus stories so I can tell you some more bye.",
+          "tc": "如果您喜歡我的巴士故事，那麼我可以告訴您更多再見。"
         }
-      ]
-    },
-    {
-      "id": "scene-07",
-      "sentences": [
+      ],
+      "tags": [
         {
-          "en": "For listening let me know if you enjoy my bus stories so I can tell you.",
-          "tc": "如果您喜歡我的巴士故事，請告訴我，以便我可以告訴您。"
-        },
-        {
-          "en": "Some more bye.",
-          "tc": "還有一些再見。"
+          "english": "bus",
+          "kk": "/bus/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
   ],
   "vocabGroups": [
     {
-      "label": "A2 transcript keywords",
+      "title": "A2 重點單字",
       "items": [
         {
-          "word": "bus",
-          "pos": "word",
-          "meaning": "巴士",
+          "english": "bus",
+          "kk": "/bus/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "hold",
-          "pos": "word",
-          "meaning": "保持",
+          "english": "nice",
+          "kk": "/nice/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 nice 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "nice",
-          "pos": "word",
-          "meaning": "不錯",
+          "english": "all",
+          "kk": "/all/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "but",
-          "pos": "word",
-          "meaning": "但是",
+          "english": "boys",
+          "kk": "/boys/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 boys 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "one",
-          "pos": "word",
-          "meaning": "一",
+          "english": "hold",
+          "kk": "/hold/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 hold 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "all",
-          "pos": "word",
-          "meaning": "全部",
+          "english": "one",
+          "kk": "/one/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "boys",
-          "pos": "word",
-          "meaning": "男孩",
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "driver",
-          "pos": "word",
-          "meaning": "司機",
+          "english": "experience",
+          "kk": "/experience/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 experience 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -203,34 +359,84 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "nice to meet you",
-      "meaning": "很高興認識你",
+      "phrase": "want to",
+      "meaning": "常用說法，可用來表達「want to」這個意思",
       "examples": [
         {
-          "en": "Once we finally arrived we all said goodbye nice to meet you and it was a very nice experience I always have.",
-          "tc": "當我們最終到達時，我們都說了再見，很高興見到你，這是我一直以來的一次非常好的經歷。"
+          "en": "Today I want to tell you a story about the bus the other day I was on the bus my friend and I had to get home.",
+          "tc": "今天我想跟大家講一個關於公車的故事，那天我和我的朋友在公車上，我必須回家。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "想要",
+      "phrase": "one of the",
+      "meaning": "常用說法，可用來表達「one of the」這個意思",
       "examples": [
         {
-          "en": "To practice your English listening skills today I want to tell you a story about the bus the other day.",
-          "tc": "今天為了練習你的英語聽力技巧，我想告訴你一個前幾天關於公車的故事。"
+          "en": "They were going side to side falling and tripping I told one of the boys hold on to me and one older lady said the same one older lady told the boys.",
+          "tc": "他們從一邊到另一邊跌倒並絆倒，我告訴其中一個男孩扶住我，一位年長的女士也說了同樣的話，一位年長的女士告訴男孩們。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "one of the",
-      "meaning": "其中之一",
+      "phrase": "i love",
+      "meaning": "常用說法，可用來表達「i love」這個意思",
       "examples": [
         {
-          "en": "Side to side falling and tripping I told one of the boys hold on to me and one older lady said.",
-          "tc": "我告訴一個男孩扶住我，一位年長的女士說。"
+          "en": "I love the beautiful people I can meet every day in my normal daytoday life.",
+          "tc": "我喜歡在日常生活中每天遇到的美麗的人。"
+        }
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "breakdown-01",
+      "sentence": "Welcome back to my slow English podcast a podcast for you to practice your English listening skills.",
+      "translation": "歡迎回到我的慢速英語播客，這是一​​個供您練習英語聽力技能的播客。",
+      "points": [
+        {
+          "label": "welcome back skills",
+          "text": "welcome back skills",
+          "note": "注意 \"welcome back skills\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-02",
+      "sentence": "Today I want to tell you a story about the bus the other day I was on the bus my friend and I had to get home.",
+      "translation": "今天我想跟大家講一個關於公車的故事，那天我和我的朋友在公車上，我必須回家。",
+      "points": [
+        {
+          "label": "want to",
+          "text": "want to",
+          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-03",
+      "sentence": "We waited for the bus to come for maybe 10 minutes until.",
+      "translation": "我們等了大概10分鐘巴士才來。",
+      "points": [
+        {
+          "label": "waited bus come",
+          "text": "waited bus come",
+          "note": "注意 \"waited bus come\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "We said no.",
+      "translation": "我們說不。",
+      "points": [
+        {
+          "label": "said",
+          "text": "said",
+          "note": "注意 \"said\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

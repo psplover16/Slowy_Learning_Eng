@@ -8,7 +8,7 @@ const B1: PlaylistData = {
   {
     videoId: 'QmqP65Qw27c',
     slug: 'ch1-slow-english-listening-intermediate-practice-talking-about-my-hobbies',
-    title: 'Slow English Listening Intermediate Practice -- Talking about ??My Hobbies',
+    title: 'Slow English Listening Intermediate Practice -- Talking about 👉My Hobbies',
     titleZh: '慢速英語聽力中級練習--談👉我的嗜好',
     originalIndex: 21,
     displayOrder: 1,
@@ -18,7 +18,7 @@ const B1: PlaylistData = {
   {
     videoId: 'fHMtr1NcCho',
     slug: 'ch2-slow-english-practice-for-b1-intermediate-talking-about-airports',
-    title: 'SLOW English Practice for B1 INTERMEDIATE - talking about ?? AIRPORTS??',
+    title: 'SLOW English Practice for B1 INTERMEDIATE - talking about 👉 AIRPORTS✈️',
     titleZh: 'B1 中級的慢速英語練習 - 談 👉 機場✈️',
     originalIndex: 20,
     displayOrder: 2,
@@ -28,7 +28,7 @@ const B1: PlaylistData = {
   {
     videoId: '3fmVrPDmTHo',
     slug: 'ch3-slow-english-podcast-bus-stories-for-beginners',
-    title: 'SLOW English Podcast! BUS STORIES???? for Beginners!',
+    title: 'SLOW English Podcast! BUS STORIES🚍📚 for Beginners!',
     titleZh: '慢英文播客！適合初學者的巴士故事🚍📚！',
     originalIndex: 19,
     displayOrder: 3,
@@ -38,7 +38,7 @@ const B1: PlaylistData = {
   {
     videoId: 'iAEYuZNVJoM',
     slug: 'ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip',
-    title: 'SLOW English Podcast for A2-B1 intemediate levels!-- Planning my first trip!??',
+    title: 'SLOW English Podcast for A2-B1 intemediate levels!-- Planning my first trip!✈️',
     titleZh: '適合 A2-B1 中級程度的 SLOW 英語播客！ --規劃我的第一次旅行！ ✈️',
     originalIndex: 18,
     displayOrder: 4,
@@ -48,7 +48,7 @@ const B1: PlaylistData = {
   {
     videoId: 'oCXBdT7Lo9M',
     slug: 'ch5-job-interview-essentials-slow-english-podcast-for-intermediate-b1',
-    title: 'Job Interview ESSENTIALS!????? -- SLOW English Podcast for Intermediate B1!',
+    title: 'Job Interview ESSENTIALS!👨‍💻 -- SLOW English Podcast for Intermediate B1!',
     titleZh: '求職面試必備！ 👨‍💻 -- 中級 B1 的慢速英語播客！',
     originalIndex: 17,
     displayOrder: 5,
@@ -58,7 +58,7 @@ const B1: PlaylistData = {
   {
     videoId: 'DD-CdaZzEsM',
     slug: 'ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input',
-    title: 'My Trip to Brazil! ???? -- SLOW English Podcast for High Beginners! A2-B1 (comprehensible input)',
+    title: 'My Trip to Brazil! 🇧🇷 -- SLOW English Podcast for High Beginners! A2-B1 (comprehensible input)',
     titleZh: '我的巴西之旅！ 🇧🇷 -- 適合高級初學者的慢速英語播客！ A2-B1（可理解的輸入）',
     originalIndex: 16,
     displayOrder: 6,
@@ -68,7 +68,7 @@ const B1: PlaylistData = {
   {
     videoId: 'XzJw0R5vxZE',
     slug: 'ch7-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice',
-    title: 'Interview about Childhood Memories??-- FASTER English Podcast for INTERMEDIATE Listening Practice!',
+    title: 'Interview about Childhood Memories💭-- FASTER English Podcast for INTERMEDIATE Listening Practice!',
     titleZh: '童年回憶訪談💭－更快的中級聽力練習英文播客！',
     originalIndex: 15,
     displayOrder: 7,
@@ -78,7 +78,7 @@ const B1: PlaylistData = {
   {
     videoId: 'sbnlCdeg6Ko',
     slug: 'ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input',
-    title: 'Learn Slow English ASMR??�X Intermediate B1! Talking about sounds and noises (comprehensible input)',
+    title: 'Learn Slow English ASMR🔉— Intermediate B1! Talking about sounds and noises (comprehensible input)',
     titleZh: '學習慢速英語 ASMR🔉—中級 B1！談論聲音和噪音（可理解的輸入）',
     originalIndex: 14,
     displayOrder: 8,
@@ -88,7 +88,7 @@ const B1: PlaylistData = {
   {
     videoId: 'PUVw_JqA4OI',
     slug: 'ch9-speak-like-a-native-common-english-idioms-slow-english-podcast-for-a2-b1-beginners',
-    title: 'Speak like a NATIVE! ??? COMMON English IDIOMS! -- Slow English Podcast for A2-B1 Beginners!',
+    title: 'Speak like a NATIVE! 🗣️ COMMON English IDIOMS! -- Slow English Podcast for A2-B1 Beginners!',
     titleZh: '像當地人一樣說話！ 🗣️常見英語慣用語！ -- 適合 A2-B1 初學者的慢速英語播客！',
     originalIndex: 13,
     displayOrder: 9,
@@ -108,7 +108,7 @@ const B1: PlaylistData = {
   {
     videoId: '-SyVeZYXuy8',
     slug: 'ch11-slow-english-podcast-for-high-beginners-a2-b1-my-trip-to-the-usa-comprehensible-input',
-    title: 'SLOW English Podcast for High Beginners! A2-B1 �X My Trip to the USA! ????(comprehensible input)',
+    title: 'SLOW English Podcast for High Beginners! A2-B1 — My Trip to the USA! 🇺🇸(comprehensible input)',
     titleZh: '適合高級初學者的慢速英語播客！ A2-B1 — 我的美國之旅！ 🇺🇸（可理解的輸入）',
     originalIndex: 11,
     displayOrder: 11,
@@ -118,7 +118,7 @@ const B1: PlaylistData = {
   {
     videoId: 'VGoJrwil_7c',
     slug: 'ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1',
-    title: 'Slow English Podcast: My Trip to New York City ???? Level B1',
+    title: 'Slow English Podcast: My Trip to New York City 🇺🇸 Level B1',
     titleZh: '慢速英語播客：我的紐約之旅🇺🇸 B1級',
     originalIndex: 10,
     displayOrder: 12,
@@ -128,7 +128,7 @@ const B1: PlaylistData = {
   {
     videoId: 'rINH9aoVe0c',
     slug: 'ch13-slow-english-podcast-my-trip-to-puerto-escondido-level-a2',
-    title: 'Slow English Podcast: My Trip to Puerto Escondido! ???? Level A2+',
+    title: 'Slow English Podcast: My Trip to Puerto Escondido! 🇲🇽 Level A2+',
     titleZh: '慢速英語播客：我的埃斯孔迪多港之旅！ 🇲🇽A2+級',
     originalIndex: 9,
     displayOrder: 13,
@@ -138,7 +138,7 @@ const B1: PlaylistData = {
   {
     videoId: 'IaMz_0RZaz8',
     slug: 'ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1',
-    title: 'Real English Conversation ?? - Life in the U.S.A. vs Life in Mexico B1',
+    title: 'Real English Conversation 🎧 - Life in the U.S.A. vs Life in Mexico B1',
     titleZh: '真正的英語對話 🎧 - 美國生活 vs 墨西哥生活 B1',
     originalIndex: 8,
     displayOrder: 14,
@@ -148,7 +148,7 @@ const B1: PlaylistData = {
   {
     videoId: 'O9c2XvxMuwg',
     slug: 'ch15-english-sleep-learning-shadowing-positive-affirmations',
-    title: 'English Sleep Learning: Shadowing Positive Affirmations ??',
+    title: 'English Sleep Learning: Shadowing Positive Affirmations 😴',
     titleZh: '英語睡眠學習：影子積極肯定😴',
     originalIndex: 7,
     displayOrder: 15,
@@ -168,7 +168,7 @@ const B1: PlaylistData = {
   {
     videoId: 'yIPTy4BqGSA',
     slug: 'ch17-slow-english-practice-airport-essentials-for-traveling',
-    title: 'Slow English Practice | Airport ESSENTIALS for traveling ??',
+    title: 'Slow English Practice | Airport ESSENTIALS for traveling ✈️',
     titleZh: '慢速英語練習 |機場旅行必備品✈️',
     originalIndex: 5,
     displayOrder: 17,
@@ -188,7 +188,7 @@ const B1: PlaylistData = {
   {
     videoId: 'AmQeSza-68Y',
     slug: 'ch19-how-to-speak-english-real-life-role-play-b1b2',
-    title: 'How to Speak English | Real-Life Role Play (B1�VB2)',
+    title: 'How to Speak English | Real-Life Role Play (B1–B2)',
     titleZh: '如何說英語 |現實生活角色扮演（B1–B2）',
     originalIndex: 3,
     displayOrder: 19,

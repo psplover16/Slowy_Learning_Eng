@@ -2,7 +2,7 @@
 
 MissHoney A1–B2 的第一版已完成播放清單路由、字幕匯入、內容 JSON 與 promotion 流程，但目前產物仍有兩個缺口。第一，首頁 MissHoney 區塊、播放清單列表與影片內容頁沒有完整沿用既有文章閱讀體驗，導致 ch1 與 MissHoney 的視覺層級、章節導覽與卡片樣式不一致。第二，現有 JSON 是從字幕 cue 與翻譯工具產生的草稿，常見問題包含英文斷句不自然、自動字幕誤字、中文翻譯直譯、單字與片語挑選不精準，不能視為正式學習內容。
 
-本設計以手機優先、離線可用為前提。runtime 只讀取 repository 內已 promote 的 JSON 與 localStorage 完成狀態，不呼叫 YouTube、翻譯服務或 AI API。校稿與內容重建只發生在 build-time tooling / apply 流程。
+本設計以手機優先、離線可用為前提。runtime 只讀取 repository 內已 promote 的 JSON 與 localStorage 完成狀態，不呼叫 YouTube、翻譯服務或 AI API。校稿與內容重建只發生在 build-time tooling / apply 流程。尚未完成的 A2、B1、B2 內容改由 apply 階段的 AI 校稿：AI 需對照 transcript/scaffold 與 generated JSON，在盡量保留完整字幕內容的前提下修正翻譯、英文拼字、語法、斷句與教學解釋錯誤。
 
 ## Goals / Non-Goals
 
@@ -13,7 +13,7 @@ MissHoney A1–B2 的第一版已完成播放清單路由、字幕匯入、內�
 - MissHoney 影片內容頁呈現接近 ch1 的正式閱讀版型：header、quick nav、編號 section、中英對照、單字、片語、句型解析
 - 擴充 `PlaylistVideoData`，讓 MissHoney JSON 足以支援正式閱讀頁，而不是簡化草稿頁
 - 改寫內容 authoring 規則與 validator，要求所有 ready 影片通過英文句子重建、自然繁中翻譯、教學字彙、片語與句型解析檢查
-- 重新校稿既有 85 支 A1–B2 影片內容，並只 promote 通過 validator 的 JSON
+- 重新校稿既有 85 支 A1–B2 影片內容；已完成的 A1 保持既有成果，尚未完成的 A2、B1、B2 由 AI 校稿並只 promote 通過 validator 的 JSON
 
 **Non-Goals:**
 
@@ -51,7 +51,7 @@ MissHoney 影片內容頁應使用與 `ChapterView` 類似的閱讀結構：頂�
 
 ### D4: Treat current generated content as draft and require content QA before promotion
 
-既有 85 支 JSON 只能當作素材來源，不可視為正式稿。新的 authoring 流程要先從 transcript cue 重建自然英文句子，再做繁中翻譯與教學拆解。每個 ready 影片至少需要：可閱讀的 scene 分段、每個 scene 有標題、句子英文與繁中都自然、至少一組重點單字、至少一組重點片語、至少一組句型解析。若 transcript 品質太差，該影片應留在 generated draft review 狀態，不應 promote 成 ready。
+既有 85 支 JSON 只能當作素材來源，不可視為正式稿。新的 authoring 流程要先從 transcript cue 重建自然英文句子，再做繁中翻譯與教學拆解。未完成的 A2、B1、B2 校稿由 AI 執行，AI 必須盡量保留 transcript 的完整有意義內容；只有字幕重疊、明顯自動字幕誤字、口頭填充雜訊或無法形成自然學習句子的片段可以被合併、修正或刪除。每個 ready 影片至少需要：可閱讀的 scene 分段、每個 scene 有標題、句子英文與繁中都自然、至少一組重點單字、至少一組重點片語、至少一組句型解析。若 transcript 品質太差，該影片應留在 generated draft review 狀態，不應 promote 成 ready。
 
 替代方案：只用 validator 檢查欄位存在。淘汰原因是目前問題主要是內容品質，不是欄位缺漏；只檢查 schema 會讓不通順的機器草稿繼續進入正式頁面。
 
@@ -74,6 +74,7 @@ TDD 應先覆蓋三種可觀察行為：首頁 MissHoney gap、PlaylistView 卡�
 - 使用者訪問任一 ready 影片子頁時，頁面呈現 header、quick nav、對話內容、單字、片語、句型解析；section 只在對應資料非空時顯示，編號依可見 section 自動排序
 - 中英對照句子在手機版必須分行顯示，繁中翻譯不可與英文擠在同一行
 - 若影片資料仍未通過新 validator，不應被 promote 為 ready；已存在舊 schema 的 JSON 必須重新校稿或被 validator 拒絕
+- 尚未完成的 A2、B1、B2 內容由 AI 校稿。AI 校稿時必須對照 transcript/scaffold/source JSON，保留完整有意義字幕內容，並修正翻譯、英文拼字、語法、斷句、vocab/phrases/breakdowns 解釋錯誤；不得只摘要影片或大幅刪除可學習內容來規避校稿。
 
 **Interface / data shape:**
 
@@ -88,6 +89,7 @@ TDD 應先覆蓋三種可觀察行為：首頁 MissHoney gap、PlaylistView 卡�
 - `npm run misshoney:scaffold-content -- --all` 產生的 scaffold 要包含 normalized transcript、cue source、建議 scene boundaries，以及 authoring checklist
 - `npm run misshoney:validate-content -- --all` 必須拒絕缺少新欄位或品質門檻未過的 content，並列出 level、slug、欄位與原因
 - `npm run misshoney:promote-content -- --all` 只允許已通過 validator 的 generated content 進入 app data
+- AI 校稿需留下 apply 回報紀錄：每個完成等級至少列出校稿範圍、使用的驗證命令，以及抽查 slug；若修正了字幕拼字、翻譯或解釋錯誤，回報中需摘要修正類型，不需逐字貼完整內容。
 
 **Failure modes:**
 
@@ -102,7 +104,7 @@ TDD 應先覆蓋三種可觀察行為：首頁 MissHoney gap、PlaylistView 卡�
 - `npm run build` 通過，無 chunk 警戒 regression
 - `npm run misshoney:validate-content -- --all` 通過後，A1–B2 所有 ready JSON 都是新 schema
 - Playwright smoke 覆蓋首頁 MissHoney gap、A1 列表卡片、每個等級至少一支影片內容頁
-- 手動抽查每個等級至少 2 支影片，確認英文斷句自然、繁中翻譯順暢、單字片語與句型解析可讀
+- AI 抽查每個等級至少 2 支影片，確認已盡量保留完整字幕、英文斷句自然、繁中翻譯順暢、單字片語與句型解析正確可讀，並在 apply 回報列出 level/slug
 
 **Scope boundaries:**
 
@@ -113,7 +115,7 @@ TDD 應先覆蓋三種可觀察行為：首頁 MissHoney gap、PlaylistView 卡�
 ## Risks / Trade-offs
 
 - [Risk] 85 支影片逐支校稿耗時，可能讓 apply 過長 → Mitigation: tasks 依工具、UI、schema、A1、A2、B1、B2 切割，每個等級可獨立暫停與恢復
-- [Risk] validator 無法完全判斷翻譯是否自然 → Mitigation: validator 擋明顯低品質模式，tasks 仍要求每個等級人工抽查與必要修稿
+- [Risk] validator 無法完全判斷翻譯是否自然 → Mitigation: validator 擋明顯低品質模式，tasks 仍要求每個等級 AI 校稿、抽查與必要修稿
 - [Risk] schema 擴充會讓既有 JSON 暫時不相容 → Mitigation: renderer 開發期可容忍舊資料，但 promotion 完成前必須全量轉新 schema
 - [Risk] 共用 ArticleListItem 可能被播放清單需求污染 → Mitigation: 只加入通用、明確的 props；若 props 變得過多，改建 playlist 專用 wrapper 並保持同等視覺
 - [Trade-off] 不使用 IndexedDB 會讓 bundled JSON 增加 build assets → Mitigation: 內容仍透過 lazy import 分包，build 後檢查 chunk 大小與 PWA precache 體積
@@ -122,7 +124,7 @@ TDD 應先覆蓋三種可觀察行為：首頁 MissHoney gap、PlaylistView 卡�
 
 1. 先更新型別、validator 與測試，讓舊 JSON 被明確標成不合格草稿
 2. 更新 UI renderer，使新 schema 可正確顯示，並保持 loading / not-found / pendingTranscript 狀態可用
-3. 依等級重建並校稿 generated content，通過 validator 後逐級 promote
-4. 完成全量 promotion 後跑 test、build、E2E smoke 與人工抽查
+3. 依等級重建並由 AI 校稿 generated content，通過 validator 後逐級 promote
+4. 完成全量 promotion 後跑 test、build、E2E smoke 與 AI 抽查
 
 Rollback 策略：若內容 promotion 出現品質問題，可回退該等級的 generated content 與 metadata promotion；runtime 仍只讀取最後一次通過 build 的 bundled JSON，不涉及使用者資料 migration。localStorage completion 以 videoId keyed，不需清除。

@@ -40,6 +40,23 @@ MissHoney generated content SHALL transform raw caption cues into natural Englis
 - **THEN** validation fails for that sentence
 - **AND** promotion is blocked
 
+### Requirement: AI proofreading preserves transcript coverage and corrects learning errors
+
+Unfinished MissHoney A2, B1, and B2 content proofreading SHALL be performed by AI during apply. AI proofreading SHALL compare the source transcript or scaffold with generated content, preserve all meaningful transcript content, and correct translation, spelling, grammar, sentence segmentation, vocabulary explanation, phrase explanation, and sentence breakdown errors before promotion.
+
+#### Scenario: AI proofreading keeps meaningful transcript content
+
+- **WHEN** AI proofreads a generated MissHoney video file
+- **THEN** the resulting scenes keep the meaningful source transcript ideas in learner-readable order
+- **AND** content is not reduced to a summary of the video
+- **AND** duplicated cue-overlap words, filler-only noise, clear auto-caption spelling errors, and fragments that cannot form a natural learning sentence are corrected, merged, or removed
+
+#### Scenario: AI proofreading corrects learning-content errors
+
+- **WHEN** AI finds an incorrect Traditional Chinese translation, English spelling issue, grammar issue, sentence segmentation problem, vocabulary explanation error, phrase explanation error, or sentence breakdown error
+- **THEN** the generated content is corrected before validation and promotion
+- **AND** the apply report names the level or slug range proofread and the validation command used
+
 ### Requirement: Vocabulary, phrases, and sentence breakdowns are instructional
 
 Promoted MissHoney content SHALL include instructional vocabulary, phrase, and sentence breakdown entries that are useful to an English learner. Each ready video SHALL contain at least one non-empty vocabulary group, one phrase entry, and one sentence breakdown entry.

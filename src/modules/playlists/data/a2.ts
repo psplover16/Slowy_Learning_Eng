@@ -18,7 +18,7 @@ const A2: PlaylistData = {
   {
     videoId: 'hal7tBBhYm8',
     slug: 'ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel',
-    title: 'SLOW English for A2 High Beginners --- How COLORS make me feel???',
+    title: 'SLOW English for A2 High Beginners --- How COLORS make me feel?🌈',
     titleZh: 'A2 高級初學者慢速英語 --- 顏色讓我感覺如何？ 🌈',
     originalIndex: 28,
     displayOrder: 2,
@@ -28,7 +28,7 @@ const A2: PlaylistData = {
   {
     videoId: '3fmVrPDmTHo',
     slug: 'ch3-slow-english-podcast-bus-stories-for-beginners',
-    title: 'SLOW English Podcast! BUS STORIES???? for Beginners!',
+    title: 'SLOW English Podcast! BUS STORIES🚍📚 for Beginners!',
     titleZh: '慢英文播客！適合初學者的巴士故事🚍📚！',
     originalIndex: 27,
     displayOrder: 3,
@@ -38,7 +38,7 @@ const A2: PlaylistData = {
   {
     videoId: 'iAEYuZNVJoM',
     slug: 'ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip',
-    title: 'SLOW English Podcast for A2-B1 intemediate levels!-- Planning my first trip!??',
+    title: 'SLOW English Podcast for A2-B1 intemediate levels!-- Planning my first trip!✈️',
     titleZh: '適合 A2-B1 中級程度的 SLOW 英語播客！ --規劃我的第一次旅行！ ✈️',
     originalIndex: 26,
     displayOrder: 4,
@@ -48,7 +48,7 @@ const A2: PlaylistData = {
   {
     videoId: 'rzgcw1eDycI',
     slug: 'ch5-84-english-phrases-for-beginners-speak-like-a-native',
-    title: '84 English Phrases for Beginners! -- Speak like a Native! ???',
+    title: '84 English Phrases for Beginners! -- Speak like a Native! 🗣️',
     titleZh: '84 個適合初學者的英語短語！ ——像當地人一樣說話！ 🗣️',
     originalIndex: 25,
     displayOrder: 5,
@@ -58,7 +58,7 @@ const A2: PlaylistData = {
   {
     videoId: 'Sgwkz08fcdE',
     slug: 'ch6-essential-airport-vocabulary-slow-english-podcast-for-a2-beginners',
-    title: 'Essential AIRPORT Vocabulary?? -- SLOW English Podcast for A2 Beginners',
+    title: 'Essential AIRPORT Vocabulary✈️ -- SLOW English Podcast for A2 Beginners',
     titleZh: '機場必備詞彙✈️ -- A2 初學者的 SLOW 英語播客',
     originalIndex: 24,
     displayOrder: 6,
@@ -68,7 +68,7 @@ const A2: PlaylistData = {
   {
     videoId: 'fwMNNw0T4X0',
     slug: 'ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners',
-    title: 'Speak like a NATIVE! ??? COMMON abbreviations! -- Slow English Podcast for A2 Beginners!',
+    title: 'Speak like a NATIVE! 🗣️ COMMON abbreviations! -- Slow English Podcast for A2 Beginners!',
     titleZh: '像當地人一樣說話！ 🗣️常見縮寫！ -- 適合 A2 初學者的慢速英語播客！',
     originalIndex: 23,
     displayOrder: 7,
@@ -78,7 +78,7 @@ const A2: PlaylistData = {
   {
     videoId: 'eQKkCYrlSrI',
     slug: 'ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary',
-    title: 'A1 BEGINNER Slow English Podcast -- SLEEP & REST Vocabulary??',
+    title: 'A1 BEGINNER Slow English Podcast -- SLEEP & REST Vocabulary💤',
     titleZh: 'A1 初級慢速英語播客 -- 睡眠與休息詞彙💤',
     originalIndex: 22,
     displayOrder: 8,
@@ -88,7 +88,7 @@ const A2: PlaylistData = {
   {
     videoId: 'F1lzm63PToM',
     slug: 'ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines',
-    title: 'Learn English with SLOW Interviews (comprehensible input) - A1+ Sleep Routines ??',
+    title: 'Learn English with SLOW Interviews (comprehensible input) - A1+ Sleep Routines 💤',
     titleZh: '透過 SLOW Interviews 學習英語（可理解的輸入） - A1+ 睡眠習慣 💤',
     originalIndex: 21,
     displayOrder: 9,
@@ -98,7 +98,7 @@ const A2: PlaylistData = {
   {
     videoId: 'ETQxQ2S9CbU',
     slug: 'ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input',
-    title: 'Powerful Daily Affirmations ?- Learn English and Practice Gratitude (comprehensible input)',
+    title: 'Powerful Daily Affirmations ✨- Learn English and Practice Gratitude (comprehensible input)',
     titleZh: '強大的每日肯定✨-學習英語並練習感恩（可理解的輸入）',
     originalIndex: 20,
     displayOrder: 10,
@@ -108,7 +108,7 @@ const A2: PlaylistData = {
   {
     videoId: '5QOcANSJyUE',
     slug: 'ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input',
-    title: 'The SCARIEST BEACH DAY! ??? �X Slow English Podcast for A1-A2 Beginners (comprehensible input)',
+    title: 'The SCARIEST BEACH DAY! 🏖️ — Slow English Podcast for A1-A2 Beginners (comprehensible input)',
     titleZh: '最恐怖的海灘日！ 🏖️ — 適合 A1-A2 初學者的慢速英語播客（可理解的輸入）',
     originalIndex: 19,
     displayOrder: 11,
@@ -118,7 +118,7 @@ const A2: PlaylistData = {
   {
     videoId: 'JUxfEKz2dE4',
     slug: 'ch12-grocery-store-essentials-for-a1-a2-beginners',
-    title: 'Grocery Store ESSENTIALS?? �X for A1-A2 Beginners!',
+    title: 'Grocery Store ESSENTIALS🛒 — for A1-A2 Beginners!',
     titleZh: '雜貨店必備品🛒 — 適合 A1-A2 初學者！',
     originalIndex: 18,
     displayOrder: 12,
@@ -128,7 +128,7 @@ const A2: PlaylistData = {
   {
     videoId: 'JJM5EdE1NBM',
     slug: 'ch13-my-weird-trip-in-puerto-escondido-storytime-slow-english-for-intermediate-listeners',
-    title: 'My WEIRD trip in Puerto Escondido (storytime)�X SLOW ENGLISH  for Intermediate Listeners!',
+    title: 'My WEIRD trip in Puerto Escondido (storytime)— SLOW ENGLISH  for Intermediate Listeners!',
     titleZh: '我在埃斯孔迪多港的怪異之旅（故事時間）——適合中級聽眾的慢英語！',
     originalIndex: 17,
     displayOrder: 13,
@@ -138,7 +138,7 @@ const A2: PlaylistData = {
   {
     videoId: 'EZJO4dDrROU',
     slug: 'ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines',
-    title: 'Learn English with SLOW conversations (comprehensible input) - A1+ WEEKEND ROUTINES ??',
+    title: 'Learn English with SLOW conversations (comprehensible input) - A1+ WEEKEND ROUTINES 💤',
     titleZh: '透過慢速對話（可理解的輸入）學習英語 - A1+ 週末例行公事 💤',
     originalIndex: 16,
     displayOrder: 14,
@@ -148,7 +148,7 @@ const A2: PlaylistData = {
   {
     videoId: 'dtacwt0Tmiw',
     slug: 'ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker',
-    title: 'Daily English Affirmations for Speaking, Confidence & Fluency - ��I am a fluent English speaker��',
+    title: 'Daily English Affirmations for Speaking, Confidence & Fluency - “I am a fluent English speaker”',
     titleZh: '關於口語、自信和流利程度的每日英語肯定語 - “我能說一口流利的英語”',
     originalIndex: 15,
     displayOrder: 15,
@@ -158,7 +158,7 @@ const A2: PlaylistData = {
   {
     videoId: 'CJoVQHh4H2E',
     slug: 'ch16-slow-english-podcast-my-day-a2-listening-practice',
-    title: 'Slow English Podcast - My day! A2 Listening Practice??',
+    title: 'Slow English Podcast - My day! A2 Listening Practice🎧',
     titleZh: '慢速英語播客 - 我的一天！ A2聽力練習🎧',
     originalIndex: 14,
     displayOrder: 16,
@@ -178,7 +178,7 @@ const A2: PlaylistData = {
   {
     videoId: 'XcNt1AorUrM',
     slug: 'ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice',
-    title: 'Slow English Podcast | A day in my life! ?? A2 English Listening Practice',
+    title: 'Slow English Podcast | A day in my life! 🎧 A2 English Listening Practice',
     titleZh: '慢速英語播客 |我生命中的一天！ 🎧 A2英語聽力練習',
     originalIndex: 12,
     displayOrder: 18,
@@ -188,7 +188,7 @@ const A2: PlaylistData = {
   {
     videoId: 'O9c2XvxMuwg',
     slug: 'ch19-english-sleep-learning-shadowing-positive-affirmations',
-    title: 'English Sleep Learning: Shadowing Positive Affirmations ??',
+    title: 'English Sleep Learning: Shadowing Positive Affirmations 😴',
     titleZh: '英語睡眠學習：影子積極肯定😴',
     originalIndex: 11,
     displayOrder: 19,
@@ -198,7 +198,7 @@ const A2: PlaylistData = {
   {
     videoId: 'VbOpdmAPmkE',
     slug: 'ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input',
-    title: 'Intermediate Slow English Podcast | My trip to the Elephant Sanctuary??(comprehensible input)',
+    title: 'Intermediate Slow English Podcast | My trip to the Elephant Sanctuary🐘(comprehensible input)',
     titleZh: '中級慢速英語播客 |我的大象保護區之旅🐘（可理解的輸入）',
     originalIndex: 10,
     displayOrder: 20,
@@ -208,7 +208,7 @@ const A2: PlaylistData = {
   {
     videoId: 'wKZkxYCGMdw',
     slug: 'ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input',
-    title: 'Slow English Reading - Learn English with Children��s Books (comprehensible input)',
+    title: 'Slow English Reading - Learn English with Children’s Books (comprehensible input)',
     titleZh: '慢速英語閱讀 - 用童書學英語（可理解的輸入）',
     originalIndex: 9,
     displayOrder: 21,
@@ -238,7 +238,7 @@ const A2: PlaylistData = {
   {
     videoId: 'XhU_0SsNFKE',
     slug: 'ch24-sleep-and-learn-english-shadow-positive-affirmations',
-    title: 'Sleep and Learn English: Shadow Positive Affirmations ??',
+    title: 'Sleep and Learn English: Shadow Positive Affirmations 😴',
     titleZh: '睡覺和學習英語：影子積極肯定😴',
     originalIndex: 6,
     displayOrder: 24,

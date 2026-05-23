@@ -4,92 +4,269 @@
   "level": "b2",
   "title": "SLOW English for Intermediate B2 (with subtitles in spanish)--- talking about 👉Languages",
   "youtubeUrl": "https://www.youtube.com/watch?v=Ac7NSxu2h1Y",
+  "header": {
+    "podcastLabel": "MissHoney B2",
+    "titleZh": "中級B2慢速英語（西班牙語字幕）---談論👉語言",
+    "titleEn": "SLOW English for Intermediate B2 (with subtitles in spanish)--- talking about 👉Languages",
+    "levelTag": "B2",
+    "topicTag": "language"
+  },
   "scenes": [
     {
       "id": "scene-01",
+      "no": "01",
+      "titleZh": "開場：語言學習",
+      "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Hello welcome back to my slow English podcast a podcast for English listening for beginners this podcast is level B1 today I will talk about languages I speak two languages English and Spanish when.",
-          "tc": "您好，歡迎來到我的慢速英語播客為初學者提供的英語聽力播客這個播客今天是B1級我今天將討論我說兩種語言的語言英語和西班牙語的時候。"
+          "en": "Welcome back to my slow English podcast a podcast for English listening for beginners.",
+          "tc": "歡迎回到我的慢速英語播客，這是一​​個針對初學者英語聽力的播客。"
         },
         {
-          "en": "Speaking I feel almost like I have two separate personalities one in English and one in Spanish the distinction between each language is not just the way I speak but also the volume of.",
-          "tc": "說話時，我幾乎覺得我有兩種不同的個性，一種是英語，另一種是西班牙語，每種語言之間的區別不僅僅是我說話的方式，還包括說話的音量。"
+          "en": "This podcast is level B1.",
+          "tc": "該播客的等級為 B1。"
         },
         {
-          "en": "Of my voice I am much louder in English than I am in Spanish however in Spanish I have a much more outgoing personality it's weird how a language can change your personality English.",
-          "tc": "在我的聲音中，我的英語聲音比西班牙語大得多，但在西班牙語中，我有一個更外向的個性，很奇怪一種語言如何改變你的個性英語。"
+          "en": "Today I will talk about languages I speak two languages English and Spanish when speaking.",
+          "tc": "今天我將談論語言我在演講時會說兩種語言英語和西班牙語。"
         },
         {
-          "en": "Is my first language I speak it with my family at home and whenever I teach English but when I speak Spanish I have only ever spoken at school or with my friends today.",
-          "tc": "是我的第一語言，我和家人在家裡說，每當我教英語，但當我說西班牙語時，我今天只在學校或和朋友說過。"
+          "en": "I feel almost like I have two separate personalities one in English and one in Spanish the distinction between each language is not just the way.",
+          "tc": "我覺得我幾乎有兩種不同的性格，一種是英語，一種是西班牙語，每種語言之間的差異不僅僅是方式。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "spanish",
+          "kk": "/spanish/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 spanish 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "speak",
+          "kk": "/speak/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段：日常生活",
+      "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "I only ever speak English with my friends I believe that's why I have a lot more casual vocabulary in Spanish than I do in English I have a lot more laidback Spanish then.",
-          "tc": "我只和朋友說英語，我相信這就是為什麼我西班牙語的休閒詞彙比英語多得多，那麼西班牙語的悠閒詞彙就多得多。"
+          "en": "I speak but also the volume of of my voice.",
+          "tc": "我說話，但也包括我聲音的音量。"
         },
         {
-          "en": "English at least that's why I think I have two different personalities in each language what about you do you ever feel like you have two different personalities in each language.",
-          "tc": "至少這就是為什麼我認為每種語言都有兩種不同的個性你覺得每種語言都有兩種不同的個性"
+          "en": "I am much louder in English than.",
+          "tc": "我說英語比我大聲得多。"
+        },
+        {
+          "en": "I am in Spanish however in Spanish I have a much more outgoing personality it's weird how a language can change your personality English is my.",
+          "tc": "我說西班牙語，但在西班牙語中，我的個性比較外向，奇怪的是，語言如何改變你的性格，英語是我的。"
+        },
+        {
+          "en": "First language I speak it with my family at home and whenever.",
+          "tc": "我在家裡隨時隨地與家人說的第一語言。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "spanish",
+          "kk": "/spanish/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 spanish 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "speak",
+          "kk": "/speak/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：人物與關係",
+      "titleEn": "Part 3: people",
+      "sentences": [
+        {
+          "en": "I teach English but when I speak Spanish I have only ever spoken at school or with my friends.",
+          "tc": "我教英語，但當我說西班牙語時，我只在學校或與朋友說過。"
+        },
+        {
+          "en": "Today I only ever speak English with my friends I believe that's why I have a lot more casual vocabulary in Spanish than.",
+          "tc": "今天我只和我的朋友說英語，我相信這就是為什麼我的西班牙語詞彙比西班牙語多得多。"
+        },
+        {
+          "en": "I do in English I have a lot more laidback Spanish.",
+          "tc": "我用英語，但我有更悠閒的西班牙語。"
+        },
+        {
+          "en": "Then English at least that's why I think I have two different personalities in each language what about you.",
+          "tc": "然後是英語，至少這就是為什麼我認為每種語言我都有兩種不同的性格，那麼你呢？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "spanish",
+          "kk": "/spanish/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 spanish 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "speak",
+          "kk": "/speak/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：語言學習",
+      "titleEn": "Part 4: language",
+      "sentences": [
+        {
+          "en": "Do you ever feel like you have two different personalities in each language?",
+          "tc": "你有沒有覺得每種語言都有兩種不同的個性？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "two",
+          "kk": "/two/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 two 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "each",
+          "kk": "/each/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 each 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     }
   ],
   "vocabGroups": [
     {
-      "label": "B2 transcript keywords",
+      "title": "B2 重點單字",
       "items": [
         {
-          "word": "spanish",
-          "pos": "word",
-          "meaning": "西班牙文",
+          "english": "spanish",
+          "kk": "/spanish/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 spanish 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "language",
-          "pos": "word",
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
           "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "speak",
-          "pos": "verb",
-          "meaning": "語音",
+          "english": "speak",
+          "kk": "/speak/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "two",
-          "pos": "word",
-          "meaning": "二",
+          "english": "two",
+          "kk": "/two/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 two 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "each",
-          "pos": "word",
-          "meaning": "每一個",
+          "english": "each",
+          "kk": "/each/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 each 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "ever",
-          "pos": "word",
-          "meaning": "錯誤",
+          "english": "ever",
+          "kk": "/ever/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 ever 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "languages",
-          "pos": "word",
-          "meaning": "語言&#x0D;",
+          "english": "languages",
+          "kk": "/languages/",
+          "partOfSpeech": "n.",
+          "meaning": "語言學習相關的常用字",
+          "note": "看到 languages 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "more",
-          "pos": "word",
-          "meaning": "的",
+          "english": "more",
+          "kk": "/more/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 more 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -102,30 +279,80 @@
       "meaning": "談論",
       "examples": [
         {
-          "en": "This podcast is level B1 today I will talk about languages I speak two languages English and Spanish when speaking.",
-          "tc": "這個Podcast是今天的B1級，我將討論我說英語和西班牙語時會說兩種語言的語言。"
+          "en": "Today I will talk about languages I speak two languages English and Spanish when speaking.",
+          "tc": "今天我將談論語言我在演講時會說兩種語言英語和西班牙語。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "speak english",
-      "meaning": "aku ga ngerti bahasa kamu",
+      "phrase": "i think",
+      "meaning": "常用說法，可用來表達「i think」這個意思",
       "examples": [
         {
-          "en": "Or with my friends today I only ever speak English with my friends I believe that's why I have a.",
-          "tc": "或者今天和我的朋友在一起，我只和我的朋友說英語，我相信這就是為什麼我有一個。"
+          "en": "Then English at least that's why I think I have two different personalities in each language what about you.",
+          "tc": "然後是英語，至少這就是為什麼我認為每種語言我都有兩種不同的性格，那麼你呢？"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "i think",
-      "meaning": "我想，",
+      "phrase": "i feel",
+      "meaning": "常用說法，可用來表達「i feel」這個意思",
       "examples": [
         {
-          "en": "Laidback Spanish then English at least that's why I think I have two different personalities in each language what about.",
-          "tc": "悠閒的西班牙語和英語，至少這就是為什麼我認為每種語言都有兩種不同的個性。"
+          "en": "I feel almost like I have two separate personalities one in English and one in Spanish the distinction between each language is not just the way.",
+          "tc": "我覺得我幾乎有兩種不同的性格，一種是英語，一種是西班牙語，每種語言之間的差異不僅僅是方式。"
+        }
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "breakdown-01",
+      "sentence": "Welcome back to my slow English podcast a podcast for English listening for beginners.",
+      "translation": "歡迎回到我的慢速英語播客，這是一​​個針對初學者英語聽力的播客。",
+      "points": [
+        {
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-02",
+      "sentence": "This podcast is level B1.",
+      "translation": "該播客的等級為 B1。",
+      "points": [
+        {
+          "label": "level",
+          "text": "level",
+          "note": "注意 \"level\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-03",
+      "sentence": "Today I will talk about languages I speak two languages English and Spanish when speaking.",
+      "translation": "今天我將談論語言我在演講時會說兩種語言英語和西班牙語。",
+      "points": [
+        {
+          "label": "talk about",
+          "text": "talk about",
+          "note": "注意 \"talk about\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "I feel almost like I have two separate personalities one in English and one in Spanish the distinction between each language is not just the way.",
+      "translation": "我覺得我幾乎有兩種不同的性格，一種是英語，一種是西班牙語，每種語言之間的差異不僅僅是方式。",
+      "points": [
+        {
+          "label": "i feel",
+          "text": "i feel",
+          "note": "注意 \"i feel\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

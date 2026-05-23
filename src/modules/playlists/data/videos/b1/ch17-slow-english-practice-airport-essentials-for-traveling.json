@@ -4,386 +4,357 @@
   "level": "b1",
   "title": "Slow English Practice | Airport ESSENTIALS for traveling ✈️",
   "youtubeUrl": "https://www.youtube.com/watch?v=yIPTy4BqGSA",
+  "header": {
+    "podcastLabel": "MissHoney B1",
+    "titleZh": "慢速英語練習 |機場旅行必備品✈️",
+    "titleEn": "Slow English Practice | Airport ESSENTIALS for traveling ✈️",
+    "levelTag": "B1",
+    "topicTag": "travel"
+  },
   "scenes": [
     {
       "id": "scene-01",
+      "no": "01",
+      "titleZh": "開場：語言學習",
+      "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Hello and welcome back to my Slow English podcast. Today we are at the airport. We are going to take a flight. Join us. The.",
-          "tc": "中文整理：Hello and welcome back to my Slow English podcast. Today we are at the airport. We are going to take a flight. Join us. "
+          "en": "Welcome back to my Slow English podcast. Today.",
+          "tc": "歡迎回到我的慢速英語播客。今天。"
         },
         {
-          "en": "Automatic doors slide open and right away you see the FIDS board, the flight information display system where you can see your flight status, whether.",
-          "tc": "中文整理：Automatic doors slide open and right away you see the FIDS board, the flight information display system where you can se"
+          "en": "We are at the airport.",
+          "tc": "我們在機場。"
         },
         {
-          "en": "It's on time, delayed, or cancelled. Then we found our checkin counter. We were flying with Air Asia, so we had to find the Air.",
-          "tc": "中文整理：It's on time, delayed, or cancelled. Then we found our checkin counter. We were flying with Air Asia, so we had to find "
+          "en": "We are going to take a flight. Join us. The automatic doors slide open and right away.",
+          "tc": "我們要搭飛機了。加入我們。自動門立即滑開。"
         },
         {
-          "en": "Asia checkin counter. I am in line to check in. Some people prefer the selfch checkin kiosk, but I don't like this selfcheckin system as.",
-          "tc": "中文整理：Asia checkin counter. I am in line to check in. Some people prefer the selfch checkin kiosk, but I don't like this selfc"
+          "en": "You see the FIDS board, the flight information display system where you can see your flight status, whether it's on time, delayed, or cancelled.",
+          "tc": "您會看到 FIDS 板，這是一個航班資訊顯示系統，您可以在其中查看航班狀態，無論是準時、延誤還是取消。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段：日常生活",
+      "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "Much. Sometimes it makes me nervous. I prefer to check in at a counter with a real person. What about you? Do you prefer the.",
-          "tc": "中文整理：Much. Sometimes it makes me nervous. I prefer to check in at a counter with a real person. What about you? Do you prefer"
+          "en": "We found our checkin counter.",
+          "tc": "我們找到了報到櫃檯。"
         },
         {
-          "en": "Checkin counter or the selfch checkckin kiosk? >> I am taking the escalator, the electric stairs. You can also take the elevator, but only if.",
-          "tc": "中文整理：Checkin counter or the selfch checkckin kiosk? >> I am taking the escalator, the electric stairs. You can also take the "
+          "en": "We were flying with Air Asia,.",
+          "tc": "我們搭乘的是亞洲航空的航班。"
         },
         {
-          "en": "You need it. Maybe if you have big luggage or you're in a wheelchair, but it's exclusive for people who need the elevator. I'm okay.",
-          "tc": "中文整理：You need it. Maybe if you have big luggage or you're in a wheelchair, but it's exclusive for people who need the elevato"
+          "en": "We had to find the Air Asia checkin counter.",
+          "tc": "我們必須找到亞洲航空報到櫃檯。"
         },
         {
-          "en": "With taking the escalator, the electric stairs. We got some lunch before our flight. We were close to international arrivals, but we had to get.",
-          "tc": "中文整理：With taking the escalator, the electric stairs. We got some lunch before our flight. We were close to international arri"
+          "en": "I am in line to check in. Some people prefer the selfch checkin kiosk, but I don't like this selfcheckin system as much.",
+          "tc": "我正在排隊辦理登機手續。有些人喜歡自助辦理登機手續亭，但我不太喜歡這種自助登機系統。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "checkin",
+          "kk": "/checkin/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 checkin 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "counter",
+          "kk": "/counter/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 counter 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "To international departures because we were departing, not arriving. I got my passport ready and my ticket and we passed through the security checkpoint where.",
-          "tc": "中文整理：To international departures because we were departing, not arriving. I got my passport ready and my ticket and we passed"
+          "en": "Sometimes it makes me nervous. I prefer to check in at a counter with a real person. What about you?",
+          "tc": "有時這讓我緊張。我更喜歡在櫃檯與真人一起辦理登機手續。你呢？"
         },
         {
-          "en": "You have to take out anything metal like keys, bracelets, coins or change, your computer or laptop, your phone, your headphones and sometimes even your.",
-          "tc": "中文整理：You have to take out anything metal like keys, bracelets, coins or change, your computer or laptop, your phone, your hea"
+          "en": "Do you prefer the checkin counter or the selfch checkckin kiosk? >>?",
+          "tc": "您喜歡報到櫃檯還是自助報到亭？ >>？"
         },
         {
-          "en": "Shoes. The queue or line was very long, but once we got through security, we were in. I always love the dutyfree stores. They're super.",
-          "tc": "中文整理：Shoes. The queue or line was very long, but once we got through security, we were in. I always love the dutyfree stores."
+          "en": "I am taking the escalator, the electric stairs. You can also take the elevator, but only.",
+          "tc": "我搭乘自動扶梯，電動樓梯。您也可以搭乘電梯，但僅限。"
         },
         {
-          "en": "Expensive, but I like looking through each store while I wait. We walk past Cartiier and Starbucks as we make our way to our gate.",
-          "tc": "中文整理：Expensive, but I like looking through each store while I wait. We walk past Cartiier and Starbucks as we make our way to"
+          "en": "If you need it. Maybe.",
+          "tc": "如果你需要的話。或許。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "checkin",
+          "kk": "/checkin/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 checkin 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "counter",
+          "kk": "/counter/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 counter 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "By following the signs with gate number instructions on them. It was super useful that they put how long of a walk each gate was.",
-          "tc": "中文整理：By following the signs with gate number instructions on them. It was super useful that they put how long of a walk each "
+          "en": "If you have big luggage or you're in a wheelchair, but it's exclusive for people who need the elevator. I'm okay with taking the escalator, the electric stairs.",
+          "tc": "如果您有大件行李或坐在輪椅上，但它是專門為需要電梯的人提供的。我可以搭乘自動扶梯、電動樓梯。"
         },
         {
-          "en": "At. 10 minutes, 5 minutes, 1 minute. That way, you're not super rushed or in a hurry to get to your gate. when you still.",
-          "tc": "中文整理：At. 10 minutes, 5 minutes, 1 minute. That way, you're not super rushed or in a hurry to get to your gate. when you still"
+          "en": "We got some lunch before our flight.",
+          "tc": "我們在起飛前吃了午餐。"
         },
         {
-          "en": "Have lots of time to get there. When it's only a fiveinut walk and you also know if you need to hurry if you need.",
-          "tc": "中文整理：Have lots of time to get there. When it's only a fiveinut walk and you also know if you need to hurry if you need."
+          "en": "We were close to international arrivals,.",
+          "tc": "我們離國際航班很近。"
         },
         {
-          "en": "To rush to your gate. I usually eat something while I wait at my gate. I wait at my boarding gate. It can be long.",
-          "tc": "中文整理：To rush to your gate. I usually eat something while I wait at my gate. I wait at my boarding gate. It can be long."
+          "en": "We had to get to international departures.",
+          "tc": "我們必須前往國際出發航班。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "got",
+          "kk": "/got/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "Sometimes, so I usually get some dessert. This one was a sweet bean dessert in Thailand. It was so sweet. I loved it. I'm curious.",
-          "tc": "中文整理：Sometimes, so I usually get some dessert. This one was a sweet bean dessert in Thailand. It was so sweet. I loved it. I'"
+          "en": "We were departing, not arriving. I got my passport ready and my ticket.",
+          "tc": "我們正在出發，而不是到達。我已經準備好護照和機票了。"
         },
         {
-          "en": "Have you ever tried one of these little sweet treats? What do you think of them? Before boarding, I always go to the bathroom. I.",
-          "tc": "中文整理：Have you ever tried one of these little sweet treats? What do you think of them? Before boarding, I always go to the bat"
+          "en": "We passed through the security checkpoint where you have to take out anything metal like keys, bracelets, coins or change, your computer or laptop, your phone, your headphones.",
+          "tc": "我們通過了安​​全檢查站，你必須取出任何金屬物品，如鑰匙、手鐲、硬幣或零錢、你的電腦或筆記型電腦、你的手機、你的耳機。"
         },
         {
-          "en": "Make sure I have my two bags. And then we get on the airport shuttle bus. This shuttle drives us to the airplane. Sometimes we.",
-          "tc": "中文整理：Make sure I have my two bags. And then we get on the airport shuttle bus. This shuttle drives us to the airplane. Someti"
+          "en": "Sometimes even your shoes. The queue or line was very long, but once.",
+          "tc": "有時甚至是你的鞋子。隊列很長，但有一次。"
         },
         {
-          "en": "Take a shuttle to a plane and sometimes you just go straight through and board the plane. I prefer going straight to the plane, but.",
-          "tc": "中文整理：Take a shuttle to a plane and sometimes you just go straight through and board the plane. I prefer going straight to the"
+          "en": "We got through security,.",
+          "tc": "我們通過了安​​檢，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "got",
+          "kk": "/got/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "Sometimes you have to take a shuttle. The shuttle took all of the passengers to the plane and then we waited in line to board.",
-          "tc": "中文整理：Sometimes you have to take a shuttle. The shuttle took all of the passengers to the plane and then we waited in line to "
+          "en": "We were in. I always love the dutyfree stores.",
+          "tc": "我們進去了。我一直很喜歡免稅店。"
         },
         {
-          "en": "We had to climb stairs to board our plane. We walked through the aisle of the plane and we put our luggage in the overhead.",
-          "tc": "中文整理：We had to climb stairs to board our plane. We walked through the aisle of the plane and we put our luggage in the overhe"
+          "en": "They're super expensive,.",
+          "tc": "它們超級貴，。"
         },
         {
-          "en": "Bin right above our seats. Here I am sitting in the aisle seat because I'm right next to the aisle. This is my personal favorite.",
-          "tc": "中文整理：Bin right above our seats. Here I am sitting in the aisle seat because I'm right next to the aisle. This is my personal "
+          "en": "I like looking through each store while I wait.",
+          "tc": "我喜歡在等待的時候瀏覽每家商店。"
         },
         {
-          "en": "Seat because I can get up and go to the bathroom however many times I need and I use the bathroom a lot. I love.",
-          "tc": "中文整理：Seat because I can get up and go to the bathroom however many times I need and I use the bathroom a lot. I love."
+          "en": "We walk past Cartiier and Starbucks as.",
+          "tc": "我們走過卡地亞和星巴克。"
         }
-      ]
-    },
-    {
-      "id": "scene-07",
-      "sentences": [
+      ],
+      "tags": [
         {
-          "en": "A plane with screens to watch movies on. This plane was super empty. So, I got a window seat. The aisle seat and the middle.",
-          "tc": "中文整理：A plane with screens to watch movies on. This plane was super empty. So, I got a window seat. The aisle seat and the mid"
-        },
-        {
-          "en": "Seat were both empty. So, I chose the window seat. And then we are ready to take off. The plane drives on the runway for.",
-          "tc": "中文整理：Seat were both empty. So, I chose the window seat. And then we are ready to take off. The plane drives on the runway for"
-        },
-        {
-          "en": "A little while and once it gains enough speed, we take off and then I'm ready to put on my sleep mask and take a.",
-          "tc": "中文整理：A little while and once it gains enough speed, we take off and then I'm ready to put on my sleep mask and take a."
-        },
-        {
-          "en": "Long nap. The best way to spend a flight is sleeping through it. On long flights, they normally give you a pillow and a blanket.",
-          "tc": "中文整理：Long nap. The best way to spend a flight is sleeping through it. On long flights, they normally give you a pillow and a "
-        }
-      ]
-    },
-    {
-      "id": "scene-08",
-      "sentences": [
-        {
-          "en": "And you get to watch movies on the flight. On long flights, I always bring my neck pillow and I like watching the screen to.",
-          "tc": "中文整理：And you get to watch movies on the flight. On long flights, I always bring my neck pillow and I like watching the screen"
-        },
-        {
-          "en": "See how far we have traveled. I also like just looking at the world and learning about different countries that I've never heard of. before.",
-          "tc": "中文整理：See how far we have traveled. I also like just looking at the world and learning about different countries that I've nev"
-        },
-        {
-          "en": "During my flights, I like to work on my computer. And during longer flights, I love how they tint out the windows so that even.",
-          "tc": "中文整理：During my flights, I like to work on my computer. And during longer flights, I love how they tint out the windows so tha"
-        },
-        {
-          "en": "If it's sunny outside, it will seem like it's nighttime. It makes the sun look very pretty. Then the sun rises and I think it's.",
-          "tc": "中文整理：If it's sunny outside, it will seem like it's nighttime. It makes the sun look very pretty. Then the sun rises and I thi"
-        }
-      ]
-    },
-    {
-      "id": "scene-09",
-      "sentences": [
-        {
-          "en": "Almost time to land. Finally, I wait my turn to get off the plane. I get my bags down from the overhead bin and we.",
-          "tc": "中文整理：Almost time to land. Finally, I wait my turn to get off the plane. I get my bags down from the overhead bin and we."
-        },
-        {
-          "en": "Walk out. There is normally an escalator to get to immigration or passport control. You scan your passport and maybe talk to some immigration officer.",
-          "tc": "中文整理：Walk out. There is normally an escalator to get to immigration or passport control. You scan your passport and maybe tal"
-        },
-        {
-          "en": "And then you're there in the country you want to be in. But if you have a layover, you normally still have to go through.",
-          "tc": "中文整理：And then you're there in the country you want to be in. But if you have a layover, you normally still have to go through"
-        },
-        {
-          "en": "Passport control depending on the country, but you just don't leave the airport. You stay. When I have layovers, I usually stop by the food.",
-          "tc": "中文整理：Passport control depending on the country, but you just don't leave the airport. You stay. When I have layovers, I usual"
-        }
-      ]
-    },
-    {
-      "id": "scene-10",
-      "sentences": [
-        {
-          "en": "Court where I can find pizza, Mexican food, Chinese food, or McDonald's. This time I got an orange smoothie and a croissant sandwich. I eat.",
-          "tc": "中文整理：Court where I can find pizza, Mexican food, Chinese food, or McDonald's. This time I got an orange smoothie and a croiss"
-        },
-        {
-          "en": "During my layovers. Then I make my way to my gate again. Now, this gate is to get me to my final destination, not just.",
-          "tc": "中文整理：During my layovers. Then I make my way to my gate again. Now, this gate is to get me to my final destination, not just."
-        },
-        {
-          "en": "My layover. I saw these super cool suitcases. You can drive and sit down on them. That way, you don't need to walk. Now, sometimes.",
-          "tc": "中文整理：My layover. I saw these super cool suitcases. You can drive and sit down on them. That way, you don't need to walk. Now,"
-        },
-        {
-          "en": "Your next gate is at a different terminal. Maybe you're at terminal 1 and your next flight leaves at terminal 4, maybe terminal A, and.",
-          "tc": "中文整理：Your next gate is at a different terminal. Maybe you're at terminal 1 and your next flight leaves at terminal 4, maybe t"
-        }
-      ]
-    },
-    {
-      "id": "scene-11",
-      "sentences": [
-        {
-          "en": "You need to get to terminal F, depending on the airport. So, you need to take the airport train or airport shuttle. So, you look.",
-          "tc": "中文整理：You need to get to terminal F, depending on the airport. So, you need to take the airport train or airport shuttle. So, "
-        },
-        {
-          "en": "At the signs and you follow them to the airport shuttle and that takes you to your next terminal. This flight left from terminal 4.",
-          "tc": "中文整理：At the signs and you follow them to the airport shuttle and that takes you to your next terminal. This flight left from "
-        },
-        {
-          "en": "So, I took the shuttle from terminal 1 to terminal 4. I love walking on the moving walkway or the moving sidewalks. I feel like.",
-          "tc": "中文整理：So, I took the shuttle from terminal 1 to terminal 4. I love walking on the moving walkway or the moving sidewalks. I fe"
-        },
-        {
-          "en": "I'm flying here. I looked so tired I barely got any sleep. So, I ordered a juice and I edited for a little while. Then.",
-          "tc": "中文整理：I'm flying here. I looked so tired I barely got any sleep. So, I ordered a juice and I edited for a little while. Then."
-        }
-      ]
-    },
-    {
-      "id": "scene-12",
-      "sentences": [
-        {
-          "en": "It's time to wait at your gate. You don't want to wait somewhere else because you might miss your flight. Finally, you land at your.",
-          "tc": "中文整理：It's time to wait at your gate. You don't want to wait somewhere else because you might miss your flight. Finally, you l"
-        },
-        {
-          "en": "Final destination. Whether that's home or a place you want to travel or the home of someone you love. But if you checked a bag,.",
-          "tc": "中文整理：Final destination. Whether that's home or a place you want to travel or the home of someone you love. But if you checked"
-        },
-        {
-          "en": "Then you need to go get your bag at the luggage carousel. You check your gates and your flight to make sure it's the same.",
-          "tc": "中文整理：Then you need to go get your bag at the luggage carousel. You check your gates and your flight to make sure it's the sam"
-        },
-        {
-          "en": "As yours, and you wait until you see your luggage pass by. I don't know about you, but I love my airport outfits. They are.",
-          "tc": "中文整理：As yours, and you wait until you see your luggage pass by. I don't know about you, but I love my airport outfits. They a"
-        }
-      ]
-    },
-    {
-      "id": "scene-13",
-      "sentences": [
-        {
-          "en": "Super cozy. Here's one. A baggie shirt, my high bun, and some very loose pants. Now, here's a little story time of when I lost.",
-          "tc": "中文整理：Super cozy. Here's one. A baggie shirt, my high bun, and some very loose pants. Now, here's a little story time of when "
-        },
-        {
-          "en": "My passport in Beijing. Have you ever lost your passport? I am at the airport. This is my airport outfit. What do you wear to.",
-          "tc": "中文整理：My passport in Beijing. Have you ever lost your passport? I am at the airport. This is my airport outfit. What do you we"
-        },
-        {
-          "en": "The airport? I feel so comfy. Like I'm wearing a blanket. I have two big backpacks. One is a carry on and the other one.",
-          "tc": "中文整理：The airport? I feel so comfy. Like I'm wearing a blanket. I have two big backpacks. One is a carry on and the other one."
-        },
-        {
-          "en": "Is a personal item. I am at the Beijing airport, but I'm not staying here. Beijing is just my layover to go to Bangkok, Thailand.",
-          "tc": "中文整理：Is a personal item. I am at the Beijing airport, but I'm not staying here. Beijing is just my layover to go to Bangkok, "
-        }
-      ]
-    },
-    {
-      "id": "scene-14",
-      "sentences": [
-        {
-          "en": "My final destination is Bangkok, Thailand. But don't worry, I will be back to Beijing in one week to visit the city. My flight from.",
-          "tc": "中文整理：My final destination is Bangkok, Thailand. But don't worry, I will be back to Beijing in one week to visit the city. My "
-        },
-        {
-          "en": "Tijuana to Beijing was 12 hours long. I'm super jetlagged and I still have another 4 hours. And actually, I was so stressed out about.",
-          "tc": "中文整理：Tijuana to Beijing was 12 hours long. I'm super jetlagged and I still have another 4 hours. And actually, I was so stres"
-        },
-        {
-          "en": "Getting wifi to work on my videos, editing, and answering emails that I forgot my passport. I left it on the table and I walked.",
-          "tc": "中文整理：Getting wifi to work on my videos, editing, and answering emails that I forgot my passport. I left it on the table and I"
-        },
-        {
-          "en": "Away searching for Wi-Fi. I realized I lost my passport and I ran desperately looking and asking everyone, but nobody speaks English. So, I was.",
-          "tc": "中文整理：Away searching for Wi-Fi. I realized I lost my passport and I ran desperately looking and asking everyone, but nobody sp"
-        }
-      ]
-    },
-    {
-      "id": "scene-15",
-      "sentences": [
-        {
-          "en": "Super stressed just a minute ago. Now, I'm a lot more relaxed. I don't have Wi-Fi, but now I know it could be much worse.",
-          "tc": "中文整理：Super stressed just a minute ago. Now, I'm a lot more relaxed. I don't have Wi-Fi, but now I know it could be much worse"
-        },
-        {
-          "en": "Sometimes life just teaches you lessons that you need at that moment to really appreciate what you do have and not stress about little things.",
-          "tc": "中文整理：Sometimes life just teaches you lessons that you need at that moment to really appreciate what you do have and not stres"
-        },
-        {
-          "en": "Like Wi-Fi. Have you ever lost your passport before? All right, guys. Thank you so much for joining me. I hope you learned some new.",
-          "tc": "中文整理：Like Wi-Fi. Have you ever lost your passport before? All right, guys. Thank you so much for joining me. I hope you learn"
-        },
-        {
-          "en": "English vocabulary and I hope this helps you in the future if you're ever traveling anywhere and you need to find your passport or your.",
-          "tc": "中文整理：English vocabulary and I hope this helps you in the future if you're ever traveling anywhere and you need to find your p"
-        }
-      ]
-    },
-    {
-      "id": "scene-16",
-      "sentences": [
-        {
-          "en": "Gate number or your terminal. If you're feeling nervous about traveling somewhere and not knowing what to do, use this video to guide you through.",
-          "tc": "中文整理：Gate number or your terminal. If you're feeling nervous about traveling somewhere and not knowing what to do, use this v"
-        },
-        {
-          "en": "That unknown vocabulary at airports. Have a beautiful day and don't stop learning. See you next time. Bye.",
-          "tc": "中文整理：That unknown vocabulary at airports. Have a beautiful day and don't stop learning. See you next time. Bye."
+          "english": "through",
+          "kk": "/through/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 through 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     }
   ],
   "vocabGroups": [
     {
-      "label": "B1 transcript keywords",
+      "title": "B1 重點單字",
       "items": [
         {
-          "word": "but",
-          "pos": "word",
-          "meaning": "但是",
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "airport",
-          "pos": "word",
-          "meaning": "機場",
+          "english": "checkin",
+          "kk": "/checkin/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 checkin 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "get",
-          "pos": "verb",
-          "meaning": "得到",
+          "english": "counter",
+          "kk": "/counter/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 counter 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "word": "gate",
-          "pos": "word",
-          "meaning": "中文整理：gate",
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "flight",
-          "pos": "word",
-          "meaning": "飛行",
+          "english": "got",
+          "kk": "/got/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "need",
-          "pos": "verb",
-          "meaning": "中文整理：need",
+          "english": "prefer",
+          "kk": "/prefer/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 prefer 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "passport",
-          "pos": "word",
-          "meaning": "中文整理：passport",
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "word": "plane",
-          "pos": "word",
-          "meaning": "中文整理：plane",
+          "english": "through",
+          "kk": "/through/",
+          "partOfSpeech": "n.",
+          "meaning": "日常生活相關的常用字",
+          "note": "看到 through 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -392,34 +363,84 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "what do you",
-      "meaning": "你做什麼",
+      "phrase": "going to",
+      "meaning": "常用說法，可用來表達「going to」這個意思",
       "examples": [
         {
-          "en": "Ever tried one of these little sweet treats? What do you think of them? Before boarding, I always go to the.",
-          "tc": "中文整理：Ever tried one of these little sweet treats? What do you think of them? Before boarding, I always go to the."
+          "en": "We are going to take a flight.",
+          "tc": "我們要搭飛機了。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "going to",
-      "meaning": "去",
+      "phrase": "have to",
+      "meaning": "常用說法，可用來表達「have to」這個意思",
       "examples": [
         {
-          "en": "Today we are at the airport. We are going to take a flight. Join us. The automatic doors slide open.",
-          "tc": "中文整理：Today we are at the airport. We are going to take a flight. Join us. The automatic doors slide open."
+          "en": "We passed through the security checkpoint where you have to take out anything metal like keys, bracelets, coins or change, your computer or laptop, your phone, your headphones.",
+          "tc": "我們通過了安​​全檢查站，你必須取出任何金屬物品，如鑰匙、手鐲、硬幣或零錢、你的電腦或筆記型電腦、你的手機、你的耳機。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "want to",
-      "meaning": "想要",
+      "phrase": "i like",
+      "meaning": "常用說法，可用來表達「i like」這個意思",
       "examples": [
         {
-          "en": "And then you're there in the country you want to be in. But if you have a layover, you normally.",
-          "tc": "中文整理：And then you're there in the country you want to be in. But if you have a layover, you normally."
+          "en": "I like looking through each store while I wait.",
+          "tc": "我喜歡在等待的時候瀏覽每家商店。"
+        }
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "breakdown-01",
+      "sentence": "Welcome back to my Slow English podcast. Today.",
+      "translation": "歡迎回到我的慢速英語播客。今天。",
+      "points": [
+        {
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-02",
+      "sentence": "We are at the airport.",
+      "translation": "我們在機場。",
+      "points": [
+        {
+          "label": "airport",
+          "text": "airport",
+          "note": "注意 \"airport\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-03",
+      "sentence": "We are going to take a flight. Join us. The automatic doors slide open and right away.",
+      "translation": "我們要搭飛機了。加入我們。自動門立即滑開。",
+      "points": [
+        {
+          "label": "going to",
+          "text": "going to",
+          "note": "注意 \"going to\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "You see the FIDS board, the flight information display system where you can see your flight status, whether it's on time, delayed, or cancelled.",
+      "translation": "您會看到 FIDS 板，這是一個航班資訊顯示系統，您可以在其中查看航班狀態，無論是準時、延誤還是取消。",
+      "points": [
+        {
+          "label": "see fids board",
+          "text": "see fids board",
+          "note": "注意 \"see fids board\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

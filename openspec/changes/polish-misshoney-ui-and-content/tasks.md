@@ -32,33 +32,33 @@
 - [x] [P] 4.3 重新校稿 A1 ch13–ch18，交付同樣的新 schema 正式稿與內容品質；以內容 review 清單與 validator 驗證這 6 支。
 - [x] 4.4 執行 A1 全等級驗證與 promotion，確保 A1 所有 ready JSON 通過 polished validator 並寫入 app data；以 `npm run misshoney:validate-content -- --level a1`、`npm run misshoney:promote-content -- --level a1` 與 `/a1` route smoke 驗證。
 
-## 5. A2 內容重新校稿與 promote
+## 5. A2 內容 AI 校稿與 promote
 
-- [ ] [P] 5.1 重新校稿 A2 ch1–ch10，完成新 schema 正式稿、自然中英對照、教學單字片語與句型解析；以內容 review 清單與 validator 驗證這 10 支。
-- [ ] [P] 5.2 重新校稿 A2 ch11–ch20，完成新 schema 正式稿、自然中英對照、教學單字片語與句型解析；以內容 review 清單與 validator 驗證這 10 支。
-- [ ] [P] 5.3 重新校稿 A2 ch21–ch29，完成新 schema 正式稿、自然中英對照、教學單字片語與句型解析；以內容 review 清單與 validator 驗證這 9 支。
-- [ ] 5.4 執行 A2 全等級驗證與 promotion，確保 A2 所有 ready JSON 通過 polished validator 並寫入 app data；以 `npm run misshoney:validate-content -- --level a2`、`npm run misshoney:promote-content -- --level a2` 與 `/a2` route smoke 驗證。
+- [ ] [P] 5.1 依「AI proofreading preserves transcript coverage and corrects learning errors」由 AI 校稿 A2 ch1–ch10：對照 transcript/scaffold 與 generated JSON，盡量保留完整有意義字幕，不摘要或大幅刪除內容，並修正翻譯、英文拼字、語法、斷句、單字片語與句型解析錯誤；以校稿紀錄、抽查 slug 與 `npm run misshoney:validate-content -- --level a2 --generated-only` 驗證這 10 支。
+- [ ] [P] 5.2 依「AI proofreading preserves transcript coverage and corrects learning errors」由 AI 校稿 A2 ch11–ch20：對照 transcript/scaffold 與 generated JSON，盡量保留完整有意義字幕，不摘要或大幅刪除內容，並修正翻譯、英文拼字、語法、斷句、單字片語與句型解析錯誤；以校稿紀錄、抽查 slug 與 `npm run misshoney:validate-content -- --level a2 --generated-only` 驗證這 10 支。
+- [ ] [P] 5.3 依「AI proofreading preserves transcript coverage and corrects learning errors」由 AI 校稿 A2 ch21–ch29：對照 transcript/scaffold 與 generated JSON，盡量保留完整有意義字幕，不摘要或大幅刪除內容，並修正翻譯、英文拼字、語法、斷句、單字片語與句型解析錯誤；以校稿紀錄、抽查 slug 與 `npm run misshoney:validate-content -- --level a2 --generated-only` 驗證這 9 支。
+- [ ] 5.4 執行 A2 全等級驗證與 promotion，確保 A2 AI 校稿後所有 ready JSON 通過 polished validator 並寫入 app data；以 `npm run misshoney:validate-content -- --level a2`、`npm run misshoney:promote-content -- --level a2` 與 `/a2` route smoke 驗證。
 
-## 6. B1 內容重新校稿與 promote
+## 6. B1 內容 AI 校稿與 promote
 
-- [ ] [P] 6.1 重新校稿 B1 ch1–ch7，完成新 schema 正式稿、自然中英對照、教學單字片語與句型解析；以內容 review 清單與 validator 驗證這 7 支。
-- [ ] [P] 6.2 重新校稿 B1 ch8–ch14，完成新 schema 正式稿、自然中英對照、教學單字片語與句型解析；以內容 review 清單與 validator 驗證這 7 支。
-- [ ] [P] 6.3 重新校稿 B1 ch15–ch21，完成新 schema 正式稿、自然中英對照、教學單字片語與句型解析；以內容 review 清單與 validator 驗證這 7 支。
-- [ ] 6.4 執行 B1 全等級驗證與 promotion，確保 B1 所有 ready JSON 通過 polished validator 並寫入 app data；以 `npm run misshoney:validate-content -- --level b1`、`npm run misshoney:promote-content -- --level b1` 與 `/b1` route smoke 驗證。
+- [ ] [P] 6.1 依「AI proofreading preserves transcript coverage and corrects learning errors」由 AI 校稿 B1 ch1–ch7：對照 transcript/scaffold 與 generated JSON，盡量保留完整有意義字幕，不摘要或大幅刪除內容，並修正翻譯、英文拼字、語法、斷句、單字片語與句型解析錯誤；以校稿紀錄、抽查 slug 與 `npm run misshoney:validate-content -- --level b1 --generated-only` 驗證這 7 支。
+- [ ] [P] 6.2 依「AI proofreading preserves transcript coverage and corrects learning errors」由 AI 校稿 B1 ch8–ch14：對照 transcript/scaffold 與 generated JSON，盡量保留完整有意義字幕，不摘要或大幅刪除內容，並修正翻譯、英文拼字、語法、斷句、單字片語與句型解析錯誤；以校稿紀錄、抽查 slug 與 `npm run misshoney:validate-content -- --level b1 --generated-only` 驗證這 7 支。
+- [ ] [P] 6.3 依「AI proofreading preserves transcript coverage and corrects learning errors」由 AI 校稿 B1 ch15–ch21：對照 transcript/scaffold 與 generated JSON，盡量保留完整有意義字幕，不摘要或大幅刪除內容，並修正翻譯、英文拼字、語法、斷句、單字片語與句型解析錯誤；以校稿紀錄、抽查 slug 與 `npm run misshoney:validate-content -- --level b1 --generated-only` 驗證這 7 支。
+- [ ] 6.4 執行 B1 全等級驗證與 promotion，確保 B1 AI 校稿後所有 ready JSON 通過 polished validator 並寫入 app data；以 `npm run misshoney:validate-content -- --level b1`、`npm run misshoney:promote-content -- --level b1` 與 `/b1` route smoke 驗證。
 
-## 7. B2 內容重新校稿與 promote
+## 7. B2 內容 AI 校稿與 promote
 
-- [ ] [P] 7.1 重新校稿 B2 ch1–ch6，完成新 schema 正式稿、自然中英對照、教學單字片語與句型解析；以內容 review 清單與 validator 驗證這 6 支。
-- [ ] [P] 7.2 重新校稿 B2 ch7–ch12，完成新 schema 正式稿、自然中英對照、教學單字片語與句型解析；以內容 review 清單與 validator 驗證這 6 支。
-- [ ] [P] 7.3 重新校稿 B2 ch13–ch17，完成新 schema 正式稿、自然中英對照、教學單字片語與句型解析；以內容 review 清單與 validator 驗證這 5 支。
-- [ ] 7.4 執行 B2 全等級驗證與 promotion，確保 B2 所有 ready JSON 通過 polished validator 並寫入 app data；以 `npm run misshoney:validate-content -- --level b2`、`npm run misshoney:promote-content -- --level b2` 與 `/b2` route smoke 驗證。
+- [ ] [P] 7.1 依「AI proofreading preserves transcript coverage and corrects learning errors」由 AI 校稿 B2 ch1–ch6：對照 transcript/scaffold 與 generated JSON，盡量保留完整有意義字幕，不摘要或大幅刪除內容，並修正翻譯、英文拼字、語法、斷句、單字片語與句型解析錯誤；以校稿紀錄、抽查 slug 與 `npm run misshoney:validate-content -- --level b2 --generated-only` 驗證這 6 支。
+- [ ] [P] 7.2 依「AI proofreading preserves transcript coverage and corrects learning errors」由 AI 校稿 B2 ch7–ch12：對照 transcript/scaffold 與 generated JSON，盡量保留完整有意義字幕，不摘要或大幅刪除內容，並修正翻譯、英文拼字、語法、斷句、單字片語與句型解析錯誤；以校稿紀錄、抽查 slug 與 `npm run misshoney:validate-content -- --level b2 --generated-only` 驗證這 6 支。
+- [ ] [P] 7.3 依「AI proofreading preserves transcript coverage and corrects learning errors」由 AI 校稿 B2 ch13–ch17：對照 transcript/scaffold 與 generated JSON，盡量保留完整有意義字幕，不摘要或大幅刪除內容，並修正翻譯、英文拼字、語法、斷句、單字片語與句型解析錯誤；以校稿紀錄、抽查 slug 與 `npm run misshoney:validate-content -- --level b2 --generated-only` 驗證這 5 支。
+- [ ] 7.4 執行 B2 全等級驗證與 promotion，確保 B2 AI 校稿後所有 ready JSON 通過 polished validator 並寫入 app data；以 `npm run misshoney:validate-content -- --level b2`、`npm run misshoney:promote-content -- --level b2` 與 `/b2` route smoke 驗證。
 
 ## 8. 全量驗收與文件同步
 
 - [ ] 8.1 落實 D5: Keep offline runtime data simple and explicit，確認 runtime 只讀 bundled JSON 與 `slowy:miss-honey-completion`，不新增外部 API、Pinia store 或 IndexedDB migration；以 code review、`npm run build` 與離線手動檢查驗證。
 - [ ] 8.2 落實 D6: Add tests around visual contracts and content quality gates，跑完整 `npm run test`，確認 HomeView、PlaylistView、PlaylistVideoView、validator、promotion gating 測試全部通過。
-- [ ] 8.3 跑 `npm run misshoney:validate-content -- --all`，確認 A1–B2 所有 ready 影片皆使用 polished schema 並通過內容品質門檻。
+- [ ] 8.3 跑 `npm run misshoney:validate-content -- --all`，確認 A1–B2 所有 ready 影片皆使用 polished schema，且 A2/B1/B2 已符合 AI 校稿後的內容品質門檻。
 - [ ] 8.4 跑 `npm run build`，確認 TypeScript、Vite build、PWA precache 無錯誤，且沒有明顯 chunk 警戒 regression。
 - [ ] 8.5 新增或更新 Playwright smoke，覆蓋首頁 MissHoney gap、A1 詳細列表卡片、A1/A2/B1/B2 各一支 ready 影片內容頁；以 Playwright 指令與離線模式手動檢查驗證。
 - [ ] 8.6 更新 `PROJECT_ARCHITECTURE.md`，記錄 polished MissHoney UI、content schema、validator、promotion 與離線資料責任邊界；以文件 review 驗證內容與實作一致。
-- [ ] 8.7 最終人工抽查每個等級至少 2 支影片，確認英文斷句自然、繁中翻譯順暢、單字片語與句型解析可讀，並在 apply 回報列出抽查的 level/slug。
+- [ ] 8.7 最終 AI 抽查每個等級至少 2 支影片，確認已盡量保留完整有意義字幕、英文拼字與語法正確、斷句自然、繁中翻譯順暢、單字片語與句型解析正確可讀，並在 apply 回報列出抽查的 level/slug 與主要修正類型。
