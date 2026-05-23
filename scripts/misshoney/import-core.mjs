@@ -17,13 +17,17 @@ export function assignDisplayOrders(items) {
   let order = 1
   const orderMap = new Map()
   for (const item of learnable) {
-    orderMap.set(item.videoId, order++)
+    orderMap.set(getItemId(item), order++)
   }
 
   return items.map(item => {
     if (item.skipped) return { ...item }
-    return { ...item, displayOrder: orderMap.get(item.videoId) }
+    return { ...item, displayOrder: orderMap.get(getItemId(item)) }
   })
+}
+
+function getItemId(item) {
+  return item.videoId ?? item.id
 }
 
 /**
@@ -114,6 +118,65 @@ export function mapSkippedReason(errorMessage) {
     return 'geo-restricted'
   }
   return 'unavailable'
+}
+
+/**
+ * Selects English subtitle entries from yt-dlp subtitles/automatic_captions maps.
+ * Prefer exact "en", then any language key that starts with "en" such as "en-US".
+ * @param {Record<string, Array<{ ext: string, url: string }>>} tracks
+ * @returns {Array<{ ext: string, url: string }> | null}
+ */
+export function selectEnglishSubtitleEntries(tracks) {
+  if (!tracks || typeof tracks !== 'object') return null
+  if (Array.isArray(tracks.en) && tracks.en.length > 0) return tracks.en
+
+  const englishKey = Object.keys(tracks)
+    .sort()
+    .find(key => key.toLowerCase().startsWith('en'))
+
+  return englishKey && Array.isArray(tracks[englishKey]) && tracks[englishKey].length > 0
+    ? tracks[englishKey]
+    : null
+}
+
+/**
+ * Parses yt-dlp --print output and returns the first JSON object line.
+ * yt-dlp may print NA before a later JSON object when one requested field is absent.
+ * @param {string} stdout
+ * @returns {object | null}
+ */
+export function parseYtDlpJsonPrintOutput(stdout) {
+  if (!stdout) return null
+
+  const jsonLine = stdout
+    .split('\n')
+    .map(line => line.trim())
+    .find(line => line.startsWith('{'))
+
+  if (!jsonLine) return null
+
+  try {
+    return JSON.parse(jsonLine)
+  } catch {
+    return null
+  }
+}
+
+/**
+ * Selects a json3 English subtitle entry, preferring manual subtitles over auto captions.
+ * @param {{ subtitles?: object, automaticCaptions?: object }} params
+ * @returns {{ ext: string, url: string } | null}
+ */
+export function selectJson3EnglishSubtitleEntry({ subtitles, automaticCaptions }) {
+  const manual = findJson3Entry(selectEnglishSubtitleEntries(subtitles))
+  if (manual) return manual
+
+  return findJson3Entry(selectEnglishSubtitleEntries(automaticCaptions))
+}
+
+function findJson3Entry(entries) {
+  if (!Array.isArray(entries)) return null
+  return entries.find(entry => entry?.ext === 'json3' && entry.url) ?? null
 }
 
 /**

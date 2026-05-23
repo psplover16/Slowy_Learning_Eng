@@ -9,10 +9,11 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync, copyFi
 import { resolve, dirname, basename } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { execSync } from 'node:child_process'
-import { validatePlaylistVideoData, planPromotionPaths } from './content-core.mjs'
+import { findPlaylistSourceUrl, validatePlaylistVideoData, planPromotionPaths } from './content-core.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const REPO_ROOT = resolve(__dirname, '../..')
+const SOURCES_PATH = resolve(__dirname, 'sources.json')
 
 const args = process.argv.slice(2)
 const HELP = args.includes('--help') || args.includes('-h')
@@ -55,6 +56,9 @@ if (LEVEL && !LEVELS.includes(LEVEL)) {
 }
 
 const levelsToProcess = ALL ? LEVELS : [LEVEL]
+const sources = existsSync(SOURCES_PATH)
+  ? JSON.parse(readFileSync(SOURCES_PATH, 'utf-8'))
+  : []
 let globalErrors = 0
 
 for (const level of levelsToProcess) {
@@ -129,7 +133,13 @@ for (const level of levelsToProcess) {
     : []
 
   // Build the metadata file
-  const metadataContent = buildMetadataFile(level, validatedFiles, inventoryData, skippedData)
+  const metadataContent = buildMetadataFile(
+    level,
+    validatedFiles,
+    inventoryData,
+    skippedData,
+    findPlaylistSourceUrl(sources, level)
+  )
   writeFileSync(metadataPath, metadataContent, 'utf-8')
   console.log(`  ✓ updated ${level}.ts (${validatedFiles.length} ready, ${skippedData.length} skipped)`)
 }
@@ -141,7 +151,7 @@ if (globalErrors > 0) {
   console.log('\nPromotion complete.')
 }
 
-function buildMetadataFile(level, promotedFiles, inventoryData, skippedData) {
+function buildMetadataFile(level, promotedFiles, inventoryData, skippedData, playlistUrl) {
   const promotedSlugs = new Set(promotedFiles.map(f => f.slug))
   const skippedVideoIds = new Set(skippedData.map(s => s.videoId).filter(Boolean))
 
@@ -152,10 +162,11 @@ function buildMetadataFile(level, promotedFiles, inventoryData, skippedData) {
       videoId: data.videoId,
       slug,
       title: data.title,
+      titleZh: data.header?.titleZh,
       originalIndex: inv.originalIndex ?? 0,
       displayOrder: inv.displayOrder ?? 0,
       status: 'ready',
-      contentLoader: `() => import('./videos/${level}/${slug}.json')`,
+      contentLoader: `import('./videos/${level}/${slug}.json')`,
     }
   })
 
@@ -166,6 +177,7 @@ function buildMetadataFile(level, promotedFiles, inventoryData, skippedData) {
       videoId: inv.videoId,
       slug: inv.slug,
       title: inv.title,
+      titleZh: inv.titleZh,
       originalIndex: inv.originalIndex ?? 0,
       displayOrder: inv.displayOrder ?? 0,
       status: 'pendingTranscript',
@@ -191,17 +203,17 @@ function buildMetadataFile(level, promotedFiles, inventoryData, skippedData) {
     videoId: '${v.videoId}',
     slug: '${v.slug}',
     title: '${escapeStr(v.title)}',
-    originalIndex: ${v.originalIndex},
+    ${v.titleZh ? `titleZh: '${escapeStr(v.titleZh)}',\n    ` : ''}originalIndex: ${v.originalIndex},
     displayOrder: ${v.displayOrder},
     status: 'ready',
-    contentLoader: ${v.contentLoader},
+    contentLoader: () => ${v.contentLoader}.then((mod) => ({ default: mod.default as unknown as PlaylistVideoData })),
   }`
     }
     return `  {
     videoId: '${v.videoId}',
     slug: '${v.slug}',
     title: '${escapeStr(v.title)}',
-    originalIndex: ${v.originalIndex},
+    ${v.titleZh ? `titleZh: '${escapeStr(v.titleZh)}',\n    ` : ''}originalIndex: ${v.originalIndex},
     displayOrder: ${v.displayOrder},
     status: 'pendingTranscript',
     contentLoader: null,
@@ -216,12 +228,12 @@ function buildMetadataFile(level, promotedFiles, inventoryData, skippedData) {
   }`
   })
 
-  return `import type { PlaylistData } from '../types'
+  return `import type { PlaylistData, PlaylistVideoData } from '../types'
 
 const ${levelUpper}: PlaylistData = {
   level: '${level}',
   title: 'MissHoney ${levelUpper}',
-  youtubePlaylistUrl: '',
+  youtubePlaylistUrl: '${escapeStr(playlistUrl)}',
   videos: [
 ${videosLines.join(',\n')}
   ],

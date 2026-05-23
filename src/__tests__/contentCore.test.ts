@@ -5,6 +5,7 @@ import {
   validatePlaylistVideoData,
   planPromotionPaths,
   countLevelCoverage,
+  findPlaylistSourceUrl,
 } from '../../scripts/misshoney/content-core.mjs'
 
 // Minimal valid PlaylistVideoData fixture
@@ -15,16 +16,29 @@ function makeValidContent(overrides = {}) {
     level: 'a1',
     title: 'Nice to Meet You',
     youtubeUrl: 'https://www.youtube.com/watch?v=aBcDe12345',
+    header: {
+      podcastLabel: 'MissHoney A1',
+      titleZh: '很高興認識你',
+      titleEn: 'Nice to Meet You',
+      levelTag: 'A1',
+      topicTag: 'Greetings',
+    },
     scenes: [
       {
         id: 'scene-01',
+        no: '01',
+        titleZh: '第一次見面',
+        titleEn: 'Meeting Someone',
         sentences: [{ en: 'Hello, nice to meet you.', tc: '你好，很高興認識你。' }],
+        tags: [
+          { english: 'hello', kk: '/həˈloʊ/', partOfSpeech: 'interj.', meaning: '你好', highlight: true },
+        ],
       },
     ],
     vocabGroups: [
       {
-        label: 'Greetings',
-        items: [{ word: 'hello', pos: 'interjection', meaning: '你好', highlight: true }],
+        title: 'Greetings',
+        items: [{ english: 'hello', kk: '/həˈloʊ/', partOfSpeech: 'interj.', meaning: '你好', highlight: true }],
       },
     ],
     phrases: [
@@ -34,6 +48,16 @@ function makeValidContent(overrides = {}) {
         meaning: '很高興認識你',
         examples: [
           { en: 'Nice to meet you, too!', tc: '我也很高興認識你！' },
+        ],
+      },
+    ],
+    breakdowns: [
+      {
+        id: 'breakdown-01',
+        sentence: 'Hello, nice to meet you.',
+        translation: '你好，很高興認識你。',
+        points: [
+          { label: 'nice to meet you', text: 'nice to meet you', note: '第一次見面時常用。' },
         ],
       },
     ],
@@ -75,11 +99,18 @@ describe('buildScaffold', () => {
     expect(Array.isArray(scaffold.suggestedSceneBoundaries)).toBe(true)
   })
 
-  it('does not include scenes, vocabGroups, or phrases (those are authoring)', () => {
+  it('includes an authoring checklist and polished schema skeleton but no authored learning content', () => {
     const scaffold = buildScaffold(transcript) as unknown as Record<string, unknown>
-    expect(scaffold['scenes']).toBeUndefined()
-    expect(scaffold['vocabGroups']).toBeUndefined()
-    expect(scaffold['phrases']).toBeUndefined()
+    expect(scaffold['authoringChecklist']).toEqual(expect.arrayContaining([
+      expect.stringContaining('Rebuild'),
+    ]))
+    expect(scaffold['polishedContentSkeleton']).toEqual(expect.objectContaining({
+      header: expect.any(Object),
+      scenes: expect.any(Array),
+      vocabGroups: expect.any(Array),
+      phrases: expect.any(Array),
+      breakdowns: expect.any(Array),
+    }))
   })
 })
 
@@ -113,7 +144,7 @@ describe('validatePlaylistVideoData', () => {
 
   it('reports scene sentence with empty tc translation', () => {
     const content = makeValidContent({
-      scenes: [{ id: 'scene-01', sentences: [{ en: 'Hello', tc: '' }] }],
+      scenes: [{ id: 'scene-01', no: '01', titleZh: '測試', titleEn: 'Test', sentences: [{ en: 'Hello.', tc: '' }], tags: [] }],
     })
     const result = validatePlaylistVideoData(content)
     expect(result.valid).toBe(false)
@@ -122,7 +153,7 @@ describe('validatePlaylistVideoData', () => {
 
   it('reports scene sentence with empty en text', () => {
     const content = makeValidContent({
-      scenes: [{ id: 'scene-01', sentences: [{ en: '', tc: '你好' }] }],
+      scenes: [{ id: 'scene-01', no: '01', titleZh: '測試', titleEn: 'Test', sentences: [{ en: '', tc: '你好' }], tags: [] }],
     })
     const result = validatePlaylistVideoData(content)
     expect(result.valid).toBe(false)
@@ -138,11 +169,11 @@ describe('validatePlaylistVideoData', () => {
 
   it('reports vocab item missing required fields', () => {
     const content = makeValidContent({
-      vocabGroups: [{ label: 'Test', items: [{ word: '', pos: 'noun', meaning: '測試' }] }],
+      vocabGroups: [{ title: 'Test', items: [{ english: '', kk: '/test/', partOfSpeech: 'n.', meaning: '測試' }] }],
     })
     const result = validatePlaylistVideoData(content)
     expect(result.valid).toBe(false)
-    expect(result.errors.some((e: string) => e.includes('word'))).toBe(true)
+    expect(result.errors.some((e: string) => e.includes('english'))).toBe(true)
   })
 
   it('reports empty phrases array', () => {
@@ -159,6 +190,124 @@ describe('validatePlaylistVideoData', () => {
     const result = validatePlaylistVideoData(content)
     expect(result.valid).toBe(false)
     expect(result.errors.some((e: string) => e.includes('examples'))).toBe(true)
+  })
+
+  it('rejects the previous draft schema without header and breakdowns', () => {
+    const result = validatePlaylistVideoData({
+      videoId: 'aBcDe12345',
+      slug: 'ch1-nice-to-meet-you',
+      level: 'a1',
+      title: 'Nice to Meet You',
+      youtubeUrl: 'https://www.youtube.com/watch?v=aBcDe12345',
+      scenes: [{ id: 'scene-01', sentences: [{ en: 'Hello nice to meet you.', tc: '你好，很高興認識你。' }] }],
+      vocabGroups: [{ label: 'Greetings', items: [{ word: 'hello', pos: 'word', meaning: '你好' }] }],
+      phrases: [{ id: 'phrase-01', phrase: 'nice to meet you', meaning: '很高興認識你', examples: [{ en: 'Nice to meet you.', tc: '很高興認識你。' }] }],
+    })
+
+    expect(result.valid).toBe(false)
+    expect(result.errors).toEqual(expect.arrayContaining([
+      expect.stringContaining('header'),
+      expect.stringContaining('breakdowns'),
+    ]))
+  })
+
+  it.each([
+    ['Who want to learn Listening to English today\'s podcast is about my daily routine my daily.', false],
+    ['Today I want to talk about my daily routine.', true],
+    ['Your favorite dinner at 1100 p.m. I go to sleep I love sleeping I love feeling.', false],
+  ])('validates cue fragment quality for "%s"', (sentence, expectedValid) => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{ en: sentence, tc: '這是自然的繁中翻譯。' }],
+        tags: [],
+      }],
+    })
+
+    expect(validatePlaylistVideoData(content).valid).toBe(expectedValid)
+  })
+
+  it('rejects copied English as Traditional Chinese translation', () => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{ en: 'Today I want to talk about breakfast.', tc: 'Today I want to talk about breakfast.' }],
+        tags: [],
+      }],
+    })
+
+    const result = validatePlaylistVideoData(content)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some((error: string) => error.includes('translation'))).toBe(true)
+  })
+
+  it('rejects formulaic placeholder Traditional Chinese translations', () => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{
+          en: 'Today I want to talk about my daily routine.',
+          tc: '這句主要在談 daily routine，可以先掌握整句意思，再跟著英文練習。',
+        }],
+        tags: [],
+      }],
+    })
+
+    const result = validatePlaylistVideoData(content)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some((error: string) => error.includes('placeholder'))).toBe(true)
+  })
+
+  it('rejects dangling cue fragments that end with prepositions or question words', () => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{ en: 'Do you work with.', tc: '你和誰一起工作？' }],
+        tags: [],
+      }],
+    })
+
+    const result = validatePlaylistVideoData(content)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some((error: string) => error.includes('cue fragment'))).toBe(true)
+  })
+
+  it.each([
+    'In the morning.',
+    'I wash my face and.',
+    "I eat oatmeal every day it's.",
+    'My favorite breakfast.',
+    'They have a lot of sugar sugar makes.',
+    'You fat but sugar is also very delicious.',
+    'We have them all Mexican food is very diverse but I think.',
+    'I live in Mexico in Mexico.',
+  ])('rejects short connective fragments for "%s"', (sentence) => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{ en: sentence, tc: '這是一句自然的繁中翻譯。' }],
+        tags: [],
+      }],
+    })
+
+    const result = validatePlaylistVideoData(content)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some((error: string) => error.includes('cue fragment'))).toBe(true)
   })
 })
 
@@ -214,5 +363,20 @@ describe('countLevelCoverage', () => {
       skippedCount: 0,
     })
     expect(incomplete.isComplete).toBe(false)
+  })
+})
+
+describe('findPlaylistSourceUrl', () => {
+  it('returns the configured playlist URL for a level', () => {
+    const url = findPlaylistSourceUrl([
+      { level: 'a1', playlistUrl: 'https://example.test/a1' },
+      { level: 'a2', playlistUrl: 'https://example.test/a2' },
+    ], 'a2')
+
+    expect(url).toBe('https://example.test/a2')
+  })
+
+  it('returns an empty string when a level is not configured', () => {
+    expect(findPlaylistSourceUrl([], 'b2')).toBe('')
   })
 })

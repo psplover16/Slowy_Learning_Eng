@@ -6,6 +6,9 @@ import {
   normalizeTranscriptCues,
   planOutputPaths,
   mapSkippedReason,
+  parseYtDlpJsonPrintOutput,
+  selectEnglishSubtitleEntries,
+  selectJson3EnglishSubtitleEntry,
 } from '../../scripts/misshoney/import-core.mjs'
 
 describe('assignDisplayOrders', () => {
@@ -20,9 +23,9 @@ describe('assignDisplayOrders', () => {
     const learnable = result.filter((r: { skipped: boolean }) => !r.skipped)
     const skipped = result.filter((r: { skipped: boolean }) => r.skipped)
 
-    expect(learnable.find((r: { videoId: string }) => r.videoId === 'v4')?.displayOrder).toBe(1)
-    expect(learnable.find((r: { videoId: string }) => r.videoId === 'v3')?.displayOrder).toBe(2)
-    expect(learnable.find((r: { videoId: string }) => r.videoId === 'v1')?.displayOrder).toBe(3)
+    expect(learnable.find((r: { videoId?: string }) => r.videoId === 'v4')?.displayOrder).toBe(1)
+    expect(learnable.find((r: { videoId?: string }) => r.videoId === 'v3')?.displayOrder).toBe(2)
+    expect(learnable.find((r: { videoId?: string }) => r.videoId === 'v1')?.displayOrder).toBe(3)
     expect((skipped[0] as Record<string, unknown>)['displayOrder']).toBeUndefined()
   })
 
@@ -39,6 +42,20 @@ describe('assignDisplayOrders', () => {
       .sort((a, b) => a - b)
     expect(orders).toEqual([1, 2])
     expect(orders).not.toContain(undefined)
+  })
+
+  it('accepts raw yt-dlp entries that use id before videoId is normalized', () => {
+    const items = [
+      { id: 'raw-1', originalIndex: 1, skipped: false },
+      { id: 'raw-2', originalIndex: 2, skipped: false },
+      { id: 'raw-3', originalIndex: 3, skipped: false },
+    ]
+
+    const result = assignDisplayOrders(items)
+
+    expect(result.find((r: { id?: string }) => r.id === 'raw-3')?.displayOrder).toBe(1)
+    expect(result.find((r: { id?: string }) => r.id === 'raw-2')?.displayOrder).toBe(2)
+    expect(result.find((r: { id?: string }) => r.id === 'raw-1')?.displayOrder).toBe(3)
   })
 })
 
@@ -147,5 +164,76 @@ describe('mapSkippedReason', () => {
 
   it('maps unknown errors to unavailable as fallback', () => {
     expect(mapSkippedReason('some unknown error message')).toBe('unavailable')
+  })
+})
+
+describe('selectEnglishSubtitleEntries', () => {
+  it('prefers exact en subtitles when present', () => {
+    const entries = selectEnglishSubtitleEntries({
+      en: [{ ext: 'json3', url: 'manual-en' }],
+      'en-US': [{ ext: 'json3', url: 'manual-en-us' }],
+    })
+
+    expect(entries?.[0].url).toBe('manual-en')
+  })
+
+  it('accepts en-US subtitles from yt-dlp output', () => {
+    const entries = selectEnglishSubtitleEntries({
+      'en-US': [{ ext: 'json3', url: 'auto-en-us' }],
+      'zh-Hant': [{ ext: 'json3', url: 'zh' }],
+    })
+
+    expect(entries?.[0].url).toBe('auto-en-us')
+  })
+
+  it('returns null when no English-like track exists', () => {
+    const entries = selectEnglishSubtitleEntries({
+      'zh-Hant': [{ ext: 'json3', url: 'zh' }],
+    })
+
+    expect(entries).toBeNull()
+  })
+})
+
+describe('parseYtDlpJsonPrintOutput', () => {
+  it('parses the first JSON object line from yt-dlp --print output', () => {
+    const result = parseYtDlpJsonPrintOutput('NA\n{"en-US":[{"ext":"json3","url":"caption"}]}\n')
+
+    expect(result).toEqual({
+      'en-US': [{ ext: 'json3', url: 'caption' }],
+    })
+  })
+
+  it('returns null when yt-dlp output contains no JSON object', () => {
+    expect(parseYtDlpJsonPrintOutput('NA\n')).toBeNull()
+  })
+})
+
+describe('selectJson3EnglishSubtitleEntry', () => {
+  it('prefers manual English json3 captions before automatic captions', () => {
+    const entry = selectJson3EnglishSubtitleEntry({
+      subtitles: {
+        'en-US': [
+          { ext: 'vtt', url: 'manual-vtt' },
+          { ext: 'json3', url: 'manual-json3' },
+        ],
+      },
+      automaticCaptions: {
+        en: [{ ext: 'json3', url: 'auto-json3' }],
+      },
+    })
+
+    expect(entry?.url).toBe('manual-json3')
+  })
+
+  it('falls back to automatic English json3 captions', () => {
+    const entry = selectJson3EnglishSubtitleEntry({
+      subtitles: {},
+      automaticCaptions: {
+        'en-US': [{ ext: 'json3', url: 'auto-json3' }],
+      },
+    })
+
+    expect(entry?.url).toBe('auto-json3')
   })
 })

@@ -14,16 +14,18 @@
 
     <section data-testid="misshoney-section" class="pt-6">
       <h2 class="font-fraunces text-xl text-terracotta mb-4">MissHoney</h2>
-      <ArticleListItem
-        v-for="pl in playlists"
-        :key="pl.id"
-        :title="pl.shortLabel"
-        :subtitle="pl.titleZh"
-        :completed="false"
-        :show-completion="false"
-        :data-testid="`misshoney-playlist-${pl.id}`"
-        @navigate="router.push(pl.path)"
-      />
+      <div data-testid="misshoney-level-list" class="space-y-3">
+        <ArticleListItem
+          v-for="pl in playlists"
+          :key="pl.id"
+          :title="pl.shortLabel"
+          :subtitle="pl.titleZh"
+          :completed="false"
+          :show-completion="false"
+          :data-testid="`misshoney-playlist-${pl.id}`"
+          @navigate="router.push(pl.path)"
+        />
+      </div>
     </section>
   </main>
 </template>

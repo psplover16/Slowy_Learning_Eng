@@ -17,6 +17,8 @@ import {
   mapSkippedReason,
   buildInventoryItem,
   mergeCuesToText,
+  parseYtDlpJsonPrintOutput,
+  selectJson3EnglishSubtitleEntry,
 } from './import-core.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -56,7 +58,7 @@ const sources = JSON.parse(readFileSync(SOURCES_PATH, 'utf-8'))
 if (CHECK_EXISTING) {
   runCheckExisting(sources)
 } else {
-  runImport(sources)
+  await runImport(sources)
 }
 
 function getYtDlpPath() {
@@ -108,44 +110,47 @@ function fetchPlaylistMetadata(ytdlp, playlistUrl) {
     .filter(Boolean)
 }
 
-function fetchCaptions(ytdlp, videoId) {
+async function fetchCaptions(ytdlp, videoId) {
   const url = `https://www.youtube.com/watch?v=${videoId}`
+  const subtitles = fetchSubtitleTrackMap(ytdlp, url, '%(subtitles)j', 20 * 1024 * 1024)
+  let json3Entry = selectJson3EnglishSubtitleEntry({ subtitles })
+
+  if (!json3Entry) {
+    const automaticCaptions = fetchSubtitleTrackMap(ytdlp, url, '%(automatic_captions)j', 80 * 1024 * 1024)
+    json3Entry = selectJson3EnglishSubtitleEntry({ subtitles: null, automaticCaptions })
+  }
+
+  if (!json3Entry) return null
+
+  try {
+    const response = await fetch(json3Entry.url, {
+      headers: {
+        'user-agent': 'Mozilla/5.0',
+      },
+    })
+    if (!response.ok) return null
+    return await response.json()
+  } catch {
+    return null
+  }
+}
+
+function fetchSubtitleTrackMap(ytdlp, url, printTemplate, maxBuffer) {
   const result = spawnSync(
     ytdlp,
     [
       '--skip-download',
-      '--write-auto-subs',
-      '--write-subs',
-      '--sub-langs', 'en.*',
-      '--sub-format', 'json3',
-      '--print-json',
+      '--sub-langs', 'en,en-US,en.*',
+      '--print', printTemplate,
       '--no-warnings',
-      '-o', '-',
       url,
     ],
-    { encoding: 'utf-8', maxBuffer: 10 * 1024 * 1024 }
+    { encoding: 'utf-8', maxBuffer }
   )
 
-  // Try to parse transcript from stdout
-  try {
-    const info = JSON.parse(result.stdout.split('\n').find(l => l.startsWith('{')))
-    const subtitles = info?.subtitles ?? {}
-    const autoSubs = info?.automatic_captions ?? {}
+  if (result.status !== 0 && !result.stdout) return null
 
-    // Prefer manual English subs, fall back to auto
-    const enSubs = subtitles['en'] ?? autoSubs['en'] ?? null
-    if (!enSubs) return null
-
-    // Find json3 format
-    const json3Entry = enSubs.find(s => s.ext === 'json3')
-    if (!json3Entry) return null
-
-    // Fetch the actual json3 data
-    const subsResult = spawnSync(ytdlp, ['--skip-download', '--no-warnings', json3Entry.url], { encoding: 'utf-8' })
-    return JSON.parse(subsResult.stdout)
-  } catch {
-    return null
-  }
+  return parseYtDlpJsonPrintOutput(result.stdout)
 }
 
 function parseJson3Cues(json3Data) {
@@ -240,7 +245,7 @@ async function runImport(sources) {
         continue
       }
 
-      const captionData = fetchCaptions(ytdlp, videoId)
+      const captionData = await fetchCaptions(ytdlp, videoId)
       if (!captionData) {
         console.log(`    ⚠ no English captions — skipping`)
         skipped.push({

@@ -10,6 +10,7 @@ export interface PlaylistVideoEntry {
   videoId: string
   slug: string
   title: string
+  titleZh?: string
   subtitle?: string
   originalIndex: number
   displayOrder: number
@@ -31,19 +32,42 @@ export interface PlaylistVideoData {
   level: 'a1' | 'a2' | 'b1' | 'b2'
   title: string
   youtubeUrl: string
+  header: PlaylistVideoHeader
   scenes: PlaylistScene[]
   vocabGroups: PlaylistVocabGroup[]
   phrases: PlaylistPhrase[]
+  breakdowns: PlaylistSentenceBreakdown[]
+}
+
+export interface PlaylistVideoHeader {
+  podcastLabel: string
+  titleZh: string
+  titleEn: string
+  levelTag: string
+  topicTag?: string
 }
 
 export interface PlaylistScene {
   id: string
+  no: string
+  titleZh: string
+  titleEn: string
   sentences: Array<{ en: string; tc: string }>
+  tags: PlaylistVocabItem[]
 }
 
 export interface PlaylistVocabGroup {
-  label: string
-  items: Array<{ word: string; pos: string; meaning: string; highlight?: boolean }>
+  title: string
+  items: PlaylistVocabItem[]
+}
+
+export interface PlaylistVocabItem {
+  english: string
+  kk: string
+  partOfSpeech: string
+  meaning: string
+  note?: string
+  highlight?: boolean
 }
 
 export interface PlaylistPhrase {
@@ -51,6 +75,13 @@ export interface PlaylistPhrase {
   phrase: string
   meaning: string
   examples: Array<{ en: string; tc: string }>
+}
+
+export interface PlaylistSentenceBreakdown {
+  id: string
+  sentence: string
+  translation: string
+  points: Array<{ label: string; text: string; note: string }>
 }
 
 // Import tool output types
@@ -88,4 +119,6 @@ export interface ContentScaffold {
   transcriptText: string
   cues: Array<{ start: number; end: number; text: string }>
   suggestedSceneBoundaries: number[]
+  authoringChecklist: string[]
+  polishedContentSkeleton: PlaylistVideoData
 }

@@ -23,6 +23,19 @@ export interface ContentScaffold {
   transcriptText: string
   cues: TranscriptCue[]
   suggestedSceneBoundaries: number[]
+  authoringChecklist: string[]
+  polishedContentSkeleton: {
+    videoId: string
+    slug: string
+    level: string
+    title: string
+    youtubeUrl: string
+    header: object
+    scenes: unknown[]
+    vocabGroups: unknown[]
+    phrases: unknown[]
+    breakdowns: unknown[]
+  }
 }
 
 export interface ValidationResult {
@@ -54,7 +67,13 @@ export interface LevelCoverageResult {
   isComplete: boolean
 }
 
+export interface PlaylistSource {
+  level: string
+  playlistUrl: string
+}
+
 export declare function buildScaffold(transcript: TranscriptInput): ContentScaffold
 export declare function validatePlaylistVideoData(data: unknown): ValidationResult
 export declare function planPromotionPaths(level: string, slug: string): PromotionPaths
 export declare function countLevelCoverage(params: LevelCoverageInput): LevelCoverageResult
+export declare function findPlaylistSourceUrl(sources: PlaylistSource[], level: string): string

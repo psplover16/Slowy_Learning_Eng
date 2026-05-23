@@ -1,5 +1,6 @@
 export interface RawItem {
-  videoId: string
+  videoId?: string
+  id?: string
   originalIndex: number
   skipped: boolean
   [key: string]: unknown
@@ -24,10 +25,22 @@ export interface OutputPaths {
 
 export type SkippedReason = 'member-only' | 'private' | 'no-english-captions' | 'unavailable' | 'geo-restricted'
 
+export interface SubtitleEntry {
+  ext: string
+  url: string
+  [key: string]: unknown
+}
+
 export declare function assignDisplayOrders(items: RawItem[]): NormalizedItem[]
 export declare function deriveSlug(displayOrder: number, title: string): string
 export declare function normalizeTranscriptCues(cues: TranscriptCue[]): TranscriptCue[]
 export declare function planOutputPaths(level: string, slug: string): OutputPaths
 export declare function mapSkippedReason(errorMessage: string): SkippedReason
+export declare function selectEnglishSubtitleEntries(tracks: Record<string, SubtitleEntry[]> | null | undefined): SubtitleEntry[] | null
+export declare function parseYtDlpJsonPrintOutput(stdout: string): Record<string, unknown> | null
+export declare function selectJson3EnglishSubtitleEntry(params: {
+  subtitles?: Record<string, SubtitleEntry[]> | null
+  automaticCaptions?: Record<string, SubtitleEntry[]> | null
+}): SubtitleEntry | null
 export declare function buildInventoryItem(entry: { id: string; title?: string; url?: string; originalIndex: number }, skipped: boolean): object
 export declare function mergeCuesToText(cues: TranscriptCue[]): string
