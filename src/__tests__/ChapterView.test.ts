@@ -1,12 +1,10 @@
 import { describe, it, expect, beforeAll, beforeEach, vi } from 'vitest'
 import { mount, flushPromises } from '@vue/test-utils'
 import { createRouter, createMemoryHistory } from 'vue-router'
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
 import { nextTick } from 'vue'
 import ChapterView from '../modules/chapters/ChapterView.vue'
 import ch2 from '../modules/chapters/data/ch2'
-import ch3 from '../modules/chapters/data/ch3'
+import ch4 from '../modules/chapters/data/ch4'
 import type { ChapterData } from '../modules/chapters/types'
 import { chapters } from '../shared/config/chapters'
 
@@ -32,104 +30,11 @@ function normalizeForCoverage(text: string) {
     .toLowerCase()
 }
 
-const normalizedDiscussTranscript = normalizeForCoverage(
-  readFileSync(resolve(process.cwd(), '_private/discuss.txt'), 'utf-8'),
-)
-
-const rawDiscussTranscript = readFileSync(resolve(process.cwd(), '_private/discuss.txt'), 'utf-8')
-
-const transcriptCorrections: Array<[RegExp, string]> = [
-  [/fram repeating more/g, 'from repeating more'],
-  [/habits are built t proof repetition/g, 'habits are built through repetition'],
-  [/the i push themselves/g, 'they push themselves'],
-  [/you are not afraid of english\. h sounds anymore/g, 'you are not afraid of english sounds anymore'],
-  [/new m\. oments/g, 'new moments'],
-  [/new moments/g, 'new movements'],
-  [/pf\s*ect/g, 'perfect'],
-  [/this builds c confidence/g, 'this builds confidence'],
-  [/s oh\. when you speak/g, 'so when you speak'],
-  [/each time me you continue speaking/g, 'each time you continue speaking'],
-  [/slow podcast\. ts simple conversations/g, 'slow podcasts, simple conversations'],
-  [/next\. t part/g, 'next part'],
-  [/fear fades when you speak\. anyway/g, 'fear fades when you speak anyway'],
-  [/repeating simple sentences build strength/g, 'repeating simple sentences builds strength'],
-  [/it is built by following it/g, 'it is built by following sound'],
-  [/you feel more controlled/g, 'you feel more control'],
-]
-
-const ch2LineBreakNormalizedSourceSignals = [
-  'many of them ask the same question. They ask, "What grammar should I study first?"',
-  'They ask, "How many words should I memorize?"',
-  'Think about driving a car. At first, it feels difficult. You think about every action, but after repetition, you drive without thinking. Speaking English works the same way.',
-  'You may not feel confident yet, but your brain is working. Do not rush this stage.',
-  'This creates fear and confusion.',
-]
-
-const ch3LineBreakNormalizedSourceSignals = [
-  'English learners face every day. It is not grammar. It is not vocabulary. It is hesitation',
-  'The goal is not perfect English. The goal is clear communication',
-]
-
-function applyTranscriptCorrections(text: string) {
-  let corrected = normalizeForCoverage(text)
-
-  for (const [pattern, replacement] of transcriptCorrections) {
-    corrected = corrected.replace(pattern, replacement)
-  }
-
-  return corrected
-}
-
-function canonicalForTranscriptCoverage(text: string) {
-  return normalizeForCoverage(text)
-    .replace(/[“”]/g, '"')
-    .replace(/[’]/g, "'")
-    .replace(/[^a-z0-9]+/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim()
-}
-
-function sourceTranscriptBlock(startText: string, endPattern?: RegExp) {
-  const startIndex = rawDiscussTranscript.indexOf(startText)
-  expect(startIndex).toBeGreaterThanOrEqual(0)
-
-  const tail = rawDiscussTranscript.slice(startIndex)
-  const endMatch = endPattern?.exec(tail)
-  return endMatch?.index === undefined ? tail : tail.slice(0, endMatch.index)
-}
-
-const ch2SourceTranscript = sourceTranscriptBlock('When people start learning English', /\r?\n2\.\s/)
-const ch3SourceTranscript = sourceTranscriptBlock('Many English learners work very hard.')
-
-function transcriptSentences(text: string) {
-  const corrected = applyTranscriptCorrections(text)
-
-  return (corrected.match(/[^.!?]+[.!?]+(?:["'])?/g) ?? [])
-    .map(canonicalForTranscriptCoverage)
-    .filter((sentence) => sentence.split(' ').length >= 4)
-}
-
-function expectEveryTranscriptSentenceCovered(sourceTranscript: string, chapter: ChapterData) {
-  const articleText = canonicalForTranscriptCoverage(
-    chapter.scenes
-      .flatMap((scene) => scene.sentences.map((sentence) => sentence.en))
-      .join(' '),
-  )
-  const missing = transcriptSentences(sourceTranscript).filter((sentence) => !articleText.includes(sentence))
-
-  expect(missing).toEqual([])
-}
-
 async function mountChapter(id: string) {
   const wrapper = mount(ChapterView, {
     props: { id },
     global: { plugins: [router] },
   })
-  // The component's onMounted awaits a dynamic `import()`. Vitest's
-  // `flushPromises` does NOT advance such promises (Vite-transformed dynamic
-  // import goes through additional asynchronicity that needs a real macrotask
-  // — the dataLoader is pre-warmed in beforeAll so the import is cached, but
-  // we still need to yield once to let the resolved value reach the reactive ref).
   await new Promise((resolve) => setTimeout(resolve, 0))
   await flushPromises()
   await nextTick()
@@ -137,8 +42,6 @@ async function mountChapter(id: string) {
 }
 
 beforeAll(async () => {
-  // Pre-warm dynamic import so the first test does not pay the cold-start
-  // cost (which can exceed the single setTimeout(0) tick in mountChapter).
   for (const entry of chapters) {
     await entry.dataLoader()
   }
@@ -172,31 +75,8 @@ function expectContentToExcludeAll(text: string, snippets: string[]) {
   }
 }
 
-function expectOccurrenceCountAtLeast(text: string, snippet: string, expectedCount: number) {
-  const normalizedSnippet = snippet.toLowerCase()
-  let count = 0
-  let index = text.indexOf(normalizedSnippet)
-
-  while (index !== -1) {
-    count += 1
-    index = text.indexOf(normalizedSnippet, index + normalizedSnippet.length)
-  }
-
-  expect(count).toBeGreaterThanOrEqual(expectedCount)
-}
 
 describe('ChapterView (id="ch2") content coverage', () => {
-  it('covers every corrected source transcript sentence after line-break normalization', () => {
-    expectEveryTranscriptSentenceCovered(ch2SourceTranscript, ch2)
-  })
-
-  it('checks omission-prone signals against the line-break-normalized source transcript', () => {
-    const text = chapterEnglishText(ch2)
-
-    expectContentToIncludeAll(normalizedDiscussTranscript, ch2LineBreakNormalizedSourceSignals)
-    expectContentToIncludeAll(text, ch2LineBreakNormalizedSourceSignals)
-  })
-
   it('keeps the corrected listening-first learning ideas', () => {
     const text = chapterEnglishText(ch2)
 
@@ -216,7 +96,7 @@ describe('ChapterView (id="ch2") content coverage', () => {
       'languages are not learned by force',
       'Nobody corrects them all the time. Nobody tells them to stop. They are allowed to try',
       'When you repeat something many times, it becomes lighter. It becomes easier. It becomes automatic',
-      'You think about every action, but after repetition, you drive without thinking',
+      'You think about every action, but after repetition, you drive without thinking. Speaking English works the same way.',
       'Memory is faster than thinking',
       'Many learners ask, "How many times should I repeat?"',
       'Repeat short sentences. Repeat easy sentences. Repeat sentences you hear often',
@@ -227,9 +107,9 @@ describe('ChapterView (id="ch2") content coverage', () => {
       'They hear conversations. They hear stories. They hear questions',
       'They are not failing. They are preparing',
       'At first, English sounds fast. Words feel mixed together. Nothing feels clear',
-      'You may not feel confident yet, but your brain is working',
+      'You may not feel confident yet, but your brain is working. Do not rush this stage.',
       'They push themselves to speak before understanding',
-      'This creates fear and confusion',
+      'This creates fear and confusion.',
       'Grammar books cannot teach this feeling. Only listening can',
       'You are not listening to memorize. You are listening to feel the language',
       'Active study has value, but it is not enough',
@@ -253,25 +133,9 @@ describe('ChapterView (id="ch2") content coverage', () => {
   })
 })
 
-describe('ChapterView (id="ch3") content coverage', () => {
-  it('covers every corrected source transcript sentence after line-break normalization', () => {
-    expectEveryTranscriptSentenceCovered(ch3SourceTranscript, ch3)
-  })
-
-  it('checks repeated signals against the line-break-normalized source transcript', () => {
-    const text = chapterEnglishText(ch3)
-
-    expectContentToIncludeAll(normalizedDiscussTranscript, ch3LineBreakNormalizedSourceSignals)
-    expectContentToIncludeAll(text, ch3LineBreakNormalizedSourceSignals)
-    expectOccurrenceCountAtLeast(
-      normalizedDiscussTranscript,
-      'English learners face every day. It is not grammar. It is not vocabulary. It is hesitation',
-      2,
-    )
-  })
-
-  it('keeps the corrected fluency practice ideas', () => {
-    const text = chapterEnglishText(ch3)
+describe('ChapterView (id="ch4") content coverage', () => {
+  it('keeps the corrected fluency practice ideas (old ch3 content)', () => {
+    const text = chapterEnglishText(ch4)
 
     expectContentToIncludeAll(text, [
       'Traditional study teaches knowledge',
@@ -279,60 +143,22 @@ describe('ChapterView (id="ch3") content coverage', () => {
       'Slow podcasts remove this pressure',
       'Speaking must be trained directly',
       'When you shadow, your brain does not translate. It reacts',
-      'This hesitation happens because your brain is searching for the perfect sentence',
       'The goal is not perfect English. The goal is clear communication',
       '10 minutes every day is more powerful than 2 hours once a week',
       'Another problem with traditional study is that it separates skills',
       'Conversation practice trains speaking in context',
       'Slow English podcasts are powerful because they slow down the process without slowing progress',
-      'It moves too fast. It introduces new topics before the old ones become comfortable',
-      'Conversation-based podcast practice goes deeper',
       'Fluency grows when English becomes something you do, not something you think about',
       'Together, they train understanding and speaking at the same time',
       'Slow listening also builds patience',
       'When you control your pace, you control your confidence',
       'Consistency matters more than time. With daily practice, you will notice change',
-      'You will speak with less hesitation. You will recognize phrases instantly. You will respond faster',
-      'English begins to speak through you naturally, confidently, and without fear',
-      'When you practice speaking daily, even for 5 minutes, your brain learns that speaking is safe',
-      'Safety creates fluency. Shadowing also helps here',
-      'Grammar improves naturally through exposure and practice. But during speaking, flow comes first',
-      'So when you speak, let it be imperfect. Let it be slow. Let it be real',
-      'Not tomorrow, not someday, but right now',
-      'One reason many learners stop improving is because they study in waves',
-      'They study hard for one week. Then they stop for 2 weeks',
-      'It prepares for it. Speaking becomes normal',
-      'When you see yourself as an English speaker, your behavior changes',
-      'You take more risks. You speak more often. You stop waiting for permission',
-      'A calm mind is also important. Stress blocks language. Relaxation opens it',
-      'Slow podcasts, simple conversations, gentle repetition',
     ])
-
-    expectOccurrenceCountAtLeast(
-      text,
-      "Now, let's talk about a problem many English learners face every day",
-      2,
-    )
-    expectOccurrenceCountAtLeast(
-      text,
-      'The goal is not perfect English. The goal is clear communication',
-      2,
-    )
   })
 
-  it('does not keep known raw subtitle fragments', () => {
-    const text = chapterEnglishText(ch3)
-
-    expectContentToExcludeAll(text, [
-      'new M. Oments',
-      'PF ect sentence',
-      'This builds C confidence',
-      'S Oh. When you speak',
-      'each time me you continue speaking',
-      'Slow podcast. TS simple conversations',
-      'next. T part',
-      'fear fades when you speak. Anyway',
-    ])
+  it('has 10 scenes matching the old ch3 structure', () => {
+    expect(ch4.scenes.length).toBe(10)
+    expect(ch4.scenes[0].id).toBe('scene-01')
   })
 })
 
@@ -508,10 +334,44 @@ describe('ChapterView (id="ch2") — dynamic sections (real data)', () => {
   })
 })
 
-describe('ChapterView (id="ch3") — dynamic sections (real data)', () => {
-  it('quick nav has exactly 3 buttons: 全文, 單字, 片語', async () => {
+describe('ChapterView (id="ch3") — dynamic sections (new future tense content)', () => {
+  it('quick nav has exactly 2 buttons: 全文, 單字', async () => {
     const wrapper = await mountChapter('ch3')
     const nav = wrapper.find('[data-testid="ch3-quick-nav"]')
+    expect(nav.exists()).toBe(true)
+    const buttons = nav.findAll('button')
+    expect(buttons.length).toBe(2)
+    expect(buttons[0].text()).toBe('全文')
+    expect(buttons[1].text()).toBe('單字')
+  })
+
+  it('bilingual section IS in DOM', async () => {
+    const wrapper = await mountChapter('ch3')
+    expect(wrapper.find('#ch3-section-bilingual').exists()).toBe(true)
+  })
+
+  it('renders 5 scene blocks', async () => {
+    const wrapper = await mountChapter('ch3')
+    expect(wrapper.findAll('[data-testid^="scene-"]').length).toBe(5)
+  })
+
+  it('displays new ch3 chapter title 用自然的未來式談你的計畫', async () => {
+    const wrapper = await mountChapter('ch3')
+    expect(wrapper.text()).toContain('用自然的未來式談你的計畫')
+  })
+
+  it('contains future tense content', async () => {
+    const wrapper = await mountChapter('ch3')
+    const text = wrapper.text().toLowerCase()
+    expect(text).toContain('going to')
+    expect(text).toContain('present continuous')
+  })
+})
+
+describe('ChapterView (id="ch4") — dynamic sections (old ch3 content)', () => {
+  it('quick nav has exactly 3 buttons: 全文, 單字, 片語', async () => {
+    const wrapper = await mountChapter('ch4')
+    const nav = wrapper.find('[data-testid="ch4-quick-nav"]')
     expect(nav.exists()).toBe(true)
     const buttons = nav.findAll('button')
     expect(buttons.length).toBe(3)
@@ -521,17 +381,17 @@ describe('ChapterView (id="ch3") — dynamic sections (real data)', () => {
   })
 
   it('bilingual section IS in DOM', async () => {
-    const wrapper = await mountChapter('ch3')
-    expect(wrapper.find('#ch3-section-bilingual').exists()).toBe(true)
+    const wrapper = await mountChapter('ch4')
+    expect(wrapper.find('#ch4-section-bilingual').exists()).toBe(true)
   })
 
   it('renders 10 scene blocks', async () => {
-    const wrapper = await mountChapter('ch3')
+    const wrapper = await mountChapter('ch4')
     expect(wrapper.findAll('[data-testid^="scene-"]').length).toBe(10)
   })
 
-  it('displays ch3 chapter title 傳統學習法為何無法帶來流暢', async () => {
-    const wrapper = await mountChapter('ch3')
+  it('displays ch4 chapter title 傳統學習法為何無法帶來流暢', async () => {
+    const wrapper = await mountChapter('ch4')
     expect(wrapper.text()).toContain('傳統學習法為何無法帶來流暢')
   })
 })

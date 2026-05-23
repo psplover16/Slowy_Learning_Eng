@@ -30,8 +30,16 @@ export const chapters: ChapterEntry[] = [
     id: 'ch3',
     path: '/ch3',
     shortLabel: 'Ch3',
+    titleZh: '用自然的未來式談你的計畫',
+    titleEn: 'Talking About Your Future Plans Naturally',
+    dataLoader: () => import('../../modules/chapters/data/ch3'),
+  },
+  {
+    id: 'ch4',
+    path: '/ch4',
+    shortLabel: 'Ch4',
     titleZh: '傳統學習法為何無法帶來流暢',
     titleEn: "Why Traditional Study Can't Create Fluency",
-    dataLoader: () => import('../../modules/chapters/data/ch3'),
+    dataLoader: () => import('../../modules/chapters/data/ch4'),
   },
 ]

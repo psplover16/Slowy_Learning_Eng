@@ -30,7 +30,7 @@ describe('GrammarView', () => {
 
   // --- reorder-grammar-by-pedagogy ---
 
-  it('orders grammar cards into the pedagogical 18-topic sequence', () => {
+  it('orders grammar cards into the pedagogical sequence (G01–G07, G19, G08–G18)', () => {
     const wrapper = mountGrammar()
     const cards = wrapper.findAll('[data-testid="grammar-card"]')
     const titles = cards.map((card) => {
@@ -51,6 +51,7 @@ describe('GrammarView', () => {
       'used to + V　過去曾經……',
       '現在完成式 vs 現在完成進行式',
       '不定詞完成式 to have + V-pp',
+      '三種自然未來式：going to / 現在進行式 / will',
       '介系詞後面一定接 V-ing（動名詞）',
       'while ＋ V-ing　同時進行',
       'for ＋ 時間長度　持續多久',
@@ -81,7 +82,7 @@ describe('GrammarView', () => {
     ])
   })
 
-  it('numbers grammar card badges consecutively G01 through G18 in display order', () => {
+  it('numbers grammar card badges G01–G07, G19, G08–G18 in display order', () => {
     const wrapper = mountGrammar()
     const cards = wrapper.findAll('[data-testid="grammar-card"]')
     const badges = cards.map((card) => {
@@ -90,8 +91,8 @@ describe('GrammarView', () => {
     })
     expect(badges).toEqual([
       'G01', 'G02', 'G03', 'G04', 'G05', 'G06',
-      'G07', 'G08', 'G09', 'G10', 'G11', 'G12',
-      'G13', 'G14', 'G15', 'G16', 'G17', 'G18',
+      'G07', 'G19', 'G08', 'G09', 'G10', 'G11',
+      'G12', 'G13', 'G14', 'G15', 'G16', 'G17', 'G18',
     ])
   })
 })

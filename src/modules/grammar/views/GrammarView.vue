@@ -315,6 +315,52 @@
       </div>
     </GrammarCard>
 
+    <!-- G19: Three Natural Future Forms -->
+    <GrammarCard badge="G19" title="三種自然未來式：going to / 現在進行式 / will">
+      <p class="text-ink-soft text-sm mb-4">英語表達未來有三種常用方式，選擇哪一種取決於「是否已決定」和「計畫有多具體」。</p>
+
+      <div class="overflow-x-auto mb-4">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="bg-teal-eng text-white text-left">
+              <th class="px-3 py-2 rounded-tl-lg">形式</th>
+              <th class="px-3 py-2">公式</th>
+              <th class="px-3 py-2 rounded-tr-lg">用法</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(row, i) in futureFormsTable" :key="row.form" :class="i % 2 === 1 ? 'bg-paper-2' : 'bg-paper-3'">
+              <td class="px-3 py-2 font-medium text-teal-eng-deep">{{ row.form }}</td>
+              <td class="px-3 py-2 font-newsreader italic">{{ row.formula }}</td>
+              <td class="px-3 py-2 text-ink-soft">{{ row.usage }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="space-y-3 mb-4">
+        <div v-for="row in futureFormsTable" :key="row.form + '-examples'" class="bg-paper-2 rounded-lg px-4 py-3 text-sm">
+          <p class="font-medium text-ink mb-2">{{ row.form }}</p>
+          <div class="space-y-1.5">
+            <div v-for="ex in row.examples" :key="ex.en">
+              <p class="font-newsreader italic text-terracotta-deep">{{ ex.en }}</p>
+              <p class="text-ink-faint text-xs">{{ ex.tc }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-paper-2 border border-line-soft rounded-lg px-4 py-3 text-sm text-ink-soft">
+        <p class="font-medium text-ink mb-2">補充說明</p>
+        <ul class="space-y-1.5 text-xs">
+          <li>🔹 <span class="font-newsreader italic text-teal-eng-deep">be going to</span> 與現在進行式都可表達「計畫」，但 be going to 較常用於「決定但尚未安排細節」的情境。</li>
+          <li>🔹 <span class="font-newsreader italic text-teal-eng-deep">will</span> 通常不用來表達「已計畫好的事」，改用 be going to 或現在進行式更自然。</li>
+          <li>🔹 口語中常將 <span class="font-newsreader italic text-teal-eng-deep">I'm going to</span> 縮讀為 "I'm gonna"，書面仍以完整形式為主。</li>
+          <li>🔹 問句同樣遵循此三者的邏輯：<span class="font-newsreader italic text-terracotta-deep">Are you going to ...? / Are you ...ing? / Will you ...?</span></li>
+        </ul>
+      </div>
+    </GrammarCard>
+
     <!-- Section 4: V-ing 後接慣例 -->
     <h2
       data-testid="grammar-section-header"
@@ -795,6 +841,37 @@ const perfectInfinitiveExamples = [
     en: "I'm glad to have met you.",
     tc: '很高興曾經認識你。',
     note: '「認識」是過去的事，「高興」是現在的感受',
+  },
+]
+
+// G19
+const futureFormsTable = [
+  {
+    form: 'be going to',
+    formula: 'am / is / are + going to + V',
+    usage: '已決定的計畫；有明顯跡象的預測',
+    examples: [
+      { en: "I'm going to study abroad next year.", tc: '我明年打算出國讀書。（已決定的計畫）' },
+      { en: "Look at those clouds — it's going to rain.", tc: '你看那些雲——要下雨了。（有跡象的預測）' },
+    ],
+  },
+  {
+    form: '現在進行式',
+    formula: 'am / is / are + V-ing',
+    usage: '已安排好的計畫（有時間、地點等具體安排）',
+    examples: [
+      { en: "I'm meeting Sarah at 3 pm tomorrow.", tc: '我明天下午三點要和莎拉見面。（已排定）' },
+      { en: "We're flying to Tokyo next Monday.", tc: '我們下週一要飛去東京。（機票已訂）' },
+    ],
+  },
+  {
+    form: 'will',
+    formula: 'will + V',
+    usage: '當下決定、承諾、預測（無具體跡象）',
+    examples: [
+      { en: "I'll help you with that.", tc: '我來幫你。（臨時決定）' },
+      { en: "She'll probably be late.", tc: '她可能會遲到。（一般性預測）' },
+    ],
   },
 ]
 

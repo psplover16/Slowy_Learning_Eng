@@ -33,7 +33,7 @@
             v-if="isOpen"
             data-testid="nav-content-menu"
             role="menu"
-            class="absolute top-full left-0 mt-1 min-w-[14rem] max-h-[min(60vh,32rem)] overflow-y-auto bg-paper-3 border border-line rounded-lg shadow-lg py-1 z-50 overscroll-contain"
+            class="absolute top-full left-0 mt-1 w-max max-w-[calc(100vw-8rem)] max-h-[min(80vh,48rem)] overflow-y-auto bg-paper-3 border border-line rounded-lg shadow-lg py-1 z-50 overscroll-contain"
           >
             <button
               v-for="chapter in chapters"
