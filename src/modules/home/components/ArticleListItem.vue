@@ -8,6 +8,7 @@
       <p v-if="subtitle" class="text-sm text-ink-soft mt-0.5">{{ subtitle }}</p>
     </div>
     <button
+      v-if="showCompletion !== false"
       class="shrink-0 text-terracotta hover:text-terracotta-deep transition-colors p-1"
       :aria-label="completed ? '標記為未完成' : '標記為完成'"
       data-testid="completion-toggle"
@@ -24,11 +25,12 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
+withDefaults(defineProps<{
   title: string
   subtitle?: string
   completed: boolean
-}>()
+  showCompletion?: boolean
+}>(), { showCompletion: true })
 
 const emit = defineEmits<{
   navigate: []

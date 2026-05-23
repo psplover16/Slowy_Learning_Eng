@@ -11,6 +11,20 @@
       @navigate="router.push(chapter.path)"
       @toggle-completion="toggleCompletion(chapter.id)"
     />
+
+    <section data-testid="misshoney-section" class="pt-6">
+      <h2 class="font-fraunces text-xl text-terracotta mb-4">MissHoney</h2>
+      <ArticleListItem
+        v-for="pl in playlists"
+        :key="pl.id"
+        :title="pl.shortLabel"
+        :subtitle="pl.titleZh"
+        :completed="false"
+        :show-completion="false"
+        :data-testid="`misshoney-playlist-${pl.id}`"
+        @navigate="router.push(pl.path)"
+      />
+    </section>
   </main>
 </template>
 
@@ -19,6 +33,7 @@ import { useRouter } from 'vue-router'
 import ArticleListItem from '../components/ArticleListItem.vue'
 import { useCompletion } from '../composables/useCompletion'
 import { chapters } from '../../../shared/config/chapters'
+import { playlists } from '../../../shared/config/playlists'
 
 const router = useRouter()
 const { isCompleted, toggleCompletion } = useCompletion()

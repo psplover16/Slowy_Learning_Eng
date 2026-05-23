@@ -33,6 +33,60 @@ src/
     config/storageKeys.ts          — 集中 localStorage key 常數
 ```
 
+## MissHoney 播放清單模組（`src/modules/playlists/`）
+
+```
+src/modules/playlists/
+  types.ts                        — PlaylistData, PlaylistVideoEntry, SkippedVideoEntry,
+                                    PlaylistVideoData, PlaylistScene, PlaylistVocabGroup,
+                                    PlaylistPhrase, ContentScaffold, ImportSummary 等型別
+  PlaylistView.vue                — 播放清單入口頁（/a1, /a2, /b1, /b2）
+  PlaylistVideoView.vue           — 影片學習內容頁（/:level/:videoSlug）
+  data/
+    a1.ts / a2.ts / b1.ts / b2.ts — 各難度 metadata（videos[] + skippedVideos[]）
+    videos/
+      a1/<slug>.json              — 每支 ready 影片的 PlaylistVideoData（lazy import）
+      a2/<slug>.json
+      b1/<slug>.json
+      b2/<slug>.json
+
+src/modules/home/composables/
+  useMissHoneyCompletion.ts       — 影片完讀切換（localStorage key: slowy:miss-honey-completion）
+```
+
+**路由所有權（/a1–/b2）：**
+- `/a1`, `/a2`, `/b1`, `/b2` → `PlaylistView.vue`（接 `level` prop）
+- `/:level/:videoSlug` → `PlaylistVideoView.vue`（接 `level` + `videoSlug` props）
+- skipped 影片不產生子路由；`pendingTranscript` 影片子頁顯示「內容整理中」
+
+## MissHoney Import 工具（`scripts/misshoney/`）
+
+```
+scripts/misshoney/
+  sources.json                — 四個播放清單 URL（A1/A2/B1/B2）
+  import-core.mjs             — 純函式：reverse-order、slug 推導、cue 正規化、output planning
+  import-playlists.mjs        — CLI：呼叫 yt-dlp，寫 raw outputs，不覆蓋 app content
+  content-core.mjs            — 純函式：scaffold 建立、schema 驗證、completeness 驗證、promotion planning
+  scaffold-content.mjs        — CLI：raw transcripts → authoring scaffolds（不含 TC 翻譯）
+  validate-content.mjs        — CLI：驗證 generated/promoted JSON 完整性
+  promote-content.mjs         — CLI：通過驗證後複製到 app data 並更新 metadata
+
+_private/misshoney/           — 原始 import 輸出（不進 app bundle，不提交至 git）
+  inventory/<level>.json      — playlist metadata 清冊
+  transcripts/<level>/<slug>.json — 正規化英文字幕 cues
+  skipped/<level>.json        — 不可學習影片與原因
+  import-summary.json         — 各等級 import 統計
+  content-scaffolds/<level>/<slug>.json — authoring 素材（script 生成）
+  generated-content/<level>/<slug>.json — 完整 PlaylistVideoData（apply agent 撰寫）
+```
+
+**內容 Pipeline 流程：**
+1. `npm run misshoney:import` — yt-dlp 抓 playlist metadata 與公開字幕 → `_private/misshoney/`
+2. `npm run misshoney:scaffold-content` — transcripts → authoring scaffolds（不含教學內容）
+3. Apply agent 依 scaffold 撰寫 `_private/misshoney/generated-content/<level>/<slug>.json`
+4. `npm run misshoney:validate-content` — 驗證 schema 與 TC 翻譯完整性
+5. `npm run misshoney:promote-content` — 複製到 `src/modules/playlists/data/videos/`，更新 metadata
+
 ## 設計原則
 
 - **Feature-based modules**：每個 feature 自帶 views、components、composables

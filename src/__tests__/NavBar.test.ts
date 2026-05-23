@@ -126,14 +126,128 @@ describe('NavBar — content dropdown', () => {
     wrapper.unmount()
   })
 
-  it('renders the three NavBar items in DOM order: home, content-trigger, grammar', async () => {
+  it('renders the four NavBar items in DOM order: home, content-trigger, misshoney-trigger, grammar', async () => {
     const router = makeRouter('/')
     await router.isReady()
     const wrapper = mount(NavBar, { global: { plugins: [router] } })
-    const items = wrapper.findAll('[data-testid="nav-home"], [data-testid="nav-content-trigger"], [data-testid="nav-grammar"]')
-    expect(items.length).toBe(3)
+    const items = wrapper.findAll('[data-testid="nav-home"], [data-testid="nav-content-trigger"], [data-testid="nav-misshoney-trigger"], [data-testid="nav-grammar"]')
+    expect(items.length).toBe(4)
     expect(items[0].attributes('data-testid')).toBe('nav-home')
     expect(items[1].attributes('data-testid')).toBe('nav-content-trigger')
-    expect(items[2].attributes('data-testid')).toBe('nav-grammar')
+    expect(items[2].attributes('data-testid')).toBe('nav-misshoney-trigger')
+    expect(items[3].attributes('data-testid')).toBe('nav-grammar')
+  })
+})
+
+describe('NavBar — MissHoney dropdown', () => {
+  it('renders nav-misshoney-trigger with text "MissHoney" and aria-haspopup="menu"', async () => {
+    const router = makeRouter('/')
+    await router.isReady()
+    const wrapper = mount(NavBar, { global: { plugins: [router] } })
+    const trigger = wrapper.find('[data-testid="nav-misshoney-trigger"]')
+    expect(trigger.exists()).toBe(true)
+    expect(trigger.text()).toContain('MissHoney')
+    expect(trigger.attributes('aria-haspopup')).toBe('menu')
+  })
+
+  it('MissHoney menu is not rendered before trigger is clicked', async () => {
+    const router = makeRouter('/')
+    await router.isReady()
+    const wrapper = mount(NavBar, { global: { plugins: [router] } })
+    expect(wrapper.find('[data-testid="nav-misshoney-menu"]').exists()).toBe(false)
+  })
+
+  it('clicking trigger opens MissHoney menu with A1, A2, B1, B2 items in order', async () => {
+    const router = makeRouter('/')
+    await router.isReady()
+    const wrapper = mount(NavBar, { global: { plugins: [router] } })
+    await wrapper.find('[data-testid="nav-misshoney-trigger"]').trigger('click')
+    const menu = wrapper.find('[data-testid="nav-misshoney-menu"]')
+    expect(menu.exists()).toBe(true)
+    const items = menu.findAll('[data-testid^="nav-misshoney-"]').filter(el =>
+      el.attributes('data-testid') !== 'nav-misshoney-trigger' &&
+      el.attributes('data-testid') !== 'nav-misshoney-menu'
+    )
+    expect(items.length).toBe(4)
+    expect(items[0].text()).toContain('A1')
+    expect(items[1].text()).toContain('A2')
+    expect(items[2].text()).toContain('B1')
+    expect(items[3].text()).toContain('B2')
+  })
+
+  it('clicking a MissHoney item navigates and closes the menu', async () => {
+    const r = createRouter({
+      history: createMemoryHistory(),
+      routes: [
+        { path: '/', component: { template: '<div />' } },
+        { path: '/a1', component: { template: '<div />' } },
+        { path: '/grammar', component: { template: '<div />' } },
+      ],
+    })
+    r.push('/')
+    await r.isReady()
+    const wrapper = mount(NavBar, { global: { plugins: [r] } })
+    await wrapper.find('[data-testid="nav-misshoney-trigger"]').trigger('click')
+    await wrapper.find('[data-testid="nav-misshoney-a1"]').trigger('click')
+    await flushPromises()
+    expect(r.currentRoute.value.path).toBe('/a1')
+    expect(wrapper.find('[data-testid="nav-misshoney-menu"]').exists()).toBe(false)
+  })
+
+  it('MissHoney trigger has active classes when on /a1 route', async () => {
+    const r = createRouter({
+      history: createMemoryHistory(),
+      routes: [
+        { path: '/a1', component: { template: '<div />' } },
+        { path: '/grammar', component: { template: '<div />' } },
+      ],
+    })
+    r.push('/a1')
+    await r.isReady()
+    const wrapper = mount(NavBar, { global: { plugins: [r] } })
+    const trigger = wrapper.find('[data-testid="nav-misshoney-trigger"]')
+    expect(trigger.classes()).toContain('bg-terracotta')
+    expect(trigger.classes()).toContain('text-white')
+  })
+
+  it('MissHoney trigger does NOT have active classes on / or /grammar', async () => {
+    const router = makeRouter('/grammar')
+    await router.isReady()
+    const wrapper = mount(NavBar, { global: { plugins: [router] } })
+    const trigger = wrapper.find('[data-testid="nav-misshoney-trigger"]')
+    expect(trigger.classes()).not.toContain('bg-terracotta')
+  })
+
+  it('MissHoney menu has overflow prevention class max-w-[calc(100vw-11rem)]', async () => {
+    const router = makeRouter('/')
+    await router.isReady()
+    const wrapper = mount(NavBar, { global: { plugins: [router] } })
+    await wrapper.find('[data-testid="nav-misshoney-trigger"]').trigger('click')
+    const menu = wrapper.find('[data-testid="nav-misshoney-menu"]')
+    expect(menu.classes()).toContain('max-w-[calc(100vw-11rem)]')
+  })
+
+  it('pressing Escape closes the MissHoney menu', async () => {
+    const router = makeRouter('/')
+    await router.isReady()
+    const wrapper = mount(NavBar, { attachTo: document.body, global: { plugins: [router] } })
+    await wrapper.find('[data-testid="nav-misshoney-trigger"]').trigger('click')
+    expect(wrapper.find('[data-testid="nav-misshoney-menu"]').exists()).toBe(true)
+    document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape' }))
+    await flushPromises()
+    expect(wrapper.find('[data-testid="nav-misshoney-menu"]').exists()).toBe(false)
+    wrapper.unmount()
+  })
+
+  it('clicking outside closes the MissHoney menu', async () => {
+    const router = makeRouter('/')
+    await router.isReady()
+    const wrapper = mount(NavBar, { attachTo: document.body, global: { plugins: [router] } })
+    await wrapper.find('[data-testid="nav-misshoney-trigger"]').trigger('click')
+    expect(wrapper.find('[data-testid="nav-misshoney-menu"]').exists()).toBe(true)
+    document.body.dispatchEvent(new MouseEvent('click', { bubbles: true }))
+    await flushPromises()
+    expect(wrapper.find('[data-testid="nav-misshoney-menu"]').exists()).toBe(false)
+    wrapper.unmount()
   })
 })
