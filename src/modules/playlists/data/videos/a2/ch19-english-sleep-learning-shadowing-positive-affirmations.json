@@ -20,11 +20,11 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast. In this video, I will guide.",
-          "tc": "歡迎回到我的慢速英語播客。在這個影片中，我將進行指導。"
+          "tc": "歡迎回到我的慢速英語podcast。在這個影片中，我將進行指導。"
         },
         {
           "en": "You through positive affirmations designed to build your English naturally. Waking up, feeling stronger, calmer, and more fluent. All while.",
-          "tc": "您可以透過積極的肯定來自然地培養您的英語。醒來後，感覺更強大、更平靜、更流暢。一直以來。"
+          "tc": "你可以透過積極的肯定來自然地培養你的英語。醒來後，感覺更強大、更平靜、更流暢。一直以來。"
         },
         {
           "en": "You rest. peacefully. Now, repeat each affirmation in your mind or whisper.",
@@ -37,18 +37,10 @@
       ],
       "tags": [
         {
-          "english": "more",
-          "kk": "/more/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 more 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "fluent",
           "kk": "/fluent/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "流暢",
           "note": "看到 fluent 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -56,8 +48,16 @@
           "english": "naturally",
           "kk": "/naturally/",
           "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "自然",
           "note": "看到 naturally 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "come",
+          "kk": "/come/",
+          "partOfSpeech": "n.",
+          "meaning": "來",
+          "note": "看到 come 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -90,7 +90,7 @@
           "english": "every",
           "kk": "/every/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每一個",
           "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -98,16 +98,16 @@
           "english": "day",
           "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
-          "english": "clear",
-          "kk": "/clear/",
+          "english": "come",
+          "kk": "/come/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 clear 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "來",
+          "note": "看到 come 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -140,7 +140,7 @@
           "english": "every",
           "kk": "/every/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每一個",
           "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -148,15 +148,15 @@
           "english": "day",
           "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
           "english": "naturally",
           "kk": "/naturally/",
           "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "自然",
           "note": "看到 naturally 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -187,18 +187,10 @@
       ],
       "tags": [
         {
-          "english": "more",
-          "kk": "/more/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 more 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "every",
           "kk": "/every/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每一個",
           "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -206,8 +198,16 @@
           "english": "fluent",
           "kk": "/fluent/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "流暢",
           "note": "看到 fluent 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -224,11 +224,11 @@
         },
         {
           "en": "You are confident. You are fluent. You are ready to wake up with new energy and new English skills, sweet dreams and fluent English. Use this video to continue growing your English.",
-          "tc": "你有信心。你很流利。當您醒來時，您會發現新的能量和新的英語技能、甜蜜的夢和流利的英語。使用此影片繼續提高您的英語水平。"
+          "tc": "你有信心。你很流利。當你醒來時，你會發現新的能量和新的英語技能、甜蜜的夢和流利的英語。使用此影片繼續提高你的英語水平。"
         },
         {
           "en": "Skills every night. Like, subscribe, and comment your sleep experience. Continue watching a long sleep podcast here.",
-          "tc": "每天晚上都有技巧。按讚、訂閱並評論您的睡眠體驗。在這裡繼續觀看長時間睡眠播客。"
+          "tc": "每天晚上都有技巧。按讚、訂閱並評論你的睡眠體驗。在這裡繼續觀看長時間睡眠podcast。"
         }
       ],
       "tags": [
@@ -236,7 +236,7 @@
           "english": "every",
           "kk": "/every/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每一個",
           "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -244,7 +244,7 @@
           "english": "fluent",
           "kk": "/fluent/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "流暢",
           "note": "看到 fluent 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -252,7 +252,7 @@
           "english": "sleep",
           "kk": "/sleep/",
           "partOfSpeech": "v.",
-          "meaning": "日常作息相關的常用字",
+          "meaning": "睡覺",
           "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -264,18 +264,10 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "more",
-          "kk": "/more/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 more 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "every",
           "kk": "/every/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每一個",
           "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -283,7 +275,7 @@
           "english": "fluent",
           "kk": "/fluent/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "流暢",
           "note": "看到 fluent 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -291,15 +283,15 @@
           "english": "day",
           "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
           "english": "naturally",
           "kk": "/naturally/",
           "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "自然",
           "note": "看到 naturally 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -307,7 +299,7 @@
           "english": "sleep",
           "kk": "/sleep/",
           "partOfSpeech": "v.",
-          "meaning": "日常作息相關的常用字",
+          "meaning": "睡覺",
           "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -315,16 +307,24 @@
           "english": "becoming",
           "kk": "/becoming/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "成為",
           "note": "看到 becoming 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "clear",
-          "kk": "/clear/",
+          "english": "come",
+          "kk": "/come/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 clear 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "來",
+          "note": "看到 come 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "confident",
+          "kk": "/confident/",
+          "partOfSpeech": "n.",
+          "meaning": "自信的",
+          "note": "看到 confident 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -333,8 +333,19 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "i feel",
-      "meaning": "常用說法，可用來表達「i feel」這個意思",
+      "meaning": "我覺得",
       "examples": [
         {
           "en": "I feel calm and relaxed when I practice English.",
@@ -347,19 +358,19 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast. In this video, I will guide.",
-      "translation": "歡迎回到我的慢速英語播客。在這個影片中，我將進行指導。",
+      "translation": "歡迎回到我的慢速英語podcast。在這個影片中，我將進行指導。",
       "points": [
         {
-          "label": "welcome back guide",
-          "text": "welcome back guide",
-          "note": "注意 \"welcome back guide\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-02",
       "sentence": "You through positive affirmations designed to build your English naturally. Waking up, feeling stronger, calmer, and more fluent. All while.",
-      "translation": "您可以透過積極的肯定來自然地培養您的英語。醒來後，感覺更強大、更平靜、更流暢。一直以來。",
+      "translation": "你可以透過積極的肯定來自然地培養你的英語。醒來後，感覺更強大、更平靜、更流暢。一直以來。",
       "points": [
         {
           "label": "through positive affirmations",

@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=rINH9aoVe0c",
   "header": {
     "podcastLabel": "MissHoney B1",
-    "titleZh": "慢速英語播客：我的埃斯孔迪多港之旅！ 🇲🇽A2+級",
+    "titleZh": "慢速英語podcast：我的埃斯孔迪多港之旅！ 🇲🇽A2+級",
     "titleEn": "Slow English Podcast: My Trip to Puerto Escondido! 🇲🇽 Level A2+",
     "levelTag": "B1",
     "topicTag": "travel"
@@ -19,8 +19,8 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast. A podcast for you to practice slow English listening to learn English while listening to fun stories about my life.",
-          "tc": "歡迎回到我的慢速英語播客。一個播客，讓您練習慢速英語聽力，一邊聽我生活中的有趣故事，一邊學習英語。"
+          "en": "Welcome back to my slow English podcast, a podcast for you to practice slow English listening to learn English while listening to fun stories about my life.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一個讓你練習慢速英語聽力以學習英語的podcast，同時聆聽我生活中的有趣故事。"
         },
         {
           "en": "Today I want to tell you about my trip to Puerto Escondido. It's a small city in Wajaka, the south of Mexico. I started my trip in Wajaka City.",
@@ -31,54 +31,104 @@
           "tc": "我喜歡瓦卡植被茂盛的地方。"
         },
         {
-          "en": "Wajaka, getting to see all of the street art and murals, all of the insanely hard work the artists put in to these murals. It was very impressive. Here are some beautiful.",
-          "tc": "瓦賈卡（Wajaka），開始看到所有的街頭藝術和壁畫，以及藝術家為這些壁畫付出的所有瘋狂的努力。這是非常令人印象深刻的。這裡有一些美麗的。"
+          "en": "I love how diverse.",
+          "tc": "我喜歡多麼多樣化。"
         }
       ],
       "tags": [
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "day",
+          "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "city",
           "kk": "/city/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "城市",
           "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "wajaka",
-          "kk": "/wajaka/",
+          "english": "puerto",
+          "kk": "/puerto/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 wajaka 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "波多黎各",
+          "note": "看到 puerto 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段：旅行",
+      "titleEn": "Part 2: travel",
       "sentences": [
         {
-          "en": "Trees. I loved these pink flowers.",
-          "tc": "樹木。我喜歡這些粉紅色的花。"
+          "en": "It is. From cities to beaches to mountains and rivers, the full package. Wajaka City was so vibrant with color and life. Walking through the vibrant streets in Wajaka, getting to see.",
+          "tc": "這是。從城市到海灘到山川河流，一應俱全。瓦賈卡市充滿了色彩和生機。漫步在瓦賈卡充滿活力的街道，盡情觀賞。"
+        },
+        {
+          "en": "All of the street art and murals, all of the insanely hard work the artists put in to these murals.",
+          "tc": "所有的街頭藝術和壁畫，藝術家為這些壁畫付出的所有瘋狂的努力。"
+        },
+        {
+          "en": "It was very impressive. Here are some beautiful trees. I loved these pink flowers.",
+          "tc": "這是非常令人印象深刻的。這裡有一些美麗的樹。我喜歡這些粉紅色的花。"
         },
         {
           "en": "We went to eat at a cute little coffee shop down an alleyway in Wajaka City for desserts. Of course,.",
           "tc": "我們去瓦賈卡市一條小巷裡的一家可愛的小咖啡店吃甜點。當然，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "en": "I love sweet bread, an almond cream croissant, and a chocolate filled croissant. That had to be the best croissant I have ever tried. It was scrumptious. So many flowers in Wajaka.",
-          "tc": "我喜歡甜麵包、杏仁奶油可頌和巧克力可頌。那一定是我吃過的最好的羊角麵包。非常美味。瓦賈卡有很多花。"
+          "english": "city",
+          "kk": "/city/",
+          "partOfSpeech": "n.",
+          "meaning": "城市",
+          "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：食物與用餐",
+      "titleEn": "Part 3: food",
+      "sentences": [
+        {
+          "en": "I love sweet bread, an almond cream croissant, and a chocolate filled croissant. That had to be the best croissant.",
+          "tc": "我喜歡甜麵包、杏仁奶油可頌和巧克力可頌。那一定是最好的羊角麵包。"
+        },
+        {
+          "en": "I have ever tried.",
+          "tc": "我曾經嘗試過。"
+        },
+        {
+          "en": "It was scrumptious. So many flowers in Wajaka.",
+          "tc": "非常美味。瓦賈卡有很多花。"
         },
         {
           "en": "We took our bus.",
@@ -87,40 +137,36 @@
       ],
       "tags": [
         {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "city",
-          "kk": "/city/",
-          "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "wajaka",
           "kk": "/wajaka/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "瓦賈卡",
           "note": "看到 wajaka 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
+        },
+        {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
-      "id": "scene-03",
-      "no": "03",
-      "titleZh": "第 3 段：旅行",
-      "titleEn": "Part 3: travel",
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：旅行",
+      "titleEn": "Part 4: travel",
       "sentences": [
         {
-          "en": "We rode all the way to Puerto Gondido, a beach town just 2 hours away from the city. It was such a delight to swim in the ocean again.",
-          "tc": "我們一路騎到了貢迪多港，一個距離市區僅2小時車程的海濱小鎮。再次在大海裡游泳真是太高興了。"
+          "en": "We rode all the way to Puerto Gondido, a beach town just 2 hours away from the city.",
+          "tc": "我們一路騎到了貢迪多港，一個距離市區僅2小時車程的海濱小鎮。"
+        },
+        {
+          "en": "It was such a delight to swim in the ocean again.",
+          "tc": "再次在大海裡游泳真是太高興了。"
         },
         {
           "en": "We arrived in Puerto Gondido around 5 a.m.",
@@ -129,26 +175,22 @@
         {
           "en": "We head straight to the beach.",
           "tc": "我們直接前往海灘。"
-        },
-        {
-          "en": "We took a dip in the sea.",
-          "tc": "我們在海裡暢泳。"
         }
       ],
       "tags": [
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "beach",
+          "kk": "/beach/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "city",
           "kk": "/city/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "城市",
           "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -156,58 +198,8 @@
           "english": "head",
           "kk": "/head/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "頭",
           "note": "看到 head 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
-    },
-    {
-      "id": "scene-04",
-      "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
-      "sentences": [
-        {
-          "en": "We head to our apartment. The view was magnificent. Unbelievable that.",
-          "tc": "我們前往我們的公寓。景色非常壯觀。難以置信。"
-        },
-        {
-          "en": "We were able to stay in a room so nice. I felt so privileged to be able to look outside my window and see something so phenomenal. All around the city, there.",
-          "tc": "我們能夠住在一個非常好的房間裡。我感到非常榮幸能夠看到窗外並看到如此驚人的東西。整個城市，那裡都有。"
-        },
-        {
-          "en": "Are so many flowers hanging from trees, on bushes, just everywhere?",
-          "tc": "樹上、灌木叢上、到處都掛著這麼多花嗎？"
-        },
-        {
-          "en": "I recorded them all. I think you must know by now that.",
-          "tc": "我把它們都記錄下來了。我想你現在一定知道了。"
-        }
-      ],
-      "tags": [
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "city",
-          "kk": "/city/",
-          "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "flowers",
-          "kk": "/flowers/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 flowers 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -219,44 +211,36 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "I am fascinated with flowers. I think it's so important to find the beauty in everything, the smallest things.",
-          "tc": "我對花很著迷。我認為在一切事物、最小的事物中發現美是非常重要的。"
+          "en": "We took a dip in the sea.",
+          "tc": "我們在海裡暢泳。"
         },
         {
-          "en": "We got pizza for dinner and head to bed. I think you als you also must know by now that.",
-          "tc": "我們晚餐吃了披薩然後上床睡覺。我想你們現在一定也知道了。"
+          "en": "We head to our apartment. The view was magnificent. Unbelievable that.",
+          "tc": "我們前往我們的公寓。景色非常壯觀。難以置信。"
         },
         {
-          "en": "I love smoothies. So, every day I make myself a banana smoothie. This time I added some spinach, peaches, and bananas. And for breakfast, I made an avocado toast with ham.",
-          "tc": "我喜歡冰沙。所以，我每天都會為自己做香蕉冰沙。這次我加了一些菠菜、桃子和香蕉。早餐時，我做了酪梨吐司和火腿。"
+          "en": "We were able to stay in a room so nice. I felt so privileged to be able to look outside my window and see something so phenomenal. All around the city, there.",
+          "tc": "我們能夠住在一個非常好的房間裡。我感到非常榮幸能夠看到窗外並看到如此驚人的東西。整個城市，那裡都有。"
         },
         {
-          "en": "We moved all of our things. My backpack, my yoga mat, my computer and microphones,.",
-          "tc": "我們把所有的東西都搬走了。我的背包，我的瑜珈墊，我的電腦和麥克風。"
+          "en": "Are so many flowers hanging from trees, on bushes, just everywhere?",
+          "tc": "樹上、灌木叢上、到處都掛著這麼多花嗎？"
         }
       ],
       "tags": [
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "city",
+          "kk": "/city/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "城市",
+          "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "flowers",
-          "kk": "/flowers/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 flowers 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
         {
           "english": "head",
           "kk": "/head/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "頭",
           "note": "看到 head 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -269,6 +253,106 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
+          "en": "I recorded them all.",
+          "tc": "我把它們都記錄下來了。"
+        },
+        {
+          "en": "I think you must know by now that.",
+          "tc": "我想你現在一定知道了。"
+        },
+        {
+          "en": "I am fascinated with flowers.",
+          "tc": "我對花很著迷。"
+        },
+        {
+          "en": "I think it's so important to find the beauty in everything, the smallest things.",
+          "tc": "我認為在一切事物、最小的事物中發現美是非常重要的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "city",
+          "kk": "/city/",
+          "partOfSpeech": "n.",
+          "meaning": "城市",
+          "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：食物與用餐",
+      "titleEn": "Part 7: food",
+      "sentences": [
+        {
+          "en": "We got pizza for dinner and head to bed.",
+          "tc": "我們晚餐吃了披薩然後上床睡覺。"
+        },
+        {
+          "en": "I think you als you also must know by now that.",
+          "tc": "我想你們現在一定也知道了。"
+        },
+        {
+          "en": "I love smoothies. So, every day I make myself a banana smoothie. This time I added some spinach, peaches, and bananas. And for breakfast, I made an avocado toast with ham.",
+          "tc": "我喜歡冰沙。所以，我每天都會為自己做香蕉冰沙。這次我加了一些菠菜、桃子和香蕉。早餐時，我做了酪梨吐司和火腿。"
+        },
+        {
+          "en": "We moved all of our things. My backpack, my yoga mat, my computer and microphones,.",
+          "tc": "我們把所有的東西都搬走了。我的背包，我的瑜珈墊，我的電腦和麥克風。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "head",
+          "kk": "/head/",
+          "partOfSpeech": "n.",
+          "meaning": "頭",
+          "note": "看到 head 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
           "en": "We head to the place.",
           "tc": "我們前往地點。"
         },
@@ -277,12 +361,12 @@
           "tc": "我們本來打算租一個月。我們的新地方周圍都是華麗的東西。"
         },
         {
-          "en": "For example, a luscious tree, a mango tree with mangoes hanging from the branches. and the cutest little pineapple I have ever seen. For breakfast,.",
-          "tc": "例如，一棵甘美的樹，一棵芒果樹，樹枝上掛著芒果。還有我見過的最可愛的小鳳梨。早餐，。"
+          "en": "For example, a luscious tree, a mango tree with mangoes hanging from the branches. And the cutest little pineapple.",
+          "tc": "例如，一棵甘美的樹，一棵芒果樹，樹枝上掛著芒果。還有最可愛的小鳳梨。"
         },
         {
-          "en": "We made shakshuka with avocado, even a starf fruit tree with the sweetest fruit. It was so nice to have starf fruit whenever.",
-          "tc": "我們用酪梨製作了shakshuka，酪梨甚至是結有最甜果實的楊桃樹。無論何時都能吃到楊桃真是太好了。"
+          "en": "I have ever seen. For breakfast,.",
+          "tc": "我曾經見過。早餐，。"
         }
       ],
       "tags": [
@@ -290,16 +374,368 @@
           "english": "head",
           "kk": "/head/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "頭",
           "note": "看到 head 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "our",
-          "kk": "/our/",
+          "english": "little",
+          "kk": "/little/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：食物與用餐",
+      "titleEn": "Part 9: food",
+      "sentences": [
+        {
+          "en": "We made shakshuka with avocado, even a starf fruit tree with the sweetest fruit.",
+          "tc": "我們用酪梨製作了shakshuka，酪梨甚至是結有最甜果實的楊桃樹。"
+        },
+        {
+          "en": "It was so nice to have starf fruit whenever.",
+          "tc": "無論何時都能吃到楊桃真是太好了。"
+        },
+        {
+          "en": "We wanted. There were so many gues, little lizards that live in Puerto Gondido.",
+          "tc": "我們想要。岡迪多港生活著許多小蜥蜴。"
+        },
+        {
+          "en": "They make the cutest little sound. Whenever you hear that sound, you'll know that there's a gu.",
+          "tc": "他們發出最可愛的小聲音。只要一聽到這個聲音，就知道有蠱。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "puerto",
+          "kk": "/puerto/",
+          "partOfSpeech": "n.",
+          "meaning": "波多黎各",
+          "note": "看到 puerto 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常作息",
+      "titleEn": "Part 10: daily routine",
+      "sentences": [
+        {
+          "en": "It was so nice staying in our new cabin. I loved reading in the mornings, waking up slowly, making my bed.",
+          "tc": "住在我們的新小屋真是太好了。我喜歡早上讀書，慢慢醒來，整理床鋪。"
+        },
+        {
+          "en": "Then heading downstairs to start my day. Of course,.",
+          "tc": "然後下樓開始我的一天。當然，。"
+        },
+        {
+          "en": "The first thing on my agenda is to brush my teeth, get rid of those nasty smells.",
+          "tc": "我的首要任務是刷牙，去除那些難聞的氣味。"
+        },
+        {
+          "en": "I wash my face, and I grab a smoothie from the refrigerator. I sit and work for a while.",
+          "tc": "我洗了把臉，從冰箱裡拿出一杯冰沙。我坐下來工作了一會兒。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "head",
+          "kk": "/head/",
+          "partOfSpeech": "n.",
+          "meaning": "頭",
+          "note": "看到 head 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "I like to start by checking my emails and looking at my to-do list to make sure.",
+          "tc": "我喜歡先檢查我的電子郵件並查看我的待辦事項清單以進行確定。"
+        },
+        {
+          "en": "I don't forget to do something important that day. Once.",
+          "tc": "我不會忘記那天要做一些重要的事情。一次。"
+        },
+        {
+          "en": "I'm done checking some emails and finishing little things on my computer,.",
+          "tc": "我已經檢查了一些電子郵件並在電腦上完成了一些小事情。"
+        },
+        {
+          "en": "I head upstairs again. And I take a moment to breathe. I inhale deeply and exhale all of the air.",
+          "tc": "我再次上樓。我需要喘口氣。我深吸一口氣，呼出所有的空氣。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "head",
+          "kk": "/head/",
+          "partOfSpeech": "n.",
+          "meaning": "頭",
+          "note": "看到 head 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "I stretch my arms. I stretch my back. I stretch my legs. And once.",
+          "tc": "我伸展雙臂。我伸展背部。我伸展雙腿。還有一次。"
+        },
+        {
+          "en": "I feel all warmed up for the day, I'll go downstairs to eat breakfast. My boyfriend cooks the best food. And this morning.",
+          "tc": "我覺得今天全身都暖和了，我要下樓去吃早餐了。我男友做的飯菜最好吃。還有今天早上。"
+        },
+        {
+          "en": "He made me poached eggs with avocado, tomato, and broccoli.",
+          "tc": "他為我做了酪梨、番茄和綠花椰菜荷包蛋。"
+        },
+        {
+          "en": "It was so fresh and it made me feel good. That night,.",
+          "tc": "它是如此新鮮，讓我感覺很好。那天晚上，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：人物與關係",
+      "titleEn": "Part 13: people",
+      "sentences": [
+        {
+          "en": "We went to see a friend to get some piercings.",
+          "tc": "我們去看朋友去打耳洞。"
+        },
+        {
+          "en": "He would pierce different people's ears and charge money for it.",
+          "tc": "他會在不同的人的耳朵上打孔並收取費用。"
+        },
+        {
+          "en": "He made a lot of money that day.",
+          "tc": "那天他賺了很多錢。"
+        },
+        {
+          "en": "In the evening, I ate chickpeas with potatoes and that was delicious.",
+          "tc": "晚上，我吃了鷹嘴豆和土豆，很好吃。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：食物與用餐",
+      "titleEn": "Part 14: food",
+      "sentences": [
+        {
+          "en": "We ate a super fresh breakfast. Papaya with broccoli with boiled eggs, grapes, and pineapple.",
+          "tc": "我們吃了一頓超級新鮮的早餐。木瓜西蘭花配水煮蛋、葡萄和鳳梨。"
+        },
+        {
+          "en": "We walked to the beach.",
+          "tc": "我們步行到海灘。"
+        },
+        {
+          "en": "It was a beautiful day at the beach.",
+          "tc": "這是海灘上美好的一天。"
+        },
+        {
+          "en": "We went to a coffee shop.",
+          "tc": "我們去了一家咖啡店。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：工作與學習",
+      "titleEn": "Part 15: work",
+      "sentences": [
+        {
+          "en": "I sat down to work for a little bit. Every day in Puerto Gondido,.",
+          "tc": "我坐下來工作了一會兒。貢迪多港的每一天。"
+        },
+        {
+          "en": "I would go to the beach. No matter if I was tired or angry or too busy,.",
+          "tc": "我會去海灘。不管我累了，生氣了，還是太忙了。"
+        },
+        {
+          "en": "I will always find time to walk to the beach. Now on my days off.",
+          "tc": "我總是會抽出時間去海灘散步。現在是我的休息日。"
+        },
+        {
+          "en": "I don't have any work and the day is completely mine. I put on my shoes.",
+          "tc": "我沒有任何工作，這一天完全屬於我自己。我穿上鞋子。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：旅行",
+      "titleEn": "Part 16: travel",
+      "sentences": [
+        {
+          "en": "We get on our bike and head to a new beach that.",
+          "tc": "我們騎上自行車前往一個新海灘。"
+        },
+        {
+          "en": "I had never been to before.",
+          "tc": "我以前從未去過。"
+        },
+        {
+          "en": "I love the mixture of green and blue everywhere. The beach is.",
+          "tc": "我喜歡到處都是綠色和藍色的混合。海灘是。"
+        },
+        {
+          "en": "My favorite place to be.",
+          "tc": "我最喜歡去的地方。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "head",
+          "kk": "/head/",
+          "partOfSpeech": "n.",
+          "meaning": "頭",
+          "note": "看到 head 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -310,67 +746,67 @@
       "title": "B1 重點單字",
       "items": [
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "beach",
+          "kk": "/beach/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "city",
           "kk": "/city/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "城市",
           "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "wajaka",
-          "kk": "/wajaka/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 wajaka 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "flowers",
-          "kk": "/flowers/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 flowers 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
         {
           "english": "head",
           "kk": "/head/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "頭",
           "note": "看到 head 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "our",
-          "kk": "/our/",
+          "english": "little",
+          "kk": "/little/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "puerto",
           "kk": "/puerto/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "波多黎各",
           "note": "看到 puerto 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "croissant",
-          "kk": "/croissant/",
+          "english": "wajaka",
+          "kk": "/wajaka/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 croissant 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "瓦賈卡",
+          "note": "看到 wajaka 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -379,34 +815,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "We were going to rent for one month.",
-          "tc": "我們本來打算租一個月。"
+          "en": "Welcome back to my slow English podcast, a podcast for you to practice slow English listening to learn English while listening to fun stories about my life.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一個讓你練習慢速英語聽力以學習英語的podcast，同時聆聽我生活中的有趣故事。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "phrase": "in the morning",
+      "meaning": "在早上",
       "examples": [
         {
-          "en": "Today I want to tell you about my trip to Puerto Escondido.",
-          "tc": "今天我想告訴你我的埃斯孔迪多港之旅。"
+          "en": "I loved reading in the mornings, waking up slowly, making my bed.",
+          "tc": "我喜歡早上讀書，慢慢醒來，整理床鋪。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "for example",
-      "meaning": "常用說法，可用來表達「for example」這個意思",
+      "phrase": "in the evening",
+      "meaning": "在晚上",
       "examples": [
         {
-          "en": "For example, a luscious tree, a mango tree with mangoes hanging from the branches.",
-          "tc": "例如，一棵甘美的樹，一棵芒果樹，樹枝上掛著芒果。"
+          "en": "In the evening, I ate chickpeas with potatoes and that was delicious.",
+          "tc": "晚上，我吃了鷹嘴豆和土豆，很好吃。"
         }
       ]
     }
@@ -414,13 +850,13 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast. A podcast for you to practice slow English listening to learn English while listening to fun stories about my life.",
-      "translation": "歡迎回到我的慢速英語播客。一個播客，讓您練習慢速英語聽力，一邊聽我生活中的有趣故事，一邊學習英語。",
+      "sentence": "Welcome back to my slow English podcast, a podcast for you to practice slow English listening to learn English while listening to fun stories about my life.",
+      "translation": "歡迎回到我的慢速英語podcast，這是一個讓你練習慢速英語聽力以學習英語的podcast，同時聆聽我生活中的有趣故事。",
       "points": [
         {
-          "label": "welcome back while",
-          "text": "welcome back while",
-          "note": "注意 \"welcome back while\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
@@ -430,9 +866,9 @@
       "translation": "今天我想告訴你我的埃斯孔迪多港之旅。這是墨西哥南部瓦賈卡的小城市。我從瓦賈卡市開始了我的旅行。",
       "points": [
         {
-          "label": "want to",
-          "text": "want to",
-          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "want tell trip",
+          "text": "want tell trip",
+          "note": "注意 \"want tell trip\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
@@ -450,13 +886,13 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "Wajaka, getting to see all of the street art and murals, all of the insanely hard work the artists put in to these murals. It was very impressive. Here are some beautiful.",
-      "translation": "瓦賈卡（Wajaka），開始看到所有的街頭藝術和壁畫，以及藝術家為這些壁畫付出的所有瘋狂的努力。這是非常令人印象深刻的。這裡有一些美麗的。",
+      "sentence": "I love how diverse.",
+      "translation": "我喜歡多麼多樣化。",
       "points": [
         {
-          "label": "wajaka getting see",
-          "text": "wajaka getting see",
-          "note": "注意 \"wajaka getting see\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "love diverse",
+          "text": "love diverse",
+          "note": "注意 \"love diverse\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

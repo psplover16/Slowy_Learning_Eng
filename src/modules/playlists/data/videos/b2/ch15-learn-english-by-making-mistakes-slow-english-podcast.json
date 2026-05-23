@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=N3YGN9ygISk",
   "header": {
     "podcastLabel": "MissHoney B2",
-    "titleZh": "透過犯錯來學習英語 |慢速英語播客",
+    "titleZh": "透過犯錯來學習英語 |慢速英語podcast",
     "titleEn": "Learn English by Making Mistakes | Slow English Podcast",
     "levelTag": "B2",
     "topicTag": "language"
@@ -19,29 +19,45 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Finally understand English. ANY level can practice listening, but this episode has intermediate to advanced vocabulary. So,.",
-          "tc": "終於聽懂英語了。任何級別都可以練習聽力，但本集包含中級到高級詞彙。所以，。"
+          "en": "Finally understand English. ANY level can practice listening, but this episode has intermediate to advanced vocabulary.",
+          "tc": "終於聽懂英語了。任何級別都可以練習聽力，但本集包含中級到高級詞彙。"
         },
         {
           "en": "If you think you're ready for faster listening,.",
-          "tc": "如果您認為您已準備好更快地聆聽，。"
+          "tc": "如果你認為你已準備好更快地聆聽，。"
         },
         {
           "en": "Then put this video in times 1.25 or 1.5. Give yourself a challenge and speed up this video. Speaking of challenges,.",
           "tc": "然後把這段影片放到1.25或1.5倍。給自己一個挑戰，加快這個影片的速度。說到挑戰，。"
         },
         {
-          "en": "Today I want to talk about challenging yourself, stepping out of your comfort zone and being the dumbest person in the room. Because... it's intimidating to be surrounded by people who are.",
+          "en": "Today I want to talk about challenging yourself, stepping out of your comfort zone and being the dumbest person in the room. Because... It's intimidating to be surrounded by people who are.",
           "tc": "今天我想談談挑戰自己，走出舒適圈，成為房間裡最愚蠢的人。因為……被這樣的人包圍是令人生畏的。"
         }
       ],
       "tags": [
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "yourself",
+          "kk": "/yourself/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "你自己",
+          "note": "看到 yourself 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -57,12 +73,12 @@
           "tc": "比你聰明或比你更好。"
         },
         {
-          "en": "Today I went to a dance class. I've always loved to dance since.",
-          "tc": "今天我去上舞蹈課。從那時起我就一直喜歡跳舞。"
+          "en": "Today I went to a dance class.",
+          "tc": "今天我去上舞蹈課。"
         },
         {
-          "en": "I was a little girl, but it's been AGES since the last time.",
-          "tc": "我還是個小女孩，但距離上次已經好幾年了。"
+          "en": "I've always loved to dance since I was a little girl, but it's been AGES since the last time.",
+          "tc": "我從小就喜歡跳舞，但距離上次跳舞很久了。"
         },
         {
           "en": "I went to a dance class. And I went to ballet or contemporary or kumbia dance classes.",
@@ -71,27 +87,19 @@
       ],
       "tags": [
         {
-          "english": "dance",
-          "kk": "/dance/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "went",
-          "kk": "/went/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 went 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "dance",
+          "kk": "/dance/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "舞蹈",
+          "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -115,8 +123,8 @@
           "tc": "我們學習了他們。即刻。"
         },
         {
-          "en": "They had so much FLOW and rhythm and such a good memory.",
-          "tc": "他們有如此多的流動性和節奏以及如此好的記憶力。"
+          "en": "They had so much FLOW and rhythm and such a good memory. And I thought.",
+          "tc": "他們有如此多的流動性和節奏以及如此好的記憶力。我想。"
         }
       ],
       "tags": [
@@ -124,24 +132,8 @@
           "english": "dance",
           "kk": "/dance/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "舞蹈",
           "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "went",
-          "kk": "/went/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 went 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -153,8 +145,8 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "I thought I don't stand a chance against them. And I was almost certain.",
-          "tc": "我以為我沒有機會對抗他們。我幾乎可以肯定。"
+          "en": "I don't stand a chance against them. And I was almost certain.",
+          "tc": "我沒有機會對抗他們。我幾乎可以肯定。"
         },
         {
           "en": "I worked a lot harder than anyone else to remember the choreography.",
@@ -171,20 +163,20 @@
       ],
       "tags": [
         {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
           "english": "dance",
           "kk": "/dance/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "舞蹈",
           "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "against",
-          "kk": "/against/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 against 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         }
       ]
     },
@@ -213,19 +205,11 @@
       ],
       "tags": [
         {
-          "english": "against",
-          "kk": "/against/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 against 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -233,50 +217,604 @@
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：工作與學習",
-      "titleEn": "Part 6: work",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "Then I eventually memorized the choreography. I got there with much more work than the other girls.",
-          "tc": "後來我終於記住舞蹈編排了。我到達那裡比其他女孩做更多的工作。"
+          "en": "Then I eventually memorized the choreography.",
+          "tc": "後來我終於記住舞蹈編排了。"
         },
         {
-          "en": "I got there. And I got there because I didn't give up.",
-          "tc": "我到了那裡。我到達那裡是因為我沒有放棄。"
+          "en": "I got there with much more work than the other girls.",
+          "tc": "我到達那裡比其他女孩做更多的工作。"
         },
         {
-          "en": "I didn't quit. I got there because despite all my insecurities, I kept going.",
-          "tc": "我沒有放棄。我到達那裡是因為儘管我充滿了不安全感，但我仍然繼續前進。"
+          "en": "I got there.",
+          "tc": "我到了那裡。"
         },
         {
-          "en": "I didn't give up. I felt so proud of myself after. Even.",
-          "tc": "我沒有放棄。之後我為自己感到非常驕傲。甚至。"
+          "en": "I got there because I didn't give up. I didn't quit.",
+          "tc": "我到達那裡是因為我沒有放棄。我沒有放棄。"
         }
       ],
       "tags": [
         {
-          "english": "got",
-          "kk": "/got/",
+          "english": "work",
+          "kk": "/work/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "I got there because despite all my insecurities, I kept going. I didn't give up. I felt so proud of myself after. Even.",
+          "tc": "我到達那裡是因為儘管我充滿了不安全感，但我仍然繼續前進。我沒有放棄。之後我為自己感到非常驕傲。甚至。"
+        },
+        {
+          "en": "If you look around that room and you see everyone dancing, you probably wouldn't say, \"Wow, Tayanna is an impressive dancer.\" Probably not.",
+          "tc": "如果你環顧那個房間，看到每個人都在跳舞，你可能不會說：「哇，塔亞娜是一位令人印象深刻的舞者。」可能不會。"
+        },
+        {
+          "en": "I am impressed with myself.",
+          "tc": "我對自己印象深刻。"
+        },
+        {
+          "en": "I am impressed at my HUGE achievement today.",
+          "tc": "我對今天的巨大成就印象深刻。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "everyone",
+          "kk": "/everyone/",
+          "partOfSpeech": "n.",
+          "meaning": "每個人",
+          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "dance",
+          "kk": "/dance/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "舞蹈",
+          "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：食物與用餐",
+      "titleEn": "Part 8: food",
+      "sentences": [
+        {
+          "en": "I am impressed because I achieved something huge today. Everyone was really sweet, by the way. Nobody made me feel self-conscious or insecure.",
+          "tc": "我印象深刻，因為我今天取得了巨大的成就。順便說一句，每個人都非常甜蜜。沒有人讓我感到難為情或不安全。"
+        },
+        {
+          "en": "It was all in my head. It always is just in your head. But it made me think.",
+          "tc": "這一切都在我的腦海裡。它永遠只存在於你的腦海中。但這讓我思考。"
+        },
+        {
+          "en": "I want to continue being the worst dancer in the room because that means.",
+          "tc": "我想繼續成為房間裡最糟糕的舞者，因為這意味著。"
+        },
+        {
+          "en": "I'm in the right place to improve. No,.",
+          "tc": "我处于需要改进的正确位置。不，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "everyone",
+          "kk": "/everyone/",
+          "partOfSpeech": "n.",
+          "meaning": "每個人",
+          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "Then you have to think,.",
+          "tc": "那你就得想，。"
+        },
+        {
+          "en": "Are you just trying to impress others?",
+          "tc": "這裡是在描述日常生活，可以把重點放在整句的主詞和動作。"
+        },
+        {
+          "en": "Are you looking to be your best self?",
+          "tc": "你想成為最好的自己嗎？"
+        },
+        {
+          "en": "I think it's valid to want to be your best self, but it's not always the best thing to want to impress others.",
+          "tc": "我認為想要成為最好的自己是正確的，但想要給別人留下深刻印象並不總是最好的事情。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "I think you will end up disappointed to realize their opinions weren't as rewarding as you thought.",
+          "tc": "我認為你最終會失望地發現他們的意見並不像你想像的那麼有價值。"
+        },
+        {
+          "en": "They were going to be. I challenge you to put yourself in situations.",
+          "tc": "他們會的。我挑戰你將自己置於情境中。"
+        },
+        {
+          "en": "Where you have something to learn. Put yourself in places where you look dumb. Places?",
+          "tc": "哪裡有東西可以學。把自己放在那些看起來很愚蠢的地方。地方？"
+        },
+        {
+          "en": "If you look at it this way, you'll feel so proud of yourself. After.",
+          "tc": "如果你這樣看，你會為自己感到驕傲。後。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "yourself",
+          "kk": "/yourself/",
+          "partOfSpeech": "n.",
+          "meaning": "你自己",
+          "note": "看到 yourself 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "didn't",
-          "kk": "/didn't/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 didn't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "Then that little voice inside your head will slowly grow. Just like a flower that.",
+          "tc": "然後你腦中那個小小的聲音就會慢慢長大。就像一朵花那樣。"
+        },
+        {
+          "en": "You talk to -- or sing to every day... So that it grows. Your mind will have that same nurturing voice that says.",
+          "tc": "你每天都會說話——或者唱歌……這樣它就會成長。你的腦中也會有同樣的養育聲音。"
+        },
+        {
+          "en": "Then you'll be unstoppable. Unbreakable. When was the last time you put yourself in a room where everyone was better than you at something? Now, something I COULD HAVE done. Whenever.",
+          "tc": "那你就會勢不可擋。牢不可破。你上一次把自己放在一個每個人都比你擅長某件事的房間裡是什麼時候？現在，我本來可以做一些事情。每當。"
+        },
+        {
+          "en": "We use have,.",
+          "tc": "我們使用有，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "everyone",
+          "kk": "/everyone/",
+          "partOfSpeech": "n.",
+          "meaning": "每個人",
+          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "yourself",
+          "kk": "/yourself/",
+          "partOfSpeech": "n.",
+          "meaning": "你自己",
+          "note": "看到 yourself 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "We always follow with the past participle.",
+          "tc": "我們總是跟過去分詞。"
+        },
+        {
+          "en": "For example, could have saw, could have seen, could have did, could have done.",
+          "tc": "例如，可以看到，可以看到，可以做，可以做。"
+        },
+        {
+          "en": "What would this one be? Could have grew?",
+          "tc": "這會是什麼？可以成長嗎？"
+        },
+        {
+          "en": "Tell me in the comments. Now, I could have seen everything differently. I could have chosen to think negative thoughts to say, \"Oh, no.",
+          "tc": "在評論中告訴我。現在，我可以以不同的方式看待一切。我本可以選擇消極的想法來說：「哦，不。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "I'm the worst one here.\" \"Everyone is judging me.\" \".",
+          "tc": "我是這裡最糟糕的一個。 」「每個人都在評斷我。 」"
+        },
+        {
+          "en": "They are so good.",
+          "tc": "他們太好了。"
+        },
+        {
+          "en": "I am so dumb.\" Instead, I chose to think positive thoughts. \".",
+          "tc": "我真是太笨了。 ”相反，我選擇去思考積極的想法。”"
+        },
+        {
+          "en": "I'm going to learn so much from everyone here.\" \"Everyone is admiring my courage of standing out and embarrassing myself.\" \".",
+          "tc": "我將從這裡的每個人身上學到很多。 」「每個人都欽佩我站出來讓自己難堪的勇氣」。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "everyone",
+          "kk": "/everyone/",
+          "partOfSpeech": "n.",
+          "meaning": "每個人",
+          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常生活",
+      "titleEn": "Part 14: everyday life",
+      "sentences": [
+        {
+          "en": "They will teach me so much.",
+          "tc": "他們會教我很多。"
+        },
+        {
+          "en": "I am so brave.\" Period. Make it a game.",
+          "tc": "我很勇敢。 」就這樣吧。把它變成一個遊戲。"
+        },
+        {
+          "en": "I love playing this game of finding the positive side to everything in every situation. Make a game out of finding the positive side to it. Everything has one.",
+          "tc": "我喜歡玩這個遊戲，在每種情況下尋找一切積極的一面。製作遊戲時要尋找正面的一面。萬物皆有其一。"
+        },
+        {
+          "en": "For example, walking to work in the hot sun, feeling irritated because of the traffic and the noise or walking in the hot sun, feeling grateful. -- The sun came out.",
+          "tc": "例如，在烈日下步行去上班，因為交通和噪音而感到惱火，或者在烈日下步行，感到感激。 ——太陽出來了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "game",
+          "kk": "/game/",
+          "partOfSpeech": "n.",
+          "meaning": "遊戲",
+          "note": "看到 game 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "Today and basking in the warmth of it. Walking in the warm sun and thinking,.",
+          "tc": "今天，沐浴在它的溫暖之中。走在溫暖的陽光下思考，。"
+        },
+        {
+          "en": "I am grateful.",
+          "tc": "我很感激。"
+        },
+        {
+          "en": "I am healthy today and I can go to work.",
+          "tc": "我今天很健康，可以去上班了。"
+        },
+        {
+          "en": "I have the ability to make money and have my freedom. I can work.",
+          "tc": "我有能力賺錢，有我的自由。我可以工作。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：日常生活",
+      "titleEn": "Part 16: everyday life",
+      "sentences": [
+        {
+          "en": "I can walk. I can feel the sun on my skin. I can interact with people, socialize, and surround myself by people. And even if.",
+          "tc": "我可以走路了。我能感覺到陽光照在我的皮膚上。我可以與人互動、社交，並被人們包圍。即使。"
+        },
+        {
+          "en": "I'm feeling irritated by these circumstances, I make it a game to find beauty in those moments. Another example, a breakup. Someone cheated on you, betrayed you, or things just ended.",
+          "tc": "我對這些情況感到惱火，我把它變成了一個在那些時刻尋找美的遊戲。另一個例子，分手。有人欺騙了你，背叛了你，或者事情就這樣結束了。"
+        },
+        {
+          "en": "You can see all the negatives much more than the positives. You can tell everyone about all the awful things.",
+          "tc": "你能看到的所有負面因素都遠遠多於正面因素。你可以告訴每個人所有可怕的事情。"
+        },
+        {
+          "en": "They did to you. How much of a victim you were. -- Or you can play my game and feel grateful for the lessons.",
+          "tc": "他們對你做了。你是多麼的受害者。 -- 或者你可以玩我的遊戲並感謝我的課程。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "everyone",
+          "kk": "/everyone/",
+          "partOfSpeech": "n.",
+          "meaning": "每個人",
+          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "game",
+          "kk": "/game/",
+          "partOfSpeech": "n.",
+          "meaning": "遊戲",
+          "note": "看到 game 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段：日常生活",
+      "titleEn": "Part 17: everyday life",
+      "sentences": [
+        {
+          "en": "They taught you, for your ability to love, for the experience you got of being loved. You can learn from the lessons.",
+          "tc": "他們教會了你愛的能力，教會了你被愛的經驗。你可以從教訓中學習。"
+        },
+        {
+          "en": "It and let it go. Another example,.",
+          "tc": "它並放手。另一個例子，。"
+        },
+        {
+          "en": "I have a few. Say you wake up feeling sick. \"UGH, my life sucks\" --.",
+          "tc": "我有幾個。假設你醒來時感覺不舒服。 「呃，我的生活糟透了」--。"
+        },
+        {
+          "en": "You woke up. Your lungs still work. Your eyes can see. You probably have a phone. That.",
+          "tc": "你醒了。你的肺還在工作。你的眼睛可以看到。你可能有電話。那。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段：日常生活",
+      "titleEn": "Part 18: everyday life",
+      "sentences": [
+        {
+          "en": "You can write on, watch on, or talk to people on while.",
+          "tc": "你可以一邊寫一邊看，或與人交談。"
+        },
+        {
+          "en": "You recuperate. Your body might not be able to work, but your brain STILL can.",
+          "tc": "你康復了。你的身體可能無法運作，但你的大腦仍然可以。"
+        },
+        {
+          "en": "You can still study English. You can still read books about topics that.",
+          "tc": "你仍然可以學習英語。你仍然可以閱讀有關該主題的書籍。"
+        },
+        {
+          "en": "Next time you feel, irritated, overwhelmed, insecure, unmotivated, lonely, or embarrassed,.",
+          "tc": "下次當你感到惱怒、不知所措、不安全、沒有動力、孤獨或尷尬時。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段：日常生活",
+      "titleEn": "Part 19: everyday life",
+      "sentences": [
+        {
+          "en": "Then join me in this fun game.",
+          "tc": "那就和我一起來玩這個有趣的遊戲吧。"
+        },
+        {
+          "en": "I like to play and find the positive side to it. And remember, don't be afraid of failure. Is afraid of you.",
+          "tc": "我喜歡玩耍並尋找其中積極的一面。請記住，不要害怕失敗。是怕你。"
+        },
+        {
+          "en": "You all. It's genuinely therapy to talk to you guys. So, don't forget to like this video.",
+          "tc": "你們大家。與你們交談確實是一種治療。所以，別忘了喜歡這個影片。"
+        },
+        {
+          "en": "I can focus on helping you learn English in the easiest way possible. Remember, NEVER STOP LEARNING. Bye :)).",
+          "tc": "我可以專注於幫助你以最簡單的方式學習英語。請記住，永遠不要停止學習。再見 ：））。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "game",
+          "kk": "/game/",
+          "partOfSpeech": "n.",
+          "meaning": "遊戲",
+          "note": "看到 game 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -286,67 +824,67 @@
       "title": "B2 重點單字",
       "items": [
         {
+          "english": "everyone",
+          "kk": "/everyone/",
+          "partOfSpeech": "n.",
+          "meaning": "每個人",
+          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "game",
+          "kk": "/game/",
+          "partOfSpeech": "n.",
+          "meaning": "遊戲",
+          "note": "看到 game 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "yourself",
+          "kk": "/yourself/",
+          "partOfSpeech": "n.",
+          "meaning": "你自己",
+          "note": "看到 yourself 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
           "english": "dance",
           "kk": "/dance/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "舞蹈",
           "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
-          "english": "against",
-          "kk": "/against/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 against 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "got",
-          "kk": "/got/",
+          "english": "feel",
+          "kk": "/feel/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "went",
-          "kk": "/went/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 went 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "class",
-          "kk": "/class/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 class 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "didn't",
-          "kk": "/didn't/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 didn't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "girls",
-          "kk": "/girls/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 girls 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -355,19 +893,19 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "phrase": "going to",
+      "meaning": "去",
       "examples": [
         {
-          "en": "Today I want to talk about challenging yourself, stepping out of your comfort zone and being the dumbest person in the room.",
-          "tc": "今天我想談談挑戰自己，走出舒適圈，成為房間裡最愚蠢的人。"
+          "en": "They were going to be.",
+          "tc": "他們會的。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "talk about",
-      "meaning": "談論",
+      "phrase": "want to",
+      "meaning": "想要",
       "examples": [
         {
           "en": "Today I want to talk about challenging yourself, stepping out of your comfort zone and being the dumbest person in the room.",
@@ -377,12 +915,12 @@
     },
     {
       "id": "phrase-03",
-      "phrase": "i want",
-      "meaning": "常用說法，可用來表達「i want」這個意思",
+      "phrase": "have to",
+      "meaning": "必須",
       "examples": [
         {
-          "en": "Today I want to talk about challenging yourself, stepping out of your comfort zone and being the dumbest person in the room.",
-          "tc": "今天我想談談挑戰自己，走出舒適圈，成為房間裡最愚蠢的人。"
+          "en": "Then you have to think,.",
+          "tc": "那你就得想，。"
         }
       ]
     }
@@ -390,20 +928,20 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Finally understand English. ANY level can practice listening, but this episode has intermediate to advanced vocabulary. So,.",
-      "translation": "終於聽懂英語了。任何級別都可以練習聽力，但本集包含中級到高級詞彙。所以，。",
+      "sentence": "Finally understand English. ANY level can practice listening, but this episode has intermediate to advanced vocabulary.",
+      "translation": "終於聽懂英語了。任何級別都可以練習聽力，但本集包含中級到高級詞彙。",
       "points": [
         {
-          "label": "finally understand any",
-          "text": "finally understand any",
-          "note": "注意 \"finally understand any\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "finally understand level",
+          "text": "finally understand level",
+          "note": "注意 \"finally understand level\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-02",
       "sentence": "If you think you're ready for faster listening,.",
-      "translation": "如果您認為您已準備好更快地聆聽，。",
+      "translation": "如果你認為你已準備好更快地聆聽，。",
       "points": [
         {
           "label": "think you're ready",
@@ -426,7 +964,7 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "Today I want to talk about challenging yourself, stepping out of your comfort zone and being the dumbest person in the room. Because... it's intimidating to be surrounded by people who are.",
+      "sentence": "Today I want to talk about challenging yourself, stepping out of your comfort zone and being the dumbest person in the room. Because... It's intimidating to be surrounded by people who are.",
       "translation": "今天我想談談挑戰自己，走出舒適圈，成為房間裡最愚蠢的人。因為……被這樣的人包圍是令人生畏的。",
       "points": [
         {

@@ -12,7 +12,7 @@
       <template v-else-if="!loading && video?.status === 'ready' && content">
         <PlaylistReadingHeader :header="header" :youtube-url="content.youtubeUrl" />
 
-        <SectionQuickNav :chapter-id="baseId" :sections="quickNavSections" />
+        <SectionQuickNav ref="quickNavRef" :chapter-id="baseId" :sections="quickNavSections" />
 
         <section v-if="content.scenes.length" :id="`${baseId}-section-bilingual`" class="mb-10">
           <div class="flex items-baseline gap-3 border-b-2 border-ink pb-2 mb-6">
@@ -31,7 +31,23 @@
             :title-en="scene.titleEn || `Scene ${sceneIndex + 1}`"
           >
             <div v-for="(sent, si) in scene.sentences" :key="si" class="mb-3 last:mb-0">
-              <span class="block font-newsreader text-base text-ink leading-relaxed">{{ sent.en }}</span>
+              <span class="block font-newsreader text-base text-ink leading-relaxed">
+                <template v-for="(token, tokenIndex) in sentenceTokens(sent)" :key="`${si}-${tokenIndex}-${token.text}`">
+                  <button
+                    v-if="isMarkerToken(token)"
+                    type="button"
+                    class="playlist-inline-marker"
+                    :data-testid="`playlist-marker-${token.type}`"
+                    :data-target-id="token.targetId"
+                    :data-marker-instance="token.instanceId"
+                    :data-last-return-target="returnedMarkerInstanceId === token.instanceId ? 'true' : undefined"
+                    @click="jumpToLearningItem(token)"
+                  >
+                    {{ token.text }}
+                  </button>
+                  <span v-else>{{ token.text }}</span>
+                </template>
+              </span>
               <span class="block text-ink-soft text-sm leading-relaxed pl-3 border-l-2 border-line mt-1">↳ {{ sent.tc }}</span>
             </div>
             <div v-if="scene.tags.length" class="mt-4 pt-3 border-t border-dashed border-line">
@@ -39,6 +55,7 @@
                 v-for="tag in scene.tags"
                 :key="tag.english"
                 v-bind="tag"
+                :id="undefined"
               />
             </div>
           </PlaylistSceneBlock>
@@ -60,8 +77,10 @@
             <div class="bg-paper-3 border border-line rounded-xl divide-y divide-line-soft">
               <PlaylistWordTag
                 v-for="item in group.items"
-                :key="item.english"
+                :key="learningItemId('word', item)"
                 v-bind="item"
+                :id="learningItemId('word', item)"
+                :active="activeTargetId === learningItemId('word', item)"
                 class="px-3"
               />
             </div>
@@ -80,6 +99,23 @@
             v-for="phrase in content.phrases"
             :key="phrase.id"
             v-bind="phrase"
+            :active="activeTargetId === learningItemId('phrase', phrase)"
+          />
+        </section>
+
+        <section v-if="content.usages?.length" :id="`${baseId}-section-usages`" class="mb-10">
+          <div class="flex items-baseline gap-3 border-b-2 border-ink pb-2 mb-6">
+            <span class="font-fraunces text-4xl font-semibold text-terracotta">{{ sectionNums.usages }}</span>
+            <span class="font-fraunces text-xl font-semibold">特殊用法
+              <span class="block font-newsreader italic text-sm font-normal text-ink-faint">Special Usages</span>
+            </span>
+          </div>
+
+          <PlaylistUsageCard
+            v-for="usage in content.usages"
+            :key="usage.id"
+            v-bind="usage"
+            :active="activeTargetId === learningItemId('usage', usage)"
           />
         </section>
 
@@ -101,18 +137,44 @@
 
       <div v-else-if="loading" class="text-center py-16 text-ink-soft">載入中...</div>
     </main>
+
+    <BackToWordFab
+      v-if="content && video?.status === 'ready'"
+      :source-scroll-y="sourceScrollY"
+      label="回原文"
+      aria-label="回到原文位置"
+      @return-to-source="returnToLatestMarker"
+    />
+    <BackToTopFab
+      v-if="content && video?.status === 'ready'"
+      :anchor-el="quickNavRootEl"
+      :offset-bottom="sourceScrollY !== null ? 60 : 0"
+    />
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, nextTick, onMounted, ref, watch } from 'vue'
+import BackToWordFab from '../../shared/components/BackToWordFab.vue'
+import BackToTopFab from '../../shared/components/BackToTopFab.vue'
 import SectionQuickNav from '../../shared/components/SectionQuickNav.vue'
 import PlaylistReadingHeader from './components/PlaylistReadingHeader.vue'
 import PlaylistSceneBlock from './components/PlaylistSceneBlock.vue'
 import PlaylistWordTag from './components/PlaylistWordTag.vue'
 import PlaylistPhraseCard from './components/PlaylistPhraseCard.vue'
+import PlaylistUsageCard from './components/PlaylistUsageCard.vue'
 import PlaylistSentenceBreakdown from './components/PlaylistSentenceBreakdown.vue'
-import type { PlaylistData, PlaylistVideoData, PlaylistVideoEntry, PlaylistVideoHeader } from './types'
+import type {
+  PlaylistData,
+  PlaylistInlineToken,
+  PlaylistPhrase,
+  PlaylistUsage,
+  PlaylistVideoData,
+  PlaylistVideoEntry,
+  PlaylistVideoHeader,
+  PlaylistVocabItem,
+  PlaylistSentencePair,
+} from './types'
 import { buildPlaylistReadingSections, buildPlaylistSectionNums } from './composables/usePlaylistReadingSections'
 
 const props = defineProps<{ level: string; videoSlug: string }>()
@@ -120,6 +182,13 @@ const props = defineProps<{ level: string; videoSlug: string }>()
 const loading = ref(true)
 const video = ref<PlaylistVideoEntry | null>(null)
 const content = ref<PlaylistVideoData | null>(null)
+const activeTargetId = ref<string | null>(null)
+const returnedMarkerInstanceId = ref<string | null>(null)
+const sourceScrollY = ref<number | null>(null)
+const sourceMarkerInstanceId = ref<string | null>(null)
+const quickNavRef = ref<{ rootEl: HTMLElement | null } | null>(null)
+const quickNavRootEl = ref<HTMLElement | null>(null)
+let highlightTimer: number | undefined
 
 const baseId = computed(() => `${props.level}-${props.videoSlug}`)
 const quickNavSections = computed(() => buildPlaylistReadingSections(content.value, baseId.value))
@@ -149,6 +218,11 @@ async function loadVideo() {
   loading.value = true
   video.value = null
   content.value = null
+  activeTargetId.value = null
+  returnedMarkerInstanceId.value = null
+  sourceScrollY.value = null
+  sourceMarkerInstanceId.value = null
+  quickNavRootEl.value = null
 
   try {
     const level = props.level as 'a1' | 'a2' | 'b1' | 'b2'
@@ -175,6 +249,8 @@ async function loadVideo() {
     content.value = null
   } finally {
     loading.value = false
+    await nextTick()
+    quickNavRootEl.value = quickNavRef.value?.rootEl ?? null
   }
 }
 
@@ -208,7 +284,8 @@ function normalizePlaylistContent(raw: PlaylistVideoData, level: 'a1' | 'a2' | '
           items: normalizeVocabItems(group.items),
         }))
       : [],
-    phrases: Array.isArray(loose.phrases) ? loose.phrases : [],
+    phrases: normalizePhrases(loose.phrases),
+    usages: normalizeUsages(loose.usages),
     breakdowns: Array.isArray(loose.breakdowns) ? loose.breakdowns : [],
   }
 }
@@ -216,6 +293,8 @@ function normalizePlaylistContent(raw: PlaylistVideoData, level: 'a1' | 'a2' | '
 function normalizeVocabItems(items: unknown) {
   if (!Array.isArray(items)) return []
   return items.map((item: Record<string, any>) => ({
+    id: item.id ? String(item.id) : undefined,
+    lemma: item.lemma ? String(item.lemma) : undefined,
     english: String(item.english ?? item.word ?? ''),
     kk: String(item.kk ?? ''),
     partOfSpeech: String(item.partOfSpeech ?? item.pos ?? ''),
@@ -223,6 +302,99 @@ function normalizeVocabItems(items: unknown) {
     note: item.note ? String(item.note) : undefined,
     highlight: item.highlight === true,
   }))
+}
+
+function normalizePhrases(phrases: unknown): PlaylistPhrase[] {
+  if (!Array.isArray(phrases)) return []
+  return phrases.map((phrase: Record<string, any>, index: number) => ({
+    id: String(phrase.id ?? `phrase-${index + 1}`),
+    phrase: String(phrase.phrase ?? ''),
+    meaning: String(phrase.meaning ?? ''),
+    examples: Array.isArray(phrase.examples)
+      ? phrase.examples.map((example: Record<string, any>) => ({
+          en: String(example.en ?? example.english ?? ''),
+          tc: String(example.tc ?? example.translation ?? ''),
+        }))
+      : [],
+  }))
+}
+
+function normalizeUsages(usages: unknown): PlaylistUsage[] {
+  if (!Array.isArray(usages)) return []
+  return usages.map((usage: Record<string, any>, index: number) => ({
+    id: String(usage.id ?? `usage-${index + 1}`),
+    word: String(usage.word ?? ''),
+    familiarMeaning: String(usage.familiarMeaning ?? ''),
+    usage: String(usage.usage ?? ''),
+    translation: String(usage.translation ?? ''),
+    examples: Array.isArray(usage.examples) ? usage.examples : [],
+  }))
+}
+
+function sentenceTokens(sentence: PlaylistSentencePair): PlaylistInlineToken[] {
+  return Array.isArray(sentence.englishTokens) && sentence.englishTokens.length
+    ? sentence.englishTokens
+    : [{ type: 'text', text: sentence.en }]
+}
+
+function isMarkerToken(token: PlaylistInlineToken): token is Extract<PlaylistInlineToken, { type: 'word' | 'phrase' | 'usage' }> {
+  return token.type === 'word' || token.type === 'phrase' || token.type === 'usage'
+}
+
+async function jumpToLearningItem(token: Extract<PlaylistInlineToken, { type: 'word' | 'phrase' | 'usage' }>) {
+  const targetId = token.targetId
+  sourceScrollY.value = window.scrollY
+  sourceMarkerInstanceId.value = token.instanceId
+  returnedMarkerInstanceId.value = null
+  setActiveTarget(targetId)
+  await nextTick()
+  scrollToElement(document.getElementById(targetId))
+}
+
+async function returnToLatestMarker() {
+  const instanceId = sourceMarkerInstanceId.value
+  if (!instanceId) return
+
+  returnedMarkerInstanceId.value = instanceId
+  sourceScrollY.value = null
+  sourceMarkerInstanceId.value = null
+  await nextTick()
+  scrollToElement(document.querySelector(`[data-marker-instance="${cssEscape(instanceId)}"]`))
+}
+
+function setActiveTarget(targetId: string) {
+  activeTargetId.value = targetId
+  if (highlightTimer) window.clearTimeout(highlightTimer)
+  highlightTimer = window.setTimeout(() => {
+    if (activeTargetId.value === targetId) activeTargetId.value = null
+  }, 2400)
+}
+
+function scrollToElement(element: Element | null) {
+  element?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+}
+
+function learningItemId(kind: 'word', item: PlaylistVocabItem): string
+function learningItemId(kind: 'phrase', item: PlaylistPhrase): string
+function learningItemId(kind: 'usage', item: PlaylistUsage): string
+function learningItemId(kind: 'word' | 'phrase' | 'usage', item: PlaylistVocabItem | PlaylistPhrase | PlaylistUsage): string {
+  if ('id' in item && item.id) return item.id
+  if (kind === 'word') return `word-${slugify((item as PlaylistVocabItem).lemma || (item as PlaylistVocabItem).english)}`
+  if (kind === 'phrase') return `phrase-${slugify((item as PlaylistPhrase).phrase)}`
+  const usage = item as PlaylistUsage
+  return `usage-${slugify(usage.word)}-${slugify(usage.usage)}`
+}
+
+function slugify(value: string): string {
+  return String(value ?? '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '') || 'item'
+}
+
+function cssEscape(value: string): string {
+  if (globalThis.CSS?.escape) return globalThis.CSS.escape(value)
+  return value.replace(/"/g, '\\"')
 }
 
 function chooseTitleZh(candidate: unknown, metadataTitleZh: unknown, titleEn: unknown): string {

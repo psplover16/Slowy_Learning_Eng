@@ -19,8 +19,8 @@
       "titleEn": "Opening: daily routine",
       "sentences": [
         {
-          "en": "Hello. Let me teach you English... while I show you my morning routine! My alarm went off at 9:58 a.m.",
-          "tc": "你好。讓我教你英文...同時向你展示我的早晨例行公事！我的鬧鐘在上午 9 點 58 分響了。"
+          "en": "Hello. Let me teach you English... While I show you my morning routine! My alarm went off at 9:58 a.m.",
+          "tc": "你好。讓我教你英文...同時我向你展示我的早晨例行公事！我的鬧鐘在上午 9 點 58 分響了。"
         },
         {
           "en": "I pressed snooze and I took off my earplugs (because it's really noisy without them).",
@@ -37,11 +37,11 @@
       ],
       "tags": [
         {
-          "english": "routine",
-          "kk": "/ruːˈtiːn/",
+          "english": "let",
+          "kk": "/let/",
           "partOfSpeech": "n.",
-          "meaning": "例行生活",
-          "note": "看到 routine 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "讓",
+          "note": "看到 let 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -57,32 +57,24 @@
           "tc": "我需要洗澡。我的頭髮很油！外面有樂團在演奏..."
         },
         {
-          "en": "I wanted to make a --I wanted to make a daily routine video. This is a highly requested daily routine video. So,.",
-          "tc": "我想製作一個——我想製作一個日常影片。這是一個要求很高的日常影片。所以，。"
+          "en": "I wanted to make a --I wanted to make a daily routine video. This is a highly requested daily routine video.",
+          "tc": "我想製作一個——我想製作一個日常影片。這是一個要求很高的日常影片。"
         },
         {
           "en": "I want to show you everything. Obviously, not everything.",
           "tc": "我想向你展示一切。顯然，並非一切。"
         },
         {
-          "en": "I need my privacy, ...you understand? But everything I can. My voice is so hoarse. I've been sick for a couple days now.",
-          "tc": "我需要我的隱私，……你懂嗎？但我能做的一切。我的聲音是如此沙啞。我已經病了幾天了。"
+          "en": "I need my privacy, ...you understand? But everything I can. My voice is so hoarse.",
+          "tc": "我需要我的隱私，……你懂嗎？但我能做的一切。我的聲音是如此沙啞。"
         }
       ],
       "tags": [
         {
-          "english": "shower",
-          "kk": "/shower/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 shower 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "hair",
           "kk": "/hair/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "頭髮",
           "note": "看到 hair 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -90,9 +82,17 @@
           "english": "take",
           "kk": "/take/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "拿",
           "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "shower",
+          "kk": "/shower/",
+          "partOfSpeech": "n.",
+          "meaning": "淋浴",
+          "note": "看到 shower 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -103,45 +103,45 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "I need to take a shower. This does not look good. Um,.",
-          "tc": "我需要洗澡。這看起來不太好。嗯，。"
+          "en": "I've been sick for a couple days now.",
+          "tc": "我已經病了幾天了。"
         },
         {
-          "en": "What else?... Last night I couldn't sleep. It was really bad. I--?",
-          "tc": "還有什麼？ ……昨晚我睡不著。真的很糟糕。我 - ？"
+          "en": "I need to take a shower. This does not look good. Um, what else?... Last night I couldn't sleep.",
+          "tc": "我需要洗澡。這看起來不太好。嗯，還有什麼？ ……昨晚我睡不著。"
         },
         {
-          "en": "I drank a matcha JUST before going to sleep. Bad decision. I was just in bed tossing and turning for so long. It wasn't good. Um, yeah. I'm going to take a.",
-          "tc": "我睡前喝了一杯抹茶。糟糕的決定。我只是在床上翻來覆去好久了。這不太好。嗯，是的。我要去拿一個。"
+          "en": "It was really bad. I-- drank a matcha JUST before going to sleep. Bad decision. I was just in bed tossing and turning for so long. It wasn't good. Um, yeah.",
+          "tc": "真的很糟糕。我睡前喝了一杯抹茶。糟糕的決定。我只是在床上翻來覆去好久了。這不太好。嗯，是的。"
         },
         {
-          "en": "Shower now. I'm going to take a shower = I'm going to take a shower. Same.",
-          "tc": "現在洗澡。我要去洗澡=我要去洗澡。相同的。"
+          "en": "I'm going to take a shower now.",
+          "tc": "我現在要去洗澡。"
         }
       ],
       "tags": [
         {
-          "english": "shower",
-          "kk": "/shower/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 shower 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "take",
           "kk": "/take/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "拿",
           "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "i'm",
-          "kk": "/i'm/",
+          "english": "good",
+          "kk": "/good/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "now",
+          "kk": "/now/",
+          "partOfSpeech": "n.",
+          "meaning": "現在",
+          "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -149,9 +149,17 @@
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：旅行",
-      "titleEn": "Part 4: travel",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
+        {
+          "en": "I'm going to take a shower =.",
+          "tc": "我要去洗澡=。"
+        },
+        {
+          "en": "I'm going to take a shower. Same.",
+          "tc": "我要去洗澡。相同的。"
+        },
         {
           "en": "First, let me fix my bed. I put on the two comforters because it's cold right now in Mexico City.",
           "tc": "首先，讓我整理一下我的床。我穿上了兩條被子，因為墨西哥城現在很冷。"
@@ -159,39 +167,31 @@
         {
           "en": "I just throw all of my stuffed animals on top. After making my bed,.",
           "tc": "我只是把所有的毛絨動物放在上面。整理好床鋪後，。"
-        },
-        {
-          "en": "I go to the bathroom. So, this is my shower. That's my shower head. Here are some of my hair products like shampoo, conditioner, even a scalp massager. I hear.",
-          "tc": "我去洗手間。所以，這是我的淋浴間。那是我的淋浴噴頭。這是我的一些護髮產品，如洗髮精、護髮素，甚至頭皮按摩器。我聽到了。"
-        },
-        {
-          "en": "They're good for stimulating hair growth. And some body soap. and a lofah... of course.",
-          "tc": "它們有助於刺激頭髮生長。還有一些沐浴露。還有羅法……當然。"
         }
       ],
       "tags": [
         {
-          "english": "shower",
-          "kk": "/shower/",
+          "english": "put",
+          "kk": "/put/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 shower 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "放",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "hair",
-          "kk": "/hair/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 hair 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "拿",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "now",
-          "kk": "/now/",
+          "english": "let",
+          "kk": "/let/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "讓",
+          "note": "看到 let 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -203,45 +203,45 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
+          "en": "I go to the bathroom. So, this is my shower. That's my shower head. Here are some of my hair products like shampoo, conditioner, even a scalp massager. I hear.",
+          "tc": "我去洗手間。所以，這是我的淋浴間。那是我的淋浴噴頭。這是我的一些護髮產品，如洗髮精、護髮素，甚至頭皮按摩器。我聽到了。"
+        },
+        {
+          "en": "They're good for stimulating hair growth. And some body soap. And a lofah... Of course.",
+          "tc": "它們有助於刺激頭髮生長。還有一些沐浴露。還有絲瓜……當然。"
+        },
+        {
           "en": "I play some music while I wait for the water to heat up. And here.",
           "tc": "我在等待水加熱的同時播放一些音樂。還有這裡。"
         },
         {
           "en": "I love that song. What's your favorite song to get ready.",
           "tc": "我喜歡那首歌。準備好你最喜歡的歌曲是什麼。"
-        },
-        {
-          "en": "I normally put some music while I shower. I shampooed my hair.",
-          "tc": "我通常在洗澡時放一些音樂。我洗了頭髮。"
-        },
-        {
-          "en": "I conditioned my hair. I washed my body. That's it. This bathrobe.... It's like butter!!! \"Soft like butter\". I'm opening the blinds for the day. And now, let's get ready. A lot.",
-          "tc": "我調理了頭髮。我洗了身體。就是這樣。這件浴袍....就像奶油一樣！ ！ ！ 「像黃油一樣柔軟」。我今天要打開百葉窗。現在，讓我們做好準備。很多。"
         }
       ],
       "tags": [
         {
-          "english": "shower",
-          "kk": "/shower/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 shower 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "hair",
           "kk": "/hair/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "頭髮",
           "note": "看到 hair 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "i'm",
-          "kk": "/i'm/",
+          "english": "good",
+          "kk": "/good/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "shower",
+          "kk": "/shower/",
+          "partOfSpeech": "n.",
+          "meaning": "淋浴",
+          "note": "看到 shower 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -249,40 +249,82 @@
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常作息",
-      "titleEn": "Part 6: daily routine",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "Of the girls have been asking for my skin care routine, which I'm so excited to show you!",
-          "tc": "女孩們一直在詢問我的皮膚護理程序，我很高興向你們展示！"
+          "en": "I normally put some music while I shower. I shampooed my hair. I conditioned my hair. I washed my body. That's it. This bathrobe.... It's like butter!!! \"Soft like butter\".",
+          "tc": "我通常在洗澡時放一些音樂。我洗了頭髮。我調理了頭髮。我洗了身體。就是這樣。這件浴袍....就像奶油一樣！ ！ ！ 「像黃油一樣柔軟」。"
         },
         {
-          "en": "I have my shirt and my shorts on for the day. (Ignore that mess).",
-          "tc": "我今天穿著襯衫和短褲。 （忽略那個混亂）。"
+          "en": "I'm opening the blinds for the day. And now, let's get ready. A lot of the girls have been asking for my skin care routine, which.",
+          "tc": "我今天要打開百葉窗。現在，讓我們做好準備。很多女孩一直詢問我的皮膚護理程序，這。"
         },
         {
-          "en": "You didn't see that. Um, here after I take a shower,.",
-          "tc": "你沒有看到這一點。嗯，我洗完澡後就到了。"
+          "en": "I'm so excited to show you!",
+          "tc": "我很高興向你展示！"
         },
         {
-          "en": "I normally brush my hair right away. Otherwise, otherwise is --- in any other case. So, yeah,.",
-          "tc": "我通常會立即梳理頭髮。否則，否則就是——在任何其他情況下。所以，是的，。"
+          "en": "I have my shirt and my shorts on for the day. (Ignore that mess) You didn't see that. Um, here after I take a shower,.",
+          "tc": "我今天穿著襯衫和短褲。 （忽略那些混亂）你沒看到。嗯，我洗完澡後就到了。"
         }
       ],
       "tags": [
         {
-          "english": "shower",
-          "kk": "/shower/",
+          "english": "hair",
+          "kk": "/hair/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 shower 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "頭髮",
+          "note": "看到 hair 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
+        {
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "放",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "拿",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "I normally brush my hair right away. Otherwise, is --- in any other case. So, yeah,.",
+          "tc": "我通常會立即梳理頭髮。否則，就是——在任何其他情況下。所以，是的，。"
+        },
+        {
+          "en": "I brush my hair.",
+          "tc": "我梳頭。"
+        },
+        {
+          "en": "First. Otherwise, it gets poofy. I guess I call it poofy. It gets frizzy. That's a better word.",
+          "tc": "第一的。不然的話，會變得很蓬鬆。我想我稱之為“poofy”。它變得捲曲。這是一個更好的詞。"
+        },
+        {
+          "en": "I don't want to take too much time brushing, my hair.",
+          "tc": "我不想花太多時間梳理頭髮。"
+        }
+      ],
+      "tags": [
         {
           "english": "hair",
           "kk": "/hair/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "頭髮",
           "note": "看到 hair 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -290,9 +332,563 @@
           "english": "take",
           "kk": "/take/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "拿",
           "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "I'm going to put on some socks because as you can hear.",
+          "tc": "我要穿上襪子，因為正如你所聽到的。"
+        },
+        {
+          "en": "I have a little something.",
+          "tc": "我有一點東西。"
+        },
+        {
+          "en": "I have. So.. Hey :).",
+          "tc": "我有。所以..嘿:)。"
+        },
+        {
+          "en": "I usually -- Oh, that's so cool. That angle.",
+          "tc": "我通常——哦，那太酷了。那個角度。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "放",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "I love that angle. -- Sorry, I almost forgot. So, before I let my hair dry, I put on I put in hair cream or styling cream, which is this. Now,.",
+          "tc": "我喜歡那個角度。 ——對不起，我差點忘了。所以，在我讓頭髮乾之前，我會塗上髮霜或定型霜，就是這個。現在，。"
+        },
+        {
+          "en": "I get my face wet and I use this CeraVe foaming cleanser and slowly all around.",
+          "tc": "我把臉弄濕，然後慢慢地用這款 CeraVe 泡沫潔面乳塗抹全身。"
+        },
+        {
+          "en": "I forgot -- I forgot my headband, but that's okay because the headband is to prevent your hair from getting wet like this. And my hair is already wet. So that's okay.",
+          "tc": "我忘記了——我忘記了我的頭帶，但沒關係，因為頭帶是為了防止你的頭髮弄濕。而且我的頭髮已經濕了。所以沒關係。"
+        },
+        {
+          "en": "I wash it off. This is my hand towel, but this is my face towel.",
+          "tc": "我把它洗掉。這是我的手巾，但這是我的面巾。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "hair",
+          "kk": "/hair/",
+          "partOfSpeech": "n.",
+          "meaning": "頭髮",
+          "note": "看到 hair 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "放",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "let",
+          "kk": "/let/",
+          "partOfSpeech": "n.",
+          "meaning": "讓",
+          "note": "看到 let 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "I recommend you keep two different towels on hand. One for your face and one for your hands because your hands are dirtier than your face. Right now, my mirror is.",
+          "tc": "我建議你手邊準備兩條不同的毛巾。一張洗臉，一張洗手，因為手比臉更髒。現在，我的鏡子是。"
+        },
+        {
+          "en": "I'm sorry. It's so annoying. Maybe I could just ....",
+          "tc": "對不起。太煩人了。也許我可以只是......"
+        },
+        {
+          "en": "In the morning I use this -- rosacea --- Well, it's for rosacea.",
+          "tc": "早上我用這個——紅斑痤瘡——嗯，它是治療紅斑痤瘡的。"
+        },
+        {
+          "en": "If you don't know, rosacea is a skin condition. Your skin basically turns red. If it's very cold or very hot, your skin will turn red. So, this is basically to prevent.",
+          "tc": "如果你不知道，酒渣鼻是一種皮膚病。你的皮膚基本上會變紅。如果天氣很冷或很熱，你的皮膚就會變紅。所以，這基本上是為了防止。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "now",
+          "kk": "/now/",
+          "partOfSpeech": "n.",
+          "meaning": "現在",
+          "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "And help the skin recuperate. I used to do a lot more,.",
+          "tc": "並幫助皮膚恢復。我以前做過很多事，。"
+        },
+        {
+          "en": "I do now. At night, I put on this teen derm. This is for tightening your skin. And this is for rosacea. So guys, these are like very specific products that my.",
+          "tc": "我現在就這麼做了。晚上，我穿上了這款青少年真皮產品。這是為了收緊皮膚。這是針對紅斑痤瘡的。所以夥計們，這些就像我的非常具體的產品。"
+        },
+        {
+          "en": "Dermatologist recommended to me, but these are the ones I used to use.",
+          "tc": "皮膚科醫生向我推薦的，但這些是我以前用過的。"
+        },
+        {
+          "en": "You can use them like these. So I used to use this face wash. Simple. So good. So soft and just refreshing on the skin. MMM so good. And Garnier for exfoliating.",
+          "tc": "你可以像這樣使用它們。所以我一直都用這個洗臉液。簡單的。超好的。如此柔軟，肌膚清爽。嗯嗯 真好。還有卡尼爾去角質。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "放",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "good",
+          "kk": "/good/",
+          "partOfSpeech": "n.",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "now",
+          "kk": "/now/",
+          "partOfSpeech": "n.",
+          "meaning": "現在",
+          "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "Only. You should only exfoliate two to three times a week. Only two to three times.",
+          "tc": "僅有的。每週應該只去角質兩到三次。只有兩到三次。"
+        },
+        {
+          "en": "I would put this.",
+          "tc": "我會把這個。"
+        },
+        {
+          "en": "I love this um moisturizing gel. It's like lotion but it's gel.",
+          "tc": "我喜歡這款保濕凝膠。它就像乳液，但它是凝膠。"
+        },
+        {
+          "en": "If you can see here, it's like opaque. It's really soft and fresh.",
+          "tc": "如果你能看到這裡，它就像不透明的。真的很軟很新鮮。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "放",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "I love it. And it smells so good.",
+          "tc": "我喜歡它。而且聞起來很香。"
+        },
+        {
+          "en": "Finally, I put on my sunblock. So, the trick with sunscreen is to use it on your eyelids and mouth. Everywhere gets sun... Everywhere.",
+          "tc": "最後，我塗上了防曬霜。所以，防曬乳的訣竅就是把它塗在眼瞼和嘴巴上。到處都有陽光……到處。"
+        },
+        {
+          "en": "I'm all done. I forgot to brush my teeth. So, my toothbrush. This is my toothbrush. I put on some toothpaste. And actually,.",
+          "tc": "我都完成了。我忘了刷牙。那麼，我的牙刷。這是我的牙刷。我塗了一些牙膏。事實上，。"
+        },
+        {
+          "en": "Sometimes I'll go over my face with a roller if.",
+          "tc": "有時我會用滾輪滑過我的臉。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "放",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "good",
+          "kk": "/good/",
+          "partOfSpeech": "n.",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常作息",
+      "titleEn": "Part 14: daily routine",
+      "sentences": [
+        {
+          "en": "I feel puffy in the mornings, but yeah, not every time. All right, that was my skin care routine. Now, let's go to the kitchen. Put on put on my slippers.",
+          "tc": "我早上感覺浮腫，但不是每次都這樣。好吧，這就是我的護膚程序。現在，我們去廚房吧。穿上我的拖鞋。"
+        },
+        {
+          "en": "After putting on my slippers, I open the blinds for the day.",
+          "tc": "穿上拖鞋後，我打開百葉窗開始一天的生活。"
+        },
+        {
+          "en": "I say good morning to Naila. Beautiful Naila. And I open these blinds, too. So, let's cook some breakfast, shall.",
+          "tc": "我向奈拉說早安。美麗的奈拉。我也打開這些百葉窗。那麼，我們來做點早餐吧。"
+        },
+        {
+          "en": "I usually have music playing at this time,.",
+          "tc": "我通常這個時候會播放音樂。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "放",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "let",
+          "kk": "/let/",
+          "partOfSpeech": "n.",
+          "meaning": "讓",
+          "note": "看到 let 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "good",
+          "kk": "/good/",
+          "partOfSpeech": "n.",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "I don't want to get copyrighted, so no music for today.",
+          "tc": "我不想取得版權，所以今天沒有音樂。"
+        },
+        {
+          "en": "I usually listen to something like Kali Uchis, um, Billie Eilish. I really like Bruno Mars lately. Uh, Lady Gaga, of course. The Marias.",
+          "tc": "我通常會聽 Kali Uchis，嗯，Billie Eilish 之類的東西。我最近很喜歡布魯諾馬爾斯。呃，當然是 Lady Gaga。瑪麗亞斯。"
+        },
+        {
+          "en": "I've been listening to a lot, guys. I wish I could show you all these songs. It sucks that.",
+          "tc": "我已經聽了很多了，夥計們。我希望我能給你看所有這些歌曲。太糟糕了。"
+        },
+        {
+          "en": "They have all these rules on YouTube. All right, let's get started. So, you guys all know I start with my smoothie.",
+          "tc": "YouTube 上有所有這些規則。好吧，讓我們開始吧。所以，你們都知道我是從冰沙開始的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "let",
+          "kk": "/let/",
+          "partOfSpeech": "n.",
+          "meaning": "讓",
+          "note": "看到 let 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "now",
+          "kk": "/now/",
+          "partOfSpeech": "n.",
+          "meaning": "現在",
+          "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：日常生活",
+      "titleEn": "Part 16: everyday life",
+      "sentences": [
+        {
+          "en": "We are getting our bananas, kefir.",
+          "tc": "我們正在買香蕉、克菲爾。"
+        },
+        {
+          "en": "Do you remember what kefir is, some spinach, some flaxseed with chia? Amaranth. My sister Brianna recommended?",
+          "tc": "你還記得開菲爾是什麼嗎？一些菠菜，一些亞麻籽加奇亞籽？莧菜。我姊姊布麗安娜推薦的？"
+        },
+        {
+          "en": "I eat this cuz it's a very good healthy food. I guess. Creatine.",
+          "tc": "我吃這個是因為它是一種非常好的健康食品。我猜。肌酸。"
+        },
+        {
+          "en": "I drink so many pills -- I take sorry -- I take so many pills every morning.",
+          "tc": "我喝了很多藥——抱歉——我每天早上都吃很多藥。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "拿",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "good",
+          "kk": "/good/",
+          "partOfSpeech": "n.",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段：日常生活",
+      "titleEn": "Part 17: everyday life",
+      "sentences": [
+        {
+          "en": "I was showing my roommate the other day how many pills I take and it's crazy.",
+          "tc": "前幾天我向我的室友展示了我服用了多少藥，這太瘋狂了。"
+        },
+        {
+          "en": "I usually need to eat something.",
+          "tc": "我通常需要吃點東西。"
+        },
+        {
+          "en": "First before I take my daily vitamins and pills like an old lady. So, let's make our smoothie.",
+          "tc": "首先，在我像老太太一樣服用每日維生素和藥物之前。那麼，就讓我們來製作冰沙吧。"
+        },
+        {
+          "en": "Then I'll show you all the vitamins I take. Let's get our blender and one banana.",
+          "tc": "然後我會告訴你我服用的所有維生素。讓我們拿來攪拌機和一根香蕉。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "拿",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "let",
+          "kk": "/let/",
+          "partOfSpeech": "n.",
+          "meaning": "讓",
+          "note": "看到 let 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段：日常生活",
+      "titleEn": "Part 18: everyday life",
+      "sentences": [
+        {
+          "en": "We peel the banana,.",
+          "tc": "我們把香蕉剝皮，。"
+        },
+        {
+          "en": "We throw it in the blender. I put in a handful of spinach.",
+          "tc": "我們把它丟進攪拌機裡。我放了一把菠菜。"
+        },
+        {
+          "en": "We strain our kefir.",
+          "tc": "我們過濾開菲爾。"
+        },
+        {
+          "en": "Do you remember what kefir is? It's origin, It originated in Russia?",
+          "tc": "你還記得開菲爾是什麼嗎？它的起源，它起源於俄羅斯？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "放",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段：日常生活",
+      "titleEn": "Part 19: everyday life",
+      "sentences": [
+        {
+          "en": "I actually couldn't even give you a simple definition of kefir or any definition of kefir! lol.",
+          "tc": "事實上，我甚至無法給你一個開菲爾的簡單定義或克菲爾的任何定義！哈哈。"
+        },
+        {
+          "en": "I just know kefir is really good for you. So, let's strain out that kefir. Now,.",
+          "tc": "我只知道開菲爾對你真的有好處。那麼，讓我們濾掉開菲爾。現在，。"
+        },
+        {
+          "en": "We sprinkle in some flaxseed. And let's sprinkle in some amaranth.",
+          "tc": "我們撒上一些亞麻籽。讓我們撒上一些莧菜。"
+        },
+        {
+          "en": "I think that's what you call it in English.",
+          "tc": "我想這就是你用英語所說的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "let",
+          "kk": "/let/",
+          "partOfSpeech": "n.",
+          "meaning": "讓",
+          "note": "看到 let 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "good",
+          "kk": "/good/",
+          "partOfSpeech": "n.",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "now",
+          "kk": "/now/",
+          "partOfSpeech": "n.",
+          "meaning": "現在",
+          "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段：語言學習",
+      "titleEn": "Part 20: language",
+      "sentences": [
+        {
+          "en": "I've actually never said amaranth in English. I know in Spanish it's amaranto.",
+          "tc": "事實上我從來沒有用英文說過莧菜。我知道西班牙語中是amaranto。"
+        },
+        {
+          "en": "I'm pretty sure it's amaranth in English.",
+          "tc": "我很確定它是英語中的莧菜。"
+        },
+        {
+          "en": "I don't know the words in English but I know them in Spanish and vice versa.",
+          "tc": "我不認識英語單詞，但我知道西班牙語單詞，反之亦然。"
+        },
+        {
+          "en": "You know I was born in the United States but I grew up in Mexico. So there are some words that.",
+          "tc": "你知道我出生在美國，但我在墨西哥長大。所以有一些話是這樣說的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "now",
+          "kk": "/now/",
+          "partOfSpeech": "n.",
+          "meaning": "現在",
+          "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     }
@@ -302,67 +898,67 @@
       "title": "B2 重點單字",
       "items": [
         {
-          "english": "shower",
-          "kk": "/shower/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 shower 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "hair",
           "kk": "/hair/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "頭髮",
           "note": "看到 hair 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "put",
+          "kk": "/put/",
+          "partOfSpeech": "n.",
+          "meaning": "放",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "take",
           "kk": "/take/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "拿",
           "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "i'm",
-          "kk": "/i'm/",
+          "english": "let",
+          "kk": "/let/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "讓",
+          "note": "看到 let 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "routine",
-          "kk": "/ruːˈtiːn/",
+          "english": "good",
+          "kk": "/good/",
           "partOfSpeech": "n.",
-          "meaning": "例行生活",
-          "note": "看到 routine 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "now",
           "kk": "/now/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "現在",
           "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "some",
-          "kk": "/some/",
+          "english": "shower",
+          "kk": "/shower/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "淋浴",
+          "note": "看到 shower 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -382,6 +978,17 @@
     },
     {
       "id": "phrase-02",
+      "phrase": "in the morning",
+      "meaning": "在早上",
+      "examples": [
+        {
+          "en": "In the morning I use this -- rosacea --- Well, it's for rosacea.",
+          "tc": "早上我用這個——紅斑痤瘡——嗯，它是治療紅斑痤瘡的。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-03",
       "phrase": "get ready",
       "meaning": "準備好",
       "examples": [
@@ -390,24 +997,13 @@
           "tc": "準備好你最喜歡的歌曲是什麼。"
         }
       ]
-    },
-    {
-      "id": "phrase-03",
-      "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
-      "examples": [
-        {
-          "en": "I drank a matcha JUST before going to sleep.",
-          "tc": "我睡前喝了一杯抹茶。"
-        }
-      ]
     }
   ],
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Hello. Let me teach you English... while I show you my morning routine! My alarm went off at 9:58 a.m.",
-      "translation": "你好。讓我教你英文...同時向你展示我的早晨例行公事！我的鬧鐘在上午 9 點 58 分響了。",
+      "sentence": "Hello. Let me teach you English... While I show you my morning routine! My alarm went off at 9:58 a.m.",
+      "translation": "你好。讓我教你英文...同時我向你展示我的早晨例行公事！我的鬧鐘在上午 9 點 58 分響了。",
       "points": [
         {
           "label": "let teach while",

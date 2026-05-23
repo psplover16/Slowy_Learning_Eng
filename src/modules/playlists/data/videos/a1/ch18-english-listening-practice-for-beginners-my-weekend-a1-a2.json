@@ -19,28 +19,36 @@
       "titleEn": "Opening: everyday life",
       "sentences": [
         {
-          "en": "Hello. What did you do last weekend? Was it exciting, boring, interesting?",
-          "tc": "你好。上週末你做了什麼？是令人興奮、無聊還是有趣？"
+          "en": "What did you do last weekend? Was it exciting, boring, interesting?",
+          "tc": "上週末你做了什麼？是令人興奮、無聊還是有趣？"
         },
         {
           "en": "I am going to tell you about my weekend.",
           "tc": "我要告訴你我的週末。"
         },
         {
-          "en": "Then normally learning English doesn't have to be difficult or complicated. It can be easy. Over the weekend,.",
-          "tc": "那麼通常學習英語就不一定是困難或複雜的。這很容易。週末，."
+          "en": "Then normally learning English doesn't have to be difficult or complicated. It can be easy. Over the weekend, I took the bus to my parents house. My mom and my dad,.",
+          "tc": "那麼通常學習英語就不一定是困難或複雜的。這很容易。週末，我搭公車去我父母家。我的媽媽和我的爸爸，。"
         },
         {
-          "en": "I took the bus to my parents house. My mom and my dad,.",
-          "tc": "我坐公車去我父母家。我的媽媽和我的爸爸，。"
+          "en": "They both live together with my little brother, Joaquin.",
+          "tc": "他們和我的弟弟華金住在一起。"
         }
       ],
       "tags": [
         {
+          "english": "dad",
+          "kk": "/dad/",
+          "partOfSpeech": "n.",
+          "meaning": "爸爸",
+          "note": "看到 dad 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "weekend",
           "kk": "/weekend/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "週末",
           "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -49,48 +57,48 @@
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段：旅行",
+      "titleEn": "Part 2: travel",
       "sentences": [
         {
-          "en": "They both live together with my little brother, Joaquin.",
-          "tc": "他們和我的弟弟華金住在一起。"
+          "en": "He edits these videos. I decided to visit my parents last minute around 4:00 p.m. But at 4:00 p.m. The traffic in Mexico City is crazy.",
+          "tc": "他編輯這些影片。我決定在最後一刻下午 4:00 左右去看我的父母。但下午 4:00墨西哥城的交通很瘋狂。"
         },
         {
-          "en": "He edits these videos. I decided to visit my parents last minute around 4:00 p.m. But at 4:00.",
-          "tc": "他編輯這些影片。我決定在最後一刻下午 4:00 左右去看我的父母。但在 4:00。"
+          "en": "I decided to wait for the traffic to settle down. Traffic never settles down in Mexico City, but around 8 p.m. It's not too crazy anymore. But there was still so much.",
+          "tc": "我決定等待交通穩定下來。墨西哥城的交通永遠不會平靜下來，但晚上 8 點左右就會出現交通擁堵。已經不太瘋狂了。但還是有那麼多。"
         },
         {
-          "en": "P.m. The traffic in Mexico City is crazy.",
-          "tc": "下午。墨西哥城的交通很瘋狂。"
+          "en": "Traffic. I was sat in traffic for about 2 hours.",
+          "tc": "交通。我在路上堵了大約2個小時。"
         },
         {
-          "en": "I decided to wait for the traffic to settle down. Traffic never settles down in Mexico City,.",
-          "tc": "我決定等待交通穩定下來。墨西哥城的交通永遠不會安定下來。"
+          "en": "Finally started driving.",
+          "tc": "終於開始開車了。"
         }
       ],
       "tags": [
         {
-          "english": "traffic",
-          "kk": "/traffic/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 traffic 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "but",
           "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "但",
           "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "traffic",
+          "kk": "/traffic/",
+          "partOfSpeech": "n.",
+          "meaning": "交通",
+          "note": "看到 traffic 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "down",
           "kk": "/down/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "向下",
           "note": "看到 down 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -103,45 +111,45 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "Around 8 p.m. it's not too crazy anymore. But there was still so much traffic.",
-          "tc": "晚上 8 點左右已經不太瘋狂了。但交通仍然如此繁忙。"
-        },
-        {
-          "en": "I was sat in traffic for about 2 hours.",
-          "tc": "我在路上堵了大約2個小時。"
-        },
-        {
-          "en": "Finally started driving.",
-          "tc": "終於開始開車了。"
-        },
-        {
           "en": "He drove all the way to my hometown where my dad picked me up in his car.",
           "tc": "他一路開到我的家鄉，我爸爸開車來接我。"
+        },
+        {
+          "en": "He drove his car to the bus station.",
+          "tc": "他開著車前往汽車站。"
+        },
+        {
+          "en": "I sat in the front seat of the car, not the back seat, the front seat. Because my mom wasn't there.",
+          "tc": "我坐在車的前座，不是後座，是前座。因為我媽媽不在。"
+        },
+        {
+          "en": "I got to sit in the front seat. I was a little hungry.",
+          "tc": "我必須坐在前排座位上。我有點餓了。"
         }
       ],
       "tags": [
         {
-          "english": "traffic",
-          "kk": "/traffic/",
+          "english": "drove",
+          "kk": "/drove/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 traffic 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "開車",
+          "note": "看到 drove 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "but",
-          "kk": "/but/",
+          "english": "dad",
+          "kk": "/dad/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "爸爸",
+          "note": "看到 dad 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "english": "car",
-          "kk": "/car/",
+          "english": "seat",
+          "kk": "/seat/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 car 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "座位",
+          "note": "看到 seat 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -149,62 +157,12 @@
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段：食物與用餐",
+      "titleEn": "Part 4: food",
       "sentences": [
         {
-          "en": "He drove his car to the bus station.",
-          "tc": "他開著車前往汽車站。"
-        },
-        {
-          "en": "I sat in the front seat of the car, not the back seat, the front seat. Because my.",
-          "tc": "我坐在車的前座，不是後座，是前座。因為我的."
-        },
-        {
-          "en": "Mom wasn't there. So, I got to sit in the front seat.",
-          "tc": "媽媽不在。所以，我必須坐在前排座位上。"
-        },
-        {
-          "en": "Get some esquites. Esquites have corn, mayonnaise, lime, tajin. It's a mixture of good stuff. It's the perfect.",
-          "tc": "來點紳士吧Esquites有玉米、蛋黃醬、酸橙、tajin。這是好東西的混合物。這是完美的。"
-        }
-      ],
-      "tags": [
-        {
-          "english": "esquites",
-          "kk": "/esquites/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 esquites 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "seat",
-          "kk": "/seat/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 seat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "car",
-          "kk": "/car/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 car 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
-    },
-    {
-      "id": "scene-05",
-      "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
-      "sentences": [
-        {
-          "en": "Late night snack.",
-          "tc": "深夜小吃。"
+          "en": "I hadn't had any dinner yet. So, my dad drove me to get some esquites. Have corn, mayonnaise, lime, tajin. It's a mixture of good stuff. It's the perfect late night snack.",
+          "tc": "我還沒吃晚餐。於是，我爸爸開車帶我去見識一些紳士。有玉米、蛋黃醬、酸橙、tajin。這是好東西的混合物。這是完美的深夜小吃。"
         },
         {
           "en": "We bought two esquites, one for me and one for my mom,.",
@@ -221,20 +179,70 @@
       ],
       "tags": [
         {
-          "english": "esquites",
-          "kk": "/esquites/",
+          "english": "drove",
+          "kk": "/drove/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 esquites 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "開車",
+          "note": "看到 drove 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
+        {
+          "english": "dad",
+          "kk": "/dad/",
+          "partOfSpeech": "n.",
+          "meaning": "爸爸",
+          "note": "看到 dad 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：食物與用餐",
+      "titleEn": "Part 5: food",
+      "sentences": [
+        {
+          "en": "They sell breakfast, coffee. You can sit down and chat with friends or family while.",
+          "tc": "他們賣早餐、咖啡。你可以坐下來與朋友或家人聊天。"
+        },
+        {
+          "en": "You eat breakfast. I ordered a maple donut with bacon. That was the perfect combination. Maple with bacon. So good. The doughnut was fluffy and soft but crunchy on the outside.",
+          "tc": "你吃早餐。我點了一個楓糖甜甜圈和培根。那是完美的組合。楓葉配培根。超好的。甜甜圈蓬鬆柔軟，但外面脆脆的。"
+        },
+        {
+          "en": "I also ordered a omelette with spinach and I ordered a cappuccino. My dad drove us all back home.",
+          "tc": "我還點了菠菜煎蛋捲，還點了一杯卡布奇諾。我爸爸開車送我們大家回家。"
+        },
+        {
+          "en": "We watched a movie called Roommates on Netflix.",
+          "tc": "我們在 Netflix 上觀看了一部名為《室友》的電影。"
+        }
+      ],
+      "tags": [
         {
           "english": "drove",
           "kk": "/drove/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "開車",
           "note": "看到 drove 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "dad",
+          "kk": "/dad/",
+          "partOfSpeech": "n.",
+          "meaning": "爸爸",
+          "note": "看到 dad 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
@@ -245,38 +253,46 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "We hung out listening to music, watching videos. And the.",
-          "tc": "我們一起出去聽音樂、看影片。還有。"
+          "en": "Next thing to happen. It wasn't suspenseful or scary.",
+          "tc": "接下來要發生的事。這並不懸疑或可怕。"
         },
         {
-          "en": "They sell breakfast, coffee. You can sit down and chat with friends or family while.",
-          "tc": "他們賣早餐、咖啡。您可以坐下來與朋友或家人聊天。"
+          "en": "It was just frustrating and just annoying to see how her roommate got away with everything again and again.",
+          "tc": "看到她的室友一次又一次地逃脫懲罰，真是令人沮喪又煩人。"
         },
         {
-          "en": "You eat breakfast. I ordered a maple donut with bacon. That was the perfect combination. Maple with bacon.",
-          "tc": "你吃早餐。我點了一個楓糖甜甜圈和培根。那是完美的組合。楓葉配培根。"
+          "en": "It was really good. Later, my dad drove me to my nail appointment. As you can see,.",
+          "tc": "真的很好。后来，我爸爸开车送我去预约美甲。如你看到的，。"
         },
         {
-          "en": "So good. The doughnut was fluffy and soft but crunchy on the outside.",
-          "tc": "超好的。甜甜圈蓬鬆柔軟，但外面脆脆的。"
+          "en": "I got my nails done again. I used to never get my nails done, but lately with my videos and my rings, I really love looking down while.",
+          "tc": "我又做了指甲。我以前從來不做指甲，但最近有了我的影片和戒指，我真的很喜歡低頭看。"
         }
       ],
       "tags": [
         {
+          "english": "drove",
+          "kk": "/drove/",
+          "partOfSpeech": "n.",
+          "meaning": "開車",
+          "note": "看到 drove 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "but",
           "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "但",
           "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
-          "english": "down",
-          "kk": "/down/",
+          "english": "dad",
+          "kk": "/dad/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 down 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "爸爸",
+          "note": "看到 dad 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -286,67 +302,67 @@
       "title": "A1 重點單字",
       "items": [
         {
-          "english": "traffic",
-          "kk": "/traffic/",
+          "english": "drove",
+          "kk": "/drove/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 traffic 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "開車",
+          "note": "看到 drove 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "esquites",
-          "kk": "/esquites/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 esquites 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "seat",
-          "kk": "/seat/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 seat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "weekend",
-          "kk": "/weekend/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
         {
           "english": "but",
           "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "但",
           "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
-          "english": "car",
-          "kk": "/car/",
+          "english": "dad",
+          "kk": "/dad/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 car 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "爸爸",
+          "note": "看到 dad 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "traffic",
+          "kk": "/traffic/",
+          "partOfSpeech": "n.",
+          "meaning": "交通",
+          "note": "看到 traffic 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "down",
           "kk": "/down/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "向下",
           "note": "看到 down 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "drove",
-          "kk": "/drove/",
+          "english": "seat",
+          "kk": "/seat/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 drove 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "座位",
+          "note": "看到 seat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "weekend",
+          "kk": "/weekend/",
+          "partOfSpeech": "n.",
+          "meaning": "週末",
+          "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "car",
+          "kk": "/car/",
+          "partOfSpeech": "n.",
+          "meaning": "車",
+          "note": "看到 car 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -355,23 +371,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "phrase": "what did",
+      "meaning": "用來詢問過去發生了什麼",
       "examples": [
         {
-          "en": "I am going to tell you about my weekend.",
-          "tc": "我要告訴你我的週末。"
+          "en": "What did you do last weekend?",
+          "tc": "上週末你做了什麼？"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "have to",
-      "meaning": "常用說法，可用來表達「have to」這個意思",
+      "phrase": "used to",
+      "meaning": "以前曾經",
       "examples": [
         {
-          "en": "Then normally learning English doesn't have to be difficult or complicated.",
-          "tc": "那麼通常學習英語就不一定是困難或複雜的。"
+          "en": "I used to never get my nails done, but lately with my videos and my rings, I really love looking down while.",
+          "tc": "我以前從來不做指甲，但最近有了我的影片和戒指，我真的很喜歡低頭看。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-03",
+      "phrase": "going to",
+      "meaning": "去",
+      "examples": [
+        {
+          "en": "I am going to tell you about my weekend.",
+          "tc": "我要告訴你我的週末。"
         }
       ]
     }
@@ -379,13 +406,13 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Hello. What did you do last weekend? Was it exciting, boring, interesting?",
-      "translation": "你好。上週末你做了什麼？是令人興奮、無聊還是有趣？",
+      "sentence": "What did you do last weekend? Was it exciting, boring, interesting?",
+      "translation": "上週末你做了什麼？是令人興奮、無聊還是有趣？",
       "points": [
         {
-          "label": "did last weekend",
-          "text": "did last weekend",
-          "note": "注意 \"did last weekend\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "what did",
+          "text": "what did",
+          "note": "注意 \"what did\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
@@ -403,25 +430,25 @@
     },
     {
       "id": "breakdown-03",
-      "sentence": "Then normally learning English doesn't have to be difficult or complicated. It can be easy. Over the weekend,.",
-      "translation": "那麼通常學習英語就不一定是困難或複雜的。這很容易。週末，.",
+      "sentence": "Then normally learning English doesn't have to be difficult or complicated. It can be easy. Over the weekend, I took the bus to my parents house. My mom and my dad,.",
+      "translation": "那麼通常學習英語就不一定是困難或複雜的。這很容易。週末，我搭公車去我父母家。我的媽媽和我的爸爸，。",
       "points": [
         {
-          "label": "have to",
-          "text": "have to",
-          "note": "注意 \"have to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "normally doesn't difficult",
+          "text": "normally doesn't difficult",
+          "note": "注意 \"normally doesn't difficult\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-04",
-      "sentence": "I took the bus to my parents house. My mom and my dad,.",
-      "translation": "我坐公車去我父母家。我的媽媽和我的爸爸，。",
+      "sentence": "They both live together with my little brother, Joaquin.",
+      "translation": "他們和我的弟弟華金住在一起。",
       "points": [
         {
-          "label": "took bus parents",
-          "text": "took bus parents",
-          "note": "注意 \"took bus parents\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "both live together",
+          "text": "both live together",
+          "note": "注意 \"both live together\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

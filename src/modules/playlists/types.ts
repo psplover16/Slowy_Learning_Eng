@@ -36,6 +36,7 @@ export interface PlaylistVideoData {
   scenes: PlaylistScene[]
   vocabGroups: PlaylistVocabGroup[]
   phrases: PlaylistPhrase[]
+  usages?: PlaylistUsage[]
   breakdowns: PlaylistSentenceBreakdown[]
 }
 
@@ -52,9 +53,19 @@ export interface PlaylistScene {
   no: string
   titleZh: string
   titleEn: string
-  sentences: Array<{ en: string; tc: string }>
+  sentences: PlaylistSentencePair[]
   tags: PlaylistVocabItem[]
 }
+
+export interface PlaylistSentencePair {
+  en: string
+  tc: string
+  englishTokens?: PlaylistInlineToken[]
+}
+
+export type PlaylistInlineToken =
+  | { type: 'text'; text: string }
+  | { type: 'word' | 'phrase' | 'usage'; text: string; targetId: string; instanceId: string }
 
 export interface PlaylistVocabGroup {
   title: string
@@ -62,12 +73,23 @@ export interface PlaylistVocabGroup {
 }
 
 export interface PlaylistVocabItem {
+  id?: string
+  lemma?: string
   english: string
   kk: string
   partOfSpeech: string
   meaning: string
   note?: string
   highlight?: boolean
+}
+
+export interface PlaylistUsage {
+  id: string
+  word: string
+  familiarMeaning: string
+  usage: string
+  translation: string
+  examples: Array<string | { en: string; tc: string }>
 }
 
 export interface PlaylistPhrase {

@@ -15,49 +15,33 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：日常生活",
-      "titleEn": "Opening: everyday life",
+      "titleZh": "開場：食物與用餐",
+      "titleEn": "Opening: food",
       "sentences": [
         {
-          "en": "Are you doing today? I'm doing fine myself,?",
-          "tc": "今天你在幹嗎？我自己還好嗎？"
+          "en": "We will roleplay intermediate English at a restaurant, at the grocery store, and at the airport. You're red.",
+          "tc": "我們將在餐廳、雜貨店和機場進行中級英語角色扮演。你紅了。"
+        },
+        {
+          "en": "Are you doing today?",
+          "tc": "今天你在幹嗎？"
+        },
+        {
+          "en": "I'm doing fine myself,.",
+          "tc": "我自己過得很好，"
         },
         {
           "en": "Thank you. What can.",
           "tc": "謝謝。什麼可以。"
-        },
-        {
-          "en": "I get for you? Sure thing. With fries. What size? Small, medium, or large?",
-          "tc": "我幫你找？當然可以。配薯條。什麼尺寸？小、中、還是大？"
-        },
-        {
-          "en": "They are about this big.",
-          "tc": "他們大約有這麼大。"
         }
       ],
       "tags": [
         {
-          "english": "i'm",
-          "kk": "/i'm/",
+          "english": "you're",
+          "kk": "/you're/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "large",
-          "kk": "/large/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 large 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "你是",
+          "note": "看到 you're 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -69,44 +53,44 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
+          "en": "I get for you? Sure thing. With fries. What size? Small, medium, or large?",
+          "tc": "我幫你找？當然可以。配薯條。什麼尺寸？小、中、還是大？"
+        },
+        {
+          "en": "They are about this big.",
+          "tc": "他們大約有這麼大。"
+        },
+        {
           "en": "They're a little smaller. Like this big. You got it. Anything to drink?",
           "tc": "它們有點小。像這麼大的。你明白了。有什麼喝的嗎？"
         },
         {
           "en": "We have Sprite, Fanta, Coke, Pepsi, and Dr. Pepper. Sure thing. Small or large? All right. So, that's one double cheeseburger, large fries, and a large Coke. Anything else? Of course.",
           "tc": "我們有雪碧、芬達、可口可樂、百事可樂和胡椒博士。當然可以。小還是大？好的。所以，這是一個雙層起司漢堡、大薯條和一大杯可樂。還要別的嗎？當然。"
-        },
-        {
-          "en": "Would you like cheese on the bacon as well? Or just the regular double cheeseburger with bacon? No problem?",
-          "tc": "您想在培根上加起司嗎？還是只是普通的雙層起司漢堡加培根？沒問題？"
-        },
-        {
-          "en": "Would you like everything on it? comes with lettuce, tomato, pickles, onion, and ketchup. You got it. No onions. Anything else?",
-          "tc": "你想要上面的一切嗎？附有生菜、番茄、泡菜、洋蔥和番茄醬。你明白了。沒有洋蔥。還要別的嗎？"
         }
       ],
       "tags": [
         {
-          "english": "large",
-          "kk": "/large/",
+          "english": "right",
+          "kk": "/right/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 large 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "large",
+          "kk": "/large/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "大的",
+          "note": "看到 large 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
           "english": "anything",
           "kk": "/anything/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "任何事物",
           "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -119,38 +103,46 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
+          "en": "Would you like cheese on the bacon as well? Or just the regular double cheeseburger with bacon? No problem?",
+          "tc": "你想在培根上加起司嗎？還是只是普通的雙層起司漢堡加培根？沒問題？"
+        },
+        {
+          "en": "Would you like everything on it? comes with lettuce, tomato, pickles, onion, and ketchup. You got it. No onions. Anything else?",
+          "tc": "你想要上面的一切嗎？附有生菜、番茄、泡菜、洋蔥和番茄醬。你明白了。沒有洋蔥。還要別的嗎？"
+        },
+        {
           "en": "I want to show you guys.",
           "tc": "我想向你們展示一下。"
         },
         {
-          "en": "My favorite place to learn new things. I always say never stop learning, right? And with Skillshare,.",
-          "tc": "我最喜歡學習新事物的地方。我總是說永遠不要停止學習，對嗎？並透過技能分享，。"
-        },
-        {
-          "en": "You will never stop learning. I'm so excited that this video is sponsored by Skillshare. I've been using Skillshare for a few years now and I'm constantly learning new skills with it.",
-          "tc": "你永遠不會停止學習。我很高興該影片由 Skillshare 贊助。我已經使用 Skillshare 幾年了，並且不斷地用它學習新技能。"
-        },
-        {
-          "en": "From languages to drawing to learning how to organize my ideas better. In a world.",
-          "tc": "從語言到繪畫，再到學習如何更好地組織我的想法。在一個世界裡。"
+          "en": "My favorite place to learn new things. I always say never stop learning, right? And with Skillshare, you will never stop learning.",
+          "tc": "我最喜歡學習新事物的地方。我總是說永遠不要停止學習，對嗎？有了 Skillshare，你將永遠不會停止學習。"
         }
       ],
       "tags": [
         {
-          "english": "i'm",
-          "kk": "/i'm/",
+          "english": "right",
+          "kk": "/right/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "skillshare",
-          "kk": "/skillshare/",
+          "english": "problem",
+          "kk": "/problem/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 skillshare 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "問題",
+          "note": "看到 problem 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "anything",
+          "kk": "/anything/",
+          "partOfSpeech": "v.",
+          "meaning": "任何事物",
+          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -161,8 +153,42 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
+          "en": "I'm so excited that this video is sponsored by Skillshare.",
+          "tc": "我很高興該影片由 Skillshare 贊助。"
+        },
+        {
+          "en": "I've been using Skillshare for a few years now.",
+          "tc": "我已經使用 Skillshare 幾年了。"
+        },
+        {
+          "en": "I'm constantly learning new skills with it. From languages to drawing to learning.",
+          "tc": "我不斷地用它來學習新技能。從語言到繪畫再到學習。"
+        },
+        {
+          "en": "How to organize my ideas better. In a world where there are AI teachers everywhere, Skillshare is?",
+          "tc": "如何更好地組織我的想法。在人工智慧教師無所不在的世界裡，Skillshare 是什麼？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "skillshare",
+          "kk": "/skillshare/",
+          "partOfSpeech": "n.",
+          "meaning": "技能分享",
+          "note": "看到 skillshare 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
+      "sentences": [
+        {
           "en": "How much you're learning alongside others who are as hungry to learn as?",
-          "tc": "您與其他渴望學習的人一起學習了多少？"
+          "tc": "你與其他渴望學習的人一起學習了多少？"
         },
         {
           "en": "You are. This course specifically caught my attention. Understand real English conversation listening and speaking because it's something.",
@@ -179,53 +205,19 @@
       ],
       "tags": [
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "you're",
+          "kk": "/you're/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
-    },
-    {
-      "id": "scene-05",
-      "no": "05",
-      "titleZh": "第 5 段：語言學習",
-      "titleEn": "Part 5: language",
-      "sentences": [
-        {
-          "en": "We hear in English. slowly.",
-          "tc": "我們聽到的是英語。慢慢地。"
-        },
-        {
-          "en": "Then naturally as you would in a real life conversation.",
-          "tc": "然後自然地就像在現實生活中的對話一樣。"
-        },
-        {
-          "en": "What are you doing? Shouldn't I?",
-          "tc": "你在幹什麼？我不應該嗎？"
-        },
-        {
-          "en": "He talks about so many important topics for ESL learners.",
-          "tc": "他談論了許多對於 ESL 學習者來說重要的話題。"
-        }
-      ],
-      "tags": [
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "你是",
+          "note": "看到 you're 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "doing",
-          "kk": "/doing/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 doing 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "course",
+          "kk": "/course/",
+          "partOfSpeech": "n.",
+          "meaning": "課程",
+          "note": "看到 course 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -233,49 +225,493 @@
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段：語言學習",
+      "titleEn": "Part 6: language",
       "sentences": [
+        {
+          "en": "We hear in English. Slowly.",
+          "tc": "我們聽到的是英語。慢慢地。"
+        },
+        {
+          "en": "Then naturally as you would in a real life conversation.",
+          "tc": "然後自然地就像在現實生活中的對話一樣。"
+        },
+        {
+          "en": "He talks about so many important topics for ESL learners.",
+          "tc": "他談論了許多對於 ESL 學習者來說重要的話題。"
+        },
         {
           "en": "He answers the question.",
           "tc": "他回答了問題。"
-        },
-        {
-          "en": "We pronounce cat? Cat or pack? P pack. That's a cat.",
-          "tc": "我們發音貓？貓還是包包？ P包。那是一隻貓。"
-        },
-        {
-          "en": "He explains it all. Connected speech crucial for intermediate learners. who want to improve their pronunciation.",
-          "tc": "他解釋了這一切。互聯語音對於中級學習者至關重要。想要提升發音的人。"
-        },
-        {
-          "en": "I think you'll learn so much in this class. That's why I'm so excited to collab with Skillshare.",
-          "tc": "我想你會在這堂課學到很多。這就是為什麼我很高興與 Skillshare 合作。"
         }
       ],
       "tags": [
         {
-          "english": "i'm",
-          "kk": "/i'm/",
+          "english": "right",
+          "kk": "/right/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "yes",
+          "kk": "/yes/",
+          "partOfSpeech": "n.",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "large",
+          "kk": "/large/",
+          "partOfSpeech": "n.",
+          "meaning": "大的",
+          "note": "看到 large 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "We pronounce cat? or pack? P pack. That's a cat.",
+          "tc": "我們發音貓？或打包？ P包。那是一隻貓。"
+        },
+        {
+          "en": "He explains it all. Connected speech crucial for intermediate learners. Who want to improve their pronunciation.",
+          "tc": "他解釋了這一切。互聯語音對於中級學習者至關重要。想要提升發音的人。"
+        },
+        {
+          "en": "I think you'll learn so much in this class.",
+          "tc": "我想你會在這堂課學到很多。"
+        },
+        {
+          "en": "Beauty of Skillshare is that I can practice whenever.",
+          "tc": "Skillshare 的美妙之處在於我可以隨時練習。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "skillshare",
+          "kk": "/skillshare/",
+          "partOfSpeech": "n.",
+          "meaning": "技能分享",
+          "note": "看到 skillshare 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "I want at my own pace. To me, that's the most important part because my schedule is all over the place. Skillshare has creative classes taught by worldclass creatives like professional illustrators,.",
+          "tc": "我想要按照自己的步調。對我來說，這是最重要的部分，因為我的日程安排很亂。 Skillshare 開設創意課程，由專業插畫家等世界級創意人士授課。"
+        },
+        {
+          "en": "Renowned graphic designers, and successful entrepreneurs. It's the best place to learn a new skill or new hobbies.",
+          "tc": "著名的平面設計師和成功的企業家。這是學習新技能或新嗜好的最佳場所。"
+        },
+        {
+          "en": "Free and I assure you, won't want to leave. Back to the video.",
+          "tc": "自由，我向你保證，不會想離開。回到影片。"
+        },
+        {
+          "en": "You got it. No onions. Anything else? Is this for here or to go? Perfect. Your total is 14.85. 85. Absolutely.",
+          "tc": "你明白了。沒有洋蔥。還要別的嗎？這是來這裡還是去？完美的。你的總分是 14.85。 85. 絕對。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "anything",
+          "kk": "/anything/",
+          "partOfSpeech": "v.",
+          "meaning": "任何事物",
+          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "skillshare",
           "kk": "/skillshare/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "技能分享",
           "note": "看到 skillshare 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "You can tap or insert your card right here. Yes, you can leave a tip.",
+          "tc": "你可以在此處點擊或插入你的卡片。是的，你可以留下小費。"
+        },
+        {
+          "en": "If you'd like, but it's completely optional.",
+          "tc": "如果你願意，但這完全是可選的。"
+        },
+        {
+          "en": "We appreciate it.",
+          "tc": "我們很感激。"
+        },
+        {
+          "en": "Would you like any sauces with that?",
+          "tc": "你想要加點醬汁嗎？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "yes",
+          "kk": "/yes/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "We have ketchup, ranch, barbecue, or honey mustard. Sure thing. Ranch and barbecue. Anything else? No problem at all. I'll switch that to a large sprite.",
+          "tc": "我們有番茄醬、牧場醬、燒烤醬或蜂蜜芥末醬。當然可以。牧場和燒烤。還要別的嗎？完全沒問題。我會將其切換為大精靈。"
+        },
+        {
+          "en": "Then. Of course. All right. Your order number is 27.",
+          "tc": "然後。當然。好的。你的訂單號碼是 27。"
+        },
+        {
+          "en": "We'll call your number when it's ready. About 10 to 15 minutes.",
+          "tc": "準備好後我們會撥打你的電話號碼。大約10到15分鐘。"
+        },
+        {
+          "en": "When the food is ready. Number 27. Here you go. A double cheeseburger with bacon, no onions, large fries, a large Sprite, ranch, and barbecue sauce. Right. You're welcome. Enjoy. Now, let's?",
+          "tc": "當食物準備好時。 27 號。給你。雙層起司漢堡加培根，沒有洋蔥，大薯條，大雪碧，牧場和燒烤醬。正確的。不客氣。享受。現在，讓我們？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "large",
+          "kk": "/large/",
+          "partOfSpeech": "n.",
+          "meaning": "大的",
+          "note": "看到 large 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "problem",
+          "kk": "/problem/",
+          "partOfSpeech": "n.",
+          "meaning": "問題",
+          "note": "看到 problem 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "Practice what happens if something is wrong or missing.",
+          "tc": "練習如果出現錯誤或缺失，會發生什麼事。"
+        },
+        {
+          "en": "I'm so sorry about that. Let me fix that for you right away. Of course,.",
+          "tc": "對此我感到非常抱歉。讓我立即為你解決這個問題。當然，。"
+        },
+        {
+          "en": "The grocery store. Yes,.",
+          "tc": "雜貨店。是的，。"
+        },
+        {
+          "en": "I do. How can I help you? Um, which brand.",
+          "tc": "我願意。我怎麼幫你？嗯，哪個牌子的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "yes",
+          "kk": "/yes/",
+          "partOfSpeech": "n.",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "course",
+          "kk": "/course/",
+          "partOfSpeech": "n.",
+          "meaning": "課程",
+          "note": "看到 course 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "Are you looking for? It's in aisle 7?",
+          "tc": "你在找嗎？是在7號頻道嗎？"
+        },
+        {
+          "en": "Next to the canned vegetables. No problem. Hi there. Did you find everything okay? Great.",
+          "tc": "旁邊是蔬菜罐頭。沒問題。你好呀。你發現一切都好嗎？偉大的。"
+        },
+        {
+          "en": "Do you have a rewards number with us?",
+          "tc": "你有我們的獎勵號碼嗎？"
+        },
+        {
+          "en": "Would you like to sign up? It's free and you save money. No problem?",
+          "tc": "你想報名嗎？它是免費的，而且你可以省錢。沒問題？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "problem",
+          "kk": "/problem/",
+          "partOfSpeech": "n.",
+          "meaning": "問題",
+          "note": "看到 problem 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "Would you like paper or plastic bags? All right?",
+          "tc": "你想要紙袋還是塑膠袋？好的？"
+        },
+        {
+          "en": "Do you need help to your car? Okay. Your total is $6842?",
+          "tc": "你的汽車需要幫助嗎？好的。你的總金額為 6842 美元？"
+        },
+        {
+          "en": "Tell me about it. Yes. Go ahead and insert or tap your card.",
+          "tc": "告訴我吧。是的。繼續插入或點擊你的卡片。"
+        },
+        {
+          "en": "If you select yes,.",
+          "tc": "如果你選擇是，."
+        }
+      ],
+      "tags": [
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "yes",
+          "kk": "/yes/",
+          "partOfSpeech": "n.",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常生活",
+      "titleEn": "Part 14: everyday life",
+      "sentences": [
+        {
+          "en": "We can give you cash from your card. All right, you're all set. Of course, here.",
+          "tc": "我們可以從你的卡中給你現金。好吧，一切都準備好了。當然，在這裡。"
+        },
+        {
+          "en": "You go. Let me check that for you. Yes, you're right. I'll refund one of them. No problem at all. Sorry for the confusion. Maybe.",
+          "tc": "你去。讓我幫你檢查一下。是的，你說得對。我將退還其中一張。完全沒問題。抱歉造成混亂。或許。"
+        },
+        {
+          "en": "You prefer selfch checkout. That happens.",
+          "tc": "你喜歡自助結帳。就會發生這種情況。"
+        },
+        {
+          "en": "Sometimes. Let me clear it for you. Didn't do anything wrong. It's just glitchy. Is something that easily glitches.",
+          "tc": "有時。讓我為你澄清一下。沒有做錯什麼。這只是有故障。是很容易故障的東西。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "yes",
+          "kk": "/yes/",
+          "partOfSpeech": "n.",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "problem",
+          "kk": "/problem/",
+          "partOfSpeech": "n.",
+          "meaning": "問題",
+          "note": "看到 problem 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "Are you flying today? May I see your passport, please?",
+          "tc": "今天你飛嗎？ “我可以看一下你的護照嗎？”"
+        },
+        {
+          "en": "Are you checking any bags today? All right?",
+          "tc": "今天你檢查行李嗎？好的？"
+        },
+        {
+          "en": "Would you mind placing it on the scale for me? It's 52B. The limit is 50. You can remove a few items or pay the overweight fee. It's $75. No problem?",
+          "tc": "你介意幫我把它放在秤上嗎？是52B。限額為50件。你可以刪除一些物品或支付超重費用。 75 美元。沒問題？"
+        },
+        {
+          "en": "Security checkpoint. Come to line three. Please place your bag on the belt. Yes, laptops and liquids need to be in a separate bin.",
+          "tc": "安全檢查站。來到三號線。請將你的包包放在腰帶上。是的，筆記型電腦和液體需要放在單獨的垃圾箱中。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "yes",
+          "kk": "/yes/",
+          "partOfSpeech": "n.",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "problem",
+          "kk": "/problem/",
+          "partOfSpeech": "n.",
+          "meaning": "問題",
+          "note": "看到 problem 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：日常生活",
+      "titleEn": "Part 16: everyday life",
+      "sentences": [
+        {
+          "en": "Do you have any liquids over 3.4 oz? Please remove your shoes and belt. Step through the scanner, please. Yes. This is for flight 482 to Chicago. Not yet. Will begin boarding?",
+          "tc": "你們有超過 3.4 盎司的液體嗎？請脫掉鞋子和皮帶。請通過掃描器。是的。這是飛往芝加哥的 482 航班。還沒有。會開始登機嗎？"
+        },
+        {
+          "en": "In about 10 minutes. Actually, there's a small delay about 30 minutes due to weather.",
+          "tc": "大約10分鐘後。實際上，由於天氣原因，會有大約 30 分鐘的小延遲。"
+        },
+        {
+          "en": "We are now boarding group one. You're in group three.",
+          "tc": "我們現在是第一組登機。你在第三組。"
+        },
+        {
+          "en": "We'll call you shortly. A small travel problem. Yes, it moved to gate B8. It's about a fiveinut walk. Not too far. Welcome aboard. Can.",
+          "tc": "我們很快就會打電話給你。出行的一個小問題。是的，它移至 B8 號登機口。步行大約需要五分鐘。不太遠。歡迎登機。能。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "yes",
+          "kk": "/yes/",
+          "partOfSpeech": "n.",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "problem",
+          "kk": "/problem/",
+          "partOfSpeech": "n.",
+          "meaning": "問題",
+          "note": "看到 problem 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "you're",
+          "kk": "/you're/",
+          "partOfSpeech": "n.",
+          "meaning": "你是",
+          "note": "看到 you're 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -286,67 +722,67 @@
       "title": "B1 重點單字",
       "items": [
         {
-          "english": "i'm",
-          "kk": "/i'm/",
+          "english": "right",
+          "kk": "/right/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "yes",
+          "kk": "/yes/",
+          "partOfSpeech": "n.",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "large",
           "kk": "/large/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "大的",
           "note": "看到 large 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "skillshare",
-          "kk": "/skillshare/",
+          "english": "problem",
+          "kk": "/problem/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 skillshare 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "問題",
+          "note": "看到 problem 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "anything",
           "kk": "/anything/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "任何事物",
           "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "cat",
-          "kk": "/cat/",
+          "english": "skillshare",
+          "kk": "/skillshare/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 cat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "技能分享",
+          "note": "看到 skillshare 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "doing",
-          "kk": "/doing/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 doing 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "you're",
+          "kk": "/you're/",
+          "partOfSpeech": "n.",
+          "meaning": "你是",
+          "note": "看到 you're 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "that's",
-          "kk": "/that's/",
+          "english": "course",
+          "kk": "/course/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 that's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "課程",
+          "note": "看到 course 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -356,7 +792,7 @@
     {
       "id": "phrase-01",
       "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "meaning": "想要",
       "examples": [
         {
           "en": "I want to show you guys.",
@@ -366,23 +802,23 @@
     },
     {
       "id": "phrase-02",
-      "phrase": "i think",
-      "meaning": "常用說法，可用來表達「i think」這個意思",
+      "phrase": "need to",
+      "meaning": "需要",
       "examples": [
         {
-          "en": "I think you'll learn so much in this class.",
-          "tc": "我想你會在這堂課學到很多。"
+          "en": "Yes, laptops and liquids need to be in a separate bin.",
+          "tc": "是的，筆記型電腦和液體需要放在單獨的垃圾箱中。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "i love",
-      "meaning": "常用說法，可用來表達「i love」這個意思",
+      "phrase": "one of the",
+      "meaning": "中的一個",
       "examples": [
         {
-          "en": "I love how clearly.",
-          "tc": "我喜歡多麼清晰。"
+          "en": "I'll refund one of them.",
+          "tc": "我將退還其中一張。"
         }
       ]
     }
@@ -390,20 +826,20 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Are you doing today? I'm doing fine myself,?",
-      "translation": "今天你在幹嗎？我自己還好嗎？",
+      "sentence": "We will roleplay intermediate English at a restaurant, at the grocery store, and at the airport. You're red.",
+      "translation": "我們將在餐廳、雜貨店和機場進行中級英語角色扮演。你紅了。",
       "points": [
         {
-          "label": "doing i'm doing",
-          "text": "doing i'm doing",
-          "note": "注意 \"doing i'm doing\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "roleplay restaurant grocery",
+          "text": "roleplay restaurant grocery",
+          "note": "注意 \"roleplay restaurant grocery\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-02",
-      "sentence": "Thank you. What can.",
-      "translation": "謝謝。什麼可以。",
+      "sentence": "Are you doing today?",
+      "translation": "今天你在幹嗎？",
       "points": [
         {
           "label": "everyday English",
@@ -414,25 +850,25 @@
     },
     {
       "id": "breakdown-03",
-      "sentence": "I get for you? Sure thing. With fries. What size? Small, medium, or large?",
-      "translation": "我幫你找？當然可以。配薯條。什麼尺寸？小、中、還是大？",
+      "sentence": "I'm doing fine myself,.",
+      "translation": "我自己過得很好，",
       "points": [
         {
-          "label": "get sure thing",
-          "text": "get sure thing",
-          "note": "注意 \"get sure thing\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "fine myself",
+          "text": "fine myself",
+          "note": "注意 \"fine myself\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-04",
-      "sentence": "They are about this big.",
-      "translation": "他們大約有這麼大。",
+      "sentence": "Thank you. What can.",
+      "translation": "謝謝。什麼可以。",
       "points": [
         {
-          "label": "big",
-          "text": "big",
-          "note": "注意 \"big\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "everyday English",
+          "text": "everyday English",
+          "note": "注意 \"everyday English\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

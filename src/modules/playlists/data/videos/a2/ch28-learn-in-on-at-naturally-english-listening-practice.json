@@ -27,29 +27,29 @@
           "tc": "我確信你會明白一切。放鬆點。聽故事並在腦海中想像場景。我最近和朋友們去了海灘。"
         },
         {
-          "en": "We went to Puerto Escondido, a beautiful beach IN Mexico. It is ON the coast of the Pacific Ocean. It is famous for big waves, beautiful sunsets, and warm weather all year.",
-          "tc": "我們去了墨西哥美麗的埃斯孔迪多港海灘。它位於太平洋沿岸。它以大浪、美麗的日落和全年溫暖的天氣而聞名。"
+          "en": "We went to Puerto Escondido, a beautiful beach IN Mexico.",
+          "tc": "我們去了墨西哥美麗的埃斯孔迪多港海灘。"
         },
         {
-          "en": "Long. It was a chaotic trip to the beach. It started very early.",
-          "tc": "長的。這是一趟混亂的海灘之旅。事情很早就開始了。"
+          "en": "It is ON the coast of the Pacific Ocean.",
+          "tc": "它位於太平洋沿岸。"
         }
       ],
       "tags": [
         {
-          "english": "our",
-          "kk": "/our/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
           "english": "beach",
           "kk": "/beach/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "海灘",
           "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "friend",
+          "kk": "/frɛnd/",
+          "partOfSpeech": "n.",
+          "meaning": "朋友",
+          "note": "看到 friend 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -61,44 +61,44 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
+          "en": "It is famous for big waves, beautiful sunsets, and warm weather all year long.",
+          "tc": "它以大浪、美麗的日落和全年溫暖的天氣而聞名。"
+        },
+        {
+          "en": "It was a chaotic trip to the beach. It started very early.",
+          "tc": "這是一趟混亂的海灘之旅。事情很早就開始了。"
+        },
+        {
           "en": "We woke up AT 7 a.m. Everyone was still tired, yawning IN bed.",
           "tc": "早上7點我們就醒了，每個人都還很累，在床上打哈欠。"
         },
         {
           "en": "I was still IN bed when the alarm started ringing. My friend was sitting on the edge of the bed looking at his phone. The sunlight was coming in through the window.",
           "tc": "當鬧鐘響起時我還在床上。我的朋友坐在床邊看手機。陽光從窗戶照進來。"
-        },
-        {
-          "en": "My backpack was already ON the floor.",
-          "tc": "我的背包已經在地板上了。"
-        },
-        {
-          "en": "Next to the bed. My water bottle was ON the table.",
-          "tc": "床旁邊。我的水瓶在桌上。"
         }
       ],
       "tags": [
         {
-          "english": "everyone",
-          "kk": "/everyone/",
+          "english": "beach",
+          "kk": "/beach/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "floor",
-          "kk": "/floor/",
+          "english": "everyone",
+          "kk": "/everyone/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 floor 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "每個人",
+          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "bed",
           "kk": "/bed/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "床",
           "note": "看到 bed 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -107,49 +107,49 @@
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常作息",
-      "titleEn": "Part 3: daily routine",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
+        {
+          "en": "My backpack was already ON the floor.",
+          "tc": "我的背包已經在地板上了。"
+        },
+        {
+          "en": "Next to the bed. My water bottle was ON the table.",
+          "tc": "床旁邊。我的水瓶在桌上。"
+        },
         {
           "en": "Next to me. Nobody wanted to wake up,.",
           "tc": "在我旁邊。沒有人願意醒來，。"
         },
         {
-          "en": "We wanted to leave at 8 a.m. sharp because the drive was going to be 9 hours. So,.",
-          "tc": "我們想早上 8 點整出發，因為車程要 9 小時。所以，。"
-        },
-        {
-          "en": "We quickly packed our bags. I made sure everything was IN my bag. My sunglasses were in the front pocket. My towel was IN the bottom of my bag and my charger.",
-          "tc": "我們趕緊收拾行李。我確保所有東西都在我的包包裡。我的太陽眼鏡在前面的口袋裡。我的毛巾在我的包包和充電器的底部。"
-        },
-        {
-          "en": "Was IN the back pocket.",
-          "tc": "在後面的口袋裡。"
+          "en": "We wanted to leave at 8 a.m. sharp because the drive was going to be 9 hours.",
+          "tc": "我們想早上 8 點整出發，因為車程要 9 小時。"
         }
       ],
       "tags": [
         {
-          "english": "our",
-          "kk": "/our/",
+          "english": "floor",
+          "kk": "/floor/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "地面",
+          "note": "看到 floor 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "back",
-          "kk": "/back/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 back 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "bed",
+          "kk": "/bed/",
+          "partOfSpeech": "v.",
+          "meaning": "床",
+          "note": "看到 bed 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "bag",
-          "kk": "/bag/",
+          "english": "hours",
+          "kk": "/hours/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 bag 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "小時",
+          "note": "看到 hours 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -161,13 +161,47 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
+          "en": "We quickly packed our bags. I made sure everything was IN my bag. My sunglasses were in the front pocket. My towel was IN the bottom of my bag and my charger.",
+          "tc": "我們趕緊收拾行李。我確保所有東西都在我的包包裡。我的太陽眼鏡在前面的口袋裡。我的毛巾在我的包包和充電器的底部。"
+        },
+        {
+          "en": "Was IN the back pocket.",
+          "tc": "在後面的口袋裡。"
+        },
+        {
           "en": "We put our backpacks IN the van and our snacks ON the seats.",
           "tc": "我們把背包放在貨車裡，把零食放在座位上。"
         },
         {
           "en": "Finally everyone got IN the van.",
           "tc": "最後大家都上車了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "van",
+          "kk": "/van/",
+          "partOfSpeech": "n.",
+          "meaning": "貨車",
+          "note": "看到 van 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
+        {
+          "english": "everyone",
+          "kk": "/everyone/",
+          "partOfSpeech": "n.",
+          "meaning": "每個人",
+          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：旅行",
+      "titleEn": "Part 5: travel",
+      "sentences": [
         {
           "en": "We started our trip. The drive was very long.",
           "tc": "我們開始了我們的旅行。車程很長。"
@@ -175,41 +209,7 @@
         {
           "en": "We were IN the van for nine hours. Some people were sleeping IN the back of the van. Some put their feet ON the seat in front of them. One friend was.",
           "tc": "我們在貨車裡待了九個小時。有些人在貨車後面睡覺。有些人把腳放在前面的座位上。一位朋友是。"
-        }
-      ],
-      "tags": [
-        {
-          "english": "van",
-          "kk": "/van/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 van 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
         },
-        {
-          "english": "everyone",
-          "kk": "/everyone/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "our",
-          "kk": "/our/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
-    },
-    {
-      "id": "scene-05",
-      "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
-      "sentences": [
         {
           "en": "First, everyone was excited, listening to music ON the speakers and talking in the back of the van. playing games ON our phones.",
           "tc": "首先，每個人都很興奮，一邊聽著揚聲器上的音樂，一邊在貨車後座交談。在我們的手機上玩遊戲。"
@@ -217,14 +217,6 @@
         {
           "en": "After a few hours, everyone got tired. There were not enough seats IN the van,.",
           "tc": "幾個小時過去了，大家都累了。麵包車裡沒有足夠的座位。"
-        },
-        {
-          "en": "Sometimes someone had to sit ON the floor. But the road was so curvy. There were so many bumps on the highway. And every time the van hit a bump, the person.",
-          "tc": "有時必須有人坐在地板上。但路實在太彎了。高速公路上有很多顛簸。每當貨車撞到顛簸時，那個人就會受傷。"
-        },
-        {
-          "en": "Sitting ON the floor would fly. Everyone IN the van would start to laugh. At one point, my friend was lying ON the floor eating a bag of chips.",
-          "tc": "坐在地板上會飛。車裡的每個人都會開始大笑。有一次，我的朋友躺在地板上吃一袋薯條。"
         }
       ],
       "tags": [
@@ -232,7 +224,7 @@
           "english": "van",
           "kk": "/van/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "貨車",
           "note": "看到 van 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -240,17 +232,17 @@
           "english": "everyone",
           "kk": "/everyone/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每個人",
           "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "floor",
-          "kk": "/floor/",
+          "english": "friend",
+          "kk": "/frɛnd/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 floor 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "朋友",
+          "note": "看到 friend 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -261,8 +253,12 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "When the van hit a big bump, IN chips,?",
-          "tc": "當貨車撞到一個大顛簸時，IN Chips，？"
+          "en": "Sometimes someone had to sit ON the floor. But the road was so curvy. There were so many bumps on the highway. And every time the van hit a bump, the person.",
+          "tc": "有時必須有人坐在地板上。但路實在太彎了。高速公路上有很多顛簸。每當貨車撞到顛簸時，那個人就會受傷。"
+        },
+        {
+          "en": "Sitting ON the floor would fly. Everyone IN the van would start to laugh. At one point, my friend was lying ON the floor eating a bag of chips.",
+          "tc": "坐在地板上會飛。車裡的每個人都會開始大笑。有一次，我的朋友躺在地板上吃一袋薯條。"
         },
         {
           "en": "They went flying everywhere in the van. There were chips ON the seats, on the floor, and even inside some backpacks.",
@@ -271,10 +267,6 @@
         {
           "en": "We played music ON the stereo.",
           "tc": "我們用立體聲音響播放音樂。"
-        },
-        {
-          "en": "We told stories.",
-          "tc": "我們講故事。"
         }
       ],
       "tags": [
@@ -282,24 +274,268 @@
           "english": "van",
           "kk": "/van/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "貨車",
           "note": "看到 van 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "everyone",
+          "kk": "/everyone/",
+          "partOfSpeech": "n.",
+          "meaning": "每個人",
+          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "floor",
           "kk": "/floor/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "地面",
           "note": "看到 floor 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "We told stories.",
+          "tc": "我們講故事。"
+        },
+        {
+          "en": "We ate snacks IN the van. After many long hours IN the van,.",
+          "tc": "我們在車上吃零食。在貨車裡度過了漫長的幾個小時後。"
+        },
+        {
+          "en": "We arrived IN Puerto Escondido.",
+          "tc": "我們抵達埃斯孔迪多港。"
+        },
+        {
+          "en": "We arrived at 5.",
+          "tc": "我們5點到達。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "van",
+          "kk": "/van/",
+          "partOfSpeech": "n.",
+          "meaning": "貨車",
+          "note": "看到 van 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "back",
-          "kk": "/back/",
+          "english": "hours",
+          "kk": "/hours/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 back 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "小時",
+          "note": "看到 hours 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "We opened the van doors.",
+          "tc": "我們打開貨車門。"
+        },
+        {
+          "en": "We felt the fresh humid air. Nothing like the contaminated air IN Mexico City. The sky was golden and the sun was low. And that night.",
+          "tc": "我們感受到了新鮮潮濕的空氣。沒有什麼比墨西哥城受污染的空氣更好的了。天空是金色的，太陽很低。還有那天晚上。"
+        },
+        {
+          "en": "We had dinner at a restaurant near the beach.",
+          "tc": "我們在海灘附近的一家餐廳吃了晚餐。"
+        },
+        {
+          "en": "We were sitting AT a table outside. There were lights ON the trees and music playing in the background. Everyone was very tired at dinner, but also very excited. Later that night,.",
+          "tc": "我們坐在外面的一張桌子旁。樹上有燈光，背景音樂在播放。吃飯的時候大家都很累，但也很興奮。那天晚上晚些時候，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "van",
+          "kk": "/van/",
+          "partOfSpeech": "n.",
+          "meaning": "貨車",
+          "note": "看到 van 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "everyone",
+          "kk": "/everyone/",
+          "partOfSpeech": "n.",
+          "meaning": "每個人",
+          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "We slept in our Airbnb,.",
+          "tc": "我們睡在我們的 Airbnb 裡。"
+        },
+        {
+          "en": "We didn't sleep for long.",
+          "tc": "我們沒有睡多久。"
+        },
+        {
+          "en": "We woke up at 7 a.m. again. Everyone was still tired.",
+          "tc": "早上7點我們又醒了。大家還是很累。"
+        },
+        {
+          "en": "In the morning, but since.",
+          "tc": "早上，但從那時起。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "everyone",
+          "kk": "/everyone/",
+          "partOfSpeech": "n.",
+          "meaning": "每個人",
+          "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "We were so excited,.",
+          "tc": "我們很興奮，。"
+        },
+        {
+          "en": "We walked together to the beach. And soon.",
+          "tc": "我們一起走到海灘。等等。"
+        },
+        {
+          "en": "We were standing on the beach looking at the ocean. The sun was hot on our skin and the salt was in the air.",
+          "tc": "我們站在沙灘上看著大海。陽光曬在我們的肌膚上，空氣中瀰漫著鹽分。"
+        },
+        {
+          "en": "We sat on our towels.",
+          "tc": "我們坐在毛巾上。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：人物與關係",
+      "titleEn": "Part 11: people",
+      "sentences": [
+        {
+          "en": "We watched the big waves crash onto the shore. And my friends were already in the water.",
+          "tc": "我們看著大浪拍打岸邊。我的朋友們已經在水裡了。"
+        },
+        {
+          "en": "They were jumping into the waves and laughing. I was standing on the sand watching them.",
+          "tc": "他們跳進海浪裡，笑著。我站在沙灘上看著他們。"
+        },
+        {
+          "en": "I saw how a huge wave pulled my friend by his feet and smashed him onto the shore. And for a moment.",
+          "tc": "我看到巨浪如何將我朋友的腳拖到岸邊。一會兒。"
+        },
+        {
+          "en": "He disappeared in the water,.",
+          "tc": "他消失在水中，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "friend",
+          "kk": "/frɛnd/",
+          "partOfSpeech": "n.",
+          "meaning": "朋友",
+          "note": "看到 friend 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "He came back laughing.",
+          "tc": "他笑著回來。"
+        },
+        {
+          "en": "It was so scary. Later, I heard two people walking on the beach saying, \".",
+          "tc": "太可怕了。後來，我聽到兩個人在沙灘上行走，說：「。"
+        },
+        {
+          "en": "I don't know how to swim.",
+          "tc": "我不知道怎麼游泳。"
+        },
+        {
+          "en": "Do you?\" and the other responded, \"No, me neither, but it's okay.\"?",
+          "tc": "你是嗎？ 」另一個回答說：「不，我也不是，但沒關係。 ”？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -313,15 +549,23 @@
           "english": "van",
           "kk": "/van/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "貨車",
           "note": "看到 van 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "everyone",
           "kk": "/everyone/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每個人",
           "note": "看到 everyone 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -329,48 +573,40 @@
           "english": "floor",
           "kk": "/floor/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "地面",
           "note": "看到 floor 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "our",
-          "kk": "/our/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "bed",
           "kk": "/bed/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "床",
           "note": "看到 bed 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "back",
-          "kk": "/back/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 back 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "bag",
-          "kk": "/bag/",
+          "english": "friend",
+          "kk": "/frɛnd/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 bag 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "朋友",
+          "note": "看到 friend 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "beach",
-          "kk": "/beach/",
+          "english": "hours",
+          "kk": "/hours/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "小時",
+          "note": "看到 hours 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -379,8 +615,19 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "in the morning",
+      "meaning": "在早晨",
+      "examples": [
+        {
+          "en": "In the morning, but since.",
+          "tc": "早上，但從那時起。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "meaning": "去",
       "examples": [
         {
           "en": "sharp because the drive was going to be 9 hours.",
@@ -416,8 +663,8 @@
     },
     {
       "id": "breakdown-03",
-      "sentence": "We went to Puerto Escondido, a beautiful beach IN Mexico. It is ON the coast of the Pacific Ocean. It is famous for big waves, beautiful sunsets, and warm weather all year.",
-      "translation": "我們去了墨西哥美麗的埃斯孔迪多港海灘。它位於太平洋沿岸。它以大浪、美麗的日落和全年溫暖的天氣而聞名。",
+      "sentence": "We went to Puerto Escondido, a beautiful beach IN Mexico.",
+      "translation": "我們去了墨西哥美麗的埃斯孔迪多港海灘。",
       "points": [
         {
           "label": "went puerto escondido",
@@ -428,13 +675,13 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "Long. It was a chaotic trip to the beach. It started very early.",
-      "translation": "長的。這是一趟混亂的海灘之旅。事情很早就開始了。",
+      "sentence": "It is ON the coast of the Pacific Ocean.",
+      "translation": "它位於太平洋沿岸。",
       "points": [
         {
-          "label": "long chaotic trip",
-          "text": "long chaotic trip",
-          "note": "注意 \"long chaotic trip\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "coast pacific ocean",
+          "text": "coast pacific ocean",
+          "note": "注意 \"coast pacific ocean\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

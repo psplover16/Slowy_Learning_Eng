@@ -1,0 +1,842 @@
+# misshoney-content-generation Specification
+
+## Purpose
+
+TBD - created by archiving change 'add-misshoney-playlists'. Update Purpose after archive.
+
+## Requirements
+
+### Requirement: Content scaffolding creates authoring scaffolds for every imported transcript
+
+The project SHALL provide a repeatable scaffold workflow that converts each imported transcript into authoring material. The scaffold command SHALL NOT create final bilingual learning content and SHALL NOT change app content.
+
+#### Scenario: level content scaffolding creates one scaffold per transcript
+
+- **GIVEN** `_private/misshoney/transcripts/a1/` contains transcript files for `ch1-nice-to-meet-you.json` and `ch2-how-are-you.json`
+- **WHEN** the user runs `npm run misshoney:scaffold-content -- --level a1`
+- **THEN** `_private/misshoney/content-scaffolds/a1/ch1-nice-to-meet-you.json` exists
+- **THEN** `_private/misshoney/content-scaffolds/a1/ch2-how-are-you.json` exists
+- **THEN** each scaffold contains matching `videoId`, `slug`, `level`, `title`, `youtubeUrl`, normalized transcript text, source cue references, and suggested scene boundaries
+- **THEN** no file under `src/modules/playlists/data/videos/` is created, changed, or deleted by the scaffold command
+
+
+<!-- @trace
+source: add-misshoney-playlists
+updated: 2026-05-23
+code:
+  - src/modules/playlists/data/videos/a2/ch29-what-you-taught-me-about-hope-slow-english-listening.json
+  - src/modules/playlists/data/videos/a2/ch5-84-english-phrases-for-beginners-speak-like-a-native.json
+  - src/modules/playlists/data/videos/b1/ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice.json
+  - src/modules/playlists/data/videos/b1/ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1.json
+  - src/modules/playlists/data/videos/b1/ch17-slow-english-practice-airport-essentials-for-traveling.json
+  - src/modules/playlists/data/videos/b1/ch2-slow-english-practice-for-b1-intermediate-talking-about-airports.json
+  - src/modules/playlists/data/videos/a2/ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker.json
+  - src/modules/playlists/data/videos/a2/ch27-pronunciation-practice-50-english-words-to-sound-natural.json
+  - src/modules/playlists/data/videos/b2/ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice.json
+  - src/modules/playlists/data/videos/a2/ch1-slow-english-stories-level-a2-listening-a-weird-phone-call.json
+  - src/modules/playlists/data/videos/a1/ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple.json
+  - package.json
+  - src/modules/chapters/utils/highlight.ts
+  - src/modules/playlists/data/b2.ts
+  - src/modules/playlists/data/videos/a2/ch13-my-weird-trip-in-puerto-escondido-storytime-slow-english-for-intermediate-listeners.json
+  - src/modules/playlists/data/videos/a2/ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input.json
+  - src/modules/playlists/data/a2.ts
+  - src/modules/playlists/data/videos/b1/ch21-slow-english-listening-practice-makeup-routine.json
+  - src/modules/playlists/data/videos/a1/ch6-slow-english-podcast-for-beginners-talking-about-friends.json
+  - _private/misshoney/README.md
+  - src/modules/playlists/data/videos/a1/ch7-slow-english-podcast-for-beginners-talking-about-goals.json
+  - src/modules/playlists/data/videos/a2/ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input.json
+  - src/modules/playlists/data/videos/a2/ch16-slow-english-podcast-my-day-a2-listening-practice.json
+  - src/app/router/index.ts
+  - src/modules/playlists/data/videos/a2/ch3-slow-english-podcast-bus-stories-for-beginners.json
+  - src/modules/playlists/data/videos/b1/ch7-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice.json
+  - src/modules/playlists/data/videos/b1/ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch1-slow-english-listening-for-upper-intermediate-talking-about-comfort-foods.json
+  - src/modules/playlists/data/videos/a2/ch25-learn-english-travel-vlog-for-beginners.json
+  - src/modules/playlists/data/videos/a2/ch12-grocery-store-essentials-for-a1-a2-beginners.json
+  - src/modules/playlists/data/videos/b2/ch13-travel-with-english-slow-english-podcast.json
+  - src/modules/playlists/data/videos/a2/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.json
+  - src/modules/chapters/data/ch4.ts
+  - src/modules/playlists/data/videos/b1/ch3-slow-english-podcast-bus-stories-for-beginners.json
+  - src/modules/playlists/data/videos/a1/ch14-how-to-introduce-yourself-in-english-for-beginners.json
+  - src/modules/playlists/data/videos/a2/ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input.json
+  - src/modules/playlists/data/videos/a1/ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.json
+  - PROJECT_ARCHITECTURE.md
+  - src/modules/playlists/data/videos/a1/ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2.json
+  - src/modules/playlists/data/b1.ts
+  - src/modules/playlists/data/videos/a1/ch2-beginner-english-slow-listening-practice-talking-about-me.json
+  - src/modules/playlists/data/videos/a1/ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json
+  - src/modules/playlists/data/videos/b1/ch19-how-to-speak-english-real-life-role-play-b1b2.json
+  - src/modules/playlists/components/PlaylistReadingHeader.vue
+  - src/modules/playlists/data/videos/b1/ch15-english-sleep-learning-shadowing-positive-affirmations.json
+  - _private/propose.md
+  - src/modules/playlists/data/videos/a1/ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday.json
+  - src/modules/playlists/data/videos/a2/ch19-english-sleep-learning-shadowing-positive-affirmations.json
+  - src/modules/playlists/types.ts
+  - src/modules/playlists/data/videos/a1/ch16-beginner-english-speaking-practice-real-life-role-play-a1.json
+  - scripts/misshoney/author-polished-content.mjs
+  - src/modules/playlists/data/videos/a2/ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice.json
+  - src/modules/playlists/data/videos/a2/ch24-sleep-and-learn-english-shadow-positive-affirmations.json
+  - src/modules/playlists/data/videos/a2/ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json
+  - src/modules/playlists/components/PlaylistWordTag.vue
+  - scripts/misshoney/content-core.d.mts
+  - src/modules/playlists/data/videos/b1/ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary.json
+  - src/modules/playlists/data/videos/b2/ch15-learn-english-by-making-mistakes-slow-english-podcast.json
+  - src/modules/playlists/data/videos/a1/ch3-slow-english-listening-for-beginners-talking-about-languages.json
+  - src/modules/playlists/data/videos/b2/ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input.json
+  - scripts/publishPages.mjs
+  - src/modules/playlists/data/videos/a1/ch4-practice-slow-english-for-a1-beginners-talk-about-family.json
+  - src/modules/playlists/data/videos/a1/ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2.json
+  - src/modules/playlists/data/videos/a2/ch23-how-to-actually-learn-english-10-tips-that-really-work.json
+  - src/modules/home/components/ArticleListItem.vue
+  - src/modules/playlists/data/videos/a2/ch6-essential-airport-vocabulary-slow-english-podcast-for-a2-beginners.json
+  - src/modules/playlists/data/videos/b2/ch6-slow-english-podcast-my-bus-stories.json
+  - src/modules/playlists/data/videos/b2/ch7-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice.json
+  - src/shared/components/NavBar.vue
+  - src/modules/playlists/data/videos/b1/ch18-english-kitchen-vocabulary-comprehensible-input.json
+  - src/modules/playlists/data/videos/b1/ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1.json
+  - src/modules/playlists/data/videos/b1/ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch2-slow-english-for-intermediate-b2-with-subtitles-in-spanish-talking-about-languages.json
+  - src/modules/playlists/data/videos/b2/ch16-learn-english-with-my-morning-routine-natural-speaking-practice.json
+  - _private/筆記.md
+  - src/modules/playlists/data/videos/a2/ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines.json
+  - src/modules/playlists/components/PlaylistPhraseCard.vue
+  - src/modules/home/views/HomeView.vue
+  - src/modules/playlists/data/videos/b2/ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast.json
+  - src/modules/playlists/components/PlaylistSentenceBreakdown.vue
+  - src/modules/playlists/data/videos/b1/ch16-slow-english-podcast-my-trip-to-mexico-city.json
+  - src/modules/playlists/data/videos/b2/ch8-slow-english-podcast-why-am-i-learning-chinese-b2.json
+  - src/modules/playlists/data/videos/b2/ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input.json
+  - src/modules/playlists/data/videos/a2/ch22-learn-english-at-home-slow-english.json
+  - scripts/misshoney/promote-content.mjs
+  - src/modules/playlists/PlaylistView.vue
+  - src/modules/playlists/data/videos/b1/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.json
+  - src/modules/chapters/data/ch3.ts
+  - src/modules/playlists/data/videos/a1/ch1-slow-english-for-beginners-a1-listening-practice.json
+  - scripts/misshoney/scaffold-content.mjs
+  - src/modules/playlists/data/videos/a1/ch18-english-listening-practice-for-beginners-my-weekend-a1-a2.json
+  - src/modules/playlists/data/videos/b1/ch9-speak-like-a-native-common-english-idioms-slow-english-podcast-for-a2-b1-beginners.json
+  - src/modules/playlists/data/videos/a2/ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel.json
+  - src/modules/playlists/data/videos/a2/ch26-100-essential-english-words-for-daily-life-slow-english-vocabulary.json
+  - src/modules/playlists/data/videos/b2/ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input.json
+  - scripts/misshoney/content-core.mjs
+  - src/modules/playlists/data/videos/b2/ch17-how-she-became-fluent-in-english-intermediate-listening-practice.json
+  - src/modules/playlists/PlaylistVideoView.vue
+  - scripts/misshoney/import-core.d.mts
+  - src/modules/playlists/data/videos/a2/ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners.json
+  - src/modules/playlists/data/videos/a1/ch5-practice-slow-english-podcast-talking-about-weather.json
+  - src/modules/playlists/data/videos/a1/ch8-slow-english-podcast-chat-with-me-about-foods.json
+  - src/modules/playlists/data/videos/b2/ch3-slow-english-for-intermediate-b2-with-subtitles-in-portuguese-talking-about-languages.json
+  - src/shared/config/playlists.ts
+  - src/modules/playlists/data/videos/a2/ch28-learn-in-on-at-naturally-english-listening-practice.json
+  - src/modules/playlists/data/videos/b1/ch1-slow-english-listening-intermediate-practice-talking-about-my-hobbies.json
+  - src/modules/playlists/data/videos/a2/ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.json
+  - src/modules/playlists/data/videos/b1/ch11-slow-english-podcast-for-high-beginners-a2-b1-my-trip-to-the-usa-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch14-learn-english-in-nyc-slow-english-vlog.json
+  - _private/discuss.txt
+  - src/modules/playlists/components/PlaylistSceneBlock.vue
+  - src/modules/playlists/data/videos/a2/ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast.json
+  - src/modules/playlists/data/videos/b1/ch5-job-interview-essentials-slow-english-podcast-for-intermediate-b1.json
+  - src/modules/playlists/data/videos/b2/ch4-slow-english-for-c1-advanced-dreams.json
+  - scripts/misshoney/import-playlists.mjs
+  - src/shared/config/storageKeys.ts
+  - src/modules/playlists/data/videos/a1/ch17-slow-english-conversations-a1-comprehensible-input.json
+  - src/modules/grammar/views/GrammarView.vue
+  - src/modules/home/composables/useMissHoneyCompletion.ts
+  - src/modules/playlists/data/videos/a2/ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input.json
+  - src/modules/playlists/data/videos/b1/ch13-slow-english-podcast-my-trip-to-puerto-escondido-level-a2.json
+  - src/shared/config/chapters.ts
+  - scripts/misshoney/import-core.mjs
+  - scripts/misshoney/validate-content.mjs
+  - scripts/misshoney/sources.json
+  - src/modules/playlists/data/a1.ts
+  - src/modules/playlists/composables/usePlaylistReadingSections.ts
+tests:
+  - src/__tests__/NavBar.test.ts
+  - tests/e2e/misshoney-polished.smoke.spec.ts
+  - src/__tests__/HomeView.test.ts
+  - src/__tests__/importerCore.test.ts
+  - src/__tests__/ChapterView.test.ts
+  - src/__tests__/ArticleListItemCompletion.test.ts
+  - src/__tests__/PlaylistView.test.ts
+  - src/__tests__/publishPages.test.ts
+  - src/__tests__/PlaylistVideoView.test.ts
+  - src/__tests__/chapterDataModule.test.ts
+  - tests/e2e/ch3.smoke.spec.ts
+  - tests/e2e/app-shell.smoke.spec.ts
+  - src/__tests__/contentCore.test.ts
+  - src/__tests__/useMissHoneyCompletion.test.ts
+  - src/__tests__/GrammarView.test.ts
+  - src/__tests__/HomeViewMissHoney.test.ts
+-->
+
+---
+### Requirement: Content authoring fills PlaylistVideoData drafts from scaffolds
+
+The implementation workflow SHALL treat bilingual translation, vocabulary selection, and phrase explanation as an authoring step performed by the apply agent or a human reviewer. The app SHALL NOT depend on runtime AI calls for this content.
+
+#### Scenario: apply agent authors complete content from scaffold
+
+- **GIVEN** `_private/misshoney/content-scaffolds/a1/ch1-nice-to-meet-you.json` exists
+- **WHEN** the apply agent authors `_private/misshoney/generated-content/a1/ch1-nice-to-meet-you.json`
+- **THEN** the generated file is valid `PlaylistVideoData`
+- **THEN** each scene sentence has non-empty English text derived from the source transcript and non-empty Traditional Chinese translation
+- **THEN** `vocabGroups` contains beginner-relevant words or phrases from the source transcript
+- **THEN** `phrases` contains phrase explanations and bilingual examples grounded in the source transcript
+- **THEN** no app runtime code calls YouTube, OpenAI, or another external service to create the content
+
+
+<!-- @trace
+source: add-misshoney-playlists
+updated: 2026-05-23
+code:
+  - src/modules/playlists/data/videos/a2/ch29-what-you-taught-me-about-hope-slow-english-listening.json
+  - src/modules/playlists/data/videos/a2/ch5-84-english-phrases-for-beginners-speak-like-a-native.json
+  - src/modules/playlists/data/videos/b1/ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice.json
+  - src/modules/playlists/data/videos/b1/ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1.json
+  - src/modules/playlists/data/videos/b1/ch17-slow-english-practice-airport-essentials-for-traveling.json
+  - src/modules/playlists/data/videos/b1/ch2-slow-english-practice-for-b1-intermediate-talking-about-airports.json
+  - src/modules/playlists/data/videos/a2/ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker.json
+  - src/modules/playlists/data/videos/a2/ch27-pronunciation-practice-50-english-words-to-sound-natural.json
+  - src/modules/playlists/data/videos/b2/ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice.json
+  - src/modules/playlists/data/videos/a2/ch1-slow-english-stories-level-a2-listening-a-weird-phone-call.json
+  - src/modules/playlists/data/videos/a1/ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple.json
+  - package.json
+  - src/modules/chapters/utils/highlight.ts
+  - src/modules/playlists/data/b2.ts
+  - src/modules/playlists/data/videos/a2/ch13-my-weird-trip-in-puerto-escondido-storytime-slow-english-for-intermediate-listeners.json
+  - src/modules/playlists/data/videos/a2/ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input.json
+  - src/modules/playlists/data/a2.ts
+  - src/modules/playlists/data/videos/b1/ch21-slow-english-listening-practice-makeup-routine.json
+  - src/modules/playlists/data/videos/a1/ch6-slow-english-podcast-for-beginners-talking-about-friends.json
+  - _private/misshoney/README.md
+  - src/modules/playlists/data/videos/a1/ch7-slow-english-podcast-for-beginners-talking-about-goals.json
+  - src/modules/playlists/data/videos/a2/ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input.json
+  - src/modules/playlists/data/videos/a2/ch16-slow-english-podcast-my-day-a2-listening-practice.json
+  - src/app/router/index.ts
+  - src/modules/playlists/data/videos/a2/ch3-slow-english-podcast-bus-stories-for-beginners.json
+  - src/modules/playlists/data/videos/b1/ch7-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice.json
+  - src/modules/playlists/data/videos/b1/ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch1-slow-english-listening-for-upper-intermediate-talking-about-comfort-foods.json
+  - src/modules/playlists/data/videos/a2/ch25-learn-english-travel-vlog-for-beginners.json
+  - src/modules/playlists/data/videos/a2/ch12-grocery-store-essentials-for-a1-a2-beginners.json
+  - src/modules/playlists/data/videos/b2/ch13-travel-with-english-slow-english-podcast.json
+  - src/modules/playlists/data/videos/a2/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.json
+  - src/modules/chapters/data/ch4.ts
+  - src/modules/playlists/data/videos/b1/ch3-slow-english-podcast-bus-stories-for-beginners.json
+  - src/modules/playlists/data/videos/a1/ch14-how-to-introduce-yourself-in-english-for-beginners.json
+  - src/modules/playlists/data/videos/a2/ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input.json
+  - src/modules/playlists/data/videos/a1/ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.json
+  - PROJECT_ARCHITECTURE.md
+  - src/modules/playlists/data/videos/a1/ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2.json
+  - src/modules/playlists/data/b1.ts
+  - src/modules/playlists/data/videos/a1/ch2-beginner-english-slow-listening-practice-talking-about-me.json
+  - src/modules/playlists/data/videos/a1/ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json
+  - src/modules/playlists/data/videos/b1/ch19-how-to-speak-english-real-life-role-play-b1b2.json
+  - src/modules/playlists/components/PlaylistReadingHeader.vue
+  - src/modules/playlists/data/videos/b1/ch15-english-sleep-learning-shadowing-positive-affirmations.json
+  - _private/propose.md
+  - src/modules/playlists/data/videos/a1/ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday.json
+  - src/modules/playlists/data/videos/a2/ch19-english-sleep-learning-shadowing-positive-affirmations.json
+  - src/modules/playlists/types.ts
+  - src/modules/playlists/data/videos/a1/ch16-beginner-english-speaking-practice-real-life-role-play-a1.json
+  - scripts/misshoney/author-polished-content.mjs
+  - src/modules/playlists/data/videos/a2/ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice.json
+  - src/modules/playlists/data/videos/a2/ch24-sleep-and-learn-english-shadow-positive-affirmations.json
+  - src/modules/playlists/data/videos/a2/ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json
+  - src/modules/playlists/components/PlaylistWordTag.vue
+  - scripts/misshoney/content-core.d.mts
+  - src/modules/playlists/data/videos/b1/ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary.json
+  - src/modules/playlists/data/videos/b2/ch15-learn-english-by-making-mistakes-slow-english-podcast.json
+  - src/modules/playlists/data/videos/a1/ch3-slow-english-listening-for-beginners-talking-about-languages.json
+  - src/modules/playlists/data/videos/b2/ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input.json
+  - scripts/publishPages.mjs
+  - src/modules/playlists/data/videos/a1/ch4-practice-slow-english-for-a1-beginners-talk-about-family.json
+  - src/modules/playlists/data/videos/a1/ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2.json
+  - src/modules/playlists/data/videos/a2/ch23-how-to-actually-learn-english-10-tips-that-really-work.json
+  - src/modules/home/components/ArticleListItem.vue
+  - src/modules/playlists/data/videos/a2/ch6-essential-airport-vocabulary-slow-english-podcast-for-a2-beginners.json
+  - src/modules/playlists/data/videos/b2/ch6-slow-english-podcast-my-bus-stories.json
+  - src/modules/playlists/data/videos/b2/ch7-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice.json
+  - src/shared/components/NavBar.vue
+  - src/modules/playlists/data/videos/b1/ch18-english-kitchen-vocabulary-comprehensible-input.json
+  - src/modules/playlists/data/videos/b1/ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1.json
+  - src/modules/playlists/data/videos/b1/ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch2-slow-english-for-intermediate-b2-with-subtitles-in-spanish-talking-about-languages.json
+  - src/modules/playlists/data/videos/b2/ch16-learn-english-with-my-morning-routine-natural-speaking-practice.json
+  - _private/筆記.md
+  - src/modules/playlists/data/videos/a2/ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines.json
+  - src/modules/playlists/components/PlaylistPhraseCard.vue
+  - src/modules/home/views/HomeView.vue
+  - src/modules/playlists/data/videos/b2/ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast.json
+  - src/modules/playlists/components/PlaylistSentenceBreakdown.vue
+  - src/modules/playlists/data/videos/b1/ch16-slow-english-podcast-my-trip-to-mexico-city.json
+  - src/modules/playlists/data/videos/b2/ch8-slow-english-podcast-why-am-i-learning-chinese-b2.json
+  - src/modules/playlists/data/videos/b2/ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input.json
+  - src/modules/playlists/data/videos/a2/ch22-learn-english-at-home-slow-english.json
+  - scripts/misshoney/promote-content.mjs
+  - src/modules/playlists/PlaylistView.vue
+  - src/modules/playlists/data/videos/b1/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.json
+  - src/modules/chapters/data/ch3.ts
+  - src/modules/playlists/data/videos/a1/ch1-slow-english-for-beginners-a1-listening-practice.json
+  - scripts/misshoney/scaffold-content.mjs
+  - src/modules/playlists/data/videos/a1/ch18-english-listening-practice-for-beginners-my-weekend-a1-a2.json
+  - src/modules/playlists/data/videos/b1/ch9-speak-like-a-native-common-english-idioms-slow-english-podcast-for-a2-b1-beginners.json
+  - src/modules/playlists/data/videos/a2/ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel.json
+  - src/modules/playlists/data/videos/a2/ch26-100-essential-english-words-for-daily-life-slow-english-vocabulary.json
+  - src/modules/playlists/data/videos/b2/ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input.json
+  - scripts/misshoney/content-core.mjs
+  - src/modules/playlists/data/videos/b2/ch17-how-she-became-fluent-in-english-intermediate-listening-practice.json
+  - src/modules/playlists/PlaylistVideoView.vue
+  - scripts/misshoney/import-core.d.mts
+  - src/modules/playlists/data/videos/a2/ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners.json
+  - src/modules/playlists/data/videos/a1/ch5-practice-slow-english-podcast-talking-about-weather.json
+  - src/modules/playlists/data/videos/a1/ch8-slow-english-podcast-chat-with-me-about-foods.json
+  - src/modules/playlists/data/videos/b2/ch3-slow-english-for-intermediate-b2-with-subtitles-in-portuguese-talking-about-languages.json
+  - src/shared/config/playlists.ts
+  - src/modules/playlists/data/videos/a2/ch28-learn-in-on-at-naturally-english-listening-practice.json
+  - src/modules/playlists/data/videos/b1/ch1-slow-english-listening-intermediate-practice-talking-about-my-hobbies.json
+  - src/modules/playlists/data/videos/a2/ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.json
+  - src/modules/playlists/data/videos/b1/ch11-slow-english-podcast-for-high-beginners-a2-b1-my-trip-to-the-usa-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch14-learn-english-in-nyc-slow-english-vlog.json
+  - _private/discuss.txt
+  - src/modules/playlists/components/PlaylistSceneBlock.vue
+  - src/modules/playlists/data/videos/a2/ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast.json
+  - src/modules/playlists/data/videos/b1/ch5-job-interview-essentials-slow-english-podcast-for-intermediate-b1.json
+  - src/modules/playlists/data/videos/b2/ch4-slow-english-for-c1-advanced-dreams.json
+  - scripts/misshoney/import-playlists.mjs
+  - src/shared/config/storageKeys.ts
+  - src/modules/playlists/data/videos/a1/ch17-slow-english-conversations-a1-comprehensible-input.json
+  - src/modules/grammar/views/GrammarView.vue
+  - src/modules/home/composables/useMissHoneyCompletion.ts
+  - src/modules/playlists/data/videos/a2/ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input.json
+  - src/modules/playlists/data/videos/b1/ch13-slow-english-podcast-my-trip-to-puerto-escondido-level-a2.json
+  - src/shared/config/chapters.ts
+  - scripts/misshoney/import-core.mjs
+  - scripts/misshoney/validate-content.mjs
+  - scripts/misshoney/sources.json
+  - src/modules/playlists/data/a1.ts
+  - src/modules/playlists/composables/usePlaylistReadingSections.ts
+tests:
+  - src/__tests__/NavBar.test.ts
+  - tests/e2e/misshoney-polished.smoke.spec.ts
+  - src/__tests__/HomeView.test.ts
+  - src/__tests__/importerCore.test.ts
+  - src/__tests__/ChapterView.test.ts
+  - src/__tests__/ArticleListItemCompletion.test.ts
+  - src/__tests__/PlaylistView.test.ts
+  - src/__tests__/publishPages.test.ts
+  - src/__tests__/PlaylistVideoView.test.ts
+  - src/__tests__/chapterDataModule.test.ts
+  - tests/e2e/ch3.smoke.spec.ts
+  - tests/e2e/app-shell.smoke.spec.ts
+  - src/__tests__/contentCore.test.ts
+  - src/__tests__/useMissHoneyCompletion.test.ts
+  - src/__tests__/GrammarView.test.ts
+  - src/__tests__/HomeViewMissHoney.test.ts
+-->
+
+---
+### Requirement: Content validation blocks incomplete learning content
+
+The project SHALL validate generated or promoted `PlaylistVideoData` files before they are treated as ready app content.
+
+#### Scenario: validator accepts complete content
+
+- **GIVEN** `_private/misshoney/generated-content/a1/ch1-nice-to-meet-you.json` contains at least one scene sentence pair with non-empty `en` and `tc`, at least one vocab item with `word`, `pos`, and `meaning`, and at least one phrase with one example pair
+- **WHEN** the user runs `npm run misshoney:validate-content -- --level a1`
+- **THEN** the command exits with code 0
+- **THEN** the report lists `ch1-nice-to-meet-you` as valid
+
+#### Scenario: validator rejects missing bilingual content
+
+- **GIVEN** `_private/misshoney/generated-content/a1/ch1-nice-to-meet-you.json` has a scene sentence with an empty `tc` field
+- **WHEN** the user runs `npm run misshoney:validate-content -- --level a1`
+- **THEN** the command exits with a non-zero code
+- **THEN** the report identifies the slug `ch1-nice-to-meet-you` and the missing `tc` field
+
+
+<!-- @trace
+source: add-misshoney-playlists
+updated: 2026-05-23
+code:
+  - src/modules/playlists/data/videos/a2/ch29-what-you-taught-me-about-hope-slow-english-listening.json
+  - src/modules/playlists/data/videos/a2/ch5-84-english-phrases-for-beginners-speak-like-a-native.json
+  - src/modules/playlists/data/videos/b1/ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice.json
+  - src/modules/playlists/data/videos/b1/ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1.json
+  - src/modules/playlists/data/videos/b1/ch17-slow-english-practice-airport-essentials-for-traveling.json
+  - src/modules/playlists/data/videos/b1/ch2-slow-english-practice-for-b1-intermediate-talking-about-airports.json
+  - src/modules/playlists/data/videos/a2/ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker.json
+  - src/modules/playlists/data/videos/a2/ch27-pronunciation-practice-50-english-words-to-sound-natural.json
+  - src/modules/playlists/data/videos/b2/ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice.json
+  - src/modules/playlists/data/videos/a2/ch1-slow-english-stories-level-a2-listening-a-weird-phone-call.json
+  - src/modules/playlists/data/videos/a1/ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple.json
+  - package.json
+  - src/modules/chapters/utils/highlight.ts
+  - src/modules/playlists/data/b2.ts
+  - src/modules/playlists/data/videos/a2/ch13-my-weird-trip-in-puerto-escondido-storytime-slow-english-for-intermediate-listeners.json
+  - src/modules/playlists/data/videos/a2/ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input.json
+  - src/modules/playlists/data/a2.ts
+  - src/modules/playlists/data/videos/b1/ch21-slow-english-listening-practice-makeup-routine.json
+  - src/modules/playlists/data/videos/a1/ch6-slow-english-podcast-for-beginners-talking-about-friends.json
+  - _private/misshoney/README.md
+  - src/modules/playlists/data/videos/a1/ch7-slow-english-podcast-for-beginners-talking-about-goals.json
+  - src/modules/playlists/data/videos/a2/ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input.json
+  - src/modules/playlists/data/videos/a2/ch16-slow-english-podcast-my-day-a2-listening-practice.json
+  - src/app/router/index.ts
+  - src/modules/playlists/data/videos/a2/ch3-slow-english-podcast-bus-stories-for-beginners.json
+  - src/modules/playlists/data/videos/b1/ch7-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice.json
+  - src/modules/playlists/data/videos/b1/ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch1-slow-english-listening-for-upper-intermediate-talking-about-comfort-foods.json
+  - src/modules/playlists/data/videos/a2/ch25-learn-english-travel-vlog-for-beginners.json
+  - src/modules/playlists/data/videos/a2/ch12-grocery-store-essentials-for-a1-a2-beginners.json
+  - src/modules/playlists/data/videos/b2/ch13-travel-with-english-slow-english-podcast.json
+  - src/modules/playlists/data/videos/a2/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.json
+  - src/modules/chapters/data/ch4.ts
+  - src/modules/playlists/data/videos/b1/ch3-slow-english-podcast-bus-stories-for-beginners.json
+  - src/modules/playlists/data/videos/a1/ch14-how-to-introduce-yourself-in-english-for-beginners.json
+  - src/modules/playlists/data/videos/a2/ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input.json
+  - src/modules/playlists/data/videos/a1/ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.json
+  - PROJECT_ARCHITECTURE.md
+  - src/modules/playlists/data/videos/a1/ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2.json
+  - src/modules/playlists/data/b1.ts
+  - src/modules/playlists/data/videos/a1/ch2-beginner-english-slow-listening-practice-talking-about-me.json
+  - src/modules/playlists/data/videos/a1/ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json
+  - src/modules/playlists/data/videos/b1/ch19-how-to-speak-english-real-life-role-play-b1b2.json
+  - src/modules/playlists/components/PlaylistReadingHeader.vue
+  - src/modules/playlists/data/videos/b1/ch15-english-sleep-learning-shadowing-positive-affirmations.json
+  - _private/propose.md
+  - src/modules/playlists/data/videos/a1/ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday.json
+  - src/modules/playlists/data/videos/a2/ch19-english-sleep-learning-shadowing-positive-affirmations.json
+  - src/modules/playlists/types.ts
+  - src/modules/playlists/data/videos/a1/ch16-beginner-english-speaking-practice-real-life-role-play-a1.json
+  - scripts/misshoney/author-polished-content.mjs
+  - src/modules/playlists/data/videos/a2/ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice.json
+  - src/modules/playlists/data/videos/a2/ch24-sleep-and-learn-english-shadow-positive-affirmations.json
+  - src/modules/playlists/data/videos/a2/ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json
+  - src/modules/playlists/components/PlaylistWordTag.vue
+  - scripts/misshoney/content-core.d.mts
+  - src/modules/playlists/data/videos/b1/ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary.json
+  - src/modules/playlists/data/videos/b2/ch15-learn-english-by-making-mistakes-slow-english-podcast.json
+  - src/modules/playlists/data/videos/a1/ch3-slow-english-listening-for-beginners-talking-about-languages.json
+  - src/modules/playlists/data/videos/b2/ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input.json
+  - scripts/publishPages.mjs
+  - src/modules/playlists/data/videos/a1/ch4-practice-slow-english-for-a1-beginners-talk-about-family.json
+  - src/modules/playlists/data/videos/a1/ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2.json
+  - src/modules/playlists/data/videos/a2/ch23-how-to-actually-learn-english-10-tips-that-really-work.json
+  - src/modules/home/components/ArticleListItem.vue
+  - src/modules/playlists/data/videos/a2/ch6-essential-airport-vocabulary-slow-english-podcast-for-a2-beginners.json
+  - src/modules/playlists/data/videos/b2/ch6-slow-english-podcast-my-bus-stories.json
+  - src/modules/playlists/data/videos/b2/ch7-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice.json
+  - src/shared/components/NavBar.vue
+  - src/modules/playlists/data/videos/b1/ch18-english-kitchen-vocabulary-comprehensible-input.json
+  - src/modules/playlists/data/videos/b1/ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1.json
+  - src/modules/playlists/data/videos/b1/ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch2-slow-english-for-intermediate-b2-with-subtitles-in-spanish-talking-about-languages.json
+  - src/modules/playlists/data/videos/b2/ch16-learn-english-with-my-morning-routine-natural-speaking-practice.json
+  - _private/筆記.md
+  - src/modules/playlists/data/videos/a2/ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines.json
+  - src/modules/playlists/components/PlaylistPhraseCard.vue
+  - src/modules/home/views/HomeView.vue
+  - src/modules/playlists/data/videos/b2/ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast.json
+  - src/modules/playlists/components/PlaylistSentenceBreakdown.vue
+  - src/modules/playlists/data/videos/b1/ch16-slow-english-podcast-my-trip-to-mexico-city.json
+  - src/modules/playlists/data/videos/b2/ch8-slow-english-podcast-why-am-i-learning-chinese-b2.json
+  - src/modules/playlists/data/videos/b2/ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input.json
+  - src/modules/playlists/data/videos/a2/ch22-learn-english-at-home-slow-english.json
+  - scripts/misshoney/promote-content.mjs
+  - src/modules/playlists/PlaylistView.vue
+  - src/modules/playlists/data/videos/b1/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.json
+  - src/modules/chapters/data/ch3.ts
+  - src/modules/playlists/data/videos/a1/ch1-slow-english-for-beginners-a1-listening-practice.json
+  - scripts/misshoney/scaffold-content.mjs
+  - src/modules/playlists/data/videos/a1/ch18-english-listening-practice-for-beginners-my-weekend-a1-a2.json
+  - src/modules/playlists/data/videos/b1/ch9-speak-like-a-native-common-english-idioms-slow-english-podcast-for-a2-b1-beginners.json
+  - src/modules/playlists/data/videos/a2/ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel.json
+  - src/modules/playlists/data/videos/a2/ch26-100-essential-english-words-for-daily-life-slow-english-vocabulary.json
+  - src/modules/playlists/data/videos/b2/ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input.json
+  - scripts/misshoney/content-core.mjs
+  - src/modules/playlists/data/videos/b2/ch17-how-she-became-fluent-in-english-intermediate-listening-practice.json
+  - src/modules/playlists/PlaylistVideoView.vue
+  - scripts/misshoney/import-core.d.mts
+  - src/modules/playlists/data/videos/a2/ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners.json
+  - src/modules/playlists/data/videos/a1/ch5-practice-slow-english-podcast-talking-about-weather.json
+  - src/modules/playlists/data/videos/a1/ch8-slow-english-podcast-chat-with-me-about-foods.json
+  - src/modules/playlists/data/videos/b2/ch3-slow-english-for-intermediate-b2-with-subtitles-in-portuguese-talking-about-languages.json
+  - src/shared/config/playlists.ts
+  - src/modules/playlists/data/videos/a2/ch28-learn-in-on-at-naturally-english-listening-practice.json
+  - src/modules/playlists/data/videos/b1/ch1-slow-english-listening-intermediate-practice-talking-about-my-hobbies.json
+  - src/modules/playlists/data/videos/a2/ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.json
+  - src/modules/playlists/data/videos/b1/ch11-slow-english-podcast-for-high-beginners-a2-b1-my-trip-to-the-usa-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch14-learn-english-in-nyc-slow-english-vlog.json
+  - _private/discuss.txt
+  - src/modules/playlists/components/PlaylistSceneBlock.vue
+  - src/modules/playlists/data/videos/a2/ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast.json
+  - src/modules/playlists/data/videos/b1/ch5-job-interview-essentials-slow-english-podcast-for-intermediate-b1.json
+  - src/modules/playlists/data/videos/b2/ch4-slow-english-for-c1-advanced-dreams.json
+  - scripts/misshoney/import-playlists.mjs
+  - src/shared/config/storageKeys.ts
+  - src/modules/playlists/data/videos/a1/ch17-slow-english-conversations-a1-comprehensible-input.json
+  - src/modules/grammar/views/GrammarView.vue
+  - src/modules/home/composables/useMissHoneyCompletion.ts
+  - src/modules/playlists/data/videos/a2/ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input.json
+  - src/modules/playlists/data/videos/b1/ch13-slow-english-podcast-my-trip-to-puerto-escondido-level-a2.json
+  - src/shared/config/chapters.ts
+  - scripts/misshoney/import-core.mjs
+  - scripts/misshoney/validate-content.mjs
+  - scripts/misshoney/sources.json
+  - src/modules/playlists/data/a1.ts
+  - src/modules/playlists/composables/usePlaylistReadingSections.ts
+tests:
+  - src/__tests__/NavBar.test.ts
+  - tests/e2e/misshoney-polished.smoke.spec.ts
+  - src/__tests__/HomeView.test.ts
+  - src/__tests__/importerCore.test.ts
+  - src/__tests__/ChapterView.test.ts
+  - src/__tests__/ArticleListItemCompletion.test.ts
+  - src/__tests__/PlaylistView.test.ts
+  - src/__tests__/publishPages.test.ts
+  - src/__tests__/PlaylistVideoView.test.ts
+  - src/__tests__/chapterDataModule.test.ts
+  - tests/e2e/ch3.smoke.spec.ts
+  - tests/e2e/app-shell.smoke.spec.ts
+  - src/__tests__/contentCore.test.ts
+  - src/__tests__/useMissHoneyCompletion.test.ts
+  - src/__tests__/GrammarView.test.ts
+  - src/__tests__/HomeViewMissHoney.test.ts
+-->
+
+---
+### Requirement: Content promotion wires complete videos into app routes
+
+The project SHALL promote only validated content into app data. Promoted videos SHALL become `ready` entries with `contentLoader` in the matching level metadata file.
+
+#### Scenario: promoted level content becomes route-loadable
+
+- **GIVEN** `npm run misshoney:validate-content -- --level a1` exits with code 0
+- **WHEN** the user runs `npm run misshoney:promote-content -- --level a1`
+- **THEN** every JSON file under `_private/misshoney/generated-content/a1/` is copied to `src/modules/playlists/data/videos/a1/`
+- **THEN** `src/modules/playlists/data/a1.ts` contains one `ready` video entry for each promoted JSON file
+- **THEN** each promoted video entry has a non-null `contentLoader`
+- **THEN** each promoted video resolves at `/a1/<slug>`
+
+#### Scenario: skipped videos are not promoted
+
+- **GIVEN** `_private/misshoney/skipped/a1.json` contains a video with reason `no-english-captions`
+- **WHEN** the user runs `npm run misshoney:promote-content -- --level a1`
+- **THEN** no JSON content file is created for that skipped video
+- **THEN** the video appears in `skippedVideos`
+- **THEN** the video does not appear in the routable `videos` array
+
+
+<!-- @trace
+source: add-misshoney-playlists
+updated: 2026-05-23
+code:
+  - src/modules/playlists/data/videos/a2/ch29-what-you-taught-me-about-hope-slow-english-listening.json
+  - src/modules/playlists/data/videos/a2/ch5-84-english-phrases-for-beginners-speak-like-a-native.json
+  - src/modules/playlists/data/videos/b1/ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice.json
+  - src/modules/playlists/data/videos/b1/ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1.json
+  - src/modules/playlists/data/videos/b1/ch17-slow-english-practice-airport-essentials-for-traveling.json
+  - src/modules/playlists/data/videos/b1/ch2-slow-english-practice-for-b1-intermediate-talking-about-airports.json
+  - src/modules/playlists/data/videos/a2/ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker.json
+  - src/modules/playlists/data/videos/a2/ch27-pronunciation-practice-50-english-words-to-sound-natural.json
+  - src/modules/playlists/data/videos/b2/ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice.json
+  - src/modules/playlists/data/videos/a2/ch1-slow-english-stories-level-a2-listening-a-weird-phone-call.json
+  - src/modules/playlists/data/videos/a1/ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple.json
+  - package.json
+  - src/modules/chapters/utils/highlight.ts
+  - src/modules/playlists/data/b2.ts
+  - src/modules/playlists/data/videos/a2/ch13-my-weird-trip-in-puerto-escondido-storytime-slow-english-for-intermediate-listeners.json
+  - src/modules/playlists/data/videos/a2/ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input.json
+  - src/modules/playlists/data/a2.ts
+  - src/modules/playlists/data/videos/b1/ch21-slow-english-listening-practice-makeup-routine.json
+  - src/modules/playlists/data/videos/a1/ch6-slow-english-podcast-for-beginners-talking-about-friends.json
+  - _private/misshoney/README.md
+  - src/modules/playlists/data/videos/a1/ch7-slow-english-podcast-for-beginners-talking-about-goals.json
+  - src/modules/playlists/data/videos/a2/ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input.json
+  - src/modules/playlists/data/videos/a2/ch16-slow-english-podcast-my-day-a2-listening-practice.json
+  - src/app/router/index.ts
+  - src/modules/playlists/data/videos/a2/ch3-slow-english-podcast-bus-stories-for-beginners.json
+  - src/modules/playlists/data/videos/b1/ch7-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice.json
+  - src/modules/playlists/data/videos/b1/ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch1-slow-english-listening-for-upper-intermediate-talking-about-comfort-foods.json
+  - src/modules/playlists/data/videos/a2/ch25-learn-english-travel-vlog-for-beginners.json
+  - src/modules/playlists/data/videos/a2/ch12-grocery-store-essentials-for-a1-a2-beginners.json
+  - src/modules/playlists/data/videos/b2/ch13-travel-with-english-slow-english-podcast.json
+  - src/modules/playlists/data/videos/a2/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.json
+  - src/modules/chapters/data/ch4.ts
+  - src/modules/playlists/data/videos/b1/ch3-slow-english-podcast-bus-stories-for-beginners.json
+  - src/modules/playlists/data/videos/a1/ch14-how-to-introduce-yourself-in-english-for-beginners.json
+  - src/modules/playlists/data/videos/a2/ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input.json
+  - src/modules/playlists/data/videos/a1/ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.json
+  - PROJECT_ARCHITECTURE.md
+  - src/modules/playlists/data/videos/a1/ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2.json
+  - src/modules/playlists/data/b1.ts
+  - src/modules/playlists/data/videos/a1/ch2-beginner-english-slow-listening-practice-talking-about-me.json
+  - src/modules/playlists/data/videos/a1/ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json
+  - src/modules/playlists/data/videos/b1/ch19-how-to-speak-english-real-life-role-play-b1b2.json
+  - src/modules/playlists/components/PlaylistReadingHeader.vue
+  - src/modules/playlists/data/videos/b1/ch15-english-sleep-learning-shadowing-positive-affirmations.json
+  - _private/propose.md
+  - src/modules/playlists/data/videos/a1/ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday.json
+  - src/modules/playlists/data/videos/a2/ch19-english-sleep-learning-shadowing-positive-affirmations.json
+  - src/modules/playlists/types.ts
+  - src/modules/playlists/data/videos/a1/ch16-beginner-english-speaking-practice-real-life-role-play-a1.json
+  - scripts/misshoney/author-polished-content.mjs
+  - src/modules/playlists/data/videos/a2/ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice.json
+  - src/modules/playlists/data/videos/a2/ch24-sleep-and-learn-english-shadow-positive-affirmations.json
+  - src/modules/playlists/data/videos/a2/ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json
+  - src/modules/playlists/components/PlaylistWordTag.vue
+  - scripts/misshoney/content-core.d.mts
+  - src/modules/playlists/data/videos/b1/ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary.json
+  - src/modules/playlists/data/videos/b2/ch15-learn-english-by-making-mistakes-slow-english-podcast.json
+  - src/modules/playlists/data/videos/a1/ch3-slow-english-listening-for-beginners-talking-about-languages.json
+  - src/modules/playlists/data/videos/b2/ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input.json
+  - scripts/publishPages.mjs
+  - src/modules/playlists/data/videos/a1/ch4-practice-slow-english-for-a1-beginners-talk-about-family.json
+  - src/modules/playlists/data/videos/a1/ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2.json
+  - src/modules/playlists/data/videos/a2/ch23-how-to-actually-learn-english-10-tips-that-really-work.json
+  - src/modules/home/components/ArticleListItem.vue
+  - src/modules/playlists/data/videos/a2/ch6-essential-airport-vocabulary-slow-english-podcast-for-a2-beginners.json
+  - src/modules/playlists/data/videos/b2/ch6-slow-english-podcast-my-bus-stories.json
+  - src/modules/playlists/data/videos/b2/ch7-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice.json
+  - src/shared/components/NavBar.vue
+  - src/modules/playlists/data/videos/b1/ch18-english-kitchen-vocabulary-comprehensible-input.json
+  - src/modules/playlists/data/videos/b1/ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1.json
+  - src/modules/playlists/data/videos/b1/ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch2-slow-english-for-intermediate-b2-with-subtitles-in-spanish-talking-about-languages.json
+  - src/modules/playlists/data/videos/b2/ch16-learn-english-with-my-morning-routine-natural-speaking-practice.json
+  - _private/筆記.md
+  - src/modules/playlists/data/videos/a2/ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines.json
+  - src/modules/playlists/components/PlaylistPhraseCard.vue
+  - src/modules/home/views/HomeView.vue
+  - src/modules/playlists/data/videos/b2/ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast.json
+  - src/modules/playlists/components/PlaylistSentenceBreakdown.vue
+  - src/modules/playlists/data/videos/b1/ch16-slow-english-podcast-my-trip-to-mexico-city.json
+  - src/modules/playlists/data/videos/b2/ch8-slow-english-podcast-why-am-i-learning-chinese-b2.json
+  - src/modules/playlists/data/videos/b2/ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input.json
+  - src/modules/playlists/data/videos/a2/ch22-learn-english-at-home-slow-english.json
+  - scripts/misshoney/promote-content.mjs
+  - src/modules/playlists/PlaylistView.vue
+  - src/modules/playlists/data/videos/b1/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.json
+  - src/modules/chapters/data/ch3.ts
+  - src/modules/playlists/data/videos/a1/ch1-slow-english-for-beginners-a1-listening-practice.json
+  - scripts/misshoney/scaffold-content.mjs
+  - src/modules/playlists/data/videos/a1/ch18-english-listening-practice-for-beginners-my-weekend-a1-a2.json
+  - src/modules/playlists/data/videos/b1/ch9-speak-like-a-native-common-english-idioms-slow-english-podcast-for-a2-b1-beginners.json
+  - src/modules/playlists/data/videos/a2/ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel.json
+  - src/modules/playlists/data/videos/a2/ch26-100-essential-english-words-for-daily-life-slow-english-vocabulary.json
+  - src/modules/playlists/data/videos/b2/ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input.json
+  - scripts/misshoney/content-core.mjs
+  - src/modules/playlists/data/videos/b2/ch17-how-she-became-fluent-in-english-intermediate-listening-practice.json
+  - src/modules/playlists/PlaylistVideoView.vue
+  - scripts/misshoney/import-core.d.mts
+  - src/modules/playlists/data/videos/a2/ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners.json
+  - src/modules/playlists/data/videos/a1/ch5-practice-slow-english-podcast-talking-about-weather.json
+  - src/modules/playlists/data/videos/a1/ch8-slow-english-podcast-chat-with-me-about-foods.json
+  - src/modules/playlists/data/videos/b2/ch3-slow-english-for-intermediate-b2-with-subtitles-in-portuguese-talking-about-languages.json
+  - src/shared/config/playlists.ts
+  - src/modules/playlists/data/videos/a2/ch28-learn-in-on-at-naturally-english-listening-practice.json
+  - src/modules/playlists/data/videos/b1/ch1-slow-english-listening-intermediate-practice-talking-about-my-hobbies.json
+  - src/modules/playlists/data/videos/a2/ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.json
+  - src/modules/playlists/data/videos/b1/ch11-slow-english-podcast-for-high-beginners-a2-b1-my-trip-to-the-usa-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch14-learn-english-in-nyc-slow-english-vlog.json
+  - _private/discuss.txt
+  - src/modules/playlists/components/PlaylistSceneBlock.vue
+  - src/modules/playlists/data/videos/a2/ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast.json
+  - src/modules/playlists/data/videos/b1/ch5-job-interview-essentials-slow-english-podcast-for-intermediate-b1.json
+  - src/modules/playlists/data/videos/b2/ch4-slow-english-for-c1-advanced-dreams.json
+  - scripts/misshoney/import-playlists.mjs
+  - src/shared/config/storageKeys.ts
+  - src/modules/playlists/data/videos/a1/ch17-slow-english-conversations-a1-comprehensible-input.json
+  - src/modules/grammar/views/GrammarView.vue
+  - src/modules/home/composables/useMissHoneyCompletion.ts
+  - src/modules/playlists/data/videos/a2/ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input.json
+  - src/modules/playlists/data/videos/b1/ch13-slow-english-podcast-my-trip-to-puerto-escondido-level-a2.json
+  - src/shared/config/chapters.ts
+  - scripts/misshoney/import-core.mjs
+  - scripts/misshoney/validate-content.mjs
+  - scripts/misshoney/sources.json
+  - src/modules/playlists/data/a1.ts
+  - src/modules/playlists/composables/usePlaylistReadingSections.ts
+tests:
+  - src/__tests__/NavBar.test.ts
+  - tests/e2e/misshoney-polished.smoke.spec.ts
+  - src/__tests__/HomeView.test.ts
+  - src/__tests__/importerCore.test.ts
+  - src/__tests__/ChapterView.test.ts
+  - src/__tests__/ArticleListItemCompletion.test.ts
+  - src/__tests__/PlaylistView.test.ts
+  - src/__tests__/publishPages.test.ts
+  - src/__tests__/PlaylistVideoView.test.ts
+  - src/__tests__/chapterDataModule.test.ts
+  - tests/e2e/ch3.smoke.spec.ts
+  - tests/e2e/app-shell.smoke.spec.ts
+  - src/__tests__/contentCore.test.ts
+  - src/__tests__/useMissHoneyCompletion.test.ts
+  - src/__tests__/GrammarView.test.ts
+  - src/__tests__/HomeViewMissHoney.test.ts
+-->
+
+---
+### Requirement: Complete content coverage is verifiable across all levels
+
+The project SHALL provide a full coverage check for A1, A2, B1, and B2. The check SHALL fail if any imported transcript lacks generated content or any generated content is not promoted to app data.
+
+#### Scenario: all-level validation reports complete coverage
+
+- **WHEN** the user runs `npm run misshoney:validate-content -- --all`
+- **THEN** the command checks A1, A2, B1, and B2
+- **THEN** the command reports counts for transcripts, content scaffolds, generated content files, promoted app content files, and skipped videos for each level
+- **THEN** the command exits with code 0 only when every imported transcript has a content scaffold, every content scaffold has generated content, and every generated content file is promoted
+
+<!-- @trace
+source: add-misshoney-playlists
+updated: 2026-05-23
+code:
+  - src/modules/playlists/data/videos/a2/ch29-what-you-taught-me-about-hope-slow-english-listening.json
+  - src/modules/playlists/data/videos/a2/ch5-84-english-phrases-for-beginners-speak-like-a-native.json
+  - src/modules/playlists/data/videos/b1/ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice.json
+  - src/modules/playlists/data/videos/b1/ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1.json
+  - src/modules/playlists/data/videos/b1/ch17-slow-english-practice-airport-essentials-for-traveling.json
+  - src/modules/playlists/data/videos/b1/ch2-slow-english-practice-for-b1-intermediate-talking-about-airports.json
+  - src/modules/playlists/data/videos/a2/ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker.json
+  - src/modules/playlists/data/videos/a2/ch27-pronunciation-practice-50-english-words-to-sound-natural.json
+  - src/modules/playlists/data/videos/b2/ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice.json
+  - src/modules/playlists/data/videos/a2/ch1-slow-english-stories-level-a2-listening-a-weird-phone-call.json
+  - src/modules/playlists/data/videos/a1/ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple.json
+  - package.json
+  - src/modules/chapters/utils/highlight.ts
+  - src/modules/playlists/data/b2.ts
+  - src/modules/playlists/data/videos/a2/ch13-my-weird-trip-in-puerto-escondido-storytime-slow-english-for-intermediate-listeners.json
+  - src/modules/playlists/data/videos/a2/ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input.json
+  - src/modules/playlists/data/a2.ts
+  - src/modules/playlists/data/videos/b1/ch21-slow-english-listening-practice-makeup-routine.json
+  - src/modules/playlists/data/videos/a1/ch6-slow-english-podcast-for-beginners-talking-about-friends.json
+  - _private/misshoney/README.md
+  - src/modules/playlists/data/videos/a1/ch7-slow-english-podcast-for-beginners-talking-about-goals.json
+  - src/modules/playlists/data/videos/a2/ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input.json
+  - src/modules/playlists/data/videos/a2/ch16-slow-english-podcast-my-day-a2-listening-practice.json
+  - src/app/router/index.ts
+  - src/modules/playlists/data/videos/a2/ch3-slow-english-podcast-bus-stories-for-beginners.json
+  - src/modules/playlists/data/videos/b1/ch7-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice.json
+  - src/modules/playlists/data/videos/b1/ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch1-slow-english-listening-for-upper-intermediate-talking-about-comfort-foods.json
+  - src/modules/playlists/data/videos/a2/ch25-learn-english-travel-vlog-for-beginners.json
+  - src/modules/playlists/data/videos/a2/ch12-grocery-store-essentials-for-a1-a2-beginners.json
+  - src/modules/playlists/data/videos/b2/ch13-travel-with-english-slow-english-podcast.json
+  - src/modules/playlists/data/videos/a2/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.json
+  - src/modules/chapters/data/ch4.ts
+  - src/modules/playlists/data/videos/b1/ch3-slow-english-podcast-bus-stories-for-beginners.json
+  - src/modules/playlists/data/videos/a1/ch14-how-to-introduce-yourself-in-english-for-beginners.json
+  - src/modules/playlists/data/videos/a2/ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input.json
+  - src/modules/playlists/data/videos/a1/ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.json
+  - PROJECT_ARCHITECTURE.md
+  - src/modules/playlists/data/videos/a1/ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2.json
+  - src/modules/playlists/data/b1.ts
+  - src/modules/playlists/data/videos/a1/ch2-beginner-english-slow-listening-practice-talking-about-me.json
+  - src/modules/playlists/data/videos/a1/ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json
+  - src/modules/playlists/data/videos/b1/ch19-how-to-speak-english-real-life-role-play-b1b2.json
+  - src/modules/playlists/components/PlaylistReadingHeader.vue
+  - src/modules/playlists/data/videos/b1/ch15-english-sleep-learning-shadowing-positive-affirmations.json
+  - _private/propose.md
+  - src/modules/playlists/data/videos/a1/ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday.json
+  - src/modules/playlists/data/videos/a2/ch19-english-sleep-learning-shadowing-positive-affirmations.json
+  - src/modules/playlists/types.ts
+  - src/modules/playlists/data/videos/a1/ch16-beginner-english-speaking-practice-real-life-role-play-a1.json
+  - scripts/misshoney/author-polished-content.mjs
+  - src/modules/playlists/data/videos/a2/ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice.json
+  - src/modules/playlists/data/videos/a2/ch24-sleep-and-learn-english-shadow-positive-affirmations.json
+  - src/modules/playlists/data/videos/a2/ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json
+  - src/modules/playlists/components/PlaylistWordTag.vue
+  - scripts/misshoney/content-core.d.mts
+  - src/modules/playlists/data/videos/b1/ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary.json
+  - src/modules/playlists/data/videos/b2/ch15-learn-english-by-making-mistakes-slow-english-podcast.json
+  - src/modules/playlists/data/videos/a1/ch3-slow-english-listening-for-beginners-talking-about-languages.json
+  - src/modules/playlists/data/videos/b2/ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input.json
+  - scripts/publishPages.mjs
+  - src/modules/playlists/data/videos/a1/ch4-practice-slow-english-for-a1-beginners-talk-about-family.json
+  - src/modules/playlists/data/videos/a1/ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2.json
+  - src/modules/playlists/data/videos/a2/ch23-how-to-actually-learn-english-10-tips-that-really-work.json
+  - src/modules/home/components/ArticleListItem.vue
+  - src/modules/playlists/data/videos/a2/ch6-essential-airport-vocabulary-slow-english-podcast-for-a2-beginners.json
+  - src/modules/playlists/data/videos/b2/ch6-slow-english-podcast-my-bus-stories.json
+  - src/modules/playlists/data/videos/b2/ch7-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice.json
+  - src/shared/components/NavBar.vue
+  - src/modules/playlists/data/videos/b1/ch18-english-kitchen-vocabulary-comprehensible-input.json
+  - src/modules/playlists/data/videos/b1/ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1.json
+  - src/modules/playlists/data/videos/b1/ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch2-slow-english-for-intermediate-b2-with-subtitles-in-spanish-talking-about-languages.json
+  - src/modules/playlists/data/videos/b2/ch16-learn-english-with-my-morning-routine-natural-speaking-practice.json
+  - _private/筆記.md
+  - src/modules/playlists/data/videos/a2/ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines.json
+  - src/modules/playlists/components/PlaylistPhraseCard.vue
+  - src/modules/home/views/HomeView.vue
+  - src/modules/playlists/data/videos/b2/ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast.json
+  - src/modules/playlists/components/PlaylistSentenceBreakdown.vue
+  - src/modules/playlists/data/videos/b1/ch16-slow-english-podcast-my-trip-to-mexico-city.json
+  - src/modules/playlists/data/videos/b2/ch8-slow-english-podcast-why-am-i-learning-chinese-b2.json
+  - src/modules/playlists/data/videos/b2/ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input.json
+  - src/modules/playlists/data/videos/a2/ch22-learn-english-at-home-slow-english.json
+  - scripts/misshoney/promote-content.mjs
+  - src/modules/playlists/PlaylistView.vue
+  - src/modules/playlists/data/videos/b1/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.json
+  - src/modules/chapters/data/ch3.ts
+  - src/modules/playlists/data/videos/a1/ch1-slow-english-for-beginners-a1-listening-practice.json
+  - scripts/misshoney/scaffold-content.mjs
+  - src/modules/playlists/data/videos/a1/ch18-english-listening-practice-for-beginners-my-weekend-a1-a2.json
+  - src/modules/playlists/data/videos/b1/ch9-speak-like-a-native-common-english-idioms-slow-english-podcast-for-a2-b1-beginners.json
+  - src/modules/playlists/data/videos/a2/ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel.json
+  - src/modules/playlists/data/videos/a2/ch26-100-essential-english-words-for-daily-life-slow-english-vocabulary.json
+  - src/modules/playlists/data/videos/b2/ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input.json
+  - scripts/misshoney/content-core.mjs
+  - src/modules/playlists/data/videos/b2/ch17-how-she-became-fluent-in-english-intermediate-listening-practice.json
+  - src/modules/playlists/PlaylistVideoView.vue
+  - scripts/misshoney/import-core.d.mts
+  - src/modules/playlists/data/videos/a2/ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners.json
+  - src/modules/playlists/data/videos/a1/ch5-practice-slow-english-podcast-talking-about-weather.json
+  - src/modules/playlists/data/videos/a1/ch8-slow-english-podcast-chat-with-me-about-foods.json
+  - src/modules/playlists/data/videos/b2/ch3-slow-english-for-intermediate-b2-with-subtitles-in-portuguese-talking-about-languages.json
+  - src/shared/config/playlists.ts
+  - src/modules/playlists/data/videos/a2/ch28-learn-in-on-at-naturally-english-listening-practice.json
+  - src/modules/playlists/data/videos/b1/ch1-slow-english-listening-intermediate-practice-talking-about-my-hobbies.json
+  - src/modules/playlists/data/videos/a2/ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.json
+  - src/modules/playlists/data/videos/b1/ch11-slow-english-podcast-for-high-beginners-a2-b1-my-trip-to-the-usa-comprehensible-input.json
+  - src/modules/playlists/data/videos/b2/ch14-learn-english-in-nyc-slow-english-vlog.json
+  - _private/discuss.txt
+  - src/modules/playlists/components/PlaylistSceneBlock.vue
+  - src/modules/playlists/data/videos/a2/ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast.json
+  - src/modules/playlists/data/videos/b1/ch5-job-interview-essentials-slow-english-podcast-for-intermediate-b1.json
+  - src/modules/playlists/data/videos/b2/ch4-slow-english-for-c1-advanced-dreams.json
+  - scripts/misshoney/import-playlists.mjs
+  - src/shared/config/storageKeys.ts
+  - src/modules/playlists/data/videos/a1/ch17-slow-english-conversations-a1-comprehensible-input.json
+  - src/modules/grammar/views/GrammarView.vue
+  - src/modules/home/composables/useMissHoneyCompletion.ts
+  - src/modules/playlists/data/videos/a2/ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input.json
+  - src/modules/playlists/data/videos/b1/ch13-slow-english-podcast-my-trip-to-puerto-escondido-level-a2.json
+  - src/shared/config/chapters.ts
+  - scripts/misshoney/import-core.mjs
+  - scripts/misshoney/validate-content.mjs
+  - scripts/misshoney/sources.json
+  - src/modules/playlists/data/a1.ts
+  - src/modules/playlists/composables/usePlaylistReadingSections.ts
+tests:
+  - src/__tests__/NavBar.test.ts
+  - tests/e2e/misshoney-polished.smoke.spec.ts
+  - src/__tests__/HomeView.test.ts
+  - src/__tests__/importerCore.test.ts
+  - src/__tests__/ChapterView.test.ts
+  - src/__tests__/ArticleListItemCompletion.test.ts
+  - src/__tests__/PlaylistView.test.ts
+  - src/__tests__/publishPages.test.ts
+  - src/__tests__/PlaylistVideoView.test.ts
+  - src/__tests__/chapterDataModule.test.ts
+  - tests/e2e/ch3.smoke.spec.ts
+  - tests/e2e/app-shell.smoke.spec.ts
+  - src/__tests__/contentCore.test.ts
+  - src/__tests__/useMissHoneyCompletion.test.ts
+  - src/__tests__/GrammarView.test.ts
+  - src/__tests__/HomeViewMissHoney.test.ts
+-->

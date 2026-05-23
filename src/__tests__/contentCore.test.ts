@@ -31,14 +31,14 @@ function makeValidContent(overrides = {}) {
         titleEn: 'Meeting Someone',
         sentences: [{ en: 'Hello, nice to meet you.', tc: '你好，很高興認識你。' }],
         tags: [
-          { english: 'hello', kk: '/həˈloʊ/', partOfSpeech: 'interj.', meaning: '你好', highlight: true },
+          { id: 'word-hello', lemma: 'hello', english: 'hello', kk: '/həˈloʊ/', partOfSpeech: 'interj.', meaning: '你好', highlight: true },
         ],
       },
     ],
     vocabGroups: [
       {
         title: 'Greetings',
-        items: [{ english: 'hello', kk: '/həˈloʊ/', partOfSpeech: 'interj.', meaning: '你好', highlight: true }],
+        items: [{ id: 'word-hello', lemma: 'hello', english: 'hello', kk: '/həˈloʊ/', partOfSpeech: 'interj.', meaning: '你好', highlight: true }],
       },
     ],
     phrases: [
@@ -61,6 +61,7 @@ function makeValidContent(overrides = {}) {
         ],
       },
     ],
+    usages: [],
     ...overrides,
   }
 }
@@ -293,6 +294,14 @@ describe('validatePlaylistVideoData', () => {
     'You fat but sugar is also very delicious.',
     'We have them all Mexican food is very diverse but I think.',
     'I live in Mexico in Mexico.',
+    'Hello welcome to my SLO English podcast today.',
+    'Today I got a weird phone call a strange phone call I.',
+    'I do who is this.',
+    "We'll take the.",
+    'Today I am going to be interviewing my sister. So,.',
+    'What was your childhood home like? My childhood home was very American,?',
+    'Welcome back to my slow English podcast. a podcast to practice slow English.',
+    'She said, "Do not pretend. You stole my dog.".',
   ])('rejects short connective fragments for "%s"', (sentence) => {
     const content = makeValidContent({
       scenes: [{
@@ -308,6 +317,178 @@ describe('validatePlaylistVideoData', () => {
     const result = validatePlaylistVideoData(content)
     expect(result.valid).toBe(false)
     expect(result.errors.some((error: string) => error.includes('cue fragment'))).toBe(true)
+  })
+
+  it('rejects generic vocabulary meanings that are not instructional', () => {
+    const content = makeValidContent({
+      vocabGroups: [{
+        title: 'Weak vocabulary',
+        items: [
+          { english: 'said', kk: '/sɛd/', partOfSpeech: 'v.', meaning: '日常生活相關的常用字', highlight: true },
+        ],
+      }],
+    })
+
+    const result = validatePlaylistVideoData(content)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some((error: string) => error.includes('placeholder translation'))).toBe(true)
+  })
+
+  it('rejects generic phrase meanings that only echo the source text', () => {
+    const content = makeValidContent({
+      phrases: [{
+        id: 'phrase-01',
+        phrase: 'i think',
+        meaning: '常用說法，可用來表達「i think」這個意思',
+        examples: [{ en: 'I think you have the wrong number.', tc: '我想你打錯電話了。' }],
+      }],
+    })
+
+    const result = validatePlaylistVideoData(content)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some((error: string) => error.includes('placeholder translation'))).toBe(true)
+  })
+
+  it('accepts structured English inline tokens when targets resolve to learning entries', () => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{
+          en: 'I eat an apple every day.',
+          tc: '我每天吃一顆蘋果。',
+          englishTokens: [
+            { type: 'text', text: 'I eat an ' },
+            { type: 'word', text: 'apple', targetId: 'word-apple', instanceId: 'marker-a1-ch1-001' },
+            { type: 'text', text: ' every day.' },
+          ],
+        }],
+        tags: [],
+      }],
+      vocabGroups: [{
+        title: 'Food',
+        items: [{
+          id: 'word-apple',
+          lemma: 'apple',
+          english: 'apple',
+          kk: '/ˈæpəl/',
+          partOfSpeech: 'n.',
+          meaning: '蘋果',
+        }],
+      }],
+    })
+
+    expect(validatePlaylistVideoData(content).valid).toBe(true)
+  })
+
+  it('accepts whitespace text tokens between adjacent inline markers', () => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{
+          en: 'Welcome to my slow podcast.',
+          tc: '歡迎來到我的慢速 podcast。',
+          englishTokens: [
+            { type: 'text', text: 'Welcome to my ' },
+            { type: 'word', text: 'slow', targetId: 'word-slow', instanceId: 'marker-a1-ch1-001' },
+            { type: 'text', text: ' ' },
+            { type: 'word', text: 'podcast', targetId: 'word-podcast', instanceId: 'marker-a1-ch1-002' },
+            { type: 'text', text: '.' },
+          ],
+        }],
+        tags: [],
+      }],
+      vocabGroups: [{
+        title: 'Podcast',
+        items: [
+          { id: 'word-slow', lemma: 'slow', english: 'slow', kk: '/sloʊ/', partOfSpeech: 'adj.', meaning: '慢速的' },
+          { id: 'word-podcast', lemma: 'podcast', english: 'podcast', kk: '/ˈpɑdˌkæst/', partOfSpeech: 'n.', meaning: '播客節目' },
+        ],
+      }],
+    })
+
+    expect(validatePlaylistVideoData(content).valid).toBe(true)
+  })
+
+  it.each([
+    'Who do you work with?',
+    'After teaching, I study.',
+  ])('accepts natural proofread A1 sentences for "%s"', (sentence) => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{ en: sentence, tc: '這是一句自然的繁中翻譯。' }],
+        tags: [],
+      }],
+    })
+
+    expect(validatePlaylistVideoData(content).valid).toBe(true)
+  })
+
+  it('rejects inline token targets that do not resolve to learning entries', () => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{
+          en: 'I eat an apple every day.',
+          tc: '我每天吃一顆蘋果。',
+          englishTokens: [
+            { type: 'text', text: 'I eat an ' },
+            { type: 'word', text: 'apple', targetId: 'word-missing', instanceId: 'marker-a1-ch1-001' },
+            { type: 'text', text: ' every day.' },
+          ],
+        }],
+        tags: [],
+      }],
+    })
+
+    const result = validatePlaylistVideoData(content)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some((error: string) => error.includes('word-missing'))).toBe(true)
+  })
+
+  it('rejects special usage entries missing required fields', () => {
+    const content = makeValidContent({
+      usages: [{
+        id: 'usage-run-business',
+        word: 'run',
+        familiarMeaning: '跑',
+        usage: '',
+        translation: '經營一家生意',
+        examples: ['I run a small business.'],
+      }],
+    })
+
+    const result = validatePlaylistVideoData(content)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some((error: string) => error.includes('usages[0].usage'))).toBe(true)
+  })
+
+  it('rejects duplicate vocabulary entries that share the same lemma', () => {
+    const content = makeValidContent({
+      vocabGroups: [{
+        title: 'Actions',
+        items: [
+          { id: 'word-run', lemma: 'run', english: 'run', kk: '/rʌn/', partOfSpeech: 'v.', meaning: '跑' },
+          { id: 'word-running', lemma: 'run', english: 'running', kk: '/ˈrʌnɪŋ/', partOfSpeech: 'v.', meaning: '正在跑' },
+        ],
+      }],
+    })
+
+    const result = validatePlaylistVideoData(content)
+    expect(result.valid).toBe(false)
+    expect(result.errors.some((error: string) => error.includes('duplicate vocabulary lemma: run'))).toBe(true)
   })
 })
 

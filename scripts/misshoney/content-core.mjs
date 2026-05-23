@@ -95,6 +95,7 @@ export function validatePlaylistVideoData(data) {
   if (!data.title) errors.push('title is required')
   if (!data.youtubeUrl) errors.push('youtubeUrl is required')
   validateHeader(data.header, errors)
+  const learningTargets = collectLearningTargets(data, errors)
 
   // Scenes validation
   if (!Array.isArray(data.scenes) || data.scenes.length === 0) {
@@ -129,6 +130,7 @@ export function validatePlaylistVideoData(data) {
             errors.push(`scenes[${si}].sentences[${pi}].tc must not be empty`)
           }
           validateSentenceQuality(pair, errors, si, pi)
+          validateEnglishTokens(pair.englishTokens, learningTargets, errors, si, pi)
         }
       }
     }
@@ -166,6 +168,8 @@ export function validatePlaylistVideoData(data) {
       }
     }
   }
+
+  validateSpecialUsages(data.usages, errors)
 
   // Phrases validation
   if (!Array.isArray(data.phrases) || data.phrases.length === 0) {
@@ -238,6 +242,145 @@ export function validatePlaylistVideoData(data) {
   return { valid: errors.length === 0, errors }
 }
 
+function collectLearningTargets(data, errors) {
+  const wordIds = new Set()
+  const phraseIds = new Set()
+  const usageIds = new Set()
+  const explicitLemmas = new Map()
+
+  if (Array.isArray(data.vocabGroups)) {
+    for (let gi = 0; gi < data.vocabGroups.length; gi++) {
+      const group = data.vocabGroups[gi]
+      if (!Array.isArray(group?.items)) continue
+      for (let ii = 0; ii < group.items.length; ii++) {
+        const item = group.items[ii]
+        if (!item || typeof item !== 'object') continue
+        const targetId = item.id || makeAnchorId('word', item.lemma || item.english)
+        if (targetId) wordIds.add(String(targetId))
+
+        if (item.lemma && String(item.lemma).trim()) {
+          const lemma = normalizeLemma(item.lemma)
+          if (explicitLemmas.has(lemma)) {
+            errors.push(`duplicate vocabulary lemma: ${lemma}`)
+          } else {
+            explicitLemmas.set(lemma, `vocabGroups[${gi}].items[${ii}]`)
+          }
+        }
+      }
+    }
+  }
+
+  if (Array.isArray(data.phrases)) {
+    for (const phrase of data.phrases) {
+      if (!phrase || typeof phrase !== 'object') continue
+      const targetId = phrase.id || makeAnchorId('phrase', phrase.phrase)
+      if (targetId) phraseIds.add(String(targetId))
+    }
+  }
+
+  if (Array.isArray(data.usages)) {
+    for (const usage of data.usages) {
+      if (!usage || typeof usage !== 'object') continue
+      const targetId = usage.id || makeAnchorId('usage', `${usage.word}-${usage.usage}`)
+      if (targetId) usageIds.add(String(targetId))
+    }
+  }
+
+  return { wordIds, phraseIds, usageIds }
+}
+
+function validateEnglishTokens(tokens, targets, errors, sceneIndex, sentenceIndex) {
+  if (tokens === undefined) return
+
+  const location = `scenes[${sceneIndex}].sentences[${sentenceIndex}].englishTokens`
+  if (!Array.isArray(tokens) || tokens.length === 0) {
+    errors.push(`${location} must be a non-empty array when present`)
+    return
+  }
+
+  for (let ti = 0; ti < tokens.length; ti++) {
+    const token = tokens[ti]
+    const tokenLocation = `${location}[${ti}]`
+    if (!token || typeof token !== 'object') {
+      errors.push(`${tokenLocation} must be an object`)
+      continue
+    }
+
+    if (token.text === undefined || String(token.text).length === 0) {
+      errors.push(`${tokenLocation}.text must not be empty`)
+    }
+
+    const type = String(token.type ?? '')
+    if (!['text', 'word', 'phrase', 'usage'].includes(type)) {
+      errors.push(`${tokenLocation}.type must be text, word, phrase, or usage`)
+      continue
+    }
+
+    if (type === 'text') continue
+
+    if (!token.targetId || !String(token.targetId).trim()) {
+      errors.push(`${tokenLocation}.targetId must not be empty`)
+      continue
+    }
+    if (!token.instanceId || !String(token.instanceId).trim()) {
+      errors.push(`${tokenLocation}.instanceId must not be empty`)
+    }
+
+    const targetId = String(token.targetId)
+    const matchingTargets = {
+      word: targets.wordIds,
+      phrase: targets.phraseIds,
+      usage: targets.usageIds,
+    }[type]
+
+    if (!matchingTargets.has(targetId)) {
+      errors.push(`${tokenLocation} target does not resolve: token="${token.text}" targetId="${targetId}"`)
+    }
+  }
+}
+
+function validateSpecialUsages(usages, errors) {
+  if (usages === undefined) return
+
+  if (!Array.isArray(usages)) {
+    errors.push('usages must be an array when present')
+    return
+  }
+
+  for (let ui = 0; ui < usages.length; ui++) {
+    const usage = usages[ui]
+    if (!usage || typeof usage !== 'object') {
+      errors.push(`usages[${ui}] must be an object`)
+      continue
+    }
+
+    for (const key of ['id', 'word', 'familiarMeaning', 'usage', 'translation']) {
+      if (!usage[key] || !String(usage[key]).trim()) {
+        errors.push(`usages[${ui}].${key} must not be empty`)
+      }
+    }
+
+    if (!Array.isArray(usage.examples) || usage.examples.length === 0) {
+      errors.push(`usages[${ui}].examples must be a non-empty array`)
+      continue
+    }
+
+    for (let ei = 0; ei < usage.examples.length; ei++) {
+      const example = usage.examples[ei]
+      if (typeof example === 'string') {
+        if (!example.trim()) errors.push(`usages[${ui}].examples[${ei}] must not be empty`)
+        continue
+      }
+      if (!example?.en || !String(example.en).trim()) {
+        errors.push(`usages[${ui}].examples[${ei}].en must not be empty`)
+      }
+      if (!example?.tc || !String(example.tc).trim()) {
+        errors.push(`usages[${ui}].examples[${ei}].tc must not be empty`)
+      }
+    }
+  }
+}
+
 function validateHeader(header, errors) {
   if (!header || typeof header !== 'object') {
     errors.push('header is required')
@@ -271,7 +414,7 @@ function validateSentenceQuality(pair, errors, sceneIndex, sentenceIndex) {
   }
 
   if (isLikelyCueFragment(en)) {
-    errors.push(`${location}.en looks like a cue fragment or unpolished sentence`)
+    errors.push(`${location}.en looks like a cue fragment or unpolished sentence: "${en}"`)
   }
 }
 
@@ -288,25 +431,40 @@ function hasUnresolvedMarkers(value) {
 }
 
 function isPlaceholderTranslation(value) {
-  return /這句主要在談.+可以先掌握整句意思/.test(String(value))
+  const text = String(value).trim()
+  return (
+    /這句主要在談.+可以先掌握整句意思/.test(text) ||
+    /相關的常用字$/.test(text) ||
+    /^常用說法，可用來表達「.+」這個意思$/.test(text)
+  )
 }
 
 function isLikelyCueFragment(sentence) {
   const text = String(sentence).trim()
   if (!text) return true
-  if (!/[.!?。！？]$/.test(text)) return true
+  if (!/[.!?。！？]["']?$/.test(text)) return true
 
   const lower = text.toLowerCase()
-  const withoutPunctuation = lower.replace(/[.!?。！？]+$/, '').trim()
+  const withoutPunctuation = lower.replace(/[.!?。！？]+["']?$/, '').trim()
   const wordCount = lower.split(/\s+/).filter(Boolean).length
 
   if (/^who want\b/.test(lower)) return true
   if (/\b(routine|daily|food|made|comes|favorite)\s+\1\b/.test(lower)) return true
   if (/\bmy daily routine my daily\b/.test(lower)) return true
+  if (/\bslo english\b/.test(lower)) return true
   if (/\byour favorite dinner at 1100 p\.m\./.test(lower)) return true
   if (/\bi go to sleep i love sleeping i love feeling\b/.test(lower)) return true
+  if (/^who do you .+ with$/.test(withoutPunctuation)) return false
+  if (/^after [a-z]+ing,?\s+i\s+[a-z]+/.test(withoutPunctuation)) return false
   if (/\b(with|for|to|from|about|at|in|on|of|who|what|where|when|why|how)$/.test(withoutPunctuation)) return true
-  if (/\b(and|or|but|so|because|it'?s)$/.test(withoutPunctuation)) return true
+  if (/\b(and|or|but|so|because|it'?s|the|a|an|i)$/.test(withoutPunctuation)) return true
+  if (/\bso,\s*$/.test(withoutPunctuation)) return true
+  if (/[.,]\?$/.test(text)) return true
+  if (/\.\s+a podcast\b/.test(text)) return true
+  if (/\.[\"']\.$/.test(text)) return true
+  if (/\bwhat did i do who is this\b/.test(withoutPunctuation)) return true
+  if (/^i do who is this$/.test(withoutPunctuation)) return true
+  if (/\bphone call a strange phone call i$/.test(withoutPunctuation)) return true
   if (/^(in|after|before|at|for)\b/.test(withoutPunctuation) && wordCount <= 4) return true
   if (/^my favorite [a-z]+$/.test(withoutPunctuation)) return true
   if (/\b(sugar sugar makes|you fat)\b/.test(withoutPunctuation)) return true
@@ -315,6 +473,18 @@ function isLikelyCueFragment(sentence) {
   if (wordCount > 38) return true
 
   return false
+}
+
+function makeAnchorId(prefix, value) {
+  const slug = String(value ?? '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
+  return slug ? `${prefix}-${slug}` : ''
+}
+
+function normalizeLemma(value) {
+  return String(value ?? '').trim().toLowerCase()
 }
 
 /**

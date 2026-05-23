@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=iAEYuZNVJoM",
   "header": {
     "podcastLabel": "MissHoney B1",
-    "titleZh": "適合 A2-B1 中級程度的 SLOW 英語播客！ --規劃我的第一次旅行！ ✈️",
+    "titleZh": "適合 A2-B1 中級程度的 SLOW 英語podcast！ --規劃我的第一次旅行！ ✈️",
     "titleEn": "SLOW English Podcast for A2-B1 intemediate levels!-- Planning my first trip!✈️",
     "levelTag": "B1",
     "topicTag": "travel"
@@ -20,11 +20,11 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "This podcast is for intermediate English listeners.",
-          "tc": "該播客適合中級英語聽眾。"
+          "tc": "該podcast適合中級英語聽眾。"
         },
         {
           "en": "Today I will talk to you about my.",
@@ -40,16 +40,8 @@
           "english": "trip",
           "kk": "/trip/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "旅行",
           "note": "看到 trip 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "first",
-          "kk": "/first/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 first 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -61,11 +53,11 @@
       "titleEn": "Part 2: travel",
       "sentences": [
         {
-          "en": "First time traveling alone the.",
-          "tc": "第一次一個人旅行。"
+          "en": "First time traveling alone.",
+          "tc": "第一次獨自旅行。"
         },
         {
-          "en": "First time I ever traveled alone was when I was 18 years old.",
+          "en": "The first time I ever traveled alone was when I was 18 years old.",
           "tc": "我第一次獨自旅行是在我18歲的時候。"
         },
         {
@@ -73,34 +65,26 @@
           "tc": "我預訂了飛往墨西哥圖盧姆的機票，我記得我非常緊張和害怕，我的家人也為我感到緊張。"
         },
         {
-          "en": "I took my flight to Tulum and I had a great time it was so much fun it was a trip.",
-          "tc": "我搭乘飛往圖盧姆的航班，度過了一段愉快的時光，這是一次旅行，非常有趣。"
+          "en": "I took my flight to Tulum.",
+          "tc": "我搭乘班機飛往圖盧姆。"
         }
       ],
       "tags": [
         {
-          "english": "trip",
-          "kk": "/trip/",
+          "english": "alone",
+          "kk": "/alone/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 trip 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "獨自的",
+          "note": "看到 alone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
-          "english": "ever",
-          "kk": "/ever/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 ever 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "first",
-          "kk": "/first/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 first 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "english": "nervous",
+          "kk": "/nervous/",
+          "partOfSpeech": "adj.",
+          "meaning": "緊張的",
+          "note": "看到 nervous 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -111,20 +95,20 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "I will remember my whole life because it was the.",
-          "tc": "我會記得我的一生，因為它就是。"
+          "en": "I had a great time.",
+          "tc": "我玩得很開心。"
         },
         {
-          "en": "First trip alone that I ever had it was the trip that made me feel like.",
-          "tc": "我第一次獨自旅行，這是一次讓我感覺良好的旅行。"
+          "en": "It was so much fun.",
+          "tc": "太有趣了。"
         },
         {
-          "en": "I could do anything and go anywhere in the world I saw the stunning beaches in dulum and the breathtaking views of the Cotes.",
-          "tc": "我可以做任何事情，去世界上任何地方，我看到了杜盧姆迷人的海灘和科特斯令人驚嘆的景色。"
+          "en": "It was a trip I will remember my whole life.",
+          "tc": "這是一次我終生難忘的旅行。"
         },
         {
-          "en": "I saw one of the seven wonders of the world and it was the chich chinita.",
-          "tc": "我看到了世界七大奇蹟之一，那就是奇奇奇尼塔。"
+          "en": "The first trip alone that I ever had.",
+          "tc": "我第一次獨自旅行。"
         }
       ],
       "tags": [
@@ -132,49 +116,41 @@
           "english": "trip",
           "kk": "/trip/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "旅行",
           "note": "看到 trip 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "ever",
-          "kk": "/ever/",
+          "english": "alone",
+          "kk": "/alone/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 ever 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "first",
-          "kk": "/first/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 first 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "獨自的",
+          "note": "看到 alone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：人物與關係",
-      "titleEn": "Part 4: people",
+      "titleZh": "第 4 段：旅行",
+      "titleEn": "Part 4: travel",
       "sentences": [
         {
-          "en": "After making lots of friends and having lots of wonderful experience es.",
-          "tc": "在結交了很多朋友並獲得了很多美好的經歷之後。"
+          "en": "It was the trip that made me feel like I could do anything and go anywhere in the world.",
+          "tc": "這次旅行讓我覺得我可以做任何事情，去世界任何地方。"
         },
         {
-          "en": "I started planning my.",
-          "tc": "我開始計劃我的。"
+          "en": "I saw the stunning beaches in dulum and the breathtaking views of the Cotes.",
+          "tc": "我看到了杜盧姆迷人的海灘和科特斯令人驚嘆的景色。"
         },
         {
-          "en": "Next trip I started planning my trip to Costa Rica I went to Costa Rica.",
-          "tc": "下一次旅行我開始計劃我的哥斯達黎加之旅我去了哥斯達黎加。"
+          "en": "One of the seven wonders of the world.",
+          "tc": "世界七大奇蹟之一。"
         },
         {
-          "en": "When I was 19 years old I traveled to Tamarindo and I saw the most beautiful sunset?",
-          "tc": "當我19歲的時候，我去塔馬林多旅行，我看到了最美麗的日落？"
+          "en": "It was the chich chinita after making lots of friends and having lots of wonderful experience es I started planning my.",
+          "tc": "在結交了很多朋友並獲得了很多美妙的經歷之後，我開始計劃我的。"
         }
       ],
       "tags": [
@@ -182,24 +158,16 @@
           "english": "trip",
           "kk": "/trip/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "旅行",
           "note": "看到 trip 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "saw",
-          "kk": "/saw/",
+          "english": "friends",
+          "kk": "/friends/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 saw 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "beautiful",
-          "kk": "/beautiful/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "朋友們",
+          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -207,9 +175,17 @@
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段：旅行",
+      "titleEn": "Part 5: travel",
       "sentences": [
+        {
+          "en": "Next trip I started planning my trip to Costa Rica I went to Costa Rica when I was 19 years old I traveled to Tamarindo.",
+          "tc": "下一次旅行我開始計劃我的哥斯達黎加之旅我19歲時去了哥斯達黎加我去了塔馬林多。"
+        },
+        {
+          "en": "I saw the most beautiful sunset.",
+          "tc": "我看到了最美的日落。"
+        },
         {
           "en": "I have ever seen till this day I also took surfing lessons.",
           "tc": "直到今天我才發現我還參加了衝浪課程。"
@@ -217,31 +193,23 @@
         {
           "en": "After that I traveled to another city I went to Manuel Antonio and there.",
           "tc": "之後我去了另一個城市，我去了曼努埃爾安東尼奧那裡。"
-        },
-        {
-          "en": "I volunteered at a hostel for one full month.",
-          "tc": "我在一家旅館當了整整一個月的志工。"
-        },
-        {
-          "en": "I like volunteering at places because you can stay in a place near the beach near monuments somewhere beautiful for free.",
-          "tc": "我喜歡在一些地方做志願者，因為你可以免費住在靠近海灘、靠近紀念碑的地方。"
         }
       ],
       "tags": [
         {
-          "english": "ever",
-          "kk": "/ever/",
+          "english": "trip",
+          "kk": "/trip/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 ever 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "旅行",
+          "note": "看到 trip 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "beautiful",
-          "kk": "/beautiful/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "costa",
+          "kk": "/costa/",
+          "partOfSpeech": "n.",
+          "meaning": "科斯塔",
+          "note": "看到 costa 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -253,45 +221,465 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "I had to clean the bathrooms and clean the kitchen and keep the rooms tidy.",
-          "tc": "我必須打掃浴室、打掃廚房並保持房間整潔。"
+          "en": "I volunteered at a hostel for one full month.",
+          "tc": "我在一家旅館當了整整一個月的志工。"
         },
         {
-          "en": "I also worked at reception from time to time have you ever volunteered somewhere maybe at a hostel a dog shelter maybe at a farm while.",
-          "tc": "我也時常在接待處工作，你是否曾在某個地方做過志願者，也許是在旅館、狗收容所，也許是在農場。"
+          "en": "I like volunteering at places because you can stay in a place near the beach near monuments somewhere beautiful for free.",
+          "tc": "我喜歡在一些地方做志願者，因為你可以免費住在靠近海灘、靠近紀念碑的地方。"
         },
         {
-          "en": "I was volunteering in Costa Rica I saw the most beautiful beaches.",
-          "tc": "我在哥斯達黎加做志工時看到了最美麗的海灘。"
+          "en": "I had to clean the bathrooms and clean the kitchen and keep the rooms tidy I also worked at reception from time to time.",
+          "tc": "我必須打掃浴室、打掃廚房並保持房間整潔，我也不時在接待處工作。"
         },
         {
-          "en": "I have ever seen and I made two very good friends.",
-          "tc": "我見過並結識了兩個非常好的朋友。"
+          "en": "Have you ever volunteered somewhere maybe at a hostel a dog shelter maybe at a farm while I was volunteering in Costa Rica?",
+          "tc": "當我在哥斯大黎加當志工時，你有沒有在某個地方做過志願者，像是旅館、狗狗收容所、農場？"
         }
       ],
       "tags": [
         {
-          "english": "ever",
-          "kk": "/ever/",
+          "english": "hostel",
+          "kk": "/hostel/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 ever 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "旅館",
+          "note": "看到 hostel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "time",
-          "kk": "/time/",
+          "english": "costa",
+          "kk": "/costa/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "科斯塔",
+          "note": "看到 costa 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：旅行",
+      "titleEn": "Part 7: travel",
+      "sentences": [
+        {
+          "en": "I saw the most beautiful beaches.",
+          "tc": "我看到了最美麗的海灘。"
+        },
+        {
+          "en": "I have ever seen and I made two very good friends.",
+          "tc": "我見過並結識了兩個非常好的朋友。"
+        },
+        {
+          "en": "They were a French couple one of my friends is actually the girl who tattooed me.",
+          "tc": "他們是一對法國夫婦，我的一個朋友實際上就是給我紋身的女孩。"
+        },
+        {
+          "en": "She is a very good artist a very talented artist and my other friend I met in Costa Rica introduced me and showed me scuba diving.",
+          "tc": "她是一位非常優秀的藝術家，一位非常有才華的藝術家，我在哥斯達黎加遇到的另一位朋友介紹了我並向我展示了水肺潛水。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "costa",
+          "kk": "/costa/",
+          "partOfSpeech": "n.",
+          "meaning": "科斯塔",
+          "note": "看到 costa 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "saw",
-          "kk": "/saw/",
+          "english": "friends",
+          "kk": "/friends/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 saw 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "朋友們",
+          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "I love scuba diving.",
+          "tc": "我喜歡水肺潛水。"
+        },
+        {
+          "en": "It was a very special moment for me.",
+          "tc": "這對我來說是一個非常特別的時刻。"
+        },
+        {
+          "en": "They will always be two very special friends for me after my trip to Costa Rica I couldn't wait I started planning my.",
+          "tc": "在我去哥斯達黎加旅行之後，他們將永遠是我的兩個非常特別的朋友，我迫不及待地開始計劃我的旅行。"
+        },
+        {
+          "en": "I had always wanted to travel to Thailand ever since I was a little girl.",
+          "tc": "我從小就一直想去泰國旅行。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "trip",
+          "kk": "/trip/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 trip 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "costa",
+          "kk": "/costa/",
+          "partOfSpeech": "n.",
+          "meaning": "科斯塔",
+          "note": "看到 costa 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "I don't know why but I always have loved Thailand.",
+          "tc": "不知道為什麼，我一直很喜歡泰國。"
+        },
+        {
+          "en": "I think it's because my name is Tyana and people call me Tai.",
+          "tc": "我想這是因為我的名字是 Tyana，人們都叫我 Tai。"
+        },
+        {
+          "en": "When I was little and I heard about a country named Thailand like Tyana?",
+          "tc": "我小時候聽過一個叫泰國的國家，就像蒂亞娜一樣？"
+        },
+        {
+          "en": "I was determined to visit and see it someday I also have always loved elephants.",
+          "tc": "我決心有一天一定要去看看，我也一直很喜歡大象。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "I have always loved watching videos of elephants and drawing elephant elephants and Thailand has elephants.",
+          "tc": "我一直很喜歡看大象的影片和畫大象，泰國也有大象。"
+        },
+        {
+          "en": "I had two very good reasons or motives to travel to Thailand.",
+          "tc": "我有兩個非常好的理由或動機去泰國旅行。"
+        },
+        {
+          "en": "Is there any place you have always wanted to visit?",
+          "tc": "有沒有什麼地方是你一直想去的地方？"
+        },
+        {
+          "en": "Is there any specific reason why you want to visit there?",
+          "tc": "你想去那裡參觀有什麼具體原因嗎？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：旅行",
+      "titleEn": "Part 11: travel",
+      "sentences": [
+        {
+          "en": "I started planning my trip to Thailand and I decided to go two days.",
+          "tc": "我開始計劃去泰國旅行，我決定去兩天。"
+        },
+        {
+          "en": "Before my birthday I wanted to spend my birthday alone so I booked my ticket for November mber 19th 2 days.",
+          "tc": "在我生日之前，我想一個人過生日，所以我預訂了11月19日兩天的機票。"
+        },
+        {
+          "en": "Before my birthday my family was so nervous for me Thailand is so far away from Mexico.",
+          "tc": "在我生日之前，我的家人為我感到非常緊張，泰國離墨西哥太遠了。"
+        },
+        {
+          "en": "I had made up my mind I was going to Thailand to my land.",
+          "tc": "我已經下定決心要去泰國，回到我的祖國。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "trip",
+          "kk": "/trip/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 trip 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "alone",
+          "kk": "/alone/",
+          "partOfSpeech": "n.",
+          "meaning": "獨自的",
+          "note": "看到 alone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "I took one small backpack and my 52h hour flight to Thailand.",
+          "tc": "我帶了一個小背包，搭乘 52 小時的班機飛往泰國。"
+        },
+        {
+          "en": "I was so nervous but the moment I stepped off the plane.",
+          "tc": "我很緊張，但是一下飛機的那一刻。"
+        },
+        {
+          "en": "I began to feel the nervous excitement I ordered a grab a grab is like uber but in Asia.",
+          "tc": "我開始感到緊張興奮，我點了一個搶，就像優步，但在亞洲。"
+        },
+        {
+          "en": "I ordered a grab and I went to my hostel.",
+          "tc": "我點了一份外賣，然後就去了我的旅館。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "hostel",
+          "kk": "/hostel/",
+          "partOfSpeech": "n.",
+          "meaning": "旅館",
+          "note": "看到 hostel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "nervous",
+          "kk": "/nervous/",
+          "partOfSpeech": "adj.",
+          "meaning": "緊張的",
+          "note": "看到 nervous 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "It was around 12 p.m. And I was a little bit lost.",
+          "tc": "当时是中午 12 点左右。我有點失落。"
+        },
+        {
+          "en": "I asked for directions.",
+          "tc": "我問路。"
+        },
+        {
+          "en": "Do you know where this hostel is and this one very kind man saw I was lost?",
+          "tc": "你知道這家旅館在哪裡嗎？這個非常善良的人看到我迷路了？"
+        },
+        {
+          "en": "He gave me a ride to my hostel.",
+          "tc": "他開車送我去宿舍。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "hostel",
+          "kk": "/hostel/",
+          "partOfSpeech": "n.",
+          "meaning": "旅館",
+          "note": "看到 hostel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常生活",
+      "titleEn": "Part 14: everyday life",
+      "sentences": [
+        {
+          "en": "He was a very kind person and that was a very nice gesture.",
+          "tc": "他是一個非常友善的人，這是一個非常好的舉動。"
+        },
+        {
+          "en": "Next days I met so many nice people and nobody knew.",
+          "tc": "接下來的幾天我遇到了很多好人，但沒有人知道。"
+        },
+        {
+          "en": "It was my birthday it felt strange but also really cool.",
+          "tc": "那天是我的生日，感覺很奇怪，但也很酷。"
+        },
+        {
+          "en": "Would you ever spend your birthday alone I spent three months traveling through Thailand Cambodia and Vietnam Vietnamese food is incredible?",
+          "tc": "你會獨自度過你的生日嗎？我花了三個月的時間遊歷了泰國、柬埔寨和越南，越南菜棒極了？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "alone",
+          "kk": "/alone/",
+          "partOfSpeech": "n.",
+          "meaning": "獨自的",
+          "note": "看到 alone 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "birthday",
+          "kk": "/birthday/",
+          "partOfSpeech": "n.",
+          "meaning": "生日",
+          "note": "看到 birthday 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：食物與用餐",
+      "titleEn": "Part 15: food",
+      "sentences": [
+        {
+          "en": "What country has had the best food you have ever tried I loved the Vietnamese people?",
+          "tc": "哪個國家有你吃過的最好的食物我喜歡越南人？"
+        },
+        {
+          "en": "They were always singing karaoke.",
+          "tc": "他們總是唱卡拉OK。"
+        },
+        {
+          "en": "They were always smiling cambodia's beaches were pristine.",
+          "tc": "他們總是微笑著柬埔寨的海灘是原始的。"
+        },
+        {
+          "en": "They had some very interesting Foods I will always remember my trip to Asia.",
+          "tc": "他們有一些非常有趣的食物，我永遠記得我的亞洲之旅。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "trip",
+          "kk": "/trip/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 trip 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：旅行",
+      "titleEn": "Part 16: travel",
+      "sentences": [
+        {
+          "en": "Then after my trip I came back to Mexico I celebrated birthdays and Father's Day.",
+          "tc": "旅行結束後，我回到墨西哥慶祝生日和父親節。"
+        },
+        {
+          "en": "I head out to travel again I went to Port Portugal I volunteered at a hostel in Portugal near Lisbon the capital of Portugal in KAS there.",
+          "tc": "我再次出發去旅行，我去了葡萄牙港，我在葡萄牙首都里斯本附近的一家旅館做志願者，在那裡的KAS。"
+        },
+        {
+          "en": "I worked with four other people two from Argentina one from Ecuador and one from Brazil.",
+          "tc": "我和另外四個人一起工作，其中兩個來自阿根廷，一個來自厄瓜多爾，一個來自巴西。"
+        },
+        {
+          "en": "They became some of my closest friends.",
+          "tc": "他們成為我最親密的朋友。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "trip",
+          "kk": "/trip/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 trip 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "hostel",
+          "kk": "/hostel/",
+          "partOfSpeech": "n.",
+          "meaning": "旅館",
+          "note": "看到 hostel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "birthday",
+          "kk": "/birthday/",
+          "partOfSpeech": "n.",
+          "meaning": "生日",
+          "note": "看到 birthday 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -305,64 +693,64 @@
           "english": "trip",
           "kk": "/trip/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "旅行",
           "note": "看到 trip 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "ever",
-          "kk": "/ever/",
+          "english": "thailand",
+          "kk": "/thailand/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 ever 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "first",
-          "kk": "/first/",
+          "english": "hostel",
+          "kk": "/hostel/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 first 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "旅館",
+          "note": "看到 hostel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "time",
-          "kk": "/time/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "saw",
-          "kk": "/saw/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 saw 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
         {
           "english": "alone",
           "kk": "/alone/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "獨自的",
           "note": "看到 alone 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "beautiful",
-          "kk": "/beautiful/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "birthday",
+          "kk": "/birthday/",
+          "partOfSpeech": "n.",
+          "meaning": "生日",
+          "note": "看到 birthday 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "costa",
           "kk": "/costa/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "科斯塔",
           "note": "看到 costa 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "friends",
+          "kk": "/friends/",
+          "partOfSpeech": "n.",
+          "meaning": "朋友們",
+          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "nervous",
+          "kk": "/nervous/",
+          "partOfSpeech": "adj.",
+          "meaning": "緊張的",
+          "note": "看到 nervous 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -371,23 +759,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "one of the",
-      "meaning": "常用說法，可用來表達「one of the」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "I saw one of the seven wonders of the world and it was the chich chinita.",
-          "tc": "我看到了世界七大奇蹟之一，那就是奇奇奇尼塔。"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "i like",
-      "meaning": "常用說法，可用來表達「i like」這個意思",
+      "phrase": "my name is",
+      "meaning": "我的名字是",
       "examples": [
         {
-          "en": "I like volunteering at places because you can stay in a place near the beach near monuments somewhere beautiful for free.",
-          "tc": "我喜歡在一些地方做志願者，因為你可以免費住在靠近海灘、靠近紀念碑的地方。"
+          "en": "I think it's because my name is Tyana and people call me Tai.",
+          "tc": "我想這是因為我的名字是 Tyana，人們都叫我 Tai。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-03",
+      "phrase": "have you ever",
+      "meaning": "你曾經有沒有",
+      "examples": [
+        {
+          "en": "Have you ever volunteered somewhere maybe at a hostel a dog shelter maybe at a farm while I was volunteering in Costa Rica?",
+          "tc": "當我在哥斯大黎加當志工時，你有沒有在某個地方做過志願者，像是旅館、狗狗收容所、農場？"
         }
       ]
     }
@@ -396,7 +795,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -408,7 +807,7 @@
     {
       "id": "breakdown-02",
       "sentence": "This podcast is for intermediate English listeners.",
-      "translation": "該播客適合中級英語聽眾。",
+      "translation": "該podcast適合中級英語聽眾。",
       "points": [
         {
           "label": "listeners",
@@ -435,9 +834,9 @@
       "translation": "我的第一次獨自旅行。",
       "points": [
         {
-          "label": "first solo trip",
-          "text": "first solo trip",
-          "note": "注意 \"first solo trip\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "solo trip",
+          "text": "solo trip",
+          "note": "注意 \"solo trip\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

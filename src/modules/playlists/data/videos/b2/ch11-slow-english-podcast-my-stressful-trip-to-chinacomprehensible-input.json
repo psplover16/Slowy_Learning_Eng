@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=sqkpfB6DXeo",
   "header": {
     "podcastLabel": "MissHoney B2",
-    "titleZh": "慢英語播客 - 我壓力很大的中國之旅！ 🇨🇳（可理解的輸入）",
+    "titleZh": "慢英語podcast - 我壓力很大的中國之旅！ 🇨🇳（可理解的輸入）",
     "titleEn": "SLOW English Podcast - My stressful trip to China!🇨🇳(comprehensible input)",
     "levelTag": "B2",
     "topicTag": "travel"
@@ -27,12 +27,12 @@
           "tc": "襲擊之後我的思緒稍微清醒了一些。它讓我想起了所有美好的時刻。"
         },
         {
-          "en": "I spent with my sister traveling. Those memories mean a lot to me right now. I'm really proud of this episode. Enjoy.",
-          "tc": "我和姐姐一起旅行。這些記憶現在對我來說意義重大。我對這一集感到非常自豪。享受。"
+          "en": "I spent with my sister traveling. Those memories mean a lot to me right now.",
+          "tc": "我和姐姐一起旅行。這些記憶現在對我來說意義重大。"
         },
         {
-          "en": "Welcome back to my slow English podcast. >>.",
-          "tc": "歡迎回到我的慢速英語播客。 >>。"
+          "en": "I'm really proud of this episode. Enjoy.",
+          "tc": "我對這一集感到非常自豪。享受。"
         }
       ],
       "tags": [
@@ -40,17 +40,9 @@
           "english": "sister",
           "kk": "/sister/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "姊姊",
           "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         }
       ]
     },
@@ -60,6 +52,10 @@
       "titleZh": "第 2 段：語言學習",
       "titleEn": "Part 2: language",
       "sentences": [
+        {
+          "en": "Welcome back to my slow English podcast. >>.",
+          "tc": "歡迎回到我的慢速英語podcast。 >>。"
+        },
         {
           "en": "You while you practice your English listening is so special.",
           "tc": "當你練習英語聽力時，你是如此特別。"
@@ -71,27 +67,31 @@
         {
           "en": "I tell you about my stressful trip to China. Last week I went from Tokyo to Shanghai. Our flight left at 10:00 p.m.",
           "tc": "我告訴你我的中國之行充滿壓力。上週我從東京去了上海。我們的航班於晚上 10:00 出發。"
-        },
-        {
-          "en": "We arrived in Shanghai at 1:00 a.m. So, to make sure.",
-          "tc": "我們凌晨 1:00 抵達上海。所以，為了確認一下。"
         }
       ],
       "tags": [
         {
-          "english": "get",
-          "kk": "/get/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "china",
+          "kk": "/china/",
+          "partOfSpeech": "n.",
+          "meaning": "中國",
+          "note": "看到 china 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "our",
-          "kk": "/our/",
+          "english": "flight",
+          "kk": "/flight/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -103,6 +103,10 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
+          "en": "We arrived in Shanghai at 1:00 a.m. So, to make sure.",
+          "tc": "我們凌晨 1:00 抵達上海。所以，為了確認一下。"
+        },
+        {
           "en": "We caught our flight.",
           "tc": "我們趕上了航班。"
         },
@@ -113,35 +117,23 @@
         {
           "en": "We got breakfast and I bought a new suitcase. I needed one to use as carry-on luggage. Very big luggage to fit all of the things that.",
           "tc": "我們吃了早餐，我買了一個新行李箱。我需要一件作為隨身行李。行李箱很大，可以裝下所有東西。"
-        },
-        {
-          "en": "I bought in Tokyo. I did a lot of shopping. I bought hats sweaters coats, some very big clunky shoes and lots of souvenirs for all of my friends and family.",
-          "tc": "我是在東京買的。我買了很多東西。我給我所有的朋友和家人買了帽子、毛衣、外套、一些又大又笨重的鞋子和很多紀念品。"
         }
       ],
       "tags": [
         {
-          "english": "bought",
-          "kk": "/bought/",
+          "english": "flight",
+          "kk": "/flight/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "our",
-          "kk": "/our/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "bought",
+          "kk": "/bought/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "買",
+          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -149,9 +141,13 @@
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段：人物與關係",
+      "titleEn": "Part 4: people",
       "sentences": [
+        {
+          "en": "I bought in Tokyo. I did a lot of shopping. I bought hats sweaters coats, some very big clunky shoes and lots of souvenirs for all of my friends and family.",
+          "tc": "我是在東京買的。我買了很多東西。我給我所有的朋友和家人買了帽子、毛衣、外套、一些又大又笨重的鞋子和很多紀念品。"
+        },
         {
           "en": "After I bought the big suitcase.",
           "tc": "買了大行李箱後。"
@@ -163,10 +159,6 @@
         {
           "en": "I love this video. My sister is so strong. To get to the subway.",
           "tc": "我喜歡這個影片。姐姐的力氣真大。去地鐵。"
-        },
-        {
-          "en": "You have to go down so many flights of stairs. And there were no escalators. So, my sister carried our giant suitcase all by herself.",
-          "tc": "你必須走很多樓梯。而且沒有自動扶梯。於是，姊姊一個人拎著我們的大行李箱。"
         }
       ],
       "tags": [
@@ -174,25 +166,25 @@
           "english": "train",
           "kk": "/train/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "火車",
           "note": "看到 train 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "bought",
-          "kk": "/bought/",
+          "english": "sister",
+          "kk": "/sister/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "get",
-          "kk": "/get/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
+          "partOfSpeech": "n.",
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -203,20 +195,20 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
+          "en": "You have to go down so many flights of stairs. And there were no escalators. So, my sister carried our giant suitcase all by herself.",
+          "tc": "你必須走很多樓梯。而且沒有自動扶梯。於是，姊姊一個人拎著我們的大行李箱。"
+        },
+        {
           "en": "We bought a ticket at the vending machine.",
           "tc": "我們在自動售票機買了票。"
         },
         {
-          "en": "We waited for our train. I was a little impatient. I didn't want to wait any longer. So, I told my sister \"This train is it. Let's get on this train.\" So,.",
-          "tc": "我們等待火車。我有點不耐煩了。我不想再等了。於是，我對姐姐說：「就是這趟車了，我們上這趟車吧。」所以，。"
+          "en": "We waited for our train. I was a little impatient. I didn't want to wait any longer. So, I told my sister \"This train is it. Let's get on this train.\"",
+          "tc": "我們等待火車。我有點不耐煩了。我不想再等了。於是，我對姐姐說：“就是這趟車了，我們上這趟車吧。”"
         },
         {
-          "en": "We boarded the.",
-          "tc": "我們登上了。"
-        },
-        {
-          "en": "First train that passed by. And it was the wrong train. My sister was so annoyed at me.",
-          "tc": "第一列火車經過。而且上錯火車了。我姐姐對我很生氣。"
+          "en": "The first train that passed by.",
+          "tc": "第一列火車經過。"
         }
       ],
       "tags": [
@@ -224,25 +216,25 @@
           "english": "train",
           "kk": "/train/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "火車",
           "note": "看到 train 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "bought",
-          "kk": "/bought/",
+          "english": "sister",
+          "kk": "/sister/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "get",
-          "kk": "/get/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -253,12 +245,8 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "I was so restless impatient and I made us board the wrong train. So,.",
-          "tc": "我實在是太焦躁不耐煩了，結果讓我們上錯火車了。所以，。"
-        },
-        {
-          "en": "We had to get off at the.",
-          "tc": "我們不得不在 下車。"
+          "en": "It was the wrong train. My sister was so annoyed at me because I was so restless impatient and I made us board the wrong train.",
+          "tc": "上錯火車了。我姐姐對我很生氣，因為我焦躁不安，讓我們上錯火車了。"
         },
         {
           "en": "Next train station.",
@@ -267,6 +255,10 @@
         {
           "en": "We boarded the right train.",
           "tc": "我們登上了正確的火車。"
+        },
+        {
+          "en": "We were on our way to the Tokyo airport.",
+          "tc": "我們正在前往東京機場的路上。"
         }
       ],
       "tags": [
@@ -274,17 +266,629 @@
           "english": "train",
           "kk": "/train/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "火車",
           "note": "看到 train 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
+          "partOfSpeech": "n.",
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：旅行",
+      "titleEn": "Part 7: travel",
+      "sentences": [
+        {
+          "en": "We arrived at the airport.",
+          "tc": "我們抵達機場。"
+        },
+        {
+          "en": "We walked a long way until.",
+          "tc": "我們走了很長一段路，直到。"
+        },
+        {
+          "en": "We found the counters.",
+          "tc": "我們找到了櫃檯。"
+        },
+        {
+          "en": "We have to wait until it's 2 hours before our flight leaves.",
+          "tc": "我們必須等到航班起飛前 2 小時。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
+          "partOfSpeech": "n.",
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "We checked the time.",
+          "tc": "我們查了一下時間。"
+        },
+        {
+          "en": "We were 8 hours early. My sister.",
+          "tc": "我們早到了8個小時。我的姊妹。"
+        },
+        {
+          "en": "I don't like being rushed or late. But this time.",
+          "tc": "我不喜歡匆忙或遲到。但這一次。"
+        },
+        {
+          "en": "We were too early. >> Definitely. How early.",
+          "tc": "我們來得太早了。 >> 當然。多早啊。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：旅行",
+      "titleEn": "Part 9: travel",
+      "sentences": [
+        {
+          "en": "Do you go to the airport before your flight leaves? What's the most comfortable time for you to have before your flight?",
+          "tc": "你會在航班起飛前去機場嗎？起飛前你最舒服的時間是什麼時候？"
+        },
+        {
+          "en": "I need at least 4 hours. Otherwise,.",
+          "tc": "我至少需要4個小時。否則，。"
+        },
+        {
+          "en": "I feel like.",
+          "tc": "我覺得。"
+        },
+        {
+          "en": "I'm going to miss my flight. Since.",
+          "tc": "我要錯過航班了。自從。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
+          "partOfSpeech": "n.",
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "We had so much time on our hands,.",
+          "tc": "我們有很多空閒時間。"
+        },
+        {
+          "en": "We went to the food court.",
+          "tc": "我們去了美食廣場。"
+        },
+        {
+          "en": "We ate some delicious udon noodles.",
+          "tc": "我們吃了一些美味的烏龍麵。"
+        },
+        {
+          "en": "It was time.",
+          "tc": "是時候了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "train",
+          "kk": "/train/",
+          "partOfSpeech": "n.",
+          "meaning": "火車",
+          "note": "看到 train 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "china",
+          "kk": "/china/",
+          "partOfSpeech": "n.",
+          "meaning": "中國",
+          "note": "看到 china 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "We went through security.",
+          "tc": "我們通過了安檢。"
+        },
+        {
+          "en": "We found our gate number.",
+          "tc": "我們找到了登機口號碼。"
+        },
+        {
+          "en": "We waited some more. After 4 hours,.",
+          "tc": "我們又等了一會兒。 4小時後，。"
+        },
+        {
+          "en": "We were in Shanghai. I tried to connect to the Wi-Fi.",
+          "tc": "我們當時在上海。我嘗試連接到 Wi-Fi。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "train",
+          "kk": "/train/",
+          "partOfSpeech": "n.",
+          "meaning": "火車",
+          "note": "看到 train 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "china",
+          "kk": "/china/",
+          "partOfSpeech": "n.",
+          "meaning": "中國",
+          "note": "看到 china 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "We could start setting up our payment apps like WeChat Pay or Alipay.",
+          "tc": "我們可以開始設定微信支付或支付寶等支付應用程式。"
+        },
+        {
+          "en": "If you didn't know China is almost cashless.",
+          "tc": "如果你不知道中國幾乎是無現金的。"
+        },
+        {
+          "en": "They don't use cash.",
+          "tc": "他們不使用現金。"
+        },
+        {
+          "en": "They don't accept our cards. Only their own.",
+          "tc": "他们不接受我们的卡。只有他們自己的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "china",
+          "kk": "/china/",
+          "partOfSpeech": "n.",
+          "meaning": "中國",
+          "note": "看到 china 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "apps",
+          "kk": "/apps/",
+          "partOfSpeech": "n.",
+          "meaning": "應用程式",
+          "note": "看到 apps 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：旅行",
+      "titleEn": "Part 13: travel",
+      "sentences": [
+        {
+          "en": "We basically need these apps to pay for anything in China. People look at you like you are crazy.",
+          "tc": "在中国，我们基本上需要这些应用程序来支付任何费用。人們看著你就像你瘋了一樣。"
+        },
+        {
+          "en": "If you want to use cash. It's not common at all.",
+          "tc": "如果你想用現金。這根本不常見。"
+        },
+        {
+          "en": "We had set up these payment apps before but now the apps weren't working. Our banks were rejecting the payments.",
+          "tc": "我們之前已經設定了這些支付應用程序，但現在這些應用程式無法運行。我们的银行拒绝付款。"
+        },
+        {
+          "en": "We were so frustrated and exhausted.",
+          "tc": "我們非常沮喪和疲憊。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "china",
+          "kk": "/china/",
+          "partOfSpeech": "n.",
+          "meaning": "中國",
+          "note": "看到 china 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "apps",
+          "kk": "/apps/",
+          "partOfSpeech": "n.",
+          "meaning": "應用程式",
+          "note": "看到 apps 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常生活",
+      "titleEn": "Part 14: everyday life",
+      "sentences": [
+        {
+          "en": "It was 3:00 a.m.",
+          "tc": "當時是凌晨 3:00。"
+        },
+        {
+          "en": "We still couldn't get any of the apps to work.",
+          "tc": "我們仍然無法讓任何應用程式運行。"
+        },
+        {
+          "en": "Finally, I managed to use my WeChat Pay app to buy a little pancake from a vending machine. And it worked. So, I figured it works. Let's go. But now,.",
+          "tc": "最後，我成功地使用微信支付應用程式從自動販賣機買了一個小煎餅。它奏效了。所以，我認為它有效。我們走吧。但現在，。"
+        },
+        {
+          "en": "We couldn't find the taxis.",
+          "tc": "我們找不到計程車。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "apps",
+          "kk": "/apps/",
+          "partOfSpeech": "n.",
+          "meaning": "應用程式",
+          "note": "看到 apps 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "get",
           "kk": "/get/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "得到",
           "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "We were walking back and forth, back and forth,.",
+          "tc": "我們走來走去，來來回回。"
+        },
+        {
+          "en": "We couldn't seem to find them.",
+          "tc": "我們似乎找不到他們。"
+        },
+        {
+          "en": "I asked a guy.",
+          "tc": "我問了一個人。"
+        },
+        {
+          "en": "I said, \"Qǐngwèn, chūzūchē zài nǎr?\" Excuse me, where are the taxis?",
+          "tc": "我說：「Qǐngwèn，chūzūchē zài nǎr？」打擾一下，計程車在哪裡？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "train",
+          "kk": "/train/",
+          "partOfSpeech": "n.",
+          "meaning": "火車",
+          "note": "看到 train 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "china",
+          "kk": "/china/",
+          "partOfSpeech": "n.",
+          "meaning": "中國",
+          "note": "看到 china 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：日常生活",
+      "titleEn": "Part 16: everyday life",
+      "sentences": [
+        {
+          "en": "He said something.",
+          "tc": "他說了些什麼。"
+        },
+        {
+          "en": "He answered in full fast Chinese.",
+          "tc": "他用完整、快速的中文回答。"
+        },
+        {
+          "en": "He spoke for one full minute.",
+          "tc": "他講了整整一分鐘。"
+        },
+        {
+          "en": "He gave me directions, hand gestures, everything.",
+          "tc": "他給我指路、手勢等等一切。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "train",
+          "kk": "/train/",
+          "partOfSpeech": "n.",
+          "meaning": "火車",
+          "note": "看到 train 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "china",
+          "kk": "/china/",
+          "partOfSpeech": "n.",
+          "meaning": "中國",
+          "note": "看到 china 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段：日常生活",
+      "titleEn": "Part 17: everyday life",
+      "sentences": [
+        {
+          "en": "He said. But I was too embarrassed to tell him that I didn't understand. Especially because I was so excited that.",
+          "tc": "他說。但我又不好意思告訴他我不懂。尤其是因為我對此感到非常興奮。"
+        },
+        {
+          "en": "He understood my Chinese. So, I just smiled and said, \"Oh, okay.",
+          "tc": "他聽得懂我的中文。所以，我只是微笑著說：「哦，好吧。"
+        },
+        {
+          "en": "Thank you.\" And I left. Once my sister caught up with me, I told her, \"Okay, follow me. It's this way.\"",
+          "tc": "謝謝你。 」然後我就離開了。當我姐姐追上我時，我告訴她，「好吧，跟我來。是這樣的。 」"
+        },
+        {
+          "en": "She followed me. And once.",
+          "tc": "她跟著我。還有一次。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段：日常生活",
+      "titleEn": "Part 18: everyday life",
+      "sentences": [
+        {
+          "en": "She laughed at me.",
+          "tc": "她嘲笑我。"
+        },
+        {
+          "en": "We found another man.",
+          "tc": "我們找到了另一個人。"
+        },
+        {
+          "en": "I asked him in English.",
+          "tc": "我用英語問他。"
+        },
+        {
+          "en": "We found the taxis.",
+          "tc": "我們找到了計程車。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "train",
+          "kk": "/train/",
+          "partOfSpeech": "n.",
+          "meaning": "火車",
+          "note": "看到 train 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "china",
+          "kk": "/china/",
+          "partOfSpeech": "n.",
+          "meaning": "中國",
+          "note": "看到 china 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段：日常生活",
+      "titleEn": "Part 19: everyday life",
+      "sentences": [
+        {
+          "en": "We were so >> relieved.",
+          "tc": "我們很>>鬆了一口氣。"
+        },
+        {
+          "en": "We made it. And I was so shocked at how fast the cars could go from 0 to 100 in a split second. The car would go from 0 to 100.",
+          "tc": "我們做到了。我對汽車在瞬間從 0 加速到 100 的速度感到非常震驚。汽車會從 0 到 100。"
+        },
+        {
+          "en": "Then my sister informed me that China actually has some of the fastest cars in the world.",
+          "tc": "然後我姐姐告訴我，中國實際上擁有世界上最快的汽車。"
+        },
+        {
+          "en": "It was something I didn't know about China.",
+          "tc": "這是我對中國不了解的事。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "china",
+          "kk": "/china/",
+          "partOfSpeech": "n.",
+          "meaning": "中國",
+          "note": "看到 china 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段：日常生活",
+      "titleEn": "Part 20: everyday life",
+      "sentences": [
+        {
+          "en": "Finally arrived at our.",
+          "tc": "終於到了我們的。"
+        },
+        {
+          "en": "First hotel near the airport just to sleep. And tomorrow.",
+          "tc": "第一次住機場附近的飯店就睡覺。還有明天。"
+        },
+        {
+          "en": "We would book a new place to stay. I scanned my WeChat code to pay. I sent the payment and my card rejected it.",
+          "tc": "我們會預訂一個新的住宿地點。我掃微信碼付款。我付款了，但我的卡拒絕了。"
+        },
+        {
+          "en": "We couldn't believe it.",
+          "tc": "我們簡直不敢相信。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
+          "partOfSpeech": "n.",
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     }
@@ -297,64 +901,64 @@
           "english": "train",
           "kk": "/train/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "火車",
           "note": "看到 train 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "get",
-          "kk": "/get/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "our",
-          "kk": "/our/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 our 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
         {
           "english": "sister",
           "kk": "/sister/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "姊姊",
           "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "china",
+          "kk": "/china/",
+          "partOfSpeech": "n.",
+          "meaning": "中國",
+          "note": "看到 china 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "big",
-          "kk": "/big/",
+          "english": "apps",
+          "kk": "/apps/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "應用程式",
+          "note": "看到 apps 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "suitcase",
-          "kk": "/suitcase/",
+          "english": "bought",
+          "kk": "/bought/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 suitcase 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "買",
+          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -363,6 +967,17 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "get ready",
       "meaning": "準備好",
       "examples": [
@@ -373,24 +988,13 @@
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
-      "examples": [
-        {
-          "en": "I didn't want to wait any longer.",
-          "tc": "我不想再等了。"
-        }
-      ]
-    },
-    {
       "id": "phrase-03",
-      "phrase": "have to",
-      "meaning": "常用說法，可用來表達「have to」這個意思",
+      "phrase": "going to",
+      "meaning": "去",
       "examples": [
         {
-          "en": "You have to go down so many flights of stairs.",
-          "tc": "你必須走很多樓梯。"
+          "en": "I'm going to miss my flight.",
+          "tc": "我要錯過航班了。"
         }
       ]
     }
@@ -414,16 +1018,16 @@
       "translation": "襲擊之後我的思緒稍微清醒了一些。它讓我想起了所有美好的時刻。",
       "points": [
         {
-          "label": "after assault helped",
-          "text": "after assault helped",
-          "note": "注意 \"after assault helped\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "assault helped mind",
+          "text": "assault helped mind",
+          "note": "注意 \"assault helped mind\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
-      "sentence": "I spent with my sister traveling. Those memories mean a lot to me right now. I'm really proud of this episode. Enjoy.",
-      "translation": "我和姐姐一起旅行。這些記憶現在對我來說意義重大。我對這一集感到非常自豪。享受。",
+      "sentence": "I spent with my sister traveling. Those memories mean a lot to me right now.",
+      "translation": "我和姐姐一起旅行。這些記憶現在對我來說意義重大。",
       "points": [
         {
           "label": "spent sister traveling",
@@ -434,13 +1038,13 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "Welcome back to my slow English podcast. >>.",
-      "translation": "歡迎回到我的慢速英語播客。 >>。",
+      "sentence": "I'm really proud of this episode. Enjoy.",
+      "translation": "我對這一集感到非常自豪。享受。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "proud episode enjoy",
+          "text": "proud episode enjoy",
+          "note": "注意 \"proud episode enjoy\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

@@ -19,12 +19,12 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Welcome back to my Slow English podcast. Today.",
-          "tc": "歡迎回到我的慢速英語播客。今天。"
+          "en": "Welcome back to my Slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
-          "en": "We are at the airport.",
-          "tc": "我們在機場。"
+          "en": "Today we are at the airport.",
+          "tc": "今天我們在機場。"
         },
         {
           "en": "We are going to take a flight. Join us. The automatic doors slide open and right away.",
@@ -32,24 +32,24 @@
         },
         {
           "en": "You see the FIDS board, the flight information display system where you can see your flight status, whether it's on time, delayed, or cancelled.",
-          "tc": "您會看到 FIDS 板，這是一個航班資訊顯示系統，您可以在其中查看航班狀態，無論是準時、延誤還是取消。"
+          "tc": "你會看到 FIDS 板，這是一個航班資訊顯示系統，你可以在其中查看航班狀態，無論是準時、延誤還是取消。"
         }
       ],
       "tags": [
         {
-          "english": "flight",
-          "kk": "/flight/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
           "english": "take",
           "kk": "/take/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "拿",
           "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -73,33 +73,33 @@
           "tc": "我們必須找到亞洲航空報到櫃檯。"
         },
         {
-          "en": "I am in line to check in. Some people prefer the selfch checkin kiosk, but I don't like this selfcheckin system as much.",
-          "tc": "我正在排隊辦理登機手續。有些人喜歡自助辦理登機手續亭，但我不太喜歡這種自助登機系統。"
+          "en": "I am in line to check in. Some people prefer the selfch checkin kiosk,.",
+          "tc": "我正在排隊辦理登機手續。有些人喜歡自助辦理登機手續亭。"
         }
       ],
       "tags": [
         {
-          "english": "but",
-          "kk": "/but/",
+          "english": "plane",
+          "kk": "/plane/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "飛機",
+          "note": "看到 plane 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "checkin",
-          "kk": "/checkin/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 checkin 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "拿",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "counter",
-          "kk": "/counter/",
+          "english": "gate",
+          "kk": "/gate/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 counter 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "門",
+          "note": "看到 gate 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -111,45 +111,29 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
+          "en": "I don't like this selfcheckin system as much.",
+          "tc": "我不太喜歡這個自助登記系統。"
+        },
+        {
           "en": "Sometimes it makes me nervous. I prefer to check in at a counter with a real person. What about you?",
           "tc": "有時這讓我緊張。我更喜歡在櫃檯與真人一起辦理登機手續。你呢？"
         },
         {
           "en": "Do you prefer the checkin counter or the selfch checkckin kiosk? >>?",
-          "tc": "您喜歡報到櫃檯還是自助報到亭？ >>？"
+          "tc": "你喜歡報到櫃檯還是自助報到亭？ >>？"
         },
         {
           "en": "I am taking the escalator, the electric stairs. You can also take the elevator, but only.",
-          "tc": "我搭乘自動扶梯，電動樓梯。您也可以搭乘電梯，但僅限。"
-        },
-        {
-          "en": "If you need it. Maybe.",
-          "tc": "如果你需要的話。或許。"
+          "tc": "我搭乘自動扶梯，電動樓梯。你也可以搭乘電梯，但僅限。"
         }
       ],
       "tags": [
         {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "checkin",
-          "kk": "/checkin/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 checkin 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "counter",
-          "kk": "/counter/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 counter 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "拿",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -161,45 +145,29 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "If you have big luggage or you're in a wheelchair, but it's exclusive for people who need the elevator. I'm okay with taking the escalator, the electric stairs.",
-          "tc": "如果您有大件行李或坐在輪椅上，但它是專門為需要電梯的人提供的。我可以搭乘自動扶梯、電動樓梯。"
+          "en": "If you need it. Maybe.",
+          "tc": "如果你需要的話。或許。"
+        },
+        {
+          "en": "If you have big luggage or you're in a wheelchair, but it's exclusive for people who need the elevator.",
+          "tc": "如果你有大件行李或坐在輪椅上，但它是專門為需要電梯的人提供的。"
+        },
+        {
+          "en": "I'm okay with taking the escalator, the electric stairs.",
+          "tc": "我可以搭乘自動扶梯、電動樓梯。"
         },
         {
           "en": "We got some lunch before our flight.",
           "tc": "我們在起飛前吃了午餐。"
-        },
-        {
-          "en": "We were close to international arrivals,.",
-          "tc": "我們離國際航班很近。"
-        },
-        {
-          "en": "We had to get to international departures.",
-          "tc": "我們必須前往國際出發航班。"
         }
       ],
       "tags": [
         {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "flight",
           "kk": "/flight/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "航班",
           "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "got",
-          "kk": "/got/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -211,45 +179,29 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "We were departing, not arriving. I got my passport ready and my ticket.",
-          "tc": "我們正在出發，而不是到達。我已經準備好護照和機票了。"
+          "en": "We were close to international arrivals,.",
+          "tc": "我們離國際航班很近。"
         },
         {
-          "en": "We passed through the security checkpoint where you have to take out anything metal like keys, bracelets, coins or change, your computer or laptop, your phone, your headphones.",
-          "tc": "我們通過了安​​全檢查站，你必須取出任何金屬物品，如鑰匙、手鐲、硬幣或零錢、你的電腦或筆記型電腦、你的手機、你的耳機。"
+          "en": "We had to get to international departures.",
+          "tc": "我們必須前往國際出發航班。"
         },
         {
-          "en": "Sometimes even your shoes. The queue or line was very long, but once.",
-          "tc": "有時甚至是你的鞋子。隊列很長，但有一次。"
+          "en": "We were departing, not arriving.",
+          "tc": "我們正在出發，而不是到達。"
         },
         {
-          "en": "We got through security,.",
-          "tc": "我們通過了安​​檢，。"
+          "en": "I got my passport ready and my ticket.",
+          "tc": "我已經準備好護照和機票了。"
         }
       ],
       "tags": [
         {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "got",
-          "kk": "/got/",
+          "english": "get",
+          "kk": "/get/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "take",
-          "kk": "/take/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -261,9 +213,55 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
+          "en": "We passed through the security checkpoint where you have to take out anything metal like keys, bracelets, coins or change, your computer or laptop, your phone, your headphones.",
+          "tc": "我們通過了安全檢查站，你必須取出任何金屬物品，如鑰匙、手鐲、硬幣或零錢、你的電腦或筆記型電腦、你的手機、你的耳機。"
+        },
+        {
+          "en": "Sometimes even your shoes. The queue or line was very long, but once.",
+          "tc": "有時甚至是你的鞋子。隊列很長，但有一次。"
+        },
+        {
+          "en": "We got through security,.",
+          "tc": "我們通過了安檢，。"
+        },
+        {
           "en": "We were in. I always love the dutyfree stores.",
           "tc": "我們進去了。我一直很喜歡免稅店。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "拿",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
+        {
+          "english": "long",
+          "kk": "/long/",
+          "partOfSpeech": "n.",
+          "meaning": "長的",
+          "note": "看到 long 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "through",
+          "kk": "/through/",
+          "partOfSpeech": "n.",
+          "meaning": "透過",
+          "note": "看到 through 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
         {
           "en": "They're super expensive,.",
           "tc": "它們超級貴，。"
@@ -275,15 +273,469 @@
         {
           "en": "We walk past Cartiier and Starbucks as.",
           "tc": "我們走過卡地亞和星巴克。"
+        },
+        {
+          "en": "We make our way to our gate by following the signs with gate number instructions on them.",
+          "tc": "我們按照標有登機口號碼說明的標誌前往登機口。"
         }
       ],
       "tags": [
         {
+          "english": "gate",
+          "kk": "/gate/",
+          "partOfSpeech": "n.",
+          "meaning": "門",
+          "note": "看到 gate 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "through",
           "kk": "/through/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "透過",
           "note": "看到 through 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "It was super useful that.",
+          "tc": "這非常有用。"
+        },
+        {
+          "en": "They put how long of a walk each gate was at. 10 minutes, 5 minutes, 1 minute. That way, you're not super rushed or in a hurry to get to your gate.",
+          "tc": "他們記錄了每個登機口的步行時間。 10分鐘，5分鐘，1分鐘。這樣，你就不會非常匆忙或急於到達登機口。"
+        },
+        {
+          "en": "When you still have lots of time to get there. When it's only a fiveinut walk?",
+          "tc": "當你還有很多時間到達那裡時。當步行只需五分鐘的時候？"
+        },
+        {
+          "en": "You also know.",
+          "tc": "你也知道。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "gate",
+          "kk": "/gate/",
+          "partOfSpeech": "n.",
+          "meaning": "門",
+          "note": "看到 gate 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "long",
+          "kk": "/long/",
+          "partOfSpeech": "n.",
+          "meaning": "長的",
+          "note": "看到 long 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "If you need to hurry.",
+          "tc": "如果你需要快點。"
+        },
+        {
+          "en": "If you need to rush to your gate.",
+          "tc": "如果你需要趕到登機口。"
+        },
+        {
+          "en": "I usually eat something while I wait at my gate. I wait at my boarding gate. It can be long.",
+          "tc": "我通常在門口等的時候吃點東西。我在登機口等候。它可以很長。"
+        },
+        {
+          "en": "I usually get some dessert. This one was a sweet bean dessert in Thailand.",
+          "tc": "我通常會吃一些甜點。這是泰國的一種甜豆甜點。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "gate",
+          "kk": "/gate/",
+          "partOfSpeech": "n.",
+          "meaning": "門",
+          "note": "看到 gate 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "long",
+          "kk": "/long/",
+          "partOfSpeech": "n.",
+          "meaning": "長的",
+          "note": "看到 long 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：食物與用餐",
+      "titleEn": "Part 10: food",
+      "sentences": [
+        {
+          "en": "It was so sweet. I loved it.",
+          "tc": "真是太甜蜜了。我喜歡它。"
+        },
+        {
+          "en": "Have you ever tried one of these little sweet treats?",
+          "tc": "你嘗試過這些小甜點嗎？"
+        },
+        {
+          "en": "What do you think of them? Before boarding, I always go to the bathroom. I make sure?",
+          "tc": "你覺得他們怎麼樣？登机前，我总是去洗手间。我確定？"
+        },
+        {
+          "en": "I have my two bags.",
+          "tc": "我有我的兩個包。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "plane",
+          "kk": "/plane/",
+          "partOfSpeech": "n.",
+          "meaning": "飛機",
+          "note": "看到 plane 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "拿",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "gate",
+          "kk": "/gate/",
+          "partOfSpeech": "n.",
+          "meaning": "門",
+          "note": "看到 gate 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：旅行",
+      "titleEn": "Part 11: travel",
+      "sentences": [
+        {
+          "en": "We get on the airport shuttle bus. This shuttle drives us to the airplane.",
+          "tc": "我們坐上機場接駁車。這班車送我們去飛機。"
+        },
+        {
+          "en": "We take a shuttle to a plane.",
+          "tc": "我們搭乘接駁車前往飛機。"
+        },
+        {
+          "en": "Sometimes you just go straight through and board the plane. I prefer going straight to the plane,.",
+          "tc": "有時你只需直接通過並登機即可。我比較喜歡直接去飛機。"
+        },
+        {
+          "en": "Sometimes you have to take a shuttle. The shuttle took all of the passengers to the plane.",
+          "tc": "有時你必須乘坐班車。班車將所有乘客送上飛機。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "plane",
+          "kk": "/plane/",
+          "partOfSpeech": "n.",
+          "meaning": "飛機",
+          "note": "看到 plane 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "拿",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "We waited in line to board.",
+          "tc": "我們排隊等候登機。"
+        },
+        {
+          "en": "We had to climb stairs to board our plane.",
+          "tc": "我們必須爬樓梯才能登機。"
+        },
+        {
+          "en": "We walked through the aisle of the plane.",
+          "tc": "我們走過飛機的走道。"
+        },
+        {
+          "en": "We put our luggage in the overhead bin right above our seats. Here.",
+          "tc": "我們把行李放在座位上方的頭頂行李箱。這裡。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "plane",
+          "kk": "/plane/",
+          "partOfSpeech": "n.",
+          "meaning": "飛機",
+          "note": "看到 plane 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "seat",
+          "kk": "/seat/",
+          "partOfSpeech": "n.",
+          "meaning": "座位",
+          "note": "看到 seat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "through",
+          "kk": "/through/",
+          "partOfSpeech": "n.",
+          "meaning": "透過",
+          "note": "看到 through 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "I am sitting in the aisle seat.",
+          "tc": "我坐在靠走道的座位上。"
+        },
+        {
+          "en": "Next to the aisle. This is my personal favorite seat because I can get up and go to the bathroom however many times.",
+          "tc": "就在走道旁邊。這是我個人最喜歡的座位，因為我可以多次起身去洗手間。"
+        },
+        {
+          "en": "I need and I use the bathroom a lot.",
+          "tc": "我需要並且經常使用浴室。"
+        },
+        {
+          "en": "I love a plane with screens to watch movies on. This plane was super empty.",
+          "tc": "我喜歡有螢幕的飛機，可以在上面看電影。這架飛機非常空。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "plane",
+          "kk": "/plane/",
+          "partOfSpeech": "n.",
+          "meaning": "飛機",
+          "note": "看到 plane 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "seat",
+          "kk": "/seat/",
+          "partOfSpeech": "n.",
+          "meaning": "座位",
+          "note": "看到 seat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常生活",
+      "titleEn": "Part 14: everyday life",
+      "sentences": [
+        {
+          "en": "I got a window seat. The aisle seat and the middle seat were both empty. So, I chose the window seat.",
+          "tc": "我有一個靠窗的座位。走道座位和中間座位都空了。所以，我選擇了靠窗的座位。"
+        },
+        {
+          "en": "We are ready to take off. The plane drives on the runway for a little while and once it gains enough speed,.",
+          "tc": "我們準備起飛了。飛機在跑道上行駛一段時間，一旦獲得足夠的速度。"
+        },
+        {
+          "en": "We take off.",
+          "tc": "我們起飛。"
+        },
+        {
+          "en": "I'm ready to put on my sleep mask and take a long nap. The best way to spend a flight is sleeping through it. On long flights,.",
+          "tc": "我準備戴上睡眠面罩，小睡一會兒。度過飛行旅程的最佳方式就是在旅途中睡覺。在長途飛行中，."
+        }
+      ],
+      "tags": [
+        {
+          "english": "plane",
+          "kk": "/plane/",
+          "partOfSpeech": "n.",
+          "meaning": "飛機",
+          "note": "看到 plane 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "take",
+          "kk": "/take/",
+          "partOfSpeech": "v.",
+          "meaning": "拿",
+          "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "They normally give you a pillow and a blanket. And you get to watch movies on the flight. On long flights, I always bring my neck pillow.",
+          "tc": "他們通常會給你一個枕頭和一條毯子。你還可以在飛機上看電影。在長途飛行中，我總是帶著頸枕。"
+        },
+        {
+          "en": "I like watching the screen to see how far.",
+          "tc": "我喜歡看螢幕來看看距離有多遠。"
+        },
+        {
+          "en": "We have traveled. I also like just looking at the world and learning about different countries that.",
+          "tc": "我們旅行過。我也喜歡觀察世界並了解不同的國家。"
+        },
+        {
+          "en": "I've never heard of. Before. During my flights,.",
+          "tc": "我從來沒有聽過。前。在我的飛行期間，."
+        }
+      ],
+      "tags": [
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "long",
+          "kk": "/long/",
+          "partOfSpeech": "n.",
+          "meaning": "長的",
+          "note": "看到 long 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：工作與學習",
+      "titleEn": "Part 16: work",
+      "sentences": [
+        {
+          "en": "I like to work on my computer. And during longer flights,.",
+          "tc": "我喜歡在電腦上工作。在長途飛行期間，。"
+        },
+        {
+          "en": "They tint out the windows so that even if it's sunny outside, it will seem like it's nighttime. It makes the sun look very pretty.",
+          "tc": "他們把窗戶塗上顏色，這樣即使外面陽光明媚，也看起來像是在晚上。它使太陽看起來非常漂亮。"
+        },
+        {
+          "en": "Then the sun rises.",
+          "tc": "然後太陽升起。"
+        },
+        {
+          "en": "I think it's almost time to land.",
+          "tc": "我想差不多該著陸了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "long",
+          "kk": "/long/",
+          "partOfSpeech": "n.",
+          "meaning": "長的",
+          "note": "看到 long 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -294,66 +746,66 @@
       "title": "B1 重點單字",
       "items": [
         {
-          "english": "but",
-          "kk": "/but/",
+          "english": "plane",
+          "kk": "/plane/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "飛機",
+          "note": "看到 plane 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "checkin",
-          "kk": "/checkin/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 checkin 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "counter",
-          "kk": "/counter/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 counter 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "flight",
-          "kk": "/flight/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "got",
-          "kk": "/got/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "prefer",
-          "kk": "/prefer/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 prefer 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
         {
           "english": "take",
           "kk": "/take/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "拿",
           "note": "看到 take 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "gate",
+          "kk": "/gate/",
+          "partOfSpeech": "n.",
+          "meaning": "門",
+          "note": "看到 gate 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "long",
+          "kk": "/long/",
+          "partOfSpeech": "n.",
+          "meaning": "長的",
+          "note": "看到 long 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "seat",
+          "kk": "/seat/",
+          "partOfSpeech": "n.",
+          "meaning": "座位",
+          "note": "看到 seat 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "through",
           "kk": "/through/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "透過",
           "note": "看到 through 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -363,34 +815,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "We are going to take a flight.",
-          "tc": "我們要搭飛機了。"
+          "en": "Welcome back to my Slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "have to",
-      "meaning": "常用說法，可用來表達「have to」這個意思",
+      "phrase": "what do you",
+      "meaning": "你會怎麼...",
       "examples": [
         {
-          "en": "We passed through the security checkpoint where you have to take out anything metal like keys, bracelets, coins or change, your computer or laptop, your phone, your headphones.",
-          "tc": "我們通過了安​​全檢查站，你必須取出任何金屬物品，如鑰匙、手鐲、硬幣或零錢、你的電腦或筆記型電腦、你的手機、你的耳機。"
+          "en": "What do you think of them?",
+          "tc": "你覺得他們怎麼樣？"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "i like",
-      "meaning": "常用說法，可用來表達「i like」這個意思",
+      "phrase": "have you ever",
+      "meaning": "你曾經有沒有",
       "examples": [
         {
-          "en": "I like looking through each store while I wait.",
-          "tc": "我喜歡在等待的時候瀏覽每家商店。"
+          "en": "Have you ever tried one of these little sweet treats?",
+          "tc": "你嘗試過這些小甜點嗎？"
         }
       ]
     }
@@ -398,8 +850,8 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Welcome back to my Slow English podcast. Today.",
-      "translation": "歡迎回到我的慢速英語播客。今天。",
+      "sentence": "Welcome back to my Slow English podcast.",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -410,8 +862,8 @@
     },
     {
       "id": "breakdown-02",
-      "sentence": "We are at the airport.",
-      "translation": "我們在機場。",
+      "sentence": "Today we are at the airport.",
+      "translation": "今天我們在機場。",
       "points": [
         {
           "label": "airport",
@@ -426,16 +878,16 @@
       "translation": "我們要搭飛機了。加入我們。自動門立即滑開。",
       "points": [
         {
-          "label": "going to",
-          "text": "going to",
-          "note": "注意 \"going to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "going take flight",
+          "text": "going take flight",
+          "note": "注意 \"going take flight\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-04",
       "sentence": "You see the FIDS board, the flight information display system where you can see your flight status, whether it's on time, delayed, or cancelled.",
-      "translation": "您會看到 FIDS 板，這是一個航班資訊顯示系統，您可以在其中查看航班狀態，無論是準時、延誤還是取消。",
+      "translation": "你會看到 FIDS 板，這是一個航班資訊顯示系統，你可以在其中查看航班狀態，無論是準時、延誤還是取消。",
       "points": [
         {
           "label": "see fids board",

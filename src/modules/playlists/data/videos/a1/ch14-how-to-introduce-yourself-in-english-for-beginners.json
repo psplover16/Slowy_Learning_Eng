@@ -19,12 +19,8 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Hello and welcome to my Slow English podcast. Take your time. Listen carefully and watch my hand gestures.",
-          "tc": "您好，歡迎來到我的慢速英語播客。慢慢來。仔細聽並觀察我的手勢。"
-        },
-        {
-          "en": "To understand new words in English.",
-          "tc": "理解英語新單字。"
+          "en": "Welcome to my Slow English podcast. Take your time. Listen carefully and watch my hand gestures to understand new words in English.",
+          "tc": "歡迎來到我的慢速英語podcast。慢慢來。仔細聽並觀察我的手勢來理解英文生詞。"
         },
         {
           "en": "Today I want to introduce myself to you.",
@@ -33,16 +29,36 @@
         {
           "en": "I am Tyiana. My full name is Tyiana Ortiz. My.",
           "tc": "我是蒂亞娜。我的全名是蒂亞娜·奧爾蒂斯。我的。"
+        },
+        {
+          "en": "First name is Tyiana and my last name is Ortiz.",
+          "tc": "我的名字是蒂亞娜，我的姓氏是奧提斯。"
         }
       ],
       "tags": [
         {
-          "english": "name",
-          "kk": "/name/",
+          "english": "birthday",
+          "kk": "/birthday/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 name 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "生日",
+          "note": "看到 birthday 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "job",
+          "kk": "/job/",
+          "partOfSpeech": "n.",
+          "meaning": "工作",
+          "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
@@ -53,20 +69,20 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "First name is Tyiana and my last name is Ortiz.",
-          "tc": "我的名字是蒂亞娜，我的姓氏是奧提斯。"
-        },
-        {
           "en": "I am 21 years old. Actually, I will be 22 years old.",
           "tc": "我今年21歲。事實上，我今年就22歲了。"
         },
         {
-          "en": "Next week. My birthday is November 22nd.",
-          "tc": "下週。我的生日是11月22日。"
+          "en": "Next week. My birthday is November 22nd. So I will be turning 22 on November 22nd.",
+          "tc": "下週。我的生日是11月22日。所以我將於 11 月 22 日滿 22 歲。"
         },
         {
-          "en": "I will be turning 22 on November 22nd.",
-          "tc": "11 月 22 日我就滿 22 歲了。"
+          "en": "I will be turning 22 years old. And in the United States, that is called your golden birthday.",
+          "tc": "我馬上就22歲了。在美國，這被稱為你的黃金生日。"
+        },
+        {
+          "en": "If you were born on January 4th and you turn 4 years old,.",
+          "tc": "如果你出生於1月4日並且你滿4歲了。"
         }
       ],
       "tags": [
@@ -74,7 +90,7 @@
           "english": "birthday",
           "kk": "/birthday/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "生日",
           "note": "看到 birthday 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -82,7 +98,7 @@
           "english": "old",
           "kk": "/old/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "老的",
           "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -90,7 +106,7 @@
           "english": "years",
           "kk": "/years/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "年",
           "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -103,20 +119,20 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "I will be turning 22 years old. And in the United States, that is called your golden birthday.",
-          "tc": "我馬上就22歲了。在美國，這被稱為你的黃金生日。"
+          "en": "Then that's your golden birthday.",
+          "tc": "那就是你的黃金生日。"
         },
         {
-          "en": "If you were born on January 4th and you turn 4 years old,.",
-          "tc": "如果你出生於1月4日並且你滿4歲了。"
+          "en": "Tell me when is your golden birthday? Did your golden birthday already pass or not yet?",
+          "tc": "告訴我你的黃金生日是什麼時候？你的黃金生日已經過去了嗎？"
         },
         {
-          "en": "Then that's your golden birthday. Tell me when is your golden birthday? Did your golden birthday already pass.",
-          "tc": "那就是你的黃金生日。告訴我你的黃金生日是什麼時候？你的黃金生日已經過去了嗎？"
+          "en": "I am from the United States, Nebraska. I was born in Nebraska, USA. I grew up in Nebraska, USA. My mom is from the United States. My dad is from Mexico.",
+          "tc": "我來自美國內布拉斯加州。我出生在美國內布拉斯加州。我在美國內布拉斯加州長大。我媽媽來自美國。我爸爸來自墨西哥。"
         },
         {
-          "en": "Or not yet?",
-          "tc": "還是還沒有？"
+          "en": "That's why I look kind of mixed like a cappuccino. When I was 8 years old, my dad was deported back to Mexico.",
+          "tc": "這就是為什麼我看起來有點像卡布奇諾。當我8歲時，我父親被驅逐回墨西哥。"
         }
       ],
       "tags": [
@@ -124,23 +140,23 @@
           "english": "birthday",
           "kk": "/birthday/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "生日",
           "note": "看到 birthday 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "did",
-          "kk": "/did/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 did 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "old",
           "kk": "/old/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "老的",
           "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -149,49 +165,49 @@
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段：旅行",
+      "titleEn": "Part 4: travel",
       "sentences": [
         {
-          "en": "I am from the United States, Nebraska. I was born in Nebraska, USA.",
-          "tc": "我來自美國內布拉斯加州。我出生在美國內布拉斯加州。"
+          "en": "We all moved to Mexico to live.",
+          "tc": "我們都搬到墨西哥居住。"
         },
         {
-          "en": "I grew up in Nebraska, USA. My mom is from the United States. My dad is from Mexico.",
-          "tc": "我在美國內布拉斯加州長大。我媽媽來自美國。我爸爸來自墨西哥。"
+          "en": "It was a big change. Everything changed. But Mexico has beautiful people.",
+          "tc": "這是一個很大的改變。一切都變了。但墨西哥有美麗的人民。"
         },
         {
-          "en": "That's why I look kind of mixed like a cappuccino.",
-          "tc": "這就是為什麼我看起來有點像卡布奇諾。"
+          "en": "Are you from? Where did you grow up? I studied elementary school, middle school, and high school in Mexico. But I did not study at university. Did you study at university?",
+          "tc": "你是來自嗎？你在哪裡長大？我在墨西哥讀了小學、國中和高中。但我沒有讀過大學。你讀過大學嗎？"
         },
         {
-          "en": "When I was 8 years old, my dad was deported back to Mexico?",
-          "tc": "當我8歲時，我父親被驅逐回墨西哥？"
+          "en": "What did you study? After high school, I began to work to make money. I worked as an English teacher online. That was my job?",
+          "tc": "你學了什麼？高中畢業後，我開始打工賺錢。我在網路上擔任英語老師。那是我的工作嗎？"
         }
       ],
       "tags": [
         {
+          "english": "job",
+          "kk": "/job/",
+          "partOfSpeech": "n.",
+          "meaning": "工作",
+          "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "mexico",
           "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "墨西哥",
           "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "old",
-          "kk": "/old/",
+          "english": "school",
+          "kk": "/school/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "years",
-          "kk": "/years/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "學校",
+          "note": "看到 school 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -199,49 +215,49 @@
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：旅行",
-      "titleEn": "Part 5: travel",
+      "titleZh": "第 5 段：工作與學習",
+      "titleEn": "Part 5: work",
       "sentences": [
         {
-          "en": "We all moved to Mexico to live. It was a big change. Everything changed. But Mexico has beautiful.",
-          "tc": "我們都搬到墨西哥居住。這是一個很大的改變。一切都變了。但墨西哥也有美麗的地方。"
+          "en": "I work at my job. I worked as an English teacher. I worked at Craving English, Preply, Open English, and Out School.",
+          "tc": "我做我的工作。我擔任英語老師。我曾在 Craving English、Preply、Open English 和 Out School 工作過。"
         },
         {
-          "en": "People and I have a beautiful family. And you?",
-          "tc": "我和人們都有一個美好的家庭。你呢？"
+          "en": "I had so many jobs.",
+          "tc": "我有很多工作。"
         },
         {
-          "en": "Are you from? Where did you grow up?",
-          "tc": "你是來自嗎？你在哪裡長大？"
+          "en": "I love working as an English teacher.",
+          "tc": "我喜歡英語老師的工作。"
         },
         {
-          "en": "I studied elementary school, middle school, and high school in Mexico.",
-          "tc": "我在墨西哥讀了小學、國中和高中。"
+          "en": "It is a really fun job. I talk to interesting people. I help them learn and understand English.",
+          "tc": "這是一項非常有趣的工作。我和有趣的人交談。 I help them learn and understand English."
         }
       ],
       "tags": [
         {
-          "english": "did",
-          "kk": "/did/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 did 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "mexico",
-          "kk": "/mexico/",
+          "english": "job",
+          "kk": "/job/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "工作",
+          "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "school",
           "kk": "/school/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "學校",
           "note": "看到 school 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -249,41 +265,41 @@
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段：語言學習",
+      "titleEn": "Part 6: language",
       "sentences": [
         {
-          "en": "I did not study at university. Did you study at university?",
-          "tc": "我沒有讀過大學。你讀過大學嗎？"
+          "en": "They practice English with me.",
+          "tc": "他們和我一起練習英語。"
         },
         {
-          "en": "What did you study? After high school, I began to work to make money?",
-          "tc": "你學了什麼？高中畢業後，我開始打工賺錢？"
+          "en": "I love teaching.",
+          "tc": "我熱愛教學。"
         },
         {
-          "en": "I worked as an English teacher online. That was my job.",
-          "tc": "我在網路上擔任英語老師。那是我的工作。"
+          "en": "What is your job?",
+          "tc": "你做什麼工作？"
         },
         {
-          "en": "I work at my job. I worked as an English teacher.",
-          "tc": "我做我的工作。我擔任英語老師。"
+          "en": "What do you do for work? Remember, job is a noun. Work is a verb. I speak English and Spanish?",
+          "tc": "你做什麼工作？請記住，工作是一個名詞。工作是一個動詞。我會說英語和西班牙語？"
         }
       ],
       "tags": [
         {
-          "english": "did",
-          "kk": "/did/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 did 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "job",
+          "kk": "/job/",
+          "partOfSpeech": "n.",
+          "meaning": "工作",
+          "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "school",
-          "kk": "/school/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 school 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -297,23 +313,23 @@
           "english": "birthday",
           "kk": "/birthday/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "生日",
           "note": "看到 birthday 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "did",
-          "kk": "/did/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 did 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "job",
+          "kk": "/job/",
+          "partOfSpeech": "n.",
+          "meaning": "工作",
+          "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "mexico",
           "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "墨西哥",
           "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -321,15 +337,23 @@
           "english": "old",
           "kk": "/old/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "老的",
           "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "school",
+          "kk": "/school/",
+          "partOfSpeech": "n.",
+          "meaning": "學校",
+          "note": "看到 school 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "years",
           "kk": "/years/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "年",
           "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -337,24 +361,16 @@
           "english": "golden",
           "kk": "/golden/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "金的",
           "note": "看到 golden 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "school",
-          "kk": "/school/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 school 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "name",
-          "kk": "/name/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 name 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -363,23 +379,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "phrase": "welcome to",
+      "meaning": "歡迎來到",
       "examples": [
         {
-          "en": "Today I want to introduce myself to you.",
-          "tc": "今天我想向你們介紹我自己。"
+          "en": "Welcome to my Slow English podcast.",
+          "tc": "歡迎來到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "i want",
-      "meaning": "常用說法，可用來表達「i want」這個意思",
+      "phrase": "what do you",
+      "meaning": "你會怎麼...",
       "examples": [
         {
-          "en": "Today I want to introduce myself to you.",
-          "tc": "今天我想向你們介紹我自己。"
+          "en": "What do you do for work?",
+          "tc": "你做什麼工作？"
+        }
+      ]
+    },
+    {
+      "id": "phrase-03",
+      "phrase": "what did",
+      "meaning": "用來詢問過去發生了什麼",
+      "examples": [
+        {
+          "en": "What did you study?",
+          "tc": "你學了什麼？"
         }
       ]
     }
@@ -387,42 +414,30 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Hello and welcome to my Slow English podcast. Take your time. Listen carefully and watch my hand gestures.",
-      "translation": "您好，歡迎來到我的慢速英語播客。慢慢來。仔細聽並觀察我的手勢。",
+      "sentence": "Welcome to my Slow English podcast. Take your time. Listen carefully and watch my hand gestures to understand new words in English.",
+      "translation": "歡迎來到我的慢速英語podcast。慢慢來。仔細聽並觀察我的手勢來理解英文生詞。",
       "points": [
         {
-          "label": "welcome take time",
-          "text": "welcome take time",
-          "note": "注意 \"welcome take time\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "welcome to",
+          "text": "welcome to",
+          "note": "注意 \"welcome to\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-02",
-      "sentence": "To understand new words in English.",
-      "translation": "理解英語新單字。",
+      "sentence": "Today I want to introduce myself to you.",
+      "translation": "今天我想向你們介紹我自己。",
       "points": [
         {
-          "label": "understand new words",
-          "text": "understand new words",
-          "note": "注意 \"understand new words\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "want introduce myself",
+          "text": "want introduce myself",
+          "note": "注意 \"want introduce myself\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
-      "sentence": "Today I want to introduce myself to you.",
-      "translation": "今天我想向你們介紹我自己。",
-      "points": [
-        {
-          "label": "want to",
-          "text": "want to",
-          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
-        }
-      ]
-    },
-    {
-      "id": "breakdown-04",
       "sentence": "I am Tyiana. My full name is Tyiana Ortiz. My.",
       "translation": "我是蒂亞娜。我的全名是蒂亞娜·奧爾蒂斯。我的。",
       "points": [
@@ -430,6 +445,18 @@
           "label": "tyiana full name",
           "text": "tyiana full name",
           "note": "注意 \"tyiana full name\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
+      "sentence": "First name is Tyiana and my last name is Ortiz.",
+      "translation": "我的名字是蒂亞娜，我的姓氏是奧提斯。",
+      "points": [
+        {
+          "label": "name tyiana last",
+          "text": "name tyiana last",
+          "note": "注意 \"name tyiana last\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

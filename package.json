@@ -15,8 +15,10 @@
     "test:e2e": "playwright test",
     "test:ci": "npm run lint && npm run typecheck && npm run test:unit && npm run build && npm run test:e2e",
     "misshoney:import": "node scripts/misshoney/import-playlists.mjs",
+    "misshoney:fetch-transcript": "node scripts/misshoney/fetch-transcript.mjs",
     "misshoney:scaffold-content": "node scripts/misshoney/scaffold-content.mjs",
     "misshoney:author-polished-content": "node scripts/misshoney/author-polished-content.mjs",
+    "misshoney:parse-proofread": "node scripts/misshoney/parse-proofread-result.mjs",
     "misshoney:validate-content": "node scripts/misshoney/validate-content.mjs",
     "misshoney:promote-content": "node scripts/misshoney/promote-content.mjs"
   },

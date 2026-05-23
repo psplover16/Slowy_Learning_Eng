@@ -14,7 +14,6 @@ import { validatePlaylistVideoData } from './content-core.mjs'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const REPO_ROOT = resolve(__dirname, '../..')
 const LEVELS = ['a1', 'a2', 'b1', 'b2']
-const SPLIT = '\n@@SLOWY_TRANSLATE_SPLIT@@\n'
 
 const args = process.argv.slice(2)
 const ALL = args.includes('--all')
@@ -24,9 +23,11 @@ const providerIndex = args.indexOf('--provider')
 const PROVIDER = providerIndex !== -1 ? args[providerIndex + 1] : 'lingva'
 const levelIndex = args.indexOf('--level')
 const LEVEL = levelIndex !== -1 ? args[levelIndex + 1] : null
+const slugIndex = args.indexOf('--slug')
+const SLUG = slugIndex !== -1 ? args[slugIndex + 1] : null
 
 if (!ALL && !LEVEL) {
-  console.error('Usage: node scripts/misshoney/author-polished-content.mjs --level a1|--all [--force] [--provider lingva|mymemory|fallback|google]')
+  console.error('Usage: node scripts/misshoney/author-polished-content.mjs --level a1|--all [--slug slug] [--force] [--provider lingva|mymemory|fallback|google]')
   process.exit(1)
 }
 
@@ -42,6 +43,12 @@ if (!['google', 'lingva', 'mymemory', 'fallback'].includes(PROVIDER)) {
 
 const translationCache = new Map()
 const levelsToProcess = ALL ? LEVELS : [LEVEL]
+const MAX_SENTENCES_BY_LEVEL = {
+  a1: 24,
+  a2: 48,
+  b1: 64,
+  b2: 80,
+}
 
 async function authorLevel(level) {
   const scaffoldDir = resolve(REPO_ROOT, `_private/misshoney/content-scaffolds/${level}`)
@@ -55,7 +62,13 @@ async function authorLevel(level) {
   mkdirSync(outputDir, { recursive: true })
   const files = readdirSync(scaffoldDir)
     .filter(file => file.endsWith('.json'))
+    .filter(file => !SLUG || basename(file, '.json') === SLUG)
     .sort(naturalCompare)
+
+  if (SLUG && files.length === 0) {
+    console.error(`Missing scaffold for slug "${SLUG}" in ${level}.`)
+    return 1
+  }
 
   console.log(`\n[${level.toUpperCase()}] Authoring ${files.length} polished content files...`)
   let levelErrors = 0
@@ -96,7 +109,7 @@ async function authorLevel(level) {
 async function buildContent(scaffold) {
   const levelTag = String(scaffold.level).toUpperCase()
   const transcriptText = buildTranscriptText(scaffold)
-  const sentences = rebuildSentences(transcriptText, scaffold.title)
+  const sentences = rebuildSentences(transcriptText, scaffold.title, scaffold.level)
   const sceneSentences = sentences.length > 0 ? sentences : [sentenceCase(scaffold.title)]
   const vocabWords = selectVocabWords(`${scaffold.title} ${sceneSentences.join(' ')}`)
   const phrases = selectPhrases(sceneSentences.join(' '))
@@ -104,6 +117,8 @@ async function buildContent(scaffold) {
   const translationInputs = [
     scaffold.title,
     ...sceneSentences,
+    ...vocabWords,
+    ...phrases.map(item => item.phrase),
     ...phrases.map(item => item.example),
   ]
   const translations = await translateMany(translationInputs)
@@ -113,7 +128,7 @@ async function buildContent(scaffold) {
     english: word,
     kk: KK_OVERRIDES[word.toLowerCase()] ?? `/${word.toLowerCase()}/`,
     partOfSpeech: guessPartOfSpeech(word),
-    meaning: fallbackWordMeaning(word),
+    meaning: WORD_MEANINGS[word.toLowerCase()] ?? cleanShortTranslation(translations.get(word), word, fallbackWordMeaning(word)),
     note: buildVocabNote(word),
     highlight: index < 3,
   }))
@@ -141,7 +156,7 @@ async function buildContent(scaffold) {
     phrases: phrases.map((item, index) => ({
       id: `phrase-${String(index + 1).padStart(2, '0')}`,
       phrase: item.phrase,
-      meaning: fallbackPhraseMeaning(item.phrase),
+      meaning: PHRASE_MEANINGS[item.phrase.toLowerCase()] ?? cleanShortTranslation(translations.get(item.phrase), item.phrase, fallbackPhraseMeaning(item.phrase)),
       examples: [
         {
           en: item.example,
@@ -186,14 +201,14 @@ function mergeOverlappingCueText(cues) {
   return normalizeText(tokens.join(' '))
 }
 
-function rebuildSentences(transcriptText, title) {
+function rebuildSentences(transcriptText, title, level) {
   const text = normalizeTranscriptForAuthoring(transcriptText)
   const marked = markThoughtBoundaries(text)
 
   const roughUnits = marked
     .split('|')
     .flatMap(part => splitLongUnit(part))
-    .map(polishSentence)
+    .flatMap(polishSentence)
     .map(sentenceCase)
     .filter(isUsefulSentence)
 
@@ -206,11 +221,12 @@ function rebuildSentences(transcriptText, title) {
     unique.push(sentence)
   }
 
-  if (unique.length >= 4) return unique.slice(0, 24)
+  const maxSentences = MAX_SENTENCES_BY_LEVEL[String(level ?? '').toLowerCase()] ?? 48
+  if (unique.length >= 4) return unique.slice(0, maxSentences)
   return [
     sentenceCase(title),
     ...unique,
-  ].slice(0, 12)
+  ].slice(0, Math.min(16, maxSentences))
 }
 
 function normalizeCaptionText(text) {
@@ -220,17 +236,45 @@ function normalizeCaptionText(text) {
 }
 
 function normalizeTranscriptForAuthoring(text) {
-  return normalizeCaptionText(text)
+  const normalized = normalizeCaptionText(text)
     .replace(/\btyana\b/gi, 'Tyana')
     .replace(/\bberes\b/gi, 'berries')
     .replace(/\bconas\b/gi, 'conchas')
     .replace(/\bgasas\b/gi, 'conchas')
+    .replace(/\bSLO English\b/g, 'slow English')
+    .replace(/\bEnglish clear podcast\b/gi, 'slow English podcast')
+    .replace(/\bNorfol\b/g, 'Norfolk')
+    .replace(/\boxo\b/gi, 'Oxxo')
+    .replace(/\b7ele1\b/gi, '7-Eleven')
+    .replace(/\bAvarotes Loose\b/gi, 'Abarrotes Luz')
+    .replace(/\bgrandma's name is Loose\b/gi, "grandma's name is Luz")
     .replace(/\b1100 p\.m\./gi, '11:00 p.m.')
     .replace(/\bus usually\b/gi, 'you usually')
     .replace(/\bintemediate\b/gi, 'intermediate')
-    .replace(/\blistening to English\b/gi, 'listening to English')
+    .replace(/\bin inside\b/gi, 'inside')
+    .replace(/\bto to\b/gi, 'to')
+    .replace(/\btry try\b/gi, 'try')
+    .replace(/\bthink think\b/gi, 'think')
+    .replace(/\benjoy enjoy\b/gi, 'enjoy')
+    .replace(/\bgood good\b/gi, 'good')
+    .replace(/\bfalling falling falling\b/gi, 'falling')
+    .replace(/\bsecond second\b/gi, 'second')
+    .replace(/\bdance shows dance shows\b/gi, 'dance shows')
     .replace(/\s+/g, ' ')
     .trim()
+
+  return dedupeRepeatedWords(normalized)
+}
+
+function dedupeRepeatedWords(text) {
+  const words = String(text).split(/\s+/).filter(Boolean)
+  const output = []
+  for (const word of words) {
+    const previous = output[output.length - 1]
+    if (previous && normalizeToken(previous) === normalizeToken(word)) continue
+    output.push(word)
+  }
+  return output.join(' ')
 }
 
 function markThoughtBoundaries(text) {
@@ -272,12 +316,185 @@ function polishSentence(sentence) {
     .replace(/\bstrawberry berries\b/gi, 'strawberries')
     .replace(/\bcomes comes\b/gi, 'comes')
     .replace(/\bmade made\b/gi, 'made')
+    .replace(/\bSLO English\b/g, 'slow English')
+    .replace(/\bEnglish clear podcast\b/gi, 'slow English podcast')
+    .replace(/\bin inside\b/gi, 'inside')
     .replace(/\ba\.m\. I\b/gi, 'a.m. I')
     .replace(/\bp\.m\. I\b/gi, 'p.m. I')
+    .replace(/\.\s+([a-z])/g, (_, letter) => `. ${letter.toUpperCase()}`)
+    .replace(/\s+so,\.$/i, '')
+    .replace(/\s+so,\s*$/i, '')
     .replace(/\s+(and|or|but|so|because)$/i, '')
     .replace(/\s+it'?s$/i, '')
+    .replace(/\s+(the|a|an|i)$/i, '')
+    .replace(/,\s*\?$/i, '?')
     .replace(/\s+/g, ' ')
     .trim()
+
+  if (/^Hello welcome to my slow English podcast today we will be practicing A2 listening/i.test(clean)) {
+    return [
+      'Hello, welcome to my slow English podcast.',
+      'Today we will practice A2 listening.',
+      'Try not to read the captions.',
+    ]
+  }
+  if (/^Hello welcome to my slow English podcast for levels/i.test(clean)) {
+    return 'Hello, welcome to my slow English podcast for levels B1 or A2.'
+  }
+  if (/^Hello welcome back to my slow English podcast a podcast to practice your English listening/i.test(clean)) {
+    return 'Hello, welcome back to my slow English podcast, a podcast for practicing English listening.'
+  }
+  if (/^Welcome back to my slow English podcast a podcast/i.test(clean)) {
+    return clean.replace(
+      /^Welcome back to my slow English podcast a podcast/i,
+      'Welcome back to my slow English podcast, a podcast'
+    )
+  }
+  if (/^Welcome back to my slow English podcast\. A podcast/i.test(clean)) {
+    return clean.replace(/^Welcome back to my slow English podcast\. A podcast/i, 'Welcome back to my slow English podcast, a podcast')
+  }
+  if (/^I normally do,? which is to start my day with a banana smoothie/i.test(clean)) {
+    return 'I normally start my day with a banana smoothie.'
+  }
+  if (/^First,? I use the strainer and I strain my kefir/i.test(clean)) {
+    return 'First, I use a strainer and strain my kefir.'
+  }
+  if (/^Is a fungi that turns milk into kefir/i.test(clean)) {
+    return 'Kefir grains are a culture that turns milk into kefir.'
+  }
+  if (/^Next,? I add some flax seed/i.test(clean) && /serve it into$/i.test(clean)) {
+    return 'Next, I add some flax seed, a little water, and then blend everything.'
+  }
+  if (/^After the market$/i.test(clean)) {
+    return ''
+  }
+  if (/^She sells food just like in a convenience store/i.test(clean)) {
+    return [
+      'She sells food like a convenience store, but it is her own local store.',
+      'It is not an Oxxo or a 7-Eleven.',
+      "The store is called Abarrotes Luz because my grandma's name is Luz.",
+    ]
+  }
+  if (/^We got some fresh pork rinds/i.test(clean) && /chalupas/i.test(clean)) {
+    return [
+      'We got some fresh pork rinds.',
+      'My grandma cooked chalupas, fried tortillas with potatoes, lettuce, and chicken.',
+    ]
+  }
+  if (/^My favorite color of green/i.test(clean)) {
+    return "I use my favorite green cup, but it is actually my dad's cup."
+  }
+  if (/^Today I got a weird phone call/i.test(clean)) {
+    return 'Today I got a weird phone call, a strange phone call.'
+  }
+  if (/^I was at home drinking/i.test(clean)) {
+    return 'I was at home drinking a cup of tea and reading a book when suddenly my phone rang.'
+  }
+  if (/^I picked up and said/i.test(clean)) {
+    return 'I picked up the phone and said hello.'
+  }
+  if (/^Hello a woman with a serious voice answered/i.test(clean)) {
+    return 'A woman with a serious voice answered and said, "I know what you did."'
+  }
+  if (/^A woman with a serious voice answered and said I know what you did I was confused/i.test(clean)) {
+    return [
+      'A woman with a serious voice answered and said, "I know what you did."',
+      'I was confused.',
+    ]
+  }
+  if (/^I was confused I answered what did/i.test(clean)) {
+    return 'I was confused and answered, "What did I do?"'
+  }
+  if (/^I do who is this/i.test(clean)) {
+    return 'Who is this?'
+  }
+  if (/^She said don't pretend you stole my dog/i.test(clean)) {
+    return 'She said, "Do not pretend. You stole my dog."'
+  }
+  if (/^I love dogs but I would never steal/i.test(clean)) {
+    return 'I love dogs, but I would never steal a dog.'
+  }
+  if (/^Said I think you have the wrong number/i.test(clean) || /^I said I think you have the wrong number/i.test(clean)) {
+    return 'I said, "I think you have the wrong number. I do not have your dog."'
+  }
+  if (/^She didn't believe me I saw you/i.test(clean)) {
+    return 'She did not believe me and said, "I saw you. You took my dog from the park."'
+  }
+  if (/^The park I said I didn't even go to the park/i.test(clean) || /^I said I didn't even go to the park/i.test(clean)) {
+    return 'I said, "I did not even go to the park today."'
+  }
+  if (/^I asked what does your dog look/i.test(clean)) {
+    return 'I asked, "What does your dog look like?"'
+  }
+  if (/^She said he is small white and fluffy/i.test(clean)) {
+    return 'She said, "He is small, white, and fluffy."'
+  }
+  if (/^I said I'm sorry but my dog is not/i.test(clean)) {
+    return 'I said, "I am sorry, but my dog is not small or white."'
+  }
+  if (/^White she said oh oh no/i.test(clean) || /^She said oh oh no/i.test(clean)) {
+    return 'She said, "Oh no, I think I called the wrong person. I am so sorry."'
+  }
+  if (/^I laughed and said I hope you find your dog/i.test(clean)) {
+    return 'I laughed and said, "I hope you find your dog."'
+  }
+  if (/^I hung up and I sat on my couch/i.test(clean)) {
+    return 'I hung up and sat on my couch.'
+  }
+  if (/^I shook my head what a weird phone call/i.test(clean)) {
+    return 'I shook my head and thought, "What a weird phone call."'
+  }
+  if (/^We waited for the bus to come for maybe 10 minutes until/i.test(clean)) {
+    return 'We waited for the bus for about 10 minutes.'
+  }
+  if (/^We'll take$/i.test(clean) || /^We'll take the$/i.test(clean)) {
+    return 'We will take the next bus.'
+  }
+  if (/^We don't fit/i.test(clean)) {
+    return 'We do not fit.'
+  }
+  if (/^We waited another 10 minutes but at that point/i.test(clean)) {
+    return 'We waited another 10 minutes, but at that point we had already waited 20 minutes.'
+  }
+  if (/^Today I'm making an interview/i.test(clean)) {
+    return 'Today I am making an interview for you to practice listening to questions and answers.'
+  }
+  if (/^Today I'm going to be interviewing/i.test(clean) || /^Today I am going to be interviewing/i.test(clean)) {
+    return 'Today I am going to interview my sister, Brianna.'
+  }
+  if (/^First of all,? where did you grow up/i.test(clean)) {
+    return 'First of all, where did you grow up?'
+  }
+  if (/^Um,? I grew up in Norfolk/i.test(clean)) {
+    return 'I grew up in Norfolk, Nebraska, in the United States.'
+  }
+  if (/^What was your childhood home like\?? My childhood home was very American/i.test(clean)) {
+    return [
+      'What was your childhood home like?',
+      'My childhood home was very American.',
+    ]
+  }
+  if (/^We sleep the worlds/i.test(clean)) {
+    return 'They are the dreams we have when we sleep.'
+  }
+  if (/^We create inside our brain/i.test(clean)) {
+    return 'We create worlds inside our brain.'
+  }
+  if (/^We sleep those are the dreams/i.test(clean)) {
+    return 'Those are the dreams that I love talking about.'
+  }
+  if (/^I love waking up from a crazy dream and writing it down/i.test(clean)) {
+    return 'I love waking up from a crazy dream and writing it down in my dream journal.'
+  }
+  if (/^It's a journal where I write down all of my dreams/i.test(clean)) {
+    return 'It is a journal where I write down all of my dreams.'
+  }
+  if (/^I wake up from a dream I immediately start to forget/i.test(clean)) {
+    return 'When I wake up from a dream, I immediately start to forget it.'
+  }
+  if (/^I wake up$/i.test(clean)) {
+    return ''
+  }
 
   if (/^Who want\b/i.test(clean)) {
     return 'This podcast is for beginners who want to practice listening to English.'
@@ -388,7 +605,7 @@ function buildBreakdowns(sentences, translations, phrases) {
 function selectVocabWords(text) {
   const counts = new Map()
   for (const raw of normalizeText(text).toLowerCase().match(/[a-z][a-z'-]{2,}/g) ?? []) {
-    const word = raw.replace(/^'+|'+$/g, '')
+    const word = raw.replace(/^'+|'+$/g, '').replace(/'s$/, '')
     if (STOPWORDS.has(word) || word.length < 3) continue
     counts.set(word, (counts.get(word) ?? 0) + 1)
   }
@@ -441,55 +658,26 @@ async function translateMany(values) {
   }
 
   if (PROVIDER === 'lingva') {
-    for (let i = 0; i < missing.length; i += 4) {
-      const batch = missing.slice(i, i + 4)
-      const translated = await Promise.all(batch.map(value => translateText(value)))
-      batch.forEach((source, index) => {
-        translationCache.set(source, translated[index] ?? fallbackTranslation(source))
-      })
-      await sleep(120)
-    }
+    await translateInParallel(missing, 6)
     return translationCache
   }
 
-  const batches = []
-  let batch = []
-  let length = 0
-
-  for (const value of missing) {
-    const nextLength = length + value.length + SPLIT.length
-    if (batch.length > 0 && nextLength > 3500) {
-      batches.push(batch)
-      batch = []
-      length = 0
-    }
-    batch.push(value)
-    length += value.length + SPLIT.length
-  }
-  if (batch.length) batches.push(batch)
-
-  for (const currentBatch of batches) {
-    const translated = await translateBatch(currentBatch)
-    currentBatch.forEach((source, index) => {
-      translationCache.set(source, translated[index] ?? fallbackTranslation(source))
-    })
-    await sleep(80)
-  }
-
+  await translateInParallel(missing, 8)
   return translationCache
 }
 
-async function translateBatch(values) {
-  const translated = await translateText(values.join(SPLIT))
-  const parts = translated.split(SPLIT.trim()).map(part => part.trim()).filter(Boolean)
-  if (parts.length === values.length) return parts
+async function translateInParallel(values, concurrency) {
+  let nextIndex = 0
+  const workers = Array.from({ length: Math.min(concurrency, values.length) }, async () => {
+    while (nextIndex < values.length) {
+      const current = values[nextIndex]
+      nextIndex += 1
+      translationCache.set(current, await translateText(current))
+      await sleep(40)
+    }
+  })
 
-  const fallbackParts = []
-  for (const value of values) {
-    fallbackParts.push(await translateText(value))
-    await sleep(80)
-  }
-  return fallbackParts
+  await Promise.all(workers)
 }
 
 async function translateText(text) {
@@ -575,7 +763,25 @@ function cleanTranslation(value, source, fallback = null) {
     .replace(/&#39;/g, "'")
     .replace(/&quot;/g, '"')
     .replace(/&amp;/g, '&')
+    .replace(/[\u200B-\u200D\uFEFF]/g, '')
+    .replace(/播客/g, 'podcast')
+    .replace(/您/g, '你')
+    .replace(/奇多/g, 'Cheetos')
     .replace(/\s+/g, ' ')
+}
+
+function cleanShortTranslation(value, source, fallback) {
+  const translated = cleanTranslation(value, source, fallback)
+    .replace(/^這裡是在描述.+主詞和動作。$/, fallback)
+    .replace(/^這句主要在談.+$/, fallback)
+    .replace(/^「?(.+?)」?$/, '$1')
+    .trim()
+
+  if (!translated || translated === source || /^[a-z0-9 ,.'?!:-]+$/i.test(translated)) {
+    return fallback
+  }
+
+  return translated.length > 28 ? fallback : translated
 }
 
 function fallbackTranslation(text) {
@@ -590,11 +796,11 @@ function fallbackTranslation(text) {
 }
 
 function fallbackWordMeaning(word) {
-  return WORD_MEANINGS[word.toLowerCase()] ?? `${topicLabelZh(inferTopicTag(word))}相關的常用字`
+  return WORD_MEANINGS[word.toLowerCase()] ?? `表示「${word}」；搭配例句理解它在句中的意思`
 }
 
 function fallbackPhraseMeaning(phrase) {
-  return PHRASE_MEANINGS[phrase.toLowerCase()] ?? `常用說法，可用來表達「${phrase}」這個意思`
+  return PHRASE_MEANINGS[phrase.toLowerCase()] ?? `表示「${phrase}」；可放進相似情境練習整句`
 }
 
 function buildVocabNote(word) {
@@ -738,7 +944,12 @@ function isUsefulSentence(sentence) {
   if (clean.length < 8) return false
   if (/^\[?music\]?\.?$/i.test(clean)) return false
   if (/\b(with|for|to|from|about|at|in|on|of|who|what|where|when|why|how)[.!?]$/i.test(clean)) return false
-  if (/\b(and|or|but|so|because|it'?s)[.!?]$/i.test(clean)) return false
+  if (/\b(and|or|but|so|because|it'?s|the|a|an|i)[.!?]$/i.test(clean)) return false
+  if (/\bSLO English\b/.test(clean)) return false
+  if (/[.,]\?$/.test(clean)) return false
+  if (/\bwhat did i do who is this\b/i.test(clean)) return false
+  if (/^I do who is this[.!?]?$/i.test(clean)) return false
+  if (/\bphone call a strange phone call I[.!?]?$/i.test(clean)) return false
   if (/^(in|after|before|at|for)\b/i.test(clean) && clean.split(/\s+/).length <= 4) return false
   if (/^my favorite [a-z]+[.!?]$/i.test(clean)) return false
   if (/\b(sugar sugar makes|you fat)\b/i.test(clean)) return false
@@ -766,9 +977,9 @@ function sentenceCase(text) {
   if (!clean) return clean
   const withCapital = clean[0].toUpperCase() + clean.slice(1)
   if (/^(what|who|where|when|why|how|do|does|did|are|is|can|could|would|will|have|has|had)\b/i.test(withCapital)) {
-    return /[.!?]$/.test(withCapital) ? withCapital.replace(/[.]$/, '?') : `${withCapital}?`
+    return /[.!?]["']?$/.test(withCapital) ? withCapital.replace(/[.]$/, '?') : `${withCapital}?`
   }
-  return /[.!?]$/.test(withCapital) ? withCapital : `${withCapital}.`
+  return /[.!?]["']?$/.test(withCapital) ? withCapital : `${withCapital}.`
 }
 
 function naturalCompare(a, b) {
@@ -781,8 +992,13 @@ function sleep(ms) {
 
 const THOUGHT_STARTERS = [
   'welcome back',
+  'welcome to',
   'today\'s podcast',
   'today i',
+  'today we',
+  'today you',
+  'today i am',
+  "today i'm",
   'this podcast',
   'in the morning',
   'in the afternoon',
@@ -796,6 +1012,10 @@ const THOUGHT_STARTERS = [
   'my favorite',
   'what is',
   'what are',
+  'what was',
+  'what would',
+  'what does',
+  'what did',
   'what do',
   'what type',
   'where do',
@@ -806,8 +1026,10 @@ const THOUGHT_STARTERS = [
   'do you',
   'are there',
   'are you',
+  'is there',
   'can you',
   'would you',
+  'have you ever',
   'if you',
   'if not',
   'one thing',
@@ -818,7 +1040,18 @@ const THOUGHT_STARTERS = [
   'finally',
   'sometimes',
   'thank you',
+  'tell me',
   'hello',
+  'a woman',
+  'the woman',
+  'a man',
+  'the man',
+  'the driver',
+  'the first',
+  'the second',
+  'one of the',
+  'as soon as',
+  "that's why",
   'i wake',
   'i brush',
   'i wash',
@@ -829,7 +1062,20 @@ const THOUGHT_STARTERS = [
   'i want',
   'i need',
   'i get',
+  'i got',
   'i am',
+  "i'm",
+  "i've",
+  'i have',
+  'i had',
+  'i picked',
+  'i answered',
+  'i asked',
+  'i said',
+  'i saw',
+  'i sat',
+  'i shook',
+  'i hung',
   'i teach',
   'i work',
   'i study',
@@ -841,10 +1087,27 @@ const THOUGHT_STARTERS = [
   'i cook',
   'i go',
   'i feel',
+  'i think',
+  'i would',
+  "i don't",
+  'we waited',
+  'we said',
+  "we don't",
+  "we'll",
+  'we had',
+  'we got',
+  'we lived',
+  "we're",
   'we',
   'they',
   'he',
   'she',
+  'she said',
+  "she didn't",
+  'she told',
+  'he said',
+  'it was',
+  'it is',
 ]
 
 const TOPIC_LABELS = {
@@ -917,12 +1180,60 @@ const TOPIC_WORD_TRANSLATIONS = {
   tv: '電視',
   with: '加',
   work: '工作',
+  dog: '狗',
+  phone: '電話',
+  call: '通電話',
+  weird: '奇怪的',
+  strange: '奇怪的',
+  serious: '嚴肅的',
+  voice: '聲音',
+  confused: '困惑的',
+  pretend: '假裝',
+  stole: '偷走',
+  wrong: '錯的',
+  number: '號碼',
+  park: '公園',
+  fluffy: '毛茸茸的',
+  couch: '沙發',
+  bus: '公車',
+  driver: '司機',
+  family: '家人',
+  boys: '男孩',
+  hobbies: '嗜好',
+  sports: '運動',
+  soccer: '足球',
+  ballet: '芭蕾',
+  gymnastics: '體操',
+  competition: '比賽',
+  jog: '慢跑',
+  jogging: '慢跑',
+  therapeutic: '有療癒感的',
+  exercise: '運動',
+  activity: '活動',
+  mental: '心理的',
+  health: '健康',
+  dream: '夢',
+  dreams: '夢',
+  journal: '日記',
+  subconscious: '潛意識',
+  mysterious: '神祕的',
+  inspired: '受到啟發的',
+  recurring: '反覆出現的',
   yoga: '瑜珈',
 }
 
 const PHRASE_TRANSLATIONS = {
+  'welcome back': '歡迎回來',
+  'welcome to': '歡迎來到',
   'my daily routine': '我的日常作息',
   'daily routine': '日常作息',
+  'phone call': '電話',
+  'wrong number': '打錯電話',
+  'look like': '看起來像',
+  'picked up': '拿起；接起；順路買/拿',
+  'hung up': '掛斷電話',
+  'what would you do': '你會怎麼做',
+  'have you ever': '你曾經有沒有',
   'oatmeal with bananas strawberries berries and honey': '燕麥、香蕉、草莓、莓果和蜂蜜',
   'oatmeal every day': '每天吃燕麥',
   'stretching every day': '每天伸展',
@@ -932,6 +1243,13 @@ const PHRASE_TRANSLATIONS = {
   lunch: '午餐',
   dinner: '晚餐',
   work: '工作',
+  'clear my mind': '讓腦袋清楚',
+  'mental health': '心理健康',
+  'comfort food': '療癒食物',
+  'used to think': '以前曾經認為',
+  'can get enough': '覺得不夠、很想要更多',
+  'take for granted': '把某事視為理所當然',
+  'recurring dreams': '反覆出現的夢',
 }
 
 const COMMON_VERBS = new Set([
@@ -947,15 +1265,33 @@ const STOPWORDS = new Set([
   'had', 'are', 'was', 'were', 'will', 'would', 'can', 'could', 'should', 'about',
   'what', 'when', 'where', 'which', 'who', 'why', 'how', 'there', 'their', 'they',
   'them', 'then', 'than', 'into', 'onto', 'also', 'very', 'just', 'like', 'really',
+  'said', 'say', 'says', 'ask', 'asked', 'answer', 'answered', 'did', 'does', 'doing',
+  'not', 'got', 'gets', 'getting',
+  'she', 'her', 'him', 'his', 'our', 'ours', 'all', 'one', 'ones', 'some', 'any',
+  'always', 'maybe', 'before', 'after', 'again', 'ever', 'never', 'even', 'once',
+  'twice', 'thing', 'things', 'lot', 'lots', 'much', 'many', 'more', 'most', 'first',
+  'second', 'third', 'another', 'other', 'same', 'way', 'back', 'clear', 'levels',
+  'its', "it's", 'im', "i'm", 'ive', "i've",
   'because', 'today', 'english', 'slow', 'podcast', 'practice', 'learn', 'learning',
   'listening', 'beginner', 'beginners', 'intermediate', 'comprehensible', 'input',
-  'misshoney', 'tyana', 'ortiz', 'video', 'hello', 'thank', 'thanks', 'music',
+  'misshoney', 'tyana', 'ortiz', 'video', 'hello', 'welcome', 'thank', 'thanks', 'music',
 ])
 
 const PHRASE_CANDIDATES = [
+  'welcome back',
+  'welcome to',
   'my name is',
   'what do you',
+  'what does',
+  'what did',
+  'what would you do',
+  'have you ever',
   'do you like',
+  'wrong number',
+  'phone call',
+  'look like',
+  'picked up',
+  'hung up',
   'daily routine',
   'in the morning',
   'in the evening',
@@ -963,6 +1299,7 @@ const PHRASE_CANDIDATES = [
   'get ready',
   'used to',
   'going to',
+  'go for a jog',
   'want to',
   'have to',
   'need to',
@@ -973,6 +1310,14 @@ const PHRASE_CANDIDATES = [
   'one of the',
   'a little bit',
   'it depends',
+  'as much as',
+  'clear my mind',
+  'mental health',
+  'comfort food',
+  'used to think',
+  'can get enough',
+  'take for granted',
+  'recurring dreams',
   'i think',
   'i feel',
   'i love',
@@ -986,6 +1331,57 @@ const PHRASE_CANDIDATES = [
 ]
 
 const WORD_MEANINGS = {
+  dog: '狗',
+  phone: '電話',
+  call: '通電話；打電話',
+  weird: '奇怪的',
+  strange: '奇怪的；陌生的',
+  serious: '嚴肅的',
+  voice: '聲音',
+  confused: '困惑的',
+  pretend: '假裝',
+  stole: '偷走；steal 的過去式',
+  steal: '偷',
+  wrong: '錯的',
+  number: '電話號碼；數字',
+  park: '公園',
+  fluffy: '毛茸茸的',
+  couch: '沙發',
+  bus: '公車',
+  driver: '司機',
+  family: '家人；家庭',
+  boys: '男孩們',
+  mother: '母親',
+  hobbies: '嗜好',
+  hobby: '嗜好',
+  sports: '運動',
+  soccer: '足球',
+  ballet: '芭蕾',
+  gymnastics: '體操',
+  competition: '比賽',
+  competitions: '比賽',
+  jog: '慢跑',
+  jogging: '慢跑',
+  therapeutic: '有療癒感的',
+  exercise: '運動；練習',
+  activity: '活動',
+  physical: '身體的',
+  mental: '心理的',
+  health: '健康',
+  drawing: '畫畫',
+  writing: '寫作',
+  knitting: '編織',
+  gardening: '園藝',
+  cooking: '烹飪',
+  dream: '夢；夢想',
+  dreams: '夢；夢想',
+  journal: '日記',
+  subconscious: '潛意識',
+  mysterious: '神祕的',
+  inspired: '受到啟發的',
+  recurring: '反覆出現的',
+  interpret: '解讀',
+  interpretations: '解讀方式',
   breakfast: '早餐',
   lunch: '午餐',
   dinner: '晚餐',
@@ -995,7 +1391,6 @@ const WORD_MEANINGS = {
   travel: '旅行',
   airport: '機場',
   language: '語言',
-  family: '家人',
   friend: '朋友',
   food: '食物',
   spicy: '辣的',
@@ -1007,9 +1402,20 @@ const WORD_MEANINGS = {
 }
 
 const PHRASE_MEANINGS = {
+  'welcome back': '歡迎回來',
+  'welcome to': '歡迎來到',
   'my name is': '我的名字是',
   'what do you': '你會怎麼...',
+  'what does': '用來詢問某物是什麼樣子或代表什麼',
+  'what did': '用來詢問過去發生了什麼',
+  'what would you do': '你會怎麼做',
+  'have you ever': '你曾經有沒有',
   'do you like': '你喜歡...嗎',
+  'phone call': '電話；通電話',
+  'wrong number': '打錯電話',
+  'look like': '看起來像',
+  'picked up': '拿起；接起；順路買/拿',
+  'hung up': '掛斷電話',
   'daily routine': '日常作息',
   'in the morning': '在早上',
   'in the evening': '在晚上',
@@ -1018,10 +1424,53 @@ const PHRASE_MEANINGS = {
   'used to': '以前曾經',
   'talk about': '談論',
   'my favorite': '我最喜歡的',
+  'clear my mind': '讓腦袋清楚、減少雜念',
+  'mental health': '心理健康',
+  'comfort food': '讓人有安慰感的食物',
+  'used to think': '以前曾經認為',
+  'can get enough': '覺得不夠、很想要更多',
+  'take for granted': '把某事視為理所當然',
+  'recurring dreams': '反覆出現的夢',
   "can't stand": '受不了',
 }
 
 const KK_OVERRIDES = {
+  dog: '/dɔɡ/',
+  phone: '/foʊn/',
+  call: '/kɔl/',
+  weird: '/wɪrd/',
+  strange: '/strendʒ/',
+  serious: '/ˈsɪriəs/',
+  voice: '/vɔɪs/',
+  confused: '/kənˈfjuzd/',
+  pretend: '/prɪˈtɛnd/',
+  stole: '/stoʊl/',
+  wrong: '/rɔŋ/',
+  number: '/ˈnʌmbɚ/',
+  park: '/pɑrk/',
+  fluffy: '/ˈflʌfi/',
+  couch: '/kaʊtʃ/',
+  bus: '/bʌs/',
+  driver: '/ˈdraɪvɚ/',
+  family: '/ˈfæməli/',
+  hobbies: '/ˈhɑbiz/',
+  sports: '/spɔrts/',
+  soccer: '/ˈsɑkɚ/',
+  ballet: '/bæˈleɪ/',
+  gymnastics: '/dʒɪmˈnæstɪks/',
+  jogging: '/ˈdʒɑɡɪŋ/',
+  therapeutic: '/ˌθɛrəˈpjutɪk/',
+  exercise: '/ˈɛksɚˌsaɪz/',
+  physical: '/ˈfɪzɪkəl/',
+  mental: '/ˈmɛntəl/',
+  health: '/hɛlθ/',
+  dream: '/drim/',
+  dreams: '/drimz/',
+  journal: '/ˈdʒɝnəl/',
+  subconscious: '/sʌbˈkɑnʃəs/',
+  mysterious: '/mɪˈstɪriəs/',
+  inspired: '/ɪnˈspaɪrd/',
+  recurring: '/rɪˈkɝɪŋ/',
   breakfast: '/ˈbrɛkfəst/',
   lunch: '/lʌntʃ/',
   dinner: '/ˈdɪnɚ/',
@@ -1031,7 +1480,6 @@ const KK_OVERRIDES = {
   travel: '/ˈtrævəl/',
   airport: '/ˈɛrˌpɔrt/',
   language: '/ˈlæŋɡwɪdʒ/',
-  family: '/ˈfæməli/',
   friend: '/frɛnd/',
   food: '/fud/',
   spicy: '/ˈspaɪsi/',

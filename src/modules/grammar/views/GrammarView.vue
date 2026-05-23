@@ -742,7 +742,7 @@ const nounPhraseFunctions = [
 const relativePronouns = [
   { pronoun: 'that', usage: '人或事物（通用）', example: 'The thing that happened...' },
   { pronoun: 'which', usage: '事物（非限定用法較常用）', example: 'The park, which was huge...' },
-  { pronoun: 'who', usage: '人（主詞位置）', example: 'The person who called.' },
+  { pronoun: 'who', usage: '人（主詞位置）', example: 'beginners who want to practice listening to English' },
   { pronoun: 'whom', usage: '人（受詞位置，較正式）', example: 'The person whom I met.' },
   { pronoun: 'where', usage: '地方', example: "The city where I grew up." },
 ]

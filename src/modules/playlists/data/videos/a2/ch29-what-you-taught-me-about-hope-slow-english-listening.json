@@ -19,8 +19,8 @@
       "titleEn": "Opening: mindset",
       "sentences": [
         {
-          "en": "Let's talk. I've been thinking about hope lately. How powerful hope is. Hope can change the world. Hope is in the music.",
-          "tc": "我們來談談。最近我一直在思考希望。希望是多麼強大。希望可以改變世界。希望就在音樂裡。"
+          "en": "I've been thinking about hope lately. How powerful hope is. Hope can change the world. Hope is in the music.",
+          "tc": "最近我一直在思考希望。希望是多麼強大。希望可以改變世界。希望就在音樂裡。"
         },
         {
           "en": "We listen to, the songs.",
@@ -43,30 +43,22 @@
           "meaning": "希望",
           "note": "看到 hope 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "world",
-          "kk": "/world/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 world 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：心態與目標",
-      "titleEn": "Part 2: mindset",
+      "titleZh": "第 2 段：日常生活",
+      "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "We share with strangers and loved ones. I think laughter heals our soul. Hope is in the flower that SOMEHOW is growing straight through a crack in the sidewalk. It's in the.",
-          "tc": "我們與陌生人和親人分享。我認為笑可以治癒我們的靈魂。希望之花不知何故從人行道的裂縫中直生長出來。它在."
+          "en": "We share with strangers and loved ones.",
+          "tc": "我們與陌生人和親人分享。"
         },
         {
-          "en": "Sun that continues to show up without missing a day. It's in the rain that comes just.",
-          "tc": "太陽一天也不缺地繼續出現。這是在剛剛來臨的雨中。"
+          "en": "I think laughter heals our soul. Hope is in the flower that SOMEHOW is growing straight through a crack in the sidewalk. It's in the sun that continues to show up without.",
+          "tc": "我認為笑可以治癒我們的靈魂。希望之花不知何故從人行道的裂縫中直生長出來。它在陽光下繼續出現。"
         },
         {
           "en": "You walking down the street. In the poetry that inspires us, the painting that represents us, and the clothing that.",
@@ -85,22 +77,6 @@
           "meaning": "希望",
           "note": "看到 hope 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "comes",
-          "kk": "/comes/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 comes 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
@@ -111,11 +87,7 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "I need it. when I dance of joy in my room or when I experience something for the.",
-          "tc": "我需要它。當我在房間裡歡快地跳舞或當我經歷一些事情時。"
-        },
-        {
-          "en": "First time ever. Whether that's a new skill, a new song, a new person, a new feeling, good or bad.",
+          "en": "The first time ever. Whether that's a new skill, a new song, a new person, a new feeling, good or bad.",
           "tc": "有史以來第一次。無論是新技能、新歌曲、新人、新感覺，無論是好或壞。"
         },
         {
@@ -125,6 +97,10 @@
         {
           "en": "You guys have given me hope in the darkest of days.",
           "tc": "你們在最黑暗的日子裡給了我希望。"
+        },
+        {
+          "en": "What is hope to you? What brings you hope? I hope you have the best day today. I hope you find?",
+          "tc": "對你來說希望是什麼？是什麼帶給你希望？我希望你今天過得很愉快。希望你能找到？"
         }
       ],
       "tags": [
@@ -137,20 +113,20 @@
           "highlight": true
         },
         {
-          "english": "something",
-          "kk": "/something/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 something 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "guys",
+          "kk": "/guys/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "夥計們",
+          "note": "看到 guys 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -160,10 +136,6 @@
       "titleZh": "第 4 段：心態與目標",
       "titleEn": "Part 4: mindset",
       "sentences": [
-        {
-          "en": "What is hope to you? What brings you hope? I hope you have the best day today. I hope you find?",
-          "tc": "對你來說希望是什麼？是什麼帶給你希望？我希望你今天過得很愉快。希望你能找到？"
-        },
         {
           "en": "One thing to be grateful for today. I hope the sun comes out today.",
           "tc": "今天要感恩的一件事。我希望今天太陽出來了。"
@@ -175,6 +147,10 @@
         {
           "en": "I hope something loves you today. I hope you are safe today.",
           "tc": "我希望今天有東西愛你。我希望你今天安全。"
+        },
+        {
+          "en": "I know hope is something that feels scarce today. There is so much pain and conflict in the world. But hope is something that nobody can take from us.",
+          "tc": "我知道今天感覺希望是稀缺的東西。世界上有太多的痛苦和衝突。但希望是任何人都無法從我們手中奪走的東西。"
         }
       ],
       "tags": [
@@ -190,17 +166,9 @@
           "english": "something",
           "kk": "/something/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "某物",
           "note": "看到 something 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
@@ -210,10 +178,6 @@
       "titleZh": "第 5 段：心態與目標",
       "titleEn": "Part 5: mindset",
       "sentences": [
-        {
-          "en": "I know hope is something that feels scarce today. There is so much pain and conflict in the world. But hope is something that nobody can take from us.",
-          "tc": "我知道今天感覺希望是稀缺的東西。世界上有太多的痛苦和衝突。但希望是任何人都無法從我們手中奪走的東西。"
-        },
         {
           "en": "I hope you hold on to even the smallest piece of hope today. And to all my viewers around the world,.",
           "tc": "我希望你今天能堅持哪怕是最小的希望。以及我在世界各地的所有觀眾。"
@@ -225,6 +189,86 @@
         {
           "en": "What do you hope for today?",
           "tc": "你今天有什麼希望？"
+        },
+        {
+          "en": "What do you hope for yourself?",
+          "tc": "你對自己有什麼希望？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "hope",
+          "kk": "/hoʊp/",
+          "partOfSpeech": "n.",
+          "meaning": "希望",
+          "note": "看到 hope 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：心態與目標",
+      "titleEn": "Part 6: mindset",
+      "sentences": [
+        {
+          "en": "What do you hope for someone else? Count how many times?",
+          "tc": "你對別人有什麼希望？數數有多少次？"
+        },
+        {
+          "en": "I said hope.",
+          "tc": "我說希望。"
+        },
+        {
+          "en": "We've just reached 1 million subscribers and I couldn't be more grateful for all the hope you guys have given me this year and all.",
+          "tc": "我們的訂閱者數量剛好達到 100 萬，我非常感謝你們今年以及所有給我的希望。"
+        },
+        {
+          "en": "I want is to try and do the same for you. As some of you know,.",
+          "tc": "我想要嘗試為你做同樣的事情。正如你們中的一些人所知，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "hope",
+          "kk": "/hoʊp/",
+          "partOfSpeech": "n.",
+          "meaning": "希望",
+          "note": "看到 hope 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "guys",
+          "kk": "/guys/",
+          "partOfSpeech": "n.",
+          "meaning": "夥計們",
+          "note": "看到 guys 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "We learn together,.",
+          "tc": "我們一起學習，。"
+        },
+        {
+          "en": "We speak together,.",
+          "tc": "我們一起說話，。"
+        },
+        {
+          "en": "You would love to be a part of it to improve your English and create more opportunities for yourself.",
+          "tc": "你很樂意參與其中，以提高你的英語水平並為自己創造更多機會。"
+        },
+        {
+          "en": "I also know that for many of you, life isn't easy right now.",
+          "tc": "我也知道對你們中的許多人來說，現在的生活並不容易。"
         }
       ],
       "tags": [
@@ -240,41 +284,187 @@
           "english": "something",
           "kk": "/something/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "某物",
           "note": "看到 something 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "new",
+          "kk": "/new/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
     },
     {
-      "id": "scene-06",
-      "no": "06",
-      "titleZh": "第 6 段：心態與目標",
-      "titleEn": "Part 6: mindset",
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
       "sentences": [
         {
-          "en": "What do you hope for yourself?",
-          "tc": "你對自己有什麼希望？"
+          "en": "Sometimes it's just not something you can afford.",
+          "tc": "有時這不是你能承受的。"
         },
         {
-          "en": "What do you hope for someone else? Count how many times I said hope?",
-          "tc": "你對別人有什麼希望？數數我說了多少次希望？"
+          "en": "I'm opening 10 free spots in my community for people who are going through difficult for viewers that are going through difficult situations. Wherever.",
+          "tc": "我將在我的社區中為正在經歷困難的人們和正在經歷困難情況的觀眾開放 10 個免費點。無論在哪裡。"
         },
         {
-          "en": "We've just reached 1 million subscribers and I couldn't be more grateful for all the hope you guys have given me this year and all.",
-          "tc": "我們的訂閱者數量剛好達到 100 萬，我非常感謝你們今年以及所有給我的希望。"
+          "en": "You are, there's a link below where you can apply. I'll be reading your answers and selecting a group of people who are truly ready for this. And from that group, 10.",
+          "tc": "是的，下面有一個連結可供你申請。我將閱讀你的答案並選擇一組真正為此做好準備的人。從該組中，有 10 個。"
         },
         {
-          "en": "We learn together,.",
-          "tc": "我們一起學習，。"
+          "en": "People will be chosen randomly. So, please apply for this.",
+          "tc": "人們將被隨機選出。所以，請申請這個。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "something",
+          "kk": "/something/",
+          "partOfSpeech": "v.",
+          "meaning": "某物",
+          "note": "看到 something 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "truly",
+          "kk": "/truly/",
+          "partOfSpeech": "adv.",
+          "meaning": "確實",
+          "note": "看到 truly 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "answers",
+          "kk": "/answers/",
+          "partOfSpeech": "n.",
+          "meaning": "答案",
+          "note": "看到 answers 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "If you really need it,.",
+          "tc": "如果你真的需要的話，。"
+        },
+        {
+          "en": "If you really want it, and be honest with your answers. And even.",
+          "tc": "如果你真的想要它，請誠實地回答你的問題。甚至。"
+        },
+        {
+          "en": "If you don't get selected, everyone who enters their information will be invited to join a private live session with all of us. Only for those who applied. So no matter what,.",
+          "tc": "如果你沒有被選中，所有輸入資訊的人都將被邀請與我們所有人一起參加私人現場會議。只適合申請過的人。所以無論怎樣，。"
+        },
+        {
+          "en": "You're still a part of this. Application closes in 5 days. So leave your answers. The link is in the description.",
+          "tc": "你仍然是這件事的一部分。申請將在 5 天內截止。所以留下你的答案吧。連結在描述中。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "need",
+          "kk": "/need/",
+          "partOfSpeech": "v.",
+          "meaning": "需要",
+          "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "only",
+          "kk": "/only/",
+          "partOfSpeech": "adv.",
+          "meaning": "僅有的",
+          "note": "看到 only 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "answers",
+          "kk": "/answers/",
+          "partOfSpeech": "n.",
+          "meaning": "答案",
+          "note": "看到 answers 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "If you can afford my course, it's only $16 per month with the annual plan.",
+          "tc": "如果你負擔得起我的課程，包年套餐每月只需 16 美元。"
+        },
+        {
+          "en": "If you're interested, today is the last day to join. But be sure to apply for this only.",
+          "tc": "如果你有興趣，今天是加入的最後一天。但請務必僅申請此項目。"
+        },
+        {
+          "en": "If you truly need it and truly want it.",
+          "tc": "如果你真的需要它並且真正想要它。"
+        },
+        {
+          "en": "Then save room for those.",
+          "tc": "然後為這些留出空間。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "need",
+          "kk": "/need/",
+          "partOfSpeech": "v.",
+          "meaning": "需要",
+          "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "only",
+          "kk": "/only/",
+          "partOfSpeech": "adv.",
+          "meaning": "僅有的",
+          "note": "看到 only 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "truly",
+          "kk": "/truly/",
+          "partOfSpeech": "adv.",
+          "meaning": "確實",
+          "note": "看到 truly 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "Who do need it. I trust you guys?",
+          "tc": "誰需要它。我相信你們嗎？"
+        },
+        {
+          "en": "Thank you so much for 1 million subscribers. I trust the 10 spots will be given to those who truly need it. So, I hope this brought you hope today.",
+          "tc": "非常感謝你的 100 萬訂閱者。我相信這10個名額將會給予那些真正需要的人。所以，我希望今天這能給你帶來希望。"
+        },
+        {
+          "en": "Thank you guys for 1 million subscribers. I hope you learned something new today. And remember, never stop believing. Nothing can beat hope. See you.",
+          "tc": "感謝你們擁有 100 萬訂閱者。我希望你今天學到了一些新東西。請記住，永遠不要停止相信。沒有什麼可以擊敗希望。再見。"
         }
       ],
       "tags": [
@@ -287,11 +477,19 @@
           "highlight": true
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "something",
+          "kk": "/something/",
+          "partOfSpeech": "v.",
+          "meaning": "某物",
+          "note": "看到 something 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "new",
+          "kk": "/new/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -313,56 +511,56 @@
           "english": "something",
           "kk": "/something/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "某物",
           "note": "看到 something 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "new",
           "kk": "/new/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "新的",
           "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "guys",
+          "kk": "/guys/",
+          "partOfSpeech": "n.",
+          "meaning": "夥計們",
+          "note": "看到 guys 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "need",
+          "kk": "/need/",
+          "partOfSpeech": "v.",
+          "meaning": "需要",
+          "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "world",
-          "kk": "/world/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 world 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "only",
+          "kk": "/only/",
+          "partOfSpeech": "adv.",
+          "meaning": "僅有的",
+          "note": "看到 only 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "comes",
-          "kk": "/comes/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 comes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "truly",
+          "kk": "/truly/",
+          "partOfSpeech": "adv.",
+          "meaning": "確實",
+          "note": "看到 truly 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "dance",
-          "kk": "/dance/",
+          "english": "answers",
+          "kk": "/answers/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "答案",
+          "note": "看到 answers 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -372,7 +570,7 @@
     {
       "id": "phrase-01",
       "phrase": "what do you",
-      "meaning": "你會怎麼...",
+      "meaning": "你是什麼",
       "examples": [
         {
           "en": "What do you hope for today?",
@@ -383,7 +581,7 @@
     {
       "id": "phrase-02",
       "phrase": "i think",
-      "meaning": "常用說法，可用來表達「i think」這個意思",
+      "meaning": "我認為",
       "examples": [
         {
           "en": "I think laughter heals our soul.",
@@ -394,7 +592,7 @@
     {
       "id": "phrase-03",
       "phrase": "i feel",
-      "meaning": "常用說法，可用來表達「i feel」這個意思",
+      "meaning": "我覺得",
       "examples": [
         {
           "en": "I feel hopeful when I see a flock of birds in the sky or when a butterfly lands in front of me.",
@@ -406,13 +604,13 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Let's talk. I've been thinking about hope lately. How powerful hope is. Hope can change the world. Hope is in the music.",
-      "translation": "我們來談談。最近我一直在思考希望。希望是多麼強大。希望可以改變世界。希望就在音樂裡。",
+      "sentence": "I've been thinking about hope lately. How powerful hope is. Hope can change the world. Hope is in the music.",
+      "translation": "最近我一直在思考希望。希望是多麼強大。希望可以改變世界。希望就在音樂裡。",
       "points": [
         {
-          "label": "let's talk i've",
-          "text": "let's talk i've",
-          "note": "注意 \"let's talk i've\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "i've been thinking",
+          "text": "i've been thinking",
+          "note": "注意 \"i've been thinking\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
@@ -446,9 +644,9 @@
       "translation": "我們吃東西溫暖我們的心，歡笑。",
       "points": [
         {
-          "label": "eat warm our",
-          "text": "eat warm our",
-          "note": "注意 \"eat warm our\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "eat warm hearts",
+          "text": "eat warm hearts",
+          "note": "注意 \"eat warm hearts\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

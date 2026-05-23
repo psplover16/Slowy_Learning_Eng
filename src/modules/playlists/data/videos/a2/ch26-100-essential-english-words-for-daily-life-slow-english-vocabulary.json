@@ -20,7 +20,7 @@
       "sentences": [
         {
           "en": "In this video, you'll learn the essential vocabulary you need in four different situations. At the airport, at the grocery store, at the house, and in the kitchen. These are the words.",
-          "tc": "在本影片中，您將學習四種不同情況下所需的基本詞彙。在機場、在雜貨店、在家裡、在廚房。就是這些話。"
+          "tc": "在本影片中，你將學習四種不同情況下所需的基本詞彙。在機場、在雜貨店、在家裡、在廚房。就是這些話。"
         },
         {
           "en": "That native speakers use every day. Listen, repeat, and see how many.",
@@ -40,7 +40,7 @@
           "english": "grocery",
           "kk": "/grocery/",
           "partOfSpeech": "n.",
-          "meaning": "食物與用餐相關的常用字",
+          "meaning": "雜貨店",
           "note": "看到 grocery 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -48,16 +48,8 @@
           "english": "stores",
           "kk": "/stores/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "商店",
           "note": "看到 stores 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "essential",
-          "kk": "/essential/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 essential 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -87,10 +79,18 @@
       ],
       "tags": [
         {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "grocery",
           "kk": "/grocery/",
           "partOfSpeech": "n.",
-          "meaning": "食物與用餐相關的常用字",
+          "meaning": "雜貨店",
           "note": "看到 grocery 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -98,16 +98,8 @@
           "english": "stores",
           "kk": "/stores/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "商店",
           "note": "看到 stores 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "essential",
-          "kk": "/essential/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 essential 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -127,20 +119,28 @@
           "tc": "他們總是免費提供免費樣品。自由的。我也喜歡這些商店，因為過道很寬。不窄，但過道很寬。在一些商店，如Bodega，。"
         },
         {
-          "en": "Soriana, the aisles are too narrow. That's why I prefer places like Walmart with wide aisles.",
-          "tc": "索里亞娜，走道太窄了。這就是為什麼我更喜歡像沃爾瑪這樣通道寬闊的地方。"
+          "en": "Soriana, the aisles are too narrow.",
+          "tc": "索里亞娜，走道太窄了。"
         },
         {
-          "en": "My favorite aisle is the detergent aisle. It smells so good. It smells so fresh and clean. As a customer at Walmart,.",
-          "tc": "我最喜歡的通道是洗滌劑通道。聞起來真香。聞起來非常清新乾淨。作為沃爾瑪的顧客。"
+          "en": "That's why I prefer places like Walmart with wide aisles.",
+          "tc": "這就是為什麼我更喜歡像沃爾瑪這樣通道寬闊的地方。"
         }
       ],
       "tags": [
         {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "grocery",
           "kk": "/grocery/",
           "partOfSpeech": "n.",
-          "meaning": "食物與用餐相關的常用字",
+          "meaning": "雜貨店",
           "note": "看到 grocery 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -148,17 +148,9 @@
           "english": "stores",
           "kk": "/stores/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "商店",
           "note": "看到 stores 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "aisles",
-          "kk": "/aisles/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 aisles 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         }
       ]
     },
@@ -169,6 +161,10 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
+          "en": "My favorite aisle is the detergent aisle. It smells so good. It smells so fresh and clean. As a customer at Walmart,.",
+          "tc": "我最喜歡的通道是洗滌劑通道。聞起來真香。聞起來非常清新乾淨。作為沃爾瑪的顧客。"
+        },
+        {
           "en": "I always feel comfortable. The temperature is usually very cool and the shopping carts stroll really smooth down the aisles.",
           "tc": "我總是覺得很舒服。氣溫通常非常涼爽，購物車在走道上行駛得非常平穩。"
         },
@@ -178,11 +174,7 @@
         },
         {
           "en": "What makes a grocery store feel comfy for you? The smells, the shopping carts, the people?",
-          "tc": "是什麼讓雜貨店讓您感覺舒適？氣味、購物車、人？"
-        },
-        {
-          "en": "When I'm ready to check out all of my groceries,?",
-          "tc": "當我準備好檢查我所有的雜貨時，？"
+          "tc": "是什麼讓雜貨店讓你感覺舒適？氣味、購物車、人？"
         }
       ],
       "tags": [
@@ -190,23 +182,15 @@
           "english": "grocery",
           "kk": "/grocery/",
           "partOfSpeech": "n.",
-          "meaning": "食物與用餐相關的常用字",
+          "meaning": "雜貨店",
           "note": "看到 grocery 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "aisles",
-          "kk": "/aisles/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 aisles 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "usually",
           "kk": "/usually/",
           "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "通常",
           "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -219,6 +203,10 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
+          "en": "I'm ready to check out all of my groceries,.",
+          "tc": "我準備好檢查我所有的雜貨了。"
+        },
+        {
           "en": "I normally try to go to self checkout. The lines the queue is usually shorter than regular checkout. So self checkout is a lot faster.",
           "tc": "我通常會嘗試去自助結帳。排隊的隊伍通常比常規結帳的隊伍要短。所以自助結帳快很多。"
         },
@@ -227,37 +215,25 @@
           "tc": "我總是喜歡在當地市場購買蔬菜和水果等新鮮農產品。"
         },
         {
-          "en": "I prefer going to the local market for food that's fresh, fresh produce.",
+          "en": "I prefer going to the local market for food that's fresh, produce.",
           "tc": "我比較喜歡去當地市場購買新鮮的農產品。"
-        },
-        {
-          "en": "I usually need a whole bunch of bananas.",
-          "tc": "我通常需要一整串香蕉。"
         }
       ],
       "tags": [
         {
-          "english": "bananas",
-          "kk": "/bananas/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 bananas 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "fresh",
-          "kk": "/fresh/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 fresh 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
           "english": "usually",
           "kk": "/usually/",
           "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "通常",
           "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "prefer",
+          "kk": "/prefer/",
+          "partOfSpeech": "n.",
+          "meaning": "更喜歡",
+          "note": "看到 prefer 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -269,8 +245,12 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "I eat one banana every day. So,.",
-          "tc": "我每天吃一根香蕉。所以，。"
+          "en": "I usually need a whole bunch of bananas.",
+          "tc": "我通常需要一整串香蕉。"
+        },
+        {
+          "en": "I eat one banana every day.",
+          "tc": "我每天吃一根香蕉。"
         },
         {
           "en": "I need at least five bananas for my week. 1 kilo of bananas is usually enough for me. It's usually a whole bunch of bananas. How many kilos of bananas.",
@@ -278,35 +258,315 @@
         },
         {
           "en": "Do you normally buy per week from Sunday to Saturday? How many?",
-          "tc": "您通常從週日到週六每週購買一次嗎？多少？"
-        },
-        {
-          "en": "Do you buy? I don't like going to big chain supermarkets to buy fresh produce. However,?",
-          "tc": "你買嗎？我不喜歡去大型連鎖超市買生鮮農產品。然而，？"
+          "tc": "你通常從週日到週六每週購買一次嗎？多少？"
         }
       ],
       "tags": [
         {
-          "english": "bananas",
-          "kk": "/bananas/",
+          "english": "buy",
+          "kk": "/buy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 bananas 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "fresh",
-          "kk": "/fresh/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 fresh 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "買",
+          "note": "看到 buy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "usually",
           "kk": "/usually/",
           "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "通常",
+          "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "Do you buy?",
+          "tc": "你買嗎？"
+        },
+        {
+          "en": "I don't like going to big chain supermarkets to buy fresh produce. However,.",
+          "tc": "我不喜歡去大型連鎖超市買生鮮農產品。然而，。"
+        },
+        {
+          "en": "When it comes to meat like beef, chicken, pork, or fish, I prefer to go to a big chain supermarket?",
+          "tc": "當談到牛肉、雞肉、豬肉或魚等肉類時，我更喜歡去大型連鎖超市？"
+        },
+        {
+          "en": "I get nervous buying at outdoor markets. The meat.",
+          "tc": "我在戶外市場購物時感到緊張。肉。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "buy",
+          "kk": "/buy/",
+          "partOfSpeech": "n.",
+          "meaning": "買",
+          "note": "看到 buy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "prefer",
+          "kk": "/prefer/",
+          "partOfSpeech": "n.",
+          "meaning": "更喜歡",
+          "note": "看到 prefer 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "Sometimes sits in the sun all day. The same with dairy products.",
+          "tc": "有時整天坐在陽光下。乳製品也是如此。"
+        },
+        {
+          "en": "I prefer to go to a big chain supermarket for my dairy products.",
+          "tc": "我比較喜歡去大型連鎖超市購買乳製品。"
+        },
+        {
+          "en": "I really like walking down the aisle at places like Walmart or Soriana to buy my dairy products.",
+          "tc": "我真的很喜歡沿著沃爾瑪或索里亞納等地方的過道購買乳製品。"
+        },
+        {
+          "en": "I just love dairy products. Cottage cheese, Greek yogurt, ice cream.",
+          "tc": "我就是喜歡乳製品。白乾酪、希臘優格、冰淇淋。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "dairy",
+          "kk": "/dairy/",
+          "partOfSpeech": "n.",
+          "meaning": "乳製品",
+          "note": "看到 dairy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "buy",
+          "kk": "/buy/",
+          "partOfSpeech": "n.",
+          "meaning": "買",
+          "note": "看到 buy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "I love it all.",
+          "tc": "我喜歡這一切。"
+        },
+        {
+          "en": "I am lactose intolerant. So dairy products make me feel very sick.",
+          "tc": "我有乳糖不耐症。所以乳製品讓我覺得很噁心。"
+        },
+        {
+          "en": "I don't care.",
+          "tc": "我不在乎。"
+        },
+        {
+          "en": "I get sick.",
+          "tc": "我生病了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "dairy",
+          "kk": "/dairy/",
+          "partOfSpeech": "n.",
+          "meaning": "乳製品",
+          "note": "看到 dairy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "products",
+          "kk": "/products/",
+          "partOfSpeech": "n.",
+          "meaning": "產品",
+          "note": "看到 products 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "I love dairy products. Now, when it comes to dairy products like eggs,.",
+          "tc": "我喜歡乳製品。現在，說到雞蛋等乳製品。"
+        },
+        {
+          "en": "I don't really like eggs. I can never buy a dozen eggs. A dozen is 12 eggs. It's too much for me. If.",
+          "tc": "我其實不太喜歡雞蛋。我永遠買不到一打雞蛋。一打就是12顆雞蛋。這對我來說太多了。如果。"
+        },
+        {
+          "en": "I'm with my family though,.",
+          "tc": "不過我和家人在一起，"
+        },
+        {
+          "en": "We will get a dozen eggs.",
+          "tc": "我們會得到一打雞蛋。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "dairy",
+          "kk": "/dairy/",
+          "partOfSpeech": "n.",
+          "meaning": "乳製品",
+          "note": "看到 dairy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "buy",
+          "kk": "/buy/",
+          "partOfSpeech": "n.",
+          "meaning": "買",
+          "note": "看到 buy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：人物與關係",
+      "titleEn": "Part 11: people",
+      "sentences": [
+        {
+          "en": "I always go to the local bakery. Bakeries, in my opinion, are the only way to buy bread. has to be made with love. My friend once told me that bread doesn't.",
+          "tc": "I always go to the local bakery.在我看來，麵包店是購買麵包的唯一途徑。 has to be made with love. My friend once told me that bread doesn't."
+        },
+        {
+          "en": "Go to your stomach. Bread goes to your heart. And you can taste the love put into bread,.",
+          "tc": "去你的胃吧。 Bread goes to your heart. And you can taste the love put into bread,."
+        },
+        {
+          "en": "I think. And the freshly homemade flavor is incomparable.",
+          "tc": "我認為。而且新鮮自製的味道是無與倫比的。"
+        },
+        {
+          "en": "What do you think? What's your favorite food aisle? the dairy aisle. Drinks, snacks, canned goods, condiments like ketchup, mayo, mustard. The prices at each grocery store make a big difference?",
+          "tc": "你怎麼認為？你最喜歡哪一個美食區？乳製品過道飲料、點心、罐頭、番茄醬、蛋黃醬、芥末等調味。每個雜貨店的價格差異很大嗎？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "dairy",
+          "kk": "/dairy/",
+          "partOfSpeech": "n.",
+          "meaning": "乳製品",
+          "note": "看到 dairy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "grocery",
+          "kk": "/grocery/",
+          "partOfSpeech": "n.",
+          "meaning": "雜貨店",
+          "note": "看到 grocery 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "When you're buying in bulk. Lots of people prefer to buy things that will last a long time. And places like Walmart or Costco are usually more expensive than places like Aurora?",
+          "tc": "當你大量購買時。很多人喜歡購買可以使用很久的東西。像沃爾瑪或好市多這樣的地方通常比奧羅拉這樣的地方貴？"
+        },
+        {
+          "en": "Or Soirana. Less international big chain stores.",
+          "tc": "或者索伊拉纳。國際大連鎖店較少。"
+        },
+        {
+          "en": "They usually have more sales and discounts.",
+          "tc": "他們通常有更多的銷售和折扣。"
+        },
+        {
+          "en": "I go to the checkout to pay for my groceries,.",
+          "tc": "我去收銀台付我的雜貨費。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "stores",
+          "kk": "/stores/",
+          "partOfSpeech": "n.",
+          "meaning": "商店",
+          "note": "看到 stores 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "buy",
+          "kk": "/buy/",
+          "partOfSpeech": "n.",
+          "meaning": "買",
+          "note": "看到 buy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "usually",
+          "kk": "/usually/",
+          "partOfSpeech": "adv.",
+          "meaning": "通常",
           "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -318,10 +578,26 @@
       "title": "A2 重點單字",
       "items": [
         {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "dairy",
+          "kk": "/dairy/",
+          "partOfSpeech": "n.",
+          "meaning": "乳製品",
+          "note": "看到 dairy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "grocery",
           "kk": "/grocery/",
           "partOfSpeech": "n.",
-          "meaning": "食物與用餐相關的常用字",
+          "meaning": "雜貨店",
           "note": "看到 grocery 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -329,56 +605,40 @@
           "english": "stores",
           "kk": "/stores/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "商店",
           "note": "看到 stores 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "aisles",
-          "kk": "/aisles/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 aisles 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "bananas",
-          "kk": "/bananas/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 bananas 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "fresh",
-          "kk": "/fresh/",
+          "english": "buy",
+          "kk": "/buy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 fresh 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "買",
+          "note": "看到 buy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "products",
+          "kk": "/products/",
+          "partOfSpeech": "n.",
+          "meaning": "產品",
+          "note": "看到 products 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "usually",
           "kk": "/usually/",
           "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "通常",
           "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "essential",
-          "kk": "/essential/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 essential 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "love",
-          "kk": "/love/",
+          "english": "prefer",
+          "kk": "/prefer/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "更喜歡",
+          "note": "看到 prefer 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -387,8 +647,19 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "what do you",
+      "meaning": "你是什麼",
+      "examples": [
+        {
+          "en": "What do you think?",
+          "tc": "你怎麼認為？"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "meaning": "去",
       "examples": [
         {
           "en": "When going to the grocery store.",
@@ -397,24 +668,13 @@
       ]
     },
     {
-      "id": "phrase-02",
+      "id": "phrase-03",
       "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "meaning": "想要",
       "examples": [
         {
           "en": "Today I want to talk about grocery stores and supermarkets.",
           "tc": "今天我想談談雜貨店和超市。"
-        }
-      ]
-    },
-    {
-      "id": "phrase-03",
-      "phrase": "try to",
-      "meaning": "常用說法，可用來表達「try to」這個意思",
-      "examples": [
-        {
-          "en": "I normally try to go to self checkout.",
-          "tc": "我通常會嘗試去自助結帳。"
         }
       ]
     }
@@ -423,7 +683,7 @@
     {
       "id": "breakdown-01",
       "sentence": "In this video, you'll learn the essential vocabulary you need in four different situations. At the airport, at the grocery store, at the house, and in the kitchen. These are the words.",
-      "translation": "在本影片中，您將學習四種不同情況下所需的基本詞彙。在機場、在雜貨店、在家裡、在廚房。就是這些話。",
+      "translation": "在本影片中，你將學習四種不同情況下所需的基本詞彙。在機場、在雜貨店、在家裡、在廚房。就是這些話。",
       "points": [
         {
           "label": "you'll essential vocabulary",

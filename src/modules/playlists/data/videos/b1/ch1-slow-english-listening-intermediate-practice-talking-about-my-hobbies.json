@@ -19,45 +19,37 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Hello welcome to my English clear podcast for levels B1 or A2.",
-          "tc": "您好，歡迎來到我的 B1 或 A2 級英語清晰播客。"
+          "en": "Welcome to my slow English podcast for levels B1 or A2.",
+          "tc": "歡迎來到我的 B1 或 A2 級慢速英語podcast。"
         },
         {
-          "en": "Today I will repeat the conversation twice once clearly and the second a bit faster.",
-          "tc": "今天我將把這個對話重複兩次，一次清晰，第二次稍微快一點。"
+          "en": "Today I will repeat the conversation twice once clearly.",
+          "tc": "今天我把談話內容重複兩遍，一次清楚。"
         },
         {
-          "en": "Today I want to talk about sports and hobbies I have always always enjoyed playing sports anything from soccer to ballet.",
-          "tc": "今天我想談談運動和嗜好，我一直喜歡參加從足球到芭蕾舞的各種運動。"
+          "en": "The second a bit faster.",
+          "tc": "第二個有點快。"
         },
         {
-          "en": "I have always loved participating in different social activities throughout my whole life.",
-          "tc": "我一生都非常喜歡參與不同的社會活動。"
+          "en": "Today I want to talk about sports and hobbies.",
+          "tc": "今天我想談談運動和嗜好。"
         }
       ],
       "tags": [
         {
+          "english": "hobbies",
+          "kk": "/ˈhɑbiz/",
+          "partOfSpeech": "n.",
+          "meaning": "嗜好",
+          "note": "看到 hobbies 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "sports",
-          "kk": "/sports/",
+          "kk": "/spɔrts/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "運動",
           "note": "看到 sports 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "enjoy",
-          "kk": "/enjoy/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 enjoy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "always",
-          "kk": "/always/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 always 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -69,28 +61,28 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
+          "en": "I have always enjoyed playing sports anything from soccer to ballet.",
+          "tc": "我一直喜歡參加從足球到芭蕾舞等各種運動。"
+        },
+        {
+          "en": "I have always loved participating in different social activities throughout my whole life.",
+          "tc": "我一生都非常喜歡參與不同的社會活動。"
+        },
+        {
           "en": "I have gone to soccer cheerleading basketball gymnastics dance and baseball.",
           "tc": "我去了足球、啦啦隊、籃球、體操、舞蹈和棒球。"
         },
         {
           "en": "Do you play any sports?",
           "tc": "你參加什麼運動嗎？"
-        },
-        {
-          "en": "Do you prefer team sports or individual sports I don't enjoy watching sports as much as I enjoy playing them?",
-          "tc": "您喜歡團隊運動還是個人運動？我不像喜歡參加運動那樣喜歡看運動？"
-        },
-        {
-          "en": "I do love watching gymnastics competitions and dance shows like Dance Moms or Dancing with the Stars.",
-          "tc": "我確實喜歡看體操比賽和舞蹈節目，例如《舞蹈媽媽》或《與星共舞》。"
         }
       ],
       "tags": [
         {
           "english": "sports",
-          "kk": "/sports/",
+          "kk": "/spɔrts/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "運動",
           "note": "看到 sports 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -98,16 +90,8 @@
           "english": "enjoy",
           "kk": "/enjoy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "享受",
           "note": "看到 enjoy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "dance",
-          "kk": "/dance/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -119,28 +103,28 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
+          "en": "Do you prefer team sports or individual sports?",
+          "tc": "你喜歡團隊運動還是個人運動？"
+        },
+        {
+          "en": "I don't enjoy watching sports as much as I enjoy playing them.",
+          "tc": "我不像喜歡參加體育比賽那樣喜歡觀看體育比賽。"
+        },
+        {
+          "en": "I do love watching gymnastics competitions and dance shows like Dance Moms or Dancing with the Stars.",
+          "tc": "我確實喜歡看體操比賽和舞蹈節目，例如《舞蹈媽媽》或《與星共舞》。"
+        },
+        {
           "en": "Do you think watching sports is as enjoyable as playing them I also enjoy going to the gym but if?",
           "tc": "你認為觀看體育比賽和參加比賽一樣有趣嗎？我也喜歡去健身房，但如果呢？"
-        },
-        {
-          "en": "I don't have time to go to the gym I always make sure to go for a jog jogging for me is very therapeutic it helps me clear my mind and stops.",
-          "tc": "我沒有時間去健身房，我總是確保去慢跑，慢跑對我來說非常有治療作用，它可以幫助我理清思緒並停下來。"
-        },
-        {
-          "en": "The overthinking physical activity not only helps my body but also helps my mind is there any type of exercise.",
-          "tc": "過度思考的體能活動不僅對我的身體有幫助，而且對我的思想有任何類型的運動都有幫助。"
-        },
-        {
-          "en": "You do to help you clear your head having a clear mind.",
-          "tc": "你這樣做是為了幫助你頭腦清醒，頭腦清醒。"
         }
       ],
       "tags": [
         {
           "english": "sports",
-          "kk": "/sports/",
+          "kk": "/spɔrts/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "運動",
           "note": "看到 sports 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -148,17 +132,9 @@
           "english": "enjoy",
           "kk": "/enjoy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "享受",
           "note": "看到 enjoy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "always",
-          "kk": "/always/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 always 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         }
       ]
     },
@@ -169,45 +145,45 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "How can exercise help us to stop worrying about things?",
-          "tc": "運動如何幫助我們停止擔心事情？"
+          "en": "I don't have time to go to the gym I always make sure to go for a jog jogging for me is very therapeutic it helps me clear my mind and stops.",
+          "tc": "我沒有時間去健身房，我總是確保去慢跑，慢跑對我來說非常有治療作用，它可以幫助我理清思緒並停下來。"
+        },
+        {
+          "en": "The overthinking physical activity not only helps my body but also helps my mind.",
+          "tc": "過度思考的身體活動不僅對我的身體有幫助，對我的思想也有幫助。"
+        },
+        {
+          "en": "Is there any type of exercise you do to help you clear your head having a clear mind how can exercise help us to stop worrying about things?",
+          "tc": "有沒有什麼類型的運動可以幫助你理清思緒，頭腦清醒，運動如何幫助我們停止擔心事情？"
         },
         {
           "en": "Sometimes hobbies aren't physical Hobbies like drawing writing knitting gardening or cooking can be a big help to mental health as well.",
           "tc": "有時嗜好不是身體上的嗜好，例如繪畫、寫作、編織、園藝或烹飪等嗜好也對心理健康有很大幫助。"
-        },
-        {
-          "en": "Do you enjoy enjoy non-physical Hobbies if so which ones?",
-          "tc": "您喜歡非物質的嗜好嗎？如果喜歡的話，有哪些？"
-        },
-        {
-          "en": "Do you enjoy?",
-          "tc": "你喜歡嗎？"
         }
       ],
       "tags": [
         {
-          "english": "enjoy",
-          "kk": "/enjoy/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 enjoy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "hobbies",
-          "kk": "/hobbies/",
+          "kk": "/ˈhɑbiz/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "嗜好",
           "note": "看到 hobbies 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
           "english": "help",
           "kk": "/help/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "幫助",
           "note": "看到 help 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "mind",
+          "kk": "/mind/",
+          "partOfSpeech": "n.",
+          "meaning": "頭腦",
+          "note": "看到 mind 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -219,46 +195,46 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "Today I want to talk about sports and hobbies I have always enjoyed playing sports anything from soccer to ballet.",
-          "tc": "今天我想談談運動和嗜好，我一直喜歡參加從足球到芭蕾舞的各種運動。"
+          "en": "Do you enjoy non-physical Hobbies if so which ones?",
+          "tc": "你是否喜歡非物質嗜好（如果有）是哪些？"
+        },
+        {
+          "en": "Do you enjoy?",
+          "tc": "你喜歡嗎？"
         },
         {
           "en": "I have gone to soccer cheerleading basketball gymnastics and baseball.",
           "tc": "我參加過足球、啦啦隊、籃球、體操和棒球。"
         },
         {
-          "en": "I do love watching gymnastics competitions and dance shows dance shows like Dance Moms or Dancing with the Stars.",
-          "tc": "我確實喜歡觀賞體操比賽和舞蹈表演，例如《舞蹈媽媽》或《與星共舞》。"
-        },
-        {
-          "en": "Do you think think watching sports is as enjoyable as playing them?",
-          "tc": "您認為觀看體育比賽和參加比賽一樣有趣嗎？"
+          "en": "I don't have time to go to the gym I always make sure to go for a jog jogging for me is very therapeutic it helps me to clear my mind.",
+          "tc": "我沒有時間去健身房，我總是確保去慢跑，慢跑對我來說非常有治療作用，它可以幫助我理清思緒。"
         }
       ],
       "tags": [
         {
-          "english": "sports",
-          "kk": "/sports/",
+          "english": "hobbies",
+          "kk": "/ˈhɑbiz/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 sports 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "嗜好",
+          "note": "看到 hobbies 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "help",
+          "kk": "/help/",
+          "partOfSpeech": "n.",
+          "meaning": "幫助",
+          "note": "看到 help 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "enjoy",
           "kk": "/enjoy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "享受",
           "note": "看到 enjoy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "always",
-          "kk": "/always/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 always 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         }
       ]
     },
@@ -269,45 +245,91 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "I also enjoy going to the gym but if I don't have time to go to the gym.",
-          "tc": "我也喜歡去健身房，但如果我沒有時間去健身房。"
+          "en": "Stops me from overthinking you know physical activity is good for the body.",
+          "tc": "讓我不再想太多，你知道體力活動對身體有好處。"
         },
         {
-          "en": "I always make sure to go for a jog jogging for me is very therapeutic it helps me to clear my mind and stops me from overthinking.",
-          "tc": "我總是確保去慢跑，慢跑對我來說非常有治療作用，它可以幫助我理清思緒，防止我過度思考。"
+          "en": "It is good for the mind.",
+          "tc": "這對頭腦有好處。"
         },
         {
-          "en": "You know physical activity is good for the body and it is good good for the mind is there any type of exercise.",
-          "tc": "您知道體力活動對身體有好處，而且任何類型的運動都對大腦有好處。"
+          "en": "Is there any type of exercise you do to help clear your mind how can exercise help us stop worrying about things?",
+          "tc": "有什麼類型的運動可以幫助你理清思緒，運動如何幫助我們停止擔心事情？"
         },
         {
-          "en": "You do to help clear your mind how can exercise help us stop worrying about things.",
-          "tc": "你這樣做可以幫助你理清思緒，運動如何幫助我們停止擔心事情。"
+          "en": "Sometimes hobbies aren't physical Hobbies like drawing writing knitting gardening or cooking.",
+          "tc": "有時嗜好不是身體上的嗜好，例如繪畫、寫作、編織、園藝或烹飪。"
         }
       ],
       "tags": [
         {
+          "english": "hobbies",
+          "kk": "/ˈhɑbiz/",
+          "partOfSpeech": "n.",
+          "meaning": "嗜好",
+          "note": "看到 hobbies 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "help",
+          "kk": "/help/",
+          "partOfSpeech": "n.",
+          "meaning": "幫助",
+          "note": "看到 help 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "mind",
+          "kk": "/mind/",
+          "partOfSpeech": "n.",
+          "meaning": "頭腦",
+          "note": "看到 mind 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "They can be a huge help to help mental health.",
+          "tc": "它們可以為心理健康提供巨大幫助。"
+        },
+        {
+          "en": "Do you enjoy any non-physical Hobbies?",
+          "tc": "有什麼非物質的嗜好嗎？"
+        },
+        {
+          "en": "Thank you some of the vocabulary for this lesson I'll leave here.",
+          "tc": "謝謝你，我將把本課的一些詞彙留在這裡。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "hobbies",
+          "kk": "/ˈhɑbiz/",
+          "partOfSpeech": "n.",
+          "meaning": "嗜好",
+          "note": "看到 hobbies 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "help",
+          "kk": "/help/",
+          "partOfSpeech": "n.",
+          "meaning": "幫助",
+          "note": "看到 help 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "enjoy",
           "kk": "/enjoy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "享受",
           "note": "看到 enjoy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "always",
-          "kk": "/always/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 always 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "clear",
-          "kk": "/clear/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 clear 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -318,10 +340,26 @@
       "title": "B1 重點單字",
       "items": [
         {
-          "english": "sports",
-          "kk": "/sports/",
+          "english": "hobbies",
+          "kk": "/ˈhɑbiz/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "嗜好",
+          "note": "看到 hobbies 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "help",
+          "kk": "/help/",
+          "partOfSpeech": "n.",
+          "meaning": "幫助",
+          "note": "看到 help 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sports",
+          "kk": "/spɔrts/",
+          "partOfSpeech": "n.",
+          "meaning": "運動",
           "note": "看到 sports 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -329,56 +367,40 @@
           "english": "enjoy",
           "kk": "/enjoy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "享受",
           "note": "看到 enjoy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "always",
-          "kk": "/always/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 always 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "clear",
-          "kk": "/clear/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 clear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "dance",
-          "kk": "/dance/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "hobbies",
-          "kk": "/hobbies/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 hobbies 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "mind",
           "kk": "/mind/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "頭腦",
           "note": "看到 mind 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "help",
-          "kk": "/help/",
+          "english": "exercise",
+          "kk": "/ˈɛksɚˌsaɪz/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 help 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "運動；練習",
+          "note": "看到 exercise 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "helps",
+          "kk": "/helps/",
+          "partOfSpeech": "n.",
+          "meaning": "幫助",
+          "note": "看到 helps 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "physical",
+          "kk": "/ˈfɪzɪkəl/",
+          "partOfSpeech": "adj.",
+          "meaning": "身體的",
+          "note": "看到 physical 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -387,8 +409,19 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome to",
+      "meaning": "歡迎來到",
+      "examples": [
+        {
+          "en": "Welcome to my slow English podcast for levels B1 or A2.",
+          "tc": "歡迎來到我的 B1 或 A2 級慢速英語podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "meaning": "去",
       "examples": [
         {
           "en": "Do you think watching sports is as enjoyable as playing them I also enjoy going to the gym but if?",
@@ -397,24 +430,13 @@
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
-      "examples": [
-        {
-          "en": "Today I want to talk about sports and hobbies I have always always enjoyed playing sports anything from soccer to ballet.",
-          "tc": "今天我想談談運動和嗜好，我一直喜歡參加從足球到芭蕾舞的各種運動。"
-        }
-      ]
-    },
-    {
       "id": "phrase-03",
-      "phrase": "talk about",
-      "meaning": "談論",
+      "phrase": "go for a jog",
+      "meaning": "去慢跑",
       "examples": [
         {
-          "en": "Today I want to talk about sports and hobbies I have always always enjoyed playing sports anything from soccer to ballet.",
-          "tc": "今天我想談談運動和嗜好，我一直喜歡參加從足球到芭蕾舞的各種運動。"
+          "en": "I don't have time to go to the gym I always make sure to go for a jog jogging for me is very therapeutic it helps me clear my mind and stops.",
+          "tc": "我沒有時間去健身房，我總是確保去慢跑，慢跑對我來說非常有治療作用，它可以幫助我理清思緒並停下來。"
         }
       ]
     }
@@ -422,49 +444,49 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Hello welcome to my English clear podcast for levels B1 or A2.",
-      "translation": "您好，歡迎來到我的 B1 或 A2 級英語清晰播客。",
+      "sentence": "Welcome to my slow English podcast for levels B1 or A2.",
+      "translation": "歡迎來到我的 B1 或 A2 級慢速英語podcast。",
       "points": [
         {
-          "label": "welcome clear levels",
-          "text": "welcome clear levels",
-          "note": "注意 \"welcome clear levels\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "welcome to",
+          "text": "welcome to",
+          "note": "注意 \"welcome to\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-02",
-      "sentence": "Today I will repeat the conversation twice once clearly and the second a bit faster.",
-      "translation": "今天我將把這個對話重複兩次，一次清晰，第二次稍微快一點。",
+      "sentence": "Today I will repeat the conversation twice once clearly.",
+      "translation": "今天我把談話內容重複兩遍，一次清楚。",
       "points": [
         {
-          "label": "repeat conversation twice",
-          "text": "repeat conversation twice",
-          "note": "注意 \"repeat conversation twice\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "repeat conversation clearly",
+          "text": "repeat conversation clearly",
+          "note": "注意 \"repeat conversation clearly\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
-      "sentence": "Today I want to talk about sports and hobbies I have always always enjoyed playing sports anything from soccer to ballet.",
-      "translation": "今天我想談談運動和嗜好，我一直喜歡參加從足球到芭蕾舞的各種運動。",
+      "sentence": "The second a bit faster.",
+      "translation": "第二個有點快。",
       "points": [
         {
-          "label": "want to",
-          "text": "want to",
-          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "bit faster",
+          "text": "bit faster",
+          "note": "注意 \"bit faster\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-04",
-      "sentence": "I have always loved participating in different social activities throughout my whole life.",
-      "translation": "我一生都非常喜歡參與不同的社會活動。",
+      "sentence": "Today I want to talk about sports and hobbies.",
+      "translation": "今天我想談談運動和嗜好。",
       "points": [
         {
-          "label": "always loved participating",
-          "text": "always loved participating",
-          "note": "注意 \"always loved participating\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "want talk sports",
+          "text": "want talk sports",
+          "note": "注意 \"want talk sports\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

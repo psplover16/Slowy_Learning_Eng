@@ -15,286 +15,965 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Hello, my name is Tyana Ortiz. Welcome to my slow English podcast.",
-          "tc": "你好，我叫泰安娜‧奧爾蒂斯。歡迎來到我的慢速英語播客。"
+          "en": "[Music] Hello, my name is Tyana Ortiz.",
+          "tc": "[音樂] 你好，我的名字是 Tyana Ortiz。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "[Music] Hello, my name is Tyana Ortiz."
+            }
+          ]
         },
         {
-          "en": "This podcast is for beginners who want to practice listening to English.",
-          "tc": "該播客適合想要練習英語聽力的初學者。"
+          "en": "Welcome to my slow podcast.",
+          "tc": "歡迎來到我的慢速 podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Welcome to my "
+            },
+            {
+              "type": "usage",
+              "text": "slow",
+              "targetId": "usage-slow-podcast",
+              "instanceId": "marker-a1-ch1-002-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch1-002-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "This podcast is for beginners who want to learn by listening to English.",
+          "tc": "這個 podcast 是給想透過聽英文來學習的初學者。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch1-003-01"
+            },
+            {
+              "type": "text",
+              "text": " is for "
+            },
+            {
+              "type": "word",
+              "text": "beginners",
+              "targetId": "word-beginner",
+              "instanceId": "marker-a1-ch1-003-02"
+            },
+            {
+              "type": "text",
+              "text": " who want to learn by listening to English."
+            }
+          ]
         },
         {
           "en": "Today's podcast is about my daily routine.",
-          "tc": "今天的播客是關於我的日常生活的。"
-        },
-        {
-          "en": "I wake up at 7 a.m.",
-          "tc": "我早上 7 點起床。"
+          "tc": "今天的 podcast 是關於我的日常例行活動。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today's "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch1-004-01"
+            },
+            {
+              "type": "text",
+              "text": " is about my daily "
+            },
+            {
+              "type": "word",
+              "text": "routine",
+              "targetId": "word-routine",
+              "instanceId": "marker-a1-ch1-004-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I brush my teeth.",
-          "tc": "我刷牙。"
+          "en": "My daily routine.",
+          "tc": "我的日常例行活動。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My daily "
+            },
+            {
+              "type": "word",
+              "text": "routine",
+              "targetId": "word-routine",
+              "instanceId": "marker-a1-ch1-005-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I wash my face.",
-          "tc": "我洗臉。"
+          "en": "A routine is something you do every day.",
+          "tc": "routine 是你每天會做的事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A "
+            },
+            {
+              "type": "word",
+              "text": "routine",
+              "targetId": "word-routine",
+              "instanceId": "marker-a1-ch1-006-01"
+            },
+            {
+              "type": "text",
+              "text": " is something you do every day."
+            }
+          ]
         },
         {
-          "en": "I eat breakfast.",
-          "tc": "我吃早餐。"
+          "en": "In the morning, I wake up at 7 a.m. I brush my teeth.",
+          "tc": "早上，我七點起床。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "In the morning, I "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a1-ch1-007-01"
+            },
+            {
+              "type": "text",
+              "text": " at 7 a.m. I brush my teeth."
+            }
+          ]
         },
         {
-          "en": "My favorite breakfast is oatmeal with bananas, strawberries, berries, and honey.",
-          "tc": "我最喜歡的早餐是燕麥片加香蕉、草莓、莓果和蜂蜜。"
+          "en": "I wash my face, and I eat breakfast.",
+          "tc": "我刷牙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I wash my face, and I eat breakfast."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "eat",
-          "kk": "/eat/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 eat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "breakfast",
-          "kk": "/ˈbrɛkfəst/",
-          "partOfSpeech": "n.",
-          "meaning": "早餐",
-          "note": "看到 breakfast 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
+          "en": "My favorite breakfast is oatmeal: oatmeal with bananas, strawberries, and honey.",
+          "tc": "我洗臉，然後吃早餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My favorite breakfast is "
+            },
+            {
+              "type": "word",
+              "text": "oatmeal",
+              "targetId": "word-oatmeal",
+              "instanceId": "marker-a1-ch1-009-01"
+            },
+            {
+              "type": "text",
+              "text": ": "
+            },
+            {
+              "type": "word",
+              "text": "oatmeal",
+              "targetId": "word-oatmeal",
+              "instanceId": "marker-a1-ch1-009-02"
+            },
+            {
+              "type": "text",
+              "text": " with bananas, "
+            },
+            {
+              "type": "word",
+              "text": "strawberries",
+              "targetId": "word-strawberry",
+              "instanceId": "marker-a1-ch1-009-03"
+            },
+            {
+              "type": "text",
+              "text": ", and honey."
+            }
+          ]
+        },
+        {
           "en": "I eat oatmeal every day.",
-          "tc": "我每天都吃燕麥片。"
+          "tc": "我最喜歡的早餐是燕麥粥：加香蕉、草莓和蜂蜜的燕麥粥。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I eat "
+            },
+            {
+              "type": "word",
+              "text": "oatmeal",
+              "targetId": "word-oatmeal",
+              "instanceId": "marker-a1-ch1-010-01"
+            },
+            {
+              "type": "text",
+              "text": " every day."
+            }
+          ]
+        },
+        {
+          "en": "It's my favorite breakfast.",
+          "tc": "我每天都吃燕麥粥。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's my favorite breakfast."
+            }
+          ]
         },
         {
           "en": "What is your favorite breakfast?",
-          "tc": "你最喜歡的早餐是什麼？"
-        },
-        {
-          "en": "What do you usually eat for breakfast?",
-          "tc": "你早餐通常吃什麼？"
-        },
-        {
-          "en": "I do yoga.",
-          "tc": "我做瑜珈。"
+          "tc": "那是我最喜歡的早餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What is your favorite breakfast?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "eat",
-          "kk": "/eat/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 eat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "breakfast",
-          "kk": "/ˈbrɛkfəst/",
-          "partOfSpeech": "n.",
-          "meaning": "早餐",
-          "note": "看到 breakfast 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
+          "en": "What do you usually eat for breakfast?",
+          "tc": "你最喜歡的早餐是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you usually eat for breakfast?"
+            }
+          ]
+        },
+        {
+          "en": "After breakfast, I do yoga.",
+          "tc": "早餐後，我做瑜伽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After breakfast, I "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-do",
+              "instanceId": "marker-a1-ch1-014-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "yoga",
+              "targetId": "word-yoga",
+              "instanceId": "marker-a1-ch1-014-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
           "en": "I love stretching every day.",
-          "tc": "我每天都喜歡伸展運動。"
+          "tc": "我喜歡每天伸展。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love "
+            },
+            {
+              "type": "word",
+              "text": "stretching",
+              "targetId": "word-stretch",
+              "instanceId": "marker-a1-ch1-015-01"
+            },
+            {
+              "type": "text",
+              "text": " every day."
+            }
+          ]
         },
         {
-          "en": "I get ready for work.",
-          "tc": "我準備上班了。"
-        },
-        {
-          "en": "I am a teacher.",
-          "tc": "我是老師。"
-        },
-        {
-          "en": "I am an English teacher.",
-          "tc": "我是一名英語老師。"
+          "en": "Then I get ready for work.",
+          "tc": "然後我準備去工作。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I "
+            },
+            {
+              "type": "phrase",
+              "text": "get ready for",
+              "targetId": "phrase-get-ready-for",
+              "instanceId": "marker-a1-ch1-016-01"
+            },
+            {
+              "type": "text",
+              "text": " work."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "get",
-          "kk": "/get/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：旅行",
-      "titleEn": "Part 5: travel",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "I teach students from Ukraine Mexico Colombia Germany Russia and more.",
-          "tc": "我教來自烏克蘭、墨西哥、哥倫比亞、德國、俄羅斯等國家的學生。"
+          "en": "I am a teacher.",
+          "tc": "我是一位老師。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am a teacher."
+            }
+          ]
+        },
+        {
+          "en": "I am an English teacher.",
+          "tc": "我是一位英文老師。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am an English teacher."
+            }
+          ]
+        },
+        {
+          "en": "I teach students from Ukraine, Mexico, Colombia, Germany, Russia, and more.",
+          "tc": "我教來自烏克蘭、墨西哥、哥倫比亞、德國、俄羅斯等地的學生。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I teach students from Ukraine, Mexico, Colombia, Germany, Russia, and more."
+            }
+          ]
         },
         {
           "en": "What is your job?",
-          "tc": "你做什麼工作？"
-        },
-        {
-          "en": "I work with students.",
-          "tc": "我和學生一起工作。"
-        },
-        {
-          "en": "I study Mandarin Chinese.",
-          "tc": "我學習普通話。"
+          "tc": "你的工作是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What is your job?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "eat",
-          "kk": "/eat/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 eat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "breakfast",
-          "kk": "/ˈbrɛkfəst/",
-          "partOfSpeech": "n.",
-          "meaning": "早餐",
-          "note": "看到 breakfast 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "lunch",
-          "kk": "/lʌntʃ/",
-          "partOfSpeech": "n.",
-          "meaning": "午餐",
-          "note": "看到 lunch 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：食物與用餐",
-      "titleEn": "Part 6: food",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "I eat lunch.",
-          "tc": "我吃午餐。"
+          "en": "Who do you work with?",
+          "tc": "你和誰一起工作？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Who do you "
+            },
+            {
+              "type": "phrase",
+              "text": "work with",
+              "targetId": "phrase-work-with",
+              "instanceId": "marker-a1-ch1-021-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "I work with students.",
+          "tc": "我和學生一起工作。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "work with",
+              "targetId": "phrase-work-with",
+              "instanceId": "marker-a1-ch1-022-01"
+            },
+            {
+              "type": "text",
+              "text": " students."
+            }
+          ]
+        },
+        {
+          "en": "Who do you work with?",
+          "tc": "你和誰一起工作？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Who do you "
+            },
+            {
+              "type": "phrase",
+              "text": "work with",
+              "targetId": "phrase-work-with",
+              "instanceId": "marker-a1-ch1-023-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "After teaching, I study.",
+          "tc": "教學後，我讀書。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After teaching, I study."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
+        {
+          "en": "I study Mandarin Chinese.",
+          "tc": "我讀中文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I study Mandarin Chinese."
+            }
+          ]
+        },
+        {
+          "en": "Then I eat lunch.",
+          "tc": "然後我吃午餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I eat lunch."
+            }
+          ]
         },
         {
           "en": "I normally eat a sandwich for lunch.",
-          "tc": "我午餐通常吃三明治。"
+          "tc": "我午餐通常吃三明治。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "normally",
+              "targetId": "word-normally",
+              "instanceId": "marker-a1-ch1-027-01"
+            },
+            {
+              "type": "text",
+              "text": " eat a sandwich for lunch."
+            }
+          ]
         },
         {
           "en": "What do you normally eat for lunch?",
-          "tc": "你午餐通常吃什麼？"
-        },
-        {
-          "en": "I get ready for my salsa dance class.",
-          "tc": "我準備參加薩爾薩舞蹈課。"
+          "tc": "你午餐通常吃什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you "
+            },
+            {
+              "type": "word",
+              "text": "normally",
+              "targetId": "word-normally",
+              "instanceId": "marker-a1-ch1-028-01"
+            },
+            {
+              "type": "text",
+              "text": " eat for lunch?"
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
         {
-          "english": "eat",
-          "kk": "/eat/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 eat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "After lunch, I get ready for my salsa dance class.",
+          "tc": "午餐後，我準備去上我的騷莎舞課。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After lunch, I "
+            },
+            {
+              "type": "phrase",
+              "text": "get ready for",
+              "targetId": "phrase-get-ready-for",
+              "instanceId": "marker-a1-ch1-029-01"
+            },
+            {
+              "type": "text",
+              "text": " my "
+            },
+            {
+              "type": "word",
+              "text": "salsa",
+              "targetId": "word-salsa",
+              "instanceId": "marker-a1-ch1-029-02"
+            },
+            {
+              "type": "text",
+              "text": " dance class."
+            }
+          ]
         },
         {
-          "english": "lunch",
-          "kk": "/lʌntʃ/",
-          "partOfSpeech": "n.",
-          "meaning": "午餐",
-          "note": "看到 lunch 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I love dancing.",
+          "tc": "我喜歡跳舞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love dancing."
+            }
+          ]
         },
         {
-          "english": "get",
-          "kk": "/get/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "I dance every Tuesday and Thursday.",
+          "tc": "我每週二和週四跳舞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I dance every Tuesday and Thursday."
+            }
+          ]
+        },
+        {
+          "en": "Do you like to dance?",
+          "tc": "你喜歡跳舞嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like to dance?"
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
+        {
+          "en": "What do you like to do in your free time?",
+          "tc": "你空閒時間喜歡做什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you like to do in your "
+            },
+            {
+              "type": "phrase",
+              "text": "free time",
+              "targetId": "phrase-free-time",
+              "instanceId": "marker-a1-ch1-033-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "In my free time, I like to dance.",
+          "tc": "在我的空閒時間，我喜歡跳舞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "In my "
+            },
+            {
+              "type": "phrase",
+              "text": "free time",
+              "targetId": "phrase-free-time",
+              "instanceId": "marker-a1-ch1-034-01"
+            },
+            {
+              "type": "text",
+              "text": ", I like to dance."
+            }
+          ]
+        },
+        {
+          "en": "What do you like to do in your free time?",
+          "tc": "你空閒時間喜歡做什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you like to do in your "
+            },
+            {
+              "type": "phrase",
+              "text": "free time",
+              "targetId": "phrase-free-time",
+              "instanceId": "marker-a1-ch1-035-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "In the evening, I relax at home.",
+          "tc": "晚上，我在家放鬆。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "In the evening, I "
+            },
+            {
+              "type": "word",
+              "text": "relax",
+              "targetId": "word-relax",
+              "instanceId": "marker-a1-ch1-036-01"
+            },
+            {
+              "type": "text",
+              "text": " at home."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "I watch TV.",
+          "tc": "我看電視。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I watch TV."
+            }
+          ]
+        },
+        {
+          "en": "I read a book.",
+          "tc": "我讀一本書。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I read a book."
+            }
+          ]
+        },
+        {
+          "en": "Sometimes I cook dinner.",
+          "tc": "有時候我煮晚餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Sometimes I cook dinner."
+            }
+          ]
+        },
+        {
+          "en": "Sometimes I cook Alfredo pasta.",
+          "tc": "有時候我煮阿爾弗雷多義大利麵。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Sometimes I cook Alfredo "
+            },
+            {
+              "type": "word",
+              "text": "pasta",
+              "targetId": "word-pasta",
+              "instanceId": "marker-a1-ch1-040-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
+        {
+          "en": "I love Alfredo pasta.",
+          "tc": "我喜歡阿爾弗雷多義大利麵。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love Alfredo "
+            },
+            {
+              "type": "word",
+              "text": "pasta",
+              "targetId": "word-pasta",
+              "instanceId": "marker-a1-ch1-041-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "What is your favorite dinner?",
+          "tc": "你最喜歡的晚餐是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What is your favorite dinner?"
+            }
+          ]
+        },
+        {
+          "en": "Your favorite dinner?",
+          "tc": "你最喜歡的晚餐呢？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Your favorite dinner?"
+            }
+          ]
+        },
+        {
+          "en": "At 11:00 p.m., I go to sleep.",
+          "tc": "晚上十一點，我去睡覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "At 11:00 p.m., I "
+            },
+            {
+              "type": "phrase",
+              "text": "go to sleep",
+              "targetId": "phrase-go-to-sleep",
+              "instanceId": "marker-a1-ch1-044-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "I love sleeping.",
+          "tc": "我喜歡睡覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love sleeping."
+            }
+          ]
+        },
+        {
+          "en": "I love feeling cozy and comfy.",
+          "tc": "我喜歡感覺溫暖又舒服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love feeling "
+            },
+            {
+              "type": "word",
+              "text": "cozy",
+              "targetId": "word-cozy",
+              "instanceId": "marker-a1-ch1-046-01"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "comfy",
+              "targetId": "word-comfy",
+              "instanceId": "marker-a1-ch1-046-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "What about your daily routine?",
+          "tc": "你的日常例行活動呢？",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "What about",
+              "targetId": "phrase-what-about",
+              "instanceId": "marker-a1-ch1-047-01"
+            },
+            {
+              "type": "text",
+              "text": " your daily "
+            },
+            {
+              "type": "word",
+              "text": "routine",
+              "targetId": "word-routine",
+              "instanceId": "marker-a1-ch1-047-02"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "What do you usually do every day?",
+          "tc": "你每天通常做什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you usually do every day?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "Thank you.",
+          "tc": "謝謝你。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "再見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -302,153 +981,313 @@
       "title": "A1 重點單字",
       "items": [
         {
-          "english": "eat",
-          "kk": "/eat/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 eat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast / podcasts",
+          "kk": "/ˈpɑdˌkæst/",
+          "partOfSpeech": "名詞",
+          "meaning": "podcast；播客節目",
           "highlight": true
         },
         {
-          "english": "breakfast",
-          "kk": "/ˈbrɛkfəst/",
-          "partOfSpeech": "n.",
-          "meaning": "早餐",
-          "note": "看到 breakfast 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-beginner",
+          "lemma": "beginner",
+          "english": "beginners",
+          "kk": "/bɪˈɡɪnɚ/",
+          "partOfSpeech": "名詞",
+          "meaning": "初學者",
           "highlight": true
         },
         {
-          "english": "lunch",
-          "kk": "/lʌntʃ/",
-          "partOfSpeech": "n.",
-          "meaning": "午餐",
-          "note": "看到 lunch 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-routine",
+          "lemma": "routine",
+          "english": "routine",
+          "kk": "/ruˈtin/",
+          "partOfSpeech": "名詞",
+          "meaning": "例行活動；日常習慣",
           "highlight": true
         },
         {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-oatmeal",
+          "lemma": "oatmeal",
+          "english": "oatmeal",
+          "kk": "/ˈotˌmil/",
+          "partOfSpeech": "名詞",
+          "meaning": "燕麥粥；燕麥片",
+          "highlight": true
         },
         {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-strawberry",
+          "lemma": "strawberry",
+          "english": "strawberries",
+          "kk": "/ˈstrɔˌbɛri/",
+          "partOfSpeech": "名詞",
+          "meaning": "草莓",
+          "highlight": true
         },
         {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-yoga",
+          "lemma": "yoga",
+          "english": "yoga",
+          "kk": "/ˈjoɡə/",
+          "partOfSpeech": "名詞",
+          "meaning": "瑜伽",
+          "highlight": true
         },
         {
-          "english": "get",
-          "kk": "/get/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-stretch",
+          "lemma": "stretch",
+          "english": "stretching",
+          "kk": "/strɛtʃ/",
+          "partOfSpeech": "動詞 / 動名詞",
+          "meaning": "伸展",
+          "highlight": true
         },
         {
+          "id": "word-normally",
+          "lemma": "normally",
           "english": "normally",
-          "kk": "/normally/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 normally 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "kk": "/ˈnɔrməli/",
+          "partOfSpeech": "副詞",
+          "meaning": "通常；平常",
+          "highlight": true
+        },
+        {
+          "id": "word-salsa",
+          "lemma": "salsa",
+          "english": "salsa",
+          "kk": "/ˈsɑlsə/",
+          "partOfSpeech": "名詞",
+          "meaning": "騷莎舞",
+          "highlight": true
+        },
+        {
+          "id": "word-relax",
+          "lemma": "relax",
+          "english": "relax",
+          "kk": "/rɪˈlæks/",
+          "partOfSpeech": "動詞",
+          "meaning": "放鬆",
+          "highlight": true
+        },
+        {
+          "id": "word-pasta",
+          "lemma": "pasta",
+          "english": "pasta",
+          "kk": "/ˈpɑstə/",
+          "partOfSpeech": "名詞",
+          "meaning": "義大利麵",
+          "highlight": true
+        },
+        {
+          "id": "word-cozy",
+          "lemma": "cozy",
+          "english": "cozy",
+          "kk": "/ˈkozi/",
+          "partOfSpeech": "形容詞",
+          "meaning": "溫暖舒適的",
+          "highlight": true
+        },
+        {
+          "id": "word-comfy",
+          "lemma": "comfy",
+          "english": "comfy",
+          "kk": "/ˈkʌmfi/",
+          "partOfSpeech": "形容詞",
+          "meaning": "舒服的",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
-      "phrase": "my name is",
-      "meaning": "我的名字是",
+      "id": "phrase-wake-up",
+      "phrase": "wake up",
+      "meaning": "睡醒；起床",
       "examples": [
         {
-          "en": "Hello, my name is Tyana Ortiz.",
-          "tc": "你好，我叫泰安娜‧奧爾蒂斯。"
+          "en": "In the morning, I __wake up__ at 7 a.m.",
+          "tc": "睡醒；起床"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "what do you",
-      "meaning": "你會怎麼...",
+      "id": "phrase-get-ready-for",
+      "phrase": "get ready for",
+      "meaning": "為某事做準備",
       "examples": [
         {
-          "en": "What do you usually eat for breakfast?",
-          "tc": "你早餐通常吃什麼？"
+          "en": "Then I __get ready for__ work.",
+          "tc": "為某事做準備"
+        },
+        {
+          "en": "After lunch, I __get ready for__ my **salsa** dance class.",
+          "tc": "為某事做準備"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "daily routine",
-      "meaning": "日常作息",
+      "id": "phrase-work-with",
+      "phrase": "work with",
+      "meaning": "和某人一起工作、合作或互動",
       "examples": [
         {
-          "en": "Today's podcast is about my daily routine.",
-          "tc": "今天的播客是關於我的日常生活的。"
+          "en": "Who do you __work with__?",
+          "tc": "和某人一起工作、合作或互動"
         }
+      ]
+    },
+    {
+      "id": "phrase-free-time",
+      "phrase": "free time",
+      "meaning": "不用上課或工作的時間",
+      "examples": [
+        {
+          "en": "What do you like to do in your __free time__?",
+          "tc": "不用上課或工作的時間"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-to-sleep",
+      "phrase": "go to sleep",
+      "meaning": "開始睡覺",
+      "examples": [
+        {
+          "en": "At 11:00 p.m., I __go to sleep__.",
+          "tc": "開始睡覺"
+        }
+      ]
+    },
+    {
+      "id": "phrase-what-about",
+      "phrase": "what about",
+      "meaning": "用來詢問對方情況或意見",
+      "examples": [
+        {
+          "en": "__What about__ your daily **routine**?",
+          "tc": "用來詢問對方情況或意見"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-slow-podcast",
+      "word": "slow",
+      "familiarMeaning": "慢的",
+      "usage": "形容 podcast 時，表示內容或語速適合學習者慢慢聽",
+      "translation": "慢速的；適合學習者的",
+      "examples": [
+        "Welcome to my 《slow》 **podcast**."
+      ]
+    },
+    {
+      "id": "usage-do-do",
+      "word": "do",
+      "familiarMeaning": "做",
+      "usage": "do + 活動，表示從事某種運動或活動",
+      "translation": "做；從事",
+      "examples": [
+        "After breakfast, I 《do》 **yoga**."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Hello, my name is Tyana Ortiz. Welcome to my slow English podcast.",
-      "translation": "你好，我叫泰安娜‧奧爾蒂斯。歡迎來到我的慢速英語播客。",
+      "id": "grammar-1",
+      "sentence": "[Music] Hello, my name is Tyana Ortiz.",
+      "translation": "這個 podcast 是給想透過聽英文來學習的初學者。",
       "points": [
         {
-          "label": "my name is",
-          "text": "my name is",
-          "note": "注意 \"my name is\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "Grammar 1",
+          "text": "who 引出補充說明，說明是想學習的初學者。",
+          "note": "這個 podcast 是給想透過聽英文來學習的初學者。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "This podcast is for beginners who want to practice listening to English.",
-      "translation": "該播客適合想要練習英語聽力的初學者。",
+      "id": "grammar-2",
+      "sentence": "Welcome to my slow podcast.",
+      "translation": "透過聽英文來學習。",
       "points": [
         {
-          "label": "want",
-          "text": "want",
-          "note": "注意 \"want\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "Grammar 2",
+          "text": "by 後面接動名詞，表示透過某種方式。",
+          "note": "透過聽英文來學習。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
+      "id": "grammar-3",
+      "sentence": "This podcast is for beginners who want to learn by listening to English.",
+      "translation": "routine 是你每天會做的事情。",
+      "points": [
+        {
+          "label": "Grammar 3",
+          "text": "that 當受詞時可以省略，後面說明 something 是什麼。",
+          "note": "routine 是你每天會做的事情。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-4",
       "sentence": "Today's podcast is about my daily routine.",
-      "translation": "今天的播客是關於我的日常生活的。",
+      "translation": "教學後，我讀書。",
       "points": [
         {
-          "label": "daily routine",
-          "text": "daily routine",
-          "note": "注意 \"daily routine\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "Grammar 4",
+          "text": "after 當介系詞時，後面可接動名詞表示在做完某事後。",
+          "note": "教學後，我讀書。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "I wake up at 7 a.m.",
-      "translation": "我早上 7 點起床。",
+      "id": "grammar-5",
+      "sentence": "My daily routine.",
+      "translation": "你早餐通常吃什麼？",
       "points": [
         {
-          "label": "wake",
-          "text": "wake",
-          "note": "注意 \"wake\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "Grammar 5",
+          "text": "一般現在式問句用 do 幫忙形成問題。",
+          "note": "你早餐通常吃什麼？"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "A routine is something you do every day.",
+      "translation": "我喜歡每天伸展。",
+      "points": [
+        {
+          "label": "Grammar 6",
+          "text": "stretching 是被喜歡的活動，所以用動名詞放在 love 後面。",
+          "note": "我喜歡每天伸展。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "In the morning, I wake up at 7 a.m. I brush my teeth.",
+      "translation": "你喜歡跳舞嗎？",
+      "points": [
+        {
+          "label": "Grammar 7",
+          "text": "to dance 表示去跳舞這個活動，可放在 like 後面。",
+          "note": "你喜歡跳舞嗎？"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "I wash my face, and I eat breakfast.",
+      "translation": "你和誰一起工作？",
+      "points": [
+        {
+          "label": "Grammar 8",
+          "text": "口語英文常把 with 留在句尾，詢問和誰一起做某事。",
+          "note": "你和誰一起工作？"
         }
       ]
     }

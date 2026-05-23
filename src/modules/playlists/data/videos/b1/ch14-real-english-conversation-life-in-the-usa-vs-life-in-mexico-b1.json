@@ -19,8 +19,8 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Hello and welcome to my Slow English podcast.",
-          "tc": "您好，歡迎來到我的慢速英語播客。"
+          "en": "Welcome to my Slow English podcast.",
+          "tc": "歡迎來到我的慢速英語podcast。"
         },
         {
           "en": "Today I will be having a conversation with my sister about the differences between Mexico and the USA.",
@@ -40,7 +40,7 @@
           "english": "mexico",
           "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "墨西哥",
           "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
@@ -54,19 +54,19 @@
       "sentences": [
         {
           "en": "If you need it and try and answer each question along with me. Let's start by talking about the food and groceries in each country. How often.",
-          "tc": "如果您需要它，請嘗試與我一起回答每個問題。讓我們先談談每個國家的食品和雜貨。多常。"
+          "tc": "如果你需要它，請嘗試與我一起回答每個問題。讓我們先談談每個國家的食品和雜貨。多常。"
         },
         {
           "en": "Do you go grocery shopping in the US and how often?",
-          "tc": "您在美國去雜貨店購物嗎？多久一次？"
-        },
-        {
-          "en": "Do you go in Mexico? In the US,?",
-          "tc": "你去墨西哥嗎？在美國，?"
+          "tc": "你在美國去雜貨店購物嗎？多久一次？"
         },
         {
           "en": "I go once a week and in Mexico,.",
           "tc": "我每週去墨西哥一次。"
+        },
+        {
+          "en": "I go two to three times a week. >>.",
+          "tc": "我每週去兩到三次。 >>。"
         }
       ],
       "tags": [
@@ -74,7 +74,49 @@
           "english": "mexico",
           "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "food",
+          "kk": "/fud/",
+          "partOfSpeech": "n.",
+          "meaning": "食物",
+          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：旅行",
+      "titleEn": "Part 3: travel",
+      "sentences": [
+        {
+          "en": "We usually have a onestop shop. So, Walmart, um, Target, Shopco, many more. You are meant to buy groceries for a whole week or the whole month. And in Mexico,.",
+          "tc": "我們通常有一站式商店。所以，沃爾瑪，嗯，塔吉特，Shopco，等等。你應該購買整整一周或整個月的雜貨。而在墨西哥，。"
+        },
+        {
+          "en": "It is more common to have little shops oras. And you buy food for a few days or maybe a week. Mhm. Okay.",
+          "tc": "比較常見的是小商店。你購買幾天甚至一周的食物。嗯。好的。"
+        },
+        {
+          "en": "I would say it's more common to go to little stores. Big stores are only useful.",
+          "tc": "我想說去小商店比較常見。大商店才有用。"
+        },
+        {
+          "en": "If you're looking for something very specific. Maybe you won't find peanut butter in a little store, but you will find peanut butter in a big store. >> Mhm. Okay.",
+          "tc": "如果你正在尋找非常具體的東西。也許你在小商店裡找不到花生醬，但你會在大商店裡找到花生醬。 >> 嗯。好的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
           "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -87,62 +129,12 @@
           "highlight": true
         },
         {
-          "english": "grocery",
-          "kk": "/grocery/",
+          "english": "mhm",
+          "kk": "/mhm/",
           "partOfSpeech": "n.",
-          "meaning": "食物與用餐相關的常用字",
-          "note": "看到 grocery 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
-    },
-    {
-      "id": "scene-03",
-      "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
-      "sentences": [
-        {
-          "en": "I go two to three times a week. >>.",
-          "tc": "我每週去兩到三次。 >>。"
-        },
-        {
-          "en": "Why do you think you go less in the United States and more in Mexico? >> In the United States,?",
-          "tc": "你認為為什麼你去美國的次數少，而去墨西哥的次數多？ >> 在美國，？"
-        },
-        {
-          "en": "We usually have a onestop shop. So, Walmart, um, Target, Shopco, many more.",
-          "tc": "我們通常有一站式商店。所以，沃爾瑪，嗯，塔吉特，Shopco，等等。"
-        },
-        {
-          "en": "You are meant to buy groceries for a whole week or the whole month. And in Mexico, it is more common to have little shops oras.",
-          "tc": "您應該購買整整一周或整個月的雜貨。在墨西哥，小商店更為常見。"
-        }
-      ],
-      "tags": [
-        {
-          "english": "mexico",
-          "kk": "/mexico/",
-          "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "more",
-          "kk": "/more/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 more 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "little",
-          "kk": "/little/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
@@ -153,58 +145,8 @@
       "titleEn": "Part 4: food",
       "sentences": [
         {
-          "en": "You buy food for a few days or maybe a week. Mhm. Okay. So,.",
-          "tc": "您購買幾天甚至一周的食物。嗯。好的。所以，。"
-        },
-        {
-          "en": "Do you think it's more common to go to little stores in Mexico or to big grocery stores in Mexico? >> In Mexico,?",
-          "tc": "您認為去墨西哥的小商店還是去墨西哥的大雜貨店比較常見？ >> 在墨西哥，？"
-        },
-        {
-          "en": "I would say it's more common to go to little stores. Big stores are only useful.",
-          "tc": "我想說去小商店比較常見。大商店才有用。"
-        },
-        {
-          "en": "If you're looking for something very specific. Maybe you won't find peanut butter in a little store, but you will find peanut butter in a big store. >> Mhm. Okay.",
-          "tc": "如果您正在尋找非常具體的東西。也許你在小商店裡找不到花生醬，但你會在大商店裡找到花生醬。 >> 嗯。好的。"
-        }
-      ],
-      "tags": [
-        {
-          "english": "mexico",
-          "kk": "/mexico/",
-          "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "food",
-          "kk": "/fud/",
-          "partOfSpeech": "n.",
-          "meaning": "食物",
-          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "more",
-          "kk": "/more/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 more 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
-    },
-    {
-      "id": "scene-05",
-      "no": "05",
-      "titleZh": "第 5 段：食物與用餐",
-      "titleEn": "Part 5: food",
-      "sentences": [
-        {
           "en": "Do you think grocery shopping is more expensive in the US or in Mexico?",
-          "tc": "您認為美國和墨西哥的雜貨購物貴嗎？"
+          "tc": "你認為美國和墨西哥的雜貨購物貴嗎？"
         },
         {
           "en": "I think grocery shopping is more expensive in the US because it's only these big stores and these big stores have bigger prices or more expensive prices. Um, little stores or markets.",
@@ -216,7 +158,7 @@
         },
         {
           "en": "What do you think is the most expensive food to buy at the grocery store in the USA? I'd say organic food. Organic food is usually the most expensive to buy. >>?",
-          "tc": "您認為在美國雜貨店買的最貴的食物是什麼？我想說的是有機食品。有機食品通常是最貴的。 >>？"
+          "tc": "你認為在美國雜貨店買的最貴的食物是什麼？我想說的是有機食品。有機食品通常是最貴的。 >>？"
         }
       ],
       "tags": [
@@ -224,7 +166,7 @@
           "english": "mexico",
           "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "墨西哥",
           "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -237,11 +179,61 @@
           "highlight": true
         },
         {
-          "english": "more",
-          "kk": "/more/",
+          "english": "mhm",
+          "kk": "/mhm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 more 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：旅行",
+      "titleEn": "Part 5: travel",
+      "sentences": [
+        {
+          "en": "Mhm. And how about in Mexico? >>.",
+          "tc": "嗯。那麼在墨西哥呢？ >>。"
+        },
+        {
+          "en": "I would say the same. Organic food is more expensive,.",
+          "tc": "我也會這麼說。有機食品比較貴。"
+        },
+        {
+          "en": "I feel like access to fresh food or farmers markets is better in Mexico than in the US. >> Okay. So for fresh produce like organic food,.",
+          "tc": "我覺得墨西哥比美國更容易取得新鮮食品或農夫市集。 >> 好的。因此對於有機食品等新鮮農產品。"
+        },
+        {
+          "en": "Would you prefer shopping in Mexico or in the US? >> Probably Mexico. >> Mhm. Yeah. What's the main difference between grocery stores in the US and Mexico? >> The main difference?",
+          "tc": "你喜歡在墨西哥還是美國購物？ >> 可能是墨西哥。 >> 嗯。是的。美國和墨西哥的雜貨店之間的主要區別是什麼？ >> 主要區別？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "food",
+          "kk": "/fud/",
+          "partOfSpeech": "n.",
+          "meaning": "食物",
+          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -253,31 +245,23 @@
       "titleEn": "Part 6: food",
       "sentences": [
         {
-          "en": "Mhm. And how about in Mexico? >> I would say the same. Organic food is more expensive,.",
-          "tc": "嗯。那麼在墨西哥呢？ >> 我也這麼說。有機食品比較貴。"
-        },
-        {
-          "en": "I feel like access to fresh food or farmers markets is better in Mexico than in the US. >> Okay. So for fresh produce like organic food,.",
-          "tc": "我覺得墨西哥比美國更容易取得新鮮食品或農夫市集。 >> 好的。因此對於有機食品等新鮮農產品。"
-        },
-        {
-          "en": "Would you prefer shopping in Mexico or in the US? >> Probably Mexico. >> Mhm. Yeah. What's the main difference between grocery stores in the US and Mexico? >> The main difference?",
-          "tc": "您喜歡在墨西哥還是美國購物？ >> 可能是墨西哥。 >> 嗯。是的。美國和墨西哥的雜貨店之間的主要區別是什麼？ >> 主要區別？"
-        },
-        {
           "en": "Is probably the type of food that?",
           "tc": "大概是那種食物嗎？"
+        },
+        {
+          "en": "They sell. Uh, Mexicans do like spicier food, so you will see more uh recipes with chili or um salsa. Whereas in the US,.",
+          "tc": "他們賣。呃，墨西哥人確實喜歡更辣的食物，所以你會看到更多帶有辣椒或薩爾薩醬的呃食譜。而在美國，。"
+        },
+        {
+          "en": "You might find more dairy products with cheese, milk, like >> Mhm.",
+          "tc": "你可能會發現更多含有起司、牛奶的乳製品，例如 >> 嗯。"
+        },
+        {
+          "en": "Same thing but just so many of them. >> Yes,.",
+          "tc": "同樣的事情，但只有這麼多。 >> 是的，。"
         }
       ],
       "tags": [
-        {
-          "english": "mexico",
-          "kk": "/mexico/",
-          "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
         {
           "english": "food",
           "kk": "/fud/",
@@ -287,11 +271,463 @@
           "highlight": true
         },
         {
-          "english": "more",
-          "kk": "/more/",
+          "english": "mhm",
+          "kk": "/mhm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 more 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：旅行",
+      "titleEn": "Part 7: travel",
+      "sentences": [
+        {
+          "en": "I think that's true. >> Mhm. Have you noticed any variety like that in Mexico? >> Maybe the US has a variety of Oreos and here.",
+          "tc": "我認為這是真的。 >> 嗯。你在墨西哥注意到類似的品種嗎？ >> 也許美國有各種各樣的奧利奧，這裡也是。"
+        },
+        {
+          "en": "We have variety of salsas, you know, habanero >> like classic uh green. >> Yeah, >> those are.",
+          "tc": "我們有各種各樣的莎莎醬，你知道，哈瓦那>>就像經典的呃綠色。 >> 是的，>> 就是這些。"
+        },
+        {
+          "en": "I can think of the example of like esquinkles. There's esquinkote, esinkles that are sweet, esinkles that are spicy, esinkles that have different flavors. >> Yeah. >> And lots of different maybe.",
+          "tc": "我能想到類似 esquinkles 的例子。有esquinkote、甜的esinkles、辣的esinkles、有不同口味的esinkles。 >> 是的。 >> 也許還有很多不同。"
+        },
+        {
+          "en": "Types of spices. >> Mhm. Now,.",
+          "tc": "香料的種類。 >> 嗯。現在，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "I want to discuss the prices and products. >> Okay. So, what's.",
+          "tc": "我想討論一下價格和產品。 >> 好的。那麼，是什麼。"
+        },
+        {
+          "en": "One thing that's really cheap in Mexico but expensive in the US? >>.",
+          "tc": "有一件東西在墨西哥真的很便宜，但在美國卻很貴？ >>。"
+        },
+        {
+          "en": "They're in season and from local stores, not from Walmart. Uh,.",
+          "tc": "它們是當季的，來自當地商店，而不是沃爾瑪。呃，。"
+        },
+        {
+          "en": "They can be a lot cheaper than in the US. Mhm. True.",
+          "tc": "它們可能比美國便宜很多。嗯。真的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：食物與用餐",
+      "titleEn": "Part 9: food",
+      "sentences": [
+        {
+          "en": "I'm thinking as well um eating out at restaurants.",
+          "tc": "我也在想，嗯，去餐廳吃飯。"
+        },
+        {
+          "en": "I think it's relatively cheap in Mexico to eat out, >> but in the US it's definitely a luxury. >> Yes. >> Mhm.",
+          "tc": "我認為在墨西哥外出用餐相對便宜，>>但在美國這絕對是一種奢侈。 >> 是的。 >> 嗯。"
+        },
+        {
+          "en": "The USA, most basic health care plans start at $200 a month.",
+          "tc": "在美國，最基本的醫療保健計劃起價為每月 200 美元。"
+        },
+        {
+          "en": "You know, a salary.",
+          "tc": "你知道，工資。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "Sometimes of minimum wage people, their entire salary for the month. So there is a big difference in healthcare.",
+          "tc": "有時對於最低工資的人來說，他們當月的全部工資。因此，醫療保健方面存在很大差異。"
+        },
+        {
+          "en": "The US. Um, iPhones.",
+          "tc": "美國。嗯，iPhone。"
+        },
+        {
+          "en": "For example, some uh cars that are manufactured in the US can be cheaper to buy over there. >> Exactly. I agree.",
+          "tc": "例如，一些在美國製造的呃汽車在那裡購買可能會更便宜。 >> 正是如此。我同意。"
+        },
+        {
+          "en": "I think electronics, even when I went to New York to get my Apple headphones,.",
+          "tc": "我想到電子產品，即使我去紐約買蘋果耳機時也是如此。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：旅行",
+      "titleEn": "Part 11: travel",
+      "sentences": [
+        {
+          "en": "They were in Mexico. >> Yeah. >> But I thought that it would be more expensive to buy them in the US.",
+          "tc": "他們在墨西哥。 >> 是的。 >> 但我認為在美國買會比較貴。"
+        },
+        {
+          "en": "I waited and I came to Mexico and I found out that it wasn't.",
+          "tc": "我等待著，來到墨西哥，卻發現事實並非如此。"
+        },
+        {
+          "en": "I had to pay three times the price almost now. But yeah,.",
+          "tc": "我現在幾乎必須支付三倍的價格。但是，是的，。"
+        },
+        {
+          "en": "I would say a lot of things are a lot cheaper in Mexico. Mostly fruit.",
+          "tc": "我想說墨西哥很多東西都便宜很多。主要是水果。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "expensive",
+          "kk": "/expensive/",
+          "partOfSpeech": "adj.",
+          "meaning": "昂貴的",
+          "note": "看到 expensive 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：旅行",
+      "titleEn": "Part 12: travel",
+      "sentences": [
+        {
+          "en": "I think is the cheapest in Mexico.",
+          "tc": "我認為是墨西哥最便宜的。"
+        },
+        {
+          "en": "I would say what I miss most is the chips. Um, I miss >> Doritos. The nacha cheese flavor is different in the US than the one that.",
+          "tc": "我想說我最懷念的是薯條。嗯，我想念>>多力多滋。美國的納查起司味道與美國的不同。"
+        },
+        {
+          "en": "They sell in Mexico. Uh, probably because of the different tastes. In the US, the nacho flavor is more cheesy and in Mexico, the nacho flavor is a little more spicy. >>.",
+          "tc": "他們在墨西哥銷售。呃，可能是口味不同吧。在美國，烤乾酪辣味玉米片的味道更起司味，而在墨西哥，烤乾酪辣味玉米片的味道更辣一點。 >>。"
+        },
+        {
+          "en": "I think for me, it's probably the sweets. There's so many sweets in the United States that you can try and it's not just one, it's so many.",
+          "tc": "我想對我來說，可能是糖果吧。美國的糖果很多，你可以嘗試，而且不只是一種，而是很多。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：食物與用餐",
+      "titleEn": "Part 13: food",
+      "sentences": [
+        {
+          "en": "They're experts at making addictive sweets,.",
+          "tc": "他們是製作令人上癮的糖果的專家。"
+        },
+        {
+          "en": "They're pretty good. >> Bless you. >> Um,.",
+          "tc": "他們都很好。 >> 祝福你。 >> 嗯，。"
+        },
+        {
+          "en": "Thank you. >> What else? Oh,.",
+          "tc": "謝謝。 >> 還有什麼？哦，。"
+        },
+        {
+          "en": "One thing that I miss, but I didn't have when I was a kid. I just had it the last time I went to the US >> are crumble cookies.",
+          "tc": "我懷念一件事，但我小時候卻沒有。我上次去美國時剛吃過>>是碎餅乾。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常生活",
+      "titleEn": "Part 14: everyday life",
+      "sentences": [
+        {
+          "en": "I love crumble cookies.",
+          "tc": "我喜歡碎餅乾。"
+        },
+        {
+          "en": "I want to try them again, but that's something that.",
+          "tc": "我想再試一次，但僅此而已。"
+        },
+        {
+          "en": "We don't have in Mexico yet. >> Yeah, not yet. >> Mhm.",
+          "tc": "我們在墨西哥還沒有。 >> 是的，還沒有。 >> 嗯。"
+        },
+        {
+          "en": "What about vice versa? What's something you can find in Mexico?",
+          "tc": "反之又如何呢？在墨西哥你能找到什麼？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：旅行",
+      "titleEn": "Part 15: travel",
+      "sentences": [
+        {
+          "en": "You can't find in the US? Um, something I can find in Mexico but can't in the US is probably handmade uh goods. Handmade goods. So whether that be clothing or utensils.",
+          "tc": "美國找不到？嗯，我在墨西哥能找到但在美國找不到的東西可能是手工製作的呃商品。手工製品。所以無論是衣服還是器皿。"
+        },
+        {
+          "en": "At times, um it's relatively easy to find handmade goods in Mexico.",
+          "tc": "有時，嗯，在墨西哥找到手工製品相對容易。"
+        },
+        {
+          "en": "If you go to a market, you can probably find pots, pans, or clothing. >>.",
+          "tc": "如果你去市場，你可能會找到鍋碗瓢盆或衣服。 >>。"
+        },
+        {
+          "en": "You can find a lot of handmade stuff in Mexico still. And in the US it it's a little harder. >> Mhm. >>.",
+          "tc": "在墨西哥你仍然可以找到很多手工製品。在美國，這有點困難。 >> 嗯。 >>。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：日常生活",
+      "titleEn": "Part 16: everyday life",
+      "sentences": [
+        {
+          "en": "They're quality products, too.",
+          "tc": "它們也是優質產品。"
+        },
+        {
+          "en": "They're not cheap. >>.",
+          "tc": "它們並不便宜。 >>。"
+        },
+        {
+          "en": "Are there any brands that you wish you had in Mexico? >> I'd say nothing. Uh, everything that?",
+          "tc": "你希望在墨西哥擁有哪些品牌？ >> 我什麼也不說。呃，一切？"
+        },
+        {
+          "en": "I like, Mexico already has. So, as far as my taste,.",
+          "tc": "我喜歡，墨西哥已經有了。所以，就我的口味而言，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -305,7 +741,7 @@
           "english": "mexico",
           "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "墨西哥",
           "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -318,51 +754,51 @@
           "highlight": true
         },
         {
-          "english": "more",
-          "kk": "/more/",
+          "english": "mhm",
+          "kk": "/mhm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 more 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "stores",
-          "kk": "/stores/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 stores 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "big",
-          "kk": "/big/",
+          "english": "find",
+          "kk": "/find/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "尋找",
+          "note": "看到 find 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "expensive",
           "kk": "/expensive/",
           "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "昂貴的",
           "note": "看到 expensive 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "grocery",
-          "kk": "/grocery/",
+          "english": "stores",
+          "kk": "/stores/",
           "partOfSpeech": "n.",
-          "meaning": "食物與用餐相關的常用字",
-          "note": "看到 grocery 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "little",
-          "kk": "/little/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "商店",
+          "note": "看到 stores 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -371,34 +807,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "what do you",
-      "meaning": "你會怎麼...",
+      "phrase": "welcome to",
+      "meaning": "歡迎來到",
       "examples": [
         {
-          "en": "What do you think is the most expensive food to buy at the grocery store in the USA?",
-          "tc": "您認為在美國雜貨店買的最貴的食物是什麼？"
+          "en": "Welcome to my Slow English podcast.",
+          "tc": "歡迎來到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "i think",
-      "meaning": "常用說法，可用來表達「i think」這個意思",
+      "phrase": "what do you",
+      "meaning": "你會怎麼...",
       "examples": [
         {
-          "en": "I think grocery shopping is more expensive in the US because it's only these big stores and these big stores have bigger prices or more expensive prices.",
-          "tc": "我認為在美國買雜貨比較貴，因為只有這些大商店，而這些大商店的價格更大或更貴。"
+          "en": "What do you think is the most expensive food to buy at the grocery store in the USA?",
+          "tc": "你認為在美國雜貨店買的最貴的食物是什麼？"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "i feel",
-      "meaning": "常用說法，可用來表達「i feel」這個意思",
+      "phrase": "want to",
+      "meaning": "想要",
       "examples": [
         {
-          "en": "I feel like access to fresh food or farmers markets is better in Mexico than in the US.",
-          "tc": "我覺得墨西哥比美國更容易取得新鮮食品或農夫市集。"
+          "en": "I want to discuss the prices and products.",
+          "tc": "我想討論一下價格和產品。"
         }
       ]
     }
@@ -406,13 +842,13 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Hello and welcome to my Slow English podcast.",
-      "translation": "您好，歡迎來到我的慢速英語播客。",
+      "sentence": "Welcome to my Slow English podcast.",
+      "translation": "歡迎來到我的慢速英語podcast。",
       "points": [
         {
-          "label": "welcome",
-          "text": "welcome",
-          "note": "注意 \"welcome\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "welcome to",
+          "text": "welcome to",
+          "note": "注意 \"welcome to\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
@@ -446,9 +882,9 @@
       "translation": "在這堂課中我也有一些具有挑戰性的問題。所以，暫停一下。",
       "points": [
         {
-          "label": "some challenging questions",
-          "text": "some challenging questions",
-          "note": "注意 \"some challenging questions\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "challenging questions lesson",
+          "text": "challenging questions lesson",
+          "note": "注意 \"challenging questions lesson\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

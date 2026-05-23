@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=yON-KM3Nqhw",
   "header": {
     "podcastLabel": "MissHoney B1",
-    "titleZh": "慢速英語播客 - 我的墨西哥城之旅！",
+    "titleZh": "慢速英語podcast - 我的墨西哥城之旅！",
     "titleEn": "Slow English Podcast - My trip to Mexico City!",
     "levelTag": "B1",
     "topicTag": "travel"
@@ -19,12 +19,12 @@
       "titleEn": "Opening: travel",
       "sentences": [
         {
-          "en": "Listen to comprehensible English through my slow English vlogs. Enjoy. I arrived in Mexico City around 7 a.m. super early.",
-          "tc": "透過我的慢速英語視訊部落格收聽可理解的英語。享受。我早上 7 點左右非常早地到達墨西哥城。"
+          "en": "Listen to comprehensible English through my slow English vlogs. Enjoy. I arrived in Mexico City around 7 a.m. Super early. I was so tired.",
+          "tc": "透過我的慢速英語視訊部落格收聽可理解的英語。享受。我早上7點左右到達墨西哥城，超級早。我太累了。"
         },
         {
-          "en": "I was so tired I had to sit down on the sidewalk and rest for a little bit.",
-          "tc": "我太累了，只好在人行道上坐下來休息一會兒。"
+          "en": "I had to sit down on the sidewalk and rest for a little bit.",
+          "tc": "我只好在人行道上坐下來休息一會兒。"
         },
         {
           "en": "I was so hungry because I took the night bus. So, I knew exactly.",
@@ -37,12 +37,28 @@
       ],
       "tags": [
         {
+          "english": "around",
+          "kk": "/around/",
+          "partOfSpeech": "n.",
+          "meaning": "大約",
+          "note": "看到 around 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "mexico",
           "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "墨西哥",
           "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         }
       ]
     },
@@ -53,45 +69,45 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "My favorite with a beautiful view. I waited around until it was time for me to check in at my Airbnb.",
-          "tc": "我最喜歡風景優美的。我一直等到我在愛彼迎辦理入住手續的時間到了。"
+          "en": "My favorite with a beautiful view. I waited around until.",
+          "tc": "我最喜歡風景優美的。我一直等到。"
         },
         {
-          "en": "I booked an Airbnb in the center of town. I pushed the elevator button and rode all the way up to floor number 30.",
-          "tc": "我在市中心訂了一間 Airbnb 旅館。我按下電梯按鈕，一路電梯到了30樓。"
+          "en": "It was time for me to check in at my Airbnb. I booked an Airbnb in the center of town.",
+          "tc": "是時候到我的 Airbnb 辦理入住手續了。我在市中心訂了一間 Airbnb 旅館。"
         },
         {
-          "en": "I love elevators. with mirrors. I walked down the hallway all the way to my apartment. I put in the security code.",
+          "en": "I pushed the elevator button and rode all the way up to floor number 30.",
+          "tc": "我按下電梯按鈕，一路電梯到了30樓。"
+        },
+        {
+          "en": "I love elevators. With mirrors. I walked down the hallway all the way to my apartment. I put in the security code.",
           "tc": "我喜歡電梯。帶鏡子。我沿著走廊一直走到我的公寓。我輸入了安全碼。"
-        },
-        {
-          "en": "They sent me through Airbnb. I walked in and the.",
-          "tc": "他們透過 Airbnb 送我來的。我走進來了。"
         }
       ],
       "tags": [
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "around",
+          "kk": "/around/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "大約",
+          "note": "看到 around 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "apartment",
           "kk": "/apartment/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "公寓",
           "note": "看到 apartment 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
-          "english": "beautiful",
-          "kk": "/beautiful/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -103,8 +119,12 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "First thing I did was take off my shoes. Always. The.",
-          "tc": "我做的第一件事就是脫掉鞋子。總是。這。"
+          "en": "The first thing I did was take off my shoes. Always.",
+          "tc": "我做的第一件事就是脫掉鞋子。總是。"
+        },
+        {
+          "en": "The first thing.",
+          "tc": "第一件事。"
         },
         {
           "en": "I do when going into an apartment or home is to take off my shoes. The apartment's kitchen was small but beautiful with a big sink, a nice blender, and a little.",
@@ -113,60 +133,56 @@
         {
           "en": "Stove. No oven, though. That was a drawback. But the refrigerator was big and so was the living room.",
           "tc": "火爐。不過沒有烤箱。這是一個缺點。但冰箱很大，客廳也很大。"
-        },
-        {
-          "en": "I loved the big windows where I could sit down and work.",
-          "tc": "我喜歡大窗戶，我可以坐下來工作。"
         }
       ],
       "tags": [
         {
-          "english": "big",
-          "kk": "/big/",
+          "english": "little",
+          "kk": "/little/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "big",
+          "kk": "/big/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "大的",
+          "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "apartment",
           "kk": "/apartment/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "公寓",
           "note": "看到 apartment 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段：工作與學習",
+      "titleEn": "Part 4: work",
       "sentences": [
+        {
+          "en": "I loved the big windows where I could sit down and work.",
+          "tc": "我喜歡大窗戶，我可以坐下來工作。"
+        },
         {
           "en": "I think sunlight is super important to have a happy life.",
           "tc": "我認為陽光對於幸福的生活非常重要。"
         },
         {
-          "en": "I love big windows like here. Another part that I loved was the balcony. It was small and cozy, perfect for reading a book.",
-          "tc": "我喜歡這裡的大窗戶。我喜歡的另一個部分是陽台。它小而舒適，非常適合看書。"
+          "en": "If you work in dark spaces, you can feel sad often.",
+          "tc": "如果你在黑暗的空間中工作，你會經常感到悲傷。"
         },
         {
-          "en": "In the morning or afternoon. I loved the apartment. I was going to stay here for 1 month. So,.",
-          "tc": "在早上或下午。我喜歡這個公寓。我本來打算在這裡待1個月。所以，。"
-        },
-        {
-          "en": "I was really happy. I chose a nice apartment. You can see so much from the 30th floor. People dancing, people walking,.",
-          "tc": "我真的很高興。我選擇了一個不錯的公寓。從30樓可以看到很多東西。人們跳舞，人們散步，。"
+          "en": "I love big windows like here. Another part that I loved was the balcony.",
+          "tc": "我喜歡這裡的大窗戶。我喜歡的另一個部分是陽台。"
         }
       ],
       "tags": [
@@ -174,25 +190,9 @@
           "english": "big",
           "kk": "/big/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "大的",
           "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "apartment",
-          "kk": "/apartment/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 apartment 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         }
       ]
     },
@@ -203,45 +203,29 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
+          "en": "It was small and cozy, perfect for reading a book.",
+          "tc": "它小而舒適，非常適合看書。"
+        },
+        {
+          "en": "In the morning or afternoon. I loved the apartment. I was going to stay here for 1 month.",
+          "tc": "在早上或下午。我喜歡這個公寓。我本來打算在這裡待1個月。"
+        },
+        {
+          "en": "I was really happy. I chose a nice apartment. You can see so much from the 30th floor. People dancing, people walking,.",
+          "tc": "我真的很高興。我選擇了一個不錯的公寓。從30樓可以看到很多東西。人們跳舞，人們散步，。"
+        },
+        {
           "en": "We were right.",
           "tc": "我們是對的。"
-        },
-        {
-          "en": "Next to the monument in Mexico City. To me, the bathroom is one of the most important parts. It just has to be clean. That's it. But this one went above.",
-          "tc": "墨西哥城紀念碑旁。對我來說，浴室是最重要的部分之一。它必須是乾淨的。就是這樣。但這一個超出了上面。"
-        },
-        {
-          "en": "Beyond my expectations with a clean toilet, a big sink, cups for toiletries like toothpaste or soap. a space to keep things like my hairbrush or a blow dryer. And the shower.",
-          "tc": "超出我的預期，有一個乾淨的廁所、一個大水槽、裝牙膏或肥皂等洗漱用品的杯子。一個用來存放梳子或吹風機等物品的空間。還有淋浴。"
-        },
-        {
-          "en": "Was just beautiful. The pressure was very strong, which is hard to find.",
-          "tc": "本來就很漂亮。壓力非常大，很難找到。"
         }
       ],
       "tags": [
         {
-          "english": "big",
-          "kk": "/big/",
+          "english": "apartment",
+          "kk": "/apartment/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "beautiful",
-          "kk": "/beautiful/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "mexico",
-          "kk": "/mexico/",
-          "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "公寓",
+          "note": "看到 apartment 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -253,46 +237,466 @@
       "titleEn": "Part 6: travel",
       "sentences": [
         {
-          "en": "Sometimes in Mexico. And in general, it was just a clean bathroom, which.",
-          "tc": "有時在墨西哥。總的來說，這只是一個乾淨的浴室。"
+          "en": "Next to the monument in Mexico City. To me, the bathroom is.",
+          "tc": "墨西哥城紀念碑旁。對我來說，浴室就是。"
         },
         {
-          "en": "I love. After checking in, I looked for a place to have lunch.",
-          "tc": "我愛。辦理入住後，我就找地方吃午餐。"
+          "en": "Sometimes in Mexico. And in general,.",
+          "tc": "有時在墨西哥。一般來說，。"
         },
         {
-          "en": "I found a beautiful vegan restaurant and I ordered the burrito, the burger, and the guacamole. And it was all above and beyond my expectations.",
-          "tc": "我找到了一家漂亮的素食餐廳，點了墨西哥捲餅、漢堡和酪梨醬。而這一切都超出了我的預期。"
+          "en": "It was just a clean bathroom, which.",
+          "tc": "這只是一個乾淨的浴室。"
         },
         {
-          "en": "I loved that meal. I couldn't believe it was all vegan. No meat, no dairy, nothing.",
-          "tc": "我很喜歡那頓飯。我簡直不敢相信這都是素食。沒有肉，沒有乳製品，什麼都沒有。"
+          "en": "I love. After checking in, I looked for a place to have lunch. I found a beautiful vegan restaurant and I ordered the burrito, the burger, and the guacamole.",
+          "tc": "我愛。辦理入住後，我就找地方吃午餐。我找到了一家漂亮的素食餐廳，點了墨西哥捲餅、漢堡和酪梨醬。"
         }
       ],
       "tags": [
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "mexico",
+          "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "beautiful",
-          "kk": "/beautiful/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "city",
+          "kk": "/city/",
+          "partOfSpeech": "n.",
+          "meaning": "城市",
+          "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "It was all above and beyond my expectations. I loved that meal. I couldn't believe.",
+          "tc": "這一切都超出了我的預期。我很喜歡那頓飯。我簡直不敢相信。"
+        },
+        {
+          "en": "It was all vegan. No meat, no dairy, nothing.",
+          "tc": "都是純素食的。沒有肉，沒有乳製品，什麼都沒有。"
+        },
+        {
+          "en": "I saw this big palm tree that had flowers growing around it.",
+          "tc": "我看到這棵大棕櫚樹，周圍長滿了鮮花。"
+        },
+        {
+          "en": "I went back home and rested for a little bit before heading to the gym. Yes, this place also has a gym with treadmills and spinning machines, rowing machines. A big space.",
+          "tc": "我回到家休息了一會兒，然後就去健身房了。是的，這個地方還有健身房，有跑步機和動感單車、划船機。一個很大的空間。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "around",
+          "kk": "/around/",
+          "partOfSpeech": "n.",
+          "meaning": "大約",
+          "note": "看到 around 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "big",
+          "kk": "/big/",
+          "partOfSpeech": "n.",
+          "meaning": "大的",
+          "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：工作與學習",
+      "titleEn": "Part 8: work",
+      "sentences": [
+        {
+          "en": "To work out. Kettle bells of all different shapes and sizes. Classic dumbbells, of course, benches to use, and even a fancy ski erometer, a punching bag.",
+          "tc": "鍛鍊身體。各種不同形狀和尺寸的壺鈴。當然，還有經典的啞鈴、長凳，甚至還有精美的滑雪測力計、沙袋。"
+        },
+        {
+          "en": "Then you walk upstairs and go past the bathroom, the spa, and the sauna, and you will find.",
+          "tc": "然後你走上樓，經過浴室、水療中心和桑拿房，你會發現。"
+        },
+        {
+          "en": "My favorite part, the pool.",
+          "tc": "我最喜歡的部分是游泳池。"
+        },
+        {
+          "en": "It was a magnificent pool. The water was actually warm. And the view was stunning. After working out,.",
+          "tc": "那是一個宏偉的泳池。水其實是溫的。景色令人驚嘆。鍛鍊完後，."
+        }
+      ],
+      "tags": [
+        {
+          "english": "around",
+          "kk": "/around/",
+          "partOfSpeech": "n.",
+          "meaning": "大約",
+          "note": "看到 around 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "I love going for a dip in the pool, relaxing on the little couches, and enjoying the view.",
+          "tc": "我喜歡在泳池裡暢遊，在小沙發上放鬆，欣賞風景。"
+        },
+        {
+          "en": "I always keep my bag with me. Always packed with a water bottle and some goggles and a swim cap.",
+          "tc": "我總是隨身攜帶我的包包。總是帶著水瓶、護目鏡和泳帽。"
+        },
+        {
+          "en": "It was mandatory to wear one when you swam in this pool.",
+          "tc": "當你在這個游泳池裡游泳時，你必須戴上它。"
+        },
+        {
+          "en": "I've always thought I look so silly with goggles and a swim cap, but it's so refreshing to swim after working out.",
+          "tc": "我一直覺得我戴著泳鏡和泳帽看起來很傻，但運動後游泳真是太清爽了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "They even had a jacuzzi to relax in after with lots and lots of bubbles everywhere.",
+          "tc": "他們甚至還有一個按摩浴缸可以放鬆，到處都有很多很多的泡沫。"
+        },
+        {
+          "en": "My favorite place downtown.",
+          "tc": "我最喜歡市中心的地方。"
+        },
+        {
+          "en": "I got the aua chile sushi and a tostada with tuna and avocado. Something about me is that.",
+          "tc": "我點了 aua 智利壽司和一份金槍魚和鱷梨托斯塔達。我的一些事情就是這樣的。"
+        },
+        {
+          "en": "I don't eat the full sushi roll. I take bites. I know it's wrong, but I enjoy it more that way. What about you?",
+          "tc": "我不吃完整的壽司卷。我咬了一口。我知道這是錯的，但我更喜歡這樣。你呢？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "loved",
-          "kk": "/loved/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 loved 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "downtown",
+          "kk": "/downtown/",
+          "partOfSpeech": "n.",
+          "meaning": "市中心",
+          "note": "看到 downtown 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "Do you eat your sushi rolls in one bite or two?",
+          "tc": "你的壽司捲是一口吃還是兩口吃完？"
+        },
+        {
+          "en": "Finally, after a long and tiring day, I was craving something sweet.",
+          "tc": "經過漫長而疲憊的一天后，我終於想吃點甜的了。"
+        },
+        {
+          "en": "I walked downtown. I found a crispy cream that luckily was still open.",
+          "tc": "我步行到市中心。我發現了一種酥脆的奶油，幸運的是它還沒有打開。"
+        },
+        {
+          "en": "I ordered a coffee and six donuts. One of them was a Harry Potter Ravenclaw donut.",
+          "tc": "我點了一杯咖啡和六個甜甜圈。其中之一是哈利波特拉文克勞甜甜圈。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "downtown",
+          "kk": "/downtown/",
+          "partOfSpeech": "n.",
+          "meaning": "市中心",
+          "note": "看到 downtown 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "It was blueberry and delicious. Another one was brownie flavored. Another one was apple cinnamon. And the last one was pumpkin spice.",
+          "tc": "這是藍莓，很好吃。另一種是布朗尼口味的。另一種是蘋果肉桂。最後一種是南瓜香料。"
+        },
+        {
+          "en": "It was definitely time for bed.",
+          "tc": "絕對是該睡覺了。"
+        },
+        {
+          "en": "Next day, I ordered takeout, some green enchiladas and red enchiladas.",
+          "tc": "第二天，我點了外賣，一些綠色玉米捲餅和紅色玉米捲餅。"
+        },
+        {
+          "en": "I like to start my day by walking around the park, to breathe in the fresh air around the trees, and get my daily intake of sunlight.",
+          "tc": "我喜歡在公園裡散步來開始新的一天，呼吸樹木周圍的新鮮空氣，並吸收每天的陽光。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "around",
+          "kk": "/around/",
+          "partOfSpeech": "n.",
+          "meaning": "大約",
+          "note": "看到 around 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：食物與用餐",
+      "titleEn": "Part 13: food",
+      "sentences": [
+        {
+          "en": "I saw some kitties hugging each other under a chair and I found an Italian restaurant just around the corner.",
+          "tc": "我看到一些小貓在椅子下互相擁抱，我發現拐角處有一家義大利餐廳。"
+        },
+        {
+          "en": "I stopped to eat some salad. The salad had pears and lettuce with goat cheese and nuts. The view was also very nice.",
+          "tc": "我停下來吃一些沙拉。沙拉有梨子和生菜，還有山羊起司和堅果。景色也很好。"
+        },
+        {
+          "en": "I stopped by a little store that was selling dried fruit.",
+          "tc": "我經過一家賣乾果的小商店。"
+        },
+        {
+          "en": "I love dried fruit. So I bought some dried pineapple.",
+          "tc": "我喜歡乾果。所以我買了一些菠蘿乾。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "around",
+          "kk": "/around/",
+          "partOfSpeech": "n.",
+          "meaning": "大約",
+          "note": "看到 around 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常作息",
+      "titleEn": "Part 14: daily routine",
+      "sentences": [
+        {
+          "en": "In the evening, I walked around town in search for something to eat for dinner. Eating constantly, I know. But I did find my.",
+          "tc": "晚上，我在城裡閒逛，尋找晚餐吃的東西。不斷地吃東西，我知道。但我確實找到了我的。"
+        },
+        {
+          "en": "Next favorite restaurant, El Camaron Buchon, and I ordered some shrimp tacos. A little while after it began to rain,.",
+          "tc": "下一個最喜歡的餐廳是 El Camaron Buchon，我點了一些蝦子炸玉米餅。過了一會兒，開始下雨了。"
+        },
+        {
+          "en": "I had to buy an umbrella.",
+          "tc": "我只好買把雨傘。"
+        },
+        {
+          "en": "It was a big purple umbrella, perfect for the unexpected changes in weather. Mexico City can be dry one second.",
+          "tc": "那是一把紫色的大傘，非常適合應付天氣的意外變化。墨西哥城可能會乾燥一秒鐘。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "around",
+          "kk": "/around/",
+          "partOfSpeech": "n.",
+          "meaning": "大約",
+          "note": "看到 around 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "Then raining cats and dogs.",
+          "tc": "然後傾盆大雨。"
+        },
+        {
+          "en": "Next. Day, I made myself an avocado toast with eggs and a strawberry and banana smoothie, my absolute favorite breakfast.",
+          "tc": "下一個。那天，我為自己做了一份酪梨吐司、雞蛋、草莓和香蕉冰沙，這是我最喜歡的早餐。"
+        },
+        {
+          "en": "I walked around downtown Mexico City to show you some different coffee shops, restaurants, clothing stores, and department shops in general that.",
+          "tc": "我在墨西哥城市中心走了一圈，向你展示了一些不同的咖啡館、餐廳、服裝店和百貨公司。"
+        },
+        {
+          "en": "You can find in downtown Mexico City. Walking downtown eventually led me to arriving at the library. It's a famous library in Mexico City that has all different types of books.",
+          "tc": "你可以在墨西哥城市中心找到。步行到市中心最終到達了圖書館。這是墨西哥城著名的圖書館，擁有各種不同類型的書籍。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "around",
+          "kk": "/around/",
+          "partOfSpeech": "n.",
+          "meaning": "大約",
+          "note": "看到 around 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "city",
+          "kk": "/city/",
+          "partOfSpeech": "n.",
+          "meaning": "城市",
+          "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：日常生活",
+      "titleEn": "Part 16: everyday life",
+      "sentences": [
+        {
+          "en": "I had to go through security. I walked down the entrance. Here you can see the infinite amount of shelves of books.",
+          "tc": "我必須通過安檢。我沿著入口走下去。在這裡你可以看到無數書架上的書籍。"
+        },
+        {
+          "en": "Is there a library like this where you live?",
+          "tc": "你住的地方有這樣的圖書館嗎？"
+        },
+        {
+          "en": "Do you enjoy going to libraries? Just outside of the library, I found a little stand in Chinatown. So, I bought some spring rolls. With sweet sauce and soy sauce?",
+          "tc": "你喜歡去圖書館嗎？就在圖書館外面，我在唐人街找到了一個小攤位。於是，我買了一些春捲。加甜醬和醬油？"
+        },
+        {
+          "en": "We also got a little bow bread.",
+          "tc": "我們還得到了一點弓麵包。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -302,67 +706,67 @@
       "title": "B1 重點單字",
       "items": [
         {
-          "english": "big",
-          "kk": "/big/",
+          "english": "around",
+          "kk": "/around/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "大約",
+          "note": "看到 around 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "little",
+          "kk": "/little/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "apartment",
-          "kk": "/apartment/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 apartment 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "beautiful",
-          "kk": "/beautiful/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "loved",
-          "kk": "/loved/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 loved 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
         {
           "english": "mexico",
           "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "墨西哥",
           "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "big",
+          "kk": "/big/",
+          "partOfSpeech": "n.",
+          "meaning": "大的",
+          "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "airbnb",
-          "kk": "/airbnb/",
+          "english": "city",
+          "kk": "/city/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 airbnb 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "城市",
+          "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "apartment",
+          "kk": "/apartment/",
+          "partOfSpeech": "n.",
+          "meaning": "公寓",
+          "note": "看到 apartment 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "but",
           "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "但",
           "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "downtown",
+          "kk": "/downtown/",
+          "partOfSpeech": "n.",
+          "meaning": "市中心",
+          "note": "看到 downtown 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -382,23 +786,23 @@
     },
     {
       "id": "phrase-02",
-      "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "phrase": "in the evening",
+      "meaning": "在晚上",
       "examples": [
         {
-          "en": "I was going to stay here for 1 month.",
-          "tc": "我本來打算在這裡待1個月。"
+          "en": "In the evening, I walked around town in search for something to eat for dinner.",
+          "tc": "晚上，我在城裡閒逛，尋找晚餐吃的東西。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "one of the",
-      "meaning": "常用說法，可用來表達「one of the」這個意思",
+      "phrase": "going to",
+      "meaning": "去",
       "examples": [
         {
-          "en": "To me, the bathroom is one of the most important parts.",
-          "tc": "對我來說，浴室是最重要的部分之一。"
+          "en": "I was going to stay here for 1 month.",
+          "tc": "我本來打算在這裡待1個月。"
         }
       ]
     }
@@ -406,8 +810,8 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Listen to comprehensible English through my slow English vlogs. Enjoy. I arrived in Mexico City around 7 a.m. super early.",
-      "translation": "透過我的慢速英語視訊部落格收聽可理解的英語。享受。我早上 7 點左右非常早地到達墨西哥城。",
+      "sentence": "Listen to comprehensible English through my slow English vlogs. Enjoy. I arrived in Mexico City around 7 a.m. Super early. I was so tired.",
+      "translation": "透過我的慢速英語視訊部落格收聽可理解的英語。享受。我早上7點左右到達墨西哥城，超級早。我太累了。",
       "points": [
         {
           "label": "listen through vlogs",
@@ -418,13 +822,13 @@
     },
     {
       "id": "breakdown-02",
-      "sentence": "I was so tired I had to sit down on the sidewalk and rest for a little bit.",
-      "translation": "我太累了，只好在人行道上坐下來休息一會兒。",
+      "sentence": "I had to sit down on the sidewalk and rest for a little bit.",
+      "translation": "我只好在人行道上坐下來休息一會兒。",
       "points": [
         {
-          "label": "tired sit down",
-          "text": "tired sit down",
-          "note": "注意 \"tired sit down\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "sit down sidewalk",
+          "text": "sit down sidewalk",
+          "note": "注意 \"sit down sidewalk\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },

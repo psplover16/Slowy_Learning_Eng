@@ -19,8 +19,12 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast. Welcome to this powerful daily practice of English fluency affirmations. Learning a language isn't just about learning vocabulary and grammar. It's also about mindset.",
-          "tc": "歡迎回到我的慢速英語播客。歡迎來到這個強大的英語流利度日常練習。學習語言不僅僅是學習詞彙和文法。這也與心態有關。"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
+        },
+        {
+          "en": "Welcome to this powerful daily practice of English fluency affirmations. Learning a language isn't just about learning vocabulary and grammar. It's also about mindset.",
+          "tc": "歡迎來到這個強大的英語流利度日常練習。學習語言不僅僅是學習詞彙和文法。這也與心態有關。"
         },
         {
           "en": "If you've ever felt shy or stuck or not good enough when speaking English,.",
@@ -29,27 +33,31 @@
         {
           "en": "Then these affirmations are for you.",
           "tc": "那麼這些肯定是給你的。"
-        },
-        {
-          "en": "They're short positive affirmations designed to rewire your brain, build confidence in yourself, and remind.",
-          "tc": "它們是簡短的正面肯定，旨在重新連接您的大腦，建立對自己的信心並進行提醒。"
         }
       ],
       "tags": [
         {
+          "english": "affirmations",
+          "kk": "/affirmations/",
+          "partOfSpeech": "n.",
+          "meaning": "肯定句",
+          "note": "看到 affirmations 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
           "english": "fluency",
           "kk": "/fluency/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "流暢度",
           "note": "看到 fluency 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "affirmations",
-          "kk": "/affirmations/",
-          "partOfSpeech": "n.",
-          "meaning": "心態與目標相關的常用字",
-          "note": "看到 affirmations 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "daily",
+          "kk": "/daily/",
+          "partOfSpeech": "adv.",
+          "meaning": "日常的",
+          "note": "看到 daily 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -57,12 +65,12 @@
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段：心態與目標",
+      "titleEn": "Part 2: mindset",
       "sentences": [
         {
-          "en": "You you are capable, you are improving, you are fluent. Now let's take a deep breath and begin.",
-          "tc": "你，你有能力，你正在進步，你很流利。現在讓我們深呼吸並開始吧。"
+          "en": "They're short positive affirmations designed to rewire your brain, build confidence in yourself, and remind you are capable, you are improving, you are fluent. Now let's take a deep breath and begin.",
+          "tc": "它們是簡短的正面肯定，旨在重新連接你的大腦，建立對自己的信心，並提醒你有能力，你正在進步，你很流利。現在讓我們深呼吸並開始吧。"
         },
         {
           "en": "I am a fast learner. I learn languages with ease. I learn languages with ease. I learn languages with ease.",
@@ -73,16 +81,24 @@
           "tc": "我是一個自信的演講者。我可以自信地閱讀、口說和聽力。"
         },
         {
-          "en": "I am proud of how far I've come.",
-          "tc": "我為自己已經取得的進步感到自豪。"
+          "en": "I am proud of how far.",
+          "tc": "我為自己有多遠而感到自豪。"
         }
       ],
       "tags": [
         {
+          "english": "affirmations",
+          "kk": "/affirmations/",
+          "partOfSpeech": "n.",
+          "meaning": "肯定句",
+          "note": "看到 affirmations 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
           "english": "speaker",
           "kk": "/speaker/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "揚聲器",
           "note": "看到 speaker 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -116,7 +132,7 @@
           "english": "every",
           "kk": "/every/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每一個",
           "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -124,7 +140,7 @@
           "english": "day",
           "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -132,7 +148,7 @@
           "english": "focused",
           "kk": "/focused/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "專注的",
           "note": "看到 focused 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
@@ -145,8 +161,8 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "I am grateful for the challenges I have.",
-          "tc": "我很感激我所面臨的挑戰。"
+          "en": "I am grateful for the challenges.",
+          "tc": "我很感激這些挑戰。"
         },
         {
           "en": "They make me stronger and smarter.",
@@ -166,7 +182,7 @@
           "english": "every",
           "kk": "/every/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每一個",
           "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -174,7 +190,7 @@
           "english": "day",
           "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -182,7 +198,7 @@
           "english": "improve",
           "kk": "/improve/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "提升",
           "note": "看到 improve 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -216,7 +232,7 @@
           "english": "every",
           "kk": "/every/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每一個",
           "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -224,7 +240,7 @@
           "english": "day",
           "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -232,7 +248,7 @@
           "english": "focused",
           "kk": "/focused/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "專注的",
           "note": "看到 focused 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
@@ -246,7 +262,7 @@
       "sentences": [
         {
           "en": "I learn brings me closer to fluency. Every word I learn brings me closer to fluency. Every word.",
-          "tc": "我学习让我更接近流利。我學到的每個單字都讓我更接近流利。每一個字。"
+          "tc": "我學習讓我更接近流利。我學到的每個單字都讓我更接近流利。每一個字。"
         },
         {
           "en": "I learn brings me closer to fluency.",
@@ -258,7 +274,7 @@
         },
         {
           "en": "I am confident when I speak English. I express myself clearly and naturally.",
-          "tc": "當我說英語時我很有自信。我清晰、自然地表达自己。"
+          "tc": "當我說英語時我很有自信。我清晰、自然地表達自己。"
         }
       ],
       "tags": [
@@ -266,7 +282,7 @@
           "english": "every",
           "kk": "/every/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每一個",
           "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -274,16 +290,100 @@
           "english": "fluency",
           "kk": "/fluency/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "流暢度",
           "note": "看到 fluency 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "I express myself clearly and naturally. I express myself. Clearly and naturally.",
+          "tc": "我清晰、自然地表達自己。我表達自己。清晰自然。"
+        },
+        {
+          "en": "I enjoy learning English. I enjoy learning English. I enjoy learning English. is opening doors for me. English is opening doors for me.",
+          "tc": "我喜歡學習英語。我喜歡學習英語。我喜歡學習英語。正在為我敞開大門。英語為我打開了大門。"
+        },
+        {
+          "en": "I am a fluent English speaker. I can communicate perfectly with native speakers.",
+          "tc": "我能說流利的英語。我可以與母語人士完美溝通。"
+        },
+        {
+          "en": "You want to be. Stay positive and believe in every affirmation daily. believe in your ability to be fluent in English. Comment which affirmation inspired.",
+          "tc": "你想成為。保持正面態度，每天相信每一個肯定。相信你有能力說流利的英語。評論受到肯定的啟發。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "every",
+          "kk": "/every/",
+          "partOfSpeech": "n.",
+          "meaning": "每一個",
+          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "speaker",
+          "kk": "/speaker/",
+          "partOfSpeech": "n.",
+          "meaning": "揚聲器",
+          "note": "看到 speaker 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "brings",
-          "kk": "/brings/",
+          "english": "daily",
+          "kk": "/daily/",
+          "partOfSpeech": "adv.",
+          "meaning": "日常的",
+          "note": "看到 daily 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：心態與目標",
+      "titleEn": "Part 8: mindset",
+      "sentences": [
+        {
+          "en": "You the most and comment down below what affirmation.",
+          "tc": "你最下面評論什麼肯定的。"
+        },
+        {
+          "en": "Would you add to this list. Like this video for more daily affirmations and I will see you in our?",
+          "tc": "你可以添加到這個清單中嗎？喜歡這個視頻以獲得更多日常肯定，我會在我們的？"
+        },
+        {
+          "en": "Next English podcast.",
+          "tc": "下一個英語podcast。"
+        },
+        {
+          "en": "Next week. Have a lovely week. Bye.",
+          "tc": "下週。祝你有個愉快的一周。再見。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "affirmations",
+          "kk": "/affirmations/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 brings 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "肯定句",
+          "note": "看到 affirmations 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "daily",
+          "kk": "/daily/",
+          "partOfSpeech": "adv.",
+          "meaning": "日常的",
+          "note": "看到 daily 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -297,7 +397,7 @@
           "english": "every",
           "kk": "/every/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每一個",
           "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -305,7 +405,7 @@
           "english": "day",
           "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -313,7 +413,7 @@
           "english": "focused",
           "kk": "/focused/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "專注的",
           "note": "看到 focused 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -321,40 +421,40 @@
           "english": "improve",
           "kk": "/improve/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "提升",
           "note": "看到 improve 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "fluency",
-          "kk": "/fluency/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 fluency 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "affirmations",
           "kk": "/affirmations/",
           "partOfSpeech": "n.",
-          "meaning": "心態與目標相關的常用字",
+          "meaning": "肯定句",
           "note": "看到 affirmations 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "fluency",
+          "kk": "/fluency/",
+          "partOfSpeech": "n.",
+          "meaning": "流暢度",
+          "note": "看到 fluency 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "speaker",
           "kk": "/speaker/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "揚聲器",
           "note": "看到 speaker 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "brings",
-          "kk": "/brings/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 brings 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "daily",
+          "kk": "/daily/",
+          "partOfSpeech": "adv.",
+          "meaning": "日常的",
+          "note": "看到 daily 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -363,12 +463,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "welcome back welcome",
-      "meaning": "常用說法，可用來表達「welcome back welcome」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
+      "phrase": "welcome to",
+      "meaning": "歡迎來到",
+      "examples": [
+        {
+          "en": "Welcome to this powerful daily practice of English fluency affirmations.",
+          "tc": "歡迎來到這個強大的英語流利度日常練習。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-03",
+      "phrase": "want to",
+      "meaning": "想要",
+      "examples": [
+        {
+          "en": "You want to be.",
+          "tc": "你想成為。"
         }
       ]
     }
@@ -376,30 +498,42 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast. Welcome to this powerful daily practice of English fluency affirmations. Learning a language isn't just about learning vocabulary and grammar. It's also about mindset.",
-      "translation": "歡迎回到我的慢速英語播客。歡迎來到這個強大的英語流利度日常練習。學習語言不僅僅是學習詞彙和文法。這也與心態有關。",
+      "sentence": "Welcome back to my slow English podcast.",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
-          "label": "welcome back welcome",
-          "text": "welcome back welcome",
-          "note": "注意 \"welcome back welcome\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-02",
-      "sentence": "If you've ever felt shy or stuck or not good enough when speaking English,.",
-      "translation": "如果你在說英語時曾經感到害羞、陷入困境或不夠好。",
+      "sentence": "Welcome to this powerful daily practice of English fluency affirmations. Learning a language isn't just about learning vocabulary and grammar. It's also about mindset.",
+      "translation": "歡迎來到這個強大的英語流利度日常練習。學習語言不僅僅是學習詞彙和文法。這也與心態有關。",
       "points": [
         {
-          "label": "you've ever felt",
-          "text": "you've ever felt",
-          "note": "注意 \"you've ever felt\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "welcome to",
+          "text": "welcome to",
+          "note": "注意 \"welcome to\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
+      "sentence": "If you've ever felt shy or stuck or not good enough when speaking English,.",
+      "translation": "如果你在說英語時曾經感到害羞、陷入困境或不夠好。",
+      "points": [
+        {
+          "label": "you've felt shy",
+          "text": "you've felt shy",
+          "note": "注意 \"you've felt shy\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
       "sentence": "Then these affirmations are for you.",
       "translation": "那麼這些肯定是給你的。",
       "points": [
@@ -407,18 +541,6 @@
           "label": "these affirmations",
           "text": "these affirmations",
           "note": "注意 \"these affirmations\" 在句子中的位置，先練整句，再替換自己的內容。"
-        }
-      ]
-    },
-    {
-      "id": "breakdown-04",
-      "sentence": "They're short positive affirmations designed to rewire your brain, build confidence in yourself, and remind.",
-      "translation": "它們是簡短的正面肯定，旨在重新連接您的大腦，建立對自己的信心並進行提醒。",
-      "points": [
-        {
-          "label": "they're short positive",
-          "text": "they're short positive",
-          "note": "注意 \"they're short positive\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

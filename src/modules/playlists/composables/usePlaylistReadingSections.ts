@@ -7,7 +7,7 @@ export interface PlaylistReadingSection {
   num: number
 }
 
-export type PlaylistReadingSectionKey = 'bilingual' | 'vocabulary' | 'phrases' | 'breakdown'
+export type PlaylistReadingSectionKey = 'bilingual' | 'vocabulary' | 'phrases' | 'usages' | 'breakdown'
 
 export function buildPlaylistReadingSections(content: PlaylistVideoData | null, baseId: string): PlaylistReadingSection[] {
   if (!content) return []
@@ -23,6 +23,9 @@ export function buildPlaylistReadingSections(content: PlaylistVideoData | null, 
   }
   if (content.phrases.length) {
     sections.push({ id: `${baseId}-section-phrases`, label: '片語', key: 'phrases', num: num++ })
+  }
+  if (content.usages?.length) {
+    sections.push({ id: `${baseId}-section-usages`, label: '用法', key: 'usages', num: num++ })
   }
   if (content.breakdowns.length) {
     sections.push({ id: `${baseId}-section-breakdown`, label: '句型', key: 'breakdown', num: num++ })

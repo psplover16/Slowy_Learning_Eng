@@ -20,44 +20,28 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "Today I will tell you about my trip to New York City, all in slow comprehensible English. Join me today.",
-          "tc": "今天我將以緩慢易懂的英語向您講述我的紐約之旅。今天就加入我吧。"
+          "tc": "今天我將以緩慢易懂的英語向你講述我的紐約之旅。今天就加入我吧。"
         },
         {
           "en": "I am in Rhode Island.",
           "tc": "我在羅德島州。"
         },
         {
-          "en": "I am visiting Rhode Island with my sister Brianna. It is cold outside. It is snowy and cold.",
-          "tc": "我和姐姐布麗安娜一起訪問羅德島。外面很冷。下雪了，而且很冷。"
+          "en": "I am visiting Rhode Island with my sister Brianna.",
+          "tc": "我和姐姐布麗安娜一起訪問羅德島。"
         }
       ],
       "tags": [
         {
-          "english": "cold",
-          "kk": "/cold/",
+          "english": "sister",
+          "kk": "/sister/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "city",
-          "kk": "/city/",
-          "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -69,70 +53,20 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
+          "en": "It is cold outside.",
+          "tc": "外面很冷。"
+        },
+        {
+          "en": "It is snowy and cold.",
+          "tc": "下雪了，而且很冷。"
+        },
+        {
           "en": "I have been sitting here for one hour just taking in the view from my hotel room and journaling while taking in the view.",
           "tc": "我在這裡坐了一個小時，只是從飯店房間欣賞風景，並一邊欣賞風景一邊寫日記。"
         },
         {
           "en": "I write in my journal while I take in the winter sun and the peaceful view. The snow is something that.",
           "tc": "我一邊寫日記，一邊欣賞冬日的陽光和寧靜的景色。雪就是這樣的東西。"
-        },
-        {
-          "en": "I haven't seen in ages. probably since I was 10 years old...",
-          "tc": "我已經好久沒見過了。大概是從我10歲開始吧…"
-        },
-        {
-          "en": "I haven't seen the snow. \"So nostalgic the feeling of it.\" So last night.",
-          "tc": "我還沒看過雪呢「這種感覺太懷舊了。」所以昨晚。"
-        }
-      ],
-      "tags": [
-        {
-          "english": "been",
-          "kk": "/been/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "since",
-          "kk": "/since/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 since 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "haven't",
-          "kk": "/haven't/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 haven't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
-    },
-    {
-      "id": "scene-03",
-      "no": "03",
-      "titleZh": "第 3 段：旅行",
-      "titleEn": "Part 3: travel",
-      "sentences": [
-        {
-          "en": "I arrived at the airport, and as.",
-          "tc": "我到達機場，然後。"
-        },
-        {
-          "en": "We stepped outside of the airport, the breeze hit. That was so cold. It's been like 10 years since I've been in a place this cold. \"How does my headband look? It.",
-          "tc": "走出機場，微風徐徐吹來。那太冷了。我已經有十年沒有去過這麼冷的地方了。 「我的頭帶看起來怎麼樣？它。"
-        },
-        {
-          "en": "Looks okay.\" I couldn't handle that much cold. It was freezing. I was smoking like a chimney!",
-          "tc": "看起來還不錯。 「我無法忍受那麼冷。天氣很冷。我像煙囪一樣冒著煙！"
-        },
-        {
-          "en": "I haven't been to a place this cold since I maybe went to the UK... But even the UK wasn't this cold.",
-          "tc": "自從我可能去了英國之後，我就沒去過這麼冷的地方了……但即使是英國也沒有這麼冷。"
         }
       ],
       "tags": [
@@ -140,25 +74,75 @@
           "english": "cold",
           "kk": "/cold/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "寒冷的",
           "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "snow",
+          "kk": "/snow/",
+          "partOfSpeech": "n.",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "been",
           "kk": "/been/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "到過",
           "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
+      "sentences": [
+        {
+          "en": "I haven't seen in ages. Probably since I was 10 years old...",
+          "tc": "我已經好久沒見過了。大概是從我10歲開始吧..."
+        },
+        {
+          "en": "I haven't seen the snow. \"So nostalgic the feeling of it.\" So last night.",
+          "tc": "我還沒看過雪呢「這種感覺太懷舊了。」所以昨晚。"
+        },
+        {
+          "en": "I arrived at the airport, and as.",
+          "tc": "我到達機場，然後。"
+        },
+        {
+          "en": "We stepped outside of the airport, the breeze hit. That was so cold. It's been like 10 years since.",
+          "tc": "走出機場，微風徐徐吹來。那太冷了。距今已經過去10年了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "cold",
+          "kk": "/cold/",
+          "partOfSpeech": "n.",
+          "meaning": "寒冷的",
+          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "since",
-          "kk": "/since/",
+          "english": "snow",
+          "kk": "/snow/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 since 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "been",
+          "kk": "/been/",
+          "partOfSpeech": "n.",
+          "meaning": "到過",
+          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -169,20 +153,20 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "I swear I can't handle the cold. So,.",
-          "tc": "我發誓我受不了寒冷。所以，。"
+          "en": "I've been in a place this cold. \"How does my headband look? It looks okay.\" I couldn't handle that much cold.",
+          "tc": "我曾經去過這麼冷的地方。 「我的頭帶看起來怎麼樣？看起來還不錯。」我受不了那麼冷。"
         },
         {
-          "en": "I need to wear so many layers and layers of long sleeve shirts, sweaters,.",
-          "tc": "我需要穿很多層又一層的長袖襯衫、毛衣、。"
+          "en": "It was freezing. I was smoking like a chimney! I haven't been to a place this cold since.",
+          "tc": "天很冷。我像煙囪一樣抽煙！從那以後我就再也沒有去過這麼冷的地方了。"
         },
         {
-          "en": "Then a puffy jacket -- like this one. \"I'm wearing two hats. One, two. So cold.\" Only with all four of those layers.",
-          "tc": "然後是一件蓬鬆的夾克——就像這件。 「我戴著兩頂帽子。一頂，兩頂。好冷。」只包含所有這四個層。"
+          "en": "I maybe went to the UK... But even the UK wasn't this cold.",
+          "tc": "我可能去了英國……但即使是英國也沒有這麼冷。"
         },
         {
-          "en": "Then I'm prepared to go outside.",
-          "tc": "然後我就準備出去。"
+          "en": "I swear I can't handle the cold.",
+          "tc": "我發誓我受不了寒冷。"
         }
       ],
       "tags": [
@@ -190,24 +174,24 @@
           "english": "cold",
           "kk": "/cold/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "寒冷的",
           "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "handle",
-          "kk": "/handle/",
+          "english": "place",
+          "kk": "/place/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 handle 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "地方",
+          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -219,7 +203,49 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "If not, I I can't handle it. Yesterday, I didn't put on my gloves right away, and my fingers felt like.",
+          "en": "I need to wear so many layers and layers of long sleeve shirts, sweaters,.",
+          "tc": "我需要穿很多層又一層的長袖襯衫、毛衣、。"
+        },
+        {
+          "en": "Then a puffy jacket -- like this one. \".",
+          "tc": "然後是一件蓬鬆的夾克——就像這件。 」。"
+        },
+        {
+          "en": "I'm wearing two hats. One, two. So cold.\" Only with all four of those layers.",
+          "tc": "我戴著兩頂帽子。一，二。太冷了。 」只有這四層。"
+        },
+        {
+          "en": "I'm prepared to go outside.",
+          "tc": "我準備出去了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "cold",
+          "kk": "/cold/",
+          "partOfSpeech": "n.",
+          "meaning": "寒冷的",
+          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "outside",
+          "kk": "/outside/",
+          "partOfSpeech": "n.",
+          "meaning": "外部",
+          "note": "看到 outside 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
+      "sentences": [
+        {
+          "en": "If not, I can't handle it. Yesterday, I didn't put on my gloves right away, and my fingers felt like.",
           "tc": "如果沒有的話我就應付不了了。昨天我沒有馬上戴上手套，手指感覺像。"
         },
         {
@@ -237,52 +263,36 @@
       ],
       "tags": [
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "place",
+          "kk": "/place/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "games",
-          "kk": "/games/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 games 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "handle",
-          "kk": "/handle/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 handle 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "地方",
+          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
     },
     {
-      "id": "scene-06",
-      "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
       "sentences": [
         {
           "en": "We will stay here for three more days.",
           "tc": "我們將在這裡再待三天。"
         },
         {
-          "en": "We will head to New York City. I'm really excited to see New York City during Christmas time. The big Christmas trees from movies like Elf, Rockefeller Center. You'll see it all.",
-          "tc": "我們將前往紐約市。我很高興能在聖誕節期間看到紐約市。電影《精靈》、洛克斐勒中心等電影中的大聖誕樹。你會看到這一切。"
+          "en": "We will head to New York City.",
+          "tc": "我們將前往紐約市。"
+        },
+        {
+          "en": "I'm really excited to see New York City during Christmas time. The big Christmas trees from movies like Elf, Rockefeller Center. You'll see it all with me.",
+          "tc": "我很高興能在聖誕節期間看到紐約市。電影《精靈》、洛克斐勒中心等電影中的大聖誕樹。你會和我一起看到這一切。"
         },
         {
           "en": "We're going under the bridge to get to the park. It's been so long since.",
           "tc": "我們要從橋下走去公園。已經過去這麼久了。"
-        },
-        {
-          "en": "I saw snow. almost like 10 years I think since the last time.",
-          "tc": "我看到了雪。我想距離上次已經差不多有十年了。"
         }
       ],
       "tags": [
@@ -290,25 +300,611 @@
           "english": "been",
           "kk": "/been/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "到過",
           "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "since",
-          "kk": "/since/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 since 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "I saw snow. Almost like 10 years.",
+          "tc": "我看到了雪。差不多10年了。"
+        },
+        {
+          "en": "I think since the last time.",
+          "tc": "我想自從上次以來。"
+        },
+        {
+          "en": "I saw snow.",
+          "tc": "我看到了雪。"
+        },
+        {
+          "en": "I'm originally from Nebraska. So I used to see snow all the time, but now I live in Mexico.",
+          "tc": "我來自內布拉斯加州。所以我以前總是看到雪，但現在我住在墨西哥。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "snow",
+          "kk": "/snow/",
+          "partOfSpeech": "n.",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：旅行",
+      "titleEn": "Part 9: travel",
+      "sentences": [
+        {
+          "en": "I've lived in Mexico for 10 years. So, the snow is a very exciting thing to see.",
+          "tc": "我在墨西哥生活了 10 年。所以說，下雪是一件非常令人興奮的事情。"
+        },
+        {
+          "en": "I'm leaving footprints behind. Those are my footprints. Let's go sit over there on that little ledge.",
+          "tc": "我留下腳印。那是我的腳印。我們去那邊那個小壁架上坐吧。"
+        },
+        {
+          "en": "My favorite thing to do when I travel is watch people living their normal lives like running or walking their dogs just living their lives in a different place.",
+          "tc": "當我旅行時，我最喜歡做的事情就是觀察人們過著正常的生活，例如跑步或遛狗，只是在不同的地方過著他們的生活。"
+        },
+        {
+          "en": "For example, I could never run in weather like this.",
+          "tc": "例如，我永遠無法在這樣的天氣下跑步。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "snow",
+          "kk": "/snow/",
+          "partOfSpeech": "n.",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "place",
+          "kk": "/place/",
+          "partOfSpeech": "n.",
+          "meaning": "地方",
+          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "I think my lungs would freeze if I tried. So beautiful.",
+          "tc": "我想如果我嘗試的話我的肺會結冰的。如此美麗。"
+        },
+        {
+          "en": "I'm sitting on a rock. Look at the ducks.",
+          "tc": "我坐在一塊岩石上。看看鴨子。"
+        },
+        {
+          "en": "They're swimming in the lake.",
+          "tc": "他們正在湖裡游泳。"
+        },
+        {
+          "en": "I don't know how ducks survive living in this water. It must be freezing in there.",
+          "tc": "我不知道鴨子在這水裡是怎麼生存的。那裡一定很冷。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "cold",
+          "kk": "/cold/",
+          "partOfSpeech": "n.",
+          "meaning": "寒冷的",
+          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "coat",
+          "kk": "/coat/",
+          "partOfSpeech": "n.",
+          "meaning": "外套",
+          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "snow",
+          "kk": "/snow/",
+          "partOfSpeech": "n.",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "Tell me about the squirrels.",
+          "tc": "告訴我關於松鼠的事。"
+        },
+        {
+          "en": "They were so fat and ready for hibernation.",
+          "tc": "它們太胖了，準備冬眠了。"
+        },
+        {
+          "en": "They were ready to hibernate.",
+          "tc": "他們準備冬眠了。"
+        },
+        {
+          "en": "She also said, \"I just saw a seal.",
+          "tc": "她還說：「我剛剛看到一隻海豹。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "cold",
+          "kk": "/cold/",
+          "partOfSpeech": "n.",
+          "meaning": "寒冷的",
+          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "coat",
+          "kk": "/coat/",
+          "partOfSpeech": "n.",
+          "meaning": "外套",
+          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "snow",
+          "kk": "/snow/",
+          "partOfSpeech": "n.",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：食物與用餐",
+      "titleEn": "Part 12: food",
+      "sentences": [
+        {
+          "en": "He popped his head out of the water.\" \"Yeah. Oh, that's so sweet!\"",
+          "tc": "他把頭從水裡探出來。 」 「是的。哦，真是太甜了！ 」"
+        },
+        {
+          "en": "I made it my mission to find this seal. I walked all along the ledge, stepping carefully on each stone, keeping an eye out for the seal.",
+          "tc": "我把找到這枚印章當作我的使命。我沿著壁架走來走去，小心翼翼地踩著每塊石頭，留意著海豹。"
+        },
+        {
+          "en": "First, but after zooming in with my camera, I realized.",
+          "tc": "首先，但在用相機放大後，我意識到了。"
+        },
+        {
+          "en": "It was indeed a seal.",
+          "tc": "這確實是一個封印。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "Tell me, where is the coldest place you've visited? I remember the UK was super cold,.",
+          "tc": "告訴我，你去過的最冷的地方是哪裡？我記得英國超冷。"
+        },
+        {
+          "en": "It was a different kind of cold.",
+          "tc": "那是一種不一樣的寒冷。"
+        },
+        {
+          "en": "It was really windy. The breeze is what made you feel cold, but here the air is just crisp.",
+          "tc": "風確實很大。微風會讓你感到寒冷，但這裡的空氣很清新。"
+        },
+        {
+          "en": "I don't think I could live here, but it's nice to visit.",
+          "tc": "我想我不能住在這裡，但參觀一下還是很不錯的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "cold",
+          "kk": "/cold/",
+          "partOfSpeech": "n.",
+          "meaning": "寒冷的",
+          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "place",
+          "kk": "/place/",
+          "partOfSpeech": "n.",
+          "meaning": "地方",
+          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：工作與學習",
+      "titleEn": "Part 14: work",
+      "sentences": [
+        {
+          "en": "After walking around the park, I went to see my sister's workplace and the sky was golden yellow.",
+          "tc": "逛完公園，我去看姊姊的工作場所，天空是金黃色的。"
+        },
+        {
+          "en": "I realized my sister had bought me a big white coat. The white matched the snow and complemented perfectly with the golden sun.",
+          "tc": "我意識到姐姐買了一件大白外套給我。白色與雪色相配，與金色的陽光完美地相得益彰。"
+        },
+        {
+          "en": "I only brought one coat with me.",
+          "tc": "我只帶了一件外套。"
+        },
+        {
+          "en": "It was my mom's coat.",
+          "tc": "那是我媽的外套。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "coat",
+          "kk": "/coat/",
+          "partOfSpeech": "n.",
+          "meaning": "外套",
+          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "snow",
+          "kk": "/snow/",
+          "partOfSpeech": "n.",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "place",
+          "kk": "/place/",
+          "partOfSpeech": "n.",
+          "meaning": "地方",
+          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "I don't OWN a winter coat.",
+          "tc": "我沒有冬衣。"
+        },
+        {
+          "en": "I don't have a winter coat, but even with my mom's puffy coat, the cold found a way to SEEP through every layer.",
+          "tc": "我沒有冬衣，但即使穿著媽媽的蓬鬆外套，寒冷也能滲透到每一層。"
+        },
+        {
+          "en": "I was grateful to HAVE gotten another coat. Why use HAVE gotten instead of GET? Because it connects to the past and to the present. It happened in the past and it.",
+          "tc": "我很感激又買了一件外套。為什麼要使用 HAVE get 而不是 GET？因為它連結過去和現在。它發生在過去並且它。"
+        },
+        {
+          "en": "Still matters now. It happened in the past, but the result is still relevant right now. It's still important now.",
+          "tc": "現在仍然很重要。事情已經發生在過去，但結果現在仍然具有現實意義。現在仍然很重要。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "cold",
+          "kk": "/cold/",
+          "partOfSpeech": "n.",
+          "meaning": "寒冷的",
+          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "coat",
+          "kk": "/coat/",
+          "partOfSpeech": "n.",
+          "meaning": "外套",
+          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：日常生活",
+      "titleEn": "Part 16: everyday life",
+      "sentences": [
+        {
+          "en": "I was grateful to have gotten an extra coat.",
+          "tc": "我很慶幸多買了一件外套。"
+        },
+        {
+          "en": "We head back to the hotel to watch movies and SNACK on some SNACKS that.",
+          "tc": "我們回到酒店看電影並吃點零食。"
+        },
+        {
+          "en": "I love feeling this cozy snowing outside while.",
+          "tc": "我喜歡在外面下雪的時候感受這種舒適的感覺。"
+        },
+        {
+          "en": "I'm bundled up in lots of warm blankets while watching series and snacking with my sister. This is my happy place.",
+          "tc": "我裹著很多溫暖的毯子，一邊看電視劇，一邊和姐姐一起吃零食。這是我快樂的地方。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "coat",
+          "kk": "/coat/",
+          "partOfSpeech": "n.",
+          "meaning": "外套",
+          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "snow",
+          "kk": "/snow/",
+          "partOfSpeech": "n.",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "place",
+          "kk": "/place/",
+          "partOfSpeech": "n.",
+          "meaning": "地方",
+          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段：日常作息",
+      "titleEn": "Part 17: daily routine",
+      "sentences": [
+        {
+          "en": "Next morning, all the snow had melted. Breakfast was included at our hotel.",
+          "tc": "第二天早上，所有的雪都融化了。我們飯店內含早餐。"
+        },
+        {
+          "en": "I had a toasted bagel, a blueberry muffin, some cornflakes cereal with oat milk, some fruit, and a boiled egg. I know it's a strange combination,.",
+          "tc": "我吃了一個烤百吉餅、一個藍莓鬆餅、一些玉米片麥片、燕麥奶、一些水果和一個水煮蛋。我知道這是一個奇怪的組合。"
+        },
+        {
+          "en": "I love taking full advantage of included breakfasts.",
+          "tc": "我喜歡充分利用包含的早餐。"
+        },
+        {
+          "en": "Then I decided to get a workout in before exploring the city. I used the dumbbells and I ran on the treadmill.",
+          "tc": "然後我決定在探索這座城市之前先鍛鍊一下。我用啞鈴，然後在跑步機上跑步。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "snow",
+          "kk": "/snow/",
+          "partOfSpeech": "n.",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段：日常生活",
+      "titleEn": "Part 18: everyday life",
+      "sentences": [
+        {
+          "en": "Then my sister and I went to the park. \".",
+          "tc": "然後我和姐姐去了公園。 」。"
+        },
+        {
+          "en": "My favorite gloves.\" It's not snowy anymore. And I noticed the weirdest thing. \"Why is that steam coming out?\" There's little steam coming out of the tree trunks.",
+          "tc": "我最喜歡的手套。 」不再下雪了。我注意到最奇怪的事情。「為什麼會冒出蒸氣？ 「樹幹裡幾乎沒有蒸氣冒出來。"
+        },
+        {
+          "en": "After being outside for a while. Our cheeks and noses are red.",
+          "tc": "在外面待了一段時間後。我們的臉頰和鼻子都是紅色的。"
+        },
+        {
+          "en": "Today it's sunny again. Yesterday, my sister.",
+          "tc": "今天又是晴天了。昨天，我的妹妹。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "snow",
+          "kk": "/snow/",
+          "partOfSpeech": "n.",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "outside",
+          "kk": "/outside/",
+          "partOfSpeech": "n.",
+          "meaning": "外部",
+          "note": "看到 outside 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段：日常生活",
+      "titleEn": "Part 19: everyday life",
+      "sentences": [
+        {
+          "en": "I got so much done.",
+          "tc": "我已經完成了這麼多。"
+        },
+        {
+          "en": "We managed to get so many things off our checklist.",
+          "tc": "我們設法從清單上刪除了很多事情。"
+        },
+        {
+          "en": "We opened a bank account.",
+          "tc": "我們開了一個銀行帳戶。"
+        },
+        {
+          "en": "We went shopping for Christmas presents.",
+          "tc": "我們去買聖誕禮物。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "cold",
+          "kk": "/cold/",
+          "partOfSpeech": "n.",
+          "meaning": "寒冷的",
+          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "coat",
+          "kk": "/coat/",
+          "partOfSpeech": "n.",
+          "meaning": "外套",
+          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "snow",
+          "kk": "/snow/",
+          "partOfSpeech": "n.",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段：日常生活",
+      "titleEn": "Part 20: everyday life",
+      "sentences": [
+        {
+          "en": "We ate the best chicken schwarma in town.",
+          "tc": "我們吃了鎮上最好的雞肉施瓦瑪。"
+        },
+        {
+          "en": "We saw Brown University. \".",
+          "tc": "我們看到了布朗大學。 」。"
+        },
+        {
+          "en": "We are at Brown University. Brown is.",
+          "tc": "我們在布朗大學。布朗是。"
+        },
+        {
+          "en": "One of the Ivy League universities.\"",
+          "tc": "常春藤盟校之一。 」"
+        }
+      ],
+      "tags": [
+        {
+          "english": "cold",
+          "kk": "/cold/",
+          "partOfSpeech": "n.",
+          "meaning": "寒冷的",
+          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "coat",
+          "kk": "/coat/",
+          "partOfSpeech": "n.",
+          "meaning": "外套",
+          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "snow",
+          "kk": "/snow/",
+          "partOfSpeech": "n.",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -321,64 +917,64 @@
           "english": "cold",
           "kk": "/cold/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "寒冷的",
           "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "coat",
+          "kk": "/coat/",
+          "partOfSpeech": "n.",
+          "meaning": "外套",
+          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "snow",
+          "kk": "/snow/",
+          "partOfSpeech": "n.",
+          "meaning": "雪",
+          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "place",
+          "kk": "/place/",
+          "partOfSpeech": "n.",
+          "meaning": "地方",
+          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "been",
           "kk": "/been/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "到過",
           "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "since",
-          "kk": "/since/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 since 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "city",
-          "kk": "/city/",
+          "english": "outside",
+          "kk": "/outside/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 city 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "games",
-          "kk": "/games/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 games 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "handle",
-          "kk": "/handle/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 handle 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "haven't",
-          "kk": "/haven't/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 haven't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "外部",
+          "note": "看到 outside 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -387,34 +983,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "They were going to crack and fall off!",
-          "tc": "它們快要破裂並脫落了！"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "need to",
-      "meaning": "常用說法，可用來表達「need to」這個意思",
+      "phrase": "used to",
+      "meaning": "以前曾經",
       "examples": [
         {
-          "en": "I need to wear so many layers and layers of long sleeve shirts, sweaters,.",
-          "tc": "我需要穿很多層又一層的長袖襯衫、毛衣、。"
+          "en": "So I used to see snow all the time, but now I live in Mexico.",
+          "tc": "所以我以前總是看到雪，但現在我住在墨西哥。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "i think",
-      "meaning": "常用說法，可用來表達「i think」這個意思",
+      "phrase": "going to",
+      "meaning": "去",
       "examples": [
         {
-          "en": "almost like 10 years I think since the last time.",
-          "tc": "我想距離上次已經差不多有十年了。"
+          "en": "They were going to crack and fall off!",
+          "tc": "它們快要破裂並脫落了！"
         }
       ]
     }
@@ -423,7 +1019,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -435,7 +1031,7 @@
     {
       "id": "breakdown-02",
       "sentence": "Today I will tell you about my trip to New York City, all in slow comprehensible English. Join me today.",
-      "translation": "今天我將以緩慢易懂的英語向您講述我的紐約之旅。今天就加入我吧。",
+      "translation": "今天我將以緩慢易懂的英語向你講述我的紐約之旅。今天就加入我吧。",
       "points": [
         {
           "label": "tell trip new",
@@ -458,8 +1054,8 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "I am visiting Rhode Island with my sister Brianna. It is cold outside. It is snowy and cold.",
-      "translation": "我和姐姐布麗安娜一起訪問羅德島。外面很冷。下雪了，而且很冷。",
+      "sentence": "I am visiting Rhode Island with my sister Brianna.",
+      "translation": "我和姐姐布麗安娜一起訪問羅德島。",
       "points": [
         {
           "label": "visiting rhode island",

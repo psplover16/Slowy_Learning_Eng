@@ -24,7 +24,7 @@
         },
         {
           "en": "How strong you're becoming in slow English so you can reinforce those positive thoughts while learning English?",
-          "tc": "您的慢速英語能力有多強，以便您可以在學習英語的同時強化這些積極的想法？"
+          "tc": "你的慢速英語能力有多強，以便你可以在學習英語的同時強化這些積極的想法？"
         },
         {
           "en": "I was talking to myself the other day. I talk to other people all the time.",
@@ -37,28 +37,28 @@
       ],
       "tags": [
         {
-          "english": "much",
-          "kk": "/much/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 much 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "myself",
           "kk": "/myself/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "我",
           "note": "看到 myself 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "strong",
-          "kk": "/strong/",
+          "english": "grow",
+          "kk": "/grow/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 strong 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "生長",
+          "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "speak",
+          "kk": "/speak/",
+          "partOfSpeech": "v.",
+          "meaning": "說話",
+          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -90,7 +90,7 @@
           "english": "myself",
           "kk": "/myself/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "我",
           "note": "看到 myself 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -98,9 +98,9 @@
           "english": "strong",
           "kk": "/strong/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "強的",
           "note": "看到 strong 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         }
       ]
     },
@@ -123,33 +123,33 @@
           "tc": "我希望你也有這樣的感覺。所以，我想分享一些正面的想法。"
         },
         {
-          "en": "I had. Speak kindly to yourself. Remind yourself how much you've grown.",
-          "tc": "我有過。善意地對自己說話。提醒自己你已經成長了多少。"
+          "en": "I had. Speak kindly to yourself. Remind yourself how much you've grown and how strong you're becoming. Listen to these affirmations daily and bring positive energy into everyday.",
+          "tc": "我有過。善意地對自己說話。提醒自己你已经成长了多少，你变得有多强大。每天聆听这些肯定，为日常生活注入正能量。"
         }
       ],
       "tags": [
         {
-          "english": "much",
-          "kk": "/much/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 much 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "grow",
           "kk": "/grow/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "生長",
           "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "speak",
+          "kk": "/speak/",
+          "partOfSpeech": "v.",
+          "meaning": "說話",
+          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "positive",
-          "kk": "/positive/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 positive 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "anything",
+          "kk": "/anything/",
+          "partOfSpeech": "v.",
+          "meaning": "任何事物",
+          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -157,13 +157,9 @@
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：心態與目標",
-      "titleEn": "Part 4: mindset",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
-        {
-          "en": "How strong you're becoming. Listen to these affirmations daily and bring positive energy into everyday?",
-          "tc": "你變得多麼堅強。每天聆聽這些肯定，為每天帶來正能量？"
-        },
         {
           "en": "I am strong.",
           "tc": "我很堅強。"
@@ -173,33 +169,37 @@
           "tc": "我很堅強。我可以做任何事。我可以做任何事。每一天，我都變得更真實的自我。每一天，我都變得更真實的自我。"
         },
         {
-          "en": "I am proud of how far I've come.",
-          "tc": "我為自己已經取得的進步感到自豪。"
+          "en": "I am proud of how far.",
+          "tc": "我為自己有多遠而感到自豪。"
+        },
+        {
+          "en": "I am not the same person I was a year ago.",
+          "tc": "我已經不再是一年前的我了。"
         }
       ],
       "tags": [
         {
-          "english": "strong",
-          "kk": "/strong/",
+          "english": "not",
+          "kk": "/not/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 strong 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "不是",
+          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "grow",
           "kk": "/grow/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "生長",
           "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
-          "english": "more",
-          "kk": "/more/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 more 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "anything",
+          "kk": "/anything/",
+          "partOfSpeech": "v.",
+          "meaning": "任何事物",
+          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -211,10 +211,6 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "I am not the same person I was a year ago.",
-          "tc": "我已經不再是一年前的我了。"
-        },
-        {
           "en": "I am not the same person I was a year ago. I remember.",
           "tc": "我已經不再是一年前的我了。我記得。"
         },
@@ -225,32 +221,28 @@
         {
           "en": "I understand so much more. Every mistake helps me grow. Every mistake helps me grow.",
           "tc": "我明白了很多。每一個錯誤都幫助我成長。每一個錯誤都幫助我成長。"
+        },
+        {
+          "en": "I am not behind.",
+          "tc": "我並不落後。"
         }
       ],
       "tags": [
         {
-          "english": "much",
-          "kk": "/much/",
+          "english": "not",
+          "kk": "/not/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 much 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "不是",
+          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "grow",
           "kk": "/grow/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "生長",
           "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "more",
-          "kk": "/more/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 more 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         }
       ]
     },
@@ -260,10 +252,6 @@
       "titleZh": "第 6 段：日常生活",
       "titleEn": "Part 6: everyday life",
       "sentences": [
-        {
-          "en": "I am not behind.",
-          "tc": "我並不落後。"
-        },
         {
           "en": "I am on my own path.",
           "tc": "我走自己的路。"
@@ -275,6 +263,10 @@
         {
           "en": "I am building confidence every single day.",
           "tc": "我每天都在建立信心。"
+        },
+        {
+          "en": "I am. Learning English proves that I can learn anything. Learning English proves that.",
+          "tc": "我是。學習英語證明我可以學到任何東西。學習英語證明了這一點。"
         }
       ],
       "tags": [
@@ -282,7 +274,275 @@
           "english": "speak",
           "kk": "/speak/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "說話",
+          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "anything",
+          "kk": "/anything/",
+          "partOfSpeech": "v.",
+          "meaning": "任何事物",
+          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "I can learn anything. I can handle any challenge thrown my way.",
+          "tc": "我什麼都可以學。我可以應付遇到的任何挑戰。"
+        },
+        {
+          "en": "I can handle any challenge thrown my way. I trust the process.",
+          "tc": "我可以應付遇到的任何挑戰。我相信這個過程。"
+        },
+        {
+          "en": "I trust the process.",
+          "tc": "我相信這個過程。"
+        },
+        {
+          "en": "I am becoming more confident each time I speak.",
+          "tc": "每次講話我都變得更有自信。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "speak",
+          "kk": "/speak/",
+          "partOfSpeech": "v.",
+          "meaning": "說話",
+          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "anything",
+          "kk": "/anything/",
+          "partOfSpeech": "v.",
+          "meaning": "任何事物",
+          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "I am allowed to take my time.",
+          "tc": "我可以慢慢來。"
+        },
+        {
+          "en": "I am allowed to take my time. I celebrate small progress. I celebrate small progress. is still progress. Small progress is still progress.",
+          "tc": "我可以慢慢來。我慶祝小小的進步。我慶祝小小的進步。仍然是進步。小進步仍然是進步。"
+        },
+        {
+          "en": "I am brave for trying.",
+          "tc": "我勇於嘗試。"
+        },
+        {
+          "en": "I am brave for trying. My voice deserves to be heard. My voice deserves to be heard.",
+          "tc": "我勇於嘗試。我的聲音值得被聽見。我的聲音值得被聽見。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "progress",
+          "kk": "/progress/",
+          "partOfSpeech": "n.",
+          "meaning": "進步",
+          "note": "看到 progress 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "I am creating new opportunities for myself.",
+          "tc": "我正在為自己創造新的機會。"
+        },
+        {
+          "en": "I am not afraid of messing up, making a mistake.",
+          "tc": "我不怕搞砸、犯錯。"
+        },
+        {
+          "en": "I am not afraid of messing up.",
+          "tc": "我不怕搞砸。"
+        },
+        {
+          "en": "I am proud that I try.",
+          "tc": "我很自豪我嘗試過。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "myself",
+          "kk": "/myself/",
+          "partOfSpeech": "n.",
+          "meaning": "我",
+          "note": "看到 myself 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "not",
+          "kk": "/not/",
+          "partOfSpeech": "n.",
+          "meaning": "不是",
+          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "I am disciplined.",
+          "tc": "我很守紀律。"
+        },
+        {
+          "en": "I am disciplined. I show up even when it's hard. I show up even when it's hard. When things get difficult, it means that.",
+          "tc": "我很守紀律。即使在困難的時候我也會出現。即使在困難的時候我也會出現。當事情變得困難時，這意味著。"
+        },
+        {
+          "en": "I'm growing. >> When things get difficult, it means that.",
+          "tc": "我正在成長。 >> 當事情變得困難時，這意味著。"
+        },
+        {
+          "en": "I'm growing. Challenges are opportunities to grow and learn. Challenges are opportunities to grow and learn. English is not just a language. It's proof that.",
+          "tc": "我正在成長。挑戰是成長和學習的機會。挑戰是成長和學習的機會。英語不僅僅是一種語言。這就是證明。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "not",
+          "kk": "/not/",
+          "partOfSpeech": "n.",
+          "meaning": "不是",
+          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "grow",
+          "kk": "/grow/",
+          "partOfSpeech": "n.",
+          "meaning": "生長",
+          "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：語言學習",
+      "titleEn": "Part 11: language",
+      "sentences": [
+        {
+          "en": "I can grow. English is not just a language. It's proof that.",
+          "tc": "我可以成長。英語不僅僅是一種語言。這就是證明。"
+        },
+        {
+          "en": "I can grow. That.",
+          "tc": "我可以成長。那。"
+        },
+        {
+          "en": "I am growing.",
+          "tc": "我正在成長。"
+        },
+        {
+          "en": "I am patient with myself.",
+          "tc": "我對自己很有耐心。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "myself",
+          "kk": "/myself/",
+          "partOfSpeech": "n.",
+          "meaning": "我",
+          "note": "看到 myself 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "not",
+          "kk": "/not/",
+          "partOfSpeech": "n.",
+          "meaning": "不是",
+          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "grow",
+          "kk": "/grow/",
+          "partOfSpeech": "n.",
+          "meaning": "生長",
+          "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "I am patient with myself. I allow myself to learn at my own pace. I allow myself to learn at my own pace.",
+          "tc": "我對自己很有耐心。我允許自己按照自己的步調學習。我允許自己按照自己的步調學習。"
+        },
+        {
+          "en": "I do not compare my journey with someone else's.",
+          "tc": "我不會將我的旅程與其他人的旅程進行比較。"
+        },
+        {
+          "en": "I do not compare my journey with someone else's. I used to struggle with words. Now, I express my thoughts. I used to struggle with words. Now, I express my thoughts.",
+          "tc": "我不會將我的旅程與其他人的旅程進行比較。我曾經在言語上掙扎。現在，我表達一下我的想法。我曾經在言語上掙扎。現在，我表達一下我的想法。"
+        },
+        {
+          "en": "I am proud of the courage it takes to speak.",
+          "tc": "我為說話所需的勇氣感到自豪。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "myself",
+          "kk": "/myself/",
+          "partOfSpeech": "n.",
+          "meaning": "我",
+          "note": "看到 myself 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "not",
+          "kk": "/not/",
+          "partOfSpeech": "n.",
+          "meaning": "不是",
+          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "speak",
+          "kk": "/speak/",
+          "partOfSpeech": "v.",
+          "meaning": "說話",
           "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -294,67 +554,67 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "much",
-          "kk": "/much/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 much 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "myself",
           "kk": "/myself/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "我",
           "note": "看到 myself 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "strong",
-          "kk": "/strong/",
+          "english": "not",
+          "kk": "/not/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 strong 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "不是",
+          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "grow",
           "kk": "/grow/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "生長",
           "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "more",
-          "kk": "/more/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 more 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "positive",
-          "kk": "/positive/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 positive 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
           "english": "speak",
           "kk": "/speak/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "說話",
           "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "yourself",
-          "kk": "/yourself/",
+          "english": "anything",
+          "kk": "/anything/",
+          "partOfSpeech": "v.",
+          "meaning": "任何事物",
+          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "progress",
+          "kk": "/progress/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 yourself 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "進步",
+          "note": "看到 progress 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "strong",
+          "kk": "/strong/",
+          "partOfSpeech": "n.",
+          "meaning": "強的",
+          "note": "看到 strong 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "thoughts",
+          "kk": "/thoughts/",
+          "partOfSpeech": "n.",
+          "meaning": "想法",
+          "note": "看到 thoughts 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -363,8 +623,19 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "used to",
+      "meaning": "習慣",
+      "examples": [
+        {
+          "en": "I used to struggle with words.",
+          "tc": "我曾經在言語上掙扎。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "i feel",
-      "meaning": "常用說法，可用來表達「i feel」這個意思",
+      "meaning": "我覺得",
       "examples": [
         {
           "en": "I feel so much lighter.",
@@ -373,9 +644,9 @@
       ]
     },
     {
-      "id": "phrase-02",
+      "id": "phrase-03",
       "phrase": "i want",
-      "meaning": "常用說法，可用來表達「i want」這個意思",
+      "meaning": "我想",
       "examples": [
         {
           "en": "I want you to feel that way, too.",
@@ -400,7 +671,7 @@
     {
       "id": "breakdown-02",
       "sentence": "How strong you're becoming in slow English so you can reinforce those positive thoughts while learning English?",
-      "translation": "您的慢速英語能力有多強，以便您可以在學習英語的同時強化這些積極的想法？",
+      "translation": "你的慢速英語能力有多強，以便你可以在學習英語的同時強化這些積極的想法？",
       "points": [
         {
           "label": "strong you're becoming",
@@ -415,9 +686,9 @@
       "translation": "那天我在自言自語。我一直在和其他人說話。",
       "points": [
         {
-          "label": "talking myself other",
-          "text": "talking myself other",
-          "note": "注意 \"talking myself other\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "talking myself day",
+          "text": "talking myself day",
+          "note": "注意 \"talking myself day\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },

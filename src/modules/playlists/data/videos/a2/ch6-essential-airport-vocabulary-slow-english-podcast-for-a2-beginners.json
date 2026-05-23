@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=Sgwkz08fcdE",
   "header": {
     "podcastLabel": "MissHoney A2",
-    "titleZh": "機場必備詞彙✈️ -- A2 初學者的 SLOW 英語播客",
+    "titleZh": "機場必備詞彙✈️ -- A2 初學者的 SLOW 英語podcast",
     "titleEn": "Essential AIRPORT Vocabulary✈️ -- SLOW English Podcast for A2 Beginners",
     "levelTag": "A2",
     "topicTag": "travel"
@@ -20,19 +20,19 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast a comprehensible and clear way of listening to English practice repeating any words you don't understand.",
-          "tc": "歡迎回到我的慢速英語播客，這是一​​種可以理解且清晰的方式來聽英語練習重複任何您不明白的單字。"
+          "tc": "歡迎回到我的慢速英語podcast，這是一種可以理解且清晰的方式來聽英語練習重複任何你不明白的單字。"
         },
         {
           "en": "First and try to listen without reading the subtitles.",
           "tc": "首先嘗試在不看字幕的情況下聽。"
         },
         {
-          "en": "Today I want to talk to you about some common conversations or words.",
-          "tc": "今天我想和大家聊一些常見的對話或單字。"
+          "en": "Today I want to talk to you about some common conversations or words you can use at the airport when I arrive at the airport I always make sure.",
+          "tc": "今天我想和大家談談一些在機場時可以使用的常見對話或單詞，當我到達機場時我總是確定。"
         },
         {
-          "en": "You can use at the airport when I arrive at the airport.",
-          "tc": "當我到達機場時，您可以在機場使用。"
+          "en": "I have my passport my boarding pass and all of my luggage those three things are essential to check.",
+          "tc": "我有護照、登機證和所有行李，這三樣東西是必須檢查的。"
         }
       ],
       "tags": [
@@ -40,22 +40,34 @@
           "english": "airport",
           "kk": "/ˈɛrˌpɔrt/",
           "partOfSpeech": "n.",
-          "meaning": "機場",
+          "meaning": "飛機場",
           "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "check",
+          "kk": "/check/",
+          "partOfSpeech": "n.",
+          "meaning": "查看",
+          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段：旅行",
+      "titleEn": "Part 2: travel",
       "sentences": [
-        {
-          "en": "I always make sure I have my passport my boarding pass and and all of my luggage those three things are essential to check.",
-          "tc": "我總是確保我有護照、登機證和所有行李，這三件事是必須檢查的。"
-        },
         {
           "en": "I triple check before I leave my house and when I arrive at the airport once.",
           "tc": "我在離開家之前和到達機場時都會檢查三次。"
@@ -67,14 +79,26 @@
         {
           "en": "They point me to which line I should go so I stand in line.",
           "tc": "他們告訴我應該走哪條線，所以我就會排隊。"
+        },
+        {
+          "en": "I wait I take off my shoes I take off my coat.",
+          "tc": "我等著，我脫掉鞋子，脫掉外套。"
         }
       ],
       "tags": [
         {
+          "english": "security",
+          "kk": "/security/",
+          "partOfSpeech": "n.",
+          "meaning": "安全",
+          "note": "看到 security 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "airport",
           "kk": "/ˈɛrˌpɔrt/",
           "partOfSpeech": "n.",
-          "meaning": "機場",
+          "meaning": "飛機場",
           "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -82,17 +106,9 @@
           "english": "check",
           "kk": "/check/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "查看",
           "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "security",
-          "kk": "/security/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 security 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         }
       ]
     },
@@ -103,45 +119,45 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "I wait I take off my shoes I take off my coat.",
-          "tc": "我等著，我脫掉鞋子，脫掉外套。"
+          "en": "I take all my electronics out of my bag if.",
+          "tc": "我把所有電子產品從包包裡拿出來。"
         },
         {
-          "en": "I take all my electronics out of my bag if I have headphones or a laptop or my phone and even my Chargers.",
-          "tc": "如果我有耳機、筆記型電腦、手機甚至充電器，我會把所有電子產品從包包裡拿出來。"
+          "en": "I have headphones or a laptop or my phone and even my Chargers I put them all in a basket.",
+          "tc": "我有耳機、筆記型電腦、手機，甚至我的充電器，我把它們都放在一個籃子裡。"
         },
         {
-          "en": "I put them all in a basket.",
-          "tc": "我把它們都放在一個籃子裡。"
+          "en": "Then I walk through the metal detector.",
+          "tc": "然後我走過金屬探測器。"
         },
         {
-          "en": "Then I walk through the metal detector and I don't usually get checked for extra security.",
-          "tc": "然後我走過金屬探測器，通常不會接受額外的安全檢查。"
+          "en": "I don't usually get checked for extra security.",
+          "tc": "我通常不會接受額外的安全檢查。"
         }
       ],
       "tags": [
         {
-          "english": "check",
-          "kk": "/check/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "security",
           "kk": "/security/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "安全",
           "note": "看到 security 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "check",
+          "kk": "/check/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "查看",
+          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -153,8 +169,12 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "They check with a little metal detector to see if I have any metal on my body.",
-          "tc": "他們用一個小型金屬探測器檢查我身上是否有任何金屬。"
+          "en": "They check with a little metal detector to see if.",
+          "tc": "他們用一個小型金屬探測器檢查是否有。"
+        },
+        {
+          "en": "I have any metal on my body.",
+          "tc": "我身上有任何金屬。"
         },
         {
           "en": "They will say.",
@@ -163,10 +183,6 @@
         {
           "en": "Can you please step to the side?",
           "tc": "可以請你到一邊去嗎？"
-        },
-        {
-          "en": "They scan with their little metal detector once I had a big bottle of sunscreen lotion.",
-          "tc": "一旦我有一大瓶防曬霜，他們就會用小型金屬探測器掃描。"
         }
       ],
       "tags": [
@@ -174,16 +190,8 @@
           "english": "check",
           "kk": "/check/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "查看",
           "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "metal",
-          "kk": "/metal/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 metal 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -195,46 +203,46 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "They threw the whole thing in the garbage it was my fault because it was over 100 milliliters but I was still so angry.",
-          "tc": "他們把整個東西扔進了垃圾桶，這是我的錯，因為它超過了 100 毫升，但我仍然很生氣。"
+          "en": "They scan with their little metal detector once.",
+          "tc": "他們用小型金屬探測器掃描一次。"
         },
         {
-          "en": "They could have just kept it for themselves or given it to somebody else it was very frustrating have.",
-          "tc": "他們本可以自己保留它或將其送給其他人，這是非常令人沮喪的。"
+          "en": "I had a big bottle of sunscreen lotion.",
+          "tc": "我有一大瓶防曬霜。"
         },
         {
-          "en": "You ever had anything taken away from you at the security checkpoint have.",
-          "tc": "您曾經在安全檢查站被拿走任何東西。"
+          "en": "They threw the whole thing in the garbage.",
+          "tc": "他們把整個東西丟進了垃圾桶。"
         },
         {
-          "en": "You ever been stopped and scanned at the security checkpoint after.",
-          "tc": "之後您曾在安全檢查站被攔截並接受掃描。"
+          "en": "It was my fault.",
+          "tc": "是我的錯。"
         }
       ],
       "tags": [
         {
-          "english": "check",
-          "kk": "/check/",
+          "english": "seat",
+          "kk": "/seat/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "座位",
+          "note": "看到 seat 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "security",
           "kk": "/security/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "安全",
           "note": "看到 security 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "checkpoint",
-          "kk": "/checkpoint/",
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 checkpoint 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "飛機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
@@ -245,28 +253,86 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "I get through the checkpoint I have to find my gate number usually my gate number is on my boarding pass but if it's not.",
-          "tc": "我通過檢查站時必須找到我的登機口號碼，通常我的登機口號碼在登機證上，但如果沒有的話。"
+          "en": "It was over 100 milliliters but I was still so angry.",
+          "tc": "雖然已經有一百多毫升了，但我還是很生氣。"
         },
         {
-          "en": "I check the display screens at the airport I always check to see the time and the gate number haven't changed.",
-          "tc": "我檢查機場的顯示屏，我總是檢查時間和登機口號碼是否有變化。"
+          "en": "They could have just kept it for themselves or given it to somebody else.",
+          "tc": "他們可以只為自己保留它或將其送給其他人。"
         },
         {
-          "en": "I always make sure to ask the service agents if I have any questions at all once.",
-          "tc": "如果我有任何問題，我總是一定要立即詢問服務人員。"
+          "en": "It was very frustrating.",
+          "tc": "這非常令人沮喪。"
         },
         {
-          "en": "I find my gate.",
-          "tc": "我找到我的大門了。"
+          "en": "Have you ever had anything taken away from you at the security checkpoint?",
+          "tc": "你是否曾在安全檢查站被拿走任何東西？"
         }
       ],
       "tags": [
         {
+          "english": "security",
+          "kk": "/security/",
+          "partOfSpeech": "n.",
+          "meaning": "安全",
+          "note": "看到 security 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "check",
+          "kk": "/check/",
+          "partOfSpeech": "n.",
+          "meaning": "查看",
+          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "checkpoint",
+          "kk": "/checkpoint/",
+          "partOfSpeech": "n.",
+          "meaning": "檢查站",
+          "note": "看到 checkpoint 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "Have you ever been stopped and scanned at the security checkpoint after?",
+          "tc": "你是否曾經在安全檢查站被攔下並接受掃描？"
+        },
+        {
+          "en": "I get through the checkpoint.",
+          "tc": "我通過了檢查站。"
+        },
+        {
+          "en": "I have to find my gate number usually my gate number is on my boarding pass but if it's not.",
+          "tc": "我必須找到我的登機口號碼，通常我的登機口號碼在我的登機證上，但如果不是。"
+        },
+        {
+          "en": "I check the display screens at the airport I always check to see the time and the gate number haven't changed.",
+          "tc": "我檢查機場的顯示屏，我總是檢查時間和登機口號碼是否有變化。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "security",
+          "kk": "/security/",
+          "partOfSpeech": "n.",
+          "meaning": "安全",
+          "note": "看到 security 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "airport",
           "kk": "/ˈɛrˌpɔrt/",
           "partOfSpeech": "n.",
-          "meaning": "機場",
+          "meaning": "飛機場",
           "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -274,16 +340,234 @@
           "english": "check",
           "kk": "/check/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "查看",
           "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "I always make sure to ask the service agents if.",
+          "tc": "我總是確保詢問服務代理是否。"
+        },
+        {
+          "en": "I have any questions at all once I find my gate.",
+          "tc": "一旦找到登機口，我就有任何疑問。"
+        },
+        {
+          "en": "I like to wait until the very end to start boarding.",
+          "tc": "我喜歡等到最後才開始登機。"
+        },
+        {
+          "en": "I don't like standing and waiting in line and my seat number is usually.",
+          "tc": "我不喜歡站著排隊等候，我的座位號碼通常是。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "seat",
+          "kk": "/seat/",
+          "partOfSpeech": "n.",
+          "meaning": "座位",
+          "note": "看到 seat 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "don't",
+          "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "boarding",
+          "kk": "/boarding/",
+          "partOfSpeech": "v.",
+          "meaning": "登機",
+          "note": "看到 boarding 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "One of the flight attendants and I find my seat.",
+          "tc": "我和一位空服員找到了座位。"
+        },
+        {
+          "en": "I love the window seat I always prefer the window seat over the middle seat but for long flights.",
+          "tc": "我喜歡靠窗的座位，但對於長途飛行，我總是喜歡靠窗的座位而不是中間的座位。"
+        },
+        {
+          "en": "I prefer the Isle seat the aisle seat is perfect for longer flights because that way.",
+          "tc": "我更喜歡島式座位，過道座位非常適合長途飛行，因為這樣。"
+        },
+        {
+          "en": "I can go to the bathroom whenever and however many times.",
+          "tc": "我可以隨時去洗手間，無論多少次。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "seat",
+          "kk": "/seat/",
+          "partOfSpeech": "n.",
+          "meaning": "座位",
+          "note": "看到 seat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "I want but for short flights.",
+          "tc": "我想要，但是短程航班。"
+        },
+        {
+          "en": "I do prefer the window seat.",
+          "tc": "我確實比較喜歡靠窗的座位。"
+        },
+        {
+          "en": "Then on arrival to my destination the pilot announces.",
+          "tc": "然後，在到達目的地後，飛行員宣布。"
+        },
+        {
+          "en": "We will be landing soon so I start to get all my f things ready and if.",
+          "tc": "我們很快就要著陸了，所以我開始準備好所有的東西。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "seat",
+          "kk": "/seat/",
+          "partOfSpeech": "n.",
+          "meaning": "座位",
+          "note": "看到 seat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "I have a connecting flight.",
+          "tc": "我有轉機航班。"
+        },
+        {
+          "en": "I am ready to hurry to my.",
+          "tc": "我準備趕緊去我的。"
+        },
+        {
+          "en": "Next flight connections can be very stressful.",
+          "tc": "下一趟航班轉機可能會非常緊張。"
+        },
+        {
+          "en": "If you don't have much time to switch and to go through immigration customs and the security checkpoint all over again.",
+          "tc": "如果你沒有太多時間重新通過移民海關和安全檢查站。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "security",
+          "kk": "/security/",
+          "partOfSpeech": "n.",
+          "meaning": "安全",
+          "note": "看到 security 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "check",
+          "kk": "/check/",
+          "partOfSpeech": "n.",
+          "meaning": "查看",
+          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "checkpoint",
+          "kk": "/checkpoint/",
+          "partOfSpeech": "n.",
+          "meaning": "檢查站",
+          "note": "看到 checkpoint 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "I don't have a connecting flight.",
+          "tc": "我沒有轉機航班。"
+        },
+        {
+          "en": "I usually just sit relax and wait I eventually get through customs and immigration and if.",
+          "tc": "我通常只是放鬆地坐著，等待我最終通過海關和移民局。"
+        },
+        {
+          "en": "I have a checked bag or checked baggage.",
+          "tc": "我有一個托運行李或託運行李。"
+        },
+        {
+          "en": "I go to the luggage carousel where I look for my luggage.",
+          "tc": "我前往行李輸送帶尋找我的行李。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "check",
+          "kk": "/check/",
+          "partOfSpeech": "n.",
+          "meaning": "查看",
+          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -294,10 +578,26 @@
       "title": "A2 重點單字",
       "items": [
         {
+          "english": "seat",
+          "kk": "/seat/",
+          "partOfSpeech": "n.",
+          "meaning": "座位",
+          "note": "看到 seat 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "security",
+          "kk": "/security/",
+          "partOfSpeech": "n.",
+          "meaning": "安全",
+          "note": "看到 security 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "airport",
           "kk": "/ˈɛrˌpɔrt/",
           "partOfSpeech": "n.",
-          "meaning": "機場",
+          "meaning": "飛機場",
           "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -305,56 +605,40 @@
           "english": "check",
           "kk": "/check/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "查看",
           "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "security",
-          "kk": "/security/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 security 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "checkpoint",
           "kk": "/checkpoint/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "檢查站",
           "note": "看到 checkpoint 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "gate",
-          "kk": "/gate/",
+          "english": "don't",
+          "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 gate 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "metal",
-          "kk": "/metal/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 metal 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "always",
-          "kk": "/always/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 always 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "boarding",
+          "kk": "/boarding/",
+          "partOfSpeech": "v.",
+          "meaning": "登機",
+          "note": "看到 boarding 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -363,34 +647,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "Today I want to talk to you about some common conversations or words.",
-          "tc": "今天我想和大家聊一些常見的對話或單字。"
+          "en": "Welcome back to my slow English podcast a comprehensible and clear way of listening to English practice repeating any words you don't understand.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一種可以理解且清晰的方式來聽英語練習重複任何你不明白的單字。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "have to",
-      "meaning": "常用說法，可用來表達「have to」這個意思",
+      "phrase": "have you ever",
+      "meaning": "你有過嗎",
       "examples": [
         {
-          "en": "I get through the checkpoint I have to find my gate number usually my gate number is on my boarding pass but if it's not.",
-          "tc": "我通過檢查站時必須找到我的登機口號碼，通常我的登機口號碼在登機證上，但如果沒有的話。"
+          "en": "Have you ever had anything taken away from you at the security checkpoint?",
+          "tc": "你是否曾在安全檢查站被拿走任何東西？"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "try to",
-      "meaning": "常用說法，可用來表達「try to」這個意思",
+      "phrase": "want to",
+      "meaning": "想要",
       "examples": [
         {
-          "en": "First and try to listen without reading the subtitles.",
-          "tc": "首先嘗試在不看字幕的情況下聽。"
+          "en": "Today I want to talk to you about some common conversations or words you can use at the airport when I arrive at the airport I always make sure.",
+          "tc": "今天我想和大家談談一些在機場時可以使用的常見對話或單詞，當我到達機場時我總是確定。"
         }
       ]
     }
@@ -399,12 +683,12 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast a comprehensible and clear way of listening to English practice repeating any words you don't understand.",
-      "translation": "歡迎回到我的慢速英語播客，這是一​​種可以理解且清晰的方式來聽英語練習重複任何您不明白的單字。",
+      "translation": "歡迎回到我的慢速英語podcast，這是一種可以理解且清晰的方式來聽英語練習重複任何你不明白的單字。",
       "points": [
         {
-          "label": "welcome back clear",
-          "text": "welcome back clear",
-          "note": "注意 \"welcome back clear\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
@@ -414,16 +698,16 @@
       "translation": "首先嘗試在不看字幕的情況下聽。",
       "points": [
         {
-          "label": "try to",
-          "text": "try to",
-          "note": "注意 \"try to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "try listen without",
+          "text": "try listen without",
+          "note": "注意 \"try listen without\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
-      "sentence": "Today I want to talk to you about some common conversations or words.",
-      "translation": "今天我想和大家聊一些常見的對話或單字。",
+      "sentence": "Today I want to talk to you about some common conversations or words you can use at the airport when I arrive at the airport I always make sure.",
+      "translation": "今天我想和大家談談一些在機場時可以使用的常見對話或單詞，當我到達機場時我總是確定。",
       "points": [
         {
           "label": "want to",
@@ -434,13 +718,13 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "You can use at the airport when I arrive at the airport.",
-      "translation": "當我到達機場時，您可以在機場使用。",
+      "sentence": "I have my passport my boarding pass and all of my luggage those three things are essential to check.",
+      "translation": "我有護照、登機證和所有行李，這三樣東西是必須檢查的。",
       "points": [
         {
-          "label": "use airport arrive",
-          "text": "use airport arrive",
-          "note": "注意 \"use airport arrive\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "passport boarding pass",
+          "text": "passport boarding pass",
+          "note": "注意 \"passport boarding pass\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

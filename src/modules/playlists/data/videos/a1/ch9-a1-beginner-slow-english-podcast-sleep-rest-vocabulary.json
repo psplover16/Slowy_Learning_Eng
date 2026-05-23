@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=eQKkCYrlSrI",
   "header": {
     "podcastLabel": "MissHoney A1",
-    "titleZh": "A1 初級慢速英語播客 -- 睡眠與休息詞彙💤",
+    "titleZh": "A1 初級慢速英語podcast -- 睡眠與休息詞彙💤",
     "titleEn": "A1 BEGINNER Slow English Podcast -- SLEEP & REST Vocabulary💤",
     "levelTag": "A1",
     "topicTag": "daily routine"
@@ -20,19 +20,19 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "This podcast is for English beginner listeners for A1 to A2 listeners.",
-          "tc": "該播客適合 A1 至 A2 的英語初學者聽眾。"
+          "tc": "該podcast適合 A1 至 A2 的英語初學者聽眾。"
         },
         {
           "en": "Today I will be talking about sleep and rest.",
           "tc": "今天我要談談睡眠和休息。"
         },
         {
-          "en": "Today I woke up late not early but late.",
-          "tc": "今天我起床晚了，不是早，而是晚。"
+          "en": "Today I woke up late not early but late I woke up around 10 a.m.",
+          "tc": "今天我醒得很晚，不是很早，而是很晚，大約上午10點左右就醒了。"
         }
       ],
       "tags": [
@@ -40,7 +40,7 @@
           "english": "sleep",
           "kk": "/sleep/",
           "partOfSpeech": "v.",
-          "meaning": "日常作息相關的常用字",
+          "meaning": "睡覺",
           "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -48,16 +48,16 @@
           "english": "but",
           "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "但",
           "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "late",
-          "kk": "/late/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 late 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "early",
+          "kk": "/early/",
+          "partOfSpeech": "adv.",
+          "meaning": "早期的",
+          "note": "看到 early 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -69,20 +69,20 @@
       "titleEn": "Part 2: daily routine",
       "sentences": [
         {
-          "en": "I woke up around 10 a.m. I was so sleepy.",
-          "tc": "上午10點左右我就醒了，我實在是太睏了。"
+          "en": "I was so sleepy I went to bed last night around 11 p.m.",
+          "tc": "昨晚我太睏了，晚上 11 點左右就上床睡覺了。"
         },
         {
-          "en": "I went to bed last night around 11 p.m.",
-          "tc": "我昨晚 11 點左右上床睡覺。"
-        },
-        {
-          "en": "I woke up at 10 a.m. that means.",
+          "en": "I woke up at 10 a.m. That means.",
           "tc": "我早上 10 點就醒了，這意味著。"
         },
         {
           "en": "I had 11 hours of sleep last night.",
           "tc": "我昨晚睡了 11 個小時。"
+        },
+        {
+          "en": "I usually don't sleep that much but last night I was really tired.",
+          "tc": "我通常睡得不多，但昨晚我真的很累。"
         }
       ],
       "tags": [
@@ -90,7 +90,7 @@
           "english": "sleep",
           "kk": "/sleep/",
           "partOfSpeech": "v.",
-          "meaning": "日常作息相關的常用字",
+          "meaning": "睡覺",
           "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -98,30 +98,26 @@
           "english": "night",
           "kk": "/night/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "夜晚",
           "note": "看到 night 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "last",
-          "kk": "/last/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 last 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常作息",
-      "titleEn": "Part 3: daily routine",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
-        {
-          "en": "I usually don't sleep that much but last night I was really really tired.",
-          "tc": "我通常睡得不多，但昨晚我真的很累。"
-        },
         {
           "en": "I usually have a lot of energy.",
           "tc": "我通常精力充沛。"
@@ -131,8 +127,12 @@
           "tc": "我不需要太多睡眠，但最近可能是過去三天。"
         },
         {
-          "en": "I have been feeling very tired and sleepy.",
-          "tc": "我一直感到非常疲倦和困倦。"
+          "en": "I have been feeling very tired and sleepy I haven't had so much energy lately.",
+          "tc": "我最近感覺很累，很困，沒有那麼多精力。"
+        },
+        {
+          "en": "I take care of myself and I try to get as much rest as.",
+          "tc": "我照顧好自己，盡量多休息。"
         }
       ],
       "tags": [
@@ -140,49 +140,49 @@
           "english": "sleep",
           "kk": "/sleep/",
           "partOfSpeech": "v.",
-          "meaning": "日常作息相關的常用字",
+          "meaning": "睡覺",
           "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "night",
-          "kk": "/night/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 night 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "but",
           "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "但",
           "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段：日常作息",
+      "titleEn": "Part 4: daily routine",
       "sentences": [
         {
-          "en": "I haven't had so much energy lately.",
-          "tc": "我最近沒有那麼多精力。"
+          "en": "I can like one of my students said a good night sleep is only half the battle so as long as.",
+          "tc": "我可以像我的一位學生所說的那樣，只要睡個好覺就成功了一半。"
         },
         {
-          "en": "I take care of myself and I try to get as much rest as.",
-          "tc": "我照顧好自己，盡量多休息。"
+          "en": "I get a good night sleep.",
+          "tc": "我睡個好覺。"
         },
         {
-          "en": "I can like one of my students said a good night sleep is only half the battle.",
-          "tc": "我可以像我的一位學生所說的那樣，睡個好覺只是成功的一半。"
+          "en": "I think everything else will be perfect and luckily I could sleep in late this morning.",
+          "tc": "我認為其他一切都會很完美，幸運的是我今天早上可以睡得很晚。"
         },
         {
-          "en": "As long as.",
-          "tc": "只要。"
+          "en": "I didn't have any early morning lessons to teach I could sleep in late.",
+          "tc": "我沒有任何早課可教，我可以睡個懶覺。"
         }
       ],
       "tags": [
@@ -190,7 +190,7 @@
           "english": "sleep",
           "kk": "/sleep/",
           "partOfSpeech": "v.",
-          "meaning": "日常作息相關的常用字",
+          "meaning": "睡覺",
           "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -198,16 +198,16 @@
           "english": "night",
           "kk": "/night/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "夜晚",
           "note": "看到 night 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "late",
-          "kk": "/late/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 late 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "early",
+          "kk": "/early/",
+          "partOfSpeech": "adv.",
+          "meaning": "早期的",
+          "note": "看到 early 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -215,24 +215,24 @@
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常作息",
-      "titleEn": "Part 5: daily routine",
+      "titleZh": "第 5 段：工作與學習",
+      "titleEn": "Part 5: work",
       "sentences": [
         {
-          "en": "I get a good night sleep I think everything else will be perfect and luckily.",
-          "tc": "我睡了個好覺，我想其他一切都會很完美，很幸運。"
+          "en": "I didn't have work but otherwise.",
+          "tc": "我沒有工作，但除此之外。"
         },
         {
-          "en": "I could sleep in late this morning.",
-          "tc": "今天早上我可以睡得很晚。"
+          "en": "I normally get up at 8 a.m. To teach every morning and it's so frustrating.",
+          "tc": "我通常早上 8 點起床去上課，這真是令人沮喪。"
         },
         {
-          "en": "I didn't have any early morning lessons to teach.",
-          "tc": "我沒有任何早課可教。"
+          "en": "Sometimes to fall asleep.",
+          "tc": "有時為了睡覺。"
         },
         {
-          "en": "I could sleep in late because I didn't have work but otherwise.",
-          "tc": "我可以睡得很晚，因為我沒有工作，但除此之外。"
+          "en": "Sometimes it's difficult for me to fall asleep at night I just lay in bed and I wait and I wait but I can't fall asleep.",
+          "tc": "有時晚上我很難入睡，我只是躺在床上等啊等，但就是睡不著。"
         }
       ],
       "tags": [
@@ -240,7 +240,7 @@
           "english": "sleep",
           "kk": "/sleep/",
           "partOfSpeech": "v.",
-          "meaning": "日常作息相關的常用字",
+          "meaning": "睡覺",
           "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -248,7 +248,7 @@
           "english": "night",
           "kk": "/night/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "夜晚",
           "note": "看到 night 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -256,7 +256,7 @@
           "english": "but",
           "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "但",
           "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
@@ -265,24 +265,24 @@
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常作息",
-      "titleEn": "Part 6: daily routine",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "I normally get up at 8 a.m. to teach every morning and it's so frustrating.",
-          "tc": "我通常每天早上八點起床去上課，這真是令人沮喪。"
+          "en": "I have an early class.",
+          "tc": "我有早課。"
         },
         {
-          "en": "Sometimes to fall asleep.",
-          "tc": "有時為了睡覺。"
+          "en": "I have to wake up early.",
+          "tc": "我必須早起。"
         },
         {
-          "en": "Sometimes it's difficult for me to fall asleep at night.",
-          "tc": "有時我晚上很難入睡。"
+          "en": "I don't get my full 8 hours of sleep and without my 8 hours of sleep.",
+          "tc": "我沒有獲得完整的 8 小時睡眠，也沒有獲得 8 小時的睡眠。"
         },
         {
-          "en": "I just lay in bed and I wait.",
-          "tc": "我只是躺在床上等待。"
+          "en": "I can't function I can't go to the gym or teach my lessons or hang out with my friends if.",
+          "tc": "我無法正常工作，無法去健身房，無法上課，也無法與朋友一起出去玩。"
         }
       ],
       "tags": [
@@ -290,23 +290,23 @@
           "english": "sleep",
           "kk": "/sleep/",
           "partOfSpeech": "v.",
-          "meaning": "日常作息相關的常用字",
+          "meaning": "睡覺",
           "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "night",
-          "kk": "/night/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 night 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "english": "early",
+          "kk": "/early/",
+          "partOfSpeech": "adv.",
+          "meaning": "早期的",
+          "note": "看到 early 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "get",
           "kk": "/get/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "得到",
           "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -321,7 +321,7 @@
           "english": "sleep",
           "kk": "/sleep/",
           "partOfSpeech": "v.",
-          "meaning": "日常作息相關的常用字",
+          "meaning": "睡覺",
           "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -329,7 +329,7 @@
           "english": "night",
           "kk": "/night/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "夜晚",
           "note": "看到 night 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -337,48 +337,48 @@
           "english": "but",
           "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "但",
           "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "late",
-          "kk": "/late/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 late 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "much",
-          "kk": "/much/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 much 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "early",
+          "kk": "/early/",
+          "partOfSpeech": "adv.",
+          "meaning": "早期的",
+          "note": "看到 early 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "get",
           "kk": "/get/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "得到",
           "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "last",
-          "kk": "/last/",
+          "english": "late",
+          "kk": "/late/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 last 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "晚的",
+          "note": "看到 late 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "morning",
-          "kk": "/morning/",
-          "partOfSpeech": "v.",
-          "meaning": "日常作息相關的常用字",
-          "note": "看到 morning 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "asleep",
+          "kk": "/asleep/",
+          "partOfSpeech": "n.",
+          "meaning": "睡著了",
+          "note": "看到 asleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "can't",
+          "kk": "/can't/",
+          "partOfSpeech": "n.",
+          "meaning": "不能",
+          "note": "看到 can't 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -387,34 +387,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "need to",
-      "meaning": "常用說法，可用來表達「need to」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "I don't need too much sleep but lately maybe the past 3 days.",
-          "tc": "我不需要太多睡眠，但最近可能是過去三天。"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "try to",
-      "meaning": "常用說法，可用來表達「try to」這個意思",
+      "phrase": "have to",
+      "meaning": "必須",
       "examples": [
         {
-          "en": "I take care of myself and I try to get as much rest as.",
-          "tc": "我照顧好自己，盡量多休息。"
+          "en": "I have to wake up early.",
+          "tc": "我必須早起。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "i think",
-      "meaning": "常用說法，可用來表達「i think」這個意思",
+      "phrase": "need to",
+      "meaning": "需要",
       "examples": [
         {
-          "en": "I get a good night sleep I think everything else will be perfect and luckily.",
-          "tc": "我睡了個好覺，我想其他一切都會很完美，很幸運。"
+          "en": "I don't need too much sleep but lately maybe the past 3 days.",
+          "tc": "我不需要太多睡眠，但最近可能是過去三天。"
         }
       ]
     }
@@ -423,7 +423,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -435,7 +435,7 @@
     {
       "id": "breakdown-02",
       "sentence": "This podcast is for English beginner listeners for A1 to A2 listeners.",
-      "translation": "該播客適合 A1 至 A2 的英語初學者聽眾。",
+      "translation": "該podcast適合 A1 至 A2 的英語初學者聽眾。",
       "points": [
         {
           "label": "listeners listeners",
@@ -458,13 +458,13 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "Today I woke up late not early but late.",
-      "translation": "今天我起床晚了，不是早，而是晚。",
+      "sentence": "Today I woke up late not early but late I woke up around 10 a.m.",
+      "translation": "今天我醒得很晚，不是很早，而是很晚，大約上午10點左右就醒了。",
       "points": [
         {
-          "label": "woke late not",
-          "text": "woke late not",
-          "note": "注意 \"woke late not\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "woke late early",
+          "text": "woke late early",
+          "note": "注意 \"woke late early\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

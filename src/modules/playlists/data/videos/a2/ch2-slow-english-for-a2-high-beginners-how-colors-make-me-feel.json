@@ -20,19 +20,19 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "Today I will talk about colors.",
           "tc": "今天我要談談顏色。"
         },
         {
-          "en": "My favorite color is purple purple reminds me of the sky it reminds me of the sunset and the purple blue orange and red sky it also reminds me of my childhood.",
-          "tc": "我最喜歡的顏色是紫色，紫色讓我想起了天空，它讓我想起了日落，紫色、藍色、橙色和紅色的天空，它也讓我想起了我的童年。"
+          "en": "My favorite color is purple reminds me of the sky it reminds me of the sunset and the purple blue orange and red sky it also reminds me of my childhood my.",
+          "tc": "我最喜歡的顏色是紫色，它讓我想起了天空，它讓我想起了日落，紫色、藍色、橙色和紅色的天空，它也讓我想起了我的童年。"
         },
         {
-          "en": "My childhood bedroom had Tinkerbell bed sheets I had purple Tinker belt bed sheets and green Tinkerbell bed sheets.",
-          "tc": "我童年的臥室有小叮噹床單，我有紫色叮叮噹床單和綠色小叮噹床單。"
+          "en": "Childhood bedroom had Tinkerbell bed sheets.",
+          "tc": "童年的臥室裡有小叮噹床單。"
         }
       ],
       "tags": [
@@ -40,7 +40,7 @@
           "english": "color",
           "kk": "/color/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "顏色",
           "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -48,17 +48,17 @@
           "english": "colors",
           "kk": "/colors/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "顏色",
           "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "purple",
-          "kk": "/purple/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 purple 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "english": "red",
+          "kk": "/red/",
+          "partOfSpeech": "v.",
+          "meaning": "紅色的",
+          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -69,20 +69,20 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
+          "en": "I had purple Tinker belt bed sheets and green Tinkerbell bed sheets.",
+          "tc": "我有紫色的叮叮帶床單和綠色的叮叮鈴床單。"
+        },
+        {
           "en": "My favorite bed sheets as a kid I also always had purple clothes when I was younger I only ever wanted purple clothes.",
           "tc": "我小時候最喜歡的床單我也總是有紫色的衣服當我年輕的時候我只想要紫色的衣服。"
         },
         {
-          "en": "What is your favorite color what does it remind you of maybe a special memory or a special time now?",
-          "tc": "你最喜歡什麼顏色，它讓你想起什麼，也許是一段特別的記憶或一段特別的時光？"
+          "en": "What is your favorite color?",
+          "tc": "你最喜歡什麼顏色？"
         },
         {
-          "en": "I use a lot of light colored clothes light colors like white yellow orange light green.",
-          "tc": "我用了很多淺色的衣服，像是白色、黃色、橘色、淺綠色。"
-        },
-        {
-          "en": "I think my skin tone suits lighter colors what colors suit you best every color makes me feel different every color has a different vibe that's.",
-          "tc": "我認為我的膚色適合淺色，什麼顏色最適合你，每種顏色讓我感覺不同，每種顏色都有不同的氛圍。"
+          "en": "What does it remind you of maybe a special memory or a special time now I use a lot of light colored clothes light colors like white yellow orange light green?",
+          "tc": "它讓你想起什麼也許是一個特殊的記憶或一個特殊的時間現在我用了很多淺色的衣服淺色如白色黃色橙色淺綠色？"
         }
       ],
       "tags": [
@@ -90,7 +90,7 @@
           "english": "color",
           "kk": "/color/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "顏色",
           "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -98,16 +98,16 @@
           "english": "colors",
           "kk": "/colors/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "顏色",
           "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "purple",
-          "kk": "/purple/",
+          "english": "green",
+          "kk": "/green/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 purple 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "綠色的",
+          "note": "看到 green 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -119,20 +119,20 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "I feel my best when I'm wearing light clothing.",
-          "tc": "當我穿著輕便的衣服時，我感覺最好。"
+          "en": "I think my skin tone suits lighter colors what colors suit you best every color makes me feel different every color has a different vibe.",
+          "tc": "我認為我的膚色適合淺色，什麼顏色最適合你，每種顏色讓我感覺不同，每種顏色都有不同的氛圍。"
+        },
+        {
+          "en": "I'm wearing light clothing.",
+          "tc": "我穿著輕便的衣服。"
         },
         {
           "en": "They make me feel happier.",
           "tc": "他們讓我感覺更快樂。"
         },
         {
-          "en": "Sometimes less stressed whenever I see someone wearing Red Clothing I think to myself wow.",
-          "tc": "有時候，每當我看到有人穿著紅色衣服時，我就會想，哇，壓力減輕了。"
-        },
-        {
-          "en": "He is very confident because I think the color red is a very confident color.",
-          "tc": "他非常有自信，因為我認為紅色是一種非常自信的顏色。"
+          "en": "Sometimes less stressed whenever I see someone wearing Red Clothing.",
+          "tc": "有時，每當我看到有人穿著紅色衣服時，我的壓力就會減輕。"
         }
       ],
       "tags": [
@@ -140,24 +140,24 @@
           "english": "color",
           "kk": "/color/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "顏色",
           "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "colors",
+          "kk": "/colors/",
+          "partOfSpeech": "n.",
+          "meaning": "顏色",
+          "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "red",
           "kk": "/red/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "紅色的",
           "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -169,20 +169,20 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "I don't know what it is about the color red that is so intense and Powerful it makes any person who wears it stand out.",
-          "tc": "我不知道紅色為何如此強烈和強大，讓任何穿著它的人脫穎而出。"
+          "en": "I think to myself wow.",
+          "tc": "我心裡想哇。"
         },
         {
-          "en": "They stand out in a crowd.",
-          "tc": "他們在人群中脫穎而出。"
+          "en": "He is very confident.",
+          "tc": "他非常有信心。"
         },
         {
-          "en": "I like to wear red.",
-          "tc": "我喜歡穿紅色。"
+          "en": "I think the color red is a very confident color.",
+          "tc": "我認為紅色是一種非常自信的顏色。"
         },
         {
-          "en": "I couldn't bear to live with red walls around me I think it would make me feel overwhelmed and stressed it is too much red blue however is a calming color blue.",
-          "tc": "我無法忍受周圍有紅牆，我認為這會讓我感到不知所措和壓力，紅藍色太多了，但藍色是一種平靜的顏色。"
+          "en": "It is about the color red that is so intense and Powerful it makes any person who wears it stand out.",
+          "tc": "紅色是如此強烈和強大，讓任何穿著它的人脫穎而出。"
         }
       ],
       "tags": [
@@ -190,7 +190,7 @@
           "english": "color",
           "kk": "/color/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "顏色",
           "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -198,16 +198,16 @@
           "english": "red",
           "kk": "/red/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "紅色的",
           "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "feel",
-          "kk": "/feel/",
+          "english": "think",
+          "kk": "/think/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -219,8 +219,62 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "Walls around me make me feel peaceful and calm.",
-          "tc": "我周圍的牆壁讓我感到平靜和平靜。"
+          "en": "They stand out in a crowd.",
+          "tc": "他們在人群中脫穎而出。"
+        },
+        {
+          "en": "They just seem interesting.",
+          "tc": "他們只是看起來很有趣。"
+        },
+        {
+          "en": "I like to wear red.",
+          "tc": "我喜歡穿紅色。"
+        },
+        {
+          "en": "I want to seem interesting to what's a color you think stands out something that draws the eye in but I couldn't bear to live with red walls around me.",
+          "tc": "我想讓你覺得什麼顏色很有趣，什麼顏色很引人注目，但我無法忍受周圍都是紅牆。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "color",
+          "kk": "/color/",
+          "partOfSpeech": "n.",
+          "meaning": "顏色",
+          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "red",
+          "kk": "/red/",
+          "partOfSpeech": "v.",
+          "meaning": "紅色的",
+          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
+      "sentences": [
+        {
+          "en": "I think it would make me feel overwhelmed and stressed.",
+          "tc": "我想這會讓我感到不知所措和壓力。"
+        },
+        {
+          "en": "It is too much red blue however is a calming color blue walls around me make me feel peaceful and calm.",
+          "tc": "雖然紅藍色太多了，但我周圍的藍色牆壁是一種平靜的顏色，讓我感到平靜和平靜。"
         },
         {
           "en": "Do you agree or disagree?",
@@ -229,10 +283,6 @@
         {
           "en": "If you disagree.",
           "tc": "如果你不同意。"
-        },
-        {
-          "en": "What do you think is a calming color I personally love the combination of purple with orange it reminds me of the sunset those two colors work together so well?",
-          "tc": "你認為什麼是一種平靜的顏色？我個人喜歡紫色和橙色的組合，它讓我想起日落，這兩種顏色搭配得很好？"
         }
       ],
       "tags": [
@@ -240,74 +290,224 @@
           "english": "color",
           "kk": "/color/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "顏色",
           "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "colors",
-          "kk": "/colors/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "purple",
-          "kk": "/purple/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 purple 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
-    },
-    {
-      "id": "scene-06",
-      "no": "06",
-      "titleZh": "第 6 段：工作與學習",
-      "titleEn": "Part 6: work",
-      "sentences": [
-        {
-          "en": "What are two colors you think work together very very well I have always Associated the color green with trees grass and beautiful landscapes like mountains rainforests Farms?",
-          "tc": "您認為哪兩種顏色可以很好地搭配在一起？我一直將綠色與樹木、草地和美麗的風景（如山脈、雨林、農場）聯繫在一起？"
-        },
-        {
-          "en": "I love seeing huge Landscapes like Farms.",
-          "tc": "我喜歡看到像農場這樣的巨大景觀。"
-        },
-        {
-          "en": "I like Farms because my grandpa has a farm.",
-          "tc": "我喜歡農場，因為我的爺爺有個農場。"
-        },
-        {
-          "en": "He has a huge Farm in Nebraska it is green as far as the eye can see no matter.",
-          "tc": "他在內布拉斯加州有一個巨大的農場，無論如何，它都是綠色的。"
-        }
-      ],
-      "tags": [
-        {
-          "english": "color",
-          "kk": "/color/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "colors",
-          "kk": "/colors/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "english": "red",
+          "kk": "/red/",
+          "partOfSpeech": "v.",
+          "meaning": "紅色的",
+          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "think",
           "kk": "/think/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "思考",
           "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：工作與學習",
+      "titleEn": "Part 7: work",
+      "sentences": [
+        {
+          "en": "What do you think is a calming color I personally love the combination of purple with orange it reminds me of the sunset those two colors work together so well?",
+          "tc": "你認為什麼是一種平靜的顏色？我個人喜歡紫色和橙色的組合，它讓我想起日落，這兩種顏色搭配得很好？"
+        },
+        {
+          "en": "What are two colors you think work together very well?",
+          "tc": "你認為哪兩種顏色搭配得很好？"
+        },
+        {
+          "en": "I have always Associated the color green with trees grass and beautiful landscapes like mountains rainforests Farms.",
+          "tc": "我一直將綠色與樹木、草地和美麗的風景（如山脈、雨林、農場）連結在一起。"
+        },
+        {
+          "en": "I love seeing huge Landscapes like Farms.",
+          "tc": "我喜歡看到像農場這樣的巨大景觀。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "color",
+          "kk": "/color/",
+          "partOfSpeech": "n.",
+          "meaning": "顏色",
+          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "colors",
+          "kk": "/colors/",
+          "partOfSpeech": "n.",
+          "meaning": "顏色",
+          "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "green",
+          "kk": "/green/",
+          "partOfSpeech": "n.",
+          "meaning": "綠色的",
+          "note": "看到 green 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "I like Farms because my grandpa has a farm.",
+          "tc": "我喜歡農場，因為我的爺爺有個農場。"
+        },
+        {
+          "en": "He has a huge Farm in Nebraska.",
+          "tc": "他在內布拉斯加州擁有一個巨大的農場。"
+        },
+        {
+          "en": "It is green as far as the eye can see no matter where you turn you will see green and more green and more green as far as the eye can see.",
+          "tc": "目之所及都是綠色的，無論你轉向哪裡，你都會看到綠色，而且越綠越綠。"
+        },
+        {
+          "en": "Do you associate the color green with anything?",
+          "tc": "你會將綠色與任何事物連結嗎？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "color",
+          "kk": "/color/",
+          "partOfSpeech": "n.",
+          "meaning": "顏色",
+          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "green",
+          "kk": "/green/",
+          "partOfSpeech": "n.",
+          "meaning": "綠色的",
+          "note": "看到 green 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "see",
+          "kk": "/see/",
+          "partOfSpeech": "n.",
+          "meaning": "看",
+          "note": "看到 see 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "What does the color green remind you of I can't imagine my life without colors?",
+          "tc": "綠色讓你想起什麼？我無法想像沒有顏色的生活？"
+        },
+        {
+          "en": "I need colors in my life a place I could never live in is England I could not live in England.",
+          "tc": "我的生活需要色彩，一個我永遠無法居住的地方是英格蘭，我無法住在英格蘭。"
+        },
+        {
+          "en": "It is too gray it feels colorless.",
+          "tc": "太灰了，感覺無色。"
+        },
+        {
+          "en": "I need the sun.",
+          "tc": "我需要陽光。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "color",
+          "kk": "/color/",
+          "partOfSpeech": "n.",
+          "meaning": "顏色",
+          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "colors",
+          "kk": "/colors/",
+          "partOfSpeech": "n.",
+          "meaning": "顏色",
+          "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "green",
+          "kk": "/green/",
+          "partOfSpeech": "n.",
+          "meaning": "綠色的",
+          "note": "看到 green 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "I need that glowing and bright Sun when I was in England.",
+          "tc": "當我在英國的時候，我需要那燦爛的陽光。"
+        },
+        {
+          "en": "I used to get so sad and I was so tired all the time.",
+          "tc": "我曾經很傷心，也一直很累。"
+        },
+        {
+          "en": "I needed the Sun how important is color to you could you live in a country that was very gray all the time.",
+          "tc": "我需要太陽，如果你生活在一個一直都是灰色的國家，顏色對你來說有多重要。"
+        },
+        {
+          "en": "Tell me about it in the comments practice saying your answers out loud and writing them for me to see your improvement I'll see you in the comments bye.",
+          "tc": "在評論練習中告訴我，大聲說出你的答案並寫下來讓我看看你的進步，我們會在評論中見到你，再見。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "color",
+          "kk": "/color/",
+          "partOfSpeech": "n.",
+          "meaning": "顏色",
+          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "red",
+          "kk": "/red/",
+          "partOfSpeech": "v.",
+          "meaning": "紅色的",
+          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "see",
+          "kk": "/see/",
+          "partOfSpeech": "n.",
+          "meaning": "看",
+          "note": "看到 see 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -321,7 +521,7 @@
           "english": "color",
           "kk": "/color/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "顏色",
           "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -329,56 +529,56 @@
           "english": "colors",
           "kk": "/colors/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "顏色",
           "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "purple",
-          "kk": "/purple/",
+          "english": "green",
+          "kk": "/green/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 purple 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "綠色的",
+          "note": "看到 green 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "red",
           "kk": "/red/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "紅色的",
           "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "think",
           "kk": "/think/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "思考",
           "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "bed",
-          "kk": "/bed/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 bed 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "purple",
+          "kk": "/purple/",
+          "partOfSpeech": "n.",
+          "meaning": "紫色的",
+          "note": "看到 purple 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "green",
-          "kk": "/green/",
+          "english": "see",
+          "kk": "/see/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 green 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "看",
+          "note": "看到 see 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -387,8 +587,19 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "what do you",
-      "meaning": "你會怎麼...",
+      "meaning": "你是什麼",
       "examples": [
         {
           "en": "What do you think is a calming color I personally love the combination of purple with orange it reminds me of the sunset those two colors work together so well?",
@@ -397,24 +608,13 @@
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "talk about",
-      "meaning": "談論",
-      "examples": [
-        {
-          "en": "Today I will talk about colors.",
-          "tc": "今天我要談談顏色。"
-        }
-      ]
-    },
-    {
       "id": "phrase-03",
-      "phrase": "i think",
-      "meaning": "常用說法，可用來表達「i think」這個意思",
+      "phrase": "what does",
+      "meaning": "什麼是",
       "examples": [
         {
-          "en": "I think my skin tone suits lighter colors what colors suit you best every color makes me feel different every color has a different vibe that's.",
-          "tc": "我認為我的膚色適合淺色，什麼顏色最適合你，每種顏色讓我感覺不同，每種顏色都有不同的氛圍。"
+          "en": "What does it remind you of maybe a special memory or a special time now I use a lot of light colored clothes light colors like white yellow orange light green?",
+          "tc": "它讓你想起什麼也許是一個特殊的記憶或一個特殊的時間現在我用了很多淺色的衣服淺色如白色黃色橙色淺綠色？"
         }
       ]
     }
@@ -423,7 +623,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -438,16 +638,16 @@
       "translation": "今天我要談談顏色。",
       "points": [
         {
-          "label": "talk about",
-          "text": "talk about",
-          "note": "注意 \"talk about\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "talk colors",
+          "text": "talk colors",
+          "note": "注意 \"talk colors\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
-      "sentence": "My favorite color is purple purple reminds me of the sky it reminds me of the sunset and the purple blue orange and red sky it also reminds me of my childhood.",
-      "translation": "我最喜歡的顏色是紫色，紫色讓我想起了天空，它讓我想起了日落，紫色、藍色、橙色和紅色的天空，它也讓我想起了我的童年。",
+      "sentence": "My favorite color is purple reminds me of the sky it reminds me of the sunset and the purple blue orange and red sky it also reminds me of my childhood my.",
+      "translation": "我最喜歡的顏色是紫色，它讓我想起了天空，它讓我想起了日落，紫色、藍色、橙色和紅色的天空，它也讓我想起了我的童年。",
       "points": [
         {
           "label": "favorite color purple",
@@ -458,8 +658,8 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "My childhood bedroom had Tinkerbell bed sheets I had purple Tinker belt bed sheets and green Tinkerbell bed sheets.",
-      "translation": "我童年的臥室有小叮噹床單，我有紫色叮叮噹床單和綠色小叮噹床單。",
+      "sentence": "Childhood bedroom had Tinkerbell bed sheets.",
+      "translation": "童年的臥室裡有小叮噹床單。",
       "points": [
         {
           "label": "childhood bedroom tinkerbell",

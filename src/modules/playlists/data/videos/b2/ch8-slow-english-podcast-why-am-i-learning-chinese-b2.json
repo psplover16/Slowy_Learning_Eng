@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=w3UEzUdFzSs",
   "header": {
     "podcastLabel": "MissHoney B2",
-    "titleZh": "慢速英文播客 - 我為什麼要學中文？ B2+",
+    "titleZh": "慢速英文podcast - 我為什麼要學中文？ B2+",
     "titleEn": "Slow English Podcast - Why am I learning Chinese? B2+",
     "levelTag": "B2",
     "topicTag": "language"
@@ -20,19 +20,19 @@
       "sentences": [
         {
           "en": "Welcome back to my Slow English podcast. Why am I learning Chinese?",
-          "tc": "歡迎回到我的慢速英語播客。我為什麼要學中文？"
+          "tc": "歡迎回到我的慢速英語podcast。我為什麼要學中文？"
         },
         {
-          "en": "This podcast is for you to practice your English listening while being engaged in real life stories about me. I've been learning Chinese for four years now. On and off. for 4.",
-          "tc": "這個播客旨在讓您一邊練習英語聽力，一邊聆聽有關我的真實故事。我學中文已經四年了。打開和關閉。 4."
+          "en": "This podcast is for you to practice your English listening while being engaged in real life stories about me.",
+          "tc": "這個podcast旨在讓你一邊練習英語聽力，一邊聆聽有關我的真實故事。"
+        },
+        {
+          "en": "I've been learning Chinese for four years now. On and off. For 4 years.",
+          "tc": "我學中文已經四年了。打開和關閉。 4年了。"
         },
         {
           "en": "I get lazy.",
           "tc": "我變懶了。"
-        },
-        {
-          "en": "The same for me.",
-          "tc": "對我來說也是一樣。"
         }
       ],
       "tags": [
@@ -40,9 +40,17 @@
           "english": "chinese",
           "kk": "/chinese/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "中國人",
           "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "years",
+          "kk": "/years/",
+          "partOfSpeech": "n.",
+          "meaning": "年",
+          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -53,20 +61,20 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
+          "en": "I'm sure you know how hard.",
+          "tc": "我相信你知道有多難。"
+        },
+        {
+          "en": "It is to find motivation every day to study a new language, to sit down and read or write or take a lesson. And it's the same for me.",
+          "tc": "它是每天尋找學習新語言的動力，坐下來閱讀、寫作或上課。對我來說也是一樣。"
+        },
+        {
           "en": "I get really lazy and unmotivated to study Chinese.",
           "tc": "我真的很懶，沒有動力學習中文。"
         },
         {
           "en": "Sometimes. And that was actually a huge inspiration for me to start with my slow English podcast.",
-          "tc": "有時。這實際上對我開始我的慢速英語播客來說是一個巨大的啟發。"
-        },
-        {
-          "en": "I found a YouTube channel. I found a YouTube channel who told slow Chinese stories. Her channel is called Lazy Chinese.",
-          "tc": "我找到了一個 YouTube 頻道。我找到了一個 YouTube 頻道，講的是慢節奏的中國故事。她的頻道叫「懶惰中文」。"
-        },
-        {
-          "en": "She uses comprehensible input, but it was the.",
-          "tc": "她使用可理解的輸入，但事實就是如此。"
+          "tc": "有時。這實際上對我開始我的慢速英語podcast來說是一個巨大的啟發。"
         }
       ],
       "tags": [
@@ -74,49 +82,49 @@
           "english": "chinese",
           "kk": "/chinese/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "中國人",
           "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "actually",
-          "kk": "/actually/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 actually 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "time",
-          "kk": "/time/",
+          "english": "new",
+          "kk": "/new/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：語言學習",
-      "titleEn": "Part 3: language",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "First time that I actually felt excited. excited because I understood the language.",
-          "tc": "我第一次真正感到興奮。很興奮，因為我聽懂了這種語言。"
+          "en": "I found a YouTube channel. I found a YouTube channel who told slow Chinese stories. Her channel is called Lazy Chinese.",
+          "tc": "我找到了一個 YouTube 頻道。我找到了一個 YouTube 頻道，講的是慢節奏的中國故事。她的頻道叫「懶惰中文」。"
         },
         {
-          "en": "I had been practicing for four years and it was so easy to understand and without even trying.",
-          "tc": "我已經練習了四年，它是如此容易理解，甚至不需要嘗試。"
+          "en": "She uses comprehensible input,.",
+          "tc": "她使用可理解的輸入。"
         },
         {
-          "en": "I was learning so many new words and practicing so many new grammar structures just by listening and looking at her slow hand gestures and facial gestures.",
-          "tc": "僅透過聽和看她緩慢的手勢和臉部表情，我就學習了很多新單字並練習了很多新語法結構。"
+          "en": "The first time that I actually felt excited. Because I understood the language.",
+          "tc": "我第一次真正感到興奮。因為我聽懂了語言。"
         },
         {
-          "en": "I was so inspired to continue studying Chinese because it was the.",
-          "tc": "我很受鼓舞繼續學習中文，因為它是。"
+          "en": "I had been practicing for four years.",
+          "tc": "我已經練習四年了。"
         }
       ],
       "tags": [
@@ -124,49 +132,49 @@
           "english": "chinese",
           "kk": "/chinese/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "中國人",
           "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "actually",
-          "kk": "/actually/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 actually 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "understand",
-          "kk": "/understand/",
+          "english": "years",
+          "kk": "/years/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "年",
+          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段：語言學習",
+      "titleEn": "Part 4: language",
       "sentences": [
         {
-          "en": "First time I actually understood Chinese.",
+          "en": "It was so easy to understand and without even trying. I was learning so many new words and practicing so many new grammar structures just by listening and looking at her slow.",
+          "tc": "它是如此容易理解，甚至無需嘗試。光是慢慢地聽和看她，我就學會了很多新單詞，練習了很多新的文法結構。"
+        },
+        {
+          "en": "Hand gestures and facial gestures. I was so inspired to continue studying Chinese.",
+          "tc": "手勢和臉部表情。我深受啟發，決定繼續學習中文。"
+        },
+        {
+          "en": "The first time I actually understood Chinese.",
           "tc": "我第一次真正聽懂中文。"
         },
         {
-          "en": "She was speaking so slow. The.",
-          "tc": "她說得很慢。這。"
-        },
-        {
-          "en": "First time after 4 years of studying, practicing, listening, I.",
-          "tc": "經過四年的學習、練習、傾聽，我第一次。"
-        },
-        {
-          "en": "Finally felt progress and achievement. And when you don't feel progress or achievement,.",
-          "tc": "終於感受到了進步和成就。當你感覺不到進步或成就。"
+          "en": "She was speaking so slow.",
+          "tc": "她說得很慢。"
         }
       ],
       "tags": [
@@ -174,24 +182,24 @@
           "english": "chinese",
           "kk": "/chinese/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "中國人",
           "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "actually",
-          "kk": "/actually/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 actually 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "understand",
+          "kk": "/understand/",
+          "partOfSpeech": "n.",
+          "meaning": "理解",
+          "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -203,45 +211,45 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
+          "en": "The first time after 4 years of studying, practicing, listening,.",
+          "tc": "經過四年的學習、練習、聆聽，這是第一次。"
+        },
+        {
+          "en": "Finally felt progress and achievement. And when you don't feel progress or achievement,.",
+          "tc": "終於感受到了進步和成就。當你感覺不到進步或成就。"
+        },
+        {
           "en": "When you don't feel like you're improving at something, it's hard to keep giving your best at improving. It's hard to give your 100%?",
           "tc": "當你感覺自己在某件事上沒有進步時，就很難繼續盡最大努力去進步。付出100%很難嗎？"
         },
         {
           "en": "I thought how many students especially my own students feel the same way feel like.",
           "tc": "我想有多少學生尤其是我自己的學生有同樣的感覺。"
-        },
-        {
-          "en": "They don't understand English.",
-          "tc": "他們聽不懂英語。"
-        },
-        {
-          "en": "They never will only because it takes a long time to see progress in the real world, but in a slow demonstrated way. So many people would realize that.",
-          "tc": "他們永遠不會這樣做，只是因為在現實世界中需要很長時間才能看到進展，而且是以一種緩慢的展示方式。很多人都會意識到這一點。"
         }
       ],
       "tags": [
         {
-          "english": "understand",
-          "kk": "/understand/",
+          "english": "don't",
+          "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "feel",
           "kk": "/feel/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "感覺",
           "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "many",
-          "kk": "/many/",
+          "english": "years",
+          "kk": "/years/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 many 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "年",
+          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -253,38 +261,496 @@
       "titleEn": "Part 6: language",
       "sentences": [
         {
+          "en": "They don't understand English.",
+          "tc": "他們聽不懂英語。"
+        },
+        {
+          "en": "They never will only because it takes a long time to see progress in the real world, but in a slow demonstrated way. So many people would realize that.",
+          "tc": "他們永遠不會這樣做，只是因為在現實世界中需要很長時間才能看到進展，而且是以一種緩慢的展示方式。很多人都會意識到這一點。"
+        },
+        {
           "en": "They actually do understand English.",
           "tc": "他們實際上確實懂英語。"
         },
         {
           "en": "They actually understand much more than.",
           "tc": "他們其實了解的遠不止這些。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "understand",
+          "kk": "/understand/",
+          "partOfSpeech": "n.",
+          "meaning": "理解",
+          "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
         {
           "en": "They think. So, I decided one day to make a video, specifically a Tik Tok,.",
           "tc": "他們認為。所以，我決定有一天製作一個視頻，特別是 Tik Tok。"
         },
         {
-          "en": "Where I spoke slowly and I made lots of hand gestures at a speed that anyone could understand using hand gesture. ers in a way?",
+          "en": "Where I spoke slowly and I made lots of hand gestures at a speed that anyone could understand using hand gesture. Ers in a way?",
           "tc": "我說話很慢，以任何人都能理解的速度做了很多手勢。某種程度上？"
+        },
+        {
+          "en": "Where you could understand even?",
+          "tc": "哪裡還能聽懂？"
+        },
+        {
+          "en": "If you had never studied English because body language speaks much louder than words. The video did amazing. Everyone felt exactly how I imagined.",
+          "tc": "如果你從未學過英語，因為肢體語言比語言更有效。影片效果驚人。大家的感覺和我想像的一模一樣。"
         }
       ],
       "tags": [
         {
-          "english": "actually",
-          "kk": "/actually/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 actually 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "understand",
           "kk": "/understand/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "理解",
           "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "every",
+          "kk": "/every/",
+          "partOfSpeech": "n.",
+          "meaning": "每一個",
+          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "They would feel and my Tik Tok went viral.",
+          "tc": "他們會感覺到，我的 Tik Tok 就火了。"
+        },
+        {
+          "en": "Next day, I woke up to my phone going crazy, and I knew.",
+          "tc": "第二天，我醒來發現我的手機發瘋了，我知道。"
+        },
+        {
+          "en": "I had to make more videos. Longer, shorter, on YouTube, on Tik Tok, as many as I could make. Now, here.",
+          "tc": "我必須製作更多影片。更長、更短，在 YouTube、Tik Tok 上，盡我所能。現在，這裡。"
+        },
+        {
+          "en": "We are today,.",
+          "tc": "我們今天，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：語言學習",
+      "titleEn": "Part 9: language",
+      "sentences": [
+        {
+          "en": "I'm still trying to come up with creative ideas every day to find new ways for you to understand and speak English with confidence. The only thing that matters. My dad,.",
+          "tc": "我仍然每天都在努力提出創造性的想法，以找到讓你自信地理解和說英語的新方法。唯一重要的事情。我的爸爸，。"
+        },
+        {
+          "en": "He was 17 years old,.",
+          "tc": "那年他17歲，。"
+        },
+        {
+          "en": "He didn't know a lick of English.",
+          "tc": "他不懂一點英語。"
+        },
+        {
+          "en": "He would just walk around with his dictionary and speak, order food, buy groceries, ask for directions.",
+          "tc": "他只是拿著字典走來走去，說話，點菜，買雜貨，問路。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "understand",
+          "kk": "/understand/",
+          "partOfSpeech": "n.",
+          "meaning": "理解",
+          "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "every",
+          "kk": "/every/",
+          "partOfSpeech": "n.",
+          "meaning": "每一個",
+          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "He had no other option.",
+          "tc": "他別無選擇。"
+        },
+        {
+          "en": "He arrived in the US,.",
+          "tc": "他到達美國，。"
+        },
+        {
+          "en": "I got mine. When you truly believe something, no matter how absurd it could be at the moment,.",
+          "tc": "我得到了我的。當你真正相信某件事時，無論當時它有多荒謬。"
+        },
+        {
+          "en": "I am learning Chinese, a lot of people ask me why I decided to learn Chinese. And to be honest, my sister was the one to inspire me.",
+          "tc": "我正在學習中文，很多人問我為什麼決定要學中文。說實話，我的姐姐是激勵我的人。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "chinese",
+          "kk": "/chinese/",
+          "partOfSpeech": "n.",
+          "meaning": "中國人",
+          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "She used to be obsessed with learning Chinese. And all.",
+          "tc": "她曾經迷戀學習中文。還有所有。"
+        },
+        {
+          "en": "She did was study and practice Chinese.",
+          "tc": "她所做的就是學習和練習中文。"
+        },
+        {
+          "en": "We got to talking and I was overwhelmed with the same desire to go to China someday.",
+          "tc": "我們開始交談，我同樣渴望有一天能去中國。"
+        },
+        {
+          "en": "I also loved the complexity of Mandarin and how challenging it would be to learn it. Has no similarities whatsoever.",
+          "tc": "我也喜歡普通話的複雜性以及學習它的挑戰性。沒有任何相似之處。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "chinese",
+          "kk": "/chinese/",
+          "partOfSpeech": "n.",
+          "meaning": "中國人",
+          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：語言學習",
+      "titleEn": "Part 12: language",
+      "sentences": [
+        {
+          "en": "I can't imagine learning a language with no similarities whatsoever between each other. Imagine if.",
+          "tc": "我無法想像學習一種彼此之間沒有任何相似之處的語言。想象一下如果。"
+        },
+        {
+          "en": "I have been learning Chinese for 4 years and I can barely form a full sentence. And Chinese people are learning English the same way. It's very difficult.",
+          "tc": "我學中文已經四年了，我幾乎不能說出一個完整的句子。中国人也在以同样的方式学习英语。這是非常困難的。"
+        },
+        {
+          "en": "I also loved the idea of being an English, Spanish, and Mandarin teacher. That would be a dream for me.",
+          "tc": "我也喜歡成為英語、西班牙語和普通話老師的想法。这对我来说是一个梦想。"
+        },
+        {
+          "en": "I watched every video of anyone who had successfully learned Mandarin.",
+          "tc": "我看過所有成功學會普通話的人的影片。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "chinese",
+          "kk": "/chinese/",
+          "partOfSpeech": "n.",
+          "meaning": "中國人",
+          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "every",
+          "kk": "/every/",
+          "partOfSpeech": "n.",
+          "meaning": "每一個",
+          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "I even started taking Chinese classes online.",
+          "tc": "我甚至開始在網路上上漢語課。"
+        },
+        {
+          "en": "I had a great teacher.",
+          "tc": "我有一位很棒的老師。"
+        },
+        {
+          "en": "She was so patient.",
+          "tc": "她真是太有耐心了。"
+        },
+        {
+          "en": "She was always able to turn a casual conversation into a grammar lesson.",
+          "tc": "她總是能把一次隨意的談話變成一堂文法課。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "chinese",
+          "kk": "/chinese/",
+          "partOfSpeech": "n.",
+          "meaning": "中國人",
+          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：語言學習",
+      "titleEn": "Part 14: language",
+      "sentences": [
+        {
+          "en": "Where I learned new words, new grammar structures, and I never felt burnt out or frustrated?",
+          "tc": "我在哪裡學習了新單字、新文法結構，而且我從未感到精疲力竭或沮喪？"
+        },
+        {
+          "en": "After a lesson. I always felt energized and inspired to continue learning Chinese.",
+          "tc": "一堂課後。我總是感到充滿活力和靈感，繼續學習中文。"
+        },
+        {
+          "en": "I used to teach English online.",
+          "tc": "我曾經在網路上教英文。"
+        },
+        {
+          "en": "I've been inspired by many teachers in my life. My parents included, my mom and dad have to be the most dedicated and hardworking teachers. My mom was born to be.",
+          "tc": "我一生中受到許多老師的啟發。包括我的父母，我的爸爸媽媽一定是最敬業、最勤奮的老師。我媽媽生來就是這樣。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "chinese",
+          "kk": "/chinese/",
+          "partOfSpeech": "n.",
+          "meaning": "中國人",
+          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "She is patient and graceful.",
+          "tc": "她耐心而優雅。"
+        },
+        {
+          "en": "She's always willing to help without rushing or judging you and thoughtful in all of her lessons. You can feel the care.",
+          "tc": "她總是願意提供幫助，不會匆忙或評判你，並且在她的所有課程中都很周到。你能感受到關懷。"
+        },
+        {
+          "en": "She puts into every lesson. My dad's students always have the highest scores and the kids love him.",
+          "tc": "她投入每一堂課。我爸爸的學生總是成績最高，孩子們都很喜歡他。"
+        },
+        {
+          "en": "They both put so much work into teaching kids. And I know firsthand that teaching kids is a challenge. It's hard to make a lesson entertaining, educational, and memorable, but my mom.",
+          "tc": "他們都在教育孩子上付出了很多努力。我親身體會到，教孩子是一項挑戰。要讓一堂課變得有趣、有教育意義、令人難忘是很困難的，但我媽媽。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "every",
+          "kk": "/every/",
+          "partOfSpeech": "n.",
+          "meaning": "每一個",
+          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：工作與學習",
+      "titleEn": "Part 16: work",
+      "sentences": [
+        {
+          "en": "And my dad both work very hard to do just that. That's.",
+          "tc": "我的父親都非常努力地做到這一點。就是這樣。"
+        },
+        {
+          "en": "Where my passion for teaching comes from. All in all, you don't have to end up living in a place?",
+          "tc": "我对教学的热情来自哪里。總而言之，你不必最終住在一個地方嗎？"
+        },
+        {
+          "en": "They speak that language to learn that language. Because at the end of the day, the journey of learning a language is the most important part. Learn for you. Enjoy the journey.",
+          "tc": "他們說這種語言是為了學習那種語言。因為歸根究底，學習語言的旅程才是最重要的部分。為你學習。享受旅程。"
+        },
+        {
+          "en": "Savor every new word you manage to remember. Relish in every win. It's a privilege to learn. Don't take it for granted.",
+          "tc": "細細品味你記得的每一個新單字。享受每一次勝利。學習是一種榮幸。不要認為這是理所當然的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段：語言學習",
+      "titleEn": "Part 17: language",
+      "sentences": [
+        {
+          "en": "Thank you for joining Miss Honey's class. I hope you enjoyed this chat with me and don't forget to subscribe for more English practice and like this video for more chats like.",
+          "tc": "感謝你參加Honey小姐的課程。我希望你喜歡與我的這次聊天，並且不要忘記訂閱更多英語練習並喜歡這個視頻以獲取更多聊天。"
+        },
+        {
+          "en": "These. See you.",
+          "tc": "這些。再見。"
+        },
+        {
+          "en": "Next time. Bye.",
+          "tc": "下次。再見。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     }
@@ -297,64 +763,64 @@
           "english": "chinese",
           "kk": "/chinese/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "中國人",
           "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "actually",
-          "kk": "/actually/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 actually 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "understand",
           "kk": "/understand/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "理解",
           "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "many",
-          "kk": "/many/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 many 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "time",
-          "kk": "/time/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "channel",
-          "kk": "/channel/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 channel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "don't",
           "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "不",
           "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "every",
+          "kk": "/every/",
+          "partOfSpeech": "n.",
+          "meaning": "每一個",
+          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "years",
+          "kk": "/years/",
+          "partOfSpeech": "n.",
+          "meaning": "年",
+          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -363,12 +829,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "welcome back chinese",
-      "meaning": "常用說法，可用來表達「welcome back chinese」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
           "en": "Welcome back to my Slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
+      "phrase": "used to",
+      "meaning": "以前曾經",
+      "examples": [
+        {
+          "en": "She used to be obsessed with learning Chinese.",
+          "tc": "她曾經迷戀學習中文。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-03",
+      "phrase": "have to",
+      "meaning": "必須",
+      "examples": [
+        {
+          "en": "My parents included, my mom and dad have to be the most dedicated and hardworking teachers.",
+          "tc": "包括我的父母，我的爸爸媽媽一定是最敬業、最勤奮的老師。"
         }
       ]
     }
@@ -377,19 +865,19 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my Slow English podcast. Why am I learning Chinese?",
-      "translation": "歡迎回到我的慢速英語播客。我為什麼要學中文？",
+      "translation": "歡迎回到我的慢速英語podcast。我為什麼要學中文？",
       "points": [
         {
-          "label": "welcome back chinese",
-          "text": "welcome back chinese",
-          "note": "注意 \"welcome back chinese\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-02",
-      "sentence": "This podcast is for you to practice your English listening while being engaged in real life stories about me. I've been learning Chinese for four years now. On and off. for 4.",
-      "translation": "這個播客旨在讓您一邊練習英語聽力，一邊聆聽有關我的真實故事。我學中文已經四年了。打開和關閉。 4.",
+      "sentence": "This podcast is for you to practice your English listening while being engaged in real life stories about me.",
+      "translation": "這個podcast旨在讓你一邊練習英語聽力，一邊聆聽有關我的真實故事。",
       "points": [
         {
           "label": "while being engaged",
@@ -400,6 +888,18 @@
     },
     {
       "id": "breakdown-03",
+      "sentence": "I've been learning Chinese for four years now. On and off. For 4 years.",
+      "translation": "我學中文已經四年了。打開和關閉。 4年了。",
+      "points": [
+        {
+          "label": "been chinese four",
+          "text": "been chinese four",
+          "note": "注意 \"been chinese four\" 在句子中的位置，先練整句，再替換自己的內容。"
+        }
+      ]
+    },
+    {
+      "id": "breakdown-04",
       "sentence": "I get lazy.",
       "translation": "我變懶了。",
       "points": [
@@ -407,18 +907,6 @@
           "label": "get lazy",
           "text": "get lazy",
           "note": "注意 \"get lazy\" 在句子中的位置，先練整句，再替換自己的內容。"
-        }
-      ]
-    },
-    {
-      "id": "breakdown-04",
-      "sentence": "The same for me.",
-      "translation": "對我來說也是一樣。",
-      "points": [
-        {
-          "label": "same",
-          "text": "same",
-          "note": "注意 \"same\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

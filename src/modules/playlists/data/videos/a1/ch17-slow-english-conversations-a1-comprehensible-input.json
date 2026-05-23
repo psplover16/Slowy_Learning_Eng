@@ -20,7 +20,7 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "Today I'm here with my friend Jay.",
@@ -32,7 +32,7 @@
         },
         {
           "en": "We've collaborated on to help you learn English.",
-          "tc": "我們合作幫助您學習英語。"
+          "tc": "我們合作幫助你學習英語。"
         }
       ],
       "tags": [
@@ -40,7 +40,7 @@
           "english": "mexico",
           "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "墨西哥",
           "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -48,16 +48,16 @@
           "english": "vietnam",
           "kk": "/vietnam/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "越南",
           "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "it's",
-          "kk": "/it's/",
+          "english": "culture",
+          "kk": "/culture/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "文化",
+          "note": "看到 culture 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -69,10 +69,6 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "You to understand easier. All right, welcome Jay. Um,.",
-          "tc": "你就更容易理解了。好的，歡迎傑伊。嗯，。"
-        },
-        {
           "en": "Are you in the world right now?",
           "tc": "你現在在世上嗎？"
         },
@@ -81,50 +77,12 @@
           "tc": "謝謝你，塔亞娜。現在。"
         },
         {
-          "en": "I am in Vietnam. Vietnam is in Asia which is far from my hometown in York in England.",
-          "tc": "我在越南。越南位於亞洲，距離我的家鄉英國約克很遠。"
-        }
-      ],
-      "tags": [
-        {
-          "english": "vietnam",
-          "kk": "/vietnam/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I am in Mexico. Is not that far from my hometown. Is in the United States, Nebraska. Wow. And sorry, one question. Sure. And where in Vietnam? What city in Vietnam?",
+          "tc": "我在墨西哥。離我的家鄉並沒有那麼遠。位於美國內布拉斯加州。哇。抱歉，有一個問題。當然。那麼在越南哪裡呢？越南哪個城市？"
         },
         {
-          "english": "right",
-          "kk": "/right/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
-    },
-    {
-      "id": "scene-03",
-      "no": "03",
-      "titleZh": "第 3 段：旅行",
-      "titleEn": "Part 3: travel",
-      "sentences": [
-        {
-          "en": "I am in Mexico. Mexico is not that far from my hometown. is in the United States, Nebraska.",
-          "tc": "我在墨西哥。墨西哥離我的家鄉並不遠。位於美國內布拉斯加州。"
-        },
-        {
-          "en": "Wow. And sorry, one question. Sure. And where in Vietnam?",
-          "tc": "哇。抱歉，有一個問題。當然。那麼在越南哪裡呢？"
-        },
-        {
-          "en": "What city in Vietnam?",
-          "tc": "越南哪個城市？"
-        },
-        {
-          "en": "I am living in a city called Đà Nẵng. Đà Nẵng. Đà Nẵng is on is beautiful. Have.",
-          "tc": "我住在一個叫達南的城市。 Đà Nẵng。 Đà Nẵng 很美麗。有。"
+          "en": "I am living in a city called Đà Nẵng. Đà Nẵng. Đà Nẵng is on is beautiful. Have you been to Đà Nẵng? Yes.",
+          "tc": "我住在一個叫達南的城市。 Đà Nẵng。 Đà Nẵng 很美麗。你去過 Đà Nẵng 嗎？是的。"
         }
       ],
       "tags": [
@@ -132,7 +90,7 @@
           "english": "mexico",
           "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "墨西哥",
           "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -140,30 +98,18 @@
           "english": "vietnam",
           "kk": "/vietnam/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "越南",
           "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "beautiful",
-          "kk": "/beautiful/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
     {
-      "id": "scene-04",
-      "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
-        {
-          "en": "You been to Đà Nẵng? Yes. Yes.",
-          "tc": "您去過 Đà Nẵng 嗎？是的。是的。"
-        },
         {
           "en": "I love Đà Nẵng.",
           "tc": "我愛達能。"
@@ -173,58 +119,12 @@
           "tc": "我愛越南。"
         },
         {
-          "en": "We can make a video in person. Yeah, Yeah. Together in person. Sounds good. Could.",
-          "tc": "我們可以親自製作影片。是啊是啊。親自在一起。聽起來不錯。可以。"
-        }
-      ],
-      "tags": [
-        {
-          "english": "vietnam",
-          "kk": "/vietnam/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "We can make a video in person. Yeah, Together in person. Sounds good. Could you share with me a little bit about Mexico? Maybe the food, the weather, the people, the language.",
+          "tc": "我們可以親自製作影片。是的，親自在一起。聽起來不錯。可以和我分享一些關於墨西哥的事情嗎？也許是食物、天氣、人民、語言。"
         },
         {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "yes",
-          "kk": "/yes/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
-    },
-    {
-      "id": "scene-05",
-      "no": "05",
-      "titleZh": "第 5 段：食物與用餐",
-      "titleEn": "Part 5: food",
-      "sentences": [
-        {
-          "en": "You share with me a little bit about Mexico? Maybe the food, the weather, the people, the language.",
-          "tc": "可以和我分享一些關於墨西哥的事情嗎？也許是食物、天氣、人民、語言。"
-        },
-        {
-          "en": "Tell me about the culture. The food in Mexico is delicious. It's the best in the whole world.",
-          "tc": "告訴我有關文化的事。墨西哥的食物很美味。這是全世界最好的。"
-        },
-        {
-          "en": "It's spicy. It's greasy. A lot of meat. In the south of Mexico, the weather is hot.",
-          "tc": "很辣。很油膩。很多肉。墨西哥南部天氣炎熱。"
-        },
-        {
-          "en": "In the north of Mexico, it's a little bit colder. And in Mexico,.",
-          "tc": "墨西哥北部的天氣有點冷。而在墨西哥，。"
+          "en": "Tell me about the culture. The food in Mexico is delicious. It's the best in the whole world. It's spicy. It's greasy. A lot of meat. In the south of Mexico,.",
+          "tc": "告訴我有關文化的事。墨西哥的食物很美味。這是全世界最好的。很辣。很油膩。很多肉。在墨西哥南部，。"
         }
       ],
       "tags": [
@@ -232,24 +132,124 @@
           "english": "mexico",
           "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "墨西哥",
           "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "it's",
-          "kk": "/it's/",
+          "english": "vietnam",
+          "kk": "/vietnam/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "越南",
+          "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "culture",
+          "kk": "/culture/",
+          "partOfSpeech": "n.",
+          "meaning": "文化",
+          "note": "看到 culture 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段：旅行",
+      "titleEn": "Part 4: travel",
+      "sentences": [
+        {
+          "en": "Weather is hot. But in the north of Mexico, it's a little bit colder. And in Mexico,.",
+          "tc": "天氣很熱。但在墨西哥北部，天氣有點冷。而在墨西哥，。"
+        },
+        {
+          "en": "They speak Spanish.",
+          "tc": "他們說西班牙語。"
+        },
+        {
+          "en": "We speak Spanish. The people are very loud and very warm and inviting. And Mexico is a beautiful place to visit. You should come.",
+          "tc": "我們說西班牙語。人們非常吵鬧，非常熱情和熱情。墨西哥是一個美麗的旅遊勝地。你應該來。"
+        },
+        {
+          "en": "I would love to visit Mexico. Yes.",
+          "tc": "我很想去墨西哥。是的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mexico",
+          "kk": "/mexico/",
+          "partOfSpeech": "n.",
+          "meaning": "墨西哥",
+          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "weather",
+          "kk": "/weather/",
+          "partOfSpeech": "n.",
+          "meaning": "天氣",
+          "note": "看到 weather 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "bit",
           "kk": "/bit/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "位元",
           "note": "看到 bit 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
+      "sentences": [
+        {
+          "en": "Tell me a little bit about Vietnam and the culture in Vietnam? Sure. The culture in Vietnam is very different than the culture in the UK. In England,.",
+          "tc": "請告訴我一些關於越南和越南文化的資訊嗎？當然。越南的文化與英國的文化有很大不同。在英國，."
+        },
+        {
+          "en": "One thing is about the weather. Here in Vietnam, the weather is very humid. It's very sweaty. It's hot. And it's wet. Like water. There is lots of water in the air.",
+          "tc": "一件事與天氣有關。越南這裡的天氣非常潮濕。非常出汗。很熱。而且是濕的。就像水一樣。空氣中有大量的水。"
+        },
+        {
+          "en": "And it's very humid. It makes me sweat. The food is wonderful. It's delicious.",
+          "tc": "而且非常潮濕。這讓我出汗。食物很棒。很好吃。"
+        },
+        {
+          "en": "My favorite food now, which is called fur. It's spelled P H O. Fur. And maybe.",
+          "tc": "我現在最喜歡的食物，叫做皮毛。拼寫為 P H O. Fur。也許吧。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "vietnam",
+          "kk": "/vietnam/",
+          "partOfSpeech": "n.",
+          "meaning": "越南",
+          "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "culture",
+          "kk": "/culture/",
+          "partOfSpeech": "n.",
+          "meaning": "文化",
+          "note": "看到 culture 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "food",
+          "kk": "/fud/",
+          "partOfSpeech": "n.",
+          "meaning": "食物",
+          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -261,45 +261,45 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "They speak Spanish.",
-          "tc": "他們說西班牙語。"
+          "en": "You know, but fur is a bowl of noodles with broth. Is like water but with more flavor. M. And one more thing about Vietnamese culture is that.",
+          "tc": "你知道，皮毛就是一碗湯麵。就像水一樣，但更有味道。 M. 關於越南文化的另一件事是。"
         },
         {
-          "en": "We speak Spanish. The people are very loud and very warm and inviting. And Mexico is a beautiful.",
-          "tc": "我們說西班牙語。人們非常吵鬧，非常熱情和熱情。墨西哥是一個美麗的國家。"
+          "en": "They are very friendly, very smiley, very happy people.",
+          "tc": "他們是非常友善、非常微笑、非常快樂的人。"
         },
         {
-          "en": "Place to visit. You should come. I would love to visit Mexico. Yes.",
-          "tc": "參觀的地方。你應該來。我很想去墨西哥。是的。"
+          "en": "They always want to help you.",
+          "tc": "他們總是想幫助你。"
         },
         {
-          "en": "Vietnam is very different than the culture in the UK. In England,.",
-          "tc": "越南的文化與英國有很大不同。在英國，."
+          "en": "They want to show you their country, show you their foods.",
+          "tc": "他們想向你展示他們的國家，向你展示他們的食物。"
         }
       ],
       "tags": [
         {
-          "english": "mexico",
-          "kk": "/mexico/",
-          "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "vietnam",
           "kk": "/vietnam/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "越南",
           "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "love",
-          "kk": "/love/",
+          "english": "culture",
+          "kk": "/culture/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "文化",
+          "note": "看到 culture 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "food",
+          "kk": "/fud/",
+          "partOfSpeech": "n.",
+          "meaning": "食物",
+          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -313,7 +313,7 @@
           "english": "mexico",
           "kk": "/mexico/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "墨西哥",
           "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -321,56 +321,56 @@
           "english": "vietnam",
           "kk": "/vietnam/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "越南",
           "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "it's",
-          "kk": "/it's/",
+          "english": "culture",
+          "kk": "/culture/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "文化",
+          "note": "看到 culture 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "love",
-          "kk": "/love/",
+          "english": "food",
+          "kk": "/fud/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "食物",
+          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "right",
-          "kk": "/right/",
+          "english": "weather",
+          "kk": "/weather/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "yes",
-          "kk": "/yes/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "beautiful",
-          "kk": "/beautiful/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "天氣",
+          "note": "看到 weather 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "bit",
           "kk": "/bit/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "位元",
           "note": "看到 bit 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "fur",
+          "kk": "/fur/",
+          "partOfSpeech": "n.",
+          "meaning": "皮草",
+          "note": "看到 fur 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -379,8 +379,19 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "meaning": "去",
       "examples": [
         {
           "en": "We're going to show you guys something very exciting.",
@@ -389,24 +400,13 @@
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "a little bit",
-      "meaning": "常用說法，可用來表達「a little bit」這個意思",
-      "examples": [
-        {
-          "en": "You share with me a little bit about Mexico?",
-          "tc": "可以和我分享一些關於墨西哥的事情嗎？"
-        }
-      ]
-    },
-    {
       "id": "phrase-03",
-      "phrase": "i love",
-      "meaning": "常用說法，可用來表達「i love」這個意思",
+      "phrase": "want to",
+      "meaning": "想要",
       "examples": [
         {
-          "en": "I love Đà Nẵng.",
-          "tc": "我愛達能。"
+          "en": "They always want to help you.",
+          "tc": "他們總是想幫助你。"
         }
       ]
     }
@@ -415,7 +415,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -430,9 +430,9 @@
       "translation": "今天我和我的朋友傑伊一起來到這裡。",
       "points": [
         {
-          "label": "i'm here friend",
-          "text": "i'm here friend",
-          "note": "注意 \"i'm here friend\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "here friend jay",
+          "text": "here friend jay",
+          "note": "注意 \"here friend jay\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
@@ -451,7 +451,7 @@
     {
       "id": "breakdown-04",
       "sentence": "We've collaborated on to help you learn English.",
-      "translation": "我們合作幫助您學習英語。",
+      "translation": "我們合作幫助你學習英語。",
       "points": [
         {
           "label": "we've collaborated help",

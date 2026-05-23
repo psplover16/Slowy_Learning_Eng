@@ -20,15 +20,15 @@
       "sentences": [
         {
           "en": "Welcome back to my Slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "Today I want to talk about my trip to Puerto Escondido so far.",
           "tc": "今天我想談談迄今為止我的埃斯孔迪多港之旅。"
         },
         {
-          "en": "I arrived in Puerto Gondido a few weeks ago. I went to the beach for lots of sunsets. Sunsets at the beach are just something else.",
-          "tc": "我幾週前抵達貢迪多港。我去海灘看了很多日落。海灘上的日落只是另一回事。"
+          "en": "I arrived in Puerto Gondido a few weeks ago. I went to the beach for lots of sunsets. At the beach are just something else.",
+          "tc": "我幾週前抵達貢迪多港。我去海灘看了很多日落。在海灘上只是別的東西。"
         },
         {
           "en": "They are all so special to me. I went to a beautiful beach called Garisalo where the view was spectacular. I ate dried fruit at the beach.",
@@ -40,24 +40,24 @@
           "english": "beach",
           "kk": "/beach/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "海灘",
           "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "went",
-          "kk": "/went/",
+          "english": "arrived",
+          "kk": "/arrived/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 went 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "到達的",
+          "note": "看到 arrived 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "day",
+          "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -65,24 +65,24 @@
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：旅行",
-      "titleEn": "Part 2: travel",
+      "titleZh": "第 2 段：日常生活",
+      "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "I love dried fruit, especially if I'm eating it at the beach.",
-          "tc": "我喜歡乾果，尤其是在海灘上吃的時候。"
+          "en": "I love dried fruit, especially if.",
+          "tc": "我喜歡乾果，尤其是如果。"
         },
         {
-          "en": "I also went to other beaches where the waves were massive. It's very dangerous to try and swim in those waves.",
-          "tc": "我還去了其他海浪很大的海灘。嘗試在這些波浪中游泳是非常危險的。"
+          "en": "I'm eating it at the beach. And I also went to other beaches where the waves were massive. It's very dangerous to try and swim in those waves.",
+          "tc": "我在海邊吃的我還去了其他海浪很大的海灘。嘗試在這些波浪中游泳是非常危險的。"
         },
         {
           "en": "I got fish tacos at a place called Pepis Tacos.",
           "tc": "我在一個叫 Pepis Tacos 的地方買了魚炸玉米餅。"
         },
         {
-          "en": "They were amazing. The best fish tacos I've ever tried.",
-          "tc": "他們太棒了。我吃過的最好的魚炸玉米餅。"
+          "en": "They were amazing. The best fish tacos.",
+          "tc": "他們太棒了。最好的魚炸玉米餅。"
         }
       ],
       "tags": [
@@ -90,7 +90,7 @@
           "english": "beach",
           "kk": "/beach/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "海灘",
           "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -98,17 +98,9 @@
           "english": "love",
           "kk": "/love/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "愛",
           "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "went",
-          "kk": "/went/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 went 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
@@ -118,6 +110,10 @@
       "titleZh": "第 3 段：日常生活",
       "titleEn": "Part 3: everyday life",
       "sentences": [
+        {
+          "en": "I've ever tried.",
+          "tc": "我曾經嘗試過。"
+        },
         {
           "en": "They had guacamole, onion, cilantro, and pineapple all on top.",
           "tc": "他們的上面有酪梨醬、洋蔥、香菜和鳳梨。"
@@ -129,20 +125,32 @@
         {
           "en": "We sat under some trees.",
           "tc": "我們坐在一些樹下。"
-        },
-        {
-          "en": "We watched the ants marching along the tree stem and branches.",
-          "tc": "我們看著螞蟻沿著樹幹和樹枝行進。"
         }
       ],
       "tags": [
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "beach",
+          "kk": "/beach/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
@@ -153,6 +161,10 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
+          "en": "We watched the ants marching along the tree stem and branches.",
+          "tc": "我們看著螞蟻沿著樹幹和樹枝行進。"
+        },
+        {
           "en": "I love looking at the view from underneath the trees. How you can see all the leaves and the branches swaying in the wind covering you from the sun.",
           "tc": "我喜歡從樹下看風景。你如何看到所有的樹葉和樹枝在風中搖曳，遮住你的陽光。"
         },
@@ -161,58 +173,38 @@
           "tc": "花瓣剛剛落在地上。"
         },
         {
-          "en": "Then I also went to a skating competition where I saw really good skaters compete for a prize for a reward.",
-          "tc": "然後我還去參加了一場滑冰比賽，在那裡我看到了非常優秀的滑冰選手為了獎勵而競爭。"
-        },
-        {
-          "en": "I have been volunteering here at a hostel here on the beach.",
-          "tc": "我一直在海灘上的一家旅館當志工。"
+          "en": "I saw really good skaters compete for a prize for a reward.",
+          "tc": "我看到非常優秀的滑冰選手為了獎勵而競爭。"
         }
       ],
       "tags": [
         {
-          "english": "beach",
-          "kk": "/beach/",
-          "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
-          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "love",
           "kk": "/love/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "愛",
           "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "went",
-          "kk": "/went/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 went 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段：旅行",
+      "titleEn": "Part 5: travel",
       "sentences": [
         {
-          "en": "I really enjoy volunteering.",
-          "tc": "我真的很喜歡當志工。"
+          "en": "I have been volunteering here at a hostel here on the beach. I really enjoy volunteering.",
+          "tc": "我一直在海灘上的一家旅館當志工。我真的很喜歡當志工。"
         },
         {
           "en": "I love staying in beautiful places for free.",
           "tc": "我喜歡免費住在美麗的地方。"
         },
         {
-          "en": "I love meeting new people and exploring new places without needing to pay for accommodation because accommodation can be very expensive. ensive. But this hostel that.",
-          "tc": "我喜歡結識新朋友和探索新地方，而無需支付住宿費用，因為住宿可能非常昂貴。緊張。但這家旅館。"
+          "en": "I love meeting new people and exploring new places without needing to pay for accommodation because accommodation can be very expensive. Ensive. But this hostel that.",
+          "tc": "我喜歡結識新朋友和探索新地方，而無需支付住宿費用，因為住宿可能非常昂貴。熱情。但這家旅館。"
         },
         {
           "en": "I arrived at wasn't the best volunteering experience for me. There has been lots of unnecessary drama and gossip. It's been really nice swimming every day, meeting and meeting up with my.",
@@ -221,28 +213,28 @@
       ],
       "tags": [
         {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "love",
           "kk": "/love/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "愛",
           "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "people",
-          "kk": "/people/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
@@ -257,34 +249,302 @@
           "tc": "兒時的朋友們，歡笑聲、攀岩、衝浪、散步隨處可見。我真的到處走走。"
         },
         {
-          "en": "I can. I don't like taking buses or paying for taxis. And riding a motorbike is scary for me. It's dangerous.",
-          "tc": "我可以。我不喜歡搭乘公車或支付計程車費。騎摩托車對我來說很可怕。這很危險。"
+          "en": "I don't like taking buses or paying for taxis. And riding a motorbike is scary for me. It's dangerous. I always see people crashing.",
+          "tc": "我不喜歡搭乘公車或支付計程車費。騎摩托車對我來說很可怕。這很危險。我總是看到人們崩潰。"
         },
         {
-          "en": "I always see people crashing. I saw so many people hurt or injured in Thailand and Vietnam from motorbike crashes. And in Mexico, people drive like crazy. So,.",
-          "tc": "我總是看到人們崩潰。我在泰國和越南看到很多人因摩托車事故受傷。在墨西哥，人們瘋狂開車。所以，。"
+          "en": "I saw so many people hurt or injured in Thailand and Vietnam from motorbike crashes. And in Mexico, people drive like crazy. So, I always prefer to walk instead.",
+          "tc": "我在泰國和越南看到很多人因摩托車事故受傷。在墨西哥，人們瘋狂開車。所以，我總是比較喜歡步行。"
         },
         {
-          "en": "I always prefer to walk instead.",
-          "tc": "我總是比較喜歡步行。"
+          "en": "I love walking anyways. But apart from all the nice experiences,.",
+          "tc": "反正我很喜歡走路。但除了所有美好的經驗之外，。"
         }
       ],
       "tags": [
         {
-          "english": "people",
-          "kk": "/people/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "it's",
-          "kk": "/it's/",
+          "english": "love",
+          "kk": "/love/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "I had some bad experiences as well. When I arrived at my hostel,.",
+          "tc": "我也有過一些不好的經驗。當我到達宿舍時，。"
+        },
+        {
+          "en": "I got along really well with everyone. But one night I was sleeping in my room and at 100 a.m.",
+          "tc": "我和大家相處得很好。但有一天晚上，上午 100 點，我正在自己的房間睡覺。"
+        },
+        {
+          "en": "I heard a loud banging at my door, someone yelling, but I couldn't hear.",
+          "tc": "我聽到有人大聲敲門，有人大喊大叫，但我聽不見。"
+        },
+        {
+          "en": "I got up to open the door and there was another girl volunteer.",
+          "tc": "我起身去開門，發現還有另一位女志工。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "arrived",
+          "kk": "/arrived/",
+          "partOfSpeech": "v.",
+          "meaning": "到達的",
+          "note": "看到 arrived 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        },
+        {
+          "english": "hostel",
+          "kk": "/hostel/",
+          "partOfSpeech": "n.",
+          "meaning": "旅館",
+          "note": "看到 hostel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "She told me, \"There's no water. You forgot to pump it.\" to pump the water up.",
+          "tc": "她告訴我，「沒有水了。你忘了抽水了。」把水抽上來。"
+        },
+        {
+          "en": "I said, \"Oh,.",
+          "tc": "我說：「哦，。"
+        },
+        {
+          "en": "I'm sorry. I forgot. I will go pump it now.\"",
+          "tc": "對不起。我忘了。我現在就去抽。 」"
+        },
+        {
+          "en": "She told me, \"No, I already did it. Don't go pump it.\"",
+          "tc": "她告訴我，“不，我已經這麼做了。別去抽了。”"
+        }
+      ],
+      "tags": [
+        {
+          "english": "pump",
+          "kk": "/pump/",
+          "partOfSpeech": "n.",
+          "meaning": "泵浦",
+          "note": "看到 pump 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "water",
+          "kk": "/water/",
+          "partOfSpeech": "n.",
+          "meaning": "水",
+          "note": "看到 water 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "She left. I was like, \"Whoa.\"",
+          "tc": "她離開了。我當時想，“哇。”"
+        },
+        {
+          "en": "It was very unnecessary to come yell at me at 100 a.m. If I was in her shoes,.",
+          "tc": "如果我處在她的立場上，那麼早上 100 點就沒有必要來對我大喊大叫。"
+        },
+        {
+          "en": "I would have just turned on the pump and forgot about it. It's not that big of a deal,.",
+          "tc": "我會直接打開泵然後忘記它。這沒什麼大不了的，"
+        },
+        {
+          "en": "She made it a big deal.",
+          "tc": "她把這件事鬧大了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "pump",
+          "kk": "/pump/",
+          "partOfSpeech": "n.",
+          "meaning": "泵浦",
+          "note": "看到 pump 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：人物與關係",
+      "titleEn": "Part 10: people",
+      "sentences": [
+        {
+          "en": "Next day I went out for a hike with my friend.",
+          "tc": "第二天，我和朋友出去健行。"
+        },
+        {
+          "en": "We saw some stunning natural baths. Filled with sulfur water and surrounded by trees and fresh air.",
+          "tc": "我們看到了一些令人驚嘆的天然浴場。充滿硫磺水，周圍樹木環繞，空氣清新。"
+        },
+        {
+          "en": "We had to hike 2 hours to get there.",
+          "tc": "我們必須徒步2個小時才能到達那裡。"
+        },
+        {
+          "en": "It was such a relaxing, delightful day. The water was boiling hot. Sulfur water is really good for your blood circulation and for reducing inflammation. So, in general,.",
+          "tc": "這真是輕鬆、愉快的一天。水沸騰了。硫磺水確實有利於血液循環和減少發炎。所以，一般來說，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "water",
+          "kk": "/water/",
+          "partOfSpeech": "n.",
+          "meaning": "水",
+          "note": "看到 water 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "It was a very relaxing day.",
+          "tc": "這是非常輕鬆的一天。"
+        },
+        {
+          "en": "We drove back to the hostel to make some dinner and chill. And when I arrived, the girl who yelled at me was there.",
+          "tc": "我們開車回旅館吃晚餐休息一下。當我到達時，那個對我大喊大叫的女孩就在那裡。"
+        },
+        {
+          "en": "She didn't speak to me right away, but after I finished my dinner,.",
+          "tc": "她沒有立即跟我說話，而是在我吃完晚餐後。"
+        },
+        {
+          "en": "She spoke to me in a very rude tone.",
+          "tc": "她用非常粗魯的語氣對我說話。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "arrived",
+          "kk": "/arrived/",
+          "partOfSpeech": "v.",
+          "meaning": "到達的",
+          "note": "看到 arrived 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "She said, \"Tyiana,.",
+          "tc": "她說：「蒂亞娜。"
+        },
+        {
+          "en": "We need to talk.\"",
+          "tc": "我們需要談談。 」"
+        },
+        {
+          "en": "I said, \"Oh, okay. I'll be back down in a bit.",
+          "tc": "我說：“哦，好吧。我一會兒就回來。”"
+        },
+        {
+          "en": "We can talk. I just want to shower.",
+          "tc": "我們可以談談。我只想洗澡。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "beach",
+          "kk": "/beach/",
+          "partOfSpeech": "n.",
+          "meaning": "海灘",
+          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "love",
+          "kk": "/love/",
+          "partOfSpeech": "n.",
+          "meaning": "愛",
+          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -297,64 +557,64 @@
           "english": "beach",
           "kk": "/beach/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "海灘",
           "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "love",
           "kk": "/love/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "愛",
           "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "people",
-          "kk": "/people/",
+          "english": "pump",
+          "kk": "/pump/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "泵浦",
+          "note": "看到 pump 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
-          "english": "went",
-          "kk": "/went/",
+          "english": "water",
+          "kk": "/water/",
+          "partOfSpeech": "n.",
+          "meaning": "水",
+          "note": "看到 water 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "arrived",
+          "kk": "/arrived/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 went 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "到達的",
+          "note": "看到 arrived 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "day",
+          "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "been",
-          "kk": "/been/",
+          "english": "hostel",
+          "kk": "/hostel/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "it's",
-          "kk": "/it's/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "meeting",
-          "kk": "/meeting/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 meeting 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "旅館",
+          "note": "看到 hostel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -363,19 +623,19 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "Today I want to talk about my trip to Puerto Escondido so far.",
-          "tc": "今天我想談談迄今為止我的埃斯孔迪多港之旅。"
+          "en": "Welcome back to my Slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "talk about",
-      "meaning": "談論",
+      "phrase": "want to",
+      "meaning": "想要",
       "examples": [
         {
           "en": "Today I want to talk about my trip to Puerto Escondido so far.",
@@ -385,12 +645,12 @@
     },
     {
       "id": "phrase-03",
-      "phrase": "i love",
-      "meaning": "常用說法，可用來表達「i love」這個意思",
+      "phrase": "need to",
+      "meaning": "需要",
       "examples": [
         {
-          "en": "I love dried fruit, especially if I'm eating it at the beach.",
-          "tc": "我喜歡乾果，尤其是在海灘上吃的時候。"
+          "en": "We need to talk.\" I said, \"Oh, okay.",
+          "tc": "我們需要談談。 」我說：「哦，好吧。"
         }
       ]
     }
@@ -399,7 +659,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my Slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -422,8 +682,8 @@
     },
     {
       "id": "breakdown-03",
-      "sentence": "I arrived in Puerto Gondido a few weeks ago. I went to the beach for lots of sunsets. Sunsets at the beach are just something else.",
-      "translation": "我幾週前抵達貢迪多港。我去海灘看了很多日落。海灘上的日落只是另一回事。",
+      "sentence": "I arrived in Puerto Gondido a few weeks ago. I went to the beach for lots of sunsets. At the beach are just something else.",
+      "translation": "我幾週前抵達貢迪多港。我去海灘看了很多日落。在海灘上只是別的東西。",
       "points": [
         {
           "label": "arrived puerto gondido",
@@ -438,9 +698,9 @@
       "translation": "他們對我來說都很特別。我去了一個叫加里薩洛的美麗海灘，那裡的景色非常壯觀。我在海邊吃了乾果。",
       "points": [
         {
-          "label": "all special went",
-          "text": "all special went",
-          "note": "注意 \"all special went\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "special went beautiful",
+          "text": "special went beautiful",
+          "note": "注意 \"special went beautiful\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

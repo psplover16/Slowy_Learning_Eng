@@ -19,20 +19,20 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast a podcast for beginners to practice English listening.",
-          "tc": "歡迎回到我的慢速英語播客，這是一​​個供初學者練習英語聽力的播客。"
+          "en": "Welcome back to my slow English podcast, a podcast for beginners to practice English listening.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一個供初學者練習英語聽力的podcast。"
         },
         {
-          "en": "Today I will be talking about languages languages are very interesting to me.",
-          "tc": "今天我將談論語言，語言對我來說非常有趣。"
+          "en": "Today I will be talking about languages are very interesting to me.",
+          "tc": "今天我要講的是我很有興趣的語言。"
         },
         {
-          "en": "I think languages connect people from all all over the world languages take time languages take time.",
-          "tc": "我認為語言將世界各地的人們聯繫在一起 語言需要時間 語言需要時間。"
+          "en": "I think languages connect people from all over the world languages take time languages take time and patience but the feeling when you.",
+          "tc": "我認為語言將世界各地的人們聯繫在一起，語言需要時間，語言需要時間和耐心，但需要你的感覺。"
         },
         {
-          "en": "Patience but the feeling when you.",
-          "tc": "耐心可是當你的感覺。"
+          "en": "Finally learn a new language is wonderful that feeling when you can understand a language is amazing the feeling of understanding one sentence or one word feels so good every language is.",
+          "tc": "終於學習新語言真是太棒了，當你能理解一門語言時的感覺真是太棒了，理解一個句子或一個單字的感覺真是太好了，每種語言都是如此。"
         }
       ],
       "tags": [
@@ -48,17 +48,17 @@
           "english": "languages",
           "kk": "/languages/",
           "partOfSpeech": "n.",
-          "meaning": "語言學習相關的常用字",
+          "meaning": "語言",
           "note": "看到 languages 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "feeling",
-          "kk": "/feeling/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 feeling 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "english": "every",
+          "kk": "/every/",
+          "partOfSpeech": "n.",
+          "meaning": "每一個",
+          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
@@ -69,20 +69,20 @@
       "titleEn": "Part 2: language",
       "sentences": [
         {
-          "en": "Finally learn a new language is wonderful that feeling.",
-          "tc": "終於學會新語言那種感覺真是美妙。"
+          "en": "So different every language has its own special identity every language has different tones and pronunciation.",
+          "tc": "因此，每種語言都有其特殊的身份，每種語言都有不同的聲調和發音。"
         },
         {
-          "en": "When you can understand a language is amazing the feeling of understanding one sentence or one word feels?",
-          "tc": "當你能理解一種語言時，理解句子或單字的感覺是多麼神奇？"
+          "en": "I personally love learning new languages.",
+          "tc": "我個人喜歡學習新語言。"
         },
         {
-          "en": "So good every language is so different every language has its own special identity every language has different.",
-          "tc": "很好，每種語言都如此不同，每種語言都有自己的特殊身份，每種語言都有不同。"
+          "en": "I love teaching.",
+          "tc": "我熱愛教學。"
         },
         {
-          "en": "Tones and pronunciation I personally love learning new languages.",
-          "tc": "聲調與發音 我個人喜歡學習新語言。"
+          "en": "I love teaching students to understand new words to understand phrases idioms and eventually use them what language apart from English.",
+          "tc": "我喜歡教導學生理解新單字、理解短語、習慣用語，並最終使用英語以外的語言。"
         }
       ],
       "tags": [
@@ -98,7 +98,7 @@
           "english": "languages",
           "kk": "/languages/",
           "partOfSpeech": "n.",
-          "meaning": "語言學習相關的常用字",
+          "meaning": "語言",
           "note": "看到 languages 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -106,7 +106,7 @@
           "english": "every",
           "kk": "/every/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每一個",
           "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
@@ -119,20 +119,20 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "I love teaching.",
-          "tc": "我熱愛教學。"
-        },
-        {
-          "en": "I love teaching students to understand new words to understand phrases idioms and eventually use them.",
-          "tc": "我喜歡教導學生理解新單字、理解短語、習慣用語並最終使用它們。"
-        },
-        {
-          "en": "What language apart from English?",
-          "tc": "除了英語還有什麼語言？"
-        },
-        {
           "en": "Do you want to learn challenging question?",
           "tc": "你想學習有挑戰性的問題嗎？"
+        },
+        {
+          "en": "If you could download any language into your brain.",
+          "tc": "如果你可以將任何語言下載到你的大腦。"
+        },
+        {
+          "en": "Would you do it?",
+          "tc": "你會做嗎？"
+        },
+        {
+          "en": "Do you enjoy the process of learning which?",
+          "tc": "你享受學習哪個的過程嗎？"
         }
       ],
       "tags": [
@@ -143,43 +143,15 @@
           "meaning": "語言",
           "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "new",
-          "kk": "/new/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：語言學習",
-      "titleEn": "Part 4: language",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
-        {
-          "en": "If you could download any language into your brain.",
-          "tc": "如果你可以將任何語言下載到你的大腦。"
-        },
-        {
-          "en": "Would you do it?",
-          "tc": "你會做嗎？"
-        },
-        {
-          "en": "Do you enjoy the process of learning which would?",
-          "tc": "你享受學習的過程嗎？"
-        },
         {
           "en": "Would you prefer?",
           "tc": "你願意嗎？"
@@ -192,6 +164,22 @@
           "partOfSpeech": "n.",
           "meaning": "語言",
           "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "languages",
+          "kk": "/languages/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 languages 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "every",
+          "kk": "/every/",
+          "partOfSpeech": "n.",
+          "meaning": "每一個",
+          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -213,7 +201,7 @@
           "english": "languages",
           "kk": "/languages/",
           "partOfSpeech": "n.",
-          "meaning": "語言學習相關的常用字",
+          "meaning": "語言",
           "note": "看到 languages 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -221,7 +209,7 @@
           "english": "every",
           "kk": "/every/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "每一個",
           "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -229,7 +217,7 @@
           "english": "feeling",
           "kk": "/feeling/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "感覺",
           "note": "看到 feeling 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -237,7 +225,7 @@
           "english": "love",
           "kk": "/love/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "愛",
           "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -245,7 +233,7 @@
           "english": "new",
           "kk": "/new/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "新的",
           "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -253,16 +241,16 @@
           "english": "understand",
           "kk": "/understand/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "理解",
           "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "different",
+          "kk": "/different/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "不同的",
+          "note": "看到 different 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -271,8 +259,19 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my slow English podcast, a podcast for beginners to practice English listening.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一個供初學者練習英語聽力的podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "meaning": "想要",
       "examples": [
         {
           "en": "Do you want to learn challenging question?",
@@ -281,24 +280,13 @@
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "i think",
-      "meaning": "常用說法，可用來表達「i think」這個意思",
-      "examples": [
-        {
-          "en": "I think languages connect people from all all over the world languages take time languages take time.",
-          "tc": "我認為語言將世界各地的人們聯繫在一起 語言需要時間 語言需要時間。"
-        }
-      ]
-    },
-    {
       "id": "phrase-03",
-      "phrase": "i love",
-      "meaning": "常用說法，可用來表達「i love」這個意思",
+      "phrase": "i think",
+      "meaning": "我認為",
       "examples": [
         {
-          "en": "I love teaching.",
-          "tc": "我熱愛教學。"
+          "en": "I think languages connect people from all over the world languages take time languages take time and patience but the feeling when you.",
+          "tc": "我認為語言將世界各地的人們聯繫在一起，語言需要時間，語言需要時間和耐心，但需要你的感覺。"
         }
       ]
     }
@@ -306,8 +294,8 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast a podcast for beginners to practice English listening.",
-      "translation": "歡迎回到我的慢速英語播客，這是一​​個供初學者練習英語聽力的播客。",
+      "sentence": "Welcome back to my slow English podcast, a podcast for beginners to practice English listening.",
+      "translation": "歡迎回到我的慢速英語podcast，這是一個供初學者練習英語聽力的podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -318,20 +306,20 @@
     },
     {
       "id": "breakdown-02",
-      "sentence": "Today I will be talking about languages languages are very interesting to me.",
-      "translation": "今天我將談論語言，語言對我來說非常有趣。",
+      "sentence": "Today I will be talking about languages are very interesting to me.",
+      "translation": "今天我要講的是我很有興趣的語言。",
       "points": [
         {
-          "label": "talking languages languages",
-          "text": "talking languages languages",
-          "note": "注意 \"talking languages languages\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "talking languages interesting",
+          "text": "talking languages interesting",
+          "note": "注意 \"talking languages interesting\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
-      "sentence": "I think languages connect people from all all over the world languages take time languages take time.",
-      "translation": "我認為語言將世界各地的人們聯繫在一起 語言需要時間 語言需要時間。",
+      "sentence": "I think languages connect people from all over the world languages take time languages take time and patience but the feeling when you.",
+      "translation": "我認為語言將世界各地的人們聯繫在一起，語言需要時間，語言需要時間和耐心，但需要你的感覺。",
       "points": [
         {
           "label": "i think",
@@ -342,13 +330,13 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "Patience but the feeling when you.",
-      "translation": "耐心可是當你的感覺。",
+      "sentence": "Finally learn a new language is wonderful that feeling when you can understand a language is amazing the feeling of understanding one sentence or one word feels so good every language is.",
+      "translation": "終於學習新語言真是太棒了，當你能理解一門語言時的感覺真是太棒了，理解一個句子或一個單字的感覺真是太好了，每種語言都是如此。",
       "points": [
         {
-          "label": "patience but feeling",
-          "text": "patience but feeling",
-          "note": "注意 \"patience but feeling\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "finally new language",
+          "text": "finally new language",
+          "note": "注意 \"finally new language\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

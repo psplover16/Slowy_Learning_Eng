@@ -19,20 +19,20 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast a podcast to practice your English listening for upper intermediate level.",
-          "tc": "歡迎回到我的慢速英語播客，這是一​​個練習中高級英語聽力的播客。"
+          "en": "Welcome back to my slow English podcast, a podcast to practice your English listening for upper intermediate level.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一個練習中高級英語聽力的podcast。"
         },
         {
-          "en": "Today I want to talk to you about my comfort food when I think of my comfort food the.",
-          "tc": "今天，當我想到我的安慰食物時，我想和你們談談我的安慰食物。"
+          "en": "I think of my comfort food.",
+          "tc": "我想起了我的安慰食物。"
         },
         {
-          "en": "First thing that comes to mind is Flaming Hot Cheetos since.",
-          "tc": "首先想到的是火焰熱奇多。"
+          "en": "The first thing that comes to mind is Flaming Hot Cheetos since I was a little girl my sister.",
+          "tc": "我首先想到的是火辣Cheetos，因為我還是個小女孩，我的妹妹。"
         },
         {
-          "en": "I was a little girl my sister and I have always enjoyed a big bag of flaming hot Cheetos while watching cartoons or movies together.",
-          "tc": "當我還是個小女孩的時候，我和姐姐一起看動畫片或電影時總是喜歡吃一大袋熱騰騰的奇多。"
+          "en": "I have always enjoyed a big bag of flaming hot Cheetos while watching cartoons or movies together.",
+          "tc": "當我一起看動畫片或電影時，我總是喜歡吃一大袋熱騰騰的Cheetos。"
         }
       ],
       "tags": [
@@ -48,7 +48,7 @@
           "english": "comfort",
           "kk": "/comfort/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "舒適",
           "note": "看到 comfort 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -69,12 +69,12 @@
           "tc": "有沒有人的假期或地方與這道菜有關，我知道很多人不喜歡辛辣的食物？"
         },
         {
-          "en": "They can't stand spicy food and I used to agree I used to think spicy food was not enjoyable because it was unbearable to eat.",
-          "tc": "他們無法忍受辛辣的食物，我曾經同意我曾經認為辛辣的食物不令人愉快，因為它難以忍受。"
+          "en": "They can't stand spicy food and I used to agree I used to think spicy food was not enjoyable.",
+          "tc": "他們無法忍受辛辣的食物，我曾經同意我曾經認為辛辣的食物不令人愉快。"
         },
         {
-          "en": "I would just cry and sniffle but now I can't get enough of it.",
-          "tc": "我只會哭泣和抽鼻子，但現在我無法忍受。"
+          "en": "It was unbearable to eat.",
+          "tc": "吃得實在難以忍受。"
         }
       ],
       "tags": [
@@ -98,7 +98,7 @@
           "english": "can't",
           "kk": "/can't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "不能",
           "note": "看到 can't 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
@@ -107,9 +107,13 @@
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：食物與用餐",
-      "titleEn": "Part 3: food",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
+        {
+          "en": "I would just cry and sniffle but now I can't get enough of it.",
+          "tc": "我只會哭泣和抽鼻子，但現在我無法忍受。"
+        },
         {
           "en": "I love spicy food.",
           "tc": "我喜歡吃辣的食物。"
@@ -121,10 +125,6 @@
         {
           "en": "If you do.",
           "tc": "如果你這樣做的話。"
-        },
-        {
-          "en": "What are your favorite dishes?",
-          "tc": "你最喜歡的菜是什麼？"
         }
       ],
       "tags": [
@@ -143,30 +143,38 @@
           "meaning": "辣的",
           "note": "看到 spicy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "can't",
+          "kk": "/can't/",
+          "partOfSpeech": "n.",
+          "meaning": "不能",
+          "note": "看到 can't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：食物與用餐",
-      "titleEn": "Part 4: food",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "One thing I can't stand is bitter food the flavors are too bland Bland and boring.",
-          "tc": "我不能忍受的一件事是苦味食物，味道太淡了，平淡乏味。"
+          "en": "What are your favorite dishes?",
+          "tc": "你最喜歡的菜是什麼？"
         },
         {
-          "en": "They lack flavor that's why I don't like bitter food what's a type of food that you can't stand and why sweet Foods however are.",
-          "tc": "它們缺乏味道，這就是為什麼我不喜歡苦味食物，這是一種你無法忍受的食物，而甜食卻是。"
+          "en": "One thing I can't stand is bitter food the flavors are too bland and boring.",
+          "tc": "我無法忍受的一件事是苦味食物，味道太平淡無味。"
         },
         {
-          "en": "My favorite foods I have a huge Sweet Tooth my sweet tooth is so so bad I can.",
-          "tc": "我最喜歡的食物 我很愛吃甜食，我的甜食實在太糟糕了。"
+          "en": "They lack flavor.",
+          "tc": "他們缺乏味道。"
         },
         {
-          "en": "Sometimes eat up to three conchas.",
-          "tc": "有時最多可以吃三個貝殼。"
+          "en": "I don't like bitter food what's a type of food that you can't stand and why sweet Foods however are.",
+          "tc": "我不喜歡苦味食物，哪種食物是你不能忍受的，為什麼甜食卻是。"
         }
       ],
       "tags": [
@@ -182,7 +190,7 @@
           "english": "can't",
           "kk": "/can't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "不能",
           "note": "看到 can't 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -190,7 +198,7 @@
           "english": "foods",
           "kk": "/foods/",
           "partOfSpeech": "n.",
-          "meaning": "食物與用餐相關的常用字",
+          "meaning": "食品",
           "note": "看到 foods 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -199,17 +207,51 @@
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段：食物與用餐",
+      "titleEn": "Part 5: food",
       "sentences": [
         {
-          "en": "Before bed I have no limit.",
-          "tc": "睡前我沒有限制。"
+          "en": "I have a huge Sweet Tooth my sweet tooth is so bad I can.",
+          "tc": "我非常愛吃甜食，我的甜食實在太糟糕了。"
+        },
+        {
+          "en": "Sometimes eat up to three conchas.",
+          "tc": "有時最多可以吃三個貝殼。"
+        },
+        {
+          "en": "I have no limit.",
+          "tc": "我沒有限制。"
         },
         {
           "en": "My favorite sweets are conchas cheesecakes and cinnamon bread or cinnamon rolls.",
           "tc": "我最喜歡的糖果是貝殼起司蛋糕和肉桂麵包或肉桂捲。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "sweet",
+          "kk": "/swit/",
+          "partOfSpeech": "n.",
+          "meaning": "甜的",
+          "note": "看到 sweet 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
+        {
+          "english": "bread",
+          "kk": "/bread/",
+          "partOfSpeech": "n.",
+          "meaning": "麵包",
+          "note": "看到 bread 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：食物與用餐",
+      "titleEn": "Part 6: food",
+      "sentences": [
         {
           "en": "What type of food?",
           "tc": "什麼類型的食物？"
@@ -217,6 +259,14 @@
         {
           "en": "Do you like the most spicy Bitter Sweet or salty when I was younger I used to sneak into the kitchen to steal the sweets the bread my father had putt?",
           "tc": "你喜歡最辣的苦甜還是鹹的？小時候我常常偷偷溜進廚房偷我父親放的麵包裡的糖果？"
+        },
+        {
+          "en": "He bought conchas.",
+          "tc": "他買了貝殼。"
+        },
+        {
+          "en": "I would steal it all I couldn't resist.",
+          "tc": "我會偷走我無法抗拒的一切。"
         }
       ],
       "tags": [
@@ -247,22 +297,22 @@
       ]
     },
     {
-      "id": "scene-06",
-      "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常作息",
+      "titleEn": "Part 7: daily routine",
       "sentences": [
         {
-          "en": "He bought conchas I would steal it all I couldn't resist.",
-          "tc": "他買了貝殼，我會毫無抗拒地偷走它。"
+          "en": "In the morning if my dad asked where did all the bread go.",
+          "tc": "早上，如果我爸爸問所有的麵包都去了哪裡。"
         },
         {
-          "en": "In the morning if my dad asked where did all the bread go I would stay quiet my silence made me look guilty of course.",
-          "tc": "早上，如果我爸爸問所有的麵包都去了哪裡，我會保持安靜，我的沉默當然讓我看起來很內疚。"
+          "en": "I would stay quiet my silence made me look guilty of course.",
+          "tc": "我會保持沉默，當然，我的沉默讓我看起來很內疚。"
         },
         {
-          "en": "He knew it was me.",
-          "tc": "他知道是我。"
+          "en": "It was me.",
+          "tc": "是我。"
         },
         {
           "en": "Are there any foods you can't resist any foods you couldn't resist when you were younger?",
@@ -282,7 +332,7 @@
           "english": "can't",
           "kk": "/can't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "不能",
           "note": "看到 can't 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -290,9 +340,47 @@
           "english": "foods",
           "kk": "/foods/",
           "partOfSpeech": "n.",
-          "meaning": "食物與用餐相關的常用字",
+          "meaning": "食品",
           "note": "看到 foods 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "Thank you. Bye.",
+          "tc": "謝謝。再見。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "food",
+          "kk": "/fud/",
+          "partOfSpeech": "n.",
+          "meaning": "食物",
+          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "spicy",
+          "kk": "/ˈspaɪsi/",
+          "partOfSpeech": "n.",
+          "meaning": "辣的",
+          "note": "看到 spicy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "can't",
+          "kk": "/can't/",
+          "partOfSpeech": "n.",
+          "meaning": "不能",
+          "note": "看到 can't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -321,7 +409,7 @@
           "english": "can't",
           "kk": "/can't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "不能",
           "note": "看到 can't 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -329,16 +417,8 @@
           "english": "foods",
           "kk": "/foods/",
           "partOfSpeech": "n.",
-          "meaning": "食物與用餐相關的常用字",
+          "meaning": "食品",
           "note": "看到 foods 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "comfort",
-          "kk": "/comfort/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 comfort 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
@@ -350,19 +430,27 @@
           "highlight": false
         },
         {
-          "english": "any",
-          "kk": "/any/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 any 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
           "english": "bitter",
           "kk": "/bitter/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "苦的",
           "note": "看到 bitter 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "bread",
+          "kk": "/bread/",
+          "partOfSpeech": "n.",
+          "meaning": "麵包",
+          "note": "看到 bread 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "comfort",
+          "kk": "/comfort/",
+          "partOfSpeech": "n.",
+          "meaning": "舒適",
+          "note": "看到 comfort 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -371,6 +459,17 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my slow English podcast, a podcast to practice your English listening for upper intermediate level.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一個練習中高級英語聽力的podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "do you like",
       "meaning": "你喜歡...嗎",
       "examples": [
@@ -381,24 +480,13 @@
       ]
     },
     {
-      "id": "phrase-02",
+      "id": "phrase-03",
       "phrase": "in the morning",
       "meaning": "在早上",
       "examples": [
         {
-          "en": "In the morning if my dad asked where did all the bread go I would stay quiet my silence made me look guilty of course.",
-          "tc": "早上，如果我爸爸問所有的麵包都去了哪裡，我會保持安靜，我的沉默當然讓我看起來很內疚。"
-        }
-      ]
-    },
-    {
-      "id": "phrase-03",
-      "phrase": "used to",
-      "meaning": "以前曾經",
-      "examples": [
-        {
-          "en": "They can't stand spicy food and I used to agree I used to think spicy food was not enjoyable because it was unbearable to eat.",
-          "tc": "他們無法忍受辛辣的食物，我曾經同意我曾經認為辛辣的食物不令人愉快，因為它難以忍受。"
+          "en": "In the morning if my dad asked where did all the bread go.",
+          "tc": "早上，如果我爸爸問所有的麵包都去了哪裡。"
         }
       ]
     }
@@ -406,49 +494,49 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast a podcast to practice your English listening for upper intermediate level.",
-      "translation": "歡迎回到我的慢速英語播客，這是一​​個練習中高級英語聽力的播客。",
+      "sentence": "Welcome back to my slow English podcast, a podcast to practice your English listening for upper intermediate level.",
+      "translation": "歡迎回到我的慢速英語podcast，這是一個練習中高級英語聽力的podcast。",
       "points": [
         {
-          "label": "welcome back upper",
-          "text": "welcome back upper",
-          "note": "注意 \"welcome back upper\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-02",
-      "sentence": "Today I want to talk to you about my comfort food when I think of my comfort food the.",
-      "translation": "今天，當我想到我的安慰食物時，我想和你們談談我的安慰食物。",
+      "sentence": "I think of my comfort food.",
+      "translation": "我想起了我的安慰食物。",
       "points": [
         {
-          "label": "want talk comfort",
-          "text": "want talk comfort",
-          "note": "注意 \"want talk comfort\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "think comfort food",
+          "text": "think comfort food",
+          "note": "注意 \"think comfort food\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
-      "sentence": "First thing that comes to mind is Flaming Hot Cheetos since.",
-      "translation": "首先想到的是火焰熱奇多。",
+      "sentence": "The first thing that comes to mind is Flaming Hot Cheetos since I was a little girl my sister.",
+      "translation": "我首先想到的是火辣Cheetos，因為我還是個小女孩，我的妹妹。",
       "points": [
         {
-          "label": "first thing comes",
-          "text": "first thing comes",
-          "note": "注意 \"first thing comes\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "comes mind flaming",
+          "text": "comes mind flaming",
+          "note": "注意 \"comes mind flaming\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-04",
-      "sentence": "I was a little girl my sister and I have always enjoyed a big bag of flaming hot Cheetos while watching cartoons or movies together.",
-      "translation": "當我還是個小女孩的時候，我和姐姐一起看動畫片或電影時總是喜歡吃一大袋熱騰騰的奇多。",
+      "sentence": "I have always enjoyed a big bag of flaming hot Cheetos while watching cartoons or movies together.",
+      "translation": "當我一起看動畫片或電影時，我總是喜歡吃一大袋熱騰騰的Cheetos。",
       "points": [
         {
-          "label": "little girl sister",
-          "text": "little girl sister",
-          "note": "注意 \"little girl sister\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "enjoyed big bag",
+          "text": "enjoyed big bag",
+          "note": "注意 \"enjoyed big bag\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

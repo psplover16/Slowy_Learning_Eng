@@ -20,19 +20,19 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "This podcast is for English listening for beginners.",
-          "tc": "此播客適合初學者英語聽力。"
+          "tc": "此podcast適合初學者英語聽力。"
         },
         {
           "en": "Today I will talk about my family my family is very important to me.",
           "tc": "今天我要談談我的家庭，我的家庭對我來說非常重要。"
         },
         {
-          "en": "I am very close to my family I have two siblings.",
-          "tc": "我和我的家人非常親近，我有兩個兄弟姊妹。"
+          "en": "I am very close to my family.",
+          "tc": "我和我的家人非常親近。"
         }
       ],
       "tags": [
@@ -40,7 +40,7 @@
           "english": "family",
           "kk": "/ˈfæməli/",
           "partOfSpeech": "adv.",
-          "meaning": "家人",
+          "meaning": "家人；家庭",
           "note": "看到 family 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
@@ -53,6 +53,10 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
+          "en": "I have two siblings.",
+          "tc": "我有兩個兄弟姊妹。"
+        },
+        {
           "en": "I have one sister and one brother my brother is 15 years old.",
           "tc": "我有一個姊姊和一個弟弟，我弟弟 15 歲。"
         },
@@ -63,10 +67,6 @@
         {
           "en": "He is much taller than me.",
           "tc": "他比我高很多。"
-        },
-        {
-          "en": "He does not look grownup.",
-          "tc": "他看起來並不成熟。"
         }
       ],
       "tags": [
@@ -74,7 +74,7 @@
           "english": "old",
           "kk": "/old/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "老的",
           "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -82,7 +82,7 @@
           "english": "years",
           "kk": "/years/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "年",
           "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -90,7 +90,7 @@
           "english": "brother",
           "kk": "/brother/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "兄弟",
           "note": "看到 brother 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -103,6 +103,10 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
+          "en": "He does not look grownup.",
+          "tc": "他看起來並不成熟。"
+        },
+        {
           "en": "He still looks like a kid a very tall kid my sister is 23 years old.",
           "tc": "他看起來仍然像個孩子，一個很高的孩子，我姐姐23歲了。"
         },
@@ -113,26 +117,14 @@
         {
           "en": "She is also a an English teacher.",
           "tc": "她也是一名英語老師。"
-        },
-        {
-          "en": "She is also taller than me.",
-          "tc": "她也比我高。"
         }
       ],
       "tags": [
         {
-          "english": "she",
-          "kk": "/she/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 she 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "old",
           "kk": "/old/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "老的",
           "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -142,6 +134,14 @@
           "partOfSpeech": "n.",
           "meaning": "老師",
           "note": "看到 teacher 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "years",
+          "kk": "/years/",
+          "partOfSpeech": "n.",
+          "meaning": "年",
+          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -149,9 +149,13 @@
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：旅行",
-      "titleEn": "Part 4: travel",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
+        {
+          "en": "She is also taller than me.",
+          "tc": "她也比我高。"
+        },
         {
           "en": "She likes to travel.",
           "tc": "她喜歡旅行。"
@@ -163,35 +167,15 @@
         {
           "en": "Do you have any siblings?",
           "tc": "你有兄弟姊妹嗎？"
-        },
-        {
-          "en": "They like to do my mom is 42 2 years old.",
-          "tc": "他們喜歡當我媽媽42歲2歲。"
         }
       ],
       "tags": [
         {
-          "english": "she",
-          "kk": "/she/",
+          "english": "games",
+          "kk": "/games/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 she 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "old",
-          "kk": "/old/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "years",
-          "kk": "/years/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "遊戲",
+          "note": "看到 games 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -199,9 +183,13 @@
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：工作與學習",
-      "titleEn": "Part 5: work",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
       "sentences": [
+        {
+          "en": "They like to do my mom is 42 2 years old.",
+          "tc": "他們喜歡當我媽媽42歲2歲。"
+        },
         {
           "en": "She is an English teacher.",
           "tc": "她是一名英語老師。"
@@ -213,19 +201,15 @@
         {
           "en": "He is also an English teacher.",
           "tc": "他也是一名英語老師。"
-        },
-        {
-          "en": "He teaches students in Mexico.",
-          "tc": "他在墨西哥教學生。"
         }
       ],
       "tags": [
         {
-          "english": "she",
-          "kk": "/she/",
+          "english": "old",
+          "kk": "/old/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 she 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "老的",
+          "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
@@ -234,13 +218,13 @@
           "partOfSpeech": "n.",
           "meaning": "老師",
           "note": "看到 teacher 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
           "english": "work",
           "kk": "/work/",
           "partOfSpeech": "v.",
-          "meaning": "工作與學習相關的常用字",
+          "meaning": "工作",
           "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -249,12 +233,16 @@
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：工作與學習",
-      "titleEn": "Part 6: work",
+      "titleZh": "第 6 段：旅行",
+      "titleEn": "Part 6: travel",
       "sentences": [
         {
+          "en": "He teaches students in Mexico.",
+          "tc": "他在墨西哥教學生。"
+        },
+        {
           "en": "What do your parents do for work do your parents work in construction education management or Healthcare?",
-          "tc": "您的父母從事什麼工作 您的父母從事建築教育管理或醫療保健工作？"
+          "tc": "你的父母從事什麼工作 你的父母從事建築教育管理或醫療保健工作？"
         }
       ],
       "tags": [
@@ -262,7 +250,7 @@
           "english": "work",
           "kk": "/work/",
           "partOfSpeech": "v.",
-          "meaning": "工作與學習相關的常用字",
+          "meaning": "工作",
           "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -274,18 +262,10 @@
       "title": "A1 重點單字",
       "items": [
         {
-          "english": "she",
-          "kk": "/she/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 she 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "family",
           "kk": "/ˈfæməli/",
           "partOfSpeech": "adv.",
-          "meaning": "家人",
+          "meaning": "家人；家庭",
           "note": "看到 family 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -293,7 +273,7 @@
           "english": "old",
           "kk": "/old/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "老的",
           "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -303,13 +283,13 @@
           "partOfSpeech": "n.",
           "meaning": "老師",
           "note": "看到 teacher 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
           "english": "work",
           "kk": "/work/",
           "partOfSpeech": "v.",
-          "meaning": "工作與學習相關的常用字",
+          "meaning": "工作",
           "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -317,7 +297,7 @@
           "english": "years",
           "kk": "/years/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "年",
           "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -325,16 +305,24 @@
           "english": "brother",
           "kk": "/brother/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "兄弟",
           "note": "看到 brother 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "does",
-          "kk": "/does/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 does 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "games",
+          "kk": "/games/",
+          "partOfSpeech": "n.",
+          "meaning": "遊戲",
+          "note": "看到 games 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "kid",
+          "kk": "/kid/",
+          "partOfSpeech": "n.",
+          "meaning": "孩子",
+          "note": "看到 kid 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -343,17 +331,28 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "what do you",
-      "meaning": "你會怎麼...",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "What do your parents do for work do your parents work in construction education management or Healthcare?",
-          "tc": "您的父母從事什麼工作 您的父母從事建築教育管理或醫療保健工作？"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
+      "phrase": "what do you",
+      "meaning": "你會怎麼...",
+      "examples": [
+        {
+          "en": "What do your parents do for work do your parents work in construction education management or Healthcare?",
+          "tc": "你的父母從事什麼工作 你的父母從事建築教育管理或醫療保健工作？"
+        }
+      ]
+    },
+    {
+      "id": "phrase-03",
       "phrase": "talk about",
       "meaning": "談論",
       "examples": [
@@ -368,7 +367,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -380,7 +379,7 @@
     {
       "id": "breakdown-02",
       "sentence": "This podcast is for English listening for beginners.",
-      "translation": "此播客適合初學者英語聽力。",
+      "translation": "此podcast適合初學者英語聽力。",
       "points": [
         {
           "label": "everyday English",
@@ -403,13 +402,13 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "I am very close to my family I have two siblings.",
-      "translation": "我和我的家人非常親近，我有兩個兄弟姊妹。",
+      "sentence": "I am very close to my family.",
+      "translation": "我和我的家人非常親近。",
       "points": [
         {
-          "label": "close family two",
-          "text": "close family two",
-          "note": "注意 \"close family two\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "close family",
+          "text": "close family",
+          "note": "注意 \"close family\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

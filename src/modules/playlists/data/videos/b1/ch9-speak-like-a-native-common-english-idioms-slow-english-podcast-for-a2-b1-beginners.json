@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=PUVw_JqA4OI",
   "header": {
     "podcastLabel": "MissHoney B1",
-    "titleZh": "像當地人一樣說話！ 🗣️常見英語慣用語！ -- 適合 A2-B1 初學者的慢速英語播客！",
+    "titleZh": "像當地人一樣說話！ 🗣️常見英語慣用語！ -- 適合 A2-B1 初學者的慢速英語podcast！",
     "titleEn": "Speak like a NATIVE! 🗣️ COMMON English IDIOMS! -- Slow English Podcast for A2-B1 Beginners!",
     "levelTag": "B1",
     "topicTag": "language"
@@ -19,20 +19,20 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast. A podcast for you to learn English in a slow comprehensible way.",
-          "tc": "歡迎回到我的慢速英語播客。一个让您以缓慢可理解的方式学习英语的播客。"
+          "en": "Welcome back to my slow English podcast, a podcast for you to learn English in a slow comprehensible way.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一個讓你以緩慢可理解的方式學習英語的podcast。"
         },
         {
-          "en": "Today I want to talk about essential idioms and phrases in English. The.",
-          "tc": "今天我想谈谈英语中的基本习语和短语。這。"
+          "en": "Today I want to talk about essential idioms and phrases in English.",
+          "tc": "今天我想談談英語中的基本慣用語和短語。"
         },
         {
-          "en": "First idiom is to get a big head.",
+          "en": "The first idiom is to get a big head.",
           "tc": "第一個成語是大頭。"
         },
         {
-          "en": "Sometimes I don't give compliments to my sister because if I told her every day,.",
-          "tc": "有時我不會稱讚我的妹妹，因為如果我每天都告訴她的話，。"
+          "en": "I don't give compliments to my sister because if I told her every day,.",
+          "tc": "我不會讚美我的妹妹，因為如果我每天都告訴她，"
         }
       ],
       "tags": [
@@ -40,7 +40,7 @@
           "english": "big",
           "kk": "/big/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "大的",
           "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -48,17 +48,9 @@
           "english": "get",
           "kk": "/get/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "得到",
           "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "head",
-          "kk": "/head/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 head 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
@@ -90,7 +82,7 @@
           "english": "big",
           "kk": "/big/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "大的",
           "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -98,17 +90,9 @@
           "english": "get",
           "kk": "/get/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "得到",
           "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "head",
-          "kk": "/head/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 head 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
@@ -127,8 +111,8 @@
           "tc": "他們的行為就像。"
         },
         {
-          "en": "They're better than everyone else. I.",
-          "tc": "他們比其他人都好。我。"
+          "en": "They're better than everyone else.",
+          "tc": "他們比其他人都好。"
         },
         {
           "en": "I read my comments on YouTube, all of the beautiful comments boost my ego.",
@@ -140,25 +124,9 @@
           "english": "big",
           "kk": "/big/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "大的",
           "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "head",
-          "kk": "/head/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 head 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "ego",
-          "kk": "/ego/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 ego 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
@@ -169,12 +137,12 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "I get a big head, but I try not to get a big head. And I'm just happy that my followers enjoy my videos.",
-          "tc": "我的頭很大，但我盡量不讓自己頭大。我很高興我的粉絲喜歡我的影片。"
+          "en": "I get a big head, but I try not to get a big head.",
+          "tc": "我的頭很大，但我盡量不讓自己頭大。"
         },
         {
-          "en": "You have to be careful with idioms because you can't just translate from your language to English. it won't make any sense.",
-          "tc": "你必須小心習慣用語，因為你不能只是從你的語言翻譯成英文。這沒有任何意義。"
+          "en": "I'm just happy that my followers enjoy my videos. You have to be careful with idioms because you can't just translate from your language to English. It won't make any sense.",
+          "tc": "我很高興我的粉絲喜歡我的影片。你必須小心習慣用語，因為你不能只是從你的語言翻譯成英文。這沒有任何意義。"
         },
         {
           "en": "Would you translate it? Another common idiom is cold feet. Just like that. Cold feet?",
@@ -190,7 +158,7 @@
           "english": "big",
           "kk": "/big/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "大的",
           "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -198,7 +166,7 @@
           "english": "get",
           "kk": "/get/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "得到",
           "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -206,9 +174,9 @@
           "english": "cold",
           "kk": "/cold/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "寒冷的",
           "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         }
       ]
     },
@@ -220,7 +188,7 @@
       "sentences": [
         {
           "en": "If you have an important job interview or maybe a presentation, you might get cold feet and not go because you're too nervous. The other day.",
-          "tc": "如果您有一個重要的工作面試或可能是一個演示，您可能會臨陣退縮，因為太緊張而不會去。日前。"
+          "tc": "如果你有一個重要的工作面試或可能是一個演示，你可能會臨陣退縮，因為太緊張而不會去。日前。"
         },
         {
           "en": "I was at the beach and the waves were massive. You could hear them crashing onto the shore.",
@@ -240,7 +208,7 @@
           "english": "get",
           "kk": "/get/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "得到",
           "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -248,15 +216,15 @@
           "english": "cold",
           "kk": "/cold/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "寒冷的",
           "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
           "english": "feet",
           "kk": "/feet/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "腳",
           "note": "看到 feet 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -273,16 +241,16 @@
           "tc": "我們很緊張，。"
         },
         {
-          "en": "Then, as soon as I got in the ocean, I remembered a scary experience in the ocean.",
-          "tc": "然後，一到海裡，我就想起了在海裡的一次可怕的經歷。"
+          "en": "As soon as.",
+          "tc": "立刻。"
         },
         {
-          "en": "I got cold feet. I decided not to go in. I was too nervous. My friend said, \"Oh no,.",
-          "tc": "我臨陣退縮了。我決定不進去了，我太緊張了。我的朋友說：「哦，不，。"
+          "en": "I got in the ocean, I remembered a scary experience in the ocean.",
+          "tc": "我到了海裡，我想起了在海裡的一次可怕的經歷。"
         },
         {
-          "en": "You got cold feet.\" And I said, \"Yeah, it's too scary.\" Have.",
-          "tc": "你臨陣退縮了。 」我說，「是的，這太可怕了。 」有。"
+          "en": "I got cold feet. I decided not to go in. I was too nervous. My friend said, \"Oh no, you got cold feet.\"",
+          "tc": "我臨陣退縮了。我決定不進去了，我太緊張了。我的朋友說：“哦，不，你臨陣退縮了。”"
         }
       ],
       "tags": [
@@ -290,25 +258,445 @@
           "english": "cold",
           "kk": "/cold/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "寒冷的",
           "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
           "english": "feet",
           "kk": "/feet/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "腳",
           "note": "看到 feet 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "I said, \"Yeah, it's too scary.\"",
+          "tc": "我說：“是啊，太可怕了。”"
+        },
+        {
+          "en": "Have you ever gotten cold feet before doing something scary or important?",
+          "tc": "在做一些可怕或重要的事情之前，你是否曾經臨陣退縮？"
+        },
+        {
+          "en": "Do you know that feeling when you want to practice speaking everything you've learned, but your brain just says, \"Nope.\" It happens to me?",
+          "tc": "你知道那種感覺嗎？當你想練習說出你學到的所有東西，但你的大腦只是說：「不」。它發生在我身上嗎？"
+        },
+        {
+          "en": "I get cold feet when it comes to speaking a new language.",
+          "tc": "當談到說一門新語言時，我會臨陣退縮。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "cold",
+          "kk": "/cold/",
+          "partOfSpeech": "n.",
+          "meaning": "寒冷的",
+          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "nervous",
-          "kk": "/nervous/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 nervous 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "feet",
+          "kk": "/feet/",
+          "partOfSpeech": "n.",
+          "meaning": "腳",
+          "note": "看到 feet 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "They contacted me for a collaboration. Italki is a website that.",
+          "tc": "他們聯絡我尋求合作。 Italki 是一個網站。"
+        },
+        {
+          "en": "I have used in the past.",
+          "tc": "我過去用過。"
+        },
+        {
+          "en": "I love recommending it to my friends and family who are looking for ways to improve their listening and speaking with real conversations. Italki is an online language learning platform offering personalized.",
+          "tc": "我喜歡向我的朋友和家人推薦它，他們正在尋找透過真實對話來提高聽力和口語的方法。 Italki 是一個提供個人化服務的線上語言學習平台。"
+        },
+        {
+          "en": "One- on-one lessons with nativeeaking teachers where you can find teachers just like me. Friendly nativepeaking teachers from around the world.",
+          "tc": "與本地老師進行一對一課程，你可以找到像我一樣的老師。來自世界各地的友善母語教師。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：工作與學習",
+      "titleEn": "Part 9: work",
+      "sentences": [
+        {
+          "en": "Where you receive real time feedback and guidance from language experts. You can book one- on-one lessons with a teacher who helps?",
+          "tc": "你可以在這裡收到語言專家的即時回饋和指導。你可以與有幫助的老師一起預訂一對一的課程嗎？"
+        },
+        {
+          "en": "You feel safe and confident and slowly speaking gets easier. Hey. Hi. Hey. Nice to meet you.",
+          "tc": "你會感到安全和自信，慢慢地說話也會變得更容易。嘿。你好。嘿。很高興見到你。"
+        },
+        {
+          "en": "Are you? This one will pronounce it. Here. Say Gim Jim. Try it. Uhhuh. Okay?",
+          "tc": "你是？這個會發音。這裡。說吉姆吉姆。嘗試一下。嗯嗯。好的？"
+        },
+        {
+          "en": "You don't need to be perfect. You just need to practice out loud and Itaki gives.",
+          "tc": "你不需要完美。你只需要大聲練習，Itaki 就會給出。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "You the perfect space to do that with someone who is kind and patient. Italki helps.",
+          "tc": "你是與善良耐心的人一起做這件事的完美空間。 Italki 有幫助。"
+        },
+        {
+          "en": "You practice the most important part of learning a new language speaking and the italki plus AI learning tool can help.",
+          "tc": "你練習學習新語言最重要的部分，italki plus AI 學習工具可以提供協助。"
+        },
+        {
+          "en": "You learn even faster. It's an optional feature that includes lesson summaries.",
+          "tc": "你學得更快。這是一項可選功能，包括課程摘要。"
+        },
+        {
+          "en": "You can try out one month free trial to review the most important parts of your lesson. Personalized homework and practice and progress tracking to help.",
+          "tc": "你可以免費試用一個月，以複習課程中最重要的部分。個人化的作業和練習以及進度追蹤提供協助。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：語言學習",
+      "titleEn": "Part 11: language",
+      "sentences": [
+        {
+          "en": "You stay consistent and improve faster. Getting AI generated feedback and tracking your progress from beginning to end. So, if speaking is the scariest part of learning a new language for you,.",
+          "tc": "你保持一致並提高得更快。獲取人工智慧產生的回饋並從頭到尾追蹤你的進度。所以，如果口語對你來說是學習新語言最可怕的部分，那麼。"
+        },
+        {
+          "en": "Then italkie can really help. Click through the link below to start your language learning journey. Buy 10 and get five for free using my exclusive promo code Mestra 5. This discount.",
+          "tc": "那麼 italkie 確實可以提供協助。點擊下面的連結開始你的語言學習之旅。使用我的獨家促銷代碼 Mestra 5 買 10 件，免費送 5 件。此折扣。"
+        },
+        {
+          "en": "The first 50 users only. Now, another common idiom is to throw someone under the bus. It's a crazy idiom,.",
+          "tc": "僅限前 50 位使用者。現在，另一個常見的習慣用語是把某人丟到公車底下。這是一個瘋狂的成語。"
+        },
+        {
+          "en": "When you throw someone under the bus, you basically blame them or betray them?",
+          "tc": "當你把某人扔到公共汽車下時，你基本上是責怪他們還是背叛他們？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "bus",
+          "kk": "/bʌs/",
+          "partOfSpeech": "n.",
+          "meaning": "公車",
+          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "under",
+          "kk": "/under/",
+          "partOfSpeech": "n.",
+          "meaning": "在下面",
+          "note": "看到 under 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "You do it to save yourself only.",
+          "tc": "你這樣做只是為了拯救自己。"
+        },
+        {
+          "en": "I have thrown people under the bus before,.",
+          "tc": "我以前曾把人丟到公共汽車下。"
+        },
+        {
+          "en": "I've also been thrown under the bus myself. I was thrown under the bus by my sister once. One time.",
+          "tc": "我自己也曾被丟到公共汽車下。有一次我被姊姊丟到公車底下。一度。"
+        },
+        {
+          "en": "I said, \"M, I could really go for a big bag of Cheetos and a big tub of ice cream.\" Not just any ice cream, but cookies and cream ice cream.",
+          "tc": "我說：「M，我真的可以買一大袋Cheetos和一大桶冰淇淋。」不只是冰淇淋，還有餅乾和奶油冰淇淋。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "big",
+          "kk": "/big/",
+          "partOfSpeech": "n.",
+          "meaning": "大的",
+          "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "bus",
+          "kk": "/bʌs/",
+          "partOfSpeech": "n.",
+          "meaning": "公車",
+          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "under",
+          "kk": "/under/",
+          "partOfSpeech": "n.",
+          "meaning": "在下面",
+          "note": "看到 under 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "We have one in the freezer downstairs. My sister smiled mischievously and said, \"Me, too.\"",
+          "tc": "我們樓下的冰箱裡有一份。姐姐調皮地笑了笑，說：“我也是。”"
+        },
+        {
+          "en": "We both went downstairs to the kitchen.",
+          "tc": "我們倆下樓去了廚房。"
+        },
+        {
+          "en": "We ate the whole bag of Cheetos and ice cream. When my mom got back home,.",
+          "tc": "我們吃了整袋Cheetos和冰淇淋。當我媽媽回到家時，。"
+        },
+        {
+          "en": "She asked, \"Who ate the Cheetos and the big tub of cookies and cream ice cream?\" My sister threw me under the bus and said, \"Tyiana did it.\"",
+          "tc": "她問道：“誰吃了Cheetos、一大桶餅乾和奶油冰淇淋？”我姐姐把我扔到公共汽車下並說：“是蒂亞娜幹的。”"
+        }
+      ],
+      "tags": [
+        {
+          "english": "big",
+          "kk": "/big/",
+          "partOfSpeech": "n.",
+          "meaning": "大的",
+          "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "bus",
+          "kk": "/bʌs/",
+          "partOfSpeech": "n.",
+          "meaning": "公車",
+          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "under",
+          "kk": "/under/",
+          "partOfSpeech": "n.",
+          "meaning": "在下面",
+          "note": "看到 under 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常生活",
+      "titleEn": "Part 14: everyday life",
+      "sentences": [
+        {
+          "en": "I said, \"No,.",
+          "tc": "我說：「不，。"
+        },
+        {
+          "en": "She did it.\"",
+          "tc": "她做到了。 」"
+        },
+        {
+          "en": "We just went back and forth throwing each other under the bus mutually after that. I assume my mom knew.",
+          "tc": "之後我們就互相把對方丟到公車底下。我想我媽媽知道。"
+        },
+        {
+          "en": "It was both of us.",
+          "tc": "是我們兩個。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "bus",
+          "kk": "/bʌs/",
+          "partOfSpeech": "n.",
+          "meaning": "公車",
+          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "under",
+          "kk": "/under/",
+          "partOfSpeech": "n.",
+          "meaning": "在下面",
+          "note": "看到 under 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "She punished both of us. Our punishment was that.",
+          "tc": "她懲罰了我們倆。我們的懲罰就是這樣。"
+        },
+        {
+          "en": "We couldn't watch TV in the basement for two weeks, which.",
+          "tc": "我們已經兩個禮拜不能在地下室看電視了。"
+        },
+        {
+          "en": "I think is a fair punishment.",
+          "tc": "我認為這是一個公平的懲罰。"
+        },
+        {
+          "en": "Have you ever been thrown under the bus by a friend or a sibling or a cousin?",
+          "tc": "你是否曾被朋友、兄弟姊妹或表兄弟丟到公車底下？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "bus",
+          "kk": "/bʌs/",
+          "partOfSpeech": "n.",
+          "meaning": "公車",
+          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "under",
+          "kk": "/under/",
+          "partOfSpeech": "n.",
+          "meaning": "在下面",
+          "note": "看到 under 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：日常生活",
+      "titleEn": "Part 16: everyday life",
+      "sentences": [
+        {
+          "en": "Tell me what happened.",
+          "tc": "告訴我發生了什麼事。"
+        },
+        {
+          "en": "What did you do?",
+          "tc": "你做了什麼？"
+        },
+        {
+          "en": "What did you not do? Another common idiom is to blow off steam. Blow off steam. To blow off steam is to do something that releases stress or tension, that gets rid?",
+          "tc": "你没有做什么？另一個常見的習慣用語是發洩蒸氣。吐气。發洩蒸汽是指做一些可以釋放壓力或緊張的事情，從而擺脫困境？"
+        },
+        {
+          "en": "Of stress and relaxes you. This one really resonates with me.",
+          "tc": "緩解壓力並讓你放鬆。這一點確實引起了我的共鳴。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -321,7 +709,7 @@
           "english": "big",
           "kk": "/big/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "大的",
           "note": "看到 big 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -329,56 +717,56 @@
           "english": "get",
           "kk": "/get/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "得到",
           "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "bus",
+          "kk": "/bʌs/",
+          "partOfSpeech": "n.",
+          "meaning": "公車",
+          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "cold",
           "kk": "/cold/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "寒冷的",
           "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
           "english": "feet",
           "kk": "/feet/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "腳",
           "note": "看到 feet 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "head",
-          "kk": "/head/",
+          "english": "under",
+          "kk": "/under/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 head 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "在下面",
+          "note": "看到 under 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "nervous",
-          "kk": "/nervous/",
-          "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 nervous 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "cream",
+          "kk": "/cream/",
+          "partOfSpeech": "n.",
+          "meaning": "奶油",
+          "note": "看到 cream 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "too",
-          "kk": "/too/",
+          "english": "language",
+          "kk": "/ˈlæŋɡwɪdʒ/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 too 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "ego",
-          "kk": "/ego/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 ego 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "語言",
+          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -387,34 +775,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "Today I want to talk about essential idioms and phrases in English.",
-          "tc": "今天我想談談英語中的基本慣用語和短語。"
+          "en": "Welcome back to my slow English podcast, a podcast for you to learn English in a slow comprehensible way.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一個讓你以緩慢可理解的方式學習英語的podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "have to",
-      "meaning": "常用說法，可用來表達「have to」這個意思",
+      "phrase": "what did",
+      "meaning": "用來詢問過去發生了什麼",
       "examples": [
         {
-          "en": "You have to be careful with idioms because you can't just translate from your language to English.",
-          "tc": "你必須小心習慣用語，因為你不能只是從你的語言翻譯成英文。"
+          "en": "What did you do?",
+          "tc": "你做了什麼？"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "talk about",
-      "meaning": "談論",
+      "phrase": "have you ever",
+      "meaning": "你曾經有沒有",
       "examples": [
         {
-          "en": "Today I want to talk about essential idioms and phrases in English.",
-          "tc": "今天我想談談英語中的基本慣用語和短語。"
+          "en": "My friend said, \"Oh no, you got cold feet.\" I said, \"Yeah, it's too scary.\" Have you ever gotten cold feet before doing something scary or important?",
+          "tc": "我的朋友說：「哦，不，你臨陣退縮了。」我說：「是啊，太可怕了。」在做一些可怕或重要的事情之前，你是否曾經臨陣退縮？"
         }
       ]
     }
@@ -422,49 +810,49 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast. A podcast for you to learn English in a slow comprehensible way.",
-      "translation": "歡迎回到我的慢速英語播客。一个让您以缓慢可理解的方式学习英语的播客。",
+      "sentence": "Welcome back to my slow English podcast, a podcast for you to learn English in a slow comprehensible way.",
+      "translation": "歡迎回到我的慢速英語podcast，這是一個讓你以緩慢可理解的方式學習英語的podcast。",
       "points": [
         {
-          "label": "welcome back way",
-          "text": "welcome back way",
-          "note": "注意 \"welcome back way\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-02",
-      "sentence": "Today I want to talk about essential idioms and phrases in English. The.",
-      "translation": "今天我想谈谈英语中的基本习语和短语。這。",
+      "sentence": "Today I want to talk about essential idioms and phrases in English.",
+      "translation": "今天我想談談英語中的基本慣用語和短語。",
       "points": [
         {
-          "label": "want to",
-          "text": "want to",
-          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "want talk essential",
+          "text": "want talk essential",
+          "note": "注意 \"want talk essential\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
-      "sentence": "First idiom is to get a big head.",
+      "sentence": "The first idiom is to get a big head.",
       "translation": "第一個成語是大頭。",
       "points": [
         {
-          "label": "first idiom get",
-          "text": "first idiom get",
-          "note": "注意 \"first idiom get\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "idiom get big",
+          "text": "idiom get big",
+          "note": "注意 \"idiom get big\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-04",
-      "sentence": "Sometimes I don't give compliments to my sister because if I told her every day,.",
-      "translation": "有時我不會稱讚我的妹妹，因為如果我每天都告訴她的話，。",
+      "sentence": "I don't give compliments to my sister because if I told her every day,.",
+      "translation": "我不會讚美我的妹妹，因為如果我每天都告訴她，",
       "points": [
         {
-          "label": "sometimes don't give",
-          "text": "sometimes don't give",
-          "note": "注意 \"sometimes don't give\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "don't give compliments",
+          "text": "don't give compliments",
+          "note": "注意 \"don't give compliments\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

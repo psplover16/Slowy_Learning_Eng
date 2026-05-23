@@ -20,29 +20,29 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "This podcast is for beginner listeners.",
-          "tc": "此播客適合初學者聽眾。"
+          "tc": "此podcast適合初學者聽眾。"
         },
         {
           "en": "Today I want to show you some common English phrases essential for having a conversation with a native English speaker.",
-          "tc": "今天我想向您展示一些與英語為母語的人進行對話所必需的常見英語短語。"
+          "tc": "今天我想向你展示一些與英語為母語的人進行對話所必需的常見英語短語。"
         },
         {
-          "en": "I will say say the word once fast once slow and once with hand gesture explanations hey there hey there long time no see long time no sea nice to meet.",
+          "en": "I will say the word once fast once slow and once with hand gesture explanations hey there hey there long time no see long time no sea nice to meet.",
           "tc": "我會說這個詞一次快，一次慢，一次用手勢解釋嘿那裡嘿那裡好久不見海很高興見到。"
         }
       ],
       "tags": [
         {
-          "english": "say",
-          "kk": "/say/",
+          "english": "time",
+          "kk": "/time/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -71,27 +71,19 @@
       ],
       "tags": [
         {
-          "english": "how's",
-          "kk": "/how's/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 how's 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
           "english": "not",
           "kk": "/not/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "不是",
           "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "how's",
+          "kk": "/how's/",
+          "partOfSpeech": "n.",
+          "meaning": "怎麼樣",
+          "note": "看到 how's 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -107,16 +99,16 @@
           "tc": "你的工作是做什麼的 你這一天過得怎麼樣 你這一天過得怎麼樣？"
         },
         {
-          "en": "What what have you been doing that's interesting that's interesting no way no way?",
-          "tc": "你做了什麼有趣的事情，絕對有趣的事情？"
+          "en": "What have you been doing that's interesting that's interesting no way no way?",
+          "tc": "你一直在做什麼有趣的事？"
         },
         {
           "en": "I can't believe it oh that's cool oh that's cool really that's awesome really that's awesome that's cool.",
           "tc": "我簡直不敢相信，哦，那太酷了，哦，那太酷了，真的，太棒了，真的，太棒了，太酷了。"
         },
         {
-          "en": "I had no idea I had no idea no clue that's insane that's crazy.",
-          "tc": "我不知道我不知道我不知道這太瘋狂了。"
+          "en": "I had no idea.",
+          "tc": "我不知道。"
         }
       ],
       "tags": [
@@ -124,7 +116,7 @@
           "english": "that's",
           "kk": "/that's/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "那是",
           "note": "看到 that's 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -132,16 +124,8 @@
           "english": "how's",
           "kk": "/how's/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "怎麼樣",
           "note": "看到 how's 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -153,38 +137,30 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "I know right I know right could you please say that again could.",
-          "tc": "我知道對，我知道對，你能再說一次嗎？"
-        },
-        {
-          "en": "You please say that again.",
-          "tc": "請你再說一次。"
+          "en": "I had no idea no clue that's insane that's crazy I know right I know right could you please say that again could you please say that again.",
+          "tc": "我不知道，沒有任何線索，這太瘋狂了，太瘋狂了，我知道對，我知道對，你能再說一遍嗎？"
         },
         {
           "en": "Can you repeat that please?",
-          "tc": "您能重複一下嗎？"
+          "tc": "你能重複一下嗎？"
         },
         {
           "en": "Can you speak more slowly please?",
           "tc": "你能說慢一點嗎？"
+        },
+        {
+          "en": "What do you mean?",
+          "tc": "你是什麼意思？"
         }
       ],
       "tags": [
         {
-          "english": "say",
-          "kk": "/say/",
+          "english": "that's",
+          "kk": "/that's/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "那是",
+          "note": "看到 that's 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "please",
-          "kk": "/please/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 please 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
@@ -195,46 +171,30 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "What do you mean?",
-          "tc": "你是什​​麼意思？"
-        },
-        {
-          "en": "What do you mean I don't get it I don't get it?",
-          "tc": "我不明白我不明白是什麼意思？"
+          "en": "I don't get it.",
+          "tc": "我不明白。"
         },
         {
           "en": "How do you say this in English?",
           "tc": "這句話用英語怎麼說？"
         },
         {
-          "en": "How do you say say this in English to agree or disagree?",
-          "tc": "同意或不同意用英語怎麼說？"
+          "en": "How do you say this in English to agree or disagree I totally agree?",
+          "tc": "同意或不同意 我完全同意 用英語怎麼說？"
+        },
+        {
+          "en": "You mean I see what you mean.",
+          "tc": "你的意思是我明白你的意思了。"
         }
       ],
       "tags": [
         {
-          "english": "say",
-          "kk": "/say/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "don't",
           "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "不",
           "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "mean",
-          "kk": "/mean/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 mean 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         }
       ]
     },
@@ -245,16 +205,16 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "I totally agree I totally agree that makes sense that makes sense.",
-          "tc": "我完全同意我完全同意這是有道理的。"
+          "en": "I'm not so sure about that.",
+          "tc": "我對此不太確定。"
         },
         {
-          "en": "I see what you mean I see what you mean I'm not so sure about that I'm not so sure about that.",
-          "tc": "我明白你的意思 我明白你的意思 我不太確定 我對此不太確定。"
+          "en": "I don't think.",
+          "tc": "我不認為。"
         },
         {
-          "en": "I don't think so I don't think so exactly totally yeah.",
-          "tc": "我不這麼認為 我不這麼認為 完全是的。"
+          "en": "I don't think so exactly totally yeah.",
+          "tc": "我不這麼認為完全是的。"
         },
         {
           "en": "I get you yeah.",
@@ -263,27 +223,311 @@
       ],
       "tags": [
         {
+          "english": "not",
+          "kk": "/not/",
+          "partOfSpeech": "n.",
+          "meaning": "不是",
+          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "don't",
           "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "不",
           "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
-          "english": "mean",
-          "kk": "/mean/",
+          "english": "i'm",
+          "kk": "/i'm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 mean 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "I get you.",
+          "tc": "我明白你了。"
+        },
+        {
+          "en": "I don't know about that.",
+          "tc": "我對此一無所知。"
+        },
+        {
+          "en": "I'm not sure H.",
+          "tc": "我不確定H。"
+        },
+        {
+          "en": "I'm not sure.",
+          "tc": "我不知道。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "not",
+          "kk": "/not/",
+          "partOfSpeech": "n.",
+          "meaning": "不是",
+          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "i'm",
+          "kk": "/i'm/",
+          "partOfSpeech": "n.",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "I'm not sure now to say your opinion or feeling in my opinion in my opinion.",
+          "tc": "我現在不確定是否要說出你的看法或我的看法的感受。"
+        },
+        {
+          "en": "I think that's a great idea.",
+          "tc": "我認為這是個好主意。"
+        },
+        {
+          "en": "I feel the same way.",
+          "tc": "我也有同樣的感覺。"
+        },
+        {
+          "en": "I feel the same way I agree to be honest.",
+          "tc": "我也有同樣的感覺，我同意誠實。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "that's",
+          "kk": "/that's/",
+          "partOfSpeech": "n.",
+          "meaning": "那是",
+          "note": "看到 that's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
           "english": "not",
           "kk": "/not/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "不是",
           "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "i'm",
+          "kk": "/i'm/",
+          "partOfSpeech": "n.",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "I don't like it to be honest.",
+          "tc": "說實話我不喜歡這樣。"
+        },
+        {
+          "en": "I don't like it that's awesome that's awesome.",
+          "tc": "我不喜歡那太棒了那太棒了。"
+        },
+        {
+          "en": "Are you free this weekend?",
+          "tc": "這個週末你有空嗎？"
+        },
+        {
+          "en": "Are you free this weekend want to go grab a coffee want to go grab a coffee or for shorter?",
+          "tc": "你這個週末有空嗎？想去喝杯咖啡嗎？想去喝杯咖啡還是短暫喝杯咖啡？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "that's",
+          "kk": "/that's/",
+          "partOfSpeech": "n.",
+          "meaning": "那是",
+          "note": "看到 that's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "You can say wna want to grab a coffee W to hang out W to hang out let's catch up soon let's catch up soon let's catch up soon.",
+          "tc": "你可以說我想喝杯咖啡 W 出去玩 W 出去玩 Let's catch up fast let's catch up Soon let's catch up Soon。"
+        },
+        {
+          "en": "What are you up to later?",
+          "tc": "稍後你要做什麼？"
+        },
+        {
+          "en": "What are you up to later let's do it sounds good let's do it sounds good let's do it sounds good let's hang out some time let's hang out some time let's?",
+          "tc": "你稍後要做什麼 讓我們一起做吧 聽起來不錯 讓我們一起做吧 聽起來不錯 讓我們一起出去玩吧 讓我們一起出去玩吧？"
+        },
+        {
+          "en": "Hang out sometime see you.",
+          "tc": "有時間出去玩看看你。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "let's",
+          "kk": "/let's/",
+          "partOfSpeech": "n.",
+          "meaning": "讓我們",
+          "note": "看到 let's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "Then see you.",
+          "tc": "然後再見。"
+        },
+        {
+          "en": "Then maybe another time maybe another time I can't today maybe another time.",
+          "tc": "然後也許下次也許另一個時間我今天不能也許另一個時間。"
+        },
+        {
+          "en": "If you don't like something you can say it's not my cup of tea it's not my cup of tea it's not my cup of tea.",
+          "tc": "如果你不喜歡某樣東西，你可以說這不是我的那杯茶，這不是我的那杯茶，這不是我的那杯茶。"
+        },
+        {
+          "en": "I'm not a big fan of that.",
+          "tc": "我不太喜歡這個。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "not",
+          "kk": "/not/",
+          "partOfSpeech": "n.",
+          "meaning": "不是",
+          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "I don't really like that now.",
+          "tc": "我現在不太喜歡這樣。"
+        },
+        {
+          "en": "If you don't know.",
+          "tc": "如果你不知道。"
+        },
+        {
+          "en": "I'm not sure let me think about it let me think about it instead of let me you can say Let me let me think about it beats me Beats me.",
+          "tc": "我不確定讓我考慮一下讓我考慮一下而不是讓我你可以說讓我讓我考慮一下打敗我打敗我。"
+        },
+        {
+          "en": "I don't know beats me I'll get back to you on that I'll get back to you on that.",
+          "tc": "我不知道我會不會回你，我會回你。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "not",
+          "kk": "/not/",
+          "partOfSpeech": "n.",
+          "meaning": "不是",
+          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "i'm",
+          "kk": "/i'm/",
+          "partOfSpeech": "n.",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -297,64 +541,64 @@
           "english": "that's",
           "kk": "/that's/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "那是",
           "note": "看到 that's 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "say",
-          "kk": "/say/",
+          "english": "not",
+          "kk": "/not/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "how's",
-          "kk": "/how's/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 how's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "不是",
+          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "don't",
           "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "不",
           "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "let's",
+          "kk": "/let's/",
+          "partOfSpeech": "n.",
+          "meaning": "讓我們",
+          "note": "看到 let's 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "going",
-          "kk": "/going/",
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "how's",
+          "kk": "/how's/",
+          "partOfSpeech": "n.",
+          "meaning": "怎麼樣",
+          "note": "看到 how's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "i'm",
+          "kk": "/i'm/",
+          "partOfSpeech": "n.",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "mean",
-          "kk": "/mean/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 mean 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "not",
-          "kk": "/not/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "please",
-          "kk": "/please/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 please 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -363,8 +607,19 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "what do you",
-      "meaning": "你會怎麼...",
+      "meaning": "你是什麼",
       "examples": [
         {
           "en": "What do you do for a living?",
@@ -373,24 +628,13 @@
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
-      "examples": [
-        {
-          "en": "Today I want to show you some common English phrases essential for having a conversation with a native English speaker.",
-          "tc": "今天我想向您展示一些與英語為母語的人進行對話所必需的常見英語短語。"
-        }
-      ]
-    },
-    {
       "id": "phrase-03",
-      "phrase": "i want",
-      "meaning": "常用說法，可用來表達「i want」這個意思",
+      "phrase": "want to",
+      "meaning": "想要",
       "examples": [
         {
           "en": "Today I want to show you some common English phrases essential for having a conversation with a native English speaker.",
-          "tc": "今天我想向您展示一些與英語為母語的人進行對話所必需的常見英語短語。"
+          "tc": "今天我想向你展示一些與英語為母語的人進行對話所必需的常見英語短語。"
         }
       ]
     }
@@ -399,7 +643,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -411,7 +655,7 @@
     {
       "id": "breakdown-02",
       "sentence": "This podcast is for beginner listeners.",
-      "translation": "此播客適合初學者聽眾。",
+      "translation": "此podcast適合初學者聽眾。",
       "points": [
         {
           "label": "listeners",
@@ -423,7 +667,7 @@
     {
       "id": "breakdown-03",
       "sentence": "Today I want to show you some common English phrases essential for having a conversation with a native English speaker.",
-      "translation": "今天我想向您展示一些與英語為母語的人進行對話所必需的常見英語短語。",
+      "translation": "今天我想向你展示一些與英語為母語的人進行對話所必需的常見英語短語。",
       "points": [
         {
           "label": "want to",
@@ -434,13 +678,13 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "I will say say the word once fast once slow and once with hand gesture explanations hey there hey there long time no see long time no sea nice to meet.",
+      "sentence": "I will say the word once fast once slow and once with hand gesture explanations hey there hey there long time no see long time no sea nice to meet.",
       "translation": "我會說這個詞一次快，一次慢，一次用手勢解釋嘿那裡嘿那裡好久不見海很高興見到。",
       "points": [
         {
-          "label": "say say word",
-          "text": "say say word",
-          "note": "注意 \"say say word\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "word fast hand",
+          "text": "word fast hand",
+          "note": "注意 \"word fast hand\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

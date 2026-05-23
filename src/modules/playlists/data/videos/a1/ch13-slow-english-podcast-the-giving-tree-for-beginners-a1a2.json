@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=D-NNZadsYY4",
   "header": {
     "podcastLabel": "MissHoney A1",
-    "titleZh": "慢速英語播客 - 初學者的捐贈樹 (A1–A2)",
+    "titleZh": "慢速英語podcast - 初學者的捐贈樹 (A1–A2)",
     "titleEn": "Slow English Podcast - The Giving Tree for Beginners (A1–A2)",
     "levelTag": "A1",
     "topicTag": "language"
@@ -19,12 +19,12 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Welcome back to my Slow English podcast. Today.",
-          "tc": "歡迎回到我的慢速英語播客。今天。"
+          "en": "Welcome back to my Slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
-          "en": "My favorite books. It's called The Giving Tree. Read slowly with me. The Giving Tree. Once there was.",
-          "tc": "我最喜歡的書。這就是所謂的「捐贈樹」。跟我一起慢慢讀。捐贈樹。曾經有過。"
+          "en": "My favorite books. It's called The Giving Tree. Read slowly with me. The Giving Tree. Once there was a tree.",
+          "tc": "我最喜歡的書。這就是所謂的「捐贈樹」。跟我一起慢慢讀。捐贈樹。從前有一棵樹。"
         },
         {
           "en": "She loved a little boy. And every day the boy would come.",
@@ -40,7 +40,7 @@
           "english": "tree",
           "kk": "/tree/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "樹",
           "note": "看到 tree 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -48,16 +48,16 @@
           "english": "boy",
           "kk": "/boy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "男生",
           "note": "看到 boy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "her",
-          "kk": "/her/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 her 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "giving",
+          "kk": "/giving/",
+          "partOfSpeech": "v.",
+          "meaning": "給予",
+          "note": "看到 giving 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -77,12 +77,12 @@
           "tc": "他累了，。"
         },
         {
-          "en": "He would sleep in her shade. And the boy loved the tree very much. And the tree was.",
-          "tc": "他會睡在她的樹蔭下。男孩非常喜歡這棵樹。那棵樹也是。"
+          "en": "He would sleep in her shade. And the boy loved the tree very much. And the tree was happy. But time went by and the boy grew older and the tree was.",
+          "tc": "他會睡在她的樹蔭下。男孩非常喜歡這棵樹。樹很高興。但隨著時間的流逝，男孩長大了，樹也長大了。"
         },
         {
-          "en": "Happy. But time went by and the boy grew older and the tree was often alone.",
-          "tc": "快樂的。但隨著時間的推移，男孩漸漸長大，樹木也常常孤零零地落入其中。"
+          "en": "My shade. And be happy.",
+          "tc": "我的影子。並保持快樂。"
         }
       ],
       "tags": [
@@ -90,7 +90,7 @@
           "english": "tree",
           "kk": "/tree/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "樹",
           "note": "看到 tree 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -98,17 +98,17 @@
           "english": "boy",
           "kk": "/boy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "男生",
           "note": "看到 boy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "climb",
-          "kk": "/climb/",
+          "english": "happy",
+          "kk": "/happy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 climb 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "快樂的",
+          "note": "看到 happy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
@@ -119,46 +119,46 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "Then one day the boy came to the tree and the tree said, \"Come boy, come and climb.",
-          "tc": "有一天，男孩來到樹前，樹說：「來吧，孩子，來爬吧。"
-        },
-        {
-          "en": "Up my trunk and swing from my branches and eat apples and play in my shade. and be.",
-          "tc": "爬上我的樹幹，在樹枝上盪鞦韆，吃蘋果，在我的樹蔭下玩耍。並成為。"
-        },
-        {
           "en": "I am too big to climb and play, said the boy.",
           "tc": "「我太大了，無法攀爬和玩耍，」男孩說。"
         },
         {
           "en": "I want to buy things and have fun.",
           "tc": "我想買東西並玩得開心。"
+        },
+        {
+          "en": "I want some money.",
+          "tc": "我想要一些錢。"
+        },
+        {
+          "en": "Can you give me some money?",
+          "tc": "你能給我一些錢嗎？"
         }
       ],
       "tags": [
         {
-          "english": "tree",
-          "kk": "/tree/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 tree 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "boy",
           "kk": "/boy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "男生",
           "note": "看到 boy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "said",
-          "kk": "/said/",
+          "english": "climb",
+          "kk": "/climb/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 said 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "爬",
+          "note": "看到 climb 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "money",
+          "kk": "/money/",
+          "partOfSpeech": "n.",
+          "meaning": "錢",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -169,20 +169,20 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "I want some money.",
-          "tc": "我想要一些錢。"
+          "en": "I'm sorry, said the tree,.",
+          "tc": "對不起，樹說。"
         },
         {
-          "en": "Can you give me some money? I'm sorry, said the tree,?",
-          "tc": "你能給我一些錢嗎？樹說，對不起，？"
+          "en": "I have no money.",
+          "tc": "我沒有錢。"
         },
         {
-          "en": "Then you will have money and you will be happy. And so the boy climbed up the tree.",
-          "tc": "然後你就會有錢，你就會幸福。於是男孩就爬上樹了。"
+          "en": "I have only leaves and apples. Take my apples, boy, and sell them in the city.",
+          "tc": "我只有樹葉和蘋果。孩子，把我的蘋果拿去城裡賣吧。"
         },
         {
-          "en": "And gathered her apples and carried them away. And the tree was happy. But the boy stayed away.",
-          "tc": "並收集了她的蘋果並把它們帶走了。樹很高興。但男孩卻離開了。"
+          "en": "Then you will have money and you will be happy. And so the boy climbed up the tree and gathered her apples and carried them away. And the tree was happy.",
+          "tc": "然後你就會有錢，你就會幸福。於是男孩爬上樹，摘下她的蘋果，並把它們帶走。樹很高興。"
         }
       ],
       "tags": [
@@ -190,7 +190,7 @@
           "english": "tree",
           "kk": "/tree/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "樹",
           "note": "看到 tree 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -198,16 +198,16 @@
           "english": "boy",
           "kk": "/boy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "男生",
           "note": "看到 boy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "said",
-          "kk": "/said/",
+          "english": "happy",
+          "kk": "/happy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 said 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "快樂的",
+          "note": "看到 happy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -219,15 +219,15 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "For a long time and the tree was sad.",
-          "tc": "很長一段時間，樹都很悲傷。"
+          "en": "The boy stayed away for a long time and the tree was sad.",
+          "tc": "男孩離開了很長一段時間，樹很難過。"
         },
         {
           "en": "Then one day the boy came back. The tree shook with joy.",
           "tc": "然後有一天，男孩回來了。樹高興得搖晃起來。"
         },
         {
-          "en": "She said, \"Come, boy. Climb up my trunk and swing from my branches and be happy.\".",
+          "en": "She said, \"Come, boy. Climb up my trunk and swing from my branches and be happy.\"",
           "tc": "她說：“來吧，孩子。爬上我的樹幹，在我的樹枝上盪鞦韆，快樂吧。”"
         },
         {
@@ -240,7 +240,7 @@
           "english": "tree",
           "kk": "/tree/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "樹",
           "note": "看到 tree 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -248,16 +248,16 @@
           "english": "boy",
           "kk": "/boy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "男生",
           "note": "看到 boy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "said",
-          "kk": "/said/",
+          "english": "happy",
+          "kk": "/happy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 said 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "快樂的",
+          "note": "看到 happy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -281,33 +281,17 @@
           "tc": "我需要一個房子。"
         },
         {
-          "en": "Can you give me a house? I have no house, said the tree. The forest is my house,?",
-          "tc": "你能給我房子嗎？我沒有房子，樹說。森林就是我的家，？"
+          "en": "Can you give me a house?",
+          "tc": "你能給我房子嗎？"
         }
       ],
       "tags": [
         {
-          "english": "tree",
-          "kk": "/tree/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 tree 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "said",
-          "kk": "/said/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 said 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "house",
-          "kk": "/house/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "want",
+          "kk": "/want/",
+          "partOfSpeech": "v.",
+          "meaning": "想",
+          "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -321,7 +305,7 @@
           "english": "tree",
           "kk": "/tree/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "樹",
           "note": "看到 tree 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -329,56 +313,56 @@
           "english": "boy",
           "kk": "/boy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "男生",
           "note": "看到 boy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "said",
-          "kk": "/said/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 said 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "climb",
-          "kk": "/climb/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 climb 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "her",
-          "kk": "/her/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 her 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "house",
-          "kk": "/house/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "come",
-          "kk": "/come/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 come 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
         {
           "english": "happy",
           "kk": "/happy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "快樂的",
           "note": "看到 happy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "apples",
+          "kk": "/apples/",
+          "partOfSpeech": "n.",
+          "meaning": "蘋果",
+          "note": "看到 apples 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "climb",
+          "kk": "/climb/",
+          "partOfSpeech": "n.",
+          "meaning": "爬",
+          "note": "看到 climb 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "money",
+          "kk": "/money/",
+          "partOfSpeech": "n.",
+          "meaning": "錢",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "want",
+          "kk": "/want/",
+          "partOfSpeech": "v.",
+          "meaning": "想",
+          "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "giving",
+          "kk": "/giving/",
+          "partOfSpeech": "v.",
+          "meaning": "給予",
+          "note": "看到 giving 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -387,19 +371,19 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "I want to buy things and have fun.",
-          "tc": "我想買東西並玩得開心。"
+          "en": "Welcome back to my Slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "i want",
-      "meaning": "常用說法，可用來表達「i want」這個意思",
+      "phrase": "want to",
+      "meaning": "想要",
       "examples": [
         {
           "en": "I want to buy things and have fun.",
@@ -409,12 +393,12 @@
     },
     {
       "id": "phrase-03",
-      "phrase": "i need",
-      "meaning": "常用說法，可用來表達「i need」這個意思",
+      "phrase": "i want",
+      "meaning": "我想",
       "examples": [
         {
-          "en": "I need a house.",
-          "tc": "我需要一個房子。"
+          "en": "I want to buy things and have fun.",
+          "tc": "我想買東西並玩得開心。"
         }
       ]
     }
@@ -422,8 +406,8 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Welcome back to my Slow English podcast. Today.",
-      "translation": "歡迎回到我的慢速英語播客。今天。",
+      "sentence": "Welcome back to my Slow English podcast.",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -434,13 +418,13 @@
     },
     {
       "id": "breakdown-02",
-      "sentence": "My favorite books. It's called The Giving Tree. Read slowly with me. The Giving Tree. Once there was.",
-      "translation": "我最喜歡的書。這就是所謂的「捐贈樹」。跟我一起慢慢讀。捐贈樹。曾經有過。",
+      "sentence": "My favorite books. It's called The Giving Tree. Read slowly with me. The Giving Tree. Once there was a tree.",
+      "translation": "我最喜歡的書。這就是所謂的「捐贈樹」。跟我一起慢慢讀。捐贈樹。從前有一棵樹。",
       "points": [
         {
-          "label": "favorite books it's",
-          "text": "favorite books it's",
-          "note": "注意 \"favorite books it's\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "favorite books called",
+          "text": "favorite books called",
+          "note": "注意 \"favorite books called\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
@@ -450,9 +434,9 @@
       "translation": "她愛著一個小男孩。男孩每天都會來。",
       "points": [
         {
-          "label": "she loved little",
-          "text": "she loved little",
-          "note": "注意 \"she loved little\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "loved little boy",
+          "text": "loved little boy",
+          "note": "注意 \"loved little boy\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
@@ -462,9 +446,9 @@
       "translation": "他會收集她所有的葉子，把它們做成王冠，扮演森林之王。",
       "points": [
         {
-          "label": "gather all her",
-          "text": "gather all her",
-          "note": "注意 \"gather all her\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "gather leaves make",
+          "text": "gather leaves make",
+          "note": "注意 \"gather leaves make\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

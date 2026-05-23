@@ -95,4 +95,19 @@ describe('GrammarView', () => {
       'G12', 'G13', 'G14', 'G15', 'G16', 'G17', 'G18',
     ])
   })
+
+  it('conservatively supplements the existing Relative Clause card with a MissHoney example', () => {
+    const wrapper = mountGrammar()
+    const cards = wrapper.findAll('[data-testid="grammar-card"]')
+    const relativeClauseCard = cards.find(card => card.text().includes('關係子句 Relative Clause'))
+
+    expect(relativeClauseCard?.text()).toContain('beginners who want to practice listening to English')
+    expect(cards.filter(card => card.text().includes('關係子句 Relative Clause'))).toHaveLength(1)
+  })
+
+  it('does not create a new grammar card for uncertain MissHoney grammar points', () => {
+    const wrapper = mountGrammar()
+    expect(wrapper.text()).not.toContain('This is + 名詞（MissHoney）')
+    expect(wrapper.findAll('[data-testid="grammar-card"]')).toHaveLength(19)
+  })
 })

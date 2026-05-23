@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=fwMNNw0T4X0",
   "header": {
     "podcastLabel": "MissHoney A2",
-    "titleZh": "像當地人一樣說話！ 🗣️常見縮寫！ -- 適合 A2 初學者的慢速英語播客！",
+    "titleZh": "像當地人一樣說話！ 🗣️常見縮寫！ -- 適合 A2 初學者的慢速英語podcast！",
     "titleEn": "Speak like a NATIVE! 🗣️ COMMON abbreviations! -- Slow English Podcast for A2 Beginners!",
     "levelTag": "A2",
     "topicTag": "language"
@@ -19,12 +19,12 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast. Today.",
-          "tc": "歡迎回到我的慢速英語播客。今天。"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
-          "en": "We are reviewing abbreviations and how to pronounce them in English. Abbreviations are short forms of words or phrases in English.",
-          "tc": "我們正在複習縮寫詞以及它們的英語發音。縮寫是英語單字或短語的縮寫形式。"
+          "en": "Today we are reviewing abbreviations and how to pronounce them in English. Abbreviations are short forms of words or phrases in English.",
+          "tc": "今天我們回顧一下縮寫詞以及它們的英語發音。縮寫是英語單字或短語的縮寫形式。"
         },
         {
           "en": "We change the way.",
@@ -37,20 +37,12 @@
       ],
       "tags": [
         {
-          "english": "say",
-          "kk": "/say/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "abbreviations",
           "kk": "/abbreviations/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "縮寫",
           "note": "看到 abbreviations 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         }
       ]
     },
@@ -79,27 +71,11 @@
       ],
       "tags": [
         {
-          "english": "say",
-          "kk": "/say/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "friends",
           "kk": "/friends/",
           "partOfSpeech": "n.",
-          "meaning": "人物與關係相關的常用字",
+          "meaning": "朋友們",
           "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "i'll",
-          "kk": "/i'll/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'll 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -119,37 +95,21 @@
           "tc": "這句話你會說嗎？"
         },
         {
-          "en": "He is, you can just say.",
-          "tc": "他是，你可以這麼說。"
+          "en": "I am studying right now.",
+          "tc": "我現在正在學習。"
         },
         {
-          "en": "She's going to the party tonight.",
-          "tc": "她今晚要去參加聚會。"
+          "en": "He is, you can just say.",
+          "tc": "他是，你可以這麼說。"
         }
       ],
       "tags": [
         {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "say",
-          "kk": "/say/",
+          "english": "store",
+          "kk": "/store/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "i'll",
-          "kk": "/i'll/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'll 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "店鋪",
+          "note": "看到 store 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -157,9 +117,13 @@
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：工作與學習",
-      "titleEn": "Part 4: work",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
+        {
+          "en": "She's going to the party tonight.",
+          "tc": "她今晚要去參加聚會。"
+        },
         {
           "en": "She is working hard.",
           "tc": "她正在努力工作。"
@@ -171,10 +135,6 @@
         {
           "en": "He is going to school.",
           "tc": "他要去上學了。"
-        },
-        {
-          "en": "He's going to school.",
-          "tc": "他要去上學了。"
         }
       ],
       "tags": [
@@ -182,8 +142,16 @@
           "english": "going",
           "kk": "/going/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "去",
           "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "party",
+          "kk": "/party/",
+          "partOfSpeech": "n.",
+          "meaning": "派對",
+          "note": "看到 party 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -191,9 +159,13 @@
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：食物與用餐",
-      "titleEn": "Part 5: food",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
       "sentences": [
+        {
+          "en": "He's going to school.",
+          "tc": "他要去上學了。"
+        },
         {
           "en": "They're having lunch right now.",
           "tc": "他們現在正在吃午餐。"
@@ -205,10 +177,6 @@
         {
           "en": "They're my friends.",
           "tc": "他們是我的朋友。"
-        },
-        {
-          "en": "We're going to the park.",
-          "tc": "我們要去公園。"
         }
       ],
       "tags": [
@@ -216,7 +184,7 @@
           "english": "going",
           "kk": "/going/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "去",
           "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -224,16 +192,8 @@
           "english": "friends",
           "kk": "/friends/",
           "partOfSpeech": "n.",
-          "meaning": "人物與關係相關的常用字",
+          "meaning": "朋友們",
           "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "we're",
-          "kk": "/we're/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 we're 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -245,6 +205,10 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
+          "en": "We're going to the park.",
+          "tc": "我們要去公園。"
+        },
+        {
           "en": "We are all going to the movies.",
           "tc": "我們都去看電影。"
         },
@@ -255,10 +219,6 @@
         {
           "en": "Would you like to watch a movie?",
           "tc": "你想看電影嗎？"
-        },
-        {
-          "en": "Would you is commonly said quickly,?",
-          "tc": "你通常會說快點嗎？"
         }
       ],
       "tags": [
@@ -266,25 +226,253 @@
           "english": "going",
           "kk": "/going/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "去",
+          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "Would you like some coffee?",
+          "tc": "你想喝點咖啡嗎？"
+        },
+        {
+          "en": "Would you say?",
+          "tc": "你會說嗎？"
+        },
+        {
+          "en": "Would you help me with this?",
+          "tc": "你能幫我解決這個問題嗎？"
+        },
+        {
+          "en": "We pronounce as gota. It's common in casual conversation instead of saying.",
+          "tc": "我們發音為 gota。常見於隨意交談中，而不是說出來。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "common",
+          "kk": "/common/",
+          "partOfSpeech": "n.",
+          "meaning": "常見的",
+          "note": "看到 common 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "got",
+          "kk": "/got/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：工作與學習",
+      "titleEn": "Part 8: work",
+      "sentences": [
+        {
+          "en": "I've got to go work now.",
+          "tc": "我現在得去工作了。"
+        },
+        {
+          "en": "I've got to finish this project.",
+          "tc": "我必須完成這個專案。"
+        },
+        {
+          "en": "I've got to finish this project. Want to is another very common abbreviation.",
+          "tc": "我必須完成這個專案。 Want to 是另一個非常常見的縮寫。"
+        },
+        {
+          "en": "I want to go home. I w to go home.",
+          "tc": "我想回家。我要回家。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "common",
+          "kk": "/common/",
+          "partOfSpeech": "n.",
+          "meaning": "常見的",
+          "note": "看到 common 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "got",
+          "kk": "/got/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "I have to leave soon.",
+          "tc": "我必須盡快離開。"
+        },
+        {
+          "en": "I have to call my friend.",
+          "tc": "我得打電話給我朋友。"
+        },
+        {
+          "en": "We say going to,.",
+          "tc": "我們說要去，。"
+        },
+        {
+          "en": "I'm going to buy an ice cream.",
+          "tc": "我要去買一個冰淇淋。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "going",
+          "kk": "/going/",
+          "partOfSpeech": "v.",
+          "meaning": "去",
           "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "we're",
-          "kk": "/we're/",
+          "english": "i'm",
+          "kk": "/i'm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 we're 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "I'm gonna buy an ice cream.",
+          "tc": "我要去買一個冰淇淋。"
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "en": "I'm going to call you later.",
+          "tc": "我稍後再給你打電話。"
+        },
+        {
+          "en": "I am going to go to the store? A fast way of saying that.",
+          "tc": "我要去商店嗎？這是一種快速表達方式。"
+        },
+        {
+          "en": "I'm going to go to the store. Could have.",
+          "tc": "我要去商店。可以有。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "going",
+          "kk": "/going/",
+          "partOfSpeech": "v.",
+          "meaning": "去",
+          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "i'm",
+          "kk": "/i'm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "store",
+          "kk": "/store/",
+          "partOfSpeech": "n.",
+          "meaning": "店鋪",
+          "note": "看到 store 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "We say could. I could have gone to the party if.",
+          "tc": "我們說可以。如果的話我本來可以去參加聚會的。"
+        },
+        {
+          "en": "It was earlier. I could have gone to the party if.",
+          "tc": "那是更早的事了。如果的話我本來可以去參加聚會的。"
+        },
+        {
+          "en": "We use should have,.",
+          "tc": "我們使用應該有，。"
+        },
+        {
+          "en": "We abbreviate it should have.",
+          "tc": "我們縮寫它應該有。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "party",
+          "kk": "/party/",
+          "partOfSpeech": "n.",
+          "meaning": "派對",
+          "note": "看到 party 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "She should have come to my house.",
+          "tc": "她應該來我家的。"
+        },
+        {
+          "en": "The party together. Let us go to the beach this weekend. Let's go to the beach this weekend.",
+          "tc": "一起聚會。這個週末我們去海灘吧。這個週末我們去海灘吧。"
+        },
+        {
+          "en": "Would you say let us go to the party? Let's go to the party?",
+          "tc": "你願意讓我們去參加聚會嗎？我們去參加聚會吧？"
+        },
+        {
+          "en": "We normally abbreviate as cuz I didn't go cuz I didn't know.",
+          "tc": "我們通常縮寫為“因為我沒有去，因為我不知道”。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "party",
+          "kk": "/party/",
+          "partOfSpeech": "n.",
+          "meaning": "派對",
+          "note": "看到 party 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -297,64 +485,64 @@
           "english": "going",
           "kk": "/going/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "去",
           "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "say",
-          "kk": "/say/",
+          "english": "party",
+          "kk": "/party/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "派對",
+          "note": "看到 party 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "i'm",
+          "kk": "/i'm/",
+          "partOfSpeech": "n.",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "store",
+          "kk": "/store/",
+          "partOfSpeech": "n.",
+          "meaning": "店鋪",
+          "note": "看到 store 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "abbreviations",
           "kk": "/abbreviations/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "縮寫",
           "note": "看到 abbreviations 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
+        },
+        {
+          "english": "common",
+          "kk": "/common/",
+          "partOfSpeech": "n.",
+          "meaning": "常見的",
+          "note": "看到 common 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "friends",
           "kk": "/friends/",
           "partOfSpeech": "n.",
-          "meaning": "人物與關係相關的常用字",
+          "meaning": "朋友們",
           "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "i'll",
-          "kk": "/i'll/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'll 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "we're",
-          "kk": "/we're/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 we're 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "another",
-          "kk": "/another/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 another 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "got",
+          "kk": "/got/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -363,8 +551,19 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "meaning": "去",
       "examples": [
         {
           "en": "She's going to the party tonight.",
@@ -373,13 +572,13 @@
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "for example",
-      "meaning": "常用說法，可用來表達「for example」這個意思",
+      "id": "phrase-03",
+      "phrase": "want to",
+      "meaning": "想要",
       "examples": [
         {
-          "en": "For example, instead of saying I will,.",
-          "tc": "例如，不要說「我會」。"
+          "en": "Want to is another very common abbreviation.",
+          "tc": "Want to 是另一個非常常見的縮寫。"
         }
       ]
     }
@@ -387,8 +586,8 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast. Today.",
-      "translation": "歡迎回到我的慢速英語播客。今天。",
+      "sentence": "Welcome back to my slow English podcast.",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -399,8 +598,8 @@
     },
     {
       "id": "breakdown-02",
-      "sentence": "We are reviewing abbreviations and how to pronounce them in English. Abbreviations are short forms of words or phrases in English.",
-      "translation": "我們正在複習縮寫詞以及它們的英語發音。縮寫是英語單字或短語的縮寫形式。",
+      "sentence": "Today we are reviewing abbreviations and how to pronounce them in English. Abbreviations are short forms of words or phrases in English.",
+      "translation": "今天我們回顧一下縮寫詞以及它們的英語發音。縮寫是英語單字或短語的縮寫形式。",
       "points": [
         {
           "label": "reviewing abbreviations pronounce",
@@ -415,9 +614,9 @@
       "translation": "我們改變方式。",
       "points": [
         {
-          "label": "change way",
-          "text": "change way",
-          "note": "注意 \"change way\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "change",
+          "text": "change",
+          "note": "注意 \"change\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
@@ -427,9 +626,9 @@
       "translation": "我們說話時會說這些。",
       "points": [
         {
-          "label": "say speaking",
-          "text": "say speaking",
-          "note": "注意 \"say speaking\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "speaking",
+          "text": "speaking",
+          "note": "注意 \"speaking\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=hP0EceBuGjg",
   "header": {
     "podcastLabel": "MissHoney A1",
-    "titleZh": "初學者慢速英語播客－談論👉目標",
+    "titleZh": "初學者慢速英語podcast－談論👉目標",
     "titleEn": "SLOW English Podcast for Beginners-- talking about 👉GOALS",
     "levelTag": "A1",
     "topicTag": "language"
@@ -20,19 +20,19 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "This podcast is for English beginners from levels A1 to A2.",
-          "tc": "該播客適合 A1 至 A2 級別的英語初學者。"
+          "tc": "該podcast適合 A1 至 A2 級別的英語初學者。"
         },
         {
           "en": "Today I want to talk about my goals.",
           "tc": "今天我想談談我的目標。"
         },
         {
-          "en": "I have many goals I have lots of goals for my future.",
-          "tc": "我有很多目標 我對我的未來有很多目標。"
+          "en": "I have many goals.",
+          "tc": "我有很多目標。"
         }
       ],
       "tags": [
@@ -40,7 +40,7 @@
           "english": "want",
           "kk": "/want/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "想",
           "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -48,9 +48,9 @@
           "english": "goals",
           "kk": "/goals/",
           "partOfSpeech": "n.",
-          "meaning": "心態與目標相關的常用字",
+          "meaning": "目標",
           "note": "看到 goals 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         }
       ]
     },
@@ -61,6 +61,10 @@
       "titleEn": "Part 2: mindset",
       "sentences": [
         {
+          "en": "I have lots of goals for my future.",
+          "tc": "我對未來有很多目標。"
+        },
+        {
           "en": "I have shortterm goals and longterm goals this year.",
           "tc": "今年我有短期目標和長期目標。"
         },
@@ -69,37 +73,33 @@
           "tc": "我想獲得潛水大師 Sear 證書和水肺潛水證書。"
         },
         {
-          "en": "I love scuba diving Mexico is one of the best places to do it.",
-          "tc": "我喜歡水肺潛水 墨西哥是最好的潛水地點之一。"
-        },
-        {
-          "en": "I want wants to travel and see all the most beautiful places the most beautiful corals and the.",
-          "tc": "我想去旅行，看看所有最美麗的地方，最美麗的珊瑚。"
+          "en": "I love scuba diving Mexico is.",
+          "tc": "我喜歡墨西哥的水肺潛水。"
         }
       ],
       "tags": [
         {
-          "english": "want",
-          "kk": "/want/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "goals",
           "kk": "/goals/",
           "partOfSpeech": "n.",
-          "meaning": "心態與目標相關的常用字",
+          "meaning": "目標",
           "note": "看到 goals 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "certificate",
+          "kk": "/certificate/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "證書",
+          "note": "看到 certificate 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "diving",
+          "kk": "/diving/",
+          "partOfSpeech": "v.",
+          "meaning": "潛水",
+          "note": "看到 diving 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -111,8 +111,12 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "Most beautiful marine species animal species.",
-          "tc": "最美麗的海洋物種動物物種。"
+          "en": "One of the best places to do it.",
+          "tc": "最好的地方之一。"
+        },
+        {
+          "en": "I want wants to travel and see all the most beautiful places the most beautiful corals and the most beautiful marine species animal species.",
+          "tc": "我想去旅行，看看所有最美麗的地方、最美麗的珊瑚和最美麗的海洋物種和動物物種。"
         },
         {
           "en": "I want to help protect the oceans.",
@@ -121,10 +125,6 @@
         {
           "en": "I get my diving certificate.",
           "tc": "我拿到了潛水證書。"
-        },
-        {
-          "en": "I want to visit Thailand I would like to visit Egypt Australia and Indonesia.",
-          "tc": "我想去泰國 我想去埃及 澳洲和印尼。"
         }
       ],
       "tags": [
@@ -132,7 +132,7 @@
           "english": "want",
           "kk": "/want/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "想",
           "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -140,7 +140,7 @@
           "english": "beautiful",
           "kk": "/beautiful/",
           "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "美麗的",
           "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -148,7 +148,7 @@
           "english": "certificate",
           "kk": "/certificate/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "證書",
           "note": "看到 certificate 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -157,9 +157,17 @@
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：工作與學習",
-      "titleEn": "Part 4: work",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
+        {
+          "en": "I want to visit Thailand.",
+          "tc": "我想去泰國 。"
+        },
+        {
+          "en": "I would like to visit Egypt Australia and Indonesia.",
+          "tc": "我想去參觀 埃及 澳洲和印尼。"
+        },
         {
           "en": "What is a goal that you are working on another goal of mine is that?",
           "tc": "你正在努力實現的目標是什麼？我的另一個目標是什麼？"
@@ -167,14 +175,6 @@
         {
           "en": "I want to dance all around the world.",
           "tc": "我想在世界各地跳舞。"
-        },
-        {
-          "en": "I love dancing dancing brings me so much joy When I Dance all my worries go away.",
-          "tc": "我喜歡跳舞，跳舞帶給我很多快樂，當我跳舞時，所有的憂慮都消失了。"
-        },
-        {
-          "en": "I want to take dance classes and learn different dance styles.",
-          "tc": "我想參加舞蹈課程並學習不同的舞蹈風格。"
         }
       ],
       "tags": [
@@ -182,7 +182,7 @@
           "english": "dance",
           "kk": "/dance/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "舞蹈",
           "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -190,17 +190,9 @@
           "english": "want",
           "kk": "/want/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "想",
           "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "dancing",
-          "kk": "/dancing/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 dancing 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
@@ -211,20 +203,20 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "Do you want want to take dance lessons?",
+          "en": "I love dancing brings me so much joy When I Dance all my worries go away.",
+          "tc": "我喜歡跳舞帶給我很多快樂，當我跳舞時，所有的憂慮都消失了。"
+        },
+        {
+          "en": "I want to take dance classes and learn different dance styles.",
+          "tc": "我想參加舞蹈課程並學習不同的舞蹈風格。"
+        },
+        {
+          "en": "Do you want to take dance lessons?",
           "tc": "你想上舞蹈課嗎？"
         },
         {
           "en": "I want to take dance lessons in Brazil Colombia India or Japan.",
           "tc": "我想在巴西、哥倫比亞、印度或日本上舞蹈課。"
-        },
-        {
-          "en": "Do you like dancing?",
-          "tc": "你喜歡跳舞嗎？"
-        },
-        {
-          "en": "Do you prefer watching people people dance or dancing?",
-          "tc": "你比較喜歡看人跳舞還是跳舞？"
         }
       ],
       "tags": [
@@ -232,7 +224,7 @@
           "english": "dance",
           "kk": "/dance/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "舞蹈",
           "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -240,7 +232,7 @@
           "english": "want",
           "kk": "/want/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "想",
           "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -248,9 +240,9 @@
           "english": "dancing",
           "kk": "/dancing/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "跳舞",
           "note": "看到 dancing 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         }
       ]
     },
@@ -261,20 +253,20 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "What type of dance is your favorite in my opinion the happiest cultures are the ones with Rich?",
-          "tc": "在我看來，最幸福的文化是富有的文化，你最喜歡哪一種類型的舞蹈？"
+          "en": "Do you like dancing?",
+          "tc": "你喜歡跳舞嗎？"
         },
         {
-          "en": "Dance culture where people are dancing people are smiling.",
-          "tc": "人們在跳舞、人們在微笑的舞蹈文化。"
+          "en": "Do you prefer watching people dance or dancing?",
+          "tc": "你比較喜歡看人跳舞還是跳舞？"
         },
         {
-          "en": "What is something that makes you feel so good?",
-          "tc": "是什麼讓你感覺如此好？"
+          "en": "What type of dance is your favorite in my opinion the happiest cultures are the ones with Rich dance culture?",
+          "tc": "在我看來，最幸福的文化是那些擁有豐富舞蹈文化的文化，你最喜歡什麼類型的舞蹈？"
         },
         {
-          "en": "Why does it make you feel so good the last goal of mine is to speak Chinese?",
-          "tc": "為什麼我的最後一個目標是說中文讓你感覺這麼好？"
+          "en": "Where people are dancing people are smiling where people are dancing people are connecting dancing is good for the soul dancing is good for the heart?",
+          "tc": "人們在跳舞的地方人們在微笑 在人們跳舞的地方人們在聯繫 跳舞對靈魂有好處 跳舞對心臟有好處嗎？"
         }
       ],
       "tags": [
@@ -282,7 +274,7 @@
           "english": "dance",
           "kk": "/dance/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "舞蹈",
           "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -290,15 +282,15 @@
           "english": "dancing",
           "kk": "/dancing/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "跳舞",
           "note": "看到 dancing 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
           "english": "people",
           "kk": "/people/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "人們",
           "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -313,7 +305,7 @@
           "english": "dance",
           "kk": "/dance/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "舞蹈",
           "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -321,47 +313,39 @@
           "english": "want",
           "kk": "/want/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "想",
           "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "goals",
-          "kk": "/goals/",
-          "partOfSpeech": "n.",
-          "meaning": "心態與目標相關的常用字",
-          "note": "看到 goals 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "dancing",
           "kk": "/dancing/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "跳舞",
           "note": "看到 dancing 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "goals",
+          "kk": "/goals/",
+          "partOfSpeech": "n.",
+          "meaning": "目標",
+          "note": "看到 goals 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "people",
           "kk": "/people/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "人們",
           "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "beautiful",
           "kk": "/beautiful/",
           "partOfSpeech": "adj.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "美麗的",
           "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -369,8 +353,16 @@
           "english": "certificate",
           "kk": "/certificate/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "證書",
           "note": "看到 certificate 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "diving",
+          "kk": "/diving/",
+          "partOfSpeech": "v.",
+          "meaning": "潛水",
+          "note": "看到 diving 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -379,6 +371,17 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "do you like",
       "meaning": "你喜歡...嗎",
       "examples": [
@@ -389,20 +392,9 @@
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
-      "examples": [
-        {
-          "en": "Today I want to talk about my goals.",
-          "tc": "今天我想談談我的目標。"
-        }
-      ]
-    },
-    {
       "id": "phrase-03",
-      "phrase": "talk about",
-      "meaning": "談論",
+      "phrase": "want to",
+      "meaning": "想要",
       "examples": [
         {
           "en": "Today I want to talk about my goals.",
@@ -415,7 +407,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -427,12 +419,12 @@
     {
       "id": "breakdown-02",
       "sentence": "This podcast is for English beginners from levels A1 to A2.",
-      "translation": "該播客適合 A1 至 A2 級別的英語初學者。",
+      "translation": "該podcast適合 A1 至 A2 級別的英語初學者。",
       "points": [
         {
-          "label": "levels",
-          "text": "levels",
-          "note": "注意 \"levels\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "everyday English",
+          "text": "everyday English",
+          "note": "注意 \"everyday English\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
@@ -450,13 +442,13 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "I have many goals I have lots of goals for my future.",
-      "translation": "我有很多目標 我對我的未來有很多目標。",
+      "sentence": "I have many goals.",
+      "translation": "我有很多目標。",
       "points": [
         {
-          "label": "many goals lots",
-          "text": "many goals lots",
-          "note": "注意 \"many goals lots\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "goals",
+          "text": "goals",
+          "note": "注意 \"goals\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

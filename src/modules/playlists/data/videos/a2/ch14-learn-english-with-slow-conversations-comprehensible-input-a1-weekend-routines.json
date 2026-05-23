@@ -20,19 +20,19 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
-          "en": "Today I want to practice slow English conversations with you. I'm excited to have another slow English podcast with my sister. This English podcast is about weekend routines.",
-          "tc": "今天我想和你們練習慢速英語會話。我很高興能和姐姐一起做另一個慢速英語播客。這個英語播客是關於週末例行公事的。"
+          "en": "Today I want to practice slow English conversations with you.",
+          "tc": "今天我想和你們練習慢速英語會話。"
+        },
+        {
+          "en": "I'm excited to have another slow English podcast with my sister. This English podcast is about weekend routines.",
+          "tc": "我很高興能和姐姐一起做另一個慢速英語podcast。這個英語podcast是關於週末例行公事的。"
         },
         {
           "en": "You can practice listening to English chats, hearing the questions and giving an answer. Okay.",
-          "tc": "您可以練習聽英語聊天、聽問題並給出答案。好的。"
-        },
-        {
-          "en": "We do on the weekend. What time.",
-          "tc": "我們週末做。什麼時候。"
+          "tc": "你可以練習聽英語聊天、聽問題並給出答案。好的。"
         }
       ],
       "tags": [
@@ -40,57 +40,65 @@
           "english": "weekend",
           "kk": "/weekend/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "週末",
           "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "week",
+          "kk": "/week/",
+          "partOfSpeech": "n.",
+          "meaning": "星期",
+          "note": "看到 week 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常作息",
-      "titleEn": "Part 2: daily routine",
+      "titleZh": "第 2 段：日常生活",
+      "titleEn": "Part 2: everyday life",
       "sentences": [
+        {
+          "en": "We do on the weekend. What time.",
+          "tc": "我們週末做。什麼時候。"
+        },
         {
           "en": "Do you wake up on the weekend? On the weekend?",
           "tc": "週末你起床嗎？週末？"
         },
         {
-          "en": "I usually sleep in late. I don't like to wake up too early.",
-          "tc": "我通常睡得很晚。我不喜歡起得太早。"
+          "en": "I usually sleep in late.",
+          "tc": "我通常睡得很晚。"
         },
         {
-          "en": "I wake up around 9 or 10:00. Not too early. I don't like waking up early on the weekends,.",
-          "tc": "我在 9 或 10:00 左右醒來。還不算太早。週末我不喜歡早起。"
-        },
-        {
-          "en": "I also don't like waking up too late. So, I think 9 to 10 is the perfect time to wake up on the weekends.",
-          "tc": "我也不喜歡起得太晚。所以，我認為9點到10點是週末起床的最佳時機。"
+          "en": "I don't like to wake up too early.",
+          "tc": "我不喜歡起得太早。"
         }
       ],
       "tags": [
         {
-          "english": "wake",
-          "kk": "/wake/",
-          "partOfSpeech": "n.",
-          "meaning": "日常作息相關的常用字",
-          "note": "看到 wake 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "weekend",
           "kk": "/weekend/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "週末",
           "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "wake",
+          "kk": "/wake/",
+          "partOfSpeech": "n.",
+          "meaning": "喚醒",
+          "note": "看到 wake 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "usually",
           "kk": "/usually/",
           "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "通常",
           "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -99,40 +107,40 @@
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段：日常作息",
+      "titleEn": "Part 3: daily routine",
       "sentences": [
         {
-          "en": "What about you?",
-          "tc": "你呢？"
+          "en": "I wake up around 9 or 10:00. Not too early.",
+          "tc": "我在 9 或 10:00 左右醒來。還不算太早。"
+        },
+        {
+          "en": "I don't like waking up early on the weekends, but I also don't like waking up too late.",
+          "tc": "我不喜歡週末早起，但也不喜歡起得太晚。"
+        },
+        {
+          "en": "I think 9 to 10 is the perfect time to wake up on the weekends. What about you?",
+          "tc": "我認為 9 點到 10 點是週末起床的最佳時間。你呢？"
         },
         {
           "en": "I wake up usually around 7 7:30 a.m. because during the week I always wake up at 7 or 7:30 a.m. So my body wakes up and I can't fall asleep anymore.",
           "tc": "我通常在早上 7 點 7:30 左右醒來，因為平日我總是在早上 7 點或 7:30 起床。所以我的身體醒來了，我就再也睡不著了。"
-        },
-        {
-          "en": "What do you usually eat for breakfast?",
-          "tc": "你早餐通常吃什麼？"
-        },
-        {
-          "en": "I normally eat oatmeal with lots of fruit, yogurt, and honey. But lately, I've been really enjoying avocado toast with eggs. I used to not like eggs at all, but now.",
-          "tc": "我通常吃燕麥片加很多水果、優格和蜂蜜。但最近，我真的很喜歡酪梨雞蛋吐司。我以前根本不喜歡雞蛋，但現在。"
         }
       ],
       "tags": [
         {
-          "english": "eggs",
-          "kk": "/eggs/",
+          "english": "weekend",
+          "kk": "/weekend/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 eggs 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "週末",
+          "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "wake",
           "kk": "/wake/",
           "partOfSpeech": "n.",
-          "meaning": "日常作息相關的常用字",
+          "meaning": "喚醒",
           "note": "看到 wake 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -140,7 +148,7 @@
           "english": "usually",
           "kk": "/usually/",
           "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "通常",
           "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -153,20 +161,20 @@
       "titleEn": "Part 4: food",
       "sentences": [
         {
+          "en": "What do you usually eat for breakfast?",
+          "tc": "你早餐通常吃什麼？"
+        },
+        {
+          "en": "I normally eat oatmeal with lots of fruit, yogurt, and honey. But lately,.",
+          "tc": "我通常吃燕麥片加很多水果、優格和蜂蜜。但最近，。"
+        },
+        {
+          "en": "I've been really enjoying avocado toast with eggs. I used to not like eggs at all, but now.",
+          "tc": "我真的很喜歡酪梨雞蛋吐司。我以前根本不喜歡雞蛋，但現在。"
+        },
+        {
           "en": "They're starting to grow on me, but my absolute favorite breakfast is a banana smoothie with kefir, chia, flax seed, and bananas. And what about you?",
           "tc": "它們開始讓我著迷，但我最喜歡的早餐是香蕉冰沙，裡面有克菲爾、奇亞籽、亞麻籽和香蕉。那你呢？"
-        },
-        {
-          "en": "I usually have just eggs for breakfast. Only eggs.",
-          "tc": "我早餐通常只吃蛋。只有雞蛋。"
-        },
-        {
-          "en": "Sometimes too busy to make anything else. You don't like eggs with toast or avocado or maybe ketchup?",
-          "tc": "有時太忙，無暇做其他事。您不喜歡雞蛋配吐司、酪梨或番茄醬嗎？"
-        },
-        {
-          "en": "Sometimes eggs in a tortilla with salsa is what I'll have for breakfast. Okay.",
-          "tc": "有時我早餐會吃玉米餅裡的雞蛋和莎莎醬。好的。"
         }
       ],
       "tags": [
@@ -174,7 +182,7 @@
           "english": "eggs",
           "kk": "/eggs/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "蛋",
           "note": "看到 eggs 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -182,7 +190,7 @@
           "english": "usually",
           "kk": "/usually/",
           "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "通常",
           "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -199,33 +207,49 @@
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段：食物與用餐",
+      "titleEn": "Part 5: food",
       "sentences": [
+        {
+          "en": "I usually have just eggs for breakfast. Only eggs.",
+          "tc": "我早餐通常只吃蛋。只有雞蛋。"
+        },
+        {
+          "en": "Sometimes too busy to make anything else. You don't like eggs with toast or avocado or maybe ketchup?",
+          "tc": "有時太忙，無暇做其他事。你不喜歡雞蛋配吐司、酪梨或番茄醬嗎？"
+        },
+        {
+          "en": "Sometimes eggs in a tortilla with salsa is what I'll have for breakfast. Okay.",
+          "tc": "有時我早餐會吃玉米餅裡的雞蛋和莎莎醬。好的。"
+        },
         {
           "en": "Do you drink coffee or tea?",
           "tc": "你喝咖啡還是茶？"
-        },
-        {
-          "en": "In the morning? Neither. I drink neither coffee nor tea.",
-          "tc": "在早晨？兩者都不。我既不喝咖啡也不喝茶。"
-        },
-        {
-          "en": "In the morning. I drink smoothies.",
-          "tc": "在早晨。我喝冰沙。"
-        },
-        {
-          "en": "In the morning every day. What about you? I drink smoothies if I have time.",
-          "tc": "每天早上。你呢？如果有時間的話我會喝冰沙。"
         }
       ],
       "tags": [
         {
-          "english": "drink",
-          "kk": "/drink/",
+          "english": "eggs",
+          "kk": "/eggs/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 drink 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "蛋",
+          "note": "看到 eggs 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "usually",
+          "kk": "/usually/",
+          "partOfSpeech": "adv.",
+          "meaning": "通常",
+          "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "breakfast",
+          "kk": "/ˈbrɛkfəst/",
+          "partOfSpeech": "n.",
+          "meaning": "早餐",
+          "note": "看到 breakfast 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -237,9 +261,55 @@
       "titleEn": "Part 6: daily routine",
       "sentences": [
         {
-          "en": "Do you like to have slow mornings or busy, productive mornings over the weekend? I prefer to have slow mornings,?",
-          "tc": "週末你喜歡度過悠閒的早晨還是忙碌而富有成效的早晨？我比較喜歡緩慢的早晨，？"
+          "en": "In the morning? Neither. I drink neither coffee nor tea.",
+          "tc": "在早晨？兩者都不。我既不喝咖啡也不喝茶。"
         },
+        {
+          "en": "In the morning. I drink smoothies.",
+          "tc": "在早晨。我喝冰沙。"
+        },
+        {
+          "en": "In the morning every day. What about you? I drink smoothies if.",
+          "tc": "每天早上。你呢？如果我喝冰沙。"
+        },
+        {
+          "en": "I have time.",
+          "tc": "我有時間。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "weekend",
+          "kk": "/weekend/",
+          "partOfSpeech": "n.",
+          "meaning": "週末",
+          "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "eggs",
+          "kk": "/eggs/",
+          "partOfSpeech": "n.",
+          "meaning": "蛋",
+          "note": "看到 eggs 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "wake",
+          "kk": "/wake/",
+          "partOfSpeech": "n.",
+          "meaning": "喚醒",
+          "note": "看到 wake 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
         {
           "en": "I like to keep my afternoons busy.",
           "tc": "我喜歡讓下午保持忙碌。"
@@ -251,6 +321,10 @@
         {
           "en": "Then I'll try to do something more productive. And in the evenings, I'll try to just read a book or watch TV and relax from a busy week. How about you?",
           "tc": "然後我會嘗試做一些更有成效的事情。晚上，我會嘗試看書或看電視，從忙碌的一周放鬆下來。你呢？"
+        },
+        {
+          "en": "Do you prefer slow mornings or productive busy mornings on the weekend? I prefer slow mornings?",
+          "tc": "週末你喜歡慢節奏的早晨還是有效率忙碌的早晨？我更喜歡緩慢的早晨？"
         }
       ],
       "tags": [
@@ -258,7 +332,7 @@
           "english": "weekend",
           "kk": "/weekend/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "週末",
           "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -266,16 +340,242 @@
           "english": "usually",
           "kk": "/usually/",
           "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "通常",
           "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "busy",
-          "kk": "/busy/",
+          "english": "week",
+          "kk": "/week/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 busy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "星期",
+          "note": "看到 week 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：工作與學習",
+      "titleEn": "Part 8: work",
+      "sentences": [
+        {
+          "en": "I usually work during the week.",
+          "tc": "我通常在工作日工作。"
+        },
+        {
+          "en": "I'm very busy and on the weekend.",
+          "tc": "我很忙而且週末。"
+        },
+        {
+          "en": "I like to take things slow, wake up as late as I can, make a nicer breakfast, not just eggs,.",
+          "tc": "我喜歡慢慢來，盡可能晚起床，做一頓更好的早餐，而不僅僅是雞蛋。"
+        },
+        {
+          "en": "I like to read, play video games, and go out on the weekend. Mhm.",
+          "tc": "我喜歡閱讀、玩電子遊戲和週末出去玩。嗯。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "weekend",
+          "kk": "/weekend/",
+          "partOfSpeech": "n.",
+          "meaning": "週末",
+          "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "eggs",
+          "kk": "/eggs/",
+          "partOfSpeech": "n.",
+          "meaning": "蛋",
+          "note": "看到 eggs 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "wake",
+          "kk": "/wake/",
+          "partOfSpeech": "n.",
+          "meaning": "喚醒",
+          "note": "看到 wake 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "What do your afternoons look like over the weekend?",
+          "tc": "你週末的下午是什麼樣的？"
+        },
+        {
+          "en": "Sometimes visit my friends or my family over the weekend. And if the weather is nice,.",
+          "tc": "有時週末拜訪我的朋友或家人。如果天氣好的話。"
+        },
+        {
+          "en": "I go for long walks. How about you?",
+          "tc": "我會進行長途散步。你呢？"
+        },
+        {
+          "en": "I like to go to the park, but I stay out of the sun because my skin is very sensitive.",
+          "tc": "我喜歡去公園，但我不會曬太陽，因為我的皮膚非常敏感。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "weekend",
+          "kk": "/weekend/",
+          "partOfSpeech": "n.",
+          "meaning": "週末",
+          "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "week",
+          "kk": "/week/",
+          "partOfSpeech": "n.",
+          "meaning": "星期",
+          "note": "看到 week 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "I either try to go outside in the shade or I stay inside in my house. Either or, not both. And a question.",
+          "tc": "我要么嘗試到外面的陰涼處出去，要么呆在家裡。要么，要么，而不是兩者兼而有之。還有一個問題。"
+        },
+        {
+          "en": "I have for you is,.",
+          "tc": "我給你的是，。"
+        },
+        {
+          "en": "I have the most time during my week.",
+          "tc": "我一周裡有最多的時間。"
+        },
+        {
+          "en": "Do you do the laundry during the week or over the weekend? I send my laundry to get done. It varies?",
+          "tc": "你是在平日還是週末洗衣服？我把洗好的衣服送去完成。它有所不同嗎？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "weekend",
+          "kk": "/weekend/",
+          "partOfSpeech": "n.",
+          "meaning": "週末",
+          "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "week",
+          "kk": "/week/",
+          "partOfSpeech": "n.",
+          "meaning": "星期",
+          "note": "看到 week 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "Sometimes during the week.",
+          "tc": "有時在一週內。"
+        },
+        {
+          "en": "Sometimes on the weekend. Mhm.",
+          "tc": "有時在週末。嗯。"
+        },
+        {
+          "en": "Do you listen to any music or podcasts? I listen to all kinds of music. Right now?",
+          "tc": "你聽音樂或Podcast嗎？我聽各種音樂。現在？"
+        },
+        {
+          "en": "I'm really enjoying Right now.",
+          "tc": "我真的很享受現在。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "weekend",
+          "kk": "/weekend/",
+          "partOfSpeech": "n.",
+          "meaning": "週末",
+          "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "week",
+          "kk": "/week/",
+          "partOfSpeech": "n.",
+          "meaning": "星期",
+          "note": "看到 week 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "I'm listening to more house music and R&B. Mhm.",
+          "tc": "我正在聽更多 house 音樂和 R&B。嗯。"
+        },
+        {
+          "en": "What do your evenings look like over the weekend?",
+          "tc": "你週末的晚上是什麼樣的？"
+        },
+        {
+          "en": "I eat dinner.",
+          "tc": "我吃晚餐。"
+        },
+        {
+          "en": "I normally like to take my time to cook at home since.",
+          "tc": "從那以後我通常喜歡花時間在家做飯。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "weekend",
+          "kk": "/weekend/",
+          "partOfSpeech": "n.",
+          "meaning": "週末",
+          "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "week",
+          "kk": "/week/",
+          "partOfSpeech": "n.",
+          "meaning": "星期",
+          "note": "看到 week 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -286,10 +586,18 @@
       "title": "A2 重點單字",
       "items": [
         {
+          "english": "weekend",
+          "kk": "/weekend/",
+          "partOfSpeech": "n.",
+          "meaning": "週末",
+          "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "eggs",
           "kk": "/eggs/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "蛋",
           "note": "看到 eggs 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -297,24 +605,24 @@
           "english": "wake",
           "kk": "/wake/",
           "partOfSpeech": "n.",
-          "meaning": "日常作息相關的常用字",
+          "meaning": "喚醒",
           "note": "看到 wake 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "weekend",
-          "kk": "/weekend/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 weekend 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "usually",
           "kk": "/usually/",
           "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "通常",
           "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "week",
+          "kk": "/week/",
+          "partOfSpeech": "n.",
+          "meaning": "星期",
+          "note": "看到 week 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
@@ -329,24 +637,16 @@
           "english": "busy",
           "kk": "/busy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "忙碌的",
           "note": "看到 busy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "don't",
-          "kk": "/don't/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "drink",
-          "kk": "/drink/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 drink 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -355,8 +655,19 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "what do you",
-      "meaning": "你會怎麼...",
+      "meaning": "你是什麼",
       "examples": [
         {
           "en": "What do you usually eat for breakfast?",
@@ -365,24 +676,13 @@
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "do you like",
-      "meaning": "你喜歡...嗎",
-      "examples": [
-        {
-          "en": "Do you like to have slow mornings or busy, productive mornings over the weekend?",
-          "tc": "週末你喜歡度過悠閒的早晨還是忙碌而富有成效的早晨？"
-        }
-      ]
-    },
-    {
       "id": "phrase-03",
-      "phrase": "in the morning",
-      "meaning": "在早上",
+      "phrase": "look like",
+      "meaning": "看起來像",
       "examples": [
         {
-          "en": "In the morning?",
-          "tc": "在早晨？"
+          "en": "What do your afternoons look like over the weekend?",
+          "tc": "你週末的下午是什麼樣的？"
         }
       ]
     }
@@ -391,7 +691,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -402,37 +702,37 @@
     },
     {
       "id": "breakdown-02",
-      "sentence": "Today I want to practice slow English conversations with you. I'm excited to have another slow English podcast with my sister. This English podcast is about weekend routines.",
-      "translation": "今天我想和你們練習慢速英語會話。我很高興能和姐姐一起做另一個慢速英語播客。這個英語播客是關於週末例行公事的。",
+      "sentence": "Today I want to practice slow English conversations with you.",
+      "translation": "今天我想和你們練習慢速英語會話。",
       "points": [
         {
-          "label": "want conversations i'm",
-          "text": "want conversations i'm",
-          "note": "注意 \"want conversations i'm\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "want conversations",
+          "text": "want conversations",
+          "note": "注意 \"want conversations\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
-      "sentence": "You can practice listening to English chats, hearing the questions and giving an answer. Okay.",
-      "translation": "您可以練習聽英語聊天、聽問題並給出答案。好的。",
+      "sentence": "I'm excited to have another slow English podcast with my sister. This English podcast is about weekend routines.",
+      "translation": "我很高興能和姐姐一起做另一個慢速英語podcast。這個英語podcast是關於週末例行公事的。",
       "points": [
         {
-          "label": "chats hearing questions",
-          "text": "chats hearing questions",
-          "note": "注意 \"chats hearing questions\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "i'm excited sister",
+          "text": "i'm excited sister",
+          "note": "注意 \"i'm excited sister\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-04",
-      "sentence": "We do on the weekend. What time.",
-      "translation": "我們週末做。什麼時候。",
+      "sentence": "You can practice listening to English chats, hearing the questions and giving an answer. Okay.",
+      "translation": "你可以練習聽英語聊天、聽問題並給出答案。好的。",
       "points": [
         {
-          "label": "weekend time",
-          "text": "weekend time",
-          "note": "注意 \"weekend time\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "chats hearing questions",
+          "text": "chats hearing questions",
+          "note": "注意 \"chats hearing questions\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

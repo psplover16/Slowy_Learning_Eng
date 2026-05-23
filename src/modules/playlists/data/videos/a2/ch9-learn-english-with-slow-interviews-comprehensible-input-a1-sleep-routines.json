@@ -20,11 +20,11 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
-          "en": "Today I will be interviewing my sister again with some new beginner English questions all in a slow comprehensible way for you to learn English faster. So,.",
-          "tc": "今天我將再次採訪我妹妹，提出一些新的初學者英語問題，所有這些問題都以緩慢可理解的方式進行，以便您更快地學習英語。所以，。"
+          "en": "Today I will be interviewing my sister again with some new beginner English questions all in a slow comprehensible way for you to learn English faster.",
+          "tc": "今天我將再次採訪我妹妹，提出一些新的初學者英語問題，所有這些問題都以緩慢可理解的方式進行，以便你更快地學習英語。"
         },
         {
           "en": "We'll start by introducing our guest.",
@@ -37,26 +37,10 @@
       ],
       "tags": [
         {
-          "english": "sister",
-          "kk": "/sister/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "some",
-          "kk": "/some/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
           "english": "day",
           "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -73,8 +57,8 @@
           "tc": "我來自內布拉斯加州諾福克。嗯。內布拉斯加州諾福克在哪裡？它位於美國中部。嗯。"
         },
         {
-          "en": "What do you do for work? For work, I have different jobs?",
-          "tc": "你做什麼工作？為了工作，我有不同的工作嗎？"
+          "en": "I have different jobs.",
+          "tc": "我有不同的工作。"
         },
         {
           "en": "I am a teacher.",
@@ -90,7 +74,7 @@
           "english": "mhm",
           "kk": "/mhm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "嗯",
           "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
@@ -112,7 +96,7 @@
         },
         {
           "en": "What are some hobbies that you like to do from time to time?",
-          "tc": "您時不時喜歡做的一些嗜好是什麼？"
+          "tc": "你時不時喜歡做的一些嗜好是什麼？"
         },
         {
           "en": "I like going to the gym.",
@@ -124,24 +108,24 @@
           "english": "mhm",
           "kk": "/mhm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "嗯",
           "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "every",
-          "kk": "/every/",
+          "english": "time",
+          "kk": "/time/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
-          "english": "some",
-          "kk": "/some/",
+          "english": "day",
+          "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -174,17 +158,17 @@
           "english": "mhm",
           "kk": "/mhm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "嗯",
           "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "favorite",
-          "kk": "/favorite/",
+          "english": "games",
+          "kk": "/games/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "遊戲",
+          "note": "看到 games 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
@@ -207,8 +191,8 @@
           "tc": "如果喜歡的話，可以加點辣醬。"
         },
         {
-          "en": "Can you cook? If so,?",
-          "tc": "你會做飯嗎？如果是這樣，？"
+          "en": "Can you cook? If?",
+          "tc": "你會做飯嗎？如果？"
         }
       ],
       "tags": [
@@ -216,16 +200,8 @@
           "english": "cook",
           "kk": "/cook/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "廚師",
           "note": "看到 cook 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "some",
-          "kk": "/some/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -241,16 +217,16 @@
           "tc": "你最喜歡煮什麼菜？我會做菜嗎？"
         },
         {
-          "en": "I like to make what would it be? Chickpea sauce. And I also like to make lasagna.",
-          "tc": "我想做的話會是什麼？鷹嘴豆醬。我也喜歡做烤寬麵條。"
+          "en": "I like to make.",
+          "tc": "我喜歡做。"
         },
         {
-          "en": "Do you have any siblings? Yes, I have one sister and one brother. Mhm. So, two siblings in total. Yes. And what's?",
-          "tc": "你有兄弟姊妹嗎？是的，我有一個姊姊和一個弟弟。嗯。這樣一來，一共有兩兄妹。是的。那是什麼？"
+          "en": "What would it be? Chickpea sauce. And I also like to make lasagna?",
+          "tc": "會是什麼？鷹嘴豆醬。我也喜歡做烤寬麵？"
         },
         {
-          "en": "One thing you like to do with your sister?",
-          "tc": "你喜歡和姐姐一起做一件事嗎？"
+          "en": "I have one sister and one brother. Mhm. So, two siblings in total. Yes. And what's.",
+          "tc": "我有一個姊姊和一個弟弟。嗯。這樣一來，一共有兩兄妹。是的。還有什麼。"
         }
       ],
       "tags": [
@@ -258,25 +234,309 @@
           "english": "mhm",
           "kk": "/mhm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "嗯",
           "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "brother",
+          "kk": "/brother/",
+          "partOfSpeech": "n.",
+          "meaning": "兄弟",
+          "note": "看到 brother 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "cook",
           "kk": "/cook/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "廚師",
           "note": "看到 cook 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "One thing you like to do with your sister?",
+          "tc": "你喜歡和姐姐一起做一件事嗎？"
+        },
+        {
+          "en": "I like to go to the park, run, and dance. together. Mhm. And what's.",
+          "tc": "我喜歡去公園、跑步和跳舞。一起。嗯。還有什麼。"
+        },
+        {
+          "en": "One thing you like to do with your brother? With my brother,.",
+          "tc": "你喜歡和你的兄弟一起做一件事嗎？和我的兄弟，。"
+        },
+        {
+          "en": "We like to play video games. Mostly video games. Mhm.",
+          "tc": "我們喜歡玩電子遊戲。主要是電子遊戲。嗯。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "favorite",
-          "kk": "/favorite/",
+          "english": "games",
+          "kk": "/games/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "遊戲",
+          "note": "看到 games 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "brother",
+          "kk": "/brother/",
+          "partOfSpeech": "n.",
+          "meaning": "兄弟",
+          "note": "看到 brother 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "What type of video games? Video games like?",
+          "tc": "什麼類型的視頻遊戲？電子遊戲之類的？"
+        },
+        {
+          "en": "We like to play Minecraft together. Um Fortnite and Roblox.",
+          "tc": "我們喜歡一起玩《我的世界》。嗯，《堡壘之夜》和《Roblox》。"
+        },
+        {
+          "en": "I'm from and Costa Rica. Mhm. Very nice.",
+          "tc": "我來自哥斯達黎加。嗯。很不錯。"
+        },
+        {
+          "en": "I really want to go to Japan. Mhm. Um, Japan and maybe China. Mhm. Nice. In Asia, right? Yes.",
+          "tc": "我真的很想去日本。嗯。嗯，日本，也許還有中國。嗯。好的。在亞洲，對嗎？是的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "games",
+          "kk": "/games/",
+          "partOfSpeech": "n.",
+          "meaning": "遊戲",
+          "note": "看到 games 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "I have not been. Mhm. Yet.",
+          "tc": "我沒有去過。嗯。然而。"
+        },
+        {
+          "en": "What is your dream job? To be a scientist. Mhm. Very good. So, now that?",
+          "tc": "你夢想的工作是什麼？成為科學家。嗯。非常好。那麼，現在呢？"
+        },
+        {
+          "en": "We've gotten to know Brianna a little bit better, now.",
+          "tc": "現在我們對布麗安娜有了更多的了解。"
+        },
+        {
+          "en": "We'll talk about our conversation about sleep. So, what time.",
+          "tc": "我們將討論有關睡眠的談話。那麼，什麼時間。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sleep",
+          "kk": "/sleep/",
+          "partOfSpeech": "v.",
+          "meaning": "睡覺",
+          "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "Do you normally go to bed? at 11:00 p.m. 11 p.m. And is that late or early for you? For me, it's a little late. Mhm. And what time?",
+          "tc": "你通常睡覺嗎？晚上 11:00晚上11點這對你來說是晚了還是早了？對我來說，有點晚了。嗯。什麼時間？"
+        },
+        {
+          "en": "Do you wake up?",
+          "tc": "你醒了嗎？"
+        },
+        {
+          "en": "I wake up at 7 or 8 a.m. Mhm. So, how many hours.",
+          "tc": "我早上 7 點或 8 點起床。嗯。那麼，需要多少小時。"
+        },
+        {
+          "en": "Do you normally get of sleep?",
+          "tc": "你平常睡覺嗎？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sleep",
+          "kk": "/sleep/",
+          "partOfSpeech": "v.",
+          "meaning": "睡覺",
+          "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "I usually get.",
+          "tc": "我通常會得到。"
+        },
+        {
+          "en": "I usually get 7 to n hours of sleep.",
+          "tc": "我通常有 7 到 n 小時的睡眠。"
+        },
+        {
+          "en": "Do you take short naps during the day?",
+          "tc": "你白天小睡一會兒嗎？"
+        },
+        {
+          "en": "Sometimes. Mhm. If.",
+          "tc": "有時。嗯。如果。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sleep",
+          "kk": "/sleep/",
+          "partOfSpeech": "v.",
+          "meaning": "睡覺",
+          "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "I need them. Mhm. How long are your naps? Maybe a half hour or an hour.",
+          "tc": "我需要他們。嗯。你的午睡時間有多長？也許半小時或一個小時。"
+        },
+        {
+          "en": "I feel sleepier. Mhm. And if I take shorter naps,.",
+          "tc": "我感覺更睏了。嗯。如果我小睡的時間較短。"
+        },
+        {
+          "en": "I feel better. Mhm. Yeah. Me, too.",
+          "tc": "我感覺好多了。嗯。是的。我也是。"
+        },
+        {
+          "en": "Do you like sleeping in noisy places or quiet places? I can sleep in both. Mhm. But I prefer quiet. Mhm. What about white noise?",
+          "tc": "你喜歡睡在吵鬧的地方還是安靜的地方？我可以兩個都睡。嗯。但我更喜歡安靜。嗯。那麼白噪音呢？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sleep",
+          "kk": "/sleep/",
+          "partOfSpeech": "v.",
+          "meaning": "睡覺",
+          "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -289,64 +549,64 @@
           "english": "mhm",
           "kk": "/mhm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "嗯",
           "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "games",
+          "kk": "/games/",
+          "partOfSpeech": "n.",
+          "meaning": "遊戲",
+          "note": "看到 games 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sleep",
+          "kk": "/sleep/",
+          "partOfSpeech": "v.",
+          "meaning": "睡覺",
+          "note": "看到 sleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "brother",
+          "kk": "/brother/",
+          "partOfSpeech": "n.",
+          "meaning": "兄弟",
+          "note": "看到 brother 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "cook",
           "kk": "/cook/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "廚師",
           "note": "看到 cook 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "one",
-          "kk": "/one/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "sister",
-          "kk": "/sister/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "some",
-          "kk": "/some/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "day",
           "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "every",
+          "kk": "/every/",
+          "partOfSpeech": "n.",
+          "meaning": "每一個",
+          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -355,6 +615,17 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "my name is",
       "meaning": "我的名字是",
       "examples": [
@@ -365,24 +636,13 @@
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "what do you",
-      "meaning": "你會怎麼...",
-      "examples": [
-        {
-          "en": "What do you do for work?",
-          "tc": "你做什麼工作？"
-        }
-      ]
-    },
-    {
       "id": "phrase-03",
-      "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "phrase": "what do you",
+      "meaning": "你是什麼",
       "examples": [
         {
-          "en": "I like going to the gym.",
-          "tc": "我喜歡去健身房。"
+          "en": "What do you write?",
+          "tc": "你寫什麼？"
         }
       ]
     }
@@ -391,7 +651,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -402,13 +662,13 @@
     },
     {
       "id": "breakdown-02",
-      "sentence": "Today I will be interviewing my sister again with some new beginner English questions all in a slow comprehensible way for you to learn English faster. So,.",
-      "translation": "今天我將再次採訪我妹妹，提出一些新的初學者英語問題，所有這些問題都以緩慢可理解的方式進行，以便您更快地學習英語。所以，。",
+      "sentence": "Today I will be interviewing my sister again with some new beginner English questions all in a slow comprehensible way for you to learn English faster.",
+      "translation": "今天我將再次採訪我妹妹，提出一些新的初學者英語問題，所有這些問題都以緩慢可理解的方式進行，以便你更快地學習英語。",
       "points": [
         {
-          "label": "interviewing sister again",
-          "text": "interviewing sister again",
-          "note": "注意 \"interviewing sister again\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "interviewing sister new",
+          "text": "interviewing sister new",
+          "note": "注意 \"interviewing sister new\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },

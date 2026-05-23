@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=4Q9ymisvCmA",
   "header": {
     "podcastLabel": "MissHoney B2",
-    "titleZh": "與英語一起旅行 - 慢速英語播客",
+    "titleZh": "與英語一起旅行 - 慢速英語podcast",
     "titleEn": "Travel With English - Slow English Podcast",
     "levelTag": "B2",
     "topicTag": "travel"
@@ -19,7 +19,7 @@
       "titleEn": "Opening: travel",
       "sentences": [
         {
-          "en": "Let me tell you how English changed my life. growing up without money in my family, but still being able to travel from Mexico to Thailand to Portugal, Brazil, and beyond, all.",
+          "en": "Let me tell you how English changed my life. Growing up without money in my family, but still being able to travel from Mexico to Thailand to Portugal, Brazil, and beyond, all.",
           "tc": "讓我告訴你英語如何改變了我的生活。我在家裡沒有錢的情況下長大，但仍然能夠從墨西哥到泰國到葡萄牙、巴西等等。"
         },
         {
@@ -37,28 +37,28 @@
       ],
       "tags": [
         {
-          "english": "able",
-          "kk": "/able/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 able 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
           "english": "money",
           "kk": "/money/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "錢",
           "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
+        },
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
@@ -73,8 +73,8 @@
           "tc": "你認為你會是什麼樣的人？"
         },
         {
-          "en": "If you weren't an English teacher?\" So,.",
-          "tc": "如果你不是英文老師呢？ 」所以，。"
+          "en": "If you weren't an English teacher?\"",
+          "tc": "如果你不是英文老師呢？ 」"
         },
         {
           "en": "Today I'm going to answer that question, while telling you the story of how English took me around the world. If this speed is too slow for you,.",
@@ -87,27 +87,11 @@
       ],
       "tags": [
         {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "teacher",
-          "kk": "/ˈtitʃɚ/",
+          "english": "day",
+          "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "老師",
-          "note": "看到 teacher 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -137,27 +121,11 @@
       ],
       "tags": [
         {
-          "english": "she",
-          "kk": "/she/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 she 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "sister",
           "kk": "/sister/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "姊姊",
           "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "teacher",
-          "kk": "/ˈtitʃɚ/",
-          "partOfSpeech": "n.",
-          "meaning": "老師",
-          "note": "看到 teacher 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -169,7 +137,7 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "She could do it with just her TEFL certificate, and high school. from anywhere in the world.",
+          "en": "She could do it with just her TEFL certificate, and high school. From anywhere in the world.",
           "tc": "她只需擁有 TEFL 證書和高中就可以做到這一點。來自世界任何地方。"
         },
         {
@@ -187,28 +155,20 @@
       ],
       "tags": [
         {
-          "english": "she",
-          "kk": "/she/",
+          "english": "money",
+          "kk": "/money/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 she 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "錢",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "sister",
           "kk": "/sister/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "姊姊",
           "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "able",
-          "kk": "/able/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 able 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         }
       ]
     },
@@ -223,41 +183,33 @@
           "tc": "我可以跑。這基本上意味著我姐姐為我設定了要遵循的道路。就是這樣。"
         },
         {
-          "en": "What I did. I got my TEFL certificate when I was 17 years old. So the second?",
-          "tc": "我做了什麼。我17歲時獲得了TEFL證書。那麼第二個呢？"
+          "en": "What I did?",
+          "tc": "我做了什麼？"
         },
         {
-          "en": "I turned 18, I knew I wanted to start teaching online as well, just like my sister did.",
-          "tc": "我 18 歲了，我知道我也想開始線上教學，就像我姐姐一樣。"
+          "en": "I got my TEFL certificate when I was 17 years old.",
+          "tc": "我17歲時獲得了TEFL證書。"
         },
         {
-          "en": "I started saving money right away, as much as I could,.",
-          "tc": "我立即開始盡可能地存錢。"
+          "en": "The second I turned 18, I knew I wanted to start teaching online as well, just like my sister did.",
+          "tc": "當我滿 18 歲的時候，我知道我也想開始在線上教學，就像我姐姐一樣。"
         }
       ],
       "tags": [
         {
-          "english": "sister",
-          "kk": "/sister/",
+          "english": "new",
+          "kk": "/new/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "money",
-          "kk": "/money/",
+          "english": "sister",
+          "kk": "/sister/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -269,6 +221,10 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
+          "en": "I started saving money right away, as much as I could,.",
+          "tc": "我立即開始盡可能地存錢。"
+        },
+        {
           "en": "I was able to move out into my own apartment when I was 18.",
           "tc": "18 歲時，我搬進了自己的公寓。"
         },
@@ -279,20 +235,668 @@
         {
           "en": "I grew up in. I lived there working for about a year,.",
           "tc": "我在那裡長大，在那裡工作了大約一年。"
-        },
-        {
-          "en": "I soon realized I felt stuck. I was getting stuck in a routine that.",
-          "tc": "我很快意識到我感到被困住了。我陷入了這樣的例行公事。"
         }
       ],
       "tags": [
         {
-          "english": "able",
-          "kk": "/able/",
+          "english": "money",
+          "kk": "/money/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 able 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "錢",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常作息",
+      "titleEn": "Part 7: daily routine",
+      "sentences": [
+        {
+          "en": "I soon realized I felt stuck. I was getting stuck in a routine that.",
+          "tc": "我很快意識到我感到被困住了。我陷入了這樣的例行公事。"
+        },
+        {
+          "en": "I didn't like.",
+          "tc": "我不喜歡。"
+        },
+        {
+          "en": "I had always dreamed of traveling since I was little. And that whole year.",
+          "tc": "我從小就一直夢想著去旅行。還有那一整年。"
+        },
+        {
+          "en": "I was just waiting for someone to travel with. Whether that was my sister or my friends, but nobody really wanted to as much as.",
+          "tc": "我只是在等一個人一起去旅行。無論是我的妹妹還是我的朋友，但沒有人真正願意這麼做。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "travel",
+          "kk": "/ˈtrævəl/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 travel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "sister",
+          "kk": "/sister/",
+          "partOfSpeech": "n.",
+          "meaning": "姊姊",
+          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "I did. Granted,.",
+          "tc": "我做到了。的確，。"
+        },
+        {
+          "en": "They were studying in college, but still nobody wanted to travel with me. At this point,.",
+          "tc": "他們正在讀大學，但仍然沒有人願意和我一起旅行。在此刻，。"
+        },
+        {
+          "en": "I had my laptop, Wi-Fi, and my English classes. I thought that's all.",
+          "tc": "我有筆記型電腦、無線網路和英語課。我以為就這樣了。"
+        },
+        {
+          "en": "I need. So, I decided to take my.",
+          "tc": "我需要。所以，我決定帶我的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "travel",
+          "kk": "/ˈtrævəl/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 travel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "I've been looking for. Connecting, meeting, learning. I came back home feeling more myself than I ever had. That's when I decided to book my.",
+          "tc": "我一直在尋找。聯繫、會議、學習。回到家，我比以往任何時候都感覺更自我。就在那時我決定預訂我的。"
+        },
+        {
+          "en": "Next trip to Costa Rica. I volunteered at a hostel in Costa Rica.",
+          "tc": "下次去哥斯大黎加。我在哥斯大黎加的一家旅館當志工。"
+        },
+        {
+          "en": "It was so much fun making friends and seeing beautiful new sites that when I returned back to Mexico, I knew I was certain I wanted to travel again.",
+          "tc": "結交朋友和看到美麗的新景點非常有趣，當我回到墨西哥時，我知道我確定我想再次旅行。"
+        },
+        {
+          "en": "I had always dreamed of visiting Thailand one day. Always, lifelong dream... So one day after saving every penny.",
+          "tc": "我一直夢想有一天能夠去泰國旅遊。永遠，一生的夢想......所以有一天，在節省每一分錢之後。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "travel",
+          "kk": "/ˈtrævəl/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 travel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：食物與用餐",
+      "titleEn": "Part 10: food",
+      "sentences": [
+        {
+          "en": "I had... Eating rice, beans and chickpeas for lunch every day.",
+          "tc": "我每天午餐吃米飯、豆類和鷹嘴豆。"
+        },
+        {
+          "en": "Finally had enough money to buy my ticket to Thailand! I figured.",
+          "tc": "終於有錢買去泰國的機票了！我估計。"
+        },
+        {
+          "en": "I only need enough for my ticket there because I can work online and get money for my food and my hostel.",
+          "tc": "我只需要足夠的門票，因為我可以在網上工作並獲得食物和宿舍的錢。"
+        },
+        {
+          "en": "I said goodbye to my family and I boarded my flight to Thailand. The only problem about teaching in Thailand was the time difference between Mexico and Thailand. If.",
+          "tc": "我告別了家人，登上了飛往泰國的班機。在泰國教學的唯一問題是墨西哥和泰國之間的時差。如果。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "money",
+          "kk": "/money/",
+          "partOfSpeech": "n.",
+          "meaning": "錢",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "ticket",
+          "kk": "/ticket/",
+          "partOfSpeech": "n.",
+          "meaning": "票",
+          "note": "看到 ticket 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：旅行",
+      "titleEn": "Part 11: travel",
+      "sentences": [
+        {
+          "en": "I was teaching at 2:00 p.m. In Mexico, that would be 3:00 a.m. In Thailand.",
+          "tc": "我下午 2:00 正在上課。在墨西哥，时间为凌晨 3:00；在泰国，时间为凌晨 3:00。"
+        },
+        {
+          "en": "It was brutal being nocturnal during that time. Staying up until 5 a.m. Teaching. It got to me. Some nights.",
+          "tc": "那時候夜間活動是很殘酷的。熬夜教學到凌晨5點。我得到了。有些晚上。"
+        },
+        {
+          "en": "I would cry from exhaustion.",
+          "tc": "我會因為疲憊而哭泣。"
+        },
+        {
+          "en": "I would be so tired. But at the end of the day, my exhaustion didn't matter.",
+          "tc": "我會很累。但最終，我的疲憊並不重要。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：旅行",
+      "titleEn": "Part 12: travel",
+      "sentences": [
+        {
+          "en": "I had my freedom and the most amazing experiences traveling alone. I learned a lot about myself. Just by being by myself, completely alone in Thailand.",
+          "tc": "我擁有自由和最奇妙的獨自旅行經驗。我對自己有了很多了解。就我一個人，完全獨自一人在泰國。"
+        },
+        {
+          "en": "I accomplished lots of my lifelong dreams.",
+          "tc": "我實現了我一生的許多夢想。"
+        },
+        {
+          "en": "I got my scuba diving certificate.",
+          "tc": "我拿到了水肺潛水證書。"
+        },
+        {
+          "en": "I saw the Similan Islands, a true paradise. I lived in pretty sketchy areas and I ate lots of local food. But I managed to continue saving all of the money.",
+          "tc": "我看到了斯米蘭群島，一個真正的天堂。我住在相當簡陋的地區，吃了很多當地食物。但我設法繼續存下所有的錢。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "money",
+          "kk": "/money/",
+          "partOfSpeech": "n.",
+          "meaning": "錢",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "travel",
+          "kk": "/ˈtrævəl/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 travel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：旅行",
+      "titleEn": "Part 13: travel",
+      "sentences": [
+        {
+          "en": "I got from my English classes and continue scuba diving and continue traveling. I traveled through Cambodia and Vietnam, two places that are even cheaper than Thailand, but somehow.",
+          "tc": "我結束了英語課，繼續水肺潛水並繼續旅行。我去過柬埔寨和越南，這兩個地方比泰國還便宜，但不知何故。"
+        },
+        {
+          "en": "I think from being in such humid countries for so long, being so close to the beach, scuba diving on boats. Somehow my computer broke. Now, this was a crucial moment.",
+          "tc": "我認為在如此潮濕的國家待了這麼久，離海灘如此之近，在船上水肺潛水。不知怎的，我的電腦壞了。現在，這是一個關鍵時刻。"
+        },
+        {
+          "en": "I didn't have enough money to buy a new one. I only had enough money saved to buy a ticket back home.",
+          "tc": "我沒有足夠的錢去買一件新的。我的積蓄只夠買一張回家的票。"
+        },
+        {
+          "en": "It was either spend those savings on a new computer to continue traveling or use those savings to buy my ticket home.",
+          "tc": "要嘛把這些積蓄花在一台新電腦上繼續旅行，要嘛用這些積蓄買回家的機票。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "money",
+          "kk": "/money/",
+          "partOfSpeech": "n.",
+          "meaning": "錢",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常生活",
+      "titleEn": "Part 14: everyday life",
+      "sentences": [
+        {
+          "en": "Then maybe save up for a new computer. And I chose the most responsible option,.",
+          "tc": "然後也許可以存錢買一台新電腦。我選擇了最負責任的選項。"
+        },
+        {
+          "en": "I think. So, I went back home and I worked on my iPad until I saved up enough to buy a new computer.",
+          "tc": "我認為。於是，我回到家，用 iPad 工作，直到存夠錢買一台新電腦。"
+        },
+        {
+          "en": "Then I saved up some more and I traveled to the UK, Cornwall.",
+          "tc": "然後我又存了一些錢，去了英國康沃爾郡。"
+        },
+        {
+          "en": "I saw this boy that I was dating. I met his family.",
+          "tc": "我看到了我正在約會的那個男孩。我見到了他的家人。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "travel",
+          "kk": "/ˈtrævəl/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 travel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "He showed me all of the beautiful places in Cornwall.",
+          "tc": "他帶我參觀了康沃爾郡所有美麗的地方。"
+        },
+        {
+          "en": "I got antsy. Is when you can't stay still.",
+          "tc": "我很煩躁。就是當你無法保持靜止的時候。"
+        },
+        {
+          "en": "I got antsy.",
+          "tc": "我很煩躁。"
+        },
+        {
+          "en": "I had to move again.",
+          "tc": "我不得不再次搬家。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "money",
+          "kk": "/money/",
+          "partOfSpeech": "n.",
+          "meaning": "錢",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：旅行",
+      "titleEn": "Part 16: travel",
+      "sentences": [
+        {
+          "en": "I had to travel somewhere new. So, I booked a ticket to Portugal. That's.",
+          "tc": "我必須去一個新的地方旅行。於是，我訂了一張去葡萄牙的機票。就是這樣。"
+        },
+        {
+          "en": "Where I met the best people while working at a hostel. I worked at reception 20 hours a week and in exchange?",
+          "tc": "我在旅館工作時遇到了最好的人。我每週在接待處工作 20 小時，作為交換？"
+        },
+        {
+          "en": "They gave me a free place to sleep and free food. A really good deal in my opinion.",
+          "tc": "他們給了我一個免費的睡覺的地方和免費的食物。我認為這是一筆非常划算的交易。"
+        },
+        {
+          "en": "I also taught English online 2 or 3 hours a day, to make money and save for my.",
+          "tc": "我還每天在線教英語2或3小時，以賺錢並為我存錢。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "money",
+          "kk": "/money/",
+          "partOfSpeech": "n.",
+          "meaning": "錢",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "travel",
+          "kk": "/ˈtrævəl/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 travel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段：旅行",
+      "titleEn": "Part 17: travel",
+      "sentences": [
+        {
+          "en": "I had so many fun moments in Portugal. Biking, going to beaches, exploring the city.",
+          "tc": "我在葡萄牙度過了很多有趣的時刻。騎自行車、去海灘、探索城市。"
+        },
+        {
+          "en": "I adored Portugal. I adored the hostel I worked at. Hostels are a safe space.",
+          "tc": "我喜歡葡萄牙。我很喜歡我工作過的旅館。旅館是一個安全的地方。"
+        },
+        {
+          "en": "Where travelers can connect with each other. I volunteered through World Packers. Volunteering saved me thousands of dollars and English was the reason that?",
+          "tc": "旅行者可以互相聯繫的地方。我透過 World Packers 做志工。志工服務為我節省了數千美元，而英語是原因嗎？"
+        },
+        {
+          "en": "I could do it to communicate, to connect, and to help.",
+          "tc": "我可以透過它來溝通、聯繫和提供幫助。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "travel",
+          "kk": "/ˈtrævəl/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 travel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段：語言學習",
+      "titleEn": "Part 18: language",
+      "sentences": [
+        {
+          "en": "It was a requirement to know English, to volunteer at most hostels.",
+          "tc": "在大多數旅館當志工都要求懂英文。"
+        },
+        {
+          "en": "It was time to go home. I booked my ticket to Mexico and right away.",
+          "tc": "是時候回家了。我立即預訂了飛往墨西哥的機票。"
+        },
+        {
+          "en": "I had the most wonderful experience and I met some of the most thoughtprovoking friends.",
+          "tc": "我度過了最美妙的經歷，也認識了一些最發人深省的朋友。"
+        },
+        {
+          "en": "I loved watching over the turtle nests and making sure the baby turtles made it into the ocean.",
+          "tc": "我喜歡看護海龜巢並確保小海龜順利進入海洋。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "ticket",
+          "kk": "/ticket/",
+          "partOfSpeech": "n.",
+          "meaning": "票",
+          "note": "看到 ticket 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段：日常生活",
+      "titleEn": "Part 19: everyday life",
+      "sentences": [
+        {
+          "en": "It was a magical experience that I also found on World Packers. Now,.",
+          "tc": "我在 World Packers 上也發現了這種神奇的經驗。現在，。"
+        },
+        {
+          "en": "After the turtle sanctuary, I was ready to travel again. So my boyfriend at the time invited me to travel to New Zealand with him to live in a van.",
+          "tc": "參觀完海龜保護區，我準備再次出發。所以我當時的男朋友邀請我和他一起去紐西蘭旅行，住在一輛麵包車裡。"
+        },
+        {
+          "en": "I bought my ticket. I bought everything I needed for the winter in New Zealand.",
+          "tc": "我買了票。我買了紐西蘭冬天所需的一切。"
+        },
+        {
+          "en": "I said goodbye to my family.",
+          "tc": "我向家人告別了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "travel",
+          "kk": "/ˈtrævəl/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 travel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "ticket",
+          "kk": "/ticket/",
+          "partOfSpeech": "n.",
+          "meaning": "票",
+          "note": "看到 ticket 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段：日常生活",
+      "titleEn": "Part 20: everyday life",
+      "sentences": [
+        {
+          "en": "He called me a few days before leaving and told me.",
+          "tc": "離開前幾天他打電話給我並告訴了我。"
+        },
+        {
+          "en": "He cheated on me. I was destroyed obviously, but blessings always come out of misfortunes. At least for me,.",
+          "tc": "他欺騙了我。我明明被毀了，但禍福相依。至少對我來說，。"
+        },
+        {
+          "en": "They always do. And I was feeling so sad, so lost one day that.",
+          "tc": "他們總是這樣做。有一天我感到非常悲傷，非常失落。"
+        },
+        {
+          "en": "I decided to expand my reach and get new students so I could save more money and travel by myself again.",
+          "tc": "我決定擴大我的影響範圍並招收新學生，這樣我就可以節省更多的錢並再次獨自旅行。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "money",
+          "kk": "/money/",
+          "partOfSpeech": "n.",
+          "meaning": "錢",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "travel",
+          "kk": "/ˈtrævəl/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 travel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     }
@@ -302,67 +906,67 @@
       "title": "B2 重點單字",
       "items": [
         {
-          "english": "she",
-          "kk": "/she/",
+          "english": "money",
+          "kk": "/money/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 she 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "錢",
+          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "thailand",
+          "kk": "/thailand/",
+          "partOfSpeech": "n.",
+          "meaning": "泰國",
+          "note": "看到 thailand 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "travel",
+          "kk": "/ˈtrævəl/",
+          "partOfSpeech": "n.",
+          "meaning": "旅行",
+          "note": "看到 travel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "ticket",
+          "kk": "/ticket/",
+          "partOfSpeech": "n.",
+          "meaning": "票",
+          "note": "看到 ticket 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "sister",
           "kk": "/sister/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "姊姊",
           "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "able",
-          "kk": "/able/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 able 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "money",
-          "kk": "/money/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "teacher",
-          "kk": "/ˈtitʃɚ/",
-          "partOfSpeech": "n.",
-          "meaning": "老師",
-          "note": "看到 teacher 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "became",
-          "kk": "/became/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 became 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -383,7 +987,7 @@
     {
       "id": "phrase-02",
       "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "meaning": "去",
       "examples": [
         {
           "en": "Sometimes I didn't know where I was going to stay.",
@@ -393,12 +997,12 @@
     },
     {
       "id": "phrase-03",
-      "phrase": "i want",
-      "meaning": "常用說法，可用來表達「i want」這個意思",
+      "phrase": "as much as",
+      "meaning": "多達",
       "examples": [
         {
-          "en": "I turned 18, I knew I wanted to start teaching online as well, just like my sister did.",
-          "tc": "我 18 歲了，我知道我也想開始線上教學，就像我姐姐一樣。"
+          "en": "I started saving money right away, as much as I could,.",
+          "tc": "我立即開始盡可能地存錢。"
         }
       ]
     }
@@ -406,7 +1010,7 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Let me tell you how English changed my life. growing up without money in my family, but still being able to travel from Mexico to Thailand to Portugal, Brazil, and beyond, all.",
+      "sentence": "Let me tell you how English changed my life. Growing up without money in my family, but still being able to travel from Mexico to Thailand to Portugal, Brazil, and beyond, all.",
       "translation": "讓我告訴你英語如何改變了我的生活。我在家裡沒有錢的情況下長大，但仍然能夠從墨西哥到泰國到葡萄牙、巴西等等。",
       "points": [
         {

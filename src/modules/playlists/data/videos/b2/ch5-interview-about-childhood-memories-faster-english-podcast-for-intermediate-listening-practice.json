@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=XzJw0R5vxZE",
   "header": {
     "podcastLabel": "MissHoney B2",
-    "titleZh": "童年回憶訪談💭－更快的中級聽力練習英文播客！",
+    "titleZh": "童年回憶訪談💭－更快的中級聽力練習英文podcast！",
     "titleEn": "Interview about Childhood Memories💭-- FASTER English Podcast for INTERMEDIATE Listening Practice!",
     "levelTag": "B2",
     "topicTag": "people"
@@ -19,30 +19,46 @@
       "titleEn": "Opening: everyday life",
       "sentences": [
         {
-          "en": "Like I'm asking you the question.",
-          "tc": "就像我在問你這個問題一樣。"
+          "en": "I'm asking you the question.",
+          "tc": "我在問你這個問題。"
         },
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
-          "en": "Today I'm making an interview for you to practice listening to questions and answers. Today.",
-          "tc": "今天我給大家做一個採訪，練習聽問題和回答。今天。"
+          "en": "Today I am making an interview for you to practice listening to questions and answers.",
+          "tc": "今天我給大家做一個採訪，練習聽問題和回答。"
         },
         {
-          "en": "We're starting with some intermediate questions, moving on to advanced questions afterwards. Try and follow along as far as you can go.",
-          "tc": "我們從一些中級問題開始，然後轉向高階問題。嘗試並儘可能地跟隨。"
+          "en": "Today we're starting with some intermediate questions, moving on to advanced questions afterwards. Try and follow along as far as you can go.",
+          "tc": "今天我們從一些中級問題開始，然後轉向高階問題。嘗試並儘可能地跟隨。"
         }
       ],
       "tags": [
         {
-          "english": "questions",
-          "kk": "/questions/",
+          "english": "favorite",
+          "kk": "/favorite/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 questions 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "最喜歡的",
+          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "house",
+          "kk": "/house/",
+          "partOfSpeech": "n.",
+          "meaning": "房子",
+          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "probably",
+          "kk": "/probably/",
+          "partOfSpeech": "adv.",
+          "meaning": "大概",
+          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
@@ -53,45 +69,29 @@
       "titleEn": "Part 2: work",
       "sentences": [
         {
-          "en": "Today I'm going to be interviewing and asking questions to my sister Brianna. So,.",
-          "tc": "今天我要採訪我的妹妹布麗安娜並向她提問。所以，。"
+          "en": "Today I am going to interview my sister, Brianna.",
+          "tc": "今天我要採訪我的妹妹布麗安娜。"
         },
         {
-          "en": "First of all, where did you grow up? Um, I grew up in Norfol, Nebraska in the United States.",
-          "tc": "首先，你在哪裡長大？嗯，我在美國內布拉斯加州諾福爾長大。"
+          "en": "First of all, where did you grow up?",
+          "tc": "首先，你在哪裡長大？"
         },
         {
-          "en": "What was your childhood home like? My childhood home was very American,?",
-          "tc": "你童年的家是什麼樣的？我童年的家很美國，？"
+          "en": "What was your childhood home like?",
+          "tc": "你童年的家是什麼樣的？"
         },
         {
-          "en": "You know, wooden houses. It was a two-bedroom house, one bathroom with a basement.",
-          "tc": "你知道，木房子。那是一棟兩房、一間浴室和一個地下室的房子。"
+          "en": "My childhood home was very American.",
+          "tc": "我童年的家非常美國化。"
         }
       ],
       "tags": [
         {
-          "english": "did",
-          "kk": "/did/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 did 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "childhood",
           "kk": "/childhood/",
           "partOfSpeech": "n.",
-          "meaning": "人物與關係相關的常用字",
+          "meaning": "童年",
           "note": "看到 childhood 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "house",
-          "kk": "/house/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -107,41 +107,33 @@
           "tc": "我們住過，有很多龍捲風。地下室嚇到你嗎？作為一個孩子，是的，這確實讓我很害怕。嗯，。"
         },
         {
-          "en": "When it came to going to bed or turning off the lights,?",
-          "tc": "到了睡覺或關燈的時候？"
-        },
-        {
           "en": "I would always run back up the stairs so monsters wouldn't get me. And did.",
           "tc": "我總是跑回樓梯上，這樣怪物就不會抓到我。並且做到了。"
         },
         {
           "en": "You have a favorite toy or stuffed animal when you were younger?",
-          "tc": "您小時候有最喜歡的玩具或毛絨動物嗎？"
+          "tc": "你小時候有最喜歡的玩具或毛絨動物嗎？"
+        },
+        {
+          "en": "When I was younger, I did have a favorite toy?",
+          "tc": "當我年輕的時候，我確實有一個最喜歡的玩具？"
         }
       ],
       "tags": [
         {
-          "english": "did",
-          "kk": "/did/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 did 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "favorite",
           "kk": "/favorite/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "最喜歡的",
           "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "lot",
-          "kk": "/lot/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 lot 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -153,46 +145,30 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "When I was younger, I did have a favorite toy. It was a stuffed toy cat. It was a Persian cat?",
-          "tc": "當我年輕的時候，我確實有一個最喜歡的玩具。那是一隻絨毛玩具貓。這是波斯貓？"
+          "en": "It was a stuffed toy cat.",
+          "tc": "那是一隻絨毛玩具貓。"
         },
         {
-          "en": "She was white and fluffy, and I loved her a lot. And what was your favorite thing to do as a child?",
-          "tc": "她又白又毛茸茸的，我很愛她。你小時候最喜歡做的事是什麼？"
+          "en": "It was a Persian cat.",
+          "tc": "那是一隻波斯貓。"
         },
         {
-          "en": "My favorite thing to do as a child was probably swimming.",
-          "tc": "我小時候最喜歡做的事可能是游泳。"
+          "en": "She was white and fluffy, and I loved her a lot.",
+          "tc": "她又白又毛茸茸的，我很愛她。"
         },
         {
-          "en": "We enjoyed swimming a lot. Wherever I lived, there was always a public pool nearby and um yeah,.",
-          "tc": "我們非常喜歡游泳。無論我住在哪裡，附近總是有一個公共游泳池，嗯，是的。"
+          "en": "What was your favorite thing to do as a child?",
+          "tc": "你小時候最喜歡做的事是什麼？"
         }
       ],
       "tags": [
         {
-          "english": "did",
-          "kk": "/did/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 did 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "favorite",
           "kk": "/favorite/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "最喜歡的",
           "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "lot",
-          "kk": "/lot/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 lot 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
@@ -203,46 +179,38 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "We'd spend all all day long when it was summer over there. Mhm. And who did.",
-          "tc": "那裡夏天的時候我們會待上一整天。嗯。誰做到了。"
+          "en": "My favorite thing to do as a child was probably swimming.",
+          "tc": "我小時候最喜歡做的事可能是游泳。"
         },
         {
-          "en": "You enjoy hanging out with the most when you were younger? Uh.",
-          "tc": "你年輕時最喜歡出去玩？呃。"
+          "en": "We enjoyed swimming a lot. Wherever I lived, there was always a public pool nearby and um yeah,.",
+          "tc": "我們非常喜歡游泳。無論我住在哪裡，附近總是有一個公共游泳池，嗯，是的。"
+        },
+        {
+          "en": "It was summer over there. Mhm. And who did you enjoy hanging out with the most when you were younger? Uh.",
+          "tc": "那裡正值夏天。嗯。當你年輕的時候，你最喜歡和誰一起出去玩？呃。"
         },
         {
           "en": "I don't know. I enjoyed hanging out with my sister a lot.",
           "tc": "我不知道。我很喜歡和姐姐一起出去玩。"
-        },
-        {
-          "en": "We have a 2-year age difference.",
-          "tc": "我們有2歲的年齡差。"
         }
       ],
       "tags": [
         {
-          "english": "did",
-          "kk": "/did/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 did 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "favorite",
+          "kk": "/favorite/",
+          "partOfSpeech": "n.",
+          "meaning": "最喜歡的",
+          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "lot",
-          "kk": "/lot/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 lot 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "english": "probably",
+          "kk": "/probably/",
+          "partOfSpeech": "adv.",
+          "meaning": "大概",
+          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
@@ -253,20 +221,20 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "We always got along really well. It was always a great time. Mhm.",
-          "tc": "我們總是相處得很好。這總是一段美好的時光。嗯。"
+          "en": "We have a 2-year age difference.",
+          "tc": "我們有2歲的年齡差。"
+        },
+        {
+          "en": "We always got along really well.",
+          "tc": "我們總是相處得很好。"
+        },
+        {
+          "en": "It was always a great time. Mhm.",
+          "tc": "這總是一段美好的時光。嗯。"
         },
         {
           "en": "Where do you think your favorite childhood memories have been?",
           "tc": "你認為你最喜歡的童年回憶在哪裡？"
-        },
-        {
-          "en": "My favorite childhood memories have probably been in my second house, which was a house in Iowa, one state over from Nebraska. And that house was a little bigger. It was a.",
-          "tc": "我最喜歡的童年記憶可能是在我的第二棟房子裡，那是位於愛荷華州的一棟房子，距離內布拉斯加州僅一州。而且那個房子稍微大一點。這是一個。"
-        },
-        {
-          "en": "I think five bedroomedroom twob and I was really excited to move in. So was the rest of my family.",
-          "tc": "我認為有五間臥室和兩間臥室，我很高興搬進去。我的其他家人也是如此。"
         }
       ],
       "tags": [
@@ -274,24 +242,692 @@
           "english": "favorite",
           "kk": "/favorite/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "最喜歡的",
           "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "been",
+          "kk": "/been/",
+          "partOfSpeech": "n.",
+          "meaning": "到過",
+          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "childhood",
           "kk": "/childhood/",
           "partOfSpeech": "n.",
-          "meaning": "人物與關係相關的常用字",
+          "meaning": "童年",
           "note": "看到 childhood 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：人物與關係",
+      "titleEn": "Part 7: people",
+      "sentences": [
+        {
+          "en": "My favorite childhood memories have probably been in my second house, which was a house in Iowa, one state over from Nebraska. And that house was a little bigger.",
+          "tc": "我最喜歡的童年記憶可能是在我的第二棟房子裡，那是位於愛荷華州的一棟房子，距離內布拉斯加州僅一州。而且那個房子稍微大一點。"
+        },
+        {
+          "en": "I think five bedroomedroom twob and I was really excited to move in. So was the rest of my family.",
+          "tc": "我認為有五間臥室和兩間臥室，我很高興搬進去。我的其他家人也是如此。"
+        },
+        {
+          "en": "We created a lot of memories with my cousins and with new friends.",
+          "tc": "我們與我的表兄弟姐妹和新朋友創造了很多回憶。"
+        },
+        {
+          "en": "What was your favorite holiday to celebrate as a child?",
+          "tc": "你小時候最喜歡慶祝的節日是？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "favorite",
+          "kk": "/favorite/",
+          "partOfSpeech": "n.",
+          "meaning": "最喜歡的",
+          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "always",
-          "kk": "/always/",
+          "english": "house",
+          "kk": "/house/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 always 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "房子",
+          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "probably",
+          "kk": "/probably/",
+          "partOfSpeech": "adv.",
+          "meaning": "大概",
+          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：食物與用餐",
+      "titleEn": "Part 8: food",
+      "sentences": [
+        {
+          "en": "It is a very Christian community and there was always a big fuss about it. Lots of gifts, lots of dinners, lots of parties.",
+          "tc": "這是一個非常基督教化的社區，總是引起很大的爭議。很多禮物，很多晚餐，很多聚會。"
+        },
+        {
+          "en": "It was a great time. Mhm. And what has been your favorite present you've ever received on Christmas?",
+          "tc": "那是一段美好的時光。嗯。你在聖誕節收到的最喜歡的禮物是什麼？"
+        },
+        {
+          "en": "I got a Ken doll and a baby Barbie doll so I could.",
+          "tc": "我買了一個肯娃娃和一個芭比娃娃，這樣我就可以了。"
+        },
+        {
+          "en": "Finally have a whole family for my Barbie dolls. And why did you enjoy playing with Barbies? I enjoyed playing with Barbies.",
+          "tc": "我的芭比娃娃終於有了一個完整的家庭。為什麼喜歡和芭比娃娃一起玩？我很喜歡和芭比娃娃一起玩。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "favorite",
+          "kk": "/favorite/",
+          "partOfSpeech": "n.",
+          "meaning": "最喜歡的",
+          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "been",
+          "kk": "/been/",
+          "partOfSpeech": "n.",
+          "meaning": "到過",
+          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "I've always loved storytelling,.",
+          "tc": "我一直很喜歡講故事。"
+        },
+        {
+          "en": "I feel. And with Barbies, you can be anything. You can create anything.",
+          "tc": "我感覺。有了芭比娃娃，你可以成為任何人。你可以創造任何東西。"
+        },
+        {
+          "en": "It was always fun that there were no limits to what I could do.",
+          "tc": "我能做的事情沒有限制，這總是很有趣的。"
+        },
+        {
+          "en": "You remember any places that you dreaded visiting when you were younger?",
+          "tc": "你還記得年輕時害怕去的地方嗎？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "favorite",
+          "kk": "/favorite/",
+          "partOfSpeech": "n.",
+          "meaning": "最喜歡的",
+          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "house",
+          "kk": "/house/",
+          "partOfSpeech": "n.",
+          "meaning": "房子",
+          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "probably",
+          "kk": "/probably/",
+          "partOfSpeech": "adv.",
+          "meaning": "大概",
+          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "I can't remember now. Maybe a dentist or the doctor or maybe even school. A place.",
+          "tc": "我現在記不起來了。也許是牙醫或醫生，甚至可能是學校。一個地方。"
+        },
+        {
+          "en": "I dreaded as a kid. So, the million-dollar question. I know.",
+          "tc": "我小時候很怕。所以，這是一個價值百萬美元的問題。我知道。"
+        },
+        {
+          "en": "What was the place you dreaded visiting when you were younger? I dreaded visiting. It wasn't so much my grandparents house, but in the back of my grandparents house?",
+          "tc": "當你年輕的時候，你最害怕去的地方是哪裡？我害怕拜訪。與其說是祖父母家，不如說是在我祖父母家後面？"
+        },
+        {
+          "en": "When I was a kid, there is a chicken coupe?",
+          "tc": "小時候有雞轎跑車嗎？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "house",
+          "kk": "/house/",
+          "partOfSpeech": "n.",
+          "meaning": "房子",
+          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "They had a few roosters. And the roosters were always really mean and would chase me around and pick up my legs.",
+          "tc": "他們養了幾隻公雞。公雞總是很卑鄙，會追著我跑，並夾起我的腿。"
+        },
+        {
+          "en": "I didn't dread my grandma and grandpa's house, but I dreaded seeing the roosters. Mhm. Okay.",
+          "tc": "我並不害怕奶奶和爺爺的房子，但我害怕看到公雞。嗯。好的。"
+        },
+        {
+          "en": "What was your favorite thing about going to your grandpa's farm?",
+          "tc": "去爺爺的農場時你最喜歡的事是什麼？"
+        },
+        {
+          "en": "My favorite thing about going to the farm was probably.",
+          "tc": "我最喜歡去農場的事情可能是。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "favorite",
+          "kk": "/favorite/",
+          "partOfSpeech": "n.",
+          "meaning": "最喜歡的",
+          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "house",
+          "kk": "/house/",
+          "partOfSpeech": "n.",
+          "meaning": "房子",
+          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "probably",
+          "kk": "/probably/",
+          "partOfSpeech": "adv.",
+          "meaning": "大概",
+          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "I have two favorite things. I enjoyed seeing the animals around the farm, especially the pigs, the baby pigs.",
+          "tc": "我有兩件最喜歡的事。我很喜歡看到農場周圍的動物，尤其是小豬和小豬。"
+        },
+        {
+          "en": "I also really enjoyed being inside my grandparents house because my grandma's house had a lot of toys and that was really fun.",
+          "tc": "我也很喜歡待在祖父母的房子裡，因為我奶奶的房子裡有很多玩具，這真的很有趣。"
+        },
+        {
+          "en": "What was your favorite subject in school?",
+          "tc": "你在學校最喜歡的科目是什麼？"
+        },
+        {
+          "en": "My favorite subject has probably always been math or science.",
+          "tc": "我最喜歡的科目可能一直是數學或科學。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "favorite",
+          "kk": "/favorite/",
+          "partOfSpeech": "n.",
+          "meaning": "最喜歡的",
+          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "house",
+          "kk": "/house/",
+          "partOfSpeech": "n.",
+          "meaning": "房子",
+          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "probably",
+          "kk": "/probably/",
+          "partOfSpeech": "adv.",
+          "meaning": "大概",
+          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "They're my strong suit.",
+          "tc": "他們是我的強項。"
+        },
+        {
+          "en": "It was something I could also always comprehend and find beauty in. And what's some.",
+          "tc": "這是我總能理解並發現其中的美的東西。還有什麼。"
+        },
+        {
+          "en": "What was your least favorite subject in school? My least favorite has probably always been social studies and history?",
+          "tc": "在學校最不喜歡的科目是什麼？我最不喜歡的可能一直是社會研究和歷史？"
+        },
+        {
+          "en": "I do like social studies and history, but I kind of like to choose the topics that.",
+          "tc": "我確實喜歡社會研究和歷史，但我有點喜歡選擇這些主題。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "favorite",
+          "kk": "/favorite/",
+          "partOfSpeech": "n.",
+          "meaning": "最喜歡的",
+          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "probably",
+          "kk": "/probably/",
+          "partOfSpeech": "adv.",
+          "meaning": "大概",
+          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常生活",
+      "titleEn": "Part 14: everyday life",
+      "sentences": [
+        {
+          "en": "I feel like there's a lot of unnecessary information in history classes. Hot take. Hot take. Did you play any sports or have any hobbies growing up? Growing up,.",
+          "tc": "我覺得歷史課有很多不必要的資訊。熱拍。熱拍。你在成長過程中參加過任何運動或有任何嗜好嗎？長大了，."
+        },
+        {
+          "en": "I had hobbies like swimming, volleyball, mostly sporty hobbies. I did want to get into musical hobbies, but I only ever got to play piano for a few years.",
+          "tc": "我有游泳、排球等嗜好，主要是運動愛好。我確實想培養音樂嗜好，但我只彈了幾年鋼琴。"
+        },
+        {
+          "en": "What type of musical hobbies?",
+          "tc": "什麼類型的音樂嗜好？"
+        },
+        {
+          "en": "Would you have wanted to get into? I probably would have wanted to try violin, possibly drums?",
+          "tc": "你想進去嗎？我可能想嘗試小提琴，也許是鼓？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "probably",
+          "kk": "/probably/",
+          "partOfSpeech": "adv.",
+          "meaning": "大概",
+          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "I feel like my sense of rhythm is probably the weakest thing um as far as my musical expertise goes. So something in that area would have been nice. And did.",
+          "tc": "我覺得就我的音樂專業知識而言，我的節奏感可能是最弱的。所以那個地區的東西會很好。並且做到了。"
+        },
+        {
+          "en": "You ever get into trouble at school? Were you ever the troublemaker in school? Not really.",
+          "tc": "你在學校有遇到麻煩嗎？你曾經是學校裡的麻煩製造者嗎？並不真地。"
+        },
+        {
+          "en": "I was I was a pretty good kid. Maybe you were a little bit of a troublemaker. A little bit more than you,.",
+          "tc": "我是一個非常好的孩子。也許你是一個有點麻煩製造者。比你多一點點，"
+        },
+        {
+          "en": "I guess. A little bit more. But what's a moment that you can remember.",
+          "tc": "我猜。再多一點。但你能記住的時刻是什麼？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "probably",
+          "kk": "/probably/",
+          "partOfSpeech": "adv.",
+          "meaning": "大概",
+          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "been",
+          "kk": "/been/",
+          "partOfSpeech": "n.",
+          "meaning": "到過",
+          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：工作與學習",
+      "titleEn": "Part 16: work",
+      "sentences": [
+        {
+          "en": "I do remember one time when all the students were having a water balloon fight.",
+          "tc": "我記得有一次，所有的學生都在打水氣球大戰。"
+        },
+        {
+          "en": "I don't know.",
+          "tc": "我不知道。"
+        },
+        {
+          "en": "I think somebody just brought water balloons to school.",
+          "tc": "我想有人剛剛把水氣球帶到學校了。"
+        },
+        {
+          "en": "We were all fighting. But for some reason, I was singled out and told that.",
+          "tc": "我們都在戰鬥。但由於某種原因，我被挑出來並被告知了這一點。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段：日常生活",
+      "titleEn": "Part 17: everyday life",
+      "sentences": [
+        {
+          "en": "I can't be doing that or I'd get written up and was threatened to talk to my parents about it.",
+          "tc": "我不能這樣做，否則我會被舉報並被威脅要和我的父母談論這件事。"
+        },
+        {
+          "en": "I mean, everybody was doing it, so I wouldn't say.",
+          "tc": "我的意思是，每個人都這樣做，所以我不會說。"
+        },
+        {
+          "en": "It was necessarily a troublemaker thing. Mhm. Yeah, I guess that's true. You've never gotten into trouble. I can't even think of a time. I know.",
+          "tc": "這必然是一件麻煩事。嗯。是的，我想這是真的。你從來沒有遇到過麻煩。我甚至想不出一個時間。我知道。"
+        },
+        {
+          "en": "I have a few examples that I could think of,.",
+          "tc": "我有幾個我能想到的例子。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段：日常生活",
+      "titleEn": "Part 18: everyday life",
+      "sentences": [
+        {
+          "en": "I don't think you have any.",
+          "tc": "我認為你沒有。"
+        },
+        {
+          "en": "What was your favorite meal or snack as a kid?",
+          "tc": "你小時候最喜歡吃的餐點或點心是什麼？"
+        },
+        {
+          "en": "My favorite snack has probably always been,.",
+          "tc": "我最喜歡的零食可能一直是，。"
+        },
+        {
+          "en": "I get hated on a lot for it, celery with peanut butter.",
+          "tc": "我很討厭芹菜加花生醬。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "favorite",
+          "kk": "/favorite/",
+          "partOfSpeech": "n.",
+          "meaning": "最喜歡的",
+          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "probably",
+          "kk": "/probably/",
+          "partOfSpeech": "adv.",
+          "meaning": "大概",
+          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段：日常生活",
+      "titleEn": "Part 19: everyday life",
+      "sentences": [
+        {
+          "en": "One of the best snacks. It's fresh. You can eat it in the summer, in the winter, like whenever. And yeah, probably celery and peanut butter sticks. Okay.",
+          "tc": "最好的零食之一。很新鮮。夏天、冬天都可以吃，什麼時候都可以吃。是的，可能是芹菜和花生酱棒。好的。"
+        },
+        {
+          "en": "My favorite snacks, but now if.",
+          "tc": "我最喜歡的零食，但現在如果。"
+        },
+        {
+          "en": "I eat Flaming Hot Cheetos, my stomach really hurts. Did you have any chores at home? I didn't have many chores,.",
+          "tc": "我吃火辣Cheetos，我的胃真的很痛。你家裡有什麼家事嗎？我沒有太多家務，。"
+        },
+        {
+          "en": "I had the basic ones. Doing dishes, taking out the trash every once in a while, and just making sure the house was picked up.",
+          "tc": "我有基本的。洗碗，不時倒垃圾，確保房子被清理乾淨。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "favorite",
+          "kk": "/favorite/",
+          "partOfSpeech": "n.",
+          "meaning": "最喜歡的",
+          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "house",
+          "kk": "/house/",
+          "partOfSpeech": "n.",
+          "meaning": "房子",
+          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "probably",
+          "kk": "/probably/",
+          "partOfSpeech": "adv.",
+          "meaning": "大概",
+          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段：人物與關係",
+      "titleEn": "Part 20: people",
+      "sentences": [
+        {
+          "en": "How do you think childhood today is different from when you were younger? Well, obviously a big difference is?",
+          "tc": "你認為今天的童年與你年輕時有何不同？嗯，顯然有一個很大的區別是？"
+        },
+        {
+          "en": "How technology centered childhood is nowadays. Um, most kids have iPads, phones, or at least are exposed to it. And in my time, the most contact?",
+          "tc": "現今的童年是如何以科技為中心的。嗯，大多數孩子都有 iPad、手機，或至少接觸過它們。而在我這個時代，接觸最多的又是什麼？"
+        },
+        {
+          "en": "I ever had with technology with technology was through the TV. Um, but even.",
+          "tc": "我曾經透過電視接觸過科技。嗯，但甚至。"
+        },
+        {
+          "en": "Then, my access to TV was limited to one or two hours a day.",
+          "tc": "然後，我每天看電視的時間被限制在一、兩個小時。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "childhood",
+          "kk": "/childhood/",
+          "partOfSpeech": "n.",
+          "meaning": "童年",
+          "note": "看到 childhood 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -302,67 +938,67 @@
       "title": "B2 重點單字",
       "items": [
         {
-          "english": "did",
-          "kk": "/did/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 did 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "favorite",
           "kk": "/favorite/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "最喜歡的",
           "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "childhood",
-          "kk": "/childhood/",
-          "partOfSpeech": "n.",
-          "meaning": "人物與關係相關的常用字",
-          "note": "看到 childhood 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "lot",
-          "kk": "/lot/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 lot 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "always",
-          "kk": "/always/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 always 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
         {
           "english": "house",
           "kk": "/house/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "房子",
           "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "probably",
+          "kk": "/probably/",
+          "partOfSpeech": "adv.",
+          "meaning": "大概",
+          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "questions",
-          "kk": "/questions/",
+          "english": "been",
+          "kk": "/been/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 questions 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "到過",
+          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "childhood",
+          "kk": "/childhood/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "童年",
+          "note": "看到 childhood 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "get",
+          "kk": "/get/",
+          "partOfSpeech": "v.",
+          "meaning": "得到",
+          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -371,34 +1007,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "Today I'm going to be interviewing and asking questions to my sister Brianna.",
-          "tc": "今天我要採訪我的妹妹布麗安娜並向她提問。"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "i think",
-      "meaning": "常用說法，可用來表達「i think」這個意思",
+      "phrase": "picked up",
+      "meaning": "拿起；接起；順路買/拿",
       "examples": [
         {
-          "en": "I think five bedroomedroom twob and I was really excited to move in.",
-          "tc": "我認為有五間臥室和兩間臥室，我很高興搬進去。"
+          "en": "Doing dishes, taking out the trash every once in a while, and just making sure the house was picked up.",
+          "tc": "洗碗，不時倒垃圾，確保房子被清理乾淨。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "i love",
-      "meaning": "常用說法，可用來表達「i love」這個意思",
+      "phrase": "going to",
+      "meaning": "去",
       "examples": [
         {
-          "en": "She was white and fluffy, and I loved her a lot.",
-          "tc": "她又白又毛茸茸的，我很愛她。"
+          "en": "Today I am going to interview my sister, Brianna.",
+          "tc": "今天我要採訪我的妹妹布麗安娜。"
         }
       ]
     }
@@ -406,20 +1042,20 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Like I'm asking you the question.",
-      "translation": "就像我在問你這個問題一樣。",
+      "sentence": "I'm asking you the question.",
+      "translation": "我在問你這個問題。",
       "points": [
         {
-          "label": "i'm asking question",
-          "text": "i'm asking question",
-          "note": "注意 \"i'm asking question\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "asking question",
+          "text": "asking question",
+          "note": "注意 \"asking question\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-02",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -430,25 +1066,25 @@
     },
     {
       "id": "breakdown-03",
-      "sentence": "Today I'm making an interview for you to practice listening to questions and answers. Today.",
-      "translation": "今天我給大家做一個採訪，練習聽問題和回答。今天。",
+      "sentence": "Today I am making an interview for you to practice listening to questions and answers.",
+      "translation": "今天我給大家做一個採訪，練習聽問題和回答。",
       "points": [
         {
-          "label": "i'm making interview",
-          "text": "i'm making interview",
-          "note": "注意 \"i'm making interview\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "making interview questions",
+          "text": "making interview questions",
+          "note": "注意 \"making interview questions\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-04",
-      "sentence": "We're starting with some intermediate questions, moving on to advanced questions afterwards. Try and follow along as far as you can go.",
-      "translation": "我們從一些中級問題開始，然後轉向高階問題。嘗試並儘可能地跟隨。",
+      "sentence": "Today we're starting with some intermediate questions, moving on to advanced questions afterwards. Try and follow along as far as you can go.",
+      "translation": "今天我們從一些中級問題開始，然後轉向高階問題。嘗試並儘可能地跟隨。",
       "points": [
         {
-          "label": "we're starting some",
-          "text": "we're starting some",
-          "note": "注意 \"we're starting some\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "we're starting questions",
+          "text": "we're starting questions",
+          "note": "注意 \"we're starting questions\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

@@ -1,239 +1,410 @@
-# 新增 YouTube 播放清單型英文學習路由提案
+# MissHoney 影片頁全文校稿與精準學習跳轉提案
 
 ## Why
 
-我找到一個適合初學者循序學英語的 YouTube 頻道。這個頻道依 CEFR 難度整理了多個播放清單，每個播放清單內有許多英語短片。希望把這些播放清單整理進 Slowy_Learning_Eng，成為新的學習路由，讓我可以依照難度從 A1 到 B2 逐步學習。
+目前 `/a1`、`/a2`、`/b1`、`/b2` 的 MissHoney 播放清單影片頁已有基本內容，但品質不足，且互動體驗還沒有達到現有 `/ch1` 的學習頁水準。
 
-這次新內容不處理現有的 `/ch1` 到 `/ch4`。既有 chapter route、既有 chapter data、既有 ch1 校稿內容都保持原樣。
+希望把 MissHoney 各難度的每支影片，重新整理成正式學習內容頁：
 
-## What Changes
+- 字幕來源重新提取。
+- 透過 `english_proofreader` 副代理校稿、翻譯、標註超綱單字、片語、特殊用法與文法。
+- 將結果解析回影片頁資料。
+- 讓全文中的標記可以精準跳到對應講解項目。
+- 讓 grammar 路由吸收新文法補充，但避免重複建立同樣文法。
+- 補齊與 `/ch1` 類似的回頂、跳轉、回原文位置等互動能力。
 
-新增 4 個「播放清單型」學習入口路由，每個入口路由對應一個 YouTube 播放清單，而不是把新影片接到既有 `/ch1` 到 `/ch4` 的 chapter route 後面。
+## Scope
 
-建議路由：
+本次處理 MissHoney 播放清單與其影片詳細頁：
 
-- `/a1`：A1 Beginner English
-- `/a2`：A2 High Beginner English
-- `/b1`：B1 Intermediate English
-- `/b2`：B2 Upper Intermediate English
+- `/a1`
+- `/a2`
+- `/b1`
+- `/b2`
+- `/a1/:videoSlug`
+- `/a2/:videoSlug`
+- `/b1/:videoSlug`
+- `/b2/:videoSlug`
 
-每個播放清單入口下方再使用子頁路由呈現單支影片學習內容。子頁 slug 格式為 `ch[倒序編號]-[英文標題-kebab-case]`，英文標題依影片內容決定：
+既有 `/ch1` 可作為功能與 UI 參考，但不應破壞現有 `/ch1` 到 `/ch4` 的行為。
 
-- `/a1/ch1-what-is-your-name`：A1 播放清單倒序後第 1 支**可學習**影片
-- `/a1/ch2-how-to-greet-someone`：A1 播放清單倒序後第 2 支**可學習**影片
-- `/a2/ch1-talking-about-your-day`：A2 播放清單倒序後第 1 支**可學習**影片
-- `/b1/ch1-making-plans`：B1 播放清單倒序後第 1 支**可學習**影片
-- `/b2/ch1-discussing-opinions`：B2 播放清單倒序後第 1 支**可學習**影片
+## Route Interaction Requirements
 
-注意：這裡的子頁 slug（如 `ch1-what-is-your-name`）與既有 `/ch1` 章節完全不同，不會改動既有 `/ch1` 到 `/ch4`。
+目前 `/ch1` 路由具備回頂按鈕、回到單字區按鈕、smooth scroll、以及回到原始 scroll 位置的能力。
 
-難度顯示順序固定為：
+MissHoney 的各影片詳細頁也要具備相同等級的互動體驗。
 
-1. A1 Beginner English
-2. A2 High Beginner English
-3. B1 Intermediate English
-4. B2 Upper Intermediate English
+### Required Controls
 
-## Source Playlists
+每支 MissHoney 影片詳細頁應支援：
 
-### A1 Beginner English
+- 回到頁面頂部。
+- 跳到單字區。
+- 跳到片語區。
+- 跳到特殊用法區。
+- 跳到句型或文法解析區。
+- 從講解項目回到剛剛點擊的全文位置。
+- 所有跳轉使用 smooth scroll。
+- 目標項目應盡量置於 viewport 中間，而不是貼在畫面頂部。
+- 點擊全文 marker 後，目標講解卡片應短暫高亮，讓使用者看得出跳到哪一筆。
+- 第一版不做 hover tooltip；先專注在點擊後的精準跳轉、置中與回原文。
 
-https://www.youtube.com/watch?v=2QsxCYPZ-6o&list=PL8f0I_2tet-f2hkTKFPgWS7koHkY4_Pw1
+建議實作行為：
 
-### A2 High Beginner English
+```ts
+element.scrollIntoView({
+  behavior: 'smooth',
+  block: 'center',
+})
+```
 
-https://www.youtube.com/watch?v=HuXMurDSOBE&list=PL8f0I_2tet-dJp0Dlyv0Wr_ZQXbEWyJyL
+## Precise Inline Marker Navigation
 
-### B1 Intermediate English
+全文中的標記不是只跳到「單字區」或「片語區」整個區塊，而是要跳到該標記對應的單一講解項目。
 
-https://www.youtube.com/watch?v=IkBu-zAdYkY&list=PL8f0I_2tet-dz08Guo86B2auEenEMY05D
+### Marker Types
 
-### B2 Upper Intermediate English
+`english_proofreader` 會在校稿後全文中使用下列標記：
 
-https://www.youtube.com/watch?v=ZKGouf91dDw&list=PL8f0I_2tet-d6uD3nVSpUoorMP0OUlGPE
+| 類別 | 標記 | 範例 |
+|------|------|------|
+| A 超綱單字 | `**粗體**` | `**ubiquitous**` |
+| B 超綱片語 | `__底線__` | `__take on__` |
+| C 特殊用法 | `《書名號》` | `《run》 a business` |
 
-## Playlist Extraction Rules
+解析後應建立對應關係：
 
-每個播放清單都要先提取全部影片網址，再依 YouTube 播放清單 index 做倒序排列。
+- 點 `**apple**`，smooth scroll 到「apple」這一筆單字講解，且 apple 講解卡片盡量置中。
+- 點 `__take on__`，smooth scroll 到「take on」這一筆片語講解，且該片語講解卡片盡量置中。
+- 點 `《run》 a business`，smooth scroll 到「run 作為經營」這一筆特殊用法講解，且該特殊用法講解卡片盡量置中。
 
-倒序定義：
+只有英文全文中的 marker 需要可點擊；繁體中文翻譯只顯示譯文，不需要做 marker 跳轉。
 
-- YouTube 播放清單中 index 最大的影片排最前面。
-- YouTube 播放清單中 index 1 的影片排最後面。
-- 每個新路由內的影片呈現順序都使用這個倒序結果。
+全文 inline marker 只負責跳到單字、片語、特殊用法。文法 / 句型解析不從全文 inline marker 觸發；使用者若要前往文法 / 句型解析，透過 quick nav 或區塊按鈕跳轉即可。
 
-每支影片至少保留：
+### Bidirectional Navigation
 
-- 所屬難度播放清單
-- 播放清單內原始 index
-- 倒序後的顯示順序
-- YouTube 影片標題
-- YouTube 影片網址
-- 字幕狀態
+需要支援雙向精準定位：
 
-只有可建立學習內容的影片才產生子頁路由 slug。子頁路由 slug 格式為 `ch[倒序編號]-[英文標題-kebab-case]`，例如 `ch1-what-is-your-name`。其中倒序編號只計算可學習影片；`skipped` 影片不佔用 `ch` 編號。
+1. 使用者在全文點擊 `apple`。
+2. 頁面 smooth scroll 到「apple」單字講解項目。
+3. 「apple」講解項目提供回到原文的操作。
+4. 使用者點回到原文後，smooth scroll 回剛剛點擊的 `apple` 原文位置。
+5. 原文中的 `apple` 也應盡量置於 viewport 中間。
 
-## Caption Extraction Rules
+這不是單純的「全文到單字區」，而是：
 
-只提取公開可取得的英文字幕。
+```text
+全文標記 instance
+→ 對應講解 item
+→ 回到原本全文標記 instance
+```
 
-可接受字幕來源：
+### Suggested Anchor Id Shape
 
-- YouTube 公開英文字幕
-- YouTube 公開自動產生英文字幕
+建議每個可跳轉項目都有穩定 id：
 
-不提取字幕的情況：
+- `word-apple`
+- `phrase-take-on`
+- `usage-run-business`
+- `grammar-this-is-noun`
 
-- 會員限定影片
-- 私人影片
-- 已下架影片
-- 地區限制導致無法公開觀看的影片
-- 沒有公開英文字幕的影片
-- 技術上無法取得公開字幕的影片
+其中 `grammar-*` id 只供 quick nav 或文法區塊按鈕使用，不由全文 inline marker 觸發。
 
-若某支影片不能提取字幕，必須另外列出：
+若同一個單字或片語在全文出現多次：
 
-- 所屬播放清單，例如 A1 / A2 / B1 / B2
-- 影片原始 index
-- 影片標題，如果可取得
-- 影片網址
-- 無法提取原因，例如 member-only、private、no English captions、unavailable
+- 講解內容只建立一筆。
+- 全文中多個 marker instance 都連到同一筆講解。
+- 回到原文時，要回到使用者剛剛點擊的那一個 marker instance，而不是固定回第一個出現位置。
 
-`skipped` 影片只出現在 skipped report，不產生可點擊的學習子頁，也不佔用 `ch[倒序編號]-[英文標題-kebab-case]` 子頁 slug 或 `ch` 編號。
+若同一個單字有不同變化形，建議以 lemma 合併講解，例如 `apple` / `apples` 合併到 `apple`，`run` / `running` 合併到 `run`；但全文 marker 仍保留原文實際出現的字形。
 
-## Proofreading Rules
+## Content Refresh Workflow
 
-取得字幕後，要依照現有 ch1 的方式整理與校稿，但新播放清單內容要更適合初學者。
+整體處理順序固定為：
 
-校稿原則：
+```text
+A1 全部影片
+→ A2 全部影片
+→ B1 全部影片
+→ B2 全部影片
+```
 
-- 保留來源字幕的主要內容、問句、重複語氣與教學節奏。
-- 只修正明顯的 ASR 錯字、斷詞、大小寫、標點、簡單文法錯誤。
-- 不把原始逐字稿任意摘要成短文。
-- 不刪除來源中有學習價值的重複句。
-- 英文句子旁邊提供繁體中文翻譯。
-- 針對初學者補充更多單字、片語、常見用法與文法解析。
+每個播放清單可以視為一個大 task；每支影片可以視為一個中 task；每支影片內再拆成多個小 task，方便後續暫停、恢復與指定先不執行。
 
-每支已成功取得字幕的影片，整理內容應包含：
-
-- 中英對照全文
-- 重點單字
-- 重點片語與慣用語
-- 句型解析
-- 原始 YouTube 連結
-- 難度標籤
-
-## Route Behavior
-
-每個難度入口路由是一個播放清單列表頁，頁面內列出多支影片卡片。單支影片的完整學習內容放在該難度路由底下的子頁。
-
-例如 `/a1`：
-
-- 頁面標題顯示 A1 Beginner English
-- 頁面中依倒序列出該播放清單的所有公開可用影片
-- 每支影片是一張可點擊卡片
-- 點擊倒序後第 1 支**可學習**影片會進入 `/a1/ch1-[英文標題-slug]`
-- 點擊倒序後第 2 支**可學習**影片會進入 `/a1/ch2-[英文標題-slug]`
-- 每個影片子頁分段顯示中英對照、單字、片語、句型
-- 被跳過的影片不放入主要學習內容，也不產生可點擊卡片；但要在頁面或資料中保留 skipped report
-
-## Non-Goals
-
-這次不處理以下內容：
-
-- 不修改 `/ch1`
-- 不修改 `/ch2`
-- 不修改 `/ch3`
-- 不修改 `/ch4`
-- 不把新 YouTube 影片做成 `/ch5`、`/ch6`、`/ch7` 這種一支影片一個 chapter route
-- 不把 `/a1/ch1-[title-slug]`、`/a2/ch1-[title-slug]` 這類 MissHoney 子頁視為既有 chapter route
-- 不把 A1/A2/B1/B2 混進既有 `ch1` 到 `ch4` 的內容順序
-- 不提取會員限定或非公開影片的字幕
-- 不新增登入 YouTube 或繞過權限限制的功能
-
-## Suggested Implementation Shape
-
-新增一組播放清單型資料與路由，和既有 chapter route 分開。
-
-建議新增：
-
-- `src/modules/playlists/PlaylistView.vue`
-- `src/modules/playlists/PlaylistVideoView.vue`
-- `src/modules/playlists/types.ts`
-- `src/modules/playlists/data/a1.ts`：A1 播放清單 metadata、影片清冊、狀態、skipped report，不放完整字幕學習內容
-- `src/modules/playlists/data/a2.ts`：A2 播放清單 metadata、影片清冊、狀態、skipped report，不放完整字幕學習內容
-- `src/modules/playlists/data/b1.ts`：B1 播放清單 metadata、影片清冊、狀態、skipped report，不放完整字幕學習內容
-- `src/modules/playlists/data/b2.ts`：B2 播放清單 metadata、影片清冊、狀態、skipped report，不放完整字幕學習內容
-- `src/modules/playlists/data/videos/` 底下依難度分子資料夾，每支影片一個 JSON 檔存放完整學習內容（例如 `videos/a1/ch1-what-is-your-name.json`）
-- `src/shared/config/playlists.ts`
-
-資料載入規則：
-
-- `PlaylistView` 只載入播放清單 metadata，不載入完整字幕與學習內容。
-- 狀態為 `ready` 的影片 metadata 提供 `contentLoader`（例如 `() => import('./videos/a1/ch1-what-is-your-name.json')`）；狀態為 `pendingTranscript` 的影片 `contentLoader` 為 `null`，`PlaylistVideoView` 偵測到 `null` 時顯示「內容整理中」佔位頁。
-- `PlaylistVideoView` 只有在進入 `/a1/:videoSlug`、`/a2/:videoSlug`、`/b1/:videoSlug`、`/b2/:videoSlug` 時，才透過 `contentLoader` 載入單支影片 JSON 內容。
-- `skipped` 影片不提供 `contentLoader`，也不產生影片子頁 route。
-
-建議修改：
-
-- `src/app/router/index.ts`：新增 `/a1`、`/a2`、`/b1`、`/b2` 播放清單入口 route，以及 `/a1/:videoSlug`、`/a2/:videoSlug`、`/b1/:videoSlug`、`/b2/:videoSlug` 影片子頁 route
-- `src/modules/home/views/HomeView.vue`：在現有文章列表下方新增 MissHoney 獨立區塊，放 A1/A2/B1/B2 純導航卡片
-- `src/shared/components/NavBar.vue`：新增 MissHoney 下拉選單
-- `src/modules/home/components/ArticleListItem.vue` 或新元件：首頁 playlist 卡片要新增純導航元件，或讓 `ArticleListItem` 支援 `showCompletion=false`
-
-既有 `src/shared/config/chapters.ts` 可保持只管理 `/ch1` 到 `/ch4`。
-
-## Implementation Phases
-
-### Phase 1：路由與播放清單清冊
-
-- 建立 `/a1`、`/a2`、`/b1`、`/b2` 播放清單入口頁。
-- 建立 `/a1/:videoSlug`、`/a2/:videoSlug`、`/b1/:videoSlug`、`/b2/:videoSlug` 影片子頁路由。
-- 提取每個播放清單的影片清冊，依倒序為可學習影片產生 `ch1-[title-slug]`、`ch2-[title-slug]`、`ch3-[title-slug]` 等子頁 slug。
-- 建立 skipped report，列出會員限定、私人、下架、無英文字幕或無法取得字幕的影片。
-- skipped 影片只進 skipped report，不產生可點擊卡片、子頁 slug 或 `contentLoader`。
-- 首頁新增 MissHoney 區塊，A1/A2/B1/B2 使用純導航卡片，不顯示完成圈圈。
-- NavBar 新增 MissHoney 下拉選單。
-
-### Phase 2：字幕與學習內容分批填入
-
-- 針對公開且可取得英文字幕的影片，分批整理成影片子頁內容。
-- 每支完成的影片子頁都要包含中英對照全文、重點單字、重點片語與慣用語、句型解析、原始 YouTube 連結與難度標籤。
-- 可以先填入部分影片內容，但資料中要清楚標示每支影片的狀態，例如 `ready`、`pendingTranscript`、`skipped`。
-- 當某支影片標記為 `ready` 時，才視為該影片已完成校稿與學習內容整理。
-- 影片子頁若狀態為 `pendingTranscript`，頁面顯示「內容整理中」佔位訊息，影片卡片仍可點擊進入。
-- 完整字幕與學習內容不得全部塞進 `a1.ts`、`a2.ts`、`b1.ts`、`b2.ts`；必須拆成單支影片 JSON 檔，避免播放清單入口一次載入大量字幕資料。
-
-## Success Criteria
-
-- `/ch1` 到 `/ch4` 保持原本行為與內容。
-- 新增 `/a1`、`/a2`、`/b1`、`/b2` 四個播放清單入口路由。
-- 新增 `/a1/ch1-[title-slug]`、`/a1/ch2-[title-slug]` 等影片子頁路由，其他難度依相同模式建立。
-- A1/A2/B1/B2 的顯示順序由簡到難。
-- 每個播放清單內影片順序為倒序，index 1 放最後。
-- 每支影片的完成狀態使用 `miss-honey:<level>:<videoId>` 作為 localStorage key，例如 `miss-honey:a1:GcsCi5H4L_Y`。
-- Phase 1 完成時，每個播放清單都有倒序清冊、可學習影片子頁 slug、metadata-only 入口資料與 skipped report。
-- Phase 2 中標記為 `ready` 的影片，都有整理後的學習內容。
-- 播放清單入口頁只載入 metadata；影片完整學習內容只在進入影片子頁時 lazy load。
-- 會員限定、私人、下架、無英文字幕或無法取得字幕的影片都有 skipped report。
-- skipped 影片不產生可點擊學習子頁。
-- 校稿後內容保留原字幕主要句意，不任意摘要。
-- 初學者需要的單字、片語、文法補充比 ch1 更完整。
+正式 tasks 可以先完整規劃 A1、A2、B1、B2，但第一輪 apply 只執行基礎功能與 A1 ch1 vertical slice。A1 ch1 完整打通後，再依相同流程往後擴展。
+
+## Per Video Workflow
+
+以 A1 第一支影片為例：
+
+```text
+/a1/ch1-slow-english-for-beginners-a1-listening-practice
+YouTube: https://www.youtube.com/watch?v=kVNYOW3eMk4
+```
+
+每支影片依序執行：
+
+1. 讀取該 MissHoney 影片路由資料，取得 YouTube URL。
+2. 使用新增的單支影片字幕提取 script 提取該 YouTube 影片的英文字幕。
+3. 將字幕全文覆寫到：
+
+```text
+_private/tmp.txt
+```
+
+4. 呼叫 `english_proofreader` 副代理，使用檔案 I/O 模式：
+
+```text
+請用 english_proofreader 副代理，使用檔案 I/O 模式處理：
+讀取 @/_private/tmp.txt，
+輸出並覆寫到 @/_private/proofread_result.md；
+完成後回傳結果，並結束該副代理。
+```
+
+5. 讀取並解析：
+
+```text
+_private/proofread_result.md
+```
+
+6. 將解析結果寫回該影片的 `PlaylistVideoData` JSON。
+7. 更新影片頁全文、單字、片語、特殊用法、句型或文法解析。
+8. 更新或補充 grammar 路由。
+9. 驗證該影片頁可以正常顯示與精準跳轉。
+
+完成 A1 ch1 後，繼續 A1 ch2、A1 ch3，直到 A1 播放清單全部影片完成，再進入 A2。A2 完成後執行 B1，B1 完成後執行 B2。
+
+## Proofread Result Parsing
+
+`_private/proofread_result.md` 會包含：
+
+- 校稿後文本。
+- 完整繁體中文翻譯。
+- A 超綱單字表。
+- B 超綱片語表。
+- C 特殊用法表。
+- D 超綱文法表。
+- machine-readable JSON code block。
+
+主代理需要解析這些內容，並轉成 app 可使用的結構化資料。
+
+`english_proofreader.toml` 必須強制要求副代理輸出 JSON 區塊，避免只靠 Markdown 表格解析。Markdown 區塊給人檢查，JSON 區塊給主代理寫回 `PlaylistVideoData`。
+
+建議 JSON 最少包含：
+
+```json
+{
+  "correctedText": "",
+  "translation": "",
+  "segments": [],
+  "words": [],
+  "phrases": [],
+  "usages": [],
+  "grammar": []
+}
+```
+
+### Target Content Sections
+
+每支影片頁至少需要產生：
+
+- 全文中英對照。
+- 重點單字。
+- 重點片語。
+- 特殊用法。
+- 句型解析。
+- 文法補充。
+- YouTube 來源連結。
+- 難度資訊。
+
+`C 特殊用法` 要在影片頁中獨立成一個區塊，不併入單字或片語。quick nav 也應有對應入口，全文 marker 點擊後可精準跳到該特殊用法項目。
+
+### Inline Marker Handling
+
+校稿後文本中的 markdown-like 標記要轉成結構化 inline tokens，而不是直接塞 HTML 字串。
+
+例如：
+
+```text
+I eat an **apple** every day.
+```
+
+應轉為可被 Vue render 的資料：
+
+```json
+[
+  { "text": "I eat an ", "type": "text" },
+  { "text": "apple", "type": "word", "targetId": "word-apple" },
+  { "text": " every day.", "type": "text" }
+]
+```
+
+如此才能做到：
+
+- 點 marker 精準跳轉。
+- 維持 JSON 純資料。
+- 避免在 JSON 內放 HTML。
+- 保持 accessibility 與 Vue render control。
+
+## Grammar Route Integration
+
+`proofread_result.md` 的 D 超綱文法不只要出現在影片頁，也要整合到 grammar 路由。
+
+規則：
+
+- 第一輪採保守補充，不積極重構 grammar route。
+- 已經介紹過且能明確對上的文法，不新增重複文法項目。
+- 若是既有文法的明確延伸，應補充到既有文法中。
+- 若只是同一個句型再次出現，應補充例句或使用情境，不另開新項目。
+- 若既有文法只介紹一部分，且這次出現的另一部分可明確歸類，才合併補充。
+- 若文法分類不確定，或現有 grammar schema 不適合承載，先只放在該影片頁的「句型 / 文法解析」區，不為 A1 ch1 大改 grammar schema。
+
+例如：
+
+- 既有「關係子句」已介紹 `that`。
+- 新影片出現 `which`。
+- 不要新增另一個「關係子句」項目。
+- 應把 `which` 補充進既有「關係子句」介紹。
+
+## Instructional Deduplication Rules
+
+原文與翻譯要盡量保留完整內容，但教學講解不能重複灌水。
+
+此處的去重只適用於教學講解資料，不是刪除字幕原文，也不是刪除中文翻譯。來源字幕、校稿後全文與翻譯仍要完整保留。
+
+規則：
+
+- 校稿後全文中的重複句子仍要保留。
+- 中文翻譯中的對應內容仍要保留。
+- 單字、片語、特殊用法、文法講解要去重。
+- 同一個用法只講解一次。
+- 後續相同用法不新增重複講解。
+- 不使用「同上」當作講解。
+- 若需要保留多個例句，可在第一次講解中合併列出。
+
+例子：
+
+```text
+This is an apple.
+This is a pen.
+```
+
+兩句都使用：
+
+```text
+This is + 名詞
+```
+
+因此文法或句型區只講解一次 `This is + 名詞`，不要為 apple 和 pen 各寫一次相同講解。
+
+## Task Breakdown Model
+
+任務量很大，因此 task 要切得很細，方便控管。
+
+### Big Task
+
+一個播放清單是一個大 task：
+
+- A1 playlist refresh
+- A2 playlist refresh
+- B1 playlist refresh
+- B2 playlist refresh
+
+### Medium Task
+
+一支影片是一個中 task：
+
+- A1 ch1
+- A1 ch2
+- A1 ch3
+- A2 ch1
+- B1 ch1
+- B2 ch1
+
+### Small Tasks
+
+每支影片再拆成：
+
+1. 取得影片 URL。
+2. 提取 YouTube 英文字幕。
+3. 覆寫 `_private/tmp.txt`。
+4. 呼叫 `english_proofreader` 副代理。
+5. 讀取 `_private/proofread_result.md`。
+6. 解析校稿後全文與中文翻譯。
+7. 解析 A 超綱單字。
+8. 解析 B 超綱片語。
+9. 解析 C 特殊用法。
+10. 解析 D 超綱文法。
+11. 產生 inline marker tokens。
+12. 產生精準 anchor id。
+13. 更新該影片 JSON。
+14. 更新 grammar route 補充內容。
+15. 驗證影片頁 render。
+16. 驗證 marker 點擊可置中跳到對應講解項目。
+17. 驗證目標講解卡片會短暫高亮。
+18. 驗證講解項目可回到原本全文 marker instance。
+19. 驗證重複講解已去重。
+20. 跑內容 validator。
+21. 跑 route smoke test。
+
+## Initial Apply Scope
+
+第一輪 apply 不直接重做全部 A1/A2/B1/B2。第一輪只做：
+
+1. `english_proofreader` JSON 輸出契約。
+2. proofread result parser。
+3. `PlaylistVideoData` 必要 schema 擴充。
+4. 影片頁精準 marker navigation。
+5. 特殊用法獨立區塊。
+6. 目標卡片置中與短暫高亮。
+7. 回到原本全文 marker instance。
+8. A1 ch1 vertical slice：
+   - 提取字幕。
+   - 寫入 `_private/tmp.txt`。
+   - 真的呼叫一次 `english_proofreader` 副代理，而不是使用人工 fixture 假資料。
+   - 解析 `_private/proofread_result.md`。
+   - 主代理可在寫回 app JSON 前修正副代理 JSON 的小錯，例如欄位缺漏、lemma 不一致、例句對齊問題，但不可改變原字幕主要內容。
+   - 寫回 A1 ch1 JSON。
+   - 以保守補充方式更新 grammar route；明確能對上的既有文法才補充，分類不確定者只留在影片頁文法區。
+   - 完成測試。
+
+此 vertical slice 通過後，再繼續 A1 剩餘影片，最後依序推進 A2、B1、B2。
 
 ## Resolved Decisions
 
-1. **首頁入口**：現有「文章列表」區塊保持不動。在其下方新增「MissHoney」獨立區塊，內含 A1 / A2 / B1 / B2 四張純導航卡片（無完成圈圈），點擊後導航至對應路由。首頁 playlist 卡片要新增純導航元件，或讓 `ArticleListItem` 支援 `showCompletion=false`。
+1. `proofread_result.md` 必須包含 machine-readable JSON code block；因此 `english_proofreader.toml` 需要新增強制輸出 JSON 規則。
+2. 第一輪只做 A1 ch1 vertical slice，不一次 apply 全部播放清單。
+3. `C 特殊用法` 獨立成影片頁區塊，不併入單字或片語。
+4. 只有英文全文 marker 可點擊；中文翻譯不需要可點擊。
+5. 同一單字不同變化形依 lemma 合併講解，但全文保留原字形。
+6. 點擊 marker 後，目標講解卡片需要短暫高亮。
+7. 第一版不做 hover tooltip。
+8. tasks 可以完整規劃到 A1/A2/B1/B2，但實作時先執行基礎功能與 A1 ch1 vertical slice。
+9. A1 ch1 vertical slice 要真的跑一次 `english_proofreader`，不使用人工 fixture 假資料替代。
+10. 主代理可以在寫回 app JSON 前做 normalization / correction，但不可改變原字幕主要內容。
+11. grammar route 第一輪採保守補充，不為 A1 ch1 積極重構 grammar schema。
+12. 新增單支影片字幕提取 script，讓 A1 ch1 vertical slice 可用單一指令把該影片英文字幕覆寫到 `_private/tmp.txt`，而不是依賴不易控管的批次流程。
+13. 全文 inline marker 只跳轉到單字、片語、特殊用法；文法 / 句型解析只透過 quick nav 或區塊按鈕跳轉。
 
-2. **NavBar**：在現有「內容」按鈕旁新增「MissHoney」下拉按鈕。下拉選單樣式與格式完全沿用「內容」選單（同一 dropdown 元件模式、同樣的 menuitem 按鈕樣式）。選單項目為 A1 / A2 / B1 / B2，點擊後導航至對應路由。選單使用 `left-0` 定位（向右展開），寬度使用 `w-max max-w-[calc(100vw-11rem)]`，確保不超出畫面右側。（MissHoney 按鈕位於「內容」右側，左側 offset 約 10.5rem，因此比「內容」選單的 8rem 更大。`right-0` 方案已評估但刻意不採用。）NavBar 窄螢幕擠壓問題目前評估還擠得下，刻意暫緩，未來有需要再處理。
+## Suggested Next Step
 
-3. **播放清單頁面排版**：沿用現有首頁的 ArticleListItem 排版。每支影片為一張卡片，顯示標題與副標，右側有完成圈圈（localStorage 儲存，沿用 `useCompletion` 模式）。點擊卡片進入該影片的學習內容子頁，例如 `/a1/ch1-what-is-your-name`。
+建議先建立正式 Spectra change，例如：
 
-4. **完成狀態 key**：`useMissHoneyCompletion` 使用單一 localStorage key `slowy:miss-honey-completion`，儲存格式為 `{ "<videoId>": true, ... }` 的 JSON map（與現有 `useCompletion` 使用 `slowy:completion` 的模式一致）。不與既有 `ch1`–`ch4` 完成狀態撞名。
+```text
+refresh-misshoney-proofread-content-and-navigation
+```
 
-5. **字幕資料儲存**：播放清單入口資料與單支影片內容必須分離。`src/modules/playlists/data/a1.ts` 等只存 metadata、清冊、狀態與 skipped report（TypeScript）；完整字幕校稿內容改用 JSON 格式，每支影片一個 JSON 檔，放在 `src/modules/playlists/data/videos/<level>/` 子資料夾（例如 `videos/a1/ch1-what-is-your-name.json`）。Vite 原生支援 JSON import 並自動做 code splitting，進入影片子頁時才 lazy load 該支影片的 JSON，不會一次載入大量資料。內容採階段式完成：Phase 1 先建立路由、清冊與 skipped report；Phase 2 再分批填入字幕校稿後的學習內容。
+第一輪先做 A1 ch1 作為 vertical slice，完整打通：
 
-6. **命名**：`MissHoney` 是刻意使用的顯示名稱，文件與 UI 文字都維持 `MissHoney`。
+```text
+字幕提取
+→ english_proofreader
+→ proofread_result 解析
+→ JSON 寫入
+→ 精準 marker anchor
+→ grammar 補充
+→ 測試
+```
 
-7. **`PlaylistVideoData` 型別**：獨立建立，不沿用或擴展 `ChapterData`。`PlaylistVideoView.vue` 使用專屬渲染邏輯，不與 `ChapterView` 共用。由於內容以 JSON 儲存，所有欄位必須為純資料（字串、數字、陣列、物件），不得在 JSON 內放 HTML 字串或 `hl()` 等函式呼叫結果。若需要單字高亮，改用結構化欄位（例如 `{ text: "word", highlight: true }`），由 `PlaylistVideoView` 負責轉換成對應 HTML。
-
-8. **完成狀態 composable**：另建 `useMissHoneyCompletion`，不修改現有 `useCompletion`。localStorage key 為 `slowy:miss-honey-completion`，與 `storageKeys.ts` 的命名規範一致（需補進 `STORAGE_KEYS`）。
+A1 ch1 打通後，再複製相同流程到 A1 剩餘影片，最後依序推進 A2、B1、B2。完整任務可以先寫好，但 apply 時先以 A1 ch1 為實作邊界。

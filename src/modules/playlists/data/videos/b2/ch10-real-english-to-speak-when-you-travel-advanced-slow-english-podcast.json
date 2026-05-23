@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=U51yfnsqsmI",
   "header": {
     "podcastLabel": "MissHoney B2",
-    "titleZh": "旅行時說真正的英語 - 高級慢英語播客",
+    "titleZh": "旅行時說真正的英語 - 高級慢英語podcast",
     "titleEn": "Real English to Speak when you Travel - Advanced Slow English Podcast",
     "levelTag": "B2",
     "topicTag": "travel"
@@ -20,19 +20,19 @@
       "sentences": [
         {
           "en": "Welcome back to my Slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "I am visiting China right now.",
           "tc": "我現在正在訪問中國。"
         },
         {
-          "en": "If you didn't know, I have been learning Chinese for about 3 years now. But honestly, nothing prepared me for the Chinese that.",
-          "tc": "如果你不知道的話，我已經學中文大約三年了。但說實話，我對中國人沒有任何準備。"
+          "en": "If you didn't know,.",
+          "tc": "如果你不知道的話，。"
         },
         {
-          "en": "I would actually need in China. The real life Chinese. The words that help.",
-          "tc": "我實際上需要在中國。現實生活中的中國人。有幫助的話。"
+          "en": "I have been learning Chinese for about 3 years now. But honestly, nothing prepared me for the Chinese that.",
+          "tc": "我學習中文已經大約三年了。但說實話，我對中國人沒有任何準備。"
         }
       ],
       "tags": [
@@ -40,37 +40,33 @@
           "english": "know",
           "kk": "/know/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "知道",
           "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "need",
-          "kk": "/need/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "chinese",
-          "kk": "/chinese/",
+          "english": "right",
+          "kk": "/right/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：語言學習",
-      "titleEn": "Part 2: language",
+      "titleZh": "第 2 段：旅行",
+      "titleEn": "Part 2: travel",
       "sentences": [
         {
-          "en": "You sound natural, blend in, and even get those little compliments from locals. There's something really special about being in a country. and actually connecting with people in their own language. It.",
-          "tc": "你聽起來很自然，融入其中，甚至還得到當地人的稱讚。在一個國家確實有一些特別的東西。並用自己的語言與人們實際聯繫。它。"
+          "en": "I would actually need in China. The real life Chinese. The words that help.",
+          "tc": "我實際上需要在中國。現實生活中的中國人。有幫助的話。"
+        },
+        {
+          "en": "You sound natural, blend in, and even get those little compliments from locals. There's something really special about being in a country. And actually connecting with people in their own language. It.",
+          "tc": "你聽起來很自然，融入其中，甚至還得到當地人的稱讚。在一個國家確實有一些特別的東西。並用人們自己的語言與他們實際連結。它。"
         },
         {
           "en": "You can speak to them, even just a little. And it's such a nice feeling.",
@@ -79,27 +75,23 @@
         {
           "en": "When you can?",
           "tc": "什麼時候可以？"
-        },
-        {
-          "en": "Finally understand the little phrases and just the way people here really speak. All those tiny things help.",
-          "tc": "終於明白了這些小短語和這裡人們真正說話的方式。所有这些小事都有帮助。"
         }
       ],
       "tags": [
         {
-          "english": "way",
-          "kk": "/way/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 way 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "little",
           "kk": "/little/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "小的",
           "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "need",
+          "kk": "/need/",
+          "partOfSpeech": "v.",
+          "meaning": "需要",
+          "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -111,6 +103,10 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
+          "en": "Finally understand the little phrases and just the way people here really speak. All those tiny things help.",
+          "tc": "終於明白了這些小短語和這裡人們真正說話的方式。所有這些小事都有幫助。"
+        },
+        {
           "en": "You sound more polite, natural, respectful, and confident. My sister Brianna is going to help me walk through each scenario. Now,.",
           "tc": "你聽起來更有禮貌、自然、尊重和自信。我姐姐布麗安娜將幫助我演練每個場景。現在，。"
         },
@@ -121,27 +117,31 @@
         {
           "en": "I am lost.",
           "tc": "我迷路了。"
-        },
-        {
-          "en": "Do you know where this is?\" Whatever you need to find. Excuse me?",
-          "tc": "你知道這是哪裡嗎？ 「無論你需要找到什麼。打擾一下？"
         }
       ],
       "tags": [
         {
-          "english": "know",
-          "kk": "/know/",
+          "english": "little",
+          "kk": "/little/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "need",
           "kk": "/need/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "需要",
           "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "you're",
+          "kk": "/you're/",
+          "partOfSpeech": "n.",
+          "meaning": "你是",
+          "note": "看到 you're 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -149,9 +149,13 @@
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：語言學習",
-      "titleEn": "Part 4: language",
+      "titleZh": "第 4 段：日常生活",
+      "titleEn": "Part 4: everyday life",
       "sentences": [
+        {
+          "en": "Do you know where this is?\" Whatever you need to find. Excuse me?",
+          "tc": "你知道這是哪裡嗎？ 「無論你需要找到什麼。打擾一下？"
+        },
         {
           "en": "Do you know where the ATM is? Yes, there's one two blocks down on this road. Great. Thanks a lot. That's a better way of asking for directions. Most native English speakers?",
           "tc": "你知道自動櫃員機在哪裡嗎？是的，沿著這條路走兩個街區就有一個。偉大的。多謝。這是一種更好的問路方式。大多數以英語為母語的人？"
@@ -161,12 +165,8 @@
           "tc": "會這樣問嗎？"
         },
         {
-          "en": "They wouldn't say, \"Where is the ATM?\".",
-          "tc": "他們不會說：「自動櫃員機在哪裡？」。"
-        },
-        {
-          "en": "They would say, \".",
-          "tc": "他們會說：「。"
+          "en": "They wouldn't say, \"Where is the ATM?\"",
+          "tc": "他們不會說：“自動櫃員機在哪裡？”"
         }
       ],
       "tags": [
@@ -174,24 +174,24 @@
           "english": "know",
           "kk": "/know/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "知道",
           "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "way",
-          "kk": "/way/",
+          "english": "yes",
+          "kk": "/yes/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 way 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
-          "english": "lot",
-          "kk": "/lot/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 lot 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "need",
+          "kk": "/need/",
+          "partOfSpeech": "v.",
+          "meaning": "需要",
+          "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -203,12 +203,12 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "Do you know where the ATM is?\" A little longer, but a lot more natural. Sorry?",
-          "tc": "你知道 ATM 機在哪裡嗎？ 」 有點長，但更自然。抱歉？"
+          "en": "They would say, \".",
+          "tc": "他們會說：「。"
         },
         {
-          "en": "Do you know where the closest Walmart is from here? The nearest Walmart is on Fifth Avenue between Brick and Maine. Oh,?",
-          "tc": "你知道離這裡最近的沃爾瑪在哪裡嗎？最近的沃爾瑪位於布里克和緬因州之間的第五大道。哦，？"
+          "en": "Do you know where the ATM is?\" A little longer, but a lot more natural. Sorry?",
+          "tc": "你知道 ATM 機在哪裡嗎？ 」 有點長，但更自然。抱歉？"
         },
         {
           "en": "I see. Is it this way or that way? This way. Thanks a lot.",
@@ -224,24 +224,16 @@
           "english": "know",
           "kk": "/know/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "知道",
           "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "way",
-          "kk": "/way/",
+          "english": "little",
+          "kk": "/little/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 way 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "lot",
-          "kk": "/lot/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 lot 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -249,24 +241,24 @@
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：食物與用餐",
-      "titleEn": "Part 6: food",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "Do you know where the crispy cream is? Yes. Try the second floor to your right. Keep going until you see the food court. The crispy cream is there?",
-          "tc": "你知道脆皮奶油在哪裡嗎？是的。試試你右邊的二樓。繼續前行，直到看到美食廣場。脆皮奶油有嗎？"
+          "en": "Do you know where the crispy cream is? Yes. Try?",
+          "tc": "你知道脆皮奶油在哪裡嗎？是的。嘗試？"
         },
         {
-          "en": "I love it. Oh, okay. Okay. Thanks a lot. Is it up the escalator or down the escalator?",
-          "tc": "我喜歡它。哦好的。好的。多謝。是手扶梯上還是手扶梯下？"
+          "en": "The second floor to your right. Keep going until you see the food court. The crispy cream.",
+          "tc": "二樓在你的右邊。繼續前行，直到看到美食廣場。脆奶油。"
         },
         {
-          "en": "We're on the fifth floor, so you need to go down the escalator until you're on floor two. Oh, okay. Okay, that's super helpful. Thanks a lot. No worries. What's the.",
-          "tc": "我們在五樓，所以您需要走自動扶梯直到二樓。哦好的。好的，這非常有幫助。多謝。不用擔心。什麼是."
+          "en": "I love it. Oh, okay. Thanks a lot. Is it up the escalator or down the escalator?",
+          "tc": "我喜歡它。哦好的。多謝。是手扶梯上還是手扶梯下？"
         },
         {
-          "en": "I do right away. Asking for the bathroom. Excuse me. Where is the bathroom? It's up the stairs to the left. Oh, okay. Okay.",
-          "tc": "我馬上就做。要求上廁所。打擾一下。廁所在哪裡？上左邊的樓梯就到了。哦好的。好的。"
+          "en": "We're on the fifth floor, so you need to go down the escalator until you're on floor two. Oh, okay. That's super helpful. Thanks a lot. No worries. What's.",
+          "tc": "我們在五樓，所以你需要走自動扶梯直到二樓。哦好的。這非常有幫助。多謝。不用擔心。什麼是。"
         }
       ],
       "tags": [
@@ -274,25 +266,693 @@
           "english": "know",
           "kk": "/know/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "知道",
           "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "okay",
-          "kk": "/okay/",
+          "english": "right",
+          "kk": "/right/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 okay 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "way",
-          "kk": "/way/",
+          "english": "yes",
+          "kk": "/yes/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 way 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "I do right away. Asking for the bathroom. Excuse me. Where is the bathroom? It's up the stairs to the left. Oh, okay.",
+          "tc": "我馬上就做。要求上廁所。打擾一下。廁所在哪裡？上左邊的樓梯就到了。哦好的。"
+        },
+        {
+          "en": "It is. Good morning. Can.",
+          "tc": "這是。早安.能。"
+        },
+        {
+          "en": "I have a table for two, please? Yes. Write this way, please. And maybe if it looks full, there's no room. You can ask, \".",
+          "tc": "我有一張兩人桌，可以嗎？是的。請這樣寫。也許如果看起來已經滿了，那就沒有空間了。你可以問，」。"
+        },
+        {
+          "en": "We don't have a table available. The wait time would be about 50 minutes. Should I put you down on the list? Yes, please put me down. Perfect.",
+          "tc": "我們沒有空桌了。等待時間約50分鐘。我應該把你列入名單嗎？是的，請放我下來。完美的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "please",
+          "kk": "/please/",
+          "partOfSpeech": "n.",
+          "meaning": "請",
+          "note": "看到 please 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "yes",
+          "kk": "/yes/",
+          "partOfSpeech": "n.",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "I've added your name.",
+          "tc": "我已經添加了你的名字。"
+        },
+        {
+          "en": "We'll call you now. When you are ready to order, you could say, \"Excuse me.\" \"Hi,.",
+          "tc": "我們現在就打電話給你。當你準備好點餐時，你可以說：“對不起。” “你好，。"
+        },
+        {
+          "en": "Are you ready to order?\" \"Yes.\" \"Can?",
+          "tc": "你準備好點餐了嗎？ 」 「準備好了。 」 「可以嗎？"
+        },
+        {
+          "en": "I have a number nine without salad?\" \"Sure thing.",
+          "tc": "我有九號不加沙拉？ 」 「當然可以。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "yes",
+          "kk": "/yes/",
+          "partOfSpeech": "n.",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "Would you like to add anything to drink?\" \"Yes.\" \"Can?",
+          "tc": "要加點什麼喝的嗎？ 」 「可以。 」 「可以嗎？"
+        },
+        {
+          "en": "I have a water, please?\" \"Of course.\" \".",
+          "tc": "給我一杯水好嗎？ 」 「當然。 」 「。"
+        },
+        {
+          "en": "Would you like ice?\" \"Yes, just a little bit, please.\" Sure thing. Anything else?",
+          "tc": "你想要冰嗎？ 」 「是的，請一點點。 」 當然可以。還有別的嗎？"
+        },
+        {
+          "en": "I can get you? Not at the moment. Thanks. This sounds very natural. This is.",
+          "tc": "我可以得到你嗎？目前還沒有。謝謝。這聽起來很自然。這是。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "please",
+          "kk": "/please/",
+          "partOfSpeech": "n.",
+          "meaning": "請",
+          "note": "看到 please 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "yes",
+          "kk": "/yes/",
+          "partOfSpeech": "n.",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "We use please.",
+          "tc": "我們請使用。"
+        },
+        {
+          "en": "Thank you a lot.",
+          "tc": "非常感謝。"
+        },
+        {
+          "en": "I think a little more than other countries do. Right now, let's say you're ordering fast food. That's a little bit different, right?",
+          "tc": "我認為比其他國家多一點。現在，假設你正在點快餐。這有點不同，對吧？"
+        },
+        {
+          "en": "You don't get served by someone. You have to go to the counter and order yourself. Ordering fast food. Good afternoon. May.",
+          "tc": "你不會得到任何人的服務。你必須自己到櫃檯訂購。訂購快餐。午安.可能。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "please",
+          "kk": "/please/",
+          "partOfSpeech": "n.",
+          "meaning": "請",
+          "note": "看到 please 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "little",
+          "kk": "/little/",
+          "partOfSpeech": "n.",
+          "meaning": "小的",
+          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "I take your order? Good afternoon. Can.",
+          "tc": "我接受你的命令？午安.能。"
+        },
+        {
+          "en": "I get the double cheeseburger without pickles, please? You got it. Would that be in a combo? Yes, please. All right. Small, medium, or large? please. And what drink.",
+          "tc": "我要雙層起司漢堡，不加泡菜，可以嗎？你明白了。那會是一個組合嗎？是的，請。好的。小、中、還是大？請。還有喝什麼。"
+        },
+        {
+          "en": "Would you like?",
+          "tc": "你願意嗎？"
+        },
+        {
+          "en": "We're out of Coke.",
+          "tc": "我們的可樂用完了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "please",
+          "kk": "/please/",
+          "partOfSpeech": "n.",
+          "meaning": "請",
+          "note": "看到 please 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "yes",
+          "kk": "/yes/",
+          "partOfSpeech": "n.",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "We do. I'll have a Fanta, please. Okay. To confirm your order,.",
+          "tc": "我們做到了。請給我一杯芬達。好的。為了確認你的訂單，。"
+        },
+        {
+          "en": "You want a number 12 without pickles, large fries, and a small Fanta. That's right. Your order will be ready soon. Please wait on the side.",
+          "tc": "你想要一杯不帶泡菜的 12 號啤酒、大份薯條和一杯小份芬達。這是正確的。你的訂單很快就會準備好。請在一旁等候。"
+        },
+        {
+          "en": "Thank you. Now, you'll eventually need to go to the store.",
+          "tc": "謝謝。現在，你最終需要去商店。"
+        },
+        {
+          "en": "I don't know about you guys,.",
+          "tc": "我不知道你們怎麼樣。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "please",
+          "kk": "/please/",
+          "partOfSpeech": "n.",
+          "meaning": "請",
+          "note": "看到 please 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "I feel like stores are where people make the most conversation with me. It might go something like this.",
+          "tc": "我覺得商店是人們與我交談最多的地方。事情可能會是這樣的。"
+        },
+        {
+          "en": "Are you? Not too bad. How can I help you today?",
+          "tc": "你是？還不錯。今天我能為你提供什麼幫助？"
+        },
+        {
+          "en": "I'm looking for the sunscreen section and also the chapstick. That would be in aisle 9.",
+          "tc": "我正在尋找防曬霜部分和唇膏部分。那將在9號過道。"
+        },
+        {
+          "en": "Next to the makeup. Great. Thanks. Okay.",
+          "tc": "旁邊是化妝。偉大的。謝謝。好的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "please",
+          "kk": "/please/",
+          "partOfSpeech": "n.",
+          "meaning": "請",
+          "note": "看到 please 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：語言學習",
+      "titleEn": "Part 14: language",
+      "sentences": [
+        {
+          "en": "If you need anything else, I'll be right here. Thanks a lot. What phrase did you learn today? What English phrases.",
+          "tc": "如果你還需要什麼，我就在這裡。多謝。今天你學到了什麼短語？什麼英語短語。"
+        },
+        {
+          "en": "Would you like to learn? >> How would?",
+          "tc": "你想學嗎？ >> 怎麼樣？"
+        },
+        {
+          "en": "They know what English phrases.",
+          "tc": "他們知道什麼是英語短語。"
+        },
+        {
+          "en": "They want to learn? >>.",
+          "tc": "他們想學習嗎？ >>。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "need",
+          "kk": "/need/",
+          "partOfSpeech": "v.",
+          "meaning": "需要",
+          "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：語言學習",
+      "titleEn": "Part 15: language",
+      "sentences": [
+        {
+          "en": "What are some other situations that you find yourself in where you could use some more English phrases?",
+          "tc": "你發現自己在哪些其他情況下可以使用更多英語短語？"
+        },
+        {
+          "en": "We were out and about,.",
+          "tc": "我們出去走走，。"
+        },
+        {
+          "en": "We wanted to buy fresh produce at a local market.",
+          "tc": "我們想在當地市場購買新鮮農產品。"
+        },
+        {
+          "en": "The woman was very busy.",
+          "tc": "那個女人很忙。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "please",
+          "kk": "/please/",
+          "partOfSpeech": "n.",
+          "meaning": "請",
+          "note": "看到 please 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：日常生活",
+      "titleEn": "Part 16: everyday life",
+      "sentences": [
+        {
+          "en": "She did not have a lot of time to listen to us and be patient with us.",
+          "tc": "她沒有太多時間聽我們說話並對我們有耐心。"
+        },
+        {
+          "en": "She was very, busy.",
+          "tc": "她非常非常忙碌。"
+        },
+        {
+          "en": "It was difficult.",
+          "tc": "這很困難。"
+        },
+        {
+          "en": "We didn't speak the language. So, it takes longer to get the food.",
+          "tc": "我們沒有講語言。所以，拿到食物需要更長的時間。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "please",
+          "kk": "/please/",
+          "partOfSpeech": "n.",
+          "meaning": "請",
+          "note": "看到 please 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段：日常生活",
+      "titleEn": "Part 17: everyday life",
+      "sentences": [
+        {
+          "en": "We want, the amount that.",
+          "tc": "我們想要的，就是那個數量。"
+        },
+        {
+          "en": "We want, and to ask questions about the produce. So, I'd say that was the most difficult situation since.",
+          "tc": "我們想要並詢問有關產品的問題。所以，我想說這是自那以來最困難的情況。"
+        },
+        {
+          "en": "She did not speak any English.",
+          "tc": "她不會說英語。"
+        },
+        {
+          "en": "It was a very local business,.",
+          "tc": "這是一個非常本地化的企業。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "please",
+          "kk": "/please/",
+          "partOfSpeech": "n.",
+          "meaning": "請",
+          "note": "看到 please 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段：日常生活",
+      "titleEn": "Part 18: everyday life",
+      "sentences": [
+        {
+          "en": "I think when you're asking for directions, it's the hardest situation to be in because you're lost, you're frustrated, and you just want to arrive where you need to arrive.",
+          "tc": "我認為當你問路時，這是最困難的情況，因為你迷路了，你很沮喪，你只想到達你需要到達的地方。"
+        },
+        {
+          "en": "We got lost on our.",
+          "tc": "我們迷路了。"
+        },
+        {
+          "en": "First day in Shanghai.",
+          "tc": "到上海的第一天。"
+        },
+        {
+          "en": "We were asking everyone, but nobody spoke English and nobody knew what hotel.",
+          "tc": "我們問了每個人，但沒有人會說英語，也沒有人知道哪家飯店。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "need",
+          "kk": "/need/",
+          "partOfSpeech": "v.",
+          "meaning": "需要",
+          "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "you're",
+          "kk": "/you're/",
+          "partOfSpeech": "n.",
+          "meaning": "你是",
+          "note": "看到 you're 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段：日常生活",
+      "titleEn": "Part 19: everyday life",
+      "sentences": [
+        {
+          "en": "We were going.",
+          "tc": "我們正要去。"
+        },
+        {
+          "en": "I think speaking English when going to the US is a big help.",
+          "tc": "我認為去美國時說英語有很大幫助。"
+        },
+        {
+          "en": "I think many people in the USA don't encounter a lot of people that don't speak English.",
+          "tc": "我認為很多在美國的人不會遇到很多不會說英語的人。"
+        },
+        {
+          "en": "They're very bad at communicating when somebody doesn't know their language. This can make it very difficult when you're traveling.",
+          "tc": "當有人不懂他們的語言時，他們非常不善於溝通。這會讓你旅行時變得非常困難。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "you're",
+          "kk": "/you're/",
+          "partOfSpeech": "n.",
+          "meaning": "你是",
+          "note": "看到 you're 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段：語言學習",
+      "titleEn": "Part 20: language",
+      "sentences": [
+        {
+          "en": "If you don't know the correct words.",
+          "tc": "如果你不知道正確的字眼。"
+        },
+        {
+          "en": "They are bad at listening.",
+          "tc": "他們不善於傾聽。"
+        },
+        {
+          "en": "They are also bad at speaking.",
+          "tc": "他們也不善言談。"
+        },
+        {
+          "en": "They're very used to speaking to people who know their language.",
+          "tc": "他們非常習慣與懂他們語言的人交談。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     }
@@ -302,42 +962,42 @@
       "title": "B2 重點單字",
       "items": [
         {
+          "english": "please",
+          "kk": "/please/",
+          "partOfSpeech": "n.",
+          "meaning": "請",
+          "note": "看到 please 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "know",
           "kk": "/know/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "知道",
           "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "okay",
-          "kk": "/okay/",
+          "english": "right",
+          "kk": "/right/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 okay 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "正確的",
+          "note": "看到 right 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "way",
-          "kk": "/way/",
+          "english": "yes",
+          "kk": "/yes/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 way 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "lot",
-          "kk": "/lot/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 lot 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "是的",
+          "note": "看到 yes 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "little",
           "kk": "/little/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "小的",
           "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -345,24 +1005,24 @@
           "english": "need",
           "kk": "/need/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "需要",
           "note": "看到 need 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "atm",
-          "kk": "/atm/",
+          "english": "you're",
+          "kk": "/you're/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 atm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "你是",
+          "note": "看到 you're 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "chinese",
-          "kk": "/chinese/",
+          "english": "don't",
+          "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -371,34 +1031,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "My sister Brianna is going to help me walk through each scenario.",
-          "tc": "我姐姐布麗安娜將幫助我演練每個場景。"
+          "en": "Welcome back to my Slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "need to",
-      "meaning": "常用說法，可用來表達「need to」這個意思",
+      "phrase": "used to",
+      "meaning": "以前曾經",
       "examples": [
         {
-          "en": "If you're ever lost and you need to ask for directions, you can say, \"Excuse me,.",
-          "tc": "如果你迷路了，需要問路，你可以說：“對不起，。”"
+          "en": "They're very used to speaking to people who know their language.",
+          "tc": "他們非常習慣與懂他們語言的人交談。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "i love",
-      "meaning": "常用說法，可用來表達「i love」這個意思",
+      "phrase": "going to",
+      "meaning": "去",
       "examples": [
         {
-          "en": "I love it.",
-          "tc": "我喜歡它。"
+          "en": "My sister Brianna is going to help me walk through each scenario.",
+          "tc": "我姐姐布麗安娜將幫助我演練每個場景。"
         }
       ]
     }
@@ -407,7 +1067,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my Slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -430,25 +1090,25 @@
     },
     {
       "id": "breakdown-03",
-      "sentence": "If you didn't know, I have been learning Chinese for about 3 years now. But honestly, nothing prepared me for the Chinese that.",
-      "translation": "如果你不知道的話，我已經學中文大約三年了。但說實話，我對中國人沒有任何準備。",
+      "sentence": "If you didn't know,.",
+      "translation": "如果你不知道的話，。",
       "points": [
         {
-          "label": "didn't know been",
-          "text": "didn't know been",
-          "note": "注意 \"didn't know been\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "didn't know",
+          "text": "didn't know",
+          "note": "注意 \"didn't know\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-04",
-      "sentence": "I would actually need in China. The real life Chinese. The words that help.",
-      "translation": "我實際上需要在中國。現實生活中的中國人。有幫助的話。",
+      "sentence": "I have been learning Chinese for about 3 years now. But honestly, nothing prepared me for the Chinese that.",
+      "translation": "我學習中文已經大約三年了。但說實話，我對中國人沒有任何準備。",
       "points": [
         {
-          "label": "actually need china",
-          "text": "actually need china",
-          "note": "注意 \"actually need china\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "been chinese years",
+          "text": "been chinese years",
+          "note": "注意 \"been chinese years\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

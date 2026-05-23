@@ -20,35 +20,35 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "Today I have a special guest, Olivia. Hi Olivia or Yuhan. Yeah, but Olivia learned English in just three years. Three years ago,.",
           "tc": "今天我有一位特別的客人，奧莉維亞。嗨，奧利維亞或雨涵。是的，但奧莉維亞只花了三年就學會了英語。三年前，。"
         },
         {
-          "en": "She didn't speak any English at all! So today.",
-          "tc": "She didn't speak any English at all!所以今天。"
+          "en": "She didn't speak any English at all!",
+          "tc": "她根本不會說英語！"
         },
         {
-          "en": "She learned English. Um, I think that my audience would love to know.",
-          "tc": "她學了英語。 Um, I think that my audience would love to know."
+          "en": "She learned English. Um,.",
+          "tc": "她學了英語。嗯，。"
         }
       ],
       "tags": [
         {
-          "english": "know",
-          "kk": "/know/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "yeah",
           "kk": "/yeah/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "是的",
           "note": "看到 yeah 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -61,20 +61,20 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "Starting to build and structure sentences? Is there anything you could tell? Yeah, definitely.",
-          "tc": "開始建構和構造句子？有什麼可以告訴你的嗎？是的，絕對是。"
+          "en": "I think that my audience would love to know.",
+          "tc": "我想我的觀眾很想知道。"
         },
         {
-          "en": "I have so many things to talk because I also teach Chinese. So,.",
-          "tc": "我有很多話要說，因為我也教中文。所以，。"
+          "en": "Starting to build and structure sentences?",
+          "tc": "開始建構和構造句子？"
         },
         {
-          "en": "I know how the process goes for like teaching uh for learning language. So basically the very use of tip.",
-          "tc": "我知道這個過程是如何進行的，就像教呃學習語言一樣。所以基本上就是使用小費。"
+          "en": "Is there anything you could tell? Yeah, definitely?",
+          "tc": "有什麼可以告訴你的嗎？是啊，絕對嗎？"
         },
         {
-          "en": "I tell you before is like you put a sticker on the things for reme uh the memorizing the words. Yeah.",
-          "tc": "我之前告訴過你，就像你在東西上貼了一張貼紙，以便記住單字。是的。"
+          "en": "I have so many things to talk because I also teach Chinese.",
+          "tc": "我有很多話要說，因為我也教中文。"
         }
       ],
       "tags": [
@@ -82,23 +82,23 @@
           "english": "know",
           "kk": "/know/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "知道",
           "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "put",
-          "kk": "/put/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "yeah",
           "kk": "/yeah/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "是的",
           "note": "看到 yeah 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -107,24 +107,24 @@
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段：語言學習",
+      "titleEn": "Part 3: language",
       "sentences": [
         {
-          "en": "For example, this is a cup. So you put the sticker on it says cup. So every time you saw it, you know it's a cup. So I at the time the.",
-          "tc": "例如，這是一個杯子。所以你把貼紙貼在上面寫著杯子。所以每次你看到它，你就知道它是一個杯子。所以我當時的。"
+          "en": "I know how the process goes for like teaching uh for learning language. So basically the very use of tip.",
+          "tc": "我知道這個過程是如何進行的，就像教呃學習語言一樣。所以基本上就是使用小費。"
         },
         {
-          "en": "First time I went to the US in my room is full of stickers.",
-          "tc": "我第一次去美國，我的房間裡貼滿了貼紙。"
+          "en": "I tell you before is like you put a sticker on the things for reme uh the memorizing the words. Yeah.",
+          "tc": "我之前告訴過你，就像你在東西上貼了一張貼紙，以便記住單字。是的。"
         },
         {
-          "en": "For example, window I will put window and couch I will put couch. stove everything everything.",
-          "tc": "例如，窗戶我將放置窗戶，沙發我將放置沙發。爐灶一切一切。"
+          "en": "For example, this is a cup. So you put the sticker on it says cup. So every time you saw it, you know it's a cup. So I at the time.",
+          "tc": "例如，這是一個杯子。所以你把貼紙貼在上面寫著杯子。所以每次你看到它，你就知道它是一個杯子。所以我當時。"
         },
         {
-          "en": "I can see in my eyes right I will wrote it.",
-          "tc": "我可以從我的眼睛看到我會寫它。"
+          "en": "The first time I went to the US in my room is full of stickers.",
+          "tc": "第一次去美國，我的房間裡貼滿了貼紙。"
         }
       ],
       "tags": [
@@ -132,7 +132,7 @@
           "english": "know",
           "kk": "/know/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "知道",
           "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -140,16 +140,16 @@
           "english": "put",
           "kk": "/put/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "放",
           "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
-          "english": "say",
-          "kk": "/say/",
+          "english": "time",
+          "kk": "/time/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -161,45 +161,45 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
+          "en": "For example, window I will put window and couch I will put couch. Stove everything.",
+          "tc": "例如，窗戶我將放置窗戶，沙發我將放置沙發。把所有東西都燒起來。"
+        },
+        {
+          "en": "I can see in my eyes right I will wrote it.",
+          "tc": "我可以從我的眼睛看到我會寫它。"
+        },
+        {
           "en": "I will write it and I will you know just help myself to remember so every time.",
           "tc": "我會寫下來，你知道，每次都幫助自己記得。"
         },
         {
-          "en": "When I'm trying to say okay I'm going to cook today so I'm going to use the stove I'm going to use uh the boss I'm going to use a fork?",
-          "tc": "當我想說好吧，我今天要做飯，所以我要使用爐子，我要使用呃老闆，我要使用叉子？"
-        },
-        {
-          "en": "Everything it's for daily life because this is how you get around.",
-          "tc": "一切都是為了日常生活，因為這就是你的出行方式。"
-        },
-        {
-          "en": "How you start to you know understand like the daily life works for the basic vocabularies. Just start saying a sentence out loud?",
-          "tc": "你如何開始知道理解就像日常生活中的基本詞彙。剛開始大聲說一句話嗎？"
+          "en": "I'm trying to say okay.",
+          "tc": "我試著說好吧。"
         }
       ],
       "tags": [
         {
-          "english": "i'm",
-          "kk": "/i'm/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "know",
           "kk": "/know/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "知道",
           "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "say",
-          "kk": "/say/",
+          "english": "put",
+          "kk": "/put/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "放",
+          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -211,20 +211,20 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "For example, I remember when I.",
-          "tc": "例如，我記得當我。"
+          "en": "I'm going to cook today.",
+          "tc": "今天我要去做飯。"
         },
         {
-          "en": "First met you, um, I told you that I speak a little bit of Chinese.",
-          "tc": "第一次見到你，嗯，我告訴過你我會說一點中文。"
+          "en": "I'm going to use the stove.",
+          "tc": "我要用爐子。"
         },
         {
-          "en": "I tried to say one sentence in Chinese, but I couldn't say anything.",
-          "tc": "我試著用中文說一句話，但什麼也說不出來。"
+          "en": "I'm going to use uh the boss.",
+          "tc": "我要用呃老闆。"
         },
         {
-          "en": "One thing to say because I didn't know how to say window or table or cup or anything basic that was around me. Exactly. So,.",
-          "tc": "有一件事要說，因為我不知道如何說窗戶、桌子、杯子或我周圍的任何基本東西。確切地。所以，。"
+          "en": "I'm going to use a fork and everything it's for daily life because this is.",
+          "tc": "我將使用叉子和日常生活中的所有東西，因為這是。"
         }
       ],
       "tags": [
@@ -232,75 +232,711 @@
           "english": "know",
           "kk": "/know/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "知道",
           "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "say",
-          "kk": "/say/",
+          "english": "don't",
+          "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "english": "anything",
-          "kk": "/anything/",
+          "english": "feel",
+          "kk": "/feel/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段：工作與學習",
+      "titleEn": "Part 6: work",
       "sentences": [
+        {
+          "en": "How you get around how you start to you know understand like the daily life works for the basic vocabularies. Just start saying a sentence out loud?",
+          "tc": "你如何繞過你如何開始你知道理解就像日常生活中的基本詞彙。剛開始大聲說一句話嗎？"
+        },
+        {
+          "en": "First met you, um, I told you that I speak a little bit of Chinese and I tried to say one sentence in Chinese, but I couldn't say anything.",
+          "tc": "第一次見到你，嗯，我告訴你我會說一點中文，我試著用中文說一句話，但我什麼也說不出來。"
+        },
+        {
+          "en": "One thing to say because I didn't know how to say window or table or cup or anything basic that was around me. Exactly.",
+          "tc": "有一件事要說，因為我不知道如何說窗戶、桌子、杯子或我周圍的任何基本東西。確切地。"
+        },
         {
           "en": "I immediately just couldn't think of anything to say. But by doing that,.",
           "tc": "我立刻想不出該說什麼。但透過這樣做，。"
-        },
-        {
-          "en": "I mean, I put Yeah. Yeah. I put stickers all over my room. I'll show.",
-          "tc": "我的意思是，我把「是的」。是的。我把貼紙貼滿了我的房間。我會展示。"
-        },
-        {
-          "en": "You guys like a video of all my room with stickers. and it's helped me to improve and to start speaking Chinese more confidently. That's really a useful way for me.",
-          "tc": "你們喜歡我所有房間貼有貼紙的影片。它幫助我提高並開始更有自信地說中文。這對我來說確實是一個有用的方法。"
-        },
-        {
-          "en": "I discovered this by myself because I just feel like when you're learning a new language like right now I'm also learning Spanish right now.",
-          "tc": "我自己發現了這一點，因為我覺得當你學習新語言時，就像現在我也在學習西班牙語一樣。"
         }
       ],
       "tags": [
         {
-          "english": "i'm",
-          "kk": "/i'm/",
+          "english": "know",
+          "kk": "/know/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "I mean, I put Yeah. I put stickers all over my room. I'll show.",
+          "tc": "我的意思是，我把「是的」。我把貼紙貼滿了我的房間。我會展示。"
+        },
+        {
+          "en": "You guys like a video of all my room with stickers. And it's helped me to improve and to start speaking Chinese more confidently. That's really a useful way for me.",
+          "tc": "你們喜歡我所有房間貼有貼紙的影片。它幫助我提高並開始更有自信地說中文。這對我來說確實是一個有用的方法。"
+        },
+        {
+          "en": "I discovered this by myself because I just feel like when you're learning a new language like right now.",
+          "tc": "我自己發現了這一點，因為我感覺就像你現在正在學習新語言一樣。"
+        },
+        {
+          "en": "I'm also learning Spanish right now. You got to get into that language. You got to immerse yourself in that world. Just think in that way.",
+          "tc": "我現在也在學習西班牙語。你必須進入那種語言。你必須讓自己沉浸在那個世界裡。就這樣想吧。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "put",
           "kk": "/put/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "放",
           "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "I like to write journals. I my all my journals are in Chinese.",
+          "tc": "我喜歡寫日記。我所有的日記都是中文的。"
+        },
+        {
+          "en": "Then since I start to learn English, I start to write everything in English. Even just like very short sentences. Um.",
+          "tc": "然後自從我開始學習英語，我就開始用英語寫所有的東西。即使只是像很短的句子。嗯。"
+        },
+        {
+          "en": "I would say.",
+          "tc": "我會說。"
+        },
+        {
+          "en": "I'm happy. So maybe the day one I will say okay uh.",
+          "tc": "我很高興。所以也許第一天我會說好吧呃。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "say",
-          "kk": "/say/",
+          "english": "don't",
+          "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "Today I went to school.",
+          "tc": "今天我去學校了。"
+        },
+        {
+          "en": "I had fun with my friends.",
+          "tc": "我和朋友們玩得很開心。"
+        },
+        {
+          "en": "I feel happy. And tomorrow maybe I was um say a little bit like more like okay.",
+          "tc": "我感到很高興。明天也許我會說有點像好吧。"
+        },
+        {
+          "en": "We did pool.",
+          "tc": "我們玩了桌球。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：食物與用餐",
+      "titleEn": "Part 10: food",
+      "sentences": [
+        {
+          "en": "We went to dinner.",
+          "tc": "我們去吃晚餐了。"
+        },
+        {
+          "en": "We talked a lot of things.",
+          "tc": "我們聊了很多事情。"
+        },
+        {
+          "en": "I feel happy. So I just wrote everything and in English and trying to build up my like way of thinking in English.",
+          "tc": "我感到很高興。所以我只是用英文寫下所有內容，並試著用英文建立我喜歡的思考方式。"
+        },
+        {
+          "en": "Then just like as time goes by for the last three years, it just gradually changed like even right now seriously.",
+          "tc": "然後就像過去三年時間的流逝一樣，它逐漸變得像現在一樣嚴重。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "I'm not a native ch.",
+          "tc": "我不是土生土長的ch。"
+        },
+        {
+          "en": "I'm not a native English speaker.",
+          "tc": "我的母語不是英語。"
+        },
+        {
+          "en": "I'm thinking in English even.",
+          "tc": "我甚至用英語思考。"
+        },
+        {
+          "en": "I don't speak perfectly but my mind is in English.",
+          "tc": "我的口語不太好，但我的腦子裡都是英文。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "I'm really think.",
+          "tc": "我真的很想"
+        },
+        {
+          "en": "I'm not thinking about are Yeah.",
+          "tc": "我不是在想是呀。"
+        },
+        {
+          "en": "I'm literally just thinking in English right now. Yeah. And that's a huge step. That's something that.",
+          "tc": "我現在真的只是用英語思考。是的。這是一個巨大的進步。就是這樣的事。"
+        },
+        {
+          "en": "I'm sure so many of my viewers would want to reach.",
+          "tc": "我確信很多觀眾都想到達。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "yeah",
+          "kk": "/yeah/",
+          "partOfSpeech": "n.",
+          "meaning": "是的",
+          "note": "看到 yeah 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "What do you think was the biggest thing that broke through that maybe um feeling of being scared or shy to speak?",
+          "tc": "你認為最大的突破是什麼，也許是害怕或害羞的感覺？"
+        },
+        {
+          "en": "What do you think got you through that hardest step of starting?",
+          "tc": "你認為是什麼讓你度過了起步階段最艱難的一步？"
+        },
+        {
+          "en": "I said, don't think about what others think about you. That's the most important things because you learn it for yourself. You learn it to express yourself.",
+          "tc": "我說，不要考慮別人對你的看法。這是最重要的事情，因為這是你自己學習的。你學習它是為了表達自己。"
+        },
+        {
+          "en": "The first time I was in the US, I was hanging out with a lot of people. When I was there, I just don't talk.",
+          "tc": "我第一次來美國時，和很多人一起出去玩。當我在那裡時，我只是不說話。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常生活",
+      "titleEn": "Part 14: everyday life",
+      "sentences": [
+        {
+          "en": "I feel like.",
+          "tc": "我覺得。"
+        },
+        {
+          "en": "I'm transparent. When I was a lot of people,.",
+          "tc": "我是透明的。當我還是很多人的時候，"
+        },
+        {
+          "en": "I feel nervous.",
+          "tc": "我感到緊張。"
+        },
+        {
+          "en": "I feel like why should I talk?",
+          "tc": "我覺得我為什麼要說話？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "I don't understand.",
+          "tc": "我不明白。"
+        },
+        {
+          "en": "I don't know anything.",
+          "tc": "我什麼都不知道。"
+        },
+        {
+          "en": "I don't know the name.",
+          "tc": "我不知道名字。"
+        },
+        {
+          "en": "I don't know any vocabulary, but you know, I just don't know what to say.",
+          "tc": "我不懂任何詞彙，但你知道，我只是不知道該說什麼。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：日常生活",
+      "titleEn": "Part 16: everyday life",
+      "sentences": [
+        {
+          "en": "I feel so nervous, so awkward, but I put myself in that situation thousands of times. I know.",
+          "tc": "我感到很緊張，很尷尬，但我已經無數次把自己置於那種境地了。我知道。"
+        },
+        {
+          "en": "I'm not comfortable, but every time.",
+          "tc": "我不太舒服，但每次都這樣。"
+        },
+        {
+          "en": "I'm trying to speak a little bit.",
+          "tc": "我試著說一點。"
+        },
+        {
+          "en": "For example, I will ask, \"What's that cartoon?\" Oh,.",
+          "tc": "例如，我會問：「那是什麼卡通片？」哦，。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段：日常生活",
+      "titleEn": "Part 17: everyday life",
+      "sentences": [
+        {
+          "en": "Tell me how to spell it? Because maybe.",
+          "tc": "告訴我怎麼拼？因為也許。"
+        },
+        {
+          "en": "I don't even know how to spell it. And maybe I will look it up on the Google.",
+          "tc": "我什至不知道如何拼寫它。也許我會在谷歌上查找它。"
+        },
+        {
+          "en": "I will say oh this is a cartoon maybe I will watch.",
+          "tc": "我會說哦，這是一部動畫片，也許我會去看。"
+        },
+        {
+          "en": "They talk about this cartoon I will know about it and I will know maybe I can talk about okay I know this character.",
+          "tc": "他們談論這部動畫片，我會知道它，我會知道也許我可以談論，好吧，我知道這個角色。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段：日常生活",
+      "titleEn": "Part 18: everyday life",
+      "sentences": [
+        {
+          "en": "He look like, right? it's just like slow progress but the main things is just put yourself like out of your comfort zone completely and enjoy the nervous** to be honest enjoy.",
+          "tc": "他看起來像吧？這就像緩慢的進步，但主要的事情就是讓自己完全脫離舒適區，享受緊張**說實話享受。"
+        },
+        {
+          "en": "You feel like okay u something like emergency you just feel like nervous.",
+          "tc": "你感覺還好，但遇到緊急情況，你只是感到緊張。"
+        },
+        {
+          "en": "You know at the time.",
+          "tc": "你當時就知道了。"
+        },
+        {
+          "en": "Then you will remember better to be honest yeah mhm completely yeah.",
+          "tc": "然後你會更好地記得說實話，是的，嗯，完全是的。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段：日常生活",
+      "titleEn": "Part 19: everyday life",
+      "sentences": [
+        {
+          "en": "I go to dance class.",
+          "tc": "我去上舞蹈課。"
+        },
+        {
+          "en": "Sometimes the dance is so difficult and I see everyone around me.",
+          "tc": "有時舞蹈是如此困難，我看到我周圍的每個人。"
+        },
+        {
+          "en": "They can just understand it immediately and remember every step.",
+          "tc": "他們可以立即理解並記住每一步。"
+        },
+        {
+          "en": "I'm just taking a lot longer than them and it makes me feel really embarrassed and nervous.",
+          "tc": "我只是比他們花的時間長得多，這讓我感到非常尷尬和緊張。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段：日常生活",
+      "titleEn": "Part 20: everyday life",
+      "sentences": [
+        {
+          "en": "Then I learn from that too.",
+          "tc": "然後我也從中學習。"
+        },
+        {
+          "en": "I go home and maybe I practice that same routine so that.",
+          "tc": "我回家後也許會練習同樣的動作。"
+        },
+        {
+          "en": "I'm better at it. Exactly. Because you don't know like maybe those dancers already learned that dance before.",
+          "tc": "我更擅長。確切地。因為你不知道也許那些舞者以前已經學過這種舞蹈。"
+        },
+        {
+          "en": "They're doing it so much better than me. So you just can't compare your progress.",
+          "tc": "他們做得比我好得多。所以你無法比較你的進步。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "know",
+          "kk": "/know/",
+          "partOfSpeech": "n.",
+          "meaning": "知道",
+          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -310,67 +946,67 @@
       "title": "B2 重點單字",
       "items": [
         {
-          "english": "i'm",
-          "kk": "/i'm/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "know",
           "kk": "/know/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "知道",
           "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "put",
           "kk": "/put/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "放",
           "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
-          "english": "say",
-          "kk": "/say/",
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 say 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "yeah",
           "kk": "/yeah/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "是的",
           "note": "看到 yeah 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "anything",
-          "kk": "/anything/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "chinese",
-          "kk": "/chinese/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "cup",
-          "kk": "/cup/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 cup 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -379,34 +1015,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "When I'm trying to say okay I'm going to cook today so I'm going to use the stove I'm going to use uh the boss I'm going to use a fork?",
-          "tc": "當我想說好吧，我今天要做飯，所以我要使用爐子，我要使用呃老闆，我要使用叉子？"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "for example",
-      "meaning": "常用說法，可用來表達「for example」這個意思",
+      "phrase": "what do you",
+      "meaning": "你會怎麼...",
       "examples": [
         {
-          "en": "For example, this is a cup.",
-          "tc": "例如，這是一個杯子。"
+          "en": "What do you think was the biggest thing that broke through that maybe um feeling of being scared or shy to speak?",
+          "tc": "你認為最大的突破是什麼，也許是害怕或害羞的感覺？"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "a little bit",
-      "meaning": "常用說法，可用來表達「a little bit」這個意思",
+      "phrase": "look like",
+      "meaning": "看起來像",
       "examples": [
         {
-          "en": "First met you, um, I told you that I speak a little bit of Chinese.",
-          "tc": "第一次見到你，嗯，我告訴過你我會說一點中文。"
+          "en": "He look like, right?",
+          "tc": "他看起來像吧？"
         }
       ]
     }
@@ -415,7 +1051,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -438,25 +1074,25 @@
     },
     {
       "id": "breakdown-03",
-      "sentence": "She didn't speak any English at all! So today.",
-      "translation": "She didn't speak any English at all!所以今天。",
+      "sentence": "She didn't speak any English at all!",
+      "translation": "她根本不會說英語！",
       "points": [
         {
-          "label": "she didn't speak",
-          "text": "she didn't speak",
-          "note": "注意 \"she didn't speak\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "didn't speak",
+          "text": "didn't speak",
+          "note": "注意 \"didn't speak\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-04",
-      "sentence": "She learned English. Um, I think that my audience would love to know.",
-      "translation": "她學了英語。 Um, I think that my audience would love to know.",
+      "sentence": "She learned English. Um,.",
+      "translation": "她學了英語。嗯，。",
       "points": [
         {
-          "label": "she learned think",
-          "text": "she learned think",
-          "note": "注意 \"she learned think\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "learned",
+          "text": "learned",
+          "note": "注意 \"learned\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

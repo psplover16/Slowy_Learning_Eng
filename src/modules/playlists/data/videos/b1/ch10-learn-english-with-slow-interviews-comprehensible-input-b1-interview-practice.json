@@ -20,19 +20,19 @@
       "sentences": [
         {
           "en": "Where do you see yourself in five years? So you don't have to you essential job interview vocabulary?",
-          "tc": "您認為五年後的自己會變成怎樣？那麼您沒有必要的工作面試詞彙嗎？"
+          "tc": "你認為五年後的自己會變成怎樣？那麼你沒有必要的工作面試詞彙嗎？"
         },
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "Today I'm excited to have another slow English interview with my sister to practice asking questions and answering them with new vocabulary essential for a job interview.",
           "tc": "今天，我很高興能與姐姐進行另一次緩慢的英語面試，練習提問並使用工作面試所需的新詞彙來回答問題。"
         },
         {
-          "en": "You can practice your English listening skills. by listening to slow English conversations.",
-          "tc": "您可以練習英語聽力技巧。透過聽慢速英語對話。"
+          "en": "You can practice your English listening skills. By listening to slow English conversations.",
+          "tc": "你可以練習英語聽力技巧。透過聽慢速英語對話。"
         }
       ],
       "tags": [
@@ -40,24 +40,8 @@
           "english": "job",
           "kk": "/job/",
           "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
+          "meaning": "工作",
           "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "interview",
-          "kk": "/interview/",
-          "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
-          "note": "看到 interview 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "i'm",
-          "kk": "/i'm/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -69,45 +53,45 @@
       "titleEn": "Part 2: work",
       "sentences": [
         {
-          "en": "I personally get really nervous at job interviews even though I'm a hard worker and a good learner and I'm always on time. The interviewer doesn't know any of that. The interviewer.",
-          "tc": "我個人在面試時會感到非常緊張，儘管我是一個勤奮的人，一個很好的學習者，而且我總是準時。面試官對此一無所知。面試官。"
+          "en": "I personally get really nervous at job interviews even though.",
+          "tc": "儘管如此，我個人在面試時還是非常緊張。"
         },
         {
-          "en": "Has to determine?",
-          "tc": "必須確定嗎？"
+          "en": "I'm a hard worker and a good learner.",
+          "tc": "我是一個勤奮的人，也是一個很好的學習者。"
+        },
+        {
+          "en": "I'm always on time. The interviewer doesn't know any of that. The interviewer has to determine.",
+          "tc": "我總是準時。面試官對此一無所知。面試官必須確定。"
         },
         {
           "en": "If you're a good worker or a bad worker.",
           "tc": "如果你是個好工人還是個壞工人。"
-        },
-        {
-          "en": "They need to determine.",
-          "tc": "他們需要確定。"
         }
       ],
       "tags": [
         {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "job",
           "kk": "/job/",
           "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
+          "meaning": "工作",
           "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "interview",
-          "kk": "/interview/",
-          "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
-          "note": "看到 interview 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "good",
-          "kk": "/good/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -115,49 +99,41 @@
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：工作與學習",
-      "titleEn": "Part 3: work",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "If you have extensive experience or minimal experience. I will act as the interviewer and Bri will act as the interviewee. So,.",
-          "tc": "如果您有豐富的經驗或很少的經驗。我將擔任訪談者，Bri 將擔任受訪者。所以，。"
+          "en": "They need to determine.",
+          "tc": "他們需要確定。"
         },
         {
-          "en": "Can you tell me a little bit about yourself? Yes. My name is Brianna Ortiz?",
-          "tc": "你能告訴我一些關於你自己的事嗎？是的。我叫布麗安娜‧奧爾蒂斯？"
+          "en": "If you have extensive experience or minimal experience. I will act as the interviewer and Bri will act as the interviewee.",
+          "tc": "如果你有豐富的經驗或很少的經驗。我將擔任訪談者，Bri 將擔任受訪者。"
+        },
+        {
+          "en": "Tell me a little bit about yourself? Yes. My name is Brianna Ortiz.",
+          "tc": "告訴我一些關於你自己的事？是的。我叫布麗安娜‧奧爾蒂斯。"
         },
         {
           "en": "I have a bachelor's degree in physics from a the University of Pueba. For work,.",
           "tc": "我擁有普埃巴大學物理學士學位。為了工作，。"
-        },
-        {
-          "en": "I have a background in English teaching. I've been an English teacher for five years. This year.",
-          "tc": "我有英語教學背景。我當英文老師已經五年了。今年。"
         }
       ],
       "tags": [
         {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "experience",
           "kk": "/experience/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "經驗",
           "note": "看到 experience 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "interview",
-          "kk": "/interview/",
-          "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
-          "note": "看到 interview 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "interviewer",
-          "kk": "/interviewer/",
-          "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
-          "note": "看到 interviewer 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -165,49 +141,49 @@
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：旅行",
-      "titleEn": "Part 4: travel",
+      "titleZh": "第 4 段：語言學習",
+      "titleEn": "Part 4: language",
       "sentences": [
         {
-          "en": "I started with Spanish teaching and copywriting. Mhm. I have experience teaching kids based in China from ages K through 12. Mhm. Some of my hobbies are going to the gym, learning.",
-          "tc": "我從西班牙語教學和文案開始。嗯。我有在中國教導從幼兒園到12歲孩子的經驗。嗯。我的一些嗜好是去健身房、學習。"
+          "en": "I have a background in English teaching.",
+          "tc": "我有英語教學背景。"
         },
         {
-          "en": "Languages, um, and drawing.",
-          "tc": "語言，嗯，還有繪畫。"
+          "en": "I've been an English teacher for five years. This year I started with Spanish teaching and copywriting. Mhm.",
+          "tc": "我當英文老師已經五年了。今年我開始從事西班牙語教學和文案寫作。嗯。"
+        },
+        {
+          "en": "I have experience teaching kids based in China from ages K through 12. Mhm. Some of my hobbies are going to the gym, learning languages, um, and drawing.",
+          "tc": "我有在中國教導從幼兒園到12歲孩子的經驗。嗯。我的一些嗜好是去健身房、學習語言，嗯，還有畫畫。"
         },
         {
           "en": "We say background? That.",
           "tc": "我們說背景？那。"
-        },
-        {
-          "en": "We talk about experience? Experience might be the time you've spent on a job and maybe the skills you've gained along the way. Mhm.",
-          "tc": "我們談經驗？經驗可能是您在工作上花費的時間，也可能是您在過程中獲得的技能。嗯。"
         }
       ],
       "tags": [
         {
-          "english": "experience",
-          "kk": "/experience/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 experience 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "job",
-          "kk": "/job/",
-          "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
-          "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "mhm",
           "kk": "/mhm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "嗯",
           "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "experience",
+          "kk": "/experience/",
+          "partOfSpeech": "n.",
+          "meaning": "經驗",
+          "note": "看到 experience 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "teaching",
+          "kk": "/teaching/",
+          "partOfSpeech": "v.",
+          "meaning": "教學",
+          "note": "看到 teaching 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -219,62 +195,70 @@
       "titleEn": "Part 5: work",
       "sentences": [
         {
+          "en": "We use background, it's usually for your past experience with jobs or studies.",
+          "tc": "我們使用背景，通常是你過去的工作或學習經驗。"
+        },
+        {
+          "en": "We talk about experience? might be the time you've spent on a job and maybe the skills you've gained along the way. Mhm.",
+          "tc": "我們談經驗？可能是你在工作上花費的時間，也可能是你在過程中獲得的技能。嗯。"
+        },
+        {
           "en": "Why do you want this job? Well, I really enjoy working with people?",
           "tc": "為什麼想要這份工作？嗯，我真的很喜歡和人一起工作嗎？"
         },
         {
           "en": "I love talking to people, getting to know people, especially children.",
           "tc": "我喜歡與人交談，了解人們，尤其是孩子。"
-        },
-        {
-          "en": "I love helping in the learning process and learning myself as.",
-          "tc": "我喜歡在學習過程中提供幫助並學習自己。"
-        },
-        {
-          "en": "We move along. Some of my interests are in the science area. So,.",
-          "tc": "我們繼續前進。我的一些興趣是在科學領域。所以，。"
         }
       ],
       "tags": [
         {
-          "english": "job",
-          "kk": "/job/",
+          "english": "mhm",
+          "kk": "/mhm/",
           "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
-          "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "love",
-          "kk": "/love/",
+          "english": "time",
+          "kk": "/time/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：工作與學習",
-      "titleEn": "Part 6: work",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
       "sentences": [
+        {
+          "en": "I love helping in the learning process and learning myself as.",
+          "tc": "我喜歡在學習過程中提供幫助並學習自己。"
+        },
+        {
+          "en": "We move along. Some of my interests are in the science area.",
+          "tc": "我們繼續前進。我的一些興趣是在科學領域。"
+        },
         {
           "en": "I would love to teach English biology, English physics, or even English chemistry. Some of my goals are to become a better teacher, become a more knowledgeable person, and create a classroom.",
           "tc": "我很想教英語生物學、英語物理，甚至英語化學。我的一些目標是成為一名更好的老師，成為一個更有知識的人，並創建一個課堂。"
         },
         {
-          "en": "Environment that is welcoming for everyone. And my core values are honesty, loyalty, and patience more than anything. Good answer. So,.",
-          "tc": "歡迎所有人的環境。我的核心價值是誠實、忠誠和耐心。很好的答案。所以，。"
-        },
-        {
-          "en": "What are your greatest strengths?",
-          "tc": "你最大的優勢是什麼？"
-        },
-        {
-          "en": "I am organized.",
-          "tc": "我是有組織的。"
+          "en": "Environment that is welcoming for everyone. And my core values are honesty, loyalty, and patience more than anything. Good answer.",
+          "tc": "歡迎所有人的環境。我的核心價值是誠實、忠誠和耐心。很好的答案。"
         }
       ],
       "tags": [
@@ -282,17 +266,477 @@
           "english": "good",
           "kk": "/good/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "好的",
           "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "What are your greatest strengths?",
+          "tc": "你最大的優勢是什麼？"
         },
         {
-          "english": "love",
-          "kk": "/love/",
+          "en": "I am organized.",
+          "tc": "我是有組織的。"
+        },
+        {
+          "en": "I am punctual.",
+          "tc": "我很準時。"
+        },
+        {
+          "en": "I am a good team leader.",
+          "tc": "我是一個好的團隊領導者。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "good",
+          "kk": "/good/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：工作與學習",
+      "titleEn": "Part 8: work",
+      "sentences": [
+        {
+          "en": "I am very thorough with my work.",
+          "tc": "我對工作非常認真。"
+        },
+        {
+          "en": "What does it mean to be a thorough worker? To be exhaustive. To take something from beginning to end. Very complete. Mhm?",
+          "tc": "做一個徹底的工人意味著什麼？要詳盡無遺。把某件事從頭到尾地記下來。非常完整。嗯？"
+        },
+        {
+          "en": "What do you think are some of your weaknesses?",
+          "tc": "你認為自己的弱點是什麼？"
+        },
+        {
+          "en": "Sometimes I can get very nervous.",
+          "tc": "有時我會變得非常緊張。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "I am very softspoken.",
+          "tc": "我說話很溫柔。"
+        },
+        {
+          "en": "Sometimes my ideas aren't heard. This can.",
+          "tc": "有時我的想法沒有被聽到。這個可以。"
+        },
+        {
+          "en": "Sometimes show in classroom management.",
+          "tc": "有時表現在課室管理。"
+        },
+        {
+          "en": "I don't like yelling. Mhm.",
+          "tc": "我不喜歡大喊大叫。嗯。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sometimes",
+          "kk": "/sometimes/",
+          "partOfSpeech": "n.",
+          "meaning": "有時",
+          "note": "看到 sometimes 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "Sometimes kids can go crazy. Mhm.",
+          "tc": "有時孩子會發瘋。嗯。"
+        },
+        {
+          "en": "I want it.",
+          "tc": "我要它。"
+        },
+        {
+          "en": "What is a deadline? A deadline is a due date. Um a timeline or a time when you must hand in an assignment or work?",
+          "tc": "什麼是截止日期？截止日期是截止日期。嗯，你必須交作業或工作的時間表或時間？"
+        },
+        {
+          "en": "I think I'd have to work on my time management.",
+          "tc": "我想我必須在時間管理上下功夫。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "What is time management? Time management is the administration of your time. Organizing your time. Okay?",
+          "tc": "什麼是時間管理？時間管理就是對你的時間的管理。安排好你的時間。好的？"
+        },
+        {
+          "en": "Do you have any experience in this field? Yes, I used to work for multiple different English teaching companies. Mostly for children?",
+          "tc": "你有這方面的經驗嗎？是的，我曾經在多家不同的英語教學公司工作過。主要是為了孩子？"
+        },
+        {
+          "en": "I created lesson plans for grades K through 12. I taught ages 3 to 17.",
+          "tc": "我為 K 至 12 年級制定了課程計劃。我教授 3 至 17 歲的學生。"
+        },
+        {
+          "en": "I talked a lot. Mhm. And why did you leave your last job?",
+          "tc": "我說了很多。嗯。為什麼離開上一份工作？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：工作與學習",
+      "titleEn": "Part 12: work",
+      "sentences": [
+        {
+          "en": "I really enjoyed my last job, but I felt.",
+          "tc": "我真的很喜歡我的上一份工作，但我感覺。"
+        },
+        {
+          "en": "It was time for a change. I graduated from my physics career and I thought.",
+          "tc": "是時候做出改變了。我從物理學生涯畢業，我想。"
+        },
+        {
+          "en": "It was time to see what else is out there. Mhm.",
+          "tc": "是時候看看外面還有什麼了。嗯。"
+        },
+        {
+          "en": "Can you work well under pressure?",
+          "tc": "在壓力下你能很好地工作嗎？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "I would say.",
+          "tc": "我會說。"
+        },
+        {
+          "en": "I'm under a lot of pressure.",
+          "tc": "我壓力很大。"
+        },
+        {
+          "en": "We had to give a video presentation.",
+          "tc": "我們必須進行視訊演示。"
+        },
+        {
+          "en": "It was during pandemic.",
+          "tc": "那是在疫情期間。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常生活",
+      "titleEn": "Part 14: everyday life",
+      "sentences": [
+        {
+          "en": "I had put off making a script for a long time. And the night before I went and I studied and I wrote and I recorded my presentation.",
+          "tc": "我已經推遲了很長時間製作劇本。在我去的前一天晚上，我學習、寫作、記錄我的演講。"
+        },
+        {
+          "en": "I got the best grade in the class. Mhm. Congratulations.",
+          "tc": "我取得了班上最好的成績。嗯。恭喜。"
+        },
+        {
+          "en": "How do you handle stress or problems at work? When it came to teaching, I try to leave my stress outside of my work?",
+          "tc": "你如何處理工作上的壓力或問題？當談到教學時，我試圖將壓力轉移到工作之外？"
+        },
+        {
+          "en": "I don't want my students to feel responsible or to feel the stress that.",
+          "tc": "我不希望我的學生感到有責任或感到壓力。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常作息",
+      "titleEn": "Part 15: daily routine",
+      "sentences": [
+        {
+          "en": "Sometimes carry. Mhm. I handle my stress at home by doing my hobbies, exercising, and eating healthy. Oh, and getting a good night's sleep. Mhm. Why should.",
+          "tc": "有時攜帶。嗯。我透過從事自己的嗜好、運動和健康飲食來緩解家裡的壓力。哦，還有睡個好覺。嗯。為什麼應該。"
+        },
+        {
+          "en": "We hire you?",
+          "tc": "我們僱用你？"
+        },
+        {
+          "en": "I think my greatest strength as a teacher is my patience.",
+          "tc": "我認為身為老師我最大的優點就是我的耐心。"
+        },
+        {
+          "en": "I think the greatest strength in any teacher is patience. Because no matter the student, no matter the age, no matter the back, cultural background, patience is key.",
+          "tc": "我認為任何老師最大的優點就是耐心。因為無論學生，不論年齡，不論背景、文化背景，耐心都是關鍵。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "mhm",
+          "kk": "/mhm/",
+          "partOfSpeech": "n.",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "good",
+          "kk": "/good/",
+          "partOfSpeech": "n.",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：日常生活",
+      "titleEn": "Part 16: everyday life",
+      "sentences": [
+        {
+          "en": "I have a lot of it.",
+          "tc": "我有很多。"
+        },
+        {
+          "en": "How do you work in a team?",
+          "tc": "你如何在團隊中工作？"
+        },
+        {
+          "en": "I work well with others.",
+          "tc": "我和別人合作得很好。"
+        },
+        {
+          "en": "I have to be.",
+          "tc": "我必須如此。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -302,67 +746,67 @@
       "title": "B1 重點單字",
       "items": [
         {
-          "english": "experience",
-          "kk": "/experience/",
+          "english": "mhm",
+          "kk": "/mhm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 experience 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "嗯",
+          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "time",
+          "kk": "/time/",
+          "partOfSpeech": "n.",
+          "meaning": "時間",
+          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "work",
+          "kk": "/work/",
+          "partOfSpeech": "v.",
+          "meaning": "工作",
+          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "job",
           "kk": "/job/",
           "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
+          "meaning": "工作",
           "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
-          "english": "interview",
-          "kk": "/interview/",
+          "english": "experience",
+          "kk": "/experience/",
           "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
-          "note": "看到 interview 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "經驗",
+          "note": "看到 experience 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "good",
           "kk": "/good/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "好的",
           "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "i'm",
-          "kk": "/i'm/",
+          "english": "sometimes",
+          "kk": "/sometimes/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "有時",
+          "note": "看到 sometimes 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "interviewer",
-          "kk": "/interviewer/",
-          "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
-          "note": "看到 interviewer 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "mhm",
-          "kk": "/mhm/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 mhm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "teaching",
+          "kk": "/teaching/",
+          "partOfSpeech": "v.",
+          "meaning": "教學",
+          "note": "看到 teaching 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -371,34 +815,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "my name is",
-      "meaning": "我的名字是",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "My name is Brianna Ortiz?",
-          "tc": "我叫布麗安娜‧奧爾蒂斯？"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "phrase": "my name is",
+      "meaning": "我的名字是",
       "examples": [
         {
-          "en": "Some of my hobbies are going to the gym, learning.",
-          "tc": "我的一些嗜好是去健身房、學習。"
+          "en": "My name is Brianna Ortiz.",
+          "tc": "我叫布麗安娜‧奧爾蒂斯。"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "have to",
-      "meaning": "常用說法，可用來表達「have to」這個意思",
+      "phrase": "what do you",
+      "meaning": "你會怎麼...",
       "examples": [
         {
-          "en": "So you don't have to you essential job interview vocabulary?",
-          "tc": "那麼您沒有必要的工作面試詞彙嗎？"
+          "en": "What do you think are some of your weaknesses?",
+          "tc": "你認為自己的弱點是什麼？"
         }
       ]
     }
@@ -407,19 +851,19 @@
     {
       "id": "breakdown-01",
       "sentence": "Where do you see yourself in five years? So you don't have to you essential job interview vocabulary?",
-      "translation": "您認為五年後的自己會變成怎樣？那麼您沒有必要的工作面試詞彙嗎？",
+      "translation": "你認為五年後的自己會變成怎樣？那麼你沒有必要的工作面試詞彙嗎？",
       "points": [
         {
-          "label": "have to",
-          "text": "have to",
-          "note": "注意 \"have to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "see yourself five",
+          "text": "see yourself five",
+          "note": "注意 \"see yourself five\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-02",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -434,16 +878,16 @@
       "translation": "今天，我很高興能與姐姐進行另一次緩慢的英語面試，練習提問並使用工作面試所需的新詞彙來回答問題。",
       "points": [
         {
-          "label": "i'm excited another",
-          "text": "i'm excited another",
-          "note": "注意 \"i'm excited another\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "excited interview sister",
+          "text": "excited interview sister",
+          "note": "注意 \"excited interview sister\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-04",
-      "sentence": "You can practice your English listening skills. by listening to slow English conversations.",
-      "translation": "您可以練習英語聽力技巧。透過聽慢速英語對話。",
+      "sentence": "You can practice your English listening skills. By listening to slow English conversations.",
+      "translation": "你可以練習英語聽力技巧。透過聽慢速英語對話。",
       "points": [
         {
           "label": "skills conversations",

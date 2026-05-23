@@ -23,9 +23,26 @@ const mockContent: PlaylistVideoData = {
       no: '01',
       titleZh: '開場問候',
       titleEn: 'Opening Greeting',
-      sentences: [{ en: 'Hello there.', tc: '嗨，你好。' }],
+      sentences: [
+        {
+          en: 'Hello there, apple.',
+          tc: '嗨，你好，蘋果。',
+          englishTokens: [
+            { type: 'word', text: 'Hello', targetId: 'word-hello', instanceId: 'marker-hello-1' },
+            { type: 'text', text: ' there, ' },
+            { type: 'word', text: 'apple', targetId: 'word-apple', instanceId: 'marker-apple-1' },
+            { type: 'text', text: '. ' },
+            { type: 'word', text: 'apple', targetId: 'word-apple', instanceId: 'marker-apple-2' },
+            { type: 'text', text: ' can ' },
+            { type: 'phrase', text: 'take on', targetId: 'phrase-take-on', instanceId: 'marker-phrase-1' },
+            { type: 'text', text: ' a new role, and I can ' },
+            { type: 'usage', text: 'run', targetId: 'usage-run-business', instanceId: 'marker-usage-1' },
+            { type: 'text', text: ' a business.' },
+          ],
+        },
+      ],
       tags: [
-        { english: 'hello', kk: '/həˈloʊ/', partOfSpeech: 'interj.', meaning: '你好', highlight: true },
+        { id: 'word-hello', english: 'hello', kk: '/həˈloʊ/', partOfSpeech: 'interj.', meaning: '你好', highlight: true },
       ],
     },
   ],
@@ -33,17 +50,27 @@ const mockContent: PlaylistVideoData = {
     {
       title: 'Greetings',
       items: [
-        { english: 'hello', kk: '/həˈloʊ/', partOfSpeech: 'interj.', meaning: '你好', highlight: true },
-        { english: 'world', kk: '/wɝːld/', partOfSpeech: 'n.', meaning: '世界', highlight: false },
+        { id: 'word-hello', english: 'hello', kk: '/həˈloʊ/', partOfSpeech: 'interj.', meaning: '你好', highlight: true },
+        { id: 'word-apple', english: 'apple', kk: '/ˈæpəl/', partOfSpeech: 'n.', meaning: '蘋果', highlight: false },
       ],
     },
   ],
   phrases: [
     {
-      id: 'phrase-01',
-      phrase: 'hello there',
-      meaning: '嗨，你好',
-      examples: [{ en: 'Hello there!', tc: '嗨，你好！' }],
+      id: 'phrase-take-on',
+      phrase: 'take on',
+      meaning: '承擔、開始有某種角色',
+      examples: [{ en: 'Apple can take on a new role.', tc: 'Apple 可以承擔新的角色。' }],
+    },
+  ],
+  usages: [
+    {
+      id: 'usage-run-business',
+      word: 'run',
+      familiarMeaning: '跑',
+      usage: '經營、管理',
+      translation: '經營一家生意',
+      examples: ['I run a small business.'],
     },
   ],
   breakdowns: [
@@ -131,6 +158,7 @@ function makeRouter(level: string, videoSlug: string) {
 
 beforeEach(() => {
   localStorage.clear()
+  Element.prototype.scrollIntoView = vi.fn()
 })
 
 describe('PlaylistVideoView', () => {
@@ -141,7 +169,7 @@ describe('PlaylistVideoView', () => {
       global: { plugins: [router] },
     })
     await flushPromises()
-    expect(wrapper.text()).toContain('Hello there.')
+    expect(wrapper.text()).toContain('Hello there, apple.')
     expect(wrapper.text()).toContain('嗨，你好。')
   })
 
@@ -216,8 +244,96 @@ describe('PlaylistVideoView', () => {
       global: { plugins: [router] },
     })
     await flushPromises()
-    expect(wrapper.text()).toContain('hello there')
-    expect(wrapper.text()).toContain('嗨，你好')
+    expect(wrapper.text()).toContain('take on')
+    expect(wrapper.text()).toContain('承擔、開始有某種角色')
+  })
+
+  it('renders only English inline markers for words, phrases, and usages', async () => {
+    const router = makeRouter('a1', 'ch1-hello')
+    const wrapper = mount(PlaylistVideoView, {
+      props: { level: 'a1', videoSlug: 'ch1-hello' },
+      global: { plugins: [router] },
+    })
+    await flushPromises()
+
+    expect(wrapper.find('[data-testid="playlist-marker-word"]').text()).toBe('Hello')
+    expect(wrapper.find('[data-testid="playlist-marker-phrase"]').text()).toBe('take on')
+    expect(wrapper.find('[data-testid="playlist-marker-usage"]').text()).toBe('run')
+    expect(wrapper.find('[data-testid="playlist-marker-grammar"]').exists()).toBe(false)
+    expect(wrapper.find('[data-testid="playlist-translation-marker"]').exists()).toBe(false)
+  })
+
+  it('scrolls to the matching learning item, centers it, and highlights it', async () => {
+    const router = makeRouter('a1', 'ch1-hello')
+    const wrapper = mount(PlaylistVideoView, {
+      props: { level: 'a1', videoSlug: 'ch1-hello' },
+      attachTo: document.body,
+      global: { plugins: [router] },
+    })
+    await flushPromises()
+
+    await wrapper.find('[data-marker-instance="marker-apple-1"]').trigger('click')
+    await flushPromises()
+
+    expect(Element.prototype.scrollIntoView).toHaveBeenCalledWith({ behavior: 'smooth', block: 'center' })
+    expect(wrapper.find('#word-apple').classes()).toContain('playlist-learning-item--active')
+  })
+
+  it('returns from a learning item to the source marker instance', async () => {
+    const router = makeRouter('a1', 'ch1-hello')
+    const wrapper = mount(PlaylistVideoView, {
+      props: { level: 'a1', videoSlug: 'ch1-hello' },
+      attachTo: document.body,
+      global: { plugins: [router] },
+    })
+    await flushPromises()
+
+    await wrapper.find('[data-marker-instance="marker-apple-2"]').trigger('click')
+    await flushPromises()
+    const floatingReturn = wrapper.find('[data-testid="back-to-word-fab"]')
+    expect(floatingReturn.exists()).toBe(true)
+    expect(floatingReturn.text()).toContain('回原文')
+    await floatingReturn.trigger('click')
+
+    const marker = wrapper.find('[data-marker-instance="marker-apple-2"]')
+    expect(marker.attributes('data-last-return-target')).toBe('true')
+    expect(Element.prototype.scrollIntoView).toHaveBeenLastCalledWith({ behavior: 'smooth', block: 'center' })
+  })
+
+  it('keeps return-to-source and back-to-top controls fixed in the bottom-right FAB stack', async () => {
+    const router = makeRouter('a1', 'ch1-hello')
+    const wrapper = mount(PlaylistVideoView, {
+      props: { level: 'a1', videoSlug: 'ch1-hello' },
+      attachTo: document.body,
+      global: { plugins: [router] },
+    })
+    await flushPromises()
+
+    await wrapper.find('[data-marker-instance="marker-apple-1"]').trigger('click')
+    await flushPromises()
+
+    const returnFab = wrapper.find('[data-testid="back-to-word-fab"]')
+    const topFab = wrapper.find('[data-testid="back-to-top-fab"]')
+    expect(returnFab.classes()).toContain('fixed')
+    expect(returnFab.classes()).toContain('right-6')
+    expect(returnFab.classes()).toContain('bottom-6')
+    expect(topFab.classes()).toContain('fixed')
+    expect(topFab.classes()).toContain('right-6')
+    expect(topFab.attributes('style')).toContain('60px')
+    expect(wrapper.find('[data-testid="return-to-marker-word-apple"]').exists()).toBe(false)
+  })
+
+  it('renders special usages as an independent quick-nav section', async () => {
+    const router = makeRouter('a1', 'ch1-hello')
+    const wrapper = mount(PlaylistVideoView, {
+      props: { level: 'a1', videoSlug: 'ch1-hello' },
+      global: { plugins: [router] },
+    })
+    await flushPromises()
+
+    expect(wrapper.find('#a1-ch1-hello-section-usages').exists()).toBe(true)
+    expect(wrapper.find('[data-testid="special-usage-item"]').text()).toContain('經營、管理')
+    expect(wrapper.find('[data-testid="a1-ch1-hello-quick-nav"]').text()).toContain('用法')
   })
 
   it('shows placeholder for pendingTranscript video', async () => {

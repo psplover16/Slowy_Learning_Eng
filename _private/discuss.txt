@@ -1,31 +1,52 @@
-我有找到一個youtube頻道，很適合我學英語，我會依序貼給你播放清單的網址，每一個播放清單，有許多英語短片。
-1. 
-要提取每個播放清單內全部的英語網址，將各網址做排序，排序方式為倒敘。
-也就是 播放清單 編號為1的影片，要放在後面。
+零.
+目前ch1路由，有 回頂的按鈕、回到單字的按鈕。按鈕按下後，也有smooth置頂，或 回到原始scroll位置的功能。
+a1、a2、b1、b2 的各詳細播放清單 的 各路由也要有上述相同功能。
 
-A1 Beginner English
-https://www.youtube.com/watch?v=2QsxCYPZ-6o&list=PL8f0I_2tet-f2hkTKFPgWS7koHkY4_Pw1
+一.
+針對 路由 a1、a2、b1、b2 的各詳細播放清單 全部要做 大量翻新，因為目前的品質內容很差。
+可以參考目前的UI樣式，但不一定要完全按照目前的UI製作。
 
-A2 High Beginner English
-https://www.youtube.com/watch?v=HuXMurDSOBE&list=PL8f0I_2tet-dJp0Dlyv0Wr_ZQXbEWyJyL
+完整步驟如下，
+一.
+先從 a1開始，
+1. 針對a1播放清單的 各路由進行調整，第一次 針對  ch1-slow-english-for-beginners-a1-listening-practice 進行校稿
+2. 針對 ch1-slow-english-for-beginners-a1-listening-practice 裡面提及的 youtube影片 https://www.youtube.com/watch?v=kVNYOW3eMk4，提取字幕。
+並將該字幕文本，"覆寫"到 `@/_private/tmp.txt`
+3. 
+請用 english_proofreader 副代理，使用檔案 I/O 模式處理：
+讀取 @/_private/tmp.txt，
+輸出並覆寫到 @/_private/proofread_result.md；
+完成後回傳結果，並結束該副代理。
 
-B1 Intermediate English
-https://www.youtube.com/watch?v=IkBu-zAdYkY&list=PL8f0I_2tet-dz08Guo86B2auEenEMY05D
+4. 讀取 @/_private/proofread_result.md 並進行解析，
+ @/_private/proofread_result.md 會針對 需要 講解 的單字、片語、特殊用法 進行提示，提示規則如下，
+| A 超綱單字 | `**粗體**` | `**ubiquitous**` |
+| B 超綱片語 | `__底線__` | `__take on__` |
+| C 特殊用法 | `《書名號》` | `《run》 a business` |
 
-B2 Upper Intermediate English
-https://www.youtube.com/watch?v=ZKGouf91dDw&list=PL8f0I_2tet-d6uD3nVSpUoorMP0OUlGPE
+把 相對應的內容依序塞入 全文、單字、片語、句型，
+在全文處 要有 smooth到指定 單字、片語、句型 的功能 (詳細功能可參照 路由 ch1)
+
+5. 讀取 @/_private/proofread_result.md 並進行解析，
+文法的部分，要塞入 路由-grammar，但已經有介紹過的文法，不用再另行介紹，採用補充的方式，比如說 多給範例、例句，
+或是 比方說 關係子句 只有介紹 that，但 有介紹 which，那就把 which 添加進 關係子句 來進行介紹。
+
+回到步驟1. 
+針對a1播放清單的 各路由進行調整，第二次 針對  ch2-beginner-english-slow-listening-practice-talking-about-me 進行校稿
+2.針對 ch1-slow-english-for-beginners-a1-listening-practice 裡面提及的 youtube影片 https://www.youtube.com/watch?v=GcsCi5H4L_Y，提取字幕。
+並將該字幕文本，"覆寫"到 `@/_private/tmp.txt`
+重複步驟.....直到a1播放清單路由 都完成校稿，然後前往下一個步驟
 
 
-2. 每一個播放清單，會有許多經過排序的網址，之後要對各網址進行提取字幕，字幕使用公開英語字幕即可。
-若該網址的影片，屬於會員頻道限定，而非公開，則不提取字幕。
-但必須要特別告知我，屬於哪一個播放清單 ? 該影片網址?
-
-3. 步驟2會針對許多影片進行提取字幕。
-把這些字幕依序做校稿，校稿方式依照 ch1的方式校稿即可。
-由於我是初學者，不會的單字、片語、文法 有些多，需要多些補充。
-
-把上述內容依序新增至新的路由，順序為英語難度由簡至易，每個播放清單的順序則使用 步驟1的順序
+二.
+從 a2開始，執行方式與 一 步驟相同 ，然後以此類推.....直到a2路由播放清單全部校稿完成，然後再執行 B1，B1 完成，再執行B2
 
 
+
+
+
+任務會非常多，每一個 播放清單，可以當作一個大task，一個播放清單內容可以當一個中task，然後每一個中task又可以切分成多個task來執行
+
+這樣task會超級多，但方便控管
 
 

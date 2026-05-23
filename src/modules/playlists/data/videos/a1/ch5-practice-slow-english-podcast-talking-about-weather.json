@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=i6W7d30fcf0",
   "header": {
     "podcastLabel": "MissHoney A1",
-    "titleZh": "練習慢速英語播客 - 談論 👉 天氣",
+    "titleZh": "練習慢速英語podcast - 談論 👉 天氣",
     "titleEn": "Practice SLOW English Podcast - Talking about 👉 Weather",
     "levelTag": "A1",
     "topicTag": "language"
@@ -19,8 +19,8 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast a podcast to practice English listening for beginners.",
-          "tc": "歡迎回到我的慢速英語播客，這是一​​個為初學者練習英語聽力的播客。"
+          "en": "Welcome back to my slow English podcast, a podcast to practice English listening for beginners.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一個為初學者練習英語聽力的podcast。"
         },
         {
           "en": "Today I will talk about the weather.",
@@ -40,7 +40,7 @@
           "english": "weather",
           "kk": "/weather/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天氣",
           "note": "看到 weather 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -48,7 +48,7 @@
           "english": "prefer",
           "kk": "/prefer/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "更喜歡",
           "note": "看到 prefer 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -82,7 +82,7 @@
           "english": "days",
           "kk": "/days/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 days 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -90,7 +90,7 @@
           "english": "sunny",
           "kk": "/sunny/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "陽光明媚",
           "note": "看到 sunny 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -98,7 +98,7 @@
           "english": "love",
           "kk": "/love/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "愛",
           "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -111,20 +111,20 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "I like rainy days on on rainy days the sky is gray when it rains.",
-          "tc": "我喜歡下雨天，下雨天天空是灰色的。"
+          "en": "I like rainy days on rainy days the sky is gray when it rains.",
+          "tc": "我喜歡下雨天，下雨的時候天空是灰色的。"
         },
         {
-          "en": "I usually stay inside I don't like to go outside when it's rainy.",
-          "tc": "我通常待在室內，下雨天不喜歡出去。"
+          "en": "I usually stay inside.",
+          "tc": "我通常待在裡面。"
         },
         {
-          "en": "What do you you prefer to stay inside or go outside when it's rainy I stay inside?",
+          "en": "I don't like to go outside when it's rainy.",
+          "tc": "下雨天我不喜歡出門。"
+        },
+        {
+          "en": "What do you prefer to stay inside or go outside when it's rainy I stay inside?",
           "tc": "下雨天我待在室內，你喜歡待在室內還是到外面去？"
-        },
-        {
-          "en": "I like to watch movies or TV series movies like Love Rosie Inside Out Spirited Away series like.",
-          "tc": "我喜歡看電影或電視劇電影，像是《愛羅西》《腦筋急轉彎》《千與千尋》系列之類的。"
         }
       ],
       "tags": [
@@ -132,7 +132,7 @@
           "english": "days",
           "kk": "/days/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 days 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -140,7 +140,7 @@
           "english": "rainy",
           "kk": "/rainy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "下雨的",
           "note": "看到 rainy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -148,7 +148,7 @@
           "english": "inside",
           "kk": "/inside/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "裡面",
           "note": "看到 inside 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
@@ -161,8 +161,12 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "Gossip Girl Like You on rainy days I also love to read books or Draw.",
-          "tc": "緋聞女孩喜歡你 下雨天我也喜歡看書或畫畫。"
+          "en": "I like to watch movies or TV series movies like Love Rosie Inside Out Spirited Away series like Gossip Girl Like.",
+          "tc": "我喜歡看電影或電視劇，像是《愛情羅西》《腦筋急轉彎》《千與千尋》系列，《花邊教主》等。"
+        },
+        {
+          "en": "You on rainy days I also love to read books or Draw.",
+          "tc": "你下雨天我也愛看書或畫畫。"
         },
         {
           "en": "I read books or Draw inside when it's rainy not outside.",
@@ -171,10 +175,6 @@
         {
           "en": "Do you like rainy days?",
           "tc": "你喜歡下雨天嗎？"
-        },
-        {
-          "en": "What do you usually do on rainy days?",
-          "tc": "下雨天通常會做什麼？"
         }
       ],
       "tags": [
@@ -182,7 +182,7 @@
           "english": "days",
           "kk": "/days/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 days 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -190,7 +190,7 @@
           "english": "rainy",
           "kk": "/rainy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "下雨的",
           "note": "看到 rainy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -198,7 +198,7 @@
           "english": "inside",
           "kk": "/inside/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "裡面",
           "note": "看到 inside 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
@@ -211,12 +211,12 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "I don't like windy days on Windy days the wind is so strong the wind blows everywhere.",
-          "tc": "我不喜歡刮風的日子。 刮風的日子裡，風很大，風吹得到處都是。"
+          "en": "What do you usually do on rainy days?",
+          "tc": "下雨天通常會做什麼？"
         },
         {
-          "en": "I prefer to stay inside on Windy days.",
-          "tc": "我比較喜歡在刮風的日子待在室內。"
+          "en": "I don't like windy days on Windy days the wind is so strong the wind blows everywhere I prefer to stay inside on Windy days.",
+          "tc": "我不喜歡大風天刮風，風很大，風吹得到處都是，我更喜歡在大風天待在室內。"
         },
         {
           "en": "Can you do on Windy days?",
@@ -232,25 +232,25 @@
           "english": "days",
           "kk": "/days/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 days 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "rainy",
+          "kk": "/rainy/",
+          "partOfSpeech": "n.",
+          "meaning": "下雨的",
+          "note": "看到 rainy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "inside",
           "kk": "/inside/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "裡面",
           "note": "看到 inside 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     },
@@ -282,7 +282,7 @@
           "english": "days",
           "kk": "/days/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 days 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -290,7 +290,7 @@
           "english": "sunny",
           "kk": "/sunny/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "陽光明媚",
           "note": "看到 sunny 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -305,7 +305,7 @@
           "english": "days",
           "kk": "/days/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天",
           "note": "看到 days 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -313,7 +313,7 @@
           "english": "rainy",
           "kk": "/rainy/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "下雨的",
           "note": "看到 rainy 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -321,7 +321,7 @@
           "english": "inside",
           "kk": "/inside/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "裡面",
           "note": "看到 inside 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -329,7 +329,7 @@
           "english": "sunny",
           "kk": "/sunny/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "陽光明媚",
           "note": "看到 sunny 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -337,7 +337,7 @@
           "english": "weather",
           "kk": "/weather/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "天氣",
           "note": "看到 weather 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -345,7 +345,7 @@
           "english": "love",
           "kk": "/love/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "愛",
           "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -353,7 +353,7 @@
           "english": "outside",
           "kk": "/outside/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "外部",
           "note": "看到 outside 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -361,7 +361,7 @@
           "english": "prefer",
           "kk": "/prefer/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "更喜歡",
           "note": "看到 prefer 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -371,6 +371,17 @@
   "phrases": [
     {
       "id": "phrase-01",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my slow English podcast, a podcast to practice English listening for beginners.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一個為初學者練習英語聽力的podcast。"
+        }
+      ]
+    },
+    {
+      "id": "phrase-02",
       "phrase": "what do you",
       "meaning": "你會怎麼...",
       "examples": [
@@ -381,7 +392,7 @@
       ]
     },
     {
-      "id": "phrase-02",
+      "id": "phrase-03",
       "phrase": "do you like",
       "meaning": "你喜歡...嗎",
       "examples": [
@@ -390,24 +401,13 @@
           "tc": "你喜歡陽光明媚的日子嗎？"
         }
       ]
-    },
-    {
-      "id": "phrase-03",
-      "phrase": "talk about",
-      "meaning": "談論",
-      "examples": [
-        {
-          "en": "Today I will talk about the weather.",
-          "tc": "今天我要談談天氣。"
-        }
-      ]
     }
   ],
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast a podcast to practice English listening for beginners.",
-      "translation": "歡迎回到我的慢速英語播客，這是一​​個為初學者練習英語聽力的播客。",
+      "sentence": "Welcome back to my slow English podcast, a podcast to practice English listening for beginners.",
+      "translation": "歡迎回到我的慢速英語podcast，這是一個為初學者練習英語聽力的podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -422,9 +422,9 @@
       "translation": "今天我要談談天氣。",
       "points": [
         {
-          "label": "talk about",
-          "text": "talk about",
-          "note": "注意 \"talk about\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "talk weather",
+          "text": "talk weather",
+          "note": "注意 \"talk weather\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },

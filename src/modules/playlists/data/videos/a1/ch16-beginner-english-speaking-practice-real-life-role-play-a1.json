@@ -19,20 +19,20 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Let's shadow some simple English sentences. To shadow is to repeat. I'm blue and you're red.",
-          "tc": "讓我們來看看一些簡單的英語句子。影子就是重複。我是藍色，你是紅色。"
+          "en": "Let's shadow some simple English sentences. To shadow is to repeat.",
+          "tc": "讓我們來看看一些簡單的英語句子。影子就是重複。"
         },
         {
-          "en": "Are you? I'm a little tired. I didn't sleep much last night. The upstairs neighbor had loud music?",
-          "tc": "你是？我有點累了。我昨晚沒睡多少覺。樓上鄰居的音樂太吵了？"
+          "en": "I'm blue and you're red.",
+          "tc": "我是藍色，你是紅色。"
         },
         {
-          "en": "Playing all night long. Yes,.",
-          "tc": "玩了一整夜。是的，。"
+          "en": "I'm a little tired. I didn't sleep much last night. The upstairs neighbor had loud music playing all night long. Yes,.",
+          "tc": "我有點累了。我昨晚沒睡多少覺。樓上的鄰居整晚都在大聲播放音樂。是的，。"
         },
         {
-          "en": "He had company. I know. Who has a party on a Tuesday night? Seriously, the music was.",
-          "tc": "他有同伴。我知道。誰在星期二晚上舉辦聚會？說真的，音樂是。"
+          "en": "He had company. I know. Who has a party on a Tuesday night? Seriously, the music was so loud.",
+          "tc": "他有同伴。我知道。誰在星期二晚上舉辦聚會？說實話，音樂實在太吵了。"
         }
       ],
       "tags": [
@@ -40,7 +40,7 @@
           "english": "loud",
           "kk": "/loud/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "大聲",
           "note": "看到 loud 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -48,16 +48,8 @@
           "english": "night",
           "kk": "/night/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "夜晚",
           "note": "看到 night 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -69,37 +61,29 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "Loud. It was so disrespectful. No, I was too tired to do anything about it.",
-          "tc": "大聲。這太不尊重了。不，我太累了，無能為力。"
+          "en": "It was so disrespectful. No, I was too tired to do anything about it.",
+          "tc": "這太不尊重了。不，我太累了，無能為力。"
         },
         {
-          "en": "I put a pillow over my head.",
-          "tc": "我在頭上放了一個枕頭。"
+          "en": "I put a pillow over my head and I tried to fall asleep.",
+          "tc": "我把枕頭放在頭上，試著入睡。"
         },
         {
-          "en": "I tried to fall asleep. I know. I really need my sleep.",
-          "tc": "我試著入睡。我知道。我真的需要睡覺。"
+          "en": "I know. I really need my sleep.",
+          "tc": "我知道。我真的需要睡覺。"
         },
         {
-          "en": "I get crabby when I don't. Yeah, I think.",
-          "tc": "當我不這樣做時，我會變得脾氣暴躁。是的，我想。"
+          "en": "I don't. Yeah,.",
+          "tc": "我不知道。是的，。"
         }
       ],
       "tags": [
         {
-          "english": "loud",
-          "kk": "/loud/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 loud 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "all",
-          "kk": "/all/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "real",
+          "kk": "/real/",
+          "partOfSpeech": "adj.",
+          "meaning": "真實的",
+          "note": "看到 real 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -107,24 +91,24 @@
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：心態與目標",
-      "titleEn": "Part 3: mindset",
+      "titleZh": "第 3 段：日常生活",
+      "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "I will. I have to hopefully tonight will be quiet. Anyways,.",
-          "tc": "我會。我希望今晚會很安靜。無論如何，。"
+          "en": "I think I will.",
+          "tc": "我想我會的。"
         },
         {
-          "en": "How was your weekend? No way. You have loud neighbors, too. >> Nice?",
-          "tc": "你周末過得怎麼樣？決不。你也有吵鬧的鄰居。 >> 不錯嗎？"
+          "en": "I have to hopefully tonight will be quiet. Anyways, how was your weekend? No way.",
+          "tc": "我希望今晚會很安靜。無論如何，你周末過得怎麼樣？決不。"
         },
         {
-          "en": "Where did you go? You always ask me?",
-          "tc": "你去哪裡？你總是問我？"
+          "en": "You have loud neighbors, too. >> Nice. Where did you go? You always ask me.",
+          "tc": "你也有吵鬧的鄰居。 >> 不錯。你去哪裡？你總是問我。"
         },
         {
-          "en": "What the most important part of learning English is. For me, language is meant for communication. So practicing?",
-          "tc": "學習英語最重要的部分是什麼。對我來說，語言是為了溝通。這麼練？"
+          "en": "What the most important part of learning English is. For me, language is meant for communication. So practicing real life situations is much more important than just learning from textbooks. Let me?",
+          "tc": "學習英語最重要的部分是什麼。對我來說，語言是為了溝通。因此，練習現實生活中的情況比僅僅從課本上學習重要得多。讓我來？"
         }
       ],
       "tags": [
@@ -132,7 +116,7 @@
           "english": "important",
           "kk": "/important/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "重要的",
           "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -140,7 +124,7 @@
           "english": "loud",
           "kk": "/loud/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "大聲",
           "note": "看到 loud 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -148,7 +132,7 @@
           "english": "night",
           "kk": "/night/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "夜晚",
           "note": "看到 night 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -157,24 +141,24 @@
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段：旅行",
+      "titleEn": "Part 4: travel",
       "sentences": [
         {
-          "en": "Real life situations is much more important than just learning from textbooks. Let me tell.",
-          "tc": "現實生活中的情況比僅僅從課本上學習重要得多。讓我告訴你。"
+          "en": "Tell you the story about what happened to me at the airport in Brazil.",
+          "tc": "告訴你我在巴西機場發生的故事。"
         },
         {
-          "en": "You the story about what happened to me at the airport in Brazil.",
-          "tc": "你講的是我在巴西機場發生的事。"
+          "en": "I had studied some Portuguese before and I felt confident that I could speak in Brazil.",
+          "tc": "我以前學過一些葡萄牙語，我對自己能在巴西講話充滿信心。"
         },
         {
-          "en": "I had studied some Portuguese before and I felt confident that.",
-          "tc": "我以前學過一些葡萄牙語，對此我很有信心。"
+          "en": "I felt confident with the vocabulary that I knew. So, when I arrived at the airport.",
+          "tc": "我對自己所掌握的詞彙充滿信心。所以，當我到達機場時。"
         },
         {
-          "en": "I could speak in Brazil and I felt confident with the vocabulary that.",
-          "tc": "我可以用巴西語說話，而且我對這些詞彙充滿信心。"
+          "en": "I realized my phone didn't have any battery, I couldn't order an Uber to my hostel,.",
+          "tc": "我意識到我的手機沒有電池了，我無法叫 Uber 去我的旅館。"
         }
       ],
       "tags": [
@@ -182,17 +166,17 @@
           "english": "felt",
           "kk": "/felt/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "毛氈",
           "note": "看到 felt 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "important",
-          "kk": "/important/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "english": "real",
+          "kk": "/real/",
+          "partOfSpeech": "adj.",
+          "meaning": "真實的",
+          "note": "看到 real 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "airport",
@@ -207,51 +191,17 @@
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：旅行",
-      "titleEn": "Part 5: travel",
+      "titleZh": "第 5 段：日常生活",
+      "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "I knew. So, when I arrived at the airport.",
-          "tc": "我知道。所以，當我到達機場時。"
-        },
-        {
-          "en": "I realized my phone didn't have any battery,.",
-          "tc": "我發現我的手機沒有電池了。"
-        },
-        {
-          "en": "I couldn't order an Uber to my hostel, but it was okay.",
-          "tc": "我無法叫優步去我的旅館，但沒關係。"
+          "en": "It was okay.",
+          "tc": "沒關係。"
         },
         {
           "en": "I would just order a taxi. So, I went up to a taxi driver.",
           "tc": "我只想叫一輛計程車。於是，我去找計程車司機。"
-        }
-      ],
-      "tags": [
-        {
-          "english": "taxi",
-          "kk": "/taxi/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 taxi 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
-        {
-          "english": "airport",
-          "kk": "/ˈɛrˌpɔrt/",
-          "partOfSpeech": "n.",
-          "meaning": "機場",
-          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
-    },
-    {
-      "id": "scene-06",
-      "no": "06",
-      "titleZh": "第 6 段：語言學習",
-      "titleEn": "Part 6: language",
-      "sentences": [
         {
           "en": "I froze. I knew each word individually, but forming a full sentence,.",
           "tc": "我愣住了。我單獨認識每個單詞，但形成一個完整的句子。"
@@ -259,14 +209,6 @@
         {
           "en": "I felt like a failure. All those hours of studying to waste.",
           "tc": "我覺得自己很失敗。所有那些學習時間都浪費了。"
-        },
-        {
-          "en": "I couldn't even ask for a taxi. I realized.",
-          "tc": "我甚至不能叫出租車。我意識到了。"
-        },
-        {
-          "en": "Then just how important it is to learn a language for real conversations, not just textbook learning.",
-          "tc": "那麼學習一門用於真正對話的語言而不僅僅是教科書學習是多麼重要。"
         }
       ],
       "tags": [
@@ -274,23 +216,65 @@
           "english": "felt",
           "kk": "/felt/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "毛氈",
           "note": "看到 felt 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "important",
-          "kk": "/important/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "taxi",
           "kk": "/taxi/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "計程車",
+          "note": "看到 taxi 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
+      "sentences": [
+        {
+          "en": "I couldn't even ask for a taxi. I realized.",
+          "tc": "我甚至不能叫出租車。我意識到了。"
+        },
+        {
+          "en": "Then just how important.",
+          "tc": "那就多麼重要。"
+        },
+        {
+          "en": "It is to learn a language for real conversations, not just textbook learning.",
+          "tc": "學習語言是為了真正的對話，而不僅僅是教科書上的學習。"
+        },
+        {
+          "en": "If you're learning English and often feel stuck in real life conversations, I completely understand.",
+          "tc": "如果你正在學習英語並且經常感到陷入現實生活對話中，我完全理解。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "important",
+          "kk": "/important/",
+          "partOfSpeech": "n.",
+          "meaning": "重要的",
+          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "real",
+          "kk": "/real/",
+          "partOfSpeech": "adj.",
+          "meaning": "真實的",
+          "note": "看到 real 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "taxi",
+          "kk": "/taxi/",
+          "partOfSpeech": "n.",
+          "meaning": "計程車",
           "note": "看到 taxi 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -305,7 +289,7 @@
           "english": "felt",
           "kk": "/felt/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "毛氈",
           "note": "看到 felt 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -313,7 +297,7 @@
           "english": "important",
           "kk": "/important/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "重要的",
           "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -321,7 +305,7 @@
           "english": "loud",
           "kk": "/loud/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "大聲",
           "note": "看到 loud 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -329,15 +313,23 @@
           "english": "night",
           "kk": "/night/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "夜晚",
           "note": "看到 night 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "real",
+          "kk": "/real/",
+          "partOfSpeech": "adj.",
+          "meaning": "真實的",
+          "note": "看到 real 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "taxi",
           "kk": "/taxi/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "計程車",
           "note": "看到 taxi 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -350,19 +342,11 @@
           "highlight": false
         },
         {
-          "english": "all",
-          "kk": "/all/",
+          "english": "brazil",
+          "kk": "/brazil/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 all 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "ask",
-          "kk": "/ask/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 ask 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "巴西",
+          "note": "看到 brazil 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -372,7 +356,7 @@
     {
       "id": "phrase-01",
       "phrase": "have to",
-      "meaning": "常用說法，可用來表達「have to」這個意思",
+      "meaning": "必須",
       "examples": [
         {
           "en": "I have to hopefully tonight will be quiet.",
@@ -383,11 +367,11 @@
     {
       "id": "phrase-02",
       "phrase": "i think",
-      "meaning": "常用說法，可用來表達「i think」這個意思",
+      "meaning": "我認為",
       "examples": [
         {
-          "en": "Yeah, I think.",
-          "tc": "是的，我想。"
+          "en": "I think I will.",
+          "tc": "我想我會的。"
         }
       ]
     }
@@ -395,44 +379,44 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Let's shadow some simple English sentences. To shadow is to repeat. I'm blue and you're red.",
-      "translation": "讓我們來看看一些簡單的英語句子。影子就是重複。我是藍色，你是紅色。",
+      "sentence": "Let's shadow some simple English sentences. To shadow is to repeat.",
+      "translation": "讓我們來看看一些簡單的英語句子。影子就是重複。",
       "points": [
         {
-          "label": "let's shadow some",
-          "text": "let's shadow some",
-          "note": "注意 \"let's shadow some\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "let's shadow simple",
+          "text": "let's shadow simple",
+          "note": "注意 \"let's shadow simple\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-02",
-      "sentence": "Are you? I'm a little tired. I didn't sleep much last night. The upstairs neighbor had loud music?",
-      "translation": "你是？我有點累了。我昨晚沒睡多少覺。樓上鄰居的音樂太吵了？",
+      "sentence": "I'm blue and you're red.",
+      "translation": "我是藍色，你是紅色。",
       "points": [
         {
-          "label": "i'm little tired",
-          "text": "i'm little tired",
-          "note": "注意 \"i'm little tired\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "blue you're red",
+          "text": "blue you're red",
+          "note": "注意 \"blue you're red\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
-      "sentence": "Playing all night long. Yes,.",
-      "translation": "玩了一整夜。是的，。",
+      "sentence": "I'm a little tired. I didn't sleep much last night. The upstairs neighbor had loud music playing all night long. Yes,.",
+      "translation": "我有點累了。我昨晚沒睡多少覺。樓上的鄰居整晚都在大聲播放音樂。是的，。",
       "points": [
         {
-          "label": "playing all night",
-          "text": "playing all night",
-          "note": "注意 \"playing all night\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "little tired didn't",
+          "text": "little tired didn't",
+          "note": "注意 \"little tired didn't\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-04",
-      "sentence": "He had company. I know. Who has a party on a Tuesday night? Seriously, the music was.",
-      "translation": "他有同伴。我知道。誰在星期二晚上舉辦聚會？說真的，音樂是。",
+      "sentence": "He had company. I know. Who has a party on a Tuesday night? Seriously, the music was so loud.",
+      "translation": "他有同伴。我知道。誰在星期二晚上舉辦聚會？說實話，音樂實在太吵了。",
       "points": [
         {
           "label": "company know party",

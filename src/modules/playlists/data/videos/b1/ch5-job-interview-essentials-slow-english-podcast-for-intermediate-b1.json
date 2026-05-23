@@ -6,7 +6,7 @@
   "youtubeUrl": "https://www.youtube.com/watch?v=oCXBdT7Lo9M",
   "header": {
     "podcastLabel": "MissHoney B1",
-    "titleZh": "求職面試必備！ 👨‍💻 -- 中級 B1 的慢速英語播客！",
+    "titleZh": "求職面試必備！ 👨💻 -- 中級 B1 的慢速英語podcast！",
     "titleEn": "Job Interview ESSENTIALS!👨‍💻 -- SLOW English Podcast for Intermediate B1!",
     "levelTag": "B1",
     "topicTag": "work"
@@ -19,8 +19,8 @@
       "titleEn": "Opening: language",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast a podcast for English intermediate listeners.",
-          "tc": "歡迎回到我的慢速英語播客，這是一​​個針對英語中級聽眾的播客。"
+          "en": "Welcome back to my slow English podcast, a podcast for English intermediate listeners.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一個針對英語中級聽眾的podcast。"
         },
         {
           "en": "Today I want to practice some common job interview vocabulary some different phrases.",
@@ -28,7 +28,7 @@
         },
         {
           "en": "You might need at a job interview a story about my experience with job interviews.",
-          "tc": "在求職面試時，您可能需要講述我的求職面試經驗。"
+          "tc": "在求職面試時，你可能需要講述我的求職面試經驗。"
         },
         {
           "en": "I always keep my resume up to dat any new qualifications or experience or employment positions.",
@@ -40,7 +40,7 @@
           "english": "job",
           "kk": "/job/",
           "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
+          "meaning": "工作",
           "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -48,16 +48,16 @@
           "english": "resume",
           "kk": "/resume/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "恢復",
           "note": "看到 resume 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
-          "english": "some",
-          "kk": "/some/",
+          "english": "different",
+          "kk": "/different/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "不同的",
+          "note": "看到 different 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -74,40 +74,40 @@
         },
         {
           "en": "Do you update your resume how important is it for you to keep your resume up to date?",
-          "tc": "您更新履歷嗎？保持履歷最新對您來說有多重要？"
+          "tc": "你更新履歷嗎？保持履歷最新對你來說有多重要？"
         },
         {
           "en": "I have worked in a few different areas education translation and transcription but mostly.",
           "tc": "我曾在幾個不同的領域工作過，但主要是教育翻譯和轉錄。"
         },
         {
-          "en": "I have only ever been an English teacher I have only ever had part time jobs.",
-          "tc": "我只當過英文老師，我只做過兼職工作。"
+          "en": "I have only ever been an English teacher.",
+          "tc": "我只當過英語老師。"
         }
       ],
       "tags": [
         {
-          "english": "job",
-          "kk": "/job/",
-          "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
-          "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "resume",
           "kk": "/resume/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "恢復",
           "note": "看到 resume 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
-          "english": "ever",
-          "kk": "/ever/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 ever 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "different",
+          "kk": "/different/",
+          "partOfSpeech": "n.",
+          "meaning": "不同的",
+          "note": "看到 different 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -119,6 +119,10 @@
       "titleEn": "Part 3: work",
       "sentences": [
         {
+          "en": "I have only ever had part time jobs.",
+          "tc": "我只做過兼職工作。"
+        },
+        {
           "en": "I have never had a fulltime job.",
           "tc": "我從未有過全職工作。"
         },
@@ -129,10 +133,6 @@
         {
           "en": "I need to manage and change my schedule a lot the different time zones in the world can be difficult to manage with a fulltime job.",
           "tc": "我需要管理和改變我的日程安排，世界上不同時區的全職工作可能很難管理。"
-        },
-        {
-          "en": "I think one of my biggest skills are my social skills it's one of my greatest strengths to be able to communicate very well with others.",
-          "tc": "我認為我最大的技能之一是我的社交技能，能夠與他人很好地溝通是我最大的優勢之一。"
         }
       ],
       "tags": [
@@ -140,24 +140,16 @@
           "english": "job",
           "kk": "/job/",
           "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
+          "meaning": "工作",
           "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "one",
-          "kk": "/one/",
+          "english": "different",
+          "kk": "/different/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "ever",
-          "kk": "/ever/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 ever 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "不同的",
+          "note": "看到 different 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -169,45 +161,29 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
+          "en": "I think one of my biggest skills are my social skills it's one of my greatest strengths to be able to communicate very well with others.",
+          "tc": "我認為我最大的技能之一是我的社交技能，能夠與他人很好地溝通是我最大的優勢之一。"
+        },
+        {
           "en": "What are some of your greatest strengths?",
           "tc": "你最大的優勢是什麼？"
         },
         {
-          "en": "What are some of your skills some weaknesses of mine however is the idea that I can do everything in one moment I can't manage my time and I?",
-          "tc": "你有哪些技能，我有哪些弱點，但是我認為我可以在一瞬間完成所有事情，我無法管理我的時間？"
+          "en": "Sometimes don't sleep or rest and I end up feeling overworked and tired now I try to limit myself so that.",
+          "tc": "有時不睡覺或不休息，我最終會感到過度勞累和疲倦，現在我試著限制自己。"
         },
         {
-          "en": "Sometimes don't sleep or rest and I end up feeling overworked and tired now I try to limit myself so that I don't end end up feeling overworked and tired.",
-          "tc": "有時不睡覺或休息，我最終會感到過度勞累和疲倦，現在我嘗試限制自己，這樣我最終不會感到過度勞累和疲倦。"
-        },
-        {
-          "en": "What do you consider to be your weaknesses have you ever ended up feeling overworked and exhausted it feels nice to be hired for someone to say you're hired is nice?",
-          "tc": "您認為自己的弱點是什麼？您是否曾經感到過度勞累和精疲力竭，被雇用時感覺很好，而有人說您被雇用了很好？"
+          "en": "I don't end up feeling overworked and tired.",
+          "tc": "我最終不會感到過度勞累和疲倦。"
         }
       ],
       "tags": [
         {
-          "english": "one",
-          "kk": "/one/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "some",
-          "kk": "/some/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "ever",
-          "kk": "/ever/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 ever 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "feeling",
+          "kk": "/feeling/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feeling 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -219,45 +195,45 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "Just as it feels nice to be hired it feels really bad to be fired.",
-          "tc": "正如被雇用的感覺很好一樣，被解僱的感覺也很糟糕。"
+          "en": "What do you consider to be your weaknesses?",
+          "tc": "你認為自己的弱點是什麼？"
         },
         {
-          "en": "I got fired one year ago and it was awful I felt so lost.",
-          "tc": "一年前我被解雇了，這太糟糕了，我感到很失落。"
+          "en": "Have you ever ended up feeling overworked and exhausted it feels nice to be hired for someone to say you're hired is nice but just as it feels nice to be hired?",
+          "tc": "你是否曾經感到過度勞累和精疲力盡，被雇用感覺很好，因為有人說你被雇用很好，但就像被雇用感覺很好一樣？"
         },
         {
-          "en": "I felt like a failure but it's important to remember that whether you're hired or fired.",
-          "tc": "我感覺自己很失敗，但重要的是要記住，無論你是被雇用還是被解僱。"
+          "en": "It feels really bad to be fired.",
+          "tc": "被解僱的感覺真的很糟。"
         },
         {
-          "en": "You are not a failure success is a feeling you can give yourself.",
-          "tc": "你不是失敗者，成功是你能給自己的感覺。"
+          "en": "I got fired one year ago.",
+          "tc": "一年前我被解雇了。"
         }
       ],
       "tags": [
         {
-          "english": "not",
-          "kk": "/not/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "one",
-          "kk": "/one/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "feeling",
           "kk": "/feeling/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "感覺",
           "note": "看到 feeling 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "fired",
+          "kk": "/fired/",
+          "partOfSpeech": "v.",
+          "meaning": "被解僱",
+          "note": "看到 fired 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -269,20 +245,66 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "You define your own success not a company not a paycheck not money not anybody but yourself have.",
+          "en": "It was awful I felt so lost and I felt like a failure but it's important to remember that whether you're hired or fired.",
+          "tc": "太糟糕了，我感到很失落，感覺自己很失敗，但重要的是要記住，無論你是被雇用還是被解僱。"
+        },
+        {
+          "en": "You are not a failure success is a feeling you can give yourself.",
+          "tc": "你不是失敗者，成功是你能給自己的感覺。"
+        },
+        {
+          "en": "You define your own success not a company not a paycheck not money not anybody but yourself.",
           "tc": "你定義自己的成功，不是公司，不是薪水，不是金錢，不是任何人，而是你自己。"
         },
         {
-          "en": "You ever been fired before how did it feel and what did.",
-          "tc": "您以前曾經被解僱過，感覺如何，做了什麼。"
+          "en": "Have you ever been fired before how did it feel?",
+          "tc": "你以前被解僱過嗎？感覺如何？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "en": "You do to feel better tell me about your dream job.",
-          "tc": "告訴我你夢想的工作會讓你感覺更好。"
+          "english": "feeling",
+          "kk": "/feeling/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feeling 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "fired",
+          "kk": "/fired/",
+          "partOfSpeech": "v.",
+          "meaning": "被解僱",
+          "note": "看到 fired 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "What did you do to feel better?",
+          "tc": "你做了什麼讓感覺好一點？"
+        },
+        {
+          "en": "Tell me about your dream job.",
+          "tc": "告訴我你夢想的工作。"
         },
         {
           "en": "If you liked this video like and comment down below so I can make more practice videos like this in the future.",
-          "tc": "如果您喜歡這個視頻，請在下面評論，以便我將來可以製作更多這樣的練習視頻。"
+          "tc": "如果你喜歡這個視頻，請在下面評論，以便我將來可以製作更多這樣的練習視頻。"
         }
       ],
       "tags": [
@@ -290,24 +312,8 @@
           "english": "job",
           "kk": "/job/",
           "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
+          "meaning": "工作",
           "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "not",
-          "kk": "/not/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "one",
-          "kk": "/one/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         }
       ]
@@ -321,55 +327,31 @@
           "english": "job",
           "kk": "/job/",
           "partOfSpeech": "n.",
-          "meaning": "工作與學習相關的常用字",
+          "meaning": "工作",
           "note": "看到 job 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "not",
-          "kk": "/not/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "one",
-          "kk": "/one/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "resume",
           "kk": "/resume/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "恢復",
           "note": "看到 resume 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
-          "english": "some",
-          "kk": "/some/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 some 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "ever",
-          "kk": "/ever/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 ever 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
           "english": "feeling",
           "kk": "/feeling/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "感覺",
           "note": "看到 feeling 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -377,8 +359,32 @@
           "english": "fired",
           "kk": "/fired/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "被解僱",
           "note": "看到 fired 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "hired",
+          "kk": "/hired/",
+          "partOfSpeech": "v.",
+          "meaning": "僱用",
+          "note": "看到 hired 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "different",
+          "kk": "/different/",
+          "partOfSpeech": "n.",
+          "meaning": "不同的",
+          "note": "看到 different 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "feels",
+          "kk": "/feels/",
+          "partOfSpeech": "n.",
+          "meaning": "感覺",
+          "note": "看到 feels 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -387,34 +393,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "what do you",
-      "meaning": "你會怎麼...",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "What do you consider to be your weaknesses have you ever ended up feeling overworked and exhausted it feels nice to be hired for someone to say you're hired is nice?",
-          "tc": "您認為自己的弱點是什麼？您是否曾經感到過度勞累和精疲力竭，被雇用時感覺很好，而有人說您被雇用了很好？"
+          "en": "Welcome back to my slow English podcast, a podcast for English intermediate listeners.",
+          "tc": "歡迎回到我的慢速英語podcast，這是一個針對英語中級聽眾的podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "phrase": "what do you",
+      "meaning": "你會怎麼...",
       "examples": [
         {
-          "en": "Today I want to practice some common job interview vocabulary some different phrases.",
-          "tc": "今天我想練習一些常見的工作面試詞彙和一些不同的短語。"
+          "en": "What do you consider to be your weaknesses?",
+          "tc": "你認為自己的弱點是什麼？"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "need to",
-      "meaning": "常用說法，可用來表達「need to」這個意思",
+      "phrase": "what did",
+      "meaning": "用來詢問過去發生了什麼",
       "examples": [
         {
-          "en": "I need to manage and change my schedule a lot the different time zones in the world can be difficult to manage with a fulltime job.",
-          "tc": "我需要管理和改變我的日程安排，世界上不同時區的全職工作可能很難管理。"
+          "en": "What did you do to feel better?",
+          "tc": "你做了什麼讓感覺好一點？"
         }
       ]
     }
@@ -422,13 +428,13 @@
   "breakdowns": [
     {
       "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast a podcast for English intermediate listeners.",
-      "translation": "歡迎回到我的慢速英語播客，這是一​​個針對英語中級聽眾的播客。",
+      "sentence": "Welcome back to my slow English podcast, a podcast for English intermediate listeners.",
+      "translation": "歡迎回到我的慢速英語podcast，這是一個針對英語中級聽眾的podcast。",
       "points": [
         {
-          "label": "welcome back listeners",
-          "text": "welcome back listeners",
-          "note": "注意 \"welcome back listeners\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "welcome back",
+          "text": "welcome back",
+          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
@@ -438,16 +444,16 @@
       "translation": "今天我想練習一些常見的工作面試詞彙和一些不同的短語。",
       "points": [
         {
-          "label": "want to",
-          "text": "want to",
-          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "want common job",
+          "text": "want common job",
+          "note": "注意 \"want common job\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
       "sentence": "You might need at a job interview a story about my experience with job interviews.",
-      "translation": "在求職面試時，您可能需要講述我的求職面試經驗。",
+      "translation": "在求職面試時，你可能需要講述我的求職面試經驗。",
       "points": [
         {
           "label": "might need job",
@@ -462,9 +468,9 @@
       "translation": "我始終保持我的履歷與任何新的資格、經驗或就業職位保持同步。",
       "points": [
         {
-          "label": "always keep resume",
-          "text": "always keep resume",
-          "note": "注意 \"always keep resume\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "keep resume dat",
+          "text": "keep resume dat",
+          "note": "注意 \"keep resume dat\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }

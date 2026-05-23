@@ -20,7 +20,7 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
           "en": "Today I want to talk about certain sounds and noises that.",
@@ -31,7 +31,7 @@
           "tc": "我們每天都會聽到。有些聲音和特定的噪音會讓我感到惱火。"
         },
         {
-          "en": "They completely irritate me and ruin my mood. like my happy mood, maybe my joyful mood, maybe my peaceful mood. if.",
+          "en": "They completely irritate me and ruin my mood. Like my happy mood, maybe my joyful mood, maybe my peaceful mood. If.",
           "tc": "他們完全激怒了我，破壞了我的心情。喜歡我快樂的心情，也許是我愉悅的心情，也許是我平靜的心情。如果。"
         }
       ],
@@ -40,25 +40,25 @@
           "english": "sounds",
           "kk": "/sounds/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "聲音",
           "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "hear",
-          "kk": "/hear/",
+          "english": "noises",
+          "kk": "/noises/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "噪音",
+          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "certain",
-          "kk": "/certain/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 certain 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
@@ -73,16 +73,16 @@
           "tc": "我對噪音感到惱火。但有些特定的聲音對我來說非常舒緩。舒緩平靜的聲音，溫柔的聲音，就像雨落在鐵皮屋頂上。"
         },
         {
-          "en": "The waves crashing onto the shore. Or the sound of being underwater. in the ocean.",
-          "tc": "海浪拍打著海岸。或是水下的聲音。在海洋中。"
+          "en": "The waves crashing onto the shore. Or the sound of being underwater. In the ocean.",
+          "tc": "海浪拍打著海岸。或是水下的聲音。在海洋裡。"
         },
         {
           "en": "Where you can hear the crackling corals and the small bubbles popping underwater?",
           "tc": "哪裡可以聽到水下珊瑚的劈啪聲和小氣泡的破裂聲？"
         },
         {
-          "en": "I love the sound of the crackling bubbles in the ocean. or the sound of the breeze on a windy day. The breeze and the chills.",
-          "tc": "我喜歡大海中氣泡破裂的聲音。或大風天的微風聲。微風和寒意。"
+          "en": "I love the sound of the crackling bubbles in the ocean. Or the sound of the breeze on a windy day. The breeze and the chills.",
+          "tc": "我喜歡大海中氣泡破裂的聲音。或是刮風的日子裡微風的聲音。微風和寒意。"
         }
       ],
       "tags": [
@@ -90,7 +90,7 @@
           "english": "sounds",
           "kk": "/sounds/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "聲音",
           "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -98,17 +98,17 @@
           "english": "hear",
           "kk": "/hear/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "聽到",
           "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
-          "english": "wind",
-          "kk": "/wind/",
+          "english": "certain",
+          "kk": "/certain/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 wind 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "肯定",
+          "note": "看到 certain 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -131,8 +131,8 @@
           "tc": "編鐘。風鈴發出輕柔而平靜的美妙音樂。"
         },
         {
-          "en": "I love taking naps outside. where I can hear the birds chirping.",
-          "tc": "我喜歡在外面小睡。在那裡我可以聽到鳥兒的鳴叫聲。"
+          "en": "I love taking naps outside. Where I can hear the birds chirping.",
+          "tc": "我喜歡在外面小睡。在那裡我聽到鳥兒的鳴叫聲。"
         }
       ],
       "tags": [
@@ -140,24 +140,8 @@
           "english": "hear",
           "kk": "/hear/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "聽到",
           "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "wind",
-          "kk": "/wind/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 wind 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "soothing",
-          "kk": "/soothing/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 soothing 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -190,7 +174,7 @@
           "english": "sounds",
           "kk": "/sounds/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "聲音",
           "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -198,17 +182,17 @@
           "english": "hear",
           "kk": "/hear/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "聽到",
           "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
-          "english": "wind",
-          "kk": "/wind/",
+          "english": "asleep",
+          "kk": "/asleep/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 wind 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "睡著了",
+          "note": "看到 asleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         }
       ]
     },
@@ -232,7 +216,7 @@
         },
         {
           "en": "Are there any sounds that remind you of a certain person or service?",
-          "tc": "有沒有任何聲音讓您想起某個人或某項服務？"
+          "tc": "有沒有任何聲音讓你想起某個人或某項服務？"
         }
       ],
       "tags": [
@@ -240,7 +224,7 @@
           "english": "sounds",
           "kk": "/sounds/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "聲音",
           "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -248,15 +232,15 @@
           "english": "hear",
           "kk": "/hear/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "聽到",
           "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
           "english": "certain",
           "kk": "/certain/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "肯定",
           "note": "看到 certain 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -290,24 +274,476 @@
           "english": "hear",
           "kk": "/hear/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "聽到",
           "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "certain",
+          "kk": "/certain/",
+          "partOfSpeech": "n.",
+          "meaning": "肯定",
+          "note": "看到 certain 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "He blows a whistle.",
+          "tc": "他吹了一聲口哨。"
+        },
+        {
+          "en": "He sells camotees.",
+          "tc": "他賣露營服。"
+        },
+        {
+          "en": "He sells sweet potatoes, a sweet Mexican treat that.",
+          "tc": "他賣地瓜，一種墨西哥甜食。"
+        },
+        {
+          "en": "We eat in Mexico.",
+          "tc": "我們在墨西哥吃飯。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "sounds",
+          "kk": "/sounds/",
+          "partOfSpeech": "n.",
+          "meaning": "聲音",
+          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "noises",
+          "kk": "/noises/",
+          "partOfSpeech": "n.",
+          "meaning": "噪音",
+          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常生活",
+      "titleEn": "Part 8: everyday life",
+      "sentences": [
+        {
+          "en": "They blow a very loud whistle.",
+          "tc": "他們吹起非常響亮的口哨。"
+        },
+        {
+          "en": "Then when the garbage collectors come around,.",
+          "tc": "然後當垃圾收集器出現時，。"
+        },
+        {
+          "en": "They ring a bell.",
+          "tc": "他們敲響了門鈴。"
+        },
+        {
+          "en": "They ring a very loud bell,.",
+          "tc": "他們敲響了非常響亮的鐘聲。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "sounds",
+          "kk": "/sounds/",
+          "partOfSpeech": "n.",
+          "meaning": "聲音",
+          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "noises",
+          "kk": "/noises/",
+          "partOfSpeech": "n.",
+          "meaning": "噪音",
+          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "They ring a bell to let us know that.",
+          "tc": "他們敲響了鈴聲讓我們知道這一點。"
+        },
+        {
+          "en": "They are coming to take our garbage. So when I hear that loud bell,.",
+          "tc": "他們要來拿我們的垃圾。所以當我聽到那響亮的鈴聲時。"
+        },
+        {
+          "en": "I get all of my things. My trash from the bathroom, my trash from the kitchen,.",
+          "tc": "我得到了我所有的东西。我的垃圾來自浴室，我的垃圾來自廚房。"
+        },
+        {
+          "en": "I put it outside for them to take. So, what sounds remind.",
+          "tc": "我把它放在外面讓他們拿走。那麼，聽起來是什麼提醒。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "sounds",
+          "kk": "/sounds/",
+          "partOfSpeech": "n.",
+          "meaning": "聲音",
+          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "hear",
+          "kk": "/hear/",
+          "partOfSpeech": "n.",
+          "meaning": "聽到",
+          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "You of a certain person, product, or service. Lots of sounds make me feel nostalgic. Maybe not necessarily sounds, but songs. Music. The songs that.",
+          "tc": "你对某个人、产品或服务的看法。很多声音让我感到怀旧。也许不一定是声音，而是歌曲。音樂。那些歌曲。"
+        },
+        {
+          "en": "I listened to when I was younger with my sister or my cousins remind me and take me back to certain moments. Usually very fun and lovely moments. What's a sound.",
+          "tc": "當我年輕的時候，我和我的妹妹或我的表兄弟姐妹一起提醒我，並帶我回到某些時刻。通常都是非常有趣和可爱的时刻。什麼聲音。"
+        },
+        {
+          "en": "A song or a noise that makes you feel nostalgic? for the past. Longing for a past moment. For me, music is a huge part of my life.",
+          "tc": "一首讓你懷舊的歌曲或聲音？對於過去。懷念過去的那一刻。對我來說，音樂是我生活中的重要部分。"
+        },
+        {
+          "en": "I listen to music every single day. All day long, I try to take the time to listen, enjoy, and sing.",
+          "tc": "我每天都聽音樂。一整天，我都試著花時間去聆聽、享受和唱歌。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "sounds",
+          "kk": "/sounds/",
+          "partOfSpeech": "n.",
+          "meaning": "聲音",
+          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "certain",
           "kk": "/certain/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "肯定",
           "note": "看到 certain 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "My favorite artists right now are singers like Galuchi Ken Ilos and Danny Ocean. What's your favorite song to listen to at the moment?",
+          "tc": "我現在最喜歡的藝術家是 Galuchi Ken Ilos 和 Danny Ocean 等歌手。你目前最喜歡聽的歌曲是？"
+        },
+        {
+          "en": "Why do you like listening to it every single day?",
+          "tc": "為什麼每天都喜歡聽？"
+        },
+        {
+          "en": "Do you think a song has the power to change different moments in your life?",
+          "tc": "你認為一首歌有能力改變你生命中的不同時刻嗎？"
+        },
+        {
+          "en": "I'm feeling sad or down, I put on sad songs.",
+          "tc": "當我感到悲傷或沮喪時，我會播放悲傷的歌曲。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "day",
+          "kk": "/day/",
+          "partOfSpeech": "n.",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "I feel even more sad and down.",
+          "tc": "我感到更悲傷和沮喪。"
+        },
+        {
+          "en": "Sometimes a happy song will unintentionally play as.",
+          "tc": "有時候，一首歡快的歌曲會不經意響起。"
+        },
+        {
+          "en": "I'm feeling sad and I will instantly feel happy after feeling very sad.",
+          "tc": "我感到悲傷，在感到非常悲傷之後我會立即感到快樂。"
+        },
+        {
+          "en": "I think that music can definitely affect my mood and my emotions.",
+          "tc": "我認為音樂絕對可以影響我的心情和情緒。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段：日常生活",
+      "titleEn": "Part 13: everyday life",
+      "sentences": [
+        {
+          "en": "I think so can sounds and noises. If.",
+          "tc": "我認為聲音和噪音也可以。如果。"
+        },
+        {
+          "en": "I'm listening to traffic or people yelling all day long, I will definitely feel more stressed and irritated all day whenever I listen to white noise or ASMR.",
+          "tc": "我整天聽著交通聲或人們的叫喊聲，每當我聽白噪音或 ASMR 時，我肯定會整天感到更有壓力和煩躁。"
+        },
+        {
+          "en": "I feel a lot more relaxed. It's easier to fall asleep when listening to white noises. White noises like fans or like TV static or like the hum of the air conditioning.",
+          "tc": "我感覺輕鬆了很多。聽白噪音更容易入睡。白噪聲，如風扇或電視靜態或空調的嗡嗡聲。"
+        },
+        {
+          "en": "How do you feel about white noises? Do?",
+          "tc": "你對白噪音有什麼感覺？做？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "sounds",
+          "kk": "/sounds/",
+          "partOfSpeech": "n.",
+          "meaning": "聲音",
+          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "noises",
+          "kk": "/noises/",
+          "partOfSpeech": "n.",
+          "meaning": "噪音",
+          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段：日常作息",
+      "titleEn": "Part 14: daily routine",
+      "sentences": [
+        {
+          "en": "They help you to fall asleep? ASMR.",
+          "tc": "他們幫助你入睡嗎？ ASMR。"
+        },
+        {
+          "en": "I don't use to fall asleep. However,.",
+          "tc": "我不習慣睡覺。然而，。"
+        },
+        {
+          "en": "I like watching ASMR eating videos.",
+          "tc": "我喜歡看 ASMR 吃東西的影片。"
+        },
+        {
+          "en": "They always make me feel hungry afterwards. And I really enjoy hearing the chewing noises. Even if that sounds weird to some people, I really like it.",
+          "tc": "他們總是讓我事後感到飢餓。我真的很喜歡聽到咀嚼聲。儘管這對某些人來說聽起來很奇怪，但我真的很喜歡。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "sounds",
+          "kk": "/sounds/",
+          "partOfSpeech": "n.",
+          "meaning": "聲音",
+          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "noises",
+          "kk": "/noises/",
+          "partOfSpeech": "n.",
+          "meaning": "噪音",
+          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段：日常生活",
+      "titleEn": "Part 15: everyday life",
+      "sentences": [
+        {
+          "en": "Do you like listening to ASMR videos? If?",
+          "tc": "你喜歡聽 ASMR 影片嗎？如果？"
+        },
+        {
+          "en": "I enjoy listening to the chatter, the chatter between different people in the background. Noises like people talking or people walking make me feel very at ease like there are more people.",
+          "tc": "我喜歡聽聊天，背景中不同人之間的聊天。人們說話或走路的聲音讓我覺得很安心，就像人變多了一樣。"
+        },
+        {
+          "en": "Around. Background noises like people talking, children laughing or playing. But background noises can also be annoying. Background noises like traffic. Can really get on my nerves. If something gets on your.",
+          "tc": "大約。背景噪音，例如人們說話、孩子們大笑或玩耍。但背景噪音也可能令人困擾。交通噪音等背景噪音。真的會讓我心煩意亂。如果有東西沾到你身上。"
+        },
+        {
+          "en": "They really annoy you. But things like traffic jams get on my nerves. Some alarm clocks even.",
+          "tc": "他們真的很煩你。但交通堵塞之類的事情卻讓我心煩意亂。甚至還有一些鬧鐘。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "noises",
+          "kk": "/noises/",
+          "partOfSpeech": "n.",
+          "meaning": "噪音",
+          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "people",
+          "kk": "/people/",
+          "partOfSpeech": "n.",
+          "meaning": "人們",
+          "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段：日常生活",
+      "titleEn": "Part 16: everyday life",
+      "sentences": [
+        {
+          "en": "They go off.",
+          "tc": "他們走了。"
+        },
+        {
+          "en": "They are so loud and some people have very obnoxious alarm clocks. It's not a good way to wake up after sleeping for so long.",
+          "tc": "它們非常吵鬧，有些人的鬧鐘非常令人討厭。睡了這麼久，醒來可不是什麼好辦法。"
+        },
+        {
+          "en": "If you sleep with someone who is snoring, a person who snores is really frustrating because it makes it really difficult to fall asleep. At least for me, I can't fall asleep.",
+          "tc": "如果你和打鼾的人一起睡覺，打鼾的人真的很令人沮喪，因為這會讓你很難入睡。至少對我來說，我無法入睡。"
+        },
+        {
+          "en": "Next to a snorer.",
+          "tc": "旁邊有一個打呼的人。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "people",
+          "kk": "/people/",
+          "partOfSpeech": "n.",
+          "meaning": "人們",
+          "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "blows",
-          "kk": "/blows/",
+          "english": "asleep",
+          "kk": "/asleep/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 blows 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "睡著了",
+          "note": "看到 asleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -321,64 +757,64 @@
           "english": "sounds",
           "kk": "/sounds/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "聲音",
           "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "noises",
+          "kk": "/noises/",
+          "partOfSpeech": "n.",
+          "meaning": "噪音",
+          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "feel",
+          "kk": "/feel/",
+          "partOfSpeech": "v.",
+          "meaning": "感覺",
+          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "hear",
           "kk": "/hear/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "聽到",
           "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "highlight": false
         },
         {
-          "english": "wind",
-          "kk": "/wind/",
+          "english": "people",
+          "kk": "/people/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 wind 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "meaning": "人們",
+          "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
         },
         {
           "english": "certain",
           "kk": "/certain/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "肯定",
           "note": "看到 certain 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "chills",
-          "kk": "/chills/",
+          "english": "day",
+          "kk": "/day/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 chills 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "天",
+          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "soothing",
-          "kk": "/soothing/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 soothing 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
+          "english": "asleep",
+          "kk": "/asleep/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "blows",
-          "kk": "/blows/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 blows 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "睡著了",
+          "note": "看到 asleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -387,34 +823,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "Today I want to talk about certain sounds and noises that.",
-          "tc": "今天我想談談某些聲音和噪音。"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "talk about",
-      "meaning": "談論",
+      "phrase": "do you like",
+      "meaning": "你喜歡...嗎",
       "examples": [
         {
-          "en": "Today I want to talk about certain sounds and noises that.",
-          "tc": "今天我想談談某些聲音和噪音。"
+          "en": "Why do you like listening to it every single day?",
+          "tc": "為什麼每天都喜歡聽？"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "for example",
-      "meaning": "常用說法，可用來表達「for example」這個意思",
+      "phrase": "want to",
+      "meaning": "想要",
       "examples": [
         {
-          "en": "For example, when I hear certain bells or whistles,.",
-          "tc": "例如，當我聽到某些鈴聲或口哨聲時。"
+          "en": "Today I want to talk about certain sounds and noises that.",
+          "tc": "今天我想談談某些聲音和噪音。"
         }
       ]
     }
@@ -423,7 +859,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -458,7 +894,7 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "They completely irritate me and ruin my mood. like my happy mood, maybe my joyful mood, maybe my peaceful mood. if.",
+      "sentence": "They completely irritate me and ruin my mood. Like my happy mood, maybe my joyful mood, maybe my peaceful mood. If.",
       "translation": "他們完全激怒了我，破壞了我的心情。喜歡我快樂的心情，也許是我愉悅的心情，也許是我平靜的心情。如果。",
       "points": [
         {

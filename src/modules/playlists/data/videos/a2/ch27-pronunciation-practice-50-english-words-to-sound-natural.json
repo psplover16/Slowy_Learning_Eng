@@ -23,41 +23,41 @@
           "tc": "影子這些困難的英文單字。我想介紹一下你們可能發音有困難的一些單字。我會教你如何慢慢發音。"
         },
         {
-          "en": "Then as a native speaker would pronounce them. Repeat after me and repeat out loud, not in your head. Part one. Reduced sounds. Comfortable. This couch is comfortable. Vegetable. Vegetable.",
-          "tc": "然後以母語人士的身份發音。跟著我重複大聲重複，而不是在你的腦海裡重複。第一部分。聲音減少。舒服的。這個沙發很舒服。蔬菜。蔬菜。"
+          "en": "Then as a native speaker would pronounce them. Repeat after me and repeat out loud, not in your head. Part one. Reduced sounds. Comfortable. This couch is comfortable. Vegetable.",
+          "tc": "然後以母語人士的身份發音。跟著我重複大聲重複，而不是在你的腦海裡重複。第一部分。聲音減少。舒服的。這個沙發很舒服。蔬菜。"
         },
         {
-          "en": "I love that vegetable. Chocolate. Chocolate.",
-          "tc": "我喜歡那種蔬菜。巧克力。巧克力。"
+          "en": "I love that vegetable. Chocolate.",
+          "tc": "我喜歡那種蔬菜。巧克力。"
         },
         {
-          "en": "I love chocolate. Little little. My brother is so little. Interesting. That is so interesting. Jewelry. Jewelry. I have new jewelry. Literally. That is literally awesome. legitimately. I legitimately didn't know. Uncomfortable.",
-          "tc": "我喜歡巧克力。一點點。我弟弟還這麼小。有趣的。那太有趣了。珠寶。珠寶。我有新首飾。字面上地。這真是太棒了。合法地。我當然不知道。不舒服。"
+          "en": "I love chocolate. Little My brother is so little. Interesting. That is so interesting. Jewelry.",
+          "tc": "我喜歡巧克力。小 我的弟弟太小了。有趣的。那太有趣了。珠寶。"
         }
       ],
       "tags": [
         {
-          "english": "did",
-          "kk": "/did/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 did 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "words",
+          "kk": "/words/",
+          "partOfSpeech": "n.",
+          "meaning": "字",
+          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "know",
-          "kk": "/know/",
+          "english": "part",
+          "kk": "/part/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "部分",
+          "note": "看到 part 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "legitimately",
-          "kk": "/legitimately/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 legitimately 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "sound",
+          "kk": "/sound/",
+          "partOfSpeech": "n.",
+          "meaning": "聲音",
+          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -69,8 +69,12 @@
       "titleEn": "Part 2: everyday life",
       "sentences": [
         {
-          "en": "I feel uncomfortable. Comfortably I sit comfortably. You might sound unnatural because you're pronouncing every syllable and native speakers don't. Uncomfortable. Legitimately legitimately vegetable.",
-          "tc": "我覺得不舒服。我舒服地坐著。您可能聽起來不自然，因為您正在發音每個音節，而母語人士則不然。不舒服。合法合法的蔬菜。"
+          "en": "I have new jewelry. Literally. That is literally awesome. legitimately. I legitimately didn't know. Uncomfortable.",
+          "tc": "我有新首飾。字面上地。這真是太棒了。合法地。我當然不知道。不舒服。"
+        },
+        {
+          "en": "I feel uncomfortable. Comfortably I sit comfortably. You might sound unnatural because you're pronouncing every syllable and native speakers don't. Uncomfortable. Legitimately vegetable.",
+          "tc": "我覺得不舒服。我舒服地坐著。你可能聽起來不自然，因為你正在發音每個音節，而母語人士則不然。不舒服。合法的蔬菜。"
         },
         {
           "en": "We reduce sounds. Now this.",
@@ -79,10 +83,6 @@
         {
           "en": "You and I, You and I. Your phone is ringing. Your phone is ringing. Now some R sounds. Girl.",
           "tc": "你和我，你和我。你的電話響了。你的電話響了。現在有一些 R 的聲音。女孩。"
-        },
-        {
-          "en": "I am a girl. I'm a girl. world. This is my world. Bird.",
-          "tc": "我是一個女孩。我是一個女孩。世界。這是我的世界。鳥。"
         }
       ],
       "tags": [
@@ -90,24 +90,24 @@
           "english": "don't",
           "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "不",
           "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "legitimately",
-          "kk": "/legitimately/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 legitimately 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
         {
           "english": "now",
           "kk": "/now/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "現在",
           "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "sound",
+          "kk": "/sound/",
+          "partOfSpeech": "n.",
+          "meaning": "聲音",
+          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -119,36 +119,36 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "I hear the bird. I hear the bird. Now, some consonant clusters. Clothes. Clothes. These are my clothes. Months.",
-          "tc": "我聽到鳥叫聲。我聽到鳥叫聲。現在，一些輔音簇。衣服。衣服。這些是我的衣服。幾個月。"
+          "en": "I am a girl.",
+          "tc": "我是一個女孩。"
+        },
+        {
+          "en": "I'm a girl. world. This is my world. Bird. I hear the bird.",
+          "tc": "我是一個女孩。世界。這是我的世界。鳥。我聽到鳥叫聲。"
+        },
+        {
+          "en": "I hear the bird. Now, some consonant clusters. Clothes. These are my clothes. Months.",
+          "tc": "我聽到鳥叫聲。現在，一些輔音簇。衣服。這些是我的衣服。幾個月。"
         },
         {
           "en": "I went to the doctor two months ago. Shrimp. I ate shrimp. Now some silent letters. Wednesday.",
           "tc": "兩個月前我去看了醫生。蝦。我吃了蝦子。現在有一些無聲的信件。週三。"
-        },
-        {
-          "en": "I go on Wednesday. Salmon.",
-          "tc": "我星期三去。鮭魚."
-        },
-        {
-          "en": "I love salmon. Honest. Honest.",
-          "tc": "我喜歡鮭魚。誠實的。誠實的。"
         }
       ],
       "tags": [
         {
-          "english": "honest",
-          "kk": "/honest/",
+          "english": "i'm",
+          "kk": "/i'm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 honest 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "now",
           "kk": "/now/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "現在",
           "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
@@ -161,45 +161,29 @@
       "titleEn": "Part 4: everyday life",
       "sentences": [
         {
-          "en": "I am honest. I'm honest. Queue I'm waiting in the queue. Receipt. This is my receipt. Recipe This is the secret recipe. Don't confuse receipt with recipe, please. February. It is February.",
-          "tc": "我很誠實。我很誠實。隊列 我在隊列中等待。收據。這是我的收據。食譜 這是秘方。請不要將收據與食譜混為一談。二月。現在是二月。"
+          "en": "I go on Wednesday. Salmon.",
+          "tc": "我星期三去。鮭魚."
         },
         {
-          "en": "I want to visit an island. Castle. Look at the castle. Look at the castle. Listen. to me. Listen to the Slow English podcast. Hour. This video is 1 hour. debt.",
-          "tc": "我想去一座島嶼。城堡。看看城堡。看看城堡。聽。大部頭書。收聽慢速英語播客。小時。本影片長度1小時。債務。"
+          "en": "I love salmon. Honest.",
+          "tc": "我喜歡鮭魚。誠實的。"
         },
         {
-          "en": "I need to pay off my debt. Subtle. Subtle. There is a subtle difference. There's a subtle difference. Part five. This.",
-          "tc": "我需要還清債務。微妙的。微妙的。有一個細微的差別。有一個微妙的區別。第五部分。這。"
+          "en": "I am honest.",
+          "tc": "我很誠實。"
         },
         {
-          "en": "Next part is very important to be able to understand native speakers. Connected speech. Bottle of water. I drink from my bottle of water. I don't know. I don't know.",
-          "tc": "下一部分對於能夠理解母語人士來說非常重要。連結的演講。一瓶水。我用我的瓶裝水喝。我不知道。我不知道。"
+          "en": "I'm honest. Queue.",
+          "tc": "我很誠實。隊列。"
         }
       ],
       "tags": [
         {
-          "english": "don't",
-          "kk": "/don't/",
+          "english": "i'm",
+          "kk": "/i'm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "honest",
-          "kk": "/honest/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 honest 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -211,54 +195,20 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "What are you?",
-          "tc": "你是做什麼的？"
+          "en": "I'm waiting in the queue. Receipt. This is my receipt. Recipe This is the secret recipe. Don't confuse receipt with recipe, please. February.",
+          "tc": "我在隊列中等待。收據。這是我的收據。食譜 這是秘方。請不要將收據與食譜混為一談。二月。"
         },
         {
-          "en": "What are you doing? Give me a second. Give me a sec. Give me a second. want to wanna want to go. Did?",
-          "tc": "你在幹什麼？等一下。等我一下。等一下。想去想去想去。做過？"
+          "en": "It is February. Island.",
+          "tc": "現在是二月。島。"
         },
         {
-          "en": "You Did you Did you eat? Did you eat? Let me let me let me see.",
-          "tc": "吃了嗎你吃了嗎？你吃了沒？讓我讓我讓我看看。"
+          "en": "I want to visit an island. Castle. Look at the castle. Look at the castle. Listen. to me. Listen to the Slow English podcast. Hour. This video is 1 hour. debt.",
+          "tc": "我想去一座島嶼。城堡。看看城堡。看看城堡。聽。大部頭書。收聽慢速英語podcast。小時。本影片長度1小時。債務。"
         },
         {
-          "en": "If you only practice individual words, you'll never sound natural. You need to practice connections.",
-          "tc": "如果你只練習單字，你的聲音永遠不會自然。你需要練習聯繫。"
-        }
-      ],
-      "tags": [
-        {
-          "english": "did",
-          "kk": "/did/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 did 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
-    },
-    {
-      "id": "scene-06",
-      "no": "06",
-      "titleZh": "第 6 段：語言學習",
-      "titleEn": "Part 6: language",
-      "sentences": [
-        {
-          "en": "If you're enjoying this video, don't forget to like it so that I know and I can make more videos like this. And don't forget to subscribe for more English practice.",
-          "tc": "如果您喜歡這個視頻，請不要忘記喜歡它，以便我知道並且我可以製作更多這樣的視頻。並且不要忘記訂閱更多英語練習。"
-        },
-        {
-          "en": "Next part. Th sound. Three. Three. Think. this. Notice the difference between think and this. Think.",
-          "tc": "下一部分。噝聲。三。三。思考。這。注意 think 和 this 之間的差異。思考。"
-        },
-        {
-          "en": "You blow. This you vibrate. But both keep the tongue between the teeth. Think this. think this.",
-          "tc": "你吹。這就是你振動的地方。但兩者都將舌頭放在牙齒之間。想想這個。想想這個。"
-        },
-        {
-          "en": "I think you are beautiful:). This is your English class. Those are beautiful flowers through.",
-          "tc": "我覺得你很漂亮:)。這是你的英文課。那些都是美麗的花朵。"
+          "en": "I need to pay off my debt. Subtle. There is a subtle difference. There's a subtle difference. Part five. This.",
+          "tc": "我需要還清債務。微妙的。有一個細微的差別。有一個微妙的區別。第五部分。這。"
         }
       ],
       "tags": [
@@ -266,25 +216,347 @@
           "english": "don't",
           "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "不",
           "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "i'm",
+          "kk": "/i'm/",
+          "partOfSpeech": "n.",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "part",
+          "kk": "/part/",
+          "partOfSpeech": "n.",
+          "meaning": "部分",
+          "note": "看到 part 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段：日常生活",
+      "titleEn": "Part 6: everyday life",
+      "sentences": [
+        {
+          "en": "Next part is very important to be able to understand native speakers. Connected speech. Bottle of water. I drink from my bottle of water.",
+          "tc": "下一部分對於能夠理解母語人士來說非常重要。連結的演講。一瓶水。我用我的瓶裝水喝。"
+        },
+        {
+          "en": "I don't know.",
+          "tc": "我不知道。"
+        },
+        {
+          "en": "What are you?",
+          "tc": "你是做什麼的？"
+        },
+        {
+          "en": "What are you doing? Give me a second. Give me a sec. Give me a second. want to wanna want to go. Did?",
+          "tc": "你在幹什麼？等一下。等我一下。等一下。想去想去想去。做過？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "now",
+          "kk": "/now/",
+          "partOfSpeech": "n.",
+          "meaning": "現在",
+          "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "part",
+          "kk": "/part/",
+          "partOfSpeech": "n.",
+          "meaning": "部分",
+          "note": "看到 part 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常生活",
+      "titleEn": "Part 7: everyday life",
+      "sentences": [
+        {
+          "en": "You Did you Did you eat? Did you eat? Let me let me let me see.",
+          "tc": "吃了嗎你吃了嗎？你吃了沒？讓我讓我讓我看看。"
+        },
+        {
+          "en": "If you only practice individual words, you'll never sound natural. You need to practice connections.",
+          "tc": "如果你只練習單字，你的聲音永遠不會自然。你需要練習聯繫。"
+        },
+        {
+          "en": "If you're enjoying this video, don't forget to like it so that I know and I can make more videos like this. And don't forget to subscribe for more English practice.",
+          "tc": "如果你喜歡這個視頻，請不要忘記喜歡它，以便我知道並且我可以製作更多這樣的視頻。並且不要忘記訂閱更多英語練習。"
+        },
+        {
+          "en": "Next part. Th sound. Three. Think. this. Notice the difference between think and this. Think you blow. This you vibrate. But both keep the tongue between the teeth. Think this. think this.",
+          "tc": "下一部分。噝聲。三。思考。這。注意 think 和 this 之間的差異。以為你吹了。這就是你振動的地方。但兩者都將舌頭放在牙齒之間。想想這個。想想這個。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "words",
+          "kk": "/words/",
+          "partOfSpeech": "n.",
+          "meaning": "字",
+          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "think",
           "kk": "/think/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "思考",
           "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "know",
-          "kk": "/know/",
+          "english": "don't",
+          "kk": "/don't/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：語言學習",
+      "titleEn": "Part 8: language",
+      "sentences": [
+        {
+          "en": "I think you are beautiful:). This is your English class. Those are beautiful flowers through. I walk through the market though.",
+          "tc": "我覺得你很漂亮:)。這是你的英文課。那些都是美麗的花朵。不過我穿過市場。"
+        },
+        {
+          "en": "It was hard though. throughout the year. Thought I thought about it. Although.",
+          "tc": "但這很難。全年。以為我想了一下。雖然。"
+        },
+        {
+          "en": "I'm not sure. Very good. Part seven. Rhythm. unfortunately. I unfortunately couldn't go. Fortunately, I found my sweater. Especially. I especially love fish. Reliable.",
+          "tc": "我不知道。非常好。第七部分。韻律。很遺憾。遺憾的是我沒能去。幸運的是，我找到了我的毛衣。尤其。我特別喜歡魚。可靠的。"
+        },
+        {
+          "en": "I am a reliable person.",
+          "tc": "我是一個可靠的人。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "good",
+          "kk": "/good/",
+          "partOfSpeech": "n.",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        },
+        {
+          "english": "i'm",
+          "kk": "/i'm/",
+          "partOfSpeech": "n.",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：日常生活",
+      "titleEn": "Part 9: everyday life",
+      "sentences": [
+        {
+          "en": "I'm a reliable person. Very good. Congratulations. to you. Circumstances. Those are the circumstances. Keep going. Keep going.",
+          "tc": "我是一個可靠的人。非常好。恭喜。給你。情況。就是這些情況。繼續前進。繼續前進。"
+        },
+        {
+          "en": "You can do it. Almost done. Almost there. Now, some advanced words. Unforgettable. Yesterday was unforgettable. Infrastructure. That is good infrastructure. Entrepreneur.",
+          "tc": "你可以做到的。快完成了。快到了。現在，一些高級的話。難忘。昨天是令人難忘的。基礎設施。這是良好的基礎設施。企業家。"
+        },
+        {
+          "en": "I am an entrepreneur. That one's so difficult.",
+          "tc": "我是一名企業家。那個太難了"
+        },
+        {
+          "en": "If you got it, congratulations. Very good. Bureaucracy. Too much bureaucracy. Very good. Aneurysm.",
+          "tc": "如果你得到了，恭喜你。非常好。官僚。官僚主義太多。非常好。動脈瘤。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "words",
+          "kk": "/words/",
+          "partOfSpeech": "n.",
+          "meaning": "字",
+          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "good",
+          "kk": "/good/",
+          "partOfSpeech": "n.",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "i'm",
+          "kk": "/i'm/",
+          "partOfSpeech": "n.",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "He had an Aneurysm. Very difficult. Insomnia. Last night.",
+          "tc": "他患有動脈瘤。非常困難。失眠。昨夜。"
+        },
+        {
+          "en": "I had insomnia. You're doing a great job. Keep going. Last one. Murderer.",
+          "tc": "我失眠了。你做得很好。繼續前進。最後一張。兇手。"
+        },
+        {
+          "en": "He is a murderer.",
+          "tc": "他是個殺人犯。"
+        },
+        {
+          "en": "He's a murderer. This video is getting too long, so I will finish the rest of the words that I wrote.",
+          "tc": "他是個殺人犯。這個影片太長了，所以我會把剩下的文字寫完。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "words",
+          "kk": "/words/",
+          "partOfSpeech": "n.",
+          "meaning": "字",
+          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：語言學習",
+      "titleEn": "Part 11: language",
+      "sentences": [
+        {
+          "en": "If you have any other words that you need help pronouncing, leave them in the comments. Native speakers reduce sounds and connect words. That's.",
+          "tc": "如果你有任何其他單字需要幫助發音，請將其留在評論中。以母語為母語的人會減少聲音並連接單字。就是這樣。"
+        },
+        {
+          "en": "What makes you sound natural. Repeat, I can't emphasize this enough. That's the only way you'll get better. Speak out loud. Practice with this video every day until it's nothing to pronounce?",
+          "tc": "是什麼讓你聽起來很自然。重複一遍，這一點我怎麼強調都不為過。這是你變得更好的唯一方法。大聲說出來。每天用這個影片練習，直到不會發音為止？"
+        },
+        {
+          "en": "I chose most of these words from my Instagram.",
+          "tc": "這些字大部分是我從 Instagram 上選擇的。"
+        },
+        {
+          "en": "Next video's topic and the words that I pronounce,.",
+          "tc": "下一個影片的主題和我發音的單字。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "words",
+          "kk": "/words/",
+          "partOfSpeech": "n.",
+          "meaning": "字",
+          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "sound",
+          "kk": "/sound/",
+          "partOfSpeech": "n.",
+          "meaning": "聲音",
+          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：日常生活",
+      "titleEn": "Part 12: everyday life",
+      "sentences": [
+        {
+          "en": "Then go check my Instagram account. Like and subscribe.",
+          "tc": "然後去查看我的 Instagram 帳號。喜歡並訂閱。"
+        },
+        {
+          "en": "If you like this video, you'll probably like these.",
+          "tc": "如果你喜歡這個視頻，你可能也會喜歡這些。"
+        },
+        {
+          "en": "Next two that I made just for you. And remember, never stop learning. Bye. :)))).",
+          "tc": "接下来的两个是我专门为你做的。请记住，永远不要停止学习。再見。 :)）））。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "words",
+          "kk": "/words/",
+          "partOfSpeech": "n.",
+          "meaning": "字",
+          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "think",
+          "kk": "/think/",
+          "partOfSpeech": "v.",
+          "meaning": "思考",
+          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -294,58 +566,50 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "don't",
-          "kk": "/don't/",
+          "english": "words",
+          "kk": "/words/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "字",
+          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
           "english": "think",
           "kk": "/think/",
           "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "思考",
           "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "did",
-          "kk": "/did/",
-          "partOfSpeech": "v.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 did 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "honest",
-          "kk": "/honest/",
+          "english": "good",
+          "kk": "/good/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 honest 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "好的",
+          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "know",
-          "kk": "/know/",
+          "english": "i'm",
+          "kk": "/i'm/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "legitimately",
-          "kk": "/legitimately/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 legitimately 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "我是",
+          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
           "english": "now",
           "kk": "/now/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "現在",
           "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
@@ -353,8 +617,16 @@
           "english": "part",
           "kk": "/part/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "部分",
           "note": "看到 part 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "sound",
+          "kk": "/sound/",
+          "partOfSpeech": "n.",
+          "meaning": "聲音",
+          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -364,7 +636,7 @@
     {
       "id": "phrase-01",
       "phrase": "want to",
-      "meaning": "常用說法，可用來表達「want to」這個意思",
+      "meaning": "想要",
       "examples": [
         {
           "en": "I want to visit an island.",
@@ -375,7 +647,7 @@
     {
       "id": "phrase-02",
       "phrase": "need to",
-      "meaning": "常用說法，可用來表達「need to」這個意思",
+      "meaning": "需要",
       "examples": [
         {
           "en": "I need to pay off my debt.",
@@ -386,7 +658,7 @@
     {
       "id": "phrase-03",
       "phrase": "i think",
-      "meaning": "常用說法，可用來表達「i think」這個意思",
+      "meaning": "我認為",
       "examples": [
         {
           "en": "I think you are beautiful:).",
@@ -410,8 +682,8 @@
     },
     {
       "id": "breakdown-02",
-      "sentence": "Then as a native speaker would pronounce them. Repeat after me and repeat out loud, not in your head. Part one. Reduced sounds. Comfortable. This couch is comfortable. Vegetable. Vegetable.",
-      "translation": "然後以母語人士的身份發音。跟著我重複大聲重複，而不是在你的腦海裡重複。第一部分。聲音減少。舒服的。這個沙發很舒服。蔬菜。蔬菜。",
+      "sentence": "Then as a native speaker would pronounce them. Repeat after me and repeat out loud, not in your head. Part one. Reduced sounds. Comfortable. This couch is comfortable. Vegetable.",
+      "translation": "然後以母語人士的身份發音。跟著我重複大聲重複，而不是在你的腦海裡重複。第一部分。聲音減少。舒服的。這個沙發很舒服。蔬菜。",
       "points": [
         {
           "label": "native speaker pronounce",
@@ -422,8 +694,8 @@
     },
     {
       "id": "breakdown-03",
-      "sentence": "I love that vegetable. Chocolate. Chocolate.",
-      "translation": "我喜歡那種蔬菜。巧克力。巧克力。",
+      "sentence": "I love that vegetable. Chocolate.",
+      "translation": "我喜歡那種蔬菜。巧克力。",
       "points": [
         {
           "label": "love vegetable chocolate",
@@ -434,8 +706,8 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "I love chocolate. Little little. My brother is so little. Interesting. That is so interesting. Jewelry. Jewelry. I have new jewelry. Literally. That is literally awesome. legitimately. I legitimately didn't know. Uncomfortable.",
-      "translation": "我喜歡巧克力。一點點。我弟弟還這麼小。有趣的。那太有趣了。珠寶。珠寶。我有新首飾。字面上地。這真是太棒了。合法地。我當然不知道。不舒服。",
+      "sentence": "I love chocolate. Little My brother is so little. Interesting. That is so interesting. Jewelry.",
+      "translation": "我喜歡巧克力。小 我的弟弟太小了。有趣的。那太有趣了。珠寶。",
       "points": [
         {
           "label": "love chocolate little",

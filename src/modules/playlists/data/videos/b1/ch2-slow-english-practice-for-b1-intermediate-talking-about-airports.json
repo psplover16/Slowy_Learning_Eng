@@ -20,77 +20,85 @@
       "sentences": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語播客。"
+          "tc": "歡迎回到我的慢速英語podcast。"
         },
         {
-          "en": "Today I'm excited to talk about airports I hate airports airports are the worst my experience with airports is probably very similar to everybody else's whenever.",
-          "tc": "今天我很高興談論機場 我討厭機場 機場是最糟糕的機場 我在機場的經歷可能與其他人的經歷非常相似。"
+          "en": "Today I'm excited to talk about airports I hate airports are the worst my experience with airports is probably very similar to everybody else's whenever.",
+          "tc": "今天我很高興談論機場，我討厭機場是最糟糕的機場，我在機場的經歷可能與其他人的經歷非常相似。"
         },
         {
-          "en": "I go to the airport I just pray I didn't forget one tiny tiny detail one tiny tiny deta tell that could make me miss my flight.",
-          "tc": "我去機場，我只是祈禱我沒有忘記任何一個微小的細節，一個微小的細節，這些細節可能會讓我錯過航班。"
+          "en": "I go to the airport I just pray I didn't forget one tiny detail one tiny deta tell that could make me miss my flight.",
+          "tc": "我去機場，我只是祈禱我沒有忘記任何一個微小的細節，一個微小的細節，這可能會讓我錯過航班。"
         },
         {
-          "en": "I triple check everything I triple check every single detail and when I'm done.",
-          "tc": "我對所有事情都進行了三次檢查，並在完成時對每個細節進行了三次檢查。"
+          "en": "I'm done I check one more time I always make sure to check in online I check in right away so that.",
+          "tc": "我已經完成了，我會再檢查一次，我總是確保在網上辦理登機手續，所以我會立即辦理登機手續。"
         }
       ],
       "tags": [
         {
-          "english": "check",
-          "kk": "/check/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "airports",
           "kk": "/airports/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "機場",
           "note": "看到 airports 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "one",
-          "kk": "/one/",
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "check",
+          "kk": "/check/",
+          "partOfSpeech": "n.",
+          "meaning": "查看",
+          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段：旅行",
+      "titleEn": "Part 2: travel",
       "sentences": [
         {
-          "en": "I check one more time I always make sure to check in online.",
-          "tc": "我再檢查一次，我總是確保在網上辦理登機手續。"
-        },
-        {
-          "en": "I check in right away so that I have more peace of mind my peace of mind is very important for me at the airport.",
-          "tc": "我會立即辦理登機手續，以便更加安心，在機場安心對我來說非常重要。"
+          "en": "I have more peace of mind my peace of mind is very important for me at the airport.",
+          "tc": "我更安心 在機場，安心對我來說很重要。"
         },
         {
           "en": "I usually get my boarding pass on my phone.",
           "tc": "我通常透過手機取得登機證。"
         },
         {
-          "en": "I am ready to go I prefer to check in online than to check in in person I think it's less stressful checking in online.",
-          "tc": "我已準備好出發 我更喜歡在線辦理登機手續而不是親自辦理登機手續 我認為在線辦理登機手續壓力較小。"
+          "en": "I am ready to go I prefer to check in online than to check in person.",
+          "tc": "我已準備好出發 我更喜歡在線辦理登機手續而不是親自辦理登機手續。"
+        },
+        {
+          "en": "I think it's less stressful checking in online.",
+          "tc": "我認為在線辦理登機手續壓力較小。"
         }
       ],
       "tags": [
         {
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
+          "partOfSpeech": "n.",
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "check",
           "kk": "/check/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "查看",
           "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
@@ -98,16 +106,8 @@
           "english": "board",
           "kk": "/board/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "木板",
           "note": "看到 board 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "one",
-          "kk": "/one/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -119,45 +119,45 @@
       "titleEn": "Part 3: everyday life",
       "sentences": [
         {
-          "en": "Then it is in person.",
-          "tc": "然後就是親自了。"
+          "en": "It is in person.",
+          "tc": "這是親自的。"
         },
         {
           "en": "What do you prefer checking in online or in person convince me?",
-          "tc": "您喜歡在線檢查還是親自說服我？"
+          "tc": "你喜歡在線檢查還是親自說服我？"
         },
         {
-          "en": "Why why is it better the worst part of going to the area airport is the security check everyone is yelling and rushing and it's pure chaos it's too chaotic for me?",
-          "tc": "為什麼去該地區機場最糟糕的部分是安檢，每個人都大喊大叫，匆匆忙忙，這純粹是混亂，對我來說太混亂了？"
+          "en": "Why is it better the worst part of going to the area airport is the security check everyone is yelling and rushing and it's pure chaos it's too chaotic for me finding?",
+          "tc": "為什麼去該地區機場最糟糕的部分是安全檢查，每個人都大喊大叫，而且這純粹是混亂，對我來說太混亂了？"
         },
         {
-          "en": "Finding my gate is usually less stressful than going through security but it still is very frustrating to find my gate especially if the airport has like eight terminals but once.",
-          "tc": "找到我的登機口通常比通過安檢壓力要小，但找到我的登機口仍然非常令人沮喪，特別是如果機場有大約八個航站樓，但只有一個。"
+          "en": "My gate is usually less stressful than going through security but it still is very frustrating to find my gate especially if the airport has like eight terminals but once.",
+          "tc": "我的登機口通常比通過安檢壓力小，但找到我的登機口仍然非常令人沮喪，特別是如果機場有大約八個航站樓，但只有一個。"
         }
       ],
       "tags": [
         {
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
+          "partOfSpeech": "n.",
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
           "english": "check",
           "kk": "/check/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
+          "meaning": "查看",
           "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "one",
-          "kk": "/one/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "prefer",
-          "kk": "/prefer/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 prefer 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -178,36 +178,28 @@
         },
         {
           "en": "Do you prefer to board the plane right away?",
-          "tc": "您喜歡立即登機嗎？"
+          "tc": "你喜歡立即登機嗎？"
         },
         {
           "en": "Do you prefer to take your time and wait?",
-          "tc": "您願意慢慢等待嗎？"
+          "tc": "你願意慢慢等待嗎？"
         }
       ],
       "tags": [
         {
-          "english": "board",
-          "kk": "/board/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 board 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "one",
-          "kk": "/one/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "prefer",
-          "kk": "/prefer/",
+          "english": "board",
+          "kk": "/board/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 prefer 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "木板",
+          "note": "看到 board 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -219,46 +211,46 @@
       "titleEn": "Part 5: everyday life",
       "sentences": [
         {
-          "en": "I usually only bring one personal item a personal item is a small bag I don't pack very many things.",
-          "tc": "我通常只帶一件個人物品（個人物品是一個小包）我不會裝很多東西。"
+          "en": "I usually only bring one personal item a personal item is a small bag.",
+          "tc": "我通常只帶一件個人物品，一個個人物品是一個小包。"
         },
         {
-          "en": "I am a light packer I don't need a carryon and I don't need to check my luggage either.",
-          "tc": "我是一個輕裝旅客，不需要隨身攜帶，也不需要托運行李。"
+          "en": "I don't pack very many things.",
+          "tc": "我不帶太多東西。"
         },
         {
-          "en": "I am a light traveler what luggage.",
-          "tc": "我是一個輕旅行的人，什麼行李。"
+          "en": "I am a light packer.",
+          "tc": "我是一名輕型包裝工。"
         },
         {
-          "en": "Do you usually bring on a flight?",
-          "tc": "你通常會帶上飛機嗎？"
+          "en": "I don't need a carryon.",
+          "tc": "我不需要隨身攜帶。"
         }
       ],
       "tags": [
         {
-          "english": "check",
-          "kk": "/check/",
+          "english": "airports",
+          "kk": "/airports/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "機場",
+          "note": "看到 airports 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "one",
-          "kk": "/one/",
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "english": "usually",
-          "kk": "/usually/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "english": "check",
+          "kk": "/check/",
+          "partOfSpeech": "n.",
+          "meaning": "查看",
+          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     },
@@ -269,8 +261,54 @@
       "titleEn": "Part 6: everyday life",
       "sentences": [
         {
-          "en": "Economy class not.",
-          "tc": "經濟艙沒有。"
+          "en": "I don't need to check my luggage either.",
+          "tc": "我也不需要托運行李。"
+        },
+        {
+          "en": "I am a light traveler what luggage.",
+          "tc": "我是一個輕旅行的人，什麼行李。"
+        },
+        {
+          "en": "Do you usually bring on a flight?",
+          "tc": "你通常會帶上飛機嗎？"
+        },
+        {
+          "en": "It is very annoying once.",
+          "tc": "有一次就很煩了。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "check",
+          "kk": "/check/",
+          "partOfSpeech": "n.",
+          "meaning": "查看",
+          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段：日常作息",
+      "titleEn": "Part 7: daily routine",
+      "sentences": [
+        {
+          "en": "I had to sleep at the airport.",
+          "tc": "我不得不在機場睡覺。"
+        },
+        {
+          "en": "It was 8 hours an 8 hour delay at the airport but me and my family were in economy class not.",
+          "tc": "雖然在機場延誤了 8 個小時，但我和我的家人卻沒有搭乘經濟艙。"
         },
         {
           "en": "First class so no Hotel no accommodation for us.",
@@ -278,11 +316,57 @@
         },
         {
           "en": "Do you travel in economy class?",
-          "tc": "您乘坐經濟艙旅行嗎？"
+          "tc": "你乘坐經濟艙旅行嗎？"
+        }
+      ],
+      "tags": [
+        {
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
+          "partOfSpeech": "n.",
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         },
         {
-          "en": "One thing I can say about airports is that anything goes you can see people people sleeping people eating McDonald's at 8 a.m. watching movies running stretching.",
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "hour",
+          "kk": "/hour/",
+          "partOfSpeech": "n.",
+          "meaning": "小時",
+          "note": "看到 hour 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段：日常作息",
+      "titleEn": "Part 8: daily routine",
+      "sentences": [
+        {
+          "en": "One thing I can say about airports is that anything goes you can see people sleeping people eating McDonald's at 8 a.m. Watching movies running stretching.",
           "tc": "關於機場我能說的一件事是，無論發生什麼，你都可以看到人們在睡覺，人們在早上 8 點吃麥當勞，看電影跑步伸展。"
+        },
+        {
+          "en": "You can see people doing anything goes at the airport where else.",
+          "tc": "你可以看到人們在機場其他地方做任何事。"
+        },
+        {
+          "en": "Can you see people doing all of those things in one place nowhere only at the airport airports also give me that nervous excitement that feeling of butterflies in my stomach butterflies?",
+          "tc": "你能看到人們在一個地方做所有這些事情，而不僅僅是在機場嗎？機場也給我那種緊張興奮的感覺，就像我肚子裡的蝴蝶？"
+        },
+        {
+          "en": "For all the adventures to come.",
+          "tc": "為了所有即將到來的冒險。"
         }
       ],
       "tags": [
@@ -290,17 +374,9 @@
           "english": "airports",
           "kk": "/airports/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "機場",
           "note": "看到 airports 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "one",
-          "kk": "/one/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
         {
           "english": "airport",
@@ -308,7 +384,199 @@
           "partOfSpeech": "n.",
           "meaning": "機場",
           "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段：旅行",
+      "titleEn": "Part 9: travel",
+      "sentences": [
+        {
+          "en": "What is something you like about airports?",
+          "tc": "你喜歡機場的哪些方面？"
+        },
+        {
+          "en": "What are some tips you can give me to enjoy airports more I used to have long layovers I wanted to save money as much money as I possibly could?",
+          "tc": "你可以給我一些建議，讓我更好地享受機場時光 我曾經有很長的中轉時間 我想盡可能多地省錢？"
+        },
+        {
+          "en": "I would book flights as long as 52 hours with 12h hour layovers for my trip to Thailand.",
+          "tc": "我會為我的泰國之旅預訂長達 52 小時的航班，其中有 12 小時的轉機時間。"
+        },
+        {
+          "en": "I had a 12h hour layover in Los Angeles I took advantage of my long layover and I visit visited Hollywood with my cousin.",
+          "tc": "我在洛杉磯停留了 12 個小時，利用漫長的停留時間，我和表弟一起參觀了好萊塢。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "airports",
+          "kk": "/airports/",
+          "partOfSpeech": "n.",
+          "meaning": "機場",
+          "note": "看到 airports 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
+          "partOfSpeech": "n.",
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段：日常生活",
+      "titleEn": "Part 10: everyday life",
+      "sentences": [
+        {
+          "en": "Then I took my.",
+          "tc": "然後我就拿走了我的。"
+        },
+        {
+          "en": "Next flight to Japan I stayed in Japan for 12 hours and I visited I visited Osaka I went shopping and I even ate sushi.",
+          "tc": "下一趟飛往日本的航班我在日本待了 12 個小時，我參觀了大阪，我去購物，甚至吃了壽司。"
+        },
+        {
+          "en": "I got on my last flight to Bangkok Thailand after 52 hours of flight.",
+          "tc": "經過 52 小時的飛行後，我登上了飛往泰國曼谷的最後一班航班。"
+        },
+        {
+          "en": "Finally arrived to Thailand but 52 hours of flying is very bad for your sleep schedule.",
+          "tc": "終於到達泰國了，但52小時的飛行對你的睡眠時間來說非常糟糕。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "hour",
+          "kk": "/hour/",
+          "partOfSpeech": "n.",
+          "meaning": "小時",
+          "note": "看到 hour 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段：日常生活",
+      "titleEn": "Part 11: everyday life",
+      "sentences": [
+        {
+          "en": "It was worth it for the price and I was able to visit two extra countries but I wouldn't do it again.",
+          "tc": "就價格而言，這是值得的，而且我能夠訪問另外兩個國家，但我不會再這樣做了。"
+        },
+        {
+          "en": "I would not repeat that experience now I prioritize my time and my sleep what has been your longest layover.",
+          "tc": "我不會重複這種經歷，現在我優先考慮我的時間和睡眠，這是你最長的停留時間。"
+        },
+        {
+          "en": "Would you rather have a cheap 52 hour flight or an expensive 12 hour flight?",
+          "tc": "你願意選擇便宜的 52 小時航班還是昂貴的 12 小時航班？"
+        },
+        {
+          "en": "Tell me in the comments below don't forget to subscribe and like this video for more English content also.",
+          "tc": "在下面的評論中告訴我，不要忘記訂閱並喜歡這個視頻，以獲得更多英語內容。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "but",
+          "kk": "/but/",
+          "partOfSpeech": "n.",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "hour",
+          "kk": "/hour/",
+          "partOfSpeech": "n.",
+          "meaning": "小時",
+          "note": "看到 hour 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段：旅行",
+      "titleEn": "Part 12: travel",
+      "sentences": [
+        {
+          "en": "What do you hate most about airports?",
+          "tc": "你最討厭機場的什麼？"
+        },
+        {
+          "en": "Thank you. Bye.",
+          "tc": "謝謝。再見。"
+        }
+      ],
+      "tags": [
+        {
+          "english": "airports",
+          "kk": "/airports/",
+          "partOfSpeech": "n.",
+          "meaning": "機場",
+          "note": "看到 airports 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "airport",
+          "kk": "/ˈɛrˌpɔrt/",
+          "partOfSpeech": "n.",
+          "meaning": "機場",
+          "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
         }
       ]
     }
@@ -318,52 +586,12 @@
       "title": "B1 重點單字",
       "items": [
         {
-          "english": "check",
-          "kk": "/check/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
           "english": "airports",
           "kk": "/airports/",
           "partOfSpeech": "n.",
-          "meaning": "旅行相關的常用字",
+          "meaning": "機場",
           "note": "看到 airports 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "board",
-          "kk": "/board/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 board 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "one",
-          "kk": "/one/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 one 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "prefer",
-          "kk": "/prefer/",
-          "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 prefer 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "usually",
-          "kk": "/usually/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 usually 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         },
         {
           "english": "airport",
@@ -371,14 +599,54 @@
           "partOfSpeech": "n.",
           "meaning": "機場",
           "note": "看到 airport 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "check",
+          "kk": "/check/",
+          "partOfSpeech": "n.",
+          "meaning": "查看",
+          "note": "看到 check 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": true
+        },
+        {
+          "english": "flight",
+          "kk": "/flight/",
+          "partOfSpeech": "n.",
+          "meaning": "航班",
+          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         },
         {
-          "english": "online",
-          "kk": "/online/",
+          "english": "but",
+          "kk": "/but/",
           "partOfSpeech": "n.",
-          "meaning": "日常生活相關的常用字",
-          "note": "看到 online 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "但",
+          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "board",
+          "kk": "/board/",
+          "partOfSpeech": "n.",
+          "meaning": "木板",
+          "note": "看到 board 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "hour",
+          "kk": "/hour/",
+          "partOfSpeech": "n.",
+          "meaning": "小時",
+          "note": "看到 hour 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "highlight": false
+        },
+        {
+          "english": "hours",
+          "kk": "/hours/",
+          "partOfSpeech": "n.",
+          "meaning": "小時",
+          "note": "看到 hours 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": false
         }
       ]
@@ -387,34 +655,34 @@
   "phrases": [
     {
       "id": "phrase-01",
-      "phrase": "what do you",
-      "meaning": "你會怎麼...",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "What do you prefer checking in online or in person convince me?",
-          "tc": "您喜歡在線檢查還是親自說服我？"
+          "en": "Welcome back to my slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。"
         }
       ]
     },
     {
       "id": "phrase-02",
-      "phrase": "going to",
-      "meaning": "常用說法，可用來表達「going to」這個意思",
+      "phrase": "what do you",
+      "meaning": "你會怎麼...",
       "examples": [
         {
-          "en": "Why why is it better the worst part of going to the area airport is the security check everyone is yelling and rushing and it's pure chaos it's too chaotic for me?",
-          "tc": "為什麼去該地區機場最糟糕的部分是安檢，每個人都大喊大叫，匆匆忙忙，這純粹是混亂，對我來說太混亂了？"
+          "en": "What do you prefer checking in online or in person convince me?",
+          "tc": "你喜歡在線檢查還是親自說服我？"
         }
       ]
     },
     {
       "id": "phrase-03",
-      "phrase": "have to",
-      "meaning": "常用說法，可用來表達「have to」這個意思",
+      "phrase": "used to",
+      "meaning": "以前曾經",
       "examples": [
         {
-          "en": "I am at my gate my worries go away now I just have to board my plane I only need to board and take a seat.",
-          "tc": "我在登機口，我的擔憂消失了，現在我只需登機，我只需登機並坐下。"
+          "en": "What are some tips you can give me to enjoy airports more I used to have long layovers I wanted to save money as much money as I possibly could?",
+          "tc": "你可以給我一些建議，讓我更好地享受機場時光 我曾經有很長的中轉時間 我想盡可能多地省錢？"
         }
       ]
     }
@@ -423,7 +691,7 @@
     {
       "id": "breakdown-01",
       "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語播客。",
+      "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
           "label": "welcome back",
@@ -434,20 +702,20 @@
     },
     {
       "id": "breakdown-02",
-      "sentence": "Today I'm excited to talk about airports I hate airports airports are the worst my experience with airports is probably very similar to everybody else's whenever.",
-      "translation": "今天我很高興談論機場 我討厭機場 機場是最糟糕的機場 我在機場的經歷可能與其他人的經歷非常相似。",
+      "sentence": "Today I'm excited to talk about airports I hate airports are the worst my experience with airports is probably very similar to everybody else's whenever.",
+      "translation": "今天我很高興談論機場，我討厭機場是最糟糕的機場，我在機場的經歷可能與其他人的經歷非常相似。",
       "points": [
         {
-          "label": "i'm excited talk",
-          "text": "i'm excited talk",
-          "note": "注意 \"i'm excited talk\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "excited talk airports",
+          "text": "excited talk airports",
+          "note": "注意 \"excited talk airports\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     },
     {
       "id": "breakdown-03",
-      "sentence": "I go to the airport I just pray I didn't forget one tiny tiny detail one tiny tiny deta tell that could make me miss my flight.",
-      "translation": "我去機場，我只是祈禱我沒有忘記任何一個微小的細節，一個微小的細節，這些細節可能會讓我錯過航班。",
+      "sentence": "I go to the airport I just pray I didn't forget one tiny detail one tiny deta tell that could make me miss my flight.",
+      "translation": "我去機場，我只是祈禱我沒有忘記任何一個微小的細節，一個微小的細節，這可能會讓我錯過航班。",
       "points": [
         {
           "label": "airport pray didn't",
@@ -458,13 +726,13 @@
     },
     {
       "id": "breakdown-04",
-      "sentence": "I triple check everything I triple check every single detail and when I'm done.",
-      "translation": "我對所有事情都進行了三次檢查，並在完成時對每個細節進行了三次檢查。",
+      "sentence": "I'm done I check one more time I always make sure to check in online I check in right away so that.",
+      "translation": "我已經完成了，我會再檢查一次，我總是確保在網上辦理登機手續，所以我會立即辦理登機手續。",
       "points": [
         {
-          "label": "triple check everything",
-          "text": "triple check everything",
-          "note": "注意 \"triple check everything\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "done check time",
+          "text": "done check time",
+          "note": "注意 \"done check time\" 在句子中的位置，先練整句，再替換自己的內容。"
         }
       ]
     }
