@@ -43,7 +43,7 @@ Video learning content files are pure data JSON, containing no HTML strings or f
 
 ### Requirement: Skipped videos are not routable
 
-Videos with status `skipped` are excluded from the playlist metadata files and do not generate sub-page routes.
+Videos with status `skipped` SHALL be excluded from the `videos` array. When source metadata is known, they SHALL be listed in `skippedVideos`. They SHALL NOT generate sub-page routes.
 
 #### Scenario: skipped video is absent from list and routing
 

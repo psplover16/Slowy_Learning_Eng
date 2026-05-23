@@ -34,11 +34,18 @@ The NavBar displays a "MissHoney â–¾" button positioned next to the existing "å…
 
 #### Scenario: dropdown closes on outside click or Escape
 
-- **WHEN** the dropdown is open and the user clicks outside it
+- **WHEN** the dropdown is open and the user clicks the page background outside the menu
 - **THEN** the dropdown closes
 
 - **WHEN** the dropdown is open and the user presses Escape
 - **THEN** the dropdown closes
+
+##### Example: close interactions
+
+| current path | initial state             | interaction                       | expected state         |
+| ------------ | ------------------------- | --------------------------------- | ---------------------- |
+| `/a1`        | MissHoney dropdown open   | click `.home-view` outside menu   | dropdown closed        |
+| `/a2`        | MissHoney dropdown open   | press `Escape`                    | dropdown closed        |
 
 ### Requirement: Dropdown overflow prevention
 

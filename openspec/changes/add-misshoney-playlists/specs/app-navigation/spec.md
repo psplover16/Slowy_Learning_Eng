@@ -6,7 +6,7 @@ The NavBar now includes a MissHoney dropdown button in addition to the existing 
 
 #### Scenario: MissHoney button is present between 內容 and 文法
 
-- **WHEN** the user views any page
+- **WHEN** the user views `/a1`
 - **THEN** the NavBar displays buttons in this order: 首頁 | 內容 ▾ | MissHoney ▾ | 文法
 
 #### Scenario: all existing NavBar buttons remain functional
