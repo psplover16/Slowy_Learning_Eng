@@ -1,0 +1,1 @@
+function a(r,t=""){return`<span${t?` data-target="${t}"`:""} class="underline decoration-terracotta underline-offset-2 cursor-pointer hover:text-terracotta transition-colors">${r}</span>`}export{a as h};
