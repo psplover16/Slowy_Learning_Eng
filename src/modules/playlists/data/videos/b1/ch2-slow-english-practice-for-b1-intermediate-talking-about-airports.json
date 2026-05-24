@@ -1,0 +1,2388 @@
+{
+  "videoId": "fHMtr1NcCho",
+  "slug": "ch2-slow-english-practice-for-b1-intermediate-talking-about-airports",
+  "level": "b1",
+  "title": "SLOW English Practice for B1 INTERMEDIATE - talking about 👉 AIRPORTS✈️",
+  "youtubeUrl": "https://www.youtube.com/watch?v=fHMtr1NcCho",
+  "header": {
+    "podcastLabel": "MissHoney B1",
+    "titleZh": "B1 中級的慢速英語練習 - 談 👉 機場✈️",
+    "titleEn": "SLOW English Practice for B1 INTERMEDIATE - talking about 👉 AIRPORTS✈️",
+    "levelTag": "B1",
+    "topicTag": "travel"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "no": "01",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
+      "sentences": [
+        {
+          "en": "Hi everyone, welcome back to my Slow English podcast.",
+          "tc": "嗨，大家好，歡迎回到我的 Slow English podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hi everyone, welcome back to my Slow English podcast."
+            }
+          ]
+        },
+        {
+          "en": "Today, I'm excited to talk about airports.",
+          "tc": "今天，我很興奮要聊聊機場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today, I'm excited to talk about airports."
+            }
+          ]
+        },
+        {
+          "en": "I hate airports.",
+          "tc": "我討厭機場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hate airports."
+            }
+          ]
+        },
+        {
+          "en": "Airports are the worst.",
+          "tc": "機場最糟了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Airports are the worst."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
+      "sentences": [
+        {
+          "en": "My experience with airports is probably very similar to everybody else's.",
+          "tc": "我對機場的經驗大概和其他每個人的都很相似。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My experience with airports is probably very "
+            },
+            {
+              "type": "phrase",
+              "text": "similar to",
+              "targetId": "phrase-similar-to",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-005-01"
+            },
+            {
+              "type": "text",
+              "text": " everybody else's."
+            }
+          ]
+        },
+        {
+          "en": "Whenever I go to the airport, I just pray I didn't forget one tiny, tiny detail, one tiny, tiny detail that could make me miss my flight.",
+          "tc": "每次我去機場，我就祈禱自己沒有忘記一個很小很小的細節，一個很小很小、可能讓我錯過班機的細節。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Whenever I go to the airport, I just pray I didn't forget one "
+            },
+            {
+              "type": "word",
+              "text": "tiny",
+              "targetId": "word-tiny",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-006-01"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "tiny",
+              "targetId": "word-tiny",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-006-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "detail",
+              "targetId": "word-detail",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-006-03"
+            },
+            {
+              "type": "text",
+              "text": ", one "
+            },
+            {
+              "type": "word",
+              "text": "tiny",
+              "targetId": "word-tiny",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-006-04"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "tiny",
+              "targetId": "word-tiny",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-006-05"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "detail",
+              "targetId": "word-detail",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-006-06"
+            },
+            {
+              "type": "text",
+              "text": " that could make me miss my flight."
+            }
+          ]
+        },
+        {
+          "en": "I triple-check everything.",
+          "tc": "我會把所有事情檢查三遍。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "triple-check",
+              "targetId": "word-triple-check",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-007-01"
+            },
+            {
+              "type": "text",
+              "text": " everything."
+            }
+          ]
+        },
+        {
+          "en": "I triple-check every single detail, and when I'm done, I check one more time.",
+          "tc": "我會把每一個細節檢查三遍，檢查完後，我還會再檢查一次。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "triple-check",
+              "targetId": "word-triple-check",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-008-01"
+            },
+            {
+              "type": "text",
+              "text": " every single "
+            },
+            {
+              "type": "word",
+              "text": "detail",
+              "targetId": "word-detail",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-008-02"
+            },
+            {
+              "type": "text",
+              "text": ", and when I'm done, I check one more time."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
+      "sentences": [
+        {
+          "en": "I always make sure to check in online.",
+          "tc": "我總是確定先在線上辦理登機手續。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I always make sure to "
+            },
+            {
+              "type": "phrase",
+              "text": "check in",
+              "targetId": "phrase-check-in",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-009-01"
+            },
+            {
+              "type": "text",
+              "text": " online."
+            }
+          ]
+        },
+        {
+          "en": "I check in right away so that I have more peace of mind.",
+          "tc": "我馬上辦理登機手續，這樣我就能更安心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "check in",
+              "targetId": "phrase-check-in",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-010-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "right away",
+              "targetId": "phrase-right-away",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-010-02"
+            },
+            {
+              "type": "text",
+              "text": " so that I have more "
+            },
+            {
+              "type": "phrase",
+              "text": "peace of mind",
+              "targetId": "phrase-peace-of-mind",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-010-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "My peace of mind is very important to me at the airport.",
+          "tc": "在機場，安心對我來說非常重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My "
+            },
+            {
+              "type": "phrase",
+              "text": "peace of mind",
+              "targetId": "phrase-peace-of-mind",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-011-01"
+            },
+            {
+              "type": "text",
+              "text": " is very important to me at the airport."
+            }
+          ]
+        },
+        {
+          "en": "I usually get my boarding pass on my phone.",
+          "tc": "我通常會把登機證存在手機上。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I usually get my "
+            },
+            {
+              "type": "phrase",
+              "text": "boarding pass",
+              "targetId": "phrase-boarding-pass",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-012-01"
+            },
+            {
+              "type": "text",
+              "text": " on my phone."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
+      "sentences": [
+        {
+          "en": "Then I am ready to go.",
+          "tc": "然後我就準備好了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I am ready to "
+            },
+            {
+              "type": "usage",
+              "text": "go",
+              "targetId": "usage-go-worries-go-away-go-away",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-scene-04-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I prefer to check in online rather than check in in person.",
+          "tc": "比起親自辦理登機手續，我比較喜歡在線上辦理。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I prefer to "
+            },
+            {
+              "type": "phrase",
+              "text": "check in",
+              "targetId": "phrase-check-in",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-014-01"
+            },
+            {
+              "type": "text",
+              "text": " online rather than "
+            },
+            {
+              "type": "phrase",
+              "text": "check in",
+              "targetId": "phrase-check-in",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-014-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "in person",
+              "targetId": "phrase-in-person",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-014-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I think it is less stressful to check in online than it is to check in in person.",
+          "tc": "我覺得線上辦理登機手續比親自辦理壓力小。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think it is less "
+            },
+            {
+              "type": "word",
+              "text": "stressful",
+              "targetId": "word-stressful",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-015-01"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "phrase",
+              "text": "check in",
+              "targetId": "phrase-check-in",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-015-02"
+            },
+            {
+              "type": "text",
+              "text": " online than it is to "
+            },
+            {
+              "type": "phrase",
+              "text": "check in",
+              "targetId": "phrase-check-in",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-015-03"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "in person",
+              "targetId": "phrase-in-person",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-015-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Do you prefer to check in online or in person?",
+          "tc": "你比較喜歡線上辦理登機手續還是親自辦理？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you prefer to "
+            },
+            {
+              "type": "phrase",
+              "text": "check in",
+              "targetId": "phrase-check-in",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-016-01"
+            },
+            {
+              "type": "text",
+              "text": " online or "
+            },
+            {
+              "type": "phrase",
+              "text": "in person",
+              "targetId": "phrase-in-person",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-016-02"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
+      "sentences": [
+        {
+          "en": "Convince me.",
+          "tc": "說服我。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Convince",
+              "targetId": "word-convince",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-017-01"
+            },
+            {
+              "type": "text",
+              "text": " me."
+            }
+          ]
+        },
+        {
+          "en": "Why?",
+          "tc": "為什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Why?"
+            }
+          ]
+        },
+        {
+          "en": "Why is it better?",
+          "tc": "為什麼那樣比較好？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Why is it better?"
+            }
+          ]
+        },
+        {
+          "en": "The worst part of going to the airport is the security check.",
+          "tc": "去機場最糟的部分是安檢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The worst part of going to the airport is the "
+            },
+            {
+              "type": "phrase",
+              "text": "security check",
+              "targetId": "phrase-security-check",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-020-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
+      "sentences": [
+        {
+          "en": "Everyone is yelling and rushing, and it's pure chaos.",
+          "tc": "每個人都在喊叫、趕來趕去，完全是一片混亂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Everyone is yelling and "
+            },
+            {
+              "type": "word",
+              "text": "rushing",
+              "targetId": "word-rush",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-021-01"
+            },
+            {
+              "type": "text",
+              "text": ", and it's pure "
+            },
+            {
+              "type": "word",
+              "text": "chaos",
+              "targetId": "word-chaos",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-021-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "It's too chaotic for me.",
+          "tc": "對我來說太混亂了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's too "
+            },
+            {
+              "type": "word",
+              "text": "chaotic",
+              "targetId": "word-chaotic",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-022-01"
+            },
+            {
+              "type": "text",
+              "text": " for me."
+            }
+          ]
+        },
+        {
+          "en": "Finding my gate is usually less stressful than going through security, but it is still very frustrating to find my gate, especially if the airport has, like, eight terminals.",
+          "tc": "找登機門通常比通過安檢壓力小，但找登機門還是很令人挫折，尤其是如果那個機場有，像是，八個航廈。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Finding my gate is usually less "
+            },
+            {
+              "type": "word",
+              "text": "stressful",
+              "targetId": "word-stressful",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-023-01"
+            },
+            {
+              "type": "text",
+              "text": " than "
+            },
+            {
+              "type": "phrase",
+              "text": "going through security",
+              "targetId": "phrase-going-through-security",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-023-02"
+            },
+            {
+              "type": "text",
+              "text": ", but it is still very "
+            },
+            {
+              "type": "word",
+              "text": "frustrating",
+              "targetId": "word-frustrating",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-023-03"
+            },
+            {
+              "type": "text",
+              "text": " to find my gate, especially if the airport has, like, eight "
+            },
+            {
+              "type": "word",
+              "text": "terminals",
+              "targetId": "word-terminal",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-023-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "But once I am at my gate, my worries go away.",
+          "tc": "不過一旦我到了登機門，我的擔心就消失了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But once I am at my gate, my worries "
+            },
+            {
+              "type": "usage",
+              "text": "go",
+              "targetId": "usage-go-worries-go-away-go-away",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-024-01"
+            },
+            {
+              "type": "text",
+              "text": " away."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
+        {
+          "en": "Now I just have to board my plane.",
+          "tc": "現在我只要登機就好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now I just have to board my plane."
+            }
+          ]
+        },
+        {
+          "en": "I only need to board and take a seat.",
+          "tc": "我只需要登機，然後坐下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I only need to board and "
+            },
+            {
+              "type": "phrase",
+              "text": "take a seat",
+              "targetId": "phrase-take-a-seat",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-026-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I am usually the last person to board the plane.",
+          "tc": "我通常是最後一個登機的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am usually the last person to board the plane."
+            }
+          ]
+        },
+        {
+          "en": "Everyone is always so eager to board, but I prefer to stay seated and wait.",
+          "tc": "每個人總是很急著登機，但我比較喜歡坐著等。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Everyone is always so "
+            },
+            {
+              "type": "word",
+              "text": "eager",
+              "targetId": "word-eager",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-028-01"
+            },
+            {
+              "type": "text",
+              "text": " to board, but I prefer to stay seated and wait."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "Do you prefer to board the plane right away, or do you prefer to take your time and wait?",
+          "tc": "你比較喜歡立刻登機，還是比較喜歡慢慢來、等一下？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you prefer to board the plane "
+            },
+            {
+              "type": "phrase",
+              "text": "right away",
+              "targetId": "phrase-right-away",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-029-01"
+            },
+            {
+              "type": "text",
+              "text": ", or do you prefer to "
+            },
+            {
+              "type": "phrase",
+              "text": "take your time",
+              "targetId": "phrase-take-your-time",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-029-02"
+            },
+            {
+              "type": "text",
+              "text": " and wait?"
+            }
+          ]
+        },
+        {
+          "en": "I usually only bring one personal item.",
+          "tc": "我通常只帶一件個人物品。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I usually only bring one "
+            },
+            {
+              "type": "phrase",
+              "text": "personal item",
+              "targetId": "phrase-personal-item",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-030-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "A personal item is a small bag.",
+          "tc": "個人物品就是一個小包包。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A "
+            },
+            {
+              "type": "phrase",
+              "text": "personal item",
+              "targetId": "phrase-personal-item",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-031-01"
+            },
+            {
+              "type": "text",
+              "text": " is a small bag."
+            }
+          ]
+        },
+        {
+          "en": "I don't pack very many things.",
+          "tc": "我不會打包很多東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't pack very many things."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
+        {
+          "en": "I am a light packer.",
+          "tc": "我是個行李帶得很少的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am a "
+            },
+            {
+              "type": "usage",
+              "text": "light",
+              "targetId": "usage-light-light-packer-light-traveler-ligh",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-033-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "packer",
+              "targetId": "word-packer",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-033-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I don't need a carry-on, and I don't need to check my luggage either.",
+          "tc": "我不需要隨身行李，也不需要托運行李。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't need a "
+            },
+            {
+              "type": "phrase",
+              "text": "carry-on",
+              "targetId": "phrase-carry-on",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-034-01"
+            },
+            {
+              "type": "text",
+              "text": ", and I don't need to "
+            },
+            {
+              "type": "phrase",
+              "text": "check my luggage",
+              "targetId": "phrase-check-my-luggage",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-034-02"
+            },
+            {
+              "type": "text",
+              "text": " either."
+            }
+          ]
+        },
+        {
+          "en": "I am a light traveler.",
+          "tc": "我是個輕裝旅行的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am a "
+            },
+            {
+              "type": "usage",
+              "text": "light",
+              "targetId": "usage-light-light-packer-light-traveler-ligh",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-035-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "traveler",
+              "targetId": "word-traveler",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-035-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "What luggage do you usually bring on a flight?",
+          "tc": "你搭飛機通常會帶什麼行李？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What luggage do you usually bring on a flight?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "Do you bring a personal item, a carry-on, or checked luggage?",
+          "tc": "你會帶個人物品、隨身行李，還是托運行李？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you bring a "
+            },
+            {
+              "type": "phrase",
+              "text": "personal item",
+              "targetId": "phrase-personal-item",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-037-01"
+            },
+            {
+              "type": "text",
+              "text": ", a "
+            },
+            {
+              "type": "phrase",
+              "text": "carry-on",
+              "targetId": "phrase-carry-on",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-037-02"
+            },
+            {
+              "type": "text",
+              "text": ", or "
+            },
+            {
+              "type": "phrase",
+              "text": "checked luggage",
+              "targetId": "phrase-checked-luggage",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-037-03"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "My flights rarely get delayed, but when they do, it is very annoying.",
+          "tc": "我的班機很少延誤，但一延誤就很煩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My flights rarely get "
+            },
+            {
+              "type": "word",
+              "text": "delayed",
+              "targetId": "word-delay",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-038-01"
+            },
+            {
+              "type": "text",
+              "text": ", but when they do, it is very annoying."
+            }
+          ]
+        },
+        {
+          "en": "Once, I had to sleep at the airport.",
+          "tc": "有一次，我不得不睡在機場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Once, I had to sleep at the airport."
+            }
+          ]
+        },
+        {
+          "en": "It was eight hours, an eight-hour delay at the airport.",
+          "tc": "那是八個小時，在機場延誤八個小時。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was eight hours, an eight-hour "
+            },
+            {
+              "type": "word",
+              "text": "delay",
+              "targetId": "word-delay",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-040-01"
+            },
+            {
+              "type": "text",
+              "text": " at the airport."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
+        {
+          "en": "But my family and I were in economy class, not first class, so no hotel, no accommodation for us.",
+          "tc": "但我和家人坐的是經濟艙，不是頭等艙，所以沒有飯店，沒有住宿給我們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But my family and I were in "
+            },
+            {
+              "type": "phrase",
+              "text": "economy class",
+              "targetId": "phrase-economy-class",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-041-01"
+            },
+            {
+              "type": "text",
+              "text": ", not "
+            },
+            {
+              "type": "phrase",
+              "text": "first class",
+              "targetId": "phrase-first-class",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-041-02"
+            },
+            {
+              "type": "text",
+              "text": ", so no hotel, no "
+            },
+            {
+              "type": "word",
+              "text": "accommodation",
+              "targetId": "word-accommodation",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-041-03"
+            },
+            {
+              "type": "text",
+              "text": " for us."
+            }
+          ]
+        },
+        {
+          "en": "We weren't first class.",
+          "tc": "我們不是頭等艙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We weren't "
+            },
+            {
+              "type": "phrase",
+              "text": "first class",
+              "targetId": "phrase-first-class",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-042-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Do you travel in economy class or first class?",
+          "tc": "你搭經濟艙還是頭等艙？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you travel in "
+            },
+            {
+              "type": "phrase",
+              "text": "economy class",
+              "targetId": "phrase-economy-class",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-043-01"
+            },
+            {
+              "type": "text",
+              "text": " or "
+            },
+            {
+              "type": "phrase",
+              "text": "first class",
+              "targetId": "phrase-first-class",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-043-02"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "But one thing I can say about airports is that anything goes.",
+          "tc": "但我可以說關於機場的一件事就是：什麼都可能發生。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But one thing I can say about airports is that "
+            },
+            {
+              "type": "phrase",
+              "text": "anything goes",
+              "targetId": "phrase-anything-goes",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-044-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "You can see people, people sleeping, people eating McDonald's at 8 a.m., watching movies, running, stretching.",
+          "tc": "你可以看到人們，人們在睡覺、人們在早上八點吃麥當勞、看電影、跑步、伸展。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can see people, people sleeping, people eating McDonald's at 8 a.m., watching movies, running, "
+            },
+            {
+              "type": "word",
+              "text": "stretching",
+              "targetId": "word-stretch",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-045-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "You can see people doing anything.",
+          "tc": "你可以看到人們做任何事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can see people doing anything."
+            }
+          ]
+        },
+        {
+          "en": "Anything goes at the airport.",
+          "tc": "在機場，什麼都行。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Anything goes",
+              "targetId": "phrase-anything-goes",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-047-01"
+            },
+            {
+              "type": "text",
+              "text": " at the airport."
+            }
+          ]
+        },
+        {
+          "en": "Where else can you see people doing all of those things in one place?",
+          "tc": "哪裡還能在同一個地方看到人們做所有這些事？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Where else can you see people doing all of those things in one place?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "Nowhere.",
+          "tc": "沒有地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Nowhere."
+            }
+          ]
+        },
+        {
+          "en": "Only at the airport.",
+          "tc": "只有機場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Only at the airport."
+            }
+          ]
+        },
+        {
+          "en": "Airports also give me that nervous excitement, that feeling of butterflies in my stomach, butterflies for all the adventures to come.",
+          "tc": "機場也會給我那種緊張又興奮的感覺，那種肚子裡有蝴蝶般的感覺，為了即將到來的所有冒險而興奮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Airports also give me that "
+            },
+            {
+              "type": "phrase",
+              "text": "nervous excitement",
+              "targetId": "phrase-nervous-excitement",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-051-01"
+            },
+            {
+              "type": "text",
+              "text": ", that feeling of "
+            },
+            {
+              "type": "phrase",
+              "text": "butterflies in my stomach",
+              "targetId": "phrase-butterflies-in-my-stomach",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-051-02"
+            },
+            {
+              "type": "text",
+              "text": ", butterflies for all the "
+            },
+            {
+              "type": "word",
+              "text": "adventures",
+              "targetId": "word-adventure",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-051-03"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "to come",
+              "targetId": "phrase-to-come",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-051-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "What is something you like about airports?",
+          "tc": "你喜歡機場的哪一點？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What is something you like about airports?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "What are some tips you can give me to enjoy airports more?",
+          "tc": "你可以給我一些讓我更享受機場的建議嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What are some tips you can give me to enjoy airports more?"
+            }
+          ]
+        },
+        {
+          "en": "I used to have long layovers.",
+          "tc": "我以前常常有很長的轉機等待時間。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I used to have long "
+            },
+            {
+              "type": "word",
+              "text": "layovers",
+              "targetId": "word-layover",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-054-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I wanted to save money, as much money as I possibly could, so I would book flights as long as 52 hours with 12-hour layovers.",
+          "tc": "我想省錢，盡可能省越多錢越好，所以我會訂長達 52 小時、包含 12 小時轉機等待的航班。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I wanted to save money, as much money as I possibly could, so I would book flights "
+            },
+            {
+              "type": "phrase",
+              "text": "as long as",
+              "targetId": "phrase-as-long-as",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-055-01"
+            },
+            {
+              "type": "text",
+              "text": " 52 hours with 12-hour "
+            },
+            {
+              "type": "word",
+              "text": "layovers",
+              "targetId": "word-layover",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-055-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "For my trip to Thailand, I had a 12-hour layover in Los Angeles.",
+          "tc": "去泰國那趟旅行，我在洛杉磯有 12 小時的轉機等待。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For my trip to Thailand, I had a 12-hour "
+            },
+            {
+              "type": "word",
+              "text": "layover",
+              "targetId": "word-layover",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-056-01"
+            },
+            {
+              "type": "text",
+              "text": " in Los Angeles."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "I took advantage of my long layover, and I visited Hollywood with my cousin.",
+          "tc": "我好好利用那段很長的轉機等待時間，和表親去了好萊塢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "took advantage of",
+              "targetId": "phrase-took-advantage-of",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-057-01"
+            },
+            {
+              "type": "text",
+              "text": " my long "
+            },
+            {
+              "type": "word",
+              "text": "layover",
+              "targetId": "word-layover",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-057-02"
+            },
+            {
+              "type": "text",
+              "text": ", and I visited Hollywood with my cousin."
+            }
+          ]
+        },
+        {
+          "en": "Then I took my next flight to Japan.",
+          "tc": "然後我搭下一班飛機去日本。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I took my next flight to Japan."
+            }
+          ]
+        },
+        {
+          "en": "I stayed in Japan for 12 hours, and I visited, I visited Osaka.",
+          "tc": "我在日本待了 12 小時，然後我去了，我去了大阪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I stayed in Japan for 12 hours, and I visited, I visited Osaka."
+            }
+          ]
+        },
+        {
+          "en": "I, I went shopping, and I even ate sushi.",
+          "tc": "我，我去逛街，甚至吃了壽司。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I, I went shopping, and I even ate sushi."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "Then, finally, I got on my last flight to Bangkok, Thailand.",
+          "tc": "然後最後，我搭上最後一班飛往泰國曼谷的飛機。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then, finally, I "
+            },
+            {
+              "type": "phrase",
+              "text": "got on",
+              "targetId": "phrase-got-on",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-061-01"
+            },
+            {
+              "type": "text",
+              "text": " my last flight to Bangkok, Thailand."
+            }
+          ]
+        },
+        {
+          "en": "After 52 hours of flying, I finally arrived in Thailand.",
+          "tc": "飛了 52 小時之後，我終於抵達泰國。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After 52 hours of flying, I finally arrived in Thailand."
+            }
+          ]
+        },
+        {
+          "en": "But 52 hours of flying is very bad for your sleep schedule.",
+          "tc": "但飛 52 小時對你的睡眠作息很不好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But 52 hours of flying is very bad for your sleep "
+            },
+            {
+              "type": "word",
+              "text": "schedule",
+              "targetId": "word-schedule",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-063-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "But it was worth it for the price, and I was able to visit two extra countries.",
+          "tc": "不過以那個價格來說很值得，而且我還能多去兩個國家。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But it was "
+            },
+            {
+              "type": "phrase",
+              "text": "worth it",
+              "targetId": "phrase-worth-it",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-064-01"
+            },
+            {
+              "type": "text",
+              "text": " for the price, and I "
+            },
+            {
+              "type": "phrase",
+              "text": "was able to",
+              "targetId": "phrase-was-able-to",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-064-02"
+            },
+            {
+              "type": "text",
+              "text": " visit two extra countries."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "But I wouldn't do it again.",
+          "tc": "但我不會再做一次了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I wouldn't do it again."
+            }
+          ]
+        },
+        {
+          "en": "I would not repeat that experience.",
+          "tc": "我不會重複那個經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would not repeat that experience."
+            }
+          ]
+        },
+        {
+          "en": "Now I prioritize my time and my sleep.",
+          "tc": "現在我把時間和睡眠放在優先。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now I "
+            },
+            {
+              "type": "word",
+              "text": "prioritize",
+              "targetId": "word-prioritize",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-067-01"
+            },
+            {
+              "type": "text",
+              "text": " my time and my sleep."
+            }
+          ]
+        },
+        {
+          "en": "What has been your longest layover?",
+          "tc": "你最長的轉機等待是多久？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What has been your longest "
+            },
+            {
+              "type": "word",
+              "text": "layover",
+              "targetId": "word-layover",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-068-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "Would you rather have a cheap 52-hour flight or an expensive 12-hour flight?",
+          "tc": "你寧願搭便宜的 52 小時航班，還是昂貴的 12 小時航班？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Would you rather have a cheap 52-hour flight or an expensive 12-hour flight?"
+            }
+          ]
+        },
+        {
+          "en": "Tell me in the comments below.",
+          "tc": "在下面留言告訴我。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Tell me in the comments below."
+            }
+          ]
+        },
+        {
+          "en": "Don't forget to subscribe and like this video for more English content.",
+          "tc": "別忘了訂閱並按讚這支影片，收看更多英文內容。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Don't forget to "
+            },
+            {
+              "type": "word",
+              "text": "subscribe",
+              "targetId": "word-subscribe",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-071-01"
+            },
+            {
+              "type": "text",
+              "text": " and like this video for more English "
+            },
+            {
+              "type": "word",
+              "text": "content",
+              "targetId": "word-content",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-071-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Also, tell me: what do you hate most about airports?",
+          "tc": "也告訴我：你最討厭機場的哪一點？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Also, tell me: what do you hate most about airports?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "Thank you.",
+          "tc": "謝謝。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "再見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "vocabGroups": [
+    {
+      "title": "B1 重點單字",
+      "items": [
+        {
+          "id": "word-tiny",
+          "lemma": "tiny",
+          "english": "tiny",
+          "kk": "/ˈtaɪni/",
+          "partOfSpeech": "adjective",
+          "meaning": "很小的、微小的",
+          "highlight": true
+        },
+        {
+          "id": "word-detail",
+          "lemma": "detail",
+          "english": "detail",
+          "kk": "/dɪˈtel/",
+          "partOfSpeech": "noun",
+          "meaning": "細節",
+          "highlight": true
+        },
+        {
+          "id": "word-triple-check",
+          "lemma": "triple-check",
+          "english": "triple-check",
+          "kk": "/ˈtrɪpəl tʃɛk/",
+          "partOfSpeech": "verb",
+          "meaning": "檢查三遍、反覆確認",
+          "highlight": true
+        },
+        {
+          "id": "word-stressful",
+          "lemma": "stressful",
+          "english": "stressful",
+          "kk": "/ˈstrɛsfəl/",
+          "partOfSpeech": "adjective",
+          "meaning": "壓力大的",
+          "highlight": true
+        },
+        {
+          "id": "word-convince",
+          "lemma": "convince",
+          "english": "Convince",
+          "kk": "/kənˈvɪns/",
+          "partOfSpeech": "verb",
+          "meaning": "說服",
+          "highlight": true
+        },
+        {
+          "id": "word-rush",
+          "lemma": "rush",
+          "english": "rushing",
+          "kk": "/ˈrʌʃɪŋ/",
+          "partOfSpeech": "verb",
+          "meaning": "匆忙行動、趕來趕去",
+          "highlight": true
+        },
+        {
+          "id": "word-chaos",
+          "lemma": "chaos",
+          "english": "chaos",
+          "kk": "/ˈkeɑs/",
+          "partOfSpeech": "noun",
+          "meaning": "混亂",
+          "highlight": true
+        },
+        {
+          "id": "word-chaotic",
+          "lemma": "chaotic",
+          "english": "chaotic",
+          "kk": "/keˈɑtɪk/",
+          "partOfSpeech": "adjective",
+          "meaning": "混亂的",
+          "highlight": true
+        },
+        {
+          "id": "word-frustrating",
+          "lemma": "frustrating",
+          "english": "frustrating",
+          "kk": "/ˈfrʌstreɪtɪŋ/",
+          "partOfSpeech": "adjective",
+          "meaning": "令人挫折的、令人煩躁的",
+          "highlight": true
+        },
+        {
+          "id": "word-terminal",
+          "lemma": "terminal",
+          "english": "terminals",
+          "kk": "/ˈtɝmənəl/",
+          "partOfSpeech": "noun",
+          "meaning": "航廈、航空站",
+          "highlight": true
+        },
+        {
+          "id": "word-eager",
+          "lemma": "eager",
+          "english": "eager",
+          "kk": "/ˈigɚ/",
+          "partOfSpeech": "adjective",
+          "meaning": "急切的、渴望的",
+          "highlight": true
+        },
+        {
+          "id": "word-packer",
+          "lemma": "packer",
+          "english": "packer",
+          "kk": "/ˈpækɚ/",
+          "partOfSpeech": "noun",
+          "meaning": "打包行李的人",
+          "highlight": true
+        },
+        {
+          "id": "word-traveler",
+          "lemma": "traveler",
+          "english": "traveler",
+          "kk": "/ˈtrævəlɚ/",
+          "partOfSpeech": "noun",
+          "meaning": "旅行者",
+          "highlight": true
+        },
+        {
+          "id": "word-delay",
+          "lemma": "delay",
+          "english": "delayed",
+          "kk": "/dɪˈled/",
+          "partOfSpeech": "verb",
+          "meaning": "被延誤",
+          "highlight": true
+        },
+        {
+          "id": "word-accommodation",
+          "lemma": "accommodation",
+          "english": "accommodation",
+          "kk": "/əˌkɑməˈdeʃən/",
+          "partOfSpeech": "noun",
+          "meaning": "住宿、住處安排",
+          "highlight": true
+        },
+        {
+          "id": "word-stretch",
+          "lemma": "stretch",
+          "english": "stretching",
+          "kk": "/ˈstrɛtʃɪŋ/",
+          "partOfSpeech": "verb",
+          "meaning": "伸展、拉筋",
+          "highlight": true
+        },
+        {
+          "id": "word-adventure",
+          "lemma": "adventure",
+          "english": "adventures",
+          "kk": "/ədˈvɛntʃɚz/",
+          "partOfSpeech": "noun",
+          "meaning": "冒險、精彩經歷",
+          "highlight": true
+        },
+        {
+          "id": "word-layover",
+          "lemma": "layover",
+          "english": "layovers",
+          "kk": "/ˈleˌovɚz/",
+          "partOfSpeech": "noun",
+          "meaning": "轉機等待時間",
+          "highlight": true
+        },
+        {
+          "id": "word-schedule",
+          "lemma": "schedule",
+          "english": "schedule",
+          "kk": "/ˈskɛdʒʊl/",
+          "partOfSpeech": "noun",
+          "meaning": "作息、時間表",
+          "highlight": true
+        },
+        {
+          "id": "word-prioritize",
+          "lemma": "prioritize",
+          "english": "prioritize",
+          "kk": "/praɪˈɔrəˌtaɪz/",
+          "partOfSpeech": "verb",
+          "meaning": "優先考慮、把某事放在優先",
+          "highlight": true
+        },
+        {
+          "id": "word-subscribe",
+          "lemma": "subscribe",
+          "english": "subscribe",
+          "kk": "/səbˈskraɪb/",
+          "partOfSpeech": "verb",
+          "meaning": "訂閱",
+          "highlight": true
+        },
+        {
+          "id": "word-content",
+          "lemma": "content",
+          "english": "content",
+          "kk": "/ˈkɑntɛnt/",
+          "partOfSpeech": "noun",
+          "meaning": "內容",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "phrase-similar-to",
+      "phrase": "similar to",
+      "meaning": "和……相似",
+      "examples": [
+        {
+          "en": "My experience with airports is probably very similar to everybody else's.",
+          "tc": "和……相似"
+        }
+      ]
+    },
+    {
+      "id": "phrase-check-in",
+      "phrase": "check in",
+      "meaning": "辦理登機手續",
+      "examples": [
+        {
+          "en": "I always make sure to check in online.",
+          "tc": "辦理登機手續"
+        }
+      ]
+    },
+    {
+      "id": "phrase-right-away",
+      "phrase": "right away",
+      "meaning": "立刻、馬上",
+      "examples": [
+        {
+          "en": "I check in right away.",
+          "tc": "立刻、馬上"
+        }
+      ]
+    },
+    {
+      "id": "phrase-peace-of-mind",
+      "phrase": "peace of mind",
+      "meaning": "安心、心裡踏實",
+      "examples": [
+        {
+          "en": "I have more peace of mind.",
+          "tc": "安心、心裡踏實"
+        }
+      ]
+    },
+    {
+      "id": "phrase-boarding-pass",
+      "phrase": "boarding pass",
+      "meaning": "登機證",
+      "examples": [
+        {
+          "en": "I usually get my boarding pass on my phone.",
+          "tc": "登機證"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-person",
+      "phrase": "in person",
+      "meaning": "親自、本人到場",
+      "examples": [
+        {
+          "en": "I prefer to check in online rather than check in in person.",
+          "tc": "親自、本人到場"
+        }
+      ]
+    },
+    {
+      "id": "phrase-security-check",
+      "phrase": "security check",
+      "meaning": "安檢",
+      "examples": [
+        {
+          "en": "The worst part is the security check.",
+          "tc": "安檢"
+        }
+      ]
+    },
+    {
+      "id": "phrase-going-through-security",
+      "phrase": "going through security",
+      "meaning": "通過安檢流程",
+      "examples": [
+        {
+          "en": "Finding my gate is less stressful than going through security.",
+          "tc": "通過安檢流程"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-a-seat",
+      "phrase": "take a seat",
+      "meaning": "坐下、入座",
+      "examples": [
+        {
+          "en": "I only need to board and take a seat.",
+          "tc": "坐下、入座"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-your-time",
+      "phrase": "take your time",
+      "meaning": "慢慢來、不急",
+      "examples": [
+        {
+          "en": "Do you prefer to take your time and wait?",
+          "tc": "慢慢來、不急"
+        }
+      ]
+    },
+    {
+      "id": "phrase-personal-item",
+      "phrase": "personal item",
+      "meaning": "可帶上飛機的小型個人物品",
+      "examples": [
+        {
+          "en": "I usually only bring one personal item.",
+          "tc": "可帶上飛機的小型個人物品"
+        }
+      ]
+    },
+    {
+      "id": "phrase-carry-on",
+      "phrase": "carry-on",
+      "meaning": "可帶上飛機的隨身行李",
+      "examples": [
+        {
+          "en": "I don't need a carry-on.",
+          "tc": "可帶上飛機的隨身行李"
+        }
+      ]
+    },
+    {
+      "id": "phrase-check-my-luggage",
+      "phrase": "check my luggage",
+      "meaning": "托運我的行李",
+      "examples": [
+        {
+          "en": "I don't need to check my luggage either.",
+          "tc": "托運我的行李"
+        }
+      ]
+    },
+    {
+      "id": "phrase-checked-luggage",
+      "phrase": "checked luggage",
+      "meaning": "托運行李",
+      "examples": [
+        {
+          "en": "Do you bring a carry-on or checked luggage?",
+          "tc": "托運行李"
+        }
+      ]
+    },
+    {
+      "id": "phrase-economy-class",
+      "phrase": "economy class",
+      "meaning": "經濟艙",
+      "examples": [
+        {
+          "en": "My family and I were in economy class.",
+          "tc": "經濟艙"
+        }
+      ]
+    },
+    {
+      "id": "phrase-first-class",
+      "phrase": "first class",
+      "meaning": "頭等艙",
+      "examples": [
+        {
+          "en": "We weren't first class.",
+          "tc": "頭等艙"
+        }
+      ]
+    },
+    {
+      "id": "phrase-anything-goes",
+      "phrase": "anything goes",
+      "meaning": "什麼都可以、什麼都可能發生",
+      "examples": [
+        {
+          "en": "Anything goes at the airport.",
+          "tc": "什麼都可以、什麼都可能發生"
+        }
+      ]
+    },
+    {
+      "id": "phrase-nervous-excitement",
+      "phrase": "nervous excitement",
+      "meaning": "又緊張又興奮的感覺",
+      "examples": [
+        {
+          "en": "Airports give me that nervous excitement.",
+          "tc": "又緊張又興奮的感覺"
+        }
+      ]
+    },
+    {
+      "id": "phrase-butterflies-in-my-stomach",
+      "phrase": "butterflies in my stomach",
+      "meaning": "緊張或期待到心裡癢癢的感覺",
+      "examples": [
+        {
+          "en": "That feeling of butterflies in my stomach.",
+          "tc": "緊張或期待到心裡癢癢的感覺"
+        }
+      ]
+    },
+    {
+      "id": "phrase-to-come",
+      "phrase": "to come",
+      "meaning": "即將到來的、未來的",
+      "examples": [
+        {
+          "en": "All the adventures to come.",
+          "tc": "即將到來的、未來的"
+        }
+      ]
+    },
+    {
+      "id": "phrase-as-long-as",
+      "phrase": "as long as",
+      "meaning": "長達……",
+      "examples": [
+        {
+          "en": "I would book flights as long as 52 hours.",
+          "tc": "長達……"
+        }
+      ]
+    },
+    {
+      "id": "phrase-took-advantage-of",
+      "phrase": "took advantage of",
+      "meaning": "好好利用",
+      "examples": [
+        {
+          "en": "I took advantage of my long layover.",
+          "tc": "好好利用"
+        }
+      ]
+    },
+    {
+      "id": "phrase-got-on",
+      "phrase": "got on",
+      "meaning": "上車、上飛機",
+      "examples": [
+        {
+          "en": "I got on my last flight to Bangkok.",
+          "tc": "上車、上飛機"
+        }
+      ]
+    },
+    {
+      "id": "phrase-worth-it",
+      "phrase": "worth it",
+      "meaning": "值得的、有價值的",
+      "examples": [
+        {
+          "en": "It was worth it for the price.",
+          "tc": "值得的、有價值的"
+        }
+      ]
+    },
+    {
+      "id": "phrase-was-able-to",
+      "phrase": "was able to",
+      "meaning": "能夠做到、成功做到",
+      "examples": [
+        {
+          "en": "I was able to visit two extra countries.",
+          "tc": "能夠做到、成功做到"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-go-worries-go-away-go-away",
+      "word": "go",
+      "familiarMeaning": "去、走",
+      "usage": "在 worries go away 中，go away 表示感覺或問題消失，不是真的走去某處。",
+      "translation": "消失、不見",
+      "examples": [
+        "My worries go away."
+      ]
+    },
+    {
+      "id": "usage-light-light-packer-light-traveler-ligh",
+      "word": "light",
+      "familiarMeaning": "光、明亮的、重量輕的",
+      "usage": "在 light packer 和 light traveler 中，light 表示帶很少東西、行李不多。",
+      "translation": "輕裝的、帶很少行李的",
+      "examples": [
+        "I am a light packer.",
+        "I am a light traveler."
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "grammar-1",
+      "sentence": "Whenever I go to the airport, I just pray I didn't forget one tiny detail.",
+      "translation": "每次我去機場時，我就祈禱自己沒有忘記某個小細節。",
+      "points": [
+        {
+          "label": "Whenever 引導時間副詞子句",
+          "text": "Whenever + 主詞 + 動詞, 主詞 + 動詞",
+          "note": "Whenever 表示每一次發生某事時，後面接一個完整子句，再接主要句子。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "sentence": "One tiny detail that could make me miss my flight.",
+      "translation": "一個可能讓我錯過班機的小細節。",
+      "points": [
+        {
+          "label": "關係子句 that + 情態助動詞 could",
+          "text": "名詞 + that + could + 動詞原形",
+          "note": "that could make me miss my flight 用來補充說明 detail，表示這個細節可能造成的結果。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "sentence": "I check in right away so that I have more peace of mind.",
+      "translation": "我馬上辦理登機手續，這樣我就能更安心。",
+      "points": [
+        {
+          "label": "so that 表目的或結果",
+          "text": "主句 + so that + 主詞 + 動詞",
+          "note": "so that 後面接一個子句，說明做前面那件事的目的或帶來的結果。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-4",
+      "sentence": "I think it is less stressful to check in online than it is to check in in person.",
+      "translation": "我覺得線上辦理登機手續比親自辦理壓力小。",
+      "points": [
+        {
+          "label": "比較級 less ... than ...",
+          "text": "It is less + 形容詞 + to V + than + it is + to V",
+          "note": "用 less stressful than 比較兩件事，表示前者的壓力比後者小。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "Finding my gate is usually less stressful than going through security.",
+      "translation": "找登機門通常比通過安檢壓力小。",
+      "points": [
+        {
+          "label": "動名詞作主詞與比較",
+          "text": "V-ing + is + 比較級 + than + V-ing",
+          "note": "Finding 和 going 都是動名詞，當作事情來比較。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "But once I am at my gate, my worries go away.",
+      "translation": "一旦我到了登機門，我的擔心就消失了。",
+      "points": [
+        {
+          "label": "once 引導時間子句",
+          "text": "Once + 主詞 + 動詞, 主詞 + 動詞",
+          "note": "once 在這裡表示一旦某事發生，另一件事就跟著發生。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "My flights rarely get delayed, but when they do, it is very annoying.",
+      "translation": "我的班機很少延誤，但一延誤就很煩。",
+      "points": [
+        {
+          "label": "助動詞 do 代替前面的動作",
+          "text": "when + 主詞 + do",
+          "note": "do 代替前面提到的 get delayed，避免重複整個動詞片語。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "Airports also give me that nervous excitement, that feeling of butterflies in my stomach, butterflies for all the adventures to come.",
+      "translation": "機場也給我那種為了即將到來的冒險而緊張興奮的感覺。",
+      "points": [
+        {
+          "label": "名詞 + to V 作後位修飾",
+          "text": "名詞 + to + 動詞原形",
+          "note": "to come 放在 adventures 後面，表示那些冒險是未來即將發生的。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-9",
+      "sentence": "I used to have long layovers.",
+      "translation": "我以前常常有很長的轉機等待時間。",
+      "points": [
+        {
+          "label": "used to 表過去習慣",
+          "text": "主詞 + used to + 動詞原形",
+          "note": "used to 表示以前常常做某事，但現在可能不再這樣。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-10",
+      "sentence": "I wanted to save money, as much money as I possibly could.",
+      "translation": "我想省錢，盡可能省越多錢越好。",
+      "points": [
+        {
+          "label": "as ... as 比較結構",
+          "text": "as + much + 名詞 + as + 主詞 + could",
+          "note": "這個結構表示程度盡可能高，as much money as I possibly could 就是盡可能多省錢。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-11",
+      "sentence": "I would book flights as long as 52 hours with 12-hour layovers.",
+      "translation": "我會訂長達 52 小時、包含 12 小時轉機等待的航班。",
+      "points": [
+        {
+          "label": "would 表過去反覆習慣",
+          "text": "主詞 + would + 動詞原形",
+          "note": "would 在這裡不是未來，而是回憶過去常做的事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-12",
+      "sentence": "What has been your longest layover?",
+      "translation": "你到目前為止最長的轉機等待是多久？",
+      "points": [
+        {
+          "label": "現在完成式疑問句",
+          "text": "What + has + 過去分詞 + 名詞?",
+          "note": "has been 用來問到現在為止的人生經驗或紀錄。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-13",
+      "sentence": "Would you rather have a cheap 52-hour flight or an expensive 12-hour flight?",
+      "translation": "你寧願搭便宜的 52 小時航班，還是昂貴的 12 小時航班？",
+      "points": [
+        {
+          "label": "would rather 表偏好",
+          "text": "Would + 主詞 + rather + 動詞原形 + A or B?",
+          "note": "would rather 用來詢問或表達比較想要哪一個選項。"
+        }
+      ]
+    }
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch2-slow-english-practice-for-b1-intermediate-talking-about-airports",
+    "sourcePath": "_private/tmp/originalContent/b1/ch2-slow-english-practice-for-b1-intermediate-talking-about-airports.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch2-slow-english-practice-for-b1-intermediate-talking-about-airports.md"
+  }
+}

@@ -8,3 +8,9 @@ test-results/
 playwright-report/
 *.local
 .DS_Store
+_private/misshoney/inventory/
+_private/misshoney/transcripts/
+_private/misshoney/skipped/
+_private/misshoney/import-summary.json
+_private/misshoney/content-scaffolds/
+_private/misshoney/generated-content/

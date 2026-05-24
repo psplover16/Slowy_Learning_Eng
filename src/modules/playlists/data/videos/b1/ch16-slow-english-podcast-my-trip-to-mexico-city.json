@@ -1,0 +1,4116 @@
+{
+  "videoId": "yON-KM3Nqhw",
+  "slug": "ch16-slow-english-podcast-my-trip-to-mexico-city",
+  "level": "b1",
+  "title": "Slow English Podcast - My trip to Mexico City!",
+  "youtubeUrl": "https://www.youtube.com/watch?v=yON-KM3Nqhw",
+  "header": {
+    "podcastLabel": "MissHoney B1",
+    "titleZh": "慢速英語podcast - 我的墨西哥城之旅！",
+    "titleEn": "Slow English Podcast - My trip to Mexico City!",
+    "levelTag": "B1",
+    "topicTag": "travel"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "no": "01",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
+      "sentences": [
+        {
+          "en": "Listen to comprehensible English through my slow English vlogs.",
+          "tc": "透過我的慢速英文影音日誌來聽可理解的英文吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Listen to "
+            },
+            {
+              "type": "word",
+              "text": "comprehensible",
+              "targetId": "word-comprehensible",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-001-01"
+            },
+            {
+              "type": "text",
+              "text": " English "
+            },
+            {
+              "type": "usage",
+              "text": "through",
+              "targetId": "usage-through-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-001-02"
+            },
+            {
+              "type": "text",
+              "text": " my slow English "
+            },
+            {
+              "type": "word",
+              "text": "vlogs",
+              "targetId": "word-vlog",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-001-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Enjoy.",
+          "tc": "請享用。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Enjoy."
+            }
+          ]
+        },
+        {
+          "en": "I arrived in Mexico City around 7 a.m. That was super early.",
+          "tc": "我大約早上七點抵達墨西哥城，那真的超早。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I arrived in Mexico City around 7 a.m. That was super early."
+            }
+          ]
+        },
+        {
+          "en": "I was so tired that I had to sit down on the sidewalk and rest for a little bit.",
+          "tc": "我累到必須坐在人行道上休息一下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was so tired that I had to "
+            },
+            {
+              "type": "phrase",
+              "text": "sit down",
+              "targetId": "phrase-sit-down",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-004-01"
+            },
+            {
+              "type": "text",
+              "text": " on the "
+            },
+            {
+              "type": "word",
+              "text": "sidewalk",
+              "targetId": "word-sidewalk",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-004-02"
+            },
+            {
+              "type": "text",
+              "text": " and rest for "
+            },
+            {
+              "type": "phrase",
+              "text": "a little bit",
+              "targetId": "phrase-heading-to",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-004-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
+      "sentences": [
+        {
+          "en": "I was so hungry because I took the night bus.",
+          "tc": "我非常餓，因為我搭了夜間巴士。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was so hungry because I "
+            },
+            {
+              "type": "usage",
+              "text": "took",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-005-01"
+            },
+            {
+              "type": "text",
+              "text": " the night bus."
+            }
+          ]
+        },
+        {
+          "en": "So I knew exactly what I needed: avocado toast, my favorite, with a beautiful view.",
+          "tc": "所以我很清楚自己需要什麼：酪梨吐司，我的最愛，而且還有美麗的景色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I knew exactly what I needed: "
+            },
+            {
+              "type": "word",
+              "text": "avocado",
+              "targetId": "word-avocado",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-006-01"
+            },
+            {
+              "type": "text",
+              "text": " toast, my favorite, with a beautiful "
+            },
+            {
+              "type": "usage",
+              "text": "view",
+              "targetId": "usage-view-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-006-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I waited around until it was time for me to check in at my Airbnb.",
+          "tc": "我一直等到可以在 Airbnb 辦理入住。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I waited around until it was time for me to "
+            },
+            {
+              "type": "phrase",
+              "text": "check in",
+              "targetId": "phrase-check-in",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-007-01"
+            },
+            {
+              "type": "text",
+              "text": " at my Airbnb."
+            }
+          ]
+        },
+        {
+          "en": "I booked an Airbnb in the center of town.",
+          "tc": "我訂了一間位在市中心的 Airbnb。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I booked an Airbnb in the center of town."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
+      "sentences": [
+        {
+          "en": "I pushed the elevator button and rode all the way up to the 30th floor.",
+          "tc": "我按了電梯按鈕，一路搭到三十樓。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I pushed the "
+            },
+            {
+              "type": "word",
+              "text": "elevator",
+              "targetId": "word-elevator",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-009-01"
+            },
+            {
+              "type": "text",
+              "text": " button and rode all the way up to the 30th floor."
+            }
+          ]
+        },
+        {
+          "en": "I love elevators with mirrors.",
+          "tc": "我喜歡有鏡子的電梯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love elevators with mirrors."
+            }
+          ]
+        },
+        {
+          "en": "I walked down the hallway all the way to my apartment.",
+          "tc": "我沿著走廊一路走到我的公寓。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I walked down the hallway all the way to my apartment."
+            }
+          ]
+        },
+        {
+          "en": "I put in the security code they sent me through Airbnb.",
+          "tc": "我輸入了他們透過 Airbnb 傳給我的安全密碼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I put in the "
+            },
+            {
+              "type": "word",
+              "text": "security",
+              "targetId": "word-security",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-012-01"
+            },
+            {
+              "type": "text",
+              "text": " code they sent me "
+            },
+            {
+              "type": "usage",
+              "text": "through",
+              "targetId": "usage-through-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-012-02"
+            },
+            {
+              "type": "text",
+              "text": " Airbnb."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
+      "sentences": [
+        {
+          "en": "I walked in, and the first thing I did was take off my shoes, always.",
+          "tc": "我走進去後，第一件事就是脫鞋，一向如此。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I walked in, and the first thing I did was "
+            },
+            {
+              "type": "phrase",
+              "text": "take off",
+              "targetId": "phrase-take-off",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-013-01"
+            },
+            {
+              "type": "text",
+              "text": " my shoes, always."
+            }
+          ]
+        },
+        {
+          "en": "The first thing I do when going into an apartment or home is to take off my shoes.",
+          "tc": "我進公寓或家裡時做的第一件事就是脫鞋。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The first thing I do when going into an apartment or home is to "
+            },
+            {
+              "type": "phrase",
+              "text": "take off",
+              "targetId": "phrase-take-off",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-014-01"
+            },
+            {
+              "type": "text",
+              "text": " my shoes."
+            }
+          ]
+        },
+        {
+          "en": "The apartment's kitchen was small but beautiful, with a big sink, a nice blender, and a little stove.",
+          "tc": "這間公寓的廚房小但漂亮，有一個大水槽、一台很好的果汁機，還有一個小爐子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The apartment's kitchen was small but beautiful, with a big sink, a nice "
+            },
+            {
+              "type": "word",
+              "text": "blender",
+              "targetId": "word-blender",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-015-01"
+            },
+            {
+              "type": "text",
+              "text": ", and a little stove."
+            }
+          ]
+        },
+        {
+          "en": "There was no oven, though.",
+          "tc": "不過沒有烤箱。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There was no oven, though."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
+      "sentences": [
+        {
+          "en": "That was a drawback.",
+          "tc": "那是一個缺點。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That was a "
+            },
+            {
+              "type": "word",
+              "text": "drawback",
+              "targetId": "word-drawback",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-017-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "But the refrigerator was big, and so was the living room.",
+          "tc": "但是冰箱很大，客廳也很大。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But the refrigerator was big, and so was the living room."
+            }
+          ]
+        },
+        {
+          "en": "I loved the big windows where I could sit down and work.",
+          "tc": "我喜歡那些大窗戶，讓我可以坐下來工作。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I loved the big windows where I could "
+            },
+            {
+              "type": "phrase",
+              "text": "sit down",
+              "targetId": "phrase-sit-down",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-019-01"
+            },
+            {
+              "type": "text",
+              "text": " and work."
+            }
+          ]
+        },
+        {
+          "en": "I think sunlight is super important for having a happy life.",
+          "tc": "我覺得陽光對擁有快樂生活非常重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think sunlight is super important for having a happy life."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
+      "sentences": [
+        {
+          "en": "If you work in dark spaces, you can often feel sad.",
+          "tc": "如果你在陰暗的空間工作，常常會感到難過。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you work in dark spaces, you can often feel sad."
+            }
+          ]
+        },
+        {
+          "en": "That's why I love big windows like these.",
+          "tc": "這就是我喜歡像這樣的大窗戶的原因。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's why I love big windows like these."
+            }
+          ]
+        },
+        {
+          "en": "Another part that I loved was the balcony.",
+          "tc": "我喜歡的另一個部分是陽台。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Another part that I loved was the "
+            },
+            {
+              "type": "word",
+              "text": "balcony",
+              "targetId": "word-balcony",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-023-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "It was small and cozy, perfect for reading a book in the morning or afternoon.",
+          "tc": "它小巧又舒適，很適合早上或下午讀書。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was small and cozy, perfect for reading a book in the morning or afternoon."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
+        {
+          "en": "I loved the apartment.",
+          "tc": "我很喜歡這間公寓。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I loved the apartment."
+            }
+          ]
+        },
+        {
+          "en": "I was going to stay here for one month, so I was really happy.",
+          "tc": "我打算在這裡住一個月，所以我真的很開心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was going to stay here for one month, so I was really happy."
+            }
+          ]
+        },
+        {
+          "en": "I chose a nice apartment.",
+          "tc": "我選了一間很好的公寓。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I chose a nice apartment."
+            }
+          ]
+        },
+        {
+          "en": "You can see so much from the 30th floor: people dancing, people walking, and we were right next to the monument in Mexico City.",
+          "tc": "從三十樓可以看到很多東西：人們跳舞、人們走路，而且我們就在墨西哥城的紀念碑旁邊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can see so much from the 30th floor: people dancing, people walking, and we were right next to the "
+            },
+            {
+              "type": "word",
+              "text": "monument",
+              "targetId": "word-monument",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-028-01"
+            },
+            {
+              "type": "text",
+              "text": " in Mexico City."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "To me, the bathroom is one of the most important parts.",
+          "tc": "對我來說，浴室是最重要的部分之一。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "To me, the bathroom is one of the most important parts."
+            }
+          ]
+        },
+        {
+          "en": "It just has to be clean.",
+          "tc": "它只要乾淨就好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It just has to be clean."
+            }
+          ]
+        },
+        {
+          "en": "That's it.",
+          "tc": "就是這樣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's it."
+            }
+          ]
+        },
+        {
+          "en": "But this one went above and beyond my expectations.",
+          "tc": "但這間浴室超出了我的期待。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But this one "
+            },
+            {
+              "type": "phrase",
+              "text": "went above and beyond",
+              "targetId": "phrase-go-above-and-beyond",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-032-01"
+            },
+            {
+              "type": "text",
+              "text": " my "
+            },
+            {
+              "type": "word",
+              "text": "expectations",
+              "targetId": "word-expectation",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-032-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
+        {
+          "en": "It had a clean toilet, a big sink, cups for toiletries like toothpaste or soap, and a space to keep things like my hairbrush or a blow dryer.",
+          "tc": "它有乾淨的馬桶、大水槽、放牙膏或肥皂等盥洗用品的杯子，還有可以放髮梳或吹風機等東西的空間。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It had a clean toilet, a big sink, cups for "
+            },
+            {
+              "type": "word",
+              "text": "toiletries",
+              "targetId": "word-toiletry",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-033-01"
+            },
+            {
+              "type": "text",
+              "text": " like "
+            },
+            {
+              "type": "word",
+              "text": "toothpaste",
+              "targetId": "word-toothpaste",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-033-02"
+            },
+            {
+              "type": "text",
+              "text": " or soap, and a space to keep things like my hairbrush or a "
+            },
+            {
+              "type": "word",
+              "text": "blow dryer",
+              "targetId": "word-blow-dryer",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-033-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "And the shower was just beautiful.",
+          "tc": "淋浴間也很漂亮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And the shower was just beautiful."
+            }
+          ]
+        },
+        {
+          "en": "The water pressure was very strong, which is hard to find sometimes in Mexico.",
+          "tc": "水壓很強，這在墨西哥有時很難找到。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The water "
+            },
+            {
+              "type": "word",
+              "text": "pressure",
+              "targetId": "word-pressure",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-035-01"
+            },
+            {
+              "type": "text",
+              "text": " was very strong, which is hard to find sometimes in Mexico."
+            }
+          ]
+        },
+        {
+          "en": "In general, it was just a clean bathroom, which I love.",
+          "tc": "整體來說，它就是一間乾淨的浴室，這點我很喜歡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "In general, it was just a clean bathroom, which I love."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "After checking in, I looked for a place to have lunch.",
+          "tc": "入住後，我找了一個地方吃午餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After checking in, I looked for a place to have lunch."
+            }
+          ]
+        },
+        {
+          "en": "I found a beautiful vegan restaurant, and I ordered the burrito, the burger, and the guacamole.",
+          "tc": "我找到一間漂亮的純素餐廳，點了墨西哥捲餅、漢堡和酪梨醬。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I found a beautiful "
+            },
+            {
+              "type": "word",
+              "text": "vegan",
+              "targetId": "word-vegan",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-038-01"
+            },
+            {
+              "type": "text",
+              "text": " restaurant, and I ordered the "
+            },
+            {
+              "type": "word",
+              "text": "burrito",
+              "targetId": "word-burrito",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-038-02"
+            },
+            {
+              "type": "text",
+              "text": ", the burger, and the "
+            },
+            {
+              "type": "word",
+              "text": "guacamole",
+              "targetId": "word-guacamole",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-038-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "It was all above and beyond my expectations.",
+          "tc": "一切都超出我的期待。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was all "
+            },
+            {
+              "type": "phrase",
+              "text": "above and beyond",
+              "targetId": "phrase-go-above-and-beyond",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-039-01"
+            },
+            {
+              "type": "text",
+              "text": " my "
+            },
+            {
+              "type": "word",
+              "text": "expectations",
+              "targetId": "word-expectation",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-039-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I loved that meal.",
+          "tc": "我很喜歡那一餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I loved that meal."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
+        {
+          "en": "I couldn't believe it was all vegan.",
+          "tc": "我不敢相信那些全都是純素的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I couldn't believe it was all "
+            },
+            {
+              "type": "word",
+              "text": "vegan",
+              "targetId": "word-vegan",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-041-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "It had no meat, no dairy, nothing.",
+          "tc": "沒有肉、沒有乳製品，什麼都沒有。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It had no meat, no "
+            },
+            {
+              "type": "word",
+              "text": "dairy",
+              "targetId": "word-dairy",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-042-01"
+            },
+            {
+              "type": "text",
+              "text": ", nothing."
+            }
+          ]
+        },
+        {
+          "en": "I saw this big palm tree that had flowers growing around it.",
+          "tc": "我看到一棵大棕櫚樹，周圍長著花。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I saw this big "
+            },
+            {
+              "type": "word",
+              "text": "palm",
+              "targetId": "word-palm",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-043-01"
+            },
+            {
+              "type": "text",
+              "text": " tree that had flowers growing around it."
+            }
+          ]
+        },
+        {
+          "en": "I went back home and rested for a little bit before heading to the gym.",
+          "tc": "我回家休息了一下，然後前往健身房。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I went back home and rested for "
+            },
+            {
+              "type": "phrase",
+              "text": "a little bit",
+              "targetId": "phrase-heading-to",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-044-01"
+            },
+            {
+              "type": "text",
+              "text": " before "
+            },
+            {
+              "type": "phrase",
+              "text": "heading to",
+              "targetId": "phrase-heading-to",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-044-02"
+            },
+            {
+              "type": "text",
+              "text": " the gym."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "Yes, this place also has a gym with treadmills, spinning machines, and rowing machines.",
+          "tc": "對，這個地方也有健身房，裡面有跑步機、飛輪機和划船機。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yes, this place also has a gym with "
+            },
+            {
+              "type": "word",
+              "text": "treadmills",
+              "targetId": "word-treadmill",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-045-01"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "spinning",
+              "targetId": "word-spinning",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-045-02"
+            },
+            {
+              "type": "text",
+              "text": " machines, and "
+            },
+            {
+              "type": "word",
+              "text": "rowing",
+              "targetId": "word-rowing",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-045-03"
+            },
+            {
+              "type": "text",
+              "text": " machines."
+            }
+          ]
+        },
+        {
+          "en": "It has a big space to work out, kettlebells of all different shapes and sizes, classic dumbbells, of course, benches to use, and even a fancy ski ergometer and a punching bag.",
+          "tc": "它有很大的運動空間，各種形狀和大小的壺鈴，當然也有標準啞鈴、可以使用的長椅，甚至還有一台高級滑雪測功儀和一個拳擊沙袋。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It has a big space to "
+            },
+            {
+              "type": "phrase",
+              "text": "work out",
+              "targetId": "phrase-work-out",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-046-01"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "kettlebells",
+              "targetId": "word-kettlebell",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-046-02"
+            },
+            {
+              "type": "text",
+              "text": " of all different shapes and sizes, "
+            },
+            {
+              "type": "usage",
+              "text": "classic",
+              "targetId": "usage-classic-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-046-03"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "dumbbells",
+              "targetId": "word-dumbbell",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-046-04"
+            },
+            {
+              "type": "text",
+              "text": ", of course, benches to use, and even a fancy "
+            },
+            {
+              "type": "word",
+              "text": "ski ergometer",
+              "targetId": "word-ski-ergometer",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-046-05"
+            },
+            {
+              "type": "text",
+              "text": " and a "
+            },
+            {
+              "type": "word",
+              "text": "punching bag",
+              "targetId": "word-punching-bag",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-046-06"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Then you walk upstairs and go past the bathroom, the spa, and the sauna, and you will find my favorite part: the pool.",
+          "tc": "接著你走上樓，經過浴室、水療區和桑拿，就會找到我最喜歡的部分：游泳池。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then you walk upstairs and go past the bathroom, the "
+            },
+            {
+              "type": "word",
+              "text": "spa",
+              "targetId": "word-spa",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-047-01"
+            },
+            {
+              "type": "text",
+              "text": ", and the "
+            },
+            {
+              "type": "word",
+              "text": "sauna",
+              "targetId": "word-sauna",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-047-02"
+            },
+            {
+              "type": "text",
+              "text": ", and you will find my favorite part: the pool."
+            }
+          ]
+        },
+        {
+          "en": "It was a magnificent pool.",
+          "tc": "那是一個很棒的泳池。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a "
+            },
+            {
+              "type": "word",
+              "text": "magnificent",
+              "targetId": "word-magnificent",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-048-01"
+            },
+            {
+              "type": "text",
+              "text": " pool."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "The water was actually warm, and the view was stunning.",
+          "tc": "水其實是溫的，景色也非常驚人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The water was actually warm, and the "
+            },
+            {
+              "type": "usage",
+              "text": "view",
+              "targetId": "usage-view-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-049-01"
+            },
+            {
+              "type": "text",
+              "text": " was "
+            },
+            {
+              "type": "word",
+              "text": "stunning",
+              "targetId": "word-stunning",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-049-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "After working out, I love going for a dip in the pool, relaxing on the little couches, and enjoying the view.",
+          "tc": "運動後，我喜歡去泳池泡一下，在小沙發上放鬆，享受景色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After "
+            },
+            {
+              "type": "phrase",
+              "text": "working out",
+              "targetId": "phrase-go-for-a-dip",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-050-01"
+            },
+            {
+              "type": "text",
+              "text": ", I love "
+            },
+            {
+              "type": "phrase",
+              "text": "going for a dip",
+              "targetId": "phrase-go-for-a-dip",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-050-02"
+            },
+            {
+              "type": "text",
+              "text": " in the pool, relaxing on the little couches, and enjoying the "
+            },
+            {
+              "type": "usage",
+              "text": "view",
+              "targetId": "usage-view-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-050-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I always keep my bag with me.",
+          "tc": "我總是把包包帶在身邊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I always keep my bag with me."
+            }
+          ]
+        },
+        {
+          "en": "It is always packed with a water bottle, some goggles, and a swim cap, because it was mandatory to wear one when you swam in this pool.",
+          "tc": "裡面總是裝著水瓶、泳鏡和泳帽，因為在這個泳池游泳時規定要戴泳帽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is always "
+            },
+            {
+              "type": "phrase",
+              "text": "packed with",
+              "targetId": "phrase-packed-with",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-052-01"
+            },
+            {
+              "type": "text",
+              "text": " a water bottle, some "
+            },
+            {
+              "type": "word",
+              "text": "goggles",
+              "targetId": "word-goggles",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-052-02"
+            },
+            {
+              "type": "text",
+              "text": ", and a "
+            },
+            {
+              "type": "word",
+              "text": "swim cap",
+              "targetId": "word-swim-cap",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-052-03"
+            },
+            {
+              "type": "text",
+              "text": ", because it was "
+            },
+            {
+              "type": "word",
+              "text": "mandatory",
+              "targetId": "word-mandatory",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-052-04"
+            },
+            {
+              "type": "text",
+              "text": " to wear one when you swam in this pool."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "I've always thought I look so silly with goggles and a swim cap, but it's so refreshing to swim after working out.",
+          "tc": "我一直覺得自己戴泳鏡和泳帽看起來很傻，但運動後游泳真的很清爽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've always thought I look so silly with "
+            },
+            {
+              "type": "word",
+              "text": "goggles",
+              "targetId": "word-goggles",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-053-01"
+            },
+            {
+              "type": "text",
+              "text": " and a "
+            },
+            {
+              "type": "word",
+              "text": "swim cap",
+              "targetId": "word-swim-cap",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-053-02"
+            },
+            {
+              "type": "text",
+              "text": ", but it's so refreshing to swim after "
+            },
+            {
+              "type": "phrase",
+              "text": "working out",
+              "targetId": "phrase-go-for-a-dip",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-053-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "They even had a jacuzzi to relax in afterward, with lots and lots of bubbles everywhere.",
+          "tc": "他們甚至還有按摩浴缸，之後可以在裡面放鬆，到處都是好多好多泡泡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They even had a "
+            },
+            {
+              "type": "word",
+              "text": "jacuzzi",
+              "targetId": "word-jacuzzi",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-054-01"
+            },
+            {
+              "type": "text",
+              "text": " to relax in afterward, with lots and lots of bubbles everywhere."
+            }
+          ]
+        },
+        {
+          "en": "Can you tell me about a place you went that had such a beautiful view?",
+          "tc": "你可以告訴我你去過哪個有這麼美麗景色的地方嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Can you tell me about a place you went that had such a beautiful "
+            },
+            {
+              "type": "usage",
+              "text": "view",
+              "targetId": "usage-view-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-055-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Where was it?",
+          "tc": "那是哪裡？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Where was it?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "And when did you go?",
+          "tc": "你什麼時候去的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And when did you go?"
+            }
+          ]
+        },
+        {
+          "en": "After working out and swimming, I went to get sushi at my favorite place downtown.",
+          "tc": "運動和游泳後，我去市中心我最喜歡的地方吃壽司。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After "
+            },
+            {
+              "type": "phrase",
+              "text": "working out",
+              "targetId": "phrase-go-for-a-dip",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-058-01"
+            },
+            {
+              "type": "text",
+              "text": " and swimming, I went to get "
+            },
+            {
+              "type": "word",
+              "text": "sushi",
+              "targetId": "word-sushi",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-058-02"
+            },
+            {
+              "type": "text",
+              "text": " at my favorite place "
+            },
+            {
+              "type": "word",
+              "text": "downtown",
+              "targetId": "word-downtown",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-058-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I got the aguachile sushi and a tostada with tuna and avocado.",
+          "tc": "我點了阿瓜奇雷壽司，以及一份有鮪魚和酪梨的墨西哥脆餅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got the "
+            },
+            {
+              "type": "word",
+              "text": "aguachile",
+              "targetId": "word-aguachile",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-059-01"
+            },
+            {
+              "type": "text",
+              "text": " sushi and a "
+            },
+            {
+              "type": "word",
+              "text": "tostada",
+              "targetId": "word-tostada",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-059-02"
+            },
+            {
+              "type": "text",
+              "text": " with tuna and avocado."
+            }
+          ]
+        },
+        {
+          "en": "Something about me is that I don't eat the full sushi roll.",
+          "tc": "關於我有一件事：我不會把整個壽司卷一口吃掉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Something about me is that I don't eat the full sushi roll."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "I take bites.",
+          "tc": "我會咬著吃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-scene-16-001-001"
+            },
+            {
+              "type": "text",
+              "text": " bites."
+            }
+          ]
+        },
+        {
+          "en": "I know it's wrong, but I enjoy it more that way.",
+          "tc": "我知道這樣不對，但我更喜歡這種吃法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I know it's wrong, but I enjoy it more that way."
+            }
+          ]
+        },
+        {
+          "en": "What about you?",
+          "tc": "你呢？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What about you?"
+            }
+          ]
+        },
+        {
+          "en": "Do you eat your sushi rolls in one bite or two?",
+          "tc": "你吃壽司卷是一口吃完還是兩口？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you eat your sushi rolls in one bite or two?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "Finally, after a long and tiring day, I was craving something sweet.",
+          "tc": "最後，經過漫長又疲累的一天，我很想吃點甜的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Finally, after a long and tiring day, I was "
+            },
+            {
+              "type": "phrase",
+              "text": "craving something sweet",
+              "targetId": "phrase-craving-something-sweet",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-065-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "So I walked downtown.",
+          "tc": "所以我走到市中心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I walked "
+            },
+            {
+              "type": "word",
+              "text": "downtown",
+              "targetId": "word-downtown",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-066-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I found a Krispy Kreme that luckily was still open.",
+          "tc": "我找到一間幸好還開著的 Krispy Kreme。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I found a Krispy Kreme that "
+            },
+            {
+              "type": "word",
+              "text": "luckily",
+              "targetId": "word-luckily",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-067-01"
+            },
+            {
+              "type": "text",
+              "text": " was still open."
+            }
+          ]
+        },
+        {
+          "en": "I ordered a coffee and six donuts.",
+          "tc": "我點了一杯咖啡和六個甜甜圈。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I ordered a coffee and six "
+            },
+            {
+              "type": "word",
+              "text": "donuts",
+              "targetId": "word-donut",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-068-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "One of them was a Harry Potter Ravenclaw donut.",
+          "tc": "其中一個是 Harry Potter Ravenclaw 甜甜圈。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "One of them was a Harry Potter Ravenclaw "
+            },
+            {
+              "type": "word",
+              "text": "donut",
+              "targetId": "word-donut",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "It was blueberry and delicious.",
+          "tc": "它是藍莓口味，很好吃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was "
+            },
+            {
+              "type": "word",
+              "text": "blueberry",
+              "targetId": "word-blueberry",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-070-01"
+            },
+            {
+              "type": "text",
+              "text": " and delicious."
+            }
+          ]
+        },
+        {
+          "en": "Another one was brownie-flavored.",
+          "tc": "另一個是布朗尼口味。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Another one was "
+            },
+            {
+              "type": "word",
+              "text": "brownie-flavored",
+              "targetId": "word-brownie-flavored",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-071-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Another one was apple cinnamon.",
+          "tc": "另一個是蘋果肉桂口味。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Another one was apple "
+            },
+            {
+              "type": "word",
+              "text": "cinnamon",
+              "targetId": "word-cinnamon",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-072-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "And the last one was pumpkin spice.",
+          "tc": "最後一個是南瓜香料口味。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And the last one was "
+            },
+            {
+              "type": "word",
+              "text": "pumpkin spice",
+              "targetId": "word-pumpkin-spice",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-073-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Then it was definitely time for bed.",
+          "tc": "然後真的該睡覺了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then it was "
+            },
+            {
+              "type": "word",
+              "text": "definitely",
+              "targetId": "word-definitely",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-074-01"
+            },
+            {
+              "type": "text",
+              "text": " time for bed."
+            }
+          ]
+        },
+        {
+          "en": "The next day, I ordered takeout: some green enchiladas and red enchiladas.",
+          "tc": "第二天，我叫了外帶：一些綠醬恩奇拉達和紅醬恩奇拉達。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next day, I ordered "
+            },
+            {
+              "type": "word",
+              "text": "takeout",
+              "targetId": "word-takeout",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-075-01"
+            },
+            {
+              "type": "text",
+              "text": ": some green "
+            },
+            {
+              "type": "word",
+              "text": "enchiladas",
+              "targetId": "word-enchilada",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-075-02"
+            },
+            {
+              "type": "text",
+              "text": " and red "
+            },
+            {
+              "type": "word",
+              "text": "enchiladas",
+              "targetId": "word-enchilada",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-075-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I like to start my day by walking around the park, breathing in the fresh air around the trees, and getting my daily intake of sunlight.",
+          "tc": "我喜歡用在公園散步來開始一天，呼吸樹木周圍的新鮮空氣，並獲得每天需要的陽光。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like to "
+            },
+            {
+              "type": "phrase",
+              "text": "start my day",
+              "targetId": "phrase-start-my-day",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-076-01"
+            },
+            {
+              "type": "text",
+              "text": " by walking around the park, breathing in the fresh air around the trees, and getting my daily "
+            },
+            {
+              "type": "word",
+              "text": "intake",
+              "targetId": "word-intake",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-076-02"
+            },
+            {
+              "type": "text",
+              "text": " of sunlight."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "I saw some kitties hugging each other under a chair, and I found an Italian restaurant just around the corner.",
+          "tc": "我看到幾隻小貓在椅子下互相抱著，也在轉角附近找到一間義大利餐廳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I saw some "
+            },
+            {
+              "type": "word",
+              "text": "kitties",
+              "targetId": "word-kitty",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-077-01"
+            },
+            {
+              "type": "text",
+              "text": " hugging each other under a chair, and I found an Italian restaurant just "
+            },
+            {
+              "type": "phrase",
+              "text": "around the corner",
+              "targetId": "phrase-around-the-corner",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-077-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "So I stopped to eat some salad.",
+          "tc": "所以我停下來吃了一些沙拉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I stopped to eat some salad."
+            }
+          ]
+        },
+        {
+          "en": "The salad had pears and lettuce with goat cheese and nuts.",
+          "tc": "沙拉裡有梨子、生菜、山羊起司和堅果。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The salad had pears and lettuce with goat cheese and nuts."
+            }
+          ]
+        },
+        {
+          "en": "The view was also very nice.",
+          "tc": "景色也很不錯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The "
+            },
+            {
+              "type": "usage",
+              "text": "view",
+              "targetId": "usage-view-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-080-01"
+            },
+            {
+              "type": "text",
+              "text": " was also very nice."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "I stopped by a little store that was selling dried fruit.",
+          "tc": "我順路去了一間賣果乾的小店。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "stopped by",
+              "targetId": "phrase-stop-by",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-081-01"
+            },
+            {
+              "type": "text",
+              "text": " a little store that was selling dried fruit."
+            }
+          ]
+        },
+        {
+          "en": "And I love dried fruit.",
+          "tc": "而且我很喜歡果乾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I love dried fruit."
+            }
+          ]
+        },
+        {
+          "en": "So I bought some dried pineapple.",
+          "tc": "所以我買了一些鳳梨乾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I bought some dried "
+            },
+            {
+              "type": "word",
+              "text": "pineapple",
+              "targetId": "word-pineapple",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-083-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "In the evening, I walked around town in search of something to eat for dinner.",
+          "tc": "到了晚上，我在城裡到處走，尋找晚餐要吃的東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "In the evening, I walked around town "
+            },
+            {
+              "type": "phrase",
+              "text": "in search of",
+              "targetId": "phrase-in-search-of",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-084-01"
+            },
+            {
+              "type": "text",
+              "text": " something to eat for dinner."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "I know I was eating constantly, but I did find my next favorite restaurant, El Camaron Buchon, and I ordered some shrimp tacos.",
+          "tc": "我知道我一直在吃，但我確實找到了下一間最喜歡的餐廳 El Camaron Buchon，並點了一些蝦塔可。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I know I was eating "
+            },
+            {
+              "type": "word",
+              "text": "constantly",
+              "targetId": "word-constantly",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-085-01"
+            },
+            {
+              "type": "text",
+              "text": ", but I did find my next favorite restaurant, El Camaron Buchon, and I ordered some "
+            },
+            {
+              "type": "word",
+              "text": "shrimp",
+              "targetId": "word-shrimp",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-085-02"
+            },
+            {
+              "type": "text",
+              "text": " tacos."
+            }
+          ]
+        },
+        {
+          "en": "A little while after that, it began to rain, so I had to buy an umbrella.",
+          "tc": "過了一小段時間後開始下雨，所以我只好買一把傘。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A little while after that, it began to rain, so I had to buy an umbrella."
+            }
+          ]
+        },
+        {
+          "en": "It was a big purple umbrella, perfect for the unexpected changes in weather.",
+          "tc": "那是一把大的紫色雨傘，很適合應付天氣突如其來的變化。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a big purple umbrella, perfect for the "
+            },
+            {
+              "type": "word",
+              "text": "unexpected",
+              "targetId": "word-unexpected",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-087-01"
+            },
+            {
+              "type": "text",
+              "text": " changes in weather."
+            }
+          ]
+        },
+        {
+          "en": "Mexico City can be dry one second and then raining cats and dogs the next.",
+          "tc": "墨西哥城可能前一秒還很乾，下一秒就下起傾盆大雨。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mexico City can be dry one second and then "
+            },
+            {
+              "type": "phrase",
+              "text": "raining cats and dogs",
+              "targetId": "phrase-raining-cats-and-dogs",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-088-01"
+            },
+            {
+              "type": "text",
+              "text": " the next."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "The next day, I made myself avocado toast with eggs and a strawberry and banana smoothie, my absolute favorite breakfast.",
+          "tc": "第二天，我為自己做了酪梨蛋吐司，還有草莓香蕉冰沙，這是我最愛的早餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next day, I made myself avocado toast with eggs and a strawberry and banana "
+            },
+            {
+              "type": "word",
+              "text": "smoothie",
+              "targetId": "word-smoothie",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-089-01"
+            },
+            {
+              "type": "text",
+              "text": ", my absolute favorite breakfast."
+            }
+          ]
+        },
+        {
+          "en": "I walked around downtown Mexico City to show you some different coffee shops, restaurants, clothing stores, and department stores in general that you can find in downtown Mexico City.",
+          "tc": "我在墨西哥城市中心四處走，想帶你看看在墨西哥城市中心可以找到的不同咖啡店、餐廳、服飾店和百貨公司。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I walked around "
+            },
+            {
+              "type": "word",
+              "text": "downtown",
+              "targetId": "word-downtown",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-090-01"
+            },
+            {
+              "type": "text",
+              "text": " Mexico City to show you some different coffee shops, restaurants, clothing stores, and "
+            },
+            {
+              "type": "word",
+              "text": "department stores",
+              "targetId": "word-department-store",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-090-02"
+            },
+            {
+              "type": "text",
+              "text": " in general that you can find in "
+            },
+            {
+              "type": "word",
+              "text": "downtown",
+              "targetId": "word-downtown",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-090-03"
+            },
+            {
+              "type": "text",
+              "text": " Mexico City."
+            }
+          ]
+        },
+        {
+          "en": "As I walked downtown, I eventually arrived at the library.",
+          "tc": "當我在市中心走著走著時，最後來到了圖書館。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "As I walked "
+            },
+            {
+              "type": "word",
+              "text": "downtown",
+              "targetId": "word-downtown",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-091-01"
+            },
+            {
+              "type": "text",
+              "text": ", I "
+            },
+            {
+              "type": "word",
+              "text": "eventually",
+              "targetId": "word-eventually",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-091-02"
+            },
+            {
+              "type": "text",
+              "text": " arrived at the library."
+            }
+          ]
+        },
+        {
+          "en": "It's a famous library in Mexico City that has all different types of books.",
+          "tc": "這是墨西哥城一間有名的圖書館，裡面有各種類型的書。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's a famous library in Mexico City that has all different types of books."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "I had to go through security.",
+          "tc": "我必須通過安檢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I had to "
+            },
+            {
+              "type": "phrase",
+              "text": "go through security",
+              "targetId": "phrase-go-through-security",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-093-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I walked through the entrance.",
+          "tc": "我走過入口。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I walked "
+            },
+            {
+              "type": "usage",
+              "text": "through",
+              "targetId": "usage-through-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-scene-24-002-001"
+            },
+            {
+              "type": "text",
+              "text": " the entrance."
+            }
+          ]
+        },
+        {
+          "en": "Here you can see an infinite number of shelves of books.",
+          "tc": "在這裡你可以看到數不清的書架。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Here you can see an "
+            },
+            {
+              "type": "word",
+              "text": "infinite",
+              "targetId": "word-infinite",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-095-01"
+            },
+            {
+              "type": "text",
+              "text": " number of shelves of books."
+            }
+          ]
+        },
+        {
+          "en": "Is there a library like this where you live?",
+          "tc": "你住的地方有像這樣的圖書館嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is there a library like this where you live?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "Do you enjoy going to libraries?",
+          "tc": "你喜歡去圖書館嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you enjoy going to libraries?"
+            }
+          ]
+        },
+        {
+          "en": "Just outside of the library, I found a little stand in Chinatown.",
+          "tc": "就在圖書館外面，我在唐人街找到一個小攤位。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Just outside of the library, I found a little "
+            },
+            {
+              "type": "usage",
+              "text": "stand",
+              "targetId": "usage-stand-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-098-01"
+            },
+            {
+              "type": "text",
+              "text": " in Chinatown."
+            }
+          ]
+        },
+        {
+          "en": "So I bought some spring rolls with sweet sauce and soy sauce.",
+          "tc": "所以我買了一些春捲，配甜醬和醬油。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I bought some "
+            },
+            {
+              "type": "word",
+              "text": "spring rolls",
+              "targetId": "word-spring-roll",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-099-01"
+            },
+            {
+              "type": "text",
+              "text": " with sweet sauce and "
+            },
+            {
+              "type": "word",
+              "text": "soy sauce",
+              "targetId": "word-soy-sauce",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-099-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "We also got a little bao bun.",
+          "tc": "我們也買了一個小包子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We also got a little "
+            },
+            {
+              "type": "word",
+              "text": "bao bun",
+              "targetId": "word-bao-bun",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-100-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "I'm so excited to actually try one of these in China for dinner.",
+          "tc": "我真的很興奮，之後可以在中國晚餐時真正試試其中一種。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm so excited to actually try one of these in China for dinner."
+            }
+          ]
+        },
+        {
+          "en": "I was craving something with lots of condiments and spices.",
+          "tc": "我想吃一些有很多醬料和香料的東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was craving something with lots of "
+            },
+            {
+              "type": "word",
+              "text": "condiments",
+              "targetId": "word-condiment",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-102-01"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "spices",
+              "targetId": "word-spice",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-102-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "What food should I eat that has lots of condiments and spices?",
+          "tc": "我應該吃什麼有很多醬料和香料的食物呢？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What food should I eat that has lots of condiments and spices?"
+            }
+          ]
+        },
+        {
+          "en": "I went to an Arabic restaurant.",
+          "tc": "我去了一間阿拉伯餐廳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I went to an Arabic restaurant."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "I got some falafels, hot pita bread, and I can't remember what the last thing was.",
+          "tc": "我點了一些炸鷹嘴豆餅、熱皮塔餅，還有一樣我記不得是什麼的東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got some "
+            },
+            {
+              "type": "word",
+              "text": "falafels",
+              "targetId": "word-falafel",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-105-01"
+            },
+            {
+              "type": "text",
+              "text": ", hot "
+            },
+            {
+              "type": "word",
+              "text": "pita",
+              "targetId": "word-pita",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-105-02"
+            },
+            {
+              "type": "text",
+              "text": " bread, and I can't remember what the last thing was."
+            }
+          ]
+        },
+        {
+          "en": "If you know, tell me in the comments.",
+          "tc": "如果你知道，請在留言告訴我。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you know, tell me in the comments."
+            }
+          ]
+        },
+        {
+          "en": "It was so yummy.",
+          "tc": "它很好吃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was so "
+            },
+            {
+              "type": "word",
+              "text": "yummy",
+              "targetId": "word-yummy",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-107-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I couldn't stop eating and dipping my pita bread into every single dish.",
+          "tc": "我停不下來，一直吃，還把皮塔餅沾進每一道菜裡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I couldn't stop eating and dipping my pita bread into every single dish."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
+      "sentences": [
+        {
+          "en": "The next day, my stomach hurt a little bit, so I ordered a banana smoothie with kefir and yogurt.",
+          "tc": "第二天，我的胃有點痛，所以我點了一杯加克菲爾和優格的香蕉冰沙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next day, my stomach hurt a little bit, so I ordered a banana smoothie with "
+            },
+            {
+              "type": "word",
+              "text": "kefir",
+              "targetId": "word-kefir",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-109-01"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "yogurt",
+              "targetId": "word-yogurt",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-109-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "The view was very nice because we were surrounded by trees.",
+          "tc": "景色很不錯，因為我們被樹木包圍著。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The "
+            },
+            {
+              "type": "usage",
+              "text": "view",
+              "targetId": "usage-view-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-110-01"
+            },
+            {
+              "type": "text",
+              "text": " was very nice because we were "
+            },
+            {
+              "type": "phrase",
+              "text": "surrounded by",
+              "targetId": "phrase-surrounded-by",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-110-02"
+            },
+            {
+              "type": "text",
+              "text": " trees."
+            }
+          ]
+        },
+        {
+          "en": "That day, I had plans to get a tooth gem.",
+          "tc": "那天，我計畫去做一顆牙鑽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That day, I had plans to get a "
+            },
+            {
+              "type": "word",
+              "text": "tooth gem",
+              "targetId": "word-tooth-gem",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-111-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I had always wanted one, so I went to get one.",
+          "tc": "我一直都想要一顆，所以我就去做了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I had always wanted one, so I went to get one."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-29",
+      "no": "29",
+      "titleZh": "第 29 段",
+      "titleEn": "Part 29",
+      "sentences": [
+        {
+          "en": "It was really cute while it lasted because it didn't last long.",
+          "tc": "它存在的時候真的很可愛，因為它沒有維持很久。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was really cute while it lasted because it didn't last long."
+            }
+          ]
+        },
+        {
+          "en": "It lasted about 24 hours for me.",
+          "tc": "它大約只維持了二十四小時。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It lasted about 24 hours for me."
+            }
+          ]
+        },
+        {
+          "en": "I forgot that I wear a retainer.",
+          "tc": "我忘了我有戴維持器。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I forgot that I wear a "
+            },
+            {
+              "type": "word",
+              "text": "retainer",
+              "targetId": "word-retainer",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-115-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "So my retainer didn't fit with the tooth gem.",
+          "tc": "所以我的維持器因為牙鑽而戴不上去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So my retainer didn't fit with the tooth gem."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-30",
+      "no": "30",
+      "titleZh": "第 30 段",
+      "titleEn": "Part 30",
+      "sentences": [
+        {
+          "en": "What a waste of money, right?",
+          "tc": "真是浪費錢，對吧？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What a waste of money, right?"
+            }
+          ]
+        },
+        {
+          "en": "But to cheer myself up, I went to eat my favorite kind of food: Thai and Vietnamese food.",
+          "tc": "但為了讓自己振作起來，我去吃我最喜歡的食物類型：泰國和越南料理。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But to "
+            },
+            {
+              "type": "phrase",
+              "text": "cheer myself up",
+              "targetId": "phrase-cheer-myself-up",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-118-01"
+            },
+            {
+              "type": "text",
+              "text": ", I went to eat my favorite kind of food: Thai and Vietnamese food."
+            }
+          ]
+        },
+        {
+          "en": "It was so good.",
+          "tc": "它非常好吃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was so good."
+            }
+          ]
+        },
+        {
+          "en": "It brought back so many memories from Thailand and Vietnam.",
+          "tc": "它喚起了我許多在泰國和越南的回憶。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It "
+            },
+            {
+              "type": "phrase",
+              "text": "brought back",
+              "targetId": "phrase-bring-back",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-120-01"
+            },
+            {
+              "type": "text",
+              "text": " so many memories from Thailand and Vietnam."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-31",
+      "no": "31",
+      "titleZh": "第 31 段",
+      "titleEn": "Part 31",
+      "sentences": [
+        {
+          "en": "Obviously, it was not the same, but close.",
+          "tc": "很明顯，它不完全一樣，但很接近。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Obviously, it was not the same, but close."
+            }
+          ]
+        },
+        {
+          "en": "I ordered a banh mi sandwich, and I saved room for our second meal, which was tacos de birria.",
+          "tc": "我點了一份越南法國麵包，並為我們的第二餐留了胃口，那是比里亞塔可。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I ordered a "
+            },
+            {
+              "type": "word",
+              "text": "banh mi",
+              "targetId": "word-banh-mi",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-122-01"
+            },
+            {
+              "type": "text",
+              "text": " sandwich, and I "
+            },
+            {
+              "type": "phrase",
+              "text": "saved room",
+              "targetId": "phrase-save-room",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-122-02"
+            },
+            {
+              "type": "text",
+              "text": " for our second meal, which was "
+            },
+            {
+              "type": "word",
+              "text": "tacos de birria",
+              "targetId": "word-tacos-de-birria",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-122-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "It had so much cheese and grease.",
+          "tc": "它有好多起司和油脂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It had so much cheese and "
+            },
+            {
+              "type": "word",
+              "text": "grease",
+              "targetId": "word-grease",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-123-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I used so many napkins.",
+          "tc": "我用了好多餐巾紙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I used so many "
+            },
+            {
+              "type": "word",
+              "text": "napkins",
+              "targetId": "word-napkin",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-124-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-32",
+      "no": "32",
+      "titleZh": "第 32 段",
+      "titleEn": "Part 32",
+      "sentences": [
+        {
+          "en": "I always use a lot of napkins.",
+          "tc": "我總是用很多餐巾紙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I always use a lot of "
+            },
+            {
+              "type": "word",
+              "text": "napkins",
+              "targetId": "word-napkin",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-125-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I am a little bit of a messy eater.",
+          "tc": "我吃東西有點邋遢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am "
+            },
+            {
+              "type": "phrase",
+              "text": "a little bit of",
+              "targetId": "phrase-a-little-bit-of",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-126-01"
+            },
+            {
+              "type": "text",
+              "text": " a "
+            },
+            {
+              "type": "word",
+              "text": "messy",
+              "targetId": "word-messy",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-126-02"
+            },
+            {
+              "type": "text",
+              "text": " eater."
+            }
+          ]
+        },
+        {
+          "en": "What about you?",
+          "tc": "你呢？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What about you?"
+            }
+          ]
+        },
+        {
+          "en": "Are you a messy eater?",
+          "tc": "你吃東西會弄得很亂嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Are you a messy eater?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-33",
+      "no": "33",
+      "titleZh": "第 33 段",
+      "titleEn": "Part 33",
+      "sentences": [
+        {
+          "en": "Do you use lots of napkins, too?",
+          "tc": "你也會用很多餐巾紙嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you use lots of napkins, too?"
+            }
+          ]
+        },
+        {
+          "en": "On my last day in Mexico City, I wanted to go eat at a Chinese buffet.",
+          "tc": "在墨西哥城的最後一天，我想去吃中式自助餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "On my last day in Mexico City, I wanted to go eat at a Chinese "
+            },
+            {
+              "type": "word",
+              "text": "buffet",
+              "targetId": "word-buffet",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-130-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "It had everything from fried food to different types of meat, vegetables, sweets, and even salads.",
+          "tc": "它什麼都有，從炸物到不同種類的肉、蔬菜、甜點，甚至沙拉都有。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It had everything from fried food to different types of meat, vegetables, sweets, and even salads."
+            }
+          ]
+        },
+        {
+          "en": "And I went to the mall for my last meal.",
+          "tc": "然後我去購物中心吃我的最後一餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I went to the mall for my last meal."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-34",
+      "no": "34",
+      "titleZh": "第 34 段",
+      "titleEn": "Part 34",
+      "sentences": [
+        {
+          "en": "This was my trip to Mexico City.",
+          "tc": "這就是我的墨西哥城之旅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This was my trip to Mexico City."
+            }
+          ]
+        },
+        {
+          "en": "I really hope you enjoyed this video, and let me know what new words you learned from this comprehensible input vlog.",
+          "tc": "我真的希望你喜歡這支影片，也請告訴我你從這支可理解輸入 vlog 裡學到了哪些新單字。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I really hope you enjoyed this video, and let me know what new words you learned from this "
+            },
+            {
+              "type": "word",
+              "text": "comprehensible",
+              "targetId": "word-comprehensible",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-134-01"
+            },
+            {
+              "type": "text",
+              "text": " input "
+            },
+            {
+              "type": "word",
+              "text": "vlog",
+              "targetId": "word-vlog",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-134-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I would really appreciate it if you would leave a like on this video so more people can see these videos and learn English as well.",
+          "tc": "如果你願意幫這支影片按讚，我會非常感謝，這樣更多人就能看到這些影片並一起學英文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would really "
+            },
+            {
+              "type": "word",
+              "text": "appreciate",
+              "targetId": "word-appreciate",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-135-01"
+            },
+            {
+              "type": "text",
+              "text": " it if you would "
+            },
+            {
+              "type": "phrase",
+              "text": "leave a like",
+              "targetId": "phrase-leave-a-like",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-135-02"
+            },
+            {
+              "type": "text",
+              "text": " on this video so more people can see these videos and learn English as well."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "vocabGroups": [
+    {
+      "title": "B1 重點單字",
+      "items": [
+        {
+          "id": "word-comprehensible",
+          "lemma": "comprehensible",
+          "english": "**comprehensible**",
+          "kk": "[ˌkɑmprɪˈhɛnsəbəl]",
+          "partOfSpeech": "adjective",
+          "meaning": "可理解的",
+          "highlight": true
+        },
+        {
+          "id": "word-vlog",
+          "lemma": "vlog",
+          "english": "**vlogs**; **vlog**",
+          "kk": "[vlɑg]",
+          "partOfSpeech": "noun",
+          "meaning": "影音日誌",
+          "highlight": true
+        },
+        {
+          "id": "word-sidewalk",
+          "lemma": "sidewalk",
+          "english": "**sidewalk**",
+          "kk": "[ˈsaɪdˌwɔk]",
+          "partOfSpeech": "noun",
+          "meaning": "人行道",
+          "highlight": true
+        },
+        {
+          "id": "word-avocado",
+          "lemma": "avocado",
+          "english": "**avocado**",
+          "kk": "[ˌævəˈkɑdo]",
+          "partOfSpeech": "noun",
+          "meaning": "酪梨",
+          "highlight": true
+        },
+        {
+          "id": "word-elevator",
+          "lemma": "elevator",
+          "english": "**elevator**",
+          "kk": "[ˈɛləˌvetɚ]",
+          "partOfSpeech": "noun",
+          "meaning": "電梯",
+          "highlight": true
+        },
+        {
+          "id": "word-security",
+          "lemma": "security",
+          "english": "**security**",
+          "kk": "[sɪˈkjʊrəti]",
+          "partOfSpeech": "noun",
+          "meaning": "安全；安檢",
+          "highlight": true
+        },
+        {
+          "id": "word-blender",
+          "lemma": "blender",
+          "english": "**blender**",
+          "kk": "[ˈblɛndɚ]",
+          "partOfSpeech": "noun",
+          "meaning": "果汁機",
+          "highlight": true
+        },
+        {
+          "id": "word-drawback",
+          "lemma": "drawback",
+          "english": "**drawback**",
+          "kk": "[ˈdrɔˌbæk]",
+          "partOfSpeech": "noun",
+          "meaning": "缺點",
+          "highlight": true
+        },
+        {
+          "id": "word-balcony",
+          "lemma": "balcony",
+          "english": "**balcony**",
+          "kk": "[ˈbælkəni]",
+          "partOfSpeech": "noun",
+          "meaning": "陽台",
+          "highlight": true
+        },
+        {
+          "id": "word-monument",
+          "lemma": "monument",
+          "english": "**monument**",
+          "kk": "[ˈmɑnjəmənt]",
+          "partOfSpeech": "noun",
+          "meaning": "紀念碑",
+          "highlight": true
+        },
+        {
+          "id": "word-expectation",
+          "lemma": "expectation",
+          "english": "**expectations**",
+          "kk": "[ˌɛkspɛkˈteʃən]",
+          "partOfSpeech": "noun",
+          "meaning": "期待",
+          "highlight": true
+        },
+        {
+          "id": "word-toiletry",
+          "lemma": "toiletry",
+          "english": "**toiletries**",
+          "kk": "[ˈtɔɪlətriz]",
+          "partOfSpeech": "noun",
+          "meaning": "盥洗用品",
+          "highlight": true
+        },
+        {
+          "id": "word-toothpaste",
+          "lemma": "toothpaste",
+          "english": "**toothpaste**",
+          "kk": "[ˈtuθˌpest]",
+          "partOfSpeech": "noun",
+          "meaning": "牙膏",
+          "highlight": true
+        },
+        {
+          "id": "word-blow-dryer",
+          "lemma": "blow dryer",
+          "english": "**blow dryer**",
+          "kk": "[ˈbloˌdraɪɚ]",
+          "partOfSpeech": "noun",
+          "meaning": "吹風機",
+          "highlight": true
+        },
+        {
+          "id": "word-pressure",
+          "lemma": "pressure",
+          "english": "**pressure**",
+          "kk": "[ˈprɛʃɚ]",
+          "partOfSpeech": "noun",
+          "meaning": "壓力；水壓",
+          "highlight": true
+        },
+        {
+          "id": "word-vegan",
+          "lemma": "vegan",
+          "english": "**vegan**",
+          "kk": "[ˈvigən]",
+          "partOfSpeech": "adjective",
+          "meaning": "純素的",
+          "highlight": true
+        },
+        {
+          "id": "word-burrito",
+          "lemma": "burrito",
+          "english": "**burrito**",
+          "kk": "[bəˈrito]",
+          "partOfSpeech": "noun",
+          "meaning": "墨西哥捲餅",
+          "highlight": true
+        },
+        {
+          "id": "word-guacamole",
+          "lemma": "guacamole",
+          "english": "**guacamole**",
+          "kk": "[ˌgwɑkəˈmoli]",
+          "partOfSpeech": "noun",
+          "meaning": "酪梨醬",
+          "highlight": true
+        },
+        {
+          "id": "word-dairy",
+          "lemma": "dairy",
+          "english": "**dairy**",
+          "kk": "[ˈdɛri]",
+          "partOfSpeech": "noun",
+          "meaning": "乳製品",
+          "highlight": true
+        },
+        {
+          "id": "word-palm",
+          "lemma": "palm",
+          "english": "**palm**",
+          "kk": "[pɑm]",
+          "partOfSpeech": "noun",
+          "meaning": "棕櫚樹",
+          "highlight": true
+        },
+        {
+          "id": "word-treadmill",
+          "lemma": "treadmill",
+          "english": "**treadmills**",
+          "kk": "[ˈtrɛdˌmɪl]",
+          "partOfSpeech": "noun",
+          "meaning": "跑步機",
+          "highlight": true
+        },
+        {
+          "id": "word-spinning",
+          "lemma": "spinning",
+          "english": "**spinning**",
+          "kk": "[ˈspɪnɪŋ]",
+          "partOfSpeech": "adjective",
+          "meaning": "飛輪的",
+          "highlight": true
+        },
+        {
+          "id": "word-rowing",
+          "lemma": "rowing",
+          "english": "**rowing**",
+          "kk": "[ˈroɪŋ]",
+          "partOfSpeech": "adjective",
+          "meaning": "划船的",
+          "highlight": true
+        },
+        {
+          "id": "word-kettlebell",
+          "lemma": "kettlebell",
+          "english": "**kettlebells**",
+          "kk": "[ˈkɛtəlˌbɛl]",
+          "partOfSpeech": "noun",
+          "meaning": "壺鈴",
+          "highlight": true
+        },
+        {
+          "id": "word-dumbbell",
+          "lemma": "dumbbell",
+          "english": "**dumbbells**",
+          "kk": "[ˈdʌmˌbɛl]",
+          "partOfSpeech": "noun",
+          "meaning": "啞鈴",
+          "highlight": true
+        },
+        {
+          "id": "word-ski-ergometer",
+          "lemma": "ski ergometer",
+          "english": "**ski ergometer**",
+          "kk": "[ski ɝˈgɑmətɚ]",
+          "partOfSpeech": "noun",
+          "meaning": "滑雪測功儀",
+          "highlight": true
+        },
+        {
+          "id": "word-punching-bag",
+          "lemma": "punching bag",
+          "english": "**punching bag**",
+          "kk": "[ˈpʌntʃɪŋˌbæg]",
+          "partOfSpeech": "noun",
+          "meaning": "拳擊沙袋",
+          "highlight": true
+        },
+        {
+          "id": "word-spa",
+          "lemma": "spa",
+          "english": "**spa**",
+          "kk": "[spɑ]",
+          "partOfSpeech": "noun",
+          "meaning": "水療區",
+          "highlight": true
+        },
+        {
+          "id": "word-sauna",
+          "lemma": "sauna",
+          "english": "**sauna**",
+          "kk": "[ˈsɔnə]",
+          "partOfSpeech": "noun",
+          "meaning": "桑拿",
+          "highlight": true
+        },
+        {
+          "id": "word-magnificent",
+          "lemma": "magnificent",
+          "english": "**magnificent**",
+          "kk": "[mægˈnɪfəsənt]",
+          "partOfSpeech": "adjective",
+          "meaning": "壯麗的；很棒的",
+          "highlight": true
+        },
+        {
+          "id": "word-stunning",
+          "lemma": "stunning",
+          "english": "**stunning**",
+          "kk": "[ˈstʌnɪŋ]",
+          "partOfSpeech": "adjective",
+          "meaning": "令人驚豔的",
+          "highlight": true
+        },
+        {
+          "id": "word-goggles",
+          "lemma": "goggles",
+          "english": "**goggles**",
+          "kk": "[ˈgɑgəlz]",
+          "partOfSpeech": "noun",
+          "meaning": "泳鏡；護目鏡",
+          "highlight": true
+        },
+        {
+          "id": "word-swim-cap",
+          "lemma": "swim cap",
+          "english": "**swim cap**",
+          "kk": "[swɪm kæp]",
+          "partOfSpeech": "noun",
+          "meaning": "泳帽",
+          "highlight": true
+        },
+        {
+          "id": "word-mandatory",
+          "lemma": "mandatory",
+          "english": "**mandatory**",
+          "kk": "[ˈmændəˌtɔri]",
+          "partOfSpeech": "adjective",
+          "meaning": "強制的；必須的",
+          "highlight": true
+        },
+        {
+          "id": "word-jacuzzi",
+          "lemma": "jacuzzi",
+          "english": "**jacuzzi**",
+          "kk": "[dʒəˈkuzi]",
+          "partOfSpeech": "noun",
+          "meaning": "按摩浴缸",
+          "highlight": true
+        },
+        {
+          "id": "word-sushi",
+          "lemma": "sushi",
+          "english": "**sushi**",
+          "kk": "[ˈsuʃi]",
+          "partOfSpeech": "noun",
+          "meaning": "壽司",
+          "highlight": true
+        },
+        {
+          "id": "word-downtown",
+          "lemma": "downtown",
+          "english": "**downtown**",
+          "kk": "[ˈdaʊnˈtaʊn]",
+          "partOfSpeech": "adverb",
+          "meaning": "在市中心；往市中心",
+          "highlight": true
+        },
+        {
+          "id": "word-aguachile",
+          "lemma": "aguachile",
+          "english": "**aguachile**",
+          "kk": "[ˌɑgwɑˈtʃile]",
+          "partOfSpeech": "noun",
+          "meaning": "阿瓜奇雷，一種墨西哥酸辣海鮮料理",
+          "highlight": true
+        },
+        {
+          "id": "word-tostada",
+          "lemma": "tostada",
+          "english": "**tostada**",
+          "kk": "[toˈstɑdə]",
+          "partOfSpeech": "noun",
+          "meaning": "墨西哥脆餅",
+          "highlight": true
+        },
+        {
+          "id": "word-luckily",
+          "lemma": "luckily",
+          "english": "**luckily**",
+          "kk": "[ˈlʌkəli]",
+          "partOfSpeech": "adverb",
+          "meaning": "幸運地；幸好",
+          "highlight": true
+        },
+        {
+          "id": "word-donut",
+          "lemma": "donut",
+          "english": "**donuts**",
+          "kk": "[ˈdoˌnʌt]",
+          "partOfSpeech": "noun",
+          "meaning": "甜甜圈",
+          "highlight": true
+        },
+        {
+          "id": "word-blueberry",
+          "lemma": "blueberry",
+          "english": "**blueberry**",
+          "kk": "[ˈbluˌbɛri]",
+          "partOfSpeech": "noun",
+          "meaning": "藍莓",
+          "highlight": true
+        },
+        {
+          "id": "word-brownie-flavored",
+          "lemma": "brownie-flavored",
+          "english": "**brownie-flavored**",
+          "kk": "[ˈbraʊni ˈflevɚd]",
+          "partOfSpeech": "adjective",
+          "meaning": "布朗尼口味的",
+          "highlight": true
+        },
+        {
+          "id": "word-cinnamon",
+          "lemma": "cinnamon",
+          "english": "**cinnamon**",
+          "kk": "[ˈsɪnəmən]",
+          "partOfSpeech": "noun",
+          "meaning": "肉桂",
+          "highlight": true
+        },
+        {
+          "id": "word-pumpkin-spice",
+          "lemma": "pumpkin spice",
+          "english": "**pumpkin spice**",
+          "kk": "[ˈpʌmpkɪn spaɪs]",
+          "partOfSpeech": "noun",
+          "meaning": "南瓜香料",
+          "highlight": true
+        },
+        {
+          "id": "word-definitely",
+          "lemma": "definitely",
+          "english": "**definitely**",
+          "kk": "[ˈdɛfənətli]",
+          "partOfSpeech": "adverb",
+          "meaning": "絕對；確實",
+          "highlight": true
+        },
+        {
+          "id": "word-takeout",
+          "lemma": "takeout",
+          "english": "**takeout**",
+          "kk": "[ˈtekˌaʊt]",
+          "partOfSpeech": "noun",
+          "meaning": "外帶食物",
+          "highlight": true
+        },
+        {
+          "id": "word-enchilada",
+          "lemma": "enchilada",
+          "english": "**enchiladas**",
+          "kk": "[ˌɛntʃəˈlɑdə]",
+          "partOfSpeech": "noun",
+          "meaning": "恩奇拉達，墨西哥辣醬玉米捲",
+          "highlight": true
+        },
+        {
+          "id": "word-intake",
+          "lemma": "intake",
+          "english": "**intake**",
+          "kk": "[ˈɪnˌtek]",
+          "partOfSpeech": "noun",
+          "meaning": "攝取量",
+          "highlight": true
+        },
+        {
+          "id": "word-kitty",
+          "lemma": "kitty",
+          "english": "**kitties**",
+          "kk": "[ˈkɪti]",
+          "partOfSpeech": "noun",
+          "meaning": "小貓",
+          "highlight": true
+        },
+        {
+          "id": "word-pineapple",
+          "lemma": "pineapple",
+          "english": "**pineapple**",
+          "kk": "[ˈpaɪnˌæpəl]",
+          "partOfSpeech": "noun",
+          "meaning": "鳳梨",
+          "highlight": true
+        },
+        {
+          "id": "word-constantly",
+          "lemma": "constantly",
+          "english": "**constantly**",
+          "kk": "[ˈkɑnstəntlɪ]",
+          "partOfSpeech": "adverb",
+          "meaning": "一直地；不斷地",
+          "highlight": true
+        },
+        {
+          "id": "word-shrimp",
+          "lemma": "shrimp",
+          "english": "**shrimp**",
+          "kk": "[ʃrɪmp]",
+          "partOfSpeech": "noun",
+          "meaning": "蝦子",
+          "highlight": true
+        },
+        {
+          "id": "word-unexpected",
+          "lemma": "unexpected",
+          "english": "**unexpected**",
+          "kk": "[ˌʌnɪkˈspɛktɪd]",
+          "partOfSpeech": "adjective",
+          "meaning": "意想不到的",
+          "highlight": true
+        },
+        {
+          "id": "word-smoothie",
+          "lemma": "smoothie",
+          "english": "**smoothie**",
+          "kk": "[ˈsmuði]",
+          "partOfSpeech": "noun",
+          "meaning": "冰沙",
+          "highlight": true
+        },
+        {
+          "id": "word-department-store",
+          "lemma": "department store",
+          "english": "**department stores**",
+          "kk": "[dɪˈpɑrtmənt stɔr]",
+          "partOfSpeech": "noun",
+          "meaning": "百貨公司",
+          "highlight": true
+        },
+        {
+          "id": "word-eventually",
+          "lemma": "eventually",
+          "english": "**eventually**",
+          "kk": "[ɪˈvɛntʃuəlɪ]",
+          "partOfSpeech": "adverb",
+          "meaning": "最後；終於",
+          "highlight": true
+        },
+        {
+          "id": "word-infinite",
+          "lemma": "infinite",
+          "english": "**infinite**",
+          "kk": "[ˈɪnfənɪt]",
+          "partOfSpeech": "adjective",
+          "meaning": "無限的；數不清的",
+          "highlight": true
+        },
+        {
+          "id": "word-spring-roll",
+          "lemma": "spring roll",
+          "english": "**spring rolls**",
+          "kk": "[sprɪŋ rol]",
+          "partOfSpeech": "noun",
+          "meaning": "春捲",
+          "highlight": true
+        },
+        {
+          "id": "word-soy-sauce",
+          "lemma": "soy sauce",
+          "english": "**soy sauce**",
+          "kk": "[sɔɪ sɔs]",
+          "partOfSpeech": "noun",
+          "meaning": "醬油",
+          "highlight": true
+        },
+        {
+          "id": "word-bao-bun",
+          "lemma": "bao bun",
+          "english": "**bao bun**",
+          "kk": "[baʊ bʌn]",
+          "partOfSpeech": "noun",
+          "meaning": "包子；刈包",
+          "highlight": true
+        },
+        {
+          "id": "word-condiment",
+          "lemma": "condiment",
+          "english": "**condiments**",
+          "kk": "[ˈkɑndəmənt]",
+          "partOfSpeech": "noun",
+          "meaning": "調味醬；佐料",
+          "highlight": true
+        },
+        {
+          "id": "word-spice",
+          "lemma": "spice",
+          "english": "**spices**",
+          "kk": "[spaɪs]",
+          "partOfSpeech": "noun",
+          "meaning": "香料",
+          "highlight": true
+        },
+        {
+          "id": "word-falafel",
+          "lemma": "falafel",
+          "english": "**falafels**",
+          "kk": "[fəˈlɑfəl]",
+          "partOfSpeech": "noun",
+          "meaning": "炸鷹嘴豆餅",
+          "highlight": true
+        },
+        {
+          "id": "word-pita",
+          "lemma": "pita",
+          "english": "**pita**",
+          "kk": "[ˈpitə]",
+          "partOfSpeech": "noun",
+          "meaning": "皮塔餅",
+          "highlight": true
+        },
+        {
+          "id": "word-yummy",
+          "lemma": "yummy",
+          "english": "**yummy**",
+          "kk": "[ˈjʌmi]",
+          "partOfSpeech": "adjective",
+          "meaning": "好吃的",
+          "highlight": true
+        },
+        {
+          "id": "word-kefir",
+          "lemma": "kefir",
+          "english": "**kefir**",
+          "kk": "[kəˈfɪr]",
+          "partOfSpeech": "noun",
+          "meaning": "克菲爾；發酵乳飲品",
+          "highlight": true
+        },
+        {
+          "id": "word-yogurt",
+          "lemma": "yogurt",
+          "english": "**yogurt**",
+          "kk": "[ˈjogɚt]",
+          "partOfSpeech": "noun",
+          "meaning": "優格",
+          "highlight": true
+        },
+        {
+          "id": "word-tooth-gem",
+          "lemma": "tooth gem",
+          "english": "**tooth gem**",
+          "kk": "[tuθ dʒɛm]",
+          "partOfSpeech": "noun",
+          "meaning": "牙鑽；牙齒裝飾",
+          "highlight": true
+        },
+        {
+          "id": "word-retainer",
+          "lemma": "retainer",
+          "english": "**retainer**",
+          "kk": "[rɪˈtenɚ]",
+          "partOfSpeech": "noun",
+          "meaning": "牙齒維持器",
+          "highlight": true
+        },
+        {
+          "id": "word-banh-mi",
+          "lemma": "banh mi",
+          "english": "**banh mi**",
+          "kk": "[ˈbɑn mi]",
+          "partOfSpeech": "noun",
+          "meaning": "越南法國麵包",
+          "highlight": true
+        },
+        {
+          "id": "word-tacos-de-birria",
+          "lemma": "tacos de birria",
+          "english": "**tacos de birria**",
+          "kk": "[ˈtɑkoz de bɪˈriə]",
+          "partOfSpeech": "noun",
+          "meaning": "比里亞塔可",
+          "highlight": true
+        },
+        {
+          "id": "word-grease",
+          "lemma": "grease",
+          "english": "**grease**",
+          "kk": "[gris]",
+          "partOfSpeech": "noun",
+          "meaning": "油脂",
+          "highlight": true
+        },
+        {
+          "id": "word-napkin",
+          "lemma": "napkin",
+          "english": "**napkins**",
+          "kk": "[ˈnæpkɪn]",
+          "partOfSpeech": "noun",
+          "meaning": "餐巾紙",
+          "highlight": true
+        },
+        {
+          "id": "word-messy",
+          "lemma": "messy",
+          "english": "**messy**",
+          "kk": "[ˈmɛsi]",
+          "partOfSpeech": "adjective",
+          "meaning": "弄得很亂的；邋遢的",
+          "highlight": true
+        },
+        {
+          "id": "word-buffet",
+          "lemma": "buffet",
+          "english": "**buffet**",
+          "kk": "[bəˈfe]",
+          "partOfSpeech": "noun",
+          "meaning": "自助餐",
+          "highlight": true
+        },
+        {
+          "id": "word-appreciate",
+          "lemma": "appreciate",
+          "english": "**appreciate**",
+          "kk": "[əˈpriʃiˌet]",
+          "partOfSpeech": "verb",
+          "meaning": "感謝；感激",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "phrase-sit-down",
+      "phrase": "sit down",
+      "meaning": "坐下",
+      "examples": [
+        {
+          "en": "I was so tired that I had to __sit down__ on the **sidewalk**.",
+          "tc": "坐下"
+        }
+      ]
+    },
+    {
+      "id": "phrase-a-little-bit",
+      "phrase": "a little bit",
+      "meaning": "一點點；一下子",
+      "examples": [
+        {
+          "en": "I went back home and rested for __a little bit__.",
+          "tc": "一點點；一下子"
+        }
+      ]
+    },
+    {
+      "id": "phrase-check-in",
+      "phrase": "check in",
+      "meaning": "辦理入住",
+      "examples": [
+        {
+          "en": "I waited around until it was time for me to __check in__ at my Airbnb.",
+          "tc": "辦理入住"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-off",
+      "phrase": "take off",
+      "meaning": "脫下",
+      "examples": [
+        {
+          "en": "The first thing I do when going into an apartment or home is to __take off__ my shoes.",
+          "tc": "脫下"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-above-and-beyond",
+      "phrase": "go above and beyond",
+      "meaning": "超出期待；做得比要求更多",
+      "examples": [
+        {
+          "en": "But this one __went above and beyond__ my **expectations**.",
+          "tc": "超出期待；做得比要求更多"
+        }
+      ]
+    },
+    {
+      "id": "phrase-heading-to",
+      "phrase": "heading to",
+      "meaning": "前往",
+      "examples": [
+        {
+          "en": "I went back home and rested for __a little bit__ before __heading to__ the gym.",
+          "tc": "前往"
+        }
+      ]
+    },
+    {
+      "id": "phrase-work-out",
+      "phrase": "work out",
+      "meaning": "運動；健身",
+      "examples": [
+        {
+          "en": "It has a big space to __work out__.",
+          "tc": "運動；健身"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-for-a-dip",
+      "phrase": "go for a dip",
+      "meaning": "去游一下或泡一下水",
+      "examples": [
+        {
+          "en": "After __working out__, I love __going for a dip__ in the pool.",
+          "tc": "去游一下或泡一下水"
+        }
+      ]
+    },
+    {
+      "id": "phrase-packed-with",
+      "phrase": "packed with",
+      "meaning": "裝滿；充滿",
+      "examples": [
+        {
+          "en": "It is always __packed with__ a water bottle, some **goggles**, and a **swim cap**.",
+          "tc": "裝滿；充滿"
+        }
+      ]
+    },
+    {
+      "id": "phrase-craving-something-sweet",
+      "phrase": "craving something sweet",
+      "meaning": "很想吃甜食",
+      "examples": [
+        {
+          "en": "Finally, after a long and tiring day, I was __craving something sweet__.",
+          "tc": "很想吃甜食"
+        }
+      ]
+    },
+    {
+      "id": "phrase-start-my-day",
+      "phrase": "start my day",
+      "meaning": "用某件事作為一天的開始",
+      "examples": [
+        {
+          "en": "I like to __start my day__ by walking around the park.",
+          "tc": "用某件事作為一天的開始"
+        }
+      ]
+    },
+    {
+      "id": "phrase-around-the-corner",
+      "phrase": "around the corner",
+      "meaning": "就在附近；在轉角處",
+      "examples": [
+        {
+          "en": "I found an Italian restaurant just __around the corner__.",
+          "tc": "就在附近；在轉角處"
+        }
+      ]
+    },
+    {
+      "id": "phrase-stop-by",
+      "phrase": "stop by",
+      "meaning": "順路拜訪；順路去",
+      "examples": [
+        {
+          "en": "I __stopped by__ a little store that was selling dried fruit.",
+          "tc": "順路拜訪；順路去"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-search-of",
+      "phrase": "in search of",
+      "meaning": "尋找",
+      "examples": [
+        {
+          "en": "I walked around town __in search of__ something to eat for dinner.",
+          "tc": "尋找"
+        }
+      ]
+    },
+    {
+      "id": "phrase-raining-cats-and-dogs",
+      "phrase": "raining cats and dogs",
+      "meaning": "下傾盆大雨",
+      "examples": [
+        {
+          "en": "Mexico City can be dry one second and then __raining cats and dogs__ the next.",
+          "tc": "下傾盆大雨"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-through-security",
+      "phrase": "go through security",
+      "meaning": "通過安檢",
+      "examples": [
+        {
+          "en": "I had to __go through security__.",
+          "tc": "通過安檢"
+        }
+      ]
+    },
+    {
+      "id": "phrase-surrounded-by",
+      "phrase": "surrounded by",
+      "meaning": "被包圍",
+      "examples": [
+        {
+          "en": "The 《view》 was very nice because we were __surrounded by__ trees.",
+          "tc": "被包圍"
+        }
+      ]
+    },
+    {
+      "id": "phrase-cheer-myself-up",
+      "phrase": "cheer myself up",
+      "meaning": "讓自己心情變好；振作起來",
+      "examples": [
+        {
+          "en": "But to __cheer myself up__, I went to eat my favorite kind of food.",
+          "tc": "讓自己心情變好；振作起來"
+        }
+      ]
+    },
+    {
+      "id": "phrase-bring-back",
+      "phrase": "bring back",
+      "meaning": "喚起回憶",
+      "examples": [
+        {
+          "en": "It __brought back__ so many memories from Thailand and Vietnam.",
+          "tc": "喚起回憶"
+        }
+      ]
+    },
+    {
+      "id": "phrase-save-room",
+      "phrase": "save room",
+      "meaning": "留胃口",
+      "examples": [
+        {
+          "en": "I __saved room__ for our second meal.",
+          "tc": "留胃口"
+        }
+      ]
+    },
+    {
+      "id": "phrase-a-little-bit-of",
+      "phrase": "a little bit of",
+      "meaning": "有點；稍微",
+      "examples": [
+        {
+          "en": "I am __a little bit of__ a **messy** eater.",
+          "tc": "有點；稍微"
+        }
+      ]
+    },
+    {
+      "id": "phrase-leave-a-like",
+      "phrase": "leave a like",
+      "meaning": "按讚",
+      "examples": [
+        {
+          "en": "I would really **appreciate** it if you would __leave a like__ on this video.",
+          "tc": "按讚"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-through-item",
+      "word": "through",
+      "familiarMeaning": "穿過；通過",
+      "usage": "表示透過某種方式、平台或媒介",
+      "translation": "透過",
+      "examples": [
+        "Listen to **comprehensible** English 《through》 my slow English **vlogs**."
+      ]
+    },
+    {
+      "id": "usage-take-item",
+      "word": "take",
+      "familiarMeaning": "拿；帶走",
+      "usage": "搭乘交通工具",
+      "translation": "搭乘",
+      "examples": [
+        "I was so hungry because I 《took》 the night bus."
+      ]
+    },
+    {
+      "id": "usage-view-item",
+      "word": "view",
+      "familiarMeaning": "看；觀點",
+      "usage": "從某處看到的景色",
+      "translation": "景色",
+      "examples": [
+        "So I knew exactly what I needed: **avocado** toast, my favorite, with a beautiful 《view》."
+      ]
+    },
+    {
+      "id": "usage-classic-item",
+      "word": "classic",
+      "familiarMeaning": "經典的",
+      "usage": "表示標準款、常見款",
+      "translation": "標準的",
+      "examples": [
+        "It has 《classic》 **dumbbells**, of course."
+      ]
+    },
+    {
+      "id": "usage-stand-item",
+      "word": "stand",
+      "familiarMeaning": "站立",
+      "usage": "賣東西的小攤位",
+      "translation": "攤位",
+      "examples": [
+        "Just outside of the library, I found a little 《stand》 in Chinatown."
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "grammar-1",
+      "sentence": "I was so tired that I had to sit down on the sidewalk and rest for a little bit.",
+      "translation": "我累到必須坐在人行道上休息一下。",
+      "points": [
+        {
+          "label": "so + adjective + that 子句",
+          "text": "so + 形容詞 + that + 主詞 + 動詞",
+          "note": "用來表示程度很高，導致後面的結果。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "sentence": "I waited around until it was time for me to check in at my Airbnb.",
+      "translation": "我一直等到可以在 Airbnb 辦理入住。",
+      "points": [
+        {
+          "label": "until 時間子句",
+          "text": "waited + until + 主詞 + 動詞",
+          "note": "until 表示某個動作持續到某個時間點才結束。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "sentence": "The first thing I do when going into an apartment or home is to take off my shoes.",
+      "translation": "我進公寓或家裡時做的第一件事就是脫鞋。",
+      "points": [
+        {
+          "label": "when + V-ing 簡化子句",
+          "text": "when + 動名詞片語",
+          "note": "when going into 簡化了 when I go into，讓句子更簡潔。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-4",
+      "sentence": "But the refrigerator was big, and so was the living room.",
+      "translation": "但是冰箱很大，客廳也很大。",
+      "points": [
+        {
+          "label": "so + be動詞 + 主詞",
+          "text": "so + was + 主詞",
+          "note": "用來表示前面的情況也適用於另一個主詞。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "I loved the big windows where I could sit down and work.",
+      "translation": "我喜歡那些大窗戶，讓我可以坐下來工作。",
+      "points": [
+        {
+          "label": "where 關係副詞子句",
+          "text": "地點名詞 + where + 主詞 + 動詞",
+          "note": "where 引導子句，補充說明地點可以做什麼。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "The water pressure was very strong, which is hard to find sometimes in Mexico.",
+      "translation": "水壓很強，這在墨西哥有時很難找到。",
+      "points": [
+        {
+          "label": "which 指代整個前句內容",
+          "text": "完整句子 + which + 動詞",
+          "note": "which 不只指一個名詞，而是指前面整件事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "I've always thought I look so silly with goggles and a swim cap.",
+      "translation": "我一直覺得自己戴泳鏡和泳帽看起來很傻。",
+      "points": [
+        {
+          "label": "現在完成式",
+          "text": "have / has + 過去分詞",
+          "note": "表示從過去到現在一直有的想法或經驗。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "I like to start my day by walking around the park, breathing in the fresh air around the trees, and getting my daily intake of sunlight.",
+      "translation": "我喜歡用在公園散步來開始一天。",
+      "points": [
+        {
+          "label": "by + V-ing 表示方法",
+          "text": "by + 動名詞",
+          "note": "by walking 表示用散步這個方式來開始一天。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-9",
+      "sentence": "I had always wanted one, so I went to get one.",
+      "translation": "我一直都想要一顆，所以我就去做了。",
+      "points": [
+        {
+          "label": "過去完成式",
+          "text": "had + 過去分詞",
+          "note": "表示在過去某個時間點之前就已經存在的想法或動作。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-10",
+      "sentence": "I would really appreciate it if you would leave a like on this video.",
+      "translation": "如果你願意幫這支影片按讚，我會非常感謝。",
+      "points": [
+        {
+          "label": "would appreciate it if",
+          "text": "would appreciate it if + 主詞 + would / could + 動詞",
+          "note": "這是比較客氣地請求別人做某事的句型。"
+        }
+      ]
+    }
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch16-slow-english-podcast-my-trip-to-mexico-city",
+    "sourcePath": "_private/tmp/originalContent/b1/ch16-slow-english-podcast-my-trip-to-mexico-city.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch16-slow-english-podcast-my-trip-to-mexico-city.md"
+  }
+}

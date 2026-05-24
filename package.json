@@ -13,7 +13,15 @@
     "test:unit": "vitest run",
     "build": "vue-tsc --noEmit -p tsconfig.app.json && vite build",
     "test:e2e": "playwright test",
-    "test:ci": "npm run lint && npm run typecheck && npm run test:unit && npm run build && npm run test:e2e"
+    "test:ci": "npm run lint && npm run typecheck && npm run test:unit && npm run build && npm run test:e2e",
+    "misshoney:import": "node scripts/misshoney/import-playlists.mjs",
+    "misshoney:fetch-transcript": "node scripts/misshoney/fetch-transcript.mjs",
+    "misshoney:scaffold-content": "node scripts/misshoney/scaffold-content.mjs",
+    "misshoney:author-polished-content": "node scripts/misshoney/author-polished-content.mjs",
+    "misshoney:parse-proofread": "node scripts/misshoney/parse-proofread-result.mjs",
+    "misshoney:full-refresh": "node scripts/misshoney/full-refresh.mjs",
+    "misshoney:validate-content": "node scripts/misshoney/validate-content.mjs",
+    "misshoney:promote-content": "node scripts/misshoney/promote-content.mjs"
   },
   "dependencies": {
     "vue": "^3.5.13",

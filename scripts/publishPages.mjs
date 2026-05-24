@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 // Pure Node 22 ESM publish script for the gh-pages worktree.
 // No third-party dependencies.
 
@@ -178,9 +177,8 @@ export function formatNoPublishChangesMessage(target) {
 }
 
 // CLI entry: only run when this file is invoked directly via `node`.
-const isDirectInvocation =
-  import.meta.url === `file://${fileURLToPath(import.meta.url).replace(/\\/g, '/')}` ||
-  process.argv[1] === fileURLToPath(import.meta.url)
+const currentFilePath = fileURLToPath(import.meta.url)
+const isDirectInvocation = process.argv[1] === currentFilePath
 
 if (isDirectInvocation) {
   const args = parseCliArgs(process.argv.slice(2))

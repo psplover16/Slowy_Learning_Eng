@@ -315,6 +315,52 @@
       </div>
     </GrammarCard>
 
+    <!-- G19: Three Natural Future Forms -->
+    <GrammarCard badge="G19" title="三種自然未來式：going to / 現在進行式 / will">
+      <p class="text-ink-soft text-sm mb-4">英語表達未來有三種常用方式，選擇哪一種取決於「是否已決定」和「計畫有多具體」。</p>
+
+      <div class="overflow-x-auto mb-4">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="bg-teal-eng text-white text-left">
+              <th class="px-3 py-2 rounded-tl-lg">形式</th>
+              <th class="px-3 py-2">公式</th>
+              <th class="px-3 py-2 rounded-tr-lg">用法</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(row, i) in futureFormsTable" :key="row.form" :class="i % 2 === 1 ? 'bg-paper-2' : 'bg-paper-3'">
+              <td class="px-3 py-2 font-medium text-teal-eng-deep">{{ row.form }}</td>
+              <td class="px-3 py-2 font-newsreader italic">{{ row.formula }}</td>
+              <td class="px-3 py-2 text-ink-soft">{{ row.usage }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="space-y-3 mb-4">
+        <div v-for="row in futureFormsTable" :key="row.form + '-examples'" class="bg-paper-2 rounded-lg px-4 py-3 text-sm">
+          <p class="font-medium text-ink mb-2">{{ row.form }}</p>
+          <div class="space-y-1.5">
+            <div v-for="ex in row.examples" :key="ex.en">
+              <p class="font-newsreader italic text-terracotta-deep">{{ ex.en }}</p>
+              <p class="text-ink-faint text-xs">{{ ex.tc }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-paper-2 border border-line-soft rounded-lg px-4 py-3 text-sm text-ink-soft">
+        <p class="font-medium text-ink mb-2">補充說明</p>
+        <ul class="space-y-1.5 text-xs">
+          <li>🔹 <span class="font-newsreader italic text-teal-eng-deep">be going to</span> 與現在進行式都可表達「計畫」，但 be going to 較常用於「決定但尚未安排細節」的情境。</li>
+          <li>🔹 <span class="font-newsreader italic text-teal-eng-deep">will</span> 通常不用來表達「已計畫好的事」，改用 be going to 或現在進行式更自然。</li>
+          <li>🔹 口語中常將 <span class="font-newsreader italic text-teal-eng-deep">I'm going to</span> 縮讀為 "I'm gonna"，書面仍以完整形式為主。</li>
+          <li>🔹 問句同樣遵循此三者的邏輯：<span class="font-newsreader italic text-terracotta-deep">Are you going to ...? / Are you ...ing? / Will you ...?</span></li>
+        </ul>
+      </div>
+    </GrammarCard>
+
     <!-- Section 4: V-ing 後接慣例 -->
     <h2
       data-testid="grammar-section-header"
@@ -696,7 +742,7 @@ const nounPhraseFunctions = [
 const relativePronouns = [
   { pronoun: 'that', usage: '人或事物（通用）', example: 'The thing that happened...' },
   { pronoun: 'which', usage: '事物（非限定用法較常用）', example: 'The park, which was huge...' },
-  { pronoun: 'who', usage: '人（主詞位置）', example: 'The person who called.' },
+  { pronoun: 'who', usage: '人（主詞位置）', example: 'beginners who want to practice listening to English' },
   { pronoun: 'whom', usage: '人（受詞位置，較正式）', example: 'The person whom I met.' },
   { pronoun: 'where', usage: '地方', example: "The city where I grew up." },
 ]
@@ -736,6 +782,16 @@ const usedToExamples = [
     note: '過去的習慣或狀態，現在已改變',
   },
   {
+    en: 'I used to live in Nebraska, United States.',
+    tc: '我以前住在美國內布拉斯加州。',
+    note: 'A1 ch5 補充：used to 說明過去的居住狀態，現在已不同',
+  },
+  {
+    en: 'I used to never get my nails done.',
+    tc: '我以前從來不會去做指甲。',
+    note: 'A1 ch18 補充：used to never 表示「以前從不……」的習慣',
+  },
+  {
     en: "There used to be a park here.",
     tc: '這裡以前有一座公園。',
     note: '過去存在的事物，現在已不存在',
@@ -767,13 +823,17 @@ const presentPerfectExamples = [
     examples: [
       { en: 'I have been obsessed with this place.', tc: '我一直對這個地方著迷（強調狀態）。' },
       { en: 'Have you ever been to New York?', tc: '你曾去過紐約嗎？（強調經驗）' },
+      { en: 'Have you ever visited another country?', tc: '你曾經去過另一個國家嗎？（A1 ch10 補充）' },
+      { en: "Maybe I've never heard of it.", tc: '也許我從來沒有聽過它。（A1 ch15 補充）' },
       { en: "The best pizza that I've ever had.", tc: '我這輩子吃過最好的披薩。' },
     ],
   },
   {
     type: '現在完成進行式：have / has been + V-ing',
     examples: [
+      { en: 'I have been feeling very tired and sleepy.', tc: '我最近一直覺得很累、很想睡。（A1 ch9 補充）' },
       { en: "I've been dreaming of this moment for so long.", tc: '我夢想著這個時刻已經好久了（強調持續進行）。' },
+      { en: "I've been slacking lately.", tc: '我最近一直有點鬆懈。（A1 ch16 補充）' },
       { en: "She's been working here since 2020.", tc: '她從 2020 年就一直在這裡工作。' },
     ],
   },
@@ -798,6 +858,39 @@ const perfectInfinitiveExamples = [
   },
 ]
 
+// G19
+const futureFormsTable = [
+  {
+    form: 'be going to',
+    formula: 'am / is / are + going to + V',
+    usage: '已決定的計畫；有明顯跡象的預測',
+    examples: [
+      { en: "I'm going to study abroad next year.", tc: '我明年打算出國讀書。（已決定的計畫）' },
+      { en: 'What are you going to do next weekend?', tc: '你下週末打算做什麼？（A1 ch16 補充）' },
+      { en: 'I am going to tell you about my weekend.', tc: '我打算跟你說說我的週末。（A1 ch18 補充）' },
+      { en: "Look at those clouds — it's going to rain.", tc: '你看那些雲——要下雨了。（有跡象的預測）' },
+    ],
+  },
+  {
+    form: '現在進行式',
+    formula: 'am / is / are + V-ing',
+    usage: '已安排好的計畫（有時間、地點等具體安排）',
+    examples: [
+      { en: "I'm meeting Sarah at 3 pm tomorrow.", tc: '我明天下午三點要和莎拉見面。（已排定）' },
+      { en: "We're flying to Tokyo next Monday.", tc: '我們下週一要飛去東京。（機票已訂）' },
+    ],
+  },
+  {
+    form: 'will',
+    formula: 'will + V',
+    usage: '當下決定、承諾、預測（無具體跡象）',
+    examples: [
+      { en: "I'll help you with that.", tc: '我來幫你。（臨時決定）' },
+      { en: "She'll probably be late.", tc: '她可能會遲到。（一般性預測）' },
+    ],
+  },
+]
+
 // G08
 const prepositionGerundExamples = [
   {
@@ -819,6 +912,16 @@ const prepositionGerundExamples = [
     en: 'Thank you for coming.',
     tc: '謝謝你來。',
     note: 'for + coming',
+  },
+  {
+    en: 'Before sleeping, I always wash my face, brush my teeth, set my alarm on my phone, and go to bed.',
+    tc: '睡前，我總是洗臉、刷牙、在手機上設定鬧鐘，然後上床睡覺。',
+    note: 'A1 ch9 補充：before 當介系詞時，後面接 V-ing',
+  },
+  {
+    en: 'Focus on losing your fear of speaking, and lose your fear of making mistakes or feeling embarrassed.',
+    tc: '專注在減少對說英文的恐懼，也減少害怕犯錯或覺得尷尬的感覺。',
+    note: 'A1 ch12 補充：on / of 後面都接 V-ing',
   },
 ]
 
@@ -870,6 +973,8 @@ const ifUsages = [
     examples: [
       { en: 'If it rains, I will stay home.', tc: '如果下雨，我就待在家。' },
       { en: 'If you go, I will go too.', tc: '如果你去，我也去。' },
+      { en: 'If I ever need to vent, I can always talk to my friends.', tc: '如果我需要發洩，我總是可以跟朋友聊聊。（A1 ch6 補充）' },
+      { en: 'If I take longer naps, I feel sleepier.', tc: '如果我午睡更久，我會覺得更想睡。（A1 ch10 補充）' },
     ],
   },
   {
@@ -891,6 +996,7 @@ const soThatUsages = [
     examples: [
       { en: 'I left early so that I could catch the bus.', tc: '我提早離開，好趕上公車。' },
       { en: 'She spoke slowly so that we could understand.', tc: '她說話放慢，好讓我們聽懂。' },
+      { en: "I'll speak slowly and clearly so that you can understand and practice listening.", tc: '我會慢慢且清楚地說，好讓你能理解並練習聽力。（A1 ch12 補充）' },
     ],
   },
   {
@@ -948,6 +1054,16 @@ const whileExamples = [
     full: 'While she was eating, she was reading a book.',
     short: 'While eating, she was reading a book.',
     tc: '她一邊吃東西，一邊看書。',
+  },
+  {
+    full: 'Do you like listening to music while you are trying to sleep?',
+    short: 'Do you like listening to music while trying to sleep?',
+    tc: '你喜歡一邊試著睡覺一邊聽音樂嗎？（A1 ch10 補充）',
+  },
+  {
+    full: 'We watched a Christmas movie while we were playing with our new toys.',
+    short: 'We watched a Christmas movie while playing with our new toys.',
+    tc: '我們一邊玩新玩具，一邊看聖誕電影。（A1 ch15 補充）',
   },
 ]
 
@@ -1021,6 +1137,7 @@ const getUsages = [
     examples: [
       { en: 'I got scammed.', tc: '我被騙了。' },
       { en: 'She got hurt.', tc: '她受傷了。' },
+      { en: 'I got my nails done.', tc: '我去請人幫我做了指甲。（A1 ch18 補充）' },
     ],
   },
   {

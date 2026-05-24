@@ -1,0 +1,2818 @@
+{
+  "videoId": "eQKkCYrlSrI",
+  "slug": "ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary",
+  "level": "a1",
+  "title": "A1 BEGINNER Slow English Podcast -- SLEEP & REST Vocabulary💤",
+  "youtubeUrl": "https://www.youtube.com/watch?v=eQKkCYrlSrI",
+  "header": {
+    "podcastLabel": "MissHoney A1",
+    "titleZh": "A1 初級慢速英語podcast -- 睡眠與休息詞彙💤",
+    "titleEn": "A1 BEGINNER Slow English Podcast -- SLEEP & REST Vocabulary💤",
+    "levelTag": "A1",
+    "topicTag": "daily routine"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "no": "01",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
+      "sentences": [
+        {
+          "en": "Hello, and welcome back to my slow English podcast.",
+          "tc": "哈囉，歡迎回到我的慢速英語 podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello, and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my slow English podcast."
+            }
+          ]
+        },
+        {
+          "en": "This podcast is for beginner English listeners from A1 to A2.",
+          "tc": "這個 podcast 是給 A1 到 A2 的初級英文聽眾聽的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This podcast is for "
+            },
+            {
+              "type": "word",
+              "text": "beginner",
+              "targetId": "word-beginner",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-002-01"
+            },
+            {
+              "type": "text",
+              "text": " English "
+            },
+            {
+              "type": "word",
+              "text": "listeners",
+              "targetId": "word-listener",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-002-02"
+            },
+            {
+              "type": "text",
+              "text": " from A1 to A2."
+            }
+          ]
+        },
+        {
+          "en": "Today, I will be talking about sleep and rest.",
+          "tc": "今天我要談的是睡眠和休息。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today, I will be talking about sleep and rest."
+            }
+          ]
+        },
+        {
+          "en": "Today, I woke up late, not early, but late.",
+          "tc": "今天我起得很晚，不是早，是晚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today, I "
+            },
+            {
+              "type": "phrase",
+              "text": "woke up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-004-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "usage",
+              "text": "late",
+              "targetId": "usage-late-item",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-004-02"
+            },
+            {
+              "type": "text",
+              "text": ", not early, but "
+            },
+            {
+              "type": "usage",
+              "text": "late",
+              "targetId": "usage-late-item",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-004-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
+      "sentences": [
+        {
+          "en": "I woke up around 10 a.m.",
+          "tc": "我大約早上 10 點醒來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "woke up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-005-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "usage",
+              "text": "around",
+              "targetId": "usage-around-item",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-005-02"
+            },
+            {
+              "type": "text",
+              "text": " 10 a.m."
+            }
+          ]
+        },
+        {
+          "en": "I was so sleepy.",
+          "tc": "我非常想睡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was so "
+            },
+            {
+              "type": "word",
+              "text": "sleepy",
+              "targetId": "word-sleepy",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-006-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I went to bed last night around 11 p.m., and I woke up at 10 a.m.",
+          "tc": "昨天晚上我大約 11 點上床睡覺，早上 10 點醒來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "went to bed",
+              "targetId": "phrase-go-to-bed",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-007-01"
+            },
+            {
+              "type": "text",
+              "text": " last night "
+            },
+            {
+              "type": "usage",
+              "text": "around",
+              "targetId": "usage-around-item",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-007-02"
+            },
+            {
+              "type": "text",
+              "text": " 11 p.m., and I "
+            },
+            {
+              "type": "phrase",
+              "text": "woke up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-007-03"
+            },
+            {
+              "type": "text",
+              "text": " at 10 a.m."
+            }
+          ]
+        },
+        {
+          "en": "That means I had 11 hours of sleep last night.",
+          "tc": "那表示我昨晚睡了 11 個小時。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That means I had 11 hours of sleep last night."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
+      "sentences": [
+        {
+          "en": "I usually don't sleep that much, but last night I was really, really tired.",
+          "tc": "我通常不會睡那麼多，但昨晚我真的非常非常累。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I usually don't sleep that much, but last night I was really, really tired."
+            }
+          ]
+        },
+        {
+          "en": "I usually have a lot of energy, and I don't need too much sleep, but lately, maybe for the past three days, I have been feeling very tired and sleepy.",
+          "tc": "我通常很有精神，也不需要太多睡眠，但最近，也許是過去三天，我一直覺得很累、很想睡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I usually have a lot of "
+            },
+            {
+              "type": "word",
+              "text": "energy",
+              "targetId": "word-energy",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-010-01"
+            },
+            {
+              "type": "text",
+              "text": ", and I don't need too much sleep, but "
+            },
+            {
+              "type": "word",
+              "text": "lately",
+              "targetId": "word-lately",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-010-02"
+            },
+            {
+              "type": "text",
+              "text": ", maybe for the past three days, I have been feeling very tired and "
+            },
+            {
+              "type": "word",
+              "text": "sleepy",
+              "targetId": "word-sleepy",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-010-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I haven't had so much energy lately, so I take care of myself, and I try to get as much rest as I can.",
+          "tc": "我最近沒有那麼多精神，所以我照顧自己，並盡量多休息。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I haven't had so much "
+            },
+            {
+              "type": "word",
+              "text": "energy",
+              "targetId": "word-energy",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-011-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "lately",
+              "targetId": "word-lately",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-011-02"
+            },
+            {
+              "type": "text",
+              "text": ", so I "
+            },
+            {
+              "type": "phrase",
+              "text": "take care of",
+              "targetId": "phrase-take-care-of",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-011-03"
+            },
+            {
+              "type": "text",
+              "text": " myself, and I try to get "
+            },
+            {
+              "type": "phrase",
+              "text": "as much rest as I can",
+              "targetId": "phrase-as-much-rest-as-i-can",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-011-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Like one of my students said, a good night's sleep is only half the battle.",
+          "tc": "就像我的一位學生說的，睡個好覺只是成功的一半。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like one of my students said, a "
+            },
+            {
+              "type": "phrase",
+              "text": "good night's sleep",
+              "targetId": "phrase-as-long-as",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-012-01"
+            },
+            {
+              "type": "text",
+              "text": " is only "
+            },
+            {
+              "type": "phrase",
+              "text": "half the battle",
+              "targetId": "phrase-half-the-battle",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-012-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
+      "sentences": [
+        {
+          "en": "So, as long as I get a good night's sleep, I think everything else will be perfect.",
+          "tc": "所以，只要我睡個好覺，我覺得其他一切都會很完美。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, "
+            },
+            {
+              "type": "phrase",
+              "text": "as long as",
+              "targetId": "phrase-as-long-as",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-013-01"
+            },
+            {
+              "type": "text",
+              "text": " I get a "
+            },
+            {
+              "type": "phrase",
+              "text": "good night's sleep",
+              "targetId": "phrase-as-long-as",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-013-02"
+            },
+            {
+              "type": "text",
+              "text": ", I think everything else will be perfect."
+            }
+          ]
+        },
+        {
+          "en": "Luckily, I could sleep in late this morning because I didn't have any early-morning lessons to teach.",
+          "tc": "幸運的是，今天早上我可以睡晚一點，因為我沒有任何清晨要教的課。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Luckily",
+              "targetId": "word-luckily",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-014-01"
+            },
+            {
+              "type": "text",
+              "text": ", I could "
+            },
+            {
+              "type": "phrase",
+              "text": "sleep in late",
+              "targetId": "phrase-sleep-in-late",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-014-02"
+            },
+            {
+              "type": "text",
+              "text": " this morning because I didn't have any early-morning lessons to teach."
+            }
+          ]
+        },
+        {
+          "en": "I could sleep in late because I didn't have work, but otherwise, I normally get up at 8 a.m. to teach every morning.",
+          "tc": "我可以睡晚一點，因為我不用工作；但不然的話，我通常每天早上 8 點起床去教課。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I could "
+            },
+            {
+              "type": "phrase",
+              "text": "sleep in late",
+              "targetId": "phrase-sleep-in-late",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-015-01"
+            },
+            {
+              "type": "text",
+              "text": " because I didn't have "
+            },
+            {
+              "type": "usage",
+              "text": "work",
+              "targetId": "usage-work-item",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-015-02"
+            },
+            {
+              "type": "text",
+              "text": ", but "
+            },
+            {
+              "type": "word",
+              "text": "otherwise",
+              "targetId": "word-otherwise",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-015-03"
+            },
+            {
+              "type": "text",
+              "text": ", I normally "
+            },
+            {
+              "type": "phrase",
+              "text": "get up",
+              "targetId": "phrase-get-up",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-015-04"
+            },
+            {
+              "type": "text",
+              "text": " at 8 a.m. to teach every morning."
+            }
+          ]
+        },
+        {
+          "en": "Sometimes it's so frustrating to fall asleep.",
+          "tc": "有時候入睡真的很令人沮喪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Sometimes it's so "
+            },
+            {
+              "type": "word",
+              "text": "frustrating",
+              "targetId": "word-frustrating",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-016-01"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-016-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
+      "sentences": [
+        {
+          "en": "Sometimes it's difficult for me to fall asleep at night.",
+          "tc": "有時候晚上入睡對我來說很困難。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Sometimes it's difficult for me to "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-017-01"
+            },
+            {
+              "type": "text",
+              "text": " at night."
+            }
+          ]
+        },
+        {
+          "en": "I just lie in bed, and I wait and I wait, but I can't fall asleep sometimes.",
+          "tc": "我就只是躺在床上，等啊等，但有時候還是睡不著。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I just "
+            },
+            {
+              "type": "phrase",
+              "text": "lie in bed",
+              "targetId": "phrase-lie-in-bed",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-018-01"
+            },
+            {
+              "type": "text",
+              "text": ", and I wait and I wait, but I can't "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-018-02"
+            },
+            {
+              "type": "text",
+              "text": " sometimes."
+            }
+          ]
+        },
+        {
+          "en": "It's especially frustrating when I have an early class in the morning, when I have to wake up early, because then I don't get my full eight hours of sleep.",
+          "tc": "當我早上有早課、必須早起時，這尤其令人沮喪，因為那樣我就睡不到完整八小時。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's especially "
+            },
+            {
+              "type": "word",
+              "text": "frustrating",
+              "targetId": "word-frustrating",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-019-01"
+            },
+            {
+              "type": "text",
+              "text": " when I have an early class in the morning, when I have to "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-019-02"
+            },
+            {
+              "type": "text",
+              "text": " early, because then I don't get my "
+            },
+            {
+              "type": "usage",
+              "text": "full",
+              "targetId": "usage-full-full-eight-hours",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-019-03"
+            },
+            {
+              "type": "text",
+              "text": " eight hours of sleep."
+            }
+          ]
+        },
+        {
+          "en": "Without my full eight hours of sleep, I can't function.",
+          "tc": "沒有我的八小時睡眠，我就無法正常運作。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Without my "
+            },
+            {
+              "type": "usage",
+              "text": "full",
+              "targetId": "usage-full-full-eight-hours",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-020-01"
+            },
+            {
+              "type": "text",
+              "text": " eight hours of sleep, I can't "
+            },
+            {
+              "type": "word",
+              "text": "function",
+              "targetId": "word-function",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-020-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
+      "sentences": [
+        {
+          "en": "I can't go to the gym or teach my lessons or hang out with my friends if I don't get my full eight hours of sleep.",
+          "tc": "如果沒有完整八小時睡眠，我就不能去健身房、教課或跟朋友出去玩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can't go to the "
+            },
+            {
+              "type": "word",
+              "text": "gym",
+              "targetId": "word-gym",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-021-01"
+            },
+            {
+              "type": "text",
+              "text": " or teach my lessons or "
+            },
+            {
+              "type": "phrase",
+              "text": "hang out with",
+              "targetId": "phrase-hang-out-with",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-021-02"
+            },
+            {
+              "type": "text",
+              "text": " my friends if I don't get my "
+            },
+            {
+              "type": "usage",
+              "text": "full",
+              "targetId": "usage-full-full-eight-hours",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-021-03"
+            },
+            {
+              "type": "text",
+              "text": " eight hours of sleep."
+            }
+          ]
+        },
+        {
+          "en": "How many hours of sleep do you need?",
+          "tc": "你需要睡幾個小時？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How many hours of sleep do you need?"
+            }
+          ]
+        },
+        {
+          "en": "Do you get enough sleep?",
+          "tc": "你睡得夠嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you get enough sleep?"
+            }
+          ]
+        },
+        {
+          "en": "I try to sleep early, like at 10 p.m.",
+          "tc": "我試著早點睡，比如晚上 10 點。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I try to sleep early, like at 10 p.m."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
+        {
+          "en": "10 p.m. is early for me.",
+          "tc": "晚上 10 點對我來說算早。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "10 p.m. is early for me."
+            }
+          ]
+        },
+        {
+          "en": "But on the weekends, like Saturday and Sunday, when I don't work, I go to sleep around 2 or even 3 a.m. sometimes, but 4 a.m. is the latest that I will go to sleep.",
+          "tc": "但在週末，像星期六和星期日我不用工作時，我有時候大約凌晨 2 點，甚至 3 點才睡，但凌晨 4 點是我最晚會去睡覺的時間。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But on the weekends, like Saturday and Sunday, when I don't work, I go to sleep "
+            },
+            {
+              "type": "usage",
+              "text": "around",
+              "targetId": "usage-around-item",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-026-01"
+            },
+            {
+              "type": "text",
+              "text": " 2 or even 3 a.m. sometimes, but 4 a.m. is the latest that I will go to sleep."
+            }
+          ]
+        },
+        {
+          "en": "If I go to sleep late, I usually try to take a nap, a short nap, during the day.",
+          "tc": "如果我睡得晚，我通常會試著在白天小睡一下，短短地睡一下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If I go to sleep "
+            },
+            {
+              "type": "usage",
+              "text": "late",
+              "targetId": "usage-late-item",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-027-01"
+            },
+            {
+              "type": "text",
+              "text": ", I usually try to "
+            },
+            {
+              "type": "phrase",
+              "text": "take a nap",
+              "targetId": "phrase-take-a-nap",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-027-02"
+            },
+            {
+              "type": "text",
+              "text": ", a short nap, during the day."
+            }
+          ]
+        },
+        {
+          "en": "I like to take naps if I didn't get a good night's sleep, but sometimes short naps make me even more sleepy.",
+          "tc": "如果我沒有睡個好覺，我喜歡小睡，但有時候短暫小睡會讓我更想睡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like to take "
+            },
+            {
+              "type": "word",
+              "text": "naps",
+              "targetId": "word-nap",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-028-01"
+            },
+            {
+              "type": "text",
+              "text": " if I didn't get a "
+            },
+            {
+              "type": "phrase",
+              "text": "good night's sleep",
+              "targetId": "phrase-as-long-as",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-028-02"
+            },
+            {
+              "type": "text",
+              "text": ", but sometimes short "
+            },
+            {
+              "type": "word",
+              "text": "naps",
+              "targetId": "word-nap",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-028-03"
+            },
+            {
+              "type": "text",
+              "text": " make me even more "
+            },
+            {
+              "type": "word",
+              "text": "sleepy",
+              "targetId": "word-sleepy",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-028-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "Do you like taking naps during the day, or do naps make you feel more sleepy?",
+          "tc": "你喜歡白天小睡嗎？還是小睡會讓你更想睡？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like taking "
+            },
+            {
+              "type": "word",
+              "text": "naps",
+              "targetId": "word-nap",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-029-01"
+            },
+            {
+              "type": "text",
+              "text": " during the day, or do "
+            },
+            {
+              "type": "word",
+              "text": "naps",
+              "targetId": "word-nap",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-029-02"
+            },
+            {
+              "type": "text",
+              "text": " make you feel more "
+            },
+            {
+              "type": "word",
+              "text": "sleepy",
+              "targetId": "word-sleepy",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-029-03"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "I can take a 20-minute nap, and I'll feel better, but if I take a 40-minute nap, then I end up feeling more tired than I did before.",
+          "tc": "我可以小睡 20 分鐘，然後感覺比較好，但如果我小睡 40 分鐘，最後反而會比之前更累。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can "
+            },
+            {
+              "type": "phrase",
+              "text": "take a 20-minute nap",
+              "targetId": "phrase-take-a-nap",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-030-01"
+            },
+            {
+              "type": "text",
+              "text": ", and I'll feel better, but if I "
+            },
+            {
+              "type": "phrase",
+              "text": "take a 40-minute nap",
+              "targetId": "phrase-take-a-nap",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-030-02"
+            },
+            {
+              "type": "text",
+              "text": ", then I "
+            },
+            {
+              "type": "phrase",
+              "text": "end up",
+              "targetId": "phrase-end-up",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-030-03"
+            },
+            {
+              "type": "text",
+              "text": " feeling more tired than I did before."
+            }
+          ]
+        },
+        {
+          "en": "I'm so jealous of people who can fall asleep easily.",
+          "tc": "我很羨慕那些可以輕鬆入睡的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm so "
+            },
+            {
+              "type": "word",
+              "text": "jealous",
+              "targetId": "word-jealous",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-031-01"
+            },
+            {
+              "type": "text",
+              "text": " of people who can "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-031-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "easily",
+              "targetId": "word-easily",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-031-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "There are people that can fall asleep so quickly.",
+          "tc": "有些人可以很快入睡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There are people that can "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-032-01"
+            },
+            {
+              "type": "text",
+              "text": " so quickly."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
+        {
+          "en": "In a matter of minutes, they can pass out and be in deep sleep.",
+          "tc": "幾分鐘之內，他們就可以睡倒，進入熟睡。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "In a matter of minutes",
+              "targetId": "phrase-pass-out",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-033-01"
+            },
+            {
+              "type": "text",
+              "text": ", they can "
+            },
+            {
+              "type": "phrase",
+              "text": "pass out",
+              "targetId": "phrase-deep-sleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-033-02"
+            },
+            {
+              "type": "text",
+              "text": " and be in "
+            },
+            {
+              "type": "phrase",
+              "text": "deep sleep",
+              "targetId": "phrase-deep-sleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-033-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "It's crazy.",
+          "tc": "這很誇張。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's crazy."
+            }
+          ]
+        },
+        {
+          "en": "I wish I could fall asleep that fast.",
+          "tc": "我希望我也能那麼快入睡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I wish I could "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-035-01"
+            },
+            {
+              "type": "text",
+              "text": " that fast."
+            }
+          ]
+        },
+        {
+          "en": "It's a true talent.",
+          "tc": "那真是一種天賦。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's a true "
+            },
+            {
+              "type": "word",
+              "text": "talent",
+              "targetId": "word-talent",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-036-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "Can you fall asleep easily, or do you take more time to fall asleep?",
+          "tc": "你能輕鬆入睡嗎？還是你需要更多時間才能睡著？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Can you "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-037-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "easily",
+              "targetId": "word-easily",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-037-02"
+            },
+            {
+              "type": "text",
+              "text": ", or do you take more time to "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-037-03"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "I normally have to stop watching my phone or a screen maybe 30 minutes before I go to sleep.",
+          "tc": "我通常必須在睡前大約 30 分鐘停止看手機或螢幕。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I normally have to stop watching my phone or a "
+            },
+            {
+              "type": "word",
+              "text": "screen",
+              "targetId": "word-screen",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-038-01"
+            },
+            {
+              "type": "text",
+              "text": " maybe 30 minutes before I go to sleep."
+            }
+          ]
+        },
+        {
+          "en": "Otherwise, I just can't sleep.",
+          "tc": "不然，我就是睡不著。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Otherwise",
+              "targetId": "word-otherwise",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-10-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", I just can't sleep."
+            }
+          ]
+        },
+        {
+          "en": "The screen on my phone or computer wakes me up and keeps me awake.",
+          "tc": "手機或電腦的螢幕會把我弄醒，讓我保持清醒。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "screen",
+              "targetId": "word-screen",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-040-01"
+            },
+            {
+              "type": "text",
+              "text": " on my phone or computer "
+            },
+            {
+              "type": "phrase",
+              "text": "wakes me up",
+              "targetId": "phrase-keep-someone-awake",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-040-02"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "phrase",
+              "text": "keeps me awake",
+              "targetId": "phrase-keep-someone-awake",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-040-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
+        {
+          "en": "But when I am sick, maybe I have a cough or I'm feeling congested, I take medication to help with my sickness, but it also helps me to fall asleep.",
+          "tc": "但當我生病時，也許我咳嗽，或覺得鼻塞，我會吃藥來幫助我的病症，但它也會幫助我入睡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But when I am sick, maybe I have a "
+            },
+            {
+              "type": "word",
+              "text": "cough",
+              "targetId": "word-cough",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-041-01"
+            },
+            {
+              "type": "text",
+              "text": " or I'm feeling "
+            },
+            {
+              "type": "word",
+              "text": "congested",
+              "targetId": "word-congested",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-041-02"
+            },
+            {
+              "type": "text",
+              "text": ", I take "
+            },
+            {
+              "type": "word",
+              "text": "medication",
+              "targetId": "word-medication",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-041-03"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "phrase",
+              "text": "help with",
+              "targetId": "phrase-help-with",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-041-04"
+            },
+            {
+              "type": "text",
+              "text": " my sickness, but it also helps me to "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-041-05"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Some medicine can cause sleepiness or drowsiness, the feeling of sleepiness, and I love medicine that makes me feel drowsy.",
+          "tc": "有些藥會造成嗜睡或昏沉，也就是想睡的感覺，而我喜歡會讓我感到昏昏欲睡的藥。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Some "
+            },
+            {
+              "type": "word",
+              "text": "medicine",
+              "targetId": "word-medicine",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-042-01"
+            },
+            {
+              "type": "text",
+              "text": " can cause "
+            },
+            {
+              "type": "word",
+              "text": "sleepiness",
+              "targetId": "word-sleepiness",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-042-02"
+            },
+            {
+              "type": "text",
+              "text": " or "
+            },
+            {
+              "type": "word",
+              "text": "drowsiness",
+              "targetId": "word-drowsiness",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-042-03"
+            },
+            {
+              "type": "text",
+              "text": ", the feeling of "
+            },
+            {
+              "type": "word",
+              "text": "sleepiness",
+              "targetId": "word-sleepiness",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-042-04"
+            },
+            {
+              "type": "text",
+              "text": ", and I love "
+            },
+            {
+              "type": "word",
+              "text": "medicine",
+              "targetId": "word-medicine",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-042-05"
+            },
+            {
+              "type": "text",
+              "text": " that makes me feel "
+            },
+            {
+              "type": "word",
+              "text": "drowsy",
+              "targetId": "word-drowsy",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-042-06"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Then I am able to sleep so well.",
+          "tc": "那樣我就能睡得很好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I am able to sleep so well."
+            }
+          ]
+        },
+        {
+          "en": "But once, I took medicine that caused sleepiness, and that night I sleepwalked.",
+          "tc": "不過有一次，我吃了會造成睡意的藥，那天晚上我夢遊了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But once, I took "
+            },
+            {
+              "type": "word",
+              "text": "medicine",
+              "targetId": "word-medicine",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-044-01"
+            },
+            {
+              "type": "text",
+              "text": " that caused "
+            },
+            {
+              "type": "word",
+              "text": "sleepiness",
+              "targetId": "word-sleepiness",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-044-02"
+            },
+            {
+              "type": "text",
+              "text": ", and that night I "
+            },
+            {
+              "type": "word",
+              "text": "sleepwalked",
+              "targetId": "word-sleepwalk",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-044-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "I used to sleepwalk all the time when I was little.",
+          "tc": "我小時候以前常常夢遊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "used to",
+              "targetId": "phrase-used-to",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-045-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "sleepwalk",
+              "targetId": "word-sleepwalk",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-045-02"
+            },
+            {
+              "type": "text",
+              "text": " all the time when I was little."
+            }
+          ]
+        },
+        {
+          "en": "I would walk around and talk, all while I was still sleeping.",
+          "tc": "我會到處走、說話，整個過程我都還在睡覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would walk "
+            },
+            {
+              "type": "usage",
+              "text": "around",
+              "targetId": "usage-around-item",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " and talk, all while I was still sleeping."
+            }
+          ]
+        },
+        {
+          "en": "One time, I woke up in my parents' bedroom, and I was standing right in front of them, and I was just talking.",
+          "tc": "有一次，我在父母的臥室醒來，我正站在他們面前，而且我只是在說話。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "One time, I woke up in my parents' bedroom, and I was standing right "
+            },
+            {
+              "type": "phrase",
+              "text": "in front of",
+              "targetId": "phrase-in-front-of",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-047-01"
+            },
+            {
+              "type": "text",
+              "text": " them, and I was just talking."
+            }
+          ]
+        },
+        {
+          "en": "My parents were so confused, and when I woke up standing there, I was also confused.",
+          "tc": "我的父母非常困惑，而當我站在那裡醒來時，我也很困惑。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My parents were so "
+            },
+            {
+              "type": "word",
+              "text": "confused",
+              "targetId": "word-confused",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-048-01"
+            },
+            {
+              "type": "text",
+              "text": ", and when I woke up standing there, I was also "
+            },
+            {
+              "type": "word",
+              "text": "confused",
+              "targetId": "word-confused",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-048-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "I didn't know where I was or how I got there.",
+          "tc": "我不知道我在哪裡，也不知道我是怎麼到那裡的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I didn't know where I was or how I got there."
+            }
+          ]
+        },
+        {
+          "en": "Do you ever sleepwalk?",
+          "tc": "你曾經夢遊嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you ever "
+            },
+            {
+              "type": "word",
+              "text": "sleepwalk",
+              "targetId": "word-sleepwalk",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-050-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Are you a sleepwalker?",
+          "tc": "你是會夢遊的人嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Are you a "
+            },
+            {
+              "type": "word",
+              "text": "sleepwalker",
+              "targetId": "word-sleepwalker",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-051-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Tell me about a time when you sleepwalked at night.",
+          "tc": "跟我說說你晚上夢遊過的一次經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Tell me about a time when you "
+            },
+            {
+              "type": "word",
+              "text": "sleepwalked",
+              "targetId": "word-sleepwalk",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-052-01"
+            },
+            {
+              "type": "text",
+              "text": " at night."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "But I don't sleepwalk anymore.",
+          "tc": "不過我現在不再夢遊了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I don't "
+            },
+            {
+              "type": "word",
+              "text": "sleepwalk",
+              "targetId": "word-sleepwalk",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-053-01"
+            },
+            {
+              "type": "text",
+              "text": " anymore."
+            }
+          ]
+        },
+        {
+          "en": "I only talk in my sleep sometimes.",
+          "tc": "我只是有時候會說夢話。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I only "
+            },
+            {
+              "type": "phrase",
+              "text": "talk in my sleep",
+              "targetId": "phrase-talk-in-one-s-sleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-054-01"
+            },
+            {
+              "type": "text",
+              "text": " sometimes."
+            }
+          ]
+        },
+        {
+          "en": "Sometimes it can scare people.",
+          "tc": "有時候這會嚇到人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Sometimes it can "
+            },
+            {
+              "type": "word",
+              "text": "scare",
+              "targetId": "word-scare",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-055-01"
+            },
+            {
+              "type": "text",
+              "text": " people."
+            }
+          ]
+        },
+        {
+          "en": "People can get scared when I am talking alone at night, but I'm just dreaming out loud.",
+          "tc": "當我晚上一個人在說話時，人們可能會害怕，但我只是把夢說出來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "People can get "
+            },
+            {
+              "type": "word",
+              "text": "scared",
+              "targetId": "word-scared",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-056-01"
+            },
+            {
+              "type": "text",
+              "text": " when I am talking alone at night, but I'm just "
+            },
+            {
+              "type": "phrase",
+              "text": "dreaming out loud",
+              "targetId": "phrase-dream-out-loud",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-056-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "Do you ever talk in your sleep?",
+          "tc": "你曾經說夢話嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you ever "
+            },
+            {
+              "type": "phrase",
+              "text": "talk in your sleep",
+              "targetId": "phrase-talk-in-one-s-sleep",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-057-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Before sleeping, I always wash my face, brush my teeth, set my alarm on my phone, and go to bed.",
+          "tc": "睡前，我總是洗臉、刷牙、在手機上設定鬧鐘，然後上床睡覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Before sleeping, I always wash my face, brush my teeth, "
+            },
+            {
+              "type": "phrase",
+              "text": "set my alarm",
+              "targetId": "phrase-set-one-s-alarm",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-058-01"
+            },
+            {
+              "type": "text",
+              "text": " on my phone, and "
+            },
+            {
+              "type": "phrase",
+              "text": "go to bed",
+              "targetId": "phrase-set-one-s-alarm",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-058-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "What do you always do before going to bed?",
+          "tc": "你睡前總是做什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you always do before "
+            },
+            {
+              "type": "phrase",
+              "text": "going to bed",
+              "targetId": "phrase-go-to-bed",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-059-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Listen every day and practice repeating all the new words.",
+          "tc": "每天聽並練習重複所有新單字。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Listen every day and practice repeating all the new words."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "If you liked this video, like and subscribe for more content, and you will probably like these videos as well.",
+          "tc": "如果你喜歡這支影片，請按讚並訂閱以查看更多內容，你可能也會喜歡這些影片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you liked this video, like and "
+            },
+            {
+              "type": "word",
+              "text": "subscribe",
+              "targetId": "word-subscribe",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-061-01"
+            },
+            {
+              "type": "text",
+              "text": " for more "
+            },
+            {
+              "type": "word",
+              "text": "content",
+              "targetId": "word-content",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-061-02"
+            },
+            {
+              "type": "text",
+              "text": ", and you will "
+            },
+            {
+              "type": "word",
+              "text": "probably",
+              "targetId": "word-probably",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-061-03"
+            },
+            {
+              "type": "text",
+              "text": " like these videos "
+            },
+            {
+              "type": "phrase",
+              "text": "as well",
+              "targetId": "phrase-as-well",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-061-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Thank you for watching.",
+          "tc": "謝謝觀看。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you for watching."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "再見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "vocabGroups": [
+    {
+      "title": "A1 重點單字",
+      "items": [
+        {
+          "id": "word-beginner",
+          "lemma": "beginner",
+          "english": "beginner",
+          "kk": "[bɪˈɡɪnɚ]",
+          "partOfSpeech": "n./adj.",
+          "meaning": "初學者；初級的",
+          "highlight": true
+        },
+        {
+          "id": "word-listener",
+          "lemma": "listener",
+          "english": "listeners",
+          "kk": "[ˈlɪsənɚ]",
+          "partOfSpeech": "n.",
+          "meaning": "聽眾",
+          "highlight": true
+        },
+        {
+          "id": "word-sleepy",
+          "lemma": "sleepy",
+          "english": "sleepy",
+          "kk": "[ˈslipi]",
+          "partOfSpeech": "adj.",
+          "meaning": "想睡的",
+          "highlight": true
+        },
+        {
+          "id": "word-energy",
+          "lemma": "energy",
+          "english": "energy",
+          "kk": "[ˈɛnɚdʒi]",
+          "partOfSpeech": "n.",
+          "meaning": "精力、精神",
+          "highlight": true
+        },
+        {
+          "id": "word-lately",
+          "lemma": "lately",
+          "english": "lately",
+          "kk": "[ˈletli]",
+          "partOfSpeech": "adv.",
+          "meaning": "最近",
+          "highlight": true
+        },
+        {
+          "id": "word-luckily",
+          "lemma": "luckily",
+          "english": "Luckily",
+          "kk": "[ˈlʌkəli]",
+          "partOfSpeech": "adv.",
+          "meaning": "幸運地",
+          "highlight": true
+        },
+        {
+          "id": "word-otherwise",
+          "lemma": "otherwise",
+          "english": "otherwise",
+          "kk": "[ˈʌðɚˌwaɪz]",
+          "partOfSpeech": "adv.",
+          "meaning": "不然的話",
+          "highlight": true
+        },
+        {
+          "id": "word-frustrating",
+          "lemma": "frustrating",
+          "english": "frustrating",
+          "kk": "[ˈfrʌˌstretɪŋ]",
+          "partOfSpeech": "adj.",
+          "meaning": "令人沮喪的",
+          "highlight": true
+        },
+        {
+          "id": "word-function",
+          "lemma": "function",
+          "english": "function",
+          "kk": "[ˈfʌŋkʃən]",
+          "partOfSpeech": "v.",
+          "meaning": "正常運作",
+          "highlight": true
+        },
+        {
+          "id": "word-gym",
+          "lemma": "gym",
+          "english": "gym",
+          "kk": "[dʒɪm]",
+          "partOfSpeech": "n.",
+          "meaning": "健身房",
+          "highlight": true
+        },
+        {
+          "id": "word-nap",
+          "lemma": "nap",
+          "english": "nap, naps",
+          "kk": "[næp]",
+          "partOfSpeech": "n.",
+          "meaning": "小睡",
+          "highlight": true
+        },
+        {
+          "id": "word-jealous",
+          "lemma": "jealous",
+          "english": "jealous",
+          "kk": "[ˈdʒɛləs]",
+          "partOfSpeech": "adj.",
+          "meaning": "羨慕的、嫉妒的",
+          "highlight": true
+        },
+        {
+          "id": "word-easily",
+          "lemma": "easily",
+          "english": "easily",
+          "kk": "[ˈizəli]",
+          "partOfSpeech": "adv.",
+          "meaning": "容易地、輕鬆地",
+          "highlight": true
+        },
+        {
+          "id": "word-talent",
+          "lemma": "talent",
+          "english": "talent",
+          "kk": "[ˈtælənt]",
+          "partOfSpeech": "n.",
+          "meaning": "天賦",
+          "highlight": true
+        },
+        {
+          "id": "word-screen",
+          "lemma": "screen",
+          "english": "screen",
+          "kk": "[skrin]",
+          "partOfSpeech": "n.",
+          "meaning": "螢幕",
+          "highlight": true
+        },
+        {
+          "id": "word-awake",
+          "lemma": "awake",
+          "english": "awake",
+          "kk": "[əˈwek]",
+          "partOfSpeech": "adj.",
+          "meaning": "醒著的",
+          "highlight": true
+        },
+        {
+          "id": "word-cough",
+          "lemma": "cough",
+          "english": "cough",
+          "kk": "[kɔf]",
+          "partOfSpeech": "n.",
+          "meaning": "咳嗽",
+          "highlight": true
+        },
+        {
+          "id": "word-congested",
+          "lemma": "congested",
+          "english": "congested",
+          "kk": "[kənˈdʒɛstɪd]",
+          "partOfSpeech": "adj.",
+          "meaning": "鼻塞的、堵塞的",
+          "highlight": true
+        },
+        {
+          "id": "word-medication",
+          "lemma": "medication",
+          "english": "medication",
+          "kk": "[ˌmɛdɪˈkeʃən]",
+          "partOfSpeech": "n.",
+          "meaning": "藥物",
+          "highlight": true
+        },
+        {
+          "id": "word-medicine",
+          "lemma": "medicine",
+          "english": "medicine",
+          "kk": "[ˈmɛdəsən]",
+          "partOfSpeech": "n.",
+          "meaning": "藥",
+          "highlight": true
+        },
+        {
+          "id": "word-sleepiness",
+          "lemma": "sleepiness",
+          "english": "sleepiness",
+          "kk": "[ˈslipinəs]",
+          "partOfSpeech": "n.",
+          "meaning": "睡意、想睡",
+          "highlight": true
+        },
+        {
+          "id": "word-drowsiness",
+          "lemma": "drowsiness",
+          "english": "drowsiness",
+          "kk": "[ˈdraʊzinəs]",
+          "partOfSpeech": "n.",
+          "meaning": "昏昏欲睡",
+          "highlight": true
+        },
+        {
+          "id": "word-drowsy",
+          "lemma": "drowsy",
+          "english": "drowsy",
+          "kk": "[ˈdraʊzi]",
+          "partOfSpeech": "adj.",
+          "meaning": "昏昏欲睡的",
+          "highlight": true
+        },
+        {
+          "id": "word-sleepwalk",
+          "lemma": "sleepwalk",
+          "english": "sleepwalk, sleepwalked",
+          "kk": "[ˈslipˌwɔk]",
+          "partOfSpeech": "v.",
+          "meaning": "夢遊",
+          "highlight": true
+        },
+        {
+          "id": "word-sleepwalker",
+          "lemma": "sleepwalker",
+          "english": "sleepwalker",
+          "kk": "[ˈslipˌwɔkɚ]",
+          "partOfSpeech": "n.",
+          "meaning": "會夢遊的人",
+          "highlight": true
+        },
+        {
+          "id": "word-confused",
+          "lemma": "confused",
+          "english": "confused",
+          "kk": "[kənˈfjuzd]",
+          "partOfSpeech": "adj.",
+          "meaning": "困惑的",
+          "highlight": true
+        },
+        {
+          "id": "word-scare",
+          "lemma": "scare",
+          "english": "scare",
+          "kk": "[skɛr]",
+          "partOfSpeech": "v.",
+          "meaning": "使害怕、嚇到",
+          "highlight": true
+        },
+        {
+          "id": "word-scared",
+          "lemma": "scared",
+          "english": "scared",
+          "kk": "[skɛrd]",
+          "partOfSpeech": "adj.",
+          "meaning": "害怕的",
+          "highlight": true
+        },
+        {
+          "id": "word-alarm",
+          "lemma": "alarm",
+          "english": "alarm",
+          "kk": "[əˈlɑrm]",
+          "partOfSpeech": "n.",
+          "meaning": "鬧鐘",
+          "highlight": true
+        },
+        {
+          "id": "word-subscribe",
+          "lemma": "subscribe",
+          "english": "subscribe",
+          "kk": "[səbˈskraɪb]",
+          "partOfSpeech": "v.",
+          "meaning": "訂閱",
+          "highlight": true
+        },
+        {
+          "id": "word-content",
+          "lemma": "content",
+          "english": "content",
+          "kk": "[ˈkɑnˌtɛnt]",
+          "partOfSpeech": "n.",
+          "meaning": "內容",
+          "highlight": true
+        },
+        {
+          "id": "word-probably",
+          "lemma": "probably",
+          "english": "probably",
+          "kk": "[ˈprɑbəbli]",
+          "partOfSpeech": "adv.",
+          "meaning": "可能、大概",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "phrase-welcome-back",
+      "phrase": "welcome back",
+      "meaning": "歡迎再次來到節目或某個地方",
+      "examples": [
+        {
+          "en": "Hello, and __welcome back__ to my slow English podcast.",
+          "tc": "歡迎再次來到節目或某個地方"
+        }
+      ]
+    },
+    {
+      "id": "phrase-wake-up",
+      "phrase": "wake up",
+      "meaning": "睡醒、起床",
+      "examples": [
+        {
+          "en": "Today, I __woke up__ 《late》, not early, but 《late》.",
+          "tc": "睡醒、起床"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-to-bed",
+      "phrase": "go to bed",
+      "meaning": "上床準備睡覺",
+      "examples": [
+        {
+          "en": "I __went to bed__ last night 《around》 11 p.m.",
+          "tc": "上床準備睡覺"
+        },
+        {
+          "en": "What do you always do before __going to bed__?",
+          "tc": "上床準備睡覺"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-care-of",
+      "phrase": "take care of",
+      "meaning": "照顧某人或某事",
+      "examples": [
+        {
+          "en": "I __take care of__ myself.",
+          "tc": "照顧某人或某事"
+        }
+      ]
+    },
+    {
+      "id": "phrase-as-much-rest-as-i-can",
+      "phrase": "as much rest as I can",
+      "meaning": "盡可能多休息",
+      "examples": [
+        {
+          "en": "I try to get __as much rest as I can__.",
+          "tc": "盡可能多休息"
+        }
+      ]
+    },
+    {
+      "id": "phrase-good-night-s-sleep",
+      "phrase": "good night's sleep",
+      "meaning": "一晚睡得好、睡眠品質好",
+      "examples": [
+        {
+          "en": "A __good night's sleep__ is only __half the battle__.",
+          "tc": "一晚睡得好、睡眠品質好"
+        }
+      ]
+    },
+    {
+      "id": "phrase-half-the-battle",
+      "phrase": "half the battle",
+      "meaning": "事情成功的重要一部分，但不是全部",
+      "examples": [
+        {
+          "en": "A __good night's sleep__ is only __half the battle__.",
+          "tc": "事情成功的重要一部分，但不是全部"
+        }
+      ]
+    },
+    {
+      "id": "phrase-as-long-as",
+      "phrase": "as long as",
+      "meaning": "表示條件，相當於「只要」",
+      "examples": [
+        {
+          "en": "__As long as__ I get a __good night's sleep__, I think everything else will be perfect.",
+          "tc": "表示條件，相當於「只要」"
+        }
+      ]
+    },
+    {
+      "id": "phrase-sleep-in-late",
+      "phrase": "sleep in late",
+      "meaning": "比平常晚起床",
+      "examples": [
+        {
+          "en": "**Luckily**, I could __sleep in late__ this morning.",
+          "tc": "比平常晚起床"
+        }
+      ]
+    },
+    {
+      "id": "phrase-get-up",
+      "phrase": "get up",
+      "meaning": "起床",
+      "examples": [
+        {
+          "en": "I normally __get up__ at 8 a.m. to teach every morning.",
+          "tc": "起床"
+        }
+      ]
+    },
+    {
+      "id": "phrase-fall-asleep",
+      "phrase": "fall asleep",
+      "meaning": "開始睡著",
+      "examples": [
+        {
+          "en": "Sometimes it's so **frustrating** to __fall asleep__.",
+          "tc": "開始睡著"
+        }
+      ]
+    },
+    {
+      "id": "phrase-lie-in-bed",
+      "phrase": "lie in bed",
+      "meaning": "躺在床上",
+      "examples": [
+        {
+          "en": "I just __lie in bed__, and I wait and I wait.",
+          "tc": "躺在床上"
+        }
+      ]
+    },
+    {
+      "id": "phrase-hang-out-with",
+      "phrase": "hang out with",
+      "meaning": "和某人輕鬆相處或出去玩",
+      "examples": [
+        {
+          "en": "I can't go to the **gym** or teach my lessons or __hang out with__ my friends.",
+          "tc": "和某人輕鬆相處或出去玩"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-a-nap",
+      "phrase": "take a nap",
+      "meaning": "短時間睡一下",
+      "examples": [
+        {
+          "en": "If I go to sleep 《late》, I usually try to __take a nap__.",
+          "tc": "短時間睡一下"
+        },
+        {
+          "en": "I can __take a 20-minute nap__.",
+          "tc": "短時間睡一下"
+        },
+        {
+          "en": "If I __take a 40-minute nap__, then I __end up__ feeling more tired than I did before.",
+          "tc": "短時間睡一下"
+        }
+      ]
+    },
+    {
+      "id": "phrase-end-up",
+      "phrase": "end up",
+      "meaning": "最後變成某種結果",
+      "examples": [
+        {
+          "en": "Then I __end up__ feeling more tired than I did before.",
+          "tc": "最後變成某種結果"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-a-matter-of-minutes",
+      "phrase": "in a matter of minutes",
+      "meaning": "在很短的幾分鐘內",
+      "examples": [
+        {
+          "en": "__In a matter of minutes__, they can __pass out__ and be in __deep sleep__.",
+          "tc": "在很短的幾分鐘內"
+        }
+      ]
+    },
+    {
+      "id": "phrase-pass-out",
+      "phrase": "pass out",
+      "meaning": "突然睡倒；也可指昏倒",
+      "examples": [
+        {
+          "en": "__In a matter of minutes__, they can __pass out__ and be in __deep sleep__.",
+          "tc": "突然睡倒；也可指昏倒"
+        }
+      ]
+    },
+    {
+      "id": "phrase-deep-sleep",
+      "phrase": "deep sleep",
+      "meaning": "睡得很沉的狀態",
+      "examples": [
+        {
+          "en": "They can __pass out__ and be in __deep sleep__.",
+          "tc": "睡得很沉的狀態"
+        }
+      ]
+    },
+    {
+      "id": "phrase-wake-someone-up",
+      "phrase": "wake someone up",
+      "meaning": "讓某人醒來或變清醒",
+      "examples": [
+        {
+          "en": "The **screen** on my phone or computer __wakes me up__.",
+          "tc": "讓某人醒來或變清醒"
+        }
+      ]
+    },
+    {
+      "id": "phrase-keep-someone-awake",
+      "phrase": "keep someone awake",
+      "meaning": "讓某人維持清醒、睡不著",
+      "examples": [
+        {
+          "en": "The **screen** on my phone or computer __wakes me up__ and __keeps me awake__.",
+          "tc": "讓某人維持清醒、睡不著"
+        }
+      ]
+    },
+    {
+      "id": "phrase-help-with",
+      "phrase": "help with",
+      "meaning": "幫忙處理某件事或某個問題",
+      "examples": [
+        {
+          "en": "I take **medication** to __help with__ my sickness.",
+          "tc": "幫忙處理某件事或某個問題"
+        }
+      ]
+    },
+    {
+      "id": "phrase-used-to",
+      "phrase": "used to",
+      "meaning": "表示過去常常做、現在不一定如此",
+      "examples": [
+        {
+          "en": "I __used to__ **sleepwalk** all the time when I was little.",
+          "tc": "表示過去常常做、現在不一定如此"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-front-of",
+      "phrase": "in front of",
+      "meaning": "在某人或某物前面",
+      "examples": [
+        {
+          "en": "I was standing right __in front of__ them.",
+          "tc": "在某人或某物前面"
+        }
+      ]
+    },
+    {
+      "id": "phrase-talk-in-one-s-sleep",
+      "phrase": "talk in one's sleep",
+      "meaning": "睡覺時說話",
+      "examples": [
+        {
+          "en": "I only __talk in my sleep__ sometimes.",
+          "tc": "睡覺時說話"
+        },
+        {
+          "en": "Do you ever __talk in your sleep__?",
+          "tc": "睡覺時說話"
+        }
+      ]
+    },
+    {
+      "id": "phrase-dream-out-loud",
+      "phrase": "dream out loud",
+      "meaning": "把夢裡的話說出聲",
+      "examples": [
+        {
+          "en": "I'm just __dreaming out loud__.",
+          "tc": "把夢裡的話說出聲"
+        }
+      ]
+    },
+    {
+      "id": "phrase-set-one-s-alarm",
+      "phrase": "set one's alarm",
+      "meaning": "設定鬧鐘要響的時間",
+      "examples": [
+        {
+          "en": "I always wash my face, brush my teeth, __set my alarm__ on my phone, and __go to bed__.",
+          "tc": "設定鬧鐘要響的時間"
+        }
+      ]
+    },
+    {
+      "id": "phrase-as-well",
+      "phrase": "as well",
+      "meaning": "也、同樣地",
+      "examples": [
+        {
+          "en": "You will **probably** like these videos __as well__.",
+          "tc": "也、同樣地"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-late-item",
+      "word": "late",
+      "familiarMeaning": "遲到的；晚的",
+      "usage": "作副詞，表示比平常或預期時間晚",
+      "translation": "晚、晚一點",
+      "examples": [
+        "Today, I __woke up__ 《late》, not early, but 《late》."
+      ]
+    },
+    {
+      "id": "usage-around-item",
+      "word": "around",
+      "familiarMeaning": "在周圍",
+      "usage": "放在時間前，表示大約、不精確",
+      "translation": "大約",
+      "examples": [
+        "I __woke up__ 《around》 10 a.m."
+      ]
+    },
+    {
+      "id": "usage-work-item",
+      "word": "work",
+      "familiarMeaning": "工作；做事",
+      "usage": "不可數名詞，指工作安排或要上班這件事",
+      "translation": "工作、上班",
+      "examples": [
+        "I could __sleep in late__ because I didn't have 《work》."
+      ]
+    },
+    {
+      "id": "usage-full-full-eight-hours",
+      "word": "full",
+      "familiarMeaning": "滿的",
+      "usage": "表示完整足量；full eight hours 指完整八小時",
+      "translation": "完整的",
+      "examples": [
+        "Without my 《full》 eight hours of sleep, I can't **function**."
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "grammar-1",
+      "sentence": "Today, I will be talking about sleep and rest.",
+      "translation": "今天我要談的是睡眠和休息。",
+      "points": [
+        {
+          "label": "未來進行式",
+          "text": "will be + V-ing",
+          "note": "用 will be talking 表示接下來這集節目將會進行的主題，比單純 will talk 更像節目安排。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "sentence": "I have been feeling very tired and sleepy.",
+      "translation": "我一直覺得很累、很想睡。",
+      "points": [
+        {
+          "label": "現在完成進行式",
+          "text": "have/has been + V-ing",
+          "note": "表示從過去一段時間開始，一直到現在仍持續的感覺或狀態。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "sentence": "I haven't had so much energy lately.",
+      "translation": "我最近沒有那麼多精神。",
+      "points": [
+        {
+          "label": "現在完成式否定",
+          "text": "haven't/hasn't + 過去分詞",
+          "note": "用來說明最近到現在的經驗或狀態；had 是 have 的過去分詞。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-4",
+      "sentence": "I try to get as much rest as I can.",
+      "translation": "我盡量多休息。",
+      "points": [
+        {
+          "label": "as much + 名詞 + as I can",
+          "text": "as much + rest + as + 主詞 + can",
+          "note": "用來表示「在能力範圍內盡量多」。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "As long as I get a good night's sleep, I think everything else will be perfect.",
+      "translation": "只要我睡個好覺，我覺得其他一切都會很完美。",
+      "points": [
+        {
+          "label": "as long as 條件句",
+          "text": "As long as + 主詞 + 動詞, 主句",
+          "note": "as long as 帶出條件，表示只要前面的條件成立，後面的結果就可能成立。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "I didn't have any early-morning lessons to teach.",
+      "translation": "我沒有任何清晨要教的課。",
+      "points": [
+        {
+          "label": "名詞 + to V",
+          "text": "lessons + to teach",
+          "note": "to teach 放在 lessons 後面，補充說明這些課是「需要去教的課」。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "Sometimes it's difficult for me to fall asleep at night.",
+      "translation": "有時候晚上入睡對我來說很困難。",
+      "points": [
+        {
+          "label": "It is + 形容詞 + for someone + to V",
+          "text": "It + is + difficult + for me + to fall asleep",
+          "note": "用 it 當形式主詞，把真正的動作 to fall asleep 放到後面，句子比較自然。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "It's especially frustrating when I have an early class in the morning, when I have to wake up early, because then I don't get my full eight hours of sleep.",
+      "translation": "當我早上有早課、必須早起時，這尤其令人沮喪，因為那樣我就睡不到完整八小時。",
+      "points": [
+        {
+          "label": "when / because 副詞子句",
+          "text": "主句 + when + 情況 + because + 原因",
+          "note": "when 說明發生情境，because 說明原因，讓一句話同時交代時間條件與理由。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-9",
+      "sentence": "Without my full eight hours of sleep, I can't function.",
+      "translation": "沒有我的八小時睡眠，我就無法正常運作。",
+      "points": [
+        {
+          "label": "without + 名詞片語表條件",
+          "text": "Without + noun phrase, 主詞 + can't + V",
+          "note": "without 在這裡不只表示「沒有」，也表達「如果沒有這個條件」。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-10",
+      "sentence": "If I go to sleep late, I usually try to take a nap, a short nap, during the day.",
+      "translation": "如果我睡得晚，我通常會試著在白天小睡一下。",
+      "points": [
+        {
+          "label": "if 真實條件句",
+          "text": "If + 現在式, 主詞 + usually + 動詞",
+          "note": "用現在式 if 子句描述常發生的情況與通常會採取的做法。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-11",
+      "sentence": "I can take a 20-minute nap, and I'll feel better, but if I take a 40-minute nap, then I end up feeling more tired than I did before.",
+      "translation": "我可以小睡 20 分鐘，然後感覺比較好，但如果我小睡 40 分鐘，最後反而會比之前更累。",
+      "points": [
+        {
+          "label": "比較級 + than + did before",
+          "text": "more + 形容詞 + than + 主詞 + did before",
+          "note": "than 後面的 did 代替前面提過的 felt tired，避免重複整個動詞片語。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-12",
+      "sentence": "I'm so jealous of people who can fall asleep easily.",
+      "translation": "我很羨慕那些可以輕鬆入睡的人。",
+      "points": [
+        {
+          "label": "who 引導關係子句",
+          "text": "people + who + can + V",
+          "note": "who can... 補充說明是哪一種 people，也就是「能輕鬆入睡的人」。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-13",
+      "sentence": "There are people that can fall asleep so quickly.",
+      "translation": "有些人可以很快入睡。",
+      "points": [
+        {
+          "label": "There are + 名詞 + that 子句",
+          "text": "There are + people + that + can + V",
+          "note": "There are 先提出「有些人」，that 子句再補充這些人的特色。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-14",
+      "sentence": "I wish I could fall asleep that fast.",
+      "translation": "我希望我也能那麼快入睡。",
+      "points": [
+        {
+          "label": "wish + could",
+          "text": "wish + 主詞 + could + V",
+          "note": "用 could 表示與現在事實不同或不確定能否做到的願望。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-15",
+      "sentence": "I normally have to stop watching my phone or a screen maybe 30 minutes before I go to sleep.",
+      "translation": "我通常必須在睡前大約 30 分鐘停止看手機或螢幕。",
+      "points": [
+        {
+          "label": "stop + V-ing",
+          "text": "stop + watching",
+          "note": "stop 後面接 V-ing，表示停止正在做的動作。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-16",
+      "sentence": "The screen on my phone or computer wakes me up and keeps me awake.",
+      "translation": "手機或電腦的螢幕會把我弄醒，讓我保持清醒。",
+      "points": [
+        {
+          "label": "使役結構：wake/keep + 受詞 + 補語",
+          "text": "wakes + me + up; keeps + me + awake",
+          "note": "wake me up 表示使我醒來，keep me awake 表示讓我保持清醒。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-17",
+      "sentence": "I love medicine that makes me feel drowsy.",
+      "translation": "我喜歡會讓我感到昏昏欲睡的藥。",
+      "points": [
+        {
+          "label": "make + 受詞 + 原形動詞",
+          "text": "makes + me + feel + drowsy",
+          "note": "make 後面接受詞 me，再接原形動詞 feel，表示「使我感到……」。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-18",
+      "sentence": "I used to sleepwalk all the time when I was little.",
+      "translation": "我小時候以前常常夢遊。",
+      "points": [
+        {
+          "label": "used to + 原形動詞",
+          "text": "used to + sleepwalk",
+          "note": "表示過去常常做某事，但現在不一定還會做。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-19",
+      "sentence": "I would walk around and talk, all while I was still sleeping.",
+      "translation": "我會到處走、說話，整個過程我都還在睡覺。",
+      "points": [
+        {
+          "label": "would 表過去習慣",
+          "text": "would + 原形動詞",
+          "note": "would 可用來回憶過去反覆發生的習慣動作。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-20",
+      "sentence": "When I woke up standing there, I was also confused.",
+      "translation": "當我站在那裡醒來時，我也很困惑。",
+      "points": [
+        {
+          "label": "分詞片語補充狀態",
+          "text": "woke up + standing there",
+          "note": "standing there 描述醒來當下的狀態：人是站在那裡的。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-21",
+      "sentence": "I didn't know where I was or how I got there.",
+      "translation": "我不知道我在哪裡，也不知道我是怎麼到那裡的。",
+      "points": [
+        {
+          "label": "間接問句",
+          "text": "know + where + 主詞 + 動詞 / how + 主詞 + 動詞",
+          "note": "where I was 和 how I got there 是句子中的受詞，不用疑問句倒裝。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-22",
+      "sentence": "Tell me about a time when you sleepwalked at night.",
+      "translation": "跟我說說你晚上夢遊過的一次經驗。",
+      "points": [
+        {
+          "label": "when 引導關係子句",
+          "text": "a time + when + 主詞 + 動詞",
+          "note": "when you sleepwalked 補充說明是哪一次經驗。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-23",
+      "sentence": "People can get scared when I am talking alone at night.",
+      "translation": "當我晚上一個人在說話時，人們可能會害怕。",
+      "points": [
+        {
+          "label": "get + 形容詞",
+          "text": "get + scared",
+          "note": "get scared 表示「變得害怕」，比 be scared 更強調狀態變化。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-24",
+      "sentence": "Before sleeping, I always wash my face, brush my teeth, set my alarm on my phone, and go to bed.",
+      "translation": "睡前，我總是洗臉、刷牙、在手機上設定鬧鐘，然後上床睡覺。",
+      "points": [
+        {
+          "label": "介系詞 + V-ing",
+          "text": "before + sleeping",
+          "note": "before 當介系詞時，後面接名詞或動名詞 V-ing。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-25",
+      "sentence": "If you liked this video, like and subscribe for more content, and you will probably like these videos as well.",
+      "translation": "如果你喜歡這支影片，請按讚並訂閱以查看更多內容，你可能也會喜歡這些影片。",
+      "points": [
+        {
+          "label": "if 條件子句 + 祈使句",
+          "text": "If + 主詞 + 動詞, 祈使動詞 + and + 主句",
+          "note": "if 子句設定條件，後面用 like and subscribe 直接請觀眾採取行動。"
+        }
+      ]
+    }
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary",
+    "sourcePath": "_private/tmp/originalContent/a1/ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.md"
+  }
+}

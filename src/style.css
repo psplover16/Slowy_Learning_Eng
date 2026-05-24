@@ -31,3 +31,25 @@ html {
   scroll-padding-top: calc(4rem + env(safe-area-inset-top, 0px));
 }
 
+.playlist-inline-marker {
+  display: inline;
+  padding: 0 0.12rem;
+  border-radius: 0.25rem;
+  color: #8f3f2b;
+  font: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.18em;
+  background: transparent;
+  cursor: pointer;
+}
+
+.playlist-inline-marker:hover {
+  background: rgb(186 96 65 / 0.12);
+}
+
+.playlist-learning-item--active {
+  outline: 2px solid rgb(186 96 65 / 0.72);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgb(186 96 65 / 0.12);
+}

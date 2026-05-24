@@ -18,6 +18,7 @@ export default [
       'node_modules/**',
       'playwright-report/**',
       'test-results/**',
+      '_private/**',
       '.deploy-pages/**',
       '.spectra/**',
     ],

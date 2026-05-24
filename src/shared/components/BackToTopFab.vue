@@ -33,6 +33,10 @@ function disconnect() {
 
 function observe(el: HTMLElement) {
   disconnect()
+  if (typeof IntersectionObserver === 'undefined') {
+    isVisible.value = false
+    return
+  }
   observer = new IntersectionObserver((entries) => {
     isVisible.value = entries[0]?.isIntersecting ?? true
   })

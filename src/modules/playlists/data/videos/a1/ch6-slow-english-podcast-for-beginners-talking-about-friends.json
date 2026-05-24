@@ -1,0 +1,925 @@
+{
+  "videoId": "k4Vsa0AONT4",
+  "slug": "ch6-slow-english-podcast-for-beginners-talking-about-friends",
+  "level": "a1",
+  "title": "SLOW English Podcast for Beginners! -- talking about 👉friends",
+  "youtubeUrl": "https://www.youtube.com/watch?v=k4Vsa0AONT4",
+  "header": {
+    "podcastLabel": "MissHoney A1",
+    "titleZh": "適合初學者的慢速英語podcast！ ——談論👉朋友",
+    "titleEn": "SLOW English Podcast for Beginners! -- talking about 👉friends",
+    "levelTag": "A1",
+    "topicTag": "people"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "no": "01",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
+      "sentences": [
+        {
+          "en": "Hello, welcome back to my slow English podcast.",
+          "tc": "哈囉，歡迎回到我的慢速英語播客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello, welcome back to my slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-001-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "This podcast is for A1 beginner-level listeners.",
+          "tc": "這個播客是給 A1 初學程度的聽眾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-002-01"
+            },
+            {
+              "type": "text",
+              "text": " is for A1 "
+            },
+            {
+              "type": "phrase",
+              "text": "beginner-level listeners",
+              "targetId": "phrase-beginner-level-listeners",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-002-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Today, I will be talking about friends.",
+          "tc": "今天，我會聊朋友。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today, I will be talking about friends."
+            }
+          ]
+        },
+        {
+          "en": "I have a few friends.",
+          "tc": "我有一些朋友。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have a few friends."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
+      "sentences": [
+        {
+          "en": "I have a few very good friends.",
+          "tc": "我有一些非常好的朋友。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have a few very good friends."
+            }
+          ]
+        },
+        {
+          "en": "When I feel stressed from work, home, or life, I can always talk to my friends.",
+          "tc": "當我因為工作、家裡或生活感到壓力時，我總是可以跟朋友說話。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I feel "
+            },
+            {
+              "type": "word",
+              "text": "stressed",
+              "targetId": "word-stressed",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-006-01"
+            },
+            {
+              "type": "text",
+              "text": " from work, home, or life, I can always talk to my friends."
+            }
+          ]
+        },
+        {
+          "en": "If I ever need to vent, I can always talk to my friends.",
+          "tc": "如果我需要吐苦水，我總是可以跟朋友說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If I ever need to "
+            },
+            {
+              "type": "word",
+              "text": "vent",
+              "targetId": "word-vent",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-007-01"
+            },
+            {
+              "type": "text",
+              "text": ", I can always talk to my friends."
+            }
+          ]
+        },
+        {
+          "en": "My friends make me smile when I'm feeling down.",
+          "tc": "當我心情低落時，我的朋友會讓我微笑。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My friends "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-make",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-008-01"
+            },
+            {
+              "type": "text",
+              "text": " me smile when I'm "
+            },
+            {
+              "type": "phrase",
+              "text": "feeling down",
+              "targetId": "phrase-feeling-down",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-008-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
+      "sentences": [
+        {
+          "en": "My friends make me laugh.",
+          "tc": "我的朋友會讓我笑。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My friends "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-make",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-009-01"
+            },
+            {
+              "type": "text",
+              "text": " me laugh."
+            }
+          ]
+        },
+        {
+          "en": "I laugh a lot with my friends.",
+          "tc": "我和朋友在一起時笑很多。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I laugh a lot with my friends."
+            }
+          ]
+        },
+        {
+          "en": "We laugh about everything and anything.",
+          "tc": "我們什麼都可以笑。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We laugh about "
+            },
+            {
+              "type": "phrase",
+              "text": "everything and anything",
+              "targetId": "phrase-everything-and-anything",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-011-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Who makes you smile?",
+          "tc": "誰會讓你微笑？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Who makes you smile?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
+      "sentences": [
+        {
+          "en": "Who makes you laugh when you're feeling down?",
+          "tc": "當你心情低落時，誰會讓你笑？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Who makes you laugh when you're "
+            },
+            {
+              "type": "phrase",
+              "text": "feeling down",
+              "targetId": "phrase-feeling-down",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-013-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Sometimes, I will go eat with my friends.",
+          "tc": "有時候，我會和朋友一起去吃東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Sometimes, I will go eat with my friends."
+            }
+          ]
+        },
+        {
+          "en": "We like to eat tacos.",
+          "tc": "我們喜歡吃 tacos。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We like to eat "
+            },
+            {
+              "type": "word",
+              "text": "tacos",
+              "targetId": "word-taco",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-015-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I always get the longanisa tacos.",
+          "tc": "我總是點 longanisa tacos。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I always "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-016-01"
+            },
+            {
+              "type": "text",
+              "text": " the "
+            },
+            {
+              "type": "word",
+              "text": "longanisa",
+              "targetId": "word-longanisa",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-016-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "tacos",
+              "targetId": "word-taco",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-016-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
+      "sentences": [
+        {
+          "en": "Those tacos are my favorite.",
+          "tc": "那些 tacos 是我的最愛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Those "
+            },
+            {
+              "type": "word",
+              "text": "tacos",
+              "targetId": "word-taco",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-017-01"
+            },
+            {
+              "type": "text",
+              "text": " are my favorite."
+            }
+          ]
+        },
+        {
+          "en": "What is your favorite kind of taco?",
+          "tc": "你最喜歡哪一種 taco？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What is your favorite kind of "
+            },
+            {
+              "type": "word",
+              "text": "taco",
+              "targetId": "word-taco",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-018-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Do you like tacos with cheese, onion, and hot sauce?",
+          "tc": "你喜歡加起司、洋蔥和辣醬的 tacos 嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like "
+            },
+            {
+              "type": "word",
+              "text": "tacos",
+              "targetId": "word-taco",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-019-01"
+            },
+            {
+              "type": "text",
+              "text": " with cheese, "
+            },
+            {
+              "type": "word",
+              "text": "onion",
+              "targetId": "word-onion",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-019-02"
+            },
+            {
+              "type": "text",
+              "text": ", and "
+            },
+            {
+              "type": "phrase",
+              "text": "hot sauce",
+              "targetId": "phrase-hot-sauce",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-019-03"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "I like to hang out with my friends.",
+          "tc": "我喜歡和朋友一起出去玩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like to "
+            },
+            {
+              "type": "phrase",
+              "text": "hang out",
+              "targetId": "phrase-hang-out",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-020-01"
+            },
+            {
+              "type": "text",
+              "text": " with my friends."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
+      "sentences": [
+        {
+          "en": "We hang out at the mall, the market, the fair, and even at restaurants or parties.",
+          "tc": "我們會在購物中心、市場、園遊會，甚至在餐廳或派對上相聚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We "
+            },
+            {
+              "type": "phrase",
+              "text": "hang out",
+              "targetId": "phrase-hang-out",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-021-01"
+            },
+            {
+              "type": "text",
+              "text": " at the "
+            },
+            {
+              "type": "word",
+              "text": "mall",
+              "targetId": "word-mall",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-021-02"
+            },
+            {
+              "type": "text",
+              "text": ", the "
+            },
+            {
+              "type": "word",
+              "text": "market",
+              "targetId": "word-market",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-021-03"
+            },
+            {
+              "type": "text",
+              "text": ", the "
+            },
+            {
+              "type": "usage",
+              "text": "fair",
+              "targetId": "usage-fair-item",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-021-04"
+            },
+            {
+              "type": "text",
+              "text": ", and even at restaurants or parties."
+            }
+          ]
+        },
+        {
+          "en": "We hang out everywhere.",
+          "tc": "我們到處都可以一起待著。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We "
+            },
+            {
+              "type": "phrase",
+              "text": "hang out",
+              "targetId": "phrase-hang-out",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-022-01"
+            },
+            {
+              "type": "text",
+              "text": " everywhere."
+            }
+          ]
+        },
+        {
+          "en": "I don't know what I would do without my friends.",
+          "tc": "我不知道沒有朋友我會怎麼辦。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know what I would do without my friends."
+            }
+          ]
+        },
+        {
+          "en": "The full podcast is on YouTube and Spotify.",
+          "tc": "完整的播客在 YouTube 和 Spotify 上。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The "
+            },
+            {
+              "type": "usage",
+              "text": "full",
+              "targetId": "usage-full-item",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-024-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-024-02"
+            },
+            {
+              "type": "text",
+              "text": " is on YouTube and Spotify."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
+        {
+          "en": "Try not to read the subtitles.",
+          "tc": "試著不要看字幕。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Try not to read the "
+            },
+            {
+              "type": "word",
+              "text": "subtitles",
+              "targetId": "word-subtitle",
+              "instanceId": "marker-a1-ch6-slow-english-podcast-for-beginners-talking-about-friends-025-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Just listen.",
+          "tc": "只要聽就好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Just listen."
+            }
+          ]
+        },
+        {
+          "en": "Thank you for listening.",
+          "tc": "謝謝收聽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you for listening."
+            }
+          ]
+        },
+        {
+          "en": "See you next time.",
+          "tc": "下次見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "See you next time."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "Bye.",
+          "tc": "拜拜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "vocabGroups": [
+    {
+      "title": "A1 重點單字",
+      "items": [
+        {
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "[ˈpɑdˌkæst]",
+          "partOfSpeech": "noun",
+          "meaning": "播客、網路音頻節目",
+          "highlight": true
+        },
+        {
+          "id": "word-stressed",
+          "lemma": "stressed",
+          "english": "stressed",
+          "kk": "[strɛst]",
+          "partOfSpeech": "adjective",
+          "meaning": "感到有壓力的",
+          "highlight": true
+        },
+        {
+          "id": "word-vent",
+          "lemma": "vent",
+          "english": "vent",
+          "kk": "[vɛnt]",
+          "partOfSpeech": "verb",
+          "meaning": "發洩情緒、吐苦水",
+          "highlight": true
+        },
+        {
+          "id": "word-taco",
+          "lemma": "taco",
+          "english": "tacos / taco",
+          "kk": "[ˈtɑko]",
+          "partOfSpeech": "noun",
+          "meaning": "墨西哥夾餅",
+          "highlight": true
+        },
+        {
+          "id": "word-longanisa",
+          "lemma": "longanisa",
+          "english": "longanisa",
+          "kk": "[ˌlɔŋgɑˈnisɑ]",
+          "partOfSpeech": "noun",
+          "meaning": "一種香腸",
+          "highlight": true
+        },
+        {
+          "id": "word-onion",
+          "lemma": "onion",
+          "english": "onion",
+          "kk": "[ˈʌnjən]",
+          "partOfSpeech": "noun",
+          "meaning": "洋蔥",
+          "highlight": true
+        },
+        {
+          "id": "word-mall",
+          "lemma": "mall",
+          "english": "mall",
+          "kk": "[mɔl]",
+          "partOfSpeech": "noun",
+          "meaning": "購物中心",
+          "highlight": true
+        },
+        {
+          "id": "word-market",
+          "lemma": "market",
+          "english": "market",
+          "kk": "[ˈmɑrkɪt]",
+          "partOfSpeech": "noun",
+          "meaning": "市場",
+          "highlight": true
+        },
+        {
+          "id": "word-subtitle",
+          "lemma": "subtitle",
+          "english": "subtitles",
+          "kk": "[ˈsʌbˌtaɪtəl]",
+          "partOfSpeech": "noun",
+          "meaning": "字幕",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "phrase-beginner-level-listeners",
+      "phrase": "beginner-level listeners",
+      "meaning": "程度在初學等級的聽眾",
+      "examples": [
+        {
+          "en": "This **podcast** is for A1 __beginner-level listeners__.",
+          "tc": "程度在初學等級的聽眾"
+        }
+      ]
+    },
+    {
+      "id": "phrase-feeling-down",
+      "phrase": "feeling down",
+      "meaning": "心情低落",
+      "examples": [
+        {
+          "en": "My friends 《make》 me smile when I'm __feeling down__.",
+          "tc": "心情低落"
+        }
+      ]
+    },
+    {
+      "id": "phrase-everything-and-anything",
+      "phrase": "everything and anything",
+      "meaning": "各式各樣、什麼都聊",
+      "examples": [
+        {
+          "en": "We laugh about __everything and anything__.",
+          "tc": "各式各樣、什麼都聊"
+        }
+      ]
+    },
+    {
+      "id": "phrase-hot-sauce",
+      "phrase": "hot sauce",
+      "meaning": "辣醬",
+      "examples": [
+        {
+          "en": "Do you like **tacos** with cheese, **onion**, and __hot sauce__?",
+          "tc": "辣醬"
+        }
+      ]
+    },
+    {
+      "id": "phrase-hang-out",
+      "phrase": "hang out",
+      "meaning": "輕鬆相處、出去玩",
+      "examples": [
+        {
+          "en": "I like to __hang out__ with my friends.",
+          "tc": "輕鬆相處、出去玩"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-make-make",
+      "word": "make",
+      "familiarMeaning": "製造",
+      "usage": "make + 人 + 原形動詞，表示「讓某人做某事或有某種感覺」",
+      "translation": "讓我微笑、讓我笑",
+      "examples": [
+        "My friends 《make》 me smile when I'm __feeling down__."
+      ]
+    },
+    {
+      "id": "usage-get-item",
+      "word": "get",
+      "familiarMeaning": "得到、拿到",
+      "usage": "在點餐或買食物時表示「買、點」",
+      "translation": "我總是點 longanisa tacos",
+      "examples": [
+        "I always 《get》 the **longanisa** **tacos**."
+      ]
+    },
+    {
+      "id": "usage-fair-item",
+      "word": "fair",
+      "familiarMeaning": "公平的",
+      "usage": "作名詞時指園遊會、集市或市集活動",
+      "translation": "園遊會、市集",
+      "examples": [
+        "We __hang out__ at the **mall**, the **market**, the 《fair》, and even at restaurants or parties."
+      ]
+    },
+    {
+      "id": "usage-full-item",
+      "word": "full",
+      "familiarMeaning": "滿的、飽的",
+      "usage": "表示「完整的、完整版的」",
+      "translation": "完整的播客",
+      "examples": [
+        "The 《full》 **podcast** is on YouTube and Spotify."
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "grammar-1",
+      "sentence": "Today, I will be talking about friends.",
+      "translation": "今天，我會聊朋友。",
+      "points": [
+        {
+          "label": "未來進行式",
+          "text": "will be + V-ing",
+          "note": "用來說明接下來一段時間會談論的主題，比簡單未來更有「正在進行某段談話」的感覺。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "sentence": "When I feel stressed from work, home, or life, I can always talk to my friends.",
+      "translation": "當我因為工作、家裡或生活感到壓力時，我總是可以跟朋友說話。",
+      "points": [
+        {
+          "label": "When 引導的副詞子句",
+          "text": "When + 主詞 + 動詞, 主詞 + can + 原形動詞",
+          "note": "when 子句先說情況，主要子句說在那種情況下可以做什麼。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "sentence": "If I ever need to vent, I can always talk to my friends.",
+      "translation": "如果我需要吐苦水，我總是可以跟朋友說。",
+      "points": [
+        {
+          "label": "If 條件句",
+          "text": "If + 主詞 + 現在式動詞, 主詞 + can + 原形動詞",
+          "note": "用現在式描述可能發生的情況，再用 can 說明可以做的事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-4",
+      "sentence": "My friends make me smile when I'm feeling down.",
+      "translation": "當我心情低落時，我的朋友會讓我微笑。",
+      "points": [
+        {
+          "label": "使役動詞 make",
+          "text": "make + 受詞 + 原形動詞",
+          "note": "make 後面接人，再接原形動詞，表示「使某人做某事」。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "I don't know what I would do without my friends.",
+      "translation": "我不知道沒有朋友我會怎麼辦。",
+      "points": [
+        {
+          "label": "間接問句與假設 would",
+          "text": "what + 主詞 + would + 原形動詞",
+          "note": "what 子句當 know 的受詞；would 表示假設情況。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "Try not to read the subtitles.",
+      "translation": "試著不要看字幕。",
+      "points": [
+        {
+          "label": "try not to + 原形動詞",
+          "text": "try + not + to + 原形動詞",
+          "note": "表示「試著不要做某事」，not 放在 to 前面。"
+        }
+      ]
+    }
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch6-slow-english-podcast-for-beginners-talking-about-friends",
+    "sourcePath": "_private/tmp/originalContent/a1/ch6-slow-english-podcast-for-beginners-talking-about-friends.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch6-slow-english-podcast-for-beginners-talking-about-friends.md"
+  }
+}

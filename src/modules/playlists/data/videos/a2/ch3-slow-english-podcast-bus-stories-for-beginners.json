@@ -1,0 +1,1515 @@
+{
+  "videoId": "3fmVrPDmTHo",
+  "slug": "ch3-slow-english-podcast-bus-stories-for-beginners",
+  "level": "a2",
+  "title": "SLOW English Podcast! BUS STORIES🚍📚 for Beginners!",
+  "youtubeUrl": "https://www.youtube.com/watch?v=3fmVrPDmTHo",
+  "header": {
+    "podcastLabel": "MissHoney A2",
+    "titleZh": "慢英文podcast！適合初學者的巴士故事🚍📚！",
+    "titleEn": "SLOW English Podcast! BUS STORIES🚍📚 for Beginners!",
+    "levelTag": "A2",
+    "topicTag": "language"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "no": "01",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
+      "sentences": [
+        {
+          "en": "Hello, welcome back to my slow English podcast, a podcast for you to practice your English listening skills.",
+          "tc": "哈囉，歡迎回到我的慢速英文 podcast，這是一個讓你練習英文聽力技巧的 podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello, welcome back to my slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-001-01"
+            },
+            {
+              "type": "text",
+              "text": ", a "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-001-02"
+            },
+            {
+              "type": "text",
+              "text": " for you to practice your English listening skills."
+            }
+          ]
+        },
+        {
+          "en": "Today, I want to tell you a story about the bus.",
+          "tc": "今天，我想告訴你一個關於公車的故事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today, I want to tell you a story about the bus."
+            }
+          ]
+        },
+        {
+          "en": "The other day, I was on the bus.",
+          "tc": "前幾天，我在公車上。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "The other day",
+              "targetId": "phrase-the-other-day",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-003-01"
+            },
+            {
+              "type": "text",
+              "text": ", I was on the bus."
+            }
+          ]
+        },
+        {
+          "en": "My friend and I had to get home, so we waited for the bus to come for maybe 10 minutes until finally it arrived.",
+          "tc": "我和我的朋友必須回家，所以我們等公車來，大概等了 10 分鐘，直到它終於到了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My friend and I had to "
+            },
+            {
+              "type": "phrase",
+              "text": "get home",
+              "targetId": "phrase-get-home",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-004-01"
+            },
+            {
+              "type": "text",
+              "text": ", so we waited for the bus to come for maybe 10 minutes until finally it "
+            },
+            {
+              "type": "word",
+              "text": "arrived",
+              "targetId": "word-arrive",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-004-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
+      "sentences": [
+        {
+          "en": "But it was so packed full of people, like sardines.",
+          "tc": "但是車上擠滿了人，像沙丁魚罐頭一樣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But it was so "
+            },
+            {
+              "type": "phrase",
+              "text": "packed full of",
+              "targetId": "phrase-like-sardines",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-005-01"
+            },
+            {
+              "type": "text",
+              "text": " people, "
+            },
+            {
+              "type": "phrase",
+              "text": "like sardines",
+              "targetId": "phrase-nice-to-meet-you",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-005-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "The driver stopped and told us to get in, but we said, \"No, we don't fit.",
+          "tc": "司機停下來叫我們上車，但我們說：「不要，我們塞不進去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The driver stopped and told us to "
+            },
+            {
+              "type": "phrase",
+              "text": "get in",
+              "targetId": "phrase-get-in",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-006-01"
+            },
+            {
+              "type": "text",
+              "text": ", but we said, \"No, we don't "
+            },
+            {
+              "type": "usage",
+              "text": "fit",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-006-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "We'll take the next one.\"",
+          "tc": "我們搭下一班。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We'll "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-007-01"
+            },
+            {
+              "type": "text",
+              "text": " the next one.\""
+            }
+          ]
+        },
+        {
+          "en": "So the driver moved on, and we waited another 10 minutes.",
+          "tc": "所以司機繼續往前開，而我們又等了 10 分鐘。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So the driver "
+            },
+            {
+              "type": "phrase",
+              "text": "moved on",
+              "targetId": "phrase-move-on",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-008-01"
+            },
+            {
+              "type": "text",
+              "text": ", and we waited another 10 minutes."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
+      "sentences": [
+        {
+          "en": "But at that point, we had already waited 20 minutes.",
+          "tc": "但是到那個時候，我們已經等了 20 分鐘了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But "
+            },
+            {
+              "type": "phrase",
+              "text": "at that point",
+              "targetId": "phrase-at-that-point",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-009-01"
+            },
+            {
+              "type": "text",
+              "text": ", we had already waited 20 minutes."
+            }
+          ]
+        },
+        {
+          "en": "I wasn't waiting any longer, so we got on the bus, and we fit just right.",
+          "tc": "我不想再等了，所以我們上了公車，而且剛好擠得進去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I wasn't waiting "
+            },
+            {
+              "type": "phrase",
+              "text": "any longer",
+              "targetId": "phrase-fit-just-right",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-010-01"
+            },
+            {
+              "type": "text",
+              "text": ", so we "
+            },
+            {
+              "type": "phrase",
+              "text": "got on",
+              "targetId": "phrase-fit-just-right",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-010-02"
+            },
+            {
+              "type": "text",
+              "text": " the bus, and we "
+            },
+            {
+              "type": "phrase",
+              "text": "fit just right",
+              "targetId": "phrase-fit-just-right",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-010-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "But the driver was driving like a maniac.",
+          "tc": "可是司機開車像瘋子一樣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But the driver was driving "
+            },
+            {
+              "type": "phrase",
+              "text": "like a maniac",
+              "targetId": "phrase-like-a-maniac",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-011-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I had to hold on so tight so that I wouldn't fall or trip.",
+          "tc": "我必須抓得很緊，這樣才不會跌倒或絆倒。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I had to "
+            },
+            {
+              "type": "phrase",
+              "text": "hold on",
+              "targetId": "phrase-hold-on-hold-on-to",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-012-01"
+            },
+            {
+              "type": "text",
+              "text": " so tight so that I wouldn't fall or "
+            },
+            {
+              "type": "usage",
+              "text": "trip",
+              "targetId": "usage-trip-item",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-012-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
+      "sentences": [
+        {
+          "en": "I could barely hold on.",
+          "tc": "我幾乎快抓不住了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I could "
+            },
+            {
+              "type": "word",
+              "text": "barely",
+              "targetId": "word-barely",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-013-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "hold on",
+              "targetId": "phrase-hold-on-hold-on-to",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-013-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Then the driver stopped one more time to pick up a family.",
+          "tc": "然後司機又停了一次，要載一個家庭。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then the driver stopped "
+            },
+            {
+              "type": "phrase",
+              "text": "one more time",
+              "targetId": "phrase-pick-up",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-014-01"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "phrase",
+              "text": "pick up",
+              "targetId": "phrase-pick-up",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-014-02"
+            },
+            {
+              "type": "text",
+              "text": " a family."
+            }
+          ]
+        },
+        {
+          "en": "It was a mother and her two young boys.",
+          "tc": "那是一位媽媽和她的兩個小男孩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a mother and her two young boys."
+            }
+          ]
+        },
+        {
+          "en": "They were very short, so the two boys could not hold on to any of the handles.",
+          "tc": "他們很矮，所以那兩個男孩抓不到任何扶手。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They were very short, so the two boys could not "
+            },
+            {
+              "type": "phrase",
+              "text": "hold on to",
+              "targetId": "phrase-hold-on-hold-on-to",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-016-01"
+            },
+            {
+              "type": "text",
+              "text": " any of the "
+            },
+            {
+              "type": "word",
+              "text": "handles",
+              "targetId": "word-handle",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-016-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
+      "sentences": [
+        {
+          "en": "So they were going side to side, falling and tripping.",
+          "tc": "於是他們左右晃來晃去，一直跌倒、絆倒。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So they were going "
+            },
+            {
+              "type": "phrase",
+              "text": "side to side",
+              "targetId": "phrase-side-to-side",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-017-01"
+            },
+            {
+              "type": "text",
+              "text": ", falling and "
+            },
+            {
+              "type": "usage",
+              "text": "tripping",
+              "targetId": "usage-trip-item",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-017-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I told one of the boys, \"Hold on to me.\"",
+          "tc": "我對其中一個男孩說：「抓著我。」",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I told one of the boys, \""
+            },
+            {
+              "type": "phrase",
+              "text": "Hold on to",
+              "targetId": "phrase-hold-on-hold-on-to",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-018-01"
+            },
+            {
+              "type": "text",
+              "text": " me.\""
+            }
+          ]
+        },
+        {
+          "en": "And one older lady said the same.",
+          "tc": "一位年紀較大的女士也說了一樣的話。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And one older lady said the same."
+            }
+          ]
+        },
+        {
+          "en": "One older lady told the boys, \"Hold on to me.",
+          "tc": "一位年紀較大的女士告訴男孩們：「抓著我。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "One older lady told the boys, \""
+            },
+            {
+              "type": "phrase",
+              "text": "Hold on to",
+              "targetId": "phrase-hold-on-hold-on-to",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-020-01"
+            },
+            {
+              "type": "text",
+              "text": " me."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
+      "sentences": [
+        {
+          "en": "Hold on to my sweater.\"",
+          "tc": "抓著我的毛衣。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Hold on to",
+              "targetId": "phrase-hold-on-hold-on-to",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-021-01"
+            },
+            {
+              "type": "text",
+              "text": " my "
+            },
+            {
+              "type": "word",
+              "text": "sweater",
+              "targetId": "word-sweater",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-021-02"
+            },
+            {
+              "type": "text",
+              "text": ".\""
+            }
+          ]
+        },
+        {
+          "en": "So the boy did.",
+          "tc": "於是那個男孩照做了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So the boy did."
+            }
+          ]
+        },
+        {
+          "en": "He grabbed the lady and held her tight, and he didn't fall anymore.",
+          "tc": "他抓住那位女士，緊緊握著她，然後就不再跌倒了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He "
+            },
+            {
+              "type": "word",
+              "text": "grabbed",
+              "targetId": "word-grab",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-023-01"
+            },
+            {
+              "type": "text",
+              "text": " the lady and held her tight, and he didn't fall anymore."
+            }
+          ]
+        },
+        {
+          "en": "It was a very, very nice scene.",
+          "tc": "那是一個非常、非常美好的場景。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a very, very nice "
+            },
+            {
+              "type": "word",
+              "text": "scene",
+              "targetId": "word-scene",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-024-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
+        {
+          "en": "It was a very cute experience.",
+          "tc": "那是一次非常可愛的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a very cute "
+            },
+            {
+              "type": "word",
+              "text": "experience",
+              "targetId": "word-experience",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-025-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "We all rode like sardines the whole way home, and once we finally arrived, we all said goodbye: \"Nice to meet you.\"",
+          "tc": "我們一路上都像沙丁魚一樣擠在一起，終於到站後，我們都道別說：「很高興認識你。」",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We all rode "
+            },
+            {
+              "type": "phrase",
+              "text": "like sardines",
+              "targetId": "phrase-nice-to-meet-you",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-026-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "the whole way home",
+              "targetId": "phrase-nice-to-meet-you",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-026-02"
+            },
+            {
+              "type": "text",
+              "text": ", and once we finally arrived, we all said goodbye: \""
+            },
+            {
+              "type": "phrase",
+              "text": "Nice to meet you",
+              "targetId": "phrase-nice-to-meet-you",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-026-03"
+            },
+            {
+              "type": "text",
+              "text": ".\""
+            }
+          ]
+        },
+        {
+          "en": "And it was a very nice experience.",
+          "tc": "那真的是一次很棒的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And it was a very nice "
+            },
+            {
+              "type": "word",
+              "text": "experience",
+              "targetId": "word-experience",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-027-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I always have nice experiences on the bus.",
+          "tc": "我在公車上總是有很好的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I always have nice "
+            },
+            {
+              "type": "word",
+              "text": "experiences",
+              "targetId": "word-experience",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-028-01"
+            },
+            {
+              "type": "text",
+              "text": " on the bus."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "I love the beautiful people I can meet every day in my normal day-to-day life.",
+          "tc": "我喜歡在日常生活中每天能遇見的那些美好的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love the "
+            },
+            {
+              "type": "usage",
+              "text": "beautiful",
+              "targetId": "usage-beautiful-item",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-029-01"
+            },
+            {
+              "type": "text",
+              "text": " people I can meet every day in my normal "
+            },
+            {
+              "type": "phrase",
+              "text": "day-to-day life",
+              "targetId": "phrase-day-to-day-life",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-029-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I love seeing kind actions and really appreciating all the kind people I meet throughout my days.",
+          "tc": "我喜歡看見善意的行動，也真的很珍惜我在日子裡遇到的所有善良的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love seeing kind "
+            },
+            {
+              "type": "word",
+              "text": "actions",
+              "targetId": "word-action",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-030-01"
+            },
+            {
+              "type": "text",
+              "text": " and really "
+            },
+            {
+              "type": "word",
+              "text": "appreciating",
+              "targetId": "word-appreciate",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-030-02"
+            },
+            {
+              "type": "text",
+              "text": " all the kind people I meet "
+            },
+            {
+              "type": "word",
+              "text": "throughout",
+              "targetId": "word-throughout",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-030-03"
+            },
+            {
+              "type": "text",
+              "text": " my days."
+            }
+          ]
+        },
+        {
+          "en": "I love being in Mexico, where you can see all kinds of nice actions every day, without a doubt.",
+          "tc": "我喜歡待在墨西哥，因為在那裡，你每天都能毫無疑問地看見各式各樣友善的行動。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love being in Mexico, where you can see "
+            },
+            {
+              "type": "phrase",
+              "text": "all kinds of",
+              "targetId": "phrase-without-a-doubt",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-031-01"
+            },
+            {
+              "type": "text",
+              "text": " nice "
+            },
+            {
+              "type": "word",
+              "text": "actions",
+              "targetId": "word-action",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-031-02"
+            },
+            {
+              "type": "text",
+              "text": " every day, "
+            },
+            {
+              "type": "phrase",
+              "text": "without a doubt",
+              "targetId": "phrase-without-a-doubt",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-031-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Tell me about a nice experience you've had with complete strangers.",
+          "tc": "告訴我你和完全陌生的人有過的一次美好經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Tell me about a nice "
+            },
+            {
+              "type": "word",
+              "text": "experience",
+              "targetId": "word-experience",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-032-01"
+            },
+            {
+              "type": "text",
+              "text": " you've had with "
+            },
+            {
+              "type": "usage",
+              "text": "complete",
+              "targetId": "usage-complete-item",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-032-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "strangers",
+              "targetId": "word-stranger",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-032-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
+        {
+          "en": "Describe how it made you feel and why it was so special but also, also so normal.",
+          "tc": "描述它讓你有什麼感受，以及為什麼它那麼特別，但同時也那麼平常。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Describe",
+              "targetId": "word-describe",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-033-01"
+            },
+            {
+              "type": "text",
+              "text": " how it made you feel and why it was so special but also, also so normal."
+            }
+          ]
+        },
+        {
+          "en": "Thank you for listening.",
+          "tc": "謝謝收聽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you for listening."
+            }
+          ]
+        },
+        {
+          "en": "Let me know if you enjoy my bus stories so I can tell you some more.",
+          "tc": "如果你喜歡我的公車故事，請讓我知道，這樣我就能再多講一些給你聽。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Let me know",
+              "targetId": "phrase-let-me-know",
+              "instanceId": "marker-a2-ch3-slow-english-podcast-bus-stories-for-beginners-035-01"
+            },
+            {
+              "type": "text",
+              "text": " if you enjoy my bus stories so I can tell you some more."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "拜拜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "vocabGroups": [
+    {
+      "title": "A2 重點單字",
+      "items": [
+        {
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "/ˈpɑdˌkæst/",
+          "partOfSpeech": "名詞",
+          "meaning": "podcast，網路廣播節目",
+          "highlight": true
+        },
+        {
+          "id": "word-arrive",
+          "lemma": "arrive",
+          "english": "arrived",
+          "kk": "/əˈraɪv/",
+          "partOfSpeech": "動詞",
+          "meaning": "到達",
+          "highlight": true
+        },
+        {
+          "id": "word-sardine",
+          "lemma": "sardine",
+          "english": "sardines",
+          "kk": "/sɑrˈdin/",
+          "partOfSpeech": "名詞",
+          "meaning": "沙丁魚",
+          "highlight": true
+        },
+        {
+          "id": "word-maniac",
+          "lemma": "maniac",
+          "english": "maniac",
+          "kk": "/ˈmeniˌæk/",
+          "partOfSpeech": "名詞",
+          "meaning": "瘋狂的人",
+          "highlight": true
+        },
+        {
+          "id": "word-barely",
+          "lemma": "barely",
+          "english": "barely",
+          "kk": "/ˈbɛrli/",
+          "partOfSpeech": "副詞",
+          "meaning": "幾乎不、勉強",
+          "highlight": true
+        },
+        {
+          "id": "word-handle",
+          "lemma": "handle",
+          "english": "handles",
+          "kk": "/ˈhændəl/",
+          "partOfSpeech": "名詞",
+          "meaning": "扶手、把手",
+          "highlight": true
+        },
+        {
+          "id": "word-sweater",
+          "lemma": "sweater",
+          "english": "sweater",
+          "kk": "/ˈswɛtɚ/",
+          "partOfSpeech": "名詞",
+          "meaning": "毛衣",
+          "highlight": true
+        },
+        {
+          "id": "word-grab",
+          "lemma": "grab",
+          "english": "grabbed",
+          "kk": "/græb/",
+          "partOfSpeech": "動詞",
+          "meaning": "抓住",
+          "highlight": true
+        },
+        {
+          "id": "word-scene",
+          "lemma": "scene",
+          "english": "scene",
+          "kk": "/sin/",
+          "partOfSpeech": "名詞",
+          "meaning": "場景、畫面",
+          "highlight": true
+        },
+        {
+          "id": "word-experience",
+          "lemma": "experience",
+          "english": "experience, experiences",
+          "kk": "/ɪkˈspɪriəns/",
+          "partOfSpeech": "名詞",
+          "meaning": "經驗、經歷",
+          "highlight": true
+        },
+        {
+          "id": "word-action",
+          "lemma": "action",
+          "english": "actions",
+          "kk": "/ˈækʃən/",
+          "partOfSpeech": "名詞",
+          "meaning": "行動、行為",
+          "highlight": true
+        },
+        {
+          "id": "word-appreciate",
+          "lemma": "appreciate",
+          "english": "appreciating",
+          "kk": "/əˈpriʃiˌet/",
+          "partOfSpeech": "動詞",
+          "meaning": "感激、珍惜",
+          "highlight": true
+        },
+        {
+          "id": "word-throughout",
+          "lemma": "throughout",
+          "english": "throughout",
+          "kk": "/θruˈaʊt/",
+          "partOfSpeech": "介系詞",
+          "meaning": "在整段期間中、遍及",
+          "highlight": true
+        },
+        {
+          "id": "word-stranger",
+          "lemma": "stranger",
+          "english": "strangers",
+          "kk": "/ˈstrendʒɚ/",
+          "partOfSpeech": "名詞",
+          "meaning": "陌生人",
+          "highlight": true
+        },
+        {
+          "id": "word-describe",
+          "lemma": "describe",
+          "english": "Describe",
+          "kk": "/dɪˈskraɪb/",
+          "partOfSpeech": "動詞",
+          "meaning": "描述",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "phrase-the-other-day",
+      "phrase": "the other day",
+      "meaning": "前幾天、不久前的某一天",
+      "examples": [
+        {
+          "en": "__The other day__, I was on the bus.",
+          "tc": "前幾天、不久前的某一天"
+        }
+      ]
+    },
+    {
+      "id": "phrase-get-home",
+      "phrase": "get home",
+      "meaning": "回到家",
+      "examples": [
+        {
+          "en": "My friend and I had to __get home__, so we waited for the bus to come for maybe 10 minutes until finally it **arrived**.",
+          "tc": "回到家"
+        }
+      ]
+    },
+    {
+      "id": "phrase-packed-full-of",
+      "phrase": "packed full of",
+      "meaning": "擠滿、塞滿",
+      "examples": [
+        {
+          "en": "But it was so __packed full of__ people, __like sardines__.",
+          "tc": "擠滿、塞滿"
+        }
+      ]
+    },
+    {
+      "id": "phrase-like-sardines",
+      "phrase": "like sardines",
+      "meaning": "人多到擠在一起",
+      "examples": [
+        {
+          "en": "But it was so __packed full of__ people, __like sardines__.",
+          "tc": "人多到擠在一起"
+        },
+        {
+          "en": "We all rode __like sardines__ __the whole way home__, and once we finally arrived, we all said goodbye: \"__Nice to meet you__.\"",
+          "tc": "人多到擠在一起"
+        }
+      ]
+    },
+    {
+      "id": "phrase-get-in",
+      "phrase": "get in",
+      "meaning": "上車、進入車內",
+      "examples": [
+        {
+          "en": "The driver stopped and told us to __get in__, but we said, \"No, we don't 《fit》. We'll 《take》 the next one.\"",
+          "tc": "上車、進入車內"
+        }
+      ]
+    },
+    {
+      "id": "phrase-move-on",
+      "phrase": "move on",
+      "meaning": "往前走、繼續前進",
+      "examples": [
+        {
+          "en": "So the driver __moved on__, and we waited another 10 minutes.",
+          "tc": "往前走、繼續前進"
+        }
+      ]
+    },
+    {
+      "id": "phrase-at-that-point",
+      "phrase": "at that point",
+      "meaning": "到那個時候",
+      "examples": [
+        {
+          "en": "But __at that point__, we had already waited 20 minutes.",
+          "tc": "到那個時候"
+        }
+      ]
+    },
+    {
+      "id": "phrase-any-longer",
+      "phrase": "any longer",
+      "meaning": "再繼續",
+      "examples": [
+        {
+          "en": "I wasn't waiting __any longer__, so we __got on__ the bus, and we __fit just right__.",
+          "tc": "再繼續"
+        }
+      ]
+    },
+    {
+      "id": "phrase-get-on",
+      "phrase": "get on",
+      "meaning": "上車、搭上交通工具",
+      "examples": [
+        {
+          "en": "I wasn't waiting __any longer__, so we __got on__ the bus, and we __fit just right__.",
+          "tc": "上車、搭上交通工具"
+        }
+      ]
+    },
+    {
+      "id": "phrase-fit-just-right",
+      "phrase": "fit just right",
+      "meaning": "空間剛好夠",
+      "examples": [
+        {
+          "en": "I wasn't waiting __any longer__, so we __got on__ the bus, and we __fit just right__.",
+          "tc": "空間剛好夠"
+        }
+      ]
+    },
+    {
+      "id": "phrase-like-a-maniac",
+      "phrase": "like a maniac",
+      "meaning": "行為非常瘋狂、很危險",
+      "examples": [
+        {
+          "en": "But the driver was driving __like a maniac__.",
+          "tc": "行為非常瘋狂、很危險"
+        }
+      ]
+    },
+    {
+      "id": "phrase-hold-on-hold-on-to",
+      "phrase": "hold on / hold on to",
+      "meaning": "抓緊、抓著某人或某物",
+      "examples": [
+        {
+          "en": "I had to __hold on__ so tight so that I wouldn't fall or 《trip》.",
+          "tc": "抓緊、抓著某人或某物"
+        },
+        {
+          "en": "They were very short, so the two boys could not __hold on to__ any of the **handles**.",
+          "tc": "抓緊、抓著某人或某物"
+        }
+      ]
+    },
+    {
+      "id": "phrase-one-more-time",
+      "phrase": "one more time",
+      "meaning": "再一次",
+      "examples": [
+        {
+          "en": "Then the driver stopped __one more time__ to __pick up__ a family.",
+          "tc": "再一次"
+        }
+      ]
+    },
+    {
+      "id": "phrase-pick-up",
+      "phrase": "pick up",
+      "meaning": "用交通工具接載",
+      "examples": [
+        {
+          "en": "Then the driver stopped __one more time__ to __pick up__ a family.",
+          "tc": "用交通工具接載"
+        }
+      ]
+    },
+    {
+      "id": "phrase-side-to-side",
+      "phrase": "side to side",
+      "meaning": "左右晃動",
+      "examples": [
+        {
+          "en": "So they were going __side to side__, falling and 《tripping》.",
+          "tc": "左右晃動"
+        }
+      ]
+    },
+    {
+      "id": "phrase-the-whole-way-home",
+      "phrase": "the whole way home",
+      "meaning": "一路到家",
+      "examples": [
+        {
+          "en": "We all rode __like sardines__ __the whole way home__, and once we finally arrived, we all said goodbye: \"__Nice to meet you__.\"",
+          "tc": "一路到家"
+        }
+      ]
+    },
+    {
+      "id": "phrase-nice-to-meet-you",
+      "phrase": "nice to meet you",
+      "meaning": "初次見面或短暫相遇後的禮貌說法",
+      "examples": [
+        {
+          "en": "We all rode __like sardines__ __the whole way home__, and once we finally arrived, we all said goodbye: \"__Nice to meet you__.\"",
+          "tc": "初次見面或短暫相遇後的禮貌說法"
+        }
+      ]
+    },
+    {
+      "id": "phrase-day-to-day-life",
+      "phrase": "day-to-day life",
+      "meaning": "日常生活",
+      "examples": [
+        {
+          "en": "I love the 《beautiful》 people I can meet every day in my normal __day-to-day life__.",
+          "tc": "日常生活"
+        }
+      ]
+    },
+    {
+      "id": "phrase-all-kinds-of",
+      "phrase": "all kinds of",
+      "meaning": "各式各樣的",
+      "examples": [
+        {
+          "en": "I love being in Mexico, where you can see __all kinds of__ nice **actions** every day, __without a doubt__.",
+          "tc": "各式各樣的"
+        }
+      ]
+    },
+    {
+      "id": "phrase-without-a-doubt",
+      "phrase": "without a doubt",
+      "meaning": "毫無疑問、肯定",
+      "examples": [
+        {
+          "en": "I love being in Mexico, where you can see __all kinds of__ nice **actions** every day, __without a doubt__.",
+          "tc": "毫無疑問、肯定"
+        }
+      ]
+    },
+    {
+      "id": "phrase-let-me-know",
+      "phrase": "let me know",
+      "meaning": "告訴我、通知我",
+      "examples": [
+        {
+          "en": "__Let me know__ if you enjoy my bus stories so I can tell you some more.",
+          "tc": "告訴我、通知我"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-fit-item",
+      "word": "fit",
+      "familiarMeaning": "適合",
+      "usage": "指空間足夠，某人可以塞進去或容納得下",
+      "translation": "塞得進去",
+      "examples": [
+        "The driver stopped and told us to __get in__, but we said, \"No, we don't 《fit》. We'll 《take》 the next one.\""
+      ]
+    },
+    {
+      "id": "usage-take-item",
+      "word": "take",
+      "familiarMeaning": "拿、帶",
+      "usage": "搭乘某種交通工具",
+      "translation": "搭乘",
+      "examples": [
+        "The driver stopped and told us to __get in__, but we said, \"No, we don't 《fit》. We'll 《take》 the next one.\""
+      ]
+    },
+    {
+      "id": "usage-trip-item",
+      "word": "trip",
+      "familiarMeaning": "旅行",
+      "usage": "動詞，指走路時絆倒",
+      "translation": "絆倒",
+      "examples": [
+        "I had to __hold on__ so tight so that I wouldn't fall or 《trip》.",
+        "So they were going __side to side__, falling and 《tripping》."
+      ]
+    },
+    {
+      "id": "usage-beautiful-item",
+      "word": "beautiful",
+      "familiarMeaning": "美麗的",
+      "usage": "形容人心地美好、善良，而不只是外表好看",
+      "translation": "美好的",
+      "examples": [
+        "I love the 《beautiful》 people I can meet every day in my normal __day-to-day life__."
+      ]
+    },
+    {
+      "id": "usage-complete-item",
+      "word": "complete",
+      "familiarMeaning": "完成、完整的",
+      "usage": "加強語氣，表示「完全的、徹底的」",
+      "translation": "完全的",
+      "examples": [
+        "Tell me about a nice **experience** you've had with 《complete》 **strangers**."
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "grammar-1",
+      "sentence": "My friend and I had to get home.",
+      "translation": "我和我的朋友必須回家。",
+      "points": [
+        {
+          "label": "have to + 原形動詞",
+          "text": "had to + get",
+          "note": "表示過去有必要做某事；這裡表示他們當時必須回家。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "sentence": "We waited for the bus to come for maybe 10 minutes until finally it arrived.",
+      "translation": "我們等公車來，大概等了 10 分鐘，直到它終於到了。",
+      "points": [
+        {
+          "label": "until 引導時間子句",
+          "text": "main clause + until + subject + verb",
+          "note": "用 until 說明等待一直持續到公車到達為止。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "sentence": "It was so packed full of people.",
+      "translation": "車上擠滿了人。",
+      "points": [
+        {
+          "label": "so + 形容詞",
+          "text": "so + adjective phrase",
+          "note": "so 加形容詞可加強程度，表示非常擁擠。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-4",
+      "sentence": "We had already waited 20 minutes.",
+      "translation": "我們已經等了 20 分鐘。",
+      "points": [
+        {
+          "label": "過去完成式",
+          "text": "had + already + past participle",
+          "note": "用來表示在另一個過去時間點之前已經完成的事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "I wasn't waiting any longer.",
+      "translation": "我不想再等了。",
+      "points": [
+        {
+          "label": "過去進行式否定",
+          "text": "was not + V-ing",
+          "note": "表示當時那個狀態或動作不再繼續，也帶出口語上的決定感。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "I had to hold on so tight so that I wouldn't fall or trip.",
+      "translation": "我必須抓得很緊，這樣才不會跌倒或絆倒。",
+      "points": [
+        {
+          "label": "so that + would",
+          "text": "so that + subject + would not + verb",
+          "note": "用 so that 說明目的；wouldn't 表示在那個情況下避免發生的結果。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "Once we finally arrived, we all said goodbye.",
+      "translation": "終於到站後，我們都道別。",
+      "points": [
+        {
+          "label": "once 引導時間子句",
+          "text": "once + subject + verb, main clause",
+          "note": "once 表示「一旦、當……之後」，用來說明到站之後才發生道別。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "I love being in Mexico, where you can see all kinds of nice actions every day.",
+      "translation": "我喜歡待在墨西哥，因為在那裡你每天都能看見各式各樣友善的行動。",
+      "points": [
+        {
+          "label": "where 關係子句",
+          "text": "place noun + where + subject + verb",
+          "note": "where 補充說明在墨西哥這個地方可以看見的事情。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-9",
+      "sentence": "Tell me about a nice experience you've had with complete strangers.",
+      "translation": "告訴我你和完全陌生的人有過的一次美好經驗。",
+      "points": [
+        {
+          "label": "現在完成式",
+          "text": "have/has + past participle",
+          "note": "用來談到過去到現在的人生經驗，不強調確切時間。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-10",
+      "sentence": "Describe how it made you feel and why it was so special.",
+      "translation": "描述它讓你有什麼感受，以及為什麼它那麼特別。",
+      "points": [
+        {
+          "label": "間接問句",
+          "text": "question word + subject + verb",
+          "note": "how 和 why 後面接正常句子語序，用在 describe 後面當受詞內容。"
+        }
+      ]
+    }
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch3-slow-english-podcast-bus-stories-for-beginners",
+    "sourcePath": "_private/tmp/originalContent/a2/ch3-slow-english-podcast-bus-stories-for-beginners.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch3-slow-english-podcast-bus-stories-for-beginners.md"
+  }
+}

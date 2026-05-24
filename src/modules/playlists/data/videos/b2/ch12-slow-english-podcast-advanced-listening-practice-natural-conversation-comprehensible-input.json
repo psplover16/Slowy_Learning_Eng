@@ -1,0 +1,2921 @@
+{
+  "videoId": "6AOJWJbMdWA",
+  "slug": "ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input",
+  "level": "b2",
+  "title": "Slow English Podcast: Advanced Listening Practice & Natural Conversation (Comprehensible Input)",
+  "youtubeUrl": "https://www.youtube.com/watch?v=6AOJWJbMdWA",
+  "header": {
+    "podcastLabel": "MissHoney B2",
+    "titleZh": "慢速英語podcast：進階聽力練習和自然對話（可理解的輸入）",
+    "titleEn": "Slow English Podcast: Advanced Listening Practice & Natural Conversation (Comprehensible Input)",
+    "levelTag": "B2",
+    "topicTag": "language"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "no": "01",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
+      "sentences": [
+        {
+          "en": "Welcome back to my Slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-01-001-001"
+            },
+            {
+              "type": "text",
+              "text": " to my Slow English podcast."
+            }
+          ]
+        },
+        {
+          "en": "This episode is for upper intermediate and advanced English listeners.",
+          "tc": "本集適合中高級和高級英語聽眾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This episode is for upper intermediate and advanced English listeners."
+            }
+          ]
+        },
+        {
+          "en": "2025 is coming to an end.",
+          "tc": "2025年即將結束。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "2025 is coming to an end."
+            }
+          ]
+        },
+        {
+          "en": "So soon this year went by so fast.",
+          "tc": "時間這麼快，這一年過得這麼快。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So soon this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-01-004-001"
+            },
+            {
+              "type": "text",
+              "text": " went by so fast."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
+      "sentences": [
+        {
+          "en": "I am most proud of from this year was deciding to create my Tik Tok channel.",
+          "tc": "今年我最自豪的是決定創建我的 Tik Tok 頻道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am most proud of from this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-02-001-001"
+            },
+            {
+              "type": "text",
+              "text": " was deciding to create my Tik Tok channel."
+            }
+          ]
+        },
+        {
+          "en": "Making the decision to record myself one day and speak slowly.",
+          "tc": "決定有一天為自己錄音並慢慢地說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Making the decision to record myself one day and speak slowly."
+            }
+          ]
+        },
+        {
+          "en": "Then to see the reaction of all the people who loved my video.",
+          "tc": "然後看看所有喜歡我的影片的人的反應。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then to see the reaction of all the people who loved my video."
+            }
+          ]
+        },
+        {
+          "en": "Then create my YouTube channel shortly after onto creating an English community with people from all around the world learning English.",
+          "tc": "不久之後，我創建了我的 YouTube 頻道，並創建了一個英語社區，讓來自世界各地的人們學習英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then create my YouTube channel shortly after onto creating an English community with people from all around the world learning English."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
+      "sentences": [
+        {
+          "en": "This year has been crazy.",
+          "tc": "今年很瘋狂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-03-001-001"
+            },
+            {
+              "type": "text",
+              "text": " has been crazy."
+            }
+          ]
+        },
+        {
+          "en": "So many ups and downs,.",
+          "tc": "這麼多的坎坷，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So many ups and downs,."
+            }
+          ]
+        },
+        {
+          "en": "Learning from both the achievements and the failures, finding the beauty in every moment because that's.",
+          "tc": "從成就和失敗中學習，發現每時每刻的美麗，因為那就是。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Learning from both the achievements and the failures, finding the beauty in every moment because that's."
+            }
+          ]
+        },
+        {
+          "en": "What life is.",
+          "tc": "生活是什麼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What life is."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
+      "sentences": [
+        {
+          "en": "It can't all be good, but that's what makes those good moments so special.",
+          "tc": "一切不可能都是美好的，但這正是那些美好時刻如此特別的原因。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It can't all be good, but that's what makes those good moments so special."
+            }
+          ]
+        },
+        {
+          "en": "That's?",
+          "tc": "那是？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's?"
+            }
+          ]
+        },
+        {
+          "en": "What keeps us positive and grateful.",
+          "tc": "是什麼讓我們保持正面和感恩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What keeps us positive and grateful."
+            }
+          ]
+        },
+        {
+          "en": "Knowing that even in the worst moments, there will always be better moments?",
+          "tc": "知道即使在最糟糕的時刻，總會有更好的時刻嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Knowing that even in the worst moments, there will always be better moments?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
+      "sentences": [
+        {
+          "en": "What are you the most grateful for from this year?",
+          "tc": "今年以來，你最感恩的事是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What are you the most grateful for from this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-05-001-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "What is the best thing you achieved this year personally, professionally, spiritually, mentally, physically, or anything that made?",
+          "tc": "今年你在個人、職業、精神、心理、身體或其他方面所取得的最佳成就是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What is the best thing you achieved this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-05-002-001"
+            },
+            {
+              "type": "text",
+              "text": " personally, professionally, spiritually, mentally, physically, or anything that made?"
+            }
+          ]
+        },
+        {
+          "en": "You could be an achievement for someone else.",
+          "tc": "你可能會成為別人的成就。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You could be an achievement for someone else."
+            }
+          ]
+        },
+        {
+          "en": "For instance, if I was doing a presentation in front of a group of people.",
+          "tc": "例如，如果我在一群人面前做演示。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For instance, if I was doing a presentation in front of a group of people."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
+      "sentences": [
+        {
+          "en": "I stuttered a lot and I was nervous and maybe I forgot a few topics.",
+          "tc": "我經常結巴，而且很緊張，也許我忘記了一些話題。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I stuttered a lot and I was nervous and maybe I forgot a few topics."
+            }
+          ]
+        },
+        {
+          "en": "I was going to talk about, but to me that's still a huge success.",
+          "tc": "我本來想談論的，但對我來說這仍然是一個巨大的成功。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was "
+            },
+            {
+              "type": "phrase",
+              "text": "going to",
+              "targetId": "phrase-going-to",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-06-002-001"
+            },
+            {
+              "type": "text",
+              "text": " talk about, but to me that's still a huge success."
+            }
+          ]
+        },
+        {
+          "en": "It's a huge achievement.",
+          "tc": "這是一項巨大的成就。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's a huge achievement."
+            }
+          ]
+        },
+        {
+          "en": "I was able to speak in public and I never thought.",
+          "tc": "我能夠在公共場合演講，但我從未想過。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was able to speak in public and I never thought."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
+        {
+          "en": "I would get over my fear of public speaking.",
+          "tc": "我會克服對公開演講的恐懼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would get over my fear of public speaking."
+            }
+          ]
+        },
+        {
+          "en": "Now for someone else, the presentation went wrong.",
+          "tc": "現在對於其他人來說，演示出了問題。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-07-002-001"
+            },
+            {
+              "type": "text",
+              "text": " for someone else, the presentation went wrong."
+            }
+          ]
+        },
+        {
+          "en": "They messed up and stuttered.",
+          "tc": "他們語無倫次，結結巴巴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They messed up and stuttered."
+            }
+          ]
+        },
+        {
+          "en": "They might consider it a failure.",
+          "tc": "他們可能會認為這是一次失敗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They might consider it a failure."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "But now let's think who is going to be able to see the positives, the bright side to everything that happens to them.",
+          "tc": "但現在讓我們想想誰能夠看到發生在他們身上的一切積極的一面。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-08-001-001"
+            },
+            {
+              "type": "text",
+              "text": " let's think who is "
+            },
+            {
+              "type": "phrase",
+              "text": "going to",
+              "targetId": "phrase-going-to",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-08-001-002"
+            },
+            {
+              "type": "text",
+              "text": " be able to see the positives, the bright side to "
+            },
+            {
+              "type": "word",
+              "text": "everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-08-001-003"
+            },
+            {
+              "type": "text",
+              "text": " that happens to them."
+            }
+          ]
+        },
+        {
+          "en": "Well,.",
+          "tc": "出色地，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Well,."
+            }
+          ]
+        },
+        {
+          "en": "I am because I can see it as an achievement, not a failure.",
+          "tc": "我之所以這麼做是因為我認為這是一項成就，而不是失敗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am because I can see it as an achievement, not a failure."
+            }
+          ]
+        },
+        {
+          "en": "I think it's important to notice your small achievements.",
+          "tc": "我認為注意到你的小成就很重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think it's important to notice your small achievements."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
+        {
+          "en": "Give yourself credit.",
+          "tc": "給自己一點信心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Give yourself credit."
+            }
+          ]
+        },
+        {
+          "en": "If you look for something, you'll find it.",
+          "tc": "如果你尋找某樣東西，你就會找到它。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you look for something, you'll find it."
+            }
+          ]
+        },
+        {
+          "en": "So, look for small achievements throughout the day.",
+          "tc": "因此，全天尋找小成就。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, look for small achievements throughout the day."
+            }
+          ]
+        },
+        {
+          "en": "Give yourself credit for all those little things that go unnoticed.",
+          "tc": "為所有那些被忽視的小事給予自己信任。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Give yourself credit for all those little things that go unnoticed."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "Notice them.",
+          "tc": "注意他們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Notice them."
+            }
+          ]
+        },
+        {
+          "en": "Don't let them.",
+          "tc": "別讓他們。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-10-002-001"
+            },
+            {
+              "type": "text",
+              "text": " let them."
+            }
+          ]
+        },
+        {
+          "en": "I do that?",
+          "tc": "我這樣做？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I do that?"
+            }
+          ]
+        },
+        {
+          "en": "Regrets.",
+          "tc": "遺憾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Regrets."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
+        {
+          "en": "Let me say I hate regretting.",
+          "tc": "讓我說我討厭後悔。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let me say I hate regretting."
+            }
+          ]
+        },
+        {
+          "en": "Ever since I was a little girl,.",
+          "tc": "自從我還是個小女孩的時候，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Ever since I was a little girl,."
+            }
+          ]
+        },
+        {
+          "en": "I have always hated regretting.",
+          "tc": "我一直討厭後悔。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have always hated regretting."
+            }
+          ]
+        },
+        {
+          "en": "I have always said.",
+          "tc": "我一直都這麼說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have always said."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "I don't regret anything because everything absolutely everything happens for a reason.",
+          "tc": "我不後悔任何事情，因為一切絕對都是有原因的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-12-001-001"
+            },
+            {
+              "type": "text",
+              "text": " regret anything because "
+            },
+            {
+              "type": "word",
+              "text": "everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-12-001-002"
+            },
+            {
+              "type": "text",
+              "text": " absolutely "
+            },
+            {
+              "type": "word",
+              "text": "everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-12-001-003"
+            },
+            {
+              "type": "text",
+              "text": " happens for a reason."
+            }
+          ]
+        },
+        {
+          "en": "Everything that you've done wrong, right, even the worst of decisions, the worst of situations made.",
+          "tc": "你所做的一切都是錯的，對的，甚至是最糟糕的決定，最糟糕的情況。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " that you've done wrong, "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-12-002-002"
+            },
+            {
+              "type": "text",
+              "text": ", even the worst of decisions, the worst of situations made."
+            }
+          ]
+        },
+        {
+          "en": "You the person that you are today.",
+          "tc": "你就是今天的你。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You the person that you are today."
+            }
+          ]
+        },
+        {
+          "en": "And you wouldn't be the person.",
+          "tc": "而你不會是那個人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And you wouldn't be the person."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "It is.",
+          "tc": "這是。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is."
+            }
+          ]
+        },
+        {
+          "en": "When I was younger.",
+          "tc": "當我年輕的時候。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I was younger."
+            }
+          ]
+        },
+        {
+          "en": "I would get in trouble with my parents or my teachers,.",
+          "tc": "我會和我的父母或老師發生麻煩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would get in trouble with my parents or my teachers,."
+            }
+          ]
+        },
+        {
+          "en": "I would never regret it,.",
+          "tc": "我永遠不會後悔，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would never regret it,."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "I would learn from it.",
+          "tc": "我會從中學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would learn from it."
+            }
+          ]
+        },
+        {
+          "en": "Just like right now,.",
+          "tc": "就像現在一樣，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Just like "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-14-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-14-002-002"
+            },
+            {
+              "type": "text",
+              "text": ",."
+            }
+          ]
+        },
+        {
+          "en": "I had to do this to be the person.",
+          "tc": "我必須這樣做才能成為那個人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I had to do this to be the person."
+            }
+          ]
+        },
+        {
+          "en": "I am today.",
+          "tc": "我今天就是這樣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am today."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "All the mistakes, all the disregard, maybe things that made the people.",
+          "tc": "所有的錯誤，所有的漠視，也許都是造就人的事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "All the mistakes, all the disregard, maybe things that made the people."
+            }
+          ]
+        },
+        {
+          "en": "I love feel sad.",
+          "tc": "我喜歡感到悲傷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love feel sad."
+            }
+          ]
+        },
+        {
+          "en": "Regretting it only makes it worse.",
+          "tc": "後悔只會讓事情變得更糟。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Regretting it only makes it worse."
+            }
+          ]
+        },
+        {
+          "en": "So yes,.",
+          "tc": "所以是的，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So yes,."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "I do learn from my mistakes,.",
+          "tc": "我確實從錯誤中學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I do learn from my mistakes,."
+            }
+          ]
+        },
+        {
+          "en": "I don't regret them.",
+          "tc": "我不後悔他們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-16-002-001"
+            },
+            {
+              "type": "text",
+              "text": " regret them."
+            }
+          ]
+        },
+        {
+          "en": "I am the perfect version of myself today.",
+          "tc": "今天的我是完美的自己。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am the perfect version of myself today."
+            }
+          ]
+        },
+        {
+          "en": "We are all the perfect versions of ourselves right now.",
+          "tc": "我們現在都是自己的完美版本。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We are all the perfect versions of ourselves "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-16-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-16-004-002"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "Next year I will grow and change and I will probably make more mistakes, but I will continue to be the perfect version of myself.",
+          "tc": "明年我會成長和改變，我可能會犯更多的錯誤，但我會繼續做完美的自己。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Next "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-17-001-001"
+            },
+            {
+              "type": "text",
+              "text": " I will grow and change and I will probably make more mistakes, but I will continue to be the perfect version of myself."
+            }
+          ]
+        },
+        {
+          "en": "I say perfect.",
+          "tc": "我說完美。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I say perfect."
+            }
+          ]
+        },
+        {
+          "en": "We need to be.",
+          "tc": "我們需要這樣做。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We need to be."
+            }
+          ]
+        },
+        {
+          "en": "We need to be right now.",
+          "tc": "我們需要現在就行動。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We need to be "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-17-004-002"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "Everything will come and go as it should and all.",
+          "tc": "一切都會以其應有的方式來來去去。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": " will come and go as it should and all."
+            }
+          ]
+        },
+        {
+          "en": "We can do is flow with it and enjoy every moment.",
+          "tc": "我們能做的就是順其自然，享受每一刻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We can do is flow with it and enjoy every moment."
+            }
+          ]
+        },
+        {
+          "en": "We can.",
+          "tc": "我們可以。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We can."
+            }
+          ]
+        },
+        {
+          "en": "So like.",
+          "tc": "很喜歡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So like."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "I have no regrets from this year.",
+          "tc": "今年我沒有後悔。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have no regrets from this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-19-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Everything that must happen will happen.",
+          "tc": "所有必鬚發生的事情都會發生。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-19-002-001"
+            },
+            {
+              "type": "text",
+              "text": " that must happen will happen."
+            }
+          ]
+        },
+        {
+          "en": "What's your take on regrets?",
+          "tc": "對於遺憾，你有何看法？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What's your take on regrets?"
+            }
+          ]
+        },
+        {
+          "en": "Do you agree or disagree with me?",
+          "tc": "你同意還是不同意我的觀點？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you agree or disagree with me?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "I would love to hear your take on this.",
+          "tc": "我很想聽聽你對此的看法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would love to hear your take on this."
+            }
+          ]
+        },
+        {
+          "en": "Year was full of feelings.",
+          "tc": "年，充滿了感情。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-20-002-001"
+            },
+            {
+              "type": "text",
+              "text": " was full of feelings."
+            }
+          ]
+        },
+        {
+          "en": "Like happiness, excitement, fear, hope, love.",
+          "tc": "例如幸福、興奮、恐懼、希望、愛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like happiness, excitement, fear, hope, love."
+            }
+          ]
+        },
+        {
+          "en": "I started my year with a breakup.",
+          "tc": "我以分手開始了新的一年。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I started my "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-20-004-001"
+            },
+            {
+              "type": "text",
+              "text": " with a breakup."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "I had to cancel my trip to New Zealand.",
+          "tc": "我不得不取消去紐西蘭的旅行。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I had to cancel my trip to "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-21-001-001"
+            },
+            {
+              "type": "text",
+              "text": " Zealand."
+            }
+          ]
+        },
+        {
+          "en": "Then I started my slow English podcast, going viral on Tik Tok and creating my YouTube channel.",
+          "tc": "然後我開始了我的慢速英語podcast，在 Tik Tok 上瘋傳，並創建了我的 YouTube 頻道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I started my slow English podcast, "
+            },
+            {
+              "type": "word",
+              "text": "going",
+              "targetId": "word-going",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-21-002-001"
+            },
+            {
+              "type": "text",
+              "text": " viral on Tik Tok and creating my YouTube channel."
+            }
+          ]
+        },
+        {
+          "en": "Then I traveled to Brazil for carnival.",
+          "tc": "然後我去巴西參加嘉年華。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I traveled to Brazil for carnival."
+            }
+          ]
+        },
+        {
+          "en": "Then I lived at the beach in Mexico for a while.",
+          "tc": "然後我在墨西哥的海灘住了一段時間。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I lived at the beach in Mexico for a while."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "I had my dream trip with my sister, traveling to China, Japan, and Thailand.",
+          "tc": "我和妹妹一起進行了我的夢想之旅，去了中國、日本和泰國。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I had my dream trip with my sister, traveling to China, Japan, and Thailand."
+            }
+          ]
+        },
+        {
+          "en": "And now.",
+          "tc": "現在。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-22-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I'm back for the holidays.",
+          "tc": "我回來過節了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm back for the holidays."
+            }
+          ]
+        },
+        {
+          "en": "Christmas, New Year's, three kings, and I will be close to my family for these special moments.",
+          "tc": "聖誕節、新年、三位國王和我將與我的家人一起度過這些特殊的時刻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Christmas, "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-22-004-001"
+            },
+            {
+              "type": "text",
+              "text": " Year's, three kings, and I will be close to my family for these special moments."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "Next year.",
+          "tc": "明年。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Next "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-23-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "What were some of the feelings you had this year?",
+          "tc": "這一年有什麼感覺？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What were some of the feelings you had this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-23-002-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "What were some experiences you had this year?",
+          "tc": "這一年你有哪些經驗？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What were some experiences you had this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-23-003-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Now, even though New Year's is right around the corner,.",
+          "tc": "如今，雖然新年即將來臨，",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-23-004-001"
+            },
+            {
+              "type": "text",
+              "text": ", even though "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-23-004-002"
+            },
+            {
+              "type": "text",
+              "text": " Year's is "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-23-004-003"
+            },
+            {
+              "type": "text",
+              "text": " around the corner,."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "I've got to say,.",
+          "tc": "我不得不說，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've got to say,."
+            }
+          ]
+        },
+        {
+          "en": "I've never been a big fan of New Year's.",
+          "tc": "我從來都不是新年的忠實粉絲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've never been a big fan of "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-24-002-001"
+            },
+            {
+              "type": "text",
+              "text": " Year's."
+            }
+          ]
+        },
+        {
+          "en": "I've never been a fan of the saying new year, new me.",
+          "tc": "我從來不喜歡「新年，新我」這句話。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've never been a fan of the saying "
+            },
+            {
+              "type": "word",
+              "text": "new",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-24-003-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-24-003-002"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "new",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-24-003-003"
+            },
+            {
+              "type": "text",
+              "text": " me."
+            }
+          ]
+        },
+        {
+          "en": "It seems so unnecessary, especially during the winter, like the absolute worst time of the year to start fresh.",
+          "tc": "這似乎是不必要的，尤其是在冬天，就像一年中絕對最糟糕的重新開始的時間。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It seems so unnecessary, especially during the winter, like the absolute worst time of the "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-24-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "word",
+              "text": "start",
+              "targetId": "word-start",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-24-004-002"
+            },
+            {
+              "type": "text",
+              "text": " fresh."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "Too cold to start exercising, going on walks, taking on new hobbies.",
+          "tc": "太冷了，無法開始運動、散步、培養新的興趣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Too cold to "
+            },
+            {
+              "type": "word",
+              "text": "start",
+              "targetId": "word-start",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-25-001-001"
+            },
+            {
+              "type": "text",
+              "text": " exercising, "
+            },
+            {
+              "type": "word",
+              "text": "going",
+              "targetId": "word-going",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-25-001-002"
+            },
+            {
+              "type": "text",
+              "text": " on walks, taking on "
+            },
+            {
+              "type": "word",
+              "text": "new",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-25-001-003"
+            },
+            {
+              "type": "text",
+              "text": " hobbies."
+            }
+          ]
+        },
+        {
+          "en": "You naturally just want to hibernate during the winter.",
+          "tc": "你自然只想在冬天冬眠。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You naturally just "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-25-002-001"
+            },
+            {
+              "type": "text",
+              "text": " hibernate during the winter."
+            }
+          ]
+        },
+        {
+          "en": "It's cold.",
+          "tc": "是冷的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's cold."
+            }
+          ]
+        },
+        {
+          "en": "You just want to be bundled up.",
+          "tc": "你只是想被綁起來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You just "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-25-004-001"
+            },
+            {
+              "type": "text",
+              "text": " be bundled up."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "Beneath the sheets, eating, reading books, and watching movies.",
+          "tc": "被窩裡，吃飯、看書、看電影。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Beneath the sheets, eating, reading books, and watching movies."
+            }
+          ]
+        },
+        {
+          "en": "If you really want a fresh start,.",
+          "tc": "如果你真的想要一個新的開始，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you really want a fresh "
+            },
+            {
+              "type": "word",
+              "text": "start",
+              "targetId": "word-start",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-26-002-001"
+            },
+            {
+              "type": "text",
+              "text": ",."
+            }
+          ]
+        },
+        {
+          "en": "Are you.",
+          "tc": "你是。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Are you."
+            }
+          ]
+        },
+        {
+          "en": "I also kind of hate the pressure of starting fresh on New Year's.",
+          "tc": "我也有点讨厌新年重新开始的压力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also kind of hate the pressure of starting fresh on "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-26-004-001"
+            },
+            {
+              "type": "text",
+              "text": " Year's."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "Needing to make 12 wishes.",
+          "tc": "需要許下12個願望。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Needing to make 12 wishes."
+            }
+          ]
+        },
+        {
+          "en": "Eat 12 grapes all in one minute.",
+          "tc": "一分钟吃完12颗葡萄。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Eat 12 grapes all in one minute."
+            }
+          ]
+        },
+        {
+          "en": "Wearing something red so that?",
+          "tc": "穿红色的衣服就这样？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Wearing something red so that?"
+            }
+          ]
+        },
+        {
+          "en": "Your year goes well.",
+          "tc": "你的這一年進展順利。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Your "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-27-004-001"
+            },
+            {
+              "type": "text",
+              "text": " goes well."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
+      "sentences": [
+        {
+          "en": "Counting down to midnight because the world will change completely the minute.",
+          "tc": "倒數到午夜，因為世界將在這一分鐘徹底改變。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Counting down to midnight because the world will change completely the minute."
+            }
+          ]
+        },
+        {
+          "en": "We're in 2026.",
+          "tc": "現在已經是 2026 年了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We're in 2026."
+            }
+          ]
+        },
+        {
+          "en": "It doesn't make any sense to me and it just frustrates me.",
+          "tc": "這對我來說沒有任何意義，而且讓我感到沮喪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It doesn't make any sense to me and it just frustrates me."
+            }
+          ]
+        },
+        {
+          "en": "I feel under pressure.",
+          "tc": "我感到有壓力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel under pressure."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-29",
+      "no": "29",
+      "titleZh": "第 29 段",
+      "titleEn": "Part 29",
+      "sentences": [
+        {
+          "en": "Maybe I sound like the Grinch of New Year's right now,.",
+          "tc": "也許我現在聽起來就像新年的格林奇。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Maybe I sound like the Grinch of "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-29-001-001"
+            },
+            {
+              "type": "text",
+              "text": " Year's "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-29-001-002"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-29-001-003"
+            },
+            {
+              "type": "text",
+              "text": ",."
+            }
+          ]
+        },
+        {
+          "en": "I have always just hated feeling under pressure.",
+          "tc": "我一直很討厭有壓力的感覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have always just hated feeling under pressure."
+            }
+          ]
+        },
+        {
+          "en": "Feeling like something needs to go right.",
+          "tc": "覺得有些事情需要順利進行。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Feeling like something needs to go "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-29-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Otherwise, everything will go wrong.",
+          "tc": "否則，一切都會出錯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Otherwise, "
+            },
+            {
+              "type": "word",
+              "text": "everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-29-004-001"
+            },
+            {
+              "type": "text",
+              "text": " will go wrong."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-30",
+      "no": "30",
+      "titleZh": "第 30 段",
+      "titleEn": "Part 30",
+      "sentences": [
+        {
+          "en": "It makes me anxious.",
+          "tc": "這讓我很焦慮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It makes me anxious."
+            }
+          ]
+        },
+        {
+          "en": "I prefer to not play these games with my mind.",
+          "tc": "我寧願不用我的頭腦玩這些遊戲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I prefer to not play these games with my mind."
+            }
+          ]
+        },
+        {
+          "en": "I would rather keep my peace of mind.",
+          "tc": "我寧願保持內心的平靜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would rather keep my peace of mind."
+            }
+          ]
+        },
+        {
+          "en": "And to me, it doesn't even prove anything.",
+          "tc": "對我來說，這甚至不能證明任何事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And to me, it doesn't even prove anything."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-31",
+      "no": "31",
+      "titleZh": "第 31 段",
+      "titleEn": "Part 31",
+      "sentences": [
+        {
+          "en": "Those.",
+          "tc": "那些。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Those."
+            }
+          ]
+        },
+        {
+          "en": "First seconds of the year don't define the rest of your year.",
+          "tc": "一年的第一秒並不能定義這一年的剩餘時間。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "First seconds of the "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-002-002"
+            },
+            {
+              "type": "text",
+              "text": " define the rest of your "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-002-003"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I had the worst New Year's last year and so many good things happened to me this year.",
+          "tc": "去年我度過了最糟糕的新年，今年發生了許多好事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I had the worst "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-003-001"
+            },
+            {
+              "type": "text",
+              "text": " Year's last "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-003-002"
+            },
+            {
+              "type": "text",
+              "text": " and so many good things happened to me this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-003-003"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I don't even know what else.",
+          "tc": "我甚至不知道還有什麼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-004-001"
+            },
+            {
+              "type": "text",
+              "text": " even know what else."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-32",
+      "no": "32",
+      "titleZh": "第 32 段",
+      "titleEn": "Part 32",
+      "sentences": [
+        {
+          "en": "I got everything I had ever dreamed about having.",
+          "tc": "我得到了我夢想的一切。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got "
+            },
+            {
+              "type": "word",
+              "text": "everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-001-001"
+            },
+            {
+              "type": "text",
+              "text": " I had ever dreamed about having."
+            }
+          ]
+        },
+        {
+          "en": "So, new year, new me, new beginnings.",
+          "tc": "所以，新的一年，新的我，新的開始。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, "
+            },
+            {
+              "type": "word",
+              "text": "new",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-002-002"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "new",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-002-003"
+            },
+            {
+              "type": "text",
+              "text": " me, "
+            },
+            {
+              "type": "word",
+              "text": "new",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-002-004"
+            },
+            {
+              "type": "text",
+              "text": " beginnings."
+            }
+          ]
+        },
+        {
+          "en": "No, don't wait for tomorrow.",
+          "tc": "不，不要等到明天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "No, "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-003-001"
+            },
+            {
+              "type": "text",
+              "text": " wait for tomorrow."
+            }
+          ]
+        },
+        {
+          "en": "Don't wait for New Year's.",
+          "tc": "不用等到新年。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-004-001"
+            },
+            {
+              "type": "text",
+              "text": " wait for "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-004-002"
+            },
+            {
+              "type": "text",
+              "text": " Year's."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-33",
+      "no": "33",
+      "titleZh": "第 33 段",
+      "titleEn": "Part 33",
+      "sentences": [
+        {
+          "en": "Don't even wait for spring.",
+          "tc": "甚至不用等到春天。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-33-001-001"
+            },
+            {
+              "type": "text",
+              "text": " even wait for spring."
+            }
+          ]
+        },
+        {
+          "en": "You can start today.",
+          "tc": "你今天就可以開始。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can "
+            },
+            {
+              "type": "word",
+              "text": "start",
+              "targetId": "word-start",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-33-002-001"
+            },
+            {
+              "type": "text",
+              "text": " today."
+            }
+          ]
+        },
+        {
+          "en": "On second thought, start right now.",
+          "tc": "再想一想，現在就開始吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "On second thought, "
+            },
+            {
+              "type": "word",
+              "text": "start",
+              "targetId": "word-start",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-33-003-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-33-003-002"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-33-003-003"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Take control and decide.",
+          "tc": "掌控並做出決定。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Take control and decide."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-34",
+      "no": "34",
+      "titleZh": "第 34 段",
+      "titleEn": "Part 34",
+      "sentences": [
+        {
+          "en": "What you want to do and do it.",
+          "tc": "你想做什麼就去做。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What you "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-34-001-001"
+            },
+            {
+              "type": "text",
+              "text": " do and do it."
+            }
+          ]
+        },
+        {
+          "en": "Like Nike says, just do it?",
+          "tc": "就像耐吉說的那樣，就去做吧？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like Nike says, just do it?"
+            }
+          ]
+        },
+        {
+          "en": "I want to do it.",
+          "tc": "我想做。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-34-003-001"
+            },
+            {
+              "type": "text",
+              "text": " do it."
+            }
+          ]
+        },
+        {
+          "en": "I don't wait for the right moment.",
+          "tc": "我不會等待合適的時機。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-34-004-001"
+            },
+            {
+              "type": "text",
+              "text": " wait for the "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-34-004-002"
+            },
+            {
+              "type": "text",
+              "text": " moment."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-35",
+      "no": "35",
+      "titleZh": "第 35 段",
+      "titleEn": "Part 35",
+      "sentences": [
+        {
+          "en": "Sorry, I know.",
+          "tc": "抱歉，我知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Sorry, I know."
+            }
+          ]
+        },
+        {
+          "en": "I'm going on a tangent about how much I hate New Year's, my issues with New Year's,.",
+          "tc": "我要說的是我有多討厭新年，我對新年的看法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm "
+            },
+            {
+              "type": "word",
+              "text": "going",
+              "targetId": "word-going",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-35-002-001"
+            },
+            {
+              "type": "text",
+              "text": " on a tangent about how much I hate "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-35-002-002"
+            },
+            {
+              "type": "text",
+              "text": " Year's, my issues with "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-35-002-003"
+            },
+            {
+              "type": "text",
+              "text": " Year's,."
+            }
+          ]
+        },
+        {
+          "en": "I also just like sleeping early.",
+          "tc": "我也只是喜歡早點睡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also just like sleeping early."
+            }
+          ]
+        },
+        {
+          "en": "And maybe you'll say, \"Oh, you're too young to be acting that way,.",
+          "tc": "也許你會說，“哦，你還太年輕，不能這麼做。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And maybe you'll say, \"Oh, you're too young to be acting that way,."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-36",
+      "no": "36",
+      "titleZh": "第 36 段",
+      "titleEn": "Part 36",
+      "sentences": [
+        {
+          "en": "I like sleeping early.",
+          "tc": "我喜歡早睡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like sleeping early."
+            }
+          ]
+        },
+        {
+          "en": "I don't like waiting to eat until 12 a.m.",
+          "tc": "我不喜歡等到凌晨12點才吃飯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-36-002-001"
+            },
+            {
+              "type": "text",
+              "text": " like waiting to eat until 12 a.m."
+            }
+          ]
+        },
+        {
+          "en": "Then staying up all night.\"",
+          "tc": "然後熬夜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then staying up all night.\""
+            }
+          ]
+        },
+        {
+          "en": "Truthfully, if I could choose what to do on New Year's,.",
+          "tc": "」說實話，如果我可以選擇新年做什麼的話。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Truthfully, if I could choose what to do on "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-36-004-001"
+            },
+            {
+              "type": "text",
+              "text": " Year's,."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-37",
+      "no": "37",
+      "titleZh": "第 37 段",
+      "titleEn": "Part 37",
+      "sentences": [
+        {
+          "en": "I would watch a movie with my family, eat dinner at a normal time, wash my face, and go to sleep, and wake up.",
+          "tc": "我會和家人一起看電影，按正常時間吃晚飯，洗臉，然後睡覺，然後起床。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would watch a movie with my family, eat dinner at a normal time, wash my face, and go to sleep, and wake up."
+            }
+          ]
+        },
+        {
+          "en": "Next morning and just crochet.",
+          "tc": "第二天早上，就鉤針編織。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Next morning and just crochet."
+            }
+          ]
+        },
+        {
+          "en": "Day.",
+          "tc": "天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Day."
+            }
+          ]
+        },
+        {
+          "en": "Read a book, lay in my hammock, maybe go for a swim, and start the year feeling fresh, not tired and hung over.",
+          "tc": "讀一本書，躺在吊床上，也許去游泳，開始新的一年，感覺清新，不累，不宿醉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Read a book, lay in my hammock, maybe go for a swim, and "
+            },
+            {
+              "type": "word",
+              "text": "start",
+              "targetId": "word-start",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-37-004-001"
+            },
+            {
+              "type": "text",
+              "text": " the "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-37-004-002"
+            },
+            {
+              "type": "text",
+              "text": " feeling fresh, not tired and hung over."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-38",
+      "no": "38",
+      "titleZh": "第 38 段",
+      "titleEn": "Part 38",
+      "sentences": [
+        {
+          "en": "So, that's all.",
+          "tc": "所以，僅此而已。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, that's all."
+            }
+          ]
+        },
+        {
+          "en": "I have to say about that.",
+          "tc": "我不得不說一下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have to say about that."
+            }
+          ]
+        },
+        {
+          "en": "This video was a little bit different from my normal content,.",
+          "tc": "該視頻與我的正常內容有點不同。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This video was a little bit different from my normal content,."
+            }
+          ]
+        },
+        {
+          "en": "If you enjoyed it as much as I did,.",
+          "tc": "如果你和我一樣喜歡它，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you enjoyed it as much as I did,."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "vocabGroups": [
+    {
+      "title": "B2 重點單字",
+      "items": [
+        {
+          "id": "word-year",
+          "lemma": "year",
+          "english": "year",
+          "kk": "/year/",
+          "partOfSpeech": "n.",
+          "meaning": "年",
+          "highlight": true
+        },
+        {
+          "id": "word-new",
+          "lemma": "new",
+          "english": "new",
+          "kk": "/new/",
+          "partOfSpeech": "n.",
+          "meaning": "新的",
+          "highlight": true
+        },
+        {
+          "id": "word-don-t",
+          "lemma": "don't",
+          "english": "don't",
+          "kk": "/don't/",
+          "partOfSpeech": "n.",
+          "meaning": "不",
+          "highlight": true
+        },
+        {
+          "id": "word-now",
+          "lemma": "now",
+          "english": "now",
+          "kk": "/now/",
+          "partOfSpeech": "n.",
+          "meaning": "現在",
+          "highlight": true
+        },
+        {
+          "id": "word-right",
+          "lemma": "right",
+          "english": "right",
+          "kk": "/right/",
+          "partOfSpeech": "n.",
+          "meaning": "正確的",
+          "highlight": true
+        },
+        {
+          "id": "word-everything",
+          "lemma": "everything",
+          "english": "everything",
+          "kk": "/everything/",
+          "partOfSpeech": "v.",
+          "meaning": "一切",
+          "highlight": true
+        },
+        {
+          "id": "word-start",
+          "lemma": "start",
+          "english": "start",
+          "kk": "/start/",
+          "partOfSpeech": "n.",
+          "meaning": "開始",
+          "highlight": true
+        },
+        {
+          "id": "word-going",
+          "lemma": "going",
+          "english": "going",
+          "kk": "/going/",
+          "partOfSpeech": "v.",
+          "meaning": "去",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "phrase-welcome-back",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Welcome back to my Slow English podcast.",
+          "tc": "歡迎回來"
+        }
+      ]
+    },
+    {
+      "id": "phrase-going-to",
+      "phrase": "going to",
+      "meaning": "去",
+      "examples": [
+        {
+          "en": "I was going to talk about, but to me that's still a huge success.",
+          "tc": "去"
+        }
+      ]
+    },
+    {
+      "id": "phrase-want-to",
+      "phrase": "want to",
+      "meaning": "想要",
+      "examples": [
+        {
+          "en": "You naturally just want to hibernate during the winter.",
+          "tc": "想要"
+        }
+      ]
+    }
+  ],
+  "usages": [],
+  "breakdowns": [
+    {
+      "id": "grammar-1",
+      "sentence": "Welcome back to my Slow English podcast. This episode is for upper intermediate and advanced English listeners. 2025 is coming to an end. So soon this year went by so fast.",
+      "translation": "歡迎回到我的慢速英語podcast。本集適合中高級和高級英語聽眾。 2025年即將結束。時間這麼快，這一年過得這麼快。",
+      "points": [
+        {
+          "label": "to 不定詞",
+          "text": "to + 原形動詞",
+          "note": "表示目的或補語。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "sentence": "Learning from both the achievements and the failures, finding the beauty in every moment because that's.",
+      "translation": "從成就和失敗中學習，發現每時每刻的美麗，因為那就是。",
+      "points": [
+        {
+          "label": "that 子句",
+          "text": "that + 子句",
+          "note": "補充說明前面的名詞或想法。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "sentence": "You could be an achievement for someone else. For instance, if I was doing a presentation in front of a group of people.",
+      "translation": "你可能會成為別人的成就。例如，如果我在一群人面前做演示。",
+      "points": [
+        {
+          "label": "if 條件句",
+          "text": "If + 子句, 主句",
+          "note": "用條件說明可能情況與結果。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-4",
+      "sentence": "I would get over my fear of public speaking. Now for someone else, the presentation went wrong.",
+      "translation": "我會克服對公開演講的恐懼。現在對於其他人來說，演示出了問題。",
+      "points": [
+        {
+          "label": "would 用法",
+          "text": "would + 原形動詞",
+          "note": "表示假設、過去習慣或委婉語氣。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "It is. When I was younger.",
+      "translation": "這是。當我年輕的時候。",
+      "points": [
+        {
+          "label": "when 時間子句",
+          "text": "when + 主詞 + 動詞",
+          "note": "說明事情發生的時間或情境。"
+        }
+      ]
+    }
+  ],
+  "sourceTraceability": {
+    "level": "b2",
+    "slug": "ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input",
+    "sourcePath": "_private/tmp/originalContent/b2/ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b2/ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input.md"
+  }
+}

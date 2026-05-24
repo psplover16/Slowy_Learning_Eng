@@ -19,18 +19,18 @@ describe('router', () => {
     expect(chapterRoutesFromRouter.length).toBe(chapters.length)
   })
 
-  it('resolves /ch1 to a route named "ch1"', () => {
-    const resolved = router.resolve('/ch1')
+  it.each(['ch1', 'ch2', 'ch3', 'ch4'])('resolves /%s to the matching chapter route', (chapterId) => {
+    const resolved = router.resolve(`/${chapterId}`)
     expect(resolved.matched.length).toBeGreaterThan(0)
-    expect(resolved.matched[0].name).toBe('ch1')
+    expect(resolved.matched[0].name).toBe(chapterId)
   })
 
-  it('injects the chapter id as props.id for chapter routes', () => {
-    const resolved = router.resolve('/ch1')
+  it.each(['ch1', 'ch2', 'ch3', 'ch4'])('injects %s as props.id for chapter routes', (chapterId) => {
+    const resolved = router.resolve(`/${chapterId}`)
     const record = resolved.matched[0]
-    // The route's props function should produce { id: 'ch1' } for the resolved route
+    // The route's props function should produce the concrete chapter id for the resolved route.
     const propsFn = record.props.default as (route: typeof resolved) => Record<string, unknown>
     expect(typeof propsFn).toBe('function')
-    expect(propsFn(resolved)).toEqual({ id: 'ch1' })
+    expect(propsFn(resolved)).toEqual({ id: chapterId })
   })
 })

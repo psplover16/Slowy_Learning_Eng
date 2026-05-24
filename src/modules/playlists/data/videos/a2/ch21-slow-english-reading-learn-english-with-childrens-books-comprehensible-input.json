@@ -1,0 +1,749 @@
+{
+  "videoId": "wKZkxYCGMdw",
+  "slug": "ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input",
+  "level": "a2",
+  "title": "Slow English Reading - Learn English with Children’s Books (comprehensible input)",
+  "youtubeUrl": "https://www.youtube.com/watch?v=wKZkxYCGMdw",
+  "header": {
+    "podcastLabel": "MissHoney A2",
+    "titleZh": "慢速英語閱讀 - 用童書學英語（可理解的輸入）",
+    "titleEn": "Slow English Reading - Learn English with Children’s Books (comprehensible input)",
+    "levelTag": "A2",
+    "topicTag": "language"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "no": "01",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
+      "sentences": [
+        {
+          "en": "Hello and welcome back to my Slow English podcast.",
+          "tc": "你好，歡迎回到我的慢速英語播客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my "
+            },
+            {
+              "type": "phrase",
+              "text": "Slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input-001-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Today we will be reading Swimming by Leo Leone.",
+          "tc": "今天我們将阅讀LeoLeone的《游泳》。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today we will be reading Swimming by Leo Leone."
+            }
+          ]
+        },
+        {
+          "en": "Read slow English children's books with me.",
+          "tc": "和我一起讀慢速英語童書。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Read slow English children's books with me."
+            }
+          ]
+        },
+        {
+          "en": "A happy school of little red fish lived in a corner of the sea somewhere.",
+          "tc": "在某個海域的某個角落里，住着一群快樂的小红魚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A happy school of little red fish lived in a corner of the sea somewhere."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
+      "sentences": [
+        {
+          "en": "They were all red.",
+          "tc": "它們都是红色的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They were all red."
+            }
+          ]
+        },
+        {
+          "en": "Only one of them was black.",
+          "tc": "其中只有一個是黑人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Only one of them was black."
+            }
+          ]
+        },
+        {
+          "en": "Black as a mussel shell.",
+          "tc": "黑色如贻貝殼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Black as a mussel shell."
+            }
+          ]
+        },
+        {
+          "en": "He swam faster than his brothers and sisters.",
+          "tc": "他比他的兄弟姐妹游得更快。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He swam faster than his brothers and sisters."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
+      "sentences": [
+        {
+          "en": "His name was Swimmie.",
+          "tc": "他的名字叫斯威米。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "His name was Swimmie."
+            }
+          ]
+        },
+        {
+          "en": "One day, a bad tuna fish, swift, fierce, and very hungry, came darting through the waves.",
+          "tc": "有一天，一条坏金枪魚，敏捷、凶猛，而且非常饥饿，在海浪中疾驰而來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "One day, a bad tuna fish, swift, fierce, and very hungry, came darting through the waves."
+            }
+          ]
+        },
+        {
+          "en": "In one gulp, he swallowed all the little red fish.",
+          "tc": "一口氣将小红魚全部吞了下去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "In one gulp, he swallowed all the little red fish."
+            }
+          ]
+        },
+        {
+          "en": "Only Swimmie escaped.",
+          "tc": "只有斯威米逃脱了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Only Swimmie escaped."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
+      "sentences": [
+        {
+          "en": "He swam away in the deep wet world.",
+          "tc": "他在深濕的世界里游走了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He swam away in the deep wet world."
+            }
+          ]
+        },
+        {
+          "en": "He was scared, lonely, and very sad.",
+          "tc": "他感到害怕、孤独、非常悲伤。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He was scared, lonely, and very sad."
+            }
+          ]
+        },
+        {
+          "en": "But the sea was full of wonderful creatures.",
+          "tc": "但是大海里充滿了奇妙的生物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But the sea was full of wonderful creatures."
+            }
+          ]
+        },
+        {
+          "en": "And as he swam from marvel to marvel, Simmyi was happy again.",
+          "tc": "當他从一個奇迹游到另一個奇迹时，西米又感到高興了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And as he swam from marvel to marvel, Simmyi was happy again."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
+      "sentences": [
+        {
+          "en": "He saw a medusa made of rainbow jelly.",
+          "tc": "他看到了一個由彩虹果冻制成的水母。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He saw a medusa made of rainbow jelly."
+            }
+          ]
+        },
+        {
+          "en": "A lobster who walked about like a watermoving machine.",
+          "tc": "一只像抽水機一樣行走的龍虾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A lobster who walked about like a watermoving machine."
+            }
+          ]
+        },
+        {
+          "en": "Strange fish pulled by an invisible thread.",
+          "tc": "一条看不见的線拉着的奇怪的魚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Strange fish pulled by an invisible thread."
+            }
+          ]
+        },
+        {
+          "en": "A forest of seaweeds growing from sugar candy rocks.",
+          "tc": "从糖岩中長出的海藻森林。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A forest of seaweeds growing from sugar candy rocks."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
+      "sentences": [
+        {
+          "en": "An eel whose tail was almost too far away to remember.",
+          "tc": "一条鳗魚，尾巴離得太遠，几乎记不清了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "An eel whose tail was almost too far away to remember."
+            }
+          ]
+        },
+        {
+          "en": "Too far away.",
+          "tc": "太遠了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Too far away."
+            }
+          ]
+        },
+        {
+          "en": "And sea anemies who looked like pink palm trees swaying in the wind.",
+          "tc": "还有海洋敌人，它們看起來就像在风中摇曳的粉红色棕榈樹。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And sea anemies who looked like pink palm trees swaying in the wind."
+            }
+          ]
+        },
+        {
+          "en": "Then hidden in his dark shade of rocks and weeds, he saw a school of little fish, just like his own.",
+          "tc": "然後，他在岩石和雜草的暗色陰影中看到了一群小魚，就像他自己的魚一樣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then hidden in his dark shade of rocks and weeds, he saw a school of little fish, just like his own."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
+        {
+          "en": "Let's go and swim and play and see things.",
+          "tc": "我們去游泳、玩耍、看看东西吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let's go and swim and play and see things."
+            }
+          ]
+        },
+        {
+          "en": "He said happily.",
+          "tc": "他高興地說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He said happily."
+            }
+          ]
+        },
+        {
+          "en": "We can't, said the little red fish.",
+          "tc": "我們不能，小红魚說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We can't, said the little red fish."
+            }
+          ]
+        },
+        {
+          "en": "The big fish will eat us.",
+          "tc": "大魚會吃掉我們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The big fish will eat us."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "But you can't just lie there, said Swimmie.",
+          "tc": "但你不能只是躺在那里，斯威米說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But you can't just lie there, said Swimmie."
+            }
+          ]
+        },
+        {
+          "en": "We must think of something.",
+          "tc": "我們必須想点办法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We must think of something."
+            }
+          ]
+        },
+        {
+          "en": "Swimmie thought and thought and thought.",
+          "tc": "Swimmie思考、思考、思考。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Swimmie thought and thought and thought."
+            }
+          ]
+        },
+        {
+          "en": "Then suddenly he said, \"I have it.",
+          "tc": "然後他突然說：“我有。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then suddenly he said, \"I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input-032-01"
+            },
+            {
+              "type": "text",
+              "text": " it."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
+        {
+          "en": "We are going to swim all together like the biggest fish in the sea.",
+          "tc": "我們要像海里最大的魚一樣一起游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We are going to swim all together like the biggest fish in the sea."
+            }
+          ]
+        },
+        {
+          "en": "He taught them how to swim close together, each in his own place.",
+          "tc": "他教他們如何并肩游泳，每個人都在自己的位置上。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He taught them how to swim close together, each in his own place."
+            }
+          ]
+        },
+        {
+          "en": "And when they had learned to swim like one giant fish, he said, \"I'll be the eye.\"",
+          "tc": "當他們學會像一条大魚一樣游泳时，他說：“我将成為眼睛。”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And when they had learned to swim like one giant fish, he said, \"I'll be the eye.\""
+            }
+          ]
+        },
+        {
+          "en": "And so they swam in the cool morning water and in the midday sun.",
+          "tc": "于是他們在清晨凉爽的水中和正午的陽光下游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And so they swam in the cool morning water and in the midday sun."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "And chased the big fish away.",
+          "tc": "并把大魚趕走了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And chased the big fish away."
+            }
+          ]
+        },
+        {
+          "en": "The end.",
+          "tc": "结束.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The end."
+            }
+          ]
+        },
+        {
+          "en": "I have a few questions for you.",
+          "tc": "我有几個問题想問你。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input-scene-10-003-001"
+            },
+            {
+              "type": "text",
+              "text": " a few questions for you."
+            }
+          ]
+        },
+        {
+          "en": "First one, why do you think Swimmie managed to escape from the big fish?",
+          "tc": "第一，你認為Swimmie為什麼能从大魚手中逃脱？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "First one, why do you think Swimmie managed to escape from the big fish?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
+        {
+          "en": "Two.",
+          "tc": "二.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Two."
+            }
+          ]
+        },
+        {
+          "en": "Was the eel's tail long or short?",
+          "tc": "鳗魚的尾巴是長还是短？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Was the eel's tail long or short?"
+            }
+          ]
+        },
+        {
+          "en": "Three, why was swimming the eye when they made the big fish?",
+          "tc": "三、為什麼他們钓大魚的时候​​要游眼睛？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Three, why was swimming the eye when they made the big fish?"
+            }
+          ]
+        },
+        {
+          "en": "And four.",
+          "tc": "还有四個。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And four."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "What do you think the moral of this story is?",
+          "tc": "你認為這個故事的寓意是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you think the moral of this story is?"
+            }
+          ]
+        },
+        {
+          "en": "Comment your answers down below.",
+          "tc": "在下面评论你的答案。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Comment your answers down below."
+            }
+          ]
+        },
+        {
+          "en": "I hope you enjoyed my slow English reading.",
+          "tc": "我希望你喜歡我的慢速英語阅讀。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hope you enjoyed my slow English reading."
+            }
+          ]
+        },
+        {
+          "en": "And if you like these type of videos, then subscribe and like for more.",
+          "tc": "如果您喜歡這些类型的視頻，請訂阅并点讚以获取更多內容。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And if you like these type of videos, then subscribe and like for more."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": ">>.",
+          "tc": "這裡是在說：「>>.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": ">>."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "vocabGroups": [
+    {
+      "title": "A2 重點單字",
+      "items": []
+    }
+  ],
+  "phrases": [
+    {
+      "id": "phrase-welcome-back",
+      "phrase": "welcome back",
+      "meaning": "歡迎回來",
+      "examples": [
+        {
+          "en": "Hello and __welcome back__ to my __Slow English podcast__.",
+          "tc": "歡迎回來"
+        }
+      ]
+    },
+    {
+      "id": "phrase-slow-english-podcast",
+      "phrase": "slow English podcast",
+      "meaning": "慢速英文播客",
+      "examples": [
+        {
+          "en": "Hello and __welcome back__ to my __Slow English podcast__.",
+          "tc": "慢速英文播客"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-have-item",
+      "word": "have",
+      "familiarMeaning": "有",
+      "usage": "表示吃喝、經歷或享有",
+      "translation": "喝；經歷；享有",
+      "examples": [
+        "Then suddenly he said, \"I 《have》 it."
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "grammar-1",
+      "sentence": "Hello and welcome back to my Slow English podcast.",
+      "translation": "你好，歡迎回到我的慢速英語播客。",
+      "points": [
+        {
+          "label": "不定詞片語",
+          "text": "to + 原形動詞",
+          "note": "表示目的、計畫或想做的事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "sentence": "Today we will be reading Swimming by Leo Leone.",
+      "translation": "今天我們将阅讀LeoLeone的《游泳》。",
+      "points": [
+        {
+          "label": "未來進行式",
+          "text": "will be + V-ing",
+          "note": "表示未來某段時間會正在進行的事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "sentence": "A lobster who walked about like a watermoving machine.",
+      "translation": "一只像抽水機一樣行走的龍虾。",
+      "points": [
+        {
+          "label": "關係子句",
+          "text": "名詞 + who/which/that + 子句",
+          "note": "補充說明前面的名詞。"
+        }
+      ]
+    }
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input",
+    "sourcePath": "_private/tmp/originalContent/a2/ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input.md"
+  }
+}

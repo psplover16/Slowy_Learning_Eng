@@ -1,5 +1,7 @@
 <template>
-  <div
+  <component
+    :is="to ? RouterLink : 'div'"
+    :to="to"
     class="flex items-center gap-3 p-4 bg-paper-2 rounded-lg border border-line cursor-pointer hover:border-line-soft transition-colors"
     @click="emit('navigate')"
   >
@@ -8,10 +10,11 @@
       <p v-if="subtitle" class="text-sm text-ink-soft mt-0.5">{{ subtitle }}</p>
     </div>
     <button
+      v-if="showCompletion !== false"
       class="shrink-0 text-terracotta hover:text-terracotta-deep transition-colors p-1"
       :aria-label="completed ? '標記為未完成' : '標記為完成'"
       data-testid="completion-toggle"
-      @click.stop="emit('toggle-completion')"
+      @click.prevent.stop="emit('toggle-completion')"
     >
       <svg v-if="completed" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
         <circle cx="12" cy="12" r="10" />
@@ -20,15 +23,19 @@
         <circle cx="12" cy="12" r="10" />
       </svg>
     </button>
-  </div>
+  </component>
 </template>
 
 <script setup lang="ts">
-defineProps<{
+import { RouterLink } from 'vue-router'
+
+withDefaults(defineProps<{
   title: string
   subtitle?: string
   completed: boolean
-}>()
+  showCompletion?: boolean
+  to?: string
+}>(), { showCompletion: true })
 
 const emit = defineEmits<{
   navigate: []

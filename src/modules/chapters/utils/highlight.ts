@@ -8,6 +8,7 @@
  * intended only for controlled chapter content authored in TypeScript data
  * modules — never feed user input into it.
  */
-export function hl(text: string, targetId: string): string {
-  return `<span data-target="${targetId}" class="underline decoration-terracotta underline-offset-2 cursor-pointer hover:text-terracotta transition-colors">${text}</span>`
+export function hl(text: string, targetId: string = ''): string {
+  const targetAttr = targetId ? ` data-target="${targetId}"` : ''
+  return `<span${targetAttr} class="underline decoration-terracotta underline-offset-2 cursor-pointer hover:text-terracotta transition-colors">${text}</span>`
 }

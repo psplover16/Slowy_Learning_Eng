@@ -1,0 +1,4253 @@
+{
+  "videoId": "VGoJrwil_7c",
+  "slug": "ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1",
+  "level": "b1",
+  "title": "Slow English Podcast: My Trip to New York City 🇺🇸 Level B1",
+  "youtubeUrl": "https://www.youtube.com/watch?v=VGoJrwil_7c",
+  "header": {
+    "podcastLabel": "MissHoney B1",
+    "titleZh": "慢速英語podcast：我的紐約之旅🇺🇸 B1級",
+    "titleEn": "Slow English Podcast: My Trip to New York City 🇺🇸 Level B1",
+    "levelTag": "B1",
+    "topicTag": "travel"
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "no": "01",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
+      "sentences": [
+        {
+          "en": "Hello and welcome back to my Slow English podcast.",
+          "tc": "哈囉，歡迎回到我的慢速英語播客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and welcome back to my Slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-001-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Today I'm going to talk about my trip to New York: the whole entire story, from the moment I arrived at the airport, to my home in Nebraska, to New York, and back to Mexico City.",
+          "tc": "今天我要談談我的紐約之旅：整個完整的故事，從我到達機場的那一刻，到我在內布拉斯加的家，到紐約，再回到墨西哥城。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today I'm going to "
+            },
+            {
+              "type": "phrase",
+              "text": "talk about",
+              "targetId": "phrase-talk-about",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-002-01"
+            },
+            {
+              "type": "text",
+              "text": " my trip to New York: the whole entire story, "
+            },
+            {
+              "type": "phrase",
+              "text": "from the moment",
+              "targetId": "phrase-from-the-moment",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-002-02"
+            },
+            {
+              "type": "text",
+              "text": " I arrived at the airport, to my home in Nebraska, to New York, and back to Mexico City."
+            }
+          ]
+        },
+        {
+          "en": "First, in the morning, my family and I woke up at around 4 a.m., super early, because my dad had to drive us to the airport and then go to work.",
+          "tc": "首先，那天早上，我家人和我大約凌晨四點就起床了，超級早，因為我爸爸得開車載我們去機場，然後再去上班。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "First, in the morning, my family and I woke up at around 4 a.m., super early, because my dad had to drive us to the airport and then go to work."
+            }
+          ]
+        },
+        {
+          "en": "So, my mom, my sister, my brother, and I woke up, got our bags, and headed to the airport in Mexico City.",
+          "tc": "所以，我媽媽、我妹妹、我弟弟和我起床，拿了行李，前往墨西哥城的機場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, my mom, my sister, my brother, and I woke up, got our bags, and "
+            },
+            {
+              "type": "phrase",
+              "text": "headed to",
+              "targetId": "phrase-head-to",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-004-01"
+            },
+            {
+              "type": "text",
+              "text": " the airport in Mexico City."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-02",
+      "no": "02",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
+      "sentences": [
+        {
+          "en": "Once we arrived at the airport, we had to find our airline.",
+          "tc": "我們一到機場，就得找到我們的航空公司。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Once we arrived at the airport, we had to find our "
+            },
+            {
+              "type": "word",
+              "text": "airline",
+              "targetId": "word-airline",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-005-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Our airline was United, or Aeromexico.",
+          "tc": "我們的航空公司是 United，或是 Aeromexico。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Our "
+            },
+            {
+              "type": "word",
+              "text": "airline",
+              "targetId": "word-airline",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-02-002-001"
+            },
+            {
+              "type": "text",
+              "text": " was United, or Aeromexico."
+            }
+          ]
+        },
+        {
+          "en": "So we found our airline.",
+          "tc": "所以我們找到了航空公司。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So we found our "
+            },
+            {
+              "type": "word",
+              "text": "airline",
+              "targetId": "word-airline",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-02-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "We checked in.",
+          "tc": "我們辦了登機手續。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We "
+            },
+            {
+              "type": "phrase",
+              "text": "checked in",
+              "targetId": "phrase-check-in",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-008-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-03",
+      "no": "03",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
+      "sentences": [
+        {
+          "en": "We checked a bag, and we went through the security check.",
+          "tc": "我們托運了一件行李，然後通過安檢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We checked a bag, and we "
+            },
+            {
+              "type": "phrase",
+              "text": "went through",
+              "targetId": "phrase-go-through",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-009-01"
+            },
+            {
+              "type": "text",
+              "text": " the "
+            },
+            {
+              "type": "word",
+              "text": "security",
+              "targetId": "word-security",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-009-02"
+            },
+            {
+              "type": "text",
+              "text": " check."
+            }
+          ]
+        },
+        {
+          "en": "The security check this time was so chill.",
+          "tc": "這次的安檢非常輕鬆。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The security check this time was so "
+            },
+            {
+              "type": "usage",
+              "text": "chill",
+              "targetId": "usage-chill-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-010-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "The security guards were super friendly and not intense or angry at all.",
+          "tc": "安檢人員超級友善，一點也不緊繃或生氣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The security guards were super friendly and not "
+            },
+            {
+              "type": "word",
+              "text": "intense",
+              "targetId": "word-intense",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-011-01"
+            },
+            {
+              "type": "text",
+              "text": " or angry at all."
+            }
+          ]
+        },
+        {
+          "en": "So, it was a good start to a good trip.",
+          "tc": "所以，這是一趟美好旅程的好開始。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, it was a good start to a good trip."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
+      "sentences": [
+        {
+          "en": "Then once we were past security, we had to walk through the duty-free section, the section where everything is duty-free.",
+          "tc": "接著，通過安檢後，我們必須走過免稅區，也就是所有東西都免稅的區域。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then once we were past security, we had to walk through the "
+            },
+            {
+              "type": "phrase",
+              "text": "duty-free",
+              "targetId": "phrase-duty-free",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-013-01"
+            },
+            {
+              "type": "text",
+              "text": " section, the section where everything is duty-free."
+            }
+          ]
+        },
+        {
+          "en": "And we were so hungry.",
+          "tc": "而且我們非常餓。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And we were so hungry."
+            }
+          ]
+        },
+        {
+          "en": "We hadn't eaten anything since the night before.",
+          "tc": "我們從前一天晚上之後就什麼都沒吃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We hadn't eaten anything since the night before."
+            }
+          ]
+        },
+        {
+          "en": "So, we all made a unanimous decision to get breakfast at Carl's Jr., and it was so yummy.",
+          "tc": "所以，我們一致決定去 Carl's Jr. 吃早餐，而且真的很好吃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, we all made a "
+            },
+            {
+              "type": "word",
+              "text": "unanimous",
+              "targetId": "word-unanimous",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-016-01"
+            },
+            {
+              "type": "text",
+              "text": " decision to get breakfast at Carl's Jr., and it was so yummy."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
+      "sentences": [
+        {
+          "en": "I had the deluxe meal that has pancakes, bacon, tater tots, and a piece of toast.",
+          "tc": "我點了豪華餐，裡面有鬆餅、培根、薯餅球和一片吐司。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I had the "
+            },
+            {
+              "type": "word",
+              "text": "deluxe",
+              "targetId": "word-deluxe",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-017-01"
+            },
+            {
+              "type": "text",
+              "text": " meal that has pancakes, bacon, "
+            },
+            {
+              "type": "word",
+              "text": "tater tots",
+              "targetId": "word-tater-tot",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-017-02"
+            },
+            {
+              "type": "text",
+              "text": ", and a piece of toast."
+            }
+          ]
+        },
+        {
+          "en": "My brother and my sister got the breakfast burrito, and my mom got the breakfast burger.",
+          "tc": "我弟弟和我妹妹點了早餐墨西哥捲餅，我媽媽點了早餐漢堡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My brother and my sister got the breakfast burrito, and my mom got the breakfast burger."
+            }
+          ]
+        },
+        {
+          "en": "We had plenty of time to find our gate.",
+          "tc": "我們有很多時間找登機門。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We had plenty of time to find our gate."
+            }
+          ]
+        },
+        {
+          "en": "So, we were in no rush.",
+          "tc": "所以，我們不趕時間。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, we were "
+            },
+            {
+              "type": "phrase",
+              "text": "in no rush",
+              "targetId": "phrase-in-no-rush",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-020-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-06",
+      "no": "06",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
+      "sentences": [
+        {
+          "en": "We were in no hurry.",
+          "tc": "我們一點也不急。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We were "
+            },
+            {
+              "type": "phrase",
+              "text": "in no hurry",
+              "targetId": "phrase-in-no-hurry",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-021-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "We took our first flight to Dallas.",
+          "tc": "我們搭第一班飛機去達拉斯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We took our first flight to Dallas."
+            }
+          ]
+        },
+        {
+          "en": "That was our first layover.",
+          "tc": "那是我們第一次轉機。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That was our first "
+            },
+            {
+              "type": "word",
+              "text": "layover",
+              "targetId": "word-layover",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-023-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "And then our second flight was to Omaha, Nebraska.",
+          "tc": "然後第二班飛機是去內布拉斯加州的奧馬哈。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And then our second flight was to Omaha, Nebraska."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
+        {
+          "en": "And that's where my aunt picked us up in her car and drove us to her home.",
+          "tc": "然後我阿姨開車去接我們，載我們到她家。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And that's where my aunt "
+            },
+            {
+              "type": "phrase",
+              "text": "picked us up",
+              "targetId": "phrase-pick-someone-up",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-025-01"
+            },
+            {
+              "type": "text",
+              "text": " in her car and drove us to her home."
+            }
+          ]
+        },
+        {
+          "en": "I saw the big roads right away.",
+          "tc": "我馬上就看到那些大馬路。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I saw the big roads "
+            },
+            {
+              "type": "phrase",
+              "text": "right away",
+              "targetId": "phrase-right-away",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-026-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "The roads in the United States always surprise me.",
+          "tc": "美國的馬路總是讓我驚訝。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The roads in the United States always surprise me."
+            }
+          ]
+        },
+        {
+          "en": "They're so big.",
+          "tc": "它們真的很大。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They're so big."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "They're unnecessarily big with almost no cars, just roads.",
+          "tc": "它們大得不必要，幾乎沒有車，只有馬路。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They're "
+            },
+            {
+              "type": "word",
+              "text": "unnecessarily",
+              "targetId": "word-unnecessarily",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-029-01"
+            },
+            {
+              "type": "text",
+              "text": " big with almost no cars, just roads."
+            }
+          ]
+        },
+        {
+          "en": "I can't imagine walking somewhere in the United States.",
+          "tc": "我無法想像在美國走路去什麼地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can't imagine walking somewhere in the United States."
+            }
+          ]
+        },
+        {
+          "en": "Right away, my aunt took us all to eat ice cream.",
+          "tc": "很快地，我阿姨帶我們大家去吃冰淇淋。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Right away",
+              "targetId": "phrase-right-away",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-08-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", my aunt took us all to eat ice cream."
+            }
+          ]
+        },
+        {
+          "en": "We got the biggest ice cream cones I've ever seen.",
+          "tc": "我們拿到了我見過最大的冰淇淋甜筒。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We got the biggest ice cream "
+            },
+            {
+              "type": "word",
+              "text": "cones",
+              "targetId": "word-cone",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-032-01"
+            },
+            {
+              "type": "text",
+              "text": " I've ever seen."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
+        {
+          "en": "You can't even imagine.",
+          "tc": "你根本無法想像。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can't even imagine."
+            }
+          ]
+        },
+        {
+          "en": "They were unnecessarily big.",
+          "tc": "它們大得沒必要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They were "
+            },
+            {
+              "type": "word",
+              "text": "unnecessarily",
+              "targetId": "word-unnecessarily",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-09-002-001"
+            },
+            {
+              "type": "text",
+              "text": " big."
+            }
+          ]
+        },
+        {
+          "en": "But they were very friendly at the ice cream shop, and it was very delicious ice cream.",
+          "tc": "不過冰淇淋店的人非常友善，而且冰淇淋非常好吃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But they were very friendly at the ice cream shop, and it was very delicious ice cream."
+            }
+          ]
+        },
+        {
+          "en": "We relaxed at my aunt's house for a few days, and we ate some delicious fresh vegetables from my aunt's garden.",
+          "tc": "我們在阿姨家放鬆了幾天，也吃了一些阿姨花園裡新鮮又好吃的蔬菜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We relaxed at my aunt's house for a few days, and we ate some delicious fresh vegetables from my aunt's garden."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "And after a few days, we went to my cousin's graduation.",
+          "tc": "幾天後，我們去參加我表弟的畢業典禮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And after a few days, we went to my cousin's "
+            },
+            {
+              "type": "word",
+              "text": "graduation",
+              "targetId": "word-graduation",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-037-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "He is 19, graduating from high school.",
+          "tc": "他十九歲，從高中畢業。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He is 19, graduating from high school."
+            }
+          ]
+        },
+        {
+          "en": "My aunt, my cousin's mom, held a huge celebration.",
+          "tc": "我阿姨，也就是我表弟的媽媽，辦了一場很大的慶祝會。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My aunt, my cousin's mom, held a huge "
+            },
+            {
+              "type": "word",
+              "text": "celebration",
+              "targetId": "word-celebration",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-039-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "She went all out on this graduation party.",
+          "tc": "她為這場畢業派對全力以赴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She "
+            },
+            {
+              "type": "phrase",
+              "text": "went all out",
+              "targetId": "phrase-go-all-out",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-040-01"
+            },
+            {
+              "type": "text",
+              "text": " on this graduation party."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
+        {
+          "en": "She had an ice cream machine with unlimited ice cream.",
+          "tc": "她有一台冰淇淋機，冰淇淋無限供應。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She had an ice cream machine with "
+            },
+            {
+              "type": "word",
+              "text": "unlimited",
+              "targetId": "word-unlimited",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-041-01"
+            },
+            {
+              "type": "text",
+              "text": " ice cream."
+            }
+          ]
+        },
+        {
+          "en": "She had a candy table.",
+          "tc": "她有一張糖果桌。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She had a candy table."
+            }
+          ]
+        },
+        {
+          "en": "She had hot dogs, hamburgers, nachos, and lots of fun games like Jenga or tic-tac-toe.",
+          "tc": "她準備了熱狗、漢堡、玉米片，還有很多好玩的遊戲，像是疊疊樂或井字遊戲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She had hot dogs, hamburgers, "
+            },
+            {
+              "type": "word",
+              "text": "nachos",
+              "targetId": "word-nacho",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-043-01"
+            },
+            {
+              "type": "text",
+              "text": ", and lots of fun games like Jenga or tic-tac-toe."
+            }
+          ]
+        },
+        {
+          "en": "The graduation party was really fun.",
+          "tc": "畢業派對真的很好玩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "graduation",
+              "targetId": "word-graduation",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-11-004-001"
+            },
+            {
+              "type": "text",
+              "text": " party was really fun."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "And for the next few days, we hung out at my aunt's house.",
+          "tc": "接下來幾天，我們都在阿姨家閒晃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And for the next few days, we "
+            },
+            {
+              "type": "phrase",
+              "text": "hung out",
+              "targetId": "phrase-hang-out",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-045-01"
+            },
+            {
+              "type": "text",
+              "text": " at my aunt's house."
+            }
+          ]
+        },
+        {
+          "en": "My aunt's house is in the same city where my family and I used to live.",
+          "tc": "我阿姨的家在我家人和我以前住過的同一個城市。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My aunt's house is in the same city where my family and I "
+            },
+            {
+              "type": "phrase",
+              "text": "used to",
+              "targetId": "phrase-used-to",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " live."
+            }
+          ]
+        },
+        {
+          "en": "We all used to live in Sioux City, and it brought back so many nostalgic feelings.",
+          "tc": "我們以前都住在蘇城，這讓我想起好多懷舊的感覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We all "
+            },
+            {
+              "type": "phrase",
+              "text": "used to live",
+              "targetId": "phrase-bring-back",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-047-01"
+            },
+            {
+              "type": "text",
+              "text": " in Sioux City, and it "
+            },
+            {
+              "type": "phrase",
+              "text": "brought back",
+              "targetId": "phrase-bring-back",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-047-02"
+            },
+            {
+              "type": "text",
+              "text": " so many "
+            },
+            {
+              "type": "word",
+              "text": "nostalgic",
+              "targetId": "word-nostalgic",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-047-03"
+            },
+            {
+              "type": "text",
+              "text": " feelings."
+            }
+          ]
+        },
+        {
+          "en": "So many warm memories.",
+          "tc": "好多溫暖的回憶。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So many warm memories."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "I walked around the streets in Sioux City with my sister.",
+          "tc": "我和妹妹走在蘇城的街道上。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I walked around the streets in Sioux City with my sister."
+            }
+          ]
+        },
+        {
+          "en": "We saw all of the old houses that we used to see every day.",
+          "tc": "我們看到了所有以前每天會看到的老房子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We saw all of the old houses that we "
+            },
+            {
+              "type": "phrase",
+              "text": "used to",
+              "targetId": "phrase-used-to",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-13-002-001"
+            },
+            {
+              "type": "text",
+              "text": " see every day."
+            }
+          ]
+        },
+        {
+          "en": "We saw them on our way to our cousin's house, or when we went for walks every day as kids.",
+          "tc": "那些房子是我們去表親家路上，或是小時候每天出去散步時會看到的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We saw them on our way to our cousin's house, or when we went for walks every day as kids."
+            }
+          ]
+        },
+        {
+          "en": "There's nothing like that nostalgic feeling of being in your childhood home or childhood city.",
+          "tc": "沒有什麼比回到童年的家或童年的城市更有那種懷舊感了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There's nothing like that "
+            },
+            {
+              "type": "word",
+              "text": "nostalgic",
+              "targetId": "word-nostalgic",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-13-004-001"
+            },
+            {
+              "type": "text",
+              "text": " feeling of being in your childhood home or childhood city."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "What place brings back nostalgic feelings for you?",
+          "tc": "哪個地方會讓你想起懷舊的感覺？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What place brings back "
+            },
+            {
+              "type": "word",
+              "text": "nostalgic",
+              "targetId": "word-nostalgic",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-14-001-001"
+            },
+            {
+              "type": "text",
+              "text": " feelings for you?"
+            }
+          ]
+        },
+        {
+          "en": "What things bring back nostalgic feelings?",
+          "tc": "哪些事物會讓你想起懷舊的感覺？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What things "
+            },
+            {
+              "type": "phrase",
+              "text": "bring back",
+              "targetId": "phrase-bring-back",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-14-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "nostalgic",
+              "targetId": "word-nostalgic",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-14-002-002"
+            },
+            {
+              "type": "text",
+              "text": " feelings?"
+            }
+          ]
+        },
+        {
+          "en": "For me, it's all of the green trees and the big houses and even the big roads.",
+          "tc": "對我來說，是那些綠色的樹、大房子，甚至那些大馬路。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For me, it's all of the green trees and the big houses and even the big roads."
+            }
+          ]
+        },
+        {
+          "en": "What brings those feelings for you?",
+          "tc": "什麼會帶給你那些感覺？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What brings those feelings for you?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "We saw a house with cute little mushrooms and a tree that had a hole cut through the middle for the cable lines going through the tree.",
+          "tc": "我們看到一棟有可愛小蘑菇的房子，還有一棵樹，中間被切出一個洞，讓電纜線穿過樹。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We saw a house with cute little mushrooms and a tree that had a hole cut through the middle for the cable lines going through the tree."
+            }
+          ]
+        },
+        {
+          "en": "It was funny to see.",
+          "tc": "那畫面很好笑。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was funny to see."
+            }
+          ]
+        },
+        {
+          "en": "Instead of chopping down the whole tree, they just cut around it so the cable could go through it.",
+          "tc": "與其砍掉整棵樹，他們只是沿著電纜線要通過的地方切開，讓電纜可以穿過去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Instead of chopping down the whole tree, they just cut around it so the cable could "
+            },
+            {
+              "type": "phrase",
+              "text": "go through",
+              "targetId": "phrase-go-through",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-15-003-001"
+            },
+            {
+              "type": "text",
+              "text": " it."
+            }
+          ]
+        },
+        {
+          "en": "And one day before heading to my grandma and grandpa's farm, we decided to go to the gym with my cousin.",
+          "tc": "有一天，在前往我外公外婆農場之前，我們決定和我表親去健身房。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And one day before "
+            },
+            {
+              "type": "phrase",
+              "text": "heading to",
+              "targetId": "phrase-head-to",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-060-01"
+            },
+            {
+              "type": "text",
+              "text": " my grandma and grandpa's farm, we decided to go to the gym with my cousin."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "It was so nice because we got a hydromassage afterward, a very relaxing massage.",
+          "tc": "那很好，因為之後我們做了水療按摩，是非常放鬆的按摩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was so nice because we got a "
+            },
+            {
+              "type": "word",
+              "text": "hydromassage",
+              "targetId": "word-hydromassage",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-061-01"
+            },
+            {
+              "type": "text",
+              "text": " afterward, a very relaxing massage."
+            }
+          ]
+        },
+        {
+          "en": "The next day, my aunt drove us to my grandma and grandpa's farm.",
+          "tc": "隔天，我阿姨開車載我們去我外公外婆的農場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next day, my aunt drove us to my grandma and grandpa's farm."
+            }
+          ]
+        },
+        {
+          "en": "I got to see all of the huge landscapes of fields and fields of grass, fields and fields of corn, and fields and fields of just lots of vegetation.",
+          "tc": "我看到一大片又一大片的景色，有一片片草地、一片片玉米田，還有一大片又一大片的各種植物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got to see all of the huge "
+            },
+            {
+              "type": "word",
+              "text": "landscapes",
+              "targetId": "word-landscape",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-063-01"
+            },
+            {
+              "type": "text",
+              "text": " of fields and fields of grass, fields and fields of corn, and fields and fields of just lots of "
+            },
+            {
+              "type": "word",
+              "text": "vegetation",
+              "targetId": "word-vegetation",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-063-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "The huge windmills and arriving at my grandma and grandpa's farmhouse brought back so many warm and nostalgic feelings.",
+          "tc": "巨大的風車，以及到達我外公外婆的農舍，都讓我想起好多溫暖又懷舊的感覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The huge "
+            },
+            {
+              "type": "word",
+              "text": "windmills",
+              "targetId": "word-windmill",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-064-01"
+            },
+            {
+              "type": "text",
+              "text": " and arriving at my grandma and grandpa's "
+            },
+            {
+              "type": "word",
+              "text": "farmhouse",
+              "targetId": "word-farmhouse",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-064-02"
+            },
+            {
+              "type": "text",
+              "text": " brought back so many warm and nostalgic feelings."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "I remembered the piano that I used to play when I was little, even though I didn't know how to play the piano.",
+          "tc": "我想起小時候常彈的鋼琴，即使我那時不會彈鋼琴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I remembered the piano that I "
+            },
+            {
+              "type": "phrase",
+              "text": "used to play",
+              "targetId": "phrase-used-to",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-065-01"
+            },
+            {
+              "type": "text",
+              "text": " when I was little, even though I didn't know how to play the piano."
+            }
+          ]
+        },
+        {
+          "en": "I remembered the screen door that kept bugs out of the house.",
+          "tc": "我想起防止蟲子進屋的紗門。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I remembered the "
+            },
+            {
+              "type": "word",
+              "text": "screen door",
+              "targetId": "word-screen-door",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-066-01"
+            },
+            {
+              "type": "text",
+              "text": " that kept bugs out of the house."
+            }
+          ]
+        },
+        {
+          "en": "I remembered the living room, the photos, the farm, and so many wonderful memories.",
+          "tc": "我想起客廳、照片、農場，還有好多美好的回憶。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I remembered the living room, the photos, the farm, and so many wonderful memories."
+            }
+          ]
+        },
+        {
+          "en": "I feel so lucky to have had such a beautiful childhood.",
+          "tc": "我覺得自己很幸運，有過這麼美好的童年。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel so lucky to have had such a beautiful childhood."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "Can you think of one heartwarming story from your childhood?",
+          "tc": "你能想到一個童年裡暖心的故事嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Can you think of one "
+            },
+            {
+              "type": "word",
+              "text": "heartwarming",
+              "targetId": "word-heartwarming",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-069-01"
+            },
+            {
+              "type": "text",
+              "text": " story from your childhood?"
+            }
+          ]
+        },
+        {
+          "en": "One person, thing, place, or story that you feel grateful for having had as a kid?",
+          "tc": "一個你覺得小時候擁有過、因此很感恩的人、事、地方或故事？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "One person, thing, place, or story that you feel "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-070-01"
+            },
+            {
+              "type": "text",
+              "text": " for having had as a kid?"
+            }
+          ]
+        },
+        {
+          "en": "I went outside with my grandpa to see his vegetables like his rhubarb, his tomatoes, his potatoes, and more.",
+          "tc": "我和外公到外面看他的蔬菜，像是大黃、番茄、馬鈴薯等等。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I went outside with my grandpa to see his vegetables like his "
+            },
+            {
+              "type": "word",
+              "text": "rhubarb",
+              "targetId": "word-rhubarb",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-071-01"
+            },
+            {
+              "type": "text",
+              "text": ", his tomatoes, his potatoes, and more."
+            }
+          ]
+        },
+        {
+          "en": "He's very proud of his garden.",
+          "tc": "他非常為他的花園感到驕傲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He's very proud of his garden."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "And I felt very proud of his garden, too.",
+          "tc": "而我也為他的花園感到很驕傲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I felt very proud of his garden, too."
+            }
+          ]
+        },
+        {
+          "en": "We hung out in the living room for a little while and played with our cousins and grandparents.",
+          "tc": "我們在客廳待了一會兒，和表親、祖父母一起玩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We hung out in the living room for a little while and played with our cousins and grandparents."
+            }
+          ]
+        },
+        {
+          "en": "And it was a wonderful day full of remembering happy days from the past.",
+          "tc": "那是充滿回想過去快樂日子的一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And it was a wonderful day full of remembering happy days from the past."
+            }
+          ]
+        },
+        {
+          "en": "The next day, we had to go get my driver's license.",
+          "tc": "隔天，我們得去辦我的駕照。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next day, we had to go get my driver's "
+            },
+            {
+              "type": "word",
+              "text": "license",
+              "targetId": "word-license",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-076-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "So, we drove my grandma and grandpa's car all the way to the DMV, the place where you renew or get your driver's license.",
+          "tc": "所以，我們開著外公外婆的車一路到 DMV，也就是你更新或取得駕照的地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, we drove my grandma and grandpa's car "
+            },
+            {
+              "type": "phrase",
+              "text": "all the way to",
+              "targetId": "phrase-all-the-way-to",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-077-01"
+            },
+            {
+              "type": "text",
+              "text": " the DMV, the place where you "
+            },
+            {
+              "type": "word",
+              "text": "renew",
+              "targetId": "word-renew",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-077-02"
+            },
+            {
+              "type": "text",
+              "text": " or get your driver's license."
+            }
+          ]
+        },
+        {
+          "en": "It was really funny because the car was all torn apart everywhere for some weird reason.",
+          "tc": "那真的很好笑，因為那台車不知道為什麼到處都破破爛爛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was really funny because the car was all "
+            },
+            {
+              "type": "phrase",
+              "text": "torn apart",
+              "targetId": "phrase-torn-apart",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-078-01"
+            },
+            {
+              "type": "text",
+              "text": " everywhere for some weird reason."
+            }
+          ]
+        },
+        {
+          "en": "I don't even know how it could have gotten torn up on the ceiling.",
+          "tc": "我甚至不知道天花板怎麼會被弄破。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't even know how it could have gotten torn up on the ceiling."
+            }
+          ]
+        },
+        {
+          "en": "It's an old car, definitely, but it was a funny memory.",
+          "tc": "那確實是一台老車，但這是一個好笑的回憶。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's an old car, definitely, but it was a funny memory."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "We arrived back at the farmhouse, and my brother mowed the lawn.",
+          "tc": "我們回到農舍，我弟弟去割草。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We arrived back at the farmhouse, and my brother "
+            },
+            {
+              "type": "word",
+              "text": "mowed",
+              "targetId": "word-mow",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-081-01"
+            },
+            {
+              "type": "text",
+              "text": " the lawn."
+            }
+          ]
+        },
+        {
+          "en": "I relaxed under the trees.",
+          "tc": "我在樹下放鬆。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I relaxed under the trees."
+            }
+          ]
+        },
+        {
+          "en": "I like looking at the view from underneath the trees.",
+          "tc": "我喜歡從樹下看出去的景色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like looking at the view from underneath the trees."
+            }
+          ]
+        },
+        {
+          "en": "And I chatted with my grandma and grandpa.",
+          "tc": "我也和外公外婆聊天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I chatted with my grandma and grandpa."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "It's always so nice to see the hogs, the chickens, and the cows at my grandma and grandpa's farm.",
+          "tc": "在我外公外婆的農場看到豬、雞和牛，總是很棒。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's always so nice to see the "
+            },
+            {
+              "type": "word",
+              "text": "hogs",
+              "targetId": "word-hog",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-085-01"
+            },
+            {
+              "type": "text",
+              "text": ", the chickens, and the cows at my grandma and grandpa's farm."
+            }
+          ]
+        },
+        {
+          "en": "The next day, we had to head back to Nebraska and take our flight to New York City.",
+          "tc": "隔天，我們得回內布拉斯加，搭飛機去紐約市。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next day, we had to "
+            },
+            {
+              "type": "phrase",
+              "text": "head back to",
+              "targetId": "phrase-head-back-to",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-086-01"
+            },
+            {
+              "type": "text",
+              "text": " Nebraska and take our flight to New York City."
+            }
+          ]
+        },
+        {
+          "en": "The view from our first flight was so beautiful.",
+          "tc": "第一段飛行的景色非常美。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The view from our first flight was so beautiful."
+            }
+          ]
+        },
+        {
+          "en": "There was a huge river winding around the city.",
+          "tc": "有一條巨大的河蜿蜒穿過城市。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There was a huge river "
+            },
+            {
+              "type": "word",
+              "text": "winding",
+              "targetId": "word-winding",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-088-01"
+            },
+            {
+              "type": "text",
+              "text": " around the city."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "But the view of New York City when we were flying in was even more impressive to see.",
+          "tc": "但我們飛進紐約市時看到的景色更令人印象深刻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But the view of New York City when we were flying in was even more "
+            },
+            {
+              "type": "word",
+              "text": "impressive",
+              "targetId": "word-impressive",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-089-01"
+            },
+            {
+              "type": "text",
+              "text": " to see."
+            }
+          ]
+        },
+        {
+          "en": "There were buildings and lights everywhere.",
+          "tc": "到處都是建築和燈光。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There were buildings and lights everywhere."
+            }
+          ]
+        },
+        {
+          "en": "Even the taxi ride to our hostel was so impressive to see: all of the lights, the buildings, the cars, the people.",
+          "tc": "就連坐計程車去青年旅館的路上也讓人印象深刻：所有的燈、建築、車子和人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Even the taxi ride to our "
+            },
+            {
+              "type": "word",
+              "text": "hostel",
+              "targetId": "word-hostel",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-091-01"
+            },
+            {
+              "type": "text",
+              "text": " was so impressive to see: all of the lights, the buildings, the cars, the people."
+            }
+          ]
+        },
+        {
+          "en": "And our taxi driver drove us through Times Square, which was really nice of him to do.",
+          "tc": "我們的計程車司機還載我們穿過時代廣場，他這麼做真的很貼心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And our taxi driver drove us through Times Square, which was really nice of him to do."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "And that was crazy to see.",
+          "tc": "那真的看起來很瘋狂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And that was "
+            },
+            {
+              "type": "usage",
+              "text": "crazy",
+              "targetId": "usage-crazy-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-093-01"
+            },
+            {
+              "type": "text",
+              "text": " to see."
+            }
+          ]
+        },
+        {
+          "en": "It felt like I was in a movie because I feel like every movie is filmed or based in New York.",
+          "tc": "感覺就像我在電影裡，因為我覺得每部電影不是在紐約拍，就是以紐約為背景。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It felt like I was in a movie because I feel like every movie is filmed or based in New York."
+            }
+          ]
+        },
+        {
+          "en": "We arrived pretty late in New York City.",
+          "tc": "我們到紐約市時已經很晚了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We arrived "
+            },
+            {
+              "type": "usage",
+              "text": "pretty",
+              "targetId": "usage-pretty-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-095-01"
+            },
+            {
+              "type": "text",
+              "text": " late in New York City."
+            }
+          ]
+        },
+        {
+          "en": "So, the first thing we did was head to bed.",
+          "tc": "所以，我們做的第一件事就是上床睡覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, the first thing we did was "
+            },
+            {
+              "type": "phrase",
+              "text": "head to",
+              "targetId": "phrase-head-to",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-24-004-001"
+            },
+            {
+              "type": "text",
+              "text": " bed."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "I passed out.",
+          "tc": "我直接睡死了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "passed out",
+              "targetId": "phrase-pass-out",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-097-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "We were all so sleepy.",
+          "tc": "我們都超級睏。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We were all so sleepy."
+            }
+          ]
+        },
+        {
+          "en": "But the next day, we all woke up early to walk around the city.",
+          "tc": "不過隔天，我們都很早起來在城市裡走走。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But the next day, we all woke up early to "
+            },
+            {
+              "type": "phrase",
+              "text": "walk around",
+              "targetId": "phrase-walk-around",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-099-01"
+            },
+            {
+              "type": "text",
+              "text": " the city."
+            }
+          ]
+        },
+        {
+          "en": "We saw gift shops, construction sites, Rockefeller Center, buildings and more buildings.",
+          "tc": "我們看到了禮品店、工地、洛克斐勒中心，一棟又一棟建築。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We saw gift shops, "
+            },
+            {
+              "type": "word",
+              "text": "construction sites",
+              "targetId": "word-construction-site",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-100-01"
+            },
+            {
+              "type": "text",
+              "text": ", Rockefeller Center, buildings and more buildings."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "It was sprinkling on our first day.",
+          "tc": "第一天有點毛毛雨。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was "
+            },
+            {
+              "type": "word",
+              "text": "sprinkling",
+              "targetId": "word-sprinkle",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-101-01"
+            },
+            {
+              "type": "text",
+              "text": " on our first day."
+            }
+          ]
+        },
+        {
+          "en": "Just a little bit of rain.",
+          "tc": "只是一點點雨。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Just a little bit of rain."
+            }
+          ]
+        },
+        {
+          "en": "And for me, that was perfect.",
+          "tc": "對我來說，那樣很完美。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And for me, that was perfect."
+            }
+          ]
+        },
+        {
+          "en": "That way, we could walk all around the city without feeling hot.",
+          "tc": "那樣我們就可以在城市裡到處走，而不會覺得熱。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That way, we could walk all around the city without feeling hot."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "We ordered at a food stand on the street.",
+          "tc": "我們在街上的餐車點東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We ordered at a food stand on the street."
+            }
+          ]
+        },
+        {
+          "en": "I ordered a chicken kebab because I love kebabs, and it was pretty decent, but it was $20.",
+          "tc": "我點了一份雞肉烤肉串，因為我喜歡烤肉串，而且還算不錯，但它要二十美元。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I ordered a chicken "
+            },
+            {
+              "type": "word",
+              "text": "kebab",
+              "targetId": "word-kebab",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-106-01"
+            },
+            {
+              "type": "text",
+              "text": " because I love kebabs, and it was "
+            },
+            {
+              "type": "usage",
+              "text": "pretty",
+              "targetId": "usage-pretty-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-106-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "decent",
+              "targetId": "word-decent",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-106-03"
+            },
+            {
+              "type": "text",
+              "text": ", but it was $20."
+            }
+          ]
+        },
+        {
+          "en": "Now, I don't know if I was scammed because I looked like a tourist, but to me, that was crazy expensive.",
+          "tc": "現在，我不知道我是不是因為看起來像觀光客而被坑了，但對我來說那貴得很誇張。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, I don't know if I was "
+            },
+            {
+              "type": "word",
+              "text": "scammed",
+              "targetId": "word-scam",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-107-01"
+            },
+            {
+              "type": "text",
+              "text": " because I looked like a "
+            },
+            {
+              "type": "word",
+              "text": "tourist",
+              "targetId": "word-tourist",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-107-02"
+            },
+            {
+              "type": "text",
+              "text": ", but to me, that was "
+            },
+            {
+              "type": "usage",
+              "text": "crazy",
+              "targetId": "usage-crazy-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-107-03"
+            },
+            {
+              "type": "text",
+              "text": " expensive."
+            }
+          ]
+        },
+        {
+          "en": "I still sat down at Central Park and enjoyed my kebab.",
+          "tc": "我還是坐在中央公園吃我的烤肉串。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I still "
+            },
+            {
+              "type": "phrase",
+              "text": "sat down",
+              "targetId": "phrase-sit-down",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-108-01"
+            },
+            {
+              "type": "text",
+              "text": " at Central Park and enjoyed my kebab."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
+      "sentences": [
+        {
+          "en": "My $20 kebab.",
+          "tc": "我的二十美元烤肉串。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My $20 "
+            },
+            {
+              "type": "word",
+              "text": "kebab",
+              "targetId": "word-kebab",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-28-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "We saw some street performers, but they didn't really do anything that impressive.",
+          "tc": "我們看了一些街頭表演者，但他們其實沒有做什麼很厲害的事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We saw some street "
+            },
+            {
+              "type": "word",
+              "text": "performers",
+              "targetId": "word-performer",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-110-01"
+            },
+            {
+              "type": "text",
+              "text": ", but they didn't really do anything that impressive."
+            }
+          ]
+        },
+        {
+          "en": "It was pretty average.",
+          "tc": "表演相當普通。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was "
+            },
+            {
+              "type": "usage",
+              "text": "pretty",
+              "targetId": "usage-pretty-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-111-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "average",
+              "targetId": "word-average",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-111-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I think they are just good at scamming people, getting you to pay attention to the show so that behind you, they can take your wallets and your phones.",
+          "tc": "我覺得他們只是很會騙人，讓你注意表演，這樣在你背後，他們就可以拿走你的錢包和手機。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think they are just good at scamming people, getting you to "
+            },
+            {
+              "type": "phrase",
+              "text": "pay attention to",
+              "targetId": "phrase-pay-attention-to",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-112-01"
+            },
+            {
+              "type": "text",
+              "text": " the show so that behind you, they can take your wallets and your phones."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-29",
+      "no": "29",
+      "titleZh": "第 29 段",
+      "titleEn": "Part 29",
+      "sentences": [
+        {
+          "en": "So be careful.",
+          "tc": "所以要小心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So be careful."
+            }
+          ]
+        },
+        {
+          "en": "Be aware of your surroundings in big cities, and be careful with your things.",
+          "tc": "在大城市裡要注意周遭環境，也要小心自己的東西。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Be aware of",
+              "targetId": "phrase-be-aware-of",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-114-01"
+            },
+            {
+              "type": "text",
+              "text": " your surroundings in big cities, and be careful with your things."
+            }
+          ]
+        },
+        {
+          "en": "Is there a big city in your home country where you need to be aware of your surroundings and careful with your things?",
+          "tc": "你的國家有沒有哪個大城市，是你需要注意周遭環境、也要小心自己東西的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is there a big city in your home country where you need to "
+            },
+            {
+              "type": "phrase",
+              "text": "be aware of",
+              "targetId": "phrase-be-aware-of",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-115-01"
+            },
+            {
+              "type": "text",
+              "text": " your "
+            },
+            {
+              "type": "word",
+              "text": "surroundings",
+              "targetId": "word-surroundings",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-115-02"
+            },
+            {
+              "type": "text",
+              "text": " and careful with your things?"
+            }
+          ]
+        },
+        {
+          "en": "Later that evening, we ate some chicken strips and French fries at Cane's.",
+          "tc": "那天晚上晚一點，我們在 Cane's 吃了雞柳和薯條。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Later that evening, we ate some chicken "
+            },
+            {
+              "type": "word",
+              "text": "strips",
+              "targetId": "word-strip",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-116-01"
+            },
+            {
+              "type": "text",
+              "text": " and French fries at Cane's."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-30",
+      "no": "30",
+      "titleZh": "第 30 段",
+      "titleEn": "Part 30",
+      "sentences": [
+        {
+          "en": "It was the first time that I had ever been to Cane's.",
+          "tc": "那是我第一次去 Cane's。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was the first time that I had ever been to Cane's."
+            }
+          ]
+        },
+        {
+          "en": "It was pretty good.",
+          "tc": "還滿好吃的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was "
+            },
+            {
+              "type": "usage",
+              "text": "pretty",
+              "targetId": "usage-pretty-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-118-01"
+            },
+            {
+              "type": "text",
+              "text": " good."
+            }
+          ]
+        },
+        {
+          "en": "Then for dessert, we had to get a Crumbl cookie.",
+          "tc": "然後甜點，我們一定要買一塊 Crumbl cookie。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then for "
+            },
+            {
+              "type": "word",
+              "text": "dessert",
+              "targetId": "word-dessert",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-119-01"
+            },
+            {
+              "type": "text",
+              "text": ", we had to get a Crumbl cookie."
+            }
+          ]
+        },
+        {
+          "en": "I've been obsessed with trying Crumbl cookies since the first time I saw a video of somebody eating one.",
+          "tc": "自從我第一次看到有人吃 Crumbl cookie 的影片之後，我就一直很著迷，想試試看。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've been "
+            },
+            {
+              "type": "word",
+              "text": "obsessed",
+              "targetId": "word-obsessed",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-120-01"
+            },
+            {
+              "type": "text",
+              "text": " with trying Crumbl cookies since the first time I saw a video of somebody eating one."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-31",
+      "no": "31",
+      "titleZh": "第 31 段",
+      "titleEn": "Part 31",
+      "sentences": [
+        {
+          "en": "I've been dreaming of this moment for so long because in Mexico, there's no Crumbl cookie.",
+          "tc": "我一直夢想著這一刻很久了，因為墨西哥沒有 Crumbl cookie。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've been "
+            },
+            {
+              "type": "usage",
+              "text": "dreaming",
+              "targetId": "usage-dream-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-121-01"
+            },
+            {
+              "type": "text",
+              "text": " of this moment for so long because in Mexico, there's no Crumbl cookie."
+            }
+          ]
+        },
+        {
+          "en": "We tried a snickerdoodle cookie, and it was everything I expected and more.",
+          "tc": "我們試了一塊肉桂糖餅乾，它完全符合我的期待，甚至更好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We tried a "
+            },
+            {
+              "type": "word",
+              "text": "snickerdoodle",
+              "targetId": "word-snickerdoodle",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-122-01"
+            },
+            {
+              "type": "text",
+              "text": " cookie, and it was everything I expected and more."
+            }
+          ]
+        },
+        {
+          "en": "I definitely love cookies, specifically doughy cookies.",
+          "tc": "我真的很愛餅乾，特別是那種口感偏麵糰感的餅乾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I definitely love cookies, specifically "
+            },
+            {
+              "type": "word",
+              "text": "doughy",
+              "targetId": "word-doughy",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-123-01"
+            },
+            {
+              "type": "text",
+              "text": " cookies."
+            }
+          ]
+        },
+        {
+          "en": "So maybe I'm being biased because of that, but in my opinion, they're the best.",
+          "tc": "所以也許我是因為這樣有點偏心，但在我看來，它們是最棒的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So maybe I'm being "
+            },
+            {
+              "type": "word",
+              "text": "biased",
+              "targetId": "word-biased",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-124-01"
+            },
+            {
+              "type": "text",
+              "text": " because of that, but in my opinion, they're the best."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-32",
+      "no": "32",
+      "titleZh": "第 32 段",
+      "titleEn": "Part 32",
+      "sentences": [
+        {
+          "en": "Have you ever tried a Crumbl cookie?",
+          "tc": "你吃過 Crumbl cookie 嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Have you ever tried a Crumbl cookie?"
+            }
+          ]
+        },
+        {
+          "en": "If you have not tried one, would you like to try one?",
+          "tc": "如果你還沒吃過，你會想試試看嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you have not tried one, would you like to try one?"
+            }
+          ]
+        },
+        {
+          "en": "The next day, we woke up, got some smoothies and some ginger shots, and we took the subway to see the Statue of Liberty.",
+          "tc": "隔天，我們起床，買了一些冰沙和一些薑汁小杯飲，然後搭地鐵去看自由女神像。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next day, we woke up, got some "
+            },
+            {
+              "type": "word",
+              "text": "smoothies",
+              "targetId": "word-smoothie",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-127-01"
+            },
+            {
+              "type": "text",
+              "text": " and some "
+            },
+            {
+              "type": "word",
+              "text": "ginger shots",
+              "targetId": "word-ginger-shot",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-127-02"
+            },
+            {
+              "type": "text",
+              "text": ", and we took the "
+            },
+            {
+              "type": "word",
+              "text": "subway",
+              "targetId": "word-subway",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-127-03"
+            },
+            {
+              "type": "text",
+              "text": " to see the Statue of Liberty."
+            }
+          ]
+        },
+        {
+          "en": "And like I said before, it felt like I was in a movie.",
+          "tc": "就像我之前說的，感覺就像我在電影裡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And like I said before, it felt like I was in a movie."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-33",
+      "no": "33",
+      "titleZh": "第 33 段",
+      "titleEn": "Part 33",
+      "sentences": [
+        {
+          "en": "Eating a salted pretzel in New York was a dream.",
+          "tc": "在紐約吃鹹味蝴蝶餅，真的是夢想成真。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Eating a salted "
+            },
+            {
+              "type": "word",
+              "text": "pretzel",
+              "targetId": "word-pretzel",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-129-01"
+            },
+            {
+              "type": "text",
+              "text": " in New York was a "
+            },
+            {
+              "type": "usage",
+              "text": "dream",
+              "targetId": "usage-dream-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-129-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "And then for dinner, we had the best pizza ever at a place called Joe's Pizza.",
+          "tc": "然後晚餐，我們在一間叫 Joe's Pizza 的店吃到有史以來最好吃的披薩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And then for dinner, we had the best pizza ever at a place called Joe's Pizza."
+            }
+          ]
+        },
+        {
+          "en": "Later that evening, we walked to Times Square, and we were able to see everything completely by ourselves.",
+          "tc": "那天晚上晚一點，我們走到時代廣場，而且我們可以完全自己看所有東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Later that evening, we walked to Times Square, and we were able to see everything completely "
+            },
+            {
+              "type": "phrase",
+              "text": "by ourselves",
+              "targetId": "phrase-by-ourselves",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-131-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "The next morning, we got breakfast, and I ate avocado toast, and we went to see the Harry Potter shop.",
+          "tc": "隔天早上，我們吃了早餐，我吃了酪梨吐司，然後我們去看哈利波特商店。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next morning, we got breakfast, and I ate "
+            },
+            {
+              "type": "word",
+              "text": "avocado toast",
+              "targetId": "word-avocado-toast",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-132-01"
+            },
+            {
+              "type": "text",
+              "text": ", and we went to see the Harry Potter shop."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-34",
+      "no": "34",
+      "titleZh": "第 34 段",
+      "titleEn": "Part 34",
+      "sentences": [
+        {
+          "en": "Now, I'm not the biggest fan of Harry Potter, but my brother and my mom are fans.",
+          "tc": "現在，我不是哈利波特的超級粉絲，但我弟弟和我媽媽是。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, I'm not the biggest fan of Harry Potter, but my brother and my mom are fans."
+            }
+          ]
+        },
+        {
+          "en": "So, of course, I had to go and send them some pictures and buy them some souvenirs.",
+          "tc": "所以，當然，我得去拍些照片傳給他們，也買些紀念品給他們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, of course, I had to go and send them some pictures and buy them some "
+            },
+            {
+              "type": "word",
+              "text": "souvenirs",
+              "targetId": "word-souvenir",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-134-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I got my brother a Harry Potter wand, and I got my mom a Gryffindor mug.",
+          "tc": "我買了一根哈利波特魔杖給我弟弟，也買了一個葛來分多馬克杯給我媽媽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got my brother a Harry Potter wand, and I got my mom a Gryffindor mug."
+            }
+          ]
+        },
+        {
+          "en": "We walked to see the Empire State Building, and we got some Chinese food to eat and chill at a really pretty spot.",
+          "tc": "我們走去看帝國大廈，也買了一些中餐，在一個很漂亮的地方吃東西、放鬆。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We walked to see the Empire State Building, and we got some Chinese food to eat and "
+            },
+            {
+              "type": "usage",
+              "text": "chill",
+              "targetId": "usage-chill-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-136-01"
+            },
+            {
+              "type": "text",
+              "text": " at a really pretty spot."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-35",
+      "no": "35",
+      "titleZh": "第 35 段",
+      "titleEn": "Part 35",
+      "sentences": [
+        {
+          "en": "And that was our last day in New York City.",
+          "tc": "那就是我們在紐約市的最後一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And that was our last day in New York City."
+            }
+          ]
+        },
+        {
+          "en": "The next morning, we took the train to JFK Airport.",
+          "tc": "隔天早上，我們搭火車去甘迺迪機場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next morning, we took the train to JFK Airport."
+            }
+          ]
+        },
+        {
+          "en": "We ate our leftover Chipotle while waiting to board our plane.",
+          "tc": "我們一邊等著登機，一邊吃剩下的 Chipotle。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We ate our "
+            },
+            {
+              "type": "word",
+              "text": "leftover",
+              "targetId": "word-leftover",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-139-01"
+            },
+            {
+              "type": "text",
+              "text": " Chipotle while waiting to "
+            },
+            {
+              "type": "usage",
+              "text": "board",
+              "targetId": "usage-board-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-139-02"
+            },
+            {
+              "type": "text",
+              "text": " our plane."
+            }
+          ]
+        },
+        {
+          "en": "I always prefer to be early for my flights.",
+          "tc": "我總是比較喜歡提早到航班。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I always prefer to be early for my flights."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-36",
+      "no": "36",
+      "titleZh": "第 36 段",
+      "titleEn": "Part 36",
+      "sentences": [
+        {
+          "en": "So, I'm always just chilling, eating a snack, and waiting to board my flight.",
+          "tc": "所以，我總是放鬆地待著，吃點點心，等著登機。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I'm always just "
+            },
+            {
+              "type": "usage",
+              "text": "chilling",
+              "targetId": "usage-chill-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-141-01"
+            },
+            {
+              "type": "text",
+              "text": ", eating a snack, and waiting to "
+            },
+            {
+              "type": "usage",
+              "text": "board",
+              "targetId": "usage-board-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-141-02"
+            },
+            {
+              "type": "text",
+              "text": " my flight."
+            }
+          ]
+        },
+        {
+          "en": "We put on our hats, and we boarded the plane.",
+          "tc": "我們戴上帽子，登上飛機。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We put on our hats, and we "
+            },
+            {
+              "type": "usage",
+              "text": "boarded",
+              "targetId": "usage-board-item",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-142-01"
+            },
+            {
+              "type": "text",
+              "text": " the plane."
+            }
+          ]
+        },
+        {
+          "en": "The takeoff was just as beautiful as the landing.",
+          "tc": "起飛和降落一樣美。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "takeoff",
+              "targetId": "word-takeoff",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-143-01"
+            },
+            {
+              "type": "text",
+              "text": " was just as beautiful as the landing."
+            }
+          ]
+        },
+        {
+          "en": "Taking off from New York City in the daylight was so beautiful.",
+          "tc": "白天從紐約市起飛真的很美。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Taking off",
+              "targetId": "phrase-take-off",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-144-01"
+            },
+            {
+              "type": "text",
+              "text": " from New York City in the "
+            },
+            {
+              "type": "word",
+              "text": "daylight",
+              "targetId": "word-daylight",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-144-02"
+            },
+            {
+              "type": "text",
+              "text": " was so beautiful."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-37",
+      "no": "37",
+      "titleZh": "第 37 段",
+      "titleEn": "Part 37",
+      "sentences": [
+        {
+          "en": "It's probably one of my favorite cities to see from the sky.",
+          "tc": "它大概是我最喜歡從天空俯瞰的城市之一。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's probably one of my favorite cities to see from the sky."
+            }
+          ]
+        },
+        {
+          "en": "Then we arrived back in Mexico City.",
+          "tc": "然後我們回到墨西哥城。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then we arrived back in Mexico City."
+            }
+          ]
+        },
+        {
+          "en": "It was a beautiful sight to land with beautiful lights and buildings.",
+          "tc": "降落時看到美麗的燈光和建築，是很美的景象。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a beautiful sight to land with beautiful lights and buildings."
+            }
+          ]
+        },
+        {
+          "en": "And my family, of course.",
+          "tc": "當然，還有我的家人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And my family, of course."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-38",
+      "no": "38",
+      "titleZh": "第 38 段",
+      "titleEn": "Part 38",
+      "sentences": [
+        {
+          "en": "I got to see my mom and dad's new dogs, Pablo and Wa.",
+          "tc": "我見到了我爸媽的新狗，Pablo 和 Wa。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got to see my mom and dad's new dogs, Pablo and Wa."
+            }
+          ]
+        },
+        {
+          "en": "They're so cute.",
+          "tc": "牠們超可愛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They're so cute."
+            }
+          ]
+        },
+        {
+          "en": "And it was really nice to be home.",
+          "tc": "回到家真的很好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And it was really nice to be home."
+            }
+          ]
+        },
+        {
+          "en": "Stay tuned for next week when I show you my vlog-style podcast for my trip in Puerto Escondido so far.",
+          "tc": "請繼續關注下週，我會分享目前在埃斯孔迪多港旅行的 vlog 風格 podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Stay tuned for next week when I show you my "
+            },
+            {
+              "type": "phrase",
+              "text": "vlog-style",
+              "targetId": "phrase-vlog-style",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-152-01"
+            },
+            {
+              "type": "text",
+              "text": " podcast for my trip in Puerto Escondido so far."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-39",
+      "no": "39",
+      "titleZh": "第 39 段",
+      "titleEn": "Part 39",
+      "sentences": [
+        {
+          "en": "If you like this type of slow English podcast, then let me know in the comments.",
+          "tc": "如果你喜歡這種慢速英語 podcast，請在留言裡告訴我。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you like this type of slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-39-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", then let me know in the comments."
+            }
+          ]
+        },
+        {
+          "en": "Like and subscribe.",
+          "tc": "按讚並訂閱。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like and subscribe."
+            }
+          ]
+        },
+        {
+          "en": "Have a wonderful day, and don't forget to practice English every day.",
+          "tc": "祝你有美好的一天，別忘了每天練習英文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Have a wonderful day, and don't forget to practice English every day."
+            }
+          ]
+        },
+        {
+          "en": "You can get early access to all my videos with my YouTube membership.",
+          "tc": "你可以透過我的 YouTube 會員取得我所有影片的搶先觀看權限。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can get "
+            },
+            {
+              "type": "phrase",
+              "text": "early access",
+              "targetId": "phrase-early-access",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-156-01"
+            },
+            {
+              "type": "text",
+              "text": " to all my videos with my YouTube "
+            },
+            {
+              "type": "word",
+              "text": "membership",
+              "targetId": "word-membership",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-156-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-40",
+      "no": "40",
+      "titleZh": "第 40 段",
+      "titleEn": "Part 40",
+      "sentences": [
+        {
+          "en": "So join today for more exclusive content, personal stories, challenges, and homework for you to practice at home.",
+          "tc": "所以今天就加入，獲得更多專屬內容、個人故事、挑戰，以及讓你在家練習的作業。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So join today for more "
+            },
+            {
+              "type": "word",
+              "text": "exclusive",
+              "targetId": "word-exclusive",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-157-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "content",
+              "targetId": "word-content",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-157-02"
+            },
+            {
+              "type": "text",
+              "text": ", personal stories, "
+            },
+            {
+              "type": "word",
+              "text": "challenges",
+              "targetId": "word-challenge",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-157-03"
+            },
+            {
+              "type": "text",
+              "text": ", and homework for you to practice at home."
+            }
+          ]
+        },
+        {
+          "en": "Have a wonderful day.",
+          "tc": "祝你有美好的一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Have a wonderful day."
+            }
+          ]
+        },
+        {
+          "en": "I will see you next time.",
+          "tc": "我們下次見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I will see you next time."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "再見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "vocabGroups": [
+    {
+      "title": "B1 重點單字",
+      "items": [
+        {
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "/ˈpɑdˌkæst/",
+          "partOfSpeech": "noun",
+          "meaning": "播客、Podcast 節目",
+          "highlight": true
+        },
+        {
+          "id": "word-airline",
+          "lemma": "airline",
+          "english": "airline",
+          "kk": "/ˈɛrˌlaɪn/",
+          "partOfSpeech": "noun",
+          "meaning": "航空公司",
+          "highlight": true
+        },
+        {
+          "id": "word-security",
+          "lemma": "security",
+          "english": "security",
+          "kk": "/sɪˈkjʊrəti/",
+          "partOfSpeech": "noun",
+          "meaning": "安檢；保全",
+          "highlight": true
+        },
+        {
+          "id": "word-intense",
+          "lemma": "intense",
+          "english": "intense",
+          "kk": "/ɪnˈtɛns/",
+          "partOfSpeech": "adjective",
+          "meaning": "緊繃的、強烈的",
+          "highlight": true
+        },
+        {
+          "id": "word-unanimous",
+          "lemma": "unanimous",
+          "english": "unanimous",
+          "kk": "/juˈnænəməs/",
+          "partOfSpeech": "adjective",
+          "meaning": "一致同意的",
+          "highlight": true
+        },
+        {
+          "id": "word-deluxe",
+          "lemma": "deluxe",
+          "english": "deluxe",
+          "kk": "/dɪˈlʌks/",
+          "partOfSpeech": "adjective",
+          "meaning": "豪華的、高級的",
+          "highlight": true
+        },
+        {
+          "id": "word-tater-tot",
+          "lemma": "tater tot",
+          "english": "tater tots",
+          "kk": "/ˈteɪtɚ tɑts/",
+          "partOfSpeech": "noun",
+          "meaning": "薯餅球",
+          "highlight": true
+        },
+        {
+          "id": "word-layover",
+          "lemma": "layover",
+          "english": "layover",
+          "kk": "/ˈleˌovɚ/",
+          "partOfSpeech": "noun",
+          "meaning": "轉機停留",
+          "highlight": true
+        },
+        {
+          "id": "word-unnecessarily",
+          "lemma": "unnecessarily",
+          "english": "unnecessarily",
+          "kk": "/ˌʌnˌnɛsəˈsɛrəli/",
+          "partOfSpeech": "adverb",
+          "meaning": "不必要地",
+          "highlight": true
+        },
+        {
+          "id": "word-cone",
+          "lemma": "cone",
+          "english": "cones",
+          "kk": "/konz/",
+          "partOfSpeech": "noun",
+          "meaning": "甜筒；錐形物",
+          "highlight": true
+        },
+        {
+          "id": "word-graduation",
+          "lemma": "graduation",
+          "english": "graduation",
+          "kk": "/ˌgrædʒuˈeʃən/",
+          "partOfSpeech": "noun",
+          "meaning": "畢業典禮；畢業",
+          "highlight": true
+        },
+        {
+          "id": "word-celebration",
+          "lemma": "celebration",
+          "english": "celebration",
+          "kk": "/ˌsɛləˈbreʃən/",
+          "partOfSpeech": "noun",
+          "meaning": "慶祝活動",
+          "highlight": true
+        },
+        {
+          "id": "word-unlimited",
+          "lemma": "unlimited",
+          "english": "unlimited",
+          "kk": "/ʌnˈlɪmətɪd/",
+          "partOfSpeech": "adjective",
+          "meaning": "無限的、不限量的",
+          "highlight": true
+        },
+        {
+          "id": "word-nacho",
+          "lemma": "nacho",
+          "english": "nachos",
+          "kk": "/ˈnɑtʃoz/",
+          "partOfSpeech": "noun",
+          "meaning": "玉米片；墨西哥脆片",
+          "highlight": true
+        },
+        {
+          "id": "word-nostalgic",
+          "lemma": "nostalgic",
+          "english": "nostalgic",
+          "kk": "/nɑˈstældʒɪk/",
+          "partOfSpeech": "adjective",
+          "meaning": "懷舊的",
+          "highlight": true
+        },
+        {
+          "id": "word-hydromassage",
+          "lemma": "hydromassage",
+          "english": "hydromassage",
+          "kk": "/ˌhaɪdroʊməˈsɑʒ/",
+          "partOfSpeech": "noun",
+          "meaning": "水療按摩",
+          "highlight": true
+        },
+        {
+          "id": "word-landscape",
+          "lemma": "landscape",
+          "english": "landscapes",
+          "kk": "/ˈlændˌskeps/",
+          "partOfSpeech": "noun",
+          "meaning": "風景、地景",
+          "highlight": true
+        },
+        {
+          "id": "word-vegetation",
+          "lemma": "vegetation",
+          "english": "vegetation",
+          "kk": "/ˌvɛdʒəˈteʃən/",
+          "partOfSpeech": "noun",
+          "meaning": "植物、植被",
+          "highlight": true
+        },
+        {
+          "id": "word-windmill",
+          "lemma": "windmill",
+          "english": "windmills",
+          "kk": "/ˈwɪndˌmɪlz/",
+          "partOfSpeech": "noun",
+          "meaning": "風車",
+          "highlight": true
+        },
+        {
+          "id": "word-farmhouse",
+          "lemma": "farmhouse",
+          "english": "farmhouse",
+          "kk": "/ˈfɑrmˌhaʊs/",
+          "partOfSpeech": "noun",
+          "meaning": "農舍",
+          "highlight": true
+        },
+        {
+          "id": "word-screen-door",
+          "lemma": "screen door",
+          "english": "screen door",
+          "kk": "/ˈskrin ˌdɔr/",
+          "partOfSpeech": "noun",
+          "meaning": "紗門",
+          "highlight": true
+        },
+        {
+          "id": "word-heartwarming",
+          "lemma": "heartwarming",
+          "english": "heartwarming",
+          "kk": "/ˈhɑrtˌwɔrmɪŋ/",
+          "partOfSpeech": "adjective",
+          "meaning": "暖心的、感人的",
+          "highlight": true
+        },
+        {
+          "id": "word-grateful",
+          "lemma": "grateful",
+          "english": "grateful",
+          "kk": "/ˈgretfəl/",
+          "partOfSpeech": "adjective",
+          "meaning": "感激的、感恩的",
+          "highlight": true
+        },
+        {
+          "id": "word-rhubarb",
+          "lemma": "rhubarb",
+          "english": "rhubarb",
+          "kk": "/ˈruˌbɑrb/",
+          "partOfSpeech": "noun",
+          "meaning": "大黃，一種可食用植物",
+          "highlight": true
+        },
+        {
+          "id": "word-license",
+          "lemma": "license",
+          "english": "license",
+          "kk": "/ˈlaɪsəns/",
+          "partOfSpeech": "noun",
+          "meaning": "執照、許可證",
+          "highlight": true
+        },
+        {
+          "id": "word-renew",
+          "lemma": "renew",
+          "english": "renew",
+          "kk": "/rɪˈnu/",
+          "partOfSpeech": "verb",
+          "meaning": "更新、續辦",
+          "highlight": true
+        },
+        {
+          "id": "word-mow",
+          "lemma": "mow",
+          "english": "mowed",
+          "kk": "/mod/",
+          "partOfSpeech": "verb",
+          "meaning": "割草",
+          "highlight": true
+        },
+        {
+          "id": "word-hog",
+          "lemma": "hog",
+          "english": "hogs",
+          "kk": "/hɔgz/",
+          "partOfSpeech": "noun",
+          "meaning": "豬",
+          "highlight": true
+        },
+        {
+          "id": "word-winding",
+          "lemma": "winding",
+          "english": "winding",
+          "kk": "/ˈwaɪndɪŋ/",
+          "partOfSpeech": "adjective",
+          "meaning": "蜿蜒的、彎曲前進的",
+          "highlight": true
+        },
+        {
+          "id": "word-impressive",
+          "lemma": "impressive",
+          "english": "impressive",
+          "kk": "/ɪmˈprɛsɪv/",
+          "partOfSpeech": "adjective",
+          "meaning": "令人印象深刻的",
+          "highlight": true
+        },
+        {
+          "id": "word-hostel",
+          "lemma": "hostel",
+          "english": "hostel",
+          "kk": "/ˈhɑstəl/",
+          "partOfSpeech": "noun",
+          "meaning": "青年旅館",
+          "highlight": true
+        },
+        {
+          "id": "word-construction-site",
+          "lemma": "construction site",
+          "english": "construction sites",
+          "kk": "/kənˈstrʌkʃən saɪts/",
+          "partOfSpeech": "noun",
+          "meaning": "工地",
+          "highlight": true
+        },
+        {
+          "id": "word-sprinkle",
+          "lemma": "sprinkle",
+          "english": "sprinkling",
+          "kk": "/ˈsprɪŋkəlɪŋ/",
+          "partOfSpeech": "verb",
+          "meaning": "下毛毛雨",
+          "highlight": true
+        },
+        {
+          "id": "word-kebab",
+          "lemma": "kebab",
+          "english": "kebab, kebabs",
+          "kk": "/kəˈbɑb/",
+          "partOfSpeech": "noun",
+          "meaning": "烤肉串",
+          "highlight": true
+        },
+        {
+          "id": "word-decent",
+          "lemma": "decent",
+          "english": "decent",
+          "kk": "/ˈdisənt/",
+          "partOfSpeech": "adjective",
+          "meaning": "還不錯的、尚可的",
+          "highlight": true
+        },
+        {
+          "id": "word-scam",
+          "lemma": "scam",
+          "english": "scammed, scamming",
+          "kk": "/skæm/",
+          "partOfSpeech": "verb",
+          "meaning": "詐騙、坑騙",
+          "highlight": true
+        },
+        {
+          "id": "word-tourist",
+          "lemma": "tourist",
+          "english": "tourist",
+          "kk": "/ˈtʊrɪst/",
+          "partOfSpeech": "noun",
+          "meaning": "觀光客",
+          "highlight": true
+        },
+        {
+          "id": "word-performer",
+          "lemma": "performer",
+          "english": "performers",
+          "kk": "/pɚˈfɔrmɚz/",
+          "partOfSpeech": "noun",
+          "meaning": "表演者",
+          "highlight": true
+        },
+        {
+          "id": "word-average",
+          "lemma": "average",
+          "english": "average",
+          "kk": "/ˈævərɪdʒ/",
+          "partOfSpeech": "adjective",
+          "meaning": "普通的、一般的",
+          "highlight": true
+        },
+        {
+          "id": "word-surroundings",
+          "lemma": "surroundings",
+          "english": "surroundings",
+          "kk": "/səˈraʊndɪŋz/",
+          "partOfSpeech": "noun",
+          "meaning": "周遭環境",
+          "highlight": true
+        },
+        {
+          "id": "word-strip",
+          "lemma": "strip",
+          "english": "strips",
+          "kk": "/strɪps/",
+          "partOfSpeech": "noun",
+          "meaning": "條狀食物；肉條",
+          "highlight": true
+        },
+        {
+          "id": "word-dessert",
+          "lemma": "dessert",
+          "english": "dessert",
+          "kk": "/dɪˈzɝt/",
+          "partOfSpeech": "noun",
+          "meaning": "甜點",
+          "highlight": true
+        },
+        {
+          "id": "word-obsessed",
+          "lemma": "obsessed",
+          "english": "obsessed",
+          "kk": "/əbˈsɛst/",
+          "partOfSpeech": "adjective",
+          "meaning": "著迷的、迷上的",
+          "highlight": true
+        },
+        {
+          "id": "word-snickerdoodle",
+          "lemma": "snickerdoodle",
+          "english": "snickerdoodle",
+          "kk": "/ˈsnɪkɚˌdudəl/",
+          "partOfSpeech": "noun",
+          "meaning": "肉桂糖餅乾",
+          "highlight": true
+        },
+        {
+          "id": "word-doughy",
+          "lemma": "doughy",
+          "english": "doughy",
+          "kk": "/ˈdoʊi/",
+          "partOfSpeech": "adjective",
+          "meaning": "像麵糰的、口感偏軟黏的",
+          "highlight": true
+        },
+        {
+          "id": "word-biased",
+          "lemma": "biased",
+          "english": "biased",
+          "kk": "/ˈbaɪəst/",
+          "partOfSpeech": "adjective",
+          "meaning": "有偏見的、偏心的",
+          "highlight": true
+        },
+        {
+          "id": "word-smoothie",
+          "lemma": "smoothie",
+          "english": "smoothies",
+          "kk": "/ˈsmuðiz/",
+          "partOfSpeech": "noun",
+          "meaning": "冰沙",
+          "highlight": true
+        },
+        {
+          "id": "word-ginger-shot",
+          "lemma": "ginger shot",
+          "english": "ginger shots",
+          "kk": "/ˈdʒɪndʒɚ ʃɑts/",
+          "partOfSpeech": "noun",
+          "meaning": "薑汁小杯飲",
+          "highlight": true
+        },
+        {
+          "id": "word-subway",
+          "lemma": "subway",
+          "english": "subway",
+          "kk": "/ˈsʌbˌwe/",
+          "partOfSpeech": "noun",
+          "meaning": "地鐵",
+          "highlight": true
+        },
+        {
+          "id": "word-pretzel",
+          "lemma": "pretzel",
+          "english": "pretzel",
+          "kk": "/ˈprɛtsəl/",
+          "partOfSpeech": "noun",
+          "meaning": "蝴蝶餅、椒鹽脆餅",
+          "highlight": true
+        },
+        {
+          "id": "word-souvenir",
+          "lemma": "souvenir",
+          "english": "souvenirs",
+          "kk": "/ˌsuvəˈnɪrz/",
+          "partOfSpeech": "noun",
+          "meaning": "紀念品",
+          "highlight": true
+        },
+        {
+          "id": "word-avocado-toast",
+          "lemma": "avocado toast",
+          "english": "avocado toast",
+          "kk": "/ˌævəˈkɑdoʊ tost/",
+          "partOfSpeech": "noun",
+          "meaning": "酪梨吐司",
+          "highlight": true
+        },
+        {
+          "id": "word-leftover",
+          "lemma": "leftover",
+          "english": "leftover",
+          "kk": "/ˈlɛftˌovɚ/",
+          "partOfSpeech": "adjective",
+          "meaning": "剩下的",
+          "highlight": true
+        },
+        {
+          "id": "word-takeoff",
+          "lemma": "takeoff",
+          "english": "takeoff",
+          "kk": "/ˈtekˌɔf/",
+          "partOfSpeech": "noun",
+          "meaning": "起飛",
+          "highlight": true
+        },
+        {
+          "id": "word-daylight",
+          "lemma": "daylight",
+          "english": "daylight",
+          "kk": "/ˈdeˌlaɪt/",
+          "partOfSpeech": "noun",
+          "meaning": "日光、白天光線",
+          "highlight": true
+        },
+        {
+          "id": "word-membership",
+          "lemma": "membership",
+          "english": "membership",
+          "kk": "/ˈmɛmbɚˌʃɪp/",
+          "partOfSpeech": "noun",
+          "meaning": "會員資格",
+          "highlight": true
+        },
+        {
+          "id": "word-exclusive",
+          "lemma": "exclusive",
+          "english": "exclusive",
+          "kk": "/ɪkˈsklusɪv/",
+          "partOfSpeech": "adjective",
+          "meaning": "專屬的、獨家的",
+          "highlight": true
+        },
+        {
+          "id": "word-content",
+          "lemma": "content",
+          "english": "content",
+          "kk": "/ˈkɑnˌtɛnt/",
+          "partOfSpeech": "noun",
+          "meaning": "內容，尤其是網路影片或文章內容",
+          "highlight": true
+        },
+        {
+          "id": "word-challenge",
+          "lemma": "challenge",
+          "english": "challenges",
+          "kk": "/ˈtʃælɪndʒɪz/",
+          "partOfSpeech": "noun",
+          "meaning": "挑戰、練習任務",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "phrase-talk-about",
+      "phrase": "talk about",
+      "meaning": "談論某個主題",
+      "examples": [
+        {
+          "en": "Today I'm going to __talk about__ my trip to New York.",
+          "tc": "談論某個主題"
+        }
+      ]
+    },
+    {
+      "id": "phrase-from-the-moment",
+      "phrase": "from the moment",
+      "meaning": "從某個時間點開始",
+      "examples": [
+        {
+          "en": "The whole entire story, __from the moment__ I arrived at the airport, to my home in Nebraska, to New York, and back to Mexico City.",
+          "tc": "從某個時間點開始"
+        }
+      ]
+    },
+    {
+      "id": "phrase-head-to",
+      "phrase": "head to",
+      "meaning": "前往某地",
+      "examples": [
+        {
+          "en": "So, my mom, my sister, my brother, and I woke up, got our bags, and __headed to__ the airport in Mexico City.",
+          "tc": "前往某地"
+        },
+        {
+          "en": "And one day before __heading to__ my grandma and grandpa's farm, we decided to go to the gym with my cousin.",
+          "tc": "前往某地"
+        }
+      ]
+    },
+    {
+      "id": "phrase-check-in",
+      "phrase": "check in",
+      "meaning": "在機場、飯店等辦理報到",
+      "examples": [
+        {
+          "en": "We __checked in__.",
+          "tc": "在機場、飯店等辦理報到"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-through",
+      "phrase": "go through",
+      "meaning": "通過程序或場所",
+      "examples": [
+        {
+          "en": "We checked a bag, and we __went through__ the **security** check.",
+          "tc": "通過程序或場所"
+        }
+      ]
+    },
+    {
+      "id": "phrase-duty-free",
+      "phrase": "duty-free",
+      "meaning": "不用付關稅或稅的",
+      "examples": [
+        {
+          "en": "Then once we were past security, we had to walk through the __duty-free__ section, the section where everything is duty-free.",
+          "tc": "不用付關稅或稅的"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-no-rush",
+      "phrase": "in no rush",
+      "meaning": "不趕時間",
+      "examples": [
+        {
+          "en": "So, we were __in no rush__.",
+          "tc": "不趕時間"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-no-hurry",
+      "phrase": "in no hurry",
+      "meaning": "不急",
+      "examples": [
+        {
+          "en": "We were __in no hurry__.",
+          "tc": "不急"
+        }
+      ]
+    },
+    {
+      "id": "phrase-pick-someone-up",
+      "phrase": "pick someone up",
+      "meaning": "開車或到某處接某人",
+      "examples": [
+        {
+          "en": "And that's where my aunt __picked us up__ in her car and drove us to her home.",
+          "tc": "開車或到某處接某人"
+        }
+      ]
+    },
+    {
+      "id": "phrase-right-away",
+      "phrase": "right away",
+      "meaning": "立刻、馬上",
+      "examples": [
+        {
+          "en": "I saw the big roads __right away__.",
+          "tc": "立刻、馬上"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-all-out",
+      "phrase": "go all out",
+      "meaning": "全力以赴、做到很盛大",
+      "examples": [
+        {
+          "en": "She __went all out__ on this graduation party.",
+          "tc": "全力以赴、做到很盛大"
+        }
+      ]
+    },
+    {
+      "id": "phrase-hang-out",
+      "phrase": "hang out",
+      "meaning": "輕鬆相處、閒晃",
+      "examples": [
+        {
+          "en": "And for the next few days, we __hung out__ at my aunt's house.",
+          "tc": "輕鬆相處、閒晃"
+        }
+      ]
+    },
+    {
+      "id": "phrase-used-to",
+      "phrase": "used to",
+      "meaning": "過去常常做某事，現在不一定如此",
+      "examples": [
+        {
+          "en": "We all __used to live__ in Sioux City, and it __brought back__ so many **nostalgic** feelings.",
+          "tc": "過去常常做某事，現在不一定如此"
+        },
+        {
+          "en": "The piano that I __used to play__ when I was little, even though I didn't know how to play the piano.",
+          "tc": "過去常常做某事，現在不一定如此"
+        }
+      ]
+    },
+    {
+      "id": "phrase-bring-back",
+      "phrase": "bring back",
+      "meaning": "使人想起回憶或感覺",
+      "examples": [
+        {
+          "en": "We all __used to live__ in Sioux City, and it __brought back__ so many **nostalgic** feelings.",
+          "tc": "使人想起回憶或感覺"
+        }
+      ]
+    },
+    {
+      "id": "phrase-all-the-way-to",
+      "phrase": "all the way to",
+      "meaning": "一路到某地",
+      "examples": [
+        {
+          "en": "So, we drove my grandma and grandpa's car __all the way to__ the DMV, the place where you **renew** or get your driver's license.",
+          "tc": "一路到某地"
+        }
+      ]
+    },
+    {
+      "id": "phrase-torn-apart",
+      "phrase": "torn apart",
+      "meaning": "破損嚴重、被弄得破破爛爛",
+      "examples": [
+        {
+          "en": "It was really funny because the car was all __torn apart__ everywhere for some weird reason.",
+          "tc": "破損嚴重、被弄得破破爛爛"
+        }
+      ]
+    },
+    {
+      "id": "phrase-head-back-to",
+      "phrase": "head back to",
+      "meaning": "返回某地",
+      "examples": [
+        {
+          "en": "The next day, we had to __head back to__ Nebraska and take our flight to New York City.",
+          "tc": "返回某地"
+        }
+      ]
+    },
+    {
+      "id": "phrase-pass-out",
+      "phrase": "pass out",
+      "meaning": "口語中可指累到睡著；也可指昏倒，本句是睡死",
+      "examples": [
+        {
+          "en": "I __passed out__.",
+          "tc": "口語中可指累到睡著；也可指昏倒，本句是睡死"
+        }
+      ]
+    },
+    {
+      "id": "phrase-walk-around",
+      "phrase": "walk around",
+      "meaning": "四處走走",
+      "examples": [
+        {
+          "en": "But the next day, we all woke up early to __walk around__ the city.",
+          "tc": "四處走走"
+        }
+      ]
+    },
+    {
+      "id": "phrase-sit-down",
+      "phrase": "sit down",
+      "meaning": "坐下",
+      "examples": [
+        {
+          "en": "I still __sat down__ at Central Park and enjoyed my kebab.",
+          "tc": "坐下"
+        }
+      ]
+    },
+    {
+      "id": "phrase-pay-attention-to",
+      "phrase": "pay attention to",
+      "meaning": "注意、專心看或聽",
+      "examples": [
+        {
+          "en": "I think they are just good at scamming people, getting you to __pay attention to__ the show so that behind you, they can take your wallets and your phones.",
+          "tc": "注意、專心看或聽"
+        }
+      ]
+    },
+    {
+      "id": "phrase-be-aware-of",
+      "phrase": "be aware of",
+      "meaning": "注意到、留意",
+      "examples": [
+        {
+          "en": "__Be aware of__ your surroundings in big cities, and be careful with your things.",
+          "tc": "注意到、留意"
+        },
+        {
+          "en": "Is there a big city in your home country where you need to __be aware of__ your **surroundings** and careful with your things?",
+          "tc": "注意到、留意"
+        }
+      ]
+    },
+    {
+      "id": "phrase-by-ourselves",
+      "phrase": "by ourselves",
+      "meaning": "沒有其他人陪同或幫忙",
+      "examples": [
+        {
+          "en": "Later that evening, we walked to Times Square, and we were able to see everything completely __by ourselves__.",
+          "tc": "沒有其他人陪同或幫忙"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-off",
+      "phrase": "take off",
+      "meaning": "飛機起飛",
+      "examples": [
+        {
+          "en": "__Taking off__ from New York City in the **daylight** was so beautiful.",
+          "tc": "飛機起飛"
+        }
+      ]
+    },
+    {
+      "id": "phrase-vlog-style",
+      "phrase": "vlog-style",
+      "meaning": "像 vlog 那樣的風格",
+      "examples": [
+        {
+          "en": "Stay tuned for next week when I show you my __vlog-style__ podcast for my trip in Puerto Escondido so far.",
+          "tc": "像 vlog 那樣的風格"
+        }
+      ]
+    },
+    {
+      "id": "phrase-early-access",
+      "phrase": "early access",
+      "meaning": "比一般人更早看到或使用的權限",
+      "examples": [
+        {
+          "en": "You can get __early access__ to all my videos with my YouTube **membership**.",
+          "tc": "比一般人更早看到或使用的權限"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-chill-item",
+      "word": "chill",
+      "familiarMeaning": "冷的、寒冷",
+      "usage": "口語中表示輕鬆、不緊張；也可作動詞表示放鬆、閒待著",
+      "translation": "輕鬆的；放鬆",
+      "examples": [
+        "The security check this time was so 《chill》.",
+        "So, I'm always just 《chilling》, eating a snack, and waiting to 《board》 my flight."
+      ]
+    },
+    {
+      "id": "usage-pretty-item",
+      "word": "pretty",
+      "familiarMeaning": "漂亮的",
+      "usage": "作副詞，表示相當、還滿、頗",
+      "translation": "相當、還滿",
+      "examples": [
+        "We arrived 《pretty》 late in New York City.",
+        "It was 《pretty》 good."
+      ]
+    },
+    {
+      "id": "usage-crazy-item",
+      "word": "crazy",
+      "familiarMeaning": "瘋狂的、不理智的",
+      "usage": "口語中用來加強語氣，表示很誇張、非常",
+      "translation": "超級、很誇張地",
+      "examples": [
+        "And that was 《crazy》 to see.",
+        "Now, I don't know if I was **scammed** because I looked like a **tourist**, but to me, that was 《crazy》 expensive."
+      ]
+    },
+    {
+      "id": "usage-dream-item",
+      "word": "dream",
+      "familiarMeaning": "睡覺時做的夢",
+      "usage": "表示長久期待的事，或美好到像夢一樣的經驗",
+      "translation": "夢想；夢想成真的事",
+      "examples": [
+        "I've been 《dreaming》 of this moment for so long because in Mexico, there's no Crumbl cookie.",
+        "Eating a salted **pretzel** in New York was a 《dream》."
+      ]
+    },
+    {
+      "id": "usage-board-item",
+      "word": "board",
+      "familiarMeaning": "木板、板子",
+      "usage": "作動詞，表示登上飛機、船、火車等交通工具",
+      "translation": "登機、上船、上車",
+      "examples": [
+        "We ate our **leftover** Chipotle while waiting to 《board》 our plane.",
+        "We put on our hats, and we 《boarded》 the plane."
+      ]
+    }
+  ],
+  "breakdowns": [
+    {
+      "id": "grammar-1",
+      "sentence": "We hadn't eaten anything since the night before.",
+      "translation": "我們從前一天晚上之後就什麼都沒吃。",
+      "points": [
+        {
+          "label": "Past Perfect 否定句",
+          "text": "Subject + had not + past participle + object + since + past time",
+          "note": "用 had not eaten 表示在機場那個過去時間點之前，從前一晚開始就已經沒有吃東西。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-2",
+      "sentence": "I had the deluxe meal that has pancakes, bacon, tater tots, and a piece of toast.",
+      "translation": "我點了豪華餐，裡面有鬆餅、培根、薯餅球和一片吐司。",
+      "points": [
+        {
+          "label": "Relative Clause with that",
+          "text": "noun + that + verb phrase",
+          "note": "that has... 補充說明前面的 the deluxe meal 裡面包含什麼。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-3",
+      "sentence": "We got the biggest ice cream cones I've ever seen.",
+      "translation": "我們拿到了我見過最大的冰淇淋甜筒。",
+      "points": [
+        {
+          "label": "Superlative + Present Perfect",
+          "text": "the + superlative adjective + noun + subject + have/has ever + past participle",
+          "note": "用 I've ever seen 表示到目前人生經驗中看過的範圍，搭配 biggest 強調最高程度。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-4",
+      "sentence": "My aunt's house is in the same city where my family and I used to live.",
+      "translation": "我阿姨的家在我家人和我以前住過的同一個城市。",
+      "points": [
+        {
+          "label": "Relative Adverb where",
+          "text": "place noun + where + subject + verb",
+          "note": "where 引導子句，說明 the same city 是哪一個地方，也就是以前住過的城市。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "We all used to live in Sioux City.",
+      "translation": "我們以前都住在蘇城。",
+      "points": [
+        {
+          "label": "used to + Verb",
+          "text": "Subject + used to + base verb",
+          "note": "used to 表示過去常常或曾經如此，但現在不一定還是如此。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "Instead of chopping down the whole tree, they just cut around it so the cable could go through it.",
+      "translation": "與其砍掉整棵樹，他們只是沿著電纜線要通過的地方切開，讓電纜可以穿過去。",
+      "points": [
+        {
+          "label": "Instead of + Gerund",
+          "text": "Instead of + V-ing, subject + verb",
+          "note": "instead of 後面接動名詞 chopping，表示沒有選擇砍樹，而是做另一件事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "I remembered the piano that I used to play when I was little, even though I didn't know how to play the piano.",
+      "translation": "我想起小時候常彈的鋼琴，即使我那時不會彈鋼琴。",
+      "points": [
+        {
+          "label": "even though Concession Clause",
+          "text": "even though + subject + verb",
+          "note": "even though 引導讓步子句，表示雖然不會彈鋼琴，但仍然有小時候彈鋼琴的回憶。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "One person, thing, place, or story that you feel grateful for having had as a kid?",
+      "translation": "一個你覺得小時候擁有過、因此很感恩的人、事、地方或故事？",
+      "points": [
+        {
+          "label": "Perfect Gerund",
+          "text": "preposition + having + past participle",
+          "note": "having had 表示在小時候已經擁有過某人、事、地或故事，現在回頭感到感恩。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-9",
+      "sentence": "I don't even know how it could have gotten torn up on the ceiling.",
+      "translation": "我甚至不知道天花板怎麼會被弄破。",
+      "points": [
+        {
+          "label": "Modal Perfect with could have gotten",
+          "text": "could + have + gotten + past participle",
+          "note": "could have gotten 表示對過去發生原因的推測；說話者不知道天花板過去怎麼會變成那樣。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-10",
+      "sentence": "That way, we could walk all around the city without feeling hot.",
+      "translation": "那樣我們就可以在城市裡到處走，而不會覺得熱。",
+      "points": [
+        {
+          "label": "without + Gerund",
+          "text": "without + V-ing",
+          "note": "介系詞 without 後面接動名詞 feeling，表示做某事時不會有某種情況。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-11",
+      "sentence": "I think they are just good at scamming people, getting you to pay attention to the show so that behind you, they can take your wallets and your phones.",
+      "translation": "我覺得他們只是很會騙人，讓你注意表演，這樣在你背後，他們就可以拿走你的錢包和手機。",
+      "points": [
+        {
+          "label": "get + Object + to Verb",
+          "text": "get + someone + to + base verb",
+          "note": "getting you to pay attention 表示讓你把注意力放到表演上。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-12",
+      "sentence": "It was the first time that I had ever been to Cane's.",
+      "translation": "那是我第一次去 Cane's。",
+      "points": [
+        {
+          "label": "the first time + Past Perfect",
+          "text": "It was the first time that + subject + had ever + past participle",
+          "note": "因為敘述的是過去的第一次經驗，所以用 had ever been 表示在那之前從來沒有去過。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-13",
+      "sentence": "I've been obsessed with trying Crumbl cookies since the first time I saw a video of somebody eating one.",
+      "translation": "自從我第一次看到有人吃 Crumbl cookie 的影片之後，我就一直很著迷，想試試看。",
+      "points": [
+        {
+          "label": "Present Perfect with since",
+          "text": "Subject + have/has been + adjective + since + past time clause",
+          "note": "I've been obsessed 表示從第一次看到影片到現在，這個著迷的狀態一直持續。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-14",
+      "sentence": "I've been dreaming of this moment for so long.",
+      "translation": "我一直夢想著這一刻很久了。",
+      "points": [
+        {
+          "label": "Present Perfect Continuous",
+          "text": "Subject + have/has been + V-ing + for + duration",
+          "note": "have been dreaming 表示從過去到現在一直期待這件事，for so long 表示持續很久。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-15",
+      "sentence": "Have you ever tried a Crumbl cookie?",
+      "translation": "你吃過 Crumbl cookie 嗎？",
+      "points": [
+        {
+          "label": "Present Perfect Experience Question",
+          "text": "Have/Has + subject + ever + past participle?",
+          "note": "用 Have you ever tried...? 詢問到目前為止的人生經驗中是否曾經做過某事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-16",
+      "sentence": "Eating a salted pretzel in New York was a dream.",
+      "translation": "在紐約吃鹹味蝴蝶餅，真的是夢想成真。",
+      "points": [
+        {
+          "label": "Gerund Phrase as Subject",
+          "text": "V-ing phrase + verb + complement",
+          "note": "Eating a salted pretzel in New York 整個動名詞片語當主詞，表示這件事本身像夢一樣美好。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-17",
+      "sentence": "We ate our leftover Chipotle while waiting to board our plane.",
+      "translation": "我們一邊等著登機，一邊吃剩下的 Chipotle。",
+      "points": [
+        {
+          "label": "while + Gerund Phrase",
+          "text": "while + V-ing phrase",
+          "note": "while waiting 表示在等待登機的同時做另一件事，省略了 we were。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-18",
+      "sentence": "Taking off from New York City in the daylight was so beautiful.",
+      "translation": "白天從紐約市起飛真的很美。",
+      "points": [
+        {
+          "label": "Gerund Phrase as Subject",
+          "text": "V-ing phrase + be verb + adjective",
+          "note": "Taking off from New York City in the daylight 是整個句子的主詞，描述起飛這件事很美。"
+        }
+      ]
+    }
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1",
+    "sourcePath": "_private/tmp/originalContent/b1/ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1.md"
+  }
+}

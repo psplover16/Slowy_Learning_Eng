@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import ch1 from '../modules/chapters/data/ch1'
+import ch4 from '../modules/chapters/data/ch4'
 import type { ChapterData } from '../modules/chapters/types'
 
 describe('chapter data module — ch1', () => {
@@ -41,5 +42,33 @@ describe('chapter data module — ch1', () => {
 
   it('mp3Src is null (no audio file yet for ch1)', () => {
     expect(ch1.mp3Src).toBeNull()
+  })
+})
+
+describe('chapter data module — ch4', () => {
+  it('has all required ChapterData fields', () => {
+    const data: ChapterData = ch4
+    expect(typeof data.headerTitleZh).toBe('string')
+    expect(typeof data.headerTitleEn).toBe('string')
+    expect(Array.isArray(data.scenes)).toBe(true)
+    expect(Array.isArray(data.vocabGroups)).toBe(true)
+    expect(Array.isArray(data.phrases)).toBe(true)
+    expect(Array.isArray(data.breakdowns)).toBe(true)
+  })
+
+  it('headerTitleZh is "傳統學習法為何無法帶來流暢" (moved from ch3)', () => {
+    expect(ch4.headerTitleZh).toBe('傳統學習法為何無法帶來流暢')
+  })
+
+  it('headerTitleEn matches the old ch3 title', () => {
+    expect(ch4.headerTitleEn).toBe("Why Traditional Study Can't Create Fluency")
+  })
+
+  it('first scene has id "scene-01"', () => {
+    expect(ch4.scenes[0].id).toBe('scene-01')
+  })
+
+  it('has 10 scenes (same as original ch3)', () => {
+    expect(ch4.scenes.length).toBe(10)
   })
 })
