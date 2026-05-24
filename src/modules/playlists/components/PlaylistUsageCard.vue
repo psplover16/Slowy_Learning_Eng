@@ -48,9 +48,7 @@ const props = defineProps<{
   returnTestId?: string
 }>()
 
-defineEmits<{
-  (e: 'return-to-marker'): void
-}>()
+defineEmits(['return-to-marker'])
 
 const normalizedExamples = computed(() => props.examples.map((example) => {
   if (typeof example === 'string') return { en: example, tc: '' }

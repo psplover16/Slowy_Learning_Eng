@@ -24,7 +24,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Hello and welcome back to my Slow English podcast."
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-01-001-001"
+            },
+            {
+              "type": "text",
+              "text": " to my Slow English podcast."
             }
           ]
         },
@@ -93,7 +103,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Um, I think that my audience would love to know if you have any tips, anything that got you through the hardest part of starting to speak English, which is speaking."
+              "text": "Um, I think that my audience would love to "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-02-003-001"
+            },
+            {
+              "type": "text",
+              "text": " if you have any tips, anything that got you through the hardest part of starting to speak English, which is speaking."
             }
           ]
         },
@@ -152,7 +172,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I know how the process goes for like teaching uh for learning language."
+              "text": "So, I "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-03-004-001"
+            },
+            {
+              "type": "text",
+              "text": " how the process goes for like teaching uh for learning language."
             }
           ]
         }
@@ -220,7 +250,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So every time you saw it, you know it's a cup."
+              "text": "So every time you saw it, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-05-001-001"
+            },
+            {
+              "type": "text",
+              "text": " it's a cup."
             }
           ]
         },
@@ -250,7 +290,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Stove everything everything I can see in my eyes right I will wrote it and I will write it and I will you know just help myself to remember."
+              "text": "Stove everything everything I can see in my eyes right I will wrote it and I will write it and I will you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-05-004-001"
+            },
+            {
+              "type": "text",
+              "text": " just help myself to remember."
             }
           ]
         }
@@ -279,7 +329,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And everything it's for daily life because this is how you get around how you start to you know understand like the daily life works for the basic vocabularies."
+              "text": "And everything it's for daily life because this is how you "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-06-002-001"
+            },
+            {
+              "type": "text",
+              "text": " around how you start to you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-06-002-002"
+            },
+            {
+              "type": "text",
+              "text": " understand like the daily life works for the basic vocabularies."
             }
           ]
         },
@@ -318,7 +388,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I had been studying Chinese for years, but I still couldn't think of one thing to say because I didn't know how to say window or table or cup or anything basic that was around me."
+              "text": "And I had been studying Chinese for years, but I still couldn't think of one thing to say because I didn't "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-07-001-001"
+            },
+            {
+              "type": "text",
+              "text": " how to say window or table or cup or anything basic that was around me."
             }
           ]
         },
@@ -397,7 +477,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And it's helped me to improve and to start speaking Chinese more confidently."
+              "text": "And it's helped me to "
+            },
+            {
+              "type": "word",
+              "text": "improve",
+              "targetId": "word-improve",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-08-004-001"
+            },
+            {
+              "type": "text",
+              "text": " and to start speaking Chinese more confidently."
             }
           ]
         }
@@ -426,7 +516,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I discovered this by myself because I just feel like when you're learning a new language like right now I'm also learning Spanish right now."
+              "text": "I discovered this by myself because I just "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-09-002-001"
+            },
+            {
+              "type": "text",
+              "text": " like when you're learning a new language like "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-09-002-002"
+            },
+            {
+              "type": "text",
+              "text": " I'm also learning Spanish "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-09-002-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -436,7 +556,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You got to get into that language."
+              "text": "You got to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-09-003-001"
+            },
+            {
+              "type": "text",
+              "text": " into that language."
             }
           ]
         },
@@ -573,7 +703,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel happy."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " happy."
             }
           ]
         },
@@ -593,7 +733,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I we did pool and then we went to dinner and we talked a lot of things and I feel happy."
+              "text": "I we did pool and then we went to dinner and we talked a lot of things and I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-12-004-001"
+            },
+            {
+              "type": "text",
+              "text": " happy."
             }
           ]
         }
@@ -632,7 +782,47 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It just gradually gradually changed like even right now seriously I'm not a native ch I'm not a native English speaker but I'm thinking in English even I don't speak perfectly but my mind is in English."
+              "text": "It just gradually gradually changed like even "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-13-003-001"
+            },
+            {
+              "type": "text",
+              "text": " seriously I'm not a "
+            },
+            {
+              "type": "word",
+              "text": "native",
+              "targetId": "word-native",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-13-003-002"
+            },
+            {
+              "type": "text",
+              "text": " ch I'm not a "
+            },
+            {
+              "type": "word",
+              "text": "native",
+              "targetId": "word-native",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-13-003-003"
+            },
+            {
+              "type": "text",
+              "text": " English speaker but I'm thinking in English even I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-13-003-004"
+            },
+            {
+              "type": "text",
+              "text": " speak perfectly but my mind is in English."
             }
           ]
         },
@@ -661,7 +851,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So I'm literally just thinking in English right now."
+              "text": "So I'm literally just thinking in English "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-14-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -730,7 +930,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, what do you think was the biggest thing that broke through that maybe um feeling of being scared or shy to speak?"
+              "text": "So, "
+            },
+            {
+              "type": "phrase",
+              "text": "what do you",
+              "targetId": "phrase-what-do-you",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-15-003-001"
+            },
+            {
+              "type": "text",
+              "text": " think was the biggest thing that broke through that maybe um feeling of being scared or shy to speak?"
             }
           ]
         },
@@ -739,8 +949,14 @@
           "tc": "我感到很高興。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "What do you",
+              "targetId": "phrase-what-do-you",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-15-004-001"
+            },
+            {
               "type": "text",
-              "text": "What do you think got you through that hardest step of of starting?"
+              "text": " think got you through that hardest step of of starting?"
             }
           ]
         }
@@ -769,7 +985,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Like what I said, don't think about what others think about you."
+              "text": "Like what I said, "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-16-002-001"
+            },
+            {
+              "type": "text",
+              "text": " think about what others think about you."
             }
           ]
         },
@@ -818,7 +1044,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When I was there, I just don't talk."
+              "text": "When I was there, I just "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-17-002-001"
+            },
+            {
+              "type": "text",
+              "text": " talk."
             }
           ]
         },
@@ -828,7 +1064,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel like I'm transparent."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-17-003-001"
+            },
+            {
+              "type": "text",
+              "text": " like I'm transparent."
             }
           ]
         },
@@ -838,7 +1084,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When I was a lot of people, I feel nervous."
+              "text": "When I was a lot of people, I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": " nervous."
             }
           ]
         }
@@ -857,7 +1113,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel like why should I talk?"
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": " like why should I talk?"
             }
           ]
         },
@@ -867,7 +1133,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't understand."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-18-002-001"
+            },
+            {
+              "type": "text",
+              "text": " understand."
             }
           ]
         },
@@ -887,7 +1163,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't know anything."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-18-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-18-004-002"
+            },
+            {
+              "type": "text",
+              "text": " anything."
             }
           ]
         }
@@ -906,7 +1202,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't know the name."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-19-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-19-001-002"
+            },
+            {
+              "type": "text",
+              "text": " the name."
             }
           ]
         },
@@ -916,7 +1232,67 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't know any vocabulary, but you know, I just don't know what to say and I feel so nervous, so awkward, but I put myself in that situation thousands of times."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-19-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-19-002-002"
+            },
+            {
+              "type": "text",
+              "text": " any vocabulary, but you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-19-002-003"
+            },
+            {
+              "type": "text",
+              "text": ", I just "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-19-002-004"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-19-002-005"
+            },
+            {
+              "type": "text",
+              "text": " what to say and I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-19-002-006"
+            },
+            {
+              "type": "text",
+              "text": " so nervous, so awkward, but I put myself in that situation thousands of times."
             }
           ]
         },
@@ -926,7 +1302,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I know I'm not comfortable, but every time I'm trying to speak a little bit."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-19-003-001"
+            },
+            {
+              "type": "text",
+              "text": " I'm not "
+            },
+            {
+              "type": "word",
+              "text": "comfortable",
+              "targetId": "word-comfortable",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-19-003-002"
+            },
+            {
+              "type": "text",
+              "text": ", but every time I'm trying to speak a little bit."
             }
           ]
         },
@@ -975,7 +1371,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Because maybe I don't even know how to spell it."
+              "text": "Because maybe I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-20-003-001"
+            },
+            {
+              "type": "text",
+              "text": " even "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-20-003-002"
+            },
+            {
+              "type": "text",
+              "text": " how to spell it."
             }
           ]
         },
@@ -1004,7 +1420,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So when the next time when they talk about this cartoon I will know about it and I will know maybe I can talk about okay I know this character."
+              "text": "So when the next time when they talk about this cartoon I will "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-21-001-001"
+            },
+            {
+              "type": "text",
+              "text": " about it and I will "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-21-001-002"
+            },
+            {
+              "type": "text",
+              "text": " maybe I can talk about okay I "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-21-001-003"
+            },
+            {
+              "type": "text",
+              "text": " this character."
             }
           ]
         },
@@ -1014,7 +1460,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And what does he look like."
+              "text": "And what does he "
+            },
+            {
+              "type": "phrase",
+              "text": "look like",
+              "targetId": "phrase-look-like",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-21-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1063,7 +1519,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When you feel nervous in an urgent situation, you remember the language better."
+              "text": "When you "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-22-002-001"
+            },
+            {
+              "type": "text",
+              "text": " nervous in an urgent situation, you remember the language better."
             }
           ]
         },
@@ -1102,7 +1568,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And remember every step and I'm just taking a lot longer than them and it makes me feel really embarrassed and nervous."
+              "text": "And remember every step and I'm just taking a lot longer than them and it makes me "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-23-001-001"
+            },
+            {
+              "type": "text",
+              "text": " really embarrassed and nervous."
             }
           ]
         },
@@ -1151,7 +1627,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Because you don't know like maybe those dancers already learned that dance before and that's why they're doing it so much better than me."
+              "text": "Because you "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-24-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-24-001-002"
+            },
+            {
+              "type": "text",
+              "text": " like maybe those dancers already learned that dance before and that's why they're doing it so much better than me."
             }
           ]
         },
@@ -1171,7 +1667,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You can't compare where you are because you don't really know about anyone else but yourself."
+              "text": "You can't compare where you are because you "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-24-003-001"
+            },
+            {
+              "type": "text",
+              "text": " really "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-24-003-002"
+            },
+            {
+              "type": "text",
+              "text": " about anyone else but yourself."
             }
           ]
         },
@@ -1249,7 +1765,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Because what I think about is you really don't know the people where they're from, where they start, when they start."
+              "text": "Because what I think about is you really "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-26-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-26-001-002"
+            },
+            {
+              "type": "text",
+              "text": " the people where they're from, where they start, when they start."
             }
           ]
         },
@@ -1269,7 +1805,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You can see a person right now is perfect speaking English, but you really don't know how much effort she put in the back, right?"
+              "text": "You can see a person "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-26-003-001"
+            },
+            {
+              "type": "text",
+              "text": " is perfect speaking English, but you really "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-26-003-002"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-26-003-003"
+            },
+            {
+              "type": "text",
+              "text": " how much effort she put in the back, right?"
             }
           ]
         },
@@ -1279,7 +1845,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But you know how much effort you put for yourself."
+              "text": "But you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-26-004-001"
+            },
+            {
+              "type": "text",
+              "text": " how much effort you put for yourself."
             }
           ]
         }
@@ -1298,7 +1874,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, as long as you're a little bit better than yesterday, you're doing good, you know?"
+              "text": "So, as long as you're a little bit better than yesterday, you're doing good, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-27-001-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -1347,7 +1933,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But that's another thing that I think you just have to get past."
+              "text": "But that's another thing that I think you just have to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-28-001-001"
+            },
+            {
+              "type": "text",
+              "text": " past."
             }
           ]
         },
@@ -1377,7 +1973,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And if they're judging you, that's because they maybe feel insecure about themselves."
+              "text": "And if they're judging you, that's because they maybe "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-28-004-001"
+            },
+            {
+              "type": "text",
+              "text": " insecure about themselves."
             }
           ]
         }
@@ -1396,7 +2002,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They don't have the courage that you have of making mistakes and failing."
+              "text": "They "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-29-001-001"
+            },
+            {
+              "type": "text",
+              "text": " have the courage that you have of making mistakes and failing."
             }
           ]
         },
@@ -1416,7 +2032,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel like for example, I'm talking to you right now."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-29-003-001"
+            },
+            {
+              "type": "text",
+              "text": " like for example, I'm talking to you "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-29-003-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1426,7 +2062,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'm not speaking perfect English, but I will never think about you're judging me because you are my friend and also you wanted me to improve my language, right?"
+              "text": "I'm not speaking perfect English, but I will never think about you're judging me because you are my friend and also you wanted me to "
+            },
+            {
+              "type": "word",
+              "text": "improve",
+              "targetId": "word-improve",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-29-004-001"
+            },
+            {
+              "type": "text",
+              "text": " my language, right?"
             }
           ]
         }
@@ -1445,7 +2091,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "M so I think if the person for example you are judging me right now I don't think you will become friends anymore you know."
+              "text": "M so I think if the person for example you are judging me "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-30-001-001"
+            },
+            {
+              "type": "text",
+              "text": " I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-30-001-002"
+            },
+            {
+              "type": "text",
+              "text": " think you will become friends anymore you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-30-001-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1455,7 +2131,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That means this person doesn't worth your time you know you should find someone that will love to speak with you you should find someone."
+              "text": "That means this person doesn't worth your time you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-30-002-001"
+            },
+            {
+              "type": "text",
+              "text": " you should find someone that will love to speak with you you should find someone."
             }
           ]
         },
@@ -1465,7 +2151,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That will never judge you no matter it's for a language or for anything else is the same because you have to find the people they're you feel comfortable with you know if they're judging you."
+              "text": "That will never judge you no matter it's for a language or for anything else is the same because you have to find the people they're you "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-30-003-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "comfortable",
+              "targetId": "word-comfortable",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-30-003-002"
+            },
+            {
+              "type": "text",
+              "text": " with you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-30-003-003"
+            },
+            {
+              "type": "text",
+              "text": " if they're judging you."
             }
           ]
         },
@@ -1543,7 +2259,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It's a free space to talk whenever you feel like talking and to talk with teachers from all around the world and have conversations like these naturally to boost your confidence in English."
+              "text": "It's a free space to talk whenever you "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-32-001-001"
+            },
+            {
+              "type": "text",
+              "text": " like talking and to talk with teachers from all around the world and have conversations like these naturally to boost your "
+            },
+            {
+              "type": "word",
+              "text": "confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-32-001-002"
+            },
+            {
+              "type": "text",
+              "text": " in English."
             }
           ]
         },
@@ -1563,7 +2299,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Are there any other English learning tips just to get you speaking, get you out of that bubble?"
+              "text": "Are there any other English learning tips just to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-32-003-001"
+            },
+            {
+              "type": "text",
+              "text": " you speaking, "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-32-003-002"
+            },
+            {
+              "type": "text",
+              "text": " you out of that bubble?"
             }
           ]
         },
@@ -1661,7 +2417,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And also her mindset actually will go into mine as well you know it's very interesting and I do the shadowing like every day every day."
+              "text": "And also her mindset "
+            },
+            {
+              "type": "usage",
+              "text": "actually",
+              "targetId": "usage-actually-actually",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-34-003-001"
+            },
+            {
+              "type": "text",
+              "text": " will go into mine as well you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-34-003-002"
+            },
+            {
+              "type": "text",
+              "text": " it's very interesting and I do the shadowing like every day every day."
             }
           ]
         },
@@ -1671,7 +2447,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Because you can also imitate the tongue she's talking and then you will know how you actually react when you talk to people cuz that's a real conversation."
+              "text": "Because you can also imitate the tongue she's talking and then you will "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-34-004-001"
+            },
+            {
+              "type": "text",
+              "text": " how you "
+            },
+            {
+              "type": "usage",
+              "text": "actually",
+              "targetId": "usage-actually-actually",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-34-004-002"
+            },
+            {
+              "type": "text",
+              "text": " react when you talk to people cuz that's a real "
+            },
+            {
+              "type": "word",
+              "text": "conversation",
+              "targetId": "word-conversation",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-34-004-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -1739,7 +2545,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "First of all, I will have English subtitle and I will read the English subtitle uh when I'm watching it and I will choose some um very easy like a you know basic shows to watch."
+              "text": "First of all, I will have English subtitle and I will read the English subtitle uh when I'm watching it and I will choose some um very easy like a you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-36-001-001"
+            },
+            {
+              "type": "text",
+              "text": " basic shows to watch."
             }
           ]
         },
@@ -1749,7 +2565,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I can't watch friends because friends has so many you know vocabularies."
+              "text": "I can't watch friends because friends has so many you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-36-002-001"
+            },
+            {
+              "type": "text",
+              "text": " vocabularies."
             }
           ]
         },
@@ -1759,7 +2585,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "At the time I watch something like you know high school stuff like for example like never had I ever some like a basic stuff."
+              "text": "At the time I watch something like you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-36-003-001"
+            },
+            {
+              "type": "text",
+              "text": " high school stuff like for example like never had I ever some like a basic stuff."
             }
           ]
         },
@@ -1788,7 +2624,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So I will find some topic you know in common so I will watch it and I will shadow it as well."
+              "text": "So I will find some topic you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-37-001-001"
+            },
+            {
+              "type": "text",
+              "text": " in common so I will watch it and I will shadow it as well."
             }
           ]
         },
@@ -1847,7 +2693,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Uh first of all I did you know I download some like apps for have international friend because before I don't have any international friend and living in China it's hard to find the foreigners."
+              "text": "Uh first of all I did you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-38-002-001"
+            },
+            {
+              "type": "text",
+              "text": " I download some like apps for have international friend because before I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-38-002-002"
+            },
+            {
+              "type": "text",
+              "text": " have any international friend and living in China it's hard to find the foreigners."
             }
           ]
         },
@@ -1886,7 +2752,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, uh, I was go on this apps called like Hello Talk and some like, you know, other apps and I find people from all over the world."
+              "text": "So, uh, I was go on this apps called like Hello Talk and some like, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-39-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", other apps and I find people from all over the world."
             }
           ]
         },
@@ -1896,7 +2772,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They wanted to practice like same thing as your community right now."
+              "text": "They wanted to practice like same thing as your community "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-39-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1935,7 +2821,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So I met this guy actually right now we're best friends right now from the app and we're exchange language and he was learning Chinese."
+              "text": "So I met this guy "
+            },
+            {
+              "type": "usage",
+              "text": "actually",
+              "targetId": "usage-actually-actually",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-40-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-40-001-002"
+            },
+            {
+              "type": "text",
+              "text": " we're best friends "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-40-001-003"
+            },
+            {
+              "type": "text",
+              "text": " from the app and we're exchange language and he was learning Chinese."
             }
           ]
         },
@@ -1945,7 +2861,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I was learning English at the time and so and he actually inspired me to become a Chinese teacher and also inspired me to speak better like uh English."
+              "text": "I was learning English at the time and so and he "
+            },
+            {
+              "type": "usage",
+              "text": "actually",
+              "targetId": "usage-actually-actually",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-40-002-001"
+            },
+            {
+              "type": "text",
+              "text": " inspired me to become a Chinese teacher and also inspired me to speak better like uh English."
             }
           ]
         },
@@ -1955,7 +2881,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And right now her uh she's right now his uh right now his Chinese is way better than before as well."
+              "text": "And "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-40-003-001"
+            },
+            {
+              "type": "text",
+              "text": " her uh she's "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-40-003-002"
+            },
+            {
+              "type": "text",
+              "text": " his uh "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-40-003-003"
+            },
+            {
+              "type": "text",
+              "text": " his Chinese is way better than before as well."
             }
           ]
         },
@@ -1984,7 +2940,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Yeah, I think those apps are super useful for learning, especially if you don't have um maybe the um environment."
+              "text": "Yeah, I think those apps are super useful for learning, "
+            },
+            {
+              "type": "word",
+              "text": "especially",
+              "targetId": "word-especially",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-41-001-001"
+            },
+            {
+              "type": "text",
+              "text": " if you "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-41-001-002"
+            },
+            {
+              "type": "text",
+              "text": " have um maybe the um environment."
             }
           ]
         },
@@ -1994,7 +2970,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Yeah, the environment or even just the if you don't have the money basically to pay to pay for the courses."
+              "text": "Yeah, the environment or even just the if you "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-41-002-001"
+            },
+            {
+              "type": "text",
+              "text": " have the money basically to pay to pay for the courses."
             }
           ]
         },
@@ -2112,7 +3098,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't know what to do in my life."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-43-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-43-004-002"
+            },
+            {
+              "type": "text",
+              "text": " what to do in my life."
             }
           ]
         }
@@ -2131,7 +3137,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't know after I graduate what kind of job can I get and where I'm going to go, where I'm going to stay."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-44-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-44-001-002"
+            },
+            {
+              "type": "text",
+              "text": " after I graduate what kind of job can I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-44-001-003"
+            },
+            {
+              "type": "text",
+              "text": " and where I'm going to go, where I'm going to stay."
             }
           ]
         },
@@ -2141,7 +3177,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't know anything but I feel like outside of China it might has answer for me."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-44-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-44-002-002"
+            },
+            {
+              "type": "text",
+              "text": " anything but I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-44-002-003"
+            },
+            {
+              "type": "text",
+              "text": " like outside of China it might has answer for me."
             }
           ]
         },
@@ -2278,7 +3344,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So afraid they're doing like cliff jumping they're like swimming with their bikini because at that time I was in China my mom always told me you shouldn't wear too exposive explosive you know."
+              "text": "So afraid they're doing like cliff jumping they're like swimming with their bikini because at that time I was in China my mom always told me you shouldn't wear too exposive explosive you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-47-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2288,7 +3364,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So I'm like why they can do that so I wanted to know maybe I can do that too I can try the things I've never tried before."
+              "text": "So I'm like why they can do that so I wanted to "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-47-002-001"
+            },
+            {
+              "type": "text",
+              "text": " maybe I can do that too I can try the things I've never tried before."
             }
           ]
         },
@@ -2298,7 +3384,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I can try the things maybe I like, maybe I don't like."
+              "text": "I can try the things maybe I like, maybe I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-47-003-001"
+            },
+            {
+              "type": "text",
+              "text": " like."
             }
           ]
         },
@@ -2386,7 +3482,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Because for me I feel like okay at the time I had my master degree even I graduate I was living in Shanghai."
+              "text": "Because for me I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-49-002-001"
+            },
+            {
+              "type": "text",
+              "text": " like okay at the time I had my master degree even I graduate I was living in Shanghai."
             }
           ]
         },
@@ -2406,7 +3512,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So uh if I graduate I cannot get well paid but I noticed the foreigners in Shanghai they get well paid and the people they could speak English they get well paid."
+              "text": "So uh if I graduate I cannot "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-49-004-001"
+            },
+            {
+              "type": "text",
+              "text": " well paid but I noticed the foreigners in Shanghai they "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-49-004-002"
+            },
+            {
+              "type": "text",
+              "text": " well paid and the people they could speak English they "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-49-004-003"
+            },
+            {
+              "type": "text",
+              "text": " well paid."
             }
           ]
         }
@@ -2435,7 +3571,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If I speak English, I will definitely get a better opportunities."
+              "text": "If I speak English, I will definitely "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-50-002-001"
+            },
+            {
+              "type": "text",
+              "text": " a better opportunities."
             }
           ]
         },
@@ -2494,7 +3640,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Honestly, I feel like learning English completely changed my life about my mindset especially cuz before I'm a little bit closminded as well."
+              "text": "Honestly, I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-51-003-001"
+            },
+            {
+              "type": "text",
+              "text": " like learning English completely changed my life about my mindset "
+            },
+            {
+              "type": "word",
+              "text": "especially",
+              "targetId": "word-especially",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-51-003-002"
+            },
+            {
+              "type": "text",
+              "text": " cuz before I'm a little bit closminded as well."
             }
           ]
         },
@@ -2504,7 +3670,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel I'm a little bit conservative, very traditional because I grew up in China and I I have a very traditional family as well."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-51-004-001"
+            },
+            {
+              "type": "text",
+              "text": " I'm a little bit conservative, very traditional because I grew up in China and I I have a very traditional family as well."
             }
           ]
         }
@@ -2523,7 +3699,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But because learning English let me know everything is possible."
+              "text": "But because learning English let me "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-52-001-001"
+            },
+            {
+              "type": "text",
+              "text": " everything is possible."
             }
           ]
         },
@@ -2542,8 +3728,14 @@
           "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-52-003-001"
+            },
+            {
               "type": "text",
-              "text": "Don't think about others."
+              "text": " think about others."
             }
           ]
         },
@@ -2552,8 +3744,14 @@
           "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-52-004-001"
+            },
+            {
               "type": "text",
-              "text": "Don't think about the social judgment."
+              "text": " think about the social judgment."
             }
           ]
         }
@@ -2571,8 +3769,14 @@
           "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-53-001-001"
+            },
+            {
               "type": "text",
-              "text": "Don't think about how does like others think about you."
+              "text": " think about how does like others think about you."
             }
           ]
         },
@@ -2582,7 +3786,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Because for me in China, I always feel like judged."
+              "text": "Because for me in China, I always "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-53-002-001"
+            },
+            {
+              "type": "text",
+              "text": " like judged."
             }
           ]
         },
@@ -2592,7 +3806,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel like I do everything I have to think about what does my parent think and what does my friend think and how's everybody else think."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-53-003-001"
+            },
+            {
+              "type": "text",
+              "text": " like I do everything I have to think about what does my parent think and what does my friend think and how's everybody else think."
             }
           ]
         },
@@ -2651,7 +3875,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I don't want to care too much about what people say."
+              "text": "And I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-54-004-001"
+            },
+            {
+              "type": "text",
+              "text": " want to care too much about what people say."
             }
           ]
         }
@@ -2690,7 +3924,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Yeah, I think um that little push is the first thing you need to start actually reaching your dreams."
+              "text": "Yeah, I think um that little push is the first thing you need to start "
+            },
+            {
+              "type": "usage",
+              "text": "actually",
+              "targetId": "usage-actually-actually",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-55-003-001"
+            },
+            {
+              "type": "text",
+              "text": " reaching your dreams."
             }
           ]
         },
@@ -2719,7 +3963,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I think English is just something that can change the people you meet, the experiences you have, the jobs that you get."
+              "text": "And I think English is just something that can change the people you meet, the experiences you have, the jobs that you "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-56-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2788,7 +4042,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I met people there like, you know, uh they're the neighbors."
+              "text": "And I met people there like, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-57-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", uh they're the neighbors."
             }
           ]
         },
@@ -2827,7 +4091,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Because in China, we don't have small talk."
+              "text": "Because in China, we "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-58-002-001"
+            },
+            {
+              "type": "text",
+              "text": " have small talk."
             }
           ]
         },
@@ -2886,7 +4160,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't know what to say."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-59-003-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-59-003-002"
+            },
+            {
+              "type": "text",
+              "text": " what to say."
             }
           ]
         },
@@ -2896,7 +4190,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I feel awkward."
+              "text": "And I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-59-004-001"
+            },
+            {
+              "type": "text",
+              "text": " awkward."
             }
           ]
         }
@@ -2915,7 +4219,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel overwhelmed because at the time I'm still thinking okay maybe they will think why this Chinese girls right here what she's doing."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-60-001-001"
+            },
+            {
+              "type": "text",
+              "text": " overwhelmed because at the time I'm still thinking okay maybe they will think why this Chinese girls right here what she's doing."
             }
           ]
         },
@@ -2925,7 +4239,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And she doesn't even speak English I will think maybe he's judging me because I don't speak English he will think I'm dumb from first beginning that's all in my mind."
+              "text": "And she doesn't even speak English I will think maybe he's judging me because I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-60-002-001"
+            },
+            {
+              "type": "text",
+              "text": " speak English he will think I'm dumb from first beginning that's all in my mind."
             }
           ]
         },
@@ -2935,7 +4259,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But later I realized I started to speak more people actually they like to get to know me and when I see they have the interest for me I will try to express myself more."
+              "text": "But later I realized I started to speak more people "
+            },
+            {
+              "type": "usage",
+              "text": "actually",
+              "targetId": "usage-actually-actually",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-60-003-001"
+            },
+            {
+              "type": "text",
+              "text": " they like to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-60-003-002"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-60-003-003"
+            },
+            {
+              "type": "text",
+              "text": " me and when I see they have the interest for me I will try to express myself more."
             }
           ]
         },
@@ -2945,7 +4299,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I stopped thinking about okay they're going to judge me because my English is not perfect and they're always being very you know supportive."
+              "text": "And I stopped thinking about okay they're going to judge me because my English is not perfect and they're always being very you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-60-004-001"
+            },
+            {
+              "type": "text",
+              "text": " supportive."
             }
           ]
         }
@@ -3013,7 +4377,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Because the grammar is just the way you know um to pract uh to Express yourself as long as people understand you no matter what you're speaking you know that's the most important."
+              "text": "Because the grammar is just the way you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-62-001-001"
+            },
+            {
+              "type": "text",
+              "text": " um to pract uh to Express yourself as long as people understand you no matter what you're speaking you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-62-001-002"
+            },
+            {
+              "type": "text",
+              "text": " that's the most important."
             }
           ]
         },
@@ -3082,7 +4466,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then what do you think the reaction of a Chinese person would be?"
+              "text": "Then "
+            },
+            {
+              "type": "phrase",
+              "text": "what do you",
+              "targetId": "phrase-what-do-you",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-63-003-001"
+            },
+            {
+              "type": "text",
+              "text": " think the reaction of a Chinese person would be?"
             }
           ]
         },
@@ -3209,7 +4603,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Uh like you don't have your own business to do."
+              "text": "Uh like you "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-66-001-001"
+            },
+            {
+              "type": "text",
+              "text": " have your own business to do."
             }
           ]
         },
@@ -3229,7 +4633,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But sometimes um from some region people are very talkative especially for the elderly they like to talk a lot."
+              "text": "But sometimes um from some region people are very talkative "
+            },
+            {
+              "type": "word",
+              "text": "especially",
+              "targetId": "word-especially",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-66-003-001"
+            },
+            {
+              "type": "text",
+              "text": " for the elderly they like to talk a lot."
             }
           ]
         },
@@ -3239,7 +4653,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "There was uh they will maybe you met in the elevator they will ask you oh where did you get this back?"
+              "text": "There was uh they will maybe you met in the elevator they will ask you oh where did you "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-66-004-001"
+            },
+            {
+              "type": "text",
+              "text": " this back?"
             }
           ]
         }
@@ -3258,7 +4682,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You know, sometimes they do, but usually people don't do small talk with you."
+              "text": "You "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-67-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", sometimes they do, but usually people "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-67-001-002"
+            },
+            {
+              "type": "text",
+              "text": " do small talk with you."
             }
           ]
         },
@@ -3268,7 +4712,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They don't talk with you."
+              "text": "They "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-67-002-001"
+            },
+            {
+              "type": "text",
+              "text": " talk with you."
             }
           ]
         },
@@ -3435,7 +4889,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And the third time I actually worked there."
+              "text": "And the third time I "
+            },
+            {
+              "type": "usage",
+              "text": "actually",
+              "targetId": "usage-actually-actually",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-70-004-001"
+            },
+            {
+              "type": "text",
+              "text": " worked there."
             }
           ]
         }
@@ -3454,7 +4918,47 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I was doing the working holiday because at the time I really want to get an opportunity to like you know work abroad to practice more my English and also get better paid."
+              "text": "I was doing the working holiday because at the time I really want to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-71-001-001"
+            },
+            {
+              "type": "text",
+              "text": " an "
+            },
+            {
+              "type": "word",
+              "text": "opportunity",
+              "targetId": "word-opportunity",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-71-001-002"
+            },
+            {
+              "type": "text",
+              "text": " to like you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-71-001-003"
+            },
+            {
+              "type": "text",
+              "text": " work abroad to practice more my English and also "
+            },
+            {
+              "type": "phrase",
+              "text": "get better",
+              "targetId": "phrase-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-71-001-004"
+            },
+            {
+              "type": "text",
+              "text": " paid."
             }
           ]
         },
@@ -3552,7 +5056,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But I just feel like oh my god the air is so fresh because there's no factory you know so I feel the air is."
+              "text": "But I just "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-73-001-001"
+            },
+            {
+              "type": "text",
+              "text": " like oh my god the air is so fresh because there's no factory you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-73-001-002"
+            },
+            {
+              "type": "text",
+              "text": " so I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-73-001-003"
+            },
+            {
+              "type": "text",
+              "text": " the air is."
             }
           ]
         },
@@ -3562,7 +5096,47 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So fresh and also I feel like I don't know I feel so free because we do have a lot of restrictions back to China."
+              "text": "So fresh and also I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-73-002-001"
+            },
+            {
+              "type": "text",
+              "text": " like I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-73-002-002"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-73-002-003"
+            },
+            {
+              "type": "text",
+              "text": " I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-73-002-004"
+            },
+            {
+              "type": "text",
+              "text": " so free because we do have a lot of restrictions back to China."
             }
           ]
         },
@@ -3572,7 +5146,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Uh even like we're still very free but just like for example I cannot use Google I cannot use like you know Instagram in China."
+              "text": "Uh even like we're still very free but just like for example I cannot use Google I cannot use like you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-73-003-001"
+            },
+            {
+              "type": "text",
+              "text": " Instagram in China."
             }
           ]
         },
@@ -3582,7 +5166,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But here I can just use everything I wanted to use so I feel like uh and you can say whatever you want to say."
+              "text": "But here I can just use everything I wanted to use so I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-73-004-001"
+            },
+            {
+              "type": "text",
+              "text": " like uh and you can say whatever you want to say."
             }
           ]
         }
@@ -3611,7 +5205,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think sometimes people are too nice, you know, cuz for Chinese, we're very direct."
+              "text": "I think sometimes people are too nice, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-74-002-001"
+            },
+            {
+              "type": "text",
+              "text": ", cuz for Chinese, we're very direct."
             }
           ]
         },
@@ -3631,7 +5235,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If I don't like you, I'm just going to be polite."
+              "text": "If I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-74-004-001"
+            },
+            {
+              "type": "text",
+              "text": " like you, I'm just going to be polite."
             }
           ]
         }
@@ -3660,7 +5274,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If I don't feel that way, I will never say that in Chinese."
+              "text": "If I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-75-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-75-002-002"
+            },
+            {
+              "type": "text",
+              "text": " that way, I will never say that in Chinese."
             }
           ]
         },
@@ -3719,7 +5353,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And then you realize, \"Oh, maybe for them, they don't think the same.\""
+              "text": "And then you realize, \"Oh, maybe for them, they "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-76-003-001"
+            },
+            {
+              "type": "text",
+              "text": " think the same.\""
             }
           ]
         },
@@ -3758,7 +5402,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And actually, they don't mean it."
+              "text": "And "
+            },
+            {
+              "type": "usage",
+              "text": "actually",
+              "targetId": "usage-actually-actually",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-77-002-001"
+            },
+            {
+              "type": "text",
+              "text": ", they "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-77-002-002"
+            },
+            {
+              "type": "text",
+              "text": " mean it."
             }
           ]
         },
@@ -3797,7 +5461,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They want to be always being, you know, encouraging."
+              "text": "They want to be always being, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-78-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", encouraging."
             }
           ]
         },
@@ -3807,7 +5481,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But maybe they just think I'm boring at the time because I don't speak that much English and like why do they wanted to know me, you know?"
+              "text": "But maybe they just think I'm boring at the time because I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-78-002-001"
+            },
+            {
+              "type": "text",
+              "text": " speak that much English and like why do they wanted to "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-78-002-002"
+            },
+            {
+              "type": "text",
+              "text": " me, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-78-002-003"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -3817,7 +5521,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But it's just sometimes I can't know if people really mean what they say."
+              "text": "But it's just sometimes I can't "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-78-003-001"
+            },
+            {
+              "type": "text",
+              "text": " if people really mean what they say."
             }
           ]
         },
@@ -3925,7 +5639,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I was very enthusiastic with them but it wasn't something that they gave back to me and it was strange cuz I thought maybe they really don't like me."
+              "text": "And I was very enthusiastic with them but it wasn't something that they gave back to me and it was strange cuz I thought maybe they really "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-80-004-001"
+            },
+            {
+              "type": "text",
+              "text": " like me."
             }
           ]
         }
@@ -3944,7 +5668,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Because if someone in the United States or Mexico behaves that way with you it's because they really don't like you."
+              "text": "Because if someone in the United States or Mexico behaves that way with you it's because they really "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-81-001-001"
+            },
+            {
+              "type": "text",
+              "text": " like you."
             }
           ]
         },
@@ -3974,7 +5708,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, for me, that was a big maybe culture shock when I visited China because they're very like, oh, you know."
+              "text": "So, for me, that was a big maybe culture shock when I visited China because they're very like, oh, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-81-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -4003,7 +5747,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Cuz I think when Chinese people says like, you know, they're very welcoming, they show their like your passion to you, that means they really like you."
+              "text": "Cuz I think when Chinese people says like, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-82-002-001"
+            },
+            {
+              "type": "text",
+              "text": ", they're very welcoming, they show their like your passion to you, that means they really like you."
             }
           ]
         },
@@ -4062,7 +5816,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They're very like, you know, bumping to you and say a lot of things."
+              "text": "They're very like, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-83-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", bumping to you and say a lot of things."
             }
           ]
         },
@@ -4072,7 +5836,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We like to watch observe and to see, okay, how's the situation right now and how should I react?"
+              "text": "We like to watch observe and to see, okay, how's the situation "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-83-004-001"
+            },
+            {
+              "type": "text",
+              "text": " and how should I react?"
             }
           ]
         }
@@ -4111,7 +5885,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I know we're more into like our own business like I what I said like we don't do small talk so we'll be like okay you do your own bit business I do mine yeah."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-84-003-001"
+            },
+            {
+              "type": "text",
+              "text": " we're more into like our own business like I what I said like we "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-84-003-002"
+            },
+            {
+              "type": "text",
+              "text": " do small talk so we'll be like okay you do your own bit business I do mine yeah."
             }
           ]
         },
@@ -4209,7 +6003,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Um for me right now I'm doing my jewelry design and also colleies from over the world."
+              "text": "Um for me "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-86-003-001"
+            },
+            {
+              "type": "text",
+              "text": " I'm doing my jewelry design and also colleies from over the world."
             }
           ]
         },
@@ -4307,7 +6111,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "For them for me talking to them is like you're objecting yourself you know I was like observing myself what do I really like what's my passion for what I want to do in my life."
+              "text": "For them for me talking to them is like you're objecting yourself you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-88-003-001"
+            },
+            {
+              "type": "text",
+              "text": " I was like observing myself what do I really like what's my passion for what I want to do in my life."
             }
           ]
         },
@@ -4336,7 +6150,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So why don't uh why don't I just start something with fashion and because I noticed along the way I'm always making necklaces."
+              "text": "So why "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-89-001-001"
+            },
+            {
+              "type": "text",
+              "text": " uh why "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-89-001-002"
+            },
+            {
+              "type": "text",
+              "text": " I just start something with fashion and because I noticed along the way I'm always making necklaces."
             }
           ]
         },
@@ -4346,7 +6180,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'm also, you know, collecting all the beautiful jewelries."
+              "text": "I'm also, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-89-002-001"
+            },
+            {
+              "type": "text",
+              "text": ", collecting all the beautiful jewelries."
             }
           ]
         },
@@ -4356,7 +6200,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So that's why right now I start everything and I put a lot of meaning on it."
+              "text": "So that's why "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-89-003-001"
+            },
+            {
+              "type": "text",
+              "text": " I start everything and I put a lot of meaning on it."
             }
           ]
         },
@@ -4493,7 +6347,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I actually gave this one to my friend as a gift and at the time I didn't know I'm going to make jewelries in the future."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "actually",
+              "targetId": "usage-actually-actually",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-92-002-001"
+            },
+            {
+              "type": "text",
+              "text": " gave this one to my friend as a gift and at the time I didn't "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-92-002-002"
+            },
+            {
+              "type": "text",
+              "text": " I'm going to make jewelries in the future."
             }
           ]
         },
@@ -4503,7 +6377,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I told her uh like you can shine like a diamond because I I feel like she's so beautiful."
+              "text": "And I told her uh like you can shine like a diamond because I I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-92-003-001"
+            },
+            {
+              "type": "text",
+              "text": " like she's so beautiful."
             }
           ]
         },
@@ -4532,7 +6416,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So I give it to her and she told me why don't you just start something like you know with your fashion design with jewelries or collecting like all the beautiful things from over the world."
+              "text": "So I give it to her and she told me why "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-93-001-001"
+            },
+            {
+              "type": "text",
+              "text": " you just start something like you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-93-001-002"
+            },
+            {
+              "type": "text",
+              "text": " with your fashion design with jewelries or collecting like all the beautiful things from over the world."
             }
           ]
         },
@@ -4552,7 +6456,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "M so that's why right now I'm settling down in Mexico City and I'm trying to build up like everything like for my jewelries."
+              "text": "M so that's why "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-93-003-001"
+            },
+            {
+              "type": "text",
+              "text": " I'm settling down in Mexico City and I'm trying to build up like everything like for my jewelries."
             }
           ]
         },
@@ -4562,7 +6476,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And also beautiful things I collect from all over the world contain all the cultural things for example for the Chinese things like Chinese design we have some you know dragons like cloud we believe in some energy."
+              "text": "And also beautiful things I collect from all over the world contain all the cultural things for example for the Chinese things like Chinese design we have some you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-93-004-001"
+            },
+            {
+              "type": "text",
+              "text": " dragons like cloud we believe in some energy."
             }
           ]
         }
@@ -4581,7 +6505,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And elements you know so I just wanted to let people to know different cultures and in in my way like from my perspective."
+              "text": "And elements you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-94-001-001"
+            },
+            {
+              "type": "text",
+              "text": " so I just wanted to let people to "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-94-001-002"
+            },
+            {
+              "type": "text",
+              "text": " different cultures and in in my way like from my perspective."
             }
           ]
         },
@@ -4650,7 +6594,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Like right now, I have this flower."
+              "text": "Like "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-95-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", I have this flower."
             }
           ]
         },
@@ -4659,8 +6613,34 @@
           "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Actually",
+              "targetId": "usage-actually-actually",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-95-004-001"
+            },
+            {
               "type": "text",
-              "text": "Actually, I don't know the English name though."
+              "text": ", I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-95-004-002"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-95-004-003"
+            },
+            {
+              "type": "text",
+              "text": " the English name though."
             }
           ]
         }
@@ -4679,7 +6659,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Um, in Spanish, do you know it?"
+              "text": "Um, in Spanish, do you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-96-001-001"
+            },
+            {
+              "type": "text",
+              "text": " it?"
             }
           ]
         },
@@ -4826,7 +6816,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And if you didn't win this time, then don't worry."
+              "text": "And if you didn't win this time, then "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-99-001-001"
+            },
+            {
+              "type": "text",
+              "text": " worry."
             }
           ]
         },
@@ -4954,7 +6954,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Um, what do you think are your learning English goals now?"
+              "text": "Um, "
+            },
+            {
+              "type": "phrase",
+              "text": "what do you",
+              "targetId": "phrase-what-do-you",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-101-004-001"
+            },
+            {
+              "type": "text",
+              "text": " think are your learning English goals now?"
             }
           ]
         }
@@ -4973,7 +6983,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Now that you're at this level, now that you can have a conversation naturally with me, what's your next step?"
+              "text": "Now that you're at this level, now that you can have a "
+            },
+            {
+              "type": "word",
+              "text": "conversation",
+              "targetId": "word-conversation",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-102-001-001"
+            },
+            {
+              "type": "text",
+              "text": " naturally with me, what's your next step?"
             }
           ]
         },
@@ -4993,7 +7013,57 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "For me, right now, yeah, I'm comfortable speaking English right now, but I feel like there's still certain words, you know, I cannot express myself perfectly."
+              "text": "For me, "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-102-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", yeah, I'm "
+            },
+            {
+              "type": "word",
+              "text": "comfortable",
+              "targetId": "word-comfortable",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-102-003-002"
+            },
+            {
+              "type": "text",
+              "text": " speaking English "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-102-003-003"
+            },
+            {
+              "type": "text",
+              "text": ", but I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-102-003-004"
+            },
+            {
+              "type": "text",
+              "text": " like there's still certain words, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-102-003-005"
+            },
+            {
+              "type": "text",
+              "text": ", I cannot express myself perfectly."
             }
           ]
         },
@@ -5003,7 +7073,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I wanted to know how to become more native."
+              "text": "I wanted to "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-102-004-001"
+            },
+            {
+              "type": "text",
+              "text": " how to become more "
+            },
+            {
+              "type": "word",
+              "text": "native",
+              "targetId": "word-native",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-102-004-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -5022,7 +7112,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I would definitely still do shadowing when I'm, you know, watching like videos on YouTube."
+              "text": "So, I would definitely still do shadowing when I'm, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-103-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", watching like videos on YouTube."
             }
           ]
         },
@@ -5042,7 +7142,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And also, I wanted to become more professional in my field like a fashion field or because I don't know any vocabularies about like jewelries before."
+              "text": "And also, I wanted to become more professional in my field like a fashion field or because I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-103-003-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-103-003-002"
+            },
+            {
+              "type": "text",
+              "text": " any vocabularies about like jewelries before."
             }
           ]
         },
@@ -5052,7 +7172,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, right now I'm going to, you know, learn like get into it to learn more things about my field."
+              "text": "So, "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-103-004-001"
+            },
+            {
+              "type": "text",
+              "text": " I'm going to, you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-103-004-002"
+            },
+            {
+              "type": "text",
+              "text": ", learn like "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-103-004-003"
+            },
+            {
+              "type": "text",
+              "text": " into it to learn more things about my field."
             }
           ]
         }
@@ -5071,7 +7221,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Um yeah, I think this mainly my like English learning goal as for right now and I feel like you know learning a language is a lifelong journey."
+              "text": "Um yeah, I think this mainly my like English learning goal as for "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-104-001-001"
+            },
+            {
+              "type": "text",
+              "text": " and I "
+            },
+            {
+              "type": "word",
+              "text": "feel",
+              "targetId": "word-feel",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-104-001-002"
+            },
+            {
+              "type": "text",
+              "text": " like you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-104-001-003"
+            },
+            {
+              "type": "text",
+              "text": " learning a language is a lifelong journey."
             }
           ]
         },
@@ -5081,7 +7261,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You got to keep learning no matter how good you can speak because it's always something out there you don't know and you want to know."
+              "text": "You got to keep learning no matter how good you can speak because it's always something out there you "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-104-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-104-002-002"
+            },
+            {
+              "type": "text",
+              "text": " and you want to "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-104-002-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -5199,7 +7409,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And let me know in the comments if you guys want to see more interviews with Olivia."
+              "text": "And let me "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch17-how-she-became-fluent-in-english-intermediate-listening-practice-scene-106-004-001"
+            },
+            {
+              "type": "text",
+              "text": " in the comments if you guys want to see more interviews with Olivia."
             }
           ]
         }
@@ -5570,5 +7790,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b2",
+    "slug": "ch17-how-she-became-fluent-in-english-intermediate-listening-practice",
+    "sourcePath": "_private/tmp/originalContent/b2/ch17-how-she-became-fluent-in-english-intermediate-listening-practice.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b2/ch17-how-she-became-fluent-in-english-intermediate-listening-practice.md"
+  }
 }

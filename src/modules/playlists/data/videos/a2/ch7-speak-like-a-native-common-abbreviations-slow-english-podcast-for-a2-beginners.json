@@ -251,7 +251,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Another abbreviation, you are would be you're very good at dancing."
+              "text": "Another "
+            },
+            {
+              "type": "word",
+              "text": "abbreviation",
+              "targetId": "word-abbreviation",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-04-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", you are would be you're very good at dancing."
             }
           ]
         },
@@ -545,7 +555,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then got to we pronounce as gota."
+              "text": "Then got to we "
+            },
+            {
+              "type": "word",
+              "text": "pronounce",
+              "targetId": "word-pronounce",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-10-003-001"
+            },
+            {
+              "type": "text",
+              "text": " as gota."
             }
           ]
         },
@@ -594,7 +614,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I've got to go work now."
+              "text": "I've got "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-11-001-001"
+            },
+            {
+              "type": "text",
+              "text": " work now."
             }
           ]
         },
@@ -624,7 +654,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Want to is another very common abbreviation."
+              "text": "Want to is another very common "
+            },
+            {
+              "type": "word",
+              "text": "abbreviation",
+              "targetId": "word-abbreviation",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-11-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -643,7 +683,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I want to go home."
+              "text": "I want "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-12-001-001"
+            },
+            {
+              "type": "text",
+              "text": " home."
             }
           ]
         },
@@ -653,7 +703,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I w to go home."
+              "text": "I w "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " home."
             }
           ]
         },
@@ -708,7 +768,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Instead of saying have to, people often say hafta."
+              "text": "Instead of saying "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-13-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to, people often say hafta."
             }
           ]
         },
@@ -718,7 +788,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have to leave soon."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-13-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to leave soon."
             }
           ]
         },
@@ -728,7 +808,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have to leave soon."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-13-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to leave soon."
             }
           ]
         }
@@ -747,7 +837,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have to call my friend."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-14-001-001"
+            },
+            {
+              "type": "text",
+              "text": " to call my friend."
             }
           ]
         },
@@ -757,7 +857,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have to call my friend."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-14-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to call my friend."
             }
           ]
         },
@@ -816,7 +926,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "How would you say I am going to go to the store?"
+              "text": "How would you say I am going "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-15-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to the store?"
             }
           ]
         },
@@ -826,7 +946,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "A fast way of saying that I'm going to go to the store."
+              "text": "A fast way of saying that I'm going "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-15-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to the store."
             }
           ]
         }
@@ -845,7 +975,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Could have."
+              "text": "Could "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-16-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -865,7 +1005,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I could have gone to the party if it was earlier."
+              "text": "I could "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-16-003-001"
+            },
+            {
+              "type": "text",
+              "text": " gone to the party if it was earlier."
             }
           ]
         },
@@ -875,7 +1025,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I could have gone to the party if it was earlier."
+              "text": "I could "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-16-004-001"
+            },
+            {
+              "type": "text",
+              "text": " gone to the party if it was earlier."
             }
           ]
         }
@@ -894,7 +1054,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "How would you say I could have helped you?"
+              "text": "How would you say I could "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-17-001-001"
+            },
+            {
+              "type": "text",
+              "text": " helped you?"
             }
           ]
         },
@@ -904,7 +1074,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I could have helped you."
+              "text": "I could "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-17-002-001"
+            },
+            {
+              "type": "text",
+              "text": " helped you."
             }
           ]
         },
@@ -914,7 +1094,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Also, when we use should have, we abbreviate it should have."
+              "text": "Also, when we use should "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-17-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", we abbreviate it should "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-17-003-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -924,7 +1124,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "She should have come to my house."
+              "text": "She should "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": " come to my house."
             }
           ]
         }
@@ -943,7 +1153,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "She should have come to my house."
+              "text": "She should "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": " come to my house."
             }
           ]
         },
@@ -953,7 +1173,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I should have called you."
+              "text": "I should "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-18-002-001"
+            },
+            {
+              "type": "text",
+              "text": " called you."
             }
           ]
         },
@@ -963,7 +1193,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I should have called you."
+              "text": "I should "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-18-003-001"
+            },
+            {
+              "type": "text",
+              "text": " called you."
             }
           ]
         },
@@ -973,7 +1213,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "How would you say I should have studied for the test?"
+              "text": "How would you say I should "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-18-004-001"
+            },
+            {
+              "type": "text",
+              "text": " studied for the test?"
             }
           ]
         }
@@ -992,7 +1242,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I should have studied for the test."
+              "text": "I should "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-19-001-001"
+            },
+            {
+              "type": "text",
+              "text": " studied for the test."
             }
           ]
         },
@@ -1002,7 +1262,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Another abbreviation."
+              "text": "Another "
+            },
+            {
+              "type": "word",
+              "text": "abbreviation",
+              "targetId": "word-abbreviation",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-19-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1247,7 +1517,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When we say probably, we normally pronounce it probably."
+              "text": "When we say probably, we normally "
+            },
+            {
+              "type": "word",
+              "text": "pronounce",
+              "targetId": "word-pronounce",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-24-002-001"
+            },
+            {
+              "type": "text",
+              "text": " it probably."
             }
           ]
         },
@@ -1365,7 +1645,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And also some important abbreviations through text like btw means by the way."
+              "text": "And also some important "
+            },
+            {
+              "type": "word",
+              "text": "abbreviations",
+              "targetId": "word-abbreviation",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-26-004-001"
+            },
+            {
+              "type": "text",
+              "text": " through text like btw means by the way."
             }
           ]
         }
@@ -1394,7 +1684,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "By the way, I won't be able to go to school tomorrow."
+              "text": "By the way, I won't be able "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-27-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to school tomorrow."
             }
           ]
         },
@@ -1463,7 +1763,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Listen to a story of my trip while using different abbreviations in example sentences."
+              "text": "Listen to a story of my trip while using different "
+            },
+            {
+              "type": "word",
+              "text": "abbreviations",
+              "targetId": "word-abbreviation",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-28-004-001"
+            },
+            {
+              "type": "text",
+              "text": " in example sentences."
             }
           ]
         }
@@ -1482,7 +1792,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Practice hearing them in a normal conversation."
+              "text": "Practice hearing them in a normal "
+            },
+            {
+              "type": "word",
+              "text": "conversation",
+              "targetId": "word-conversation",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-29-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1561,7 +1881,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I realized later that I should have booked a ticket earlier because arriving in a new city at 1:00 a.m. is not a good idea."
+              "text": "I realized later that I should "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-30-003-001"
+            },
+            {
+              "type": "text",
+              "text": " booked a ticket earlier because arriving in a new city at 1:00 a.m. is not a good idea."
             }
           ]
         },
@@ -1600,7 +1930,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When you're in a new country, you have to be precautious."
+              "text": "When you're in a new country, you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-31-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to be precautious."
             }
           ]
         },
@@ -1610,7 +1950,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "No matter where you travel to or where you're coming from, you have to be careful."
+              "text": "No matter where you travel to or where you're coming from, you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-31-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to be careful."
             }
           ]
         },
@@ -1620,7 +1970,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Since I arrived so late, I talked to a couple of people at the airport and I said, \"I don't know where I should wait for my Uber."
+              "text": "Since I arrived so late, I talked to a couple of people at the "
+            },
+            {
+              "type": "word",
+              "text": "airport",
+              "targetId": "word-airport",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-31-004-001"
+            },
+            {
+              "type": "text",
+              "text": " and I said, \"I don't know where I should wait for my Uber."
             }
           ]
         }
@@ -1659,7 +2019,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I could have asked a few different people that were sitting, but I decided to ask an older lady for directions."
+              "text": "I could "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-32-002-001"
+            },
+            {
+              "type": "text",
+              "text": " asked a few different people that were sitting, but I decided to ask an older lady for directions."
             }
           ]
         },
@@ -1679,7 +2049,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "She told me, \"You got to walk to the end of the airport and follow the yellow lines."
+              "text": "She told me, \"You got to walk to the end of the "
+            },
+            {
+              "type": "word",
+              "text": "airport",
+              "targetId": "word-airport",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-32-004-001"
+            },
+            {
+              "type": "text",
+              "text": " and follow the yellow lines."
             }
           ]
         }
@@ -1728,7 +2108,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'd prefer to take an Uber.\""
+              "text": "I'd prefer to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-33-003-001"
+            },
+            {
+              "type": "text",
+              "text": " an Uber.\""
             }
           ]
         },
@@ -1777,7 +2167,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I probably arrived around 100 a.m. to the international airport of Rio, Brazil."
+              "text": "I probably arrived around 100 a.m. to the international "
+            },
+            {
+              "type": "word",
+              "text": "airport",
+              "targetId": "word-airport",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-34-003-001"
+            },
+            {
+              "type": "text",
+              "text": " of Rio, Brazil."
             }
           ]
         },
@@ -1787,7 +2187,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I realize I should have booked an earlier ticket because arriving in a new city at 1 a.m. is never a good idea cuz you never know what the taxi situation is like."
+              "text": "I realize I should "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-34-004-001"
+            },
+            {
+              "type": "text",
+              "text": " booked an earlier ticket because arriving in a new city at 1 a.m. is never a good idea cuz you never know what the taxi situation is like."
             }
           ]
         }
@@ -1816,7 +2226,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When you're in a new country, you have to be precautious."
+              "text": "When you're in a new country, you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-35-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to be precautious."
             }
           ]
         },
@@ -1826,7 +2246,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "No matter where you are or where you're coming from, you have to be very careful."
+              "text": "No matter where you are or where you're coming from, you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-35-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to be very careful."
             }
           ]
         },
@@ -1836,7 +2266,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Since I arrived so late, I talked to a couple of people at the airport and I said, \"I don't know where I should wait for my Uber."
+              "text": "Since I arrived so late, I talked to a couple of people at the "
+            },
+            {
+              "type": "word",
+              "text": "airport",
+              "targetId": "word-airport",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-35-004-001"
+            },
+            {
+              "type": "text",
+              "text": " and I said, \"I don't know where I should wait for my Uber."
             }
           ]
         }
@@ -1855,7 +2295,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Could you possibly point me in the right direction?\"?"
+              "text": "Could you possibly "
+            },
+            {
+              "type": "phrase",
+              "text": "point me in the right direction",
+              "targetId": "phrase-point-me-in-the-right-direction",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-36-001-001"
+            },
+            {
+              "type": "text",
+              "text": "?\"?"
             }
           ]
         },
@@ -1865,7 +2315,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I could have asked a few people sitting, but I decided to ask an older lady."
+              "text": "I could "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-36-002-001"
+            },
+            {
+              "type": "text",
+              "text": " asked a few people sitting, but I decided to ask an older lady."
             }
           ]
         },
@@ -1885,7 +2345,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "She told me, \"You got to walk to the end of the airport and follow the yellow lines."
+              "text": "She told me, \"You got to walk to the end of the "
+            },
+            {
+              "type": "word",
+              "text": "airport",
+              "targetId": "word-airport",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-36-004-001"
+            },
+            {
+              "type": "text",
+              "text": " and follow the yellow lines."
             }
           ]
         }
@@ -1914,7 +2384,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I told her, \"I don't want to take a taxi."
+              "text": "I told her, \"I don't want to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-37-002-001"
+            },
+            {
+              "type": "text",
+              "text": " a taxi."
             }
           ]
         },
@@ -1924,7 +2404,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'd prefer to take an Uber.\""
+              "text": "I'd prefer to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-37-003-001"
+            },
+            {
+              "type": "text",
+              "text": " an Uber.\""
             }
           ]
         },
@@ -1973,7 +2463,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "These are just a few examples of some common abbreviations we use in English."
+              "text": "These are just a few examples of some common "
+            },
+            {
+              "type": "word",
+              "text": "abbreviations",
+              "targetId": "word-abbreviation",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-38-003-001"
+            },
+            {
+              "type": "text",
+              "text": " we use in English."
             }
           ]
         },
@@ -2002,7 +2502,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I encourage you to listen for these abbreviations and phrases in every movie, show, or conversation that you hear."
+              "text": "I encourage you to listen for these "
+            },
+            {
+              "type": "word",
+              "text": "abbreviations",
+              "targetId": "word-abbreviation",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-39-001-001"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "phrases",
+              "targetId": "word-phrase",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-39-001-002"
+            },
+            {
+              "type": "text",
+              "text": " in every movie, show, or "
+            },
+            {
+              "type": "word",
+              "text": "conversation",
+              "targetId": "word-conversation",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-39-001-003"
+            },
+            {
+              "type": "text",
+              "text": " that you hear."
             }
           ]
         },
@@ -2022,7 +2552,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Don't forget to answer the practice questions out loud and try and use these abbreviations when you talk with others."
+              "text": "Don't forget to answer the practice questions out loud and try and use these "
+            },
+            {
+              "type": "word",
+              "text": "abbreviations",
+              "targetId": "word-abbreviation",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-scene-39-003-001"
+            },
+            {
+              "type": "text",
+              "text": " when you talk with others."
             }
           ]
         },
@@ -2298,5 +2838,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners",
+    "sourcePath": "_private/tmp/originalContent/a2/ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners.md"
+  }
 }

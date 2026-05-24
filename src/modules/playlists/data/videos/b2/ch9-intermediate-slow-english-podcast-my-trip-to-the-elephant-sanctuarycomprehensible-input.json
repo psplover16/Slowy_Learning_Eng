@@ -23,8 +23,14 @@
           "tc": "歡迎回到我的慢速英語podcast。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "Welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-01-001-001"
+            },
+            {
               "type": "text",
-              "text": "Welcome back to my Slow English podcast."
+              "text": " to my Slow English podcast."
             }
           ]
         },
@@ -44,7 +50,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Today I want to tell you about my trip to the elephant sanctuary in Chiang Mai, Thailand."
+              "text": "Today I "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-01-003-001"
+            },
+            {
+              "type": "text",
+              "text": " tell you about my trip to the "
+            },
+            {
+              "type": "word",
+              "text": "elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-01-003-002"
+            },
+            {
+              "type": "text",
+              "text": " sanctuary in Chiang Mai, Thailand."
             }
           ]
         },
@@ -93,7 +119,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have always dreamed of traveling to Thailand someday to see the elephants."
+              "text": "I have always dreamed of traveling to Thailand someday to "
+            },
+            {
+              "type": "word",
+              "text": "see",
+              "targetId": "word-see",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-02-003-001"
+            },
+            {
+              "type": "text",
+              "text": " the "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-02-003-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -103,7 +149,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Ever since I was a little girl,."
+              "text": "Ever since I was a "
+            },
+            {
+              "type": "word",
+              "text": "little",
+              "targetId": "word-little",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-02-004-001"
+            },
+            {
+              "type": "text",
+              "text": " girl,."
             }
           ]
         }
@@ -122,7 +178,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have loved elephants."
+              "text": "I have loved "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-03-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -131,8 +197,34 @@
           "tc": "大象毛絨動物、大象圖畫、大象浴簾。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-03-002-001"
+            },
+            {
               "type": "text",
-              "text": "Elephant stuffed animals, elephant drawings, elephant shower curtains."
+              "text": " stuffed animals, "
+            },
+            {
+              "type": "word",
+              "text": "elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-03-002-002"
+            },
+            {
+              "type": "text",
+              "text": " drawings, "
+            },
+            {
+              "type": "word",
+              "text": "elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-03-002-003"
+            },
+            {
+              "type": "text",
+              "text": " shower curtains."
             }
           ]
         },
@@ -142,7 +234,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I absolutely adored elephants."
+              "text": "I absolutely adored "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-03-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -152,7 +254,47 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then when I grew up and I realized you could see elephants, hang out with elephants and feed them in Thailand."
+              "text": "Then when I grew up and I realized you could "
+            },
+            {
+              "type": "word",
+              "text": "see",
+              "targetId": "word-see",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-03-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-03-004-002"
+            },
+            {
+              "type": "text",
+              "text": ", hang out with "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-03-004-003"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "feed",
+              "targetId": "word-feed",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-03-004-004"
+            },
+            {
+              "type": "text",
+              "text": " them in Thailand."
             }
           ]
         }
@@ -181,7 +323,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I dreamed of interacting close up with an elephant."
+              "text": "I dreamed of interacting close up with an "
+            },
+            {
+              "type": "word",
+              "text": "elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-04-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -191,7 +343,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Sanctuaries are facilities that provide elephants with a safe and natural environment for them to stay."
+              "text": "Sanctuaries are facilities that provide "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-04-003-001"
+            },
+            {
+              "type": "text",
+              "text": " with a safe and natural environment for them to stay."
             }
           ]
         },
@@ -200,8 +362,14 @@
           "tc": "這些設施。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "These",
+              "targetId": "word-these",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-04-004-001"
+            },
+            {
               "type": "text",
-              "text": "These facilities."
+              "text": " facilities."
             }
           ]
         }
@@ -220,7 +388,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Rescue elephants from being exploited."
+              "text": "Rescue "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-05-001-001"
+            },
+            {
+              "type": "text",
+              "text": " from being exploited."
             }
           ]
         },
@@ -240,7 +418,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And by visiting these elephant sanctuaries,."
+              "text": "And by visiting "
+            },
+            {
+              "type": "word",
+              "text": "these",
+              "targetId": "word-these",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-05-003-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-05-003-002"
+            },
+            {
+              "type": "text",
+              "text": " sanctuaries,."
             }
           ]
         },
@@ -250,7 +448,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You can support these organizations and help these elephants to live a better and happier life."
+              "text": "You can support "
+            },
+            {
+              "type": "word",
+              "text": "these",
+              "targetId": "word-these",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-05-004-001"
+            },
+            {
+              "type": "text",
+              "text": " organizations and help "
+            },
+            {
+              "type": "word",
+              "text": "these",
+              "targetId": "word-these",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-05-004-002"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-05-004-003"
+            },
+            {
+              "type": "text",
+              "text": " to live a better and happier life."
             }
           ]
         }
@@ -279,7 +507,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I could see one close up."
+              "text": "I could "
+            },
+            {
+              "type": "word",
+              "text": "see",
+              "targetId": "word-see",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-06-002-001"
+            },
+            {
+              "type": "text",
+              "text": " one close up."
             }
           ]
         },
@@ -367,7 +605,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I had to visit an elephant sanctuary."
+              "text": "I had to visit an "
+            },
+            {
+              "type": "word",
+              "text": "elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-08-001-001"
+            },
+            {
+              "type": "text",
+              "text": " sanctuary."
             }
           ]
         },
@@ -387,7 +635,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I had to interact with an elephant close up this time."
+              "text": "I had to interact with an "
+            },
+            {
+              "type": "word",
+              "text": "elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-08-003-001"
+            },
+            {
+              "type": "text",
+              "text": " close up this time."
             }
           ]
         },
@@ -465,7 +723,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It made me feel a little bit dizzy."
+              "text": "It made me feel a "
+            },
+            {
+              "type": "word",
+              "text": "little",
+              "targetId": "word-little",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-10-001-001"
+            },
+            {
+              "type": "text",
+              "text": " bit dizzy."
             }
           ]
         },
@@ -475,7 +743,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You could see the garden from the balcony."
+              "text": "You could "
+            },
+            {
+              "type": "word",
+              "text": "see",
+              "targetId": "word-see",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-10-002-001"
+            },
+            {
+              "type": "text",
+              "text": " the garden from the balcony."
             }
           ]
         },
@@ -485,7 +763,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And it had the cutest little window."
+              "text": "And it had the cutest "
+            },
+            {
+              "type": "word",
+              "text": "little",
+              "targetId": "word-little",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-10-003-001"
+            },
+            {
+              "type": "text",
+              "text": " window."
             }
           ]
         },
@@ -534,7 +822,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Where you could eat with elephants right?"
+              "text": "Where you could "
+            },
+            {
+              "type": "word",
+              "text": "eat",
+              "targetId": "word-eat",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-11-003-001"
+            },
+            {
+              "type": "text",
+              "text": " with "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-11-003-002"
+            },
+            {
+              "type": "text",
+              "text": " right?"
             }
           ]
         },
@@ -563,7 +871,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "There was the mama elephant called Mo."
+              "text": "There was the mama "
+            },
+            {
+              "type": "word",
+              "text": "elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-12-001-001"
+            },
+            {
+              "type": "text",
+              "text": " called Mo."
             }
           ]
         },
@@ -593,7 +911,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "She had an impressive way of standing out from all the other elephants."
+              "text": "She had an impressive way of standing out from all the other "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-12-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -612,7 +940,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Even the very big elephants didn't stand out as much as."
+              "text": "Even the very big "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-13-001-001"
+            },
+            {
+              "type": "text",
+              "text": " didn't stand out as much as."
             }
           ]
         },
@@ -671,7 +1009,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You could feed the elephants bananas."
+              "text": "You could "
+            },
+            {
+              "type": "word",
+              "text": "feed",
+              "targetId": "word-feed",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-14-002-001"
+            },
+            {
+              "type": "text",
+              "text": " the "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-14-002-002"
+            },
+            {
+              "type": "text",
+              "text": " bananas."
             }
           ]
         },
@@ -710,7 +1068,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "She would eat all the bananas."
+              "text": "She would "
+            },
+            {
+              "type": "word",
+              "text": "eat",
+              "targetId": "word-eat",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-15-001-001"
+            },
+            {
+              "type": "text",
+              "text": " all the bananas."
             }
           ]
         },
@@ -730,7 +1098,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Moipo and Mo wouldn't leave any bananas for poor little baby Desa."
+              "text": "Moipo and Mo wouldn't leave any bananas for poor "
+            },
+            {
+              "type": "word",
+              "text": "little",
+              "targetId": "word-little",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-15-003-001"
+            },
+            {
+              "type": "text",
+              "text": " baby Desa."
             }
           ]
         },
@@ -759,7 +1137,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You could tell everyone would try to feed baby Dea, but Mo and Mipo were so greedy."
+              "text": "You could tell everyone would "
+            },
+            {
+              "type": "phrase",
+              "text": "try to",
+              "targetId": "phrase-try-to",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-16-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "feed",
+              "targetId": "word-feed",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-16-001-002"
+            },
+            {
+              "type": "text",
+              "text": " baby Dea, but Mo and Mipo were so greedy."
             }
           ]
         },
@@ -779,7 +1177,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "First day at the elephant sanctuary."
+              "text": "First "
+            },
+            {
+              "type": "word",
+              "text": "day",
+              "targetId": "word-day",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-16-003-001"
+            },
+            {
+              "type": "text",
+              "text": " at the "
+            },
+            {
+              "type": "word",
+              "text": "elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-16-003-002"
+            },
+            {
+              "type": "text",
+              "text": " sanctuary."
             }
           ]
         },
@@ -808,7 +1226,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We head back to our bungalow to get some rest before our big day with the elephants."
+              "text": "We head back to our bungalow to get some rest before our big "
+            },
+            {
+              "type": "word",
+              "text": "day",
+              "targetId": "word-day",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-17-001-001"
+            },
+            {
+              "type": "text",
+              "text": " with the "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-17-001-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -828,7 +1266,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We woke up with elephants at our door."
+              "text": "We woke up with "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-17-003-001"
+            },
+            {
+              "type": "text",
+              "text": " at our door."
             }
           ]
         },
@@ -838,7 +1286,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Three huge elephants cruised past our window."
+              "text": "Three huge "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": " cruised past our window."
             }
           ]
         }
@@ -916,7 +1374,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We got to feed them a sweet treat."
+              "text": "We got to "
+            },
+            {
+              "type": "word",
+              "text": "feed",
+              "targetId": "word-feed",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-19-002-001"
+            },
+            {
+              "type": "text",
+              "text": " them a sweet treat."
             }
           ]
         },
@@ -935,8 +1403,14 @@
           "tc": "大象的胃是無限的。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-19-004-001"
+            },
+            {
               "type": "text",
-              "text": "Elephants stomachs are infinite."
+              "text": " stomachs are infinite."
             }
           ]
         }
@@ -955,7 +1429,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They could eat all day long."
+              "text": "They could "
+            },
+            {
+              "type": "word",
+              "text": "eat",
+              "targetId": "word-eat",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-20-001-001"
+            },
+            {
+              "type": "text",
+              "text": " all "
+            },
+            {
+              "type": "word",
+              "text": "day",
+              "targetId": "word-day",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-20-001-002"
+            },
+            {
+              "type": "text",
+              "text": " long."
             }
           ]
         },
@@ -1004,7 +1498,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They eat nothing but plants."
+              "text": "They "
+            },
+            {
+              "type": "word",
+              "text": "eat",
+              "targetId": "word-eat",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-21-001-001"
+            },
+            {
+              "type": "text",
+              "text": " nothing but plants."
             }
           ]
         },
@@ -1073,7 +1577,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They take care of the elephants."
+              "text": "They take care of the "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-22-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1083,7 +1597,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "He explained that elephants eat all day."
+              "text": "He explained that "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-22-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "eat",
+              "targetId": "word-eat",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-22-004-002"
+            },
+            {
+              "type": "text",
+              "text": " all "
+            },
+            {
+              "type": "word",
+              "text": "day",
+              "targetId": "word-day",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-22-004-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -1102,7 +1646,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They spend nearly 80% of their day eating."
+              "text": "They spend nearly 80% of their "
+            },
+            {
+              "type": "word",
+              "text": "day",
+              "targetId": "word-day",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-23-001-001"
+            },
+            {
+              "type": "text",
+              "text": " eating."
             }
           ]
         },
@@ -1112,7 +1666,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They peeled off all the rusty leaves to get to eat the good stuff inside."
+              "text": "They peeled off all the rusty leaves to get to "
+            },
+            {
+              "type": "word",
+              "text": "eat",
+              "targetId": "word-eat",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-23-002-001"
+            },
+            {
+              "type": "text",
+              "text": " the good stuff inside."
             }
           ]
         },
@@ -1132,7 +1696,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And these elephants were very happy."
+              "text": "And "
+            },
+            {
+              "type": "word",
+              "text": "these",
+              "targetId": "word-these",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-23-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-23-004-002"
+            },
+            {
+              "type": "text",
+              "text": " were very happy."
             }
           ]
         }
@@ -1151,7 +1735,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It was so compelling to see how their trunks are so strong, flexible, and incredibly sensitive."
+              "text": "It was so compelling to "
+            },
+            {
+              "type": "word",
+              "text": "see",
+              "targetId": "word-see",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-24-001-001"
+            },
+            {
+              "type": "text",
+              "text": " how their trunks are so strong, flexible, and incredibly sensitive."
             }
           ]
         },
@@ -1249,7 +1843,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We fed them these little yummy balls of nutrition."
+              "text": "We fed them "
+            },
+            {
+              "type": "word",
+              "text": "these",
+              "targetId": "word-these",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-26-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "little",
+              "targetId": "word-little",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-26-001-002"
+            },
+            {
+              "type": "text",
+              "text": " yummy balls of nutrition."
             }
           ]
         },
@@ -1269,7 +1883,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They got to eat bamboo."
+              "text": "They got to "
+            },
+            {
+              "type": "word",
+              "text": "eat",
+              "targetId": "word-eat",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-26-003-001"
+            },
+            {
+              "type": "text",
+              "text": " bamboo."
             }
           ]
         },
@@ -1279,7 +1903,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We got to feed them."
+              "text": "We got to "
+            },
+            {
+              "type": "word",
+              "text": "feed",
+              "targetId": "word-feed",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-26-004-001"
+            },
+            {
+              "type": "text",
+              "text": " them."
             }
           ]
         }
@@ -1298,7 +1932,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I loved feeding the elephants."
+              "text": "I loved feeding the "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-27-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1347,7 +1991,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My favorite part of interacting with the elephants."
+              "text": "My favorite part of interacting with the "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-28-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1406,7 +2060,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I can make more videos like these."
+              "text": "I can make more videos like "
+            },
+            {
+              "type": "word",
+              "text": "these",
+              "targetId": "word-these",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-29-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1416,7 +2080,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The elephant keepers were so playful with the elephants."
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-29-003-001"
+            },
+            {
+              "type": "text",
+              "text": " keepers were so playful with the "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-29-003-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1426,7 +2110,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You can tell this is an organization that really cares about the elephants and the workers."
+              "text": "You can tell this is an organization that really cares about the "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-29-004-001"
+            },
+            {
+              "type": "text",
+              "text": " and the workers."
             }
           ]
         }
@@ -1445,7 +2139,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It's a very heartwarming thing to see."
+              "text": "It's a very heartwarming thing to "
+            },
+            {
+              "type": "word",
+              "text": "see",
+              "targetId": "word-see",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-30-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1455,7 +2159,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "To see."
+              "text": "To "
+            },
+            {
+              "type": "word",
+              "text": "see",
+              "targetId": "word-see",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-30-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1465,7 +2179,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "How happy the elephants were and how happy the workers were to be with the elephants."
+              "text": "How happy the "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-30-003-001"
+            },
+            {
+              "type": "text",
+              "text": " were and how happy the workers were to be with the "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-30-003-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1612,7 +2346,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We bathed and swam with the elephants in the river."
+              "text": "We bathed and swam with the "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-33-003-001"
+            },
+            {
+              "type": "text",
+              "text": " in the river."
             }
           ]
         },
@@ -1622,7 +2366,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This interaction was super close up with the elephants."
+              "text": "This interaction was super close up with the "
+            },
+            {
+              "type": "word",
+              "text": "elephants",
+              "targetId": "word-elephants",
+              "instanceId": "marker-b2-ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-scene-33-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -1813,5 +2567,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b2",
+    "slug": "ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input",
+    "sourcePath": "_private/tmp/originalContent/b2/ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b2/ch9-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input.md"
+  }
 }

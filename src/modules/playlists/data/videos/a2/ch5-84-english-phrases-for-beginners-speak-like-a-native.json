@@ -188,8 +188,14 @@
           "tc": "好久不见。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "Long time no see",
+              "targetId": "phrase-long-time-no-see",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-02-004-001"
+            },
+            {
               "type": "text",
-              "text": "Long time no see."
+              "text": "."
             }
           ]
         }
@@ -243,8 +249,14 @@
           "tc": "怎麼樣了？",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "How's it going",
+              "targetId": "phrase-how-s-it-going",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-03-004-001"
+            },
+            {
               "type": "text",
-              "text": "How's it going?"
+              "text": "?"
             }
           ]
         }
@@ -262,8 +274,14 @@
           "tc": "怎麼樣了？",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "How's it going",
+              "targetId": "phrase-how-s-it-going",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-04-001-001"
+            },
+            {
               "type": "text",
-              "text": "How's it going?"
+              "text": "?"
             }
           ]
         },
@@ -337,8 +355,14 @@
           "tc": "這是怎麼回事？",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "What's up",
+              "targetId": "phrase-what-s-up",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-05-003-001"
+            },
+            {
               "type": "text",
-              "text": "What's up?"
+              "text": "?"
             }
           ]
         },
@@ -397,7 +421,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "How have you been?"
+              "text": "How "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-06-003-001"
+            },
+            {
+              "type": "text",
+              "text": " you been?"
             }
           ]
         },
@@ -490,8 +524,14 @@
           "tc": "不能抱怨。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "Can't complain",
+              "targetId": "phrase-can-t-complain",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-08-002-001"
+            },
+            {
               "type": "text",
-              "text": "Can't complain."
+              "text": "."
             }
           ]
         },
@@ -521,7 +561,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What do you do for a living?"
+              "text": "What do you do "
+            },
+            {
+              "type": "phrase",
+              "text": "for a living",
+              "targetId": "phrase-for-a-living",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-08-004-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         }
@@ -570,7 +620,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What have you been up to?"
+              "text": "What "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-09-004-001"
+            },
+            {
+              "type": "text",
+              "text": " you been up to?"
             }
           ]
         }
@@ -589,7 +649,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What have you been up to?"
+              "text": "What "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-10-001-001"
+            },
+            {
+              "type": "text",
+              "text": " you been up to?"
             }
           ]
         },
@@ -599,7 +669,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What have you been doing?"
+              "text": "What "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-10-002-001"
+            },
+            {
+              "type": "text",
+              "text": " you been doing?"
             }
           ]
         },
@@ -653,8 +733,14 @@
           "tc": "決不。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "No way",
+              "targetId": "phrase-no-way",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-11-002-001"
+            },
+            {
               "type": "text",
-              "text": "No way."
+              "text": "."
             }
           ]
         },
@@ -777,8 +863,14 @@
           "tc": "我不知道。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "I had no idea",
+              "targetId": "phrase-i-had-no-idea",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-13-004-001"
+            },
+            {
               "type": "text",
-              "text": "I had no idea."
+              "text": "."
             }
           ]
         }
@@ -796,8 +888,14 @@
           "tc": "我不知道。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "I had no idea",
+              "targetId": "phrase-i-had-no-idea",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-14-001-001"
+            },
+            {
               "type": "text",
-              "text": "I had no idea."
+              "text": "."
             }
           ]
         },
@@ -985,8 +1083,14 @@
           "tc": "你是什​​麼意思？",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "What do you mean",
+              "targetId": "phrase-what-do-you-mean",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-17-004-001"
+            },
+            {
               "type": "text",
-              "text": "What do you mean?"
+              "text": "?"
             }
           ]
         }
@@ -1025,7 +1129,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't get it."
+              "text": "I don't "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-18-002-001"
+            },
+            {
+              "type": "text",
+              "text": " it."
             }
           ]
         },
@@ -1241,7 +1355,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Yeah, I get you."
+              "text": "Yeah, I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-22-004-001"
+            },
+            {
+              "type": "text",
+              "text": " you."
             }
           ]
         }
@@ -1260,7 +1384,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Yeah, I get you."
+              "text": "Yeah, I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-23-001-001"
+            },
+            {
+              "type": "text",
+              "text": " you."
             }
           ]
         },
@@ -1398,7 +1532,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel the same way."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-25-004-001"
+            },
+            {
+              "type": "text",
+              "text": " the same way."
             }
           ]
         }
@@ -1417,7 +1561,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel the same way."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-26-001-001"
+            },
+            {
+              "type": "text",
+              "text": " the same way."
             }
           ]
         },
@@ -2084,7 +2238,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'll get back to you on that."
+              "text": "I'll "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-39-004-001"
+            },
+            {
+              "type": "text",
+              "text": " back to you on that."
             }
           ]
         }
@@ -2103,7 +2267,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'll get back to you on that."
+              "text": "I'll "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-40-001-001"
+            },
+            {
+              "type": "text",
+              "text": " back to you on that."
             }
           ]
         },
@@ -2123,7 +2297,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'll get back to you on that."
+              "text": "I'll "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-40-003-001"
+            },
+            {
+              "type": "text",
+              "text": " back to you on that."
             }
           ]
         },
@@ -2133,7 +2317,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Ordering food and drinks: I'll have a coffee, please."
+              "text": "Ordering food and drinks: I'll "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-40-004-001"
+            },
+            {
+              "type": "text",
+              "text": " a coffee, please."
             }
           ]
         }
@@ -2152,7 +2346,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'll have a coffee, please."
+              "text": "I'll "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-41-001-001"
+            },
+            {
+              "type": "text",
+              "text": " a coffee, please."
             }
           ]
         },
@@ -2162,7 +2366,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'll have a coffee, please."
+              "text": "I'll "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-41-002-001"
+            },
+            {
+              "type": "text",
+              "text": " a coffee, please."
             }
           ]
         },
@@ -2172,7 +2386,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Could I get the check, please?"
+              "text": "Could I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-41-003-001"
+            },
+            {
+              "type": "text",
+              "text": " the check, please?"
             }
           ]
         },
@@ -2211,7 +2435,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you have any recommendations?"
+              "text": "Do you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-42-001-001"
+            },
+            {
+              "type": "text",
+              "text": " any "
+            },
+            {
+              "type": "word",
+              "text": "recommendations",
+              "targetId": "word-recommendation",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-42-001-002"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -2221,7 +2465,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you have any recommendations?"
+              "text": "Do you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-42-002-001"
+            },
+            {
+              "type": "text",
+              "text": " any "
+            },
+            {
+              "type": "word",
+              "text": "recommendations",
+              "targetId": "word-recommendation",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-42-002-002"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -2251,7 +2515,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That looks delicious."
+              "text": "That looks "
+            },
+            {
+              "type": "word",
+              "text": "delicious",
+              "targetId": "word-deliciou",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-42-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -2270,7 +2544,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Can I get this to go?"
+              "text": "Can I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-43-001-001"
+            },
+            {
+              "type": "text",
+              "text": " this to go?"
             }
           ]
         },
@@ -2280,7 +2564,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Can I get this to go?"
+              "text": "Can I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-43-002-001"
+            },
+            {
+              "type": "text",
+              "text": " this to go?"
             }
           ]
         },
@@ -2310,7 +2604,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Asking for directions: Excuse me, how do I get to the library?"
+              "text": "Asking for directions: Excuse me, how do I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-43-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to the library?"
             }
           ]
         }
@@ -2329,7 +2633,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Excuse me, how do I get to the library?"
+              "text": "Excuse me, how do I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-44-001-001"
+            },
+            {
+              "type": "text",
+              "text": " to the library?"
             }
           ]
         },
@@ -2339,7 +2653,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Excuse me, how do I get to the library?"
+              "text": "Excuse me, how do I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-44-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to the library?"
             }
           ]
         },
@@ -2496,7 +2820,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Which way is downtown?"
+              "text": "Which way is "
+            },
+            {
+              "type": "word",
+              "text": "downtown",
+              "targetId": "word-downtown",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-47-002-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -2732,7 +3066,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Can I borrow your phone, please?"
+              "text": "Can I "
+            },
+            {
+              "type": "word",
+              "text": "borrow",
+              "targetId": "word-borrow",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-51-003-001"
+            },
+            {
+              "type": "text",
+              "text": " your phone, please?"
             }
           ]
         },
@@ -2770,8 +3114,14 @@
           "tc": "放輕松。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-52-002-001"
+            },
+            {
               "type": "text",
-              "text": "Take it easy."
+              "text": " it easy."
             }
           ]
         },
@@ -2780,8 +3130,14 @@
           "tc": "別緊張。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-52-003-001"
+            },
+            {
               "type": "text",
-              "text": "Take it easy."
+              "text": " it easy."
             }
           ]
         },
@@ -2858,8 +3214,14 @@
           "tc": "祝你過得愉快。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-54-001-001"
+            },
+            {
               "type": "text",
-              "text": "Have a good one."
+              "text": " a good one."
             }
           ]
         },
@@ -2868,8 +3230,14 @@
           "tc": "祝你過得愉快。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-54-002-001"
+            },
+            {
               "type": "text",
-              "text": "Have a good one."
+              "text": " a good one."
             }
           ]
         },
@@ -2927,8 +3295,14 @@
           "tc": "祝你有美好的一天。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch5-84-english-phrases-for-beginners-speak-like-a-native-scene-55-002-001"
+            },
+            {
               "type": "text",
-              "text": "Have a lovely day."
+              "text": " a lovely day."
             }
           ]
         },
@@ -3308,5 +3682,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch5-84-english-phrases-for-beginners-speak-like-a-native",
+    "sourcePath": "_private/tmp/originalContent/a2/ch5-84-english-phrases-for-beginners-speak-like-a-native.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch5-84-english-phrases-for-beginners-speak-like-a-native.md"
+  }
 }

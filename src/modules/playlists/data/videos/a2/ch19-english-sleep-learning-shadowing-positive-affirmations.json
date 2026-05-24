@@ -113,7 +113,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Now, repeat each affirmation in your mind or whisper if you're still awake."
+              "text": "Now, repeat each "
+            },
+            {
+              "type": "word",
+              "text": "affirmation",
+              "targetId": "word-affirmation",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-02-002-001"
+            },
+            {
+              "type": "text",
+              "text": " in your mind or whisper if you're still awake."
             }
           ]
         },
@@ -388,7 +398,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel calm and relaxed when I practice English."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-07-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-07-002-002"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "relaxed",
+              "targetId": "word-relaxed",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-07-002-003"
+            },
+            {
+              "type": "text",
+              "text": " when I practice English."
             }
           ]
         },
@@ -398,7 +438,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel calm and relaxed when I practice English."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-07-003-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-07-003-002"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "relaxed",
+              "targetId": "word-relaxed",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-07-003-003"
+            },
+            {
+              "type": "text",
+              "text": " when I practice English."
             }
           ]
         },
@@ -741,7 +811,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel calm and relaxed when I practice English."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-14-003-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-14-003-002"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "relaxed",
+              "targetId": "word-relaxed",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-14-003-003"
+            },
+            {
+              "type": "text",
+              "text": " when I practice English."
             }
           ]
         },
@@ -751,7 +851,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel calm and relaxed when I practice English."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-14-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-14-004-002"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "relaxed",
+              "targetId": "word-relaxed",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-14-004-003"
+            },
+            {
+              "type": "text",
+              "text": " when I practice English."
             }
           ]
         }
@@ -770,7 +900,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel calm and relaxed when I practice English."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-15-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-15-001-002"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "relaxed",
+              "targetId": "word-relaxed",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-15-001-003"
+            },
+            {
+              "type": "text",
+              "text": " when I practice English."
             }
           ]
         },
@@ -1113,7 +1273,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel calm and relaxed when I practice English."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-22-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-22-001-002"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "relaxed",
+              "targetId": "word-relaxed",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-22-001-003"
+            },
+            {
+              "type": "text",
+              "text": " when I practice English."
             }
           ]
         },
@@ -1123,7 +1313,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel calm and relaxed when I practice English."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-22-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-22-002-002"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "relaxed",
+              "targetId": "word-relaxed",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-22-002-003"
+            },
+            {
+              "type": "text",
+              "text": " when I practice English."
             }
           ]
         },
@@ -1133,7 +1353,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel calm and relaxed when I practice English."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-22-003-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-22-003-002"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "relaxed",
+              "targetId": "word-relaxed",
+              "instanceId": "marker-a2-ch19-english-sleep-learning-shadowing-positive-affirmations-scene-22-003-003"
+            },
+            {
+              "type": "text",
+              "text": " when I practice English."
             }
           ]
         },
@@ -1489,5 +1739,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch19-english-sleep-learning-shadowing-positive-affirmations",
+    "sourcePath": "_private/tmp/originalContent/a2/ch19-english-sleep-learning-shadowing-positive-affirmations.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch19-english-sleep-learning-shadowing-positive-affirmations.md"
+  }
 }

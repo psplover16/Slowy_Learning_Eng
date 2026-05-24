@@ -133,8 +133,14 @@
           "tc": "感恩意味着對生活中的美好事物表示感谢。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Gratitude",
+              "targetId": "word-gratitude",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-01-004-001"
+            },
+            {
               "type": "text",
-              "text": "Gratitude means to say thank you for good things in your life."
+              "text": " means to say thank you for good things in your life."
             }
           ]
         }
@@ -173,7 +179,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So you can practice gratitude with me every day while practicing your English listening and speaking."
+              "text": "So you can practice "
+            },
+            {
+              "type": "word",
+              "text": "gratitude",
+              "targetId": "word-gratitude",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-02-002-001"
+            },
+            {
+              "type": "text",
+              "text": " with me every day while practicing your English listening and speaking."
             }
           ]
         },
@@ -281,7 +297,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am worthy of love and kindness."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "worthy",
+              "targetId": "word-worthy",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-04-001-001"
+            },
+            {
+              "type": "text",
+              "text": " of love and "
+            },
+            {
+              "type": "word",
+              "text": "kindness",
+              "targetId": "word-kindnes",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-04-001-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -380,7 +416,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have the power to create a great day."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-05-002-001"
+            },
+            {
+              "type": "text",
+              "text": " the power to create a great day."
             }
           ]
         },
@@ -547,7 +593,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am grateful for this new day."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-08-003-001"
+            },
+            {
+              "type": "text",
+              "text": " for this new day."
             }
           ]
         },
@@ -557,7 +613,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am grateful for this new day."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-08-004-001"
+            },
+            {
+              "type": "text",
+              "text": " for this new day."
             }
           ]
         }
@@ -576,7 +642,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am grateful for the people."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-09-001-001"
+            },
+            {
+              "type": "text",
+              "text": " for the people."
             }
           ]
         },
@@ -586,7 +662,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am grateful for the people who love and support me."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-09-002-001"
+            },
+            {
+              "type": "text",
+              "text": " for the people who love and support me."
             }
           ]
         },
@@ -596,7 +682,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am grateful for the people who love and support me."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-09-003-001"
+            },
+            {
+              "type": "text",
+              "text": " for the people who love and support me."
             }
           ]
         },
@@ -723,7 +819,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am grateful for the food that I eat, the air that I breathe, and the love that I receive from everyone around me."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-12-001-001"
+            },
+            {
+              "type": "text",
+              "text": " for the food that I eat, the air that I breathe, and the love that I receive from everyone around me."
             }
           ]
         },
@@ -802,7 +908,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am calm, centered, and in control."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-13-004-001"
+            },
+            {
+              "type": "text",
+              "text": ", centered, and in control."
             }
           ]
         }
@@ -821,7 +937,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am calm, centered, and in control."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-14-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", centered, and in control."
             }
           ]
         },
@@ -910,7 +1036,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My body is strong and full of energy."
+              "text": "My body is strong and full of "
+            },
+            {
+              "type": "word",
+              "text": "energy",
+              "targetId": "word-energy",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-15-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -969,7 +1105,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Every breath I take fills my body with calm."
+              "text": "Every breath I "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-16-004-001"
+            },
+            {
+              "type": "text",
+              "text": " fills my body with "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-16-004-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -988,7 +1144,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am grateful for my healthy body and all that it does for me."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-17-001-001"
+            },
+            {
+              "type": "text",
+              "text": " for my healthy body and all that it does for me."
             }
           ]
         },
@@ -998,7 +1164,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am grateful for my healthy body and all that it does for me."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-17-002-001"
+            },
+            {
+              "type": "text",
+              "text": " for my healthy body and all that it does for me."
             }
           ]
         },
@@ -1028,7 +1204,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My soul is peaceful and full of light."
+              "text": "My "
+            },
+            {
+              "type": "word",
+              "text": "soul",
+              "targetId": "word-soul",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": " is peaceful and full of light."
             }
           ]
         }
@@ -1047,7 +1233,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My soul is peaceful and full of light."
+              "text": "My "
+            },
+            {
+              "type": "word",
+              "text": "soul",
+              "targetId": "word-soul",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": " is peaceful and full of light."
             }
           ]
         },
@@ -1067,7 +1263,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am connected with the energy of the universe."
+              "text": "I am connected with the "
+            },
+            {
+              "type": "word",
+              "text": "energy",
+              "targetId": "word-energy",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-18-003-001"
+            },
+            {
+              "type": "text",
+              "text": " of the universe."
             }
           ]
         },
@@ -1077,7 +1283,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am connected with the energy of the universe."
+              "text": "I am connected with the "
+            },
+            {
+              "type": "word",
+              "text": "energy",
+              "targetId": "word-energy",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-18-004-001"
+            },
+            {
+              "type": "text",
+              "text": " of the universe."
             }
           ]
         }
@@ -1126,7 +1342,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What are you grateful for today?"
+              "text": "What are you "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-19-004-001"
+            },
+            {
+              "type": "text",
+              "text": " for today?"
             }
           ]
         }
@@ -1145,7 +1371,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am most grateful for my health, for my strength, and for my joy and happiness."
+              "text": "I am most "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-20-001-001"
+            },
+            {
+              "type": "text",
+              "text": " for my health, for my strength, and for my joy and happiness."
             }
           ]
         },
@@ -1155,7 +1391,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If you liked this type of slow English with positive affirmations to say and listen to every day, then like this video and leave a comment if you want more videos like these."
+              "text": "If you liked this type of slow English with positive "
+            },
+            {
+              "type": "word",
+              "text": "affirmations",
+              "targetId": "word-affirmation",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-scene-20-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to say and listen to every day, then like this video and leave a comment if you want more videos like these."
             }
           ]
         },
@@ -1403,5 +1649,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input",
+    "sourcePath": "_private/tmp/originalContent/a2/ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input.md"
+  }
 }

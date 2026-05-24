@@ -895,8 +895,14 @@
           "tc": "「reservation」這個字。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Reservation",
+              "targetId": "word-reservation",
+              "instanceId": "marker-a1-ch16-beginner-english-speaking-practice-real-life-role-play-a1-scene-11-004-001"
+            },
+            {
               "type": "text",
-              "text": "Reservation."
+              "text": "."
             }
           ]
         }
@@ -3534,5 +3540,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch16-beginner-english-speaking-practice-real-life-role-play-a1",
+    "sourcePath": "_private/tmp/originalContent/a1/ch16-beginner-english-speaking-practice-real-life-role-play-a1.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch16-beginner-english-speaking-practice-real-life-role-play-a1.md"
+  }
 }

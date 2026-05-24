@@ -875,7 +875,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "How do they make you feel?"
+              "text": "How do they "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-scene-16-003-001"
+            },
+            {
+              "type": "text",
+              "text": " you "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-scene-16-003-002"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -914,7 +934,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When I pour water or juice into a glass, it's a gentle splash of sound."
+              "text": "When I pour water or juice into a glass, it's a "
+            },
+            {
+              "type": "word",
+              "text": "gentle",
+              "targetId": "word-gentle",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-scene-17-002-001"
+            },
+            {
+              "type": "text",
+              "text": " splash of sound."
             }
           ]
         },
@@ -934,7 +964,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "How do pouring sounds make you feel?"
+              "text": "How do pouring sounds "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": " you "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-scene-17-004-002"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         }
@@ -1081,7 +1131,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Would you say it's a gentle soft sound or a sharp crisp sound?"
+              "text": "Would you say it's a "
+            },
+            {
+              "type": "word",
+              "text": "gentle",
+              "targetId": "word-gentle",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-scene-20-004-001"
+            },
+            {
+              "type": "text",
+              "text": " soft sound or a sharp crisp sound?"
             }
           ]
         }
@@ -1179,7 +1239,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Would you say it's a smooth, gentle sound or a strong, brisk sound?"
+              "text": "Would you say it's a smooth, "
+            },
+            {
+              "type": "word",
+              "text": "gentle",
+              "targetId": "word-gentle",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-scene-22-003-001"
+            },
+            {
+              "type": "text",
+              "text": " sound or a strong, brisk sound?"
             }
           ]
         },
@@ -1267,7 +1337,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think this sound is soft, slow, and gentle."
+              "text": "I think this sound is soft, slow, and "
+            },
+            {
+              "type": "word",
+              "text": "gentle",
+              "targetId": "word-gentle",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-scene-24-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1375,7 +1455,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think this sound is soft, >> calm, and quiet."
+              "text": "I think this sound is soft, >> "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-scene-26-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", and quiet."
             }
           ]
         },
@@ -1502,7 +1592,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think this sound is gentle and soothing."
+              "text": "I think this sound is "
+            },
+            {
+              "type": "word",
+              "text": "gentle",
+              "targetId": "word-gentle",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-scene-29-001-001"
+            },
+            {
+              "type": "text",
+              "text": " and soothing."
             }
           ]
         },
@@ -1806,5 +1906,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast",
+    "sourcePath": "_private/tmp/originalContent/a2/ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast.md"
+  }
 }

@@ -4,8 +4,11 @@ const readyVideos = [
   { level: 'a1', slug: 'ch1-slow-english-for-beginners-a1-listening-practice' },
   { level: 'a1', slug: 'ch18-english-listening-practice-for-beginners-my-weekend-a1-a2' },
   { level: 'a2', slug: 'ch1-slow-english-stories-level-a2-listening-a-weird-phone-call' },
+  { level: 'a2', slug: 'ch29-what-you-taught-me-about-hope-slow-english-listening' },
   { level: 'b1', slug: 'ch1-slow-english-listening-intermediate-practice-talking-about-my-hobbies' },
+  { level: 'b1', slug: 'ch21-slow-english-listening-practice-makeup-routine' },
   { level: 'b2', slug: 'ch1-slow-english-listening-for-upper-intermediate-talking-about-comfort-foods' },
+  { level: 'b2', slug: 'ch17-how-she-became-fluent-in-english-intermediate-listening-practice' },
 ]
 
 test.describe('MissHoney polished content smoke', () => {
@@ -58,6 +61,34 @@ test.describe('MissHoney polished content smoke', () => {
       await expect(page.locator(`[id="${level}-${slug}-section-phrases"]`)).toBeVisible()
       await expect(page.locator(`[id="${level}-${slug}-section-breakdown"]`)).toBeVisible()
       await expect(page.locator(`[data-testid="${level}-${slug}-quick-nav"]`)).toBeVisible()
+      expect(consoleErrorCount).toBe(0)
+    })
+  }
+
+  for (const { level, slug } of readyVideos) {
+    test(`${level.toUpperCase()} ${slug} supports A/B/C marker return flow and grammar quick nav`, async ({ page }) => {
+      await page.goto(`/${level}/${slug}`, { waitUntil: 'networkidle' })
+
+      for (const kind of ['word', 'phrase', 'usage']) {
+        const marker = page.getByTestId(`playlist-marker-${kind}`).first()
+        await expect(marker).toBeVisible()
+
+        const targetId = await marker.getAttribute('data-target-id')
+        const instanceId = await marker.getAttribute('data-marker-instance')
+        expect(targetId).toBeTruthy()
+        expect(instanceId).toBeTruthy()
+
+        const target = page.locator(`[id="${targetId}"]`)
+        await marker.click()
+        await expect(target).toHaveClass(/playlist-learning-item--active/)
+
+        await page.getByTestId('back-to-word-fab').click()
+        await expect(page.locator(`[data-marker-instance="${instanceId}"]`))
+          .toHaveAttribute('data-last-return-target', 'true')
+      }
+
+      await page.getByTestId(`quick-nav-${level}-${slug}-section-breakdown`).click()
+      await expect(page.locator(`[id="${level}-${slug}-section-breakdown"]`)).toBeVisible()
       expect(consoleErrorCount).toBe(0)
     })
   }

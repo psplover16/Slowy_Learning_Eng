@@ -123,7 +123,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If you've ever felt shy or stuck or not good enough when speaking English, then these affirmations are for you."
+              "text": "If you've ever felt shy or stuck or not good enough when speaking English, then these "
+            },
+            {
+              "type": "word",
+              "text": "affirmations",
+              "targetId": "word-affirmation",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-02-001-001"
+            },
+            {
+              "type": "text",
+              "text": " are for you."
             }
           ]
         },
@@ -251,7 +261,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I can read, speak and listen with confidence."
+              "text": "I can read, speak and listen with "
+            },
+            {
+              "type": "word",
+              "text": "confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-04-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -271,7 +291,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I can read, speak and listen with confidence."
+              "text": "I can read, speak and listen with "
+            },
+            {
+              "type": "word",
+              "text": "confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-04-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -300,7 +330,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I can read, speak and listen with confidence."
+              "text": "I can read, speak and listen with "
+            },
+            {
+              "type": "word",
+              "text": "confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-05-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -507,7 +547,47 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am grateful for the challenges I have because they make me stronger and smarter."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-08-003-001"
+            },
+            {
+              "type": "text",
+              "text": " for the "
+            },
+            {
+              "type": "word",
+              "text": "challenges",
+              "targetId": "word-challenge",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-08-003-002"
+            },
+            {
+              "type": "text",
+              "text": " I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-08-003-003"
+            },
+            {
+              "type": "text",
+              "text": " because they "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-08-003-004"
+            },
+            {
+              "type": "text",
+              "text": " me stronger and smarter."
             }
           ]
         },
@@ -517,7 +597,47 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am grateful for the challenges I have because they make me stronger and smarter."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-08-004-001"
+            },
+            {
+              "type": "text",
+              "text": " for the "
+            },
+            {
+              "type": "word",
+              "text": "challenges",
+              "targetId": "word-challenge",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-08-004-002"
+            },
+            {
+              "type": "text",
+              "text": " I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-08-004-003"
+            },
+            {
+              "type": "text",
+              "text": " because they "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-08-004-004"
+            },
+            {
+              "type": "text",
+              "text": " me stronger and smarter."
             }
           ]
         }
@@ -605,7 +725,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Every day I am grateful for the opportunity to learn and communicate in another language."
+              "text": "Every day I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-10-003-001"
+            },
+            {
+              "type": "text",
+              "text": " for the opportunity to learn and communicate in another language."
             }
           ]
         },
@@ -615,7 +745,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am grateful for the opportunity to learn and communicate in another language."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-10-004-001"
+            },
+            {
+              "type": "text",
+              "text": " for the opportunity to learn and communicate in another language."
             }
           ]
         }
@@ -634,7 +774,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am grateful for the opportunity to learn and communicate in another language."
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-11-001-001"
+            },
+            {
+              "type": "text",
+              "text": " for the opportunity to learn and communicate in another language."
             }
           ]
         },
@@ -703,7 +853,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Every word I learn brings me closer to fluency."
+              "text": "Every word I learn brings me closer to "
+            },
+            {
+              "type": "word",
+              "text": "fluency",
+              "targetId": "word-fluency",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-12-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -713,7 +873,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Every word I learn brings me closer to fluency."
+              "text": "Every word I learn brings me closer to "
+            },
+            {
+              "type": "word",
+              "text": "fluency",
+              "targetId": "word-fluency",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-12-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -732,7 +902,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Every word I learn brings me closer to fluency."
+              "text": "Every word I learn brings me closer to "
+            },
+            {
+              "type": "word",
+              "text": "fluency",
+              "targetId": "word-fluency",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-13-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -919,7 +1099,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I can communicate perfectly with native speakers."
+              "text": "I can communicate perfectly with "
+            },
+            {
+              "type": "word",
+              "text": "native",
+              "targetId": "word-native",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-16-004-001"
+            },
+            {
+              "type": "text",
+              "text": " speakers."
             }
           ]
         }
@@ -938,7 +1128,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I can communicate perfectly with native speakers."
+              "text": "I can communicate perfectly with "
+            },
+            {
+              "type": "word",
+              "text": "native",
+              "targetId": "word-native",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-17-001-001"
+            },
+            {
+              "type": "text",
+              "text": " speakers."
             }
           ]
         },
@@ -948,7 +1148,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Repeat these affirmations daily and your brain will unconsciously work its hardest at being exactly who you want to be."
+              "text": "Repeat these "
+            },
+            {
+              "type": "word",
+              "text": "affirmations",
+              "targetId": "word-affirmation",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-17-002-001"
+            },
+            {
+              "type": "text",
+              "text": " daily and your brain will unconsciously work its hardest at being exactly who you want to be."
             }
           ]
         },
@@ -958,7 +1168,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Stay positive and believe in every affirmation daily."
+              "text": "Stay positive and believe in every "
+            },
+            {
+              "type": "word",
+              "text": "affirmation",
+              "targetId": "word-affirmation",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-17-003-001"
+            },
+            {
+              "type": "text",
+              "text": " daily."
             }
           ]
         },
@@ -987,7 +1207,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Comment which affirmation inspired you the most and comment down below what affirmation would you add to this list."
+              "text": "Comment which "
+            },
+            {
+              "type": "word",
+              "text": "affirmation",
+              "targetId": "word-affirmation",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": " inspired you the most and comment down below what "
+            },
+            {
+              "type": "word",
+              "text": "affirmation",
+              "targetId": "word-affirmation",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-18-001-002"
+            },
+            {
+              "type": "text",
+              "text": " would you add to this list."
             }
           ]
         },
@@ -1016,8 +1256,14 @@
           "tc": "祝你度過愉快的一周。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-scene-18-003-001"
+            },
+            {
               "type": "text",
-              "text": "Have a lovely week."
+              "text": " a lovely week."
             }
           ]
         },
@@ -1216,5 +1462,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker",
+    "sourcePath": "_private/tmp/originalContent/a2/ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker.md"
+  }
 }

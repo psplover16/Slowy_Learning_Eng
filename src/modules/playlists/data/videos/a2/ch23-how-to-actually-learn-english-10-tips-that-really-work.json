@@ -172,7 +172,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You must make mistakes."
+              "text": "You must "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-03-002-001"
+            },
+            {
+              "type": "text",
+              "text": " mistakes."
             }
           ]
         },
@@ -428,7 +438,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And usually after those five minutes, you'll realize you have more time, just a little more."
+              "text": "And usually after those five minutes, you'll realize you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-07-002-001"
+            },
+            {
+              "type": "text",
+              "text": " more time, just a little more."
             }
           ]
         },
@@ -448,7 +468,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Sometimes you might have extra time so you study some more but it all happens because you started with 1%."
+              "text": "Sometimes you might "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-07-004-001"
+            },
+            {
+              "type": "text",
+              "text": " extra time so you study some more but it all happens because you started with 1%."
             }
           ]
         }
@@ -477,7 +507,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When you have an objective in focus, something you are determined to reach."
+              "text": "When you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-08-002-001"
+            },
+            {
+              "type": "text",
+              "text": " an objective in focus, something you are determined to reach."
             }
           ]
         },
@@ -870,7 +910,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Don't get lost in the opinions others may or may not have of you."
+              "text": "Don't "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-15-004-001"
+            },
+            {
+              "type": "text",
+              "text": " lost in the opinions others may or may not "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-15-004-002"
+            },
+            {
+              "type": "text",
+              "text": " of you."
             }
           ]
         }
@@ -988,7 +1048,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "There's no rush, no finish line to get to faster than someone else."
+              "text": "There's no rush, no finish line to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to faster than someone else."
             }
           ]
         }
@@ -1125,7 +1195,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It takes strength to keep going."
+              "text": "It takes strength to "
+            },
+            {
+              "type": "phrase",
+              "text": "keep going",
+              "targetId": "phrase-keep-going",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-20-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1135,7 +1215,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And it takes even more strength to keep going when you've failed in the past."
+              "text": "And it takes even more strength to "
+            },
+            {
+              "type": "phrase",
+              "text": "keep going",
+              "targetId": "phrase-keep-going",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-20-003-001"
+            },
+            {
+              "type": "text",
+              "text": " when you've failed in the past."
             }
           ]
         },
@@ -1243,7 +1333,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You take your time and you enjoy a book."
+              "text": "You "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-22-003-001"
+            },
+            {
+              "type": "text",
+              "text": " your time and you enjoy a book."
             }
           ]
         },
@@ -2008,7 +2108,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, pick a book that's not going to challenge you too much."
+              "text": "So, pick a book that's not going to "
+            },
+            {
+              "type": "word",
+              "text": "challenge",
+              "targetId": "word-challenge",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-37-003-001"
+            },
+            {
+              "type": "text",
+              "text": " you too much."
             }
           ]
         },
@@ -2047,7 +2157,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'll have Tyiana from the future explain that to you."
+              "text": "I'll "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-38-002-001"
+            },
+            {
+              "type": "text",
+              "text": " Tyiana from the future explain that to you."
             }
           ]
         },
@@ -2498,7 +2618,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Inside my English community, we have 11 conversation clubs per week at different times so that no matter where you are in the world, you'll have the chance to join."
+              "text": "Inside my English community, we "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-47-002-001"
+            },
+            {
+              "type": "text",
+              "text": " 11 "
+            },
+            {
+              "type": "word",
+              "text": "conversation",
+              "targetId": "word-conversation",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-47-002-002"
+            },
+            {
+              "type": "text",
+              "text": " clubs per week at different times so that no matter where you are in the world, you'll "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-47-002-003"
+            },
+            {
+              "type": "text",
+              "text": " the chance to join."
             }
           ]
         },
@@ -2547,7 +2697,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We focus on real conversations that make learning English feel easy."
+              "text": "We focus on real conversations that "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-48-002-001"
+            },
+            {
+              "type": "text",
+              "text": " learning English feel easy."
             }
           ]
         },
@@ -2557,7 +2717,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This community is especially for people who can't afford one onone expensive lessons, but still need a place to start speaking and building confidence."
+              "text": "This community is especially for people who can't afford one onone expensive lessons, but still need a place to start speaking and building "
+            },
+            {
+              "type": "word",
+              "text": "confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-48-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2586,7 +2756,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'm genuinely happy that I can offer this because my true goal in all of this is for you to speak, to help you reach your goals and get that job,."
+              "text": "I'm genuinely happy that I can offer this because my true goal in all of this is for you to speak, to help you reach your goals and "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-49-001-001"
+            },
+            {
+              "type": "text",
+              "text": " that job,."
             }
           ]
         },
@@ -2596,7 +2776,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Maybe you want to travel to that country and talk with the people you have dreamed of meeting."
+              "text": "Maybe you want to travel to that country and talk with the people you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-49-002-001"
+            },
+            {
+              "type": "text",
+              "text": " dreamed of meeting."
             }
           ]
         },
@@ -2616,7 +2806,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You can have fluent conversations and you can do it without spending hundreds of dollars a month."
+              "text": "You can "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-49-004-001"
+            },
+            {
+              "type": "text",
+              "text": " fluent conversations and you can do it without spending hundreds of dollars a month."
             }
           ]
         }
@@ -2635,7 +2835,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "As of now, I already have two teachers helping me with the conversation clubs."
+              "text": "As of now, I already "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-50-001-001"
+            },
+            {
+              "type": "text",
+              "text": " two teachers helping me with the "
+            },
+            {
+              "type": "word",
+              "text": "conversation",
+              "targetId": "word-conversation",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-50-001-002"
+            },
+            {
+              "type": "text",
+              "text": " clubs."
             }
           ]
         },
@@ -2645,7 +2865,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But as the community grows, I'll bring in even more so you can get the chance to start speaking."
+              "text": "But as the community grows, I'll bring in even more so you can "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-50-002-001"
+            },
+            {
+              "type": "text",
+              "text": " the chance to start speaking."
             }
           ]
         },
@@ -2675,7 +2905,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Meet with teachers from all around the world with more than 11 conversation clubs a week."
+              "text": "Meet with teachers from all around the world with more than 11 "
+            },
+            {
+              "type": "word",
+              "text": "conversation",
+              "targetId": "word-conversation",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-50-004-001"
+            },
+            {
+              "type": "text",
+              "text": " clubs a week."
             }
           ]
         }
@@ -2753,7 +2993,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If you have trouble with pronunciation, then shadowing is your best friend."
+              "text": "If you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-52-002-001"
+            },
+            {
+              "type": "text",
+              "text": " trouble with pronunciation, then shadowing is your best friend."
             }
           ]
         },
@@ -2822,7 +3072,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I hope you take these tools with you to help you move closer and closer to your dream English."
+              "text": "I hope you "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch23-how-to-actually-learn-english-10-tips-that-really-work-scene-53-004-001"
+            },
+            {
+              "type": "text",
+              "text": " these tools with you to help you move closer and closer to your dream English."
             }
           ]
         }
@@ -3157,5 +3417,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch23-how-to-actually-learn-english-10-tips-that-really-work",
+    "sourcePath": "_private/tmp/originalContent/a2/ch23-how-to-actually-learn-english-10-tips-that-really-work.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch23-how-to-actually-learn-english-10-tips-that-really-work.md"
+  }
 }

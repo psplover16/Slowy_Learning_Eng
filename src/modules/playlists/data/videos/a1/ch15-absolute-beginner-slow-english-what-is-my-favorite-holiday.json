@@ -181,7 +181,7 @@
               "type": "phrase",
               "text": "think of",
               "targetId": "phrase-right-now",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-008-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-007-01"
             },
             {
               "type": "text",
@@ -191,7 +191,27 @@
               "type": "phrase",
               "text": "right now",
               "targetId": "phrase-right-now",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-008-02"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-007-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Those are the first holidays that come to mind.",
+          "tc": "那些是我第一個想到的節日。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Those are the first holidays that "
+            },
+            {
+              "type": "phrase",
+              "text": "come to mind",
+              "targetId": "phrase-come-to-mind",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-008-01"
             },
             {
               "type": "text",
@@ -209,26 +229,6 @@
       "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "Those are the first holidays that come to mind.",
-          "tc": "那些是我第一個想到的節日。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Those are the first holidays that "
-            },
-            {
-              "type": "phrase",
-              "text": "come to mind",
-              "targetId": "phrase-come-to-mind",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-009-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
           "en": "What is another holiday that comes to mind for you?",
           "tc": "對你來說，還有什麼節日會浮現在腦海中？",
           "englishTokens": [
@@ -240,7 +240,7 @@
               "type": "phrase",
               "text": "comes to mind",
               "targetId": "phrase-come-to-mind",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-010-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-009-01"
             },
             {
               "type": "text",
@@ -250,7 +250,7 @@
         },
         {
           "en": "Something you celebrate in your country.",
-          "tc": "也就是你在自己國家慶祝的節日。",
+          "tc": "也許是你在自己國家慶祝的節日。",
           "englishTokens": [
             {
               "type": "text",
@@ -260,7 +260,7 @@
               "type": "word",
               "text": "celebrate",
               "targetId": "word-celebrate",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-011-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-010-01"
             },
             {
               "type": "text",
@@ -280,7 +280,7 @@
               "type": "usage",
               "text": "like",
               "targetId": "usage-like-item",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-012-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-011-01"
             },
             {
               "type": "text",
@@ -290,7 +290,7 @@
               "type": "word",
               "text": "Islamic",
               "targetId": "word-islamic",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-012-02"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-011-02"
             },
             {
               "type": "text",
@@ -300,7 +300,7 @@
               "type": "word",
               "text": "celebrates",
               "targetId": "word-celebrate",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-012-03"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-011-03"
             },
             {
               "type": "text",
@@ -310,11 +310,31 @@
               "type": "phrase",
               "text": "the end of",
               "targetId": "phrase-the-end-of",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-012-04"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-011-04"
             },
             {
               "type": "text",
               "text": " Ramadan, Lunar New Year, Carnival, Holi, and La Tomatina."
+            }
+          ]
+        },
+        {
+          "en": "There are so many holidays that I don't celebrate, but they have so much meaning.",
+          "tc": "有好多節日我沒有慶祝，但它們很有意義。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There are so many holidays that I don't celebrate, but they have so much "
+            },
+            {
+              "type": "word",
+              "text": "meaning",
+              "targetId": "word-meaning",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-012-01"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -328,32 +348,22 @@
       "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "There are so many holidays that I don't celebrate, but they have so much meaning.",
-          "tc": "有好多節日我沒有慶祝，但它們很有意義。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "There are so many holidays that I don't celebrate, but they have so much "
-            },
-            {
-              "type": "word",
-              "text": "meaning",
-              "targetId": "word-meaning",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-013-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
           "en": "Humans celebrate everything we can.",
           "tc": "人類會盡可能慶祝一切。",
           "englishTokens": [
             {
               "type": "text",
-              "text": "Humans celebrate everything we can."
+              "text": "Humans "
+            },
+            {
+              "type": "word",
+              "text": "celebrate",
+              "targetId": "word-celebrate",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-scene-04-001-001"
+            },
+            {
+              "type": "text",
+              "text": " everything we can."
             }
           ]
         },
@@ -369,7 +379,7 @@
               "type": "phrase",
               "text": "any chance we get",
               "targetId": "phrase-any-chance-we-get",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-015-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-014-01"
             },
             {
               "type": "text",
@@ -389,11 +399,37 @@
               "type": "phrase",
               "text": "to me",
               "targetId": "phrase-to-me",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-016-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-015-01"
             },
             {
               "type": "text",
               "text": ", the best holiday is Christmas."
+            }
+          ]
+        },
+        {
+          "en": "To me, it's more about the feeling.",
+          "tc": "對我來說，它更關乎那種感覺。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "To me",
+              "targetId": "phrase-to-me",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-016-01"
+            },
+            {
+              "type": "text",
+              "text": ", it's more about the "
+            },
+            {
+              "type": "word",
+              "text": "feeling",
+              "targetId": "word-feeling",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-016-02"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -406,32 +442,6 @@
       "titleZh": "第 5 段",
       "titleEn": "Part 5",
       "sentences": [
-        {
-          "en": "To me, it's more about the feeling.",
-          "tc": "對我來說，它更關乎那種感覺。",
-          "englishTokens": [
-            {
-              "type": "phrase",
-              "text": "To me",
-              "targetId": "phrase-to-me",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-017-01"
-            },
-            {
-              "type": "text",
-              "text": ", it's more about the "
-            },
-            {
-              "type": "word",
-              "text": "feeling",
-              "targetId": "word-feeling",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-017-02"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
         {
           "en": "And for me, the best feelings I get are on Christmas.",
           "tc": "對我而言，我得到最好的感受都在聖誕節。",
@@ -464,7 +474,27 @@
               "type": "word",
               "text": "cozy",
               "targetId": "word-cozy",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-020-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-019-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I feel warm.",
+          "tc": "我覺得溫暖。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel "
+            },
+            {
+              "type": "usage",
+              "text": "warm",
+              "targetId": "usage-warm-item",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-scene-05-004-001"
             },
             {
               "type": "text",
@@ -481,16 +511,6 @@
       "titleZh": "第 6 段",
       "titleEn": "Part 6",
       "sentences": [
-        {
-          "en": "I feel warm.",
-          "tc": "我覺得溫暖。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I feel warm."
-            }
-          ]
-        },
         {
           "en": "I feel loved.",
           "tc": "我覺得被愛。",
@@ -517,7 +537,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That's why my favorite holiday is Christmas."
+              "text": "That's why my favorite "
+            },
+            {
+              "type": "word",
+              "text": "holiday",
+              "targetId": "word-holiday",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-scene-06-003-001"
+            },
+            {
+              "type": "text",
+              "text": " is Christmas."
+            }
+          ]
+        },
+        {
+          "en": "Let's practice the past tense.",
+          "tc": "讓我們練習過去式。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let's practice "
+            },
+            {
+              "type": "phrase",
+              "text": "the past tense",
+              "targetId": "phrase-past-tense",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-024-01"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -531,26 +581,6 @@
       "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "Let's practice the past tense.",
-          "tc": "讓我們練習過去式。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Let's practice "
-            },
-            {
-              "type": "phrase",
-              "text": "the past tense",
-              "targetId": "phrase-past-tense",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-025-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
           "en": "When I was a little girl, I woke up on Christmas morning, and I went downstairs to open my presents.",
           "tc": "當我還是小女孩時，我在聖誕節早晨醒來，然後下樓打開我的禮物。",
           "englishTokens": [
@@ -562,7 +592,7 @@
               "type": "phrase",
               "text": "woke up",
               "targetId": "phrase-wake-up",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-026-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-025-01"
             },
             {
               "type": "text",
@@ -572,7 +602,7 @@
               "type": "word",
               "text": "downstairs",
               "targetId": "word-downstairs",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-026-02"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-025-02"
             },
             {
               "type": "text",
@@ -582,7 +612,7 @@
               "type": "word",
               "text": "presents",
               "targetId": "word-present",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-026-03"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-025-03"
             },
             {
               "type": "text",
@@ -602,7 +632,7 @@
               "type": "word",
               "text": "pancakes",
               "targetId": "word-pancake",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-027-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-026-01"
             },
             {
               "type": "text",
@@ -612,7 +642,7 @@
               "type": "word",
               "text": "cereal",
               "targetId": "word-cereal",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-027-02"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-026-02"
             },
             {
               "type": "text",
@@ -622,7 +652,7 @@
               "type": "word",
               "text": "bacon",
               "targetId": "word-bacon",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-027-03"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-026-03"
             },
             {
               "type": "text",
@@ -639,6 +669,16 @@
               "text": "And then we watched a Christmas movie while playing with our new toys."
             }
           ]
+        },
+        {
+          "en": "That was the best.",
+          "tc": "那是最棒的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That was the best."
+            }
+          ]
         }
       ],
       "tags": []
@@ -649,16 +689,6 @@
       "titleZh": "第 8 段",
       "titleEn": "Part 8",
       "sentences": [
-        {
-          "en": "That was the best.",
-          "tc": "那是最棒的。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "That was the best."
-            }
-          ]
-        },
         {
           "en": "That memory brings back the warmest feeling.",
           "tc": "那段回憶帶回最溫暖的感覺。",
@@ -671,7 +701,7 @@
               "type": "word",
               "text": "memory",
               "targetId": "word-memory",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-030-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-029-01"
             },
             {
               "type": "text",
@@ -681,7 +711,7 @@
               "type": "phrase",
               "text": "brings back",
               "targetId": "phrase-bring-back",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-030-02"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-029-02"
             },
             {
               "type": "text",
@@ -691,7 +721,7 @@
               "type": "usage",
               "text": "warmest",
               "targetId": "usage-warm-item",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-030-03"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-029-03"
             },
             {
               "type": "text",
@@ -711,7 +741,7 @@
               "type": "phrase",
               "text": "of course",
               "targetId": "phrase-of-course",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-031-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-030-01"
             },
             {
               "type": "text",
@@ -731,11 +761,51 @@
               "type": "phrase",
               "text": "get to",
               "targetId": "phrase-all-night-long",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-032-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-031-01"
             },
             {
               "type": "text",
               "text": " be with my family."
+            }
+          ]
+        },
+        {
+          "en": "I get to feel cozy and warm all day long.",
+          "tc": "我可以整天感到舒適又溫暖。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "get to",
+              "targetId": "phrase-all-night-long",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-032-01"
+            },
+            {
+              "type": "text",
+              "text": " feel "
+            },
+            {
+              "type": "word",
+              "text": "cozy",
+              "targetId": "word-cozy",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-032-02"
+            },
+            {
+              "type": "text",
+              "text": " and warm "
+            },
+            {
+              "type": "phrase",
+              "text": "all day long",
+              "targetId": "phrase-all-night-long",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-032-03"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -749,8 +819,8 @@
       "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "I get to feel cozy and warm all day long.",
-          "tc": "我可以整天感到舒適又溫暖。",
+          "en": "I get to watch movies all day long and all night long.",
+          "tc": "我可以一整天、一整晚看電影。",
           "englishTokens": [
             {
               "type": "text",
@@ -764,53 +834,13 @@
             },
             {
               "type": "text",
-              "text": " feel "
-            },
-            {
-              "type": "word",
-              "text": "cozy",
-              "targetId": "word-cozy",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-033-02"
-            },
-            {
-              "type": "text",
-              "text": " and warm "
-            },
-            {
-              "type": "phrase",
-              "text": "all day long",
-              "targetId": "phrase-all-night-long",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-033-03"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "I get to watch movies all day long and all night long.",
-          "tc": "我可以一整天、一整晚看電影。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I "
-            },
-            {
-              "type": "phrase",
-              "text": "get to",
-              "targetId": "phrase-all-night-long",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-034-01"
-            },
-            {
-              "type": "text",
               "text": " watch movies "
             },
             {
               "type": "phrase",
               "text": "all day long",
               "targetId": "phrase-all-night-long",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-034-02"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-033-02"
             },
             {
               "type": "text",
@@ -820,7 +850,7 @@
               "type": "phrase",
               "text": "all night long",
               "targetId": "phrase-all-night-long",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-034-03"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-033-03"
             },
             {
               "type": "text",
@@ -840,7 +870,7 @@
               "type": "usage",
               "text": "big",
               "targetId": "usage-big-item",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-035-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-034-01"
             },
             {
               "type": "text",
@@ -857,6 +887,16 @@
               "text": "Christmas is also very popular."
             }
           ]
+        },
+        {
+          "en": "Everyone celebrates Christmas in Mexico.",
+          "tc": "在墨西哥，每個人都慶祝聖誕節。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Everyone celebrates Christmas in Mexico."
+            }
+          ]
         }
       ],
       "tags": []
@@ -868,22 +908,22 @@
       "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "Everyone celebrates Christmas in Mexico.",
-          "tc": "在墨西哥，每個人都慶祝聖誕節。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Everyone celebrates Christmas in Mexico."
-            }
-          ]
-        },
-        {
           "en": "Do you celebrate Christmas in your country?",
           "tc": "你在你的國家慶祝聖誕節嗎？",
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you celebrate Christmas in your country?"
+              "text": "Do you "
+            },
+            {
+              "type": "word",
+              "text": "celebrate",
+              "targetId": "word-celebrate",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-scene-10-001-001"
+            },
+            {
+              "type": "text",
+              "text": " Christmas in your country?"
             }
           ]
         },
@@ -893,7 +933,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "How do you celebrate?"
+              "text": "How do you "
+            },
+            {
+              "type": "word",
+              "text": "celebrate",
+              "targetId": "word-celebrate",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-scene-10-002-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -909,11 +959,31 @@
               "type": "phrase",
               "text": "a little bit",
               "targetId": "phrase-a-little-bit",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-040-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-039-01"
             },
             {
               "type": "text",
               "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Now we have a big dinner with my family, my aunts, cousins, and grandparents.",
+          "tc": "現在我們會和家人吃一頓大餐，包括我的阿姨們、表兄弟姊妹們和祖父母。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now we have a "
+            },
+            {
+              "type": "usage",
+              "text": "big",
+              "targetId": "usage-big-item",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-scene-10-004-001"
+            },
+            {
+              "type": "text",
+              "text": " dinner with my family, my aunts, cousins, and grandparents."
             }
           ]
         }
@@ -927,16 +997,6 @@
       "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "Now we have a big dinner with my family, my aunts, cousins, and grandparents.",
-          "tc": "現在我們會和家人吃一頓大餐，包括我的阿姨們、表兄弟姊妹們和祖父母。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Now we have a big dinner with my family, my aunts, cousins, and grandparents."
-            }
-          ]
-        },
-        {
           "en": "We eat turkey, potato salad, cheesy spaghetti, and warm bread.",
           "tc": "我們吃火雞、馬鈴薯沙拉、起司義大利麵和溫熱的麵包。",
           "englishTokens": [
@@ -948,7 +1008,7 @@
               "type": "word",
               "text": "turkey",
               "targetId": "word-turkey",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-042-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-041-01"
             },
             {
               "type": "text",
@@ -958,7 +1018,7 @@
               "type": "word",
               "text": "cheesy",
               "targetId": "word-cheesy",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-042-02"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-041-02"
             },
             {
               "type": "text",
@@ -968,7 +1028,7 @@
               "type": "word",
               "text": "spaghetti",
               "targetId": "word-spaghetti",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-042-03"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-041-03"
             },
             {
               "type": "text",
@@ -988,7 +1048,7 @@
               "type": "word",
               "text": "ponche",
               "targetId": "word-ponche",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-043-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-042-01"
             },
             {
               "type": "text",
@@ -998,7 +1058,7 @@
               "type": "usage",
               "text": "like",
               "targetId": "usage-like-item",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-043-02"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-042-02"
             },
             {
               "type": "text",
@@ -1008,7 +1068,7 @@
               "type": "word",
               "text": "punch",
               "targetId": "word-punch",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-043-03"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-042-03"
             },
             {
               "type": "text",
@@ -1028,11 +1088,27 @@
               "type": "word",
               "text": "pie",
               "targetId": "word-pie",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-044-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-043-01"
             },
             {
               "type": "text",
               "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Any kind of pie.",
+          "tc": "任何一種派。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Any kind of",
+              "targetId": "phrase-any-kind-of",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-044-01"
+            },
+            {
+              "type": "text",
+              "text": " pie."
             }
           ]
         }
@@ -1046,22 +1122,6 @@
       "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "Any kind of pie.",
-          "tc": "任何一種派。",
-          "englishTokens": [
-            {
-              "type": "phrase",
-              "text": "Any kind of",
-              "targetId": "phrase-any-kind-of",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-045-01"
-            },
-            {
-              "type": "text",
-              "text": " pie."
-            }
-          ]
-        },
-        {
           "en": "Pumpkin pie, apple pie, cherry pie, cheesecake pie, any kind of pie.",
           "tc": "南瓜派、蘋果派、櫻桃派、起司蛋糕派，任何一種派。",
           "englishTokens": [
@@ -1069,7 +1129,7 @@
               "type": "word",
               "text": "Pumpkin",
               "targetId": "word-pumpkin",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-046-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-045-01"
             },
             {
               "type": "text",
@@ -1079,7 +1139,7 @@
               "type": "word",
               "text": "cherry",
               "targetId": "word-cherry",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-046-02"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-045-02"
             },
             {
               "type": "text",
@@ -1089,7 +1149,7 @@
               "type": "word",
               "text": "cheesecake",
               "targetId": "word-cheesecake",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-046-03"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-045-03"
             },
             {
               "type": "text",
@@ -1119,11 +1179,21 @@
               "type": "usage",
               "text": "wins",
               "targetId": "usage-win-item",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-048-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-047-01"
             },
             {
               "type": "text",
               "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Christmas is the winner.",
+          "tc": "聖誕節是贏家。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Christmas is the winner."
             }
           ]
         }
@@ -1137,22 +1207,22 @@
       "titleEn": "Part 13",
       "sentences": [
         {
-          "en": "Christmas is the winner.",
-          "tc": "聖誕節是贏家。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Christmas is the winner."
-            }
-          ]
-        },
-        {
           "en": "What is your favorite holiday?",
           "tc": "你最喜歡的節日是什麼？",
           "englishTokens": [
             {
               "type": "text",
-              "text": "What is your favorite holiday?"
+              "text": "What is your favorite "
+            },
+            {
+              "type": "word",
+              "text": "holiday",
+              "targetId": "word-holiday",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-scene-13-001-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -1168,7 +1238,7 @@
               "type": "phrase",
               "text": "heard of",
               "targetId": "phrase-hear-of",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-051-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-050-01"
             },
             {
               "type": "text",
@@ -1182,7 +1252,117 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So tell me why you celebrate that holiday, how you celebrate that holiday, and where you celebrate it."
+              "text": "So tell me why you "
+            },
+            {
+              "type": "word",
+              "text": "celebrate",
+              "targetId": "word-celebrate",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-scene-13-003-001"
+            },
+            {
+              "type": "text",
+              "text": " that "
+            },
+            {
+              "type": "word",
+              "text": "holiday",
+              "targetId": "word-holiday",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-scene-13-003-002"
+            },
+            {
+              "type": "text",
+              "text": ", how you "
+            },
+            {
+              "type": "word",
+              "text": "celebrate",
+              "targetId": "word-celebrate",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-scene-13-003-003"
+            },
+            {
+              "type": "text",
+              "text": " that "
+            },
+            {
+              "type": "word",
+              "text": "holiday",
+              "targetId": "word-holiday",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-scene-13-003-004"
+            },
+            {
+              "type": "text",
+              "text": ", and where you "
+            },
+            {
+              "type": "word",
+              "text": "celebrate",
+              "targetId": "word-celebrate",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-scene-13-003-005"
+            },
+            {
+              "type": "text",
+              "text": " it."
+            }
+          ]
+        },
+        {
+          "en": "This was a little challenge for my absolute-beginner listeners, but with my hand gestures and pictures, I hope you were able to understand it all.",
+          "tc": "這對我的完全初學者聽眾來說是一個小挑戰，但透過我的手勢和圖片，我希望你能全部理解。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This was a little "
+            },
+            {
+              "type": "word",
+              "text": "challenge",
+              "targetId": "word-challenge",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-052-01"
+            },
+            {
+              "type": "text",
+              "text": " for my "
+            },
+            {
+              "type": "phrase",
+              "text": "absolute-beginner",
+              "targetId": "phrase-absolute-beginner",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-052-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "listeners",
+              "targetId": "word-listener",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-052-03"
+            },
+            {
+              "type": "text",
+              "text": ", but with my hand "
+            },
+            {
+              "type": "word",
+              "text": "gestures",
+              "targetId": "word-gesture",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-052-04"
+            },
+            {
+              "type": "text",
+              "text": " and pictures, I hope you were "
+            },
+            {
+              "type": "phrase",
+              "text": "able to",
+              "targetId": "phrase-be-able-to",
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-052-05"
+            },
+            {
+              "type": "text",
+              "text": " understand it all."
             }
           ]
         }
@@ -1196,66 +1376,6 @@
       "titleEn": "Part 14",
       "sentences": [
         {
-          "en": "This was a little challenge for my absolute-beginner listeners, but with my hand gestures and pictures, I hope you were able to understand it all.",
-          "tc": "這對我的完全初學者聽眾來說是一個小挑戰，但透過我的手勢和圖片，我希望你能全部理解。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "This was a little "
-            },
-            {
-              "type": "word",
-              "text": "challenge",
-              "targetId": "word-challenge",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-053-01"
-            },
-            {
-              "type": "text",
-              "text": " for my "
-            },
-            {
-              "type": "phrase",
-              "text": "absolute-beginner",
-              "targetId": "phrase-absolute-beginner",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-053-02"
-            },
-            {
-              "type": "text",
-              "text": " "
-            },
-            {
-              "type": "word",
-              "text": "listeners",
-              "targetId": "word-listener",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-053-03"
-            },
-            {
-              "type": "text",
-              "text": ", but with my hand "
-            },
-            {
-              "type": "word",
-              "text": "gestures",
-              "targetId": "word-gesture",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-053-04"
-            },
-            {
-              "type": "text",
-              "text": " and pictures, I hope you were "
-            },
-            {
-              "type": "phrase",
-              "text": "able to",
-              "targetId": "phrase-be-able-to",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-053-05"
-            },
-            {
-              "type": "text",
-              "text": " understand it all."
-            }
-          ]
-        },
-        {
           "en": "If you didn't, let me know what new word you learned today.",
           "tc": "如果你沒有理解，告訴我你今天學到了什麼新單字。",
           "englishTokens": [
@@ -1267,7 +1387,7 @@
               "type": "phrase",
               "text": "let me know",
               "targetId": "phrase-let-me-know",
-              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-054-01"
+              "instanceId": "marker-a1-ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday-053-01"
             },
             {
               "type": "text",
@@ -1985,5 +2105,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday",
+    "sourcePath": "_private/tmp/originalContent/a1/ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday.md"
+  }
 }

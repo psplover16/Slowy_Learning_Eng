@@ -81,8 +81,12 @@ scripts/misshoney/
   fetch-transcript.mjs        — CLI：依 level + slug 提取單支英文字幕到指定文字檔，優先用 raw transcript cache
   content-core.mjs            — 純函式：scaffold 建立、schema 驗證、completeness 驗證、promotion planning
   proofread-core.mjs          — 純函式：解析 proofread JSON、檢查 HTML/marker target、產生 PlaylistVideoData draft
+  full-refresh-core.mjs       — 純函式：本地 originalContent inventory、subtitle extraction、
+                                step1 validation、單檔 proofreader lifecycle manifest、write-back、
+                                grammar accumulation、grammar_deal parsing、final verification report
   scaffold-content.mjs        — CLI：raw transcripts → authoring scaffolds（不含 TC 翻譯）
   parse-proofread-result.mjs  — CLI：讀 `_private/proofread_result.md` 的 JSON code block，輸出 draft 或單支影片 JSON
+  full-refresh.mjs            — CLI：全量 refresh dry-run / step1 sync / write-back / grammar / final report
   validate-content.mjs        — CLI：驗證 generated/promoted JSON 完整性
   promote-content.mjs         — CLI：通過驗證後複製到 app data 並更新 metadata
   author-polished-content.mjs — build-time/apply authoring helper：讀 scaffold，
@@ -96,6 +100,17 @@ _private/misshoney/           — 原始 import 輸出（不進 app bundle，不
   import-summary.json         — 各等級 import 統計
   content-scaffolds/<level>/<slug>.json — authoring 素材（script 生成）
   generated-content/<level>/<slug>.json — 完整 PlaylistVideoData（apply agent 撰寫）
+
+_private/tmp/
+  originalContent/<level>/<slug>.json|md — 本次全量 refresh 的本地字幕來源；apply 不重新抓 YouTube
+  step1/<level>/<slug>.md                — 每支字幕對應的 english_proofreader output；Markdown 供 review，
+                                           fenced JSON 是 app write-back contract
+  grammar.md                             — 所有 step1 grammar entries 的累積檔，不在逐支影片時排序
+  grammar_deal.md                        — grammar_organizer / deterministic organizer 輸出的整理檔；
+                                           JSON grammarPoints 依 simple-to-difficult sortOrder 連續遞增
+  misshoney-full-refresh-manifest.json   — source inventory、抽字欄位、proofreader lifecycle record
+  final-verification-report.md           — 覆蓋率、JSON 成功、repair list、route write-back、grammar、UI smoke、
+                                           lint/test/build 與剩餘風險
 ```
 
 **內容 Pipeline 流程：**
@@ -106,11 +121,14 @@ _private/misshoney/           — 原始 import 輸出（不進 app bundle，不
 5. `npm run misshoney:validate-content` — 驗證 polished schema、非空繁中翻譯、cue fragment、泛用 placeholder 單字/片語與 breakdown 欄位
 6. `npm run misshoney:promote-content` — 只有通過 validator 的 generated content 才複製到 `src/modules/playlists/data/videos/` 並更新 metadata；任一檔失敗時停止 promotion
 
-**單支 proofread refresh 流程（A1 ch1 vertical slice）：**
-1. `npm run misshoney:fetch-transcript -- --level a1 --slug <slug> --out _private/tmp.txt` — 只覆寫指定輸出檔；找不到公開英文字幕時回報 level、slug、YouTube URL 與原因。
-2. `english_proofreader` 讀 `_private/tmp.txt`，覆寫 `_private/proofread_result.md`；Markdown 供人工 review，JSON code block 是機器契約。
-3. `npm run misshoney:parse-proofread -- --input _private/proofread_result.md --format playlist-video --level a1 --slug <slug> --out _private/misshoney/generated-content/a1/<slug>.json` — 解析 JSON、切自然句、產生 inline tokens / usages / grammar draft，並在 validator 失敗時不覆寫 app JSON。
-4. 通過 validator 後，單支 JSON 才複製到 `src/modules/playlists/data/videos/<level>/<slug>.json`。
+**全量 proofread refresh 流程（A1 → A2 → B1 → B2）：**
+1. `npm run misshoney:full-refresh -- --dry-run` — 只讀 `_private/tmp/originalContent/a1`、`a2`、`b1`、`b2`，依 A1→A2→B1→B2 與自然章節順序建立 manifest；Markdown 來源直接取全文，JSON 來源只抽 `transcriptText` / `transcript` / `text` / cues 文字，不把 metadata 當字幕。
+2. 每支 subtitle 對應一個新的 `english_proofreader` lifecycle：open → process one source → write one `_private/tmp/step1/<level>/<slug>.md` → close。manifest 會記錄 proofreader id，validator 會拒絕同一 proofreader 處理多檔。
+3. `npm run misshoney:full-refresh -- --sync-step1 --validate-step1` — 檢查每個 step1 Markdown 必須含 fenced JSON、必要欄位、非空 correctedText / translation / segments，且不得含 `same as above` / `omitted for length` 等截斷字樣；壞檔進 repair list，不進 app write-back。
+4. `npm run misshoney:full-refresh -- --write-back` — 只用 validated proofread JSON 覆寫 `src/modules/playlists/data/videos/<level>/<slug>.json`，保留 title、slug、level、videoId、youtubeUrl 等 metadata，並產生 vocabulary、phrases、usages、breakdowns、A/B/C marker token 與 source traceability；validator 失敗時不覆寫該 route。
+5. `npm run misshoney:full-refresh -- --build-grammar` — 從全部 step1 grammar entries 產生 `_private/tmp/grammar.md`，再輸出 `_private/tmp/grammar_deal.md`；`grammar_deal.md` 同時含 Markdown 與 JSON，`grammarPoints[].sortOrder` 需由簡到難且連續遞增。
+6. `/grammar` 同步採保守策略：既有 topic 只補充說明、限制、變體、例句或來源句，不新增重複 topic；無法明確納入的 grammar point 必須在 final report 的 omission list 列出 title、sourceCoverage、reason。
+7. `npm run misshoney:full-refresh -- --final-report` — 產出 `_private/tmp/final-verification-report.md`，記錄 source count、step1 count、JSON success、repair list、route write-back count、grammar additions/supplements/omissions、UI smoke pages、lint/test/build 結果與剩餘風險。
 
 **Polished PlaylistVideoData schema：**
 - top-level：`videoId`、`slug`、`level`、`title`、`youtubeUrl`、`header`、`scenes`、`vocabGroups`、`phrases`、`usages`、`breakdowns`

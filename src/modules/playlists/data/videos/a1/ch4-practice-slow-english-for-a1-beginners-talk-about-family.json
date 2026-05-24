@@ -420,7 +420,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What do they like to do?"
+              "text": "What "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-do-for-work-do",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-scene-05-003-001"
+            },
+            {
+              "type": "text",
+              "text": " they like to "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-do-for-work-do",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-scene-05-003-002"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -929,5 +949,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch4-practice-slow-english-for-a1-beginners-talk-about-family",
+    "sourcePath": "_private/tmp/originalContent/a1/ch4-practice-slow-english-for-a1-beginners-talk-about-family.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch4-practice-slow-english-for-a1-beginners-talk-about-family.md"
+  }
 }

@@ -152,7 +152,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "How often do you go grocery shopping in the US, and how often do you go in Mexico?"
+              "text": "How often do you go "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-03-001-001"
+            },
+            {
+              "type": "text",
+              "text": " shopping in the US, and how often do you go in Mexico?"
             }
           ]
         },
@@ -221,7 +231,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You are meant to buy groceries for a whole week or the whole month."
+              "text": "You are meant to buy "
+            },
+            {
+              "type": "word",
+              "text": "groceries",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-04-002-001"
+            },
+            {
+              "type": "text",
+              "text": " for a whole week or the whole month."
             }
           ]
         },
@@ -280,7 +300,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, do you think it's more common to go to little stores in Mexico or to big grocery stores in Mexico?"
+              "text": "So, do you think it's more common to go to little stores in Mexico or to big "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-05-003-001"
+            },
+            {
+              "type": "text",
+              "text": " stores in Mexico?"
             }
           ]
         },
@@ -368,7 +398,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And do you think grocery shopping is more expensive in the US or in Mexico?"
+              "text": "And do you think "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-07-001-001"
+            },
+            {
+              "type": "text",
+              "text": " shopping is more expensive in the US or in Mexico?"
             }
           ]
         },
@@ -378,7 +418,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think grocery shopping is more expensive in the US because it's only these big stores."
+              "text": "I think "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-07-002-001"
+            },
+            {
+              "type": "text",
+              "text": " shopping is more expensive in the US because it's only these big stores."
             }
           ]
         },
@@ -457,7 +507,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And what do you think is the most expensive food to buy at the grocery store in the USA?"
+              "text": "And what do you think is the most expensive food to buy at the "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-08-004-001"
+            },
+            {
+              "type": "text",
+              "text": " store in the USA?"
             }
           ]
         }
@@ -495,8 +555,14 @@
           "tc": "有機食品通常是最貴的。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Organic",
+              "targetId": "word-organic",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-09-002-001"
+            },
+            {
               "type": "text",
-              "text": "Organic food is usually the most expensive to buy."
+              "text": " food is usually the most expensive to buy."
             }
           ]
         },
@@ -644,7 +710,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What's the main difference between grocery stores in the US and Mexico?"
+              "text": "What's the main difference between "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-11-004-001"
+            },
+            {
+              "type": "text",
+              "text": " stores in the US and Mexico?"
             }
           ]
         }
@@ -771,7 +847,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Have you noticed any variety like that in Mexico?"
+              "text": "Have you noticed any "
+            },
+            {
+              "type": "word",
+              "text": "variety",
+              "targetId": "word-variety",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-14-001-001"
+            },
+            {
+              "type": "text",
+              "text": " like that in Mexico?"
             }
           ]
         },
@@ -781,7 +867,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Maybe the US has a variety of Oreos, and here we have a variety of salsas, you know, habanero, like classic green."
+              "text": "Maybe the US has a "
+            },
+            {
+              "type": "word",
+              "text": "variety",
+              "targetId": "word-variety",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-14-002-001"
+            },
+            {
+              "type": "text",
+              "text": " of Oreos, and here we have a "
+            },
+            {
+              "type": "word",
+              "text": "variety",
+              "targetId": "word-variety",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-14-002-002"
+            },
+            {
+              "type": "text",
+              "text": " of salsas, you know, habanero, like classic green."
             }
           ]
         },
@@ -1096,7 +1202,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Um, well, healthcare is free in Mexico, so there's not much of a price there."
+              "text": "Um, well, "
+            },
+            {
+              "type": "word",
+              "text": "healthcare",
+              "targetId": "word-healthcare",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-19-002-001"
+            },
+            {
+              "type": "text",
+              "text": " is free in Mexico, so there's not much of a price there."
             }
           ]
         },
@@ -1155,7 +1271,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, there is a big difference in healthcare."
+              "text": "So, there is a big difference in "
+            },
+            {
+              "type": "word",
+              "text": "healthcare",
+              "targetId": "word-healthcare",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-20-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1597,7 +1723,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And what about vice versa?"
+              "text": "And what about "
+            },
+            {
+              "type": "phrase",
+              "text": "vice versa",
+              "targetId": "phrase-vice-versa",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-28-002-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -2225,7 +2361,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And do you think people in Mexico cook more at home or eat out at a restaurant?"
+              "text": "And do you think people in Mexico cook more at home or "
+            },
+            {
+              "type": "phrase",
+              "text": "eat out",
+              "targetId": "phrase-eat-out",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-40-002-001"
+            },
+            {
+              "type": "text",
+              "text": " at a restaurant?"
             }
           ]
         },
@@ -2873,7 +3019,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My favorite comfort food in the US is probably Flamin' Hot Cheetos because I have a lot of memories with Flamin' Hot Cheetos as a kid."
+              "text": "My favorite "
+            },
+            {
+              "type": "phrase",
+              "text": "comfort food",
+              "targetId": "phrase-comfort-food",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-52-001-001"
+            },
+            {
+              "type": "text",
+              "text": " in the US is probably Flamin' Hot Cheetos because I have a lot of memories with Flamin' Hot Cheetos as a kid."
             }
           ]
         },
@@ -2922,7 +3078,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then in Mexico, I would say my comfort food is probably chalupas."
+              "text": "Then in Mexico, I would say my "
+            },
+            {
+              "type": "phrase",
+              "text": "comfort food",
+              "targetId": "phrase-comfort-food",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-53-001-001"
+            },
+            {
+              "type": "text",
+              "text": " is probably chalupas."
             }
           ]
         },
@@ -2991,7 +3157,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Um, in Mexico, I'm sure you know, chilaquiles suizos are my comfort food."
+              "text": "Um, in Mexico, I'm sure you know, chilaquiles suizos are my "
+            },
+            {
+              "type": "phrase",
+              "text": "comfort food",
+              "targetId": "phrase-comfort-food",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-54-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -3050,7 +3226,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And that's my comfort food in Mexico."
+              "text": "And that's my "
+            },
+            {
+              "type": "phrase",
+              "text": "comfort food",
+              "targetId": "phrase-comfort-food",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-55-002-001"
+            },
+            {
+              "type": "text",
+              "text": " in Mexico."
             }
           ]
         },
@@ -3305,7 +3491,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Now, what about Mexican foods that you can't stand?"
+              "text": "Now, what about Mexican foods that you "
+            },
+            {
+              "type": "phrase",
+              "text": "can't stand",
+              "targetId": "phrase-can-t-stand",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-60-002-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -3374,7 +3570,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Because mole has so many spices and just a very big variety of flavor."
+              "text": "Because mole has so many spices and just a very big "
+            },
+            {
+              "type": "word",
+              "text": "variety",
+              "targetId": "word-variety",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-61-001-001"
+            },
+            {
+              "type": "text",
+              "text": " of flavor."
             }
           ]
         },
@@ -3826,7 +4032,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And what's the weirdest or funniest thing that you've seen in a grocery store in either country?"
+              "text": "And what's the weirdest or funniest thing that you've seen in a "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-69-003-001"
+            },
+            {
+              "type": "text",
+              "text": " store in either country?"
             }
           ]
         },
@@ -3904,7 +4120,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "In the same way you spoke about variety in food, there is also a huge variety in products."
+              "text": "In the same way you spoke about "
+            },
+            {
+              "type": "word",
+              "text": "variety",
+              "targetId": "word-variety",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-71-001-001"
+            },
+            {
+              "type": "text",
+              "text": " in food, there is also a huge "
+            },
+            {
+              "type": "word",
+              "text": "variety",
+              "targetId": "word-variety",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-71-001-002"
+            },
+            {
+              "type": "text",
+              "text": " in products."
             }
           ]
         },
@@ -4327,7 +4563,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Um, have you ever tried to cook something American in Mexico or vice versa?"
+              "text": "Um, have you ever tried to cook something American in Mexico or "
+            },
+            {
+              "type": "phrase",
+              "text": "vice versa",
+              "targetId": "phrase-vice-versa",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-78-004-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         }
@@ -4720,7 +4966,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If somebody tells you not to go somewhere in Mexico, then I would just avoid that."
+              "text": "If somebody tells you not to go somewhere in Mexico, then I would just "
+            },
+            {
+              "type": "word",
+              "text": "avoid",
+              "targetId": "word-avoid",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-85-004-001"
+            },
+            {
+              "type": "text",
+              "text": " that."
             }
           ]
         }
@@ -5014,7 +5270,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I can walk to the grocery store."
+              "text": "I can walk to the "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-91-001-001"
+            },
+            {
+              "type": "text",
+              "text": " store."
             }
           ]
         },
@@ -5850,7 +6116,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Um, now I want to talk about public spaces and public transportation."
+              "text": "Um, now I want to talk about public spaces and "
+            },
+            {
+              "type": "word",
+              "text": "public transportation",
+              "targetId": "word-public-transportation",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-105-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -5860,7 +6136,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, do you feel safe taking public transportation in Mexico?"
+              "text": "So, do you feel safe taking "
+            },
+            {
+              "type": "word",
+              "text": "public transportation",
+              "targetId": "word-public-transportation",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-105-003-001"
+            },
+            {
+              "type": "text",
+              "text": " in Mexico?"
             }
           ]
         },
@@ -6715,7 +7001,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "With vocabulary PDFs, grammar practice, and even speaking questions to practice with friends or teachers."
+              "text": "With "
+            },
+            {
+              "type": "word",
+              "text": "vocabulary",
+              "targetId": "word-vocabulary",
+              "instanceId": "marker-b1-ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1-scene-120-004-001"
+            },
+            {
+              "type": "text",
+              "text": " PDFs, grammar practice, and even speaking questions to practice with friends or teachers."
             }
           ]
         }
@@ -7771,5 +8067,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1",
+    "sourcePath": "_private/tmp/originalContent/b1/ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch14-real-english-conversation-life-in-the-usa-vs-life-in-mexico-b1.md"
+  }
 }

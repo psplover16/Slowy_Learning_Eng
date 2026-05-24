@@ -124,6 +124,20 @@ describe('PlaylistView', () => {
     expect(wrapper.exists()).toBe(true)
   })
 
+  it.each(['a1', 'a2', 'b1', 'b2'])('renders playlist cards and ready detail links for /%s', async (level) => {
+    const router = makeRouter(level)
+    const wrapper = mount(PlaylistView, {
+      props: { level },
+      global: { plugins: [router] },
+    })
+    await flushPromises()
+
+    expect(wrapper.find('h1').text()).toBe(`MissHoney ${level.toUpperCase()}`)
+    expect(wrapper.findAll('[data-testid="playlist-video-card"]').length).toBeGreaterThan(0)
+    const firstCard = wrapper.find('[data-testid="playlist-video-card"]')
+    expect(firstCard.attributes('href') ?? firstCard.find('a').attributes('href')).toContain(`/${level}/ch1-hello`)
+  })
+
   it('reloads playlist data when the route level changes on the reused view', async () => {
     const router = makeRouter('b1')
     const wrapper = mount(PlaylistView, {

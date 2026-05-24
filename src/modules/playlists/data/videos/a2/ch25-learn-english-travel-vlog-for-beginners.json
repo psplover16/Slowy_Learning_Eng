@@ -143,7 +143,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That was a brutal flight."
+              "text": "That was a "
+            },
+            {
+              "type": "word",
+              "text": "brutal",
+              "targetId": "word-brutal",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-scene-02-004-001"
+            },
+            {
+              "type": "text",
+              "text": " flight."
             }
           ]
         }
@@ -251,7 +261,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But I'm curious, what other strategies do you have to cope with long flights?"
+              "text": "But I'm curious, what other strategies do you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-scene-04-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to cope with long flights?"
             }
           ]
         }
@@ -545,7 +565,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It's scary for me every time I take that ferry because I know that sometimes they sink and I can swim fine."
+              "text": "It's scary for me every time I "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-scene-10-003-001"
+            },
+            {
+              "type": "text",
+              "text": " that ferry because I know that sometimes they sink and I can swim fine."
             }
           ]
         },
@@ -682,7 +712,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It makes me feel alive."
+              "text": "It makes me "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-scene-13-001-001"
+            },
+            {
+              "type": "text",
+              "text": " alive."
             }
           ]
         },
@@ -692,7 +732,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It makes me feel grateful and inspired to spread all of the positivity and the beauty that I see in the world with everyone I can with you guys, with the people I meet."
+              "text": "It makes me "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-scene-13-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-scene-13-002-002"
+            },
+            {
+              "type": "text",
+              "text": " and inspired to spread all of the positivity and the beauty that I see in the world with everyone I can with you guys, with the people I meet."
             }
           ]
         },
@@ -800,7 +860,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Humans have lots of bacteria on our hands that can make a turtle sick."
+              "text": "Humans "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-scene-15-001-001"
+            },
+            {
+              "type": "text",
+              "text": " lots of bacteria on our hands that can "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-scene-15-001-002"
+            },
+            {
+              "type": "text",
+              "text": " a turtle sick."
             }
           ]
         },
@@ -1036,7 +1116,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So guys, I have a sad story to tell you."
+              "text": "So guys, I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-scene-19-001-001"
+            },
+            {
+              "type": "text",
+              "text": " a sad story to tell you."
             }
           ]
         },
@@ -1311,7 +1401,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Of course, I'll feel sad if I lose those things, but I can't rely on objects to bring me joy."
+              "text": "Of course, I'll "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-scene-24-004-001"
+            },
+            {
+              "type": "text",
+              "text": " sad if I lose those things, but I can't rely on objects to bring me joy."
             }
           ]
         }
@@ -1507,7 +1607,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'm so grateful to have such a loving community who supports all of my English learning videos."
+              "text": "I'm so "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-scene-28-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-scene-28-004-002"
+            },
+            {
+              "type": "text",
+              "text": " such a loving community who supports all of my English learning videos."
             }
           ]
         }
@@ -1739,5 +1859,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch25-learn-english-travel-vlog-for-beginners",
+    "sourcePath": "_private/tmp/originalContent/a2/ch25-learn-english-travel-vlog-for-beginners.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch25-learn-english-travel-vlog-for-beginners.md"
+  }
 }

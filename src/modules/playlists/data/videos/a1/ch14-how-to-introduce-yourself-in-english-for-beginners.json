@@ -511,7 +511,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So we all moved to Mexico to live."
+              "text": "So we all moved to Mexico to "
+            },
+            {
+              "type": "usage",
+              "text": "live",
+              "targetId": "usage-live-la-v",
+              "instanceId": "marker-a1-ch14-how-to-introduce-yourself-in-english-for-beginners-scene-06-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -757,7 +767,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I work at my job."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "work",
+              "targetId": "usage-work-for-work",
+              "instanceId": "marker-a1-ch14-how-to-introduce-yourself-in-english-for-beginners-scene-10-002-001"
+            },
+            {
+              "type": "text",
+              "text": " at my job."
             }
           ]
         },
@@ -1122,7 +1142,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What do you like to do?"
+              "text": "What do you "
+            },
+            {
+              "type": "usage",
+              "text": "like",
+              "targetId": "usage-like-item",
+              "instanceId": "marker-a1-ch14-how-to-introduce-yourself-in-english-for-beginners-scene-15-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to do?"
             }
           ]
         }
@@ -1963,5 +1993,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch14-how-to-introduce-yourself-in-english-for-beginners",
+    "sourcePath": "_private/tmp/originalContent/a1/ch14-how-to-introduce-yourself-in-english-for-beginners.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch14-how-to-introduce-yourself-in-english-for-beginners.md"
+  }
 }

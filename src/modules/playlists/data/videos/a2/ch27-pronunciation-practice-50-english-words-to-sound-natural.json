@@ -148,8 +148,14 @@
           "tc": "舒适。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Comfortable",
+              "targetId": "word-comfortable",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-02-004-001"
+            },
+            {
               "type": "text",
-              "text": "Comfortable."
+              "text": "."
             }
           ]
         }
@@ -168,7 +174,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This couch is comfortable."
+              "text": "This couch is "
+            },
+            {
+              "type": "word",
+              "text": "comfortable",
+              "targetId": "word-comfortable",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-03-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -178,7 +194,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This couch is comfortable."
+              "text": "This couch is "
+            },
+            {
+              "type": "word",
+              "text": "comfortable",
+              "targetId": "word-comfortable",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-03-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -384,7 +410,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have new jewelry."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-07-003-001"
+            },
+            {
+              "type": "text",
+              "text": " new jewelry."
             }
           ]
         },
@@ -394,7 +430,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have new jewelry."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-07-004-001"
+            },
+            {
+              "type": "text",
+              "text": " new jewelry."
             }
           ]
         }
@@ -551,7 +597,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You might sound unnatural because you're pronouncing every syllable and native speakers don't."
+              "text": "You might sound unnatural because you're pronouncing every syllable and "
+            },
+            {
+              "type": "word",
+              "text": "native",
+              "targetId": "word-native",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-10-004-001"
+            },
+            {
+              "type": "text",
+              "text": " speakers don't."
             }
           ]
         }
@@ -629,7 +685,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Now this next part is what makes you sound native."
+              "text": "Now this next part is what makes you sound "
+            },
+            {
+              "type": "word",
+              "text": "native",
+              "targetId": "word-native",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1194,7 +1260,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This is my receipt."
+              "text": "This is my "
+            },
+            {
+              "type": "word",
+              "text": "receipt",
+              "targetId": "word-receipt",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-23-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1243,7 +1319,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Don't confuse receipt with recipe, please."
+              "text": "Don't confuse "
+            },
+            {
+              "type": "word",
+              "text": "receipt",
+              "targetId": "word-receipt",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-24-003-001"
+            },
+            {
+              "type": "text",
+              "text": " with recipe, please."
             }
           ]
         },
@@ -1527,7 +1613,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This next part is very important to be able to understand native speakers."
+              "text": "This next part is very important to be able to understand "
+            },
+            {
+              "type": "word",
+              "text": "native",
+              "targetId": "word-native",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-30-001-001"
+            },
+            {
+              "type": "text",
+              "text": " speakers."
             }
           ]
         },
@@ -1684,7 +1780,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Want to wanna want to go."
+              "text": "Want to wanna want "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-33-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2297,8 +2403,14 @@
           "tc": "繼續前进。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "Keep going",
+              "targetId": "phrase-keep-going",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-45-003-001"
+            },
+            {
               "type": "text",
-              "text": "Keep going."
+              "text": "."
             }
           ]
         },
@@ -2640,8 +2752,14 @@
           "tc": "繼續前进。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "Keep going",
+              "targetId": "phrase-keep-going",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-52-003-001"
+            },
+            {
               "type": "text",
-              "text": "Keep going."
+              "text": "."
             }
           ]
         },
@@ -2729,7 +2847,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And if you have any other words that you need help pronouncing, leave them in the comments."
+              "text": "And if you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-54-002-001"
+            },
+            {
+              "type": "text",
+              "text": " any other words that you need help pronouncing, leave them in the comments."
             }
           ]
         },
@@ -2738,8 +2866,14 @@
           "tc": "母語人士减少聲音并连接單詞。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Native",
+              "targetId": "word-native",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-54-003-001"
+            },
+            {
               "type": "text",
-              "text": "Native speakers reduce sounds and connect words."
+              "text": " speakers reduce sounds and connect words."
             }
           ]
         },
@@ -2827,7 +2961,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Practice with this video every day until it's nothing to pronounce."
+              "text": "Practice with this video every day until it's nothing to "
+            },
+            {
+              "type": "word",
+              "text": "pronounce",
+              "targetId": "word-pronounce",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-56-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2847,7 +2991,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, if you want to be a part of next video's topic and the words that I pronounce, then go check my Instagram account."
+              "text": "So, if you want to be a part of next video's topic and the words that I "
+            },
+            {
+              "type": "word",
+              "text": "pronounce",
+              "targetId": "word-pronounce",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-scene-56-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", then go check my Instagram account."
             }
           ]
         },
@@ -3092,5 +3246,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch27-pronunciation-practice-50-english-words-to-sound-natural",
+    "sourcePath": "_private/tmp/originalContent/a2/ch27-pronunciation-practice-50-english-words-to-sound-natural.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch27-pronunciation-practice-50-english-words-to-sound-natural.md"
+  }
 }

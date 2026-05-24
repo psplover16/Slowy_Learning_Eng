@@ -133,7 +133,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Our airline was United, or Aeromexico."
+              "text": "Our "
+            },
+            {
+              "type": "word",
+              "text": "airline",
+              "targetId": "word-airline",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-02-002-001"
+            },
+            {
+              "type": "text",
+              "text": " was United, or Aeromexico."
             }
           ]
         },
@@ -143,7 +153,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So we found our airline."
+              "text": "So we found our "
+            },
+            {
+              "type": "word",
+              "text": "airline",
+              "targetId": "word-airline",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-02-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -586,8 +606,14 @@
           "tc": "很快地，我阿姨帶我們大家去吃冰淇淋。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "Right away",
+              "targetId": "phrase-right-away",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-08-003-001"
+            },
+            {
               "type": "text",
-              "text": "Right away, my aunt took us all to eat ice cream."
+              "text": ", my aunt took us all to eat ice cream."
             }
           ]
         },
@@ -636,7 +662,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They were unnecessarily big."
+              "text": "They were "
+            },
+            {
+              "type": "word",
+              "text": "unnecessarily",
+              "targetId": "word-unnecessarily",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-09-002-001"
+            },
+            {
+              "type": "text",
+              "text": " big."
             }
           ]
         },
@@ -804,7 +840,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The graduation party was really fun."
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "graduation",
+              "targetId": "word-graduation",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-11-004-001"
+            },
+            {
+              "type": "text",
+              "text": " party was really fun."
             }
           ]
         }
@@ -843,7 +889,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My aunt's house is in the same city where my family and I used to live."
+              "text": "My aunt's house is in the same city where my family and I "
+            },
+            {
+              "type": "phrase",
+              "text": "used to",
+              "targetId": "phrase-used-to",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " live."
             }
           ]
         },
@@ -922,7 +978,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We saw all of the old houses that we used to see every day."
+              "text": "We saw all of the old houses that we "
+            },
+            {
+              "type": "phrase",
+              "text": "used to",
+              "targetId": "phrase-used-to",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-13-002-001"
+            },
+            {
+              "type": "text",
+              "text": " see every day."
             }
           ]
         },
@@ -942,7 +1008,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "There's nothing like that nostalgic feeling of being in your childhood home or childhood city."
+              "text": "There's nothing like that "
+            },
+            {
+              "type": "word",
+              "text": "nostalgic",
+              "targetId": "word-nostalgic",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-13-004-001"
+            },
+            {
+              "type": "text",
+              "text": " feeling of being in your childhood home or childhood city."
             }
           ]
         }
@@ -961,7 +1037,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What place brings back nostalgic feelings for you?"
+              "text": "What place brings back "
+            },
+            {
+              "type": "word",
+              "text": "nostalgic",
+              "targetId": "word-nostalgic",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-14-001-001"
+            },
+            {
+              "type": "text",
+              "text": " feelings for you?"
             }
           ]
         },
@@ -971,7 +1057,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What things bring back nostalgic feelings?"
+              "text": "What things "
+            },
+            {
+              "type": "phrase",
+              "text": "bring back",
+              "targetId": "phrase-bring-back",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-14-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "nostalgic",
+              "targetId": "word-nostalgic",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-14-002-002"
+            },
+            {
+              "type": "text",
+              "text": " feelings?"
             }
           ]
         },
@@ -1030,7 +1136,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Instead of chopping down the whole tree, they just cut around it so the cable could go through it."
+              "text": "Instead of chopping down the whole tree, they just cut around it so the cable could "
+            },
+            {
+              "type": "phrase",
+              "text": "go through",
+              "targetId": "phrase-go-through",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-15-003-001"
+            },
+            {
+              "type": "text",
+              "text": " it."
             }
           ]
         },
@@ -1711,7 +1827,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, the first thing we did was head to bed."
+              "text": "So, the first thing we did was "
+            },
+            {
+              "type": "phrase",
+              "text": "head to",
+              "targetId": "phrase-head-to",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-24-004-001"
+            },
+            {
+              "type": "text",
+              "text": " bed."
             }
           ]
         }
@@ -1987,7 +2113,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My $20 kebab."
+              "text": "My $20 "
+            },
+            {
+              "type": "word",
+              "text": "kebab",
+              "targetId": "word-kebab",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-28-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2848,7 +2984,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If you like this type of slow English podcast, then let me know in the comments."
+              "text": "If you like this type of slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-b1-ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1-scene-39-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", then let me know in the comments."
             }
           ]
         },
@@ -4097,5 +4243,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1",
+    "sourcePath": "_private/tmp/originalContent/b1/ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch12-slow-english-podcast-my-trip-to-new-york-city-level-b1.md"
+  }
 }

@@ -3210,7 +3210,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We are not boarding yet."
+              "text": "We are not "
+            },
+            {
+              "type": "word",
+              "text": "boarding",
+              "targetId": "word-boarding",
+              "instanceId": "marker-b1-ch19-how-to-speak-english-real-life-role-play-b1b2-scene-43-001-001"
+            },
+            {
+              "type": "text",
+              "text": " yet."
             }
           ]
         },
@@ -3220,7 +3230,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We will begin boarding in about 10 minutes."
+              "text": "We will begin "
+            },
+            {
+              "type": "word",
+              "text": "boarding",
+              "targetId": "word-boarding",
+              "instanceId": "marker-b1-ch19-how-to-speak-english-real-life-role-play-b1b2-scene-43-002-001"
+            },
+            {
+              "type": "text",
+              "text": " in about 10 minutes."
             }
           ]
         },
@@ -3478,7 +3498,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It looks like the flight is full."
+              "text": "It looks like the "
+            },
+            {
+              "type": "word",
+              "text": "flight",
+              "targetId": "word-flight",
+              "instanceId": "marker-b1-ch19-how-to-speak-english-real-life-role-play-b1b2-scene-47-001-001"
+            },
+            {
+              "type": "text",
+              "text": " is full."
             }
           ]
         },
@@ -3952,7 +3982,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Now, let's practice checking in at the office."
+              "text": "Now, let's practice "
+            },
+            {
+              "type": "usage",
+              "text": "checking",
+              "targetId": "usage-checking-checking-bags",
+              "instanceId": "marker-b1-ch19-how-to-speak-english-real-life-role-play-b1b2-scene-53-003-001"
+            },
+            {
+              "type": "text",
+              "text": " in at the office."
             }
           ]
         },
@@ -6515,5 +6555,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch19-how-to-speak-english-real-life-role-play-b1b2",
+    "sourcePath": "_private/tmp/originalContent/b1/ch19-how-to-speak-english-real-life-role-play-b1b2.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch19-how-to-speak-english-real-life-role-play-b1b2.md"
+  }
 }

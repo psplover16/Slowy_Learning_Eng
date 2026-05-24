@@ -13,23 +13,22 @@ export function buildPlaylistReadingSections(content: PlaylistVideoData | null, 
   if (!content) return []
 
   const sections: PlaylistReadingSection[] = []
-  let num = 1
+  const pushSection = (condition: boolean, key: PlaylistReadingSectionKey, label: string) => {
+    if (condition) {
+      sections.push({
+        id: `${baseId}-section-${key}`,
+        label,
+        key,
+        num: sections.length + 1,
+      })
+    }
+  }
 
-  if (content.scenes.length) {
-    sections.push({ id: `${baseId}-section-bilingual`, label: '全文', key: 'bilingual', num: num++ })
-  }
-  if (content.vocabGroups.length) {
-    sections.push({ id: `${baseId}-section-vocabulary`, label: '單字', key: 'vocabulary', num: num++ })
-  }
-  if (content.phrases.length) {
-    sections.push({ id: `${baseId}-section-phrases`, label: '片語', key: 'phrases', num: num++ })
-  }
-  if (content.usages?.length) {
-    sections.push({ id: `${baseId}-section-usages`, label: '用法', key: 'usages', num: num++ })
-  }
-  if (content.breakdowns.length) {
-    sections.push({ id: `${baseId}-section-breakdown`, label: '句型', key: 'breakdown', num: num++ })
-  }
+  pushSection(content.scenes.length > 0, 'bilingual', '全文')
+  pushSection(content.vocabGroups.length > 0, 'vocabulary', '單字')
+  pushSection(content.phrases.length > 0, 'phrases', '片語')
+  pushSection((content.usages?.length ?? 0) > 0, 'usages', '用法')
+  pushSection(content.breakdowns.length > 0, 'breakdown', '句型')
 
   return sections
 }

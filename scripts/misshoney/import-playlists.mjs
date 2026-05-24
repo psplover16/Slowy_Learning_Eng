@@ -14,7 +14,6 @@ import {
   deriveSlug,
   normalizeTranscriptCues,
   planOutputPaths,
-  mapSkippedReason,
   buildInventoryItem,
   mergeCuesToText,
   parseYtDlpJsonPrintOutput,
@@ -209,7 +208,6 @@ async function runImport(sources) {
     let transcriptCount = 0
 
     const paths = planOutputPaths(level, 'placeholder')
-    const transcriptDir = resolve(REPO_ROOT, `_private/misshoney/transcripts/${level}`)
     const inventoryPath = resolve(REPO_ROOT, paths.inventory)
     const skippedPath = resolve(REPO_ROOT, paths.skipped)
 

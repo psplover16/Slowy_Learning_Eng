@@ -8,8 +8,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync, copyFileSync } from 'node:fs'
 import { resolve, dirname, basename } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { execSync } from 'node:child_process'
-import { findPlaylistSourceUrl, validatePlaylistVideoData, planPromotionPaths } from './content-core.mjs'
+import { findPlaylistSourceUrl, validatePlaylistVideoData } from './content-core.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const REPO_ROOT = resolve(__dirname, '../..')

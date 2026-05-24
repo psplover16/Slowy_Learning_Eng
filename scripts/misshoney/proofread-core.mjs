@@ -57,7 +57,7 @@ export function parseProofreadMarkdown(markdown) {
   try {
     parsed = JSON.parse(jsonText)
   } catch (error) {
-    throw new Error(`invalid proofread JSON: ${error.message}`)
+    throw new Error(`invalid proofread JSON: ${error.message}`, { cause: error })
   }
 
   return normalizeProofreadDraft(parsed)
@@ -402,6 +402,7 @@ function splitEnglishSentences(value) {
     .replace(/\bMs\./g, 'Ms<dot>')
     .replace(/\bMrs\./g, 'Mrs<dot>')
     .replace(/\bDr\./g, 'Dr<dot>')
+    .replace(/\bSt\./g, 'St<dot>')
 
   return protectedText
     .replace(/([.!?]["']?)\s+/g, `$1${boundary}`)

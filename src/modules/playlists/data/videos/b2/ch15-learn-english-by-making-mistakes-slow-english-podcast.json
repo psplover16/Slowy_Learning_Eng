@@ -54,7 +54,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Hello and welcome back to my Slow English podcast."
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-01-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to my Slow English podcast."
             }
           ]
         }
@@ -93,7 +103,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "ANY level can practice listening, but this episode has intermediate to advanced vocabulary."
+              "text": "ANY level can practice listening, but this episode has "
+            },
+            {
+              "type": "word",
+              "text": "intermediate",
+              "targetId": "word-intermediate",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-02-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "word",
+              "text": "advanced",
+              "targetId": "word-advanced",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-02-003-002"
+            },
+            {
+              "type": "text",
+              "text": " vocabulary."
             }
           ]
         },
@@ -103,7 +133,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, if you think you're ready for faster listening, then put this video in times 1.25 or 1.5."
+              "text": "So, if you "
+            },
+            {
+              "type": "word",
+              "text": "think",
+              "targetId": "word-think",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-02-004-001"
+            },
+            {
+              "type": "text",
+              "text": " you're ready for faster listening, then put this video in times 1.25 or 1.5."
             }
           ]
         }
@@ -122,7 +162,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Give yourself a challenge and speed up this video."
+              "text": "Give "
+            },
+            {
+              "type": "word",
+              "text": "yourself",
+              "targetId": "word-yourself",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-03-001-001"
+            },
+            {
+              "type": "text",
+              "text": " a "
+            },
+            {
+              "type": "word",
+              "text": "challenge",
+              "targetId": "word-challenge",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-03-001-002"
+            },
+            {
+              "type": "text",
+              "text": " and speed up this video."
             }
           ]
         },
@@ -132,7 +192,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Speaking of challenges, today I want to talk about challenging yourself, stepping out of your comfort zone and being the dumbest person in the room."
+              "text": "Speaking of challenges, today I "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-03-002-001"
+            },
+            {
+              "type": "text",
+              "text": " talk about challenging "
+            },
+            {
+              "type": "word",
+              "text": "yourself",
+              "targetId": "word-yourself",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-03-002-002"
+            },
+            {
+              "type": "text",
+              "text": ", stepping out of your comfort zone and being the dumbest person in the room."
             }
           ]
         },
@@ -219,8 +299,14 @@
           "tc": "與此同時，其他女孩正在記住每一步。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Right",
+              "targetId": "usage-right-right-now-right",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-05-001-001"
+            },
+            {
               "type": "text",
-              "text": "Right away there were so many steps that I was having trouble memorizing."
+              "text": " away there were so many steps that I was having trouble memorizing."
             }
           ]
         },
@@ -387,7 +473,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I got there with much more work than the other girls."
+              "text": "I got there with much more "
+            },
+            {
+              "type": "word",
+              "text": "work",
+              "targetId": "word-work",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-08-003-001"
+            },
+            {
+              "type": "text",
+              "text": " than the other girls."
             }
           ]
         },
@@ -475,7 +571,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Even if you look around that room and you see everyone dancing, you probably wouldn't say, \"Wow, Tayanna is an impressive dancer.\""
+              "text": "Even if you look around that room and you see "
+            },
+            {
+              "type": "word",
+              "text": "everyone",
+              "targetId": "word-everyone",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-10-002-001"
+            },
+            {
+              "type": "text",
+              "text": " dancing, you probably wouldn't say, \"Wow, Tayanna is an impressive dancer.\""
             }
           ]
         },
@@ -533,8 +639,14 @@
           "tc": "如果你環顧那個房間，看到每個人都在跳舞，你可能不會說：「哇，塔亞娜是一位令人印象深刻的舞者。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Everyone",
+              "targetId": "word-everyone",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-11-003-001"
+            },
+            {
               "type": "text",
-              "text": "Everyone was really sweet, by the way."
+              "text": " was really sweet, by the way."
             }
           ]
         },
@@ -583,7 +695,47 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But it made me think I want to continue being the worst dancer in the room because that means I'm in the right place to improve."
+              "text": "But it made me "
+            },
+            {
+              "type": "word",
+              "text": "think",
+              "targetId": "word-think",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-12-003-001"
+            },
+            {
+              "type": "text",
+              "text": " I "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-12-003-002"
+            },
+            {
+              "type": "text",
+              "text": " continue being the worst dancer in the room because that means I'm in the "
+            },
+            {
+              "type": "usage",
+              "text": "right",
+              "targetId": "usage-right-right-now-right",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-12-003-003"
+            },
+            {
+              "type": "text",
+              "text": " place to "
+            },
+            {
+              "type": "word",
+              "text": "improve",
+              "targetId": "word-improve",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-12-003-004"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -593,7 +745,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "No, I'm in the perfect place to improve."
+              "text": "No, I'm in the perfect place to "
+            },
+            {
+              "type": "word",
+              "text": "improve",
+              "targetId": "word-improve",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-12-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -612,7 +774,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Why would you want to be the best dancer in the room?"
+              "text": "Why would you "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-13-001-001"
+            },
+            {
+              "type": "text",
+              "text": " be the best dancer in the room?"
             }
           ]
         },
@@ -622,7 +794,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If that's really what you want, then you have to think, are you just trying to impress others or are you looking to be your best self?"
+              "text": "If that's really what you want, then you "
+            },
+            {
+              "type": "phrase",
+              "text": "have to",
+              "targetId": "phrase-have-to",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-13-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "think",
+              "targetId": "word-think",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-13-002-002"
+            },
+            {
+              "type": "text",
+              "text": ", are you just trying to impress others or are you looking to be your best self?"
             }
           ]
         },
@@ -632,7 +824,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think it's valid to want to be your best self, but it's not always the best thing to want to impress others."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "think",
+              "targetId": "word-think",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-13-003-001"
+            },
+            {
+              "type": "text",
+              "text": " it's valid to "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-13-003-002"
+            },
+            {
+              "type": "text",
+              "text": " be your best self, but it's not always the best thing to "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-13-003-003"
+            },
+            {
+              "type": "text",
+              "text": " impress others."
             }
           ]
         },
@@ -642,7 +864,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think you will end up disappointed disappointed to realize their opinions weren't as rewarding as you thought they were going to be."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "think",
+              "targetId": "word-think",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-13-004-001"
+            },
+            {
+              "type": "text",
+              "text": " you will end up disappointed disappointed to realize their opinions weren't as rewarding as you thought they were "
+            },
+            {
+              "type": "phrase",
+              "text": "going to",
+              "targetId": "phrase-going-to",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-13-004-002"
+            },
+            {
+              "type": "text",
+              "text": " be."
             }
           ]
         }
@@ -661,7 +903,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I challenge you to put yourself in situations where you have something to learn."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "challenge",
+              "targetId": "word-challenge",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-14-001-001"
+            },
+            {
+              "type": "text",
+              "text": " you to put "
+            },
+            {
+              "type": "word",
+              "text": "yourself",
+              "targetId": "word-yourself",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-14-001-002"
+            },
+            {
+              "type": "text",
+              "text": " in situations where you have something to learn."
             }
           ]
         },
@@ -671,7 +933,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Put yourself in places where you look dumb."
+              "text": "Put "
+            },
+            {
+              "type": "word",
+              "text": "yourself",
+              "targetId": "word-yourself",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-14-002-001"
+            },
+            {
+              "type": "text",
+              "text": " in places where you look dumb."
             }
           ]
         },
@@ -681,7 +953,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Places where you have the least experience, the least amount of knowledge."
+              "text": "Places where you have the least "
+            },
+            {
+              "type": "word",
+              "text": "experience",
+              "targetId": "word-experience",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-14-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", the least amount of knowledge."
             }
           ]
         },
@@ -720,7 +1002,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But if you look at it this way, you'll feel so proud of yourself."
+              "text": "But if you look at it this way, you'll feel so proud of "
+            },
+            {
+              "type": "word",
+              "text": "yourself",
+              "targetId": "word-yourself",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-15-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -808,7 +1100,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When was the last time you put yourself in a room where everyone was better than you at something?"
+              "text": "When was the last time you put "
+            },
+            {
+              "type": "word",
+              "text": "yourself",
+              "targetId": "word-yourself",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-17-001-001"
+            },
+            {
+              "type": "text",
+              "text": " in a room where "
+            },
+            {
+              "type": "word",
+              "text": "everyone",
+              "targetId": "word-everyone",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-17-001-002"
+            },
+            {
+              "type": "text",
+              "text": " was better than you at something?"
             }
           ]
         },
@@ -906,7 +1218,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I could have chosen to think negative thoughts to say, \"Oh, no."
+              "text": "I could have chosen to "
+            },
+            {
+              "type": "word",
+              "text": "think",
+              "targetId": "word-think",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-19-001-001"
+            },
+            {
+              "type": "text",
+              "text": " negative thoughts to say, \"Oh, no."
             }
           ]
         },
@@ -926,7 +1248,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "\"Everyone is judging me.\""
+              "text": "\""
+            },
+            {
+              "type": "word",
+              "text": "Everyone",
+              "targetId": "word-everyone",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-19-003-001"
+            },
+            {
+              "type": "text",
+              "text": " is judging me.\""
             }
           ]
         },
@@ -965,7 +1297,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Instead, I chose to think positive thoughts."
+              "text": "Instead, I chose to "
+            },
+            {
+              "type": "word",
+              "text": "think",
+              "targetId": "word-think",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-20-002-001"
+            },
+            {
+              "type": "text",
+              "text": " positive thoughts."
             }
           ]
         },
@@ -975,7 +1317,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "\"I'm going to learn so much from everyone here.\""
+              "text": "\"I'm "
+            },
+            {
+              "type": "phrase",
+              "text": "going to",
+              "targetId": "phrase-going-to",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-20-003-001"
+            },
+            {
+              "type": "text",
+              "text": " learn so much from "
+            },
+            {
+              "type": "word",
+              "text": "everyone",
+              "targetId": "word-everyone",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-20-003-002"
+            },
+            {
+              "type": "text",
+              "text": " here.\""
             }
           ]
         },
@@ -985,7 +1347,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "\"Everyone is admiring my courage of standing out and embarrassing myself.\""
+              "text": "\""
+            },
+            {
+              "type": "word",
+              "text": "Everyone",
+              "targetId": "word-everyone",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-20-004-001"
+            },
+            {
+              "type": "text",
+              "text": " is admiring my courage of standing out and embarrassing myself.\""
             }
           ]
         }
@@ -1033,8 +1405,24 @@
           "tc": "我本可以選擇消極的想法來說：「哦，不。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Make",
+              "targetId": "usage-make-make-mistakes",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-21-004-001"
+            },
+            {
               "type": "text",
-              "text": "Make it a game."
+              "text": " it a "
+            },
+            {
+              "type": "word",
+              "text": "game",
+              "targetId": "word-game",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-21-004-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -1053,7 +1441,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I love playing this game of finding the positive side to everything in every situation."
+              "text": "I love playing this "
+            },
+            {
+              "type": "word",
+              "text": "game",
+              "targetId": "word-game",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-22-001-001"
+            },
+            {
+              "type": "text",
+              "text": " of finding the positive side to everything in every situation."
             }
           ]
         },
@@ -1062,8 +1460,24 @@
           "tc": "」「每個人都在評斷我。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Make",
+              "targetId": "usage-make-make-mistakes",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-22-002-001"
+            },
+            {
               "type": "text",
-              "text": "Make a game out of finding the positive side to it."
+              "text": " a "
+            },
+            {
+              "type": "word",
+              "text": "game",
+              "targetId": "word-game",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-22-002-002"
+            },
+            {
+              "type": "text",
+              "text": " out of finding the positive side to it."
             }
           ]
         },
@@ -1083,7 +1497,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "For example, walking to work in the hot sun, feeling irritated because of the traffic and the noise or walking in the hot sun, feeling grateful."
+              "text": "For example, walking to "
+            },
+            {
+              "type": "word",
+              "text": "work",
+              "targetId": "word-work",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-22-004-001"
+            },
+            {
+              "type": "text",
+              "text": " in the hot sun, feeling irritated because of the traffic and the noise or walking in the hot sun, feeling grateful."
             }
           ]
         }
@@ -1122,7 +1546,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am healthy today and I can go to work."
+              "text": "I am healthy today and I can go to "
+            },
+            {
+              "type": "word",
+              "text": "work",
+              "targetId": "word-work",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-23-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1132,7 +1566,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have the ability to make money and have my freedom."
+              "text": "I have the ability to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-make-mistakes",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-23-004-001"
+            },
+            {
+              "type": "text",
+              "text": " money and have my freedom."
             }
           ]
         }
@@ -1151,7 +1595,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I can work."
+              "text": "I can "
+            },
+            {
+              "type": "word",
+              "text": "work",
+              "targetId": "word-work",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-24-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1200,7 +1654,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And even if I'm feeling irritated by these circumstances, I make it a game to find beauty in those moments."
+              "text": "And even if I'm feeling irritated by these circumstances, I "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-make-mistakes",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-25-001-001"
+            },
+            {
+              "type": "text",
+              "text": " it a "
+            },
+            {
+              "type": "word",
+              "text": "game",
+              "targetId": "word-game",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-25-001-002"
+            },
+            {
+              "type": "text",
+              "text": " to find beauty in those moments."
             }
           ]
         },
@@ -1249,7 +1723,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You can tell everyone about all the awful things they did to you."
+              "text": "You can tell "
+            },
+            {
+              "type": "word",
+              "text": "everyone",
+              "targetId": "word-everyone",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-26-001-001"
+            },
+            {
+              "type": "text",
+              "text": " about all the awful things they did to you."
             }
           ]
         },
@@ -1269,7 +1753,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "-- Or you can play my game and feel grateful for the lessons they taught you, for your ability to love, for the experience you got of being loved."
+              "text": "-- Or you can play my "
+            },
+            {
+              "type": "word",
+              "text": "game",
+              "targetId": "word-game",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-26-003-001"
+            },
+            {
+              "type": "text",
+              "text": " and feel grateful for the lessons they taught you, for your ability to love, for the "
+            },
+            {
+              "type": "word",
+              "text": "experience",
+              "targetId": "word-experience",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-26-003-002"
+            },
+            {
+              "type": "text",
+              "text": " you got of being loved."
             }
           ]
         },
@@ -1308,7 +1812,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You'll only end up hurting yourself by holding on to that pain."
+              "text": "You'll only end up hurting "
+            },
+            {
+              "type": "word",
+              "text": "yourself",
+              "targetId": "word-yourself",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-27-002-001"
+            },
+            {
+              "type": "text",
+              "text": " by holding on to that pain."
             }
           ]
         },
@@ -1347,7 +1861,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Say you wake up feeling sick."
+              "text": "Say you "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-28-001-001"
+            },
+            {
+              "type": "text",
+              "text": " feeling sick."
             }
           ]
         },
@@ -1367,7 +1891,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Your lungs still work."
+              "text": "Your lungs still "
+            },
+            {
+              "type": "word",
+              "text": "work",
+              "targetId": "word-work",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-28-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1416,7 +1950,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Your body might not be able to work, but your brain STILL can."
+              "text": "Your body might not "
+            },
+            {
+              "type": "phrase",
+              "text": "be able to",
+              "targetId": "phrase-be-able-to",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-29-003-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "work",
+              "targetId": "word-work",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-29-003-002"
+            },
+            {
+              "type": "text",
+              "text": ", but your brain STILL can."
             }
           ]
         },
@@ -1455,7 +2009,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You can still work on yourself and grow in different ways while your body recuperates."
+              "text": "You can still "
+            },
+            {
+              "type": "word",
+              "text": "work",
+              "targetId": "word-work",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-30-002-001"
+            },
+            {
+              "type": "text",
+              "text": " on "
+            },
+            {
+              "type": "word",
+              "text": "yourself",
+              "targetId": "word-yourself",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-30-002-002"
+            },
+            {
+              "type": "text",
+              "text": " and grow in different ways while your body recuperates."
             }
           ]
         },
@@ -1465,7 +2039,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So the next time you feel, irritated, overwhelmed, insecure, unmotivated, lonely, or embarrassed, then join me in this fun game I like to play and find the positive side to it."
+              "text": "So the next time you feel, irritated, overwhelmed, insecure, unmotivated, lonely, or "
+            },
+            {
+              "type": "word",
+              "text": "embarrassed",
+              "targetId": "word-embarrassed",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-30-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", then join me in this fun "
+            },
+            {
+              "type": "word",
+              "text": "game",
+              "targetId": "word-game",
+              "instanceId": "marker-b2-ch15-learn-english-by-making-mistakes-slow-english-podcast-scene-30-003-002"
+            },
+            {
+              "type": "text",
+              "text": " I like to play and find the positive side to it."
             }
           ]
         },
@@ -1849,5 +2443,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b2",
+    "slug": "ch15-learn-english-by-making-mistakes-slow-english-podcast",
+    "sourcePath": "_private/tmp/originalContent/b2/ch15-learn-english-by-making-mistakes-slow-english-podcast.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b2/ch15-learn-english-by-making-mistakes-slow-english-podcast.md"
+  }
 }

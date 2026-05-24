@@ -374,9 +374,6 @@ function scrollToElement(element: Element | null) {
   element?.scrollIntoView({ behavior: 'smooth', block: 'center' })
 }
 
-function learningItemId(kind: 'word', item: PlaylistVocabItem): string
-function learningItemId(kind: 'phrase', item: PlaylistPhrase): string
-function learningItemId(kind: 'usage', item: PlaylistUsage): string
 function learningItemId(kind: 'word' | 'phrase' | 'usage', item: PlaylistVocabItem | PlaylistPhrase | PlaylistUsage): string {
   if ('id' in item && item.id) return item.id
   if (kind === 'word') return `word-${slugify((item as PlaylistVocabItem).lemma || (item as PlaylistVocabItem).english)}`

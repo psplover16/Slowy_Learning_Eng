@@ -130,12 +130,16 @@ const { sourceScrollY, triggerScroll, returnToSource } = useUnderlinkBacklink()
 const quickNavSections = computed(() => {
   if (!chapterData.value) return []
   const d = chapterData.value
-  let n = 1
   const sections: { id: string; label: string; num: number }[] = []
-  if (d.scenes.length)      sections.push({ id: `${props.id}-section-bilingual`,  label: '全文', num: n++ })
-  if (d.vocabGroups.length)  sections.push({ id: `${props.id}-section-vocabulary`, label: '單字', num: n++ })
-  if (d.phrases.length)      sections.push({ id: `${props.id}-section-phrases`,    label: '片語', num: n++ })
-  if (d.breakdowns.length)   sections.push({ id: `${props.id}-section-breakdown`,  label: '句型', num: n++ })
+  const addSection = (condition: boolean, suffix: string, label: string) => {
+    if (condition) {
+      sections.push({ id: `${props.id}-section-${suffix}`, label, num: sections.length + 1 })
+    }
+  }
+  addSection(d.scenes.length > 0, 'bilingual', '全文')
+  addSection(d.vocabGroups.length > 0, 'vocabulary', '單字')
+  addSection(d.phrases.length > 0, 'phrases', '片語')
+  addSection(d.breakdowns.length > 0, 'breakdown', '句型')
   return sections
 })
 

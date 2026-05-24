@@ -349,7 +349,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It really does have a special place in my heart."
+              "text": "It really does "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch16-slow-english-podcast-my-day-a2-listening-practice-scene-06-001-001"
+            },
+            {
+              "type": "text",
+              "text": " a special place in my heart."
             }
           ]
         },
@@ -457,7 +467,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I'll take a green juice, maybe some lunch and go see him for a little bit."
+              "text": "So, I'll "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch16-slow-english-podcast-my-day-a2-listening-practice-scene-08-001-001"
+            },
+            {
+              "type": "text",
+              "text": " a green juice, maybe some lunch and go see him for a little bit."
             }
           ]
         },
@@ -536,7 +556,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And here I have a kitchen."
+              "text": "And here I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch16-slow-english-podcast-my-day-a2-listening-practice-scene-09-003-001"
+            },
+            {
+              "type": "text",
+              "text": " a kitchen."
             }
           ]
         },
@@ -546,7 +576,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I always prefer to make something here rather than going out to eat at a restaurant."
+              "text": "So, I always prefer to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch16-slow-english-podcast-my-day-a2-listening-practice-scene-09-004-001"
+            },
+            {
+              "type": "text",
+              "text": " something here rather than going out to eat at a restaurant."
             }
           ]
         }
@@ -565,7 +605,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Don't get me wrong, I love eating out."
+              "text": "Don't "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch16-slow-english-podcast-my-day-a2-listening-practice-scene-10-001-001"
+            },
+            {
+              "type": "text",
+              "text": " me wrong, I love eating out."
             }
           ]
         },
@@ -732,7 +782,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And usually after eating dinner, I take 30 minutes to study Chinese."
+              "text": "And usually after eating dinner, I "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch16-slow-english-podcast-my-day-a2-listening-practice-scene-13-002-001"
+            },
+            {
+              "type": "text",
+              "text": " 30 minutes to study Chinese."
             }
           ]
         },
@@ -791,7 +851,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That's why I enjoy trying to make learning English a lot easier."
+              "text": "That's why I enjoy trying to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch16-slow-english-podcast-my-day-a2-listening-practice-scene-14-002-001"
+            },
+            {
+              "type": "text",
+              "text": " learning English a lot easier."
             }
           ]
         },
@@ -830,7 +900,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You can make it so much easier by just listening and maybe watching a movie in English or the language that you're trying to learn."
+              "text": "You can "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch16-slow-english-podcast-my-day-a2-listening-practice-scene-15-001-001"
+            },
+            {
+              "type": "text",
+              "text": " it so much easier by just listening and maybe watching a movie in English or the language that you're trying to learn."
             }
           ]
         },
@@ -948,7 +1028,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And everyone in the comments asks me, \"Teacher, you don't take a shower.\""
+              "text": "And everyone in the comments asks me, \"Teacher, you don't "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch16-slow-english-podcast-my-day-a2-listening-practice-scene-17-001-001"
+            },
+            {
+              "type": "text",
+              "text": " a shower.\""
             }
           ]
         },
@@ -978,7 +1068,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Tell me about your day so far.\""
+              "text": "Tell me about your day "
+            },
+            {
+              "type": "phrase",
+              "text": "so far",
+              "targetId": "phrase-so-far",
+              "instanceId": "marker-a2-ch16-slow-english-podcast-my-day-a2-listening-practice-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": ".\""
             }
           ]
         }
@@ -1055,8 +1155,14 @@
           "tc": "祝你有美好的一天。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch16-slow-english-podcast-my-day-a2-listening-practice-scene-19-001-001"
+            },
+            {
               "type": "text",
-              "text": "Have a wonderful day."
+              "text": " a wonderful day."
             }
           ]
         },
@@ -1261,5 +1367,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch16-slow-english-podcast-my-day-a2-listening-practice",
+    "sourcePath": "_private/tmp/originalContent/a2/ch16-slow-english-podcast-my-day-a2-listening-practice.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch16-slow-english-podcast-my-day-a2-listening-practice.md"
+  }
 }

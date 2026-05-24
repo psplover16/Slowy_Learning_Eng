@@ -40,7 +40,7 @@
               "type": "usage",
               "text": "slow",
               "targetId": "usage-slow-podcast",
-              "instanceId": "marker-a1-ch1-002-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-002-01"
             },
             {
               "type": "text",
@@ -50,7 +50,7 @@
               "type": "word",
               "text": "podcast",
               "targetId": "word-podcast",
-              "instanceId": "marker-a1-ch1-002-02"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-002-02"
             },
             {
               "type": "text",
@@ -70,7 +70,7 @@
               "type": "word",
               "text": "podcast",
               "targetId": "word-podcast",
-              "instanceId": "marker-a1-ch1-003-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-003-01"
             },
             {
               "type": "text",
@@ -80,7 +80,7 @@
               "type": "word",
               "text": "beginners",
               "targetId": "word-beginner",
-              "instanceId": "marker-a1-ch1-003-02"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-003-02"
             },
             {
               "type": "text",
@@ -100,7 +100,7 @@
               "type": "word",
               "text": "podcast",
               "targetId": "word-podcast",
-              "instanceId": "marker-a1-ch1-004-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-004-01"
             },
             {
               "type": "text",
@@ -110,7 +110,7 @@
               "type": "word",
               "text": "routine",
               "targetId": "word-routine",
-              "instanceId": "marker-a1-ch1-004-02"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-004-02"
             },
             {
               "type": "text",
@@ -139,7 +139,7 @@
               "type": "word",
               "text": "routine",
               "targetId": "word-routine",
-              "instanceId": "marker-a1-ch1-005-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-005-01"
             },
             {
               "type": "text",
@@ -159,7 +159,7 @@
               "type": "word",
               "text": "routine",
               "targetId": "word-routine",
-              "instanceId": "marker-a1-ch1-006-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-006-01"
             },
             {
               "type": "text",
@@ -179,7 +179,7 @@
               "type": "phrase",
               "text": "wake up",
               "targetId": "phrase-wake-up",
-              "instanceId": "marker-a1-ch1-007-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-007-01"
             },
             {
               "type": "text",
@@ -218,7 +218,7 @@
               "type": "word",
               "text": "oatmeal",
               "targetId": "word-oatmeal",
-              "instanceId": "marker-a1-ch1-009-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-009-01"
             },
             {
               "type": "text",
@@ -228,7 +228,7 @@
               "type": "word",
               "text": "oatmeal",
               "targetId": "word-oatmeal",
-              "instanceId": "marker-a1-ch1-009-02"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-009-02"
             },
             {
               "type": "text",
@@ -238,7 +238,7 @@
               "type": "word",
               "text": "strawberries",
               "targetId": "word-strawberry",
-              "instanceId": "marker-a1-ch1-009-03"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-009-03"
             },
             {
               "type": "text",
@@ -258,7 +258,7 @@
               "type": "word",
               "text": "oatmeal",
               "targetId": "word-oatmeal",
-              "instanceId": "marker-a1-ch1-010-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-010-01"
             },
             {
               "type": "text",
@@ -301,7 +301,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What do you usually eat for breakfast?"
+              "text": "What "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-do",
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-scene-04-001-001"
+            },
+            {
+              "type": "text",
+              "text": " you usually eat for breakfast?"
             }
           ]
         },
@@ -317,7 +327,7 @@
               "type": "usage",
               "text": "do",
               "targetId": "usage-do-do",
-              "instanceId": "marker-a1-ch1-014-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-014-01"
             },
             {
               "type": "text",
@@ -327,7 +337,7 @@
               "type": "word",
               "text": "yoga",
               "targetId": "word-yoga",
-              "instanceId": "marker-a1-ch1-014-02"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-014-02"
             },
             {
               "type": "text",
@@ -347,7 +357,7 @@
               "type": "word",
               "text": "stretching",
               "targetId": "word-stretch",
-              "instanceId": "marker-a1-ch1-015-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-015-01"
             },
             {
               "type": "text",
@@ -367,7 +377,7 @@
               "type": "phrase",
               "text": "get ready for",
               "targetId": "phrase-get-ready-for",
-              "instanceId": "marker-a1-ch1-016-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-016-01"
             },
             {
               "type": "text",
@@ -445,7 +455,7 @@
               "type": "phrase",
               "text": "work with",
               "targetId": "phrase-work-with",
-              "instanceId": "marker-a1-ch1-021-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-021-01"
             },
             {
               "type": "text",
@@ -465,7 +475,7 @@
               "type": "phrase",
               "text": "work with",
               "targetId": "phrase-work-with",
-              "instanceId": "marker-a1-ch1-022-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-022-01"
             },
             {
               "type": "text",
@@ -485,7 +495,7 @@
               "type": "phrase",
               "text": "work with",
               "targetId": "phrase-work-with",
-              "instanceId": "marker-a1-ch1-023-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-023-01"
             },
             {
               "type": "text",
@@ -544,7 +554,7 @@
               "type": "word",
               "text": "normally",
               "targetId": "word-normally",
-              "instanceId": "marker-a1-ch1-027-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-027-01"
             },
             {
               "type": "text",
@@ -564,7 +574,7 @@
               "type": "word",
               "text": "normally",
               "targetId": "word-normally",
-              "instanceId": "marker-a1-ch1-028-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-028-01"
             },
             {
               "type": "text",
@@ -593,7 +603,7 @@
               "type": "phrase",
               "text": "get ready for",
               "targetId": "phrase-get-ready-for",
-              "instanceId": "marker-a1-ch1-029-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-029-01"
             },
             {
               "type": "text",
@@ -603,7 +613,7 @@
               "type": "word",
               "text": "salsa",
               "targetId": "word-salsa",
-              "instanceId": "marker-a1-ch1-029-02"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-029-02"
             },
             {
               "type": "text",
@@ -636,8 +646,14 @@
           "tc": "你喜歡跳舞嗎？",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Do",
+              "targetId": "usage-do-do",
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-scene-08-004-001"
+            },
+            {
               "type": "text",
-              "text": "Do you like to dance?"
+              "text": " you like to dance?"
             }
           ]
         }
@@ -662,7 +678,7 @@
               "type": "phrase",
               "text": "free time",
               "targetId": "phrase-free-time",
-              "instanceId": "marker-a1-ch1-033-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-033-01"
             },
             {
               "type": "text",
@@ -682,7 +698,7 @@
               "type": "phrase",
               "text": "free time",
               "targetId": "phrase-free-time",
-              "instanceId": "marker-a1-ch1-034-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-034-01"
             },
             {
               "type": "text",
@@ -702,7 +718,7 @@
               "type": "phrase",
               "text": "free time",
               "targetId": "phrase-free-time",
-              "instanceId": "marker-a1-ch1-035-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-035-01"
             },
             {
               "type": "text",
@@ -722,7 +738,7 @@
               "type": "word",
               "text": "relax",
               "targetId": "word-relax",
-              "instanceId": "marker-a1-ch1-036-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-036-01"
             },
             {
               "type": "text",
@@ -781,7 +797,7 @@
               "type": "word",
               "text": "pasta",
               "targetId": "word-pasta",
-              "instanceId": "marker-a1-ch1-040-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-040-01"
             },
             {
               "type": "text",
@@ -810,7 +826,7 @@
               "type": "word",
               "text": "pasta",
               "targetId": "word-pasta",
-              "instanceId": "marker-a1-ch1-041-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-041-01"
             },
             {
               "type": "text",
@@ -850,7 +866,7 @@
               "type": "phrase",
               "text": "go to sleep",
               "targetId": "phrase-go-to-sleep",
-              "instanceId": "marker-a1-ch1-044-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-044-01"
             },
             {
               "type": "text",
@@ -889,7 +905,7 @@
               "type": "word",
               "text": "cozy",
               "targetId": "word-cozy",
-              "instanceId": "marker-a1-ch1-046-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-046-01"
             },
             {
               "type": "text",
@@ -899,7 +915,7 @@
               "type": "word",
               "text": "comfy",
               "targetId": "word-comfy",
-              "instanceId": "marker-a1-ch1-046-02"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-046-02"
             },
             {
               "type": "text",
@@ -915,7 +931,7 @@
               "type": "phrase",
               "text": "What about",
               "targetId": "phrase-what-about",
-              "instanceId": "marker-a1-ch1-047-01"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-047-01"
             },
             {
               "type": "text",
@@ -925,7 +941,7 @@
               "type": "word",
               "text": "routine",
               "targetId": "word-routine",
-              "instanceId": "marker-a1-ch1-047-02"
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-047-02"
             },
             {
               "type": "text",
@@ -939,7 +955,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What do you usually do every day?"
+              "text": "What "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-do",
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-scene-12-004-001"
+            },
+            {
+              "type": "text",
+              "text": " you usually "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-do",
+              "instanceId": "marker-a1-ch1-slow-english-for-beginners-a1-listening-practice-scene-12-004-002"
+            },
+            {
+              "type": "text",
+              "text": " every day?"
             }
           ]
         }
@@ -1107,7 +1143,7 @@
       "meaning": "睡醒；起床",
       "examples": [
         {
-          "en": "In the morning, I __wake up__ at 7 a.m.",
+          "en": "In the morning, I ____wake up____ at 7 a.m.",
           "tc": "睡醒；起床"
         }
       ]
@@ -1118,11 +1154,11 @@
       "meaning": "為某事做準備",
       "examples": [
         {
-          "en": "Then I __get ready for__ work.",
+          "en": "Then I ____get ready for____ work.",
           "tc": "為某事做準備"
         },
         {
-          "en": "After lunch, I __get ready for__ my **salsa** dance class.",
+          "en": "After lunch, I ____get ready for____ my **salsa** dance class.",
           "tc": "為某事做準備"
         }
       ]
@@ -1133,7 +1169,7 @@
       "meaning": "和某人一起工作、合作或互動",
       "examples": [
         {
-          "en": "Who do you __work with__?",
+          "en": "Who do you ____work with____?",
           "tc": "和某人一起工作、合作或互動"
         }
       ]
@@ -1144,7 +1180,7 @@
       "meaning": "不用上課或工作的時間",
       "examples": [
         {
-          "en": "What do you like to do in your __free time__?",
+          "en": "What do you like to do in your ____free time____?",
           "tc": "不用上課或工作的時間"
         }
       ]
@@ -1155,7 +1191,7 @@
       "meaning": "開始睡覺",
       "examples": [
         {
-          "en": "At 11:00 p.m., I __go to sleep__.",
+          "en": "At 11:00 p.m., I ____go to sleep____.",
           "tc": "開始睡覺"
         }
       ]
@@ -1166,7 +1202,7 @@
       "meaning": "用來詢問對方情況或意見",
       "examples": [
         {
-          "en": "__What about__ your daily **routine**?",
+          "en": "____What about____ your daily **routine**?",
           "tc": "用來詢問對方情況或意見"
         }
       ]
@@ -1291,5 +1327,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch1-slow-english-for-beginners-a1-listening-practice",
+    "sourcePath": "_private/tmp/originalContent/a1/ch1-slow-english-for-beginners-a1-listening-practice.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch1-slow-english-for-beginners-a1-listening-practice.md"
+  }
 }

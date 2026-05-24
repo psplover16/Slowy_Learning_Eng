@@ -133,7 +133,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What do you do first?"
+              "text": "What "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-makeup",
+              "instanceId": "marker-b1-ch21-slow-english-listening-practice-makeup-routine-scene-02-002-001"
+            },
+            {
+              "type": "text",
+              "text": " you "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-makeup",
+              "instanceId": "marker-b1-ch21-slow-english-listening-practice-makeup-routine-scene-02-002-002"
+            },
+            {
+              "type": "text",
+              "text": " first?"
             }
           ]
         },
@@ -222,7 +242,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Okay, then what do you do next?"
+              "text": "Okay, then what "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-makeup",
+              "instanceId": "marker-b1-ch21-slow-english-listening-practice-makeup-routine-scene-03-002-001"
+            },
+            {
+              "type": "text",
+              "text": " you "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-makeup",
+              "instanceId": "marker-b1-ch21-slow-english-listening-practice-makeup-routine-scene-03-002-002"
+            },
+            {
+              "type": "text",
+              "text": " next?"
             }
           ]
         },
@@ -678,7 +718,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I do like this one."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-makeup",
+              "instanceId": "marker-b1-ch21-slow-english-listening-practice-makeup-routine-scene-07-004-001"
+            },
+            {
+              "type": "text",
+              "text": " like this one."
             }
           ]
         }
@@ -1380,7 +1430,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think I can do it."
+              "text": "I think I can "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-makeup",
+              "instanceId": "marker-b1-ch21-slow-english-listening-practice-makeup-routine-scene-15-003-001"
+            },
+            {
+              "type": "text",
+              "text": " it."
             }
           ]
         },
@@ -1508,7 +1568,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Okay, your turn."
+              "text": "Okay, your "
+            },
+            {
+              "type": "usage",
+              "text": "turn",
+              "targetId": "usage-turn-item",
+              "instanceId": "marker-b1-ch21-slow-english-listening-practice-makeup-routine-scene-17-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1656,7 +1726,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "For my last step, I also do my lashes."
+              "text": "For my last step, I also "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-makeup",
+              "instanceId": "marker-b1-ch21-slow-english-listening-practice-makeup-routine-scene-19-001-001"
+            },
+            {
+              "type": "text",
+              "text": " my lashes."
             }
           ]
         },
@@ -2880,5 +2960,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch21-slow-english-listening-practice-makeup-routine",
+    "sourcePath": "_private/tmp/originalContent/b1/ch21-slow-english-listening-practice-makeup-routine.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch21-slow-english-listening-practice-makeup-routine.md"
+  }
 }

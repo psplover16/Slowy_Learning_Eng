@@ -162,7 +162,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It was a chaotic trip to the beach."
+              "text": "It was a "
+            },
+            {
+              "type": "word",
+              "text": "chaotic",
+              "targetId": "word-chaotic",
+              "instanceId": "marker-a2-ch28-learn-in-on-at-naturally-english-listening-practice-scene-03-002-001"
+            },
+            {
+              "type": "text",
+              "text": " trip to the beach."
             }
           ]
         },
@@ -1094,7 +1104,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It was one of the most beautiful sunsets I have ever seen."
+              "text": "It was one of the most beautiful "
+            },
+            {
+              "type": "word",
+              "text": "sunsets",
+              "targetId": "word-sunset",
+              "instanceId": "marker-a2-ch28-learn-in-on-at-naturally-english-listening-practice-scene-21-002-001"
+            },
+            {
+              "type": "text",
+              "text": " I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch28-learn-in-on-at-naturally-english-listening-practice-scene-21-002-002"
+            },
+            {
+              "type": "text",
+              "text": " ever seen."
             }
           ]
         },
@@ -1104,7 +1134,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Where was the most beautiful sunset you have ever seen?"
+              "text": "Where was the most beautiful "
+            },
+            {
+              "type": "word",
+              "text": "sunset",
+              "targetId": "word-sunset",
+              "instanceId": "marker-a2-ch28-learn-in-on-at-naturally-english-listening-practice-scene-21-003-001"
+            },
+            {
+              "type": "text",
+              "text": " you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch28-learn-in-on-at-naturally-english-listening-practice-scene-21-003-002"
+            },
+            {
+              "type": "text",
+              "text": " ever seen?"
             }
           ]
         },
@@ -1437,7 +1487,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It was a chaotic trip, but also one of my favorite."
+              "text": "It was a "
+            },
+            {
+              "type": "word",
+              "text": "chaotic",
+              "targetId": "word-chaotic",
+              "instanceId": "marker-a2-ch28-learn-in-on-at-naturally-english-listening-practice-scene-28-001-001"
+            },
+            {
+              "type": "text",
+              "text": " trip, but also one of my favorite."
             }
           ]
         },
@@ -1446,8 +1506,24 @@
           "tc": "你有過這樣混乱的旅行嗎？",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch28-learn-in-on-at-naturally-english-listening-practice-scene-28-002-001"
+            },
+            {
               "type": "text",
-              "text": "Have you ever had a chaotic trip like this?"
+              "text": " you ever had a "
+            },
+            {
+              "type": "word",
+              "text": "chaotic",
+              "targetId": "word-chaotic",
+              "instanceId": "marker-a2-ch28-learn-in-on-at-naturally-english-listening-practice-scene-28-002-002"
+            },
+            {
+              "type": "text",
+              "text": " trip like this?"
             }
           ]
         },
@@ -1672,8 +1748,14 @@
           "tc": "祝你有美好的一天，记住，永遠不要停止學習。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch28-learn-in-on-at-naturally-english-listening-practice-scene-32-004-001"
+            },
+            {
               "type": "text",
-              "text": "Have a wonderful day and remember, never stop learning."
+              "text": " a wonderful day and remember, never stop learning."
             }
           ]
         }
@@ -1844,5 +1926,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch28-learn-in-on-at-naturally-english-listening-practice",
+    "sourcePath": "_private/tmp/originalContent/a2/ch28-learn-in-on-at-naturally-english-listening-practice.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch28-learn-in-on-at-naturally-english-listening-practice.md"
+  }
 }

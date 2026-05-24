@@ -605,7 +605,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "All around the city, there were so many flowers hanging from trees, on bushes, just everywhere."
+              "text": "All "
+            },
+            {
+              "type": "usage",
+              "text": "around",
+              "targetId": "usage-around-item",
+              "instanceId": "marker-b1-ch13-slow-english-podcast-my-trip-to-puerto-escondido-level-a2-scene-06-003-001"
+            },
+            {
+              "type": "text",
+              "text": " the city, there were so many flowers hanging from trees, on bushes, just everywhere."
             }
           ]
         },
@@ -3471,5 +3481,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch13-slow-english-podcast-my-trip-to-puerto-escondido-level-a2",
+    "sourcePath": "_private/tmp/originalContent/b1/ch13-slow-english-podcast-my-trip-to-puerto-escondido-level-a2.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch13-slow-english-podcast-my-trip-to-puerto-escondido-level-a2.md"
+  }
 }

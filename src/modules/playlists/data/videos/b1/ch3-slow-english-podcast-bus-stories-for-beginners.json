@@ -436,7 +436,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I told one of the boys, 'Hold on to me,' and one older lady said the same."
+              "text": "I told "
+            },
+            {
+              "type": "usage",
+              "text": "one",
+              "targetId": "usage-one-item",
+              "instanceId": "marker-b1-ch3-slow-english-podcast-bus-stories-for-beginners-scene-05-001-001"
+            },
+            {
+              "type": "text",
+              "text": " of the boys, 'Hold on to me,' and "
+            },
+            {
+              "type": "usage",
+              "text": "one",
+              "targetId": "usage-one-item",
+              "instanceId": "marker-b1-ch3-slow-english-podcast-bus-stories-for-beginners-scene-05-001-002"
+            },
+            {
+              "type": "text",
+              "text": " older lady said the same."
             }
           ]
         },
@@ -445,8 +465,14 @@
           "tc": "一位年長的女士告訴男孩們：「抓著我。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "One",
+              "targetId": "usage-one-item",
+              "instanceId": "marker-b1-ch3-slow-english-podcast-bus-stories-for-beginners-scene-05-002-001"
+            },
+            {
               "type": "text",
-              "text": "One older lady told the boys, 'Hold on to me."
+              "text": " older lady told the boys, 'Hold on to me."
             }
           ]
         },
@@ -1333,5 +1359,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch3-slow-english-podcast-bus-stories-for-beginners",
+    "sourcePath": "_private/tmp/originalContent/b1/ch3-slow-english-podcast-bus-stories-for-beginners.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch3-slow-english-podcast-bus-stories-for-beginners.md"
+  }
 }

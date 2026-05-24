@@ -687,8 +687,14 @@
           "tc": "同義詞。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Synonyms",
+              "targetId": "word-synonym",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-scene-09-003-001"
+            },
+            {
               "type": "text",
-              "text": "Synonyms."
+              "text": "."
             }
           ]
         },
@@ -697,8 +703,14 @@
           "tc": "同義詞。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Synonyms",
+              "targetId": "word-synonym",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-scene-09-004-001"
+            },
+            {
               "type": "text",
-              "text": "Synonyms."
+              "text": "."
             }
           ]
         }
@@ -1927,5 +1939,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch17-slow-english-conversations-a1-comprehensible-input",
+    "sourcePath": "_private/tmp/originalContent/a1/ch17-slow-english-conversations-a1-comprehensible-input.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch17-slow-english-conversations-a1-comprehensible-input.md"
+  }
 }

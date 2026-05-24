@@ -279,6 +279,26 @@ describe('PlaylistVideoView', () => {
     expect(wrapper.find('#word-apple').classes()).toContain('playlist-learning-item--active')
   })
 
+  it.each([
+    ['word', 'marker-apple-1', '#word-apple'],
+    ['phrase', 'marker-phrase-1', '#phrase-take-on'],
+    ['usage', 'marker-usage-1', '#usage-run-business'],
+  ])('scrolls %s markers to the matching learning item and highlights it', async (_kind, markerInstance, targetSelector) => {
+    const router = makeRouter('a1', 'ch1-hello')
+    const wrapper = mount(PlaylistVideoView, {
+      props: { level: 'a1', videoSlug: 'ch1-hello' },
+      attachTo: document.body,
+      global: { plugins: [router] },
+    })
+    await flushPromises()
+
+    await wrapper.find(`[data-marker-instance="${markerInstance}"]`).trigger('click')
+    await flushPromises()
+
+    expect(Element.prototype.scrollIntoView).toHaveBeenCalledWith({ behavior: 'smooth', block: 'center' })
+    expect(wrapper.find(targetSelector).classes()).toContain('playlist-learning-item--active')
+  })
+
   it('returns from a learning item to the source marker instance', async () => {
     const router = makeRouter('a1', 'ch1-hello')
     const wrapper = mount(PlaylistVideoView, {
@@ -334,6 +354,19 @@ describe('PlaylistVideoView', () => {
     expect(wrapper.find('#a1-ch1-hello-section-usages').exists()).toBe(true)
     expect(wrapper.find('[data-testid="special-usage-item"]').text()).toContain('經營、管理')
     expect(wrapper.find('[data-testid="a1-ch1-hello-quick-nav"]').text()).toContain('用法')
+  })
+
+  it('keeps grammar reachable through section navigation without creating inline grammar markers', async () => {
+    const router = makeRouter('a1', 'ch1-hello')
+    const wrapper = mount(PlaylistVideoView, {
+      props: { level: 'a1', videoSlug: 'ch1-hello' },
+      global: { plugins: [router] },
+    })
+    await flushPromises()
+
+    expect(wrapper.find('#a1-ch1-hello-section-breakdown').exists()).toBe(true)
+    expect(wrapper.find('[data-testid="a1-ch1-hello-quick-nav"]').text()).toContain('句型')
+    expect(wrapper.find('[data-testid="playlist-marker-grammar"]').exists()).toBe(false)
   })
 
   it('shows placeholder for pendingTranscript video', async () => {

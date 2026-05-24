@@ -331,7 +331,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then I am ready to go."
+              "text": "Then I am ready to "
+            },
+            {
+              "type": "usage",
+              "text": "go",
+              "targetId": "usage-go-worries-go-away-go-away",
+              "instanceId": "marker-b1-ch2-slow-english-practice-for-b1-intermediate-talking-about-airports-scene-04-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2368,5 +2378,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch2-slow-english-practice-for-b1-intermediate-talking-about-airports",
+    "sourcePath": "_private/tmp/originalContent/b1/ch2-slow-english-practice-for-b1-intermediate-talking-about-airports.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch2-slow-english-practice-for-b1-intermediate-talking-about-airports.md"
+  }
 }

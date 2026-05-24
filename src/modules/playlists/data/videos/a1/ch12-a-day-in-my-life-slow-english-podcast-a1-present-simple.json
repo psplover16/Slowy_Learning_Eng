@@ -575,7 +575,7 @@
             {
               "type": "phrase",
               "text": "go through",
-              "targetId": "phrase-go-through",
+              "targetId": "phrase-make-sure",
               "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-026-01"
             },
             {
@@ -1102,7 +1102,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I get ready for bed."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-scene-11-004-001"
+            },
+            {
+              "type": "text",
+              "text": " ready for bed."
             }
           ]
         }
@@ -2222,5 +2232,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple",
+    "sourcePath": "_private/tmp/originalContent/a1/ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple.md"
+  }
 }

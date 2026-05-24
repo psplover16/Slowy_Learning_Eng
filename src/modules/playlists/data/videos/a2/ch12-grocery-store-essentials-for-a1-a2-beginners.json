@@ -153,7 +153,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I love grocery stores."
+              "text": "I love "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-02-001-001"
+            },
+            {
+              "type": "text",
+              "text": " stores."
             }
           ]
         },
@@ -163,7 +173,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I love grocery stores."
+              "text": "I love "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-02-002-001"
+            },
+            {
+              "type": "text",
+              "text": " stores."
             }
           ]
         },
@@ -301,7 +321,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "At some stores like Bodega, Sorana, the aisles are too narrow."
+              "text": "At some stores like Bodega, Sorana, the "
+            },
+            {
+              "type": "word",
+              "text": "aisles",
+              "targetId": "word-aisle",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-04-002-001"
+            },
+            {
+              "type": "text",
+              "text": " are too "
+            },
+            {
+              "type": "word",
+              "text": "narrow",
+              "targetId": "word-narrow",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-04-002-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -311,7 +351,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That's why I prefer places like Walmart with wide aisles."
+              "text": "That's why I prefer places like Walmart with wide "
+            },
+            {
+              "type": "word",
+              "text": "aisles",
+              "targetId": "word-aisle",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-04-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -321,7 +371,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My favorite aisle is the detergent aisle."
+              "text": "My favorite "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-04-004-001"
+            },
+            {
+              "type": "text",
+              "text": " is the detergent "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-04-004-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -390,7 +460,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The temperature is usually very cool and the shopping carts stroll really smooth down the aisles."
+              "text": "The temperature is usually very cool and the shopping carts stroll really smooth down the "
+            },
+            {
+              "type": "word",
+              "text": "aisles",
+              "targetId": "word-aisle",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-05-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -429,7 +509,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What's your favorite grocery store to visit and why?"
+              "text": "What's your favorite "
+            },
+            {
+              "type": "phrase",
+              "text": "grocery store",
+              "targetId": "phrase-grocery-store",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-06-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to visit and why?"
             }
           ]
         },
@@ -439,7 +529,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What makes a grocery store feel comfy for you?"
+              "text": "What makes a "
+            },
+            {
+              "type": "phrase",
+              "text": "grocery store",
+              "targetId": "phrase-grocery-store",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-06-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-06-004-002"
+            },
+            {
+              "type": "text",
+              "text": " comfy for you?"
             }
           ]
         }
@@ -635,7 +745,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't like going to big chain supermarkets to buy fresh produce."
+              "text": "I don't like going to big chain "
+            },
+            {
+              "type": "word",
+              "text": "supermarkets",
+              "targetId": "word-supermarket",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-10-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to buy fresh produce."
             }
           ]
         },
@@ -645,7 +765,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "However, when it comes to meat like beef, chicken, pork, or fish, I prefer to go to a big chain supermarket."
+              "text": "However, when it comes to meat like beef, chicken, pork, or fish, I prefer "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-10-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to a big chain "
+            },
+            {
+              "type": "word",
+              "text": "supermarket",
+              "targetId": "word-supermarket",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-10-003-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -655,7 +795,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I get nervous buying at outdoor markets."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-10-004-001"
+            },
+            {
+              "type": "text",
+              "text": " nervous buying at outdoor markets."
             }
           ]
         }
@@ -694,7 +844,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I prefer to go to a big chain supermarket for my dairy products."
+              "text": "I prefer "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-11-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to a big chain "
+            },
+            {
+              "type": "word",
+              "text": "supermarket",
+              "targetId": "word-supermarket",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-11-003-002"
+            },
+            {
+              "type": "text",
+              "text": " for my dairy products."
             }
           ]
         },
@@ -704,7 +874,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I really like walking down the aisle at places like Walmart or Sorana to buy my dairy products."
+              "text": "And I really like walking down the "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-11-004-001"
+            },
+            {
+              "type": "text",
+              "text": " at places like Walmart or Sorana to buy my dairy products."
             }
           ]
         }
@@ -802,7 +982,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I get sick and I don't care."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-13-003-001"
+            },
+            {
+              "type": "text",
+              "text": " sick and I don't care."
             }
           ]
         },
@@ -880,7 +1070,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If I'm with my family though, we will get a dozen eggs."
+              "text": "If I'm with my family though, we will "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-15-001-001"
+            },
+            {
+              "type": "text",
+              "text": " a dozen eggs."
             }
           ]
         },
@@ -998,7 +1198,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What's your favorite food aisle?"
+              "text": "What's your favorite food "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-17-003-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -1008,7 +1218,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The dairy aisle, drinks, snacks, canned goods, condiments like ketchup, mayo, mustard."
+              "text": "The dairy "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": ", drinks, snacks, canned goods, condiments like ketchup, mayo, mustard."
             }
           ]
         }
@@ -1027,7 +1247,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The prices at each grocery store make a big difference when you're buying in bulk."
+              "text": "The prices at each "
+            },
+            {
+              "type": "phrase",
+              "text": "grocery store",
+              "targetId": "phrase-grocery-store",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-18-001-002"
+            },
+            {
+              "type": "text",
+              "text": " a big difference when you're buying in bulk."
             }
           ]
         },
@@ -1106,7 +1346,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When I go to the checkout to pay for my groceries, I normally use my credit card because I never have coins or change or even bills with me."
+              "text": "When I go to the checkout to pay for my groceries, I normally use my credit card because I never "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-19-003-001"
+            },
+            {
+              "type": "text",
+              "text": " coins or change or even bills with me."
             }
           ]
         },
@@ -1116,7 +1366,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, in conclusion, even though the big chain supermarkets are more convenient because of the shopping carts, the credit card payments, and the big aisles,."
+              "text": "So, in conclusion, even though the big chain "
+            },
+            {
+              "type": "word",
+              "text": "supermarkets",
+              "targetId": "word-supermarket",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-19-004-001"
+            },
+            {
+              "type": "text",
+              "text": " are more convenient because of the shopping carts, the credit card payments, and the big "
+            },
+            {
+              "type": "word",
+              "text": "aisles",
+              "targetId": "word-aisle",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-19-004-002"
+            },
+            {
+              "type": "text",
+              "text": ",."
             }
           ]
         }
@@ -1135,7 +1405,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I still always prefer going to local supermarkets to support the community."
+              "text": "I still always prefer going to local "
+            },
+            {
+              "type": "word",
+              "text": "supermarkets",
+              "targetId": "word-supermarket",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-20-001-001"
+            },
+            {
+              "type": "text",
+              "text": " to support the community."
             }
           ]
         },
@@ -1155,7 +1435,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Big chain grocery stores or local supermarkets?"
+              "text": "Big chain "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-20-003-001"
+            },
+            {
+              "type": "text",
+              "text": " stores or local "
+            },
+            {
+              "type": "word",
+              "text": "supermarkets",
+              "targetId": "word-supermarket",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-20-003-002"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -1243,7 +1543,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Also remember to use some useful phrases at the supermarket or grocery store."
+              "text": "Also remember to use some useful "
+            },
+            {
+              "type": "word",
+              "text": "phrases",
+              "targetId": "word-phrase",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-22-001-001"
+            },
+            {
+              "type": "text",
+              "text": " at the "
+            },
+            {
+              "type": "word",
+              "text": "supermarket",
+              "targetId": "word-supermarket",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-22-001-002"
+            },
+            {
+              "type": "text",
+              "text": " or "
+            },
+            {
+              "type": "phrase",
+              "text": "grocery store",
+              "targetId": "phrase-grocery-store",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-22-001-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1273,7 +1603,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you have any milk?"
+              "text": "Do you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-22-004-001"
+            },
+            {
+              "type": "text",
+              "text": " any milk?"
             }
           ]
         }
@@ -1361,7 +1701,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I hope these phrases helped you."
+              "text": "I hope these "
+            },
+            {
+              "type": "word",
+              "text": "phrases",
+              "targetId": "word-phrase",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-24-002-001"
+            },
+            {
+              "type": "text",
+              "text": " helped you."
             }
           ]
         },
@@ -1371,7 +1721,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I hope you remember some of these in the future when you go grocery shopping."
+              "text": "And I hope you remember some of these in the future when you go "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-a2-ch12-grocery-store-essentials-for-a1-a2-beginners-scene-24-003-001"
+            },
+            {
+              "type": "text",
+              "text": " shopping."
             }
           ]
         },
@@ -1709,5 +2069,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch12-grocery-store-essentials-for-a1-a2-beginners",
+    "sourcePath": "_private/tmp/originalContent/a2/ch12-grocery-store-essentials-for-a1-a2-beginners.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch12-grocery-store-essentials-for-a1-a2-beginners.md"
+  }
 }

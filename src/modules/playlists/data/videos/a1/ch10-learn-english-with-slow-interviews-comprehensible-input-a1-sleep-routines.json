@@ -2305,8 +2305,8 @@
           ]
         },
         {
-          "en": "Now, what's something you do before bed?",
-          "tc": "現在，你睡前會做的一件事是什麼？",
+          "en": "Now, what's something you do before bed? Maybe a routine. My nightly routine is washing my face, brushing my teeth, doing skincare, and using my sleep mask. Mhm. No shower at night? Um, I usually shower after the gym. Mhm. Okay. So, in the afternoon? Yes. Mhm. And do you like to drink any tea or milk before going to sleep? I should, but I don't. Mhm. And do you use your phone or computer before sleeping? I do, but I shouldn't. But you can sleep? If I'm tired enough. Mhm. And if you can't fall asleep, what is something you try to do? I count sheep. Mhm. Literally. Count sheep. Yes, I count sheep. Nice. And what about music? Do you like listening to music while trying to sleep? Sometimes, but it's usually distracting. Mhm. And what about reading a book before bed? I should, but I don't. And would you say you sleep well? I'm usually a deep sleeper, so I suppose. Mhm. And do you get enough sleep? I try to. Mhm. Sometimes I don't. Mhm. And do you often remember your dreams? I remember only bad dreams, only nightmares. Yes, unfortunately. Can you remember any good dreams? Even one? Not right now. No. I should keep a dream journal. Mhm. And what's one recurring nightmare? A recurring nightmare that I have... Oh, I don't know how to describe it. A recurring nightmare I have is someone in my room pulling my feet while I'm in bed. So, you wake up from that dream. What the hell? Do you ever have any common dreams, like your teeth falling out, or any normal dreams? I have a scary but funny dream. My family is the Addams Family, and I am really scared of the family, but we are the family. It's strange. Okay. So, our family is the Addams Family, or the other way around? Our family is the Addams Family. Very nice. Well, thank you, Brianna, for joining us for our interview today on our Slow English podcast.",
+          "tc": "現在，你睡前會做的一件事是什麼？也許是一個例行程序。我的夜間例行程序是洗臉、刷牙、做保養，還有使用睡眠眼罩。嗯。晚上不洗澡嗎？嗯，我通常在健身房之後洗澡。嗯。好。所以是在下午？對。嗯。你睡前喜歡喝茶或牛奶嗎？我應該喝，但我沒有。嗯。你睡前會使用手機或電腦嗎？我會，但我不應該。可是你睡得著？如果我夠累的話。嗯。如果你睡不著，你會試著做什麼？我數羊。嗯。真的。數羊。對，我數羊。不錯。那音樂呢？你喜歡一邊試著睡覺一邊聽音樂嗎？有時候，但它通常很分心。嗯。睡前看書呢？我應該看，但我沒有。你會說你睡得好嗎？我通常是睡很沉的人，所以我想算是吧。嗯。你睡得夠嗎？我努力睡夠。嗯。有時候沒有。嗯。你常記得你的夢嗎？我只記得壞夢，只記得惡夢。對，不幸地。你記得任何好夢嗎？一個也可以？現在想不起來。沒有。我應該寫夢境日記。嗯。你有一個反覆出現的惡夢是什麼？我有的一個反覆出現的惡夢……喔，我不知道怎麼描述。我有的一個反覆惡夢是，有人在我的房間裡，趁我在床上時拉我的腳。所以你會從那個夢醒來。搞什麼？你有沒有任何常見的夢，比如牙齒掉下來，或任何正常一點的夢？我有一個可怕但好笑的夢。我的家人是《阿達一族》，我真的很怕那個家庭，但我們就是那個家庭。這很奇怪。好。所以是我們家是《阿達一族》，還是反過來？我們家是《阿達一族》。很好。Brianna，謝謝你今天來參加我們 Slow English podcast 的訪問。",
           "englishTokens": [
             {
               "type": "text",
@@ -2320,7 +2320,397 @@
             },
             {
               "type": "text",
-              "text": "?"
+              "text": "? Maybe a "
+            },
+            {
+              "type": "word",
+              "text": "routine",
+              "targetId": "word-routine",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-02"
+            },
+            {
+              "type": "text",
+              "text": ". My "
+            },
+            {
+              "type": "word",
+              "text": "nightly",
+              "targetId": "word-nightly",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-03"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "routine",
+              "targetId": "word-routine",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-04"
+            },
+            {
+              "type": "text",
+              "text": " is washing my face, brushing my teeth, doing "
+            },
+            {
+              "type": "word",
+              "text": "skincare",
+              "targetId": "word-skincare",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-05"
+            },
+            {
+              "type": "text",
+              "text": ", and using my "
+            },
+            {
+              "type": "phrase",
+              "text": "sleep mask",
+              "targetId": "phrase-sleep-mask",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-06"
+            },
+            {
+              "type": "text",
+              "text": ". Mhm. No shower at night? Um, I usually shower after the "
+            },
+            {
+              "type": "word",
+              "text": "gym",
+              "targetId": "word-gym",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-07"
+            },
+            {
+              "type": "text",
+              "text": ". Mhm. Okay. So, in the afternoon? Yes. Mhm. And do you like to drink any tea or milk before "
+            },
+            {
+              "type": "phrase",
+              "text": "going to sleep",
+              "targetId": "phrase-going-to-sleep",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-08"
+            },
+            {
+              "type": "text",
+              "text": "? I "
+            },
+            {
+              "type": "usage",
+              "text": "should",
+              "targetId": "usage-should-item",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-09"
+            },
+            {
+              "type": "text",
+              "text": ", but I don't. Mhm. And do you use your phone or computer before sleeping? I do, but I "
+            },
+            {
+              "type": "usage",
+              "text": "shouldn't",
+              "targetId": "usage-should-item",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-10"
+            },
+            {
+              "type": "text",
+              "text": ". But you can sleep? If I'm tired "
+            },
+            {
+              "type": "usage",
+              "text": "enough",
+              "targetId": "usage-enough-item",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-11"
+            },
+            {
+              "type": "text",
+              "text": ". Mhm. And if you can't "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-12"
+            },
+            {
+              "type": "text",
+              "text": ", what is something you try to do? I "
+            },
+            {
+              "type": "phrase",
+              "text": "count sheep",
+              "targetId": "phrase-count-sheep",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-13"
+            },
+            {
+              "type": "text",
+              "text": ". Mhm. "
+            },
+            {
+              "type": "word",
+              "text": "Literally",
+              "targetId": "word-literally",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-14"
+            },
+            {
+              "type": "text",
+              "text": ". "
+            },
+            {
+              "type": "phrase",
+              "text": "Count sheep",
+              "targetId": "phrase-count-sheep",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-15"
+            },
+            {
+              "type": "text",
+              "text": ". Yes, I "
+            },
+            {
+              "type": "phrase",
+              "text": "count sheep",
+              "targetId": "phrase-count-sheep",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-16"
+            },
+            {
+              "type": "text",
+              "text": ". Nice. And what about music? Do you like "
+            },
+            {
+              "type": "phrase",
+              "text": "listening to music",
+              "targetId": "phrase-listen-to-music",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-17"
+            },
+            {
+              "type": "text",
+              "text": " while trying to sleep? Sometimes, but it's usually "
+            },
+            {
+              "type": "word",
+              "text": "distracting",
+              "targetId": "word-distracting",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-18"
+            },
+            {
+              "type": "text",
+              "text": ". Mhm. And what about reading a book "
+            },
+            {
+              "type": "phrase",
+              "text": "before bed",
+              "targetId": "phrase-before-bed",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-19"
+            },
+            {
+              "type": "text",
+              "text": "? I "
+            },
+            {
+              "type": "usage",
+              "text": "should",
+              "targetId": "usage-should-item",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-20"
+            },
+            {
+              "type": "text",
+              "text": ", but I don't. And would you say you sleep "
+            },
+            {
+              "type": "usage",
+              "text": "well",
+              "targetId": "usage-well-sleep",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-21"
+            },
+            {
+              "type": "text",
+              "text": "? I'm usually a "
+            },
+            {
+              "type": "phrase",
+              "text": "deep sleeper",
+              "targetId": "phrase-deep-sleeper",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-22"
+            },
+            {
+              "type": "text",
+              "text": ", so I "
+            },
+            {
+              "type": "word",
+              "text": "suppose",
+              "targetId": "word-suppose",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-23"
+            },
+            {
+              "type": "text",
+              "text": ". Mhm. And do you get "
+            },
+            {
+              "type": "usage",
+              "text": "enough",
+              "targetId": "usage-enough-item",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-24"
+            },
+            {
+              "type": "text",
+              "text": " sleep? I try to. Mhm. Sometimes I don't. Mhm. And do you often remember your dreams? I remember only bad dreams, only "
+            },
+            {
+              "type": "word",
+              "text": "nightmares",
+              "targetId": "word-nightmare",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-25"
+            },
+            {
+              "type": "text",
+              "text": ". Yes, "
+            },
+            {
+              "type": "word",
+              "text": "unfortunately",
+              "targetId": "word-unfortunately",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-26"
+            },
+            {
+              "type": "text",
+              "text": ". Can you remember any good dreams? Even one? Not right now. No. I "
+            },
+            {
+              "type": "usage",
+              "text": "should",
+              "targetId": "usage-should-item",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-27"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "keep a dream journal",
+              "targetId": "phrase-keep-a-dream-journal",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-28"
+            },
+            {
+              "type": "text",
+              "text": ". Mhm. And what's one "
+            },
+            {
+              "type": "word",
+              "text": "recurring",
+              "targetId": "word-recurring",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-29"
+            },
+            {
+              "type": "text",
+              "text": " nightmare? A "
+            },
+            {
+              "type": "word",
+              "text": "recurring",
+              "targetId": "word-recurring",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-30"
+            },
+            {
+              "type": "text",
+              "text": " nightmare that I have... Oh, I don't know how to "
+            },
+            {
+              "type": "word",
+              "text": "describe",
+              "targetId": "word-describe",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-31"
+            },
+            {
+              "type": "text",
+              "text": " it. A "
+            },
+            {
+              "type": "word",
+              "text": "recurring",
+              "targetId": "word-recurring",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-32"
+            },
+            {
+              "type": "text",
+              "text": " nightmare I have is someone in my room pulling my feet while I'm in bed. So, you "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up from",
+              "targetId": "phrase-wake-up-from",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-33"
+            },
+            {
+              "type": "text",
+              "text": " that dream. "
+            },
+            {
+              "type": "phrase",
+              "text": "What the hell",
+              "targetId": "phrase-what-the-hell",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-34"
+            },
+            {
+              "type": "text",
+              "text": "? Do you ever have any "
+            },
+            {
+              "type": "word",
+              "text": "common",
+              "targetId": "word-common",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-35"
+            },
+            {
+              "type": "text",
+              "text": " dreams, like your "
+            },
+            {
+              "type": "phrase",
+              "text": "teeth falling out",
+              "targetId": "phrase-teeth-falling-out",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-36"
+            },
+            {
+              "type": "text",
+              "text": ", or any normal dreams? I have a "
+            },
+            {
+              "type": "word",
+              "text": "scary",
+              "targetId": "word-scary",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-37"
+            },
+            {
+              "type": "text",
+              "text": " but funny dream. My family is the Addams Family, and I am really scared of the family, but we are the family. It's "
+            },
+            {
+              "type": "word",
+              "text": "strange",
+              "targetId": "word-strange",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-38"
+            },
+            {
+              "type": "text",
+              "text": ". Okay. So, our family is the Addams Family, or "
+            },
+            {
+              "type": "phrase",
+              "text": "the other way around",
+              "targetId": "phrase-the-other-way-around",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-39"
+            },
+            {
+              "type": "text",
+              "text": "? Our family is the Addams Family. Very nice. Well, thank you, Brianna, for joining us for our "
+            },
+            {
+              "type": "word",
+              "text": "interview",
+              "targetId": "word-interview",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-132-40"
+            },
+            {
+              "type": "text",
+              "text": " today on our Slow English podcast."
             }
           ]
         }
@@ -2334,1149 +2724,6 @@
       "titleEn": "Part 34",
       "sentences": [
         {
-          "en": "Maybe a routine.",
-          "tc": "也許是一個例行程序。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Maybe a "
-            },
-            {
-              "type": "word",
-              "text": "routine",
-              "targetId": "word-routine",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-133-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "My nightly routine is washing my face, brushing my teeth, doing skincare, and using my sleep mask.",
-          "tc": "我的夜間例行程序是洗臉、刷牙、做保養，還有使用睡眠眼罩。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "My "
-            },
-            {
-              "type": "word",
-              "text": "nightly",
-              "targetId": "word-nightly",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-134-01"
-            },
-            {
-              "type": "text",
-              "text": " "
-            },
-            {
-              "type": "word",
-              "text": "routine",
-              "targetId": "word-routine",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-134-02"
-            },
-            {
-              "type": "text",
-              "text": " is washing my face, brushing my teeth, doing "
-            },
-            {
-              "type": "word",
-              "text": "skincare",
-              "targetId": "word-skincare",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-134-03"
-            },
-            {
-              "type": "text",
-              "text": ", and using my "
-            },
-            {
-              "type": "phrase",
-              "text": "sleep mask",
-              "targetId": "phrase-sleep-mask",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-134-04"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "Mhm.",
-          "tc": "嗯。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Mhm."
-            }
-          ]
-        },
-        {
-          "en": "No shower at night?",
-          "tc": "晚上不洗澡嗎？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "No shower at night?"
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-35",
-      "no": "35",
-      "titleZh": "第 35 段",
-      "titleEn": "Part 35",
-      "sentences": [
-        {
-          "en": "Um, I usually shower after the gym.",
-          "tc": "嗯，我通常在健身房之後洗澡。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Um, I usually shower after the "
-            },
-            {
-              "type": "word",
-              "text": "gym",
-              "targetId": "word-gym",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-137-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "Mhm.",
-          "tc": "嗯。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Mhm."
-            }
-          ]
-        },
-        {
-          "en": "Okay.",
-          "tc": "好。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Okay."
-            }
-          ]
-        },
-        {
-          "en": "So, in the afternoon?",
-          "tc": "所以是在下午？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "So, in the afternoon?"
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-36",
-      "no": "36",
-      "titleZh": "第 36 段",
-      "titleEn": "Part 36",
-      "sentences": [
-        {
-          "en": "Yes.",
-          "tc": "對。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Yes."
-            }
-          ]
-        },
-        {
-          "en": "Mhm.",
-          "tc": "嗯。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Mhm."
-            }
-          ]
-        },
-        {
-          "en": "And do you like to drink any tea or milk before going to sleep?",
-          "tc": "你睡前喜歡喝茶或牛奶嗎？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "And do you like to drink any tea or milk before "
-            },
-            {
-              "type": "phrase",
-              "text": "going to sleep",
-              "targetId": "phrase-going-to-sleep",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-143-01"
-            },
-            {
-              "type": "text",
-              "text": "?"
-            }
-          ]
-        },
-        {
-          "en": "I should, but I don't.",
-          "tc": "我應該喝，但我沒有。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I "
-            },
-            {
-              "type": "usage",
-              "text": "should",
-              "targetId": "usage-should-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-144-01"
-            },
-            {
-              "type": "text",
-              "text": ", but I don't."
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-37",
-      "no": "37",
-      "titleZh": "第 37 段",
-      "titleEn": "Part 37",
-      "sentences": [
-        {
-          "en": "Mhm.",
-          "tc": "嗯。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Mhm."
-            }
-          ]
-        },
-        {
-          "en": "And do you use your phone or computer before sleeping?",
-          "tc": "你睡前會使用手機或電腦嗎？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "And do you use your phone or computer before sleeping?"
-            }
-          ]
-        },
-        {
-          "en": "I do, but I shouldn't.",
-          "tc": "我會，但我不應該。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I do, but I "
-            },
-            {
-              "type": "usage",
-              "text": "shouldn't",
-              "targetId": "usage-should-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-147-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "But you can sleep?",
-          "tc": "可是你睡得著？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "But you can sleep?"
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-38",
-      "no": "38",
-      "titleZh": "第 38 段",
-      "titleEn": "Part 38",
-      "sentences": [
-        {
-          "en": "If I'm tired enough.",
-          "tc": "如果我夠累的話。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "If I'm tired "
-            },
-            {
-              "type": "usage",
-              "text": "enough",
-              "targetId": "usage-enough-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-149-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "Mhm.",
-          "tc": "嗯。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Mhm."
-            }
-          ]
-        },
-        {
-          "en": "And if you can't fall asleep, what is something you try to do?",
-          "tc": "如果你睡不著，你會試著做什麼？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "And if you can't "
-            },
-            {
-              "type": "phrase",
-              "text": "fall asleep",
-              "targetId": "phrase-fall-asleep",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-151-01"
-            },
-            {
-              "type": "text",
-              "text": ", what is something you try to do?"
-            }
-          ]
-        },
-        {
-          "en": "I count sheep.",
-          "tc": "我數羊。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I "
-            },
-            {
-              "type": "phrase",
-              "text": "count sheep",
-              "targetId": "phrase-count-sheep",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-152-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-39",
-      "no": "39",
-      "titleZh": "第 39 段",
-      "titleEn": "Part 39",
-      "sentences": [
-        {
-          "en": "Mhm.",
-          "tc": "嗯。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Mhm."
-            }
-          ]
-        },
-        {
-          "en": "Literally.",
-          "tc": "真的。",
-          "englishTokens": [
-            {
-              "type": "word",
-              "text": "Literally",
-              "targetId": "word-literally",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-154-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "Count sheep.",
-          "tc": "數羊。",
-          "englishTokens": [
-            {
-              "type": "phrase",
-              "text": "Count sheep",
-              "targetId": "phrase-count-sheep",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-155-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "Yes, I count sheep.",
-          "tc": "對，我數羊。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Yes, I "
-            },
-            {
-              "type": "phrase",
-              "text": "count sheep",
-              "targetId": "phrase-count-sheep",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-156-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-40",
-      "no": "40",
-      "titleZh": "第 40 段",
-      "titleEn": "Part 40",
-      "sentences": [
-        {
-          "en": "Nice.",
-          "tc": "不錯。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Nice."
-            }
-          ]
-        },
-        {
-          "en": "And what about music?",
-          "tc": "那音樂呢？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "And what about music?"
-            }
-          ]
-        },
-        {
-          "en": "Do you like listening to music while trying to sleep?",
-          "tc": "你喜歡一邊試著睡覺一邊聽音樂嗎？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Do you like "
-            },
-            {
-              "type": "phrase",
-              "text": "listening to music",
-              "targetId": "phrase-listen-to-music",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-159-01"
-            },
-            {
-              "type": "text",
-              "text": " while trying to sleep?"
-            }
-          ]
-        },
-        {
-          "en": "Sometimes, but it's usually distracting.",
-          "tc": "有時候，但它通常很分心。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Sometimes, but it's usually "
-            },
-            {
-              "type": "word",
-              "text": "distracting",
-              "targetId": "word-distracting",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-160-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-41",
-      "no": "41",
-      "titleZh": "第 41 段",
-      "titleEn": "Part 41",
-      "sentences": [
-        {
-          "en": "Mhm.",
-          "tc": "嗯。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Mhm."
-            }
-          ]
-        },
-        {
-          "en": "And what about reading a book before bed?",
-          "tc": "睡前看書呢？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "And what about reading a book "
-            },
-            {
-              "type": "phrase",
-              "text": "before bed",
-              "targetId": "phrase-before-bed",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-162-01"
-            },
-            {
-              "type": "text",
-              "text": "?"
-            }
-          ]
-        },
-        {
-          "en": "I should, but I don't.",
-          "tc": "我應該看，但我沒有。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I "
-            },
-            {
-              "type": "usage",
-              "text": "should",
-              "targetId": "usage-should-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-163-01"
-            },
-            {
-              "type": "text",
-              "text": ", but I don't."
-            }
-          ]
-        },
-        {
-          "en": "And would you say you sleep well?",
-          "tc": "你會說你睡得好嗎？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "And would you say you sleep "
-            },
-            {
-              "type": "usage",
-              "text": "well",
-              "targetId": "usage-well-sleep",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-164-01"
-            },
-            {
-              "type": "text",
-              "text": "?"
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-42",
-      "no": "42",
-      "titleZh": "第 42 段",
-      "titleEn": "Part 42",
-      "sentences": [
-        {
-          "en": "I'm usually a deep sleeper, so I suppose.",
-          "tc": "我通常是睡很沉的人，所以我想算是吧。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I'm usually a "
-            },
-            {
-              "type": "phrase",
-              "text": "deep sleeper",
-              "targetId": "phrase-deep-sleeper",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-165-01"
-            },
-            {
-              "type": "text",
-              "text": ", so I "
-            },
-            {
-              "type": "word",
-              "text": "suppose",
-              "targetId": "word-suppose",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-165-02"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "Mhm.",
-          "tc": "嗯。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Mhm."
-            }
-          ]
-        },
-        {
-          "en": "And do you get enough sleep?",
-          "tc": "你睡得夠嗎？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "And do you get "
-            },
-            {
-              "type": "usage",
-              "text": "enough",
-              "targetId": "usage-enough-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-167-01"
-            },
-            {
-              "type": "text",
-              "text": " sleep?"
-            }
-          ]
-        },
-        {
-          "en": "I try to.",
-          "tc": "我努力睡夠。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I try to."
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-43",
-      "no": "43",
-      "titleZh": "第 43 段",
-      "titleEn": "Part 43",
-      "sentences": [
-        {
-          "en": "Mhm.",
-          "tc": "嗯。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Mhm."
-            }
-          ]
-        },
-        {
-          "en": "Sometimes I don't.",
-          "tc": "有時候沒有。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Sometimes I don't."
-            }
-          ]
-        },
-        {
-          "en": "Mhm.",
-          "tc": "嗯。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Mhm."
-            }
-          ]
-        },
-        {
-          "en": "And do you often remember your dreams?",
-          "tc": "你常記得你的夢嗎？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "And do you often remember your dreams?"
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-44",
-      "no": "44",
-      "titleZh": "第 44 段",
-      "titleEn": "Part 44",
-      "sentences": [
-        {
-          "en": "I remember only bad dreams, only nightmares.",
-          "tc": "我只記得壞夢，只記得惡夢。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I remember only bad dreams, only "
-            },
-            {
-              "type": "word",
-              "text": "nightmares",
-              "targetId": "word-nightmare",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-173-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "Yes, unfortunately.",
-          "tc": "對，不幸地。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Yes, "
-            },
-            {
-              "type": "word",
-              "text": "unfortunately",
-              "targetId": "word-unfortunately",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-174-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "Can you remember any good dreams?",
-          "tc": "你記得任何好夢嗎？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Can you remember any good dreams?"
-            }
-          ]
-        },
-        {
-          "en": "Even one?",
-          "tc": "一個也可以？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Even one?"
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-45",
-      "no": "45",
-      "titleZh": "第 45 段",
-      "titleEn": "Part 45",
-      "sentences": [
-        {
-          "en": "Not right now.",
-          "tc": "現在想不起來。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Not right now."
-            }
-          ]
-        },
-        {
-          "en": "No.",
-          "tc": "沒有。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "No."
-            }
-          ]
-        },
-        {
-          "en": "I should keep a dream journal.",
-          "tc": "我應該寫夢境日記。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I "
-            },
-            {
-              "type": "usage",
-              "text": "should",
-              "targetId": "usage-should-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-179-01"
-            },
-            {
-              "type": "text",
-              "text": " "
-            },
-            {
-              "type": "phrase",
-              "text": "keep a dream journal",
-              "targetId": "phrase-keep-a-dream-journal",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-179-02"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "Mhm.",
-          "tc": "嗯。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Mhm."
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-46",
-      "no": "46",
-      "titleZh": "第 46 段",
-      "titleEn": "Part 46",
-      "sentences": [
-        {
-          "en": "And what's one recurring nightmare?",
-          "tc": "你有一個反覆出現的惡夢是什麼？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "And what's one "
-            },
-            {
-              "type": "word",
-              "text": "recurring",
-              "targetId": "word-recurring",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-181-01"
-            },
-            {
-              "type": "text",
-              "text": " nightmare?"
-            }
-          ]
-        },
-        {
-          "en": "A recurring nightmare that I have...",
-          "tc": "我有的一個反覆出現的惡夢……",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "A "
-            },
-            {
-              "type": "word",
-              "text": "recurring",
-              "targetId": "word-recurring",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-182-01"
-            },
-            {
-              "type": "text",
-              "text": " nightmare that I have..."
-            }
-          ]
-        },
-        {
-          "en": "Oh, I don't know how to describe it.",
-          "tc": "喔，我不知道怎麼描述。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Oh, I don't know how to "
-            },
-            {
-              "type": "word",
-              "text": "describe",
-              "targetId": "word-describe",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-183-01"
-            },
-            {
-              "type": "text",
-              "text": " it."
-            }
-          ]
-        },
-        {
-          "en": "A recurring nightmare I have is someone in my room pulling my feet while I'm in bed.",
-          "tc": "我有的一個反覆惡夢是，有人在我的房間裡，趁我在床上時拉我的腳。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "A "
-            },
-            {
-              "type": "word",
-              "text": "recurring",
-              "targetId": "word-recurring",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-184-01"
-            },
-            {
-              "type": "text",
-              "text": " nightmare I have is someone in my room pulling my feet while I'm in bed."
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-47",
-      "no": "47",
-      "titleZh": "第 47 段",
-      "titleEn": "Part 47",
-      "sentences": [
-        {
-          "en": "So, you wake up from that dream.",
-          "tc": "所以你會從那個夢醒來。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "So, you "
-            },
-            {
-              "type": "phrase",
-              "text": "wake up from",
-              "targetId": "phrase-wake-up-from",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-185-01"
-            },
-            {
-              "type": "text",
-              "text": " that dream."
-            }
-          ]
-        },
-        {
-          "en": "What the hell?",
-          "tc": "搞什麼？",
-          "englishTokens": [
-            {
-              "type": "phrase",
-              "text": "What the hell",
-              "targetId": "phrase-what-the-hell",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-186-01"
-            },
-            {
-              "type": "text",
-              "text": "?"
-            }
-          ]
-        },
-        {
-          "en": "Do you ever have any common dreams, like your teeth falling out, or any normal dreams?",
-          "tc": "你有沒有任何常見的夢，比如牙齒掉下來，或任何正常一點的夢？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Do you ever have any "
-            },
-            {
-              "type": "word",
-              "text": "common",
-              "targetId": "word-common",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-187-01"
-            },
-            {
-              "type": "text",
-              "text": " dreams, like your "
-            },
-            {
-              "type": "phrase",
-              "text": "teeth falling out",
-              "targetId": "phrase-teeth-falling-out",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-187-02"
-            },
-            {
-              "type": "text",
-              "text": ", or any normal dreams?"
-            }
-          ]
-        },
-        {
-          "en": "I have a scary but funny dream.",
-          "tc": "我有一個可怕但好笑的夢。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I have a "
-            },
-            {
-              "type": "word",
-              "text": "scary",
-              "targetId": "word-scary",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-188-01"
-            },
-            {
-              "type": "text",
-              "text": " but funny dream."
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-48",
-      "no": "48",
-      "titleZh": "第 48 段",
-      "titleEn": "Part 48",
-      "sentences": [
-        {
-          "en": "My family is the Addams Family, and I am really scared of the family, but we are the family.",
-          "tc": "我的家人是《阿達一族》，我真的很怕那個家庭，但我們就是那個家庭。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "My family is the Addams Family, and I am really scared of the family, but we are the family."
-            }
-          ]
-        },
-        {
-          "en": "It's strange.",
-          "tc": "這很奇怪。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "It's "
-            },
-            {
-              "type": "word",
-              "text": "strange",
-              "targetId": "word-strange",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-190-01"
-            },
-            {
-              "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "Okay.",
-          "tc": "好。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Okay."
-            }
-          ]
-        },
-        {
-          "en": "So, our family is the Addams Family, or the other way around?",
-          "tc": "所以是我們家是《阿達一族》，還是反過來？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "So, our family is the Addams Family, or "
-            },
-            {
-              "type": "phrase",
-              "text": "the other way around",
-              "targetId": "phrase-the-other-way-around",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-192-01"
-            },
-            {
-              "type": "text",
-              "text": "?"
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-49",
-      "no": "49",
-      "titleZh": "第 49 段",
-      "titleEn": "Part 49",
-      "sentences": [
-        {
-          "en": "Our family is the Addams Family.",
-          "tc": "我們家是《阿達一族》。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Our family is the Addams Family."
-            }
-          ]
-        },
-        {
-          "en": "Very nice.",
-          "tc": "很好。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Very nice."
-            }
-          ]
-        },
-        {
-          "en": "Well, thank you, Brianna, for joining us for our interview today on our Slow English podcast.",
-          "tc": "Brianna，謝謝你今天來參加我們 Slow English podcast 的訪問。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Well, thank you, Brianna, for joining us for our "
-            },
-            {
-              "type": "word",
-              "text": "interview",
-              "targetId": "word-interview",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-195-01"
-            },
-            {
-              "type": "text",
-              "text": " today on our Slow English podcast."
-            }
-          ]
-        },
-        {
           "en": "And now, actually, I want to try with you.",
           "tc": "現在，其實我想和你試試看。",
           "englishTokens": [
@@ -3485,16 +2732,7 @@
               "text": "And now, actually, I want to try with you."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-50",
-      "no": "50",
-      "titleZh": "第 50 段",
-      "titleEn": "Part 50",
-      "sentences": [
+        },
         {
           "en": "And now it's my turn to ask you.",
           "tc": "現在輪到我問你了。",
@@ -3527,7 +2765,7 @@
               "type": "usage",
               "text": "hot",
               "targetId": "usage-hot-cold-it-is-hot-cold",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-199-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-136-01"
             },
             {
               "type": "text",
@@ -3537,14 +2775,23 @@
               "type": "usage",
               "text": "cold",
               "targetId": "usage-hot-cold-it-is-hot-cold",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-199-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-136-02"
             },
             {
               "type": "text",
               "text": " at night."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-35",
+      "no": "35",
+      "titleZh": "第 35 段",
+      "titleEn": "Part 35",
+      "sentences": [
         {
           "en": "Do you use a fan or an air conditioner when you sleep?",
           "tc": "你睡覺時會用電風扇或冷氣嗎？",
@@ -3557,23 +2804,14 @@
               "type": "phrase",
               "text": "air conditioner",
               "targetId": "phrase-air-conditioner",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-200-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-137-01"
             },
             {
               "type": "text",
               "text": " when you sleep?"
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-51",
-      "no": "51",
-      "titleZh": "第 51 段",
-      "titleEn": "Part 51",
-      "sentences": [
+        },
         {
           "en": "I don't like to use an air conditioner while I sleep because sometimes I get sick from it, Mhm, since my body is not used to it.",
           "tc": "我不喜歡睡覺時用冷氣，因為有時候我會因為它而生病，嗯，因為我的身體不習慣它。",
@@ -3586,7 +2824,7 @@
               "type": "phrase",
               "text": "air conditioner",
               "targetId": "phrase-air-conditioner",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-201-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-138-01"
             },
             {
               "type": "text",
@@ -3596,7 +2834,7 @@
               "type": "phrase",
               "text": "get sick from",
               "targetId": "phrase-get-sick-from",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-201-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-138-02"
             },
             {
               "type": "text",
@@ -3606,7 +2844,7 @@
               "type": "phrase",
               "text": "not used to",
               "targetId": "phrase-be-used-to",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-201-03"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-138-03"
             },
             {
               "type": "text",
@@ -3626,7 +2864,7 @@
               "type": "usage",
               "text": "makes",
               "targetId": "usage-make-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-202-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-139-01"
             },
             {
               "type": "text",
@@ -3643,7 +2881,16 @@
               "text": "Do you sleep better when it rains?"
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-36",
+      "no": "36",
+      "titleZh": "第 36 段",
+      "titleEn": "Part 36",
+      "sentences": [
         {
           "en": "I do sleep better when it rains because the rain is like white noise.",
           "tc": "下雨時我確實睡得比較好，因為雨聲就像白噪音。",
@@ -3656,23 +2903,14 @@
               "type": "phrase",
               "text": "white noise",
               "targetId": "phrase-white-noise",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-204-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-141-01"
             },
             {
               "type": "text",
               "text": "."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-52",
-      "no": "52",
-      "titleZh": "第 52 段",
-      "titleEn": "Part 52",
-      "sentences": [
+        },
         {
           "en": "What color are your bed sheets?",
           "tc": "你的床單是什麼顏色？",
@@ -3685,7 +2923,7 @@
               "type": "word",
               "text": "sheets",
               "targetId": "word-sheet",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-205-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-142-01"
             },
             {
               "type": "text",
@@ -3705,7 +2943,7 @@
               "type": "word",
               "text": "sheets",
               "targetId": "word-sheet",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-206-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-143-01"
             },
             {
               "type": "text",
@@ -3715,7 +2953,7 @@
               "type": "word",
               "text": "zebra-striped",
               "targetId": "word-zebra-striped",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-206-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-143-02"
             },
             {
               "type": "text",
@@ -3732,7 +2970,16 @@
               "text": "They're black and white."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-37",
+      "no": "37",
+      "titleZh": "第 37 段",
+      "titleEn": "Part 37",
+      "sentences": [
         {
           "en": "Do you like sleeping in a warm or cool room?",
           "tc": "你喜歡睡在溫暖的房間還是涼爽的房間？",
@@ -3742,16 +2989,7 @@
               "text": "Do you like sleeping in a warm or cool room?"
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-53",
-      "no": "53",
-      "titleZh": "第 53 段",
-      "titleEn": "Part 53",
-      "sentences": [
+        },
         {
           "en": "I prefer sleeping in a cool room, but I can also sleep in warm rooms.",
           "tc": "我比較喜歡睡在涼爽的房間，但我也可以睡在溫暖的房間。",
@@ -3764,7 +3002,7 @@
               "type": "word",
               "text": "prefer",
               "targetId": "word-prefer",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-209-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-146-01"
             },
             {
               "type": "text",
@@ -3784,7 +3022,7 @@
               "type": "usage",
               "text": "make",
               "targetId": "usage-make-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-210-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-147-01"
             },
             {
               "type": "text",
@@ -3794,7 +3032,7 @@
               "type": "phrase",
               "text": "fall asleep",
               "targetId": "phrase-fall-asleep",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-210-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-147-02"
             },
             {
               "type": "text",
@@ -3814,14 +3052,23 @@
               "type": "phrase",
               "text": "pros and cons",
               "targetId": "phrase-pros-and-cons",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-211-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-148-01"
             },
             {
               "type": "text",
               "text": "."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-38",
+      "no": "38",
+      "titleZh": "第 38 段",
+      "titleEn": "Part 38",
+      "sentences": [
         {
           "en": "Do you ever wake up in the middle of the night?",
           "tc": "你曾經半夜醒來嗎？",
@@ -3834,7 +3081,7 @@
               "type": "phrase",
               "text": "wake up",
               "targetId": "phrase-wake-up",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-212-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-149-01"
             },
             {
               "type": "text",
@@ -3844,23 +3091,14 @@
               "type": "phrase",
               "text": "in the middle of the night",
               "targetId": "phrase-in-the-middle-of-the-night",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-212-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-149-02"
             },
             {
               "type": "text",
               "text": "?"
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-54",
-      "no": "54",
-      "titleZh": "第 54 段",
-      "titleEn": "Part 54",
-      "sentences": [
+        },
         {
           "en": "Yes, I sometimes wake up in the middle of the night, but only because I have to go to the bathroom because I probably drank too much water before going to sleep.",
           "tc": "有，我有時候半夜醒來，但只是因為我得去廁所，因為我可能睡前喝了太多水。",
@@ -3873,7 +3111,7 @@
               "type": "phrase",
               "text": "wake up",
               "targetId": "phrase-wake-up",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-213-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-150-01"
             },
             {
               "type": "text",
@@ -3883,7 +3121,7 @@
               "type": "phrase",
               "text": "in the middle of the night",
               "targetId": "phrase-in-the-middle-of-the-night",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-213-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-150-02"
             },
             {
               "type": "text",
@@ -3893,7 +3131,7 @@
               "type": "phrase",
               "text": "go to the bathroom",
               "targetId": "phrase-go-to-the-bathroom",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-213-03"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-150-03"
             },
             {
               "type": "text",
@@ -3903,7 +3141,7 @@
               "type": "word",
               "text": "probably",
               "targetId": "word-probably",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-213-04"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-150-04"
             },
             {
               "type": "text",
@@ -3913,7 +3151,7 @@
               "type": "phrase",
               "text": "too much",
               "targetId": "phrase-too-much",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-213-05"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-150-05"
             },
             {
               "type": "text",
@@ -3923,7 +3161,7 @@
               "type": "phrase",
               "text": "going to sleep",
               "targetId": "phrase-going-to-sleep",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-213-06"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-150-06"
             },
             {
               "type": "text",
@@ -3943,7 +3181,7 @@
               "type": "word",
               "text": "sleepwalk",
               "targetId": "word-sleepwalk",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-214-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-151-01"
             },
             {
               "type": "text",
@@ -3963,7 +3201,7 @@
               "type": "phrase",
               "text": "used to",
               "targetId": "phrase-used-to",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-215-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-152-01"
             },
             {
               "type": "text",
@@ -3973,7 +3211,7 @@
               "type": "word",
               "text": "sleepwalk",
               "targetId": "word-sleepwalk",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-215-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-152-02"
             },
             {
               "type": "text",
@@ -3983,14 +3221,23 @@
               "type": "word",
               "text": "sleepwalk",
               "targetId": "word-sleepwalk",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-215-03"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-152-03"
             },
             {
               "type": "text",
               "text": " anymore."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-39",
+      "no": "39",
+      "titleZh": "第 39 段",
+      "titleEn": "Part 39",
+      "sentences": [
         {
           "en": "I only sleep-talk.",
           "tc": "我只會說夢話。",
@@ -4003,23 +3250,14 @@
               "type": "word",
               "text": "sleep-talk",
               "targetId": "word-sleep-talk",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-216-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-153-01"
             },
             {
               "type": "text",
               "text": "."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-55",
-      "no": "55",
-      "titleZh": "第 55 段",
-      "titleEn": "Part 55",
-      "sentences": [
+        },
         {
           "en": "Yes.",
           "tc": "對。",
@@ -4049,7 +3287,16 @@
               "text": "Do you check your phone before sleeping?"
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-40",
+      "no": "40",
+      "titleZh": "第 40 段",
+      "titleEn": "Part 40",
+      "sentences": [
         {
           "en": "I try not to because the screen keeps me awake, but I usually watch things on my phone before I sleep.",
           "tc": "我盡量不要，因為螢幕會讓我保持清醒，但我通常睡前還是會看手機上的東西。",
@@ -4062,7 +3309,7 @@
               "type": "word",
               "text": "screen",
               "targetId": "word-screen",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-220-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-157-01"
             },
             {
               "type": "text",
@@ -4072,23 +3319,14 @@
               "type": "phrase",
               "text": "keeps me awake",
               "targetId": "phrase-keep-someone-awake",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-220-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-157-02"
             },
             {
               "type": "text",
               "text": ", but I usually watch things on my phone before I sleep."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-56",
-      "no": "56",
-      "titleZh": "第 56 段",
-      "titleEn": "Part 56",
-      "sentences": [
+        },
         {
           "en": "We all do.",
           "tc": "我們都會。",
@@ -4111,7 +3349,7 @@
               "type": "phrase",
               "text": "wake up",
               "targetId": "phrase-wake-up",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-222-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-159-01"
             },
             {
               "type": "text",
@@ -4121,7 +3359,7 @@
               "type": "word",
               "text": "weekends",
               "targetId": "word-weekend",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-222-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-159-02"
             },
             {
               "type": "text",
@@ -4141,7 +3379,7 @@
               "type": "word",
               "text": "weekends",
               "targetId": "word-weekend",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-223-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-160-01"
             },
             {
               "type": "text",
@@ -4151,7 +3389,7 @@
               "type": "phrase",
               "text": "wake up",
               "targetId": "phrase-wake-up",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-223-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-160-02"
             },
             {
               "type": "text",
@@ -4161,7 +3399,7 @@
               "type": "usage",
               "text": "around",
               "targetId": "usage-around-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-223-03"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-160-03"
             },
             {
               "type": "text",
@@ -4171,7 +3409,7 @@
               "type": "word",
               "text": "sleepy",
               "targetId": "word-sleepy",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-223-04"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-160-04"
             },
             {
               "type": "text",
@@ -4181,14 +3419,23 @@
               "type": "phrase",
               "text": "wake up",
               "targetId": "phrase-wake-up",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-223-05"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-160-05"
             },
             {
               "type": "text",
               "text": " at 11:00 a.m. What do you wear when you sleep?"
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-41",
+      "no": "41",
+      "titleZh": "第 41 段",
+      "titleEn": "Part 41",
+      "sentences": [
         {
           "en": "I wear my warm, fluffy pajamas when I sleep so that I don't get sick.",
           "tc": "你睡覺時穿什麼？",
@@ -4201,7 +3448,7 @@
               "type": "word",
               "text": "fluffy",
               "targetId": "word-fluffy",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-224-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-161-01"
             },
             {
               "type": "text",
@@ -4211,7 +3458,7 @@
               "type": "word",
               "text": "pajamas",
               "targetId": "word-pajamas",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-224-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-161-02"
             },
             {
               "type": "text",
@@ -4221,23 +3468,14 @@
               "type": "phrase",
               "text": "get sick",
               "targetId": "phrase-get-sick-from",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-224-03"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-161-03"
             },
             {
               "type": "text",
               "text": "."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-57",
-      "no": "57",
-      "titleZh": "第 57 段",
-      "titleEn": "Part 57",
-      "sentences": [
+        },
         {
           "en": "Yes.",
           "tc": "我睡覺時穿溫暖、毛茸茸的睡衣，這樣我才不會生病。",
@@ -4270,7 +3508,7 @@
               "type": "phrase",
               "text": "roll around",
               "targetId": "phrase-roll-around",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-227-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-164-01"
             },
             {
               "type": "text",
@@ -4280,14 +3518,23 @@
               "type": "phrase",
               "text": "spread out",
               "targetId": "phrase-spread-out",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-227-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-164-02"
             },
             {
               "type": "text",
               "text": " everywhere."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-42",
+      "no": "42",
+      "titleZh": "第 42 段",
+      "titleEn": "Part 42",
+      "sentences": [
         {
           "en": "Yes.",
           "tc": "我需要一張大床睡覺，因為我喜歡滾來滾去，到處伸展。",
@@ -4297,16 +3544,7 @@
               "text": "Yes."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-58",
-      "no": "58",
-      "titleZh": "第 58 段",
-      "titleEn": "Part 58",
-      "sentences": [
+        },
         {
           "en": "Do you feel tired after lunch?",
           "tc": "你午餐後會覺得累嗎？",
@@ -4319,7 +3557,7 @@
               "type": "phrase",
               "text": "after lunch",
               "targetId": "phrase-after-lunch",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-229-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-166-01"
             },
             {
               "type": "text",
@@ -4349,7 +3587,7 @@
               "type": "phrase",
               "text": "best way to",
               "targetId": "phrase-best-way-to",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-231-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-168-01"
             },
             {
               "type": "text",
@@ -4359,14 +3597,23 @@
               "type": "phrase",
               "text": "sleep well",
               "targetId": "phrase-sleep-well",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-231-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-168-02"
             },
             {
               "type": "text",
               "text": "?"
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-43",
+      "no": "43",
+      "titleZh": "第 43 段",
+      "titleEn": "Part 43",
+      "sentences": [
         {
           "en": "The best way to sleep well is to not eat too much before going to sleep and not use your phone too much before going to sleep.",
           "tc": "睡得好的最好方法是睡前不要吃太多，也不要在睡前太常使用手機。",
@@ -4379,7 +3626,7 @@
               "type": "phrase",
               "text": "best way to",
               "targetId": "phrase-best-way-to",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-232-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-169-01"
             },
             {
               "type": "text",
@@ -4389,7 +3636,7 @@
               "type": "phrase",
               "text": "sleep well",
               "targetId": "phrase-sleep-well",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-232-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-169-02"
             },
             {
               "type": "text",
@@ -4399,7 +3646,7 @@
               "type": "phrase",
               "text": "too much",
               "targetId": "phrase-too-much",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-232-03"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-169-03"
             },
             {
               "type": "text",
@@ -4409,7 +3656,7 @@
               "type": "phrase",
               "text": "going to sleep",
               "targetId": "phrase-going-to-sleep",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-232-04"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-169-04"
             },
             {
               "type": "text",
@@ -4419,7 +3666,7 @@
               "type": "phrase",
               "text": "too much",
               "targetId": "phrase-too-much",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-232-05"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-169-05"
             },
             {
               "type": "text",
@@ -4429,23 +3676,14 @@
               "type": "phrase",
               "text": "going to sleep",
               "targetId": "phrase-going-to-sleep",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-232-06"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-169-06"
             },
             {
               "type": "text",
               "text": "."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-59",
-      "no": "59",
-      "titleZh": "第 59 段",
-      "titleEn": "Part 59",
-      "sentences": [
+        },
         {
           "en": "Do you like sleeping in hotels or hostels?",
           "tc": "你喜歡睡在飯店還是青年旅館？",
@@ -4458,7 +3696,7 @@
               "type": "word",
               "text": "hostels",
               "targetId": "word-hostel",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-233-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-170-01"
             },
             {
               "type": "text",
@@ -4478,7 +3716,7 @@
               "type": "word",
               "text": "comfortable",
               "targetId": "word-comfortable",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-234-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-171-01"
             },
             {
               "type": "text",
@@ -4488,7 +3726,7 @@
               "type": "word",
               "text": "sheets",
               "targetId": "word-sheet",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-234-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-171-02"
             },
             {
               "type": "text",
@@ -4498,7 +3736,7 @@
               "type": "word",
               "text": "hostels",
               "targetId": "word-hostel",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-234-03"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-171-03"
             },
             {
               "type": "text",
@@ -4515,7 +3753,16 @@
               "text": "Mhm."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-44",
+      "no": "44",
+      "titleZh": "第 44 段",
+      "titleEn": "Part 44",
+      "sentences": [
         {
           "en": "Do you ever wake up and feel very tired?",
           "tc": "你曾經醒來後覺得非常累嗎？",
@@ -4528,23 +3775,14 @@
               "type": "phrase",
               "text": "wake up",
               "targetId": "phrase-wake-up",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-236-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-173-01"
             },
             {
               "type": "text",
               "text": " and feel very tired?"
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-60",
-      "no": "60",
-      "titleZh": "第 60 段",
-      "titleEn": "Part 60",
-      "sentences": [
+        },
         {
           "en": "Yes, I do.",
           "tc": "有，我會。",
@@ -4567,7 +3805,7 @@
               "type": "phrase",
               "text": "too much",
               "targetId": "phrase-too-much",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-238-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-175-01"
             },
             {
               "type": "text",
@@ -4577,7 +3815,7 @@
               "type": "usage",
               "text": "enough",
               "targetId": "usage-enough-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-238-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-175-02"
             },
             {
               "type": "text",
@@ -4597,7 +3835,7 @@
               "type": "word",
               "text": "pillows",
               "targetId": "word-pillow",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-239-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-176-01"
             },
             {
               "type": "text",
@@ -4607,14 +3845,23 @@
               "type": "word",
               "text": "pillows",
               "targetId": "word-pillow",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-239-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-176-02"
             },
             {
               "type": "text",
               "text": "?"
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-45",
+      "no": "45",
+      "titleZh": "第 45 段",
+      "titleEn": "Part 45",
+      "sentences": [
         {
           "en": "I prefer soft pillows, definitely.",
           "tc": "我絕對比較喜歡軟枕頭。",
@@ -4627,7 +3874,7 @@
               "type": "word",
               "text": "prefer",
               "targetId": "word-prefer",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-240-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-177-01"
             },
             {
               "type": "text",
@@ -4637,7 +3884,7 @@
               "type": "word",
               "text": "pillows",
               "targetId": "word-pillow",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-240-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-177-02"
             },
             {
               "type": "text",
@@ -4647,23 +3894,14 @@
               "type": "word",
               "text": "definitely",
               "targetId": "word-definitely",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-240-03"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-177-03"
             },
             {
               "type": "text",
               "text": "."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-61",
-      "no": "61",
-      "titleZh": "第 61 段",
-      "titleEn": "Part 61",
-      "sentences": [
+        },
         {
           "en": "What makes you sleepy?",
           "tc": "什麼會讓你想睡？",
@@ -4676,7 +3914,7 @@
               "type": "usage",
               "text": "makes",
               "targetId": "usage-make-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-241-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-178-01"
             },
             {
               "type": "text",
@@ -4686,7 +3924,7 @@
               "type": "word",
               "text": "sleepy",
               "targetId": "word-sleepy",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-241-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-178-02"
             },
             {
               "type": "text",
@@ -4716,7 +3954,7 @@
               "type": "usage",
               "text": "makes",
               "targetId": "usage-make-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-243-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-180-01"
             },
             {
               "type": "text",
@@ -4726,14 +3964,23 @@
               "type": "word",
               "text": "sleepy",
               "targetId": "word-sleepy",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-243-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-180-02"
             },
             {
               "type": "text",
               "text": "."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-46",
+      "no": "46",
+      "titleZh": "第 46 段",
+      "titleEn": "Part 46",
+      "sentences": [
         {
           "en": "No, I think reading books makes me sleepy, and sometimes when I have a long day of teaching and talking to people, I feel very sleepy.",
           "tc": "不，我想看書會讓我想睡；有時候當我教課、和人說話一整天之後，我會覺得非常想睡。",
@@ -4746,7 +3993,7 @@
               "type": "usage",
               "text": "makes",
               "targetId": "usage-make-item",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-244-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-181-01"
             },
             {
               "type": "text",
@@ -4756,7 +4003,7 @@
               "type": "word",
               "text": "sleepy",
               "targetId": "word-sleepy",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-244-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-181-02"
             },
             {
               "type": "text",
@@ -4766,7 +4013,7 @@
               "type": "phrase",
               "text": "long day",
               "targetId": "phrase-long-day",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-244-03"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-181-03"
             },
             {
               "type": "text",
@@ -4776,23 +4023,14 @@
               "type": "word",
               "text": "sleepy",
               "targetId": "word-sleepy",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-244-04"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-181-04"
             },
             {
               "type": "text",
               "text": "."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-62",
-      "no": "62",
-      "titleZh": "第 62 段",
-      "titleEn": "Part 62",
-      "sentences": [
+        },
         {
           "en": "There you have it, folks.",
           "tc": "以上就是這樣，各位。",
@@ -4801,7 +4039,7 @@
               "type": "phrase",
               "text": "There you have it",
               "targetId": "phrase-there-you-have-it",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-245-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-182-01"
             },
             {
               "type": "text",
@@ -4811,7 +4049,7 @@
               "type": "word",
               "text": "folks",
               "targetId": "word-folk",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-245-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-182-02"
             },
             {
               "type": "text",
@@ -4824,8 +4062,14 @@
           "tc": "好的，謝謝你觀看這支影片。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Well",
+              "targetId": "usage-well-sleep",
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-46-003-001"
+            },
+            {
               "type": "text",
-              "text": "Well, thank you for watching this video."
+              "text": ", thank you for watching this video."
             }
           ]
         },
@@ -4841,7 +4085,7 @@
               "type": "word",
               "text": "interview",
               "targetId": "word-interview",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-247-01"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-184-01"
             },
             {
               "type": "text",
@@ -4851,7 +4095,7 @@
               "type": "word",
               "text": "content",
               "targetId": "word-content",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-247-02"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-184-02"
             },
             {
               "type": "text",
@@ -4861,7 +4105,7 @@
               "type": "word",
               "text": "subscribe",
               "targetId": "word-subscribe",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-247-03"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-184-03"
             },
             {
               "type": "text",
@@ -4871,7 +4115,7 @@
               "type": "word",
               "text": "probably",
               "targetId": "word-probably",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-247-04"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-184-04"
             },
             {
               "type": "text",
@@ -4881,14 +4125,23 @@
               "type": "phrase",
               "text": "as well",
               "targetId": "phrase-as-well",
-              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-247-05"
+              "instanceId": "marker-a1-ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-184-05"
             },
             {
               "type": "text",
               "text": "."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-47",
+      "no": "47",
+      "titleZh": "第 47 段",
+      "titleEn": "Part 47",
+      "sentences": [
         {
           "en": "Thank you for watching.",
           "tc": "謝謝觀看。",
@@ -4898,16 +4151,7 @@
               "text": "Thank you for watching."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-63",
-      "no": "63",
-      "titleZh": "第 63 段",
-      "titleEn": "Part 63",
-      "sentences": [
+        },
         {
           "en": "Bye.",
           "tc": "再見。",
@@ -6388,5 +5632,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines",
+    "sourcePath": "_private/tmp/originalContent/a1/ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch10-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.md"
+  }
 }

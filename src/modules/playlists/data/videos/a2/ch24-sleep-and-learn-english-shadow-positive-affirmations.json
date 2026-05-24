@@ -113,7 +113,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "However, when I talk with myself, I can go on for hours and I'll never get bored of listening."
+              "text": "However, when I talk with myself, I can go on for hours and I'll never "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-scene-02-003-001"
+            },
+            {
+              "type": "text",
+              "text": " bored of listening."
             }
           ]
         },
@@ -555,7 +565,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am building confidence every single day."
+              "text": "I am building "
+            },
+            {
+              "type": "word",
+              "text": "confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-scene-10-004-001"
+            },
+            {
+              "type": "text",
+              "text": " every single day."
             }
           ]
         }
@@ -643,7 +663,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I can handle any challenge thrown my way."
+              "text": "I can handle any "
+            },
+            {
+              "type": "word",
+              "text": "challenge",
+              "targetId": "word-challenge",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " thrown my way."
             }
           ]
         },
@@ -722,7 +752,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am allowed to take my time."
+              "text": "I am allowed to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-scene-13-004-001"
+            },
+            {
+              "type": "text",
+              "text": " my time."
             }
           ]
         }
@@ -957,7 +997,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When things get difficult, it means that I'm growing."
+              "text": "When things "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-scene-18-003-001"
+            },
+            {
+              "type": "text",
+              "text": " difficult, it means that I'm growing."
             }
           ]
         },
@@ -967,7 +1017,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": ">> When things get difficult, it means that I'm growing."
+              "text": ">> When things "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-scene-18-004-001"
+            },
+            {
+              "type": "text",
+              "text": " difficult, it means that I'm growing."
             }
           ]
         }
@@ -1241,7 +1301,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am not afraid to make mistakes."
+              "text": "I am not afraid to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-scene-24-001-001"
+            },
+            {
+              "type": "text",
+              "text": " mistakes."
             }
           ]
         },
@@ -1320,7 +1390,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You are capable of doing it."
+              "text": "You are "
+            },
+            {
+              "type": "word",
+              "text": "capable",
+              "targetId": "word-capable",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-scene-25-004-001"
+            },
+            {
+              "type": "text",
+              "text": " of doing it."
             }
           ]
         }
@@ -1339,7 +1419,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You just have to start.\""
+              "text": "You just "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-scene-26-001-001"
+            },
+            {
+              "type": "text",
+              "text": " to start.\""
             }
           ]
         },
@@ -1580,5 +1670,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch24-sleep-and-learn-english-shadow-positive-affirmations",
+    "sourcePath": "_private/tmp/originalContent/a2/ch24-sleep-and-learn-english-shadow-positive-affirmations.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch24-sleep-and-learn-english-shadow-positive-affirmations.md"
+  }
 }

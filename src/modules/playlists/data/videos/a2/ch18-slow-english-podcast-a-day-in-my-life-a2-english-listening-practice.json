@@ -438,7 +438,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I went with them and we picked out some fresh fruits and vegetables."
+              "text": "So, I went with them and we "
+            },
+            {
+              "type": "phrase",
+              "text": "picked out",
+              "targetId": "phrase-picked-out",
+              "instanceId": "marker-a2-ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice-scene-07-004-001"
+            },
+            {
+              "type": "text",
+              "text": " some fresh fruits and vegetables."
             }
           ]
         }
@@ -467,7 +477,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And we picked up some corn to have for dinner later in the week."
+              "text": "And we picked up some corn to "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice-scene-08-002-001"
+            },
+            {
+              "type": "text",
+              "text": " for dinner later in the week."
             }
           ]
         },
@@ -516,7 +536,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Since I didn't have any work to do at the moment, I agreed."
+              "text": "Since I didn't "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice-scene-09-002-001"
+            },
+            {
+              "type": "text",
+              "text": " any work to do at the moment, I agreed."
             }
           ]
         },
@@ -899,7 +929,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you have any pets?"
+              "text": "Do you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice-scene-16-004-001"
+            },
+            {
+              "type": "text",
+              "text": " any pets?"
             }
           ]
         }
@@ -977,7 +1017,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Mine said, \"You have lots of opportunities at your reach."
+              "text": "Mine said, \"You "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice-scene-18-002-001"
+            },
+            {
+              "type": "text",
+              "text": " lots of opportunities at your reach."
             }
           ]
         },
@@ -1022,7 +1072,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I want to take advantage of all the opportunities the universe gives me and stay motivated to be the best version of myself."
+              "text": "I want to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice-scene-19-001-001"
+            },
+            {
+              "type": "text",
+              "text": " advantage of all the opportunities the universe gives me and stay motivated to be the best version of myself."
             }
           ]
         },
@@ -1386,5 +1446,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice",
+    "sourcePath": "_private/tmp/originalContent/a2/ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch18-slow-english-podcast-a-day-in-my-life-a2-english-listening-practice.md"
+  }
 }

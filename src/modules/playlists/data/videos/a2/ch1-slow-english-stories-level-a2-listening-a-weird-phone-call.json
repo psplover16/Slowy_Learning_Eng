@@ -366,7 +366,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't have your dog.'"
+              "text": "I don't "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-had-a-phone-call",
+              "instanceId": "marker-a2-ch1-slow-english-stories-level-a2-listening-a-weird-phone-call-scene-05-002-001"
+            },
+            {
+              "type": "text",
+              "text": " your dog.'"
             }
           ]
         },
@@ -1066,5 +1076,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch1-slow-english-stories-level-a2-listening-a-weird-phone-call",
+    "sourcePath": "_private/tmp/originalContent/a2/ch1-slow-english-stories-level-a2-listening-a-weird-phone-call.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch1-slow-english-stories-level-a2-listening-a-weird-phone-call.md"
+  }
 }

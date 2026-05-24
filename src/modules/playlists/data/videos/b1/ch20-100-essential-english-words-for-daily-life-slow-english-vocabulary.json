@@ -113,7 +113,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Today I want to talk about grocery stores and supermarkets: how to use essential words when going to the grocery store."
+              "text": "Today I want to talk about "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-02-001-001"
+            },
+            {
+              "type": "text",
+              "text": " stores and supermarkets: how to use "
+            },
+            {
+              "type": "word",
+              "text": "essential",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-02-001-002"
+            },
+            {
+              "type": "text",
+              "text": " words when going to the "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-02-001-003"
+            },
+            {
+              "type": "text",
+              "text": " store."
             }
           ]
         },
@@ -123,7 +153,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Some essential phrases, questions, and vocabulary, all in a slow, comprehensible way."
+              "text": "Some "
+            },
+            {
+              "type": "word",
+              "text": "essential",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-02-002-001"
+            },
+            {
+              "type": "text",
+              "text": " phrases, questions, and "
+            },
+            {
+              "type": "word",
+              "text": "vocabulary",
+              "targetId": "word-vocabulary",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-02-002-002"
+            },
+            {
+              "type": "text",
+              "text": ", all in a slow, comprehensible way."
             }
           ]
         },
@@ -133,7 +183,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I love grocery stores."
+              "text": "I love "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-02-003-001"
+            },
+            {
+              "type": "text",
+              "text": " stores."
             }
           ]
         },
@@ -143,7 +203,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I love grocery stores like Walmart, Costco, Sam's, and Target."
+              "text": "I love "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-02-004-001"
+            },
+            {
+              "type": "text",
+              "text": " stores like Walmart, Costco, Sam's, and Target."
             }
           ]
         }
@@ -330,7 +400,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It smells so fresh and clean."
+              "text": "It smells so "
+            },
+            {
+              "type": "usage",
+              "text": "fresh",
+              "targetId": "usage-fresh-fresh-produce-produce-produce",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-05-003-001"
+            },
+            {
+              "type": "text",
+              "text": " and clean."
             }
           ]
         },
@@ -389,7 +469,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What's your favorite grocery store to visit, and why?"
+              "text": "What's your favorite "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-06-004-001"
+            },
+            {
+              "type": "text",
+              "text": " store to visit, and why?"
             }
           ]
         }
@@ -408,7 +498,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What makes a grocery store feel comfy for you?"
+              "text": "What makes a "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-07-001-001"
+            },
+            {
+              "type": "text",
+              "text": " store feel comfy for you?"
             }
           ]
         },
@@ -497,7 +597,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So self-checkout is a lot faster."
+              "text": "So "
+            },
+            {
+              "type": "phrase",
+              "text": "self-checkout",
+              "targetId": "phrase-self-checkout",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-08-001-001"
+            },
+            {
+              "type": "text",
+              "text": " is a lot faster."
             }
           ]
         },
@@ -537,7 +647,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I prefer going to the local market for food that's fresh, fresh produce."
+              "text": "I prefer going to the local market for food that's "
+            },
+            {
+              "type": "usage",
+              "text": "fresh",
+              "targetId": "usage-fresh-fresh-produce-produce-produce",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-08-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "usage",
+              "text": "fresh",
+              "targetId": "usage-fresh-fresh-produce-produce-produce",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-08-003-002"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "produce",
+              "targetId": "word-produce",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-08-003-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -684,7 +824,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I get nervous buying meat at outdoor markets."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-11-001-001"
+            },
+            {
+              "type": "text",
+              "text": " nervous buying meat at outdoor markets."
             }
           ]
         },
@@ -724,7 +874,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I prefer to go to a big chain supermarket for my dairy products."
+              "text": "I prefer to go to a big "
+            },
+            {
+              "type": "usage",
+              "text": "chain",
+              "targetId": "usage-chain-chain-supermarket",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-11-004-001"
+            },
+            {
+              "type": "text",
+              "text": " supermarket for my "
+            },
+            {
+              "type": "word",
+              "text": "dairy",
+              "targetId": "word-dairy",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-11-004-002"
+            },
+            {
+              "type": "text",
+              "text": " products."
             }
           ]
         }
@@ -743,7 +913,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I really like walking down the aisle at places like Walmart or Soriana to buy my dairy products."
+              "text": "And I really like walking down the "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-12-001-001"
+            },
+            {
+              "type": "text",
+              "text": " at places like Walmart or Soriana to buy my "
+            },
+            {
+              "type": "word",
+              "text": "dairy",
+              "targetId": "word-dairy",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-12-001-002"
+            },
+            {
+              "type": "text",
+              "text": " products."
             }
           ]
         },
@@ -753,7 +943,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I just love dairy products."
+              "text": "I just love "
+            },
+            {
+              "type": "word",
+              "text": "dairy",
+              "targetId": "word-dairy",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " products."
             }
           ]
         },
@@ -822,7 +1022,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So dairy products make me feel very sick."
+              "text": "So "
+            },
+            {
+              "type": "word",
+              "text": "dairy",
+              "targetId": "word-dairy",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-13-002-001"
+            },
+            {
+              "type": "text",
+              "text": " products make me feel very sick."
             }
           ]
         },
@@ -842,7 +1052,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I get sick, and I don't care."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-13-004-001"
+            },
+            {
+              "type": "text",
+              "text": " sick, and I don't care."
             }
           ]
         }
@@ -861,7 +1081,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I love dairy products."
+              "text": "I love "
+            },
+            {
+              "type": "word",
+              "text": "dairy",
+              "targetId": "word-dairy",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-14-001-001"
+            },
+            {
+              "type": "text",
+              "text": " products."
             }
           ]
         },
@@ -871,7 +1101,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Now, when it comes to products like eggs, I don't really like eggs."
+              "text": "Now, "
+            },
+            {
+              "type": "phrase",
+              "text": "when it comes to",
+              "targetId": "phrase-when-it-comes-to",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-14-002-001"
+            },
+            {
+              "type": "text",
+              "text": " products like eggs, I don't really like eggs."
             }
           ]
         },
@@ -901,7 +1141,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "A dozen is twelve eggs."
+              "text": "A "
+            },
+            {
+              "type": "word",
+              "text": "dozen",
+              "targetId": "word-dozen",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-14-004-001"
+            },
+            {
+              "type": "text",
+              "text": " is twelve eggs."
             }
           ]
         }
@@ -930,7 +1180,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If I'm with my family, though, we will get a dozen eggs."
+              "text": "If I'm with my family, though, we will "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-15-002-001"
+            },
+            {
+              "type": "text",
+              "text": " a "
+            },
+            {
+              "type": "word",
+              "text": "dozen",
+              "targetId": "word-dozen",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-15-002-002"
+            },
+            {
+              "type": "text",
+              "text": " eggs."
             }
           ]
         },
@@ -940,7 +1210,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Can you finish a dozen eggs all by yourself?"
+              "text": "Can you finish a "
+            },
+            {
+              "type": "word",
+              "text": "dozen",
+              "targetId": "word-dozen",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-15-003-001"
+            },
+            {
+              "type": "text",
+              "text": " eggs all by yourself?"
             }
           ]
         },
@@ -1038,7 +1318,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And the fresh homemade flavor is incomparable."
+              "text": "And the "
+            },
+            {
+              "type": "usage",
+              "text": "fresh",
+              "targetId": "usage-fresh-fresh-produce-produce-produce",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-17-002-001"
+            },
+            {
+              "type": "text",
+              "text": " homemade flavor is incomparable."
             }
           ]
         },
@@ -1058,7 +1348,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What's your favorite food aisle?"
+              "text": "What's your favorite food "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         }
@@ -1077,7 +1377,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The dairy aisle?"
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "dairy",
+              "targetId": "word-dairy",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-18-001-002"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -1166,7 +1486,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They are less international than big chain stores."
+              "text": "They are less international than big "
+            },
+            {
+              "type": "usage",
+              "text": "chain",
+              "targetId": "usage-chain-chain-supermarket",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-19-002-001"
+            },
+            {
+              "type": "text",
+              "text": " stores."
             }
           ]
         },
@@ -1215,7 +1545,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When I go to the checkout to pay for my groceries, I normally use my credit card because I never have coins, change, or even bills with me."
+              "text": "When I go to the "
+            },
+            {
+              "type": "word",
+              "text": "checkout",
+              "targetId": "word-checkout",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-20-001-001"
+            },
+            {
+              "type": "text",
+              "text": " to pay for my groceries, I normally use my credit card because I never have coins, change, or even bills with me."
             }
           ]
         },
@@ -1255,7 +1595,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They are more convenient because of the shopping carts, the credit card payments, and the big aisles."
+              "text": "They are more "
+            },
+            {
+              "type": "word",
+              "text": "convenient",
+              "targetId": "word-convenient",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-20-003-001"
+            },
+            {
+              "type": "text",
+              "text": " because of the shopping carts, the credit card payments, and the big aisles."
             }
           ]
         },
@@ -1265,7 +1615,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What do you prefer, big chain grocery stores or local supermarkets?"
+              "text": "What do you prefer, big "
+            },
+            {
+              "type": "usage",
+              "text": "chain",
+              "targetId": "usage-chain-chain-supermarket",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-20-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-20-004-002"
+            },
+            {
+              "type": "text",
+              "text": " stores or local supermarkets?"
             }
           ]
         }
@@ -1334,7 +1704,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "For example, I can find milk or juice in a carton."
+              "text": "For example, I can find milk or juice in a "
+            },
+            {
+              "type": "word",
+              "text": "carton",
+              "targetId": "word-carton",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-21-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -1363,7 +1743,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Also remember to use some useful phrases at the supermarket or grocery store."
+              "text": "Also remember to use some useful phrases at the supermarket or "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-22-002-001"
+            },
+            {
+              "type": "text",
+              "text": " store."
             }
           ]
         },
@@ -1481,7 +1871,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "or 'Would you like a receipt?'"
+              "text": "or 'Would you like a "
+            },
+            {
+              "type": "word",
+              "text": "receipt",
+              "targetId": "word-receipt",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-24-003-001"
+            },
+            {
+              "type": "text",
+              "text": "?'"
             }
           ]
         },
@@ -1530,7 +1930,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am just coming back from the grocery store."
+              "text": "I am just coming back from the "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-25-002-001"
+            },
+            {
+              "type": "text",
+              "text": " store."
             }
           ]
         },
@@ -1589,7 +1999,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So I did some grocery shopping for the essentials that my kitchen needs first."
+              "text": "So I did some "
+            },
+            {
+              "type": "phrase",
+              "text": "grocery shopping",
+              "targetId": "phrase-grocery-shopping",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-26-001-001"
+            },
+            {
+              "type": "text",
+              "text": " for the essentials that my kitchen needs first."
             }
           ]
         },
@@ -1796,7 +2216,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It's a grocery store in Mexico."
+              "text": "It's a "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-29-003-001"
+            },
+            {
+              "type": "text",
+              "text": " store in Mexico."
             }
           ]
         },
@@ -1835,7 +2265,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Since I walked, I could only fill one tote bag with groceries and essentials."
+              "text": "Since I walked, I could only fill one "
+            },
+            {
+              "type": "word",
+              "text": "tote",
+              "targetId": "word-tote",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-30-001-001"
+            },
+            {
+              "type": "text",
+              "text": " bag with groceries and essentials."
             }
           ]
         },
@@ -2032,7 +2472,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "To come in handy is an expression we use when we mean something will be useful to us in the future."
+              "text": "To "
+            },
+            {
+              "type": "phrase",
+              "text": "come in handy",
+              "targetId": "phrase-come-in-handy",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-33-004-001"
+            },
+            {
+              "type": "text",
+              "text": " is an expression we use when we mean something will be useful to us in the future."
             }
           ]
         }
@@ -2140,7 +2590,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Definitely a kitchen essential."
+              "text": "Definitely a kitchen "
+            },
+            {
+              "type": "word",
+              "text": "essential",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-35-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -2179,7 +2639,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We call this a potato peeler because it peels potatoes."
+              "text": "We call this a potato "
+            },
+            {
+              "type": "word",
+              "text": "peeler",
+              "targetId": "word-peeler",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-36-002-001"
+            },
+            {
+              "type": "text",
+              "text": " because it peels potatoes."
             }
           ]
         },
@@ -2307,7 +2777,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This is kefir."
+              "text": "This is "
+            },
+            {
+              "type": "word",
+              "text": "kefir",
+              "targetId": "word-kefir",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-38-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2317,7 +2797,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you know what kefir is?"
+              "text": "Do you know what "
+            },
+            {
+              "type": "word",
+              "text": "kefir",
+              "targetId": "word-kefir",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-38-003-001"
+            },
+            {
+              "type": "text",
+              "text": " is?"
             }
           ]
         },
@@ -2484,7 +2974,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That's also something I think you don't realize you need until you're in a new apartment."
+              "text": "That's also something I think you don't realize you need until you're in a new "
+            },
+            {
+              "type": "word",
+              "text": "apartment",
+              "targetId": "word-apartment",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-41-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -2513,7 +3013,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You're at the grocery store shopping for essentials, and you head home, and then you realize, oh, I forgot again."
+              "text": "You're at the "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-42-002-001"
+            },
+            {
+              "type": "text",
+              "text": " store shopping for essentials, and you head home, and then you realize, oh, I forgot again."
             }
           ]
         },
@@ -2523,7 +3033,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And what's your favorite thing to buy at the grocery store?"
+              "text": "And what's your favorite thing to buy at the "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-42-003-001"
+            },
+            {
+              "type": "text",
+              "text": " store?"
             }
           ]
         },
@@ -2552,7 +3072,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Some things I already bought for my apartment."
+              "text": "Some things I already bought for my "
+            },
+            {
+              "type": "word",
+              "text": "apartment",
+              "targetId": "word-apartment",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-43-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2572,7 +3102,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I already bought a mattress for my room."
+              "text": "I already bought a "
+            },
+            {
+              "type": "word",
+              "text": "mattress",
+              "targetId": "word-mattress",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-43-003-001"
+            },
+            {
+              "type": "text",
+              "text": " for my room."
             }
           ]
         },
@@ -2601,7 +3141,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "While I was editing my video, I forgot to mention I also got one more kitchen essential, a blender."
+              "text": "While I was editing my video, I forgot to mention I also got one more kitchen "
+            },
+            {
+              "type": "word",
+              "text": "essential",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-44-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", a blender."
             }
           ]
         },
@@ -2630,8 +3180,24 @@
           "tc": "克菲爾、牛奶、香蕉、牛奶、克菲爾和蜂蜜。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Kefir",
+              "targetId": "word-kefir",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-44-004-001"
+            },
+            {
               "type": "text",
-              "text": "Kefir, milk, bananas, milk, kefir, and honey."
+              "text": ", milk, bananas, milk, "
+            },
+            {
+              "type": "word",
+              "text": "kefir",
+              "targetId": "word-kefir",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-44-004-002"
+            },
+            {
+              "type": "text",
+              "text": ", and honey."
             }
           ]
         }
@@ -2650,7 +3216,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Also, I forgot to mention I bought detergent to wash my clothes."
+              "text": "Also, I forgot to mention I bought "
+            },
+            {
+              "type": "word",
+              "text": "detergent",
+              "targetId": "word-detergent",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-45-001-001"
+            },
+            {
+              "type": "text",
+              "text": " to wash my clothes."
             }
           ]
         },
@@ -2749,7 +3325,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I hope you learn some new vocabulary today."
+              "text": "I hope you learn some new "
+            },
+            {
+              "type": "word",
+              "text": "vocabulary",
+              "targetId": "word-vocabulary",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-46-004-001"
+            },
+            {
+              "type": "text",
+              "text": " today."
             }
           ]
         }
@@ -2768,7 +3354,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "In my last video, I showed you guys what I had bought so far, but now I've bought even more."
+              "text": "In my "
+            },
+            {
+              "type": "usage",
+              "text": "last",
+              "targetId": "usage-last-item",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-47-001-001"
+            },
+            {
+              "type": "text",
+              "text": " video, I showed you guys what I had bought so far, but now I've bought even more."
             }
           ]
         },
@@ -3131,8 +3727,14 @@
           "tc": "整齊又乾淨，每樣東西都在它的位置上。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Tidy",
+              "targetId": "word-tidy",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-53-004-001"
+            },
+            {
               "type": "text",
-              "text": "Tidy and clean, with everything in its place."
+              "text": " and clean, with everything in its place."
             }
           ]
         }
@@ -3269,7 +3871,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you keep compost for your plants?"
+              "text": "Do you keep "
+            },
+            {
+              "type": "word",
+              "text": "compost",
+              "targetId": "word-compost",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-56-002-001"
+            },
+            {
+              "type": "text",
+              "text": " for your plants?"
             }
           ]
         },
@@ -3417,7 +4029,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This projector looks so nice at night."
+              "text": "This "
+            },
+            {
+              "type": "word",
+              "text": "projector",
+              "targetId": "word-projector",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-58-004-001"
+            },
+            {
+              "type": "text",
+              "text": " looks so nice at night."
             }
           ]
         }
@@ -3446,7 +4068,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If you're deciding between buying a TV or considering buying a projector, I have your answer."
+              "text": "If you're deciding between buying a TV or considering buying a "
+            },
+            {
+              "type": "word",
+              "text": "projector",
+              "targetId": "word-projector",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-59-002-001"
+            },
+            {
+              "type": "text",
+              "text": ", I have your answer."
             }
           ]
         },
@@ -3455,8 +4087,24 @@
           "tc": "買投影機。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-59-003-001"
+            },
+            {
               "type": "text",
-              "text": "Get the projector."
+              "text": " the "
+            },
+            {
+              "type": "word",
+              "text": "projector",
+              "targetId": "word-projector",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-59-003-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -3613,7 +4261,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "There's still a lot of work to be done."
+              "text": "There's still a lot of work to be "
+            },
+            {
+              "type": "usage",
+              "text": "done",
+              "targetId": "usage-done-be-done",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-62-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -3661,8 +4319,24 @@
           "tc": "旋轉椅，因為它們會左右旋轉。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Swivel",
+              "targetId": "word-swivel",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-63-002-001"
+            },
+            {
               "type": "text",
-              "text": "Swivel chairs, because they swivel from side to side."
+              "text": " chairs, because they "
+            },
+            {
+              "type": "word",
+              "text": "swivel",
+              "targetId": "word-swivel",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-63-002-002"
+            },
+            {
+              "type": "text",
+              "text": " from side to side."
             }
           ]
         },
@@ -3731,7 +4405,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And of course, I also had to get a bucket."
+              "text": "And of course, I also had to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-64-004-001"
+            },
+            {
+              "type": "text",
+              "text": " a bucket."
             }
           ]
         }
@@ -3770,7 +4454,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Finally, the refrigerator."
+              "text": "Finally, the "
+            },
+            {
+              "type": "word",
+              "text": "refrigerator",
+              "targetId": "word-refrigerator",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-65-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -3790,7 +4484,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But finally, we got the refrigerator."
+              "text": "But finally, we got the "
+            },
+            {
+              "type": "word",
+              "text": "refrigerator",
+              "targetId": "word-refrigerator",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-65-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -3829,7 +4533,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We waited 24 hours, and then we turned on the refrigerator."
+              "text": "We waited 24 hours, and then we turned on the "
+            },
+            {
+              "type": "word",
+              "text": "refrigerator",
+              "targetId": "word-refrigerator",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-66-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -3839,7 +4553,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We plugged in the refrigerator, and it didn't work."
+              "text": "We plugged in the "
+            },
+            {
+              "type": "word",
+              "text": "refrigerator",
+              "targetId": "word-refrigerator",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-66-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", and it didn't work."
             }
           ]
         },
@@ -3928,7 +4652,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We had to pay more, of course, but nevertheless, we have a fridge."
+              "text": "We had to pay more, of course, but "
+            },
+            {
+              "type": "word",
+              "text": "nevertheless",
+              "targetId": "word-nevertheless",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-67-004-001"
+            },
+            {
+              "type": "text",
+              "text": ", we have a fridge."
             }
           ]
         }
@@ -4094,7 +4828,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I also had to get these earplugs because it's so noisy outside."
+              "text": "I also had to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-71-001-001"
+            },
+            {
+              "type": "text",
+              "text": " these earplugs because it's so noisy outside."
             }
           ]
         },
@@ -4310,7 +5054,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I stuck them onto each object: my computer, my table, my plants, and even my kitchen chair."
+              "text": "And I stuck them onto each "
+            },
+            {
+              "type": "word",
+              "text": "object",
+              "targetId": "word-object",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-75-001-001"
+            },
+            {
+              "type": "text",
+              "text": ": my computer, my table, my plants, and even my kitchen chair."
             }
           ]
         },
@@ -4359,7 +5113,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I still have a few things to get, but my apartment isn't fully furnished yet."
+              "text": "I still have a few things to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-76-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", but my "
+            },
+            {
+              "type": "word",
+              "text": "apartment",
+              "targetId": "word-apartment",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-76-001-002"
+            },
+            {
+              "type": "text",
+              "text": " isn't fully "
+            },
+            {
+              "type": "word",
+              "text": "furnished",
+              "targetId": "word-furnished",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-76-001-003"
+            },
+            {
+              "type": "text",
+              "text": " yet."
             }
           ]
         },
@@ -4369,7 +5153,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What is an essential in your home?"
+              "text": "What is an "
+            },
+            {
+              "type": "word",
+              "text": "essential",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-76-002-001"
+            },
+            {
+              "type": "text",
+              "text": " in your home?"
             }
           ]
         },
@@ -4497,7 +5291,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then we found our check-in counter."
+              "text": "Then we found our "
+            },
+            {
+              "type": "usage",
+              "text": "check",
+              "targetId": "usage-check-check-a-bag",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-78-003-001"
+            },
+            {
+              "type": "text",
+              "text": "-in counter."
             }
           ]
         },
@@ -4507,7 +5311,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We were flying with AirAsia, so we had to find the AirAsia check-in counter."
+              "text": "We were flying with AirAsia, so we had to find the AirAsia "
+            },
+            {
+              "type": "usage",
+              "text": "check",
+              "targetId": "usage-check-check-a-bag",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-78-004-001"
+            },
+            {
+              "type": "text",
+              "text": "-in counter."
             }
           ]
         }
@@ -4546,7 +5360,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Some people prefer the self-check-in kiosk, but I don't like this self-check-in system as much."
+              "text": "Some people prefer the self-"
+            },
+            {
+              "type": "usage",
+              "text": "check",
+              "targetId": "usage-check-check-a-bag",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-79-002-001"
+            },
+            {
+              "type": "text",
+              "text": "-in kiosk, but I don't like this self-"
+            },
+            {
+              "type": "usage",
+              "text": "check",
+              "targetId": "usage-check-check-a-bag",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-79-002-002"
+            },
+            {
+              "type": "text",
+              "text": "-in system as much."
             }
           ]
         },
@@ -4566,7 +5400,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I prefer to check in at a counter with a real person."
+              "text": "I prefer to "
+            },
+            {
+              "type": "phrase",
+              "text": "check in",
+              "targetId": "phrase-check-in",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-79-004-001"
+            },
+            {
+              "type": "text",
+              "text": " at a counter with a real person."
             }
           ]
         }
@@ -4595,7 +5439,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you prefer the check-in counter or the self-check-in kiosk?"
+              "text": "Do you prefer the "
+            },
+            {
+              "type": "usage",
+              "text": "check",
+              "targetId": "usage-check-check-a-bag",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-80-002-001"
+            },
+            {
+              "type": "text",
+              "text": "-in counter or the self-"
+            },
+            {
+              "type": "usage",
+              "text": "check",
+              "targetId": "usage-check-check-a-bag",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-80-002-002"
+            },
+            {
+              "type": "text",
+              "text": "-in kiosk?"
             }
           ]
         },
@@ -4664,7 +5528,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We were close to international arrivals, but we had to get to international departures because we were departing, not arriving."
+              "text": "We were close to international arrivals, but we had to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-81-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to international departures because we were departing, not arriving."
             }
           ]
         }
@@ -4723,7 +5597,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The queue, or line, was very long, but once we got through security, we were inside the airport."
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "queue",
+              "targetId": "word-queue",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-82-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", or line, was very long, but once we got through security, we were inside the airport."
             }
           ]
         },
@@ -4802,7 +5686,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It was super useful that they showed how long the walk to each gate was: ten minutes, five minutes, one minute."
+              "text": "It was super useful that they showed how long the walk to each "
+            },
+            {
+              "type": "usage",
+              "text": "gate",
+              "targetId": "usage-gate-item",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-83-003-001"
+            },
+            {
+              "type": "text",
+              "text": " was: ten minutes, five minutes, one minute."
             }
           ]
         },
@@ -4841,7 +5735,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You also know if you need to hurry, if you need to rush to your gate."
+              "text": "You also know if you need to hurry, if you need to rush to your "
+            },
+            {
+              "type": "usage",
+              "text": "gate",
+              "targetId": "usage-gate-item",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-84-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -4851,7 +5755,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I usually eat something while I wait at my gate."
+              "text": "I usually eat something while I wait at my "
+            },
+            {
+              "type": "usage",
+              "text": "gate",
+              "targetId": "usage-gate-item",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-84-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -4881,7 +5795,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It can be long sometimes, so I usually get some dessert."
+              "text": "It can be long sometimes, so I usually "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-84-004-001"
+            },
+            {
+              "type": "text",
+              "text": " some dessert."
             }
           ]
         }
@@ -4969,7 +5893,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Before boarding, I always go to the bathroom."
+              "text": "Before "
+            },
+            {
+              "type": "word",
+              "text": "boarding",
+              "targetId": "word-boarding",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-86-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", I always go to the bathroom."
             }
           ]
         },
@@ -5028,7 +5962,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This shuttle takes us to the airplane."
+              "text": "This "
+            },
+            {
+              "type": "word",
+              "text": "shuttle",
+              "targetId": "word-shuttle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-87-002-001"
+            },
+            {
+              "type": "text",
+              "text": " takes us to the airplane."
             }
           ]
         },
@@ -5038,7 +5982,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Sometimes we take a shuttle to a plane, and sometimes you just go straight through and board the plane."
+              "text": "Sometimes we take a "
+            },
+            {
+              "type": "word",
+              "text": "shuttle",
+              "targetId": "word-shuttle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-87-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to a plane, and sometimes you just go straight through and board the plane."
             }
           ]
         },
@@ -5048,7 +6002,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I prefer going straight to the plane, but sometimes you have to take a shuttle."
+              "text": "I prefer going straight to the plane, but sometimes you have to take a "
+            },
+            {
+              "type": "word",
+              "text": "shuttle",
+              "targetId": "word-shuttle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-87-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -5067,7 +6031,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The shuttle took all of the passengers to the plane, and then we waited in line to board."
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "shuttle",
+              "targetId": "word-shuttle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-88-001-001"
+            },
+            {
+              "type": "text",
+              "text": " took all of the passengers to the plane, and then we waited in line to board."
             }
           ]
         },
@@ -5107,7 +6081,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Here I am sitting in the aisle seat because I'm right next to the aisle."
+              "text": "Here I am sitting in the "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-88-004-001"
+            },
+            {
+              "type": "text",
+              "text": " seat because I'm right next to the "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-88-004-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -5126,7 +6120,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This is my personal favorite seat because I can get up and go to the bathroom however many times I need, and I use the bathroom a lot."
+              "text": "This is my personal favorite seat because I can "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-89-001-001"
+            },
+            {
+              "type": "text",
+              "text": " up and go to the bathroom however many times I need, and I use the bathroom a lot."
             }
           ]
         },
@@ -5156,7 +6160,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The aisle seat and the middle seat were both empty, so I chose the window seat."
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-89-004-001"
+            },
+            {
+              "type": "text",
+              "text": " seat and the middle seat were both empty, so I chose the window seat."
             }
           ]
         }
@@ -5254,7 +6268,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And you get to watch movies on the flight."
+              "text": "And you "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-91-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to watch movies on the flight."
             }
           ]
         },
@@ -5352,7 +6376,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Finally, I wait my turn to get off the plane."
+              "text": "Finally, I wait my turn to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-93-001-001"
+            },
+            {
+              "type": "text",
+              "text": " off the plane."
             }
           ]
         },
@@ -5362,7 +6396,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I get my bags down from the overhead bin, and we walk out."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-93-002-001"
+            },
+            {
+              "type": "text",
+              "text": " my bags down from the "
+            },
+            {
+              "type": "word",
+              "text": "overhead",
+              "targetId": "word-overhead",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-93-002-002"
+            },
+            {
+              "type": "text",
+              "text": " bin, and we walk out."
             }
           ]
         },
@@ -5392,7 +6446,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You scan your passport and maybe talk to an immigration officer, and then you're there in the country where you want to be."
+              "text": "You scan your passport and maybe talk to an "
+            },
+            {
+              "type": "word",
+              "text": "immigration",
+              "targetId": "word-immigration",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-93-004-001"
+            },
+            {
+              "type": "text",
+              "text": " officer, and then you're there in the country where you want to be."
             }
           ]
         }
@@ -5500,7 +6564,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then I make my way to my gate again."
+              "text": "Then I make my way to my "
+            },
+            {
+              "type": "usage",
+              "text": "gate",
+              "targetId": "usage-gate-item",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-95-003-001"
+            },
+            {
+              "type": "text",
+              "text": " again."
             }
           ]
         },
@@ -5510,7 +6584,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Now, this gate is for my final destination, not just my layover."
+              "text": "Now, this "
+            },
+            {
+              "type": "usage",
+              "text": "gate",
+              "targetId": "usage-gate-item",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-95-004-001"
+            },
+            {
+              "type": "text",
+              "text": " is for my final destination, not just my "
+            },
+            {
+              "type": "word",
+              "text": "layover",
+              "targetId": "word-layover",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-95-004-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -5588,7 +6682,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Maybe you're at Terminal 1 and your next flight leaves from Terminal 4."
+              "text": "Maybe you're at "
+            },
+            {
+              "type": "word",
+              "text": "Terminal",
+              "targetId": "word-terminal",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-97-001-001"
+            },
+            {
+              "type": "text",
+              "text": " 1 and your next flight leaves from "
+            },
+            {
+              "type": "word",
+              "text": "Terminal",
+              "targetId": "word-terminal",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-97-001-002"
+            },
+            {
+              "type": "text",
+              "text": " 4."
             }
           ]
         },
@@ -5598,7 +6712,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Maybe you're at Terminal A and you need to get to Terminal F, depending on the airport."
+              "text": "Maybe you're at "
+            },
+            {
+              "type": "word",
+              "text": "Terminal",
+              "targetId": "word-terminal",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-97-002-001"
+            },
+            {
+              "type": "text",
+              "text": " A and you need to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-97-002-002"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "word",
+              "text": "Terminal",
+              "targetId": "word-terminal",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-97-002-003"
+            },
+            {
+              "type": "text",
+              "text": " F, depending on the airport."
             }
           ]
         },
@@ -5608,7 +6752,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So you need to take the airport train or airport shuttle."
+              "text": "So you need to take the airport train or airport "
+            },
+            {
+              "type": "word",
+              "text": "shuttle",
+              "targetId": "word-shuttle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-97-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -5618,7 +6772,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So you look at the signs and follow them to the airport shuttle, and that takes you to your next terminal."
+              "text": "So you look at the signs and follow them to the airport "
+            },
+            {
+              "type": "word",
+              "text": "shuttle",
+              "targetId": "word-shuttle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-97-004-001"
+            },
+            {
+              "type": "text",
+              "text": ", and that takes you to your next "
+            },
+            {
+              "type": "word",
+              "text": "terminal",
+              "targetId": "word-terminal",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-97-004-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -5637,7 +6811,47 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This flight left from Terminal 4, so I took the shuttle from Terminal 1 to Terminal 4."
+              "text": "This flight left from "
+            },
+            {
+              "type": "word",
+              "text": "Terminal",
+              "targetId": "word-terminal",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-98-001-001"
+            },
+            {
+              "type": "text",
+              "text": " 4, so I took the "
+            },
+            {
+              "type": "word",
+              "text": "shuttle",
+              "targetId": "word-shuttle",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-98-001-002"
+            },
+            {
+              "type": "text",
+              "text": " from "
+            },
+            {
+              "type": "word",
+              "text": "Terminal",
+              "targetId": "word-terminal",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-98-001-003"
+            },
+            {
+              "type": "text",
+              "text": " 1 to "
+            },
+            {
+              "type": "word",
+              "text": "Terminal",
+              "targetId": "word-terminal",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-98-001-004"
+            },
+            {
+              "type": "text",
+              "text": " 4."
             }
           ]
         },
@@ -5706,7 +6920,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then it's time to wait at your gate."
+              "text": "Then it's time to wait at your "
+            },
+            {
+              "type": "usage",
+              "text": "gate",
+              "targetId": "usage-gate-item",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-99-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -5745,7 +6969,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Finally, you land at your final destination."
+              "text": "Finally, you "
+            },
+            {
+              "type": "usage",
+              "text": "land",
+              "targetId": "usage-land-item",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-100-001-001"
+            },
+            {
+              "type": "text",
+              "text": " at your final destination."
             }
           ]
         },
@@ -5795,7 +7029,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You check your gate and your flight to make sure it's the same as yours, and you wait until you see your luggage pass by."
+              "text": "You "
+            },
+            {
+              "type": "usage",
+              "text": "check",
+              "targetId": "usage-check-check-a-bag",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-100-004-001"
+            },
+            {
+              "type": "text",
+              "text": " your "
+            },
+            {
+              "type": "usage",
+              "text": "gate",
+              "targetId": "usage-gate-item",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-100-004-002"
+            },
+            {
+              "type": "text",
+              "text": " and your flight to make sure it's the same as yours, and you wait until you see your luggage pass by."
             }
           ]
         }
@@ -5971,7 +7225,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Beijing is just my layover on the way to Bangkok, Thailand."
+              "text": "Beijing is just my "
+            },
+            {
+              "type": "word",
+              "text": "layover",
+              "targetId": "word-layover",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-104-001-001"
+            },
+            {
+              "type": "text",
+              "text": " on the way to Bangkok, Thailand."
             }
           ]
         },
@@ -6198,7 +7462,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I hope you learned some new English vocabulary, and I hope this helps you in the future if you're ever traveling anywhere."
+              "text": "I hope you learned some new English "
+            },
+            {
+              "type": "word",
+              "text": "vocabulary",
+              "targetId": "word-vocabulary",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-107-004-001"
+            },
+            {
+              "type": "text",
+              "text": ", and I hope this helps you in the future if you're ever traveling anywhere."
             }
           ]
         }
@@ -6217,7 +7491,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It can help when you need to find your passport, your gate number, or your terminal."
+              "text": "It can help when you need to find your passport, your "
+            },
+            {
+              "type": "usage",
+              "text": "gate",
+              "targetId": "usage-gate-item",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-108-001-001"
+            },
+            {
+              "type": "text",
+              "text": " number, or your "
+            },
+            {
+              "type": "word",
+              "text": "terminal",
+              "targetId": "word-terminal",
+              "instanceId": "marker-b1-ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary-scene-108-001-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -7534,5 +8828,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary",
+    "sourcePath": "_private/tmp/originalContent/b1/ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch20-100-essential-english-words-for-daily-life-slow-english-vocabulary.md"
+  }
 }

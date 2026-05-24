@@ -2875,8 +2875,14 @@
           "tc": "關鍵的。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Pivotal",
+              "targetId": "word-pivotal",
+              "instanceId": "marker-b1-ch7-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-scene-37-003-001"
+            },
+            {
               "type": "text",
-              "text": "Pivotal."
+              "text": "."
             }
           ]
         },
@@ -4605,5 +4611,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch7-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice",
+    "sourcePath": "_private/tmp/originalContent/b1/ch7-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch7-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice.md"
+  }
 }

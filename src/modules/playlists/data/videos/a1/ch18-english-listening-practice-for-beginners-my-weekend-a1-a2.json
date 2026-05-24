@@ -253,7 +253,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But there was still so much traffic."
+              "text": "But there was still so much "
+            },
+            {
+              "type": "word",
+              "text": "traffic",
+              "targetId": "word-traffic",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-04-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -263,7 +273,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I sat in traffic for about 2 hours, and then he finally started driving."
+              "text": "I sat in "
+            },
+            {
+              "type": "word",
+              "text": "traffic",
+              "targetId": "word-traffic",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-04-003-001"
+            },
+            {
+              "type": "text",
+              "text": " for about 2 hours, and then he finally started driving."
             }
           ]
         },
@@ -510,7 +530,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We bought two esquites, one for me and one for my mom, and we drove home."
+              "text": "We bought two "
+            },
+            {
+              "type": "word",
+              "text": "esquites",
+              "targetId": "word-esquite",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-07-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", one for me and one for my mom, and we drove home."
             }
           ]
         },
@@ -703,87 +733,38 @@
           ]
         },
         {
-          "en": "My dad drove us all back home, and we watched a movie called Roommates on Netflix.",
-          "tc": "我爸爸把我們全部載回家，我們在 Netflix 上看了一部叫《Roommates》的電影。",
+          "en": "My dad drove us all back home, and we watched a movie called Roommates on Netflix. It was really good. It's one of those movies that keeps you on your toes, just waiting for the next thing to happen. It wasn't suspenseful or scary. It was just frustrating and just annoying to see how her roommate got away with everything again and again. But it was really good. Later, my dad drove me to my nail appointment. As you can see, I got my nails done again. I used to never get my nails done, but lately, with my videos and my rings, I really love looking down while I'm working and seeing my nails and saying, 'Those are cute nails.' I chatted and gossiped with the nail technician, and I loved my nails. D'you like 'em? Same as 'Do you like them?' but quickly. D'you like 'em?",
+          "tc": "我爸爸把我們全部載回家，我們在 Netflix 上看了一部叫《Roommates》的電影。它真的很好看。那是那種會讓你一直緊張期待、等著下一件事發生的電影。它不是很懸疑或恐怖。看到她的室友一次又一次做了那些事卻都沒事，真的只是讓人很挫折、很煩。不過它真的很好看。後來，我爸爸載我去美甲預約。如你所見，我又做了指甲。我以前從來不做指甲，但最近因為我的影片和戒指，我很喜歡一邊工作一邊往下看，看到自己的指甲，然後說：「那些指甲好可愛。」我和美甲師聊天、聊八卦，而且我很喜歡我的指甲。D'you like 'em? 跟 Do you like them? 一樣，只是講快一點。D'you like 'em?",
           "englishTokens": [
             {
               "type": "text",
-              "text": "My dad drove us all back home, and we watched a movie called Roommates on Netflix."
-            }
-          ]
-        },
-        {
-          "en": "It was really good.",
-          "tc": "它真的很好看。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "It was really good."
-            }
-          ]
-        },
-        {
-          "en": "It's one of those movies that keeps you on your toes, just waiting for the next thing to happen.",
-          "tc": "那是那種會讓你一直緊張期待、等著下一件事發生的電影。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "It's one of those movies that "
+              "text": "My dad drove us all back home, and we watched a movie called Roommates on Netflix. It was really good. It's one of those movies that "
             },
             {
               "type": "phrase",
               "text": "keeps you on your toes",
               "targetId": "phrase-keep-someone-on-one-s-toes",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-036-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-034-01"
             },
             {
               "type": "text",
-              "text": ", just waiting for the next thing to happen."
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-10",
-      "no": "10",
-      "titleZh": "第 10 段",
-      "titleEn": "Part 10",
-      "sentences": [
-        {
-          "en": "It wasn't suspenseful or scary.",
-          "tc": "它不是很懸疑或恐怖。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "It wasn't "
+              "text": ", just waiting for the next thing to happen. It wasn't "
             },
             {
               "type": "word",
               "text": "suspenseful",
               "targetId": "word-suspenseful",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-037-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-034-02"
             },
             {
               "type": "text",
-              "text": " or scary."
-            }
-          ]
-        },
-        {
-          "en": "It was just frustrating and just annoying to see how her roommate got away with everything again and again.",
-          "tc": "看到她的室友一次又一次做了那些事卻都沒事，真的只是讓人很挫折、很煩。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "It was just "
+              "text": " or scary. It was just "
             },
             {
               "type": "word",
               "text": "frustrating",
               "targetId": "word-frustrating",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-038-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-034-03"
             },
             {
               "type": "text",
@@ -793,7 +774,7 @@
               "type": "word",
               "text": "annoying",
               "targetId": "word-annoying",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-038-02"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-034-04"
             },
             {
               "type": "text",
@@ -803,7 +784,7 @@
               "type": "phrase",
               "text": "got away with",
               "targetId": "phrase-get-away-with",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-038-03"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-034-05"
             },
             {
               "type": "text",
@@ -813,96 +794,37 @@
               "type": "phrase",
               "text": "again and again",
               "targetId": "phrase-again-and-again",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-038-04"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-034-06"
             },
             {
               "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "But it was really good.",
-          "tc": "不過它真的很好看。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "But it was really good."
-            }
-          ]
-        },
-        {
-          "en": "Later, my dad drove me to my nail appointment.",
-          "tc": "後來，我爸爸載我去美甲預約。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Later, my dad drove me to my nail "
+              "text": ". But it was really good. Later, my dad drove me to my nail "
             },
             {
               "type": "word",
               "text": "appointment",
               "targetId": "word-appointment",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-040-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-034-07"
             },
             {
               "type": "text",
-              "text": "."
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-11",
-      "no": "11",
-      "titleZh": "第 11 段",
-      "titleEn": "Part 11",
-      "sentences": [
-        {
-          "en": "As you can see, I got my nails done again.",
-          "tc": "如你所見，我又做了指甲。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "As you can see, I "
+              "text": ". As you can see, I "
             },
             {
               "type": "phrase",
               "text": "got my nails done",
               "targetId": "phrase-get-one-s-nails-done",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-041-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-034-08"
             },
             {
               "type": "text",
-              "text": " again."
-            }
-          ]
-        },
-        {
-          "en": "I used to never get my nails done, but lately, with my videos and my rings, I really love looking down while I'm working and seeing my nails and saying, 'Those are cute nails.'",
-          "tc": "我以前從來不做指甲，但最近因為我的影片和戒指，我很喜歡一邊工作一邊往下看，看到自己的指甲，然後說：「那些指甲好可愛。」",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I used to never get my nails done, but lately, with my videos and my rings, I really love looking down while I'm working and seeing my nails and saying, 'Those are cute nails.'"
-            }
-          ]
-        },
-        {
-          "en": "I chatted and gossiped with the nail technician, and I loved my nails.",
-          "tc": "我和美甲師聊天、聊八卦，而且我很喜歡我的指甲。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I chatted and "
+              "text": " again. I used to never get my nails done, but lately, with my videos and my rings, I really love looking down while I'm working and seeing my nails and saying, 'Those are cute nails.' I chatted and "
             },
             {
               "type": "word",
               "text": "gossiped",
               "targetId": "word-gossip",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-043-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-034-09"
             },
             {
               "type": "text",
@@ -912,115 +834,37 @@
               "type": "word",
               "text": "technician",
               "targetId": "word-technician",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-043-02"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-034-10"
             },
             {
               "type": "text",
-              "text": ", and I loved my nails."
+              "text": ", and I loved my nails. D'you like 'em? Same as 'Do you like them?' but quickly. D'you like 'em?"
             }
           ]
         },
         {
-          "en": "D'you like 'em?",
-          "tc": "D'you like 'em?（你喜歡它們嗎？）",
+          "en": "I decided on the color pink. I don't know if pink is really my color, but lately, I've been really obsessed with pink. I just bought a new purse with pink polka dots. These are polka dots. So I thought, 'I think pink nails would go well with my new bag.' You know what I mean? That's something I noticed I say a lot. Native speakers say it a lot. Do you know what I mean? It kind of reaffirms that you understand. So if I say, 'Yeah, I got my pink nails because they match my new bag, and pink is just a pretty color.' Do you know what I mean? You know what I mean? Do you know what I mean? That's something you could use if you want to make sure that somebody understands your point, your idea. You know what I mean? After my nail appointment, I had some lunch with my mom, and I took the bus back to my apartment.",
+          "tc": "我選了粉紅色。我不知道粉紅色是不是真的適合我，但最近我真的很迷粉紅色。我剛買了一個有粉紅色圓點的新包包。這些就是 polka dots。所以我想：「我覺得粉紅色指甲會很配我的新包包。」你懂我的意思嗎？這是我注意到自己很常說的一句話。母語人士也很常說。Do you know what I mean? 它有點是在確認你理解。所以如果我說：「對，我做粉紅色指甲，因為它們和我的新包包很搭，而且粉紅色就是很漂亮。」你懂我的意思嗎？你懂我的意思嗎？你懂我的意思嗎？如果你想確認某人理解你的重點、你的想法，這就是你可以用的說法。你懂我的意思嗎？美甲預約之後，我和媽媽吃了午餐，然後搭公車回我的公寓。",
           "englishTokens": [
             {
               "type": "text",
-              "text": "D'you like 'em?"
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-12",
-      "no": "12",
-      "titleZh": "第 12 段",
-      "titleEn": "Part 12",
-      "sentences": [
-        {
-          "en": "Same as 'Do you like them?'",
-          "tc": "跟 Do you like them? 一樣。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Same as 'Do you like them?'"
-            }
-          ]
-        },
-        {
-          "en": "but quickly.",
-          "tc": "只是講快一點。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "but quickly."
-            }
-          ]
-        },
-        {
-          "en": "D'you like 'em?",
-          "tc": "D'you like 'em?（你喜歡它們嗎？）",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "D'you like 'em?"
-            }
-          ]
-        },
-        {
-          "en": "I decided on the color pink.",
-          "tc": "我選了粉紅色。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I decided on the color pink."
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-13",
-      "no": "13",
-      "titleZh": "第 13 段",
-      "titleEn": "Part 13",
-      "sentences": [
-        {
-          "en": "I don't know if pink is really my color, but lately, I've been really obsessed with pink.",
-          "tc": "我不知道粉紅色是不是真的適合我，但最近我真的很迷粉紅色。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I don't know if pink is really my color, but lately, I've been really "
+              "text": "I decided on the color pink. I don't know if pink is really my color, but lately, I've been really "
             },
             {
               "type": "word",
               "text": "obsessed",
               "targetId": "word-obsessed",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-049-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-035-01"
             },
             {
               "type": "text",
-              "text": " with pink."
-            }
-          ]
-        },
-        {
-          "en": "I just bought a new purse with pink polka dots.",
-          "tc": "我剛買了一個有粉紅色圓點的新包包。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "I just bought a new "
+              "text": " with pink. I just bought a new "
             },
             {
               "type": "word",
               "text": "purse",
               "targetId": "word-purse",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-050-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-035-02"
             },
             {
               "type": "text",
@@ -1030,238 +874,74 @@
               "type": "phrase",
               "text": "polka dots",
               "targetId": "phrase-polka-dots",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-050-02"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-035-03"
             },
             {
               "type": "text",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "en": "These are polka dots.",
-          "tc": "這些就是 polka dots。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "These are polka dots."
-            }
-          ]
-        },
-        {
-          "en": "So I thought, 'I think pink nails would go well with my new bag.'",
-          "tc": "所以我想：「我覺得粉紅色指甲會很配我的新包包。」",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "So I thought, 'I think pink nails would "
+              "text": ". These are polka dots. So I thought, 'I think pink nails would "
             },
             {
               "type": "phrase",
               "text": "go well with",
               "targetId": "phrase-go-well-with",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-052-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-035-04"
             },
             {
               "type": "text",
-              "text": " my new bag.'"
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-14",
-      "no": "14",
-      "titleZh": "第 14 段",
-      "titleEn": "Part 14",
-      "sentences": [
-        {
-          "en": "You know what I mean?",
-          "tc": "你懂我的意思嗎？",
-          "englishTokens": [
+              "text": " my new bag.' "
+            },
             {
               "type": "phrase",
               "text": "You know what I mean",
               "targetId": "phrase-you-know-what-i-mean",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-053-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-035-05"
             },
             {
               "type": "text",
-              "text": "?"
-            }
-          ]
-        },
-        {
-          "en": "That's something I noticed I say a lot.",
-          "tc": "這是我注意到自己很常說的一句話。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "That's something I noticed I say a lot."
-            }
-          ]
-        },
-        {
-          "en": "Native speakers say it a lot.",
-          "tc": "母語人士也很常說。",
-          "englishTokens": [
+              "text": "? That's something I noticed I say a lot. "
+            },
             {
               "type": "phrase",
               "text": "Native speakers",
               "targetId": "phrase-native-speaker",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-055-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-035-06"
             },
             {
               "type": "text",
-              "text": " say it a lot."
-            }
-          ]
-        },
-        {
-          "en": "Do you know what I mean?",
-          "tc": "Do you know what I mean?（你懂我的意思嗎？）",
-          "englishTokens": [
+              "text": " say it a lot. "
+            },
             {
               "type": "phrase",
               "text": "Do you know what I mean",
               "targetId": "phrase-you-know-what-i-mean",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-056-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-035-07"
             },
             {
               "type": "text",
-              "text": "?"
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-15",
-      "no": "15",
-      "titleZh": "第 15 段",
-      "titleEn": "Part 15",
-      "sentences": [
-        {
-          "en": "It kind of reaffirms that you understand.",
-          "tc": "它有點是在確認你理解。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "It kind of "
+              "text": "? It kind of "
             },
             {
               "type": "word",
               "text": "reaffirms",
               "targetId": "word-reaffirm",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-057-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-035-08"
             },
             {
               "type": "text",
-              "text": " that you understand."
-            }
-          ]
-        },
-        {
-          "en": "So if I say, 'Yeah, I got my pink nails because they match my new bag, and pink is just a pretty color.'",
-          "tc": "所以如果我說：「對，我做粉紅色指甲，因為它們和我的新包包很搭，而且粉紅色就是很漂亮。」",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "So if I say, 'Yeah, I got my pink nails because they "
+              "text": " that you understand. So if I say, 'Yeah, I got my pink nails because they "
             },
             {
               "type": "usage",
               "text": "match",
               "targetId": "usage-match-item",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-058-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-035-09"
             },
             {
               "type": "text",
-              "text": " my new bag, and pink is just a pretty color.'"
+              "text": " my new bag, and pink is just a pretty color.' Do you know what I mean? You know what I mean? Do you know what I mean? That's something you could use if you want to make sure that somebody understands your point, your idea. You know what I mean? After my nail appointment, I had some lunch with my mom, and I took the bus back to my apartment."
             }
           ]
         },
-        {
-          "en": "Do you know what I mean?",
-          "tc": "你懂我的意思嗎？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Do you know what I mean?"
-            }
-          ]
-        },
-        {
-          "en": "You know what I mean?",
-          "tc": "你懂我的意思嗎？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "You know what I mean?"
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-16",
-      "no": "16",
-      "titleZh": "第 16 段",
-      "titleEn": "Part 16",
-      "sentences": [
-        {
-          "en": "Do you know what I mean?",
-          "tc": "你懂我的意思嗎？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Do you know what I mean?"
-            }
-          ]
-        },
-        {
-          "en": "That's something you could use if you want to make sure that somebody understands your point, your idea.",
-          "tc": "如果你想確認某人理解你的重點、你的想法，這就是你可以用的說法。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "That's something you could use if you want to make sure that somebody understands your point, your idea."
-            }
-          ]
-        },
-        {
-          "en": "You know what I mean?",
-          "tc": "你懂我的意思嗎？",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "You know what I mean?"
-            }
-          ]
-        },
-        {
-          "en": "After my nail appointment, I had some lunch with my mom, and I took the bus back to my apartment.",
-          "tc": "美甲預約之後，我和媽媽吃了午餐，然後搭公車回我的公寓。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "After my nail appointment, I had some lunch with my mom, and I took the bus back to my apartment."
-            }
-          ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-17",
-      "no": "17",
-      "titleZh": "第 17 段",
-      "titleEn": "Part 17",
-      "sentences": [
         {
           "en": "I took a shower and I got ready because I had a techno event to go to, just an event where they play techno music.",
           "tc": "我洗了澡，並且準備出門，因為我有一個 techno 活動要去，就是一個播放 techno 音樂的活動。",
@@ -1274,7 +954,7 @@
               "type": "phrase",
               "text": "got ready",
               "targetId": "phrase-get-ready",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-065-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-036-01"
             },
             {
               "type": "text",
@@ -1284,14 +964,23 @@
               "type": "word",
               "text": "techno",
               "targetId": "word-techno",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-065-02"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-036-02"
             },
             {
               "type": "text",
               "text": " event to go to, just an event where they play techno music."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
         {
           "en": "I did my makeup.",
           "tc": "我化了妝。",
@@ -1314,7 +1003,7 @@
               "type": "phrase",
               "text": "eye shadow",
               "targetId": "phrase-eye-shadow",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-067-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-038-01"
             },
             {
               "type": "text",
@@ -1324,7 +1013,7 @@
               "type": "phrase",
               "text": "lip gloss",
               "targetId": "phrase-lip-gloss",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-067-02"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-038-02"
             },
             {
               "type": "text",
@@ -1334,7 +1023,7 @@
               "type": "word",
               "text": "earrings",
               "targetId": "word-earring",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-067-03"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-038-03"
             },
             {
               "type": "text",
@@ -1350,7 +1039,7 @@
               "type": "phrase",
               "text": "By the way",
               "targetId": "phrase-by-the-way",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-068-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-039-01"
             },
             {
               "type": "text",
@@ -1360,23 +1049,14 @@
               "type": "word",
               "text": "vocabulary",
               "targetId": "word-vocabulary",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-068-02"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-039-02"
             },
             {
               "type": "text",
               "text": ", and the steps, in simple English?"
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-18",
-      "no": "18",
-      "titleZh": "第 18 段",
-      "titleEn": "Part 18",
-      "sentences": [
+        },
         {
           "en": "Let me know.",
           "tc": "告訴我。",
@@ -1385,14 +1065,23 @@
               "type": "phrase",
               "text": "Let me know",
               "targetId": "phrase-let-me-know",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-069-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-040-01"
             },
             {
               "type": "text",
               "text": "."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
         {
           "en": "I went to the techno event, and I danced all night, and the next morning I got breakfast at Toks.",
           "tc": "我去了 techno 活動，跳了一整晚的舞，隔天早上在 Toks 吃早餐。",
@@ -1405,7 +1094,7 @@
               "type": "phrase",
               "text": "all night",
               "targetId": "phrase-all-night",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-070-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-041-01"
             },
             {
               "type": "text",
@@ -1425,7 +1114,7 @@
               "type": "usage",
               "text": "chain",
               "targetId": "usage-chain-item",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-071-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-042-01"
             },
             {
               "type": "text",
@@ -1442,16 +1131,7 @@
               "text": "It's very popular in Mexico."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-19",
-      "no": "19",
-      "titleZh": "第 19 段",
-      "titleEn": "Part 19",
-      "sentences": [
+        },
         {
           "en": "Do you have any restaurant chains in your country?",
           "tc": "你的國家有任何連鎖餐廳嗎？",
@@ -1464,14 +1144,23 @@
               "type": "usage",
               "text": "chains",
               "targetId": "usage-chain-item",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-073-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-044-01"
             },
             {
               "type": "text",
               "text": " in your country?"
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
         {
           "en": "If so, which one is your favorite, and why?",
           "tc": "如果有，你最喜歡哪一家，為什麼？",
@@ -1494,7 +1183,7 @@
               "type": "phrase",
               "text": "walk around",
               "targetId": "phrase-walk-around",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-075-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-046-01"
             },
             {
               "type": "text",
@@ -1504,7 +1193,7 @@
               "type": "word",
               "text": "bazaars",
               "targetId": "word-bazaar",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-075-02"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-046-02"
             },
             {
               "type": "text",
@@ -1524,23 +1213,14 @@
               "type": "word",
               "text": "necklace",
               "targetId": "word-necklace",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-076-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-047-01"
             },
             {
               "type": "text",
               "text": "."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-20",
-      "no": "20",
-      "titleZh": "第 20 段",
-      "titleEn": "Part 20",
-      "sentences": [
+        },
         {
           "en": "It's my favorite flower, the jacaranda, and they made it into a necklace.",
           "tc": "它是我最喜歡的花，藍花楹，他們把它做成了項鍊。",
@@ -1553,14 +1233,23 @@
               "type": "word",
               "text": "jacaranda",
               "targetId": "word-jacaranda",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-077-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-048-01"
             },
             {
               "type": "text",
               "text": ", and they made it into a necklace."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
         {
           "en": "I love it.",
           "tc": "我很愛。",
@@ -1577,7 +1266,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It's my new favorite necklace."
+              "text": "It's my new favorite "
+            },
+            {
+              "type": "word",
+              "text": "necklace",
+              "targetId": "word-necklace",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-13-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1593,23 +1292,14 @@
               "type": "word",
               "text": "recorded",
               "targetId": "word-record",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-080-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-051-01"
             },
             {
               "type": "text",
               "text": " a few videos for the week."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-21",
-      "no": "21",
-      "titleZh": "第 21 段",
-      "titleEn": "Part 21",
-      "sentences": [
+        },
         {
           "en": "I worked on my English community, and then I went to sleep again.",
           "tc": "我經營了我的英文社群，然後又去睡覺了。",
@@ -1622,14 +1312,23 @@
               "type": "word",
               "text": "community",
               "targetId": "word-community",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-081-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-052-01"
             },
             {
               "type": "text",
               "text": ", and then I went to sleep again."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
         {
           "en": "It was a really special weekend.",
           "tc": "那真的是一個很特別的週末。",
@@ -1652,7 +1351,7 @@
               "type": "phrase",
               "text": "spent time with",
               "targetId": "phrase-spend-time-with",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-083-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-054-01"
             },
             {
               "type": "text",
@@ -1669,16 +1368,7 @@
               "text": "What about you?"
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-22",
-      "no": "22",
-      "titleZh": "第 22 段",
-      "titleEn": "Part 22",
-      "sentences": [
+        },
         {
           "en": "What did you do this weekend?",
           "tc": "你這個週末做了什麼？",
@@ -1688,14 +1378,29 @@
               "text": "What did you do this weekend?"
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
         {
           "en": "You know what I mean?",
           "tc": "你懂我的意思嗎？",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "You know what I mean",
+              "targetId": "phrase-you-know-what-i-mean",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-15-001-001"
+            },
+            {
               "type": "text",
-              "text": "You know what I mean?"
+              "text": "?"
             }
           ]
         },
@@ -1711,7 +1416,7 @@
               "type": "word",
               "text": "integrate",
               "targetId": "word-integrate",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-087-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-058-01"
             },
             {
               "type": "text",
@@ -1721,7 +1426,7 @@
               "type": "word",
               "text": "phrase",
               "targetId": "word-phrase",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-087-02"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-058-02"
             },
             {
               "type": "text",
@@ -1735,19 +1440,20 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It's a fun phrase to use, I think."
+              "text": "It's a fun "
+            },
+            {
+              "type": "word",
+              "text": "phrase",
+              "targetId": "word-phrase",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-15-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to use, I think."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-23",
-      "no": "23",
-      "titleZh": "第 23 段",
-      "titleEn": "Part 23",
-      "sentences": [
+        },
         {
           "en": "Now, here goes the normal speed.",
           "tc": "現在，正常速度來了。",
@@ -1760,21 +1466,40 @@
               "type": "phrase",
               "text": "here goes",
               "targetId": "phrase-here-goes",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-089-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-060-01"
             },
             {
               "type": "text",
               "text": " the normal speed."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
         {
           "en": "So, over the weekend, I took the bus to my parents' house.",
           "tc": "所以，週末時，我搭公車去我爸媽家。",
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, over the weekend, I took the bus to my parents' house."
+              "text": "So, "
+            },
+            {
+              "type": "phrase",
+              "text": "over the weekend",
+              "targetId": "phrase-over-the-weekend",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-16-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", I took the bus to my parents' house."
             }
           ]
         },
@@ -1797,26 +1522,36 @@
               "text": "We chatted in the car for a little bit, and I was a little hungry because I hadn't had anything for dinner."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-24",
-      "no": "24",
-      "titleZh": "第 24 段",
-      "titleEn": "Part 24",
-      "sentences": [
+        },
         {
           "en": "So he took me to get some esquites.",
           "tc": "所以他帶我去買了一些 esquites。",
           "englishTokens": [
             {
               "type": "text",
-              "text": "So he took me to get some esquites."
+              "text": "So he took me to get some "
+            },
+            {
+              "type": "word",
+              "text": "esquites",
+              "targetId": "word-esquite",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-16-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
         {
           "en": "An esquite is a mixture of corn, mayonnaise, lime, Tajin, and sometimes cheese, but I don't eat that much cheese because it's bad for my acne.",
           "tc": "一份 esquite 是玉米、美乃滋、萊姆、Tajin，有時還有起司的混合物，但我不吃那麼多起司，因為它對我的痘痘不好。",
@@ -1829,7 +1564,7 @@
               "type": "word",
               "text": "acne",
               "targetId": "word-acne",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-094-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-065-01"
             },
             {
               "type": "text",
@@ -1853,7 +1588,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We ate esquites together, and we listened to music and watched YouTube videos."
+              "text": "We ate "
+            },
+            {
+              "type": "word",
+              "text": "esquites",
+              "targetId": "word-esquite",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-17-003-001"
+            },
+            {
+              "type": "text",
+              "text": " together, and we listened to music and watched YouTube videos."
+            }
+          ]
+        },
+        {
+          "en": "The next day, we went to my favorite cafe in my hometown, and I ordered the most delicious doughnut.",
+          "tc": "隔天，我們去了我家鄉最喜歡的咖啡店，我點了最美味的甜甜圈。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next day, we went to my favorite cafe in my "
+            },
+            {
+              "type": "word",
+              "text": "hometown",
+              "targetId": "word-hometown",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": ", and I ordered the most delicious doughnut."
             }
           ]
         }
@@ -1861,21 +1626,11 @@
       "tags": []
     },
     {
-      "id": "scene-25",
-      "no": "25",
-      "titleZh": "第 25 段",
-      "titleEn": "Part 25",
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
       "sentences": [
-        {
-          "en": "The next day, we went to my favorite cafe in my hometown, and I ordered the most delicious doughnut.",
-          "tc": "隔天，我們去了我家鄉最喜歡的咖啡店，我點了最美味的甜甜圈。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "The next day, we went to my favorite cafe in my hometown, and I ordered the most delicious doughnut."
-            }
-          ]
-        },
         {
           "en": "It was a maple doughnut with sprinkles of bacon on top.",
           "tc": "那是一個楓糖甜甜圈，上面撒了培根碎。",
@@ -1888,7 +1643,7 @@
               "type": "word",
               "text": "sprinkles",
               "targetId": "word-sprinkle",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-098-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-069-01"
             },
             {
               "type": "text",
@@ -1898,7 +1653,7 @@
               "type": "phrase",
               "text": "on top",
               "targetId": "phrase-on-top",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-098-02"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-069-02"
             },
             {
               "type": "text",
@@ -1918,7 +1673,7 @@
               "type": "word",
               "text": "crispy",
               "targetId": "word-crispy",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-099-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-070-01"
             },
             {
               "type": "text",
@@ -1928,7 +1683,7 @@
               "type": "word",
               "text": "soggy",
               "targetId": "word-soggy",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-099-02"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-070-02"
             },
             {
               "type": "text",
@@ -1945,16 +1700,7 @@
               "text": "It was perfect, and so was the doughnut."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-26",
-      "no": "26",
-      "titleZh": "第 26 段",
-      "titleEn": "Part 26",
-      "sentences": [
+        },
         {
           "en": "The doughnut was fluffy and soft on the inside, but the outer layer was crunchy where the maple was.",
           "tc": "甜甜圈裡面蓬鬆柔軟，但有楓糖的外層很脆。",
@@ -1967,14 +1713,23 @@
               "type": "phrase",
               "text": "outer layer",
               "targetId": "phrase-outer-layer",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-101-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-072-01"
             },
             {
               "type": "text",
               "text": " was crunchy where the maple was."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
         {
           "en": "It was really good.",
           "tc": "真的很好吃。",
@@ -1991,7 +1746,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I also ordered an omelette with spinach, and I had a cappuccino coffee."
+              "text": "I also ordered an "
+            },
+            {
+              "type": "word",
+              "text": "omelette",
+              "targetId": "word-omelette",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-19-002-001"
+            },
+            {
+              "type": "text",
+              "text": " with "
+            },
+            {
+              "type": "word",
+              "text": "spinach",
+              "targetId": "word-spinach",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-19-002-002"
+            },
+            {
+              "type": "text",
+              "text": ", and I had a "
+            },
+            {
+              "type": "word",
+              "text": "cappuccino",
+              "targetId": "word-cappuccino",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-19-002-003"
+            },
+            {
+              "type": "text",
+              "text": " coffee."
             }
           ]
         },
@@ -2004,16 +1789,7 @@
               "text": "Then my dad drove us home, and we watched a movie on Netflix called Roommates."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-27",
-      "no": "27",
-      "titleZh": "第 27 段",
-      "titleEn": "Part 27",
-      "sentences": [
+        },
         {
           "en": "It's really good, but it just keeps you on your toes.",
           "tc": "它真的很好看，但它就是會讓你一直緊張期待。",
@@ -2023,7 +1799,16 @@
               "text": "It's really good, but it just keeps you on your toes."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
         {
           "en": "It keeps you kind of on the edge of your seat because you're like, 'What's going to happen next?",
           "tc": "它會讓你有點坐立難安，因為你會想：「接下來會發生什麼？",
@@ -2036,7 +1821,7 @@
               "type": "phrase",
               "text": "on the edge of your seat",
               "targetId": "phrase-on-the-edge-of-one-s-seat",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-106-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-077-01"
             },
             {
               "type": "text",
@@ -2060,7 +1845,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It was a little frustrating to watch, but really interesting."
+              "text": "It was a little "
+            },
+            {
+              "type": "word",
+              "text": "frustrating",
+              "targetId": "word-frustrating",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-20-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to watch, but really interesting."
+            }
+          ]
+        },
+        {
+          "en": "Then my dad drove me to my nail appointment.",
+          "tc": "然後我爸爸載我去美甲預約。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then my dad drove me to my nail "
+            },
+            {
+              "type": "word",
+              "text": "appointment",
+              "targetId": "word-appointment",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-20-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -2068,28 +1883,38 @@
       "tags": []
     },
     {
-      "id": "scene-28",
-      "no": "28",
-      "titleZh": "第 28 段",
-      "titleEn": "Part 28",
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
       "sentences": [
-        {
-          "en": "Then my dad drove me to my nail appointment.",
-          "tc": "然後我爸爸載我去美甲預約。",
-          "englishTokens": [
-            {
-              "type": "text",
-              "text": "Then my dad drove me to my nail appointment."
-            }
-          ]
-        },
         {
           "en": "I got my nails done, and I chatted and gossiped with my nail technician.",
           "tc": "我做了指甲，也和美甲師聊天、聊八卦。",
           "englishTokens": [
             {
               "type": "text",
-              "text": "I got my nails done, and I chatted and gossiped with my nail technician."
+              "text": "I got my nails done, and I chatted and "
+            },
+            {
+              "type": "word",
+              "text": "gossiped",
+              "targetId": "word-gossip",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-21-001-001"
+            },
+            {
+              "type": "text",
+              "text": " with my nail "
+            },
+            {
+              "type": "word",
+              "text": "technician",
+              "targetId": "word-technician",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-21-001-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2105,7 +1930,7 @@
               "type": "word",
               "text": "accessories",
               "targetId": "word-accessory",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-111-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-082-01"
             },
             {
               "type": "text",
@@ -2119,19 +1944,40 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I just bought this brown purse with pink polka dots, and I thought that my nails would match it perfectly."
+              "text": "I just bought this brown "
+            },
+            {
+              "type": "word",
+              "text": "purse",
+              "targetId": "word-purse",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-21-003-001"
+            },
+            {
+              "type": "text",
+              "text": " with pink "
+            },
+            {
+              "type": "phrase",
+              "text": "polka dots",
+              "targetId": "phrase-polka-dots",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-21-003-002"
+            },
+            {
+              "type": "text",
+              "text": ", and I thought that my nails would "
+            },
+            {
+              "type": "usage",
+              "text": "match",
+              "targetId": "usage-match-item",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-21-003-003"
+            },
+            {
+              "type": "text",
+              "text": " it perfectly."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-29",
-      "no": "29",
-      "titleZh": "第 29 段",
-      "titleEn": "Part 29",
-      "sentences": [
+        },
         {
           "en": "After that, I took the bus back to my apartment, and I rushed to take a quick shower.",
           "tc": "之後，我搭公車回公寓，急忙去沖了個快澡。",
@@ -2144,14 +1990,23 @@
               "type": "word",
               "text": "rushed",
               "targetId": "word-rush",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-113-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-084-01"
             },
             {
               "type": "text",
               "text": " to take a quick shower."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
         {
           "en": "I did some quick makeup, put on some eye shadow, put on some cute earrings, and I headed to a techno event with my friends.",
           "tc": "我快速化了點妝，上了眼影，戴上可愛的耳環，然後和朋友去 techno 活動。",
@@ -2164,7 +2019,7 @@
               "type": "usage",
               "text": "headed",
               "targetId": "usage-head-item",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-114-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-085-01"
             },
             {
               "type": "text",
@@ -2178,7 +2033,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We danced all night, and then we had breakfast together at Toks."
+              "text": "We danced "
+            },
+            {
+              "type": "phrase",
+              "text": "all night",
+              "targetId": "phrase-all-night",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-22-002-001"
+            },
+            {
+              "type": "text",
+              "text": ", and then we had breakfast together at Toks."
             }
           ]
         },
@@ -2188,19 +2053,20 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It's a chain of restaurants in Mexico that's very popular."
+              "text": "It's a "
+            },
+            {
+              "type": "usage",
+              "text": "chain",
+              "targetId": "usage-chain-item",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-22-003-001"
+            },
+            {
+              "type": "text",
+              "text": " of restaurants in Mexico that's very popular."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-30",
-      "no": "30",
-      "titleZh": "第 30 段",
-      "titleEn": "Part 30",
-      "sentences": [
+        },
         {
           "en": "And I think I ordered some enchiladas suizas.",
           "tc": "我想我點了一些 enchiladas suizas。",
@@ -2210,7 +2076,16 @@
               "text": "And I think I ordered some enchiladas suizas."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
         {
           "en": "If you've never had enchiladas suizas before, if you ever go to Mexico, you need to try them.",
           "tc": "如果你以前沒吃過 enchiladas suizas，如果你有機會去墨西哥，你一定要試試看。",
@@ -2243,23 +2118,14 @@
               "type": "word",
               "text": "curious",
               "targetId": "word-curious",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-120-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-091-01"
             },
             {
               "type": "text",
               "text": ": do you have any restaurant chains in your country?"
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-31",
-      "no": "31",
-      "titleZh": "第 31 段",
-      "titleEn": "Part 31",
-      "sentences": [
+        },
         {
           "en": "And if so, which one is your favorite?",
           "tc": "如果有，你最喜歡哪一家？",
@@ -2269,14 +2135,33 @@
               "text": "And if so, which one is your favorite?"
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
         {
           "en": "It was a really fun weekend, and I'm curious: what did you do this weekend?",
           "tc": "那是一個很有趣的週末，我很好奇：你這個週末做了什麼？",
           "englishTokens": [
             {
               "type": "text",
-              "text": "It was a really fun weekend, and I'm curious: what did you do this weekend?"
+              "text": "It was a really fun weekend, and I'm "
+            },
+            {
+              "type": "word",
+              "text": "curious",
+              "targetId": "word-curious",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-24-001-001"
+            },
+            {
+              "type": "text",
+              "text": ": what did you do this weekend?"
             }
           ]
         },
@@ -2292,7 +2177,7 @@
               "type": "phrase",
               "text": "be sure to",
               "targetId": "phrase-be-sure-to",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-123-01"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-094-01"
             },
             {
               "type": "text",
@@ -2302,7 +2187,7 @@
               "type": "word",
               "text": "subscribe",
               "targetId": "word-subscribe",
-              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-123-02"
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-094-02"
             },
             {
               "type": "text",
@@ -2316,19 +2201,20 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "English doesn't need to be boring or frustrating."
+              "text": "English doesn't need to be boring or "
+            },
+            {
+              "type": "word",
+              "text": "frustrating",
+              "targetId": "word-frustrating",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-24-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-32",
-      "no": "32",
-      "titleZh": "第 32 段",
-      "titleEn": "Part 32",
-      "sentences": [
+        },
         {
           "en": "Learning a language can be fun.",
           "tc": "學一種語言可以很有趣。",
@@ -2338,7 +2224,16 @@
               "text": "Learning a language can be fun."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
         {
           "en": "It can be easy.",
           "tc": "它可以很簡單。",
@@ -2355,7 +2250,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So subscribe to continue learning English with me."
+              "text": "So "
+            },
+            {
+              "type": "word",
+              "text": "subscribe",
+              "targetId": "word-subscribe",
+              "instanceId": "marker-a1-ch18-english-listening-practice-for-beginners-my-weekend-a1-a2-scene-25-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to continue learning English with me."
             }
           ]
         },
@@ -2368,16 +2273,7 @@
               "text": "And if you liked this video, I'm sure you'll like these two that I made just for you."
             }
           ]
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "scene-33",
-      "no": "33",
-      "titleZh": "第 33 段",
-      "titleEn": "Part 33",
-      "sentences": [
+        },
         {
           "en": "And remember, never stop learning.",
           "tc": "記得，永遠不要停止學習。",
@@ -2387,7 +2283,16 @@
               "text": "And remember, never stop learning."
             }
           ]
-        },
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
         {
           "en": "Bye.",
           "tc": "掰。",
@@ -3327,5 +3232,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch18-english-listening-practice-for-beginners-my-weekend-a1-a2",
+    "sourcePath": "_private/tmp/originalContent/a1/ch18-english-listening-practice-for-beginners-my-weekend-a1-a2.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch18-english-listening-practice-for-beginners-my-weekend-a1-a2.md"
+  }
 }

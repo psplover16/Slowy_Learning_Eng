@@ -24,7 +24,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Hello and welcome back to my Slow English podcast."
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-01-001-001"
+            },
+            {
+              "type": "text",
+              "text": " to my Slow English podcast."
             }
           ]
         },
@@ -73,7 +83,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am visiting Rhode Island with my sister Brianna."
+              "text": "I am visiting Rhode Island with my "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-02-001-001"
+            },
+            {
+              "type": "text",
+              "text": " Brianna."
             }
           ]
         },
@@ -83,7 +103,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It is cold outside."
+              "text": "It is "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-02-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "outside",
+              "targetId": "word-outside",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-02-002-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -93,7 +133,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It is snowy and cold."
+              "text": "It is snowy and "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-02-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -103,7 +153,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have been sitting here for one hour just taking in the view from my hotel room and journaling while taking in the view."
+              "text": "I have "
+            },
+            {
+              "type": "word",
+              "text": "been",
+              "targetId": "word-been",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-02-004-001"
+            },
+            {
+              "type": "text",
+              "text": " sitting here for one hour just taking in the view from my hotel room and journaling while taking in the view."
             }
           ]
         }
@@ -132,7 +192,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The snow is something that I haven't seen in ages."
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "snow",
+              "targetId": "word-snow",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-03-002-001"
+            },
+            {
+              "type": "text",
+              "text": " is something that I haven't seen in ages."
             }
           ]
         },
@@ -152,7 +222,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I haven't seen the snow."
+              "text": "I haven't seen the "
+            },
+            {
+              "type": "word",
+              "text": "snow",
+              "targetId": "word-snow",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-03-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -181,7 +261,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So last night I arrived at the airport, and as we stepped outside of the airport, the breeze hit."
+              "text": "So last night I arrived at the airport, and as we stepped "
+            },
+            {
+              "type": "word",
+              "text": "outside",
+              "targetId": "word-outside",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-04-002-001"
+            },
+            {
+              "type": "text",
+              "text": " of the airport, the breeze hit."
             }
           ]
         },
@@ -191,7 +281,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That was so cold."
+              "text": "That was so "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-04-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -201,7 +301,47 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It's been like 10 years since I've been in a place this cold."
+              "text": "It's "
+            },
+            {
+              "type": "word",
+              "text": "been",
+              "targetId": "word-been",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-04-004-001"
+            },
+            {
+              "type": "text",
+              "text": " like 10 years since I've "
+            },
+            {
+              "type": "word",
+              "text": "been",
+              "targetId": "word-been",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-04-004-002"
+            },
+            {
+              "type": "text",
+              "text": " in a "
+            },
+            {
+              "type": "word",
+              "text": "place",
+              "targetId": "word-place",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-04-004-003"
+            },
+            {
+              "type": "text",
+              "text": " this "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-04-004-004"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -240,7 +380,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I couldn't handle that much cold."
+              "text": "I couldn't handle that much "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-05-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -279,7 +429,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I haven't been to a place this cold since I maybe went to the UK."
+              "text": "I haven't "
+            },
+            {
+              "type": "word",
+              "text": "been",
+              "targetId": "word-been",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-06-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to a "
+            },
+            {
+              "type": "word",
+              "text": "place",
+              "targetId": "word-place",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-06-002-002"
+            },
+            {
+              "type": "text",
+              "text": " this "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-06-002-003"
+            },
+            {
+              "type": "text",
+              "text": " since I maybe went to the UK."
             }
           ]
         },
@@ -288,8 +468,24 @@
           "tc": "我像煙囪一樣抽煙！",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "But",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-06-003-001"
+            },
+            {
               "type": "text",
-              "text": "But even the UK wasn't this cold."
+              "text": " even the UK wasn't this "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-06-003-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -299,7 +495,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I swear I can't handle the cold."
+              "text": "I swear I can't handle the "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-06-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -348,7 +554,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So cold.\""
+              "text": "So "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-07-004-001"
+            },
+            {
+              "type": "text",
+              "text": ".\""
             }
           ]
         }
@@ -377,7 +593,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then I'm prepared to go outside."
+              "text": "Then I'm prepared to go "
+            },
+            {
+              "type": "word",
+              "text": "outside",
+              "targetId": "word-outside",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-08-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -397,7 +623,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Yesterday, I didn't put on my gloves right away, and my fingers felt like they were going to crack and fall off!"
+              "text": "Yesterday, I didn't put on my gloves "
+            },
+            {
+              "type": "usage",
+              "text": "right",
+              "targetId": "usage-right-right-now-right",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-08-004-001"
+            },
+            {
+              "type": "text",
+              "text": " away, and my fingers felt like they were "
+            },
+            {
+              "type": "phrase",
+              "text": "going to",
+              "targetId": "phrase-going-to",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-08-004-002"
+            },
+            {
+              "type": "text",
+              "text": " crack and fall off!"
             }
           ]
         }
@@ -416,7 +662,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I know I couldn't live in a place like this for sure."
+              "text": "I know I couldn't live in a "
+            },
+            {
+              "type": "word",
+              "text": "place",
+              "targetId": "word-place",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-09-001-001"
+            },
+            {
+              "type": "text",
+              "text": " like this for sure."
             }
           ]
         },
@@ -514,7 +770,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We're going under the bridge to get to the park."
+              "text": "We're going under the bridge to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-11-001-001"
+            },
+            {
+              "type": "text",
+              "text": " to the park."
             }
           ]
         },
@@ -524,7 +790,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It's been so long since I saw snow."
+              "text": "It's "
+            },
+            {
+              "type": "word",
+              "text": "been",
+              "targetId": "word-been",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-11-002-001"
+            },
+            {
+              "type": "text",
+              "text": " so long since I saw "
+            },
+            {
+              "type": "word",
+              "text": "snow",
+              "targetId": "word-snow",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-11-002-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -534,7 +820,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Almost like 10 years I think since the last time I saw snow."
+              "text": "Almost like 10 years I think since the last time I saw "
+            },
+            {
+              "type": "word",
+              "text": "snow",
+              "targetId": "word-snow",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-11-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -563,7 +859,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So I used to see snow all the time, but now I live in Mexico and I've lived in Mexico for 10 years."
+              "text": "So I "
+            },
+            {
+              "type": "phrase",
+              "text": "used to",
+              "targetId": "phrase-used-to",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-12-001-001"
+            },
+            {
+              "type": "text",
+              "text": " see "
+            },
+            {
+              "type": "word",
+              "text": "snow",
+              "targetId": "word-snow",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-12-001-002"
+            },
+            {
+              "type": "text",
+              "text": " all the time, "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-12-001-003"
+            },
+            {
+              "type": "text",
+              "text": " now I live in Mexico and I've lived in Mexico for 10 years."
             }
           ]
         },
@@ -573,7 +899,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, the snow is a very exciting thing to see."
+              "text": "So, the "
+            },
+            {
+              "type": "word",
+              "text": "snow",
+              "targetId": "word-snow",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " is a very exciting thing to see."
             }
           ]
         },
@@ -622,7 +958,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My favorite thing to do when I travel is watch people living their normal lives like running or walking their dogs just living their lives in a different place."
+              "text": "My favorite thing to do when I travel is watch people living their normal lives like running or walking their dogs just living their lives in a different "
+            },
+            {
+              "type": "word",
+              "text": "place",
+              "targetId": "word-place",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-13-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -729,8 +1075,14 @@
           "tc": "我們去那邊那個小壁架上坐吧。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "But",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-15-003-001"
+            },
+            {
               "type": "text",
-              "text": "But they they're just bathing casually in the freezing water."
+              "text": " they they're just bathing casually in the freezing water."
             }
           ]
         },
@@ -877,7 +1229,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I wasn't sure at first, but after zooming in with my camera, I realized it was indeed a seal."
+              "text": "I wasn't sure at first, "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-18-003-001"
+            },
+            {
+              "type": "text",
+              "text": " after zooming in with my camera, I realized it was indeed a seal."
             }
           ]
         },
@@ -887,7 +1249,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Tell me, where is the coldest place you've visited?"
+              "text": "Tell me, where is the coldest "
+            },
+            {
+              "type": "word",
+              "text": "place",
+              "targetId": "word-place",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-18-004-001"
+            },
+            {
+              "type": "text",
+              "text": " you've visited?"
             }
           ]
         }
@@ -906,7 +1278,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I remember the UK was super cold, but it was a different kind of cold."
+              "text": "I remember the UK was super "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-19-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-19-001-002"
+            },
+            {
+              "type": "text",
+              "text": " it was a different kind of "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-19-001-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -926,7 +1328,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The breeze is what made you feel cold, but here the air is just crisp."
+              "text": "The breeze is what made you feel "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-19-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-19-003-002"
+            },
+            {
+              "type": "text",
+              "text": " here the air is just crisp."
             }
           ]
         },
@@ -936,7 +1358,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't think I could live here, but it's nice to visit."
+              "text": "I don't think I could live here, "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-19-004-001"
+            },
+            {
+              "type": "text",
+              "text": " it's nice to visit."
             }
           ]
         }
@@ -955,7 +1387,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "After walking around the park, I went to see my sister's workplace and the sky was golden yellow and I realized my sister had bought me a big white coat."
+              "text": "After walking around the park, I went to see my sister's workplace and the sky was golden yellow and I realized my "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-20-001-001"
+            },
+            {
+              "type": "text",
+              "text": " had bought me a big white "
+            },
+            {
+              "type": "word",
+              "text": "coat",
+              "targetId": "word-coat",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-20-001-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -965,7 +1417,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The white matched the snow and complemented perfectly with the golden sun."
+              "text": "The white matched the "
+            },
+            {
+              "type": "word",
+              "text": "snow",
+              "targetId": "word-snow",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-20-002-001"
+            },
+            {
+              "type": "text",
+              "text": " and complemented perfectly with the golden sun."
             }
           ]
         },
@@ -975,7 +1437,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I only brought one coat with me and it was my mom's coat because I don't OWN a winter coat."
+              "text": "I only brought one "
+            },
+            {
+              "type": "word",
+              "text": "coat",
+              "targetId": "word-coat",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-20-003-001"
+            },
+            {
+              "type": "text",
+              "text": " with me and it was my mom's "
+            },
+            {
+              "type": "word",
+              "text": "coat",
+              "targetId": "word-coat",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-20-003-002"
+            },
+            {
+              "type": "text",
+              "text": " because I don't OWN a winter "
+            },
+            {
+              "type": "word",
+              "text": "coat",
+              "targetId": "word-coat",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-20-003-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -985,7 +1477,47 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't have a winter coat, but even with my mom's puffy coat, the cold found a way to SEEP through every layer."
+              "text": "I don't have a winter "
+            },
+            {
+              "type": "word",
+              "text": "coat",
+              "targetId": "word-coat",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-20-004-001"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-20-004-002"
+            },
+            {
+              "type": "text",
+              "text": " even with my mom's puffy "
+            },
+            {
+              "type": "word",
+              "text": "coat",
+              "targetId": "word-coat",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-20-004-003"
+            },
+            {
+              "type": "text",
+              "text": ", the "
+            },
+            {
+              "type": "word",
+              "text": "cold",
+              "targetId": "word-cold",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-20-004-004"
+            },
+            {
+              "type": "text",
+              "text": " found a way to SEEP through every layer."
             }
           ]
         }
@@ -1004,7 +1536,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I was grateful to HAVE gotten another coat."
+              "text": "So, I was grateful to HAVE gotten another "
+            },
+            {
+              "type": "word",
+              "text": "coat",
+              "targetId": "word-coat",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-21-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1014,7 +1556,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Why use HAVE gotten instead of GET?"
+              "text": "Why use HAVE gotten instead of "
+            },
+            {
+              "type": "usage",
+              "text": "GET",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-21-002-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -1053,7 +1605,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It happened in the past, but the result is still relevant right now."
+              "text": "It happened in the past, "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-22-001-001"
+            },
+            {
+              "type": "text",
+              "text": " the result is still relevant "
+            },
+            {
+              "type": "phrase",
+              "text": "right now",
+              "targetId": "phrase-right-now",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-22-001-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1073,7 +1645,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I was grateful to have gotten an extra coat."
+              "text": "So, I was grateful to have gotten an extra "
+            },
+            {
+              "type": "word",
+              "text": "coat",
+              "targetId": "word-coat",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-22-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1102,7 +1684,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I love feeling this cozy snowing outside while I'm bundled up in lots of warm blankets while watching series and snacking with my sister."
+              "text": "I love feeling this cozy snowing "
+            },
+            {
+              "type": "word",
+              "text": "outside",
+              "targetId": "word-outside",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-23-001-001"
+            },
+            {
+              "type": "text",
+              "text": " while I'm bundled up in lots of warm blankets while watching series and snacking with my "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-23-001-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1112,7 +1714,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This is my happy place."
+              "text": "This is my happy "
+            },
+            {
+              "type": "word",
+              "text": "place",
+              "targetId": "word-place",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-23-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1122,7 +1734,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The next morning, all the snow had melted."
+              "text": "The next morning, all the "
+            },
+            {
+              "type": "word",
+              "text": "snow",
+              "targetId": "word-snow",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-23-003-001"
+            },
+            {
+              "type": "text",
+              "text": " had melted."
             }
           ]
         },
@@ -1161,7 +1783,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I know it's a strange combination, but I love taking full advantage of included breakfasts."
+              "text": "I know it's a strange combination, "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-24-002-001"
+            },
+            {
+              "type": "text",
+              "text": " I love taking full advantage of included breakfasts."
             }
           ]
         },
@@ -1171,7 +1803,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then I decided to get a workout in before exploring the city."
+              "text": "Then I decided to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-24-003-001"
+            },
+            {
+              "type": "text",
+              "text": " a workout in before exploring the city."
             }
           ]
         },
@@ -1200,7 +1842,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And then my sister and I went to the park."
+              "text": "And then my "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-25-001-001"
+            },
+            {
+              "type": "text",
+              "text": " and I went to the park."
             }
           ]
         },
@@ -1259,7 +1911,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "There's little steam coming out of the tree trunks after being outside for a while."
+              "text": "There's little steam coming out of the tree trunks after being "
+            },
+            {
+              "type": "word",
+              "text": "outside",
+              "targetId": "word-outside",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-26-002-001"
+            },
+            {
+              "type": "text",
+              "text": " for a while."
             }
           ]
         },
@@ -1298,7 +1960,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Yesterday, my sister and I got so much done."
+              "text": "Yesterday, my "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-27-001-001"
+            },
+            {
+              "type": "text",
+              "text": " and I got so much done."
             }
           ]
         },
@@ -1308,7 +1980,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We managed to get so many things off our checklist."
+              "text": "We managed to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-27-002-001"
+            },
+            {
+              "type": "text",
+              "text": " so many things off our checklist."
             }
           ]
         },
@@ -1602,7 +2284,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I lasted a little while, but trust me, it's so much harder than it looks."
+              "text": "I lasted a little while, "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-33-002-001"
+            },
+            {
+              "type": "text",
+              "text": " trust me, it's so much harder than it looks."
             }
           ]
         },
@@ -1612,7 +2304,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My sister lasted a little bit longer than I did."
+              "text": "My "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-33-003-001"
+            },
+            {
+              "type": "text",
+              "text": " lasted a little bit longer than I did."
             }
           ]
         },
@@ -1651,7 +2353,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It left at 5:30 a.m. My sister was so tired."
+              "text": "It left at 5:30 a.m. My "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-34-002-001"
+            },
+            {
+              "type": "text",
+              "text": " was so tired."
             }
           ]
         },
@@ -1758,8 +2470,14 @@
           "tc": "講者繼續分享自己的英文學習與生活經驗。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "But",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-36-003-001"
+            },
+            {
               "type": "text",
-              "text": "But I love to feel the crisp New York City air."
+              "text": " I love to feel the crisp New York City air."
             }
           ]
         },
@@ -1798,7 +2516,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "After checking in, we decided to get some breakfast."
+              "text": "After checking in, we decided to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-better",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-37-002-001"
+            },
+            {
+              "type": "text",
+              "text": " some breakfast."
             }
           ]
         },
@@ -1818,7 +2546,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then we saw a Christmas tree right outside of the famous Macy's."
+              "text": "Then we saw a Christmas tree "
+            },
+            {
+              "type": "usage",
+              "text": "right",
+              "targetId": "usage-right-right-now-right",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-37-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "outside",
+              "targetId": "word-outside",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-37-004-002"
+            },
+            {
+              "type": "text",
+              "text": " of the famous Macy's."
             }
           ]
         }
@@ -1896,7 +2644,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, my sister and I decided to visit every spot that he visits in the movie, starting with these doors."
+              "text": "So, my "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-39-002-001"
+            },
+            {
+              "type": "text",
+              "text": " and I decided to visit every spot that he visits in the movie, starting with these doors."
             }
           ]
         },
@@ -2043,7 +2801,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "He showed me the cookie to make sure it was up to my standard."
+              "text": "He showed me the cookie to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-make-mistakes",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-42-002-001"
+            },
+            {
+              "type": "text",
+              "text": " sure it was up to my standard."
             }
           ]
         },
@@ -2092,7 +2860,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'm going to try it."
+              "text": "I'm "
+            },
+            {
+              "type": "phrase",
+              "text": "going to",
+              "targetId": "phrase-going-to",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-43-002-001"
+            },
+            {
+              "type": "text",
+              "text": " try it."
             }
           ]
         },
@@ -2278,7 +3056,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That was better than I thought it was going to be."
+              "text": "That was better than I thought it was "
+            },
+            {
+              "type": "phrase",
+              "text": "going to",
+              "targetId": "phrase-going-to",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-47-001-001"
+            },
+            {
+              "type": "text",
+              "text": " be."
             }
           ]
         },
@@ -2337,7 +3125,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "All right, see you guys in the next episode."
+              "text": "All "
+            },
+            {
+              "type": "usage",
+              "text": "right",
+              "targetId": "usage-right-right-now-right",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-48-002-001"
+            },
+            {
+              "type": "text",
+              "text": ", see you guys in the next episode."
             }
           ]
         },
@@ -2396,7 +3194,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then there was a meal right in front of us."
+              "text": "Then there was a meal "
+            },
+            {
+              "type": "usage",
+              "text": "right",
+              "targetId": "usage-right-right-now-right",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-49-003-001"
+            },
+            {
+              "type": "text",
+              "text": " in front of us."
             }
           ]
         },
@@ -2405,8 +3213,34 @@
           "tc": "講者繼續分享自己的英文學習與生活經驗。",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Right",
+              "targetId": "usage-right-right-now-right",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-49-004-001"
+            },
+            {
               "type": "text",
-              "text": "Right in front of where my sister and I were taking pictures, but they left so much food."
+              "text": " in front of where my "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-49-004-002"
+            },
+            {
+              "type": "text",
+              "text": " and I were taking pictures, "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-49-004-003"
+            },
+            {
+              "type": "text",
+              "text": " they left so much food."
             }
           ]
         }
@@ -2444,8 +3278,14 @@
           "tc": "講者繼續分享自己的英文學習與生活經驗。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "But",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-50-003-001"
+            },
+            {
               "type": "text",
-              "text": "But most of all, it's a waste of food."
+              "text": " most of all, it's a waste of food."
             }
           ]
         },
@@ -2474,7 +3314,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "People can judge me, but I don't care."
+              "text": "People can judge me, "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-51-001-001"
+            },
+            {
+              "type": "text",
+              "text": " I don't care."
             }
           ]
         },
@@ -2553,7 +3403,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I've never been GROSSED OUT by other people's food or drinks."
+              "text": "I've never "
+            },
+            {
+              "type": "word",
+              "text": "been",
+              "targetId": "word-been",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-52-004-001"
+            },
+            {
+              "type": "text",
+              "text": " GROSSED OUT by other people's food or drinks."
             }
           ]
         }
@@ -2572,7 +3432,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I obviously don't eat anything on the street that people leave, but usually at a restaurant or my house, I just hate wastefulness."
+              "text": "I obviously don't eat anything on the street that people leave, "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-53-001-001"
+            },
+            {
+              "type": "text",
+              "text": " usually at a restaurant or my house, I just hate wastefulness."
             }
           ]
         },
@@ -2582,7 +3452,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I hate wasteful, ungrateful people because at the end of the day, there is someone out there that would do anything for what you have."
+              "text": "I hate wasteful, ungrateful people because "
+            },
+            {
+              "type": "phrase",
+              "text": "at the end of",
+              "targetId": "phrase-at-the-end-of",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-53-002-001"
+            },
+            {
+              "type": "text",
+              "text": " the day, there is someone out there that would do anything for what you have."
             }
           ]
         },
@@ -2778,7 +3658,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Christmas was a long time ago, but I hope you enjoyed."
+              "text": "Christmas was a long time ago, "
+            },
+            {
+              "type": "word",
+              "text": "but",
+              "targetId": "word-but",
+              "instanceId": "marker-b2-ch14-learn-english-in-nyc-slow-english-vlog-scene-57-002-001"
+            },
+            {
+              "type": "text",
+              "text": " I hope you enjoyed."
             }
           ]
         },
@@ -3063,5 +3953,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b2",
+    "slug": "ch14-learn-english-in-nyc-slow-english-vlog",
+    "sourcePath": "_private/tmp/originalContent/b2/ch14-learn-english-in-nyc-slow-english-vlog.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b2/ch14-learn-english-in-nyc-slow-english-vlog.md"
+  }
 }

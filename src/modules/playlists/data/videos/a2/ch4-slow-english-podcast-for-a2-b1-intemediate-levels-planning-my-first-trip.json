@@ -1012,7 +1012,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I asked, \"Do you know where this hostel is?\""
+              "text": "I asked, \"Do you know where this "
+            },
+            {
+              "type": "word",
+              "text": "hostel",
+              "targetId": "word-hostel",
+              "instanceId": "marker-a2-ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip-scene-13-004-001"
+            },
+            {
+              "type": "text",
+              "text": " is?\""
             }
           ]
         }
@@ -1584,7 +1594,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you enjoy swimming in cold water, or do you prefer to swim in warm water?"
+              "text": "Do you enjoy swimming in "
+            },
+            {
+              "type": "usage",
+              "text": "cold",
+              "targetId": "usage-cold-item",
+              "instanceId": "marker-a2-ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip-scene-21-003-001"
+            },
+            {
+              "type": "text",
+              "text": " water, or do you prefer to swim in warm water?"
             }
           ]
         },
@@ -3160,5 +3180,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip",
+    "sourcePath": "_private/tmp/originalContent/a2/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.md"
+  }
 }

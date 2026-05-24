@@ -221,7 +221,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I feel hopeful when my favorite song comes on just when I need it."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch29-what-you-taught-me-about-hope-slow-english-listening-scene-04-001-001"
+            },
+            {
+              "type": "text",
+              "text": " hopeful when my favorite song comes on just when I need it."
             }
           ]
         },
@@ -251,7 +261,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When you feel like all hope is lost, dance, sing, observe, appreciate, learn, express and love."
+              "text": "When you "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch29-what-you-taught-me-about-hope-slow-english-listening-scene-04-004-001"
+            },
+            {
+              "type": "text",
+              "text": " like all hope is lost, dance, sing, observe, appreciate, learn, express and love."
             }
           ]
         }
@@ -339,7 +359,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I hope you have the best day today."
+              "text": "I hope you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch29-what-you-taught-me-about-hope-slow-english-listening-scene-06-002-001"
+            },
+            {
+              "type": "text",
+              "text": " the best day today."
             }
           ]
         },
@@ -595,7 +625,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "As some of you know, I have an English community where we learn together, we speak together, and we support each other."
+              "text": "As some of you know, I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch29-what-you-taught-me-about-hope-slow-english-listening-scene-10-004-001"
+            },
+            {
+              "type": "text",
+              "text": " an English community where we learn together, we speak together, and we support each other."
             }
           ]
         }
@@ -1111,5 +1151,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch29-what-you-taught-me-about-hope-slow-english-listening",
+    "sourcePath": "_private/tmp/originalContent/a2/ch29-what-you-taught-me-about-hope-slow-english-listening.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch29-what-you-taught-me-about-hope-slow-english-listening.md"
+  }
 }

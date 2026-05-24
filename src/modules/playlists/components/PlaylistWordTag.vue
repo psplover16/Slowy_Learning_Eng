@@ -40,7 +40,5 @@ defineProps<{
   returnTestId?: string
 }>()
 
-defineEmits<{
-  (e: 'return-to-marker'): void
-}>()
+defineEmits(['return-to-marker'])
 </script>

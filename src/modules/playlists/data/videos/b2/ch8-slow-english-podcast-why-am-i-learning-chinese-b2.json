@@ -1088,7 +1088,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I found the best podcasts for listening practice."
+              "text": "I found the best podcasts for listening "
+            },
+            {
+              "type": "word",
+              "text": "practice",
+              "targetId": "word-practice",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-scene-15-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1777,5 +1787,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b2",
+    "slug": "ch8-slow-english-podcast-why-am-i-learning-chinese-b2",
+    "sourcePath": "_private/tmp/originalContent/b2/ch8-slow-english-podcast-why-am-i-learning-chinese-b2.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b2/ch8-slow-english-podcast-why-am-i-learning-chinese-b2.md"
+  }
 }

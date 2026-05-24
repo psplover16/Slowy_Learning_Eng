@@ -689,7 +689,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you like dancing?"
+              "text": "Do you "
+            },
+            {
+              "type": "usage",
+              "text": "like",
+              "targetId": "usage-like-item",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-scene-06-003-001"
+            },
+            {
+              "type": "text",
+              "text": " dancing?"
             }
           ]
         },
@@ -1546,5 +1556,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch7-slow-english-podcast-for-beginners-talking-about-goals",
+    "sourcePath": "_private/tmp/originalContent/a1/ch7-slow-english-podcast-for-beginners-talking-about-goals.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch7-slow-english-podcast-for-beginners-talking-about-goals.md"
+  }
 }

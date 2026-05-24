@@ -222,7 +222,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have not had so much energy lately."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-03-004-001"
+            },
+            {
+              "type": "text",
+              "text": " not had so much "
+            },
+            {
+              "type": "word",
+              "text": "energy",
+              "targetId": "word-energy",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-03-004-002"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "lately",
+              "targetId": "word-lately",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-03-004-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -281,7 +311,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "As long as I get a good night of sleep, I think everything else will be perfect."
+              "text": "As long as I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-04-003-001"
+            },
+            {
+              "type": "text",
+              "text": " a good night of sleep, I think everything else will be perfect."
             }
           ]
         },
@@ -320,7 +360,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I could sleep in late because I did not have work."
+              "text": "I could "
+            },
+            {
+              "type": "phrase",
+              "text": "sleep in",
+              "targetId": "phrase-sleep-in",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-05-001-001"
+            },
+            {
+              "type": "text",
+              "text": " late because I did not "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-05-001-002"
+            },
+            {
+              "type": "text",
+              "text": " work."
             }
           ]
         },
@@ -330,7 +390,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Otherwise, I normally get up at 8 a.m. to teach every morning."
+              "text": "Otherwise, I normally "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-05-002-001"
+            },
+            {
+              "type": "text",
+              "text": " up at 8 a.m. to teach every morning."
             }
           ]
         },
@@ -360,7 +430,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Sometimes it is difficult for me to fall asleep at night."
+              "text": "Sometimes it is difficult for me to "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-05-004-001"
+            },
+            {
+              "type": "text",
+              "text": " at night."
             }
           ]
         }
@@ -389,7 +469,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But sometimes I cannot fall asleep."
+              "text": "But sometimes I cannot "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-06-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -399,7 +489,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It is especially frustrating when I have an early class in the morning."
+              "text": "It is especially frustrating when I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-06-003-001"
+            },
+            {
+              "type": "text",
+              "text": " an early class in the morning."
             }
           ]
         },
@@ -468,7 +568,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If I do not get my full eight hours of sleep, I feel very tired."
+              "text": "If I do not "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-07-003-001"
+            },
+            {
+              "type": "text",
+              "text": " my full eight hours of sleep, I feel very tired."
             }
           ]
         },
@@ -497,7 +607,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you get enough sleep?"
+              "text": "Do you "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-08-001-001"
+            },
+            {
+              "type": "text",
+              "text": " enough sleep?"
             }
           ]
         },
@@ -586,7 +706,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I like to take naps if I did not get a good night of sleep."
+              "text": "I like to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-09-004-001"
+            },
+            {
+              "type": "text",
+              "text": " naps if I did not "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-09-004-002"
+            },
+            {
+              "type": "text",
+              "text": " a good night of sleep."
             }
           ]
         }
@@ -635,7 +775,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Or do naps make you feel more sleepy?"
+              "text": "Or do naps "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-10-003-001"
+            },
+            {
+              "type": "text",
+              "text": " you feel more "
+            },
+            {
+              "type": "word",
+              "text": "sleepy",
+              "targetId": "word-sleepy",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-10-003-002"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -645,7 +805,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I can take a 20-minute nap, and I will feel better."
+              "text": "I can "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-10-004-001"
+            },
+            {
+              "type": "text",
+              "text": " a 20-minute nap, and I will feel better."
             }
           ]
         }
@@ -664,7 +834,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But if I take a 40-minute nap, I end up feeling more tired than I did before."
+              "text": "But if I "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-11-001-001"
+            },
+            {
+              "type": "text",
+              "text": " a 40-minute nap, I end up feeling more tired than I did before."
             }
           ]
         },
@@ -674,7 +854,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am so jealous of people who can fall asleep easily."
+              "text": "I am so jealous of people who can "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-11-002-001"
+            },
+            {
+              "type": "text",
+              "text": " easily."
             }
           ]
         },
@@ -684,7 +874,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Some people can fall asleep so quickly, in a matter of minutes."
+              "text": "Some people can "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-11-003-001"
+            },
+            {
+              "type": "text",
+              "text": " so quickly, in a matter of minutes."
             }
           ]
         },
@@ -723,7 +923,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I wish I could fall asleep that fast."
+              "text": "I wish I could "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " that fast."
             }
           ]
         },
@@ -743,7 +953,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Can you fall asleep easily?"
+              "text": "Can you "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-12-004-001"
+            },
+            {
+              "type": "text",
+              "text": " easily?"
             }
           ]
         }
@@ -762,7 +982,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Or do you take more time to fall asleep?"
+              "text": "Or do you "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-13-001-001"
+            },
+            {
+              "type": "text",
+              "text": " more time to "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-13-001-002"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -772,7 +1012,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I normally have to stop watching my phone or a screen about 30 minutes before I go to sleep."
+              "text": "I normally "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-13-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to stop watching my phone or a screen about 30 minutes before I go to sleep."
             }
           ]
         },
@@ -811,7 +1061,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When I am sick, maybe I have a cough or I am feeling congested."
+              "text": "When I am sick, maybe I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-14-001-001"
+            },
+            {
+              "type": "text",
+              "text": " a cough or I am feeling congested."
             }
           ]
         },
@@ -821,7 +1081,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I take medication to help with my sickness."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-14-002-001"
+            },
+            {
+              "type": "text",
+              "text": " medication to help with my sickness."
             }
           ]
         },
@@ -831,7 +1101,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The medication also helps me fall asleep."
+              "text": "The medication also helps me "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-14-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1066,7 +1346,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "People can get scared when I am talking alone at night."
+              "text": "People can "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-19-002-001"
+            },
+            {
+              "type": "text",
+              "text": " scared when I am talking alone at night."
             }
           ]
         },
@@ -1426,5 +1716,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary",
+    "sourcePath": "_private/tmp/originalContent/a2/ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch8-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.md"
+  }
 }

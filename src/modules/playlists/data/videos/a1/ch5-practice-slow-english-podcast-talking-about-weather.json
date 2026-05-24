@@ -94,7 +94,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I like hot weather."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "like",
+              "targetId": "usage-like-item",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-01-003-001"
+            },
+            {
+              "type": "text",
+              "text": " hot weather."
             }
           ]
         },
@@ -203,7 +213,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "On sunny days, I like to read outside."
+              "text": "On sunny days, I "
+            },
+            {
+              "type": "usage",
+              "text": "like",
+              "targetId": "usage-like-item",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-02-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to read outside."
             }
           ]
         }
@@ -222,7 +242,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you like sunny days?"
+              "text": "Do you "
+            },
+            {
+              "type": "usage",
+              "text": "like",
+              "targetId": "usage-like-item",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-03-001-001"
+            },
+            {
+              "type": "text",
+              "text": " sunny days?"
             }
           ]
         },
@@ -242,7 +272,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I like rainy days."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "like",
+              "targetId": "usage-like-item",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-03-003-001"
+            },
+            {
+              "type": "text",
+              "text": " rainy days."
             }
           ]
         },
@@ -321,7 +361,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What do you prefer: to stay inside or go outside when it's rainy?"
+              "text": "What do you "
+            },
+            {
+              "type": "word",
+              "text": "prefer",
+              "targetId": "word-prefer",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-04-003-001"
+            },
+            {
+              "type": "text",
+              "text": ": to "
+            },
+            {
+              "type": "phrase",
+              "text": "stay inside",
+              "targetId": "phrase-stay-inside",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-04-003-002"
+            },
+            {
+              "type": "text",
+              "text": " or "
+            },
+            {
+              "type": "phrase",
+              "text": "go outside",
+              "targetId": "phrase-go-outside",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-04-003-003"
+            },
+            {
+              "type": "text",
+              "text": " when it's rainy?"
             }
           ]
         },
@@ -331,7 +401,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I stay inside."
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "stay inside",
+              "targetId": "phrase-stay-inside",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-04-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -420,7 +500,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you like rainy days?"
+              "text": "Do you "
+            },
+            {
+              "type": "usage",
+              "text": "like",
+              "targetId": "usage-like-item",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-05-004-001"
+            },
+            {
+              "type": "text",
+              "text": " rainy days?"
             }
           ]
         }
@@ -439,7 +529,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What do you usually do on rainy days?"
+              "text": "What do you "
+            },
+            {
+              "type": "word",
+              "text": "usually",
+              "targetId": "word-usually",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-06-001-001"
+            },
+            {
+              "type": "text",
+              "text": " do on rainy days?"
             }
           ]
         },
@@ -469,7 +569,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "On windy days, the wind is so strong."
+              "text": "On "
+            },
+            {
+              "type": "word",
+              "text": "windy",
+              "targetId": "word-windy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-06-003-001"
+            },
+            {
+              "type": "text",
+              "text": " days, the wind is so strong."
             }
           ]
         },
@@ -518,7 +628,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I prefer to stay inside on windy days."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "prefer",
+              "targetId": "word-prefer",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-07-001-001"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "phrase",
+              "text": "stay inside",
+              "targetId": "phrase-stay-inside",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-07-001-002"
+            },
+            {
+              "type": "text",
+              "text": " on "
+            },
+            {
+              "type": "word",
+              "text": "windy",
+              "targetId": "word-windy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-07-001-003"
+            },
+            {
+              "type": "text",
+              "text": " days."
             }
           ]
         },
@@ -528,7 +668,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you like windy days?"
+              "text": "Do you "
+            },
+            {
+              "type": "usage",
+              "text": "like",
+              "targetId": "usage-like-item",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-07-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "windy",
+              "targetId": "word-windy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-07-002-002"
+            },
+            {
+              "type": "text",
+              "text": " days?"
             }
           ]
         },
@@ -538,7 +698,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What can you do on windy days?"
+              "text": "What can you do on "
+            },
+            {
+              "type": "word",
+              "text": "windy",
+              "targetId": "word-windy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-07-003-001"
+            },
+            {
+              "type": "text",
+              "text": " days?"
             }
           ]
         },
@@ -696,7 +866,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you like snowy days?"
+              "text": "Do you "
+            },
+            {
+              "type": "usage",
+              "text": "like",
+              "targetId": "usage-like-item",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-09-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "snowy",
+              "targetId": "word-snowy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-09-001-002"
+            },
+            {
+              "type": "text",
+              "text": " days?"
             }
           ]
         },
@@ -706,7 +896,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What can you do on snowy days?"
+              "text": "What can you do on "
+            },
+            {
+              "type": "word",
+              "text": "snowy",
+              "targetId": "word-snowy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-09-002-001"
+            },
+            {
+              "type": "text",
+              "text": " days?"
             }
           ]
         },
@@ -755,7 +955,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I love the heat."
+              "text": "I love the "
+            },
+            {
+              "type": "word",
+              "text": "heat",
+              "targetId": "word-heat",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-10-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -765,7 +975,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What are your favorite days?"
+              "text": "What are your "
+            },
+            {
+              "type": "word",
+              "text": "favorite",
+              "targetId": "word-favorite",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-10-002-001"
+            },
+            {
+              "type": "text",
+              "text": " days?"
             }
           ]
         },
@@ -775,7 +995,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What is your favorite weather?"
+              "text": "What is your "
+            },
+            {
+              "type": "word",
+              "text": "favorite",
+              "targetId": "word-favorite",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-10-003-001"
+            },
+            {
+              "type": "text",
+              "text": " weather?"
             }
           ]
         },
@@ -785,7 +1015,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "In my city, we don't have snowy days."
+              "text": "In my city, we don't have "
+            },
+            {
+              "type": "word",
+              "text": "snowy",
+              "targetId": "word-snowy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-10-004-001"
+            },
+            {
+              "type": "text",
+              "text": " days."
             }
           ]
         }
@@ -834,7 +1074,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "In Nebraska, it is snowy."
+              "text": "In Nebraska, it is "
+            },
+            {
+              "type": "word",
+              "text": "snowy",
+              "targetId": "word-snowy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-11-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -844,7 +1094,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It is very snowy in the winter."
+              "text": "It is very "
+            },
+            {
+              "type": "word",
+              "text": "snowy",
+              "targetId": "word-snowy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-11-004-001"
+            },
+            {
+              "type": "text",
+              "text": " in the winter."
             }
           ]
         }
@@ -863,7 +1123,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you have snowy days in your city?"
+              "text": "Do you have "
+            },
+            {
+              "type": "word",
+              "text": "snowy",
+              "targetId": "word-snowy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-12-001-001"
+            },
+            {
+              "type": "text",
+              "text": " days in your city?"
             }
           ]
         },
@@ -873,7 +1143,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "In my city, it is also very windy."
+              "text": "In my city, it is also very "
+            },
+            {
+              "type": "word",
+              "text": "windy",
+              "targetId": "word-windy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -998,7 +1278,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Is it sunny, rainy, windy, snowy, or dry?"
+              "text": "Is it sunny, rainy, "
+            },
+            {
+              "type": "word",
+              "text": "windy",
+              "targetId": "word-windy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-13-004-001"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "snowy",
+              "targetId": "word-snowy",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-13-004-002"
+            },
+            {
+              "type": "text",
+              "text": ", or "
+            },
+            {
+              "type": "word",
+              "text": "dry",
+              "targetId": "word-dry",
+              "instanceId": "marker-a1-ch5-practice-slow-english-podcast-talking-about-weather-scene-13-004-003"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         }
@@ -1570,5 +1880,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch5-practice-slow-english-podcast-talking-about-weather",
+    "sourcePath": "_private/tmp/originalContent/a1/ch5-practice-slow-english-podcast-talking-about-weather.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch5-practice-slow-english-podcast-talking-about-weather.md"
+  }
 }

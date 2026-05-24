@@ -776,7 +776,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "A bloco is a little party on the streets in Brazil."
+              "text": "A "
+            },
+            {
+              "type": "word",
+              "text": "bloco",
+              "targetId": "word-bloco",
+              "instanceId": "marker-b1-ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input-scene-09-002-001"
+            },
+            {
+              "type": "text",
+              "text": " is a little party on the streets in Brazil."
             }
           ]
         },
@@ -2192,7 +2202,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What's a tasty dish from your country?"
+              "text": "What's a tasty "
+            },
+            {
+              "type": "word",
+              "text": "dish",
+              "targetId": "word-dish",
+              "instanceId": "marker-b1-ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input-scene-23-002-001"
+            },
+            {
+              "type": "text",
+              "text": " from your country?"
             }
           ]
         },
@@ -2500,7 +2520,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I bought a bikini, some souvenirs, and some delicious food."
+              "text": "And I bought a "
+            },
+            {
+              "type": "word",
+              "text": "bikini",
+              "targetId": "word-bikini",
+              "instanceId": "marker-b1-ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input-scene-25-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", some "
+            },
+            {
+              "type": "word",
+              "text": "souvenirs",
+              "targetId": "word-souvenir",
+              "instanceId": "marker-b1-ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input-scene-25-003-002"
+            },
+            {
+              "type": "text",
+              "text": ", and some "
+            },
+            {
+              "type": "word",
+              "text": "delicious",
+              "targetId": "word-delicious",
+              "instanceId": "marker-b1-ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input-scene-25-003-003"
+            },
+            {
+              "type": "text",
+              "text": " food."
             }
           ]
         },
@@ -2912,7 +2962,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Listen to this podcast every day to try and practice listening and repeating new words that you heard in this video."
+              "text": "Listen to this "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-b1-ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input-scene-29-004-001"
+            },
+            {
+              "type": "text",
+              "text": " every day to try and practice listening and repeating new words that you heard in this video."
             }
           ]
         }
@@ -4376,5 +4436,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input",
+    "sourcePath": "_private/tmp/originalContent/b1/ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch6-my-trip-to-brazil-slow-english-podcast-for-high-beginners-a2-b1-comprehensible-input.md"
+  }
 }

@@ -1429,7 +1429,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I take bites."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-scene-16-001-001"
+            },
+            {
+              "type": "text",
+              "text": " bites."
             }
           ]
         },
@@ -1567,7 +1577,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "One of them was a Harry Potter Ravenclaw donut."
+              "text": "One of them was a Harry Potter Ravenclaw "
+            },
+            {
+              "type": "word",
+              "text": "donut",
+              "targetId": "word-donut",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2141,7 +2161,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I walked through the entrance."
+              "text": "I walked "
+            },
+            {
+              "type": "usage",
+              "text": "through",
+              "targetId": "usage-through-item",
+              "instanceId": "marker-b1-ch16-slow-english-podcast-my-trip-to-mexico-city-scene-24-002-001"
+            },
+            {
+              "type": "text",
+              "text": " the entrance."
             }
           ]
         },
@@ -4076,5 +4106,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch16-slow-english-podcast-my-trip-to-mexico-city",
+    "sourcePath": "_private/tmp/originalContent/b1/ch16-slow-english-podcast-my-trip-to-mexico-city.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch16-slow-english-podcast-my-trip-to-mexico-city.md"
+  }
 }

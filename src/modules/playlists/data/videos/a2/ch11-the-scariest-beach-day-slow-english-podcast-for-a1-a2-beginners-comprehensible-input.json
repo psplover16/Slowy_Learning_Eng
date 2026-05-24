@@ -555,7 +555,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "In the face or water in my nose, but I would get out of the wave and begin swimming with all of my might and all of my strength."
+              "text": "In the face or water in my nose, but I would "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-scene-10-003-001"
+            },
+            {
+              "type": "text",
+              "text": " out of the wave and begin swimming with all of my might and all of my strength."
             }
           ]
         },
@@ -594,7 +604,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I would get out and swim."
+              "text": "And I would "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-scene-11-002-001"
+            },
+            {
+              "type": "text",
+              "text": " out and swim."
             }
           ]
         },
@@ -653,7 +673,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "He was yelling, \"Hey, you need to get out of there."
+              "text": "He was yelling, \"Hey, you need to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-scene-12-003-001"
+            },
+            {
+              "type": "text",
+              "text": " out of there."
             }
           ]
         },
@@ -741,7 +771,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You have to respect the ocean and you have to always be careful."
+              "text": "You "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-scene-14-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to respect the ocean and you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-scene-14-002-002"
+            },
+            {
+              "type": "text",
+              "text": " to always be careful."
             }
           ]
         },
@@ -898,7 +948,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "How often do you have leftovers?"
+              "text": "How often do you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-scene-17-001-001"
+            },
+            {
+              "type": "text",
+              "text": " leftovers?"
             }
           ]
         },
@@ -918,7 +978,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Sometimes it's a little annoying to take my leftovers with me and carry them and walk with them."
+              "text": "Sometimes it's a little annoying to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-scene-17-003-001"
+            },
+            {
+              "type": "text",
+              "text": " my leftovers with me and carry them and walk with them."
             }
           ]
         },
@@ -947,7 +1017,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So I always take my leftovers with me."
+              "text": "So I always "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": " my leftovers with me."
             }
           ]
         },
@@ -1134,7 +1214,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I decided to go for a run."
+              "text": "I decided "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-scene-21-004-001"
+            },
+            {
+              "type": "text",
+              "text": " for a run."
             }
           ]
         }
@@ -1251,7 +1341,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I ate while I finished some work and I wrote some new scripts for my slow English podcast and I did some yoga with my friend."
+              "text": "So, I ate while I finished some work and I wrote some new scripts for my "
+            },
+            {
+              "type": "phrase",
+              "text": "slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-scene-24-001-001"
+            },
+            {
+              "type": "text",
+              "text": " and I did some yoga with my friend."
             }
           ]
         },
@@ -1458,7 +1558,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "How did you get past that negative feeling?"
+              "text": "How did you "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-scene-27-003-001"
+            },
+            {
+              "type": "text",
+              "text": " past that negative feeling?"
             }
           ]
         },
@@ -1468,7 +1578,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Thank you for listening to my Slow English podcast and I'll see you next time."
+              "text": "Thank you for listening to my "
+            },
+            {
+              "type": "phrase",
+              "text": "Slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-scene-27-004-001"
+            },
+            {
+              "type": "text",
+              "text": " and I'll see you next time."
             }
           ]
         }
@@ -1671,5 +1791,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input",
+    "sourcePath": "_private/tmp/originalContent/a2/ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input.md"
+  }
 }

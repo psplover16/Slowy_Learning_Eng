@@ -1778,7 +1778,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We also took care of the mama turtles."
+              "text": "We also "
+            },
+            {
+              "type": "phrase",
+              "text": "took care of",
+              "targetId": "phrase-took-care-of",
+              "instanceId": "marker-b1-ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip-scene-23-001-001"
+            },
+            {
+              "type": "text",
+              "text": " the mama turtles."
             }
           ]
         },
@@ -1788,7 +1798,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We made sure nobody bothered them."
+              "text": "We "
+            },
+            {
+              "type": "phrase",
+              "text": "made sure",
+              "targetId": "phrase-made-sure",
+              "instanceId": "marker-b1-ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip-scene-23-002-001"
+            },
+            {
+              "type": "text",
+              "text": " nobody bothered them."
             }
           ]
         },
@@ -2887,5 +2907,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip",
+    "sourcePath": "_private/tmp/originalContent/b1/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch4-slow-english-podcast-for-a2-b1-intemediate-levels-planning-my-first-trip.md"
+  }
 }

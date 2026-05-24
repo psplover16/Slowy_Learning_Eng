@@ -212,7 +212,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't like to wake up too early."
+              "text": "I don't like to "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-03-002-001"
+            },
+            {
+              "type": "text",
+              "text": " too early."
             }
           ]
         },
@@ -222,7 +232,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I wake up around 9 or 10:00."
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-03-003-001"
+            },
+            {
+              "type": "text",
+              "text": " around 9 or 10:00."
             }
           ]
         },
@@ -261,7 +281,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I think 9 to 10 is the perfect time to wake up on the weekends."
+              "text": "So, I think 9 to 10 is the perfect time to "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-04-002-001"
+            },
+            {
+              "type": "text",
+              "text": " on the weekends."
             }
           ]
         },
@@ -379,7 +409,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I usually have just eggs for breakfast."
+              "text": "I usually "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-06-002-001"
+            },
+            {
+              "type": "text",
+              "text": " just eggs for breakfast."
             }
           ]
         },
@@ -438,7 +478,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Sometimes eggs in a tortilla with salsa is what I'll have for breakfast."
+              "text": "Sometimes eggs in a tortilla with salsa is what I'll "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-07-002-001"
+            },
+            {
+              "type": "text",
+              "text": " for breakfast."
             }
           ]
         },
@@ -526,7 +576,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I drink smoothies if I have time or sometimes coffee."
+              "text": "I drink smoothies if I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-09-001-001"
+            },
+            {
+              "type": "text",
+              "text": " time or sometimes coffee."
             }
           ]
         },
@@ -536,7 +596,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you like to have slow mornings or busy, productive mornings over the weekend?"
+              "text": "Do you like to "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-09-002-001"
+            },
+            {
+              "type": "text",
+              "text": " slow mornings or busy, productive mornings over the weekend?"
             }
           ]
         },
@@ -546,7 +616,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I prefer to have slow mornings, but I like to keep my afternoons busy."
+              "text": "I prefer to "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-09-003-001"
+            },
+            {
+              "type": "text",
+              "text": " slow mornings, but I like to keep my afternoons busy."
             }
           ]
         },
@@ -556,7 +636,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So after breakfast, I usually try to either stretch or exercise or do yoga as a slow morning routine."
+              "text": "So after breakfast, I usually try to either stretch or exercise or do yoga as a slow morning "
+            },
+            {
+              "type": "word",
+              "text": "routine",
+              "targetId": "word-routine",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-09-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -752,7 +842,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "In the afternoon, I like to go to the park, but I stay out of the sun because my skin is very sensitive."
+              "text": "In the afternoon, I like "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-13-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to the park, but I stay out of the sun because my skin is very sensitive."
             }
           ]
         },
@@ -762,7 +862,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I either try to go outside in the shade or I stay inside in my house."
+              "text": "So, I either try "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-13-003-001"
+            },
+            {
+              "type": "text",
+              "text": " outside in the shade or I stay inside in my house."
             }
           ]
         },
@@ -791,7 +901,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And a question I have for you is, do you clean your house over the weekend?"
+              "text": "And a question I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-14-001-001"
+            },
+            {
+              "type": "text",
+              "text": " for you is, do you clean your house over the weekend?"
             }
           ]
         },
@@ -811,7 +931,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think the weekend is when I have the most time during my week."
+              "text": "I think the weekend is when I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-14-003-001"
+            },
+            {
+              "type": "text",
+              "text": " the most time during my week."
             }
           ]
         },
@@ -958,7 +1088,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "In the evening, I eat dinner and I normally like to take my time cooking at home because I have spare time."
+              "text": "In the evening, I eat dinner and I normally like to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-17-002-001"
+            },
+            {
+              "type": "text",
+              "text": " my time cooking at home because I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-17-002-002"
+            },
+            {
+              "type": "text",
+              "text": " spare time."
             }
           ]
         },
@@ -1076,7 +1226,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What about your evening routine on the weekends?"
+              "text": "What about your evening "
+            },
+            {
+              "type": "word",
+              "text": "routine",
+              "targetId": "word-routine",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-19-002-001"
+            },
+            {
+              "type": "text",
+              "text": " on the weekends?"
             }
           ]
         },
@@ -1125,7 +1285,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Those are our weekend routines."
+              "text": "Those are our weekend "
+            },
+            {
+              "type": "word",
+              "text": "routines",
+              "targetId": "word-routine",
+              "instanceId": "marker-a2-ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines-scene-20-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1427,5 +1597,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines",
+    "sourcePath": "_private/tmp/originalContent/a2/ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch14-learn-english-with-slow-conversations-comprehensible-input-a1-weekend-routines.md"
+  }
 }

@@ -917,8 +917,14 @@
           "tc": "真的。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Definitely",
+              "targetId": "word-definitely",
+              "instanceId": "marker-b1-ch11-slow-english-podcast-for-high-beginners-a2-b1-my-trip-to-the-usa-comprehensible-input-scene-09-004-001"
+            },
+            {
               "type": "text",
-              "text": "Definitely."
+              "text": "."
             }
           ]
         }
@@ -2341,5 +2347,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch11-slow-english-podcast-for-high-beginners-a2-b1-my-trip-to-the-usa-comprehensible-input",
+    "sourcePath": "_private/tmp/originalContent/b1/ch11-slow-english-podcast-for-high-beginners-a2-b1-my-trip-to-the-usa-comprehensible-input.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch11-slow-english-podcast-for-high-beginners-a2-b1-my-trip-to-the-usa-comprehensible-input.md"
+  }
 }

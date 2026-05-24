@@ -559,7 +559,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "When we use background, it's usually for your past experience with jobs or studies."
+              "text": "When we use "
+            },
+            {
+              "type": "usage",
+              "text": "background",
+              "targetId": "usage-background-item",
+              "instanceId": "marker-b1-ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice-scene-06-004-001"
+            },
+            {
+              "type": "text",
+              "text": ", it's usually for your past experience with jobs or studies."
             }
           ]
         }
@@ -726,7 +736,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I would love to teach English biology, English physics, or even English chemistry."
+              "text": "So, I would love to teach English biology, English "
+            },
+            {
+              "type": "word",
+              "text": "physics",
+              "targetId": "word-physics",
+              "instanceId": "marker-b1-ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice-scene-09-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", or even English chemistry."
             }
           ]
         },
@@ -934,7 +954,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What does it mean to be a thorough worker?"
+              "text": "What does it mean to be a "
+            },
+            {
+              "type": "word",
+              "text": "thorough",
+              "targetId": "word-thorough",
+              "instanceId": "marker-b1-ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice-scene-11-002-001"
+            },
+            {
+              "type": "text",
+              "text": " worker?"
             }
           ]
         },
@@ -1477,7 +1507,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I graduated with my physics degree, and I thought it was time to see what else is out there."
+              "text": "I graduated with my "
+            },
+            {
+              "type": "word",
+              "text": "physics",
+              "targetId": "word-physics",
+              "instanceId": "marker-b1-ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": " degree, and I thought it was time to see what else is out there."
             }
           ]
         },
@@ -1665,7 +1705,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And the night before, I went and I studied and I wrote and I recorded my presentation, and I got the best grade in the class."
+              "text": "And the night before, I went and I studied and I wrote and I recorded my "
+            },
+            {
+              "type": "word",
+              "text": "presentation",
+              "targetId": "word-presentation",
+              "instanceId": "marker-b1-ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice-scene-20-002-001"
+            },
+            {
+              "type": "text",
+              "text": ", and I got the best grade in the class."
             }
           ]
         },
@@ -2205,7 +2255,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I guess in five years, I'd like to explore more of my hobbies."
+              "text": "I guess in five years, I'd like to explore more of my "
+            },
+            {
+              "type": "word",
+              "text": "hobbies",
+              "targetId": "word-hobby",
+              "instanceId": "marker-b1-ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice-scene-26-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2452,7 +2512,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "In the United States, it's common and important to ask any questions you might have for the interviewer."
+              "text": "In the United States, it's common and important to ask any questions you might have for the "
+            },
+            {
+              "type": "word",
+              "text": "interviewer",
+              "targetId": "word-interviewer",
+              "instanceId": "marker-b1-ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice-scene-29-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -3798,5 +3868,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b1",
+    "slug": "ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice",
+    "sourcePath": "_private/tmp/originalContent/b1/ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b1/ch10-learn-english-with-slow-interviews-comprehensible-input-b1-interview-practice.md"
+  }
 }

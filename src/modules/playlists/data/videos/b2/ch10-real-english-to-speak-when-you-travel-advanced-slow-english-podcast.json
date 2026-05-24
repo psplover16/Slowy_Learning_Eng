@@ -23,8 +23,14 @@
           "tc": "歡迎回到我的慢速英語podcast。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "Welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-01-001-001"
+            },
+            {
               "type": "text",
-              "text": "Welcome back to my Slow English podcast."
+              "text": " to my Slow English podcast."
             }
           ]
         },
@@ -34,7 +40,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am visiting China right now."
+              "text": "I am visiting China "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-01-002-001"
+            },
+            {
+              "type": "text",
+              "text": " now."
             }
           ]
         },
@@ -44,7 +60,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If you didn't know,."
+              "text": "If you didn't "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-01-003-001"
+            },
+            {
+              "type": "text",
+              "text": ",."
             }
           ]
         },
@@ -83,7 +109,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I would actually need in China."
+              "text": "I would actually "
+            },
+            {
+              "type": "word",
+              "text": "need",
+              "targetId": "word-need",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-02-002-001"
+            },
+            {
+              "type": "text",
+              "text": " in China."
             }
           ]
         },
@@ -122,7 +158,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You sound natural, blend in, and even get those little compliments from locals."
+              "text": "You sound natural, blend in, and even get those "
+            },
+            {
+              "type": "word",
+              "text": "little",
+              "targetId": "word-little",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-03-001-001"
+            },
+            {
+              "type": "text",
+              "text": " compliments from locals."
             }
           ]
         },
@@ -171,7 +217,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You can speak to them, even just a little."
+              "text": "You can speak to them, even just a "
+            },
+            {
+              "type": "word",
+              "text": "little",
+              "targetId": "word-little",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-04-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -201,7 +257,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Finally understand the little phrases and just the way people here really speak."
+              "text": "Finally understand the "
+            },
+            {
+              "type": "word",
+              "text": "little",
+              "targetId": "word-little",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-04-004-001"
+            },
+            {
+              "type": "text",
+              "text": " phrases and just the way people here really speak."
             }
           ]
         }
@@ -240,7 +306,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My sister Brianna is going to help me walk through each scenario."
+              "text": "My sister Brianna is "
+            },
+            {
+              "type": "phrase",
+              "text": "going to",
+              "targetId": "phrase-going-to",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-05-003-001"
+            },
+            {
+              "type": "text",
+              "text": " help me walk through each scenario."
             }
           ]
         },
@@ -269,7 +345,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If you're ever lost and you need to ask for directions, you can say, \"Excuse me,."
+              "text": "If "
+            },
+            {
+              "type": "word",
+              "text": "you're",
+              "targetId": "word-you-re",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-06-001-001"
+            },
+            {
+              "type": "text",
+              "text": " ever lost and you "
+            },
+            {
+              "type": "word",
+              "text": "need",
+              "targetId": "word-need",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-06-001-002"
+            },
+            {
+              "type": "text",
+              "text": " to ask for directions, you can say, \"Excuse me,."
             }
           ]
         },
@@ -289,7 +385,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you know where this is?\""
+              "text": "Do you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-06-003-001"
+            },
+            {
+              "type": "text",
+              "text": " where this is?\""
             }
           ]
         },
@@ -299,7 +405,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Whatever you need to find."
+              "text": "Whatever you "
+            },
+            {
+              "type": "word",
+              "text": "need",
+              "targetId": "word-need",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-06-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to find."
             }
           ]
         }
@@ -328,7 +444,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you know where the ATM is?"
+              "text": "Do you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-07-002-001"
+            },
+            {
+              "type": "text",
+              "text": " where the ATM is?"
             }
           ]
         },
@@ -337,8 +463,14 @@
           "tc": "是的，沿著這條路走兩個街區就有一個。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Yes",
+              "targetId": "word-yes",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-07-003-001"
+            },
+            {
               "type": "text",
-              "text": "Yes, there's one two blocks down on this road."
+              "text": ", there's one two blocks down on this road."
             }
           ]
         },
@@ -436,7 +568,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you know where the ATM is?\""
+              "text": "Do you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-09-003-001"
+            },
+            {
+              "type": "text",
+              "text": " where the ATM is?\""
             }
           ]
         },
@@ -446,7 +588,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "A little longer, but a lot more natural."
+              "text": "A "
+            },
+            {
+              "type": "word",
+              "text": "little",
+              "targetId": "word-little",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-09-004-001"
+            },
+            {
+              "type": "text",
+              "text": " longer, but a lot more natural."
             }
           ]
         }
@@ -563,7 +715,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you know where the crispy cream is?"
+              "text": "Do you "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-12-001-001"
+            },
+            {
+              "type": "text",
+              "text": " where the crispy cream is?"
             }
           ]
         },
@@ -572,8 +734,14 @@
           "tc": "是的。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Yes",
+              "targetId": "word-yes",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-12-002-001"
+            },
+            {
               "type": "text",
-              "text": "Yes."
+              "text": "."
             }
           ]
         },
@@ -593,7 +761,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The second floor to your right."
+              "text": "The second floor to your "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-12-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -681,7 +859,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We're on the fifth floor, so you need to go down the escalator until you're on floor two."
+              "text": "We're on the fifth floor, so you "
+            },
+            {
+              "type": "word",
+              "text": "need",
+              "targetId": "word-need",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-14-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to go down the escalator until "
+            },
+            {
+              "type": "word",
+              "text": "you're",
+              "targetId": "word-you-re",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-14-003-002"
+            },
+            {
+              "type": "text",
+              "text": " on floor two."
             }
           ]
         },
@@ -759,7 +957,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I do right away."
+              "text": "I do "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-16-001-001"
+            },
+            {
+              "type": "text",
+              "text": " away."
             }
           ]
         },
@@ -838,7 +1046,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have a table for two, please?"
+              "text": "I have a table for two, "
+            },
+            {
+              "type": "word",
+              "text": "please",
+              "targetId": "word-please",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         }
@@ -856,8 +1074,14 @@
           "tc": "是的。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Yes",
+              "targetId": "word-yes",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-18-001-001"
+            },
+            {
               "type": "text",
-              "text": "Yes."
+              "text": "."
             }
           ]
         },
@@ -867,7 +1091,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Write this way, please."
+              "text": "Write this way, "
+            },
+            {
+              "type": "word",
+              "text": "please",
+              "targetId": "word-please",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-18-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -906,7 +1140,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We don't have a table available."
+              "text": "We "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-19-001-001"
+            },
+            {
+              "type": "text",
+              "text": " have a table available."
             }
           ]
         },
@@ -935,8 +1179,24 @@
           "tc": "是的，請放我下來。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Yes",
+              "targetId": "word-yes",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-19-004-001"
+            },
+            {
               "type": "text",
-              "text": "Yes, please put me down."
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "please",
+              "targetId": "word-please",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-19-004-002"
+            },
+            {
+              "type": "text",
+              "text": " put me down."
             }
           ]
         }
@@ -1024,7 +1284,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "\"Yes.\""
+              "text": "\""
+            },
+            {
+              "type": "word",
+              "text": "Yes",
+              "targetId": "word-yes",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-21-003-001"
+            },
+            {
+              "type": "text",
+              "text": ".\""
             }
           ]
         },
@@ -1083,7 +1353,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "\"Yes.\""
+              "text": "\""
+            },
+            {
+              "type": "word",
+              "text": "Yes",
+              "targetId": "word-yes",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-22-004-001"
+            },
+            {
+              "type": "text",
+              "text": ".\""
             }
           ]
         }
@@ -1112,7 +1392,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have a water, please?\""
+              "text": "I have a water, "
+            },
+            {
+              "type": "word",
+              "text": "please",
+              "targetId": "word-please",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-23-002-001"
+            },
+            {
+              "type": "text",
+              "text": "?\""
             }
           ]
         },
@@ -1161,7 +1451,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "\"Yes, just a little bit, please.\""
+              "text": "\""
+            },
+            {
+              "type": "word",
+              "text": "Yes",
+              "targetId": "word-yes",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-24-002-001"
+            },
+            {
+              "type": "text",
+              "text": ", just a "
+            },
+            {
+              "type": "word",
+              "text": "little",
+              "targetId": "word-little",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-24-002-002"
+            },
+            {
+              "type": "text",
+              "text": " bit, "
+            },
+            {
+              "type": "word",
+              "text": "please",
+              "targetId": "word-please",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-24-002-003"
+            },
+            {
+              "type": "text",
+              "text": ".\""
             }
           ]
         },
@@ -1259,7 +1579,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We use please."
+              "text": "We use "
+            },
+            {
+              "type": "word",
+              "text": "please",
+              "targetId": "word-please",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-26-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1279,7 +1609,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think a little more than other countries do."
+              "text": "I think a "
+            },
+            {
+              "type": "word",
+              "text": "little",
+              "targetId": "word-little",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-26-004-001"
+            },
+            {
+              "type": "text",
+              "text": " more than other countries do."
             }
           ]
         }
@@ -1297,8 +1637,24 @@
           "tc": "現在，假設你正在點快餐。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-27-001-001"
+            },
+            {
               "type": "text",
-              "text": "Right now, let's say you're ordering fast food."
+              "text": " now, let's say "
+            },
+            {
+              "type": "word",
+              "text": "you're",
+              "targetId": "word-you-re",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-27-001-002"
+            },
+            {
+              "type": "text",
+              "text": " ordering fast food."
             }
           ]
         },
@@ -1308,7 +1664,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That's a little bit different, right?"
+              "text": "That's a "
+            },
+            {
+              "type": "word",
+              "text": "little",
+              "targetId": "word-little",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-27-002-001"
+            },
+            {
+              "type": "text",
+              "text": " bit different, "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-27-002-002"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -1318,7 +1694,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You don't get served by someone. You have to go to the counter and order yourself. Ordering fast food. Good afternoon. May."
+              "text": "You "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-27-003-001"
+            },
+            {
+              "type": "text",
+              "text": " get served by someone. You have to go to the counter and order yourself. Ordering fast food. Good afternoon. May."
             }
           ]
         },
@@ -1347,7 +1733,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I get the double cheeseburger without pickles, please?"
+              "text": "I get the double cheeseburger without pickles, "
+            },
+            {
+              "type": "word",
+              "text": "please",
+              "targetId": "word-please",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-28-001-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -1376,8 +1772,24 @@
           "tc": "是的，請。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Yes",
+              "targetId": "word-yes",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-28-004-001"
+            },
+            {
               "type": "text",
-              "text": "Yes, please."
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "please",
+              "targetId": "word-please",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-28-004-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -1396,7 +1808,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "All right."
+              "text": "All "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-29-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1415,8 +1837,14 @@
           "tc": "請。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "please",
+              "targetId": "word-please",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-29-003-001"
+            },
+            {
               "type": "text",
-              "text": "please."
+              "text": "."
             }
           ]
         },
@@ -1475,7 +1903,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'll have a Fanta, please."
+              "text": "I'll have a Fanta, "
+            },
+            {
+              "type": "word",
+              "text": "please",
+              "targetId": "word-please",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-30-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -1524,7 +1962,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That's right."
+              "text": "That's "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-31-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -1552,8 +2000,14 @@
           "tc": "請在一旁等候。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Please",
+              "targetId": "word-please",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-32-002-001"
+            },
+            {
               "type": "text",
-              "text": "Please wait on the side."
+              "text": " wait on the side."
             }
           ]
         },
@@ -1573,7 +2027,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Now, you'll eventually need to go to the store."
+              "text": "Now, you'll eventually "
+            },
+            {
+              "type": "word",
+              "text": "need",
+              "targetId": "word-need",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-32-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to go to the store."
             }
           ]
         }
@@ -1592,7 +2056,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't know about you guys,."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-33-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-33-001-002"
+            },
+            {
+              "type": "text",
+              "text": " about you guys,."
             }
           ]
         },
@@ -1739,7 +2223,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If you need anything else, I'll be right here."
+              "text": "If you "
+            },
+            {
+              "type": "word",
+              "text": "need",
+              "targetId": "word-need",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-36-001-001"
+            },
+            {
+              "type": "text",
+              "text": " anything else, I'll be "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-36-001-002"
+            },
+            {
+              "type": "text",
+              "text": " here."
             }
           ]
         },
@@ -1808,7 +2312,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They know what English phrases."
+              "text": "They "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-37-003-001"
+            },
+            {
+              "type": "text",
+              "text": " what English phrases."
             }
           ]
         },
@@ -2014,7 +2528,47 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think when you're asking for directions, it's the hardest situation to be in because you're lost, you're frustrated, and you just want to arrive where you need to arrive."
+              "text": "I think when "
+            },
+            {
+              "type": "word",
+              "text": "you're",
+              "targetId": "word-you-re",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-41-004-001"
+            },
+            {
+              "type": "text",
+              "text": " asking for directions, it's the hardest situation to be in because "
+            },
+            {
+              "type": "word",
+              "text": "you're",
+              "targetId": "word-you-re",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-41-004-002"
+            },
+            {
+              "type": "text",
+              "text": " lost, "
+            },
+            {
+              "type": "word",
+              "text": "you're",
+              "targetId": "word-you-re",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-41-004-003"
+            },
+            {
+              "type": "text",
+              "text": " frustrated, and you just want to arrive where you "
+            },
+            {
+              "type": "word",
+              "text": "need",
+              "targetId": "word-need",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-41-004-004"
+            },
+            {
+              "type": "text",
+              "text": " to arrive."
             }
           ]
         }
@@ -2082,7 +2636,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think speaking English when going to the US is a big help."
+              "text": "I think speaking English when "
+            },
+            {
+              "type": "phrase",
+              "text": "going to",
+              "targetId": "phrase-going-to",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-43-001-001"
+            },
+            {
+              "type": "text",
+              "text": " the US is a big help."
             }
           ]
         },
@@ -2092,7 +2656,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I think many people in the USA don't encounter a lot of people that don't speak English."
+              "text": "I think many people in the USA "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-43-002-001"
+            },
+            {
+              "type": "text",
+              "text": " encounter a lot of people that "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-43-002-002"
+            },
+            {
+              "type": "text",
+              "text": " speak English."
             }
           ]
         },
@@ -2102,7 +2686,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They're very bad at communicating when somebody doesn't know their language."
+              "text": "They're very bad at communicating when somebody doesn't "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-43-003-001"
+            },
+            {
+              "type": "text",
+              "text": " their language."
             }
           ]
         },
@@ -2112,7 +2706,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This can make it very difficult when you're traveling."
+              "text": "This can make it very difficult when "
+            },
+            {
+              "type": "word",
+              "text": "you're",
+              "targetId": "word-you-re",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-43-004-001"
+            },
+            {
+              "type": "text",
+              "text": " traveling."
             }
           ]
         }
@@ -2131,7 +2735,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If you don't know the correct words."
+              "text": "If you "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-44-001-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-44-001-002"
+            },
+            {
+              "type": "text",
+              "text": " the correct words."
             }
           ]
         },
@@ -2161,7 +2785,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "They're very used to speaking to people who know their language."
+              "text": "They're very "
+            },
+            {
+              "type": "phrase",
+              "text": "used to",
+              "targetId": "phrase-used-to",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-44-004-001"
+            },
+            {
+              "type": "text",
+              "text": " speaking to people who "
+            },
+            {
+              "type": "word",
+              "text": "know",
+              "targetId": "word-know",
+              "instanceId": "marker-b2-ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast-scene-44-004-002"
+            },
+            {
+              "type": "text",
+              "text": " their language."
             }
           ]
         }
@@ -2357,5 +3001,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b2",
+    "slug": "ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast",
+    "sourcePath": "_private/tmp/originalContent/b2/ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b2/ch10-real-english-to-speak-when-you-travel-advanced-slow-english-podcast.md"
+  }
 }

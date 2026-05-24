@@ -23,8 +23,14 @@
           "tc": "歡迎回到我的慢速英語podcast。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "Welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-01-001-001"
+            },
+            {
               "type": "text",
-              "text": "Welcome back to my Slow English podcast."
+              "text": " to my Slow English podcast."
             }
           ]
         },
@@ -54,7 +60,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So soon this year went by so fast."
+              "text": "So soon this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-01-004-001"
+            },
+            {
+              "type": "text",
+              "text": " went by so fast."
             }
           ]
         }
@@ -73,7 +89,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I am most proud of from this year was deciding to create my Tik Tok channel."
+              "text": "I am most proud of from this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-02-001-001"
+            },
+            {
+              "type": "text",
+              "text": " was deciding to create my Tik Tok channel."
             }
           ]
         },
@@ -122,7 +148,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "This year has been crazy."
+              "text": "This "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-03-001-001"
+            },
+            {
+              "type": "text",
+              "text": " has been crazy."
             }
           ]
         },
@@ -220,7 +256,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What are you the most grateful for from this year?"
+              "text": "What are you the most grateful for from this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-05-001-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -230,7 +276,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What is the best thing you achieved this year personally, professionally, spiritually, mentally, physically, or anything that made?"
+              "text": "What is the best thing you achieved this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-05-002-001"
+            },
+            {
+              "type": "text",
+              "text": " personally, professionally, spiritually, mentally, physically, or anything that made?"
             }
           ]
         },
@@ -279,7 +335,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I was going to talk about, but to me that's still a huge success."
+              "text": "I was "
+            },
+            {
+              "type": "phrase",
+              "text": "going to",
+              "targetId": "phrase-going-to",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-06-002-001"
+            },
+            {
+              "type": "text",
+              "text": " talk about, but to me that's still a huge success."
             }
           ]
         },
@@ -327,8 +393,14 @@
           "tc": "現在對於其他人來說，演示出了問題。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-07-002-001"
+            },
+            {
               "type": "text",
-              "text": "Now for someone else, the presentation went wrong."
+              "text": " for someone else, the presentation went wrong."
             }
           ]
         },
@@ -367,7 +439,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But now let's think who is going to be able to see the positives, the bright side to everything that happens to them."
+              "text": "But "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-08-001-001"
+            },
+            {
+              "type": "text",
+              "text": " let's think who is "
+            },
+            {
+              "type": "phrase",
+              "text": "going to",
+              "targetId": "phrase-going-to",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-08-001-002"
+            },
+            {
+              "type": "text",
+              "text": " be able to see the positives, the bright side to "
+            },
+            {
+              "type": "word",
+              "text": "everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-08-001-003"
+            },
+            {
+              "type": "text",
+              "text": " that happens to them."
             }
           ]
         },
@@ -474,8 +576,14 @@
           "tc": "別讓他們。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-10-002-001"
+            },
+            {
               "type": "text",
-              "text": "Don't let them."
+              "text": " let them."
             }
           ]
         },
@@ -563,7 +671,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't regret anything because everything absolutely everything happens for a reason."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-12-001-001"
+            },
+            {
+              "type": "text",
+              "text": " regret anything because "
+            },
+            {
+              "type": "word",
+              "text": "everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-12-001-002"
+            },
+            {
+              "type": "text",
+              "text": " absolutely "
+            },
+            {
+              "type": "word",
+              "text": "everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-12-001-003"
+            },
+            {
+              "type": "text",
+              "text": " happens for a reason."
             }
           ]
         },
@@ -572,8 +710,24 @@
           "tc": "你所做的一切都是錯的，對的，甚至是最糟糕的決定，最糟糕的情況。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-12-002-001"
+            },
+            {
               "type": "text",
-              "text": "Everything that you've done wrong, right, even the worst of decisions, the worst of situations made."
+              "text": " that you've done wrong, "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-12-002-002"
+            },
+            {
+              "type": "text",
+              "text": ", even the worst of decisions, the worst of situations made."
             }
           ]
         },
@@ -671,7 +825,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Just like right now,."
+              "text": "Just like "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-14-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-14-002-002"
+            },
+            {
+              "type": "text",
+              "text": ",."
             }
           ]
         },
@@ -769,7 +943,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't regret them."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-16-002-001"
+            },
+            {
+              "type": "text",
+              "text": " regret them."
             }
           ]
         },
@@ -789,7 +973,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We are all the perfect versions of ourselves right now."
+              "text": "We are all the perfect versions of ourselves "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-16-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-16-004-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -808,7 +1012,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Next year I will grow and change and I will probably make more mistakes, but I will continue to be the perfect version of myself."
+              "text": "Next "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-17-001-001"
+            },
+            {
+              "type": "text",
+              "text": " I will grow and change and I will probably make more mistakes, but I will continue to be the perfect version of myself."
             }
           ]
         },
@@ -838,7 +1052,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We need to be right now."
+              "text": "We need to be "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-17-004-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -856,8 +1090,14 @@
           "tc": "一切都會以其應有的方式來來去去。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-18-001-001"
+            },
+            {
               "type": "text",
-              "text": "Everything will come and go as it should and all."
+              "text": " will come and go as it should and all."
             }
           ]
         },
@@ -906,7 +1146,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have no regrets from this year."
+              "text": "I have no regrets from this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-19-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -915,8 +1165,14 @@
           "tc": "所有必鬚發生的事情都會發生。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-19-002-001"
+            },
+            {
               "type": "text",
-              "text": "Everything that must happen will happen."
+              "text": " that must happen will happen."
             }
           ]
         },
@@ -964,8 +1220,14 @@
           "tc": "年，充滿了感情。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-20-002-001"
+            },
+            {
               "type": "text",
-              "text": "Year was full of feelings."
+              "text": " was full of feelings."
             }
           ]
         },
@@ -985,7 +1247,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I started my year with a breakup."
+              "text": "I started my "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-20-004-001"
+            },
+            {
+              "type": "text",
+              "text": " with a breakup."
             }
           ]
         }
@@ -1004,7 +1276,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I had to cancel my trip to New Zealand."
+              "text": "I had to cancel my trip to "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-21-001-001"
+            },
+            {
+              "type": "text",
+              "text": " Zealand."
             }
           ]
         },
@@ -1014,7 +1296,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then I started my slow English podcast, going viral on Tik Tok and creating my YouTube channel."
+              "text": "Then I started my slow English podcast, "
+            },
+            {
+              "type": "word",
+              "text": "going",
+              "targetId": "word-going",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-21-002-001"
+            },
+            {
+              "type": "text",
+              "text": " viral on Tik Tok and creating my YouTube channel."
             }
           ]
         },
@@ -1063,7 +1355,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And now."
+              "text": "And "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-22-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1083,7 +1385,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Christmas, New Year's, three kings, and I will be close to my family for these special moments."
+              "text": "Christmas, "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-22-004-001"
+            },
+            {
+              "type": "text",
+              "text": " Year's, three kings, and I will be close to my family for these special moments."
             }
           ]
         }
@@ -1102,7 +1414,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Next year."
+              "text": "Next "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-23-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1112,7 +1434,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What were some of the feelings you had this year?"
+              "text": "What were some of the feelings you had this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-23-002-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -1122,7 +1454,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What were some experiences you had this year?"
+              "text": "What were some experiences you had this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-23-003-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -1131,8 +1473,34 @@
           "tc": "如今，雖然新年即將來臨，",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-23-004-001"
+            },
+            {
               "type": "text",
-              "text": "Now, even though New Year's is right around the corner,."
+              "text": ", even though "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-23-004-002"
+            },
+            {
+              "type": "text",
+              "text": " Year's is "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-23-004-003"
+            },
+            {
+              "type": "text",
+              "text": " around the corner,."
             }
           ]
         }
@@ -1161,7 +1529,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I've never been a big fan of New Year's."
+              "text": "I've never been a big fan of "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-24-002-001"
+            },
+            {
+              "type": "text",
+              "text": " Year's."
             }
           ]
         },
@@ -1171,7 +1549,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I've never been a fan of the saying new year, new me."
+              "text": "I've never been a fan of the saying "
+            },
+            {
+              "type": "word",
+              "text": "new",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-24-003-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-24-003-002"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "new",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-24-003-003"
+            },
+            {
+              "type": "text",
+              "text": " me."
             }
           ]
         },
@@ -1181,7 +1589,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It seems so unnecessary, especially during the winter, like the absolute worst time of the year to start fresh."
+              "text": "It seems so unnecessary, especially during the winter, like the absolute worst time of the "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-24-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "word",
+              "text": "start",
+              "targetId": "word-start",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-24-004-002"
+            },
+            {
+              "type": "text",
+              "text": " fresh."
             }
           ]
         }
@@ -1200,7 +1628,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Too cold to start exercising, going on walks, taking on new hobbies."
+              "text": "Too cold to "
+            },
+            {
+              "type": "word",
+              "text": "start",
+              "targetId": "word-start",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-25-001-001"
+            },
+            {
+              "type": "text",
+              "text": " exercising, "
+            },
+            {
+              "type": "word",
+              "text": "going",
+              "targetId": "word-going",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-25-001-002"
+            },
+            {
+              "type": "text",
+              "text": " on walks, taking on "
+            },
+            {
+              "type": "word",
+              "text": "new",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-25-001-003"
+            },
+            {
+              "type": "text",
+              "text": " hobbies."
             }
           ]
         },
@@ -1210,7 +1668,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You naturally just want to hibernate during the winter."
+              "text": "You naturally just "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-25-002-001"
+            },
+            {
+              "type": "text",
+              "text": " hibernate during the winter."
             }
           ]
         },
@@ -1230,7 +1698,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You just want to be bundled up."
+              "text": "You just "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-25-004-001"
+            },
+            {
+              "type": "text",
+              "text": " be bundled up."
             }
           ]
         }
@@ -1259,7 +1737,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If you really want a fresh start,."
+              "text": "If you really want a fresh "
+            },
+            {
+              "type": "word",
+              "text": "start",
+              "targetId": "word-start",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-26-002-001"
+            },
+            {
+              "type": "text",
+              "text": ",."
             }
           ]
         },
@@ -1279,7 +1767,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I also kind of hate the pressure of starting fresh on New Year's."
+              "text": "I also kind of hate the pressure of starting fresh on "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-26-004-001"
+            },
+            {
+              "type": "text",
+              "text": " Year's."
             }
           ]
         }
@@ -1328,7 +1826,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Your year goes well."
+              "text": "Your "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-27-004-001"
+            },
+            {
+              "type": "text",
+              "text": " goes well."
             }
           ]
         }
@@ -1396,7 +1904,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Maybe I sound like the Grinch of New Year's right now,."
+              "text": "Maybe I sound like the Grinch of "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-29-001-001"
+            },
+            {
+              "type": "text",
+              "text": " Year's "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-29-001-002"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-29-001-003"
+            },
+            {
+              "type": "text",
+              "text": ",."
             }
           ]
         },
@@ -1416,7 +1954,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Feeling like something needs to go right."
+              "text": "Feeling like something needs to go "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-29-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1426,7 +1974,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Otherwise, everything will go wrong."
+              "text": "Otherwise, "
+            },
+            {
+              "type": "word",
+              "text": "everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-29-004-001"
+            },
+            {
+              "type": "text",
+              "text": " will go wrong."
             }
           ]
         }
@@ -1504,7 +2062,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "First seconds of the year don't define the rest of your year."
+              "text": "First seconds of the "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-002-002"
+            },
+            {
+              "type": "text",
+              "text": " define the rest of your "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-002-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1514,7 +2102,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I had the worst New Year's last year and so many good things happened to me this year."
+              "text": "I had the worst "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-003-001"
+            },
+            {
+              "type": "text",
+              "text": " Year's last "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-003-002"
+            },
+            {
+              "type": "text",
+              "text": " and so many good things happened to me this "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-003-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1524,7 +2142,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't even know what else."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-31-004-001"
+            },
+            {
+              "type": "text",
+              "text": " even know what else."
             }
           ]
         }
@@ -1543,7 +2171,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I got everything I had ever dreamed about having."
+              "text": "I got "
+            },
+            {
+              "type": "word",
+              "text": "everything",
+              "targetId": "word-everything",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-001-001"
+            },
+            {
+              "type": "text",
+              "text": " I had ever dreamed about having."
             }
           ]
         },
@@ -1553,7 +2191,47 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, new year, new me, new beginnings."
+              "text": "So, "
+            },
+            {
+              "type": "word",
+              "text": "new",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-002-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-002-002"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "new",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-002-003"
+            },
+            {
+              "type": "text",
+              "text": " me, "
+            },
+            {
+              "type": "word",
+              "text": "new",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-002-004"
+            },
+            {
+              "type": "text",
+              "text": " beginnings."
             }
           ]
         },
@@ -1563,7 +2241,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "No, don't wait for tomorrow."
+              "text": "No, "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-003-001"
+            },
+            {
+              "type": "text",
+              "text": " wait for tomorrow."
             }
           ]
         },
@@ -1572,8 +2260,24 @@
           "tc": "不用等到新年。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-004-001"
+            },
+            {
               "type": "text",
-              "text": "Don't wait for New Year's."
+              "text": " wait for "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-32-004-002"
+            },
+            {
+              "type": "text",
+              "text": " Year's."
             }
           ]
         }
@@ -1591,8 +2295,14 @@
           "tc": "甚至不用等到春天。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-33-001-001"
+            },
+            {
               "type": "text",
-              "text": "Don't even wait for spring."
+              "text": " even wait for spring."
             }
           ]
         },
@@ -1602,7 +2312,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "You can start today."
+              "text": "You can "
+            },
+            {
+              "type": "word",
+              "text": "start",
+              "targetId": "word-start",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-33-002-001"
+            },
+            {
+              "type": "text",
+              "text": " today."
             }
           ]
         },
@@ -1612,7 +2332,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "On second thought, start right now."
+              "text": "On second thought, "
+            },
+            {
+              "type": "word",
+              "text": "start",
+              "targetId": "word-start",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-33-003-001"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-33-003-002"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "now",
+              "targetId": "word-now",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-33-003-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1641,7 +2391,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What you want to do and do it."
+              "text": "What you "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-34-001-001"
+            },
+            {
+              "type": "text",
+              "text": " do and do it."
             }
           ]
         },
@@ -1661,7 +2421,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I want to do it."
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "want to",
+              "targetId": "phrase-want-to",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-34-003-001"
+            },
+            {
+              "type": "text",
+              "text": " do it."
             }
           ]
         },
@@ -1671,7 +2441,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't wait for the right moment."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-34-004-001"
+            },
+            {
+              "type": "text",
+              "text": " wait for the "
+            },
+            {
+              "type": "word",
+              "text": "right",
+              "targetId": "word-right",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-34-004-002"
+            },
+            {
+              "type": "text",
+              "text": " moment."
             }
           ]
         }
@@ -1700,7 +2490,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'm going on a tangent about how much I hate New Year's, my issues with New Year's,."
+              "text": "I'm "
+            },
+            {
+              "type": "word",
+              "text": "going",
+              "targetId": "word-going",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-35-002-001"
+            },
+            {
+              "type": "text",
+              "text": " on a tangent about how much I hate "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-35-002-002"
+            },
+            {
+              "type": "text",
+              "text": " Year's, my issues with "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-35-002-003"
+            },
+            {
+              "type": "text",
+              "text": " Year's,."
             }
           ]
         },
@@ -1749,7 +2569,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't like waiting to eat until 12 a.m."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "don't",
+              "targetId": "word-don-t",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-36-002-001"
+            },
+            {
+              "type": "text",
+              "text": " like waiting to eat until 12 a.m."
             }
           ]
         },
@@ -1769,7 +2599,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Truthfully, if I could choose what to do on New Year's,."
+              "text": "Truthfully, if I could choose what to do on "
+            },
+            {
+              "type": "word",
+              "text": "New",
+              "targetId": "word-new",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-36-004-001"
+            },
+            {
+              "type": "text",
+              "text": " Year's,."
             }
           ]
         }
@@ -1818,7 +2658,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Read a book, lay in my hammock, maybe go for a swim, and start the year feeling fresh, not tired and hung over."
+              "text": "Read a book, lay in my hammock, maybe go for a swim, and "
+            },
+            {
+              "type": "word",
+              "text": "start",
+              "targetId": "word-start",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-37-004-001"
+            },
+            {
+              "type": "text",
+              "text": " the "
+            },
+            {
+              "type": "word",
+              "text": "year",
+              "targetId": "word-year",
+              "instanceId": "marker-b2-ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input-scene-37-004-002"
+            },
+            {
+              "type": "text",
+              "text": " feeling fresh, not tired and hung over."
             }
           ]
         }
@@ -2051,5 +2911,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b2",
+    "slug": "ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input",
+    "sourcePath": "_private/tmp/originalContent/b2/ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b2/ch12-slow-english-podcast-advanced-listening-practice-natural-conversation-comprehensible-input.md"
+  }
 }

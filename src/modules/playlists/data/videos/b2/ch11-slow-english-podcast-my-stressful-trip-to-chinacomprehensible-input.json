@@ -83,7 +83,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I spent with my sister traveling."
+              "text": "I spent with my "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-02-002-001"
+            },
+            {
+              "type": "text",
+              "text": " traveling."
             }
           ]
         },
@@ -131,8 +141,14 @@
           "tc": "歡迎回到我的慢速英語podcast。",
           "englishTokens": [
             {
+              "type": "phrase",
+              "text": "Welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-03-002-001"
+            },
+            {
               "type": "text",
-              "text": "Welcome back to my slow English podcast."
+              "text": " to my slow English podcast."
             }
           ]
         },
@@ -191,7 +207,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, get comfy and get ready to practice your English listening."
+              "text": "So, "
+            },
+            {
+              "type": "word",
+              "text": "get",
+              "targetId": "word-get",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-04-003-001"
+            },
+            {
+              "type": "text",
+              "text": " comfy and "
+            },
+            {
+              "type": "phrase",
+              "text": "get ready",
+              "targetId": "phrase-get-ready",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-04-003-002"
+            },
+            {
+              "type": "text",
+              "text": " to practice your English listening."
             }
           ]
         },
@@ -220,7 +256,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I tell you about my stressful trip to China."
+              "text": "I tell you about my stressful trip to "
+            },
+            {
+              "type": "word",
+              "text": "China",
+              "targetId": "word-china",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-05-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -240,7 +286,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Our flight left at 10:00 p.m."
+              "text": "Our "
+            },
+            {
+              "type": "word",
+              "text": "flight",
+              "targetId": "word-flight",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-05-003-001"
+            },
+            {
+              "type": "text",
+              "text": " left at 10:00 p.m."
             }
           ]
         },
@@ -269,7 +325,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We caught our flight."
+              "text": "We caught our "
+            },
+            {
+              "type": "word",
+              "text": "flight",
+              "targetId": "word-flight",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-06-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -289,7 +355,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We got breakfast and I bought a new suitcase."
+              "text": "We got breakfast and I "
+            },
+            {
+              "type": "word",
+              "text": "bought",
+              "targetId": "word-bought",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-06-003-001"
+            },
+            {
+              "type": "text",
+              "text": " a new suitcase."
             }
           ]
         },
@@ -328,7 +404,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I bought in Tokyo."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "bought",
+              "targetId": "word-bought",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-07-002-001"
+            },
+            {
+              "type": "text",
+              "text": " in Tokyo."
             }
           ]
         },
@@ -348,7 +434,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I bought hats sweaters coats, some very big clunky shoes and lots of souvenirs for all of my friends and family."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "bought",
+              "targetId": "word-bought",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-07-004-001"
+            },
+            {
+              "type": "text",
+              "text": " hats sweaters coats, some very big clunky shoes and lots of souvenirs for all of my friends and family."
             }
           ]
         }
@@ -367,7 +463,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "After I bought the big suitcase."
+              "text": "After I "
+            },
+            {
+              "type": "word",
+              "text": "bought",
+              "targetId": "word-bought",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-08-001-001"
+            },
+            {
+              "type": "text",
+              "text": " the big suitcase."
             }
           ]
         },
@@ -377,7 +483,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We took the subway train to the airport."
+              "text": "We took the subway "
+            },
+            {
+              "type": "word",
+              "text": "train",
+              "targetId": "word-train",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-08-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to the "
+            },
+            {
+              "type": "word",
+              "text": "airport",
+              "targetId": "word-airport",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-08-002-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -397,7 +523,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My sister is so strong."
+              "text": "My "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-08-004-001"
+            },
+            {
+              "type": "text",
+              "text": " is so strong."
             }
           ]
         }
@@ -416,7 +552,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "To get to the subway."
+              "text": "To "
+            },
+            {
+              "type": "word",
+              "text": "get",
+              "targetId": "word-get",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-09-001-001"
+            },
+            {
+              "type": "text",
+              "text": " to the subway."
             }
           ]
         },
@@ -446,7 +592,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, my sister carried our giant suitcase all by herself."
+              "text": "So, my "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-09-004-001"
+            },
+            {
+              "type": "text",
+              "text": " carried our giant suitcase all by herself."
             }
           ]
         }
@@ -465,7 +621,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We bought a ticket at the vending machine."
+              "text": "We "
+            },
+            {
+              "type": "word",
+              "text": "bought",
+              "targetId": "word-bought",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-10-001-001"
+            },
+            {
+              "type": "text",
+              "text": " a ticket at the vending machine."
             }
           ]
         },
@@ -475,7 +641,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We waited for our train."
+              "text": "We waited for our "
+            },
+            {
+              "type": "word",
+              "text": "train",
+              "targetId": "word-train",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-10-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -514,7 +690,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I told my sister \"This train is it."
+              "text": "So, I told my "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-11-001-001"
+            },
+            {
+              "type": "text",
+              "text": " \"This "
+            },
+            {
+              "type": "word",
+              "text": "train",
+              "targetId": "word-train",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-11-001-002"
+            },
+            {
+              "type": "text",
+              "text": " is it."
             }
           ]
         },
@@ -524,7 +720,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Let's get on this train.\""
+              "text": "Let's "
+            },
+            {
+              "type": "word",
+              "text": "get",
+              "targetId": "word-get",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-11-002-001"
+            },
+            {
+              "type": "text",
+              "text": " on this "
+            },
+            {
+              "type": "word",
+              "text": "train",
+              "targetId": "word-train",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-11-002-002"
+            },
+            {
+              "type": "text",
+              "text": ".\""
             }
           ]
         },
@@ -534,7 +750,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The first train that passed by."
+              "text": "The first "
+            },
+            {
+              "type": "word",
+              "text": "train",
+              "targetId": "word-train",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-11-003-001"
+            },
+            {
+              "type": "text",
+              "text": " that passed by."
             }
           ]
         },
@@ -544,7 +770,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It was the wrong train."
+              "text": "It was the wrong "
+            },
+            {
+              "type": "word",
+              "text": "train",
+              "targetId": "word-train",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-11-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -563,7 +799,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My sister was so annoyed at me because I was so restless impatient and I made us board the wrong train."
+              "text": "My "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-12-001-001"
+            },
+            {
+              "type": "text",
+              "text": " was so annoyed at me because I was so restless impatient and I made us board the wrong "
+            },
+            {
+              "type": "word",
+              "text": "train",
+              "targetId": "word-train",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-12-001-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -573,7 +829,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Next train station."
+              "text": "Next "
+            },
+            {
+              "type": "word",
+              "text": "train",
+              "targetId": "word-train",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " station."
             }
           ]
         },
@@ -583,7 +849,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We boarded the right train."
+              "text": "We boarded the right "
+            },
+            {
+              "type": "word",
+              "text": "train",
+              "targetId": "word-train",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-12-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -593,7 +869,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We were on our way to the Tokyo airport."
+              "text": "We were on our way to the Tokyo "
+            },
+            {
+              "type": "word",
+              "text": "airport",
+              "targetId": "word-airport",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-12-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -612,7 +898,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We arrived at the airport."
+              "text": "We arrived at the "
+            },
+            {
+              "type": "word",
+              "text": "airport",
+              "targetId": "word-airport",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-13-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -642,7 +938,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We have to wait until it's 2 hours before our flight leaves."
+              "text": "We have to wait until it's 2 hours before our "
+            },
+            {
+              "type": "word",
+              "text": "flight",
+              "targetId": "word-flight",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-13-004-001"
+            },
+            {
+              "type": "text",
+              "text": " leaves."
             }
           ]
         }
@@ -681,7 +987,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My sister."
+              "text": "My "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-14-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -759,7 +1075,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you go to the airport before your flight leaves?"
+              "text": "Do you go to the "
+            },
+            {
+              "type": "word",
+              "text": "airport",
+              "targetId": "word-airport",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-16-001-001"
+            },
+            {
+              "type": "text",
+              "text": " before your "
+            },
+            {
+              "type": "word",
+              "text": "flight",
+              "targetId": "word-flight",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-16-001-002"
+            },
+            {
+              "type": "text",
+              "text": " leaves?"
             }
           ]
         },
@@ -769,7 +1105,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What's the most comfortable time for you to have before your flight?"
+              "text": "What's the most comfortable time for you to have before your "
+            },
+            {
+              "type": "word",
+              "text": "flight",
+              "targetId": "word-flight",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-16-002-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -818,7 +1164,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I'm going to miss my flight."
+              "text": "I'm "
+            },
+            {
+              "type": "phrase",
+              "text": "going to",
+              "targetId": "phrase-going-to",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-17-002-001"
+            },
+            {
+              "type": "text",
+              "text": " miss my "
+            },
+            {
+              "type": "word",
+              "text": "flight",
+              "targetId": "word-flight",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-17-002-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -955,7 +1321,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We could start setting up our payment apps like WeChat Pay or Alipay."
+              "text": "We could start setting up our payment "
+            },
+            {
+              "type": "word",
+              "text": "apps",
+              "targetId": "word-apps",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-20-001-001"
+            },
+            {
+              "type": "text",
+              "text": " like WeChat Pay or Alipay."
             }
           ]
         },
@@ -965,7 +1341,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If you didn't know China is almost cashless."
+              "text": "If you didn't know "
+            },
+            {
+              "type": "word",
+              "text": "China",
+              "targetId": "word-china",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-20-002-001"
+            },
+            {
+              "type": "text",
+              "text": " is almost cashless."
             }
           ]
         },
@@ -1014,7 +1400,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We basically need these apps to pay for anything in China."
+              "text": "We basically need these "
+            },
+            {
+              "type": "word",
+              "text": "apps",
+              "targetId": "word-apps",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-21-002-001"
+            },
+            {
+              "type": "text",
+              "text": " to pay for anything in "
+            },
+            {
+              "type": "word",
+              "text": "China",
+              "targetId": "word-china",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-21-002-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1063,7 +1469,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We had set up these payment apps before but now the apps weren't working."
+              "text": "We had set up these payment "
+            },
+            {
+              "type": "word",
+              "text": "apps",
+              "targetId": "word-apps",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-22-002-001"
+            },
+            {
+              "type": "text",
+              "text": " before but now the "
+            },
+            {
+              "type": "word",
+              "text": "apps",
+              "targetId": "word-apps",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-22-002-002"
+            },
+            {
+              "type": "text",
+              "text": " weren't working."
             }
           ]
         },
@@ -1112,7 +1538,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We still couldn't get any of the apps to work."
+              "text": "We still couldn't "
+            },
+            {
+              "type": "word",
+              "text": "get",
+              "targetId": "word-get",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-23-002-001"
+            },
+            {
+              "type": "text",
+              "text": " any of the "
+            },
+            {
+              "type": "word",
+              "text": "apps",
+              "targetId": "word-apps",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-23-002-002"
+            },
+            {
+              "type": "text",
+              "text": " to work."
             }
           ]
         },
@@ -1396,7 +1842,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Once my sister caught up with me, I told her, \"Okay, follow me."
+              "text": "Once my "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-29-001-001"
+            },
+            {
+              "type": "text",
+              "text": " caught up with me, I told her, \"Okay, follow me."
             }
           ]
         },
@@ -1543,7 +1999,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Then my sister informed me that China actually has some of the fastest cars in the world."
+              "text": "Then my "
+            },
+            {
+              "type": "word",
+              "text": "sister",
+              "targetId": "word-sister",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-32-001-001"
+            },
+            {
+              "type": "text",
+              "text": " informed me that "
+            },
+            {
+              "type": "word",
+              "text": "China",
+              "targetId": "word-china",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-32-001-002"
+            },
+            {
+              "type": "text",
+              "text": " actually has some of the fastest cars in the world."
             }
           ]
         },
@@ -1553,7 +2029,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It was something I didn't know about China."
+              "text": "It was something I didn't know about "
+            },
+            {
+              "type": "word",
+              "text": "China",
+              "targetId": "word-china",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-32-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1573,7 +2059,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "First hotel near the airport just to sleep."
+              "text": "First hotel near the "
+            },
+            {
+              "type": "word",
+              "text": "airport",
+              "targetId": "word-airport",
+              "instanceId": "marker-b2-ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input-scene-32-004-001"
+            },
+            {
+              "type": "text",
+              "text": " just to sleep."
             }
           ]
         }
@@ -1813,5 +2309,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b2",
+    "slug": "ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input",
+    "sourcePath": "_private/tmp/originalContent/b2/ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b2/ch11-slow-english-podcast-my-stressful-trip-to-chinacomprehensible-input.md"
+  }
 }

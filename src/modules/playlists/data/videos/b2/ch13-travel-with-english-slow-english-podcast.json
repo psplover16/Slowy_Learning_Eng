@@ -34,7 +34,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Growing up without money in my family, but still being able to travel from Mexico to Thailand to Portugal, Brazil, and beyond, all by myself."
+              "text": "Growing up without money in my family, but still being able to travel from Mexico to Thailand to Portugal, Brazil, and beyond, all "
+            },
+            {
+              "type": "phrase",
+              "text": "by myself",
+              "targetId": "phrase-by-myself",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-01-002-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -44,7 +54,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I wasn't traveling in luxury."
+              "text": "I wasn't traveling in "
+            },
+            {
+              "type": "word",
+              "text": "luxury",
+              "targetId": "word-luxury",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-01-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -73,7 +93,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I only knew that I could teach a couple of English lessons and keep going."
+              "text": "I only knew that I could teach a couple of English lessons and "
+            },
+            {
+              "type": "phrase",
+              "text": "keep going",
+              "targetId": "phrase-keep-going",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-02-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -191,7 +221,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And she could do it with just her TEFL certificate, and high school."
+              "text": "And she could do it with just her TEFL "
+            },
+            {
+              "type": "word",
+              "text": "certificate",
+              "targetId": "word-certificate",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-04-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", and high school."
             }
           ]
         },
@@ -220,7 +260,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "She made a good salary, good money, and she was able to pay for her food and rent in college with that job."
+              "text": "She made a good "
+            },
+            {
+              "type": "word",
+              "text": "salary",
+              "targetId": "word-salary",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-05-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", good money, and she was able to pay for her food and rent in college with that job."
             }
           ]
         },
@@ -240,7 +290,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My sister walked so I could run."
+              "text": "My sister walked so I could "
+            },
+            {
+              "type": "usage",
+              "text": "run",
+              "targetId": "usage-run-walk-so-someone-could-run-run",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-05-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -269,7 +329,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My sister walked so that I could run."
+              "text": "My sister walked so that I could "
+            },
+            {
+              "type": "usage",
+              "text": "run",
+              "targetId": "usage-run-walk-so-someone-could-run-run",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-06-001-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -299,7 +369,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I got my TEFL certificate when I was 17 years old."
+              "text": "I got my TEFL "
+            },
+            {
+              "type": "word",
+              "text": "certificate",
+              "targetId": "word-certificate",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-06-004-001"
+            },
+            {
+              "type": "text",
+              "text": " when I was 17 years old."
             }
           ]
         }
@@ -328,7 +408,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I started saving money right away, as much as I could, and I was able to move out into my own apartment when I was 18."
+              "text": "I started saving money "
+            },
+            {
+              "type": "phrase",
+              "text": "right away",
+              "targetId": "phrase-right-away",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-07-002-001"
+            },
+            {
+              "type": "text",
+              "text": ", as much as I could, and I was able to "
+            },
+            {
+              "type": "phrase",
+              "text": "move out",
+              "targetId": "phrase-move-out",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-07-002-002"
+            },
+            {
+              "type": "text",
+              "text": " into my own apartment when I was 18."
             }
           ]
         },
@@ -377,7 +477,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I was getting stuck in a routine that I didn't like."
+              "text": "I was getting stuck in a "
+            },
+            {
+              "type": "word",
+              "text": "routine",
+              "targetId": "word-routine",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-08-002-001"
+            },
+            {
+              "type": "text",
+              "text": " that I didn't like."
             }
           ]
         },
@@ -465,7 +575,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I decided to take my first solo trip to Tulum, Mexico."
+              "text": "So, I decided to take my first "
+            },
+            {
+              "type": "word",
+              "text": "solo",
+              "targetId": "word-solo",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-10-001-001"
+            },
+            {
+              "type": "text",
+              "text": " trip to Tulum, Mexico."
             }
           ]
         },
@@ -524,7 +644,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I volunteered at a hostel in Costa Rica."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "volunteered",
+              "targetId": "word-volunteer",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-11-002-001"
+            },
+            {
+              "type": "text",
+              "text": " at a "
+            },
+            {
+              "type": "word",
+              "text": "hostel",
+              "targetId": "word-hostel",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-11-002-002"
+            },
+            {
+              "type": "text",
+              "text": " in Costa Rica."
             }
           ]
         },
@@ -612,7 +752,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I figured I only needed enough for my ticket there because I can work online and get money for my food and the hostel where I had to stay."
+              "text": "I figured I only needed enough for my ticket there because I can work online and get money for my food and the "
+            },
+            {
+              "type": "word",
+              "text": "hostel",
+              "targetId": "word-hostel",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-13-001-001"
+            },
+            {
+              "type": "text",
+              "text": " where I had to stay."
             }
           ]
         },
@@ -691,7 +841,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Some nights I would cry from exhaustion."
+              "text": "Some nights I would cry from "
+            },
+            {
+              "type": "word",
+              "text": "exhaustion",
+              "targetId": "word-exhaustion",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-14-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -720,7 +880,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But at the end of the day, my exhaustion didn't matter."
+              "text": "But at the end of the day, my "
+            },
+            {
+              "type": "word",
+              "text": "exhaustion",
+              "targetId": "word-exhaustion",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-15-002-001"
+            },
+            {
+              "type": "text",
+              "text": " didn't matter."
             }
           ]
         },
@@ -759,7 +929,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Just by being by myself, completely alone in Thailand."
+              "text": "Just by being "
+            },
+            {
+              "type": "phrase",
+              "text": "by myself",
+              "targetId": "phrase-by-myself",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-16-001-001"
+            },
+            {
+              "type": "text",
+              "text": ", completely alone in Thailand."
             }
           ]
         },
@@ -779,7 +959,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I got my scuba diving certificate."
+              "text": "I got my scuba diving "
+            },
+            {
+              "type": "word",
+              "text": "certificate",
+              "targetId": "word-certificate",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-16-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -857,7 +1047,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Now, this was a crucial moment because I didn't have enough money to buy a new one."
+              "text": "Now, this was a "
+            },
+            {
+              "type": "word",
+              "text": "crucial",
+              "targetId": "word-crucial",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": " moment because I didn't have enough money to buy a new one."
             }
           ]
         },
@@ -877,7 +1077,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "But it was either spend those savings on a new computer to continue traveling or use those savings to buy my ticket home and then maybe save up for a new computer."
+              "text": "But it was either spend those savings on a new computer to continue traveling or use those savings to buy my ticket home and then maybe "
+            },
+            {
+              "type": "phrase",
+              "text": "save up",
+              "targetId": "phrase-save-up",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-18-003-001"
+            },
+            {
+              "type": "text",
+              "text": " for a new computer."
             }
           ]
         },
@@ -1024,7 +1234,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "That's where I met the best people while working at a hostel."
+              "text": "That's where I met the best people while working at a "
+            },
+            {
+              "type": "word",
+              "text": "hostel",
+              "targetId": "word-hostel",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-21-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1034,7 +1254,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I worked at reception 20 hours a week and in exchange they gave me a free place to sleep and free food."
+              "text": "I worked at reception 20 hours a week and "
+            },
+            {
+              "type": "phrase",
+              "text": "in exchange",
+              "targetId": "phrase-in-exchange",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-21-004-001"
+            },
+            {
+              "type": "text",
+              "text": " they gave me a free place to sleep and free food."
             }
           ]
         }
@@ -1112,7 +1342,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I adored the hostel where I worked."
+              "text": "I adored the "
+            },
+            {
+              "type": "word",
+              "text": "hostel",
+              "targetId": "word-hostel",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-23-002-001"
+            },
+            {
+              "type": "text",
+              "text": " where I worked."
             }
           ]
         },
@@ -1132,7 +1372,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I volunteered through World Packers."
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "volunteered",
+              "targetId": "word-volunteer",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-23-004-001"
+            },
+            {
+              "type": "text",
+              "text": " through World Packers."
             }
           ]
         }
@@ -1161,7 +1411,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It was a requirement to know English, to volunteer at most hostels."
+              "text": "It was a requirement to know English, to "
+            },
+            {
+              "type": "word",
+              "text": "volunteer",
+              "targetId": "word-volunteer",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-24-002-001"
+            },
+            {
+              "type": "text",
+              "text": " at most hostels."
             }
           ]
         },
@@ -1181,7 +1441,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I booked my ticket to Mexico and right away I had another volunteering job scheduled at a turtle sanctuary."
+              "text": "I booked my ticket to Mexico and "
+            },
+            {
+              "type": "phrase",
+              "text": "right away",
+              "targetId": "phrase-right-away",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-24-004-001"
+            },
+            {
+              "type": "text",
+              "text": " I had another volunteering job scheduled at a turtle sanctuary."
             }
           ]
         }
@@ -1347,7 +1617,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I was feeling so sad, so lost one day that I decided to expand my reach and get new students so I could save more money and travel by myself again."
+              "text": "And I was feeling so sad, so lost one day that I decided to expand my reach and get new students so I could save more money and travel "
+            },
+            {
+              "type": "phrase",
+              "text": "by myself",
+              "targetId": "phrase-by-myself",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-28-001-001"
+            },
+            {
+              "type": "text",
+              "text": " again."
             }
           ]
         },
@@ -1357,7 +1637,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, I set up my camera and I read a very simple script in slow English."
+              "text": "So, I "
+            },
+            {
+              "type": "phrase",
+              "text": "set up",
+              "targetId": "phrase-set-up",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-28-002-001"
+            },
+            {
+              "type": "text",
+              "text": " my camera and I read a very simple script in slow English."
             }
           ]
         },
@@ -1514,7 +1804,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Maybe it's stability, confidence, a better job."
+              "text": "Maybe it's "
+            },
+            {
+              "type": "word",
+              "text": "stability",
+              "targetId": "word-stability",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-31-003-001"
+            },
+            {
+              "type": "text",
+              "text": ", confidence, a better job."
             }
           ]
         },
@@ -1524,7 +1824,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "English won't magically fix everything, but it can open doors for moments in your life when things get a little bit scary."
+              "text": "English won't magically fix everything, but it can "
+            },
+            {
+              "type": "phrase",
+              "text": "open doors",
+              "targetId": "phrase-open-doors",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-31-004-001"
+            },
+            {
+              "type": "text",
+              "text": " for moments in your life when things get a little bit scary."
             }
           ]
         }
@@ -1563,7 +1873,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And to answer your question on \"what I would be if I wasn't an English teacher\", probably a scuba dive instructor."
+              "text": "And to answer your question on \"what I would be if I wasn't an English teacher\", probably a scuba dive "
+            },
+            {
+              "type": "word",
+              "text": "instructor",
+              "targetId": "word-instructor",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-32-003-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1592,7 +1912,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Or maybe I would own a hostel because I love hostels."
+              "text": "Or maybe I would own a "
+            },
+            {
+              "type": "word",
+              "text": "hostel",
+              "targetId": "word-hostel",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-33-001-001"
+            },
+            {
+              "type": "text",
+              "text": " because I love hostels."
             }
           ]
         },
@@ -1602,7 +1932,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I love the way people connect, share stories, and let go of any prejudices they might have about other people."
+              "text": "I love the way people connect, share stories, and let go of any "
+            },
+            {
+              "type": "word",
+              "text": "prejudices",
+              "targetId": "word-prejudice",
+              "instanceId": "marker-b2-ch13-travel-with-english-slow-english-podcast-scene-33-002-001"
+            },
+            {
+              "type": "text",
+              "text": " they might have about other people."
             }
           ]
         },
@@ -1998,5 +2338,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "b2",
+    "slug": "ch13-travel-with-english-slow-english-podcast",
+    "sourcePath": "_private/tmp/originalContent/b2/ch13-travel-with-english-slow-english-podcast.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/b2/ch13-travel-with-english-slow-english-podcast.md"
+  }
 }

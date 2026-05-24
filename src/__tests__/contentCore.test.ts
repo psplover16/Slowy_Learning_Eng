@@ -252,6 +252,24 @@ describe('validatePlaylistVideoData', () => {
     expect(validatePlaylistVideoData(content).valid).toBe(expectedValid)
   })
 
+  it('accepts a long proofread paragraph when it is made of complete sentences', () => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{
+          en: "I decided on the color pink. I don't know if pink is really my color, but lately, I've been really obsessed with pink. I just bought a new purse with pink polka dots. These are polka dots. Do you know what I mean? After my nail appointment, I had some lunch with my mom, and I took the bus back to my apartment.",
+          tc: '我選了粉紅色。我不知道粉紅色是不是真的適合我，但最近我真的很迷粉紅色。我剛買了一個有粉紅色圓點的新包包。這些就是 polka dots。你懂我的意思嗎？美甲預約之後，我和媽媽吃了午餐，然後搭公車回我的公寓。',
+        }],
+        tags: [],
+      }],
+    })
+
+    expect(validatePlaylistVideoData(content).valid).toBe(true)
+  })
+
   it('rejects copied English as Traditional Chinese translation', () => {
     const content = makeValidContent({
       scenes: [{
@@ -484,30 +502,30 @@ describe('validatePlaylistVideoData', () => {
   it('keeps A1 ch15 holiday segment sentence translations aligned', () => {
     const content = readJsonFile<ContentFile>('src/modules/playlists/data/videos/a1/ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday.json')
     const expectedTranslations = [
-      ['scene-02', "There are a lot of holidays like Christmas, New Year's, Three Kings Day, Valentine's Day, St. Patrick's Day, Easter, Kids' Day, Mother's Day, Father's Day, Halloween, the Day of the Dead, and Thanksgiving.", '有很多節日，像是聖誕節、新年、三王節、情人節、聖派翠克節、復活節、兒童節、母親節、父親節、萬聖節、亡靈節和感恩節。'],
-      ['scene-02', 'Those are the only holidays that I can think of right now.', '那些是我現在唯一想得到的節日。'],
-      ['scene-03', 'Those are the first holidays that come to mind.', '那些是我第一個想到的節日。'],
-      ['scene-03', 'What is another holiday that comes to mind for you?', '對你來說，還有什麼節日會浮現在腦海中？'],
-      ['scene-03', 'Something you celebrate in your country.', '也就是你在自己國家慶祝的節日。'],
-      ['scene-03', 'I know there are so many more holidays in the world like Diwali, the start of the Hindu New Year, Eid al-Fitr, the Islamic holiday that celebrates the end of Ramadan, Lunar New Year, Carnival, Holi, and La Tomatina.', '我知道世界上還有好多節日，像是排燈節、印度新年的開始、開齋節，也就是慶祝齋戒月結束的伊斯蘭節日、農曆新年、嘉年華、胡里節和番茄節。'],
-      ['scene-04', "There are so many holidays that I don't celebrate, but they have so much meaning.", '有好多節日我沒有慶祝，但它們很有意義。'],
-      ['scene-04', 'Humans celebrate everything we can.', '人類會盡可能慶祝一切。'],
-      ['scene-04', 'We eat, we dance, and we laugh any chance we get.', '我們吃東西、跳舞，也一有機會就歡笑。'],
-      ['scene-04', 'But to me, the best holiday is Christmas.', '但對我來說，最好的節日是聖誕節。'],
-      ['scene-05', "To me, it's more about the feeling.", '對我來說，它更關乎那種感覺。'],
-      ['scene-05', 'And for me, the best feelings I get are on Christmas.', '對我而言，我得到最好的感受都在聖誕節。'],
-      ['scene-05', 'I feel safe.', '我覺得安全。'],
-      ['scene-05', 'I feel cozy.', '我覺得舒適。'],
-      ['scene-06', 'I feel warm.', '我覺得溫暖。'],
-      ['scene-06', 'I feel loved.', '我覺得被愛。'],
-      ['scene-06', 'And I feel happy on Christmas.', '而且我在聖誕節覺得快樂。'],
-      ['scene-06', "That's why my favorite holiday is Christmas.", '這就是為什麼我最喜歡的節日是聖誕節。'],
-      ['scene-07', "Let's practice the past tense.", '讓我們練習過去式。'],
+      ["There are a lot of holidays like Christmas, New Year's, Three Kings Day, Valentine's Day, St. Patrick's Day, Easter, Kids' Day, Mother's Day, Father's Day, Halloween, the Day of the Dead, and Thanksgiving.", '有很多節日，像是聖誕節、新年、三王節、情人節、聖派翠克節、復活節、兒童節、母親節、父親節、萬聖節、亡靈節和感恩節。'],
+      ['Those are the only holidays that I can think of right now.', '那些是我現在唯一想得到的節日。'],
+      ['Those are the first holidays that come to mind.', '那些是我第一個想到的節日。'],
+      ['What is another holiday that comes to mind for you?', '對你來說，還有什麼節日會浮現在腦海中？'],
+      ['Something you celebrate in your country.', '也許是你在自己國家慶祝的節日。'],
+      ['I know there are so many more holidays in the world like Diwali, the start of the Hindu New Year, Eid al-Fitr, the Islamic holiday that celebrates the end of Ramadan, Lunar New Year, Carnival, Holi, and La Tomatina.', '我知道世界上還有好多節日，像是排燈節、印度新年的開始、開齋節，也就是慶祝齋戒月結束的伊斯蘭節日、農曆新年、嘉年華、胡里節和番茄節。'],
+      ["There are so many holidays that I don't celebrate, but they have so much meaning.", '有好多節日我沒有慶祝，但它們很有意義。'],
+      ['Humans celebrate everything we can.', '人類會盡可能慶祝一切。'],
+      ['We eat, we dance, and we laugh any chance we get.', '我們吃東西、跳舞，也一有機會就歡笑。'],
+      ['But to me, the best holiday is Christmas.', '但對我來說，最好的節日是聖誕節。'],
+      ["To me, it's more about the feeling.", '對我來說，它更關乎那種感覺。'],
+      ['And for me, the best feelings I get are on Christmas.', '對我而言，我得到最好的感受都在聖誕節。'],
+      ['I feel safe.', '我覺得安全。'],
+      ['I feel cozy.', '我覺得舒適。'],
+      ['I feel warm.', '我覺得溫暖。'],
+      ['I feel loved.', '我覺得被愛。'],
+      ['And I feel happy on Christmas.', '而且我在聖誕節覺得快樂。'],
+      ["That's why my favorite holiday is Christmas.", '這就是為什麼我最喜歡的節日是聖誕節。'],
+      ["Let's practice the past tense.", '讓我們練習過去式。'],
     ] as const
 
-    for (const [sceneId, en, tc] of expectedTranslations) {
-      const scene = content.scenes.find((item) => item.id === sceneId)
-      const sentence = scene?.sentences.find((item) => item.en === en)
+    const sentences = content.scenes.flatMap((scene) => scene.sentences)
+    for (const [en, tc] of expectedTranslations) {
+      const sentence = sentences.find((item) => item.en === en)
 
       expect(sentence?.tc).toBe(tc)
     }

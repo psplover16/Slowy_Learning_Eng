@@ -123,7 +123,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, let's learn some house essentials in English."
+              "text": "So, let's learn some house "
+            },
+            {
+              "type": "word",
+              "text": "essentials",
+              "targetId": "word-essential",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-02-003-001"
+            },
+            {
+              "type": "text",
+              "text": " in English."
             }
           ]
         },
@@ -339,7 +349,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I just have to be very careful."
+              "text": "I just "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-06-004-001"
+            },
+            {
+              "type": "text",
+              "text": " to be very careful."
             }
           ]
         }
@@ -456,7 +476,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I also have my yoga mat..."
+              "text": "I also "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-09-001-001"
+            },
+            {
+              "type": "text",
+              "text": " my yoga mat..."
             }
           ]
         },
@@ -613,7 +643,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you have any plants?"
+              "text": "Do you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " any plants?"
             }
           ]
         },
@@ -770,7 +810,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If you're deciding between buying a TV, or considering buying a projector, I have your answer."
+              "text": "If you're deciding between buying a TV, or considering buying a projector, I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-15-003-001"
+            },
+            {
+              "type": "text",
+              "text": " your answer."
             }
           ]
         },
@@ -815,7 +865,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have been watching Game of Thrones on this every night."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-16-002-001"
+            },
+            {
+              "type": "text",
+              "text": " been watching Game of Thrones on this every night."
             }
           ]
         },
@@ -864,7 +924,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have been watching Game of Thrones."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-17-002-001"
+            },
+            {
+              "type": "text",
+              "text": " been watching Game of Thrones."
             }
           ]
         },
@@ -874,7 +944,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What have you been watching?"
+              "text": "What "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-17-003-001"
+            },
+            {
+              "type": "text",
+              "text": " you been watching?"
             }
           ]
         },
@@ -884,7 +964,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Remember, we use \"have been\" when something started in the past but continues in the present."
+              "text": "Remember, we use \""
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-17-004-001"
+            },
+            {
+              "type": "text",
+              "text": " been\" when something started in the past but continues in the present."
             }
           ]
         }
@@ -903,7 +993,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have this little whiteboard that I write down little things that I have to do."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-18-001-001"
+            },
+            {
+              "type": "text",
+              "text": " this little whiteboard that I write down little things that I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-18-001-002"
+            },
+            {
+              "type": "text",
+              "text": " to do."
             }
           ]
         },
@@ -1050,7 +1160,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And of course, I also had to get a bucket."
+              "text": "And of course, I also had to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-21-001-001"
+            },
+            {
+              "type": "text",
+              "text": " a bucket."
             }
           ]
         },
@@ -1158,7 +1278,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It wouldn't get cold."
+              "text": "It wouldn't "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-23-002-001"
+            },
+            {
+              "type": "text",
+              "text": " cold."
             }
           ]
         },
@@ -1207,7 +1337,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "We had to pay more, of course, but nevertheless, we have a fridge!"
+              "text": "We had to pay more, of course, but nevertheless, we "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-24-002-001"
+            },
+            {
+              "type": "text",
+              "text": " a fridge!"
             }
           ]
         },
@@ -1468,7 +1608,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I also had to get these earplugs because it's so noisy outside."
+              "text": "I also had to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-29-002-001"
+            },
+            {
+              "type": "text",
+              "text": " these earplugs because it's so noisy outside."
             }
           ]
         },
@@ -1762,7 +1912,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "These were the essentials I bought for my home so far."
+              "text": "These were the "
+            },
+            {
+              "type": "word",
+              "text": "essentials",
+              "targetId": "word-essential",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-35-001-001"
+            },
+            {
+              "type": "text",
+              "text": " I bought for my home "
+            },
+            {
+              "type": "phrase",
+              "text": "so far",
+              "targetId": "phrase-so-far",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-35-001-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -1772,7 +1942,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I still have a few things to get, but my apartment isn't fully furnished yet."
+              "text": "I still "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-35-002-001"
+            },
+            {
+              "type": "text",
+              "text": " a few things to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-35-002-002"
+            },
+            {
+              "type": "text",
+              "text": ", but my apartment isn't fully furnished yet."
             }
           ]
         },
@@ -1782,7 +1972,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What is an essential in your home?"
+              "text": "What is an "
+            },
+            {
+              "type": "word",
+              "text": "essential",
+              "targetId": "word-essential",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-scene-35-003-001"
+            },
+            {
+              "type": "text",
+              "text": " in your home?"
             }
           ]
         },
@@ -2069,5 +2269,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch22-learn-english-at-home-slow-english",
+    "sourcePath": "_private/tmp/originalContent/a2/ch22-learn-english-at-home-slow-english.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch22-learn-english-at-home-slow-english.md"
+  }
 }

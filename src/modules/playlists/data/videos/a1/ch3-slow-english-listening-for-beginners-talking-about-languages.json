@@ -253,7 +253,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "The feeling of understanding one sentence or one word feels so good."
+              "text": "The "
+            },
+            {
+              "type": "usage",
+              "text": "feeling",
+              "targetId": "usage-feeling-that-feeling-when",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-scene-02-004-001"
+            },
+            {
+              "type": "text",
+              "text": " of understanding one sentence or one word feels so good."
             }
           ]
         }
@@ -881,5 +891,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch3-slow-english-listening-for-beginners-talking-about-languages",
+    "sourcePath": "_private/tmp/originalContent/a1/ch3-slow-english-listening-for-beginners-talking-about-languages.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch3-slow-english-listening-for-beginners-talking-about-languages.md"
+  }
 }

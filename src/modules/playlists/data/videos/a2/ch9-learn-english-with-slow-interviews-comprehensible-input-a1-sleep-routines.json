@@ -594,7 +594,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And I also like to make lasagna."
+              "text": "And I also like to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-11-004-001"
+            },
+            {
+              "type": "text",
+              "text": " lasagna."
             }
           ]
         }
@@ -613,7 +623,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And do you have any siblings?"
+              "text": "And do you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-12-001-001"
+            },
+            {
+              "type": "text",
+              "text": " any siblings?"
             }
           ]
         },
@@ -623,7 +643,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Yes, I have one sister and one brother."
+              "text": "Yes, I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " one sister and one brother."
             }
           ]
         },
@@ -828,8 +858,14 @@
           "tc": "你去過其他國家嗎？",
           "englishTokens": [
             {
+              "type": "usage",
+              "text": "Have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-16-002-001"
+            },
+            {
               "type": "text",
-              "text": "Have you ever visited another country?"
+              "text": " you ever visited another country?"
             }
           ]
         },
@@ -888,7 +924,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "In the future, I really want to go to Japan."
+              "text": "In the future, I really want "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-17-003-001"
+            },
+            {
+              "type": "text",
+              "text": " to Japan."
             }
           ]
         },
@@ -986,7 +1032,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It's where I have not been."
+              "text": "It's where I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-19-003-001"
+            },
+            {
+              "type": "text",
+              "text": " not been."
             }
           ]
         },
@@ -1192,7 +1248,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I wake up at 7 or 8 a.m. Mhm."
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-23-001-001"
+            },
+            {
+              "type": "text",
+              "text": " at 7 or 8 a.m. Mhm."
             }
           ]
         },
@@ -1222,7 +1288,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I usually get I usually get 7 to n hours of sleep."
+              "text": "I usually "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-23-003-001"
+            },
+            {
+              "type": "text",
+              "text": " I usually "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-23-003-002"
+            },
+            {
+              "type": "text",
+              "text": " 7 to n hours of sleep."
             }
           ]
         },
@@ -1389,7 +1475,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "If I take longer naps, I feel sleepier."
+              "text": "If I "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-26-003-001"
+            },
+            {
+              "type": "text",
+              "text": " longer naps, I feel sleepier."
             }
           ]
         },
@@ -1418,7 +1514,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And if I take shorter naps, I feel better."
+              "text": "And if I "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-27-001-001"
+            },
+            {
+              "type": "text",
+              "text": " shorter naps, I feel better."
             }
           ]
         },
@@ -1811,7 +1917,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "My nightly routine, washing my face, brushing my teeth, skin care."
+              "text": "My nightly "
+            },
+            {
+              "type": "word",
+              "text": "routine",
+              "targetId": "word-routine",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-34-004-001"
+            },
+            {
+              "type": "text",
+              "text": ", washing my face, brushing my teeth, skin care."
             }
           ]
         }
@@ -2252,7 +2368,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "And do you get enough sleep?"
+              "text": "And do you "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-43-003-001"
+            },
+            {
+              "type": "text",
+              "text": " enough sleep?"
             }
           ]
         },
@@ -2438,7 +2564,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "A recurring nightmare that I have, oh, I don't know how to describe it."
+              "text": "A recurring nightmare that I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-47-002-001"
+            },
+            {
+              "type": "text",
+              "text": ", oh, I don't know how to describe it."
             }
           ]
         },
@@ -2448,7 +2584,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "A recurring nightmare I have is someone in my room pulling my feet while I'm in the bed."
+              "text": "A recurring nightmare I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-47-003-001"
+            },
+            {
+              "type": "text",
+              "text": " is someone in my room pulling my feet while I'm in the bed."
             }
           ]
         },
@@ -2458,7 +2604,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, you wake up from that dream."
+              "text": "So, you "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-47-004-001"
+            },
+            {
+              "type": "text",
+              "text": " from that dream."
             }
           ]
         }
@@ -2487,7 +2643,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you ever have any common dreams like your teeth falling out or any normal dreams?"
+              "text": "Do you ever "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-48-002-001"
+            },
+            {
+              "type": "text",
+              "text": " any common dreams like your teeth falling out or any normal dreams?"
             }
           ]
         },
@@ -2497,7 +2663,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have a scary but funny dream."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-48-003-001"
+            },
+            {
+              "type": "text",
+              "text": " a scary but funny dream."
             }
           ]
         },
@@ -2644,7 +2820,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I don't like to use air conditioner while I sleep because sometimes I get sick from it."
+              "text": "I don't like to use air conditioner while I sleep because sometimes I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-51-002-001"
+            },
+            {
+              "type": "text",
+              "text": " sick from it."
             }
           ]
         },
@@ -2781,7 +2967,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I prefer sleeping in a cool room, but I can also sleep in warm rooms."
+              "text": "I prefer sleeping in a cool room, but I can also "
+            },
+            {
+              "type": "phrase",
+              "text": "sleep in",
+              "targetId": "phrase-sleep-in",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-54-001-001"
+            },
+            {
+              "type": "text",
+              "text": " warm rooms."
             }
           ]
         },
@@ -2791,7 +2987,27 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "It's just cold rooms make me sick and warm rooms I can't fall asleep."
+              "text": "It's just cold rooms "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-54-002-001"
+            },
+            {
+              "type": "text",
+              "text": " me sick and warm rooms I can't "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-54-002-002"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -2801,7 +3017,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "So, they have their pros and cons."
+              "text": "So, they "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-54-003-001"
+            },
+            {
+              "type": "text",
+              "text": " their pros and cons."
             }
           ]
         },
@@ -2811,7 +3037,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you ever wake up in the middle of the night?"
+              "text": "Do you ever "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-54-004-001"
+            },
+            {
+              "type": "text",
+              "text": " in the middle of the night?"
             }
           ]
         }
@@ -2830,7 +3066,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Yes, I sometimes wake up in the middle of the night, but only because I have to go to the bathroom because I probably drank too much water before going to sleep."
+              "text": "Yes, I sometimes "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-55-001-001"
+            },
+            {
+              "type": "text",
+              "text": " in the middle of the night, but only because I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-55-001-002"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-55-001-003"
+            },
+            {
+              "type": "text",
+              "text": " to the bathroom because I probably drank too much water before going to sleep."
             }
           ]
         },
@@ -2938,7 +3204,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What time do you wake up on weekends?"
+              "text": "What time do you "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-57-002-001"
+            },
+            {
+              "type": "text",
+              "text": " on weekends?"
             }
           ]
         },
@@ -2948,7 +3224,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "On weekends, I wake up around 900 a.m., but if I'm very sleepy, sometimes I can wake up at 11:00 p.m. or sorry, A.M. What do you wear when you sleep?"
+              "text": "On weekends, I "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-57-003-001"
+            },
+            {
+              "type": "text",
+              "text": " around 900 a.m., but if I'm very "
+            },
+            {
+              "type": "word",
+              "text": "sleepy",
+              "targetId": "word-sleepy",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-57-003-002"
+            },
+            {
+              "type": "text",
+              "text": ", sometimes I can "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-57-003-003"
+            },
+            {
+              "type": "text",
+              "text": " at 11:00 p.m. or sorry, A.M. What do you wear when you sleep?"
             }
           ]
         },
@@ -2958,7 +3264,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I wear my warm, fluffy pajamas when I sleep so that I can't get sick."
+              "text": "I wear my warm, fluffy pajamas when I sleep so that I can't "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-57-004-001"
+            },
+            {
+              "type": "text",
+              "text": " sick."
             }
           ]
         }
@@ -3134,7 +3450,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Do you ever wake up and feel very tired?"
+              "text": "Do you ever "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-61-001-001"
+            },
+            {
+              "type": "text",
+              "text": " and feel very tired?"
             }
           ]
         },
@@ -3193,7 +3519,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "What makes you sleepy?"
+              "text": "What makes you "
+            },
+            {
+              "type": "word",
+              "text": "sleepy",
+              "targetId": "word-sleepy",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-62-002-001"
+            },
+            {
+              "type": "text",
+              "text": "?"
             }
           ]
         },
@@ -3213,7 +3549,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "Reading makes me sleepy."
+              "text": "Reading makes me "
+            },
+            {
+              "type": "word",
+              "text": "sleepy",
+              "targetId": "word-sleepy",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-62-004-001"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         }
@@ -3232,7 +3578,37 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "No, I think reading books makes me sleepy and sometimes when I have a long day of teaching and talking to people, I feel very sleepy."
+              "text": "No, I think reading books makes me "
+            },
+            {
+              "type": "word",
+              "text": "sleepy",
+              "targetId": "word-sleepy",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-63-001-001"
+            },
+            {
+              "type": "text",
+              "text": " and sometimes when I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-63-001-002"
+            },
+            {
+              "type": "text",
+              "text": " a long day of teaching and talking to people, I feel very "
+            },
+            {
+              "type": "word",
+              "text": "sleepy",
+              "targetId": "word-sleepy",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-63-001-003"
+            },
+            {
+              "type": "text",
+              "text": "."
             }
           ]
         },
@@ -3242,7 +3618,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "There you have it, folks."
+              "text": "There you "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines-scene-63-002-001"
+            },
+            {
+              "type": "text",
+              "text": " it, folks."
             }
           ]
         },
@@ -3562,5 +3948,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines",
+    "sourcePath": "_private/tmp/originalContent/a2/ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch9-learn-english-with-slow-interviews-comprehensible-input-a1-sleep-routines.md"
+  }
 }

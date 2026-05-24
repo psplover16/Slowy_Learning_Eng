@@ -1156,8 +1156,14 @@
           "tc": "不然，我就是睡不著。",
           "englishTokens": [
             {
+              "type": "word",
+              "text": "Otherwise",
+              "targetId": "word-otherwise",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-10-003-001"
+            },
+            {
               "type": "text",
-              "text": "Otherwise, I just can't sleep."
+              "text": ", I just can't sleep."
             }
           ]
         },
@@ -1435,7 +1441,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I would walk around and talk, all while I was still sleeping."
+              "text": "I would walk "
+            },
+            {
+              "type": "usage",
+              "text": "around",
+              "targetId": "usage-around-item",
+              "instanceId": "marker-a1-ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary-scene-12-002-001"
+            },
+            {
+              "type": "text",
+              "text": " and talk, all while I was still sleeping."
             }
           ]
         },
@@ -2792,5 +2808,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a1",
+    "slug": "ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary",
+    "sourcePath": "_private/tmp/originalContent/a1/ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a1/ch9-a1-beginner-slow-english-podcast-sleep-rest-vocabulary.md"
+  }
 }

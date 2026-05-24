@@ -515,7 +515,17 @@
           "englishTokens": [
             {
               "type": "text",
-              "text": "I have a few questions for you."
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input-scene-10-003-001"
+            },
+            {
+              "type": "text",
+              "text": " a few questions for you."
             }
           ]
         },
@@ -729,5 +739,11 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceTraceability": {
+    "level": "a2",
+    "slug": "ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input",
+    "sourcePath": "_private/tmp/originalContent/a2/ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input.json",
+    "proofreadPath": "C:/Users/Gary/Documents/Slowy_Learning_Eng/_private/tmp/step1/a2/ch21-slow-english-reading-learn-english-with-childrens-books-comprehensible-input.md"
+  }
 }

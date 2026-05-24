@@ -680,7 +680,7 @@ function isLikelyCueFragment(sentence) {
   if (/^after [a-z]+ing,?\s+i\s+[a-z]+/.test(withoutPunctuation)) return false
   if (/[.,]\?$/.test(text)) return true
   if (/\.\s+a podcast\b/.test(text)) return true
-  if (/\.[\"']\.$/.test(text)) return true
+  if (/\.["']\.$/.test(text)) return true
   if (isCompleteQuestion(text, withoutPunctuation)) return false
   if (isNaturalTagQuestion(withoutPunctuation)) return false
   if (isNaturalEllipticalAnswer(withoutPunctuation)) return false
@@ -697,9 +697,13 @@ function isLikelyCueFragment(sentence) {
   if (/^you fat\b/.test(withoutPunctuation)) return true
   if (/\bbut i think$/.test(withoutPunctuation)) return true
   if (/\bin mexico in mexico\b/.test(withoutPunctuation)) return true
-  if (wordCount > 38 && !isNaturalListSentence(withoutPunctuation)) return true
+  if (wordCount > 38 && !isNaturalListSentence(withoutPunctuation) && completeSentenceCount(text) <= 1) return true
 
   return false
+}
+
+function completeSentenceCount(text) {
+  return (String(text).match(/[.!?。！？]["']?(?=\s|$)/g) ?? []).length
 }
 
 function isCompleteQuestion(text, withoutPunctuation) {

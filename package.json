@@ -19,6 +19,7 @@
     "misshoney:scaffold-content": "node scripts/misshoney/scaffold-content.mjs",
     "misshoney:author-polished-content": "node scripts/misshoney/author-polished-content.mjs",
     "misshoney:parse-proofread": "node scripts/misshoney/parse-proofread-result.mjs",
+    "misshoney:full-refresh": "node scripts/misshoney/full-refresh.mjs",
     "misshoney:validate-content": "node scripts/misshoney/validate-content.mjs",
     "misshoney:promote-content": "node scripts/misshoney/promote-content.mjs"
   },
