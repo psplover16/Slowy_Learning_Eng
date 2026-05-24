@@ -15,294 +15,1896 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello, and welcome back to my slow English podcast.",
+          "tc": "哈囉，歡迎回到我的慢速英語 podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello, and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-001-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "The entire ocean. His scales were every shade of blue and green and purple with sparkling silver scales among them. The other fish were amazed at his beauty.",
-          "tc": "整個海洋。他的鱗片呈藍色、綠色和紫色，其中有閃閃發光的銀色鱗片。其他魚都驚訝於他的美麗。"
+          "en": "Today, we will be reading The Rainbow Fish.",
+          "tc": "今天，我們要讀《彩虹魚》。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today, we will be reading The Rainbow Fish."
+            }
+          ]
         },
         {
-          "en": "They called him the rainbow fish. Come on, rainbow fish.",
-          "tc": "他們稱他為彩虹魚。來吧，彩虹魚。"
+          "en": "A long way out in the deep blue sea, there lived a fish.",
+          "tc": "在深藍色大海很遠很遠的地方，住著一條魚。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "A long way out",
+              "targetId": "phrase-a-long-way-out",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-003-01"
+            },
+            {
+              "type": "text",
+              "text": " in the deep blue sea, there lived a fish."
+            }
+          ]
         },
         {
-          "en": "They would call. Come and play with us. But the rainbow fish would just glide past, proud and silent, letting his scales shimmer. One day, a little blue fish followed.",
-          "tc": "他們會打電話。來和我們一起玩吧。但彩虹魚會驕傲而沉默地滑過，讓它的鱗片閃閃發光。有一天，一條藍色的小魚跟著來了。"
+          "en": "Not just any ordinary fish, but the most beautiful fish in the entire ocean.",
+          "tc": "牠不是普通的魚，而是整個海洋裡最美麗的魚。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Not just any",
+              "targetId": "phrase-not-just-any",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-004-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "ordinary",
+              "targetId": "word-ordinary",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-004-02"
+            },
+            {
+              "type": "text",
+              "text": " fish, but the most beautiful fish in the "
+            },
+            {
+              "type": "word",
+              "text": "entire",
+              "targetId": "word-entire",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-004-03"
+            },
+            {
+              "type": "text",
+              "text": " ocean."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "fish",
-          "kk": "/fish/",
-          "partOfSpeech": "n.",
-          "meaning": "魚",
-          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "rainbow",
-          "kk": "/rainbow/",
-          "partOfSpeech": "n.",
-          "meaning": "彩虹",
-          "note": "看到 rainbow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "scales",
-          "kk": "/scales/",
-          "partOfSpeech": "n.",
-          "meaning": "體重計",
-          "note": "看到 scales 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "He called. Wait for me. Please give me one of your shiny scales.",
-          "tc": "他打電話來。等我。請給我一片閃亮的鱗片。"
+          "en": "His scales were every shade of blue and green and purple, with sparkling silver scales among them.",
+          "tc": "牠的鱗片有各種藍色、綠色和紫色的色調，其中還有閃閃發亮的銀色鱗片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "His "
+            },
+            {
+              "type": "word",
+              "text": "scales",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-005-01"
+            },
+            {
+              "type": "text",
+              "text": " were every "
+            },
+            {
+              "type": "word",
+              "text": "shade",
+              "targetId": "word-shade",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-005-02"
+            },
+            {
+              "type": "text",
+              "text": " of blue and green and purple, with "
+            },
+            {
+              "type": "word",
+              "text": "sparkling",
+              "targetId": "word-sparkling",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-005-03"
+            },
+            {
+              "type": "text",
+              "text": " silver "
+            },
+            {
+              "type": "word",
+              "text": "scales",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-005-04"
+            },
+            {
+              "type": "text",
+              "text": " among them."
+            }
+          ]
         },
         {
-          "en": "They are so wonderful. And you have so many. You want me to give you one of my special scales?",
-          "tc": "他們太棒了。而你有這麼多。你想讓我給你一把我的特殊秤嗎？"
+          "en": "The other fish were amazed at his beauty.",
+          "tc": "其他魚都對牠的美感到驚奇。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The other fish were "
+            },
+            {
+              "type": "word",
+              "text": "amazed",
+              "targetId": "word-amazed",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-006-01"
+            },
+            {
+              "type": "text",
+              "text": " at his "
+            },
+            {
+              "type": "word",
+              "text": "beauty",
+              "targetId": "word-beauty",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-006-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Who do you think you are? Cried the rainbow fish. Get away from me. Shocked, the little blue fish swam away?",
-          "tc": "你以為你是誰？彩虹魚叫道。離我遠點。一驚，小藍魚遊走了？"
+          "en": "They called him Rainbow Fish.",
+          "tc": "他們叫牠彩虹魚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They "
+            },
+            {
+              "type": "usage",
+              "text": "called",
+              "targetId": "usage-call-call-someone",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-007-01"
+            },
+            {
+              "type": "text",
+              "text": " him Rainbow Fish."
+            }
+          ]
         },
         {
-          "en": "He was so upset.",
-          "tc": "他很沮喪。"
+          "en": "\"Come on, Rainbow Fish,\" they would call.",
+          "tc": "「來吧，彩虹魚，」他們常常喊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\""
+            },
+            {
+              "type": "phrase",
+              "text": "Come on",
+              "targetId": "phrase-come-on",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-008-01"
+            },
+            {
+              "type": "text",
+              "text": ", Rainbow Fish,\" they would call."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "fish",
-          "kk": "/fish/",
-          "partOfSpeech": "n.",
-          "meaning": "魚",
-          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "rainbow",
-          "kk": "/rainbow/",
-          "partOfSpeech": "n.",
-          "meaning": "彩虹",
-          "note": "看到 rainbow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "scales",
-          "kk": "/scales/",
-          "partOfSpeech": "n.",
-          "meaning": "體重計",
-          "note": "看到 scales 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "Then on, no one would have anything to do with Rainbow Fish.",
-          "tc": "從此以後，就沒有人再和彩虹魚有任何關係了。"
+          "en": "\"Come and play with us.\" But Rainbow Fish would just glide past, proud and silent, letting his scales shimmer.",
+          "tc": "「來跟我們一起玩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Come and play with us.\" But Rainbow Fish would just "
+            },
+            {
+              "type": "phrase",
+              "text": "glide past",
+              "targetId": "phrase-glide-past",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-009-01"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "proud",
+              "targetId": "word-proud",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-009-02"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "silent",
+              "targetId": "word-silent",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-009-03"
+            },
+            {
+              "type": "text",
+              "text": ", letting his "
+            },
+            {
+              "type": "word",
+              "text": "scales",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-009-04"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "shimmer",
+              "targetId": "word-shimmer",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-009-05"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "He swam by. What good were the dazzling shimmering scales with no one to admire them? Now.",
-          "tc": "他遊過去了。那些閃閃發光的鱗片如果沒有人欣賞又有什麼用呢？現在。"
+          "en": "One day, a little blue fish followed after him.",
+          "tc": "有一天，一條小藍魚跟在牠後面。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "One day, a little blue fish "
+            },
+            {
+              "type": "phrase",
+              "text": "followed after",
+              "targetId": "phrase-follow-after",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-010-01"
+            },
+            {
+              "type": "text",
+              "text": " him."
+            }
+          ]
         },
         {
-          "en": "He was the lonliest fish in the entire ocean. One day.",
-          "tc": "他是整個海洋中最孤獨的魚。一天。"
+          "en": "\"Rainbow Fish,\" he called.",
+          "tc": "「彩虹魚，」牠叫道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Rainbow Fish,\" he called."
+            }
+          ]
         },
         {
-          "en": "He poured out all of his troubles to the starfish. I really am beautiful. Why doesn't anybody like me? I can't answer that for you, said the starfish.",
-          "tc": "他把所有的煩惱都傾訴給了海星。我確實很美麗。為什麼沒有人喜歡我？ 「我無法回答你這個問題，」海星說。"
+          "en": "\"Wait for me.",
+          "tc": "「等我一下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Wait for me."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "fish",
-          "kk": "/fish/",
-          "partOfSpeech": "n.",
-          "meaning": "魚",
-          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "rainbow",
-          "kk": "/rainbow/",
-          "partOfSpeech": "n.",
-          "meaning": "彩虹",
-          "note": "看到 rainbow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "scales",
-          "kk": "/scales/",
-          "partOfSpeech": "n.",
-          "meaning": "體重計",
-          "note": "看到 scales 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "If you go beyond the coral reef to a deep cave, you will find the wise octopus. Maybe.",
-          "tc": "如果你越過珊瑚礁進入一個很深的洞穴，你會發現聰明的章魚。或許。"
+          "en": "Please give me one of your shiny scales.",
+          "tc": "請給我一片你發亮的鱗片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Please give me one of your "
+            },
+            {
+              "type": "word",
+              "text": "shiny",
+              "targetId": "word-shiny",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-013-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "scales",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-013-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "She can help you. The rainbow fish found the cave.",
-          "tc": "她可以幫助你。彩虹魚找到了洞穴。"
+          "en": "They are so wonderful, and you have so many.\"",
+          "tc": "它們太棒了，而且你有那麼多片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They are so wonderful, and you have so many.\""
+            }
+          ]
         },
         {
-          "en": "It was very dark inside.",
-          "tc": "裡面很暗。"
+          "en": "\"You want me to give you one of my special scales?",
+          "tc": "「你要我把我的特別鱗片給你一片？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"You want me to give you one of my special "
+            },
+            {
+              "type": "word",
+              "text": "scales",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-015-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         },
         {
-          "en": "He couldn't see anything.",
-          "tc": "他什麼也看不見。"
+          "en": "Who do you think you are?\" cried Rainbow Fish.",
+          "tc": "你以為你是誰？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Who do you think you are?\" cried Rainbow Fish."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "fish",
-          "kk": "/fish/",
-          "partOfSpeech": "n.",
-          "meaning": "魚",
-          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "rainbow",
-          "kk": "/rainbow/",
-          "partOfSpeech": "n.",
-          "meaning": "彩虹",
-          "note": "看到 rainbow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "Then suddenly two eyes caught him in their glare and the octopus emerged from the darkness.",
-          "tc": "突然，兩隻眼睛注視著他，章魚從黑暗中出現了。"
+          "en": "\"Get away from me!\"",
+          "tc": "」彩虹魚喊道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\""
+            },
+            {
+              "type": "phrase",
+              "text": "Get away from",
+              "targetId": "phrase-get-away-from",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-017-01"
+            },
+            {
+              "type": "text",
+              "text": " me!\""
+            }
+          ]
         },
         {
-          "en": "Other fish. You will no longer be the most beautiful fish in the sea.",
-          "tc": "其他魚。你將不再是大海裡最美麗的魚。"
+          "en": "Shocked, the little blue fish swam away.",
+          "tc": "小藍魚很震驚，游走了。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Shocked",
+              "targetId": "word-shocked",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-018-01"
+            },
+            {
+              "type": "text",
+              "text": ", the little blue fish swam away."
+            }
+          ]
         },
         {
-          "en": "You will discover how to be happy. I can't, the rainbow fish started to say. But the octopus had already disappeared into a dark cloud of ink. Give away my scales. My.",
-          "tc": "你會發現如何快樂。我不能，彩虹魚開始說。但那隻章魚已經消失在一片漆黑的墨雲之中。把我的秤給我吧我的。"
+          "en": "He was so upset.",
+          "tc": "牠非常難過。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He was so upset."
+            }
+          ]
         },
         {
-          "en": "Beautiful shining scales. Never. How could I ever be happy without them? Suddenly,.",
-          "tc": "美麗閃亮的鱗片。絕不。沒有他們我怎麼能幸福呢？突然，。"
+          "en": "He told all his friends what had happened.",
+          "tc": "牠把發生的事告訴了所有朋友。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He told all his friends what had happened."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "fish",
-          "kk": "/fish/",
-          "partOfSpeech": "n.",
-          "meaning": "魚",
-          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "rainbow",
-          "kk": "/rainbow/",
-          "partOfSpeech": "n.",
-          "meaning": "彩虹",
-          "note": "看到 rainbow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "scales",
-          "kk": "/scales/",
-          "partOfSpeech": "n.",
-          "meaning": "體重計",
-          "note": "看到 scales 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "He felt the light touch of a fin. The little blue fish was back. Rainbow fish, please don't be angry.",
-          "tc": "他感覺到鰭輕輕的觸碰。小藍魚又回來了。彩虹魚，請不要生氣。"
+          "en": "From then on, no one would have anything to do with Rainbow Fish.",
+          "tc": "從那時起，沒有魚願意和彩虹魚有任何來往。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "From then on",
+              "targetId": "phrase-from-then-on",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-021-01"
+            },
+            {
+              "type": "text",
+              "text": ", no one would "
+            },
+            {
+              "type": "phrase",
+              "text": "have anything to do with",
+              "targetId": "phrase-have-anything-to-do-with",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-021-02"
+            },
+            {
+              "type": "text",
+              "text": " Rainbow Fish."
+            }
+          ]
         },
         {
-          "en": "I just want one little scale. The rainbow fish wavered. Only one very, small shimmery scale,.",
-          "tc": "我只想要一個小秤。彩虹魚動搖了。只有一個非常非常小的閃閃發光的鱗片。"
+          "en": "They turned away when he swam by.",
+          "tc": "彩虹魚游過時，他們都轉身離開。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They "
+            },
+            {
+              "type": "phrase",
+              "text": "turned away",
+              "targetId": "phrase-turn-away",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-022-01"
+            },
+            {
+              "type": "text",
+              "text": " when he "
+            },
+            {
+              "type": "phrase",
+              "text": "swam by",
+              "targetId": "phrase-swim-by",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-022-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "He thought. Well, maybe I wouldn't miss just one. Carefully, the rainbow fish pulled out the smallest scale and gave it to the little fish.",
-          "tc": "他想。好吧，也許我不會錯過任何一個。彩虹魚小心翼翼地把最小的鱗片拔了出來，遞給了小魚。"
+          "en": "What good were the dazzling, shimmering scales, with no one to admire them?",
+          "tc": "那些耀眼又閃亮的鱗片，如果沒有人欣賞，又有什麼用呢？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What good were the "
+            },
+            {
+              "type": "word",
+              "text": "dazzling",
+              "targetId": "word-dazzling",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-023-01"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "shimmering",
+              "targetId": "word-shimmer",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-023-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "scales",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-023-03"
+            },
+            {
+              "type": "text",
+              "text": ", with no one to "
+            },
+            {
+              "type": "word",
+              "text": "admire",
+              "targetId": "word-admire",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-023-04"
+            },
+            {
+              "type": "text",
+              "text": " them?"
+            }
+          ]
         },
         {
-          "en": "Thank you. Very much. The little blue fish bubbled playfully as.",
-          "tc": "謝謝。非常。藍色的小魚頑皮地吐著泡泡。"
+          "en": "Now he was the loneliest fish in the entire ocean.",
+          "tc": "現在牠成了整個海洋裡最孤單的魚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now he was the "
+            },
+            {
+              "type": "word",
+              "text": "loneliest",
+              "targetId": "word-lonely",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-024-01"
+            },
+            {
+              "type": "text",
+              "text": " fish in the "
+            },
+            {
+              "type": "word",
+              "text": "entire",
+              "targetId": "word-entire",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-024-02"
+            },
+            {
+              "type": "text",
+              "text": " ocean."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
         {
-          "english": "fish",
-          "kk": "/fish/",
-          "partOfSpeech": "n.",
-          "meaning": "魚",
-          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "One day, he poured out all of his troubles to the starfish.",
+          "tc": "有一天，牠向海星傾訴自己所有的煩惱。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "One day, he "
+            },
+            {
+              "type": "phrase",
+              "text": "poured out all of his troubles",
+              "targetId": "phrase-pour-out-all-of-one-s-troubles",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-025-01"
+            },
+            {
+              "type": "text",
+              "text": " to the "
+            },
+            {
+              "type": "word",
+              "text": "starfish",
+              "targetId": "word-starfish",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-025-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "english": "rainbow",
-          "kk": "/rainbow/",
-          "partOfSpeech": "n.",
-          "meaning": "彩虹",
-          "note": "看到 rainbow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "\"I really am beautiful.",
+          "tc": "「我真的很美。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I really am beautiful."
+            }
+          ]
         },
         {
-          "english": "little",
-          "kk": "/little/",
-          "partOfSpeech": "n.",
-          "meaning": "小的",
-          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "Why doesn't anybody like me?\"",
+          "tc": "為什麼沒有人喜歡我呢？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Why doesn't anybody like me?\""
+            }
+          ]
+        },
+        {
+          "en": "\"I can't answer that for you,\" said the starfish.",
+          "tc": "「這件事我不能替你回答，」海星說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I can't answer that for you,\" said the "
+            },
+            {
+              "type": "word",
+              "text": "starfish",
+              "targetId": "word-starfish",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-028-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "\"But if you go beyond the coral reef to a deep cave, you will find the wise octopus.",
+          "tc": "「但是如果你越過珊瑚礁，到一個深深的洞穴，你會找到有智慧的章魚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"But if you go "
+            },
+            {
+              "type": "word",
+              "text": "beyond",
+              "targetId": "word-beyond",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-029-01"
+            },
+            {
+              "type": "text",
+              "text": " the "
+            },
+            {
+              "type": "phrase",
+              "text": "coral reef",
+              "targetId": "phrase-coral-reef",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-029-02"
+            },
+            {
+              "type": "text",
+              "text": " to a deep "
+            },
+            {
+              "type": "word",
+              "text": "cave",
+              "targetId": "word-cave",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-029-03"
+            },
+            {
+              "type": "text",
+              "text": ", you will find the "
+            },
+            {
+              "type": "word",
+              "text": "wise",
+              "targetId": "word-wise",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-029-04"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "octopus",
+              "targetId": "word-octopus",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-029-05"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Maybe she can help you.\"",
+          "tc": "也許她能幫你。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Maybe she can help you.\""
+            }
+          ]
+        },
+        {
+          "en": "Rainbow Fish found the cave.",
+          "tc": "彩虹魚找到了洞穴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Rainbow Fish found the "
+            },
+            {
+              "type": "word",
+              "text": "cave",
+              "targetId": "word-cave",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-031-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "It was very dark inside, and he couldn't see anything.",
+          "tc": "裡面很暗，牠什麼也看不見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was very dark inside, and he couldn't see anything."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
+        {
+          "en": "Then, suddenly, two eyes caught him in their glare, and the octopus emerged from the darkness.",
+          "tc": "接著，突然有兩隻眼睛用逼人的目光盯住牠，章魚從黑暗中出現了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then, suddenly, two eyes "
+            },
+            {
+              "type": "usage",
+              "text": "caught",
+              "targetId": "usage-catch-eyes-caught-him-in-their-glare",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-033-01"
+            },
+            {
+              "type": "text",
+              "text": " him in their "
+            },
+            {
+              "type": "word",
+              "text": "glare",
+              "targetId": "word-glare",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-033-02"
+            },
+            {
+              "type": "text",
+              "text": ", and the "
+            },
+            {
+              "type": "word",
+              "text": "octopus",
+              "targetId": "word-octopus",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-033-03"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "emerged",
+              "targetId": "word-emerge",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-033-04"
+            },
+            {
+              "type": "text",
+              "text": " from the "
+            },
+            {
+              "type": "word",
+              "text": "darkness",
+              "targetId": "word-darkness",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-033-05"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "\"I have been waiting for you,\" said the octopus in a deep voice.",
+          "tc": "「我一直在等你，」章魚用低沉的聲音說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I have been waiting for you,\" said the "
+            },
+            {
+              "type": "word",
+              "text": "octopus",
+              "targetId": "word-octopus",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-034-01"
+            },
+            {
+              "type": "text",
+              "text": " in a "
+            },
+            {
+              "type": "usage",
+              "text": "deep",
+              "targetId": "usage-deep-a-deep-voice",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-034-02"
+            },
+            {
+              "type": "text",
+              "text": " voice."
+            }
+          ]
+        },
+        {
+          "en": "\"The waves have told me your story.",
+          "tc": "「海浪已經把你的故事告訴我了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"The waves have "
+            },
+            {
+              "type": "usage",
+              "text": "told",
+              "targetId": "usage-tell-waves-have-told-me-your-story",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-035-01"
+            },
+            {
+              "type": "text",
+              "text": " me your story."
+            }
+          ]
+        },
+        {
+          "en": "This is my advice: Give a glittering scale to each of the other fish.",
+          "tc": "這是我的建議：把一片閃閃發光的鱗片送給其他每一條魚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is my "
+            },
+            {
+              "type": "word",
+              "text": "advice",
+              "targetId": "word-advice",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-036-01"
+            },
+            {
+              "type": "text",
+              "text": ": Give a "
+            },
+            {
+              "type": "word",
+              "text": "glittering",
+              "targetId": "word-glitter",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-036-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "scale",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-036-03"
+            },
+            {
+              "type": "text",
+              "text": " to each of the other fish."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "You will no longer be the most beautiful fish in the sea, but you will discover how to be happy.\"",
+          "tc": "你將不再是海裡最美麗的魚，但你會發現怎樣才會快樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You will "
+            },
+            {
+              "type": "phrase",
+              "text": "no longer",
+              "targetId": "phrase-no-longer",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-037-01"
+            },
+            {
+              "type": "text",
+              "text": " be the most beautiful fish in the sea, but you will "
+            },
+            {
+              "type": "word",
+              "text": "discover",
+              "targetId": "word-discover",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-037-02"
+            },
+            {
+              "type": "text",
+              "text": " how to be happy.\""
+            }
+          ]
+        },
+        {
+          "en": "\"I can't,\" Rainbow Fish started to say, but the octopus had already disappeared into a dark cloud of ink.",
+          "tc": "「我不能，」彩虹魚正要說，但章魚已經消失在一團黑色墨汁裡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I can't,\" Rainbow Fish started to say, but the "
+            },
+            {
+              "type": "word",
+              "text": "octopus",
+              "targetId": "word-octopus",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-038-01"
+            },
+            {
+              "type": "text",
+              "text": " had already "
+            },
+            {
+              "type": "word",
+              "text": "disappeared",
+              "targetId": "word-disappear",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-038-02"
+            },
+            {
+              "type": "text",
+              "text": " into a dark cloud of "
+            },
+            {
+              "type": "word",
+              "text": "ink",
+              "targetId": "word-ink",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-038-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "\"Give away my scales?",
+          "tc": "「送出我的鱗片？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\""
+            },
+            {
+              "type": "phrase",
+              "text": "Give away",
+              "targetId": "phrase-give-away",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-039-01"
+            },
+            {
+              "type": "text",
+              "text": " my "
+            },
+            {
+              "type": "word",
+              "text": "scales",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-039-02"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "My beautiful, shining scales?",
+          "tc": "我美麗、發亮的鱗片？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My beautiful, shining "
+            },
+            {
+              "type": "word",
+              "text": "scales",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-040-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
+        {
+          "en": "Never.",
+          "tc": "絕不。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Never."
+            }
+          ]
+        },
+        {
+          "en": "How could I ever be happy without them?\"",
+          "tc": "沒有它們，我怎麼可能快樂？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How could I ever be happy without them?\""
+            }
+          ]
+        },
+        {
+          "en": "Suddenly, he felt the light touch of a fin.",
+          "tc": "突然，牠感覺到魚鰭輕輕碰了牠一下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Suddenly, he felt the light touch of a "
+            },
+            {
+              "type": "word",
+              "text": "fin",
+              "targetId": "word-fin",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-043-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "The little blue fish was back.",
+          "tc": "小藍魚回來了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The little blue fish was back."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "\"Rainbow Fish, please don't be angry.",
+          "tc": "「彩虹魚，請不要生氣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Rainbow Fish, please don't be angry."
+            }
+          ]
+        },
+        {
+          "en": "I just want one little scale.\"",
+          "tc": "我只想要一片小小的鱗片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I just want one little "
+            },
+            {
+              "type": "word",
+              "text": "scale",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-046-01"
+            },
+            {
+              "type": "text",
+              "text": ".\""
+            }
+          ]
+        },
+        {
+          "en": "Rainbow Fish wavered.",
+          "tc": "彩虹魚猶豫了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Rainbow Fish "
+            },
+            {
+              "type": "word",
+              "text": "wavered",
+              "targetId": "word-waver",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-047-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "\"Only one very, very small shimmery scale,\" he thought.",
+          "tc": "「只有一片非常、非常小的閃亮鱗片，」牠心想。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Only one very, very small "
+            },
+            {
+              "type": "word",
+              "text": "shimmery",
+              "targetId": "word-shimmer",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-048-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "scale",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-048-02"
+            },
+            {
+              "type": "text",
+              "text": ",\" he thought."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "\"Well, maybe I wouldn't miss just one.\"",
+          "tc": "「嗯，也許少一片我不會想念。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Well, maybe I wouldn't miss just one.\""
+            }
+          ]
+        },
+        {
+          "en": "Carefully, Rainbow Fish pulled out the smallest scale and gave it to the little fish.",
+          "tc": "彩虹魚小心地拔下最小的一片鱗片，送給了小魚。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Carefully",
+              "targetId": "word-carefully",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-050-01"
+            },
+            {
+              "type": "text",
+              "text": ", Rainbow Fish "
+            },
+            {
+              "type": "phrase",
+              "text": "pulled out",
+              "targetId": "phrase-pull-out",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-050-02"
+            },
+            {
+              "type": "text",
+              "text": " the smallest "
+            },
+            {
+              "type": "word",
+              "text": "scale",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-050-03"
+            },
+            {
+              "type": "text",
+              "text": " and gave it to the little fish."
+            }
+          ]
+        },
+        {
+          "en": "\"Thank you.",
+          "tc": "「謝謝你。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Thank you."
+            }
+          ]
+        },
+        {
+          "en": "Thank you very much.\" The little blue fish bubbled playfully as he tucked the shiny scale in among his blue ones.",
+          "tc": "非常謝謝你。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you very much.\" The little blue fish "
+            },
+            {
+              "type": "word",
+              "text": "bubbled",
+              "targetId": "word-bubble",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-052-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "playfully",
+              "targetId": "word-playfully",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-052-02"
+            },
+            {
+              "type": "text",
+              "text": " as he "
+            },
+            {
+              "type": "word",
+              "text": "tucked",
+              "targetId": "word-tuck",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-052-03"
+            },
+            {
+              "type": "text",
+              "text": " the "
+            },
+            {
+              "type": "word",
+              "text": "shiny",
+              "targetId": "word-shiny",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-052-04"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "scale",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-052-05"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "in among",
+              "targetId": "phrase-in-among",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-052-06"
+            },
+            {
+              "type": "text",
+              "text": " his blue ones."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "A rather peculiar feeling came over Rainbow Fish.",
+          "tc": "一種相當奇特的感覺湧上彩虹魚心頭。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A rather "
+            },
+            {
+              "type": "word",
+              "text": "peculiar",
+              "targetId": "word-peculiar",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-053-01"
+            },
+            {
+              "type": "text",
+              "text": " feeling "
+            },
+            {
+              "type": "phrase",
+              "text": "came over",
+              "targetId": "phrase-come-over",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-053-02"
+            },
+            {
+              "type": "text",
+              "text": " Rainbow Fish."
+            }
+          ]
+        },
+        {
+          "en": "For a long time, he watched the little blue fish swim back and forth with his new scale glittering in the water.",
+          "tc": "牠看了很久，看著小藍魚帶著新鱗片在水裡來回游動，那片鱗片閃閃發亮。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "For a long time",
+              "targetId": "phrase-for-a-long-time",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-054-01"
+            },
+            {
+              "type": "text",
+              "text": ", he watched the little blue fish swim "
+            },
+            {
+              "type": "phrase",
+              "text": "back and forth",
+              "targetId": "phrase-back-and-forth",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-054-02"
+            },
+            {
+              "type": "text",
+              "text": " with his new "
+            },
+            {
+              "type": "word",
+              "text": "scale",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-054-03"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "glittering",
+              "targetId": "word-glitter",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-054-04"
+            },
+            {
+              "type": "text",
+              "text": " in the water."
+            }
+          ]
+        },
+        {
+          "en": "The little blue fish whizzed through the ocean with his scale flashing.",
+          "tc": "小藍魚帶著閃光的鱗片在海裡飛快游過。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The little blue fish "
+            },
+            {
+              "type": "word",
+              "text": "whizzed",
+              "targetId": "word-whiz",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-055-01"
+            },
+            {
+              "type": "text",
+              "text": " through the ocean with his "
+            },
+            {
+              "type": "word",
+              "text": "scale",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-055-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "flashing",
+              "targetId": "word-flash",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-055-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "So it didn't take long before Rainbow Fish was surrounded by the other fish.",
+          "tc": "所以沒過多久，彩虹魚就被其他魚圍住了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So it didn't "
+            },
+            {
+              "type": "phrase",
+              "text": "take long before",
+              "targetId": "phrase-take-long-before",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-056-01"
+            },
+            {
+              "type": "text",
+              "text": " Rainbow Fish was "
+            },
+            {
+              "type": "phrase",
+              "text": "surrounded by",
+              "targetId": "phrase-surrounded-by",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-056-02"
+            },
+            {
+              "type": "text",
+              "text": " the other fish."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "Everyone wanted a glittering scale.",
+          "tc": "每條魚都想要一片閃亮的鱗片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Everyone wanted a "
+            },
+            {
+              "type": "word",
+              "text": "glittering",
+              "targetId": "word-glitter",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-057-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "scale",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-057-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Rainbow Fish shared his scales left and right, and the more he gave away, the more delighted he became.",
+          "tc": "彩虹魚把牠的鱗片到處分享出去；牠給得越多，就變得越開心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Rainbow Fish shared his "
+            },
+            {
+              "type": "word",
+              "text": "scales",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-058-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "left and right",
+              "targetId": "phrase-left-and-right",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-058-02"
+            },
+            {
+              "type": "text",
+              "text": ", and the more he gave away, the more "
+            },
+            {
+              "type": "word",
+              "text": "delighted",
+              "targetId": "word-delighted",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-058-03"
+            },
+            {
+              "type": "text",
+              "text": " he became."
+            }
+          ]
+        },
+        {
+          "en": "When the water around him filled with glimmering scales, he at last felt at home among the other fish.",
+          "tc": "當牠周圍的水中充滿微微發光的鱗片時，牠終於在其他魚之中感到自在，像回到家一樣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When the water around him "
+            },
+            {
+              "type": "phrase",
+              "text": "filled with",
+              "targetId": "phrase-filled-with",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-059-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "glimmering",
+              "targetId": "word-glimmering",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-059-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "scales",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-059-03"
+            },
+            {
+              "type": "text",
+              "text": ", he "
+            },
+            {
+              "type": "phrase",
+              "text": "at last",
+              "targetId": "phrase-at-last",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-059-04"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "felt at home",
+              "targetId": "phrase-feel-at-home",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-059-05"
+            },
+            {
+              "type": "text",
+              "text": " among the other fish."
+            }
+          ]
+        },
+        {
+          "en": "Finally, Rainbow Fish had only one shining scale left.",
+          "tc": "最後，彩虹魚只剩下一片發亮的鱗片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Finally, Rainbow Fish had only one shining "
+            },
+            {
+              "type": "word",
+              "text": "scale",
+              "targetId": "word-scale",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-060-01"
+            },
+            {
+              "type": "text",
+              "text": " left."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "His most prized possessions had been given away.",
+          "tc": "牠最珍愛的東西都已經送出去了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "His most "
+            },
+            {
+              "type": "word",
+              "text": "prized",
+              "targetId": "word-prized",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-061-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "possessions",
+              "targetId": "word-possession",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-061-02"
+            },
+            {
+              "type": "text",
+              "text": " had been "
+            },
+            {
+              "type": "phrase",
+              "text": "given away",
+              "targetId": "phrase-give-away",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-061-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Yet he was very happy.",
+          "tc": "然而牠非常快樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yet he was very happy."
+            }
+          ]
+        },
+        {
+          "en": "\"Come on, Rainbow Fish,\" they called.",
+          "tc": "「來吧，彩虹魚，」他們喊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\""
+            },
+            {
+              "type": "phrase",
+              "text": "Come on",
+              "targetId": "phrase-come-on",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-063-01"
+            },
+            {
+              "type": "text",
+              "text": ", Rainbow Fish,\" they called."
+            }
+          ]
+        },
+        {
+          "en": "\"Come and play with us.\"",
+          "tc": "「來跟我們一起玩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Come and play with us.\""
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "\"Here I come,\" said Rainbow Fish.",
+          "tc": "「我來了，」彩虹魚說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Here I come,\" said Rainbow Fish."
+            }
+          ]
+        },
+        {
+          "en": "And, happy as a splash, he swam off to join his friends.",
+          "tc": "牠像水花一樣快樂地游走，加入朋友們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And, "
+            },
+            {
+              "type": "phrase",
+              "text": "happy as a splash",
+              "targetId": "phrase-happy-as-a-splash",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-066-01"
+            },
+            {
+              "type": "text",
+              "text": ", he "
+            },
+            {
+              "type": "phrase",
+              "text": "swam off",
+              "targetId": "phrase-swim-off",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-066-02"
+            },
+            {
+              "type": "text",
+              "text": " to join his friends."
+            }
+          ]
+        },
+        {
+          "en": "What do you think the moral of this story was?",
+          "tc": "你覺得這個故事的寓意是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you think the "
+            },
+            {
+              "type": "word",
+              "text": "moral",
+              "targetId": "word-moral",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-067-01"
+            },
+            {
+              "type": "text",
+              "text": " of this story was?"
+            }
+          ]
+        },
+        {
+          "en": "Comment down below.",
+          "tc": "請在下面留言。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Comment down below",
+              "targetId": "phrase-comment-down-below",
+              "instanceId": "marker-a1-ch11-slow-english-reading-rainbow-fish-for-beginners-a1a2-068-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "I would love to hear your thoughts.",
+          "tc": "我很想聽聽你的想法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would love to hear your thoughts."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -310,131 +1912,949 @@
       "title": "A1 重點單字",
       "items": [
         {
-          "english": "fish",
-          "kk": "/fish/",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "/'pɑd,kæst/",
           "partOfSpeech": "n.",
-          "meaning": "魚",
-          "note": "看到 fish 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "podcast、網路音訊節目",
           "highlight": true
         },
         {
-          "english": "rainbow",
-          "kk": "/rainbow/",
-          "partOfSpeech": "n.",
-          "meaning": "彩虹",
-          "note": "看到 rainbow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-ordinary",
+          "lemma": "ordinary",
+          "english": "ordinary",
+          "kk": "/'ɔrdn,ɛrɪ/",
+          "partOfSpeech": "adj.",
+          "meaning": "普通的",
           "highlight": true
         },
         {
+          "id": "word-entire",
+          "lemma": "entire",
+          "english": "entire",
+          "kk": "/ɪn'taɪr/",
+          "partOfSpeech": "adj.",
+          "meaning": "整個的",
+          "highlight": true
+        },
+        {
+          "id": "word-scale",
+          "lemma": "scale",
           "english": "scales",
-          "kk": "/scales/",
+          "kk": "/skel/",
           "partOfSpeech": "n.",
-          "meaning": "體重計",
-          "note": "看到 scales 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "魚鱗",
           "highlight": true
         },
         {
-          "english": "little",
-          "kk": "/little/",
+          "id": "word-shade",
+          "lemma": "shade",
+          "english": "shade",
+          "kk": "/ʃed/",
           "partOfSpeech": "n.",
-          "meaning": "小的",
-          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "色調、深淺",
+          "highlight": true
         },
         {
-          "english": "blue",
-          "kk": "/blue/",
-          "partOfSpeech": "n.",
-          "meaning": "藍色的",
-          "note": "看到 blue 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "away",
-          "kk": "/away/",
-          "partOfSpeech": "n.",
-          "meaning": "離開",
-          "note": "看到 away 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "beautiful",
-          "kk": "/beautiful/",
+          "id": "word-sparkling",
+          "lemma": "sparkling",
+          "english": "sparkling",
+          "kk": "/'spɑrklɪŋ/",
           "partOfSpeech": "adj.",
-          "meaning": "美麗的",
-          "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "閃閃發光的",
+          "highlight": true
         },
         {
-          "english": "give",
-          "kk": "/give/",
+          "id": "word-amazed",
+          "lemma": "amazed",
+          "english": "amazed",
+          "kk": "/ə'mezd/",
           "partOfSpeech": "adj.",
-          "meaning": "給",
-          "note": "看到 give 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "感到驚奇的",
+          "highlight": true
+        },
+        {
+          "id": "word-beauty",
+          "lemma": "beauty",
+          "english": "beauty",
+          "kk": "/'bjutɪ/",
+          "partOfSpeech": "n.",
+          "meaning": "美麗、美",
+          "highlight": true
+        },
+        {
+          "id": "word-proud",
+          "lemma": "proud",
+          "english": "proud",
+          "kk": "/praʊd/",
+          "partOfSpeech": "adj.",
+          "meaning": "驕傲的",
+          "highlight": true
+        },
+        {
+          "id": "word-silent",
+          "lemma": "silent",
+          "english": "silent",
+          "kk": "/'saɪlənt/",
+          "partOfSpeech": "adj.",
+          "meaning": "安靜的、沉默的",
+          "highlight": true
+        },
+        {
+          "id": "word-shimmer",
+          "lemma": "shimmer",
+          "english": "shimmer",
+          "kk": "/'ʃɪmɚ/",
+          "partOfSpeech": "v./adj.",
+          "meaning": "發出柔和閃光；閃亮的",
+          "highlight": true
+        },
+        {
+          "id": "word-shiny",
+          "lemma": "shiny",
+          "english": "shiny",
+          "kk": "/'ʃaɪnɪ/",
+          "partOfSpeech": "adj.",
+          "meaning": "發亮的",
+          "highlight": true
+        },
+        {
+          "id": "word-shocked",
+          "lemma": "shocked",
+          "english": "Shocked",
+          "kk": "/ʃɑkt/",
+          "partOfSpeech": "adj.",
+          "meaning": "震驚的",
+          "highlight": true
+        },
+        {
+          "id": "word-dazzling",
+          "lemma": "dazzling",
+          "english": "dazzling",
+          "kk": "/'dæzlɪŋ/",
+          "partOfSpeech": "adj.",
+          "meaning": "耀眼的",
+          "highlight": true
+        },
+        {
+          "id": "word-admire",
+          "lemma": "admire",
+          "english": "admire",
+          "kk": "/əd'maɪr/",
+          "partOfSpeech": "v.",
+          "meaning": "欣賞、讚賞",
+          "highlight": true
+        },
+        {
+          "id": "word-lonely",
+          "lemma": "lonely",
+          "english": "loneliest",
+          "kk": "/'lonlɪɪst/",
+          "partOfSpeech": "adj.",
+          "meaning": "最孤單的",
+          "highlight": true
+        },
+        {
+          "id": "word-starfish",
+          "lemma": "starfish",
+          "english": "starfish",
+          "kk": "/'stɑr,fɪʃ/",
+          "partOfSpeech": "n.",
+          "meaning": "海星",
+          "highlight": true
+        },
+        {
+          "id": "word-beyond",
+          "lemma": "beyond",
+          "english": "beyond",
+          "kk": "/bɪ'jɑnd/",
+          "partOfSpeech": "prep.",
+          "meaning": "在……更遠處、越過",
+          "highlight": true
+        },
+        {
+          "id": "word-cave",
+          "lemma": "cave",
+          "english": "cave",
+          "kk": "/kev/",
+          "partOfSpeech": "n.",
+          "meaning": "洞穴",
+          "highlight": true
+        },
+        {
+          "id": "word-wise",
+          "lemma": "wise",
+          "english": "wise",
+          "kk": "/waɪz/",
+          "partOfSpeech": "adj.",
+          "meaning": "有智慧的",
+          "highlight": true
+        },
+        {
+          "id": "word-octopus",
+          "lemma": "octopus",
+          "english": "octopus",
+          "kk": "/'ɑktəpəs/",
+          "partOfSpeech": "n.",
+          "meaning": "章魚",
+          "highlight": true
+        },
+        {
+          "id": "word-glare",
+          "lemma": "glare",
+          "english": "glare",
+          "kk": "/glɛr/",
+          "partOfSpeech": "n.",
+          "meaning": "逼人的目光",
+          "highlight": true
+        },
+        {
+          "id": "word-emerge",
+          "lemma": "emerge",
+          "english": "emerged",
+          "kk": "/ɪ'mɝdʒ/",
+          "partOfSpeech": "v.",
+          "meaning": "出現、浮現",
+          "highlight": true
+        },
+        {
+          "id": "word-darkness",
+          "lemma": "darkness",
+          "english": "darkness",
+          "kk": "/'dɑrknəs/",
+          "partOfSpeech": "n.",
+          "meaning": "黑暗",
+          "highlight": true
+        },
+        {
+          "id": "word-advice",
+          "lemma": "advice",
+          "english": "advice",
+          "kk": "/əd'vaɪs/",
+          "partOfSpeech": "n.",
+          "meaning": "建議",
+          "highlight": true
+        },
+        {
+          "id": "word-glittering",
+          "lemma": "glittering",
+          "english": "glittering",
+          "kk": "/'glɪtərɪŋ/",
+          "partOfSpeech": "adj.",
+          "meaning": "閃閃發光的",
+          "highlight": true
+        },
+        {
+          "id": "word-discover",
+          "lemma": "discover",
+          "english": "discover",
+          "kk": "/dɪ'skʌvɚ/",
+          "partOfSpeech": "v.",
+          "meaning": "發現",
+          "highlight": true
+        },
+        {
+          "id": "word-disappear",
+          "lemma": "disappear",
+          "english": "disappeared",
+          "kk": "/,dɪsə'pɪr/",
+          "partOfSpeech": "v.",
+          "meaning": "消失",
+          "highlight": true
+        },
+        {
+          "id": "word-ink",
+          "lemma": "ink",
+          "english": "ink",
+          "kk": "/ɪŋk/",
+          "partOfSpeech": "n.",
+          "meaning": "墨汁",
+          "highlight": true
+        },
+        {
+          "id": "word-fin",
+          "lemma": "fin",
+          "english": "fin",
+          "kk": "/fɪn/",
+          "partOfSpeech": "n.",
+          "meaning": "魚鰭",
+          "highlight": true
+        },
+        {
+          "id": "word-waver",
+          "lemma": "waver",
+          "english": "wavered",
+          "kk": "/'wevɚd/",
+          "partOfSpeech": "v.",
+          "meaning": "猶豫、動搖",
+          "highlight": true
+        },
+        {
+          "id": "word-carefully",
+          "lemma": "carefully",
+          "english": "Carefully",
+          "kk": "/'kɛrfəlɪ/",
+          "partOfSpeech": "adv.",
+          "meaning": "小心地",
+          "highlight": true
+        },
+        {
+          "id": "word-bubble",
+          "lemma": "bubble",
+          "english": "bubbled",
+          "kk": "/'bʌbld/",
+          "partOfSpeech": "v.",
+          "meaning": "咕嚕咕嚕地說",
+          "highlight": true
+        },
+        {
+          "id": "word-playfully",
+          "lemma": "playfully",
+          "english": "playfully",
+          "kk": "/'plefəlɪ/",
+          "partOfSpeech": "adv.",
+          "meaning": "玩鬧地、開心地",
+          "highlight": true
+        },
+        {
+          "id": "word-tuck",
+          "lemma": "tuck",
+          "english": "tucked",
+          "kk": "/tʌkt/",
+          "partOfSpeech": "v.",
+          "meaning": "塞入、藏入",
+          "highlight": true
+        },
+        {
+          "id": "word-peculiar",
+          "lemma": "peculiar",
+          "english": "peculiar",
+          "kk": "/pɪ'kjuljɚ/",
+          "partOfSpeech": "adj.",
+          "meaning": "奇特的",
+          "highlight": true
+        },
+        {
+          "id": "word-glitter",
+          "lemma": "glitter",
+          "english": "glittering",
+          "kk": "/'glɪtɚ/",
+          "partOfSpeech": "v.",
+          "meaning": "閃閃發光",
+          "highlight": true
+        },
+        {
+          "id": "word-whiz",
+          "lemma": "whiz",
+          "english": "whizzed",
+          "kk": "/wɪzd/",
+          "partOfSpeech": "v.",
+          "meaning": "飛快移動",
+          "highlight": true
+        },
+        {
+          "id": "word-flash",
+          "lemma": "flash",
+          "english": "flashing",
+          "kk": "/'flæʃɪŋ/",
+          "partOfSpeech": "v.",
+          "meaning": "閃光",
+          "highlight": true
+        },
+        {
+          "id": "word-glimmering",
+          "lemma": "glimmering",
+          "english": "glimmering",
+          "kk": "/'glɪmərɪŋ/",
+          "partOfSpeech": "adj.",
+          "meaning": "微微發光的",
+          "highlight": true
+        },
+        {
+          "id": "word-delighted",
+          "lemma": "delighted",
+          "english": "delighted",
+          "kk": "/dɪ'laɪtɪd/",
+          "partOfSpeech": "adj.",
+          "meaning": "高興的、欣喜的",
+          "highlight": true
+        },
+        {
+          "id": "word-prized",
+          "lemma": "prized",
+          "english": "prized",
+          "kk": "/praɪzd/",
+          "partOfSpeech": "adj.",
+          "meaning": "珍貴的、珍愛的",
+          "highlight": true
+        },
+        {
+          "id": "word-possession",
+          "lemma": "possession",
+          "english": "possessions",
+          "kk": "/pə'zɛʃənz/",
+          "partOfSpeech": "n.",
+          "meaning": "所擁有的東西",
+          "highlight": true
+        },
+        {
+          "id": "word-moral",
+          "lemma": "moral",
+          "english": "moral",
+          "kk": "/'mɔrəl/",
+          "partOfSpeech": "n.",
+          "meaning": "寓意、教訓",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "meaning": "歡迎再次回到某個節目或地方",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello, and __welcome back__ to my slow English **podcast**.",
+          "tc": "歡迎再次回到某個節目或地方"
         }
+      ]
+    },
+    {
+      "id": "phrase-a-long-way-out",
+      "phrase": "a long way out",
+      "meaning": "在很遠的地方",
+      "examples": [
+        {
+          "en": "__A long way out__ in the deep blue sea, there lived a fish.",
+          "tc": "在很遠的地方"
+        }
+      ]
+    },
+    {
+      "id": "phrase-not-just-any",
+      "phrase": "not just any",
+      "meaning": "不是普通的、不是隨便一個",
+      "examples": [
+        {
+          "en": "__Not just any__ **ordinary** fish, but the most beautiful fish in the **entire** ocean.",
+          "tc": "不是普通的、不是隨便一個"
+        }
+      ]
+    },
+    {
+      "id": "phrase-come-on",
+      "phrase": "come on",
+      "meaning": "叫人過來或鼓勵對方加入",
+      "examples": [
+        {
+          "en": "\"__Come on__, Rainbow Fish,\" they would call.",
+          "tc": "叫人過來或鼓勵對方加入"
+        }
+      ]
+    },
+    {
+      "id": "phrase-glide-past",
+      "phrase": "glide past",
+      "meaning": "優雅地滑過、飄過",
+      "examples": [
+        {
+          "en": "But Rainbow Fish would just __glide past__.",
+          "tc": "優雅地滑過、飄過"
+        }
+      ]
+    },
+    {
+      "id": "phrase-follow-after",
+      "phrase": "follow after",
+      "meaning": "跟在某人後面",
+      "examples": [
+        {
+          "en": "One day, a little blue fish __followed after__ him.",
+          "tc": "跟在某人後面"
+        }
+      ]
+    },
+    {
+      "id": "phrase-get-away-from",
+      "phrase": "get away from",
+      "meaning": "遠離某人或某物",
+      "examples": [
+        {
+          "en": "\"__Get away from__ me!\"",
+          "tc": "遠離某人或某物"
+        }
+      ]
+    },
+    {
+      "id": "phrase-from-then-on",
+      "phrase": "from then on",
+      "meaning": "從那個時候開始",
+      "examples": [
+        {
+          "en": "__From then on__, no one would __have anything to do with__ Rainbow Fish.",
+          "tc": "從那個時候開始"
+        }
+      ]
+    },
+    {
+      "id": "phrase-have-anything-to-do-with",
+      "phrase": "have anything to do with",
+      "meaning": "和某人有來往或關係",
+      "examples": [
+        {
+          "en": "no one would __have anything to do with__ Rainbow Fish",
+          "tc": "和某人有來往或關係"
+        }
+      ]
+    },
+    {
+      "id": "phrase-turn-away",
+      "phrase": "turn away",
+      "meaning": "轉開、拒絕理會",
+      "examples": [
+        {
+          "en": "They __turned away__ when he __swam by__.",
+          "tc": "轉開、拒絕理會"
+        }
+      ]
+    },
+    {
+      "id": "phrase-swim-by",
+      "phrase": "swim by",
+      "meaning": "從旁邊游過",
+      "examples": [
+        {
+          "en": "They __turned away__ when he __swam by__.",
+          "tc": "從旁邊游過"
+        }
+      ]
+    },
+    {
+      "id": "phrase-pour-out-all-of-one-s-troubles",
+      "phrase": "pour out all of one's troubles",
+      "meaning": "向人傾訴所有煩惱",
+      "examples": [
+        {
+          "en": "One day, he __poured out all of his troubles__ to the **starfish**.",
+          "tc": "向人傾訴所有煩惱"
+        }
+      ]
+    },
+    {
+      "id": "phrase-coral-reef",
+      "phrase": "coral reef",
+      "meaning": "海中的珊瑚礁地形",
+      "examples": [
+        {
+          "en": "if you go **beyond** the __coral reef__",
+          "tc": "海中的珊瑚礁地形"
+        }
+      ]
+    },
+    {
+      "id": "phrase-no-longer",
+      "phrase": "no longer",
+      "meaning": "不再是某種狀態",
+      "examples": [
+        {
+          "en": "You will __no longer__ be the most beautiful fish in the sea.",
+          "tc": "不再是某種狀態"
+        }
+      ]
+    },
+    {
+      "id": "phrase-give-away",
+      "phrase": "give away",
+      "meaning": "送出、贈送",
+      "examples": [
+        {
+          "en": "\"__Give away__ my **scales**?\"",
+          "tc": "送出、贈送"
+        },
+        {
+          "en": "His most **prized** **possessions** had been __given away__.",
+          "tc": "送出、贈送"
+        }
+      ]
+    },
+    {
+      "id": "phrase-pull-out",
+      "phrase": "pull out",
+      "meaning": "拔出、抽出",
+      "examples": [
+        {
+          "en": "Rainbow Fish __pulled out__ the smallest **scale**.",
+          "tc": "拔出、抽出"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-among",
+      "phrase": "in among",
+      "meaning": "進入一群或一堆東西之中",
+      "examples": [
+        {
+          "en": "as he **tucked** the **shiny** **scale** __in among__ his blue ones",
+          "tc": "進入一群或一堆東西之中"
+        }
+      ]
+    },
+    {
+      "id": "phrase-come-over",
+      "phrase": "come over",
+      "meaning": "感覺突然影響某人、湧上心頭",
+      "examples": [
+        {
+          "en": "A rather **peculiar** feeling __came over__ Rainbow Fish.",
+          "tc": "感覺突然影響某人、湧上心頭"
+        }
+      ]
+    },
+    {
+      "id": "phrase-for-a-long-time",
+      "phrase": "for a long time",
+      "meaning": "很久",
+      "examples": [
+        {
+          "en": "__For a long time__, he watched the little blue fish swim.",
+          "tc": "很久"
+        }
+      ]
+    },
+    {
+      "id": "phrase-back-and-forth",
+      "phrase": "back and forth",
+      "meaning": "來回地",
+      "examples": [
+        {
+          "en": "swim __back and forth__",
+          "tc": "來回地"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-long-before",
+      "phrase": "take long before",
+      "meaning": "過很久才發生；否定時是很快就發生",
+      "examples": [
+        {
+          "en": "So it didn't __take long before__ Rainbow Fish was __surrounded by__ the other fish.",
+          "tc": "過很久才發生；否定時是很快就發生"
+        }
+      ]
+    },
+    {
+      "id": "phrase-surrounded-by",
+      "phrase": "surrounded by",
+      "meaning": "被某人或某物包圍",
+      "examples": [
+        {
+          "en": "Rainbow Fish was __surrounded by__ the other fish.",
+          "tc": "被某人或某物包圍"
+        }
+      ]
+    },
+    {
+      "id": "phrase-left-and-right",
+      "phrase": "left and right",
+      "meaning": "到處、四面八方",
+      "examples": [
+        {
+          "en": "Rainbow Fish shared his **scales** __left and right__.",
+          "tc": "到處、四面八方"
+        }
+      ]
+    },
+    {
+      "id": "phrase-filled-with",
+      "phrase": "filled with",
+      "meaning": "充滿某物",
+      "examples": [
+        {
+          "en": "When the water around him __filled with__ **glimmering** **scales**",
+          "tc": "充滿某物"
+        }
+      ]
+    },
+    {
+      "id": "phrase-at-last",
+      "phrase": "at last",
+      "meaning": "終於",
+      "examples": [
+        {
+          "en": "he __at last__ __felt at home__ among the other fish",
+          "tc": "終於"
+        }
+      ]
+    },
+    {
+      "id": "phrase-feel-at-home",
+      "phrase": "feel at home",
+      "meaning": "感到自在、融入",
+      "examples": [
+        {
+          "en": "he __at last__ __felt at home__ among the other fish",
+          "tc": "感到自在、融入"
+        }
+      ]
+    },
+    {
+      "id": "phrase-happy-as-a-splash",
+      "phrase": "happy as a splash",
+      "meaning": "用比喻形容非常快樂、輕快",
+      "examples": [
+        {
+          "en": "And, __happy as a splash__, he __swam off__ to join his friends.",
+          "tc": "用比喻形容非常快樂、輕快"
+        }
+      ]
+    },
+    {
+      "id": "phrase-swim-off",
+      "phrase": "swim off",
+      "meaning": "游走、游開",
+      "examples": [
+        {
+          "en": "he __swam off__ to join his friends",
+          "tc": "游走、游開"
+        }
+      ]
+    },
+    {
+      "id": "phrase-comment-down-below",
+      "phrase": "comment down below",
+      "meaning": "在影片或網頁下方留言",
+      "examples": [
+        {
+          "en": "__Comment down below__.",
+          "tc": "在影片或網頁下方留言"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-call-call-someone",
+      "word": "call",
+      "familiarMeaning": "打電話、呼叫",
+      "usage": "call someone + 名稱，表示「稱某人為……」",
+      "translation": "叫牠彩虹魚",
+      "examples": [
+        "They 《called》 him Rainbow Fish."
+      ]
+    },
+    {
+      "id": "usage-catch-eyes-caught-him-in-their-glare",
+      "word": "catch",
+      "familiarMeaning": "抓住",
+      "usage": "eyes caught him in their glare，表示目光吸引住、盯住他",
+      "translation": "目光盯住牠",
+      "examples": [
+        "two eyes 《caught》 him in their **glare**"
+      ]
+    },
+    {
+      "id": "usage-deep-a-deep-voice",
+      "word": "deep",
+      "familiarMeaning": "深的",
+      "usage": "a deep voice 指聲音低沉，不是空間很深",
+      "translation": "低沉的聲音",
+      "examples": [
+        "said the **octopus** in a 《deep》 voice"
+      ]
+    },
+    {
+      "id": "usage-tell-waves-have-told-me-your-story",
+      "word": "tell",
+      "familiarMeaning": "告訴",
+      "usage": "waves have told me your story 是擬人化，把海浪當作會說話",
+      "translation": "海浪把你的故事告訴我",
+      "examples": [
+        "The waves have 《told》 me your story."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "A long way out in the deep blue sea, there lived a fish.",
+      "translation": "在深藍色大海很遠的地方，住著一條魚。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "there + 動詞的文學式存在句",
+          "text": "地點副詞 + there + lived + 名詞",
+          "note": "用故事書語氣說「某處住著……」。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "The entire ocean. His scales were every shade of blue and green and purple with sparkling silver scales among them. The other fish were amazed at his beauty.",
-      "translation": "整個海洋。他的鱗片呈藍色、綠色和紫色，其中有閃閃發光的銀色鱗片。其他魚都驚訝於他的美麗。",
+      "id": "grammar-2",
+      "sentence": "Not just any ordinary fish, but the most beautiful fish in the entire ocean.",
+      "translation": "不是普通的魚，而是整個海洋裡最美麗的魚。",
       "points": [
         {
-          "label": "entire ocean scales",
-          "text": "entire ocean scales",
-          "note": "注意 \"entire ocean scales\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "省略句與對比結構",
+          "text": "Not just any A, but B",
+          "note": "省略主詞與動詞，強調不是普通魚，而是最美的魚。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "They called him the rainbow fish. Come on, rainbow fish.",
-      "translation": "他們稱他為彩虹魚。來吧，彩虹魚。",
+      "id": "grammar-3",
+      "sentence": "They would call. / Rainbow Fish would just glide past.",
+      "translation": "他們常常喊。／彩虹魚總是滑過去。",
       "points": [
         {
-          "label": "called rainbow fish",
-          "text": "called rainbow fish",
-          "note": "注意 \"called rainbow fish\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "would 表過去習慣",
+          "text": "主詞 + would + 原形動詞",
+          "note": "表示過去常常發生的動作，不是未來。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "They would call. Come and play with us. But the rainbow fish would just glide past, proud and silent, letting his scales shimmer. One day, a little blue fish followed.",
-      "translation": "他們會打電話。來和我們一起玩吧。但彩虹魚會驕傲而沉默地滑過，讓它的鱗片閃閃發光。有一天，一條藍色的小魚跟著來了。",
+      "id": "grammar-4",
+      "sentence": "letting his scales shimmer",
+      "translation": "讓牠的鱗片閃閃發光",
       "points": [
         {
-          "label": "call come play",
-          "text": "call come play",
-          "note": "注意 \"call come play\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "現在分詞片語",
+          "text": "letting + 受詞 + 原形動詞",
+          "note": "補充說明彩虹魚滑過時同時讓鱗片發光。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "He told all his friends what had happened.",
+      "translation": "牠把已經發生的事告訴朋友。",
+      "points": [
+        {
+          "label": "過去完成式",
+          "text": "had + 過去分詞",
+          "note": "「發生」比「告訴朋友」更早，所以用過去完成式。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "What good were the dazzling, shimmering scales, with no one to admire them?",
+      "translation": "沒有人欣賞時，那些鱗片有什麼用？",
+      "points": [
+        {
+          "label": "What good...? 反問句",
+          "text": "What good + be + 名詞 + with...?",
+          "note": "用反問表達「沒有用」。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "If you go beyond the coral reef to a deep cave, you will find the wise octopus.",
+      "translation": "如果你越過珊瑚礁，你會找到章魚。",
+      "points": [
+        {
+          "label": "第一類條件句",
+          "text": "If + 現在式, will + 原形動詞",
+          "note": "表示可能發生的條件與結果。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "I have been waiting for you.",
+      "translation": "我一直在等你。",
+      "points": [
+        {
+          "label": "現在完成進行式",
+          "text": "have/has been + V-ing",
+          "note": "表示從過去開始一直持續到現在。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-9",
+      "sentence": "The waves have told me your story.",
+      "translation": "海浪已經告訴我你的故事。",
+      "points": [
+        {
+          "label": "現在完成式",
+          "text": "have/has + 過去分詞",
+          "note": "表示到現在為止已經完成、和現在有關的事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-10",
+      "sentence": "how to be happy",
+      "translation": "如何快樂",
+      "points": [
+        {
+          "label": "疑問詞 + to V",
+          "text": "how + to + 原形動詞",
+          "note": "把「怎樣才會快樂」變成名詞片語。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-11",
+      "sentence": "the octopus had already disappeared",
+      "translation": "章魚已經消失了。",
+      "points": [
+        {
+          "label": "過去完成式搭配 already",
+          "text": "had already + 過去分詞",
+          "note": "表示在彩虹魚說完前，章魚已經先消失。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-12",
+      "sentence": "maybe I wouldn't miss just one",
+      "translation": "也許少一片我不會想念。",
+      "points": [
+        {
+          "label": "would 表假設結果",
+          "text": "would + 原形動詞",
+          "note": "想像「如果少一片」可能不會想念。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-13",
+      "sentence": "the more he gave away, the more delighted he became",
+      "translation": "牠給得越多，就越開心。",
+      "points": [
+        {
+          "label": "the more..., the more...",
+          "text": "the + 比較級 + 子句, the + 比較級 + 子句",
+          "note": "表示兩件事一起增加或變化。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-14",
+      "sentence": "His most prized possessions had been given away.",
+      "translation": "牠最珍愛的東西都已經被送出去了。",
+      "points": [
+        {
+          "label": "過去完成被動式",
+          "text": "had been + 過去分詞",
+          "note": "表示珍愛的東西在那時之前已被送出，重點在「被送出」。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-15",
+      "sentence": "What do you think the moral of this story was?",
+      "translation": "你覺得這個故事的寓意是什麼？",
+      "points": [
+        {
+          "label": "插入問句 / 間接問句語序",
+          "text": "What do you think + 主詞 + 動詞",
+          "note": "問「你認為……是什麼」時，後半句用直述句語序。"
         }
       ]
     }

@@ -15,602 +15,1617 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and welcome back to my slow English podcast.",
+          "tc": "你好，歡迎回到我的慢速英語播客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my "
+            },
+            {
+              "type": "phrase",
+              "text": "slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-001-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Do you want to learn English while feeling relaxed? This video combines soothing ASMR sounds with essential English vocabulary for beginners. Get ready to learn and relax. Repeat with me and try?",
-          "tc": "你想在輕鬆的同時學習英語嗎？該影片將舒緩的 ASMR 聲音與初學者的基本英語詞彙結合。準備好學習和放鬆。跟我重複一遍並嘗試一下？"
+          "en": "Do you want to learn English while feeling relaxed?",
+          "tc": "你想輕松地學英語嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you want to learn English while feeling "
+            },
+            {
+              "type": "word",
+              "text": "relaxed",
+              "targetId": "word-relaxed",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-002-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         },
         {
-          "en": "To think of your own words to describe the sound.",
-          "tc": "想出你自己的話來描述聲音。"
+          "en": "This video combines soothing ASMR sounds with essential English vocabulary for beginners.",
+          "tc": "該視頻将舒缓的ASMR聲音與初學者必備的英語詞彙结合在一起。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This video combines soothing ASMR sounds with "
+            },
+            {
+              "type": "word",
+              "text": "essential",
+              "targetId": "word-essential",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-003-01"
+            },
+            {
+              "type": "text",
+              "text": " English vocabulary for beginners."
+            }
+          ]
         },
         {
-          "en": "We will have a short quiz to practice the sounds that.",
-          "tc": "我們將進行一個簡短的測驗來練習這些聲音。"
+          "en": "Get ready to learn and relax.",
+          "tc": "准備好學習和放松。",
+          "englishTokens": [
+            {
+              "type": "usage",
+              "text": "Get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-004-01"
+            },
+            {
+              "type": "text",
+              "text": " ready to learn and relax."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "describe",
-          "kk": "/describe/",
-          "partOfSpeech": "n.",
-          "meaning": "描述",
-          "note": "看到 describe 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：語言學習",
-      "titleEn": "Part 2: language",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "We learned today. It can be a pleasant sound to you or maybe an unpleasant sound. Now relax and learn English with me. I hear tapping sounds.",
-          "tc": "我們今天學到了。這對你來說可能是令人愉快的聲音，也可能是令人不愉快的聲音。現在放鬆心情，和我一起學英文吧。我聽到敲擊聲。"
+          "en": "Repeat with me and try to think of your own words to describe the sound.",
+          "tc": "跟我重複一遍，并嘗試用你自己的话來描述聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Repeat with me and try to think of your own words to describe the sound."
+            }
+          ]
         },
         {
-          "en": "I like tapping sounds. Tapping on a table. Tapping on a glass. Tapping on a phone.",
-          "tc": "我喜歡敲擊聲。敲擊桌子。敲擊玻璃。敲擊電話。"
+          "en": "Then we will have a short quiz to practice the sounds that we learned today.",
+          "tc": "然後我們将进行一個小測驗來練習今天學到的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then we will "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-006-01"
+            },
+            {
+              "type": "text",
+              "text": " a short quiz to practice the sounds that we learned today."
+            }
+          ]
         },
         {
-          "en": "I think tapping sounds are sharp noises to my ears.",
-          "tc": "我認為敲擊聲對我來說是尖銳的噪音。"
+          "en": "It can be a pleasant sound to you or maybe an unpleasant sound.",
+          "tc": "這對你來說可能是令人愉快的聲音，也可能是令人不愉快的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It can be a pleasant sound to you or maybe an unpleasant sound."
+            }
+          ]
         },
         {
-          "en": "Would you describe tapping sounds? I hear crinkling sounds?",
-          "tc": "你能描述一下敲擊聲嗎？我聽到嘎吱聲？"
+          "en": "Now relax and learn English with me.",
+          "tc": "現在放松心情，和我一起學英語吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now relax and learn English with me."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I like crinkling sounds. Crinkling paper wraps. A crinkling plastic bag.",
-          "tc": "我喜歡嘎吱嘎吱的聲音。起皺的紙包裝。一個皺巴巴的塑膠袋。"
+          "en": "I hear tapping sounds.",
+          "tc": "我聽到敲擊聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear tapping sounds."
+            }
+          ]
         },
         {
-          "en": "Would you describe crinkling sounds? I hear whispering sounds. Whisper. I also like whispering sounds. Whispering in a soft voice. Whispering in my ear. Whispering sounds are very soothing for me?",
-          "tc": "你能描述一下嘎吱作響的聲音嗎？我聽到竊竊私語的聲音。耳語。我也喜歡竊竊私語的聲音。用輕柔的聲音呢喃著。在我耳邊低語。耳語聲對我來說非常舒緩？"
+          "en": "I like tapping sounds.",
+          "tc": "我喜歡敲擊聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like tapping sounds."
+            }
+          ]
         },
         {
-          "en": "I feel like.",
-          "tc": "我覺得。"
+          "en": "Tapping on a table.",
+          "tc": "敲擊桌子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Tapping on a table."
+            }
+          ]
         },
         {
-          "en": "They calm me down. The sound is ticklish to my ear.",
-          "tc": "他們讓我平靜下來。這聲音讓我耳朵發癢。"
+          "en": "Tapping on a glass.",
+          "tc": "敲擊玻璃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Tapping on a glass."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "Do you like whispering sounds?",
-          "tc": "你喜歡竊竊私語的聲音嗎？"
+          "en": "Tapping on a phone.",
+          "tc": "敲擊電话。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Tapping on a phone."
+            }
+          ]
         },
         {
-          "en": "How do whispering sounds make you feel? Are?",
-          "tc": "竊竊私語的聲音讓你有何感覺？是？"
+          "en": "I think tapping sounds are sharp noises to my ears.",
+          "tc": "我認為敲擊聲對我來說是尖锐的噪音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think tapping sounds are sharp noises to my ears."
+            }
+          ]
         },
         {
-          "en": "They ticklish, soothing, annoying? I hear brushing sounds.",
-          "tc": "它們讓人發癢、舒緩、煩人？我聽到刷牙的聲音。"
+          "en": "Do you like tapping sounds?",
+          "tc": "你喜歡敲擊聲嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like tapping sounds?"
+            }
+          ]
         },
         {
-          "en": "I like brushing sounds. Slow brushing. across the table. Brushing along the hair. The light movement across a surface.",
-          "tc": "我喜歡刷牙的聲音。慢慢刷。桌子對面。沿著頭髮梳理。光在表面上的運動。"
+          "en": "How would you describe tapping sounds?",
+          "tc": "您如何描述敲擊聲？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you describe tapping sounds?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "I like the soft, quiet noises that brushing sounds like.",
-          "tc": "我喜歡刷牙時發出的輕柔、安靜的聲音。"
+          "en": "I hear crinkling sounds.",
+          "tc": "我聽到吱吱作響的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear crinkling sounds."
+            }
+          ]
         },
         {
-          "en": "Would you describe brushing sounds? I hear the sounds of a keyboard typing away?",
-          "tc": "能描述一下刷牙的聲音嗎？我聽到鍵盤打字的聲音？"
+          "en": "I like crinkling sounds.",
+          "tc": "我喜歡嘎吱作響的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like crinkling sounds."
+            }
+          ]
         },
         {
-          "en": "I like the sound of typing on a keyboard. Quick, repetitive sounds.",
-          "tc": "我喜歡敲擊鍵盤的聲音。快速、重複的聲音。"
+          "en": "Crinkling paper wraps.",
+          "tc": "起皱的纸包装。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Crinkling paper wraps."
+            }
+          ]
         },
         {
-          "en": "They are very satisfying sounds.",
-          "tc": "它們是非常令人滿意的聲音。"
+          "en": "A crinkling plastic bag.",
+          "tc": "一個起皱的塑料袋。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A crinkling plastic bag."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "Would you describe the sound of typing on a keyboard? tapping. I hear clicking sounds?",
-          "tc": "你能描述一下鍵盤上打字的聲音嗎？竊聽。我聽到咔噠聲？"
+          "en": "I think crinkling sounds are very crisp.",
+          "tc": "我認為起皱的聲音非常清脆。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think crinkling sounds are very crisp."
+            }
+          ]
         },
         {
-          "en": "I like clicking sounds.",
-          "tc": "我喜歡點擊聲。"
+          "en": "How would you describe crinkling sounds?",
+          "tc": "你會如何描述起皱的聲音？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you describe crinkling sounds?"
+            }
+          ]
         },
         {
-          "en": "I like the sound of pens clicking or mouses clicking. A sharp clicking sound. A quick repetitive sound.",
-          "tc": "我喜歡鋼筆點擊或滑鼠點擊的聲音。尖銳的咔噠聲。快速重複的聲音。"
+          "en": "I hear whispering sounds.",
+          "tc": "我聽到窃窃私語的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear whispering sounds."
+            }
+          ]
         },
         {
-          "en": "Would you describe a clicking sound? I hear spraying noises?",
-          "tc": "你能描述一下喀嚓聲嗎？我聽到噴水的聲音？"
+          "en": "Whisper.",
+          "tc": "耳語.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Whisper."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "I like spraying noises. When someone sprays a bottle of perfume.",
-          "tc": "我喜歡噴水的聲音。當有人噴一瓶香水。"
+          "en": "I also like whispering sounds.",
+          "tc": "我也喜歡窃窃私語的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also like whispering sounds."
+            }
+          ]
         },
         {
-          "en": "My favorite sounds. It soothes my ears and it calms my nerves when I hear it.",
-          "tc": "我最喜歡的聲音。當我聽到它時，它可以舒緩我的耳朵並平靜我的神經。"
+          "en": "Whispering in a soft voice.",
+          "tc": "輕聲细語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Whispering in a soft voice."
+            }
+          ]
         },
         {
-          "en": "Would you describe spraying noises?",
-          "tc": "你能描述一下噴射的聲音嗎？"
+          "en": "Whispering in my ear.",
+          "tc": "在我耳邊低語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Whispering in my ear."
+            }
+          ]
         },
         {
-          "en": "They make you feel? I hear pouring sounds.",
-          "tc": "他們讓你有什麼感覺？我聽到傾倒的聲音。"
+          "en": "Whispering sounds are very soothing for me and I feel like they calm me down.",
+          "tc": "耳語聲對我來說非常舒缓，我覺得它們讓我平靜下來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Whispering sounds are very soothing for me and I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-028-01"
+            },
+            {
+              "type": "text",
+              "text": " like they "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-028-02"
+            },
+            {
+              "type": "text",
+              "text": " me down."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "I like pouring sounds. When I pour water or juice into a glass, it's a gentle splash of sound.",
-          "tc": "我喜歡倒水的聲音。當我將水或果汁倒入玻璃杯中時，會發出輕微的濺水聲。"
+          "en": "The sound is ticklish to my ear.",
+          "tc": "這聲音讓我耳朵發痒。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The sound is ticklish to my ear."
+            }
+          ]
         },
         {
-          "en": "Do you like pouring sounds?",
-          "tc": "你喜歡倒水的聲音嗎？"
+          "en": "Do you like whispering sounds?",
+          "tc": "你喜歡窃窃私語嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like whispering sounds?"
+            }
+          ]
         },
         {
-          "en": "Would you describe pouring sounds? I hear rattling noises?",
-          "tc": "你能描述一下倒水的聲音嗎？我聽到嘎嘎聲？"
+          "en": "How do whispering sounds make you feel?",
+          "tc": "耳語聲讓你感覺如何？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How do whispering sounds "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-031-01"
+            },
+            {
+              "type": "text",
+              "text": " you feel?"
+            }
+          ]
         },
         {
-          "en": "I don't like rattling noises. It's an unpleasant sound for me. It's not pleasant. Like rattling keys or rattling coins in my pocket. It can be a sharp, pleasant sound for others,.",
-          "tc": "我不喜歡嘎嘎聲。這對我來說是一種不愉快的聲音。這並不令人愉快。就像我口袋裡的鑰匙或硬幣嘎嘎作響。對其他人來說，這可能是一種尖銳、愉快的聲音。"
+          "en": "Are they ticklish, soothing, annoying?",
+          "tc": "它們是痒痒的、舒缓的还是烦人的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Are they ticklish, soothing, annoying?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "But it's not for me.",
-          "tc": "但這不適合我。"
+          "en": "I hear brushing sounds.",
+          "tc": "我聽到刷牙的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear brushing sounds."
+            }
+          ]
         },
         {
-          "en": "Would you describe the sound of rain falling?",
-          "tc": "你能描述一下下雨的聲音嗎？"
+          "en": "I like brushing sounds.",
+          "tc": "我喜歡刷牙的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like brushing sounds."
+            }
+          ]
         },
         {
-          "en": "Would you say it's a gentle soft sound or a sharp crisp sound?",
-          "tc": "你會說這是輕柔的聲音還是尖銳的清脆聲音？"
+          "en": "Slow brushing.",
+          "tc": "缓慢刷牙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Slow brushing."
+            }
+          ]
         },
         {
-          "en": "Do you think the sound of rain falling is soothing or annoying? I hear the sounds of birds chirping?",
-          "tc": "你認為下雨的聲音是舒緩的還是煩人的？我聽到鳥兒嘰嘰喳喳的聲音？"
+          "en": "Brushing across the table.",
+          "tc": "刷過桌子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Brushing across the table."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常作息",
-      "titleEn": "Part 10: daily routine",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "I wake up.",
-          "tc": "我醒了。"
+          "en": "Brushing along the hair.",
+          "tc": "顺着頭發梳理。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Brushing along the hair."
+            }
+          ]
         },
         {
-          "en": "Would you say it's a quiet, calming sound or a noisy, sharp sound?",
-          "tc": "你會說這是一種安靜、平靜的聲音還是吵雜、尖銳的聲音？"
+          "en": "The light movement across a surface.",
+          "tc": "光在表面上的運動。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The light movement across a surface."
+            }
+          ]
         },
         {
-          "en": "Do you consider the birds chirping?",
-          "tc": "你覺得鳥兒在嘰嘰喳喳嗎？"
+          "en": "I like the soft, quiet noises that brushing sounds like.",
+          "tc": "我喜歡刷牙时發出的輕柔、安靜的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like the soft, quiet noises that brushing sounds like."
+            }
+          ]
         },
         {
-          "en": "In the morning to be a pleasant sound or an unpleasant sound?",
-          "tc": "早上是好聽的聲音還是難聽的聲音？"
+          "en": "Do you like brushing noises?",
+          "tc": "你喜歡刷牙的聲音嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like brushing noises?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sharp",
-          "kk": "/sharp/",
-          "partOfSpeech": "n.",
-          "meaning": "鋒利的",
-          "note": "看到 sharp 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "it's",
-          "kk": "/it's/",
-          "partOfSpeech": "n.",
-          "meaning": "它是",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：日常生活",
-      "titleEn": "Part 11: everyday life",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "I hear the sound of the wind blowing high up in the mountains or near the ocean.",
-          "tc": "我聽到高山或海邊吹過的風聲。"
+          "en": "How would you describe brushing sounds?",
+          "tc": "您如何描述刷牙的聲音？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you describe brushing sounds?"
+            }
+          ]
         },
         {
-          "en": "You can hear the strong breeze.",
-          "tc": "你可以聽到強勁的微風。"
+          "en": "I hear the sounds of a keyboard typing away.",
+          "tc": "我聽到鍵盤打字的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear the sounds of a keyboard typing away."
+            }
+          ]
         },
         {
-          "en": "Would you say it's a smooth, gentle sound or a strong, brisk sound?",
-          "tc": "你會說這是一種平滑、柔和的聲音還是強烈、輕快的聲音？"
+          "en": "I like the sound of typing on a keyboard.",
+          "tc": "我喜歡敲擊鍵盤的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like the sound of typing on a keyboard."
+            }
+          ]
         },
         {
-          "en": "Do you think the wind blowing is a comforting sound or an annoying sound? Now, let's play a game to practice the words that?",
-          "tc": "你認為風吹過是令人舒服的聲音還是令人煩惱的聲音？現在，我們來玩一個遊戲來練習一下單字吧？"
+          "en": "Quick, repetitive sounds.",
+          "tc": "快速、重複的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Quick, repetitive sounds."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "it's",
-          "kk": "/it's/",
-          "partOfSpeech": "n.",
-          "meaning": "它是",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：日常生活",
-      "titleEn": "Part 12: everyday life",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "We learned. I will play a sound and you will.",
-          "tc": "我們學到了。我會播放聲音，你也會。"
+          "en": "They are very satisfying sounds.",
+          "tc": "它們是非常令人滿意的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They are very satisfying sounds."
+            }
+          ]
         },
         {
-          "en": "Tell me if it's soft or sharp. Is it slow or fast? Is it soft or sharp? Is it slow or fast?",
-          "tc": "告訴我它是軟的還是鋒利的。是慢還是快？它是軟的還是鋒利的？是慢還是快？"
+          "en": "Do you like the sounds of typing on a keyboard?",
+          "tc": "你喜歡敲擊鍵盤的聲音嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like the sounds of typing on a keyboard?"
+            }
+          ]
         },
         {
-          "en": "I think this sound is soft, slow, and gentle. Is it soft or sharp? Is it slow or fast?",
-          "tc": "我覺得這個聲音輕柔、緩慢、溫柔。它是軟的還是鋒利的？是慢還是快？"
+          "en": "How would you describe the sound of typing on a keyboard?",
+          "tc": "您如何描述鍵盤打字的聲音？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you describe the sound of typing on a keyboard?"
+            }
+          ]
         },
         {
-          "en": "I think this sound is sharp, quick, and repetitive. Is it soft or sharp? Fast or slow?",
-          "tc": "我認為這個聲音尖銳、快速且重複。它是軟的還是鋒利的？快還是慢？"
+          "en": "Keyboard tapping.",
+          "tc": "鍵盤敲擊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Keyboard tapping."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
         {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I hear clicking sounds.",
+          "tc": "我聽到咔嗒聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear clicking sounds."
+            }
+          ]
         },
         {
-          "english": "sharp",
-          "kk": "/sharp/",
-          "partOfSpeech": "n.",
-          "meaning": "鋒利的",
-          "note": "看到 sharp 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "I like clicking sounds.",
+          "tc": "我喜歡点擊聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like clicking sounds."
+            }
+          ]
         },
         {
-          "english": "it's",
-          "kk": "/it's/",
-          "partOfSpeech": "n.",
-          "meaning": "它是",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "I like the sound of pens clicking or mouses clicking.",
+          "tc": "我喜歡钢笔点擊或鼠標点擊的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like the sound of pens clicking or mouses clicking."
+            }
+          ]
+        },
+        {
+          "en": "A sharp clicking sound.",
+          "tc": "尖锐的咔哒聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A sharp clicking sound."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "A quick repetitive sound.",
+          "tc": "快速重複的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A quick repetitive sound."
+            }
+          ]
+        },
+        {
+          "en": "Do you like clicking sounds?",
+          "tc": "你喜歡点擊聲嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like clicking sounds?"
+            }
+          ]
+        },
+        {
+          "en": "How would you describe a clicking sound?",
+          "tc": "您如何描述咔哒聲？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you describe a clicking sound?"
+            }
+          ]
+        },
+        {
+          "en": "I hear spraying noises.",
+          "tc": "我聽到喷水聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear spraying noises."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "I like spraying noises.",
+          "tc": "我喜歡喷水的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like spraying noises."
+            }
+          ]
+        },
+        {
+          "en": "When someone sprays a bottle of perfume or they spray a water bottle, the soft and gentle sound of someone spraying a water bottle.",
+          "tc": "當有人喷香水瓶或喷水瓶时，有人喷水瓶时發出的輕柔的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When someone sprays a bottle of perfume or they spray a water bottle, the soft and "
+            },
+            {
+              "type": "word",
+              "text": "gentle",
+              "targetId": "word-gentle",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-058-01"
+            },
+            {
+              "type": "text",
+              "text": " sound of someone spraying a water bottle."
+            }
+          ]
+        },
+        {
+          "en": "It's one of my favorite sounds.",
+          "tc": "這是我最喜歡的聲音之一。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's one of my favorite sounds."
+            }
+          ]
+        },
+        {
+          "en": "It soothes my ears and it calms my nerves when I hear it.",
+          "tc": "當我聽到它时，它可以舒缓我的耳朵并平靜我的神經。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It soothes my ears and it calms my nerves when I hear it."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "Do you like spring noises?",
+          "tc": "你喜歡春天的聲音嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like spring noises?"
+            }
+          ]
+        },
+        {
+          "en": "How would you describe spraying noises?",
+          "tc": "您如何描述喷射噪音？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you describe spraying noises?"
+            }
+          ]
+        },
+        {
+          "en": "How do they make you feel?",
+          "tc": "他們给你什麼感覺？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How do they make you feel?"
+            }
+          ]
+        },
+        {
+          "en": "I hear pouring sounds.",
+          "tc": "我聽到倾盆的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear pouring sounds."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "[Applause] I like pouring sounds.",
+          "tc": "[鼓掌]我喜歡倒水的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "[Applause] I like pouring sounds."
+            }
+          ]
+        },
+        {
+          "en": "When I pour water or juice into a glass, it's a gentle splash of sound.",
+          "tc": "當我将水或果汁倒入玻璃杯中时，會發出輕微的溅水聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I pour water or juice into a glass, it's a gentle splash of sound."
+            }
+          ]
+        },
+        {
+          "en": "Do you like pouring sounds?",
+          "tc": "你喜歡倒水的聲音嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like pouring sounds?"
+            }
+          ]
+        },
+        {
+          "en": "How do pouring sounds make you feel?",
+          "tc": "倒水的聲音讓你感覺如何？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How do pouring sounds make you feel?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "And how would you describe pouring sounds?",
+          "tc": "你會如何描述倒水的聲音？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And how would you describe pouring sounds?"
+            }
+          ]
+        },
+        {
+          "en": "I hear rattling noises.",
+          "tc": "我聽到嘎嘎聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear rattling noises."
+            }
+          ]
+        },
+        {
+          "en": "I don't like rattling noises.",
+          "tc": "我不喜歡嘎嘎聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't like rattling noises."
+            }
+          ]
+        },
+        {
+          "en": "It's an unpleasant sound for me.",
+          "tc": "這對我來說是一種不愉快的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's an unpleasant sound for me."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "It's not pleasant.",
+          "tc": "這并不令人愉快。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's not pleasant."
+            }
+          ]
+        },
+        {
+          "en": "Like rattling keys or rattling coins in my pocket.",
+          "tc": "就像我口袋里的钥匙或硬币嘎嘎作響。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like rattling keys or rattling coins in my pocket."
+            }
+          ]
+        },
+        {
+          "en": "It can be a sharp, pleasant sound for others, but it's not for me.",
+          "tc": "對于其他人來說，這可能是一種尖锐、令人愉悦的聲音，但對我來說却不是。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It can be a sharp, pleasant sound for others, but it's not for me."
+            }
+          ]
+        },
+        {
+          "en": "Do you like rattling sounds?",
+          "tc": "你喜歡嘎嘎聲嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like rattling sounds?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "How would you describe rattling sounds?",
+          "tc": "你會如何描述嘎嘎聲？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you describe rattling sounds?"
+            }
+          ]
+        },
+        {
+          "en": "I hear sounds like rain falling on a tin roof or rain falling on a glass window.",
+          "tc": "我聽到像雨落在铁皮屋顶上或雨落在玻璃窗上的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear sounds like rain falling on a tin roof or rain falling on a glass window."
+            }
+          ]
+        },
+        {
+          "en": "How would you describe the sound of rain falling?",
+          "tc": "你會怎樣形容下雨的聲音？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you describe the sound of rain falling?"
+            }
+          ]
+        },
+        {
+          "en": "Would you say it's a gentle soft sound or a sharp crisp sound?",
+          "tc": "你覺得這是輕柔的聲音还是尖锐清脆的聲音？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Would you say it's a gentle soft sound or a sharp crisp sound?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "Do you think the sound of rain falling is soothing or annoying?",
+          "tc": "你認為下雨的聲音是舒缓的还是烦人的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you think the sound of rain falling is soothing or annoying?"
+            }
+          ]
+        },
+        {
+          "en": "I hear the sounds of birds chirping in the morning when I wake up.",
+          "tc": "早上醒來时，我聽到鸟兒叽叽喳喳的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear the sounds of birds chirping in the morning when I "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-082-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Would you say it's a quiet, calming sound or a noisy, sharp sound?",
+          "tc": "你認為這是安靜、平靜的聲音还是嘈雜、尖锐的聲音？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Would you say it's a quiet, calming sound or a noisy, sharp sound?"
+            }
+          ]
+        },
+        {
+          "en": "Do you consider the birds chirping in the morning to be a pleasant sound or an unpleasant sound?",
+          "tc": "你認為早晨的鸟鸣聲是悦耳的聲音还是令人不快的聲音？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you consider the birds chirping in the morning to be a pleasant sound or an unpleasant sound?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "I hear the sound of the wind blowing high up in the mountains or near the ocean.",
+          "tc": "我聽到高山或海邊吹過的风聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear the sound of the wind blowing high up in the mountains or near the ocean."
+            }
+          ]
+        },
+        {
+          "en": "You can hear the strong breeze.",
+          "tc": "你可以聽到強劲的微风。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can hear the strong breeze."
+            }
+          ]
+        },
+        {
+          "en": "Would you say it's a smooth, gentle sound or a strong, brisk sound?",
+          "tc": "你認為這是一種平滑、柔和的聲音还是強烈、輕快的聲音？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Would you say it's a smooth, gentle sound or a strong, brisk sound?"
+            }
+          ]
+        },
+        {
+          "en": "Do you think the wind blowing is a comforting sound or an annoying sound?",
+          "tc": "你認為风吹起來是令人舒服的聲音还是令人烦恼的聲音？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you think the wind blowing is a comforting sound or an annoying sound?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "Now, let's play a game to practice the words that we learned.",
+          "tc": "現在，讓我們玩一個游戏來練習我們學過的單詞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, let's play a game to practice the words that we learned."
+            }
+          ]
+        },
+        {
+          "en": "I will play a sound and you will tell me if it's soft or sharp.",
+          "tc": "我會播放一個聲音，你會告诉我它是柔和的还是尖锐的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I will play a sound and you will tell me if it's soft or sharp."
+            }
+          ]
+        },
+        {
+          "en": "Is it slow or fast?",
+          "tc": "是慢还是快？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it slow or fast?"
+            }
+          ]
+        },
+        {
+          "en": "Is it soft or sharp?",
+          "tc": "是軟的还是锋利的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it soft or sharp?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "Is it slow or fast?",
+          "tc": "是慢还是快？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it slow or fast?"
+            }
+          ]
+        },
+        {
+          "en": "I think this sound is soft, slow, and gentle.",
+          "tc": "我覺得這個聲音柔和、缓慢、温和。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think this sound is soft, slow, and gentle."
+            }
+          ]
+        },
+        {
+          "en": "Is it soft or sharp?",
+          "tc": "是軟的还是锋利的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it soft or sharp?"
+            }
+          ]
+        },
+        {
+          "en": "Is it slow or fast?",
+          "tc": "是慢还是快？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it slow or fast?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "I think this sound is sharp, quick, and repetitive.",
+          "tc": "我認為這個聲音尖锐、快速且重複。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think this sound is sharp, quick, and repetitive."
+            }
+          ]
+        },
+        {
+          "en": "Is it soft or sharp?",
+          "tc": "是軟的还是锋利的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it soft or sharp?"
+            }
+          ]
+        },
+        {
+          "en": "Fast or slow?",
+          "tc": "快还是慢？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Fast or slow?"
+            }
+          ]
+        },
+        {
+          "en": "I think this sound is fast and clear.",
+          "tc": "我認為這個聲音又快又清晰。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think this sound is fast and clear."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "Is it soft or sharp?",
+          "tc": "是軟的还是锋利的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it soft or sharp?"
+            }
+          ]
+        },
+        {
+          "en": "Is it quick or slow?",
+          "tc": "是快还是慢？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it quick or slow?"
+            }
+          ]
+        },
+        {
+          "en": "I think this sound is soft, >> calm, and quiet.",
+          "tc": "我覺得這個聲音很柔和，>>平靜，安靜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think this sound is soft, >> calm, and quiet."
+            }
+          ]
+        },
+        {
+          "en": "Is it loud or quiet?",
+          "tc": "聲音大还是安靜？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it loud or quiet?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "Is it soft or sharp?",
+          "tc": "是軟的还是锋利的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it soft or sharp?"
+            }
+          ]
+        },
+        {
+          "en": "I think this sound is loud, sharp, and quick.",
+          "tc": "我認為這個聲音響亮、尖锐、快速。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think this sound is loud, sharp, and quick."
+            }
+          ]
+        },
+        {
+          "en": "Is it soft or sharp?",
+          "tc": "是軟的还是锋利的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it soft or sharp?"
+            }
+          ]
+        },
+        {
+          "en": "Fast or quick?",
+          "tc": "快还是快？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Fast or quick?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
+      "sentences": [
+        {
+          "en": "I think this sound is light, soft, and slow.",
+          "tc": "我覺得這個聲音輕、軟、慢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think this sound is light, soft, and slow."
+            }
+          ]
+        },
+        {
+          "en": "I think this sound is crisp and sharp.",
+          "tc": "我覺得這個聲音清脆尖锐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think this sound is crisp and sharp."
+            }
+          ]
+        },
+        {
+          "en": "I think it's fast, not slow.",
+          "tc": "我認為它是快，而不是慢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think it's fast, not slow."
+            }
+          ]
+        },
+        {
+          "en": "I think this sound is sharp and fast.",
+          "tc": "我認為這個聲音尖锐而快速。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think this sound is sharp and fast."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-29",
+      "no": "29",
+      "titleZh": "第 29 段",
+      "titleEn": "Part 29",
+      "sentences": [
+        {
+          "en": "I think this sound is gentle and soothing.",
+          "tc": "我認為這個聲音温柔而舒缓。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think this sound is gentle and soothing."
+            }
+          ]
+        },
+        {
+          "en": "I think this sound is soft, slow, and windy.",
+          "tc": "我覺得這個聲音柔和、缓慢、有风。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think this sound is soft, slow, and windy."
+            }
+          ]
+        },
+        {
+          "en": "Is it relaxing or annoying?",
+          "tc": "是放松还是烦人？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it relaxing or annoying?"
+            }
+          ]
+        },
+        {
+          "en": "I think this sound is soft, clinky, and relaxing.",
+          "tc": "我認為這種聲音柔和、叮當作響、令人放松。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think this sound is soft, clinky, and relaxing."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-30",
+      "no": "30",
+      "titleZh": "第 30 段",
+      "titleEn": "Part 30",
+      "sentences": [
+        {
+          "en": "Do you think it's a soft sound or a sharp sound?",
+          "tc": "你認為這是柔和的聲音还是尖锐的聲音？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you think it's a soft sound or a sharp sound?"
+            }
+          ]
+        },
+        {
+          "en": "Last one.",
+          "tc": "最後一張。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Last one."
+            }
+          ]
+        },
+        {
+          "en": "I think this sound is light, crispy, and soft.",
+          "tc": "我覺得這個聲音輕快、清脆、柔和。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think this sound is light, crispy, and soft."
+            }
+          ]
+        },
+        {
+          "en": "If you can name any of these sounds, tell me in the comments what was your favorite sound from this podcast.",
+          "tc": "如果您能說出這些聲音中的任何一個，請在评论中告诉我您在這個播客中最喜歡的聲音是什麼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you can name any of these sounds, tell me in the comments what was your favorite sound from this "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a2-ch17-asmr-learn-english-while-sleeping-with-relaxing-sounds-slow-english-podcast-120-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-31",
+      "no": "31",
+      "titleZh": "第 31 段",
+      "titleEn": "Part 31",
+      "sentences": [
+        {
+          "en": "Thank you for joining this ASMR experience with me.",
+          "tc": "感谢您與我一起参加這次ASMR體驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you for joining this ASMR experience with me."
+            }
+          ]
+        },
+        {
+          "en": "Subscribe to my channel for more slow English podcasts and like this video for more ASMR content.",
+          "tc": "訂阅我的頻道以获取更多慢速英語播客，并喜歡此視頻以获取更多ASMR內容。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Subscribe to my channel for more slow English podcasts and like this video for more ASMR content."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -618,153 +1633,176 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "/podcast/",
+          "partOfSpeech": "noun",
+          "meaning": "播客",
           "highlight": true
         },
         {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-essential",
+          "lemma": "essential",
+          "english": "essential",
+          "kk": "/essential/",
+          "partOfSpeech": "adj.",
+          "meaning": "必要的",
           "highlight": true
         },
         {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-calm",
+          "lemma": "calm",
+          "english": "calm",
+          "kk": "/calm/",
+          "partOfSpeech": "adj.",
+          "meaning": "平靜的",
           "highlight": true
         },
         {
-          "english": "sharp",
-          "kk": "/sharp/",
-          "partOfSpeech": "n.",
-          "meaning": "鋒利的",
-          "note": "看到 sharp 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-relaxed",
+          "lemma": "relaxed",
+          "english": "relaxed",
+          "kk": "/relaxed/",
+          "partOfSpeech": "adj.",
+          "meaning": "放鬆的",
+          "highlight": true
         },
         {
-          "english": "describe",
-          "kk": "/describe/",
-          "partOfSpeech": "n.",
-          "meaning": "描述",
-          "note": "看到 describe 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "it's",
-          "kk": "/it's/",
-          "partOfSpeech": "n.",
-          "meaning": "它是",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "soft",
-          "kk": "/soft/",
-          "partOfSpeech": "n.",
-          "meaning": "柔軟的",
-          "note": "看到 soft 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "tapping",
-          "kk": "/tapping/",
-          "partOfSpeech": "v.",
-          "meaning": "竊聽",
-          "note": "看到 tapping 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-gentle",
+          "lemma": "gentle",
+          "english": "gentle",
+          "kk": "/gentle/",
+          "partOfSpeech": "adj.",
+          "meaning": "溫和的",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
       "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and __welcome back__ to my __slow English podcast__.",
+          "tc": "歡迎回來"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "do you like",
-      "meaning": "你喜歡嗎",
+      "id": "phrase-slow-english-podcast",
+      "phrase": "slow English podcast",
+      "meaning": "慢速英文播客",
       "examples": [
         {
-          "en": "Do you like whispering sounds?",
-          "tc": "你喜歡竊竊私語的聲音嗎？"
+          "en": "Hello and __welcome back__ to my __slow English podcast__.",
+          "tc": "慢速英文播客"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "in the morning",
-      "meaning": "在早晨",
+      "id": "phrase-wake-up",
+      "phrase": "wake up",
+      "meaning": "醒來",
       "examples": [
         {
-          "en": "In the morning to be a pleasant sound or an unpleasant sound?",
-          "tc": "早上是好聽的聲音還是難聽的聲音？"
+          "en": "I hear the sounds of birds chirping in the morning when I __wake up__.",
+          "tc": "醒來"
         }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-get-item",
+      "word": "get",
+      "familiarMeaning": "得到；到達",
+      "usage": "表示理解、取得服務或變成某種狀態",
+      "translation": "理解；取得",
+      "examples": [
+        "《Get》 ready to learn and relax."
+      ]
+    },
+    {
+      "id": "usage-have-item",
+      "word": "have",
+      "familiarMeaning": "有",
+      "usage": "表示吃喝、經歷或享有",
+      "translation": "喝；經歷；享有",
+      "examples": [
+        "Then we will 《have》 a short quiz to practice the sounds that we learned today."
+      ]
+    },
+    {
+      "id": "usage-make-item",
+      "word": "make",
+      "familiarMeaning": "製作",
+      "usage": "表示產生、犯下或做出",
+      "translation": "產生；犯下；做出",
+      "examples": [
+        "How do whispering sounds 《make》 you feel?"
+      ]
+    },
+    {
+      "id": "usage-feel-item",
+      "word": "feel",
+      "familiarMeaning": "摸起來",
+      "usage": "表示人的感受或狀態",
+      "translation": "感覺；覺得",
+      "examples": [
+        "Whispering sounds are very soothing for me and I 《feel》 like they **calm** me down."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "Hello and welcome back to my slow English podcast.",
+      "translation": "你好，歡迎回到我的慢速英語播客。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定詞片語",
+          "text": "to + 原形動詞",
+          "note": "表示目的、計畫或想做的事。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Do you want to learn English while feeling relaxed? This video combines soothing ASMR sounds with essential English vocabulary for beginners. Get ready to learn and relax. Repeat with me and try?",
-      "translation": "你想在輕鬆的同時學習英語嗎？該影片將舒緩的 ASMR 聲音與初學者的基本英語詞彙結合。準備好學習和放鬆。跟我重複一遍並嘗試一下？",
+      "id": "grammar-2",
+      "sentence": "Then we will have a short quiz to practice the sounds that we learned today.",
+      "translation": "然後我們将进行一個小測驗來練習今天學到的聲音。",
       "points": [
         {
-          "label": "want while feeling",
-          "text": "want while feeling",
-          "note": "注意 \"want while feeling\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句",
+          "text": "名詞 + who/which/that + 子句",
+          "note": "補充說明前面的名詞。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "To think of your own words to describe the sound.",
-      "translation": "想出你自己的話來描述聲音。",
+      "id": "grammar-3",
+      "sentence": "How would you describe tapping sounds?",
+      "translation": "您如何描述敲擊聲？",
       "points": [
         {
-          "label": "think own words",
-          "text": "think own words",
-          "note": "注意 \"think own words\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "禮貌請求句",
+          "text": "could/would + 主詞 + 原形動詞",
+          "note": "讓請求更禮貌。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "We will have a short quiz to practice the sounds that.",
-      "translation": "我們將進行一個簡短的測驗來練習這些聲音。",
+      "id": "grammar-4",
+      "sentence": "If you can name any of these sounds, tell me in the comments what was your favorite sound from this podcast.",
+      "translation": "如果您能說出這些聲音中的任何一個，請在评论中告诉我您在這個播客中最喜歡的聲音是什麼。",
       "points": [
         {
-          "label": "short quiz sounds",
-          "text": "short quiz sounds",
-          "note": "注意 \"short quiz sounds\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "條件句",
+          "text": "if + 子句 + 主要子句",
+          "note": "說明條件成立時的結果。"
         }
       ]
     }

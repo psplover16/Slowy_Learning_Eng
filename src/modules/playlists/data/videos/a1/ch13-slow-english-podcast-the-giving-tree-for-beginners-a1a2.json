@@ -15,286 +15,1321 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my Slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and welcome back to my Slow English podcast.",
+          "tc": "哈囉，歡迎回到我的慢速英文 podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my Slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-001-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "My favorite books. It's called The Giving Tree. Read slowly with me. The Giving Tree. Once there was a tree.",
-          "tc": "我最喜歡的書。這就是所謂的「捐贈樹」。跟我一起慢慢讀。捐贈樹。從前有一棵樹。"
+          "en": "Today we will be reading one of my favorite books.",
+          "tc": "今天我們要讀我最喜歡的書之一。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today we will be reading one of my "
+            },
+            {
+              "type": "word",
+              "text": "favorite",
+              "targetId": "word-favorite",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-002-01"
+            },
+            {
+              "type": "text",
+              "text": " books."
+            }
+          ]
         },
         {
-          "en": "She loved a little boy. And every day the boy would come.",
-          "tc": "她愛著一個小男孩。男孩每天都會來。"
+          "en": "It's called The Giving Tree.",
+          "tc": "它叫做《愛心樹》。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's "
+            },
+            {
+              "type": "usage",
+              "text": "called",
+              "targetId": "usage-call-be-called",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-003-01"
+            },
+            {
+              "type": "text",
+              "text": " The Giving Tree."
+            }
+          ]
         },
         {
-          "en": "He would gather all her leaves and make them into crowns and play the king of the forest.",
-          "tc": "他會收集她所有的葉子，把它們做成王冠，扮演森林之王。"
+          "en": "Read slowly with me.",
+          "tc": "跟我一起慢慢讀。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Read slowly with me."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "tree",
-          "kk": "/tree/",
-          "partOfSpeech": "n.",
-          "meaning": "樹",
-          "note": "看到 tree 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "boy",
-          "kk": "/boy/",
-          "partOfSpeech": "n.",
-          "meaning": "男生",
-          "note": "看到 boy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "giving",
-          "kk": "/giving/",
-          "partOfSpeech": "v.",
-          "meaning": "給予",
-          "note": "看到 giving 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
+          "en": "The Giving Tree.",
+          "tc": "《愛心樹》。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The Giving Tree."
+            }
+          ]
+        },
+        {
+          "en": "Once there was a tree, and she loved a little boy.",
+          "tc": "從前有一棵樹，她愛著一個小男孩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Once there was a tree, and she loved a little boy."
+            }
+          ]
+        },
+        {
+          "en": "And every day the boy would come, and he would gather all her leaves and make them into crowns and play the king of the forest.",
+          "tc": "每天男孩都會來，他會收集她所有的葉子，把它們做成王冠，然後扮演森林之王。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And every day the boy "
+            },
+            {
+              "type": "usage",
+              "text": "would",
+              "targetId": "usage-would-item",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-007-01"
+            },
+            {
+              "type": "text",
+              "text": " come, and he "
+            },
+            {
+              "type": "usage",
+              "text": "would",
+              "targetId": "usage-would-item",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-007-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "gather",
+              "targetId": "word-gather",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-007-03"
+            },
+            {
+              "type": "text",
+              "text": " all her leaves and make them into crowns and play the king of the forest."
+            }
+          ]
+        },
+        {
           "en": "He would climb up her trunk and swing from her branches and eat apples.",
-          "tc": "他會爬上她的樹幹，在她的樹枝上盪來盪去，吃蘋果。"
-        },
-        {
-          "en": "He was tired,.",
-          "tc": "他累了，。"
-        },
-        {
-          "en": "He would sleep in her shade. And the boy loved the tree very much. And the tree was happy. But time went by and the boy grew older and the tree was.",
-          "tc": "他會睡在她的樹蔭下。男孩非常喜歡這棵樹。樹很高興。但隨著時間的流逝，男孩長大了，樹也長大了。"
-        },
-        {
-          "en": "My shade. And be happy.",
-          "tc": "我的影子。並保持快樂。"
+          "tc": "他會爬上她的樹幹，從她的樹枝上盪來盪去，還會吃蘋果。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He "
+            },
+            {
+              "type": "usage",
+              "text": "would",
+              "targetId": "usage-would-item",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-008-01"
+            },
+            {
+              "type": "text",
+              "text": " climb up her "
+            },
+            {
+              "type": "word",
+              "text": "trunk",
+              "targetId": "word-trunk",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-008-02"
+            },
+            {
+              "type": "text",
+              "text": " and swing from her "
+            },
+            {
+              "type": "word",
+              "text": "branches",
+              "targetId": "word-branch",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-008-03"
+            },
+            {
+              "type": "text",
+              "text": " and eat apples."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "tree",
-          "kk": "/tree/",
-          "partOfSpeech": "n.",
-          "meaning": "樹",
-          "note": "看到 tree 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "boy",
-          "kk": "/boy/",
-          "partOfSpeech": "n.",
-          "meaning": "男生",
-          "note": "看到 boy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "happy",
-          "kk": "/happy/",
-          "partOfSpeech": "n.",
-          "meaning": "快樂的",
-          "note": "看到 happy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I am too big to climb and play, said the boy.",
-          "tc": "「我太大了，無法攀爬和玩耍，」男孩說。"
+          "en": "And they would play hide-and-go-seek.",
+          "tc": "他們會玩捉迷藏。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And they "
+            },
+            {
+              "type": "usage",
+              "text": "would",
+              "targetId": "usage-would-item",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-009-01"
+            },
+            {
+              "type": "text",
+              "text": " play "
+            },
+            {
+              "type": "phrase",
+              "text": "hide-and-go-seek",
+              "targetId": "phrase-hide-and-go-seek",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-009-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I want to buy things and have fun.",
-          "tc": "我想買東西並玩得開心。"
+          "en": "And when he was tired, he would sleep in her shade.",
+          "tc": "當他累了，他會睡在她的樹蔭下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And when he was tired, he "
+            },
+            {
+              "type": "usage",
+              "text": "would",
+              "targetId": "usage-would-item",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-010-01"
+            },
+            {
+              "type": "text",
+              "text": " sleep in her "
+            },
+            {
+              "type": "word",
+              "text": "shade",
+              "targetId": "word-shade",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-010-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I want some money.",
-          "tc": "我想要一些錢。"
+          "en": "And the boy loved the tree very much.",
+          "tc": "男孩非常愛這棵樹。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And the boy loved the tree very much."
+            }
+          ]
         },
         {
-          "en": "Can you give me some money?",
-          "tc": "你能給我一些錢嗎？"
+          "en": "And the tree was happy.",
+          "tc": "樹也很快樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And the tree was happy."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "boy",
-          "kk": "/boy/",
-          "partOfSpeech": "n.",
-          "meaning": "男生",
-          "note": "看到 boy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "climb",
-          "kk": "/climb/",
-          "partOfSpeech": "n.",
-          "meaning": "爬",
-          "note": "看到 climb 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "money",
-          "kk": "/money/",
-          "partOfSpeech": "n.",
-          "meaning": "錢",
-          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I'm sorry, said the tree,.",
-          "tc": "對不起，樹說。"
+          "en": "But time went by, and the boy grew older, and the tree was often alone.",
+          "tc": "但是時間過去了，男孩長大了，樹常常獨自一人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But "
+            },
+            {
+              "type": "phrase",
+              "text": "time went by",
+              "targetId": "phrase-time-went-by",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-013-01"
+            },
+            {
+              "type": "text",
+              "text": ", and the boy grew older, and the tree was often alone."
+            }
+          ]
         },
         {
-          "en": "I have no money.",
-          "tc": "我沒有錢。"
+          "en": "Then one day the boy came to the tree, and the tree said, \"Come, boy, come and climb up my trunk and swing from my branches and eat apples and play in my shade and be happy.\"",
+          "tc": "後來有一天，男孩來到樹旁，樹說：「來吧，孩子，來爬上我的樹幹，從我的樹枝上盪來盪去，吃蘋果，在我的樹蔭下玩耍，開開心心的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then one day the boy came to the tree, and the tree said, \"Come, boy, come and climb up my trunk and swing from my branches and eat apples and play in my shade and be happy.\""
+            }
+          ]
         },
         {
-          "en": "I have only leaves and apples. Take my apples, boy, and sell them in the city.",
-          "tc": "我只有樹葉和蘋果。孩子，把我的蘋果拿去城裡賣吧。"
+          "en": "\"I am too big to climb and play,\" said the boy.",
+          "tc": "」「我太大了，不能爬樹和玩了，」男孩說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I am too big to climb and play,\" said the boy."
+            }
+          ]
         },
         {
-          "en": "Then you will have money and you will be happy. And so the boy climbed up the tree and gathered her apples and carried them away. And the tree was happy.",
-          "tc": "然後你就會有錢，你就會幸福。於是男孩爬上樹，摘下她的蘋果，並把它們帶走。樹很高興。"
+          "en": "\"I want to buy things and have fun.",
+          "tc": "「我想買東西，也想玩得開心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I want to buy things and have fun."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "tree",
-          "kk": "/tree/",
-          "partOfSpeech": "n.",
-          "meaning": "樹",
-          "note": "看到 tree 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "boy",
-          "kk": "/boy/",
-          "partOfSpeech": "n.",
-          "meaning": "男生",
-          "note": "看到 boy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "happy",
-          "kk": "/happy/",
-          "partOfSpeech": "n.",
-          "meaning": "快樂的",
-          "note": "看到 happy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "The boy stayed away for a long time and the tree was sad.",
-          "tc": "男孩離開了很長一段時間，樹很難過。"
+          "en": "I want some money.",
+          "tc": "我想要一些錢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I want some money."
+            }
+          ]
         },
         {
-          "en": "Then one day the boy came back. The tree shook with joy.",
-          "tc": "然後有一天，男孩回來了。樹高興得搖晃起來。"
+          "en": "Can you give me some money?\"",
+          "tc": "你可以給我一些錢嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Can you give me some money?\""
+            }
+          ]
         },
         {
-          "en": "She said, \"Come, boy. Climb up my trunk and swing from my branches and be happy.\"",
-          "tc": "她說：“來吧，孩子。爬上我的樹幹，在我的樹枝上盪鞦韆，快樂吧。”"
+          "en": "\"I'm sorry,\" said the tree, \"but I have no money.",
+          "tc": "」「對不起，」樹說，「可是我沒有錢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I'm sorry,\" said the tree, \"but I have no money."
+            }
+          ]
         },
         {
-          "en": "I am too busy to climb trees, said the boy.",
-          "tc": "「我太忙了，沒時間爬樹，」男孩說。"
+          "en": "I have only leaves and apples.",
+          "tc": "我只有葉子和蘋果。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have only leaves and apples."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "tree",
-          "kk": "/tree/",
-          "partOfSpeech": "n.",
-          "meaning": "樹",
-          "note": "看到 tree 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "boy",
-          "kk": "/boy/",
-          "partOfSpeech": "n.",
-          "meaning": "男生",
-          "note": "看到 boy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "happy",
-          "kk": "/happy/",
-          "partOfSpeech": "n.",
-          "meaning": "快樂的",
-          "note": "看到 happy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "I want a house to keep me warm,.",
-          "tc": "我想要一個房子讓我溫暖。"
+          "en": "Take my apples, boy, and sell them in the city.",
+          "tc": "拿我的蘋果去吧，孩子，把它們拿到城裡賣掉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Take my apples, boy, and sell them in the city."
+            }
+          ]
         },
         {
-          "en": "I want a wife.",
-          "tc": "我想要一個妻子。"
+          "en": "Then you will have money, and you will be happy.\"",
+          "tc": "那樣你就會有錢，也會快樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then you will have money, and you will be happy.\""
+            }
+          ]
         },
         {
-          "en": "I need a house.",
-          "tc": "我需要一個房子。"
+          "en": "And so the boy climbed up the tree and gathered her apples and carried them away.",
+          "tc": "」於是男孩爬上樹，收集她的蘋果，並把它們帶走。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And so the boy climbed up the tree and "
+            },
+            {
+              "type": "word",
+              "text": "gathered",
+              "targetId": "word-gather",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-023-01"
+            },
+            {
+              "type": "text",
+              "text": " her apples and carried them away."
+            }
+          ]
         },
         {
-          "en": "Can you give me a house?",
-          "tc": "你能給我房子嗎？"
+          "en": "And the tree was happy.",
+          "tc": "樹很快樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And the tree was happy."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
         {
-          "english": "want",
-          "kk": "/want/",
-          "partOfSpeech": "v.",
-          "meaning": "想",
-          "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "But the boy stayed away for a long time, and the tree was sad.",
+          "tc": "但是男孩離開了很久，樹很難過。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But the boy "
+            },
+            {
+              "type": "phrase",
+              "text": "stayed away",
+              "targetId": "phrase-stay-away",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-025-01"
+            },
+            {
+              "type": "text",
+              "text": " for a long time, and the tree was sad."
+            }
+          ]
+        },
+        {
+          "en": "And then one day the boy came back.",
+          "tc": "後來有一天，男孩回來了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And then one day the boy "
+            },
+            {
+              "type": "phrase",
+              "text": "came back",
+              "targetId": "phrase-come-back",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-026-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "The tree shook with joy, and she said, \"Come, boy.",
+          "tc": "樹高興得發抖，她說：「來吧，孩子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The tree shook with joy, and she said, \"Come, boy."
+            }
+          ]
+        },
+        {
+          "en": "Climb up my trunk and swing from my branches and be happy.\"",
+          "tc": "爬上我的樹幹，從我的樹枝上盪來盪去，開開心心的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Climb up my trunk and swing from my branches and be happy.\""
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "\"I am too busy to climb trees,\" said the boy.",
+          "tc": "」「我太忙了，不能爬樹，」男孩說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I am too busy to climb trees,\" said the boy."
+            }
+          ]
+        },
+        {
+          "en": "\"I want a house to keep me warm,\" he said.",
+          "tc": "「我想要一間房子讓我保暖，」他說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I want a house to keep me warm,\" he said."
+            }
+          ]
+        },
+        {
+          "en": "\"I want a wife, and I want children, and so I need a house.",
+          "tc": "「我想要一位妻子，也想要孩子，所以我需要一間房子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I want a wife, and I want children, and so I need a house."
+            }
+          ]
+        },
+        {
+          "en": "Can you give me a house?\"",
+          "tc": "你可以給我一間房子嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Can you give me a house?\""
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
+        {
+          "en": "\"I have no house,\" said the tree.",
+          "tc": "」「我沒有房子，」樹說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I have no house,\" said the tree."
+            }
+          ]
+        },
+        {
+          "en": "\"The forest is my house, but you may cut off my branches and build a house.",
+          "tc": "「森林就是我的房子，但你可以砍下我的樹枝，蓋一間房子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"The forest is my house, but you may "
+            },
+            {
+              "type": "phrase",
+              "text": "cut off",
+              "targetId": "phrase-cut-off",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-034-01"
+            },
+            {
+              "type": "text",
+              "text": " my branches and build a house."
+            }
+          ]
+        },
+        {
+          "en": "Then you will be happy.\"",
+          "tc": "那樣你就會快樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then you will be happy.\""
+            }
+          ]
+        },
+        {
+          "en": "And so the boy cut off her branches and carried them away to build his house.",
+          "tc": "」於是男孩砍下她的樹枝，並把它們帶走去蓋他的房子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And so the boy "
+            },
+            {
+              "type": "phrase",
+              "text": "cut off",
+              "targetId": "phrase-cut-off",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-036-01"
+            },
+            {
+              "type": "text",
+              "text": " her branches and carried them away to build his house."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "And the tree was happy, but the boy stayed away for a long time.",
+          "tc": "樹很快樂，但是男孩又離開了很久。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And the tree was happy, but the boy stayed away for a long time."
+            }
+          ]
+        },
+        {
+          "en": "And when he came back, the tree was so happy.",
+          "tc": "當他回來時，樹非常快樂，幾乎說不出話來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And when he came back, the tree was so happy."
+            }
+          ]
+        },
+        {
+          "en": "She could hardly speak.",
+          "tc": "「來吧，孩子，」她低聲說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She could "
+            },
+            {
+              "type": "word",
+              "text": "hardly",
+              "targetId": "word-hardly",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-039-01"
+            },
+            {
+              "type": "text",
+              "text": " speak."
+            }
+          ]
+        },
+        {
+          "en": "\"Come, boy,\" she whispered.",
+          "tc": "「來玩吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Come, boy,\" she "
+            },
+            {
+              "type": "word",
+              "text": "whispered",
+              "targetId": "word-whisper",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-040-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
+        {
+          "en": "\"Come and play.\"",
+          "tc": "」「我太老也太難過了，不能玩了，」男孩說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Come and play.\""
+            }
+          ]
+        },
+        {
+          "en": "\"I am too old and sad to play,\" said the boy.",
+          "tc": "「我想要一艘船，能帶我離開這裡，到很遠的地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I am too old and sad to play,\" said the boy."
+            }
+          ]
+        },
+        {
+          "en": "\"I want a boat that will take me far away from here.",
+          "tc": "你可以給我一艘船嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I want a boat that will take me "
+            },
+            {
+              "type": "phrase",
+              "text": "far away",
+              "targetId": "phrase-far-away",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-043-01"
+            },
+            {
+              "type": "text",
+              "text": " from here."
+            }
+          ]
+        },
+        {
+          "en": "Can you give me a boat?\"",
+          "tc": "」「砍下我的樹幹做成船吧，」樹說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Can you give me a boat?\""
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "\"Cut down my trunk and make a boat,\" said the tree.",
+          "tc": "「那樣你就可以航行離開，也會快樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\""
+            },
+            {
+              "type": "phrase",
+              "text": "Cut down",
+              "targetId": "phrase-cut-down",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-045-01"
+            },
+            {
+              "type": "text",
+              "text": " my trunk and make a boat,\" said the tree."
+            }
+          ]
+        },
+        {
+          "en": "\"Then you can sail away and be happy.\"",
+          "tc": "」於是男孩砍下她的樹幹，做成一艘船，然後航行離開。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Then you can sail away and be happy.\""
+            }
+          ]
+        },
+        {
+          "en": "And so the boy cut down her trunk, made a boat, and sailed away.",
+          "tc": "樹很快樂，但其實不是真的快樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And so the boy "
+            },
+            {
+              "type": "phrase",
+              "text": "cut down",
+              "targetId": "phrase-cut-down",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-047-01"
+            },
+            {
+              "type": "text",
+              "text": " her trunk, made a boat, and sailed away."
+            }
+          ]
+        },
+        {
+          "en": "And the tree was happy, but not really.",
+          "tc": "過了很久以後，男孩又回來了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And the tree was happy, but not really."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "And after a long time, the boy came back again.",
+          "tc": "「對不起，孩子，」樹說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And after a long time, the boy came back again."
+            }
+          ]
+        },
+        {
+          "en": "\"I am sorry, boy,\" said the tree.",
+          "tc": "「可是我沒有東西可以給你了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I am sorry, boy,\" said the tree."
+            }
+          ]
+        },
+        {
+          "en": "\"But I have nothing left to give you.",
+          "tc": "我的蘋果沒有了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"But I have nothing "
+            },
+            {
+              "type": "usage",
+              "text": "left",
+              "targetId": "usage-left-item",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-051-01"
+            },
+            {
+              "type": "text",
+              "text": " to give you."
+            }
+          ]
+        },
+        {
+          "en": "My apples are gone.\"",
+          "tc": "」「我的牙齒太弱，不能吃蘋果了，」男孩說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My apples are gone.\""
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "\"My teeth are too weak for apples,\" said the boy.",
+          "tc": "「我的樹枝沒有了，」樹說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"My teeth are too weak for apples,\" said the boy."
+            }
+          ]
+        },
+        {
+          "en": "\"My branches are gone,\" said the tree.",
+          "tc": "「你不能在它們上面盪了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"My branches are gone,\" said the tree."
+            }
+          ]
+        },
+        {
+          "en": "\"You cannot swing on them.\"",
+          "tc": "」「我太老了，不能在樹枝上盪了，」男孩說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"You cannot swing on them.\""
+            }
+          ]
+        },
+        {
+          "en": "\"I am too old to swing on branches,\" said the boy.",
+          "tc": "「我的樹幹沒有了，」樹說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I am too old to swing on branches,\" said the boy."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "\"My trunk is gone,\" said the tree.",
+          "tc": "「你不能爬了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"My trunk is gone,\" said the tree."
+            }
+          ]
+        },
+        {
+          "en": "\"You cannot climb.\"",
+          "tc": "」「我太累了，不能爬了，」男孩說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"You cannot climb.\""
+            }
+          ]
+        },
+        {
+          "en": "\"I am too tired to climb,\" said the boy.",
+          "tc": "「對不起，」樹嘆氣說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I am too tired to climb,\" said the boy."
+            }
+          ]
+        },
+        {
+          "en": "\"I am sorry,\" sighed the tree.",
+          "tc": "「我希望我能給你一些東西，但我什麼都沒有了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I am sorry,\" sighed the tree."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "\"I wish that I could give you something, but I have nothing left.",
+          "tc": "我只是一個老樹樁。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I wish that I could give you something, but I have nothing left."
+            }
+          ]
+        },
+        {
+          "en": "I'm just an old stump.",
+          "tc": "對不起。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm just an old "
+            },
+            {
+              "type": "word",
+              "text": "stump",
+              "targetId": "word-stump",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-062-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I am sorry.\"",
+          "tc": "」「我現在不需要太多，」男孩說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am sorry.\""
+            }
+          ]
+        },
+        {
+          "en": "\"I don't need very much now,\" said the boy.",
+          "tc": "「只要一個安靜的地方坐下來休息。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I don't need very much now,\" said the boy."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "\"Just a quiet place to sit and rest.",
+          "tc": "我很累了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Just a quiet place to sit and rest."
+            }
+          ]
+        },
+        {
+          "en": "I am very tired.\"",
+          "tc": "」「嗯，」樹說，盡可能把自己挺直。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am very tired.\""
+            }
+          ]
+        },
+        {
+          "en": "\"Well,\" said the tree, straightening herself up as much as she could.",
+          "tc": "「嗯，老樹樁很適合坐著休息。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Well,\" said the tree, straightening herself up as much as she could."
+            }
+          ]
+        },
+        {
+          "en": "\"Well, an old stump is good for sitting and resting.",
+          "tc": "來吧，孩子，坐下來休息。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Well, an old stump is good for sitting and resting."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "Come, boy, sit down and rest.\"",
+          "tc": "來吧，孩子，坐下來休息。」",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Come, boy, sit down and rest.\""
+            }
+          ]
+        },
+        {
+          "en": "And the boy did.",
+          "tc": "男孩照做了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And the boy "
+            },
+            {
+              "type": "usage",
+              "text": "did",
+              "targetId": "usage-did-item",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-070-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "And the tree was happy.",
+          "tc": "樹很快樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And the tree was happy."
+            }
+          ]
+        },
+        {
+          "en": "The end.",
+          "tc": "結束。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The end."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "What did you think about The Giving Tree?",
+          "tc": "你覺得《愛心樹》怎麼樣？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What did you think about The Giving Tree?"
+            }
+          ]
+        },
+        {
+          "en": "Do you think the tree was happy in the end?",
+          "tc": "你認為樹到最後是快樂的嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you think the tree was happy "
+            },
+            {
+              "type": "phrase",
+              "text": "in the end",
+              "targetId": "phrase-in-the-end",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-074-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Why or why not?",
+          "tc": "為什麼，或為什麼不？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Why or why not?"
+            }
+          ]
+        },
+        {
+          "en": "Was the boy selfish or just human?",
+          "tc": "男孩是自私，還是只是人性如此？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Was the boy "
+            },
+            {
+              "type": "word",
+              "text": "selfish",
+              "targetId": "word-selfish",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-076-01"
+            },
+            {
+              "type": "text",
+              "text": " or just human?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "Have you ever had someone in your life who gave to you like the tree gave to the boy?",
+          "tc": "你生命中是否曾經有某個人像樹給予男孩那樣給予你？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Have you ever had someone in your life who gave to you like the tree gave to the boy?"
+            }
+          ]
+        },
+        {
+          "en": "What do you think the moral of this story is?",
+          "tc": "你認為這個故事的寓意是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you think the "
+            },
+            {
+              "type": "word",
+              "text": "moral",
+              "targetId": "word-moral",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-078-01"
+            },
+            {
+              "type": "text",
+              "text": " of this story is?"
+            }
+          ]
+        },
+        {
+          "en": "I'll read your comments.",
+          "tc": "我會讀你們的留言。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll read your "
+            },
+            {
+              "type": "word",
+              "text": "comments",
+              "targetId": "word-comment",
+              "instanceId": "marker-a1-ch13-slow-english-podcast-the-giving-tree-for-beginners-a1a2-079-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Have a wonderful day.",
+          "tc": "祝你有美好的一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Have a wonderful day."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "I'll see you next time with another story to tell.",
+          "tc": "下次我會帶另一個故事再見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll see you next time with another story to tell."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -302,153 +1337,361 @@
       "title": "A1 重點單字",
       "items": [
         {
-          "english": "tree",
-          "kk": "/tree/",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "/ˈpɑdˌkæst/",
           "partOfSpeech": "n.",
-          "meaning": "樹",
-          "note": "看到 tree 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "播客",
           "highlight": true
         },
         {
-          "english": "boy",
-          "kk": "/boy/",
-          "partOfSpeech": "n.",
-          "meaning": "男生",
-          "note": "看到 boy 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-favorite",
+          "lemma": "favorite",
+          "english": "favorite",
+          "kk": "/ˈfevərɪt/",
+          "partOfSpeech": "adj.",
+          "meaning": "最喜歡的",
           "highlight": true
         },
         {
-          "english": "happy",
-          "kk": "/happy/",
-          "partOfSpeech": "n.",
-          "meaning": "快樂的",
-          "note": "看到 happy 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "apples",
-          "kk": "/apples/",
-          "partOfSpeech": "n.",
-          "meaning": "蘋果",
-          "note": "看到 apples 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "climb",
-          "kk": "/climb/",
-          "partOfSpeech": "n.",
-          "meaning": "爬",
-          "note": "看到 climb 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "money",
-          "kk": "/money/",
-          "partOfSpeech": "n.",
-          "meaning": "錢",
-          "note": "看到 money 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "want",
-          "kk": "/want/",
+          "id": "word-gather",
+          "lemma": "gather",
+          "english": "gather / gathered",
+          "kk": "/ˈɡæðɚ/",
           "partOfSpeech": "v.",
-          "meaning": "想",
-          "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "收集",
+          "highlight": true
         },
         {
-          "english": "giving",
-          "kk": "/giving/",
+          "id": "word-trunk",
+          "lemma": "trunk",
+          "english": "trunk",
+          "kk": "/trʌŋk/",
+          "partOfSpeech": "n.",
+          "meaning": "樹幹",
+          "highlight": true
+        },
+        {
+          "id": "word-branch",
+          "lemma": "branch",
+          "english": "branches",
+          "kk": "/bræntʃ/",
+          "partOfSpeech": "n.",
+          "meaning": "樹枝",
+          "highlight": true
+        },
+        {
+          "id": "word-shade",
+          "lemma": "shade",
+          "english": "shade",
+          "kk": "/ʃed/",
+          "partOfSpeech": "n.",
+          "meaning": "樹蔭",
+          "highlight": true
+        },
+        {
+          "id": "word-hardly",
+          "lemma": "hardly",
+          "english": "hardly",
+          "kk": "/ˈhɑrdli/",
+          "partOfSpeech": "adv.",
+          "meaning": "幾乎不",
+          "highlight": true
+        },
+        {
+          "id": "word-whisper",
+          "lemma": "whisper",
+          "english": "whispered",
+          "kk": "/ˈwɪspɚ/",
           "partOfSpeech": "v.",
-          "meaning": "給予",
-          "note": "看到 giving 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "低聲說",
+          "highlight": true
+        },
+        {
+          "id": "word-stump",
+          "lemma": "stump",
+          "english": "stump",
+          "kk": "/stʌmp/",
+          "partOfSpeech": "n.",
+          "meaning": "樹樁",
+          "highlight": true
+        },
+        {
+          "id": "word-selfish",
+          "lemma": "selfish",
+          "english": "selfish",
+          "kk": "/ˈsɛlfɪʃ/",
+          "partOfSpeech": "adj.",
+          "meaning": "自私的",
+          "highlight": true
+        },
+        {
+          "id": "word-moral",
+          "lemma": "moral",
+          "english": "moral",
+          "kk": "/ˈmɔrəl/",
+          "partOfSpeech": "n.",
+          "meaning": "寓意、教訓",
+          "highlight": true
+        },
+        {
+          "id": "word-comment",
+          "lemma": "comment",
+          "english": "comments",
+          "kk": "/ˈkɑmɛnt/",
+          "partOfSpeech": "n.",
+          "meaning": "留言、評論",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "meaning": "歡迎某人回到節目或地方",
       "examples": [
         {
-          "en": "Welcome back to my Slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and __welcome back__ to my Slow English **podcast**.",
+          "tc": "歡迎某人回到節目或地方"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-hide-and-go-seek",
+      "phrase": "hide-and-go-seek",
+      "meaning": "一種躲藏與尋找的遊戲",
       "examples": [
         {
-          "en": "I want to buy things and have fun.",
-          "tc": "我想買東西並玩得開心。"
+          "en": "And they 《would》 play __hide-and-go-seek__.",
+          "tc": "一種躲藏與尋找的遊戲"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "i want",
-      "meaning": "我想",
+      "id": "phrase-time-went-by",
+      "phrase": "time went by",
+      "meaning": "時間流逝、過去",
       "examples": [
         {
-          "en": "I want to buy things and have fun.",
-          "tc": "我想買東西並玩得開心。"
+          "en": "But __time went by__, and the boy grew older.",
+          "tc": "時間流逝、過去"
         }
+      ]
+    },
+    {
+      "id": "phrase-stay-away",
+      "phrase": "stay away",
+      "meaning": "不回來、離開一段時間",
+      "examples": [
+        {
+          "en": "But the boy __stayed away__ for a long time.",
+          "tc": "不回來、離開一段時間"
+        }
+      ]
+    },
+    {
+      "id": "phrase-come-back",
+      "phrase": "come back",
+      "meaning": "回到原本的地方",
+      "examples": [
+        {
+          "en": "And then one day the boy __came back__.",
+          "tc": "回到原本的地方"
+        }
+      ]
+    },
+    {
+      "id": "phrase-cut-off",
+      "phrase": "cut off",
+      "meaning": "從原本連著的地方切下",
+      "examples": [
+        {
+          "en": "You may __cut off__ my branches.",
+          "tc": "從原本連著的地方切下"
+        },
+        {
+          "en": "The boy __cut off__ her branches.",
+          "tc": "從原本連著的地方切下"
+        }
+      ]
+    },
+    {
+      "id": "phrase-far-away",
+      "phrase": "far away",
+      "meaning": "距離很遠",
+      "examples": [
+        {
+          "en": "I want a boat that will take me __far away__ from here.",
+          "tc": "距離很遠"
+        }
+      ]
+    },
+    {
+      "id": "phrase-cut-down",
+      "phrase": "cut down",
+      "meaning": "把樹木等砍倒",
+      "examples": [
+        {
+          "en": "__Cut down__ my trunk and make a boat.",
+          "tc": "把樹木等砍倒"
+        },
+        {
+          "en": "The boy __cut down__ her trunk.",
+          "tc": "把樹木等砍倒"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-the-end",
+      "phrase": "in the end",
+      "meaning": "到最後、最終",
+      "examples": [
+        {
+          "en": "Do you think the tree was happy __in the end__?",
+          "tc": "到最後、最終"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-call-be-called",
+      "word": "call",
+      "familiarMeaning": "打電話、叫",
+      "usage": "be called 表示被命名為",
+      "translation": "叫做",
+      "examples": [
+        "It's 《called》 The Giving Tree."
+      ]
+    },
+    {
+      "id": "usage-would-item",
+      "word": "would",
+      "familiarMeaning": "will 的過去式、會",
+      "usage": "說過去反覆發生的習慣動作",
+      "translation": "會、總是會",
+      "examples": [
+        "Every day the boy 《would》 come."
+      ]
+    },
+    {
+      "id": "usage-left-item",
+      "word": "left",
+      "familiarMeaning": "leave 的過去式",
+      "usage": "表示剩下的、還留著的",
+      "translation": "剩下的",
+      "examples": [
+        "I have nothing 《left》 to give you."
+      ]
+    },
+    {
+      "id": "usage-did-item",
+      "word": "did",
+      "familiarMeaning": "do 的過去式",
+      "usage": "代替前面提到的整個動作",
+      "translation": "照做了",
+      "examples": [
+        "And the boy 《did》."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my Slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "Today we will be reading one of my favorite books.",
+      "translation": "今天我們要讀我最喜歡的書之一。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "未來進行式",
+          "text": "will be + V-ing",
+          "note": "表示接下來一段時間會進行的活動"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "My favorite books. It's called The Giving Tree. Read slowly with me. The Giving Tree. Once there was a tree.",
-      "translation": "我最喜歡的書。這就是所謂的「捐贈樹」。跟我一起慢慢讀。捐贈樹。從前有一棵樹。",
+      "id": "grammar-2",
+      "sentence": "Once there was a tree, and she loved a little boy.",
+      "translation": "從前有一棵樹，她愛著一個小男孩。",
       "points": [
         {
-          "label": "favorite books called",
-          "text": "favorite books called",
-          "note": "注意 \"favorite books called\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "There be 句型",
+          "text": "There was + 名詞",
+          "note": "用來引出故事中存在的人事物"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "She loved a little boy. And every day the boy would come.",
-      "translation": "她愛著一個小男孩。男孩每天都會來。",
+      "id": "grammar-3",
+      "sentence": "And every day the boy would come.",
+      "translation": "每天男孩都會來。",
       "points": [
         {
-          "label": "loved little boy",
-          "text": "loved little boy",
-          "note": "注意 \"loved little boy\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "would 表過去習慣",
+          "text": "would + 原形動詞",
+          "note": "說過去常常重複發生的事情"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "He would gather all her leaves and make them into crowns and play the king of the forest.",
-      "translation": "他會收集她所有的葉子，把它們做成王冠，扮演森林之王。",
+      "id": "grammar-4",
+      "sentence": "I am too big to climb and play.",
+      "translation": "我太大了，不能爬和玩。",
       "points": [
         {
-          "label": "gather leaves make",
-          "text": "gather leaves make",
-          "note": "注意 \"gather leaves make\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "too ... to ...",
+          "text": "too + 形容詞 + to + 原形動詞",
+          "note": "表示太怎樣而不能做某事"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "I want a boat that will take me far away from here.",
+      "translation": "我想要一艘能帶我離開這裡到很遠地方的船。",
+      "points": [
+        {
+          "label": "關係子句",
+          "text": "名詞 + that + 子句",
+          "note": "that 後面補充說明 boat 是怎樣的船"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "I wish that I could give you something.",
+      "translation": "我希望我能給你一些東西。",
+      "points": [
+        {
+          "label": "wish + could",
+          "text": "wish that + 主詞 + could + 原形動詞",
+          "note": "表示現在做不到但希望能做到的事"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "Have you ever had someone in your life who gave to you like the tree gave to the boy?",
+      "translation": "你生命中是否曾經有某個人像樹給予男孩那樣給予你？",
+      "points": [
+        {
+          "label": "現在完成式與關係子句",
+          "text": "Have + 主詞 + ever + p.p.; someone + who + 子句",
+          "note": "ever 詢問到目前為止的經驗，who 補充說明 someone"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "What do you think the moral of this story is?",
+      "translation": "你認為這個故事的寓意是什麼？",
+      "points": [
+        {
+          "label": "插入問句的間接問句語序",
+          "text": "What do you think + 主詞 + 動詞",
+          "note": "do you think 插入後，後面的 the moral ... is 保持陳述句語序"
         }
       ]
     }

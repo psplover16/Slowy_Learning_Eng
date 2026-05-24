@@ -15,286 +15,1038 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello, welcome back to my slow English podcast.",
+          "tc": "哈囉，歡迎回到我的慢速英語播客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello, welcome back to my slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-001-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "This podcast is for English beginners from levels A1 to A2.",
-          "tc": "該podcast適合 A1 至 A2 級別的英語初學者。"
+          "en": "This podcast is for English beginners at levels A1 to A2.",
+          "tc": "這個播客是給 A1 到 A2 程度的英文初學者。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-002-01"
+            },
+            {
+              "type": "text",
+              "text": " is for English "
+            },
+            {
+              "type": "word",
+              "text": "beginners",
+              "targetId": "word-beginner",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-002-02"
+            },
+            {
+              "type": "text",
+              "text": " at "
+            },
+            {
+              "type": "word",
+              "text": "levels",
+              "targetId": "word-level",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-002-03"
+            },
+            {
+              "type": "text",
+              "text": " A1 to A2."
+            }
+          ]
         },
         {
-          "en": "Today I want to talk about my goals.",
-          "tc": "今天我想談談我的目標。"
+          "en": "Today, I want to talk about my goals.",
+          "tc": "今天，我想聊聊我的目標。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today, I want to talk about my "
+            },
+            {
+              "type": "word",
+              "text": "goals",
+              "targetId": "word-goal",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-003-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
           "en": "I have many goals.",
-          "tc": "我有很多目標。"
+          "tc": "我有很多目標。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have many "
+            },
+            {
+              "type": "word",
+              "text": "goals",
+              "targetId": "word-goal",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-004-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "want",
-          "kk": "/want/",
-          "partOfSpeech": "v.",
-          "meaning": "想",
-          "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "goals",
-          "kk": "/goals/",
-          "partOfSpeech": "n.",
-          "meaning": "目標",
-          "note": "看到 goals 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：心態與目標",
-      "titleEn": "Part 2: mindset",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
           "en": "I have lots of goals for my future.",
-          "tc": "我對未來有很多目標。"
+          "tc": "我對未來有很多目標。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have lots of "
+            },
+            {
+              "type": "word",
+              "text": "goals",
+              "targetId": "word-goal",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-005-01"
+            },
+            {
+              "type": "text",
+              "text": " for my "
+            },
+            {
+              "type": "word",
+              "text": "future",
+              "targetId": "word-future",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-005-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I have shortterm goals and longterm goals this year.",
-          "tc": "今年我有短期目標和長期目標。"
+          "en": "I have short-term goals and long-term goals.",
+          "tc": "我有短期目標，也有長期目標。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have "
+            },
+            {
+              "type": "word",
+              "text": "short-term",
+              "targetId": "word-short-term",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-006-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "goals",
+              "targetId": "word-goal",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-006-02"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "long-term",
+              "targetId": "word-long-term",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-006-03"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "goals",
+              "targetId": "word-goal",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-006-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I would like to get my dive Masters Sear certificate my certificate in scuba diving.",
-          "tc": "我想獲得潛水大師 Sear 證書和水肺潛水證書。"
+          "en": "This year, I would like to get my Divemaster certification, my certificate in scuba diving.",
+          "tc": "今年，我想取得 Divemaster 證照，也就是我的水肺潛水證照。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This year, I "
+            },
+            {
+              "type": "phrase",
+              "text": "would like to",
+              "targetId": "phrase-would-like-to",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-007-01"
+            },
+            {
+              "type": "text",
+              "text": " get my "
+            },
+            {
+              "type": "word",
+              "text": "Divemaster",
+              "targetId": "word-divemaster",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-007-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "certification",
+              "targetId": "word-certification",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-007-03"
+            },
+            {
+              "type": "text",
+              "text": ", my "
+            },
+            {
+              "type": "word",
+              "text": "certificate",
+              "targetId": "word-certificate",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-007-04"
+            },
+            {
+              "type": "text",
+              "text": " in "
+            },
+            {
+              "type": "phrase",
+              "text": "scuba diving",
+              "targetId": "phrase-scuba-diving",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-007-05"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I love scuba diving Mexico is.",
-          "tc": "我喜歡墨西哥的水肺潛水。"
+          "en": "I love scuba diving.",
+          "tc": "我喜歡水肺潛水。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love "
+            },
+            {
+              "type": "phrase",
+              "text": "scuba diving",
+              "targetId": "phrase-scuba-diving",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-008-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "goals",
-          "kk": "/goals/",
-          "partOfSpeech": "n.",
-          "meaning": "目標",
-          "note": "看到 goals 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "certificate",
-          "kk": "/certificate/",
-          "partOfSpeech": "n.",
-          "meaning": "證書",
-          "note": "看到 certificate 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "diving",
-          "kk": "/diving/",
-          "partOfSpeech": "v.",
-          "meaning": "潛水",
-          "note": "看到 diving 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "One of the best places to do it.",
-          "tc": "最好的地方之一。"
+          "en": "Mexico is one of the best places to do it.",
+          "tc": "墨西哥是最適合做這件事的地方之一。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mexico is one of the best places to do it."
+            }
+          ]
         },
         {
-          "en": "I want wants to travel and see all the most beautiful places the most beautiful corals and the most beautiful marine species animal species.",
-          "tc": "我想去旅行，看看所有最美麗的地方、最美麗的珊瑚和最美麗的海洋物種和動物物種。"
+          "en": "I want to travel and see all the most beautiful places, the most beautiful corals, and the most beautiful marine animal species.",
+          "tc": "我想去旅行，看看所有最美的地方、最美的珊瑚，以及最美的海洋動物物種。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I want to travel and see all the most beautiful places, the most beautiful "
+            },
+            {
+              "type": "word",
+              "text": "corals",
+              "targetId": "word-coral",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-010-01"
+            },
+            {
+              "type": "text",
+              "text": ", and the most beautiful "
+            },
+            {
+              "type": "word",
+              "text": "marine",
+              "targetId": "word-marine",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-010-02"
+            },
+            {
+              "type": "text",
+              "text": " animal "
+            },
+            {
+              "type": "word",
+              "text": "species",
+              "targetId": "word-species",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-010-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
           "en": "I want to help protect the oceans.",
-          "tc": "我想幫助保護海洋。"
+          "tc": "我想幫忙保護海洋。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I want to help "
+            },
+            {
+              "type": "word",
+              "text": "protect",
+              "targetId": "word-protect",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-011-01"
+            },
+            {
+              "type": "text",
+              "text": " the oceans."
+            }
+          ]
         },
         {
-          "en": "I get my diving certificate.",
-          "tc": "我拿到了潛水證書。"
+          "en": "I want to help protect the precious corals and precious animals in the ocean.",
+          "tc": "我想幫忙保護海裡珍貴的珊瑚和珍貴的動物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I want to help "
+            },
+            {
+              "type": "word",
+              "text": "protect",
+              "targetId": "word-protect",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-012-01"
+            },
+            {
+              "type": "text",
+              "text": " the "
+            },
+            {
+              "type": "word",
+              "text": "precious",
+              "targetId": "word-precious",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-012-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "corals",
+              "targetId": "word-coral",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-012-03"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "precious",
+              "targetId": "word-precious",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-012-04"
+            },
+            {
+              "type": "text",
+              "text": " animals in the ocean."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "want",
-          "kk": "/want/",
-          "partOfSpeech": "v.",
-          "meaning": "想",
-          "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "beautiful",
-          "kk": "/beautiful/",
-          "partOfSpeech": "adj.",
-          "meaning": "美麗的",
-          "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "certificate",
-          "kk": "/certificate/",
-          "partOfSpeech": "n.",
-          "meaning": "證書",
-          "note": "看到 certificate 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I want to visit Thailand.",
-          "tc": "我想去泰國 。"
+          "en": "When I get my diving certificate, I want to visit Thailand.",
+          "tc": "當我拿到潛水證照時，我想去泰國。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I get my diving "
+            },
+            {
+              "type": "word",
+              "text": "certificate",
+              "targetId": "word-certificate",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-013-01"
+            },
+            {
+              "type": "text",
+              "text": ", I want to visit Thailand."
+            }
+          ]
         },
         {
-          "en": "I would like to visit Egypt Australia and Indonesia.",
-          "tc": "我想去參觀 埃及 澳洲和印尼。"
+          "en": "I would like to visit Egypt, Australia, and Indonesia.",
+          "tc": "我也想去埃及、澳洲和印尼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "would like to",
+              "targetId": "phrase-would-like-to",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-014-01"
+            },
+            {
+              "type": "text",
+              "text": " visit Egypt, Australia, and Indonesia."
+            }
+          ]
         },
         {
-          "en": "What is a goal that you are working on another goal of mine is that?",
-          "tc": "你正在努力實現的目標是什麼？我的另一個目標是什麼？"
+          "en": "What is a goal that you are working on?",
+          "tc": "你正在努力達成的目標是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What is a "
+            },
+            {
+              "type": "word",
+              "text": "goal",
+              "targetId": "word-goal",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-015-01"
+            },
+            {
+              "type": "text",
+              "text": " that you are "
+            },
+            {
+              "type": "phrase",
+              "text": "working on",
+              "targetId": "phrase-working-on",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-015-02"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         },
         {
-          "en": "I want to dance all around the world.",
-          "tc": "我想在世界各地跳舞。"
+          "en": "Another goal of mine is that I want to dance all around the world.",
+          "tc": "我的另一個目標是，我想在世界各地跳舞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Another "
+            },
+            {
+              "type": "word",
+              "text": "goal",
+              "targetId": "word-goal",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-016-01"
+            },
+            {
+              "type": "text",
+              "text": " of mine is that I want to dance "
+            },
+            {
+              "type": "phrase",
+              "text": "all around the world",
+              "targetId": "phrase-all-around-the-world",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-016-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "dance",
-          "kk": "/dance/",
-          "partOfSpeech": "n.",
-          "meaning": "舞蹈",
-          "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "want",
-          "kk": "/want/",
-          "partOfSpeech": "v.",
-          "meaning": "想",
-          "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "I love dancing brings me so much joy When I Dance all my worries go away.",
-          "tc": "我喜歡跳舞帶給我很多快樂，當我跳舞時，所有的憂慮都消失了。"
+          "en": "I love dancing.",
+          "tc": "我愛跳舞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love dancing."
+            }
+          ]
+        },
+        {
+          "en": "Dancing brings me so much joy.",
+          "tc": "跳舞帶給我很多快樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Dancing "
+            },
+            {
+              "type": "usage",
+              "text": "brings",
+              "targetId": "usage-bring-bring",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-018-01"
+            },
+            {
+              "type": "text",
+              "text": " me so much "
+            },
+            {
+              "type": "word",
+              "text": "joy",
+              "targetId": "word-joy",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-018-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "When I dance, all my worries go away.",
+          "tc": "當我跳舞時，我所有的煩惱都會消失。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I dance, all my "
+            },
+            {
+              "type": "word",
+              "text": "worries",
+              "targetId": "word-worry",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-019-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "go away",
+              "targetId": "phrase-go-away",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-019-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
           "en": "I want to take dance classes and learn different dance styles.",
-          "tc": "我想參加舞蹈課程並學習不同的舞蹈風格。"
-        },
-        {
-          "en": "Do you want to take dance lessons?",
-          "tc": "你想上舞蹈課嗎？"
-        },
-        {
-          "en": "I want to take dance lessons in Brazil Colombia India or Japan.",
-          "tc": "我想在巴西、哥倫比亞、印度或日本上舞蹈課。"
+          "tc": "我想上舞蹈課，學習不同的舞蹈風格。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I want to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-take-class-lesson",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-020-01"
+            },
+            {
+              "type": "text",
+              "text": " dance classes and learn different dance "
+            },
+            {
+              "type": "word",
+              "text": "styles",
+              "targetId": "word-style",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-020-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "dance",
-          "kk": "/dance/",
-          "partOfSpeech": "n.",
-          "meaning": "舞蹈",
-          "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "want",
-          "kk": "/want/",
-          "partOfSpeech": "v.",
-          "meaning": "想",
-          "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "dancing",
-          "kk": "/dancing/",
-          "partOfSpeech": "v.",
-          "meaning": "跳舞",
-          "note": "看到 dancing 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
+          "en": "Do you want to take dance lessons?",
+          "tc": "你想上舞蹈課嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you want to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-take-class-lesson",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-021-01"
+            },
+            {
+              "type": "text",
+              "text": " dance lessons?"
+            }
+          ]
+        },
+        {
+          "en": "I want to take dance lessons in Brazil, Colombia, India, or Japan.",
+          "tc": "我想在巴西、哥倫比亞、印度或日本上舞蹈課。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I want to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-take-class-lesson",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-022-01"
+            },
+            {
+              "type": "text",
+              "text": " dance lessons in Brazil, Colombia, India, or Japan."
+            }
+          ]
+        },
+        {
           "en": "Do you like dancing?",
-          "tc": "你喜歡跳舞嗎？"
+          "tc": "你喜歡跳舞嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like dancing?"
+            }
+          ]
         },
         {
           "en": "Do you prefer watching people dance or dancing?",
-          "tc": "你比較喜歡看人跳舞還是跳舞？"
-        },
-        {
-          "en": "What type of dance is your favorite in my opinion the happiest cultures are the ones with Rich dance culture?",
-          "tc": "在我看來，最幸福的文化是那些擁有豐富舞蹈文化的文化，你最喜歡什麼類型的舞蹈？"
-        },
-        {
-          "en": "Where people are dancing people are smiling where people are dancing people are connecting dancing is good for the soul dancing is good for the heart?",
-          "tc": "人們在跳舞的地方人們在微笑 在人們跳舞的地方人們在聯繫 跳舞對靈魂有好處 跳舞對心臟有好處嗎？"
+          "tc": "你比較喜歡看別人跳舞，還是自己跳舞？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you "
+            },
+            {
+              "type": "word",
+              "text": "prefer",
+              "targetId": "word-prefer",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-024-01"
+            },
+            {
+              "type": "text",
+              "text": " watching people dance or dancing?"
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
         {
-          "english": "dance",
-          "kk": "/dance/",
-          "partOfSpeech": "n.",
-          "meaning": "舞蹈",
-          "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "What type of dance is your favorite?",
+          "tc": "你最喜歡哪一種舞蹈？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What type of dance is your favorite?"
+            }
+          ]
         },
         {
-          "english": "dancing",
-          "kk": "/dancing/",
-          "partOfSpeech": "v.",
-          "meaning": "跳舞",
-          "note": "看到 dancing 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "In my opinion, the happiest cultures are the ones with rich dance cultures, where people are dancing, people are smiling; where people are dancing, people are connecting.",
+          "tc": "在我看來，最快樂的文化，是那些有豐富舞蹈文化的文化；在人們跳舞的地方，人們在微笑；在人們跳舞的地方，人們在連結彼此。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "In my opinion",
+              "targetId": "phrase-in-my-opinion",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-026-01"
+            },
+            {
+              "type": "text",
+              "text": ", the happiest "
+            },
+            {
+              "type": "word",
+              "text": "cultures",
+              "targetId": "word-culture",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-026-02"
+            },
+            {
+              "type": "text",
+              "text": " are the "
+            },
+            {
+              "type": "usage",
+              "text": "ones",
+              "targetId": "usage-rich-item",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-026-03"
+            },
+            {
+              "type": "text",
+              "text": " with "
+            },
+            {
+              "type": "usage",
+              "text": "rich",
+              "targetId": "usage-rich-item",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-026-04"
+            },
+            {
+              "type": "text",
+              "text": " dance "
+            },
+            {
+              "type": "word",
+              "text": "cultures",
+              "targetId": "word-culture",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-026-05"
+            },
+            {
+              "type": "text",
+              "text": ", where people are dancing, people are smiling; where people are dancing, people are "
+            },
+            {
+              "type": "word",
+              "text": "connecting",
+              "targetId": "word-connect",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-026-06"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "english": "people",
-          "kk": "/people/",
-          "partOfSpeech": "n.",
-          "meaning": "人們",
-          "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "Dancing is good for the soul.",
+          "tc": "跳舞對靈魂有益。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Dancing is "
+            },
+            {
+              "type": "phrase",
+              "text": "good for the soul",
+              "targetId": "phrase-good-for-the-soul",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-027-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Dancing is good for the heart.",
+          "tc": "跳舞對心有益。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Dancing is "
+            },
+            {
+              "type": "phrase",
+              "text": "good for the heart",
+              "targetId": "phrase-good-for-the-heart",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-028-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "What is something that makes you feel so good?",
+          "tc": "什麼事情會讓你覺得非常好？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What is something that "
+            },
+            {
+              "type": "usage",
+              "text": "makes",
+              "targetId": "usage-make-make",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-029-01"
+            },
+            {
+              "type": "text",
+              "text": " you feel so good?"
+            }
+          ]
+        },
+        {
+          "en": "Why does it make you feel so good?",
+          "tc": "為什麼它會讓你覺得非常好？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Why does it "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-make",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-030-01"
+            },
+            {
+              "type": "text",
+              "text": " you feel so good?"
+            }
+          ]
+        },
+        {
+          "en": "The last goal of mine is to speak Chinese.",
+          "tc": "我最後一個目標是說中文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The last "
+            },
+            {
+              "type": "word",
+              "text": "goal",
+              "targetId": "word-goal",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-031-01"
+            },
+            {
+              "type": "text",
+              "text": " of mine is to speak Chinese."
+            }
+          ]
+        },
+        {
+          "en": "I want to speak Chinese fluently.",
+          "tc": "我想流利地說中文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I want to speak Chinese "
+            },
+            {
+              "type": "word",
+              "text": "fluently",
+              "targetId": "word-fluently",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-032-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
+        {
+          "en": "I want to travel to China and Taiwan and speak Chinese.",
+          "tc": "我想去中國和台灣旅行並說中文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I want to travel to China and Taiwan and speak Chinese."
+            }
+          ]
+        },
+        {
+          "en": "What is a language you want to learn?",
+          "tc": "你想學哪一種語言？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What is a language you want to learn?"
+            }
+          ]
+        },
+        {
+          "en": "Where do you want to go to speak that language?",
+          "tc": "你想去哪裡說那種語言？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Where do you want to go to speak that language?"
+            }
+          ]
+        },
+        {
+          "en": "Thank you for listening to my slow English podcast.",
+          "tc": "謝謝你收聽我的慢速英語播客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you for listening to my slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-036-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "Remember to subscribe, like, and follow.",
+          "tc": "記得訂閱、按讚和追蹤。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Remember to "
+            },
+            {
+              "type": "word",
+              "text": "subscribe",
+              "targetId": "word-subscribe",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-037-01"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "usage",
+              "text": "like",
+              "targetId": "usage-follow-item",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-037-02"
+            },
+            {
+              "type": "text",
+              "text": ", and "
+            },
+            {
+              "type": "usage",
+              "text": "follow",
+              "targetId": "usage-follow-item",
+              "instanceId": "marker-a1-ch7-slow-english-podcast-for-beginners-talking-about-goals-037-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "See you next time.",
+          "tc": "下次見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "See you next time."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -302,153 +1054,495 @@
       "title": "A1 重點單字",
       "items": [
         {
-          "english": "dance",
-          "kk": "/dance/",
-          "partOfSpeech": "n.",
-          "meaning": "舞蹈",
-          "note": "看到 dance 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "[ˈpɑdˌkæst]",
+          "partOfSpeech": "noun",
+          "meaning": "播客、網路音頻節目",
           "highlight": true
         },
         {
-          "english": "want",
-          "kk": "/want/",
-          "partOfSpeech": "v.",
-          "meaning": "想",
-          "note": "看到 want 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-beginner",
+          "lemma": "beginner",
+          "english": "beginners",
+          "kk": "[bɪˈgɪnɚ]",
+          "partOfSpeech": "noun",
+          "meaning": "初學者",
           "highlight": true
         },
         {
-          "english": "dancing",
-          "kk": "/dancing/",
-          "partOfSpeech": "v.",
-          "meaning": "跳舞",
-          "note": "看到 dancing 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-level",
+          "lemma": "level",
+          "english": "levels",
+          "kk": "[ˈlɛvəl]",
+          "partOfSpeech": "noun",
+          "meaning": "程度、級別",
           "highlight": true
         },
         {
-          "english": "goals",
-          "kk": "/goals/",
-          "partOfSpeech": "n.",
+          "id": "word-goal",
+          "lemma": "goal",
+          "english": "goals / goal",
+          "kk": "[goʊl]",
+          "partOfSpeech": "noun",
           "meaning": "目標",
-          "note": "看到 goals 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
-          "english": "people",
-          "kk": "/people/",
-          "partOfSpeech": "n.",
-          "meaning": "人們",
-          "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-future",
+          "lemma": "future",
+          "english": "future",
+          "kk": "[ˈfjutʃɚ]",
+          "partOfSpeech": "noun",
+          "meaning": "未來",
+          "highlight": true
         },
         {
-          "english": "beautiful",
-          "kk": "/beautiful/",
-          "partOfSpeech": "adj.",
-          "meaning": "美麗的",
-          "note": "看到 beautiful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-short-term",
+          "lemma": "short-term",
+          "english": "short-term",
+          "kk": "[ˈʃɔrtˌtɝm]",
+          "partOfSpeech": "adjective",
+          "meaning": "短期的",
+          "highlight": true
         },
         {
+          "id": "word-long-term",
+          "lemma": "long-term",
+          "english": "long-term",
+          "kk": "[ˈlɔŋˌtɝm]",
+          "partOfSpeech": "adjective",
+          "meaning": "長期的",
+          "highlight": true
+        },
+        {
+          "id": "word-divemaster",
+          "lemma": "divemaster",
+          "english": "Divemaster",
+          "kk": "[ˈdaɪvˌmæstɚ]",
+          "partOfSpeech": "noun",
+          "meaning": "潛水長、潛水專業等級",
+          "highlight": true
+        },
+        {
+          "id": "word-certification",
+          "lemma": "certification",
+          "english": "certification",
+          "kk": "[ˌsɝtəfəˈkeʃən]",
+          "partOfSpeech": "noun",
+          "meaning": "證照、認證",
+          "highlight": true
+        },
+        {
+          "id": "word-certificate",
+          "lemma": "certificate",
           "english": "certificate",
-          "kk": "/certificate/",
-          "partOfSpeech": "n.",
-          "meaning": "證書",
-          "note": "看到 certificate 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "kk": "[sɚˈtɪfɪkət]",
+          "partOfSpeech": "noun",
+          "meaning": "證書、證照",
+          "highlight": true
         },
         {
-          "english": "diving",
-          "kk": "/diving/",
-          "partOfSpeech": "v.",
-          "meaning": "潛水",
-          "note": "看到 diving 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-coral",
+          "lemma": "coral",
+          "english": "corals",
+          "kk": "[ˈkɔrəl]",
+          "partOfSpeech": "noun",
+          "meaning": "珊瑚",
+          "highlight": true
+        },
+        {
+          "id": "word-marine",
+          "lemma": "marine",
+          "english": "marine",
+          "kk": "[məˈrin]",
+          "partOfSpeech": "adjective",
+          "meaning": "海洋的",
+          "highlight": true
+        },
+        {
+          "id": "word-species",
+          "lemma": "species",
+          "english": "species",
+          "kk": "[ˈspiʃiz]",
+          "partOfSpeech": "noun",
+          "meaning": "物種",
+          "highlight": true
+        },
+        {
+          "id": "word-protect",
+          "lemma": "protect",
+          "english": "protect",
+          "kk": "[prəˈtɛkt]",
+          "partOfSpeech": "verb",
+          "meaning": "保護",
+          "highlight": true
+        },
+        {
+          "id": "word-precious",
+          "lemma": "precious",
+          "english": "precious",
+          "kk": "[ˈprɛʃəs]",
+          "partOfSpeech": "adjective",
+          "meaning": "珍貴的",
+          "highlight": true
+        },
+        {
+          "id": "word-joy",
+          "lemma": "joy",
+          "english": "joy",
+          "kk": "[dʒɔɪ]",
+          "partOfSpeech": "noun",
+          "meaning": "快樂",
+          "highlight": true
+        },
+        {
+          "id": "word-worry",
+          "lemma": "worry",
+          "english": "worries",
+          "kk": "[ˈwɝiz]",
+          "partOfSpeech": "noun",
+          "meaning": "煩惱、擔心的事",
+          "highlight": true
+        },
+        {
+          "id": "word-style",
+          "lemma": "style",
+          "english": "styles",
+          "kk": "[staɪlz]",
+          "partOfSpeech": "noun",
+          "meaning": "風格、類型",
+          "highlight": true
+        },
+        {
+          "id": "word-prefer",
+          "lemma": "prefer",
+          "english": "prefer",
+          "kk": "[prɪˈfɝ]",
+          "partOfSpeech": "verb",
+          "meaning": "比較喜歡",
+          "highlight": true
+        },
+        {
+          "id": "word-culture",
+          "lemma": "culture",
+          "english": "cultures",
+          "kk": "[ˈkʌltʃɚz]",
+          "partOfSpeech": "noun",
+          "meaning": "文化",
+          "highlight": true
+        },
+        {
+          "id": "word-connect",
+          "lemma": "connect",
+          "english": "connecting",
+          "kk": "[kəˈnɛktɪŋ]",
+          "partOfSpeech": "verb",
+          "meaning": "建立連結、互相連結",
+          "highlight": true
+        },
+        {
+          "id": "word-fluently",
+          "lemma": "fluently",
+          "english": "fluently",
+          "kk": "[ˈfluəntli]",
+          "partOfSpeech": "adverb",
+          "meaning": "流利地",
+          "highlight": true
+        },
+        {
+          "id": "word-subscribe",
+          "lemma": "subscribe",
+          "english": "subscribe",
+          "kk": "[səbˈskraɪb]",
+          "partOfSpeech": "verb",
+          "meaning": "訂閱",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
-      "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "id": "phrase-would-like-to",
+      "phrase": "would like to",
+      "meaning": "禮貌或溫和地說想要做某事",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "This year, I __would like to__ get my **Divemaster** **certification**, my **certificate** in __scuba diving__.",
+          "tc": "禮貌或溫和地說想要做某事"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "do you like",
-      "meaning": "你喜歡...嗎",
+      "id": "phrase-scuba-diving",
+      "phrase": "scuba diving",
+      "meaning": "使用水肺裝備潛水",
       "examples": [
         {
-          "en": "Do you like dancing?",
-          "tc": "你喜歡跳舞嗎？"
+          "en": "I love __scuba diving__.",
+          "tc": "使用水肺裝備潛水"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-working-on",
+      "phrase": "working on",
+      "meaning": "正在努力做、處理或達成",
       "examples": [
         {
-          "en": "Today I want to talk about my goals.",
-          "tc": "今天我想談談我的目標。"
+          "en": "What is a **goal** that you are __working on__?",
+          "tc": "正在努力做、處理或達成"
         }
+      ]
+    },
+    {
+      "id": "phrase-all-around-the-world",
+      "phrase": "all around the world",
+      "meaning": "世界各地",
+      "examples": [
+        {
+          "en": "Another **goal** of mine is that I want to dance __all around the world__.",
+          "tc": "世界各地"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-away",
+      "phrase": "go away",
+      "meaning": "消失、不見",
+      "examples": [
+        {
+          "en": "When I dance, all my **worries** __go away__.",
+          "tc": "消失、不見"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-my-opinion",
+      "phrase": "in my opinion",
+      "meaning": "用來提出自己的看法",
+      "examples": [
+        {
+          "en": "__In my opinion__, the happiest **cultures** are the 《ones》 with 《rich》 dance **cultures**, where people are dancing, people are smiling; where people are dancing, people are **connecting**.",
+          "tc": "用來提出自己的看法"
+        }
+      ]
+    },
+    {
+      "id": "phrase-good-for-the-soul",
+      "phrase": "good for the soul",
+      "meaning": "對內心或精神有好處",
+      "examples": [
+        {
+          "en": "Dancing is __good for the soul__.",
+          "tc": "對內心或精神有好處"
+        }
+      ]
+    },
+    {
+      "id": "phrase-good-for-the-heart",
+      "phrase": "good for the heart",
+      "meaning": "對心情或內心有好處",
+      "examples": [
+        {
+          "en": "Dancing is __good for the heart__.",
+          "tc": "對心情或內心有好處"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-bring-bring",
+      "word": "bring",
+      "familiarMeaning": "帶來、拿來",
+      "usage": "bring + 人 + 抽象名詞，表示「讓某人感受到某種情緒」",
+      "translation": "帶給我很多快樂",
+      "examples": [
+        "Dancing 《brings》 me so much **joy**."
+      ]
+    },
+    {
+      "id": "usage-take-take-class-lesson",
+      "word": "take",
+      "familiarMeaning": "拿、帶走",
+      "usage": "take + class/lesson 表示「上課、修課」",
+      "translation": "上舞蹈課",
+      "examples": [
+        "I want to 《take》 dance classes and learn different dance **styles**."
+      ]
+    },
+    {
+      "id": "usage-one-ones-cultures",
+      "word": "one/ones",
+      "familiarMeaning": "數字一",
+      "usage": "代替前面提過的複數名詞，避免重複說 cultures",
+      "translation": "那些文化",
+      "examples": [
+        "__In my opinion__, the happiest **cultures** are the 《ones》 with 《rich》 dance **cultures**, where people are dancing, people are smiling; where people are dancing, people are **connecting**."
+      ]
+    },
+    {
+      "id": "usage-rich-item",
+      "word": "rich",
+      "familiarMeaning": "有錢的",
+      "usage": "形容文化、內容等很豐富",
+      "translation": "豐富的舞蹈文化",
+      "examples": [
+        "__In my opinion__, the happiest **cultures** are the 《ones》 with 《rich》 dance **cultures**, where people are dancing, people are smiling; where people are dancing, people are **connecting**."
+      ]
+    },
+    {
+      "id": "usage-make-make",
+      "word": "make",
+      "familiarMeaning": "做、製造",
+      "usage": "make + 人 + 形容詞，表示「讓某人覺得……」",
+      "translation": "讓你覺得很好",
+      "examples": [
+        "What is something that 《makes》 you feel so good?"
+      ]
+    },
+    {
+      "id": "usage-like-item",
+      "word": "like",
+      "familiarMeaning": "喜歡",
+      "usage": "在社群平台中表示按讚",
+      "translation": "按讚",
+      "examples": [
+        "Remember to **subscribe**, 《like》, and 《follow》."
+      ]
+    },
+    {
+      "id": "usage-follow-item",
+      "word": "follow",
+      "familiarMeaning": "跟隨",
+      "usage": "在社群平台中表示追蹤帳號",
+      "translation": "追蹤",
+      "examples": [
+        "Remember to **subscribe**, 《like》, and 《follow》."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "This year, I would like to get my Divemaster certification, my certificate in scuba diving.",
+      "translation": "今年，我想取得 Divemaster 證照，也就是我的水肺潛水證照。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "would like to + 原形動詞",
+          "text": "would like to + V",
+          "note": "比 want to 更禮貌、委婉，用來說想做的事。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "This podcast is for English beginners from levels A1 to A2.",
-      "translation": "該podcast適合 A1 至 A2 級別的英語初學者。",
+      "id": "grammar-2",
+      "sentence": "Mexico is one of the best places to do it.",
+      "translation": "墨西哥是最適合做這件事的地方之一。",
       "points": [
         {
-          "label": "everyday English",
-          "text": "everyday English",
-          "note": "注意 \"everyday English\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "one of the + 最高級 + 複數名詞",
+          "text": "one of the best + plural noun",
+          "note": "表示「最……之一」，因為是很多地方中的一個，所以名詞用複數。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "Today I want to talk about my goals.",
-      "translation": "今天我想談談我的目標。",
+      "id": "grammar-3",
+      "sentence": "When I get my diving certificate, I want to visit Thailand.",
+      "translation": "當我拿到潛水證照時，我想去泰國。",
       "points": [
         {
-          "label": "want to",
-          "text": "want to",
-          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "When 引導的未來時間副詞子句",
+          "text": "When + 主詞 + 現在式動詞, 主詞 + want to + V",
+          "note": "談未來情況時，when 子句用現在式，主要子句說之後想做的事。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "I have many goals.",
-      "translation": "我有很多目標。",
+      "id": "grammar-4",
+      "sentence": "What is a goal that you are working on?",
+      "translation": "你正在努力達成的目標是什麼？",
       "points": [
         {
-          "label": "goals",
-          "text": "goals",
-          "note": "注意 \"goals\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句 that + 主詞 + 動詞",
+          "text": "名詞 + that + 主詞 + 動詞片語",
+          "note": "that 子句補充說明是哪一個目標。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "Another goal of mine is that I want to dance all around the world.",
+      "translation": "我的另一個目標是，我想在世界各地跳舞。",
+      "points": [
+        {
+          "label": "that 名詞子句作補語",
+          "text": "主詞 + be + that + 主詞 + 動詞",
+          "note": "that 後面接完整句子，用來說明 goal 的內容。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "Dancing brings me so much joy.",
+      "translation": "跳舞帶給我很多快樂。",
+      "points": [
+        {
+          "label": "動名詞作主詞",
+          "text": "V-ing + 動詞",
+          "note": "把動作 dancing 當成一件事來當句子的主詞。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "Do you prefer watching people dance or dancing?",
+      "translation": "你比較喜歡看別人跳舞，還是自己跳舞？",
+      "points": [
+        {
+          "label": "prefer + V-ing / 感官動詞 + 受詞 + 原形動詞",
+          "text": "prefer + V-ing; watch + 人 + 原形動詞",
+          "note": "prefer 後面常接 V-ing；watch people dance 表示看到人做跳舞這個動作。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "In my opinion, the happiest cultures are the ones with rich dance cultures, where people are dancing, people are smiling; where people are dancing, people are connecting.",
+      "translation": "在我看來，最快樂的文化，是那些有豐富舞蹈文化的文化；在人們跳舞的地方，人們在微笑；在人們跳舞的地方，人們在連結彼此。",
+      "points": [
+        {
+          "label": "where 引導的關係子句",
+          "text": "地點或情境名詞 + where + 主詞 + 動詞",
+          "note": "where 子句補充說明那些文化中的情境。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-9",
+      "sentence": "What is something that makes you feel so good?",
+      "translation": "什麼事情會讓你覺得非常好？",
+      "points": [
+        {
+          "label": "關係子句與使役動詞 make",
+          "text": "something + that + make(s) + 受詞 + 原形動詞/形容詞",
+          "note": "that 子句說明 something；make 後面接人和 feel，表示造成感覺。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-10",
+      "sentence": "Where do you want to go to speak that language?",
+      "translation": "你想去哪裡說那種語言？",
+      "points": [
+        {
+          "label": "不定詞表示目的",
+          "text": "go + to + V",
+          "note": "第二個 to speak 說明去某地的目的。"
         }
       ]
     }

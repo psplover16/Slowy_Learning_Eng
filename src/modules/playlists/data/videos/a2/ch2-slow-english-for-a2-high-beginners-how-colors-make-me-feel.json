@@ -15,502 +15,1348 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello, welcome back to my Slow English podcast.",
+          "tc": "你好，歡迎回到我的 Slow English podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello, welcome back to my Slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-001-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Today I will talk about colors.",
-          "tc": "今天我要談談顏色。"
+          "en": "Today, I will talk about colors.",
+          "tc": "今天我要談談顏色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today, I will talk about colors."
+            }
+          ]
         },
         {
-          "en": "My favorite color is purple reminds me of the sky it reminds me of the sunset and the purple blue orange and red sky it also reminds me of my childhood my.",
-          "tc": "我最喜歡的顏色是紫色，它讓我想起了天空，它讓我想起了日落，紫色、藍色、橙色和紅色的天空，它也讓我想起了我的童年。"
+          "en": "My favorite color is purple.",
+          "tc": "我最喜歡的顏色是紫色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My favorite color is purple."
+            }
+          ]
         },
         {
-          "en": "Childhood bedroom had Tinkerbell bed sheets.",
-          "tc": "童年的臥室裡有小叮噹床單。"
+          "en": "Purple reminds me of the sky.",
+          "tc": "紫色讓我想到天空。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Purple "
+            },
+            {
+              "type": "phrase",
+              "text": "reminds me of",
+              "targetId": "phrase-remind-someone-of-something",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-004-01"
+            },
+            {
+              "type": "text",
+              "text": " the sky."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "color",
-          "kk": "/color/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "colors",
-          "kk": "/colors/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "red",
-          "kk": "/red/",
-          "partOfSpeech": "v.",
-          "meaning": "紅色的",
-          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I had purple Tinker belt bed sheets and green Tinkerbell bed sheets.",
-          "tc": "我有紫色的叮叮帶床單和綠色的叮叮鈴床單。"
+          "en": "It reminds me of the sunset and the purple, blue, orange, and red sky.",
+          "tc": "它讓我想到夕陽，還有紫色、藍色、橘色和紅色的天空。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It "
+            },
+            {
+              "type": "phrase",
+              "text": "reminds me of",
+              "targetId": "phrase-remind-someone-of-something",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-005-01"
+            },
+            {
+              "type": "text",
+              "text": " the sunset and the purple, blue, orange, and red sky."
+            }
+          ]
         },
         {
-          "en": "My favorite bed sheets as a kid I also always had purple clothes when I was younger I only ever wanted purple clothes.",
-          "tc": "我小時候最喜歡的床單我也總是有紫色的衣服當我年輕的時候我只想要紫色的衣服。"
+          "en": "It also reminds me of my childhood.",
+          "tc": "它也讓我想到我的童年。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It also "
+            },
+            {
+              "type": "phrase",
+              "text": "reminds me of",
+              "targetId": "phrase-remind-someone-of-something",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-006-01"
+            },
+            {
+              "type": "text",
+              "text": " my "
+            },
+            {
+              "type": "word",
+              "text": "childhood",
+              "targetId": "word-childhood",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-006-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "What is your favorite color?",
-          "tc": "你最喜歡什麼顏色？"
+          "en": "My childhood bedroom had Tinker Bell bed sheets.",
+          "tc": "我的童年房間有小叮噹床單。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My "
+            },
+            {
+              "type": "word",
+              "text": "childhood",
+              "targetId": "word-childhood",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-007-01"
+            },
+            {
+              "type": "text",
+              "text": " bedroom had Tinker Bell "
+            },
+            {
+              "type": "phrase",
+              "text": "bed sheets",
+              "targetId": "phrase-bed-sheets",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-007-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "What does it remind you of maybe a special memory or a special time now I use a lot of light colored clothes light colors like white yellow orange light green?",
-          "tc": "它讓你想起什麼也許是一個特殊的記憶或一個特殊的時間現在我用了很多淺色的衣服淺色如白色黃色橙色淺綠色？"
+          "en": "I had purple Tinker Bell bed sheets and green Tinker Bell bed sheets, and they were my favorite bed sheets as a kid.",
+          "tc": "我有紫色的小叮噹床單和綠色的小叮噹床單，那些是我小時候最喜歡的床單。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I had purple Tinker Bell "
+            },
+            {
+              "type": "phrase",
+              "text": "bed sheets",
+              "targetId": "phrase-bed-sheets",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-008-01"
+            },
+            {
+              "type": "text",
+              "text": " and green Tinker Bell "
+            },
+            {
+              "type": "phrase",
+              "text": "bed sheets",
+              "targetId": "phrase-bed-sheets",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-008-02"
+            },
+            {
+              "type": "text",
+              "text": ", and they were my favorite "
+            },
+            {
+              "type": "phrase",
+              "text": "bed sheets",
+              "targetId": "phrase-bed-sheets",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-008-03"
+            },
+            {
+              "type": "text",
+              "text": " as a kid."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "color",
-          "kk": "/color/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "colors",
-          "kk": "/colors/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "green",
-          "kk": "/green/",
-          "partOfSpeech": "n.",
-          "meaning": "綠色的",
-          "note": "看到 green 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I think my skin tone suits lighter colors what colors suit you best every color makes me feel different every color has a different vibe.",
-          "tc": "我認為我的膚色適合淺色，什麼顏色最適合你，每種顏色讓我感覺不同，每種顏色都有不同的氛圍。"
+          "en": "I also always had purple clothes.",
+          "tc": "我也總是有紫色的衣服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also always had purple clothes."
+            }
+          ]
         },
         {
-          "en": "I'm wearing light clothing.",
-          "tc": "我穿著輕便的衣服。"
+          "en": "When I was younger, I only ever wanted purple clothes.",
+          "tc": "當我比較小的時候，我只想要紫色的衣服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I was younger, I only ever wanted purple clothes."
+            }
+          ]
         },
         {
-          "en": "They make me feel happier.",
-          "tc": "他們讓我感覺更快樂。"
+          "en": "What is your favorite color?",
+          "tc": "你最喜歡的顏色是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What is your favorite color?"
+            }
+          ]
         },
         {
-          "en": "Sometimes less stressed whenever I see someone wearing Red Clothing.",
-          "tc": "有時，每當我看到有人穿著紅色衣服時，我的壓力就會減輕。"
+          "en": "What does it remind you of?",
+          "tc": "它讓你想到什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What does it "
+            },
+            {
+              "type": "phrase",
+              "text": "remind you of",
+              "targetId": "phrase-remind-someone-of-something",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-012-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "color",
-          "kk": "/color/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "colors",
-          "kk": "/colors/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "red",
-          "kk": "/red/",
-          "partOfSpeech": "v.",
-          "meaning": "紅色的",
-          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I think to myself wow.",
-          "tc": "我心裡想哇。"
+          "en": "Maybe a special memory or a special time?",
+          "tc": "也許是一段特別的回憶，或是一段特別的時光？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Maybe a special memory or a special time?"
+            }
+          ]
         },
         {
-          "en": "He is very confident.",
-          "tc": "他非常有信心。"
+          "en": "Now, I wear a lot of light-colored clothes, light colors like white, yellow, orange, and light green.",
+          "tc": "現在，我穿很多淺色衣服，像白色、黃色、橘色和淺綠色這樣的淺色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, I wear a lot of "
+            },
+            {
+              "type": "phrase",
+              "text": "light-colored",
+              "targetId": "phrase-light-colored",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-014-01"
+            },
+            {
+              "type": "text",
+              "text": " clothes, light colors like white, yellow, orange, and light green."
+            }
+          ]
         },
         {
-          "en": "I think the color red is a very confident color.",
-          "tc": "我認為紅色是一種非常自信的顏色。"
+          "en": "I think my skin tone suits lighter colors.",
+          "tc": "我覺得我的膚色適合比較淺的顏色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think my "
+            },
+            {
+              "type": "phrase",
+              "text": "skin tone",
+              "targetId": "phrase-skin-tone",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-015-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "usage",
+              "text": "suits",
+              "targetId": "usage-suit-item",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-015-02"
+            },
+            {
+              "type": "text",
+              "text": " lighter colors."
+            }
+          ]
         },
         {
-          "en": "It is about the color red that is so intense and Powerful it makes any person who wears it stand out.",
-          "tc": "紅色是如此強烈和強大，讓任何穿著它的人脫穎而出。"
+          "en": "What colors suit you best?",
+          "tc": "什麼顏色最適合你？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What colors "
+            },
+            {
+              "type": "usage",
+              "text": "suit",
+              "targetId": "usage-suit-item",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-016-01"
+            },
+            {
+              "type": "text",
+              "text": " you best?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "color",
-          "kk": "/color/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "red",
-          "kk": "/red/",
-          "partOfSpeech": "v.",
-          "meaning": "紅色的",
-          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "They stand out in a crowd.",
-          "tc": "他們在人群中脫穎而出。"
+          "en": "Every color makes me feel different.",
+          "tc": "每一種顏色都讓我有不同的感受。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every color makes me feel different."
+            }
+          ]
         },
         {
-          "en": "They just seem interesting.",
-          "tc": "他們只是看起來很有趣。"
+          "en": "Every color has a different vibe.",
+          "tc": "每一種顏色都有不同的氛圍。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every color has a different "
+            },
+            {
+              "type": "word",
+              "text": "vibe",
+              "targetId": "word-vibe",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-018-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I like to wear red.",
-          "tc": "我喜歡穿紅色。"
+          "en": "That's why I feel my best when I'm wearing light clothing.",
+          "tc": "所以我穿淺色衣服時感覺最好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's why I "
+            },
+            {
+              "type": "phrase",
+              "text": "feel my best",
+              "targetId": "phrase-feel-my-best",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-019-01"
+            },
+            {
+              "type": "text",
+              "text": " when I'm wearing light clothing."
+            }
+          ]
         },
         {
-          "en": "I want to seem interesting to what's a color you think stands out something that draws the eye in but I couldn't bear to live with red walls around me.",
-          "tc": "我想讓你覺得什麼顏色很有趣，什麼顏色很引人注目，但我無法忍受周圍都是紅牆。"
+          "en": "It makes me feel happier and sometimes less stressed.",
+          "tc": "它讓我覺得更快樂，有時也比較不緊張。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It makes me feel happier and sometimes less "
+            },
+            {
+              "type": "word",
+              "text": "stressed",
+              "targetId": "word-stressed",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-020-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "color",
-          "kk": "/color/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "red",
-          "kk": "/red/",
-          "partOfSpeech": "v.",
-          "meaning": "紅色的",
-          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "I think it would make me feel overwhelmed and stressed.",
-          "tc": "我想這會讓我感到不知所措和壓力。"
+          "en": "Whenever I see someone wearing red clothing, I think to myself, 'Wow, she or he is very confident,' because I think the color red is a very confident color.",
+          "tc": "每當我看到有人穿紅色衣服，我會在心裡想：「哇，她或他非常有自信。」因為我覺得紅色是一種很有自信的顏色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Whenever I see someone wearing red clothing, I "
+            },
+            {
+              "type": "phrase",
+              "text": "think to myself",
+              "targetId": "phrase-think-to-myself",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-021-01"
+            },
+            {
+              "type": "text",
+              "text": ", 'Wow, she or he is very "
+            },
+            {
+              "type": "word",
+              "text": "confident",
+              "targetId": "word-confident",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-021-02"
+            },
+            {
+              "type": "text",
+              "text": ",' because I think the color red is a very "
+            },
+            {
+              "type": "word",
+              "text": "confident",
+              "targetId": "word-confident",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-021-03"
+            },
+            {
+              "type": "text",
+              "text": " color."
+            }
+          ]
         },
         {
-          "en": "It is too much red blue however is a calming color blue walls around me make me feel peaceful and calm.",
-          "tc": "雖然紅藍色太多了，但我周圍的藍色牆壁是一種平靜的顏色，讓我感到平靜和平靜。"
+          "en": "I don't know what it is about the color red that is so intense and powerful.",
+          "tc": "我不知道紅色到底有什麼地方這麼強烈又有力量。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know what it is about the color red that is so "
+            },
+            {
+              "type": "word",
+              "text": "intense",
+              "targetId": "word-intense",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-022-01"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "powerful",
+              "targetId": "word-powerful",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-022-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Do you agree or disagree?",
-          "tc": "你同意還是不同意？"
+          "en": "It makes any person who wears it stand out.",
+          "tc": "它會讓任何穿著紅色的人變得很顯眼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It makes any person who wears it "
+            },
+            {
+              "type": "phrase",
+              "text": "stand out",
+              "targetId": "phrase-stand-out",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-023-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "If you disagree.",
-          "tc": "如果你不同意。"
+          "en": "They stand out in a crowd, and they just seem interesting.",
+          "tc": "他們在人群中很突出，而且看起來就是很有趣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They "
+            },
+            {
+              "type": "phrase",
+              "text": "stand out",
+              "targetId": "phrase-stand-out",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-024-01"
+            },
+            {
+              "type": "text",
+              "text": " in a "
+            },
+            {
+              "type": "word",
+              "text": "crowd",
+              "targetId": "word-crowd",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-024-02"
+            },
+            {
+              "type": "text",
+              "text": ", and they just seem interesting."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "color",
-          "kk": "/color/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "red",
-          "kk": "/red/",
-          "partOfSpeech": "v.",
-          "meaning": "紅色的",
-          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：工作與學習",
-      "titleEn": "Part 7: work",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "What do you think is a calming color I personally love the combination of purple with orange it reminds me of the sunset those two colors work together so well?",
-          "tc": "你認為什麼是一種平靜的顏色？我個人喜歡紫色和橙色的組合，它讓我想起日落，這兩種顏色搭配得很好？"
+          "en": "That's why I like to wear red, because I want to seem interesting, too.",
+          "tc": "所以我喜歡穿紅色，因為我也想看起來很有趣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's why I like to wear red, because I want to seem interesting, too."
+            }
+          ]
         },
         {
-          "en": "What are two colors you think work together very well?",
-          "tc": "你認為哪兩種顏色搭配得很好？"
+          "en": "What's a color you think stands out?",
+          "tc": "你覺得什麼顏色會很顯眼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What's a color you think "
+            },
+            {
+              "type": "phrase",
+              "text": "stands out",
+              "targetId": "phrase-stand-out",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-026-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         },
         {
-          "en": "I have always Associated the color green with trees grass and beautiful landscapes like mountains rainforests Farms.",
-          "tc": "我一直將綠色與樹木、草地和美麗的風景（如山脈、雨林、農場）連結在一起。"
+          "en": "Something that draws the eye in?",
+          "tc": "會吸引目光的那種？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Something that "
+            },
+            {
+              "type": "phrase",
+              "text": "draws the eye in",
+              "targetId": "phrase-draw-the-eye-in",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-027-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         },
         {
-          "en": "I love seeing huge Landscapes like Farms.",
-          "tc": "我喜歡看到像農場這樣的巨大景觀。"
+          "en": "But I couldn't bear to live with red walls around me.",
+          "tc": "但是我無法忍受住在四周都是紅牆的地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I couldn't "
+            },
+            {
+              "type": "phrase",
+              "text": "bear to",
+              "targetId": "phrase-bear-to",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-028-01"
+            },
+            {
+              "type": "text",
+              "text": " live with red walls around me."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "color",
-          "kk": "/color/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "colors",
-          "kk": "/colors/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "green",
-          "kk": "/green/",
-          "partOfSpeech": "n.",
-          "meaning": "綠色的",
-          "note": "看到 green 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "I like Farms because my grandpa has a farm.",
-          "tc": "我喜歡農場，因為我的爺爺有個農場。"
+          "en": "I think it would make me feel overwhelmed and stressed.",
+          "tc": "我覺得那會讓我感到不知所措又有壓力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think it would make me feel "
+            },
+            {
+              "type": "word",
+              "text": "overwhelmed",
+              "targetId": "word-overwhelmed",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-029-01"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "stressed",
+              "targetId": "word-stressed",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-029-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "He has a huge Farm in Nebraska.",
-          "tc": "他在內布拉斯加州擁有一個巨大的農場。"
+          "en": "It is too much red.",
+          "tc": "紅色太多了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is too much red."
+            }
+          ]
         },
         {
-          "en": "It is green as far as the eye can see no matter where you turn you will see green and more green and more green as far as the eye can see.",
-          "tc": "目之所及都是綠色的，無論你轉向哪裡，你都會看到綠色，而且越綠越綠。"
+          "en": "Blue, however, is a calming color.",
+          "tc": "然而，藍色是一種讓人平靜的顏色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Blue, however, is a "
+            },
+            {
+              "type": "word",
+              "text": "calming",
+              "targetId": "word-calming",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-031-01"
+            },
+            {
+              "type": "text",
+              "text": " color."
+            }
+          ]
         },
         {
-          "en": "Do you associate the color green with anything?",
-          "tc": "你會將綠色與任何事物連結嗎？"
+          "en": "Blue walls around me make me feel peaceful and calm.",
+          "tc": "周圍的藍色牆壁讓我覺得安寧又平靜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Blue walls around me make me feel "
+            },
+            {
+              "type": "word",
+              "text": "peaceful",
+              "targetId": "word-peaceful",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-032-01"
+            },
+            {
+              "type": "text",
+              "text": " and calm."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "color",
-          "kk": "/color/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "green",
-          "kk": "/green/",
-          "partOfSpeech": "n.",
-          "meaning": "綠色的",
-          "note": "看到 green 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "see",
-          "kk": "/see/",
-          "partOfSpeech": "n.",
-          "meaning": "看",
-          "note": "看到 see 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "What does the color green remind you of I can't imagine my life without colors?",
-          "tc": "綠色讓你想起什麼？我無法想像沒有顏色的生活？"
+          "en": "Do you agree or disagree?",
+          "tc": "你同意還是不同意？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you agree or disagree?"
+            }
+          ]
         },
         {
-          "en": "I need colors in my life a place I could never live in is England I could not live in England.",
-          "tc": "我的生活需要色彩，一個我永遠無法居住的地方是英格蘭，我無法住在英格蘭。"
+          "en": "If you disagree, what do you think is a calming color?",
+          "tc": "如果你不同意，你覺得什麼顏色是讓人平靜的顏色？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you disagree, what do you think is a "
+            },
+            {
+              "type": "word",
+              "text": "calming",
+              "targetId": "word-calming",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-034-01"
+            },
+            {
+              "type": "text",
+              "text": " color?"
+            }
+          ]
         },
         {
-          "en": "It is too gray it feels colorless.",
-          "tc": "太灰了，感覺無色。"
+          "en": "I personally love the combination of purple with orange.",
+          "tc": "我個人很喜歡紫色和橘色的組合。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "personally",
+              "targetId": "word-personally",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-035-01"
+            },
+            {
+              "type": "text",
+              "text": " love the "
+            },
+            {
+              "type": "word",
+              "text": "combination",
+              "targetId": "word-combination",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-035-02"
+            },
+            {
+              "type": "text",
+              "text": " of purple with orange."
+            }
+          ]
         },
         {
-          "en": "I need the sun.",
-          "tc": "我需要陽光。"
+          "en": "It reminds me of the sunset.",
+          "tc": "它讓我想到夕陽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It "
+            },
+            {
+              "type": "phrase",
+              "text": "reminds me of",
+              "targetId": "phrase-remind-someone-of-something",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-036-01"
+            },
+            {
+              "type": "text",
+              "text": " the sunset."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "color",
-          "kk": "/color/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "colors",
-          "kk": "/colors/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "green",
-          "kk": "/green/",
-          "partOfSpeech": "n.",
-          "meaning": "綠色的",
-          "note": "看到 green 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "I need that glowing and bright Sun when I was in England.",
-          "tc": "當我在英國的時候，我需要那燦爛的陽光。"
+          "en": "Those two colors work together so well.",
+          "tc": "那兩種顏色搭配得非常好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Those two colors "
+            },
+            {
+              "type": "phrase",
+              "text": "work together",
+              "targetId": "phrase-work-together",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-037-01"
+            },
+            {
+              "type": "text",
+              "text": " so well."
+            }
+          ]
         },
         {
-          "en": "I used to get so sad and I was so tired all the time.",
-          "tc": "我曾經很傷心，也一直很累。"
+          "en": "What are two colors you think work together very, very well?",
+          "tc": "你覺得哪兩種顏色搭配得非常、非常好？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What are two colors you think "
+            },
+            {
+              "type": "phrase",
+              "text": "work together",
+              "targetId": "phrase-work-together",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-038-01"
+            },
+            {
+              "type": "text",
+              "text": " very, very well?"
+            }
+          ]
         },
         {
-          "en": "I needed the Sun how important is color to you could you live in a country that was very gray all the time.",
-          "tc": "我需要太陽，如果你生活在一個一直都是灰色的國家，顏色對你來說有多重要。"
+          "en": "I have always associated the color green with trees, grass, and beautiful landscapes.",
+          "tc": "我一直把綠色和樹、草，以及美麗的風景聯想在一起。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have always "
+            },
+            {
+              "type": "phrase",
+              "text": "associated the color green with",
+              "targetId": "phrase-associate-something-with-something",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-039-01"
+            },
+            {
+              "type": "text",
+              "text": " trees, grass, and beautiful "
+            },
+            {
+              "type": "word",
+              "text": "landscapes",
+              "targetId": "word-landscape",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-039-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Tell me about it in the comments practice saying your answers out loud and writing them for me to see your improvement I'll see you in the comments bye.",
-          "tc": "在評論練習中告訴我，大聲說出你的答案並寫下來讓我看看你的進步，我們會在評論中見到你，再見。"
+          "en": "Landscapes like mountains, rainforests, and farms.",
+          "tc": "像山、雨林和農場那樣的風景。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Landscapes",
+              "targetId": "word-landscape",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-040-01"
+            },
+            {
+              "type": "text",
+              "text": " like mountains, "
+            },
+            {
+              "type": "word",
+              "text": "rainforests",
+              "targetId": "word-rainforest",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-040-02"
+            },
+            {
+              "type": "text",
+              "text": ", and farms."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
         {
-          "english": "color",
-          "kk": "/color/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I love seeing huge landscapes like farms.",
+          "tc": "我喜歡看像農場那樣廣大的風景。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love seeing huge "
+            },
+            {
+              "type": "word",
+              "text": "landscapes",
+              "targetId": "word-landscape",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-041-01"
+            },
+            {
+              "type": "text",
+              "text": " like farms."
+            }
+          ]
         },
         {
-          "english": "red",
-          "kk": "/red/",
-          "partOfSpeech": "v.",
-          "meaning": "紅色的",
-          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "I like farms because my grandpa has a farm.",
+          "tc": "我喜歡農場，因為我爺爺有一座農場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like farms because my grandpa has a farm."
+            }
+          ]
         },
         {
-          "english": "see",
-          "kk": "/see/",
-          "partOfSpeech": "n.",
-          "meaning": "看",
-          "note": "看到 see 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "He has a huge farm in Nebraska.",
+          "tc": "他在內布拉斯加有一座很大的農場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He has a huge farm in Nebraska."
+            }
+          ]
+        },
+        {
+          "en": "It is green as far as the eye can see.",
+          "tc": "那裡一路綠到視線所及的地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is green "
+            },
+            {
+              "type": "phrase",
+              "text": "as far as the eye can see",
+              "targetId": "phrase-no-matter-where",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-044-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "No matter where you turn, you will see green and more green and more green as far as the eye can see.",
+          "tc": "不管你轉向哪裡，你都會看到綠色、更多綠色、再更多綠色，一直延伸到視線所及的地方。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "No matter where",
+              "targetId": "phrase-no-matter-where",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-045-01"
+            },
+            {
+              "type": "text",
+              "text": " you turn, you will see green and more green and more green "
+            },
+            {
+              "type": "phrase",
+              "text": "as far as the eye can see",
+              "targetId": "phrase-no-matter-where",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-045-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Do you associate the color green with anything?",
+          "tc": "你會把綠色和任何事物聯想在一起嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you "
+            },
+            {
+              "type": "phrase",
+              "text": "associate the color green with",
+              "targetId": "phrase-associate-something-with-something",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-046-01"
+            },
+            {
+              "type": "text",
+              "text": " anything?"
+            }
+          ]
+        },
+        {
+          "en": "What does the color green remind you of?",
+          "tc": "綠色讓你想到什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What does the color green "
+            },
+            {
+              "type": "phrase",
+              "text": "remind you of",
+              "targetId": "phrase-remind-someone-of-something",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-047-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "I can't imagine my life without colors.",
+          "tc": "我無法想像我的生活沒有顏色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can't "
+            },
+            {
+              "type": "word",
+              "text": "imagine",
+              "targetId": "word-imagine",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-048-01"
+            },
+            {
+              "type": "text",
+              "text": " my life without colors."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "I need colors in my life.",
+          "tc": "我的生活需要顏色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I need colors in my life."
+            }
+          ]
+        },
+        {
+          "en": "A place I could never live in is England.",
+          "tc": "有一個我永遠無法居住的地方是英格蘭。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A place I could never live in is England."
+            }
+          ]
+        },
+        {
+          "en": "I could not live in England because it is too gray.",
+          "tc": "我無法住在英格蘭，因為那裡太灰濛濛了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I could not live in England because it is too "
+            },
+            {
+              "type": "usage",
+              "text": "gray",
+              "targetId": "usage-gray-item",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-051-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "It feels colorless.",
+          "tc": "那裡感覺沒有色彩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It feels "
+            },
+            {
+              "type": "word",
+              "text": "colorless",
+              "targetId": "word-colorless",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-052-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "I need the sun.",
+          "tc": "我需要太陽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I need the sun."
+            }
+          ]
+        },
+        {
+          "en": "I need that glowing and bright sun.",
+          "tc": "我需要那明亮發光的太陽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I need that "
+            },
+            {
+              "type": "word",
+              "text": "glowing",
+              "targetId": "word-glowing",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-054-01"
+            },
+            {
+              "type": "text",
+              "text": " and bright sun."
+            }
+          ]
+        },
+        {
+          "en": "When I was in England, I used to get so sad, and I was so tired all the time.",
+          "tc": "當我在英格蘭時，我以前常常變得很難過，而且我總是很累。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I was in England, I "
+            },
+            {
+              "type": "phrase",
+              "text": "used to",
+              "targetId": "phrase-all-the-time",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-055-01"
+            },
+            {
+              "type": "text",
+              "text": " get so sad, and I was so tired "
+            },
+            {
+              "type": "phrase",
+              "text": "all the time",
+              "targetId": "phrase-all-the-time",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-055-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I needed the sun.",
+          "tc": "我需要太陽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I needed the sun."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "How important is color to you?",
+          "tc": "顏色對你來說有多重要？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How important is color to you?"
+            }
+          ]
+        },
+        {
+          "en": "Could you live in a country that was very gray all the time?",
+          "tc": "你能住在一個總是非常灰濛濛的國家嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Could you live in a country that was very "
+            },
+            {
+              "type": "usage",
+              "text": "gray",
+              "targetId": "usage-gray-item",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-058-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "all the time",
+              "targetId": "phrase-all-the-time",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-058-02"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Tell me about it in the comments.",
+          "tc": "在留言中告訴我。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Tell me about it in the comments."
+            }
+          ]
+        },
+        {
+          "en": "Practice saying your answers out loud and writing them for me to see your improvement.",
+          "tc": "練習大聲說出你的答案，也把它們寫下來，讓我看見你的進步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Practice saying your answers "
+            },
+            {
+              "type": "phrase",
+              "text": "out loud",
+              "targetId": "phrase-out-loud",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-060-01"
+            },
+            {
+              "type": "text",
+              "text": " and writing them for me to see your "
+            },
+            {
+              "type": "word",
+              "text": "improvement",
+              "targetId": "word-improvement",
+              "instanceId": "marker-a2-ch2-slow-english-for-a2-high-beginners-how-colors-make-me-feel-060-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "I'll see you in the comments.",
+          "tc": "我們留言區見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll see you in the comments."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "再見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -518,153 +1364,616 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "color",
-          "kk": "/color/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 color 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "/ˈpɑdˌkæst/",
+          "partOfSpeech": "noun",
+          "meaning": "播客；網路音訊節目",
           "highlight": true
         },
         {
-          "english": "colors",
-          "kk": "/colors/",
-          "partOfSpeech": "n.",
-          "meaning": "顏色",
-          "note": "看到 colors 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-childhood",
+          "lemma": "childhood",
+          "english": "childhood",
+          "kk": "/ˈtʃaɪldˌhʊd/",
+          "partOfSpeech": "noun",
+          "meaning": "童年",
           "highlight": true
         },
         {
-          "english": "green",
-          "kk": "/green/",
-          "partOfSpeech": "n.",
-          "meaning": "綠色的",
-          "note": "看到 green 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-vibe",
+          "lemma": "vibe",
+          "english": "vibe",
+          "kk": "/vaɪb/",
+          "partOfSpeech": "noun",
+          "meaning": "氛圍；感覺",
           "highlight": true
         },
         {
-          "english": "red",
-          "kk": "/red/",
-          "partOfSpeech": "v.",
-          "meaning": "紅色的",
-          "note": "看到 red 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-stressed",
+          "lemma": "stressed",
+          "english": "stressed",
+          "kk": "/strɛst/",
+          "partOfSpeech": "adjective",
+          "meaning": "緊張的；有壓力的",
+          "highlight": true
         },
         {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-confident",
+          "lemma": "confident",
+          "english": "confident",
+          "kk": "/ˈkɑnfədənt/",
+          "partOfSpeech": "adjective",
+          "meaning": "有自信的",
+          "highlight": true
         },
         {
-          "english": "purple",
-          "kk": "/purple/",
-          "partOfSpeech": "n.",
-          "meaning": "紫色的",
-          "note": "看到 purple 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-intense",
+          "lemma": "intense",
+          "english": "intense",
+          "kk": "/ɪnˈtɛns/",
+          "partOfSpeech": "adjective",
+          "meaning": "強烈的",
+          "highlight": true
         },
         {
-          "english": "see",
-          "kk": "/see/",
-          "partOfSpeech": "n.",
-          "meaning": "看",
-          "note": "看到 see 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-powerful",
+          "lemma": "powerful",
+          "english": "powerful",
+          "kk": "/ˈpaʊɚfəl/",
+          "partOfSpeech": "adjective",
+          "meaning": "有力量的",
+          "highlight": true
         },
         {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-crowd",
+          "lemma": "crowd",
+          "english": "crowd",
+          "kk": "/kraʊd/",
+          "partOfSpeech": "noun",
+          "meaning": "人群",
+          "highlight": true
+        },
+        {
+          "id": "word-overwhelmed",
+          "lemma": "overwhelmed",
+          "english": "overwhelmed",
+          "kk": "/ˌoʊvɚˈwɛlmd/",
+          "partOfSpeech": "adjective",
+          "meaning": "不知所措的；被壓垮的",
+          "highlight": true
+        },
+        {
+          "id": "word-calming",
+          "lemma": "calming",
+          "english": "calming",
+          "kk": "/ˈkɑmɪŋ/",
+          "partOfSpeech": "adjective",
+          "meaning": "讓人平靜的",
+          "highlight": true
+        },
+        {
+          "id": "word-peaceful",
+          "lemma": "peaceful",
+          "english": "peaceful",
+          "kk": "/ˈpisfəl/",
+          "partOfSpeech": "adjective",
+          "meaning": "安寧的；平和的",
+          "highlight": true
+        },
+        {
+          "id": "word-personally",
+          "lemma": "personally",
+          "english": "personally",
+          "kk": "/ˈpɝsənəli/",
+          "partOfSpeech": "adverb",
+          "meaning": "就個人而言",
+          "highlight": true
+        },
+        {
+          "id": "word-combination",
+          "lemma": "combination",
+          "english": "combination",
+          "kk": "/ˌkɑmbəˈneʃən/",
+          "partOfSpeech": "noun",
+          "meaning": "組合；搭配",
+          "highlight": true
+        },
+        {
+          "id": "word-associate",
+          "lemma": "associate",
+          "english": "associated / associate",
+          "kk": "/əˈsoʊʃiˌet/",
+          "partOfSpeech": "verb",
+          "meaning": "聯想；把某物和另一物連在一起",
+          "highlight": true
+        },
+        {
+          "id": "word-landscape",
+          "lemma": "landscape",
+          "english": "landscapes",
+          "kk": "/ˈlændˌskep/",
+          "partOfSpeech": "noun",
+          "meaning": "風景；景觀",
+          "highlight": true
+        },
+        {
+          "id": "word-rainforest",
+          "lemma": "rainforest",
+          "english": "rainforests",
+          "kk": "/ˈrenˌfɔrɪst/",
+          "partOfSpeech": "noun",
+          "meaning": "雨林",
+          "highlight": true
+        },
+        {
+          "id": "word-imagine",
+          "lemma": "imagine",
+          "english": "imagine",
+          "kk": "/ɪˈmædʒən/",
+          "partOfSpeech": "verb",
+          "meaning": "想像",
+          "highlight": true
+        },
+        {
+          "id": "word-colorless",
+          "lemma": "colorless",
+          "english": "colorless",
+          "kk": "/ˈkʌlɚləs/",
+          "partOfSpeech": "adjective",
+          "meaning": "沒有色彩的",
+          "highlight": true
+        },
+        {
+          "id": "word-glowing",
+          "lemma": "glowing",
+          "english": "glowing",
+          "kk": "/ˈgloʊɪŋ/",
+          "partOfSpeech": "adjective",
+          "meaning": "發光的",
+          "highlight": true
+        },
+        {
+          "id": "word-improvement",
+          "lemma": "improvement",
+          "english": "improvement",
+          "kk": "/ɪmˈpruvmənt/",
+          "partOfSpeech": "noun",
+          "meaning": "進步；改善",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
-      "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "id": "phrase-remind-someone-of-something",
+      "phrase": "remind someone of something",
+      "meaning": "讓某人想到某事物",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Purple __reminds me of__ the sky.",
+          "tc": "讓某人想到某事物"
+        },
+        {
+          "en": "What does it __remind you of__?",
+          "tc": "讓某人想到某事物"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "what do you",
-      "meaning": "你是什麼",
+      "id": "phrase-bed-sheets",
+      "phrase": "bed sheets",
+      "meaning": "鋪在床上的床單",
       "examples": [
         {
-          "en": "What do you think is a calming color I personally love the combination of purple with orange it reminds me of the sunset those two colors work together so well?",
-          "tc": "你認為什麼是一種平靜的顏色？我個人喜歡紫色和橙色的組合，它讓我想起日落，這兩種顏色搭配得很好？"
+          "en": "My **childhood** bedroom had Tinker Bell __bed sheets__.",
+          "tc": "鋪在床上的床單"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "what does",
-      "meaning": "什麼是",
+      "id": "phrase-light-colored",
+      "phrase": "light-colored",
+      "meaning": "顏色較淡的",
       "examples": [
         {
-          "en": "What does it remind you of maybe a special memory or a special time now I use a lot of light colored clothes light colors like white yellow orange light green?",
-          "tc": "它讓你想起什麼也許是一個特殊的記憶或一個特殊的時間現在我用了很多淺色的衣服淺色如白色黃色橙色淺綠色？"
+          "en": "Now, I wear a lot of __light-colored__ clothes, light colors like white, yellow, orange, and light green.",
+          "tc": "顏色較淡的"
         }
+      ]
+    },
+    {
+      "id": "phrase-skin-tone",
+      "phrase": "skin tone",
+      "meaning": "皮膚的顏色或色調",
+      "examples": [
+        {
+          "en": "I think my __skin tone__ 《suits》 lighter colors.",
+          "tc": "皮膚的顏色或色調"
+        }
+      ]
+    },
+    {
+      "id": "phrase-feel-my-best",
+      "phrase": "feel my best",
+      "meaning": "感覺狀態最好、最舒服",
+      "examples": [
+        {
+          "en": "That's why I __feel my best__ when I'm wearing light clothing.",
+          "tc": "感覺狀態最好、最舒服"
+        }
+      ]
+    },
+    {
+      "id": "phrase-think-to-myself",
+      "phrase": "think to myself",
+      "meaning": "在心裡想，沒有說出口",
+      "examples": [
+        {
+          "en": "Whenever I see someone wearing red clothing, I __think to myself__, 'Wow, she or he is very **confident**,' because I think the color red is a very **confident** color.",
+          "tc": "在心裡想，沒有說出口"
+        }
+      ]
+    },
+    {
+      "id": "phrase-stand-out",
+      "phrase": "stand out",
+      "meaning": "很突出、很顯眼",
+      "examples": [
+        {
+          "en": "It makes any person who wears it __stand out__.",
+          "tc": "很突出、很顯眼"
+        },
+        {
+          "en": "They __stand out__ in a **crowd**, and they just seem interesting.",
+          "tc": "很突出、很顯眼"
+        }
+      ]
+    },
+    {
+      "id": "phrase-draw-the-eye-in",
+      "phrase": "draw the eye in",
+      "meaning": "吸引人的視線",
+      "examples": [
+        {
+          "en": "Something that __draws the eye in__?",
+          "tc": "吸引人的視線"
+        }
+      ]
+    },
+    {
+      "id": "phrase-bear-to",
+      "phrase": "bear to",
+      "meaning": "忍受去做某事，常用於 can't bear to",
+      "examples": [
+        {
+          "en": "But I couldn't __bear to__ live with red walls around me.",
+          "tc": "忍受去做某事，常用於 can't bear to"
+        }
+      ]
+    },
+    {
+      "id": "phrase-work-together",
+      "phrase": "work together",
+      "meaning": "顏色或事物搭配得好",
+      "examples": [
+        {
+          "en": "Those two colors __work together__ so well.",
+          "tc": "顏色或事物搭配得好"
+        },
+        {
+          "en": "What are two colors you think __work together__ very, very well?",
+          "tc": "顏色或事物搭配得好"
+        }
+      ]
+    },
+    {
+      "id": "phrase-associate-something-with-something",
+      "phrase": "associate something with something",
+      "meaning": "把兩個事物在心中連結起來",
+      "examples": [
+        {
+          "en": "I have always __associated the color green with__ trees, grass, and beautiful **landscapes**.",
+          "tc": "把兩個事物在心中連結起來"
+        },
+        {
+          "en": "Do you __associate the color green with__ anything?",
+          "tc": "把兩個事物在心中連結起來"
+        }
+      ]
+    },
+    {
+      "id": "phrase-as-far-as-the-eye-can-see",
+      "phrase": "as far as the eye can see",
+      "meaning": "一直延伸到視線所及之處",
+      "examples": [
+        {
+          "en": "It is green __as far as the eye can see__.",
+          "tc": "一直延伸到視線所及之處"
+        },
+        {
+          "en": "__No matter where__ you turn, you will see green and more green and more green __as far as the eye can see__.",
+          "tc": "一直延伸到視線所及之處"
+        }
+      ]
+    },
+    {
+      "id": "phrase-no-matter-where",
+      "phrase": "no matter where",
+      "meaning": "無論在哪裡或往哪裡",
+      "examples": [
+        {
+          "en": "__No matter where__ you turn, you will see green and more green and more green __as far as the eye can see__.",
+          "tc": "無論在哪裡或往哪裡"
+        }
+      ]
+    },
+    {
+      "id": "phrase-used-to",
+      "phrase": "used to",
+      "meaning": "過去常常做某事，但現在不一定",
+      "examples": [
+        {
+          "en": "When I was in England, I __used to__ get so sad, and I was so tired __all the time__.",
+          "tc": "過去常常做某事，但現在不一定"
+        }
+      ]
+    },
+    {
+      "id": "phrase-all-the-time",
+      "phrase": "all the time",
+      "meaning": "總是；一直",
+      "examples": [
+        {
+          "en": "When I was in England, I __used to__ get so sad, and I was so tired __all the time__.",
+          "tc": "總是；一直"
+        },
+        {
+          "en": "Could you live in a country that was very 《gray》 __all the time__?",
+          "tc": "總是；一直"
+        }
+      ]
+    },
+    {
+      "id": "phrase-out-loud",
+      "phrase": "out loud",
+      "meaning": "發出聲音地說，而不是只在心裡想",
+      "examples": [
+        {
+          "en": "Practice saying your answers __out loud__ and writing them for me to see your **improvement**.",
+          "tc": "發出聲音地說，而不是只在心裡想"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-suit-item",
+      "word": "suit",
+      "familiarMeaning": "西裝；一套衣服",
+      "usage": "當動詞，表示顏色、衣服或風格適合某人",
+      "translation": "適合",
+      "examples": [
+        "I think my __skin tone__ 《suits》 lighter colors.",
+        "What colors 《suit》 you best?"
+      ]
+    },
+    {
+      "id": "usage-gray-item",
+      "word": "gray",
+      "familiarMeaning": "灰色的",
+      "usage": "形容地方或天氣灰濛濛、陰沉、缺少色彩，不只是單純的顏色",
+      "translation": "灰濛濛的；陰沉的",
+      "examples": [
+        "I could not live in England because it is too 《gray》.",
+        "Could you live in a country that was very 《gray》 __all the time__?"
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "What does it remind you of?",
+      "translation": "它讓你想到什麼？",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "疑問句中的介系詞放句尾",
+          "text": "What + does + 主詞 + 動詞 + 受詞 + of?",
+          "note": "of 是 remind someone of something 的一部分，問句中 what 移到句首，of 留在句尾"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Today I will talk about colors.",
-      "translation": "今天我要談談顏色。",
+      "id": "grammar-2",
+      "sentence": "Now, I wear a lot of light-colored clothes, light colors like white, yellow, orange, and light green.",
+      "translation": "現在，我穿很多淺色衣服，像白色、黃色、橘色和淺綠色這樣的淺色。",
       "points": [
         {
-          "label": "talk colors",
-          "text": "talk colors",
-          "note": "注意 \"talk colors\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "同位補充說明",
+          "text": "名詞片語 + comma + 補充說明的名詞片語",
+          "note": "light colors like... 補充解釋前面的 light-colored clothes 包含哪些顏色"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "My favorite color is purple reminds me of the sky it reminds me of the sunset and the purple blue orange and red sky it also reminds me of my childhood my.",
-      "translation": "我最喜歡的顏色是紫色，它讓我想起了天空，它讓我想起了日落，紫色、藍色、橙色和紅色的天空，它也讓我想起了我的童年。",
+      "id": "grammar-3",
+      "sentence": "I think my skin tone suits lighter colors.",
+      "translation": "我覺得我的膚色適合比較淺的顏色。",
       "points": [
         {
-          "label": "favorite color purple",
-          "text": "favorite color purple",
-          "note": "注意 \"favorite color purple\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "think 後接省略 that 的名詞子句",
+          "text": "I think + 主詞 + 動詞",
+          "note": "my skin tone suits lighter colors 是 think 的內容，口語中常省略 that"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "Childhood bedroom had Tinkerbell bed sheets.",
-      "translation": "童年的臥室裡有小叮噹床單。",
+      "id": "grammar-4",
+      "sentence": "Every color makes me feel different.",
+      "translation": "每一種顏色都讓我有不同的感受。",
       "points": [
         {
-          "label": "childhood bedroom tinkerbell",
-          "text": "childhood bedroom tinkerbell",
-          "note": "注意 \"childhood bedroom tinkerbell\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "使役動詞 make + 受詞 + 補語",
+          "text": "make + someone + adjective / verb",
+          "note": "make 後面接受詞 me，再接 feel different，表示造成某種感受"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "That's why I feel my best when I'm wearing light clothing.",
+      "translation": "所以我穿淺色衣服時感覺最好。",
+      "points": [
+        {
+          "label": "That's why... 結果說明句",
+          "text": "That's why + 主詞 + 動詞",
+          "note": "用來說明前面原因造成的結果，意思是「所以這就是為什麼...」"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "Whenever I see someone wearing red clothing, I think to myself, 'Wow, she or he is very confident,' because I think the color red is a very confident color.",
+      "translation": "每當我看到有人穿紅色衣服，我會在心裡想：「哇，她或他非常有自信。」因為我覺得紅色是一種很有自信的顏色。",
+      "points": [
+        {
+          "label": "whenever 時間副詞子句；see + 受詞 + V-ing",
+          "text": "Whenever + 主詞 + 動詞, 主句 / see + someone + V-ing",
+          "note": "whenever 表示「每當」；wearing 補充說明看到某人正在穿的狀態"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "I don't know what it is about the color red that is so intense and powerful.",
+      "translation": "我不知道紅色到底有什麼地方這麼強烈又有力量。",
+      "points": [
+        {
+          "label": "間接問句與強調式結構",
+          "text": "I don't know + what it is about X + that + be + adjective",
+          "note": "用來表達「不知道 X 到底哪一點如此...」，比直接說 X is intense 更強調困惑感"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "It makes any person who wears it stand out.",
+      "translation": "它會讓任何穿著紅色的人變得很顯眼。",
+      "points": [
+        {
+          "label": "關係子句搭配使役 make",
+          "text": "make + 受詞 + 原形動詞；person + who + 動詞",
+          "note": "who wears it 修飾 person，stand out 用原形是因為前面有使役動詞 make"
+        }
+      ]
+    },
+    {
+      "id": "grammar-9",
+      "sentence": "What's a color you think stands out?",
+      "translation": "你覺得什麼顏色會很顯眼？",
+      "points": [
+        {
+          "label": "省略關係代名詞的名詞修飾",
+          "text": "a color + you think + 動詞",
+          "note": "you think stands out 修飾 a color，中間省略了 that，意思是「你認為會突出的顏色」"
+        }
+      ]
+    },
+    {
+      "id": "grammar-10",
+      "sentence": "I think it would make me feel overwhelmed and stressed.",
+      "translation": "我覺得那會讓我感到不知所措又有壓力。",
+      "points": [
+        {
+          "label": "would 表假設結果",
+          "text": "would + 原形動詞",
+          "note": "would 表示想像中的情況，不是在說一定會發生的事"
+        }
+      ]
+    },
+    {
+      "id": "grammar-11",
+      "sentence": "I have always associated the color green with trees, grass, and beautiful landscapes.",
+      "translation": "我一直把綠色和樹、草，以及美麗的風景聯想在一起。",
+      "points": [
+        {
+          "label": "現在完成式搭配 always",
+          "text": "have / has + always + 過去分詞",
+          "note": "表示從過去到現在一直有這種聯想"
+        }
+      ]
+    },
+    {
+      "id": "grammar-12",
+      "sentence": "Landscapes like mountains, rainforests, and farms.",
+      "translation": "像山、雨林和農場那樣的風景。",
+      "points": [
+        {
+          "label": "名詞片語片段",
+          "text": "名詞 + like + examples",
+          "note": "口語字幕中用不完整句補充舉例，like 後面列出 landscapes 的例子"
+        }
+      ]
+    },
+    {
+      "id": "grammar-13",
+      "sentence": "No matter where you turn, you will see green and more green and more green as far as the eye can see.",
+      "translation": "不管你轉向哪裡，你都會看到綠色、更多綠色、再更多綠色，一直延伸到視線所及的地方。",
+      "points": [
+        {
+          "label": "no matter where 讓步副詞子句",
+          "text": "No matter where + 主詞 + 動詞, 主句",
+          "note": "表示「不論往哪裡」，後面的主句說明結果都一樣"
+        }
+      ]
+    },
+    {
+      "id": "grammar-14",
+      "sentence": "A place I could never live in is England.",
+      "translation": "有一個我永遠無法居住的地方是英格蘭。",
+      "points": [
+        {
+          "label": "省略關係代名詞且介系詞留句尾",
+          "text": "A place + 主詞 + could + never + live in + be + 名詞",
+          "note": "I could never live in 修飾 a place，介系詞 in 留在修飾片語最後"
+        }
+      ]
+    },
+    {
+      "id": "grammar-15",
+      "sentence": "When I was in England, I used to get so sad, and I was so tired all the time.",
+      "translation": "當我在英格蘭時，我以前常常變得很難過，而且我總是很累。",
+      "points": [
+        {
+          "label": "used to 表過去習慣或過去狀態",
+          "text": "used to + 原形動詞",
+          "note": "表示以前常常如此，暗示現在情況可能不同"
+        }
+      ]
+    },
+    {
+      "id": "grammar-16",
+      "sentence": "Could you live in a country that was very gray all the time?",
+      "translation": "你能住在一個總是非常灰濛濛的國家嗎？",
+      "points": [
+        {
+          "label": "could 假設問句與關係子句",
+          "text": "Could + 主詞 + 原形動詞 + 名詞 + that + 動詞",
+          "note": "could 用來問想像中的可能性；that was very gray all the time 修飾 country"
+        }
+      ]
+    },
+    {
+      "id": "grammar-17",
+      "sentence": "Practice saying your answers out loud and writing them for me to see your improvement.",
+      "translation": "練習大聲說出你的答案，也把它們寫下來，讓我看見你的進步。",
+      "points": [
+        {
+          "label": "practice + V-ing；for someone to + V",
+          "text": "practice + V-ing and V-ing / for + someone + to + verb",
+          "note": "practice 後接動名詞；for me to see 表示「為了讓我看見」"
         }
       ]
     }

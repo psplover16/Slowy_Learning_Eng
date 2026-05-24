@@ -2,6 +2,7 @@ import { test, expect, type ConsoleMessage } from '@playwright/test'
 
 const readyVideos = [
   { level: 'a1', slug: 'ch1-slow-english-for-beginners-a1-listening-practice' },
+  { level: 'a1', slug: 'ch18-english-listening-practice-for-beginners-my-weekend-a1-a2' },
   { level: 'a2', slug: 'ch1-slow-english-stories-level-a2-listening-a-weird-phone-call' },
   { level: 'b1', slug: 'ch1-slow-english-listening-intermediate-practice-talking-about-my-hobbies' },
   { level: 'b2', slug: 'ch1-slow-english-listening-for-upper-intermediate-talking-about-comfort-foods' },
@@ -47,7 +48,7 @@ test.describe('MissHoney polished content smoke', () => {
   })
 
   for (const { level, slug } of readyVideos) {
-    test(`${level.toUpperCase()} ready video renders polished learning sections`, async ({ page }) => {
+    test(`${level.toUpperCase()} ${slug} ready video renders polished learning sections`, async ({ page }) => {
       await page.goto(`/${level}/${slug}`, { waitUntil: 'networkidle' })
 
       await expect(page.getByTestId('playlist-reading-header')).toBeVisible()
@@ -79,6 +80,26 @@ test.describe('MissHoney polished content smoke', () => {
 
     await page.getByTestId('back-to-word-fab').click()
     await expect(marker).toHaveAttribute('data-last-return-target', 'true')
+    expect(consoleErrorCount).toBe(0)
+  })
+
+  test('A1 refreshed rollout video supports marker jump and grammar quick nav', async ({ page }) => {
+    const slug = 'ch18-english-listening-practice-for-beginners-my-weekend-a1-a2'
+    await page.goto(`/a1/${slug}`, { waitUntil: 'networkidle' })
+
+    await expect(page.locator(`[id="a1-${slug}-section-usages"]`)).toBeVisible()
+    await expect(page.locator(`[id="a1-${slug}-section-breakdown"]`)).toBeVisible()
+    await expect(page.getByTestId(`quick-nav-a1-${slug}-section-breakdown`)).toBeVisible()
+
+    const marker = page.getByTestId('playlist-marker-word').first()
+    await expect(marker).toBeVisible()
+
+    const targetId = await marker.getAttribute('data-target-id')
+    expect(targetId).toBeTruthy()
+
+    const target = page.locator(`[id="${targetId}"]`)
+    await marker.click()
+    await expect(target).toHaveClass(/playlist-learning-item--active/)
     expect(consoleErrorCount).toBe(0)
   })
 

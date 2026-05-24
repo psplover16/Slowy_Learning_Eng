@@ -15,922 +15,2511 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：日常生活",
-      "titleEn": "Opening: everyday life",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "I'm asking you the question.",
-          "tc": "我在問你這個問題。"
+          "en": "Like I'm asking you the [Music].",
+          "tc": "就像我在問你[音樂]。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like I'm asking you the [Music]."
+            }
+          ]
         },
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and welcome back to my Slow English podcast.",
+          "tc": "大家好，歡迎回到我的慢速英文podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-002-01"
+            },
+            {
+              "type": "text",
+              "text": " to my "
+            },
+            {
+              "type": "phrase",
+              "text": "Slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-002-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Today I am making an interview for you to practice listening to questions and answers.",
-          "tc": "今天我給大家做一個採訪，練習聽問題和回答。"
+          "en": "Today I'm making an interview for you to practice listening to questions and answers.",
+          "tc": "今天我為大家做一個採訪，練習聽問題和回答。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today I'm making an "
+            },
+            {
+              "type": "word",
+              "text": "interview",
+              "targetId": "word-interview",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-003-01"
+            },
+            {
+              "type": "text",
+              "text": " for you to "
+            },
+            {
+              "type": "word",
+              "text": "practice",
+              "targetId": "word-practice",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-003-02"
+            },
+            {
+              "type": "text",
+              "text": " listening to questions and answers."
+            }
+          ]
         },
         {
-          "en": "Today we're starting with some intermediate questions, moving on to advanced questions afterwards. Try and follow along as far as you can go.",
-          "tc": "今天我們從一些中級問題開始，然後轉向高階問題。嘗試並儘可能地跟隨。"
+          "en": "Today we're starting with some intermediate questions, moving on to advanced questions afterwards.",
+          "tc": "今天我們從一些中級問題開始，然後轉向高階問題。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today we're starting with some "
+            },
+            {
+              "type": "word",
+              "text": "intermediate",
+              "targetId": "word-intermediate",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-004-01"
+            },
+            {
+              "type": "text",
+              "text": " questions, moving on to "
+            },
+            {
+              "type": "word",
+              "text": "advanced",
+              "targetId": "word-advanced",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-004-02"
+            },
+            {
+              "type": "text",
+              "text": " questions afterwards."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "house",
-          "kk": "/house/",
-          "partOfSpeech": "n.",
-          "meaning": "房子",
-          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "probably",
-          "kk": "/probably/",
-          "partOfSpeech": "adv.",
-          "meaning": "大概",
-          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：工作與學習",
-      "titleEn": "Part 2: work",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "Today I am going to interview my sister, Brianna.",
-          "tc": "今天我要採訪我的妹妹布麗安娜。"
+          "en": "Try and follow along as far as you can go.",
+          "tc": "嘗試並儘可能遵循。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Try and follow along as far as you can go."
+            }
+          ]
         },
         {
-          "en": "First of all, where did you grow up?",
-          "tc": "首先，你在哪裡長大？"
+          "en": "Today I'm going to be interviewing and asking questions to my sister Brianna.",
+          "tc": "今天我要採訪我姊姊布莉安娜並向她提問。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today I'm going to be "
+            },
+            {
+              "type": "word",
+              "text": "interviewing",
+              "targetId": "word-interview",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-006-01"
+            },
+            {
+              "type": "text",
+              "text": " and asking questions to my sister Brianna."
+            }
+          ]
         },
         {
-          "en": "What was your childhood home like?",
-          "tc": "你童年的家是什麼樣的？"
+          "en": "So, first of all, where did you grow up?",
+          "tc": "那麼，首先，你在哪裡長大？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, "
+            },
+            {
+              "type": "phrase",
+              "text": "first of all",
+              "targetId": "phrase-first-of-all",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-007-01"
+            },
+            {
+              "type": "text",
+              "text": ", where did you "
+            },
+            {
+              "type": "phrase",
+              "text": "grow up",
+              "targetId": "phrase-first-of-all",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-007-02"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         },
         {
-          "en": "My childhood home was very American.",
-          "tc": "我童年的家非常美國化。"
+          "en": "Um, I grew up in Norfol, Nebraska in the United States.",
+          "tc": "嗯，我在美國內布拉斯加州諾福爾長大。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, I grew up in Norfol, Nebraska in the United States."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "childhood",
-          "kk": "/childhood/",
-          "partOfSpeech": "n.",
-          "meaning": "童年",
-          "note": "看到 childhood 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "We lived, there were a lot of tornadoes. Did the basement ever scare you? As a kid, yes, it did scare me a lot. Um,.",
-          "tc": "我們住過，有很多龍捲風。地下室嚇到你嗎？作為一個孩子，是的，這確實讓我很害怕。嗯，。"
+          "en": "And what was your childhood home like?",
+          "tc": "你童年的家是什麼樣的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what was your "
+            },
+            {
+              "type": "word",
+              "text": "childhood",
+              "targetId": "word-childhood",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-009-01"
+            },
+            {
+              "type": "text",
+              "text": " home like?"
+            }
+          ]
         },
         {
-          "en": "I would always run back up the stairs so monsters wouldn't get me. And did.",
-          "tc": "我總是跑回樓梯上，這樣怪物就不會抓到我。並且做到了。"
+          "en": "My childhood home was very American, you know, wooden houses.",
+          "tc": "我童年的家是非常美國式的，你知道，木頭房子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My "
+            },
+            {
+              "type": "word",
+              "text": "childhood",
+              "targetId": "word-childhood",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-010-01"
+            },
+            {
+              "type": "text",
+              "text": " home was very American, you know, wooden houses."
+            }
+          ]
         },
         {
-          "en": "You have a favorite toy or stuffed animal when you were younger?",
-          "tc": "你小時候有最喜歡的玩具或毛絨動物嗎？"
+          "en": "It was a two-bedroom house, one bathroom with a basement because where we lived, there were a lot of tornadoes.",
+          "tc": "那是一間兩房、一間浴室和一個地下室，因為我們住的地方經常發生龍捲風。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a two-bedroom house, one bathroom with a basement because where we lived, there were a lot of tornadoes."
+            }
+          ]
         },
         {
-          "en": "When I was younger, I did have a favorite toy?",
-          "tc": "當我年輕的時候，我確實有一個最喜歡的玩具？"
+          "en": "Did the basement ever scare you?",
+          "tc": "地下室讓你害怕過嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Did the basement ever scare you?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "get",
-          "kk": "/get/",
-          "partOfSpeech": "v.",
-          "meaning": "得到",
-          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "It was a stuffed toy cat.",
-          "tc": "那是一隻絨毛玩具貓。"
+          "en": "As a kid, yes, it did scare me a lot.",
+          "tc": "身為一個孩子，是的，這確實讓我很害怕。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "As a kid, yes, it did scare me a lot."
+            }
+          ]
         },
         {
-          "en": "It was a Persian cat.",
-          "tc": "那是一隻波斯貓。"
+          "en": "Um, when it came to going to bed or turning off the lights, I would always run back up the stairs so monsters wouldn't get me.",
+          "tc": "嗯，當我要睡覺或關燈時，我總是跑回樓梯上，這樣怪物就不會抓到我了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, when it came to going to bed or turning off the lights, I would always run back up the stairs so monsters wouldn't "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-014-01"
+            },
+            {
+              "type": "text",
+              "text": " me."
+            }
+          ]
         },
         {
-          "en": "She was white and fluffy, and I loved her a lot.",
-          "tc": "她又白又毛茸茸的，我很愛她。"
+          "en": "And did you have a favorite toy or stuffed animal when you were younger?",
+          "tc": "你小時候有最喜歡的玩具或絨毛動物嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And did you have a favorite toy or stuffed animal when you were younger?"
+            }
+          ]
         },
         {
-          "en": "What was your favorite thing to do as a child?",
-          "tc": "你小時候最喜歡做的事是什麼？"
+          "en": "When I was younger, I did have a favorite toy.",
+          "tc": "當我年輕的時候，我確實有一個最喜歡的玩具。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I was younger, I did have a favorite toy."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "My favorite thing to do as a child was probably swimming.",
-          "tc": "我小時候最喜歡做的事可能是游泳。"
+          "en": "It was a stuffed toy cat.",
+          "tc": "那是一隻絨毛玩具貓。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a stuffed toy cat."
+            }
+          ]
         },
         {
-          "en": "We enjoyed swimming a lot. Wherever I lived, there was always a public pool nearby and um yeah,.",
-          "tc": "我們非常喜歡游泳。無論我住在哪裡，附近總是有一個公共游泳池，嗯，是的。"
+          "en": "It was a Persian cat.",
+          "tc": "那是一隻波斯貓。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a Persian cat."
+            }
+          ]
         },
         {
-          "en": "It was summer over there. Mhm. And who did you enjoy hanging out with the most when you were younger? Uh.",
-          "tc": "那裡正值夏天。嗯。當你年輕的時候，你最喜歡和誰一起出去玩？呃。"
+          "en": "She was white and fluffy, and I loved her a lot.",
+          "tc": "她又白又毛茸茸的，我很喜歡她。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She was white and fluffy, and I loved her a lot."
+            }
+          ]
         },
         {
-          "en": "I don't know. I enjoyed hanging out with my sister a lot.",
-          "tc": "我不知道。我很喜歡和姐姐一起出去玩。"
+          "en": "And what was your favorite thing to do as a child?",
+          "tc": "你小時候最喜歡做的事是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what was your favorite thing to do as a child?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "probably",
-          "kk": "/probably/",
-          "partOfSpeech": "adv.",
-          "meaning": "大概",
-          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "We have a 2-year age difference.",
-          "tc": "我們有2歲的年齡差。"
+          "en": "My favorite thing to do as a child was probably swimming.",
+          "tc": "我小時候最喜歡做的事可能是游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My favorite thing to do as a child was probably swimming."
+            }
+          ]
         },
         {
-          "en": "We always got along really well.",
-          "tc": "我們總是相處得很好。"
+          "en": "We enjoyed swimming a lot.",
+          "tc": "我們非常喜歡游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We enjoyed swimming a lot."
+            }
+          ]
         },
         {
-          "en": "It was always a great time. Mhm.",
-          "tc": "這總是一段美好的時光。嗯。"
+          "en": "Wherever I lived, there was always a public pool nearby and um yeah, we'd spend all all day long when it was summer over there.",
+          "tc": "無論我住在哪裡，附近總是有一個公共游泳池，嗯，是的，當那裡是夏天的時候，我們會整天待在那裡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Wherever I lived, there was always a public pool nearby and um yeah, we'd spend all all day long when it was summer over there."
+            }
+          ]
         },
         {
-          "en": "Where do you think your favorite childhood memories have been?",
-          "tc": "你認為你最喜歡的童年回憶在哪裡？"
+          "en": "And who did you enjoy hanging out with the most when you were younger?",
+          "tc": "當你年輕的時候，你最喜歡和誰一起出去玩？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And who did you enjoy hanging out with the most when you were younger?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "been",
-          "kk": "/been/",
-          "partOfSpeech": "n.",
-          "meaning": "到過",
-          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "childhood",
-          "kk": "/childhood/",
-          "partOfSpeech": "n.",
-          "meaning": "童年",
-          "note": "看到 childhood 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：人物與關係",
-      "titleEn": "Part 7: people",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "My favorite childhood memories have probably been in my second house, which was a house in Iowa, one state over from Nebraska. And that house was a little bigger.",
-          "tc": "我最喜歡的童年記憶可能是在我的第二棟房子裡，那是位於愛荷華州的一棟房子，距離內布拉斯加州僅一州。而且那個房子稍微大一點。"
+          "en": "Uh I don't know.",
+          "tc": "呃，我不知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Uh I don't know."
+            }
+          ]
         },
         {
-          "en": "I think five bedroomedroom twob and I was really excited to move in. So was the rest of my family.",
-          "tc": "我認為有五間臥室和兩間臥室，我很高興搬進去。我的其他家人也是如此。"
+          "en": "I enjoyed hanging out with my sister a lot.",
+          "tc": "我很喜歡和姊姊一起出去玩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I enjoyed hanging out with my sister a lot."
+            }
+          ]
         },
         {
-          "en": "We created a lot of memories with my cousins and with new friends.",
-          "tc": "我們與我的表兄弟姐妹和新朋友創造了很多回憶。"
+          "en": "We have a 2-year age difference and we always got along really well.",
+          "tc": "我們有兩歲的年齡差，但我們總是相處得很好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We have a 2-year age difference and we always "
+            },
+            {
+              "type": "usage",
+              "text": "got",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-027-01"
+            },
+            {
+              "type": "text",
+              "text": " along really well."
+            }
+          ]
         },
         {
-          "en": "What was your favorite holiday to celebrate as a child?",
-          "tc": "你小時候最喜歡慶祝的節日是？"
+          "en": "It was always a great time.",
+          "tc": "這總是一段美好的時光。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was always a great time."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "house",
-          "kk": "/house/",
-          "partOfSpeech": "n.",
-          "meaning": "房子",
-          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "probably",
-          "kk": "/probably/",
-          "partOfSpeech": "adv.",
-          "meaning": "大概",
-          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：食物與用餐",
-      "titleEn": "Part 8: food",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "It is a very Christian community and there was always a big fuss about it. Lots of gifts, lots of dinners, lots of parties.",
-          "tc": "這是一個非常基督教化的社區，總是引起很大的爭議。很多禮物，很多晚餐，很多聚會。"
+          "en": "And where do you think your favorite childhood memories have been?",
+          "tc": "你認為你最喜歡的童年回憶在哪裡？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And where do you think your favorite "
+            },
+            {
+              "type": "word",
+              "text": "childhood",
+              "targetId": "word-childhood",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-029-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "memories",
+              "targetId": "word-memory",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-029-02"
+            },
+            {
+              "type": "text",
+              "text": " have been?"
+            }
+          ]
         },
         {
-          "en": "It was a great time. Mhm. And what has been your favorite present you've ever received on Christmas?",
-          "tc": "那是一段美好的時光。嗯。你在聖誕節收到的最喜歡的禮物是什麼？"
+          "en": "My favorite childhood memories have probably been in my second house, which was a house in Iowa, one state over from Nebraska.",
+          "tc": "我最喜歡的童年回憶可能是在我的第二棟房子裡，那是位於愛荷華州的一棟房子，距離內布拉斯加州僅一州。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My favorite "
+            },
+            {
+              "type": "word",
+              "text": "childhood",
+              "targetId": "word-childhood",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-030-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "memories",
+              "targetId": "word-memory",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-030-02"
+            },
+            {
+              "type": "text",
+              "text": " have probably been in my second house, which was a house in Iowa, one state over from Nebraska."
+            }
+          ]
         },
         {
-          "en": "I got a Ken doll and a baby Barbie doll so I could.",
-          "tc": "我買了一個肯娃娃和一個芭比娃娃，這樣我就可以了。"
+          "en": "And that house was a little bigger.",
+          "tc": "那房子更大一點。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And that house was a little bigger."
+            }
+          ]
         },
         {
-          "en": "Finally have a whole family for my Barbie dolls. And why did you enjoy playing with Barbies? I enjoyed playing with Barbies.",
-          "tc": "我的芭比娃娃終於有了一個完整的家庭。為什麼喜歡和芭比娃娃一起玩？我很喜歡和芭比娃娃一起玩。"
+          "en": "I think it had five bedrooms and two bathrooms, and I was really excited to move into it.",
+          "tc": "我認為這是一個五居室的兩居室，我很高興搬進去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think it had five bedrooms and two bathrooms, and I was really excited to move into it."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "been",
-          "kk": "/been/",
-          "partOfSpeech": "n.",
-          "meaning": "到過",
-          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "I've always loved storytelling,.",
-          "tc": "我一直很喜歡講故事。"
+          "en": "So was the rest of my family.",
+          "tc": "我的家人也是如此。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So was the rest of my family."
+            }
+          ]
         },
         {
-          "en": "I feel. And with Barbies, you can be anything. You can create anything.",
-          "tc": "我感覺。有了芭比娃娃，你可以成為任何人。你可以創造任何東西。"
+          "en": "We created a lot of memories with my cousins and with new friends.",
+          "tc": "我們與我的表兄弟姊妹和新朋友創造了許多回憶。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We created a lot of "
+            },
+            {
+              "type": "word",
+              "text": "memories",
+              "targetId": "word-memory",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-034-01"
+            },
+            {
+              "type": "text",
+              "text": " with my cousins and with new friends."
+            }
+          ]
         },
         {
-          "en": "It was always fun that there were no limits to what I could do.",
-          "tc": "我能做的事情沒有限制，這總是很有趣的。"
+          "en": "And what was your favorite holiday to celebrate as a child?",
+          "tc": "你小時候最喜歡慶祝的節日是？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what was your favorite holiday to celebrate as a child?"
+            }
+          ]
         },
         {
-          "en": "You remember any places that you dreaded visiting when you were younger?",
-          "tc": "你還記得年輕時害怕去的地方嗎？"
+          "en": "My favorite holiday was probably Christmas.",
+          "tc": "我最喜歡的節日可能是聖誕節。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My favorite holiday was probably Christmas."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "house",
-          "kk": "/house/",
-          "partOfSpeech": "n.",
-          "meaning": "房子",
-          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "probably",
-          "kk": "/probably/",
-          "partOfSpeech": "adv.",
-          "meaning": "大概",
-          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "I can't remember now. Maybe a dentist or the doctor or maybe even school. A place.",
-          "tc": "我現在記不起來了。也許是牙醫或醫生，甚至可能是學校。一個地方。"
+          "en": "Christmas was always a big deal from where I'm from there.",
+          "tc": "對我的家鄉來說，聖誕節總是一件大事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Christmas was always a big deal from where I'm from there."
+            }
+          ]
         },
         {
-          "en": "I dreaded as a kid. So, the million-dollar question. I know.",
-          "tc": "我小時候很怕。所以，這是一個價值百萬美元的問題。我知道。"
+          "en": "It is a very Christian community and there was always a big fuss about it.",
+          "tc": "這是一個非常基督教化的社區，而且總是引起很大的爭議。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is a very Christian community and there was always a big fuss about it."
+            }
+          ]
         },
         {
-          "en": "What was the place you dreaded visiting when you were younger? I dreaded visiting. It wasn't so much my grandparents house, but in the back of my grandparents house?",
-          "tc": "當你年輕的時候，你最害怕去的地方是哪裡？我害怕拜訪。與其說是祖父母家，不如說是在我祖父母家後面？"
+          "en": "Lots of gifts, lots of dinners, lots of parties.",
+          "tc": "很多禮物，很多晚餐，很多聚會。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Lots of gifts, lots of dinners, lots of parties."
+            }
+          ]
         },
         {
-          "en": "When I was a kid, there is a chicken coupe?",
-          "tc": "小時候有雞轎跑車嗎？"
+          "en": "It was a great time.",
+          "tc": "那是一段美好的時光。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a great time."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "house",
-          "kk": "/house/",
-          "partOfSpeech": "n.",
-          "meaning": "房子",
-          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：日常生活",
-      "titleEn": "Part 11: everyday life",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "They had a few roosters. And the roosters were always really mean and would chase me around and pick up my legs.",
-          "tc": "他們養了幾隻公雞。公雞總是很卑鄙，會追著我跑，並夾起我的腿。"
+          "en": "And what has been your favorite present you've ever received on Christmas?",
+          "tc": "聖誕節你收到的最喜歡的禮物是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what has been your favorite present you've ever received on Christmas?"
+            }
+          ]
         },
         {
-          "en": "I didn't dread my grandma and grandpa's house, but I dreaded seeing the roosters. Mhm. Okay.",
-          "tc": "我並不害怕奶奶和爺爺的房子，但我害怕看到公雞。嗯。好的。"
+          "en": "My favorite present was probably when I got a Ken doll and a baby Barbie doll so I could finally have a whole family for my Barbie dolls.",
+          "tc": "我最喜歡的禮物可能是當我得到一個肯娃娃和一個芭比娃娃寶寶時，這樣我終於可以擁有一個完整的家庭來容納我的芭比娃娃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My favorite present was probably when I "
+            },
+            {
+              "type": "usage",
+              "text": "got",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-042-01"
+            },
+            {
+              "type": "text",
+              "text": " a Ken doll and a baby Barbie doll so I could finally have a whole family for my Barbie dolls."
+            }
+          ]
         },
         {
-          "en": "What was your favorite thing about going to your grandpa's farm?",
-          "tc": "去爺爺的農場時你最喜歡的事是什麼？"
+          "en": "And why did you enjoy playing with Barbies?",
+          "tc": "為什麼喜歡和芭比娃娃一起玩？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And why did you enjoy playing with Barbies?"
+            }
+          ]
         },
         {
-          "en": "My favorite thing about going to the farm was probably.",
-          "tc": "我最喜歡去農場的事情可能是。"
+          "en": "I enjoyed playing with Barbies because I've always loved storytelling, I feel.",
+          "tc": "我喜歡和芭比娃娃一起玩，因為我覺得我一直都很喜歡講故事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I enjoyed playing with Barbies because I've always loved storytelling, I feel."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "house",
-          "kk": "/house/",
-          "partOfSpeech": "n.",
-          "meaning": "房子",
-          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "probably",
-          "kk": "/probably/",
-          "partOfSpeech": "adv.",
-          "meaning": "大概",
-          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：日常生活",
-      "titleEn": "Part 12: everyday life",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "I have two favorite things. I enjoyed seeing the animals around the farm, especially the pigs, the baby pigs.",
-          "tc": "我有兩件最喜歡的事。我很喜歡看到農場周圍的動物，尤其是小豬和小豬。"
+          "en": "And with Barbies, you can be anything.",
+          "tc": "有了芭比娃娃，你可以成為任何人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And with Barbies, you can be anything."
+            }
+          ]
         },
         {
-          "en": "I also really enjoyed being inside my grandparents house because my grandma's house had a lot of toys and that was really fun.",
-          "tc": "我也很喜歡待在祖父母的房子裡，因為我奶奶的房子裡有很多玩具，這真的很有趣。"
+          "en": "You can create anything.",
+          "tc": "你可以創造任何東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can create anything."
+            }
+          ]
         },
         {
-          "en": "What was your favorite subject in school?",
-          "tc": "你在學校最喜歡的科目是什麼？"
+          "en": "So, it was always fun that there were no no limits to what I could do.",
+          "tc": "所以，我能做的事情沒有限制，這總是很有趣的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, it was always fun that there were no no limits to what I could do."
+            }
+          ]
         },
         {
-          "en": "My favorite subject has probably always been math or science.",
-          "tc": "我最喜歡的科目可能一直是數學或科學。"
+          "en": "Do you remember any places that you dreaded visiting when you were younger?",
+          "tc": "你還記得年輕時最害怕去的地方嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you remember any places that you dreaded visiting when you were younger?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "house",
-          "kk": "/house/",
-          "partOfSpeech": "n.",
-          "meaning": "房子",
-          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "probably",
-          "kk": "/probably/",
-          "partOfSpeech": "adv.",
-          "meaning": "大概",
-          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-13",
       "no": "13",
-      "titleZh": "第 13 段：日常生活",
-      "titleEn": "Part 13: everyday life",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
       "sentences": [
         {
-          "en": "They're my strong suit.",
-          "tc": "他們是我的強項。"
+          "en": "I can't remember now.",
+          "tc": "我現在不記得了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can't remember now."
+            }
+          ]
         },
         {
-          "en": "It was something I could also always comprehend and find beauty in. And what's some.",
-          "tc": "這是我總能理解並發現其中的美的東西。還有什麼。"
+          "en": "Maybe a dentist or the doctor or maybe even school.",
+          "tc": "可能是牙醫或醫生，甚至可能是學校。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Maybe a dentist or the doctor or maybe even school."
+            }
+          ]
         },
         {
-          "en": "What was your least favorite subject in school? My least favorite has probably always been social studies and history?",
-          "tc": "在學校最不喜歡的科目是什麼？我最不喜歡的可能一直是社會研究和歷史？"
+          "en": "A place I dreaded as a kid.",
+          "tc": "一個我小時候害怕的地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A place I dreaded as a kid."
+            }
+          ]
         },
         {
-          "en": "I do like social studies and history, but I kind of like to choose the topics that.",
-          "tc": "我確實喜歡社會研究和歷史，但我有點喜歡選擇這些主題。"
+          "en": "So, the million-dollar question.",
+          "tc": "那麼，這是一個價值百萬的問題。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, the million-dollar question."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "probably",
-          "kk": "/probably/",
-          "partOfSpeech": "adv.",
-          "meaning": "大概",
-          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-14",
       "no": "14",
-      "titleZh": "第 14 段：日常生活",
-      "titleEn": "Part 14: everyday life",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
       "sentences": [
         {
-          "en": "I feel like there's a lot of unnecessary information in history classes. Hot take. Hot take. Did you play any sports or have any hobbies growing up? Growing up,.",
-          "tc": "我覺得歷史課有很多不必要的資訊。熱拍。熱拍。你在成長過程中參加過任何運動或有任何嗜好嗎？長大了，."
+          "en": "I know.",
+          "tc": "我知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I know."
+            }
+          ]
         },
         {
-          "en": "I had hobbies like swimming, volleyball, mostly sporty hobbies. I did want to get into musical hobbies, but I only ever got to play piano for a few years.",
-          "tc": "我有游泳、排球等嗜好，主要是運動愛好。我確實想培養音樂嗜好，但我只彈了幾年鋼琴。"
+          "en": "What was the the place you dreaded visiting when you were younger?",
+          "tc": "你年輕時最害怕去的地方是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What was the the place you dreaded visiting when you were younger?"
+            }
+          ]
         },
         {
-          "en": "What type of musical hobbies?",
-          "tc": "什麼類型的音樂嗜好？"
+          "en": "I dreaded visiting.",
+          "tc": "我害怕拜訪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I dreaded visiting."
+            }
+          ]
         },
         {
-          "en": "Would you have wanted to get into? I probably would have wanted to try violin, possibly drums?",
-          "tc": "你想進去嗎？我可能想嘗試小提琴，也許是鼓？"
+          "en": "It wasn't so much my grandparents house, but in the back of my grandparents house when I was a kid, there is a chicken coupe and they had a few roosters.",
+          "tc": "與其說是我祖父母的房子，不如說是在我小時候，在我祖父母房子的後面，有一輛小雞轎跑車，他們養了幾隻公雞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It wasn't so much my grandparents house, but in the back of my grandparents house when I was a kid, there is a chicken coupe and they had a few roosters."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "probably",
-          "kk": "/probably/",
-          "partOfSpeech": "adv.",
-          "meaning": "大概",
-          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "get",
-          "kk": "/get/",
-          "partOfSpeech": "v.",
-          "meaning": "得到",
-          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-15",
       "no": "15",
-      "titleZh": "第 15 段：日常生活",
-      "titleEn": "Part 15: everyday life",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
       "sentences": [
         {
-          "en": "I feel like my sense of rhythm is probably the weakest thing um as far as my musical expertise goes. So something in that area would have been nice. And did.",
-          "tc": "我覺得就我的音樂專業知識而言，我的節奏感可能是最弱的。所以那個地區的東西會很好。並且做到了。"
+          "en": "And the roosters were always really mean and would chase me around and pick up my legs.",
+          "tc": "公雞總是很卑鄙，會追著我跑，還夾起我的腿。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And the roosters were always really mean and would chase me around and pick up my legs."
+            }
+          ]
         },
         {
-          "en": "You ever get into trouble at school? Were you ever the troublemaker in school? Not really.",
-          "tc": "你在學校有遇到麻煩嗎？你曾經是學校裡的麻煩製造者嗎？並不真地。"
+          "en": "So, I didn't dread my grandma and grandpa's house, but I dreaded seeing the roosters.",
+          "tc": "所以，我並不害怕奶奶和爺爺的房子，但我害怕看到公雞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I didn't dread my grandma and grandpa's house, but I dreaded seeing the roosters."
+            }
+          ]
         },
         {
-          "en": "I was I was a pretty good kid. Maybe you were a little bit of a troublemaker. A little bit more than you,.",
-          "tc": "我是一個非常好的孩子。也許你是一個有點麻煩製造者。比你多一點點，"
+          "en": "And what was your favorite thing about going to your grandpa's farm?",
+          "tc": "去爺爺的農場時你最喜歡的是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what was your favorite thing about going to your grandpa's farm?"
+            }
+          ]
         },
         {
-          "en": "I guess. A little bit more. But what's a moment that you can remember.",
-          "tc": "我猜。再多一點。但你能記住的時刻是什麼？"
+          "en": "My favorite thing about going to the farm was probably I have two favorite things.",
+          "tc": "去農場我最喜歡的事可能是我最喜歡的兩件事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My favorite thing about going to the farm was probably I have two favorite things."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "probably",
-          "kk": "/probably/",
-          "partOfSpeech": "adv.",
-          "meaning": "大概",
-          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "been",
-          "kk": "/been/",
-          "partOfSpeech": "n.",
-          "meaning": "到過",
-          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-16",
       "no": "16",
-      "titleZh": "第 16 段：工作與學習",
-      "titleEn": "Part 16: work",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
       "sentences": [
         {
-          "en": "I do remember one time when all the students were having a water balloon fight.",
-          "tc": "我記得有一次，所有的學生都在打水氣球大戰。"
+          "en": "I enjoyed seeing the animals around the farm, especially the pigs, the baby pigs.",
+          "tc": "我很喜歡看農場周圍的動物，尤其是小豬和小豬。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I enjoyed seeing the animals around the farm, especially the pigs, the baby pigs."
+            }
+          ]
         },
         {
-          "en": "I don't know.",
-          "tc": "我不知道。"
+          "en": "And I also really enjoyed being inside my grandparents house because my grandma's house had a lot of toys and that was really fun.",
+          "tc": "我也很喜歡待在祖父母的房子裡，因為我奶奶的房子裡有很多玩具，這真的很有趣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I also really enjoyed being inside my grandparents house because my grandma's house had a lot of toys and that was really fun."
+            }
+          ]
         },
         {
-          "en": "I think somebody just brought water balloons to school.",
-          "tc": "我想有人剛剛把水氣球帶到學校了。"
+          "en": "And what was your favorite subject in school?",
+          "tc": "你在學校最喜歡的科目是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what was your favorite subject in school?"
+            }
+          ]
         },
         {
-          "en": "We were all fighting. But for some reason, I was singled out and told that.",
-          "tc": "我們都在戰鬥。但由於某種原因，我被挑出來並被告知了這一點。"
+          "en": "My favorite subject has probably always been math or science because they're my strong suit, and I could always comprehend them and find beauty in them.",
+          "tc": "我最喜歡的科目可能一直是數學或科學，因為它們是我的強項，而且我總是能理解並發現其中的美。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My favorite subject has probably always been math or science because they're my strong suit, and I could always comprehend them and find beauty in them."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-17",
       "no": "17",
-      "titleZh": "第 17 段：日常生活",
-      "titleEn": "Part 17: everyday life",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
       "sentences": [
         {
-          "en": "I can't be doing that or I'd get written up and was threatened to talk to my parents about it.",
-          "tc": "我不能這樣做，否則我會被舉報並被威脅要和我的父母談論這件事。"
+          "en": "And what's some what was your least favorite subject in school?",
+          "tc": "你在學校最不喜歡的科目是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what's some what was your least favorite subject in school?"
+            }
+          ]
         },
         {
-          "en": "I mean, everybody was doing it, so I wouldn't say.",
-          "tc": "我的意思是，每個人都這樣做，所以我不會說。"
+          "en": "My least favorite has probably always been social studies and history.",
+          "tc": "我最不喜歡的可能一直是社會研究和歷史。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My least favorite has probably always been social studies and history."
+            }
+          ]
         },
         {
-          "en": "It was necessarily a troublemaker thing. Mhm. Yeah, I guess that's true. You've never gotten into trouble. I can't even think of a time. I know.",
-          "tc": "這必然是一件麻煩事。嗯。是的，我想這是真的。你從來沒有遇到過麻煩。我甚至想不出一個時間。我知道。"
+          "en": "I do like social studies and history, but I kind of like to choose the topics that.",
+          "tc": "我確實喜歡社會研究和歷史，但我有點喜歡選擇這些主題。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I do like social studies and history, but I kind of like to choose the topics that."
+            }
+          ]
         },
         {
-          "en": "I have a few examples that I could think of,.",
-          "tc": "我有幾個我能想到的例子。"
+          "en": "I want to learn about and I feel like there's a lot of unnecessary information in history classes.",
+          "tc": "我想了解，而且我覺得歷史課有很多不必要的資訊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I want to learn about and I feel like there's a lot of unnecessary information in history classes."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "get",
-          "kk": "/get/",
-          "partOfSpeech": "v.",
-          "meaning": "得到",
-          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-18",
       "no": "18",
-      "titleZh": "第 18 段：日常生活",
-      "titleEn": "Part 18: everyday life",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
       "sentences": [
         {
-          "en": "I don't think you have any.",
-          "tc": "我認為你沒有。"
+          "en": "Hot take.",
+          "tc": "熱服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hot take."
+            }
+          ]
         },
         {
-          "en": "What was your favorite meal or snack as a kid?",
-          "tc": "你小時候最喜歡吃的餐點或點心是什麼？"
+          "en": "Hot take.",
+          "tc": "熱服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hot take."
+            }
+          ]
         },
         {
-          "en": "My favorite snack has probably always been,.",
-          "tc": "我最喜歡的零食可能一直是，。"
+          "en": "Did you play any sports or have any hobbies growing up?",
+          "tc": "你小時候有參加過任何運動或有什麼嗜好嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Did you play any sports or have any hobbies growing up?"
+            }
+          ]
         },
         {
-          "en": "I get hated on a lot for it, celery with peanut butter.",
-          "tc": "我很討厭芹菜加花生醬。"
+          "en": "Growing up, I I had hobbies like swimming, volleyball, mostly sporty hobbies.",
+          "tc": "在成長過程中，我有游泳、排球等嗜好，主要是運動嗜好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Growing up, I I had hobbies like swimming, volleyball, mostly sporty hobbies."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "probably",
-          "kk": "/probably/",
-          "partOfSpeech": "adv.",
-          "meaning": "大概",
-          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-19",
       "no": "19",
-      "titleZh": "第 19 段：日常生活",
-      "titleEn": "Part 19: everyday life",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
       "sentences": [
         {
-          "en": "One of the best snacks. It's fresh. You can eat it in the summer, in the winter, like whenever. And yeah, probably celery and peanut butter sticks. Okay.",
-          "tc": "最好的零食之一。很新鮮。夏天、冬天都可以吃，什麼時候都可以吃。是的，可能是芹菜和花生酱棒。好的。"
+          "en": "I did want to get into musical hobbies, but I only ever got to play piano for a few years.",
+          "tc": "我確實想培養音樂嗜好，但我只彈了幾年鋼琴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I did want to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-073-01"
+            },
+            {
+              "type": "text",
+              "text": " into musical hobbies, but I only ever "
+            },
+            {
+              "type": "usage",
+              "text": "got",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-073-02"
+            },
+            {
+              "type": "text",
+              "text": " to play piano for a few years."
+            }
+          ]
         },
         {
-          "en": "My favorite snacks, but now if.",
-          "tc": "我最喜歡的零食，但現在如果。"
+          "en": "And what type of musical hobbies would you have wanted to get into?",
+          "tc": "您想培養什麼類型的音樂嗜好？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what type of musical hobbies would you have wanted to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-074-01"
+            },
+            {
+              "type": "text",
+              "text": " into?"
+            }
+          ]
         },
         {
-          "en": "I eat Flaming Hot Cheetos, my stomach really hurts. Did you have any chores at home? I didn't have many chores,.",
-          "tc": "我吃火辣Cheetos，我的胃真的很痛。你家裡有什麼家事嗎？我沒有太多家務，。"
+          "en": "I probably would have wanted to try violin, possibly drums.",
+          "tc": "我可能想嘗試小提琴，也可能是鼓。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I probably would have wanted to try violin, possibly drums."
+            }
+          ]
         },
         {
-          "en": "I had the basic ones. Doing dishes, taking out the trash every once in a while, and just making sure the house was picked up.",
-          "tc": "我有基本的。洗碗，不時倒垃圾，確保房子被清理乾淨。"
+          "en": "I feel like my sense of rhythm is probably the weakest thing um as far as my musical expertise goes.",
+          "tc": "我覺得就我的音樂專業知識而言，我的節奏感可能是最弱的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel like my sense of rhythm is probably the weakest thing um as far as my musical expertise goes."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "house",
-          "kk": "/house/",
-          "partOfSpeech": "n.",
-          "meaning": "房子",
-          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "probably",
-          "kk": "/probably/",
-          "partOfSpeech": "adv.",
-          "meaning": "大概",
-          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-20",
       "no": "20",
-      "titleZh": "第 20 段：人物與關係",
-      "titleEn": "Part 20: people",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
       "sentences": [
         {
-          "en": "How do you think childhood today is different from when you were younger? Well, obviously a big difference is?",
-          "tc": "你認為今天的童年與你年輕時有何不同？嗯，顯然有一個很大的區別是？"
+          "en": "So something in that area would have been nice.",
+          "tc": "所以那個領域的東西會很好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So something in that area would have been nice."
+            }
+          ]
         },
         {
-          "en": "How technology centered childhood is nowadays. Um, most kids have iPads, phones, or at least are exposed to it. And in my time, the most contact?",
-          "tc": "現今的童年是如何以科技為中心的。嗯，大多數孩子都有 iPad、手機，或至少接觸過它們。而在我這個時代，接觸最多的又是什麼？"
+          "en": "And did you ever get into trouble at school?",
+          "tc": "你在學校遇到過麻煩嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And did you ever "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-078-01"
+            },
+            {
+              "type": "text",
+              "text": " into trouble at school?"
+            }
+          ]
         },
         {
-          "en": "I ever had with technology with technology was through the TV. Um, but even.",
-          "tc": "我曾經透過電視接觸過科技。嗯，但甚至。"
+          "en": "Were you ever the troublemaker in school?",
+          "tc": "你曾經在學校裡搗亂過嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Were you ever the troublemaker in school?"
+            }
+          ]
         },
         {
-          "en": "Then, my access to TV was limited to one or two hours a day.",
-          "tc": "然後，我每天看電視的時間被限制在一、兩個小時。"
+          "en": "Not really.",
+          "tc": "並非如此。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Not really."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
         {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "I was I was a pretty good kid.",
+          "tc": "我是一個非常好的孩子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was I was a pretty good kid."
+            }
+          ]
         },
         {
-          "english": "childhood",
-          "kk": "/childhood/",
-          "partOfSpeech": "n.",
-          "meaning": "童年",
-          "note": "看到 childhood 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "Maybe you were a little bit of a troublemaker.",
+          "tc": "也許你有點愛惹麻煩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Maybe you were "
+            },
+            {
+              "type": "phrase",
+              "text": "a little bit",
+              "targetId": "phrase-a-little-bit",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-082-01"
+            },
+            {
+              "type": "text",
+              "text": " of a troublemaker."
+            }
+          ]
         },
         {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "A little bit more than you, I guess.",
+          "tc": "我猜比你多一點點。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "A little bit",
+              "targetId": "phrase-a-little-bit",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-083-01"
+            },
+            {
+              "type": "text",
+              "text": " more than you, I guess."
+            }
+          ]
+        },
+        {
+          "en": "A little bit more.",
+          "tc": "多一點。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "A little bit",
+              "targetId": "phrase-a-little-bit",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-084-01"
+            },
+            {
+              "type": "text",
+              "text": " more."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "But what's a moment that you can remember where you got in trouble at school?",
+          "tc": "但是你能記得你在學校遇到麻煩的哪一刻呢？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But what's a moment that you can remember where you "
+            },
+            {
+              "type": "usage",
+              "text": "got",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-085-01"
+            },
+            {
+              "type": "text",
+              "text": " in trouble at school?"
+            }
+          ]
+        },
+        {
+          "en": "Something memorable.",
+          "tc": "難忘的事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Something memorable."
+            }
+          ]
+        },
+        {
+          "en": "I can't remember specifically trying to get into trouble or or being bad, but I do remember one time when all the students were having a water balloon fight.",
+          "tc": "我不記得具體想惹麻煩或做壞事，但我確實記得有一次所有學生都在打水氣球。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can't remember specifically trying to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-087-01"
+            },
+            {
+              "type": "text",
+              "text": " into trouble or or being bad, but I do remember one time when all the students were having a water balloon fight."
+            }
+          ]
+        },
+        {
+          "en": "I don't know.",
+          "tc": "我不知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "I think somebody just brought water balloons to school and we were all fighting.",
+          "tc": "我想有人剛剛把水氣球帶到學校，我們都在打架。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think somebody just brought water balloons to school and we were all fighting."
+            }
+          ]
+        },
+        {
+          "en": "But for some reason, I was singled out and told that I can't be doing that or I'd get written up and was threatened to talk to my parents about it.",
+          "tc": "但由於某種原因，我被單獨挑出來，並被告知我不能這樣做，否則我會被記錄下來，並被威脅要和我的父母談論這件事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But for some reason, I was singled out and told that I can't be doing that or I'd "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-090-01"
+            },
+            {
+              "type": "text",
+              "text": " written up and was threatened to talk to my parents about it."
+            }
+          ]
+        },
+        {
+          "en": "But I mean, everybody was doing it, so I wouldn't say it was necessarily a troublemaker thing.",
+          "tc": "但我的意思是，每個人都在這樣做，所以我不會說這一定是一件麻煩事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I mean, everybody was doing it, so I wouldn't say it was necessarily a troublemaker thing."
+            }
+          ]
+        },
+        {
+          "en": "Yeah, I guess that's true.",
+          "tc": "是的，我想這是真的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah, I guess that's true."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "You've never gotten into trouble.",
+          "tc": "你從來沒有遇到過麻煩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You've never gotten into trouble."
+            }
+          ]
+        },
+        {
+          "en": "I can't even think of a time.",
+          "tc": "我甚至想不出一個時間。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can't even think of a time."
+            }
+          ]
+        },
+        {
+          "en": "I know.",
+          "tc": "我知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I know."
+            }
+          ]
+        },
+        {
+          "en": "I have a few examples that I could think of, but I don't think you have any.",
+          "tc": "我有一些我能想到的例子，但我認為你沒有。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have a few examples that I could think of, but I don't think you have any."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "What was your favorite meal or snack as a kid?",
+          "tc": "你小時候最喜歡吃的餐點或點心是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What was your favorite meal or snack as a kid?"
+            }
+          ]
+        },
+        {
+          "en": "My favorite snack has probably always been, and I get hated on a lot for it, celery with peanut butter.",
+          "tc": "我最喜歡的零食可能一直是芹菜加花生醬，但我也因此而被討厭。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My favorite snack has probably always been, and I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-098-01"
+            },
+            {
+              "type": "text",
+              "text": " hated on a lot for it, celery with peanut butter."
+            }
+          ]
+        },
+        {
+          "en": "I think it's one of the best snacks.",
+          "tc": "我認為這是最好的零食之一。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think it's one of the best snacks."
+            }
+          ]
+        },
+        {
+          "en": "It's fresh.",
+          "tc": "新鮮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's fresh."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "You can eat it in the summer, in the winter, like whenever.",
+          "tc": "夏天、冬天都可以吃，什麼時候吃都可以。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can eat it in the summer, in the winter, like whenever."
+            }
+          ]
+        },
+        {
+          "en": "And yeah, probably celery and peanut butter sticks.",
+          "tc": "是的，可能是芹菜和花生醬棒。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And yeah, probably celery and peanut butter sticks."
+            }
+          ]
+        },
+        {
+          "en": "I thought you were going to say flaming hot Cheetos.",
+          "tc": "我以為你會說火辣辣的奇多。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I thought you were going to say flaming hot Cheetos."
+            }
+          ]
+        },
+        {
+          "en": "Oh, I guess that would be another one of my favorite snacks, but now if I eat Flaming Hot Cheetos, my stomach really hurts.",
+          "tc": "哦，我想那將是我最喜歡的另一種零食，但現在如果我吃火辣奇多，我的胃真的很痛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Oh, I guess that would be another one of my favorite snacks, but now if I eat Flaming Hot Cheetos, my stomach really hurts."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "Did you have any chores at home?",
+          "tc": "你家裡有什麼家事嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Did you have any chores at home?"
+            }
+          ]
+        },
+        {
+          "en": "I didn't have many chores, but I had the basic ones.",
+          "tc": "我沒有太多的家務活，但我有基本的家務活。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I didn't have many chores, but I had the basic ones."
+            }
+          ]
+        },
+        {
+          "en": "Doing dishes, taking out the trash every once in a while, and just making sure the house was picked up.",
+          "tc": "洗碗，不時倒垃圾，確保房子收拾乾淨。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Doing dishes, taking out the trash every once in a while, and just making sure the house was picked up."
+            }
+          ]
+        },
+        {
+          "en": "How do you think childhood today is different from when you were younger?",
+          "tc": "您認為今天的童年與您年輕時有何不同？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How do you think "
+            },
+            {
+              "type": "word",
+              "text": "childhood",
+              "targetId": "word-childhood",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-108-01"
+            },
+            {
+              "type": "text",
+              "text": " today is different from when you were younger?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
+      "sentences": [
+        {
+          "en": "Well, obviously a big difference is the how technology centered childhood is nowadays.",
+          "tc": "嗯，顯然一個很大的不同是現在的童年是如何以科技為中心的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Well, obviously a big difference is the how technology centered "
+            },
+            {
+              "type": "word",
+              "text": "childhood",
+              "targetId": "word-childhood",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-109-01"
+            },
+            {
+              "type": "text",
+              "text": " is nowadays."
+            }
+          ]
+        },
+        {
+          "en": "Um, most kids have iPads, phones, or at least are exposed to it.",
+          "tc": "嗯，大多數孩子都有 iPad、手機，或至少接觸過它們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, most kids have iPads, phones, or at least are exposed to it."
+            }
+          ]
+        },
+        {
+          "en": "And in my time, the most contact I ever had with technology with technology was through the TV.",
+          "tc": "在我那個時代，我與科技接觸最多的就是透過電視。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And in my time, the most contact I ever had with technology with technology was through the TV."
+            }
+          ]
+        },
+        {
+          "en": "Um, but even then, my access to TV was limited to one or two hours a day.",
+          "tc": "嗯，但即便如此，我每天看電視的時間也被限制在一、兩個小時。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, but even then, my access to TV was limited to one or two hours a day."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-29",
+      "no": "29",
+      "titleZh": "第 29 段",
+      "titleEn": "Part 29",
+      "sentences": [
+        {
+          "en": "So, I think there's a not a lot of creativity and not a lot of outdoorsiness to the fun that kids have today.",
+          "tc": "所以，我認為孩子們今天的樂趣並沒有太多的創造力和戶外活動。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I think there's a not a lot of creativity and not a lot of outdoorsiness to the fun that kids have today."
+            }
+          ]
+        },
+        {
+          "en": "It's a lot of being inside and on the phone.",
+          "tc": "經常待在室內和打電話。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's a lot of being inside and on the phone."
+            }
+          ]
+        },
+        {
+          "en": "And what was your favorite show when you had your TV time?",
+          "tc": "你看電視的時候你最喜歡的節目是？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what was your favorite show when you had your TV time?"
+            }
+          ]
+        },
+        {
+          "en": "When I had my TV time, I would love to watch Adventure Time with Finn and Jake and probably also The Amazing World of Gumball, Regular Show, and Spongebob every once in a while.",
+          "tc": "當我看電視的時候，我很喜歡看《芬恩和傑克的冒險時光》，也可能偶爾看《岡布奧的神奇世界》、《常規秀》和《海綿寶寶》。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I had my TV time, I would love to watch Adventure Time with Finn and Jake and probably also The Amazing World of Gumball, Regular Show, and Spongebob every once in a while."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-30",
+      "no": "30",
+      "titleZh": "第 30 段",
+      "titleEn": "Part 30",
+      "sentences": [
+        {
+          "en": "Those were probably my top favorites.",
+          "tc": "這些可能是我最喜歡的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Those were probably my top favorites."
+            }
+          ]
+        },
+        {
+          "en": "Spongebob's a gem.",
+          "tc": "海綿寶寶是一顆寶石。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Spongebob's a gem."
+            }
+          ]
+        },
+        {
+          "en": "And what advice would you give your younger self?",
+          "tc": "你會給年輕時的自己什麼建議？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what advice would you give your younger self?"
+            }
+          ]
+        },
+        {
+          "en": "I would tell my younger self to not be so afraid that it's okay to show who you are and that people are going to love you for it.",
+          "tc": "我會告訴年輕的自己不要那麼害怕，展示你是誰是可以的，人們會因此而愛你。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would tell my younger self to not be so afraid that it's okay to show who you are and that people are going to love you for it."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-31",
+      "no": "31",
+      "titleZh": "第 31 段",
+      "titleEn": "Part 31",
+      "sentences": [
+        {
+          "en": "Now, what do you think has been your favorite age and why my favorite month.",
+          "tc": "現在，您認為您最喜歡的年齡是多少？為什麼是我最喜歡的月份。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, what do you think has been your favorite age and why my favorite month."
+            }
+          ]
+        },
+        {
+          "en": "My favorite or was it a month?",
+          "tc": "我最喜歡的還是一個月？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My favorite or was it a month?"
+            }
+          ]
+        },
+        {
+          "en": "Your perfect date.",
+          "tc": "你的完美約會。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Your perfect date."
+            }
+          ]
+        },
+        {
+          "en": "I'd have to say April 25th because it's not too hot, not too cold.",
+          "tc": "我必須說4月25日，因為天氣不太熱，也不太冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'd have to say April 25th because it's not too hot, not too cold."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-32",
+      "no": "32",
+      "titleZh": "第 32 段",
+      "titleEn": "Part 32",
+      "sentences": [
+        {
+          "en": "All you need is a light jacket.",
+          "tc": "你只需要一件輕便的夾克。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "All you need is a light jacket."
+            }
+          ]
+        },
+        {
+          "en": "Sorry, ask me again.",
+          "tc": "抱歉，請再問我一次。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Sorry, ask me again."
+            }
+          ]
+        },
+        {
+          "en": "So, what has been your favorite age and why my favorite age, I probably didn't have a favorite age, but rather a favorite moment, which was when I was about 12 years old.",
+          "tc": "那麼，你最喜歡的年齡是多少，為什麼我最喜歡的年齡，我可能沒有最喜歡的年齡，而是最喜歡的時刻，那是我12歲左右的時候。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, what has been your favorite age and why my favorite age, I probably didn't have a favorite age, but rather a favorite moment, which was when I was about 12 years old."
+            }
+          ]
+        },
+        {
+          "en": "Um, and we had to move to Mexico with my entire family.",
+          "tc": "嗯，我們不得不和全家人一起搬到墨西哥。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, and we had to move to Mexico with my entire family."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-33",
+      "no": "33",
+      "titleZh": "第 33 段",
+      "titleEn": "Part 33",
+      "sentences": [
+        {
+          "en": "Uh, it's my favorite moment because I feel like it was a pivotal moment in both of our lives and it changed us and our family for the better.",
+          "tc": "呃，這是我最喜歡的時刻，因為我覺得這是我們生活中的關鍵時刻，它讓我們和我們的家人變得更好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Uh, it's my favorite moment because I feel like it was a pivotal moment in both of our lives and it changed us and our family for the better."
+            }
+          ]
+        },
+        {
+          "en": "Good age.",
+          "tc": "好年紀。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Good age."
+            }
+          ]
+        },
+        {
+          "en": "Good answer.",
+          "tc": "好答案。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Good answer."
+            }
+          ]
+        },
+        {
+          "en": "So, can you explain what pivotal means?",
+          "tc": "那麼，您能解釋一下關鍵是什麼意思嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, can you explain what pivotal means?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-34",
+      "no": "34",
+      "titleZh": "第 34 段",
+      "titleEn": "Part 34",
+      "sentences": [
+        {
+          "en": "Pivotal comes from pivot, which is a sharp turn.",
+          "tc": "Pivotal源自pivot，即急轉彎。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Pivotal comes from pivot, which is a sharp turn."
+            }
+          ]
+        },
+        {
+          "en": "So, it turned big change.",
+          "tc": "所以，事情發生了巨大的變化。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, it turned big change."
+            }
+          ]
+        },
+        {
+          "en": "Yes, it was a big change.",
+          "tc": "是的，這是一個很大的改變。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yes, it was a big change."
+            }
+          ]
+        },
+        {
+          "en": "A pivotal change.",
+          "tc": "關鍵性的變化。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A pivotal change."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-35",
+      "no": "35",
+      "titleZh": "第 35 段",
+      "titleEn": "Part 35",
+      "sentences": [
+        {
+          "en": "All right.",
+          "tc": "好吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "All "
+            },
+            {
+              "type": "usage",
+              "text": "right",
+              "targetId": "usage-right-right-now-right-away-that-is-rig",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-137-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Now, if you could go back to one specific moment in your childhood, what would it be?",
+          "tc": "現在，如果你可以回到童年的某個特定時刻，會是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, if you could go back to one "
+            },
+            {
+              "type": "word",
+              "text": "specific",
+              "targetId": "word-specific",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-138-01"
+            },
+            {
+              "type": "text",
+              "text": " moment in your "
+            },
+            {
+              "type": "word",
+              "text": "childhood",
+              "targetId": "word-childhood",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-138-02"
+            },
+            {
+              "type": "text",
+              "text": ", what would it be?"
+            }
+          ]
+        },
+        {
+          "en": "What moment would you choose?",
+          "tc": "你會選擇什麼時刻？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What moment would you choose?"
+            }
+          ]
+        },
+        {
+          "en": "It could be like a Christmas or I don't know, a time when you went ice skating or I remember for one Christmas I came down a little too early.",
+          "tc": "這可能就像聖誕節，或者我不知道，你去滑冰的時候，或者我記得有一個聖誕節我來得太早了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It could be like a Christmas or I don't know, a time when you went ice skating or I remember for one Christmas I came down a little too early."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-36",
+      "no": "36",
+      "titleZh": "第 36 段",
+      "titleEn": "Part 36",
+      "sentences": [
+        {
+          "en": "It was about 6:00 in the morning, and I came down, saw the tree, and saw that there were no gifts.",
+          "tc": "早上6:00左右，我下來看到那棵樹，發現沒有禮物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was about 6:00 in the morning, and I came down, saw the tree, and saw that there were no gifts."
+            }
+          ]
+        },
+        {
+          "en": "I was very sad, so I went back upstairs and fell asleep for a couple more hours.",
+          "tc": "我非常難過，就回到樓上，又睡了幾個小時。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was very sad, so I went back upstairs and fell asleep for a couple more hours."
+            }
+          ]
+        },
+        {
+          "en": "When I came down uh I saw there were presents under the tree and that's when?",
+          "tc": "當我下來的時候呃我看到樹下有禮物，那是什麼時候？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I came down uh I saw there were presents under the tree and that's when?"
+            }
+          ]
+        },
+        {
+          "en": "I started to suspect what we all know.",
+          "tc": "我開始懷疑我們都知道的事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I started to suspect what we all know."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-37",
+      "no": "37",
+      "titleZh": "第 37 段",
+      "titleEn": "Part 37",
+      "sentences": [
+        {
+          "en": "So I would have sent myself back to sleep probably.",
+          "tc": "所以我可能會讓自己回去睡覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I would have sent myself back to sleep probably."
+            }
+          ]
+        },
+        {
+          "en": "So you would go back to that moment to send yourself back to sleep?",
+          "tc": "那麼你會回到那個時刻讓自己重新睡著嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So you would go back to that moment to send yourself back to sleep?"
+            }
+          ]
+        },
+        {
+          "en": "To keep the magic going.",
+          "tc": "讓魔法繼續下去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "To keep the magic going."
+            }
+          ]
+        },
+        {
+          "en": "I meant like return to the feeling of the moment.",
+          "tc": "我的意思是想回到當時的感覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I meant like return to the feeling of the moment."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-38",
+      "no": "38",
+      "titleZh": "第 38 段",
+      "titleEn": "Part 38",
+      "sentences": [
+        {
+          "en": "Oh, well, I thought you were like you would want to experience going back in time.",
+          "tc": "哦，好吧，我以為你想體驗一下時光倒流的感覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Oh, well, I thought you were like you would want to "
+            },
+            {
+              "type": "word",
+              "text": "experience",
+              "targetId": "word-experience",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-149-01"
+            },
+            {
+              "type": "text",
+              "text": " going back in time."
+            }
+          ]
+        },
+        {
+          "en": "I thought that's what it meant.",
+          "tc": "我以為就是這個意思。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I thought that's what it meant."
+            }
+          ]
+        },
+        {
+          "en": "Oh, well, now I got to think about that one.",
+          "tc": "哦，好吧，現在我得考慮一下這個問題了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Oh, well, now I "
+            },
+            {
+              "type": "usage",
+              "text": "got",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-151-01"
+            },
+            {
+              "type": "text",
+              "text": " to think about that one."
+            }
+          ]
+        },
+        {
+          "en": "I would probably try and go back.",
+          "tc": "我可能會嘗試回去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would probably try and go back."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-39",
+      "no": "39",
+      "titleZh": "第 39 段",
+      "titleEn": "Part 39",
+      "sentences": [
+        {
+          "en": "I believe it was my 8th birthday.",
+          "tc": "我相信這是我八歲生日。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I believe it was my 8th birthday."
+            }
+          ]
+        },
+        {
+          "en": "I don't remember a lot, but whenever I see a photo of it, it just really brings up a warm fuzzy feeling.",
+          "tc": "我記得的不多，但每當我看到它的照片時，它確實會帶來一種溫暖模糊的感覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't remember a lot, but whenever I see a photo of it, it just really brings up a warm fuzzy feeling."
+            }
+          ]
+        },
+        {
+          "en": "My grandma had cooked me a lemon cake for my birthday, and they were visiting our house.",
+          "tc": "呃，我奶奶為我做了一個檸檬蛋糕作為我的生日禮物，他們來我們家做客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My grandma had cooked me a lemon cake for my birthday, and they were visiting our house."
+            }
+          ]
+        },
+        {
+          "en": "I think I invited two of the neighbors that we had around, and I was with my sister.",
+          "tc": "我想我邀請了我們周圍的兩個鄰居，我和我姐姐在一起。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think I invited two of the neighbors that we had around, and I was with my sister."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-40",
+      "no": "40",
+      "titleZh": "第 40 段",
+      "titleEn": "Part 40",
+      "sentences": [
+        {
+          "en": "It was a really nice time.",
+          "tc": "那真是一段美好的時光。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a really nice time."
+            }
+          ]
+        },
+        {
+          "en": "It was a simple but fun birthday.",
+          "tc": "這是一個簡單但有趣的生日。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a simple but fun birthday."
+            }
+          ]
+        },
+        {
+          "en": "Well, thank you, Brianna, for joining me on my Slow English podcast.",
+          "tc": "嗯，謝謝你，Brianna，加入我的慢速英語podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Well, thank you, Brianna, for joining me on my "
+            },
+            {
+              "type": "phrase",
+              "text": "Slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-159-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "And this was the interview about childhood memories with my sister, Brianna.",
+          "tc": "這是關於我姊姊布麗安娜童年回憶的訪談。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And this was the "
+            },
+            {
+              "type": "word",
+              "text": "interview",
+              "targetId": "word-interview",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-160-01"
+            },
+            {
+              "type": "text",
+              "text": " about "
+            },
+            {
+              "type": "word",
+              "text": "childhood",
+              "targetId": "word-childhood",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-160-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "memories",
+              "targetId": "word-memory",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-160-03"
+            },
+            {
+              "type": "text",
+              "text": " with my sister, Brianna."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-41",
+      "no": "41",
+      "titleZh": "第 41 段",
+      "titleEn": "Part 41",
+      "sentences": [
+        {
+          "en": "Say thank you, Brianna.",
+          "tc": "說聲謝謝，布麗安娜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Say thank you, Brianna."
+            }
+          ]
+        },
+        {
+          "en": "Thank you, Brianna.",
+          "tc": "謝謝你，布麗安娜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you, Brianna."
+            }
+          ]
+        },
+        {
+          "en": "All right.",
+          "tc": "好吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "All "
+            },
+            {
+              "type": "usage",
+              "text": "right",
+              "targetId": "usage-right-right-now-right-away-that-is-rig",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-163-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Thank you for watching.",
+          "tc": "感謝您的觀看。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you for watching."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-42",
+      "no": "42",
+      "titleZh": "第 42 段",
+      "titleEn": "Part 42",
+      "sentences": [
+        {
+          "en": "Thank you.",
+          "tc": "謝謝。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you."
+            }
+          ]
+        },
+        {
+          "en": "Subscribe and like this video if you want more content like this.",
+          "tc": "如果您想要更多這樣的內容，請訂閱並喜歡該影片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Subscribe and like this video if you want more content like this."
+            }
+          ]
+        },
+        {
+          "en": "If you liked this video, you'll probably like these videos here.",
+          "tc": "如果您喜歡這個視頻，您可能也會喜歡這裡的這些視頻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you liked this video, you'll probably like these videos here."
+            }
+          ]
+        },
+        {
+          "en": "Challenge yourself to see how far you understand our conversation and tell me where in this video do my questions start to get difficult or hard.",
+          "tc": "挑戰自己，看看您對我們的對話的理解程度，並告訴我在這段影片中我的問題在哪裡開始變得困難或困難。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Challenge yourself to see how far you understand our "
+            },
+            {
+              "type": "word",
+              "text": "conversation",
+              "targetId": "word-conversation",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-168-01"
+            },
+            {
+              "type": "text",
+              "text": " and tell me where in this video do my questions start to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch5-interview-about-childhood-memories-faster-english-podcast-for-intermediate-listening-practice-168-02"
+            },
+            {
+              "type": "text",
+              "text": " difficult or hard."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-43",
+      "no": "43",
+      "titleZh": "第 43 段",
+      "titleEn": "Part 43",
+      "sentences": [
+        {
+          "en": "Thank you for watching.",
+          "tc": "感謝您的觀看。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you for watching."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -938,153 +2527,238 @@
       "title": "B2 重點單字",
       "items": [
         {
-          "english": "favorite",
-          "kk": "/favorite/",
-          "partOfSpeech": "n.",
-          "meaning": "最喜歡的",
-          "note": "看到 favorite 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-advanced",
+          "lemma": "advanced",
+          "english": "advanced",
+          "kk": "[ədˈvænst]",
+          "partOfSpeech": "adj.",
+          "meaning": "進階的",
           "highlight": true
         },
         {
-          "english": "house",
-          "kk": "/house/",
-          "partOfSpeech": "n.",
-          "meaning": "房子",
-          "note": "看到 house 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-intermediate",
+          "lemma": "intermediate",
+          "english": "intermediate",
+          "kk": "[ˌɪntɚˈmidiɪt]",
+          "partOfSpeech": "adj.",
+          "meaning": "中高級的",
           "highlight": true
         },
         {
-          "english": "probably",
-          "kk": "/probably/",
-          "partOfSpeech": "adv.",
-          "meaning": "大概",
-          "note": "看到 probably 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-practice",
+          "lemma": "practice",
+          "english": "practice",
+          "kk": "[ˈpræktɪs]",
+          "partOfSpeech": "v./n.",
+          "meaning": "練習",
           "highlight": true
         },
         {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-interview",
+          "lemma": "interview",
+          "english": "interview",
+          "kk": "[ˈɪntɚˌvju]",
+          "partOfSpeech": "n./v.",
+          "meaning": "訪問、面試",
+          "highlight": true
         },
         {
-          "english": "been",
-          "kk": "/been/",
-          "partOfSpeech": "n.",
-          "meaning": "到過",
-          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
+          "id": "word-childhood",
+          "lemma": "childhood",
           "english": "childhood",
-          "kk": "/childhood/",
+          "kk": "[ˈtʃaɪldˌhʊd]",
           "partOfSpeech": "n.",
           "meaning": "童年",
-          "note": "看到 childhood 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-memory",
+          "lemma": "memory",
+          "english": "memory",
+          "kk": "[ˈmɛməri]",
+          "partOfSpeech": "n.",
+          "meaning": "回憶",
+          "highlight": true
         },
         {
-          "english": "get",
-          "kk": "/get/",
-          "partOfSpeech": "v.",
-          "meaning": "得到",
-          "note": "看到 get 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-experience",
+          "lemma": "experience",
+          "english": "experience",
+          "kk": "[ɪkˈspɪriəns]",
+          "partOfSpeech": "n.",
+          "meaning": "經驗",
+          "highlight": true
+        },
+        {
+          "id": "word-conversation",
+          "lemma": "conversation",
+          "english": "conversation",
+          "kk": "[ˌkɑnvɚˈseʃən]",
+          "partOfSpeech": "n.",
+          "meaning": "對話",
+          "highlight": true
+        },
+        {
+          "id": "word-specific",
+          "lemma": "specific",
+          "english": "specific",
+          "kk": "[spəˈsɪfɪk]",
+          "partOfSpeech": "adj.",
+          "meaning": "具體的",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "meaning": "歡迎回到節目或某處",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and __welcome back__ to my __Slow English podcast__.",
+          "tc": "歡迎回到節目或某處"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "picked up",
-      "meaning": "拿起；接起；順路買/拿",
+      "id": "phrase-slow-english-podcast",
+      "phrase": "Slow English podcast",
+      "meaning": "慢速英語 podcast 節目",
       "examples": [
         {
-          "en": "Doing dishes, taking out the trash every once in a while, and just making sure the house was picked up.",
-          "tc": "洗碗，不時倒垃圾，確保房子被清理乾淨。"
+          "en": "Hello and __welcome back__ to my __Slow English podcast__.",
+          "tc": "慢速英語 podcast 節目"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "going to",
-      "meaning": "去",
+      "id": "phrase-grow-up",
+      "phrase": "grow up",
+      "meaning": "長大",
       "examples": [
         {
-          "en": "Today I am going to interview my sister, Brianna.",
-          "tc": "今天我要採訪我的妹妹布麗安娜。"
+          "en": "So, __first of all__, where did you __grow up__?",
+          "tc": "長大"
         }
+      ]
+    },
+    {
+      "id": "phrase-first-of-all",
+      "phrase": "first of all",
+      "meaning": "首先",
+      "examples": [
+        {
+          "en": "So, __first of all__, where did you __grow up__?",
+          "tc": "首先"
+        }
+      ]
+    },
+    {
+      "id": "phrase-a-little-bit",
+      "phrase": "a little bit",
+      "meaning": "一點點",
+      "examples": [
+        {
+          "en": "Maybe you were __a little bit__ of a troublemaker.",
+          "tc": "一點點"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-right-right-now-right-away-that-is-rig",
+      "word": "right",
+      "familiarMeaning": "右邊；正確",
+      "usage": "在 right now/right away/that is right 中表示「立刻、此刻、沒錯」等口語意思",
+      "translation": "立刻、現在、沒錯",
+      "examples": [
+        "All 《right》."
+      ]
+    },
+    {
+      "id": "usage-get-get-ready-get-lost",
+      "word": "get",
+      "familiarMeaning": "得到",
+      "usage": "在 get ready/get lost 等搭配中表示「變得、進入某狀態」",
+      "translation": "變得、進入某狀態",
+      "examples": [
+        "Um, when it came to going to bed or turning off the lights, I would always run back up the stairs so monsters wouldn't 《get》 me."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "I'm asking you the question.",
-      "translation": "我在問你這個問題。",
+      "id": "grammar-1",
+      "sentence": "Hello and welcome back to my Slow English podcast.",
+      "translation": "大家好，歡迎回到我的慢速英文podcast。",
       "points": [
         {
-          "label": "asking question",
-          "text": "asking question",
-          "note": "注意 \"asking question\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "to 不定詞",
+          "text": "to + 原形動詞",
+          "note": "用來表示目的、補語或接在特定動詞後。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-2",
+      "sentence": "Um, when it came to going to bed or turning off the lights, I would always run back up the stairs so monsters wouldn't get me.",
+      "translation": "嗯，當我要睡覺或關燈時，我總是跑回樓梯上，這樣怪物就不會抓到我了。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "would 表示假設或委婉語氣",
+          "text": "would + 原形動詞",
+          "note": "用來談假設、過去習慣或較委婉的說法。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "Today I am making an interview for you to practice listening to questions and answers.",
-      "translation": "今天我給大家做一個採訪，練習聽問題和回答。",
+      "id": "grammar-3",
+      "sentence": "And did you have a favorite toy or stuffed animal when you were younger?",
+      "translation": "你小時候有最喜歡的玩具或絨毛動物嗎？",
       "points": [
         {
-          "label": "making interview questions",
-          "text": "making interview questions",
-          "note": "注意 \"making interview questions\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "when 時間子句",
+          "text": "when + 主詞 + 動詞",
+          "note": "用 when 說明事情發生的時間或情境。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "Today we're starting with some intermediate questions, moving on to advanced questions afterwards. Try and follow along as far as you can go.",
-      "translation": "今天我們從一些中級問題開始，然後轉向高階問題。嘗試並儘可能地跟隨。",
+      "id": "grammar-4",
+      "sentence": "And that house was a little bigger.",
+      "translation": "那房子更大一點。",
       "points": [
         {
-          "label": "we're starting questions",
-          "text": "we're starting questions",
-          "note": "注意 \"we're starting questions\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "that 引導名詞子句或關係子句",
+          "text": "that + 子句",
+          "note": "that 用來補充說明前面的想法或名詞。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "Oh, I guess that would be another one of my favorite snacks, but now if I eat Flaming Hot Cheetos, my stomach really hurts.",
+      "translation": "哦，我想那將是我最喜歡的另一種零食，但現在如果我吃火辣奇多，我的胃真的很痛。",
+      "points": [
+        {
+          "label": "if 條件句",
+          "text": "If + 子句, 主句",
+          "note": "用 if 帶出條件，再說明在此條件下的結果。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "Doing dishes, taking out the trash every once in a while, and just making sure the house was picked up.",
+      "translation": "洗碗，不時倒垃圾，確保房子收拾乾淨。",
+      "points": [
+        {
+          "label": "while + V-ing / 子句",
+          "text": "while + 動作",
+          "note": "表示兩個動作同時發生。"
         }
       ]
     }

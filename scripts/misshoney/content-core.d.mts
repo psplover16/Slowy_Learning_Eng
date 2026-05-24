@@ -73,6 +73,10 @@ export interface PlaylistSource {
 }
 
 export declare function buildScaffold(transcript: TranscriptInput): ContentScaffold
+export declare function addInlineTokensToPlaylistVideoData<T extends Record<string, any>>(
+  data: T,
+  options?: { preserveExisting?: boolean }
+): any
 export declare function validatePlaylistVideoData(data: unknown): ValidationResult
 export declare function planPromotionPaths(level: string, slug: string): PromotionPaths
 export declare function countLevelCoverage(params: LevelCoverageInput): LevelCoverageResult

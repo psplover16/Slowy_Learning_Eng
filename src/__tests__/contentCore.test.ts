@@ -1,12 +1,33 @@
 // @vitest-environment node
+import { readFileSync } from 'node:fs'
+import { resolve } from 'node:path'
 import { describe, it, expect } from 'vitest'
 import {
+  addInlineTokensToPlaylistVideoData,
   buildScaffold,
   validatePlaylistVideoData,
   planPromotionPaths,
   countLevelCoverage,
   findPlaylistSourceUrl,
 } from '../../scripts/misshoney/content-core.mjs'
+
+type ContentSentence = {
+  en: string
+  tc: string
+}
+
+type ContentScene = {
+  id: string
+  sentences: ContentSentence[]
+}
+
+type ContentFile = {
+  scenes: ContentScene[]
+}
+
+function readJsonFile<T>(path: string): T {
+  return JSON.parse(readFileSync(resolve(path), 'utf8')) as T
+}
 
 // Minimal valid PlaylistVideoData fixture
 function makeValidContent(overrides = {}) {
@@ -248,6 +269,21 @@ describe('validatePlaylistVideoData', () => {
     expect(result.errors.some((error: string) => error.includes('translation'))).toBe(true)
   })
 
+  it('accepts Traditional Chinese translations that include an English term with Chinese context', () => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{ en: 'Reservation.', tc: '「reservation」這個字。' }],
+        tags: [],
+      }],
+    })
+
+    expect(validatePlaylistVideoData(content).valid).toBe(true)
+  })
+
   it('rejects formulaic placeholder Traditional Chinese translations', () => {
     const content = makeValidContent({
       scenes: [{
@@ -418,6 +454,18 @@ describe('validatePlaylistVideoData', () => {
   it.each([
     'Who do you work with?',
     'After teaching, I study.',
+    'Where are you from?',
+    'And where are you from?',
+    'In Asia, right?',
+    'I try to.',
+    "I'd like to check in.",
+    'I could barely hold on.',
+    'I can also check the translation if I need to.',
+    'What is your favorite color, and why?',
+    'If so, which one is your favorite, and why?',
+    'Something that draws the eye in?',
+    'I know there are so many more holidays in the world like Diwali, the start of the Hindu New Year, Eid al-Fitr, the Islamic holiday that celebrates the end of Ramadan, Lunar New Year, Carnival, Holi, and La Tomatina.',
+    "Sugar makes you fat, but sugar is also very delicious, so I think it's worth it.",
   ])('accepts natural proofread A1 sentences for "%s"', (sentence) => {
     const content = makeValidContent({
       scenes: [{
@@ -431,6 +479,43 @@ describe('validatePlaylistVideoData', () => {
     })
 
     expect(validatePlaylistVideoData(content).valid).toBe(true)
+  })
+
+  it('keeps A1 ch15 holiday segment sentence translations aligned', () => {
+    const content = readJsonFile<ContentFile>('src/modules/playlists/data/videos/a1/ch15-absolute-beginner-slow-english-what-is-my-favorite-holiday.json')
+    const expectedTranslations = [
+      ['scene-02', "There are a lot of holidays like Christmas, New Year's, Three Kings Day, Valentine's Day, St. Patrick's Day, Easter, Kids' Day, Mother's Day, Father's Day, Halloween, the Day of the Dead, and Thanksgiving.", '有很多節日，像是聖誕節、新年、三王節、情人節、聖派翠克節、復活節、兒童節、母親節、父親節、萬聖節、亡靈節和感恩節。'],
+      ['scene-02', 'Those are the only holidays that I can think of right now.', '那些是我現在唯一想得到的節日。'],
+      ['scene-03', 'Those are the first holidays that come to mind.', '那些是我第一個想到的節日。'],
+      ['scene-03', 'What is another holiday that comes to mind for you?', '對你來說，還有什麼節日會浮現在腦海中？'],
+      ['scene-03', 'Something you celebrate in your country.', '也就是你在自己國家慶祝的節日。'],
+      ['scene-03', 'I know there are so many more holidays in the world like Diwali, the start of the Hindu New Year, Eid al-Fitr, the Islamic holiday that celebrates the end of Ramadan, Lunar New Year, Carnival, Holi, and La Tomatina.', '我知道世界上還有好多節日，像是排燈節、印度新年的開始、開齋節，也就是慶祝齋戒月結束的伊斯蘭節日、農曆新年、嘉年華、胡里節和番茄節。'],
+      ['scene-04', "There are so many holidays that I don't celebrate, but they have so much meaning.", '有好多節日我沒有慶祝，但它們很有意義。'],
+      ['scene-04', 'Humans celebrate everything we can.', '人類會盡可能慶祝一切。'],
+      ['scene-04', 'We eat, we dance, and we laugh any chance we get.', '我們吃東西、跳舞，也一有機會就歡笑。'],
+      ['scene-04', 'But to me, the best holiday is Christmas.', '但對我來說，最好的節日是聖誕節。'],
+      ['scene-05', "To me, it's more about the feeling.", '對我來說，它更關乎那種感覺。'],
+      ['scene-05', 'And for me, the best feelings I get are on Christmas.', '對我而言，我得到最好的感受都在聖誕節。'],
+      ['scene-05', 'I feel safe.', '我覺得安全。'],
+      ['scene-05', 'I feel cozy.', '我覺得舒適。'],
+      ['scene-06', 'I feel warm.', '我覺得溫暖。'],
+      ['scene-06', 'I feel loved.', '我覺得被愛。'],
+      ['scene-06', 'And I feel happy on Christmas.', '而且我在聖誕節覺得快樂。'],
+      ['scene-06', "That's why my favorite holiday is Christmas.", '這就是為什麼我最喜歡的節日是聖誕節。'],
+      ['scene-07', "Let's practice the past tense.", '讓我們練習過去式。'],
+    ] as const
+
+    for (const [sceneId, en, tc] of expectedTranslations) {
+      const scene = content.scenes.find((item) => item.id === sceneId)
+      const sentence = scene?.sentences.find((item) => item.en === en)
+
+      expect(sentence?.tc).toBe(tc)
+    }
+
+    expect(content.scenes
+      .flatMap((scene) => scene.sentences)
+      .some((sentence) => sentence.en === "Patrick's Day, Easter, Kids' Day, Mother's Day, Father's Day, Halloween, the Day of the Dead, and Thanksgiving."))
+      .toBe(false)
   })
 
   it('rejects inline token targets that do not resolve to learning entries', () => {
@@ -489,6 +574,124 @@ describe('validatePlaylistVideoData', () => {
     const result = validatePlaylistVideoData(content)
     expect(result.valid).toBe(false)
     expect(result.errors.some((error: string) => error.includes('duplicate vocabulary lemma: run'))).toBe(true)
+  })
+
+  it('rejects likely sentence translation alignment drift', () => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{
+          en: "Let's practice the past tense.",
+          tc: '你好，歡迎回到我的 Slow English 播客。這一集是給完全初學者的。我們來聊聊聖誕節。跟著我一起跟讀。幾天前，我在想最好的節日是什麼。有很多節日，像是聖誕節、新年、三王節、情人節、聖派翠克節、復活節、兒童節、母親節、父親節、萬聖節、亡靈節和感恩節。讓我們練習過去式。',
+          englishTokens: [{ type: 'text', text: "Let's practice the past tense." }],
+        }],
+        tags: [],
+      }],
+    })
+
+    const result = validatePlaylistVideoData(content)
+
+    expect(result.valid).toBe(false)
+    expect(result.errors.some((error: string) => error.includes('translation looks misaligned'))).toBe(true)
+  })
+})
+
+describe('addInlineTokensToPlaylistVideoData', () => {
+  it('adds stable English marker tokens from vocabulary, phrases, and usages without changing Chinese text', () => {
+    const content = makeValidContent({
+      slug: 'ch2-practice',
+      level: 'a2',
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{
+          en: 'I take on a project and run the team.',
+          tc: '我接下一個專案並負責帶團隊。',
+        }],
+        tags: [],
+      }],
+      vocabGroups: [{
+        title: 'Practice',
+        items: [
+          { id: 'word-project', lemma: 'project', english: 'project', kk: '/ˈprɑdʒɛkt/', partOfSpeech: 'n.', meaning: '專案' },
+        ],
+      }],
+      phrases: [{
+        id: 'phrase-take-on',
+        phrase: 'take on',
+        meaning: '承接；承擔',
+        examples: [{ en: 'I take on a project.', tc: '我承接一個專案。' }],
+      }],
+      usages: [{
+        id: 'usage-run-team',
+        word: 'run',
+        familiarMeaning: '跑',
+        usage: 'manage a team',
+        translation: '管理一個團隊',
+        examples: [{ en: 'I run the team.', tc: '我管理這個團隊。' }],
+      }],
+    })
+
+    const result = addInlineTokensToPlaylistVideoData(content)
+    const sentence = result.scenes[0].sentences[0]
+
+    expect(sentence.tc).toBe('我接下一個專案並負責帶團隊。')
+    expect(sentence.englishTokens).toEqual([
+      { type: 'text', text: 'I ' },
+      { type: 'phrase', text: 'take on', targetId: 'phrase-take-on', instanceId: 'marker-a2-ch2-practice-scene-01-001-001' },
+      { type: 'text', text: ' a ' },
+      { type: 'word', text: 'project', targetId: 'word-project', instanceId: 'marker-a2-ch2-practice-scene-01-001-002' },
+      { type: 'text', text: ' and ' },
+      { type: 'usage', text: 'run', targetId: 'usage-run-team', instanceId: 'marker-a2-ch2-practice-scene-01-001-003' },
+      { type: 'text', text: ' the team.' },
+    ])
+    expect(validatePlaylistVideoData(result).valid).toBe(true)
+  })
+
+  it('preserves existing proofread tokens by default', () => {
+    const content = makeValidContent({
+      scenes: [{
+        id: 'scene-01',
+        no: '01',
+        titleZh: '測試',
+        titleEn: 'Test',
+        sentences: [{
+          en: 'I eat an apple every day.',
+          tc: '我每天吃一顆蘋果。',
+          englishTokens: [
+            { type: 'text', text: 'I eat an ' },
+            { type: 'word', text: 'apple', targetId: 'word-apple', instanceId: 'marker-hand-authored' },
+            { type: 'text', text: ' every day.' },
+          ],
+        }],
+        tags: [],
+      }],
+      vocabGroups: [{
+        title: 'Food',
+        items: [{
+          id: 'word-apple',
+          lemma: 'apple',
+          english: 'apple',
+          kk: '/ˈæpəl/',
+          partOfSpeech: 'n.',
+          meaning: '蘋果',
+        }],
+      }],
+    })
+
+    const result = addInlineTokensToPlaylistVideoData(content)
+
+    expect(result.scenes[0].sentences[0].englishTokens?.[1]).toEqual({
+      type: 'word',
+      text: 'apple',
+      targetId: 'word-apple',
+      instanceId: 'marker-hand-authored',
+    })
   })
 })
 

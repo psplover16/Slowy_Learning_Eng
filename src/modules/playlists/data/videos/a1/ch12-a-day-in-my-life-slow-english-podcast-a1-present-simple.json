@@ -15,286 +15,1493 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：日常生活",
-      "titleEn": "Opening: everyday life",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "And I hop on video calls. I drive to the supermarket.",
-          "tc": "我開始視訊通話。我開車去超市。"
+          "en": "And I hop on video calls.",
+          "tc": "然後我上視訊通話。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I "
+            },
+            {
+              "type": "phrase",
+              "text": "hop on",
+              "targetId": "phrase-hop-on",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-001-01"
+            },
+            {
+              "type": "text",
+              "text": " video calls."
+            }
+          ]
         },
         {
-          "en": "I get vegetables and fruits. I order some food.",
-          "tc": "我得到蔬菜和水果。我點了一些食物。"
+          "en": "I drive to the supermarket.",
+          "tc": "我開車去超市。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I drive to the "
+            },
+            {
+              "type": "word",
+              "text": "supermarket",
+              "targetId": "word-supermarket",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-002-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Welcome back to my Slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "I get vegetables and fruit.",
+          "tc": "我買蔬菜和水果。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-003-01"
+            },
+            {
+              "type": "text",
+              "text": " vegetables and fruit."
+            }
+          ]
         },
         {
-          "en": "Today I'm going to tell you about my daily routine. I'll speak slowly and clearly so that you can understand and practice listening.",
-          "tc": "今天我就跟大家講講我的日常。我會慢慢地、清楚地講，以便你能理解並練習聽力。"
+          "en": "I order some food.",
+          "tc": "我點一些食物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "order",
+              "targetId": "word-order",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-004-01"
+            },
+            {
+              "type": "text",
+              "text": " some food."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "drive",
-          "kk": "/drive/",
-          "partOfSpeech": "adj.",
-          "meaning": "駕駛",
-          "note": "看到 drive 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "supermarket",
-          "kk": "/supermarket/",
-          "partOfSpeech": "n.",
-          "meaning": "超市場",
-          "note": "看到 supermarket 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常作息",
-      "titleEn": "Part 2: daily routine",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I wake up around 5 a.m. To have an early start to the morning.",
-          "tc": "我早上 5 點左右起床，以便早點開始新的一天。"
+          "en": "Hello and welcome back to my Slow English podcast.",
+          "tc": "哈囉，歡迎回到我的慢速英語 podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and welcome back to my Slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-005-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I like to start my day slowly.",
-          "tc": "我喜歡慢慢開始新的一天。"
+          "en": "Today I'm going to tell you about my daily routine.",
+          "tc": "今天我要告訴你我的日常作息。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today I'm going to tell you about my "
+            },
+            {
+              "type": "phrase",
+              "text": "daily routine",
+              "targetId": "phrase-daily-routine",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-006-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I read a book. This morning.",
-          "tc": "我讀了一本書。今晨。"
+          "en": "I'll speak slowly and clearly so that you can understand and practice listening.",
+          "tc": "我會慢慢地、清楚地說，這樣你就能聽懂並練習聽力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll speak slowly and "
+            },
+            {
+              "type": "word",
+              "text": "clearly",
+              "targetId": "word-clearly",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-007-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "so that",
+              "targetId": "phrase-so-that",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-007-02"
+            },
+            {
+              "type": "text",
+              "text": " you can understand and "
+            },
+            {
+              "type": "word",
+              "text": "practice",
+              "targetId": "word-practice",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-007-03"
+            },
+            {
+              "type": "text",
+              "text": " listening."
+            }
+          ]
         },
         {
-          "en": "I saw a little gua, a small lizard hanging on my sheets.",
-          "tc": "我看到我的床單上掛著一隻小卦，一隻小蜥蜴。"
+          "en": "I wake up around 5 a.m. to have an early start to the morning.",
+          "tc": "我大約早上五點起床，讓早晨有個早開始。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I wake up "
+            },
+            {
+              "type": "word",
+              "text": "around",
+              "targetId": "word-around",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-008-01"
+            },
+            {
+              "type": "text",
+              "text": " 5 a.m. to "
+            },
+            {
+              "type": "phrase",
+              "text": "have an early start",
+              "targetId": "phrase-have-an-early-start",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-008-02"
+            },
+            {
+              "type": "text",
+              "text": " to the morning."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "start",
-          "kk": "/start/",
-          "partOfSpeech": "n.",
-          "meaning": "開始",
-          "note": "看到 start 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
+          "en": "I like to start my day slowly.",
+          "tc": "我喜歡慢慢開始我的一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like to start my day slowly."
+            }
+          ]
+        },
+        {
+          "en": "So, first, I read a book.",
+          "tc": "所以，首先，我讀一本書。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, first, I read a book."
+            }
+          ]
+        },
+        {
+          "en": "This morning I saw a little gecko, a small lizard hanging on my sheets.",
+          "tc": "今天早上我看到一隻小壁虎，一隻掛在我的床單上的小蜥蜴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This morning I saw a little "
+            },
+            {
+              "type": "word",
+              "text": "gecko",
+              "targetId": "word-gecko",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-011-01"
+            },
+            {
+              "type": "text",
+              "text": ", a small "
+            },
+            {
+              "type": "word",
+              "text": "lizard",
+              "targetId": "word-lizard",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-011-02"
+            },
+            {
+              "type": "text",
+              "text": " hanging on my sheets."
+            }
+          ]
+        },
+        {
           "en": "They are so cute.",
-          "tc": "他們太可愛了。"
-        },
-        {
-          "en": "I love the sounds.",
-          "tc": "我喜歡這些聲音。"
-        },
-        {
-          "en": "They make. After making my bed, I stretch, I breathe, and I meditate. Once I finish warming up for the day,.",
-          "tc": "他們製造。鋪好床鋪後，我會伸展身體、呼吸、冥想。當我完成一天的熱身後，"
-        },
-        {
-          "en": "I go downstairs.",
-          "tc": "我下樓。"
+          "tc": "牠們很可愛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They are so cute."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "make",
-          "kk": "/make/",
-          "partOfSpeech": "v.",
-          "meaning": "製作",
-          "note": "看到 make 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：工作與學習",
-      "titleEn": "Part 4: work",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I brush my teeth and I sit down to start work. I check emails. I edit videos. I plan my lessons. And I hop on video calls. And meetings.",
-          "tc": "我刷完牙，坐下來開始工作。我檢查電子郵件。我編輯影片。我規劃我的課程。我開始視訊通話。還有會議。"
+          "en": "I love the sounds they make.",
+          "tc": "我喜歡牠們發出的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love the sounds they make."
+            }
+          ]
         },
         {
-          "en": "Then I make breakfast something filling so I can feel full for a long time. Most mornings.",
-          "tc": "然後我會做早餐，這樣我就能長時間感到飽足。大多數早晨。"
+          "en": "After making my bed, I stretch, I breathe, and I meditate.",
+          "tc": "整理床鋪之後，我伸展、呼吸，然後冥想。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "After making my bed",
+              "targetId": "phrase-after-making-my-bed",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-014-01"
+            },
+            {
+              "type": "text",
+              "text": ", I stretch, I breathe, and I "
+            },
+            {
+              "type": "word",
+              "text": "meditate",
+              "targetId": "word-meditate",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-014-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I like to eat chickpeas, onions, and potatoes. It's delicious. After I finish eating breakfast, I put on my shoes. I grab my helmet and I drive to the supermarket.",
-          "tc": "我喜歡吃鷹嘴豆、洋蔥和馬鈴薯。很好吃。吃完早餐後，我就穿上鞋子。我抓起頭盔，開車去超市。"
+          "en": "Once I finish warming up for the day, I go downstairs.",
+          "tc": "我完成一天的暖身之後，就下樓。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Once I finish",
+              "targetId": "phrase-once-i-finish",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-015-01"
+            },
+            {
+              "type": "text",
+              "text": " warming up for the day, I go "
+            },
+            {
+              "type": "word",
+              "text": "downstairs",
+              "targetId": "word-downstairs",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-015-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I go through each aisle to make sure.",
-          "tc": "我會穿過每條過道來確認。"
+          "en": "I brush my teeth, and I sit down to start work.",
+          "tc": "我刷牙，然後坐下來開始工作。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I brush my teeth, and I sit down to start work."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "make",
-          "kk": "/make/",
-          "partOfSpeech": "v.",
-          "meaning": "製作",
-          "note": "看到 make 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "aisle",
-          "kk": "/aisle/",
-          "partOfSpeech": "n.",
-          "meaning": "走道",
-          "note": "看到 aisle 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "drive",
-          "kk": "/drive/",
-          "partOfSpeech": "adj.",
-          "meaning": "駕駛",
-          "note": "看到 drive 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "I don't forget anything. Of course, the bakery is.",
-          "tc": "我什麼都沒有忘記。當然是麵包店了。"
+          "en": "I check emails.",
+          "tc": "我查看電子郵件。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I check emails."
+            }
+          ]
         },
         {
-          "en": "My favorite part because I always crave a sweet treat at the end of the day.",
-          "tc": "我最喜歡的部分是因為我總是渴望在一天結束時吃點甜食。"
+          "en": "I edit videos.",
+          "tc": "我剪輯影片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "edit",
+              "targetId": "word-edit",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-018-01"
+            },
+            {
+              "type": "text",
+              "text": " videos."
+            }
+          ]
         },
         {
-          "en": "I like to be well prepared for when I crave something sweet. That way.",
-          "tc": "當我渴望吃甜食時，我喜歡做好充分準備。那樣。"
+          "en": "I plan my lessons.",
+          "tc": "我規劃課程。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I plan my lessons."
+            }
+          ]
         },
         {
-          "en": "I don't have to go back to the supermarket again.",
-          "tc": "我不用再去超市了。"
+          "en": "And I hop on video calls and meetings.",
+          "tc": "然後我上視訊通話和會議。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I "
+            },
+            {
+              "type": "phrase",
+              "text": "hop on",
+              "targetId": "phrase-hop-on",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-020-01"
+            },
+            {
+              "type": "text",
+              "text": " video calls and meetings."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "supermarket",
-          "kk": "/supermarket/",
-          "partOfSpeech": "n.",
-          "meaning": "超市場",
-          "note": "看到 supermarket 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "I get vegetables and fruits and I stroll through the detergent aisle.",
-          "tc": "我買了蔬菜和水果，然後在洗滌劑通道上漫步。"
+          "en": "Then I make breakfast, something filling so I can feel full for a long time.",
+          "tc": "接著我做早餐，做一些有飽足感的東西，這樣我可以很久都覺得很飽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I make breakfast, something "
+            },
+            {
+              "type": "word",
+              "text": "filling",
+              "targetId": "word-filling",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-021-01"
+            },
+            {
+              "type": "text",
+              "text": " so I can feel full for a long time."
+            }
+          ]
+        },
+        {
+          "en": "Most mornings, I like to eat chickpeas, onions, and potatoes.",
+          "tc": "大多數早晨，我喜歡吃鷹嘴豆、洋蔥和馬鈴薯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Most mornings, I like to eat "
+            },
+            {
+              "type": "word",
+              "text": "chickpeas",
+              "targetId": "word-chickpea",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-022-01"
+            },
+            {
+              "type": "text",
+              "text": ", onions, and potatoes."
+            }
+          ]
+        },
+        {
+          "en": "It's delicious.",
+          "tc": "很好吃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's delicious."
+            }
+          ]
+        },
+        {
+          "en": "After I finish eating breakfast, I put on my shoes.",
+          "tc": "吃完早餐後，我穿上鞋子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After I finish eating breakfast, I "
+            },
+            {
+              "type": "phrase",
+              "text": "put on",
+              "targetId": "phrase-put-on",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-024-01"
+            },
+            {
+              "type": "text",
+              "text": " my shoes."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
+        {
+          "en": "I grab my helmet, and I drive to the supermarket.",
+          "tc": "我拿起安全帽，開車去超市。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "grab",
+              "targetId": "usage-grab-item",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-025-01"
+            },
+            {
+              "type": "text",
+              "text": " my "
+            },
+            {
+              "type": "word",
+              "text": "helmet",
+              "targetId": "word-helmet",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-025-02"
+            },
+            {
+              "type": "text",
+              "text": ", and I drive to the "
+            },
+            {
+              "type": "word",
+              "text": "supermarket",
+              "targetId": "word-supermarket",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-025-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I go through each aisle to make sure I don't forget anything.",
+          "tc": "我走過每一條走道，確認自己沒有忘記任何東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "go through",
+              "targetId": "phrase-go-through",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-026-01"
+            },
+            {
+              "type": "text",
+              "text": " each "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-026-02"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "phrase",
+              "text": "make sure",
+              "targetId": "phrase-make-sure",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-026-03"
+            },
+            {
+              "type": "text",
+              "text": " I don't forget anything."
+            }
+          ]
+        },
+        {
+          "en": "Of course, the bakery is my favorite part because I always crave a sweet treat at the end of the day.",
+          "tc": "當然，麵包店是我最喜歡的部分，因為我在一天結束時總是會想吃一點甜食。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Of course, the "
+            },
+            {
+              "type": "word",
+              "text": "bakery",
+              "targetId": "word-bakery",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-027-01"
+            },
+            {
+              "type": "text",
+              "text": " is my favorite part because I always "
+            },
+            {
+              "type": "word",
+              "text": "crave",
+              "targetId": "word-crave",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-027-02"
+            },
+            {
+              "type": "text",
+              "text": " a "
+            },
+            {
+              "type": "phrase",
+              "text": "sweet treat",
+              "targetId": "phrase-sweet-treat",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-027-03"
+            },
+            {
+              "type": "text",
+              "text": " at the end of the day."
+            }
+          ]
+        },
+        {
+          "en": "I like to be well prepared for when I crave something sweet.",
+          "tc": "我喜歡在想吃甜食時先準備好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like to be "
+            },
+            {
+              "type": "phrase",
+              "text": "well prepared",
+              "targetId": "phrase-well-prepared",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-028-01"
+            },
+            {
+              "type": "text",
+              "text": " for when I "
+            },
+            {
+              "type": "word",
+              "text": "crave",
+              "targetId": "word-crave",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-028-02"
+            },
+            {
+              "type": "text",
+              "text": " something sweet."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "That way, I don't have to go back to the supermarket again.",
+          "tc": "這樣一來，我就不用再回超市。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "That way",
+              "targetId": "phrase-that-way",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-029-01"
+            },
+            {
+              "type": "text",
+              "text": ", I don't have to "
+            },
+            {
+              "type": "phrase",
+              "text": "go back",
+              "targetId": "phrase-go-back",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-029-02"
+            },
+            {
+              "type": "text",
+              "text": " to the "
+            },
+            {
+              "type": "word",
+              "text": "supermarket",
+              "targetId": "word-supermarket",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-029-03"
+            },
+            {
+              "type": "text",
+              "text": " again."
+            }
+          ]
+        },
+        {
+          "en": "I get vegetables and fruit, and I stroll through the detergent aisle.",
+          "tc": "我買蔬菜和水果，然後悠閒地走過清潔劑走道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-030-01"
+            },
+            {
+              "type": "text",
+              "text": " vegetables and fruit, and I "
+            },
+            {
+              "type": "word",
+              "text": "stroll",
+              "targetId": "word-stroll",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-030-02"
+            },
+            {
+              "type": "text",
+              "text": " through the "
+            },
+            {
+              "type": "word",
+              "text": "detergent",
+              "targetId": "word-detergent",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-030-03"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-030-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
           "en": "I love the smell of the detergent aisle.",
-          "tc": "我喜歡洗滌劑通道的氣味。"
+          "tc": "我喜歡清潔劑走道的味道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love the smell of the "
+            },
+            {
+              "type": "word",
+              "text": "detergent",
+              "targetId": "word-detergent",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-031-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "aisle",
+              "targetId": "word-aisle",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-031-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "We drive home and I make lunch.",
-          "tc": "我們開車回家，我做午餐。"
-        },
-        {
-          "en": "I love to eat broccoli pasta with cheese and ham.",
-          "tc": "我喜歡吃西蘭花義大利麵配起司和火腿。"
+          "en": "We drive home, and I make lunch.",
+          "tc": "我們開車回家，然後我做午餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We drive home, and I make lunch."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
         {
-          "english": "make",
-          "kk": "/make/",
-          "partOfSpeech": "v.",
-          "meaning": "製作",
-          "note": "看到 make 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I love to eat broccoli pasta with cheese and ham.",
+          "tc": "我喜歡吃加起司和火腿的青花菜義大利麵。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love to eat "
+            },
+            {
+              "type": "word",
+              "text": "broccoli",
+              "targetId": "word-broccoli",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-033-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "pasta",
+              "targetId": "word-pasta",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-033-02"
+            },
+            {
+              "type": "text",
+              "text": " with cheese and ham."
+            }
+          ]
         },
         {
-          "english": "aisle",
-          "kk": "/aisle/",
-          "partOfSpeech": "n.",
-          "meaning": "走道",
-          "note": "看到 aisle 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "What do you like to eat for lunch?",
+          "tc": "你午餐喜歡吃什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you like to eat for lunch?"
+            }
+          ]
         },
         {
-          "english": "drive",
-          "kk": "/drive/",
-          "partOfSpeech": "adj.",
-          "meaning": "駕駛",
-          "note": "看到 drive 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "After lunch, I take advantage of a beautiful day, and I visit the beach.",
+          "tc": "午餐後，我把握美好的一天，去海邊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After lunch, I "
+            },
+            {
+              "type": "phrase",
+              "text": "take advantage of",
+              "targetId": "phrase-take-advantage-of",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-035-01"
+            },
+            {
+              "type": "text",
+              "text": " a beautiful day, and I visit the beach."
+            }
+          ]
+        },
+        {
+          "en": "I pack my beach bag, and I head to the beach.",
+          "tc": "我整理海灘包，然後前往海邊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I pack my beach bag, and I "
+            },
+            {
+              "type": "phrase",
+              "text": "head to",
+              "targetId": "phrase-head-to-head-home",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-036-01"
+            },
+            {
+              "type": "text",
+              "text": " the beach."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "It is a stunning beach.",
+          "tc": "那是一個很美的海灘。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is a "
+            },
+            {
+              "type": "word",
+              "text": "stunning",
+              "targetId": "word-stunning",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-037-01"
+            },
+            {
+              "type": "text",
+              "text": " beach."
+            }
+          ]
+        },
+        {
+          "en": "I swim for the whole afternoon.",
+          "tc": "我游泳游了整個下午。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I swim for the whole afternoon."
+            }
+          ]
+        },
+        {
+          "en": "And finally, my favorite part of the day: dinner.",
+          "tc": "最後，是一天中我最喜歡的部分：晚餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And finally, my favorite part of the day: dinner."
+            }
+          ]
+        },
+        {
+          "en": "I pick a nice restaurant on the beach, and I order some food.",
+          "tc": "我在海邊選了一間不錯的餐廳，點了一些食物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "pick",
+              "targetId": "usage-pick-item",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-040-01"
+            },
+            {
+              "type": "text",
+              "text": " a nice "
+            },
+            {
+              "type": "word",
+              "text": "restaurant",
+              "targetId": "word-restaurant",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-040-02"
+            },
+            {
+              "type": "text",
+              "text": " on the beach, and I "
+            },
+            {
+              "type": "word",
+              "text": "order",
+              "targetId": "word-order",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-040-03"
+            },
+            {
+              "type": "text",
+              "text": " some food."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
+        {
+          "en": "This is the barbecue chicken burger with fries and salad on the side.",
+          "tc": "這是烤雞漢堡，旁邊附薯條和沙拉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is the "
+            },
+            {
+              "type": "word",
+              "text": "barbecue",
+              "targetId": "word-barbecue",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-041-01"
+            },
+            {
+              "type": "text",
+              "text": " chicken "
+            },
+            {
+              "type": "word",
+              "text": "burger",
+              "targetId": "word-burger",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-041-02"
+            },
+            {
+              "type": "text",
+              "text": " with "
+            },
+            {
+              "type": "word",
+              "text": "fries",
+              "targetId": "word-fries",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-041-03"
+            },
+            {
+              "type": "text",
+              "text": " and salad "
+            },
+            {
+              "type": "phrase",
+              "text": "on the side",
+              "targetId": "phrase-on-the-side",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-041-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I also love fish tacos, and those are just as delicious.",
+          "tc": "我也喜歡魚肉塔可，而且那些也一樣好吃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also love fish "
+            },
+            {
+              "type": "word",
+              "text": "tacos",
+              "targetId": "word-taco",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-042-01"
+            },
+            {
+              "type": "text",
+              "text": ", and those are "
+            },
+            {
+              "type": "phrase",
+              "text": "just as delicious",
+              "targetId": "phrase-just-as-delicious",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-042-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "After I eat dinner, I head home.",
+          "tc": "吃完晚餐後，我回家。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After I eat dinner, I "
+            },
+            {
+              "type": "phrase",
+              "text": "head home",
+              "targetId": "phrase-head-to-head-home",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-043-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I get ready for bed.",
+          "tc": "我準備睡覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I get ready for bed."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "I brush my teeth.",
+          "tc": "我刷牙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I brush my teeth."
+            }
+          ]
+        },
+        {
+          "en": "I take a shower.",
+          "tc": "我洗澡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I take a shower."
+            }
+          ]
+        },
+        {
+          "en": "And I put on my pajamas.",
+          "tc": "然後我穿上睡衣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I "
+            },
+            {
+              "type": "phrase",
+              "text": "put on",
+              "targetId": "phrase-put-on",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-047-01"
+            },
+            {
+              "type": "text",
+              "text": " my "
+            },
+            {
+              "type": "word",
+              "text": "pajamas",
+              "targetId": "word-pajamas",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-047-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "And finally, I go to bed.",
+          "tc": "最後，我上床睡覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And finally, I go to bed."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "All in all, it is a great day.",
+          "tc": "總而言之，這是很棒的一天。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "All in all",
+              "targetId": "phrase-all-in-all",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-049-01"
+            },
+            {
+              "type": "text",
+              "text": ", it is a great day."
+            }
+          ]
+        },
+        {
+          "en": "That's a day in my life.",
+          "tc": "這就是我生活中的一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's a day in my life."
+            }
+          ]
+        },
+        {
+          "en": "Now it's your turn.",
+          "tc": "現在輪到你了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now it's your turn."
+            }
+          ]
+        },
+        {
+          "en": "Tell me about a day in your life.",
+          "tc": "告訴我你生活中的一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Tell me about a day in your life."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "What's your daily routine?",
+          "tc": "你的日常作息是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What's your "
+            },
+            {
+              "type": "phrase",
+              "text": "daily routine",
+              "targetId": "phrase-daily-routine",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-053-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Join my English course on Skool, where you can upload these challenges for me to see and to practice with others.",
+          "tc": "加入我在 Skool 上的英語課程，在那裡你可以上傳這些挑戰練習給我看，也可以和其他人一起練習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Join my English "
+            },
+            {
+              "type": "word",
+              "text": "course",
+              "targetId": "word-course",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-054-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "usage",
+              "text": "on",
+              "targetId": "usage-on-item",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-054-02"
+            },
+            {
+              "type": "text",
+              "text": " Skool, where you can "
+            },
+            {
+              "type": "word",
+              "text": "upload",
+              "targetId": "word-upload",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-054-03"
+            },
+            {
+              "type": "text",
+              "text": " these "
+            },
+            {
+              "type": "word",
+              "text": "challenges",
+              "targetId": "word-challenge",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-054-04"
+            },
+            {
+              "type": "text",
+              "text": " for me to see and to "
+            },
+            {
+              "type": "word",
+              "text": "practice",
+              "targetId": "word-practice",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-054-05"
+            },
+            {
+              "type": "text",
+              "text": " with others."
+            }
+          ]
+        },
+        {
+          "en": "Get to know me on a more personal level while learning English with me.",
+          "tc": "透過和我學英文，在更個人的層面認識我。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Get to know",
+              "targetId": "phrase-get-to-know",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-055-01"
+            },
+            {
+              "type": "text",
+              "text": " me on a more "
+            },
+            {
+              "type": "word",
+              "text": "personal",
+              "targetId": "word-personal",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-055-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "level",
+              "targetId": "word-level",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-055-03"
+            },
+            {
+              "type": "text",
+              "text": " while learning English with me."
+            }
+          ]
+        },
+        {
+          "en": "Focus on losing your fear of speaking, and lose your fear of making mistakes or feeling embarrassed.",
+          "tc": "專注於克服說英語的恐懼，也克服害怕犯錯或感到尷尬。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Focus",
+              "targetId": "word-focus",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-056-01"
+            },
+            {
+              "type": "text",
+              "text": " on "
+            },
+            {
+              "type": "phrase",
+              "text": "losing your fear of",
+              "targetId": "phrase-lose-one-s-fear-of",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-056-02"
+            },
+            {
+              "type": "text",
+              "text": " speaking, and "
+            },
+            {
+              "type": "phrase",
+              "text": "lose your fear of",
+              "targetId": "phrase-lose-one-s-fear-of",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-056-03"
+            },
+            {
+              "type": "text",
+              "text": " making mistakes or feeling "
+            },
+            {
+              "type": "word",
+              "text": "embarrassed",
+              "targetId": "word-embarrassed",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-056-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "You can find the link in the description.",
+          "tc": "你可以在說明欄找到連結。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can find the link in the "
+            },
+            {
+              "type": "word",
+              "text": "description",
+              "targetId": "word-description",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-057-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Join my course and gain confidence in English.",
+          "tc": "加入我的課程，提升你的英語自信。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Join my "
+            },
+            {
+              "type": "word",
+              "text": "course",
+              "targetId": "word-course",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-058-01"
+            },
+            {
+              "type": "text",
+              "text": " and gain "
+            },
+            {
+              "type": "word",
+              "text": "confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-058-02"
+            },
+            {
+              "type": "text",
+              "text": " in English."
+            }
+          ]
+        },
+        {
+          "en": "Like this video if you enjoyed it, and subscribe for more slow English podcasts.",
+          "tc": "如果你喜歡這支影片，請按讚，並訂閱更多慢速英語 podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like this video if you enjoyed it, and "
+            },
+            {
+              "type": "word",
+              "text": "subscribe",
+              "targetId": "word-subscribe",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-059-01"
+            },
+            {
+              "type": "text",
+              "text": " for more slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcasts",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch12-a-day-in-my-life-slow-english-podcast-a1-present-simple-059-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "再見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -302,153 +1509,716 @@
       "title": "A1 重點單字",
       "items": [
         {
-          "english": "day",
-          "kk": "/day/",
+          "id": "word-supermarket",
+          "lemma": "supermarket",
+          "english": "supermarket",
+          "kk": "/ˈsupɚˌmɑrkɪt/",
           "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "超市",
           "highlight": true
         },
         {
-          "english": "make",
-          "kk": "/make/",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast, podcasts",
+          "kk": "/ˈpɑdˌkæst/",
+          "partOfSpeech": "n.",
+          "meaning": "podcast；網路音訊或節目",
+          "highlight": true
+        },
+        {
+          "id": "word-clearly",
+          "lemma": "clearly",
+          "english": "clearly",
+          "kk": "/ˈklɪrlɪ/",
+          "partOfSpeech": "adv.",
+          "meaning": "清楚地",
+          "highlight": true
+        },
+        {
+          "id": "word-practice",
+          "lemma": "practice",
+          "english": "practice",
+          "kk": "/ˈpræktɪs/",
           "partOfSpeech": "v.",
-          "meaning": "製作",
-          "note": "看到 make 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "練習",
           "highlight": true
         },
         {
+          "id": "word-around",
+          "lemma": "around",
+          "english": "around",
+          "kk": "/əˈraʊnd/",
+          "partOfSpeech": "adv.",
+          "meaning": "大約",
+          "highlight": true
+        },
+        {
+          "id": "word-gecko",
+          "lemma": "gecko",
+          "english": "gecko",
+          "kk": "/ˈɡɛko/",
+          "partOfSpeech": "n.",
+          "meaning": "壁虎",
+          "highlight": true
+        },
+        {
+          "id": "word-lizard",
+          "lemma": "lizard",
+          "english": "lizard",
+          "kk": "/ˈlɪzɚd/",
+          "partOfSpeech": "n.",
+          "meaning": "蜥蜴",
+          "highlight": true
+        },
+        {
+          "id": "word-meditate",
+          "lemma": "meditate",
+          "english": "meditate",
+          "kk": "/ˈmɛdəˌtet/",
+          "partOfSpeech": "v.",
+          "meaning": "冥想",
+          "highlight": true
+        },
+        {
+          "id": "word-downstairs",
+          "lemma": "downstairs",
+          "english": "downstairs",
+          "kk": "/ˌdaʊnˈstɛrz/",
+          "partOfSpeech": "adv.",
+          "meaning": "到樓下；在樓下",
+          "highlight": true
+        },
+        {
+          "id": "word-edit",
+          "lemma": "edit",
+          "english": "edit",
+          "kk": "/ˈɛdɪt/",
+          "partOfSpeech": "v.",
+          "meaning": "剪輯；編輯",
+          "highlight": true
+        },
+        {
+          "id": "word-filling",
+          "lemma": "filling",
+          "english": "filling",
+          "kk": "/ˈfɪlɪŋ/",
+          "partOfSpeech": "adj.",
+          "meaning": "有飽足感的",
+          "highlight": true
+        },
+        {
+          "id": "word-chickpea",
+          "lemma": "chickpea",
+          "english": "chickpeas",
+          "kk": "/ˈtʃɪkˌpi/",
+          "partOfSpeech": "n.",
+          "meaning": "鷹嘴豆",
+          "highlight": true
+        },
+        {
+          "id": "word-helmet",
+          "lemma": "helmet",
+          "english": "helmet",
+          "kk": "/ˈhɛlmɪt/",
+          "partOfSpeech": "n.",
+          "meaning": "安全帽",
+          "highlight": true
+        },
+        {
+          "id": "word-aisle",
+          "lemma": "aisle",
           "english": "aisle",
-          "kk": "/aisle/",
+          "kk": "/aɪl/",
           "partOfSpeech": "n.",
           "meaning": "走道",
-          "note": "看到 aisle 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "drive",
-          "kk": "/drive/",
+          "id": "word-bakery",
+          "lemma": "bakery",
+          "english": "bakery",
+          "kk": "/ˈbekərɪ/",
+          "partOfSpeech": "n.",
+          "meaning": "麵包店；烘焙區",
+          "highlight": true
+        },
+        {
+          "id": "word-crave",
+          "lemma": "crave",
+          "english": "crave",
+          "kk": "/krev/",
+          "partOfSpeech": "v.",
+          "meaning": "很想要；渴望",
+          "highlight": true
+        },
+        {
+          "id": "word-stroll",
+          "lemma": "stroll",
+          "english": "stroll",
+          "kk": "/strol/",
+          "partOfSpeech": "v.",
+          "meaning": "悠閒地走",
+          "highlight": true
+        },
+        {
+          "id": "word-detergent",
+          "lemma": "detergent",
+          "english": "detergent",
+          "kk": "/dɪˈtɝdʒənt/",
+          "partOfSpeech": "n.",
+          "meaning": "清潔劑；洗衣精",
+          "highlight": true
+        },
+        {
+          "id": "word-broccoli",
+          "lemma": "broccoli",
+          "english": "broccoli",
+          "kk": "/ˈbrɑkəlɪ/",
+          "partOfSpeech": "n.",
+          "meaning": "青花菜",
+          "highlight": true
+        },
+        {
+          "id": "word-pasta",
+          "lemma": "pasta",
+          "english": "pasta",
+          "kk": "/ˈpɑstə/",
+          "partOfSpeech": "n.",
+          "meaning": "義大利麵",
+          "highlight": true
+        },
+        {
+          "id": "word-stunning",
+          "lemma": "stunning",
+          "english": "stunning",
+          "kk": "/ˈstʌnɪŋ/",
           "partOfSpeech": "adj.",
-          "meaning": "駕駛",
-          "note": "看到 drive 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "非常漂亮的；令人驚豔的",
+          "highlight": true
         },
         {
-          "english": "love",
-          "kk": "/love/",
+          "id": "word-restaurant",
+          "lemma": "restaurant",
+          "english": "restaurant",
+          "kk": "/ˈrɛstərənt/",
           "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "餐廳",
+          "highlight": true
         },
         {
-          "english": "start",
-          "kk": "/start/",
-          "partOfSpeech": "n.",
-          "meaning": "開始",
-          "note": "看到 start 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-order",
+          "lemma": "order",
+          "english": "order",
+          "kk": "/ˈɔrdɚ/",
+          "partOfSpeech": "v.",
+          "meaning": "點餐；訂購",
+          "highlight": true
         },
         {
-          "english": "supermarket",
-          "kk": "/supermarket/",
-          "partOfSpeech": "n.",
-          "meaning": "超市場",
-          "note": "看到 supermarket 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-barbecue",
+          "lemma": "barbecue",
+          "english": "barbecue",
+          "kk": "/ˈbɑrbɪˌkju/",
+          "partOfSpeech": "adj./n.",
+          "meaning": "烤肉的；烤肉",
+          "highlight": true
         },
         {
-          "english": "breakfast",
-          "kk": "/ˈbrɛkfəst/",
+          "id": "word-burger",
+          "lemma": "burger",
+          "english": "burger",
+          "kk": "/ˈbɝɡɚ/",
           "partOfSpeech": "n.",
-          "meaning": "早餐",
-          "note": "看到 breakfast 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "漢堡",
+          "highlight": true
+        },
+        {
+          "id": "word-fries",
+          "lemma": "fries",
+          "english": "fries",
+          "kk": "/fraɪz/",
+          "partOfSpeech": "n.",
+          "meaning": "薯條",
+          "highlight": true
+        },
+        {
+          "id": "word-taco",
+          "lemma": "taco",
+          "english": "tacos",
+          "kk": "/ˈtɑko/",
+          "partOfSpeech": "n.",
+          "meaning": "塔可",
+          "highlight": true
+        },
+        {
+          "id": "word-pajamas",
+          "lemma": "pajamas",
+          "english": "pajamas",
+          "kk": "/pəˈdʒɑməz/",
+          "partOfSpeech": "n.",
+          "meaning": "睡衣",
+          "highlight": true
+        },
+        {
+          "id": "word-course",
+          "lemma": "course",
+          "english": "course",
+          "kk": "/kɔrs/",
+          "partOfSpeech": "n.",
+          "meaning": "課程",
+          "highlight": true
+        },
+        {
+          "id": "word-upload",
+          "lemma": "upload",
+          "english": "upload",
+          "kk": "/ˈʌpˌlod/",
+          "partOfSpeech": "v.",
+          "meaning": "上傳",
+          "highlight": true
+        },
+        {
+          "id": "word-challenge",
+          "lemma": "challenge",
+          "english": "challenges",
+          "kk": "/ˈtʃælɪndʒ/",
+          "partOfSpeech": "n.",
+          "meaning": "挑戰；練習任務",
+          "highlight": true
+        },
+        {
+          "id": "word-personal",
+          "lemma": "personal",
+          "english": "personal",
+          "kk": "/ˈpɝsənəl/",
+          "partOfSpeech": "adj.",
+          "meaning": "個人的",
+          "highlight": true
+        },
+        {
+          "id": "word-level",
+          "lemma": "level",
+          "english": "level",
+          "kk": "/ˈlɛvəl/",
+          "partOfSpeech": "n.",
+          "meaning": "層面；程度",
+          "highlight": true
+        },
+        {
+          "id": "word-focus",
+          "lemma": "focus",
+          "english": "focus",
+          "kk": "/ˈfokəs/",
+          "partOfSpeech": "v.",
+          "meaning": "專注",
+          "highlight": true
+        },
+        {
+          "id": "word-embarrassed",
+          "lemma": "embarrassed",
+          "english": "embarrassed",
+          "kk": "/ɪmˈbærəst/",
+          "partOfSpeech": "adj.",
+          "meaning": "尷尬的",
+          "highlight": true
+        },
+        {
+          "id": "word-description",
+          "lemma": "description",
+          "english": "description",
+          "kk": "/dɪˈskrɪpʃən/",
+          "partOfSpeech": "n.",
+          "meaning": "說明；描述",
+          "highlight": true
+        },
+        {
+          "id": "word-confidence",
+          "lemma": "confidence",
+          "english": "confidence",
+          "kk": "/ˈkɑnfədəns/",
+          "partOfSpeech": "n.",
+          "meaning": "自信",
+          "highlight": true
+        },
+        {
+          "id": "word-subscribe",
+          "lemma": "subscribe",
+          "english": "subscribe",
+          "kk": "/səbˈskraɪb/",
+          "partOfSpeech": "v.",
+          "meaning": "訂閱",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
-      "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "id": "phrase-hop-on",
+      "phrase": "hop on",
+      "meaning": "加入通話、交通工具或活動",
       "examples": [
         {
-          "en": "Welcome back to my Slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "And I __hop on__ video calls.",
+          "tc": "加入通話、交通工具或活動"
         }
       ]
     },
     {
-      "id": "phrase-02",
+      "id": "phrase-daily-routine",
       "phrase": "daily routine",
       "meaning": "日常作息",
       "examples": [
         {
-          "en": "Today I'm going to tell you about my daily routine.",
-          "tc": "今天我就跟大家講講我的日常。"
+          "en": "Today I'm going to tell you about my __daily routine__.",
+          "tc": "日常作息"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "going to",
-      "meaning": "去",
+      "id": "phrase-so-that",
+      "phrase": "so that",
+      "meaning": "表示目的：為了讓某事發生",
       "examples": [
         {
-          "en": "Today I'm going to tell you about my daily routine.",
-          "tc": "今天我就跟大家講講我的日常。"
+          "en": "I'll speak slowly and **clearly** __so that__ you can understand and **practice** listening.",
+          "tc": "表示目的：為了讓某事發生"
         }
+      ]
+    },
+    {
+      "id": "phrase-have-an-early-start",
+      "phrase": "have an early start",
+      "meaning": "很早開始一天或活動",
+      "examples": [
+        {
+          "en": "I wake up **around** 5 a.m. to __have an early start__ to the morning.",
+          "tc": "很早開始一天或活動"
+        }
+      ]
+    },
+    {
+      "id": "phrase-after-making-my-bed",
+      "phrase": "after making my bed",
+      "meaning": "整理床鋪之後",
+      "examples": [
+        {
+          "en": "__After making my bed__, I stretch, I breathe, and I **meditate**.",
+          "tc": "整理床鋪之後"
+        }
+      ]
+    },
+    {
+      "id": "phrase-once-i-finish",
+      "phrase": "once I finish",
+      "meaning": "當我完成某事之後",
+      "examples": [
+        {
+          "en": "__Once I finish__ warming up for the day, I go **downstairs**.",
+          "tc": "當我完成某事之後"
+        }
+      ]
+    },
+    {
+      "id": "phrase-put-on",
+      "phrase": "put on",
+      "meaning": "穿上衣物或配戴物品",
+      "examples": [
+        {
+          "en": "I __put on__ my shoes.",
+          "tc": "穿上衣物或配戴物品"
+        },
+        {
+          "en": "I __put on__ my **pajamas**.",
+          "tc": "穿上衣物或配戴物品"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-through",
+      "phrase": "go through",
+      "meaning": "逐一走過、查看或經歷",
+      "examples": [
+        {
+          "en": "I __go through__ each **aisle**.",
+          "tc": "逐一走過、查看或經歷"
+        }
+      ]
+    },
+    {
+      "id": "phrase-make-sure",
+      "phrase": "make sure",
+      "meaning": "確認某事是真的或會發生",
+      "examples": [
+        {
+          "en": "I __go through__ each **aisle** to __make sure__ I don't forget anything.",
+          "tc": "確認某事是真的或會發生"
+        }
+      ]
+    },
+    {
+      "id": "phrase-sweet-treat",
+      "phrase": "sweet treat",
+      "meaning": "令人開心的小甜點",
+      "examples": [
+        {
+          "en": "I always **crave** a __sweet treat__.",
+          "tc": "令人開心的小甜點"
+        }
+      ]
+    },
+    {
+      "id": "phrase-well-prepared",
+      "phrase": "well prepared",
+      "meaning": "事先準備好",
+      "examples": [
+        {
+          "en": "I like to be __well prepared__ for when I **crave** something sweet.",
+          "tc": "事先準備好"
+        }
+      ]
+    },
+    {
+      "id": "phrase-that-way",
+      "phrase": "that way",
+      "meaning": "用那種方法或結果",
+      "examples": [
+        {
+          "en": "__That way__, I don't have to __go back__ to the **supermarket** again.",
+          "tc": "用那種方法或結果"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-back",
+      "phrase": "go back",
+      "meaning": "返回原本的地方",
+      "examples": [
+        {
+          "en": "I don't have to __go back__ to the **supermarket** again.",
+          "tc": "返回原本的地方"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-advantage-of",
+      "phrase": "take advantage of",
+      "meaning": "善用機會或條件",
+      "examples": [
+        {
+          "en": "After lunch, I __take advantage of__ a beautiful day.",
+          "tc": "善用機會或條件"
+        }
+      ]
+    },
+    {
+      "id": "phrase-head-to-head-home",
+      "phrase": "head to / head home",
+      "meaning": "前往某處／回家",
+      "examples": [
+        {
+          "en": "I __head to__ the beach.",
+          "tc": "前往某處／回家"
+        },
+        {
+          "en": "After I eat dinner, I __head home__.",
+          "tc": "前往某處／回家"
+        }
+      ]
+    },
+    {
+      "id": "phrase-on-the-side",
+      "phrase": "on the side",
+      "meaning": "餐點配菜放在旁邊或另外附上",
+      "examples": [
+        {
+          "en": "This is the **barbecue** chicken **burger** with **fries** and salad __on the side__.",
+          "tc": "餐點配菜放在旁邊或另外附上"
+        }
+      ]
+    },
+    {
+      "id": "phrase-just-as-delicious",
+      "phrase": "just as delicious",
+      "meaning": "同樣好吃",
+      "examples": [
+        {
+          "en": "Those are __just as delicious__.",
+          "tc": "同樣好吃"
+        }
+      ]
+    },
+    {
+      "id": "phrase-all-in-all",
+      "phrase": "all in all",
+      "meaning": "總結來說",
+      "examples": [
+        {
+          "en": "__All in all__, it is a great day.",
+          "tc": "總結來說"
+        }
+      ]
+    },
+    {
+      "id": "phrase-get-to-know",
+      "phrase": "get to know",
+      "meaning": "逐漸認識某人",
+      "examples": [
+        {
+          "en": "__Get to know__ me on a more **personal** **level** while learning English with me.",
+          "tc": "逐漸認識某人"
+        }
+      ]
+    },
+    {
+      "id": "phrase-lose-one-s-fear-of",
+      "phrase": "lose one's fear of",
+      "meaning": "不再害怕某事",
+      "examples": [
+        {
+          "en": "**Focus** on __losing your fear of__ speaking, and __lose your fear of__ making mistakes or feeling **embarrassed**.",
+          "tc": "不再害怕某事"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-get-item",
+      "word": "get",
+      "familiarMeaning": "得到",
+      "usage": "在購物情境中表示「買到、拿到」",
+      "translation": "買",
+      "examples": [
+        "I 《get》 vegetables and fruit."
+      ]
+    },
+    {
+      "id": "usage-grab-item",
+      "word": "grab",
+      "familiarMeaning": "抓住",
+      "usage": "快速拿起要帶走的東西",
+      "translation": "拿起",
+      "examples": [
+        "I 《grab》 my **helmet**."
+      ]
+    },
+    {
+      "id": "usage-pick-item",
+      "word": "pick",
+      "familiarMeaning": "撿；採",
+      "usage": "表示「選擇」",
+      "translation": "選",
+      "examples": [
+        "I 《pick》 a nice **restaurant** on the beach."
+      ]
+    },
+    {
+      "id": "usage-on-item",
+      "word": "on",
+      "familiarMeaning": "在……上面",
+      "usage": "用於線上平台，表示「在某平台上」",
+      "translation": "在 Skool 上",
+      "examples": [
+        "Join my English **course** 《on》 Skool."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "And I hop on video calls. I drive to the supermarket.",
-      "translation": "我開始視訊通話。我開車去超市。",
+      "id": "grammar-1",
+      "sentence": "I'll speak slowly and clearly so that you can understand and practice listening.",
+      "translation": "我會慢慢地、清楚地說，這樣你就能聽懂並練習聽力。",
       "points": [
         {
-          "label": "hop calls drive",
-          "text": "hop calls drive",
-          "note": "注意 \"hop calls drive\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "so that 目的子句",
+          "text": "so that + 主詞 + can + 原形動詞",
+          "note": "用來說明前面的動作目的。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "I get vegetables and fruits. I order some food.",
-      "translation": "我得到蔬菜和水果。我點了一些食物。",
+      "id": "grammar-2",
+      "sentence": "After making my bed, I stretch, I breathe, and I meditate.",
+      "translation": "整理床鋪之後，我伸展、呼吸，然後冥想。",
       "points": [
         {
-          "label": "get vegetables fruits",
-          "text": "get vegetables fruits",
-          "note": "注意 \"get vegetables fruits\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "After + V-ing",
+          "text": "After + 動名詞片語, 主詞 + 動詞",
+          "note": "前後主詞相同時，可用 V-ing 簡化「After I make my bed」。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "Welcome back to my Slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-3",
+      "sentence": "Once I finish warming up for the day, I go downstairs.",
+      "translation": "我完成一天的暖身之後，就下樓。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "Once 時間子句 + finish V-ing",
+          "text": "Once + 主詞 + finish + V-ing, 主句",
+          "note": "once 表示「一……就……」；finish 後面接動名詞。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "Today I'm going to tell you about my daily routine. I'll speak slowly and clearly so that you can understand and practice listening.",
-      "translation": "今天我就跟大家講講我的日常。我會慢慢地、清楚地講，以便你能理解並練習聽力。",
+      "id": "grammar-4",
+      "sentence": "Then I make breakfast, something filling so I can feel full for a long time.",
+      "translation": "接著我做早餐，做一些有飽足感的東西。",
       "points": [
         {
-          "label": "daily routine",
-          "text": "daily routine",
-          "note": "注意 \"daily routine\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定代名詞 + 形容詞",
+          "text": "something + adjective",
+          "note": "something 後面的形容詞用來補充說明它的特質。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "I go through each aisle to make sure I don't forget anything.",
+      "translation": "我走過每一條走道，確認自己沒有忘記任何東西。",
+      "points": [
+        {
+          "label": "to V 表目的 + make sure 子句",
+          "text": "to + 原形動詞；make sure + 主詞 + 動詞",
+          "note": "to make sure 說明走過每條走道的目的。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "I like to be well prepared for when I crave something sweet.",
+      "translation": "我喜歡在想吃甜食時先準備好。",
+      "points": [
+        {
+          "label": "for when + 子句",
+          "text": "for + when + 主詞 + 動詞",
+          "note": "for when 表示「為某個可能發生的時刻預先準備」。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "Get to know me on a more personal level while learning English with me.",
+      "translation": "一邊和我學英文，一邊在更個人的層面認識我。",
+      "points": [
+        {
+          "label": "while + V-ing",
+          "text": "while + 動名詞片語",
+          "note": "當主詞可從上下文理解時，while 後可接 V-ing 表示同時進行。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "Focus on losing your fear of speaking, and lose your fear of making mistakes or feeling embarrassed.",
+      "translation": "專注於克服說英語的恐懼，也克服害怕犯錯或感到尷尬。",
+      "points": [
+        {
+          "label": "介系詞 + V-ing",
+          "text": "on/of + 動名詞",
+          "note": "介系詞後面若接動作，要用 V-ing 形式。"
         }
       ]
     }

@@ -15,744 +15,1518 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my Slow English podcast. Why am I learning Chinese?",
-          "tc": "歡迎回到我的慢速英語podcast。我為什麼要學中文？"
+          "en": "Hello and welcome back to my Slow English podcast.",
+          "tc": "大家好，歡迎回到我的慢速英文podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my "
+            },
+            {
+              "type": "phrase",
+              "text": "Slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-001-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Why am I learning Chinese?",
+          "tc": "我為什麼要學中文？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Why am I "
+            },
+            {
+              "type": "word",
+              "text": "learning",
+              "targetId": "word-learning",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-002-01"
+            },
+            {
+              "type": "text",
+              "text": " Chinese?"
+            }
+          ]
         },
         {
           "en": "This podcast is for you to practice your English listening while being engaged in real life stories about me.",
-          "tc": "這個podcast旨在讓你一邊練習英語聽力，一邊聆聽有關我的真實故事。"
+          "tc": "這個podcast是為了讓你練習英語聽力，同時參與關於我的真實故事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-003-01"
+            },
+            {
+              "type": "text",
+              "text": " is for you to "
+            },
+            {
+              "type": "word",
+              "text": "practice",
+              "targetId": "word-practice",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-003-02"
+            },
+            {
+              "type": "text",
+              "text": " your English listening while being engaged in real life stories about me."
+            }
+          ]
         },
         {
-          "en": "I've been learning Chinese for four years now. On and off. For 4 years.",
-          "tc": "我學中文已經四年了。打開和關閉。 4年了。"
-        },
-        {
-          "en": "I get lazy.",
-          "tc": "我變懶了。"
+          "en": "I've been learning Chinese for four years now.",
+          "tc": "我已經學中文四年了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've been "
+            },
+            {
+              "type": "word",
+              "text": "learning",
+              "targetId": "word-learning",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-004-01"
+            },
+            {
+              "type": "text",
+              "text": " Chinese for four years now."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "chinese",
-          "kk": "/chinese/",
-          "partOfSpeech": "n.",
-          "meaning": "中國人",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "years",
-          "kk": "/years/",
-          "partOfSpeech": "n.",
-          "meaning": "年",
-          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I'm sure you know how hard.",
-          "tc": "我相信你知道有多難。"
+          "en": "On and off.",
+          "tc": "開啟和關閉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "On and off."
+            }
+          ]
         },
         {
-          "en": "It is to find motivation every day to study a new language, to sit down and read or write or take a lesson. And it's the same for me.",
-          "tc": "它是每天尋找學習新語言的動力，坐下來閱讀、寫作或上課。對我來說也是一樣。"
+          "en": "For 4 years because I get lazy sometimes.",
+          "tc": "四年了，因為我有時會偷懶。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For 4 years because I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-006-01"
+            },
+            {
+              "type": "text",
+              "text": " lazy sometimes."
+            }
+          ]
         },
         {
-          "en": "I get really lazy and unmotivated to study Chinese.",
-          "tc": "我真的很懶，沒有動力學習中文。"
+          "en": "I'm sure you know how hard it is to find motivation every day to study a new language, to sit down and read or write or take a lesson.",
+          "tc": "我相信你知道每天找到學習新語言的動力，坐下來閱讀、寫作或上課是多麼困難。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm sure you know how hard it is to find motivation every day to study a new "
+            },
+            {
+              "type": "word",
+              "text": "language",
+              "targetId": "word-language",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-007-01"
+            },
+            {
+              "type": "text",
+              "text": ", to sit down and read or write or take a lesson."
+            }
+          ]
         },
         {
-          "en": "Sometimes. And that was actually a huge inspiration for me to start with my slow English podcast.",
-          "tc": "有時。這實際上對我開始我的慢速英語podcast來說是一個巨大的啟發。"
+          "en": "And it's the same for me.",
+          "tc": "對我來說也是一樣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And it's the same for me."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "chinese",
-          "kk": "/chinese/",
-          "partOfSpeech": "n.",
-          "meaning": "中國人",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "language",
-          "kk": "/ˈlæŋɡwɪdʒ/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "new",
-          "kk": "/new/",
-          "partOfSpeech": "n.",
-          "meaning": "新的",
-          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I found a YouTube channel. I found a YouTube channel who told slow Chinese stories. Her channel is called Lazy Chinese.",
-          "tc": "我找到了一個 YouTube 頻道。我找到了一個 YouTube 頻道，講的是慢節奏的中國故事。她的頻道叫「懶惰中文」。"
+          "en": "I get really lazy and unmotivated to study Chinese sometimes.",
+          "tc": "我有時真的很懶，沒有動力學習中文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-009-01"
+            },
+            {
+              "type": "text",
+              "text": " really lazy and unmotivated to study Chinese sometimes."
+            }
+          ]
         },
         {
-          "en": "She uses comprehensible input,.",
-          "tc": "她使用可理解的輸入。"
+          "en": "And that was actually a huge inspiration for me to start with my Slow English podcast.",
+          "tc": "這其實是我開始製作慢速英語podcast的巨大靈感。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And that was actually a huge inspiration for me to start with my "
+            },
+            {
+              "type": "phrase",
+              "text": "Slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-010-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "The first time that I actually felt excited. Because I understood the language.",
-          "tc": "我第一次真正感到興奮。因為我聽懂了語言。"
+          "en": "I found a YouTube channel.",
+          "tc": "我找到了一個 YouTube 頻道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I found a YouTube channel."
+            }
+          ]
         },
         {
-          "en": "I had been practicing for four years.",
-          "tc": "我已經練習四年了。"
+          "en": "I found a YouTube channel who told slow Chinese stories.",
+          "tc": "我發現了一個YouTube頻道，講的是中國慢故事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I found a YouTube channel who told slow Chinese stories."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "chinese",
-          "kk": "/chinese/",
-          "partOfSpeech": "n.",
-          "meaning": "中國人",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "language",
-          "kk": "/ˈlæŋɡwɪdʒ/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "years",
-          "kk": "/years/",
-          "partOfSpeech": "n.",
-          "meaning": "年",
-          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：語言學習",
-      "titleEn": "Part 4: language",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "It was so easy to understand and without even trying. I was learning so many new words and practicing so many new grammar structures just by listening and looking at her slow.",
-          "tc": "它是如此容易理解，甚至無需嘗試。光是慢慢地聽和看她，我就學會了很多新單詞，練習了很多新的文法結構。"
+          "en": "Her channel is called Lazy Chinese and she uses comprehensible input, but it was the first time that I actually felt excited.",
+          "tc": "她的頻道叫懶人中文，用的是可以理解的輸入法，但我還是第一次真正感到興奮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Her channel is called Lazy Chinese and she uses comprehensible input, but it was the first time that I actually felt excited."
+            }
+          ]
         },
         {
-          "en": "Hand gestures and facial gestures. I was so inspired to continue studying Chinese.",
-          "tc": "手勢和臉部表情。我深受啟發，決定繼續學習中文。"
+          "en": "Excited because I understood the language I had been practicing for four years and it was so easy to understand and without even trying.",
+          "tc": "很興奮，因為我理解了我已經練習了四年的語言，而且它非常容易理解，甚至不需要嘗試。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Excited because I understood the "
+            },
+            {
+              "type": "word",
+              "text": "language",
+              "targetId": "word-language",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-014-01"
+            },
+            {
+              "type": "text",
+              "text": " I had been "
+            },
+            {
+              "type": "word",
+              "text": "practicing",
+              "targetId": "word-practice",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-014-02"
+            },
+            {
+              "type": "text",
+              "text": " for four years and it was so easy to understand and without even trying."
+            }
+          ]
         },
         {
-          "en": "The first time I actually understood Chinese.",
-          "tc": "我第一次真正聽懂中文。"
+          "en": "I was learning so many new words and practicing so many new grammar structures just by listening and looking at her slow hand gestures and facial gestures.",
+          "tc": "光是聽和看她緩慢的手勢和臉部表情，我就學到了很多新單字，練習了很多新文法結構。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was "
+            },
+            {
+              "type": "word",
+              "text": "learning",
+              "targetId": "word-learning",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-015-01"
+            },
+            {
+              "type": "text",
+              "text": " so many new words and "
+            },
+            {
+              "type": "word",
+              "text": "practicing",
+              "targetId": "word-practice",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-015-02"
+            },
+            {
+              "type": "text",
+              "text": " so many new grammar structures just by listening and looking at her slow hand gestures and facial gestures."
+            }
+          ]
         },
         {
-          "en": "She was speaking so slow.",
-          "tc": "她說得很慢。"
+          "en": "I was so inspired to continue studying Chinese because it was the first time I actually understood Chinese because she was speaking so slow.",
+          "tc": "我很受鼓舞繼續學習中文，因為這是我第一次真正理解中文，因為她說得很慢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was so inspired to continue studying Chinese because it was the first time I actually understood Chinese because she was speaking so slow."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "chinese",
-          "kk": "/chinese/",
-          "partOfSpeech": "n.",
-          "meaning": "中國人",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "new",
-          "kk": "/new/",
-          "partOfSpeech": "n.",
-          "meaning": "新的",
-          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "understand",
-          "kk": "/understand/",
-          "partOfSpeech": "n.",
-          "meaning": "理解",
-          "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "The first time after 4 years of studying, practicing, listening,.",
-          "tc": "經過四年的學習、練習、聆聽，這是第一次。"
+          "en": "The first time after 4 years of studying, practicing, listening, I finally felt progress and achievement.",
+          "tc": "經過四年的學習、練習、傾聽，我終於第一次感受到了進步和成就。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The first time after 4 years of studying, "
+            },
+            {
+              "type": "word",
+              "text": "practicing",
+              "targetId": "word-practice",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-017-01"
+            },
+            {
+              "type": "text",
+              "text": ", listening, I finally felt progress and achievement."
+            }
+          ]
         },
         {
-          "en": "Finally felt progress and achievement. And when you don't feel progress or achievement,.",
-          "tc": "終於感受到了進步和成就。當你感覺不到進步或成就。"
+          "en": "And when you don't feel progress or achievement, when you don't feel like you're improving at something, it's hard to keep giving your best at improving.",
+          "tc": "當你感覺不到進步或成就時，當你感覺自己在某件事上沒有進步時，你就很難繼續盡最大努力去進步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And when you don't feel progress or achievement, when you don't feel like you're improving at something, it's hard to keep giving your best at improving."
+            }
+          ]
         },
         {
-          "en": "When you don't feel like you're improving at something, it's hard to keep giving your best at improving. It's hard to give your 100%?",
-          "tc": "當你感覺自己在某件事上沒有進步時，就很難繼續盡最大努力去進步。付出100%很難嗎？"
+          "en": "It's hard to give your 100%.",
+          "tc": "很難做到100%。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's hard to give your 100%."
+            }
+          ]
         },
         {
-          "en": "I thought how many students especially my own students feel the same way feel like.",
-          "tc": "我想有多少學生尤其是我自己的學生有同樣的感覺。"
+          "en": "So I thought how many students especially my own students feel the same way feel like.",
+          "tc": "所以我想有多少學生尤其是我自己的學生有同樣的感覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I thought how many students especially my own students feel the same way feel like."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "years",
-          "kk": "/years/",
-          "partOfSpeech": "n.",
-          "meaning": "年",
-          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：語言學習",
-      "titleEn": "Part 6: language",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "They don't understand English.",
-          "tc": "他們聽不懂英語。"
+          "en": "They don't understand English and they never will only because it takes a long time to see progress in the real world,.",
+          "tc": "他們不懂英語，而且永遠不會，只是因為在現實世界中需要很長時間才能看到進步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They don't understand English and they never will only because it takes a long time to see progress in the real world,."
+            }
+          ]
         },
         {
-          "en": "They never will only because it takes a long time to see progress in the real world, but in a slow demonstrated way. So many people would realize that.",
-          "tc": "他們永遠不會這樣做，只是因為在現實世界中需要很長時間才能看到進展，而且是以一種緩慢的展示方式。很多人都會意識到這一點。"
+          "en": "But in a slow demonstrated way.",
+          "tc": "但以緩慢的方式展示。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But in a slow demonstrated way."
+            }
+          ]
         },
         {
-          "en": "They actually do understand English.",
-          "tc": "他們實際上確實懂英語。"
+          "en": "So many people would realize that they actually do understand English.",
+          "tc": "很多人會意識到他們其實懂英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So many people would realize that they actually do understand English."
+            }
+          ]
         },
         {
-          "en": "They actually understand much more than.",
-          "tc": "他們其實了解的遠不止這些。"
+          "en": "They actually understand much more than they think.",
+          "tc": "他們實際上理解的比他們想像的要多得多。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They actually understand much more than they think."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "understand",
-          "kk": "/understand/",
-          "partOfSpeech": "n.",
-          "meaning": "理解",
-          "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "They think. So, I decided one day to make a video, specifically a Tik Tok,.",
-          "tc": "他們認為。所以，我決定有一天製作一個視頻，特別是 Tik Tok。"
+          "en": "So, I decided one day to make a video, specifically a Tik Tok, where I spoke slowly and I made lots of hand gestures at a speed that anyone could understand using hand gesture.",
+          "tc": "所以，我決定有一天製作一個視頻，特別是抖音，我在視頻中說話很慢，並且以任何人都可以理解的手勢速度做了很多手勢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I decided one day to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-025-01"
+            },
+            {
+              "type": "text",
+              "text": " a video, specifically a Tik Tok, where I spoke slowly and I "
+            },
+            {
+              "type": "usage",
+              "text": "made",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-025-02"
+            },
+            {
+              "type": "text",
+              "text": " lots of hand gestures at a speed that anyone could understand using hand gesture."
+            }
+          ]
         },
         {
-          "en": "Where I spoke slowly and I made lots of hand gestures at a speed that anyone could understand using hand gesture. Ers in a way?",
-          "tc": "我說話很慢，以任何人都能理解的速度做了很多手勢。某種程度上？"
+          "en": "Ers in a way where you could understand even if you had never studied English because body language speaks much louder than words.",
+          "tc": "即使你從未學過英語，也可以理解，因為肢體語言比語言更有效。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Ers in a way where you could understand even if you had never studied English because body "
+            },
+            {
+              "type": "word",
+              "text": "language",
+              "targetId": "word-language",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-026-01"
+            },
+            {
+              "type": "text",
+              "text": " speaks much louder than words."
+            }
+          ]
         },
         {
-          "en": "Where you could understand even?",
-          "tc": "哪裡還能聽懂？"
+          "en": "The video did amazing.",
+          "tc": "視訊效果棒極了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The video did amazing."
+            }
+          ]
         },
         {
-          "en": "If you had never studied English because body language speaks much louder than words. The video did amazing. Everyone felt exactly how I imagined.",
-          "tc": "如果你從未學過英語，因為肢體語言比語言更有效。影片效果驚人。大家的感覺和我想像的一模一樣。"
+          "en": "Everyone felt exactly how I imagined they would feel and my Tik Tok went viral.",
+          "tc": "每個人的感受都和我想像的一樣，我的抖音迅速走紅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Everyone felt exactly how I imagined they would feel and my Tik Tok went viral."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "language",
-          "kk": "/ˈlæŋɡwɪdʒ/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "understand",
-          "kk": "/understand/",
-          "partOfSpeech": "n.",
-          "meaning": "理解",
-          "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "They would feel and my Tik Tok went viral.",
-          "tc": "他們會感覺到，我的 Tik Tok 就火了。"
+          "en": "The next day, I woke up to my phone going crazy, and I knew I had to make more videos.",
+          "tc": "第二天，我醒來發現手機變得瘋狂，我知道我必須製作更多影片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next day, I woke up to my phone going crazy, and I knew I had to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-029-01"
+            },
+            {
+              "type": "text",
+              "text": " more videos."
+            }
+          ]
         },
         {
-          "en": "Next day, I woke up to my phone going crazy, and I knew.",
-          "tc": "第二天，我醒來發現我的手機發瘋了，我知道。"
+          "en": "Longer, shorter, on YouTube, on Tik Tok, as many as I could make.",
+          "tc": "更長，更短，在YouTube上，在Tik Tok上，我能做多少就做多少。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Longer, shorter, on YouTube, on Tik Tok, as many as I could "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-030-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I had to make more videos. Longer, shorter, on YouTube, on Tik Tok, as many as I could make. Now, here.",
-          "tc": "我必須製作更多影片。更長、更短，在 YouTube、Tik Tok 上，盡我所能。現在，這裡。"
+          "en": "Now, here we are today, and I'm still trying to come up with creative ideas every day to find new ways for you to understand and speak English with confidence.",
+          "tc": "現在，我們今天就在這裡，我仍然每天都在努力提出創造性的想法，以找到讓您自信地理解和說英語的新方法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, here we are today, and I'm still trying to come up with creative ideas every day to find new ways for you to understand and speak English with "
+            },
+            {
+              "type": "word",
+              "text": "confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-031-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "We are today,.",
-          "tc": "我們今天，。"
+          "en": "Confidence, the only thing that matters.",
+          "tc": "信心，唯一重要的事。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-032-01"
+            },
+            {
+              "type": "text",
+              "text": ", the only thing that matters."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "new",
-          "kk": "/new/",
-          "partOfSpeech": "n.",
-          "meaning": "新的",
-          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：語言學習",
-      "titleEn": "Part 9: language",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "I'm still trying to come up with creative ideas every day to find new ways for you to understand and speak English with confidence. The only thing that matters. My dad,.",
-          "tc": "我仍然每天都在努力提出創造性的想法，以找到讓你自信地理解和說英語的新方法。唯一重要的事情。我的爸爸，。"
-        },
-        {
-          "en": "He was 17 years old,.",
-          "tc": "那年他17歲，。"
-        },
-        {
-          "en": "He didn't know a lick of English.",
-          "tc": "他不懂一點英語。"
+          "en": "My dad, for example, he came to the USA when he was 17 years old, and he didn't know a lick of English.",
+          "tc": "以我爸爸為例，他17歲時來到美國，他不懂一點英文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My dad, for example, he came to the USA when he was 17 years old, and he didn't know a lick of English."
+            }
+          ]
         },
         {
           "en": "He would just walk around with his dictionary and speak, order food, buy groceries, ask for directions.",
-          "tc": "他只是拿著字典走來走去，說話，點菜，買雜貨，問路。"
+          "tc": "他只是拿著字典走來走去，說話，點菜，買雜貨，問路。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He would just walk around with his dictionary and speak, order food, buy groceries, "
+            },
+            {
+              "type": "phrase",
+              "text": "ask for directions",
+              "targetId": "phrase-ask-for-directions",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-034-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "He had no other option.",
+          "tc": "他別無選擇。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He had no other option."
+            }
+          ]
+        },
+        {
+          "en": "He was thrown into the deep end.",
+          "tc": "他被扔進了深淵。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He was thrown into the deep end."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "new",
-          "kk": "/new/",
-          "partOfSpeech": "n.",
-          "meaning": "新的",
-          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "understand",
-          "kk": "/understand/",
-          "partOfSpeech": "n.",
-          "meaning": "理解",
-          "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "He had no other option.",
-          "tc": "他別無選擇。"
+          "en": "Right away when he arrived in the US, he only had himself and a will to learn.",
+          "tc": "當他到達美國時，他只有自己和學習的意願。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Right away",
+              "targetId": "phrase-right-away",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-037-01"
+            },
+            {
+              "type": "text",
+              "text": " when he arrived in the US, he only had himself and a will to learn."
+            }
+          ]
         },
         {
-          "en": "He arrived in the US,.",
-          "tc": "他到達美國，。"
+          "en": "Confidence, it's all you need.",
+          "tc": "信心，這就是你所需要的。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-038-01"
+            },
+            {
+              "type": "text",
+              "text": ", it's all you need."
+            }
+          ]
         },
         {
-          "en": "I got mine. When you truly believe something, no matter how absurd it could be at the moment,.",
-          "tc": "我得到了我的。當你真正相信某件事時，無論當時它有多荒謬。"
+          "en": "Fake it until you make it.",
+          "tc": "假裝它直到你成功。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Fake it until you "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-039-01"
+            },
+            {
+              "type": "text",
+              "text": " it."
+            }
+          ]
         },
         {
-          "en": "I am learning Chinese, a lot of people ask me why I decided to learn Chinese. And to be honest, my sister was the one to inspire me.",
-          "tc": "我正在學習中文，很多人問我為什麼決定要學中文。說實話，我的姐姐是激勵我的人。"
+          "en": "His dedication is admirable.",
+          "tc": "他的奉獻精神令人欽佩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "His dedication is admirable."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "chinese",
-          "kk": "/chinese/",
-          "partOfSpeech": "n.",
-          "meaning": "中國人",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：日常生活",
-      "titleEn": "Part 11: everyday life",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "She used to be obsessed with learning Chinese. And all.",
-          "tc": "她曾經迷戀學習中文。還有所有。"
+          "en": "And I know for a fact that's where I got mine.",
+          "tc": "我知道事實就是我得到了我的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I know for a fact that's where I "
+            },
+            {
+              "type": "usage",
+              "text": "got",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-041-01"
+            },
+            {
+              "type": "text",
+              "text": " mine."
+            }
+          ]
         },
         {
-          "en": "She did was study and practice Chinese.",
-          "tc": "她所做的就是學習和練習中文。"
+          "en": "When you truly believe something, no matter how absurd it could be at the moment, if you really believe, you can make it a reality.",
+          "tc": "當你真正相信某件事時，無論它在當時有多荒謬，如果你真的相信，你就能讓它成為現實。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When you truly believe something, no matter how absurd it could be at the moment, if you really believe, you can "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-042-01"
+            },
+            {
+              "type": "text",
+              "text": " it a reality."
+            }
+          ]
         },
         {
-          "en": "We got to talking and I was overwhelmed with the same desire to go to China someday.",
-          "tc": "我們開始交談，我同樣渴望有一天能去中國。"
+          "en": "Just pretend or fake it until you make it.",
+          "tc": "假裝或假裝直到成功為止。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Just pretend or fake it until you "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-043-01"
+            },
+            {
+              "type": "text",
+              "text": " it."
+            }
+          ]
         },
         {
-          "en": "I also loved the complexity of Mandarin and how challenging it would be to learn it. Has no similarities whatsoever.",
-          "tc": "我也喜歡普通話的複雜性以及學習它的挑戰性。沒有任何相似之處。"
+          "en": "But anyways, going back to the topic about why I am learning Chinese, a lot of people ask me why I decided to learn Chinese.",
+          "tc": "不管怎樣，回到我為什麼學中文的話題，很多人問我為什麼決定學中文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But anyways, going back to the topic about why I am "
+            },
+            {
+              "type": "word",
+              "text": "learning",
+              "targetId": "word-learning",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-044-01"
+            },
+            {
+              "type": "text",
+              "text": " Chinese, a lot of people ask me why I decided to learn Chinese."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "chinese",
-          "kk": "/chinese/",
-          "partOfSpeech": "n.",
-          "meaning": "中國人",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：語言學習",
-      "titleEn": "Part 12: language",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "I can't imagine learning a language with no similarities whatsoever between each other. Imagine if.",
-          "tc": "我無法想像學習一種彼此之間沒有任何相似之處的語言。想象一下如果。"
+          "en": "And to be honest, my sister was the one to inspire me.",
+          "tc": "說實話，是我姐姐激勵了我。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And to be honest, my sister was the one to inspire me."
+            }
+          ]
         },
         {
-          "en": "I have been learning Chinese for 4 years and I can barely form a full sentence. And Chinese people are learning English the same way. It's very difficult.",
-          "tc": "我學中文已經四年了，我幾乎不能說出一個完整的句子。中国人也在以同样的方式学习英语。這是非常困難的。"
+          "en": "She used to be obsessed with learning Chinese.",
+          "tc": "她曾經沉迷於學習中文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She used to be obsessed with "
+            },
+            {
+              "type": "word",
+              "text": "learning",
+              "targetId": "word-learning",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-046-01"
+            },
+            {
+              "type": "text",
+              "text": " Chinese."
+            }
+          ]
         },
         {
-          "en": "I also loved the idea of being an English, Spanish, and Mandarin teacher. That would be a dream for me.",
-          "tc": "我也喜歡成為英語、西班牙語和普通話老師的想法。这对我来说是一个梦想。"
+          "en": "And all she did was study and practice Chinese.",
+          "tc": "她所做的就是學習和練習中文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And all she did was study and "
+            },
+            {
+              "type": "word",
+              "text": "practice",
+              "targetId": "word-practice",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-047-01"
+            },
+            {
+              "type": "text",
+              "text": " Chinese."
+            }
+          ]
         },
         {
-          "en": "I watched every video of anyone who had successfully learned Mandarin.",
-          "tc": "我看過所有成功學會普通話的人的影片。"
+          "en": "We got to talking and I was overwhelmed with the same desire to go to China someday.",
+          "tc": "我們開始交談，我同樣渴望有一天能去中國。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We "
+            },
+            {
+              "type": "usage",
+              "text": "got",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-048-01"
+            },
+            {
+              "type": "text",
+              "text": " to talking and I was overwhelmed with the same desire to go to China someday."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "chinese",
-          "kk": "/chinese/",
-          "partOfSpeech": "n.",
-          "meaning": "中國人",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "language",
-          "kk": "/ˈlæŋɡwɪdʒ/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-13",
       "no": "13",
-      "titleZh": "第 13 段：日常生活",
-      "titleEn": "Part 13: everyday life",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
       "sentences": [
         {
-          "en": "I even started taking Chinese classes online.",
-          "tc": "我甚至開始在網路上上漢語課。"
+          "en": "I also loved the complexity of Mandarin and how challenging it would be to learn it.",
+          "tc": "我也喜歡普通話的複雜性以及學習它的挑戰性。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also loved the complexity of Mandarin and how challenging it would be to learn it."
+            }
+          ]
         },
         {
-          "en": "I had a great teacher.",
-          "tc": "我有一位很棒的老師。"
+          "en": "It has no similarities whatsoever.",
+          "tc": "沒有任何相似之處。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It has no similarities whatsoever."
+            }
+          ]
         },
         {
-          "en": "She was so patient.",
-          "tc": "她真是太有耐心了。"
+          "en": "And I can't imagine learning a language with no similarities whatsoever between each other.",
+          "tc": "我無法想像學習一種彼此之間沒有任何相似之處的語言。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I can't imagine "
+            },
+            {
+              "type": "word",
+              "text": "learning",
+              "targetId": "word-learning",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-051-01"
+            },
+            {
+              "type": "text",
+              "text": " a "
+            },
+            {
+              "type": "word",
+              "text": "language",
+              "targetId": "word-language",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-051-02"
+            },
+            {
+              "type": "text",
+              "text": " with no similarities whatsoever between each other."
+            }
+          ]
         },
         {
-          "en": "She was always able to turn a casual conversation into a grammar lesson.",
-          "tc": "她總是能把一次隨意的談話變成一堂文法課。"
+          "en": "Imagine if I have been learning Chinese for 4 years and I can barely form a full sentence.",
+          "tc": "想像一下，如果我學了四年中文，我幾乎無法說出一個完整的句子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Imagine if I "
+            },
+            {
+              "type": "phrase",
+              "text": "have been learning",
+              "targetId": "phrase-have-been-learning",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-052-01"
+            },
+            {
+              "type": "text",
+              "text": " Chinese for 4 years and I can barely form a full sentence."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "chinese",
-          "kk": "/chinese/",
-          "partOfSpeech": "n.",
-          "meaning": "中國人",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-14",
       "no": "14",
-      "titleZh": "第 14 段：語言學習",
-      "titleEn": "Part 14: language",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
       "sentences": [
         {
-          "en": "Where I learned new words, new grammar structures, and I never felt burnt out or frustrated?",
-          "tc": "我在哪裡學習了新單字、新文法結構，而且我從未感到精疲力竭或沮喪？"
+          "en": "And Chinese people are learning English the same way.",
+          "tc": "中國人也以同樣的方式學習英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And Chinese people are "
+            },
+            {
+              "type": "word",
+              "text": "learning",
+              "targetId": "word-learning",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-053-01"
+            },
+            {
+              "type": "text",
+              "text": " English the same way."
+            }
+          ]
         },
         {
-          "en": "After a lesson. I always felt energized and inspired to continue learning Chinese.",
-          "tc": "一堂課後。我總是感到充滿活力和靈感，繼續學習中文。"
+          "en": "It's very difficult.",
+          "tc": "這非常困難。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's very difficult."
+            }
+          ]
         },
         {
-          "en": "I used to teach English online.",
-          "tc": "我曾經在網路上教英文。"
+          "en": "But I also loved the idea of being an English, Spanish, and Mandarin teacher.",
+          "tc": "但我也喜歡成為英語、西班牙語和普通話老師。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I also loved the idea of being an English, Spanish, and Mandarin teacher."
+            }
+          ]
         },
         {
-          "en": "I've been inspired by many teachers in my life. My parents included, my mom and dad have to be the most dedicated and hardworking teachers. My mom was born to be.",
-          "tc": "我一生中受到許多老師的啟發。包括我的父母，我的爸爸媽媽一定是最敬業、最勤奮的老師。我媽媽生來就是這樣。"
+          "en": "That would be a dream for me.",
+          "tc": "這對我來說是一個夢想。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That would be a dream for me."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "chinese",
-          "kk": "/chinese/",
-          "partOfSpeech": "n.",
-          "meaning": "中國人",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "new",
-          "kk": "/new/",
-          "partOfSpeech": "n.",
-          "meaning": "新的",
-          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-15",
       "no": "15",
-      "titleZh": "第 15 段：日常生活",
-      "titleEn": "Part 15: everyday life",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
       "sentences": [
         {
-          "en": "She is patient and graceful.",
-          "tc": "她耐心而優雅。"
+          "en": "So I started studying Chinese and I was determined in learning Chinese.",
+          "tc": "於是我開始學習中文，並且下定決心要學中文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I started studying Chinese and I was determined in "
+            },
+            {
+              "type": "word",
+              "text": "learning",
+              "targetId": "word-learning",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-057-01"
+            },
+            {
+              "type": "text",
+              "text": " Chinese."
+            }
+          ]
         },
         {
-          "en": "She's always willing to help without rushing or judging you and thoughtful in all of her lessons. You can feel the care.",
-          "tc": "她總是願意提供幫助，不會匆忙或評判你，並且在她的所有課程中都很周到。你能感受到關懷。"
+          "en": "I found the best podcasts for listening practice.",
+          "tc": "我找到了最好聽的podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I found the best podcasts for listening practice."
+            }
+          ]
         },
         {
-          "en": "She puts into every lesson. My dad's students always have the highest scores and the kids love him.",
-          "tc": "她投入每一堂課。我爸爸的學生總是成績最高，孩子們都很喜歡他。"
+          "en": "I watched every video of anyone who had successfully learned Mandarin.",
+          "tc": "我看過所有成功學會普通話的人的影片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I watched every video of anyone who had successfully learned Mandarin."
+            }
+          ]
         },
         {
-          "en": "They both put so much work into teaching kids. And I know firsthand that teaching kids is a challenge. It's hard to make a lesson entertaining, educational, and memorable, but my mom.",
-          "tc": "他們都在教育孩子上付出了很多努力。我親身體會到，教孩子是一項挑戰。要讓一堂課變得有趣、有教育意義、令人難忘是很困難的，但我媽媽。"
+          "en": "And I even started taking Chinese classes online.",
+          "tc": "我甚至開始在網路上上中文課。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I even started taking Chinese classes online."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-16",
       "no": "16",
-      "titleZh": "第 16 段：工作與學習",
-      "titleEn": "Part 16: work",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
       "sentences": [
         {
-          "en": "And my dad both work very hard to do just that. That's.",
-          "tc": "我的父親都非常努力地做到這一點。就是這樣。"
+          "en": "I had a great teacher.",
+          "tc": "我有一位很棒的老師。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I had a great teacher."
+            }
+          ]
         },
         {
-          "en": "Where my passion for teaching comes from. All in all, you don't have to end up living in a place?",
-          "tc": "我对教学的热情来自哪里。總而言之，你不必最終住在一個地方嗎？"
+          "en": "She was so patient and she was always able to turn a casual conversation into a grammar lesson.",
+          "tc": "她很有耐心，總是能把隨意的談話變成文法課。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She was so patient and she was always able to turn a casual "
+            },
+            {
+              "type": "word",
+              "text": "conversation",
+              "targetId": "word-conversation",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-062-01"
+            },
+            {
+              "type": "text",
+              "text": " into a grammar lesson."
+            }
+          ]
         },
         {
-          "en": "They speak that language to learn that language. Because at the end of the day, the journey of learning a language is the most important part. Learn for you. Enjoy the journey.",
-          "tc": "他們說這種語言是為了學習那種語言。因為歸根究底，學習語言的旅程才是最重要的部分。為你學習。享受旅程。"
+          "en": "Where I learned new words, new grammar structures, and I never felt burnt out or frustrated?",
+          "tc": "我在哪裡學習了新單字、新文法結構，而且我從未感到精疲力竭或沮喪？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Where I learned new words, new grammar structures, and I never felt burnt out or frustrated?"
+            }
+          ]
         },
         {
-          "en": "Savor every new word you manage to remember. Relish in every win. It's a privilege to learn. Don't take it for granted.",
-          "tc": "細細品味你記得的每一個新單字。享受每一次勝利。學習是一種榮幸。不要認為這是理所當然的。"
+          "en": "After each lesson, I felt ready to continue.",
+          "tc": "上完課後。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After each lesson, I felt ready to continue."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "language",
-          "kk": "/ˈlæŋɡwɪdʒ/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "new",
-          "kk": "/new/",
-          "partOfSpeech": "n.",
-          "meaning": "新的",
-          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-17",
       "no": "17",
-      "titleZh": "第 17 段：語言學習",
-      "titleEn": "Part 17: language",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
       "sentences": [
         {
-          "en": "Thank you for joining Miss Honey's class. I hope you enjoyed this chat with me and don't forget to subscribe for more English practice and like this video for more chats like.",
-          "tc": "感謝你參加Honey小姐的課程。我希望你喜歡與我的這次聊天，並且不要忘記訂閱更多英語練習並喜歡這個視頻以獲取更多聊天。"
+          "en": "I always felt energized and inspired to continue learning Chinese.",
+          "tc": "我總是感到充滿活力和靈感，繼續學習中文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I always felt energized and inspired to continue "
+            },
+            {
+              "type": "word",
+              "text": "learning",
+              "targetId": "word-learning",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-065-01"
+            },
+            {
+              "type": "text",
+              "text": " Chinese."
+            }
+          ]
         },
         {
-          "en": "These. See you.",
-          "tc": "這些。再見。"
+          "en": "I used to teach English online and I've been inspired by many teachers in my life.",
+          "tc": "我曾經在網路上教英語，我的生活中受到了許多老師的啟發。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I used to teach English online and I've been inspired by many teachers in my life."
+            }
+          ]
         },
         {
-          "en": "Next time. Bye.",
-          "tc": "下次。再見。"
+          "en": "My parents included, my mom and dad have to be the most dedicated and hardworking teachers.",
+          "tc": "包括我的父母，我的爸爸媽媽一定是最敬業、最勤奮的老師。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My parents included, my mom and dad have to be the most dedicated and hardworking teachers."
+            }
+          ]
+        },
+        {
+          "en": "My mom was born to be a teacher.",
+          "tc": "我媽媽生來就是當老師的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My mom was born to be a teacher."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
         {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "She is patient and graceful.",
+          "tc": "她很有耐心，舉止優雅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She is patient and graceful."
+            }
+          ]
+        },
+        {
+          "en": "She's always willing to help without rushing or judging you and thoughtful in all of her lessons.",
+          "tc": "她總是願意提供幫助，不會匆忙或評判你，並且在她的所有課程中都很周到。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She's always willing to help without rushing or judging you and thoughtful in all of her lessons."
+            }
+          ]
+        },
+        {
+          "en": "You can feel the care she puts into every lesson.",
+          "tc": "你可以感受到她每堂課的用心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can feel the care she puts into every lesson."
+            }
+          ]
+        },
+        {
+          "en": "My dad's students always have the highest scores and the kids love him.",
+          "tc": "我爸爸的學生總是成績最高，孩子們都很喜歡他。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My dad's students always have the highest scores and the kids love him."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "They both put so much work into teaching kids.",
+          "tc": "他們都在教育孩子上付出了很多努力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They both put so much work into teaching kids."
+            }
+          ]
+        },
+        {
+          "en": "And I know firsthand that teaching kids is a challenge.",
+          "tc": "我親身體會到，教孩子是一項挑戰。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I know firsthand that teaching kids is a challenge."
+            }
+          ]
+        },
+        {
+          "en": "It's hard to make a lesson entertaining, educational, and memorable, and my parents' hard work is the source of my passion for teaching.",
+          "tc": "讓一堂課變得有趣、有教育意義、令人難忘是很困難的，但我的媽媽和爸爸都非常努力地做到這一點，這就是我對教學的熱情的來源。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's hard to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-075-01"
+            },
+            {
+              "type": "text",
+              "text": " a lesson entertaining, educational, and memorable, and my parents' hard work is the source of my passion for teaching."
+            }
+          ]
+        },
+        {
+          "en": "All in all, you don't have to end up living in a place where they speak that language to learn that language.",
+          "tc": "總而言之，您不必最終生活在他們說語言的地方才能學習該語言。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "All in all, you don't have to "
+            },
+            {
+              "type": "phrase",
+              "text": "end up",
+              "targetId": "phrase-end-up",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-076-01"
+            },
+            {
+              "type": "text",
+              "text": " living in a place where they speak that "
+            },
+            {
+              "type": "word",
+              "text": "language",
+              "targetId": "word-language",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-076-02"
+            },
+            {
+              "type": "text",
+              "text": " to learn that "
+            },
+            {
+              "type": "word",
+              "text": "language",
+              "targetId": "word-language",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-076-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "Because at the end of the day, the journey of learning a language is the most important part.",
+          "tc": "因為歸根究底，學習語言的過程才是最重要的部分。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because at the end of the day, the journey of "
+            },
+            {
+              "type": "word",
+              "text": "learning",
+              "targetId": "word-learning",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-077-01"
+            },
+            {
+              "type": "text",
+              "text": " a "
+            },
+            {
+              "type": "word",
+              "text": "language",
+              "targetId": "word-language",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-077-02"
+            },
+            {
+              "type": "text",
+              "text": " is the most important part."
+            }
+          ]
+        },
+        {
+          "en": "Learn for you.",
+          "tc": "為你學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Learn for you."
+            }
+          ]
+        },
+        {
+          "en": "Enjoy the journey.",
+          "tc": "享受旅程。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Enjoy the journey."
+            }
+          ]
+        },
+        {
+          "en": "Savor every new word you manage to remember.",
+          "tc": "細細品味你記得的每一個新單字。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Savor every new word you manage to remember."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "Relish in every win.",
+          "tc": "享受每一次勝利。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Relish in every win."
+            }
+          ]
+        },
+        {
+          "en": "It's a privilege to learn.",
+          "tc": "學習是一種榮幸。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's a privilege to learn."
+            }
+          ]
+        },
+        {
+          "en": "Don't take it for granted.",
+          "tc": "不要認為這是理所當然的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Don't take it for granted."
+            }
+          ]
+        },
+        {
+          "en": "Thank you for joining Miss Honey's class.",
+          "tc": "感謝您參加Honey小姐的課程。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you for joining Miss Honey's class."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "I hope you enjoyed this chat with me and don't forget to subscribe for more English practice and like this video for more chats like these.",
+          "tc": "我希望您喜歡與我的這次聊天，並且不要忘記訂閱更多英語練習並喜歡這個視頻以獲取更多此類聊天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hope you enjoyed this chat with me and don't forget to subscribe for more English "
+            },
+            {
+              "type": "word",
+              "text": "practice",
+              "targetId": "word-practice",
+              "instanceId": "marker-b2-ch8-slow-english-podcast-why-am-i-learning-chinese-b2-085-01"
+            },
+            {
+              "type": "text",
+              "text": " and like this video for more chats like these."
+            }
+          ]
+        },
+        {
+          "en": "See you next time.",
+          "tc": "下次見。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "See you next time."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -760,153 +1534,246 @@
       "title": "B2 重點單字",
       "items": [
         {
-          "english": "chinese",
-          "kk": "/chinese/",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "[ˈpɑdˌkæst]",
           "partOfSpeech": "n.",
-          "meaning": "中國人",
-          "note": "看到 chinese 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "網路音訊節目",
           "highlight": true
         },
         {
+          "id": "word-practice",
+          "lemma": "practice",
+          "english": "practice",
+          "kk": "[ˈpræktɪs]",
+          "partOfSpeech": "v./n.",
+          "meaning": "練習",
+          "highlight": true
+        },
+        {
+          "id": "word-language",
+          "lemma": "language",
           "english": "language",
-          "kk": "/ˈlæŋɡwɪdʒ/",
+          "kk": "[ˈlæŋɡwɪdʒ]",
           "partOfSpeech": "n.",
           "meaning": "語言",
-          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "new",
-          "kk": "/new/",
-          "partOfSpeech": "n.",
-          "meaning": "新的",
-          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-learning",
+          "lemma": "learning",
+          "english": "learning",
+          "kk": "[ˈlɝnɪŋ]",
+          "partOfSpeech": "n./v.",
+          "meaning": "學習",
           "highlight": true
         },
         {
-          "english": "understand",
-          "kk": "/understand/",
+          "id": "word-conversation",
+          "lemma": "conversation",
+          "english": "conversation",
+          "kk": "[ˌkɑnvɚˈseʃən]",
           "partOfSpeech": "n.",
-          "meaning": "理解",
-          "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "對話",
+          "highlight": true
         },
         {
-          "english": "don't",
-          "kk": "/don't/",
+          "id": "word-confidence",
+          "lemma": "confidence",
+          "english": "confidence",
+          "kk": "[ˈkɑnfədəns]",
           "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "years",
-          "kk": "/years/",
-          "partOfSpeech": "n.",
-          "meaning": "年",
-          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "信心",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "meaning": "歡迎回到節目或某處",
       "examples": [
         {
-          "en": "Welcome back to my Slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and __welcome back__ to my __Slow English podcast__.",
+          "tc": "歡迎回到節目或某處"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "used to",
-      "meaning": "以前曾經",
+      "id": "phrase-slow-english-podcast",
+      "phrase": "Slow English podcast",
+      "meaning": "慢速英語 podcast 節目",
       "examples": [
         {
-          "en": "She used to be obsessed with learning Chinese.",
-          "tc": "她曾經迷戀學習中文。"
+          "en": "Hello and __welcome back__ to my __Slow English podcast__.",
+          "tc": "慢速英語 podcast 節目"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "have to",
-      "meaning": "必須",
+      "id": "phrase-have-been-learning",
+      "phrase": "have been learning",
+      "meaning": "一直在學",
       "examples": [
         {
-          "en": "My parents included, my mom and dad have to be the most dedicated and hardworking teachers.",
-          "tc": "包括我的父母，我的爸爸媽媽一定是最敬業、最勤奮的老師。"
+          "en": "Imagine if I __have been learning__ Chinese for 4 years and I can barely form a full sentence.",
+          "tc": "一直在學"
         }
+      ]
+    },
+    {
+      "id": "phrase-ask-for-directions",
+      "phrase": "ask for directions",
+      "meaning": "問路",
+      "examples": [
+        {
+          "en": "He would just walk around with his dictionary and speak, order food, buy groceries, __ask for directions__.",
+          "tc": "問路"
+        }
+      ]
+    },
+    {
+      "id": "phrase-right-away",
+      "phrase": "right away",
+      "meaning": "馬上、立刻",
+      "examples": [
+        {
+          "en": "__Right away__ when he arrived in the US, he only had himself and a will to learn.",
+          "tc": "馬上、立刻"
+        }
+      ]
+    },
+    {
+      "id": "phrase-end-up",
+      "phrase": "end up",
+      "meaning": "最後變成或做某事",
+      "examples": [
+        {
+          "en": "All in all, you don't have to __end up__ living in a place where they speak that **language** to learn that **language**.",
+          "tc": "最後變成或做某事"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-make-item",
+      "word": "make",
+      "familiarMeaning": "製造、做",
+      "usage": "表示使某人產生某種感受或狀態",
+      "translation": "使、讓",
+      "examples": [
+        "So, I decided one day to 《make》 a video, specifically a Tik Tok, where I spoke slowly and I 《made》 lots of hand gestures at a speed that anyone could understand using hand gesture."
+      ]
+    },
+    {
+      "id": "usage-get-get-ready-get-lost",
+      "word": "get",
+      "familiarMeaning": "得到",
+      "usage": "在 get ready/get lost 等搭配中表示「變得、進入某狀態」",
+      "translation": "變得、進入某狀態",
+      "examples": [
+        "For 4 years because I 《get》 lazy sometimes."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my Slow English podcast. Why am I learning Chinese?",
-      "translation": "歡迎回到我的慢速英語podcast。我為什麼要學中文？",
+      "id": "grammar-1",
+      "sentence": "Hello and welcome back to my Slow English podcast.",
+      "translation": "大家好，歡迎回到我的慢速英文podcast。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "to 不定詞",
+          "text": "to + 原形動詞",
+          "note": "用來表示目的、補語或接在特定動詞後。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
+      "id": "grammar-2",
       "sentence": "This podcast is for you to practice your English listening while being engaged in real life stories about me.",
-      "translation": "這個podcast旨在讓你一邊練習英語聽力，一邊聆聽有關我的真實故事。",
+      "translation": "這個podcast是為了讓你練習英語聽力，同時參與關於我的真實故事。",
       "points": [
         {
-          "label": "while being engaged",
-          "text": "while being engaged",
-          "note": "注意 \"while being engaged\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "while + V-ing / 子句",
+          "text": "while + 動作",
+          "note": "表示兩個動作同時發生。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "I've been learning Chinese for four years now. On and off. For 4 years.",
-      "translation": "我學中文已經四年了。打開和關閉。 4年了。",
+      "id": "grammar-3",
+      "sentence": "And that was actually a huge inspiration for me to start with my Slow English podcast.",
+      "translation": "這其實是我開始製作慢速英語podcast的巨大靈感。",
       "points": [
         {
-          "label": "been chinese four",
-          "text": "been chinese four",
-          "note": "注意 \"been chinese four\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "that 引導名詞子句或關係子句",
+          "text": "that + 子句",
+          "note": "that 用來補充說明前面的想法或名詞。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "I get lazy.",
-      "translation": "我變懶了。",
+      "id": "grammar-4",
+      "sentence": "And when you don't feel progress or achievement, when you don't feel like you're improving at something, it's hard to keep giving your best at improving.",
+      "translation": "當你感覺不到進步或成就時，當你感覺自己在某件事上沒有進步時，你就很難繼續盡最大努力去進步。",
       "points": [
         {
-          "label": "get lazy",
-          "text": "get lazy",
-          "note": "注意 \"get lazy\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "when 時間子句",
+          "text": "when + 主詞 + 動詞",
+          "note": "用 when 說明事情發生的時間或情境。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "So many people would realize that they actually do understand English.",
+      "translation": "很多人會意識到他們其實懂英語。",
+      "points": [
+        {
+          "label": "would 表示假設或委婉語氣",
+          "text": "would + 原形動詞",
+          "note": "用來談假設、過去習慣或較委婉的說法。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "Ers in a way where you could understand even if you had never studied English because body language speaks much louder than words.",
+      "translation": "即使你從未學過英語，也可以理解，因為肢體語言比語言更有效。",
+      "points": [
+        {
+          "label": "if 條件句",
+          "text": "If + 子句, 主句",
+          "note": "用 if 帶出條件，再說明在此條件下的結果。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "She used to be obsessed with learning Chinese.",
+      "translation": "她曾經沉迷於學習中文。",
+      "points": [
+        {
+          "label": "used to + 原形動詞",
+          "text": "used to + V",
+          "note": "表示過去常做或過去曾經如此，現在可能不同。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "Imagine if I have been learning Chinese for 4 years and I can barely form a full sentence.",
+      "translation": "想像一下，如果我學了四年中文，我幾乎無法說出一個完整的句子。",
+      "points": [
+        {
+          "label": "現在完成進行式",
+          "text": "have/has been + V-ing",
+          "note": "表示動作從過去開始，一直持續到現在。"
         }
       ]
     }

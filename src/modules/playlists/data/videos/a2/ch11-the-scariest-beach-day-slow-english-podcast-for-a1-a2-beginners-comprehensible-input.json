@@ -15,570 +15,1484 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and welcome back to my slow English podcast.",
+          "tc": "你好，歡迎回到我的慢速英語播客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my "
+            },
+            {
+              "type": "phrase",
+              "text": "slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-001-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
           "en": "This podcast is for English beginner listeners to practice listening to a slow comprehensible English.",
-          "tc": "此podcast適合英語初學者聽眾練習聽慢速可理解的英語。"
+          "tc": "這個播客是為英語初學者聽眾練習聽慢速可理解的英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-002-01"
+            },
+            {
+              "type": "text",
+              "text": " is for English beginner listeners to practice listening to a slow "
+            },
+            {
+              "type": "word",
+              "text": "comprehensible",
+              "targetId": "word-comprehensible",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-002-02"
+            },
+            {
+              "type": "text",
+              "text": " English."
+            }
+          ]
         },
         {
-          "en": "Today I want to talk to you about my week and a story of something scary that happened to me this week. This week.",
-          "tc": "今天我想和大家談談我的一周以及這週發生在我身上的可怕的故事。本星期。"
+          "en": "Today I want to talk to you about my week and a story of something scary that happened to me this week.",
+          "tc": "今天我想和大家談談我的一周以及這周發生在我身上的可怕的故事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today I want to talk to you about my week and a story of something scary that happened to me this week."
+            }
+          ]
         },
         {
-          "en": "I had a wonderful time. I met some cool people and I made some new friends.",
-          "tc": "我度過了一段美好的時光。我遇到了一些很酷的人，也認識了一些新朋友。"
+          "en": "This week I had a wonderful time.",
+          "tc": "這周我度過了一段美好的时光。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This week I had a wonderful time."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "out",
-          "kk": "/out/",
-          "partOfSpeech": "n.",
-          "meaning": "出去",
-          "note": "看到 out 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "friends",
-          "kk": "/friends/",
-          "partOfSpeech": "n.",
-          "meaning": "朋友們",
-          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：旅行",
-      "titleEn": "Part 2: travel",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I went to the beach almost every day. Maybe only one day.",
-          "tc": "我幾乎每天都去海灘。也許只有一天。"
+          "en": "I met some cool people and I made some new friends.",
+          "tc": "我遇到了一些很酷的人，也结識了一些新朋友。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I met some cool people and I made some new friends."
+            }
+          ]
         },
         {
-          "en": "I didn't go to the beach. But I just love the beach.",
-          "tc": "我沒有去海灘。但我就是喜歡海灘。"
+          "en": "I went to the beach almost every day.",
+          "tc": "我几乎每天都去海滩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I went to the beach almost every day."
+            }
+          ]
         },
         {
-          "en": "I love the salt water. It feels so good for my body. If anything is aching or hurting or sore,.",
-          "tc": "我喜歡鹹水。這對我的身體感覺很好。如果有任何疼痛、受傷或酸痛的情況。"
+          "en": "Maybe only one day.",
+          "tc": "也许只有一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Maybe only one day."
+            }
+          ]
         },
         {
-          "en": "I always take a swim in the ocean or in salt water.",
-          "tc": "我總是在海裡或鹹水中游泳。"
+          "en": "I didn't go to the beach.",
+          "tc": "我沒有去海滩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I didn't go to the beach."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "beach",
-          "kk": "/beach/",
-          "partOfSpeech": "n.",
-          "meaning": "海灘",
-          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "swim",
-          "kk": "/swim/",
-          "partOfSpeech": "n.",
-          "meaning": "游泳",
-          "note": "看到 swim 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I immediately feel better. The only problem is that the waves are massive. The waves in Puerto Escondo are huge.",
-          "tc": "我立刻感覺好多了。唯一的問題是海浪很大。埃斯孔多港的海浪很大。"
+          "en": "But I just love the beach.",
+          "tc": "但我就是喜歡海滩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I just love the beach."
+            }
+          ]
         },
         {
-          "en": "I saw some of my old friends from middle school. There is elementary school, middle school and high school.",
-          "tc": "我見到了一些中學時期的老朋友。有小學、國中、高中。"
+          "en": "I love the salt water.",
+          "tc": "我喜歡鹽水。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love the salt water."
+            }
+          ]
         },
         {
-          "en": "Then university and college. But my friends from middle school are in Puerto Escondido right now. So I went to see them yesterday.",
-          "tc": "然後是大學和學院。但我中學的朋友現在在埃斯孔迪多港。所以我昨天去看他們了。"
+          "en": "It feels so good for my body.",
+          "tc": "這對我的身體感覺很好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It feels so good for my body."
+            }
+          ]
         },
         {
-          "en": "They are my old friends from my hometown. It had been so long since the last time.",
-          "tc": "他們是我家鄉的老朋友。距離上次已經很久了。"
+          "en": "If anything is aching or hurting or sore, I always take a swim in the ocean or in salt water and I immediately feel better.",
+          "tc": "如果有任何疼痛、受伤或疼痛，我總是在海里或鹽水中游泳，我會立即感覺好一些。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If anything is aching or hurting or sore, I always "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-012-01"
+            },
+            {
+              "type": "text",
+              "text": " a swim in the ocean or in salt water and I immediately feel better."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "friends",
-          "kk": "/friends/",
-          "partOfSpeech": "n.",
-          "meaning": "朋友們",
-          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "wave",
-          "kk": "/wave/",
-          "partOfSpeech": "n.",
-          "meaning": "海浪",
-          "note": "看到 wave 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I saw them,.",
-          "tc": "我看見他們了，。"
+          "en": "The only problem is that the waves are massive.",
+          "tc": "唯一的問题是海浪很大。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The only problem is that the waves are massive."
+            }
+          ]
         },
         {
-          "en": "They are such beautiful friends.",
-          "tc": "他們是非常美麗的朋友。"
+          "en": "The waves in Puerto Escondido are huge.",
+          "tc": "埃斯孔迪多港的海浪很大。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The waves in Puerto Escondido are huge."
+            }
+          ]
         },
         {
-          "en": "I have so many laughs with them.",
-          "tc": "我和他們一起開懷大笑。"
+          "en": "For example, yesterday I saw some of my old friends from middle school.",
+          "tc": "例如，昨天我见到了一些中學时期的老朋友。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, yesterday I saw some of my old friends from middle school."
+            }
+          ]
         },
         {
-          "en": "We met up.",
-          "tc": "我們見面了。"
+          "en": "There is elementary school, middle school and high school.",
+          "tc": "設有小學、初中、高中。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There is elementary school, middle school and high school."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "friends",
-          "kk": "/friends/",
-          "partOfSpeech": "n.",
-          "meaning": "朋友們",
-          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "They picked me up from my hostel.",
-          "tc": "他們從宿舍接我。"
+          "en": "Then university and college.",
+          "tc": "然後是大學和學院。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then university and college."
+            }
+          ]
         },
         {
-          "en": "We drove to the beach. to a new beach called Cipol, a new beach for me.",
-          "tc": "我們開車去了海灘。到一個叫 Cipol 的新海灘，對我來說是一個新海灘。"
+          "en": "But my friends from middle school are in Puerto Escondido right now.",
+          "tc": "但我中學的朋友現在在埃斯孔迪多港。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But my friends from middle school are in Puerto Escondido right now."
+            }
+          ]
         },
         {
-          "en": "I had never gone there. And at Cipol Beach, the waves aren't that big, so you can still swim in the ocean. So with my friends,.",
-          "tc": "我從來沒有去過那裡。在 Cipol 海灘，海浪沒有那麼大，所以你仍然可以在海裡游泳。所以和我的朋友們一起，。"
+          "en": "So I went to see them yesterday.",
+          "tc": "所以我昨天去看他們了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I went to see them yesterday."
+            }
+          ]
         },
         {
-          "en": "We got into the water.",
-          "tc": "我們進入水中。"
+          "en": "They are my old friends from my hometown.",
+          "tc": "他們是我家乡的老朋友。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They are my old friends from my hometown."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "beach",
-          "kk": "/beach/",
-          "partOfSpeech": "n.",
-          "meaning": "海灘",
-          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "friends",
-          "kk": "/friends/",
-          "partOfSpeech": "n.",
-          "meaning": "朋友們",
-          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "swim",
-          "kk": "/swim/",
-          "partOfSpeech": "n.",
-          "meaning": "游泳",
-          "note": "看到 swim 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：人物與關係",
-      "titleEn": "Part 6: people",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "We swam for a little bit. I swam and I was just chilling in the water talking to a friend.",
-          "tc": "我們遊了一會兒泳。我游泳了，我只是在水裡和朋友聊天。"
+          "en": "It had been so long since the last time I saw them, but they are such beautiful friends.",
+          "tc": "自从我上次见到他們以來已經過去了很長时間，但他們是如此美麗的朋友。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It had been so long since the last time I saw them, but they are such beautiful friends."
+            }
+          ]
         },
         {
-          "en": "When all of the sudden out of nowhere I couldn't feel the sand?",
-          "tc": "當我突然感覺不到沙子時？"
+          "en": "I have so many laughs with them.",
+          "tc": "我和他們一起開懷大笑。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-022-01"
+            },
+            {
+              "type": "text",
+              "text": " so many laughs with them."
+            }
+          ]
         },
         {
-          "en": "I wasn't just floating in the water but I could feel the current pulling me out. Little by little,.",
-          "tc": "我不僅漂浮在水中，而且我能感覺到水流將我拉出水面。一點一點，。"
+          "en": "So, we met up and they picked me up from my hostel and we drove to the beach.",
+          "tc": "所以，我們见面了，他們从旅館接我，然後我們開車去了海滩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, we met up and they picked me up from my hostel and we drove to the beach."
+            }
+          ]
         },
         {
-          "en": "I felt the current pull me out until I couldn't feel the sand at all.",
-          "tc": "我感覺到水流把我拉了出來，直到我完全感覺不到沙子。"
+          "en": "To a new beach called Cipol, a new beach for me because I had never gone there.",
+          "tc": "一個叫Cipol的新海滩，對我來說是一個新海滩，因為我从未去過那里。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "To a new beach called Cipol, a new beach for me because I had never gone there."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "out",
-          "kk": "/out/",
-          "partOfSpeech": "n.",
-          "meaning": "出去",
-          "note": "看到 out 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "current",
-          "kk": "/current/",
-          "partOfSpeech": "n.",
-          "meaning": "目前的",
-          "note": "看到 current 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "It was getting really difficult to stay in one place. So honestly,.",
-          "tc": "呆在一个地方真的变得很困难。老實說，。"
+          "en": "And at Cipol Beach, the waves aren't that big, so you can still swim in the ocean.",
+          "tc": "而在Cipol海滩，海浪并沒有那麼大，所以你仍然可以在海里游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And at Cipol Beach, the waves aren't that big, so you can still swim in the ocean."
+            }
+          ]
         },
         {
-          "en": "I got a little nervous and I started swimming back a little bit intense.",
-          "tc": "我有點緊張，開始遊回來時有點緊張。"
+          "en": "So with my friends, we got into the water and we swam for a little bit.",
+          "tc": "所以和我的朋友們一起，我們进入水中并游了一會兒。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So with my friends, we got into the water and we swam for a little bit."
+            }
+          ]
         },
         {
-          "en": "Then I realized I couldn't swim. The current was so strong. So I started swimming back. But every time.",
-          "tc": "然後我意識到我不會游泳。電流是如此強大。於是我開始遊回來。但每一次。"
+          "en": "I was swimming and chilling in the water while talking to a friend.",
+          "tc": "我一邊和朋友聊天一邊在水里游泳和乘凉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was swimming and chilling in the water while talking to a friend."
+            }
+          ]
         },
         {
-          "en": "I got close, I felt a current pull me back out.",
-          "tc": "我靠近了，我感覺到一股電流將我拉了回來。"
+          "en": "All of a sudden, out of nowhere, I could not feel the sand.",
+          "tc": "突然之間，我感覺不到沙子了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "All of a sudden, out of nowhere, I could not feel the sand."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "out",
-          "kk": "/out/",
-          "partOfSpeech": "n.",
-          "meaning": "出去",
-          "note": "看到 out 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "swim",
-          "kk": "/swim/",
-          "partOfSpeech": "n.",
-          "meaning": "游泳",
-          "note": "看到 swim 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "I would swim again.",
-          "tc": "我會再游泳。"
+          "en": "I was not just floating in the water; I could feel the current pulling me out.",
+          "tc": "我不只是漂浮在水中；我还漂浮在水中。我能感覺到水流把我拉了出來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was not just floating in the water; I could feel the current pulling me out."
+            }
+          ]
         },
         {
-          "en": "Then a big wave would come.",
-          "tc": "然後一個大浪就會來。"
+          "en": "Little by little, I felt the current pull me out until I couldn't feel the sand at all.",
+          "tc": "漸漸地，我感覺到水流把我拉了出來，直到我完全感覺不到沙子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Little by little, I felt the current pull me out until I couldn't feel the sand at all."
+            }
+          ]
         },
         {
-          "en": "I would have to swim under the wave so that I wouldn't get smashed. in the face or water in my nose,.",
-          "tc": "我必須在海浪下游泳，這樣我才不會被壓碎。臉上或鼻子裡有水。"
+          "en": "And it was getting really difficult to stay in one place.",
+          "tc": "呆在一個地方變得非常困難。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And it was getting really difficult to stay in one place."
+            }
+          ]
         },
         {
-          "en": "I would get out of the wave and begin swimming with all of my might and all of my strength.",
-          "tc": "我會脫離波浪，開始用盡全力去游泳。"
+          "en": "So honestly, I got a little nervous and I started swimming back a little bit intense.",
+          "tc": "老實說，我有点緊張，開始游回來时有点緊張。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So honestly, I got a little nervous and I started swimming back a little bit intense."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "out",
-          "kk": "/out/",
-          "partOfSpeech": "n.",
-          "meaning": "出去",
-          "note": "看到 out 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "swim",
-          "kk": "/swim/",
-          "partOfSpeech": "n.",
-          "meaning": "游泳",
-          "note": "看到 swim 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "wave",
-          "kk": "/wave/",
-          "partOfSpeech": "n.",
-          "meaning": "海浪",
-          "note": "看到 wave 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "I would swim. Another wave would come and crash right onto me.",
-          "tc": "我會游泳。另一波浪潮就會襲來，直接砸向我。"
+          "en": "But then I realized I couldn't swim.",
+          "tc": "但後來我意識到我不會游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But then I realized I couldn't swim."
+            }
+          ]
         },
         {
-          "en": "I would get out and swim. And just as.",
-          "tc": "我會出去游泳。正如。"
+          "en": "The current was so strong.",
+          "tc": "水流太猛了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The current was so strong."
+            }
+          ]
         },
         {
-          "en": "I would be reaching the sand, another current would drag me out until.",
-          "tc": "我快要到達沙灘了，另一股水流會把我拖出去，直到。"
+          "en": "So I started swimming back.",
+          "tc": "于是我開始游回來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I started swimming back."
+            }
+          ]
         },
         {
-          "en": "Finally realized I shouldn't swim under the wave. But I should let the wave carry me with it.",
-          "tc": "終於意識到我不應該在海浪下游泳。但我應該讓波浪帶我一起走。"
+          "en": "But every time I got close, I felt a current pull me back out.",
+          "tc": "但每次我靠近时，我都感到一股電流将我拉了回來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But every time I got close, I felt a current pull me back out."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "out",
-          "kk": "/out/",
-          "partOfSpeech": "n.",
-          "meaning": "出去",
-          "note": "看到 out 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "swim",
-          "kk": "/swim/",
-          "partOfSpeech": "n.",
-          "meaning": "游泳",
-          "note": "看到 swim 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "I managed to ride the wave back to shore. There was even a lifeguard yelling at me.",
-          "tc": "我設法乘著海浪回到岸邊。甚至還有救生員對我大喊。"
+          "en": "So I would swim again.",
+          "tc": "所以我會再次游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I would swim again."
+            }
+          ]
         },
         {
-          "en": "He was yelling, \"Hey, you need to get out of there. is a strong current.\" Obviously, I know.",
-          "tc": "他大喊：「嘿，你需要離開那裡。水流很強大。」顯然，我知道。"
+          "en": "Then a big wave would come and I would have to swim under the wave so that I wouldn't get smashed.",
+          "tc": "然後，一個大浪就會來，我必須游到浪下，這樣我才不會被壓碎。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then a big wave would come and I would have to swim under the wave so that I wouldn't "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-038-01"
+            },
+            {
+              "type": "text",
+              "text": " smashed."
+            }
+          ]
         },
         {
-          "en": "I got out and my two other friends got out as well.",
-          "tc": "我下了車，我的另外兩個朋友也下車了。"
+          "en": "In the face or water in my nose, but I would get out of the wave and begin swimming with all of my might and all of my strength.",
+          "tc": "脸上或鼻子里有水，但我會脱離波浪，開始用尽全力游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "In the face or water in my nose, but I would get out of the wave and begin swimming with all of my might and all of my strength."
+            }
+          ]
         },
         {
-          "en": "We were all just panicking.",
-          "tc": "我們都驚慌失措。"
+          "en": "I would swim.",
+          "tc": "我會游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would swim."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "out",
-          "kk": "/out/",
-          "partOfSpeech": "n.",
-          "meaning": "出去",
-          "note": "看到 out 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "friends",
-          "kk": "/friends/",
-          "partOfSpeech": "n.",
-          "meaning": "朋友們",
-          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "wave",
-          "kk": "/wave/",
-          "partOfSpeech": "n.",
-          "meaning": "海浪",
-          "note": "看到 wave 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：日常生活",
-      "titleEn": "Part 11: everyday life",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "We were all shook.",
-          "tc": "我們都震驚了。"
+          "en": "Another wave would come and crash right onto me.",
+          "tc": "另一波浪潮會袭來，直接撞到我身上。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Another wave would come and crash right onto me."
+            }
+          ]
         },
         {
-          "en": "It was scary. The ocean is very powerful. You have to respect the ocean and you have to always be careful. No human is stronger than the ocean. No matter how much.",
-          "tc": "太可怕了。海洋的力量非常強大。你必須尊重海洋，並且必須始終小心。沒有人比海洋更強大。不管多少。"
+          "en": "And I would get out and swim.",
+          "tc": "我會出去游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I would get out and swim."
+            }
+          ]
         },
         {
-          "en": "We want to be,.",
-          "tc": "我們想成為，。"
+          "en": "And just as I would be reaching the sand, another current would drag me out until I finally realized I shouldn't swim under the wave.",
+          "tc": "正當我快要到達沙滩时，另一股水流會把我拖出去，直到我最終意識到我不應該在海浪下游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And just as I would be reaching the sand, another current would drag me out until I finally realized I shouldn't swim under the wave."
+            }
+          ]
         },
         {
-          "en": "We aren't stronger than the ocean. But after that, I ate some fish tacos and I felt just fine.",
-          "tc": "我們並不比海洋更強大。但在那之後，我吃了一些魚炸玉米餅，我感覺很好。"
+          "en": "But I should let the wave carry me with it.",
+          "tc": "但我應該讓波浪帶走我。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I should let the wave carry me with it."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "ocean",
-          "kk": "/ocean/",
-          "partOfSpeech": "n.",
-          "meaning": "海洋",
-          "note": "看到 ocean 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：人物與關係",
-      "titleEn": "Part 12: people",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "We drove back and I went out to eat pasta with my friends. I ordered carbonara pasta.",
-          "tc": "我們開車回來，我和朋友出去吃麵食。我點了carbonara義大利麵。"
+          "en": "So, I managed to ride the wave back to shore.",
+          "tc": "于是，我成功地乘风破浪回到了岸邊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I managed to ride the wave back to shore."
+            }
+          ]
         },
         {
-          "en": "It was amazing. But I felt so full afterwards. My belly or stomach really hurt. I couldn't finish my whole meal.",
-          "tc": "太棒了。但事後我覺得很充實。我的肚子或胃真的很痛。我無法吃完整一餐。"
+          "en": "There was even a lifeguard yelling at me.",
+          "tc": "甚至还有救生員對我大喊大叫。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There was even a lifeguard yelling at me."
+            }
+          ]
         },
         {
-          "en": "I had to order it to go to take away. I took my leftovers in a box. How often.",
-          "tc": "我不得不命令它去帶走。我把剩菜放在盒子裡。多常。"
+          "en": "He was yelling, \"Hey, you need to get out of there.",
+          "tc": "他大喊：“嘿，你需要離開那里。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He was yelling, \"Hey, you need to get out of there."
+            }
+          ]
         },
         {
-          "en": "Do you have leftovers?",
-          "tc": "你有剩菜嗎？"
+          "en": "There is a strong current.\"",
+          "tc": "有一股強大的水流。”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There is a strong current.\""
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
         {
-          "english": "out",
-          "kk": "/out/",
-          "partOfSpeech": "n.",
-          "meaning": "出去",
-          "note": "看到 out 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "Obviously, I know.",
+          "tc": "显然，我知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Obviously, I know."
+            }
+          ]
         },
         {
-          "english": "friends",
-          "kk": "/friends/",
-          "partOfSpeech": "n.",
-          "meaning": "朋友們",
-          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "So, finally I got out and my two other friends got out as well and we were all just panicking.",
+          "tc": "所以，最後我逃了出來，我的另外两個朋友也逃了出來，我們都惊慌失措。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, finally I got out and my two other friends got out as well and we were all just panicking."
+            }
+          ]
         },
         {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "We were all shook.",
+          "tc": "我們都震惊了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We were all shook."
+            }
+          ]
+        },
+        {
+          "en": "It was scary.",
+          "tc": "太可怕了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was scary."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "The ocean is very powerful.",
+          "tc": "海洋的力量非常強大。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The ocean is very powerful."
+            }
+          ]
+        },
+        {
+          "en": "You have to respect the ocean and you have to always be careful.",
+          "tc": "你必須尊重海洋，并且必須时刻小心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You have to respect the ocean and you have to always be careful."
+            }
+          ]
+        },
+        {
+          "en": "No human is stronger than the ocean.",
+          "tc": "沒有人比海洋更強大。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "No human is stronger than the ocean."
+            }
+          ]
+        },
+        {
+          "en": "No matter how much we want to be, we aren't stronger than the ocean.",
+          "tc": "無论我們多麼想成為，我們都不比海洋更強大。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "No matter how much we want to be, we aren't stronger than the ocean."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "But after that, I ate some fish tacos and I felt just fine.",
+          "tc": "但在那之後，我吃了一些魚炸玉米餅，我感覺很好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But after that, I ate some fish tacos and I felt just fine."
+            }
+          ]
+        },
+        {
+          "en": "Then we drove back and I went out to eat pasta with my friends.",
+          "tc": "然後我們開車回來，我和朋友出去吃面食。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then we drove back and I went out to eat pasta with my friends."
+            }
+          ]
+        },
+        {
+          "en": "I ordered carbonara pasta and it was amazing.",
+          "tc": "我点了carbonara意大利面，非常棒。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I ordered carbonara pasta and it was amazing."
+            }
+          ]
+        },
+        {
+          "en": "But I felt so full afterwards.",
+          "tc": "但事後我感覺很飽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I felt so full afterwards."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "My belly or stomach really hurt.",
+          "tc": "我的肚子或胃真的很痛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My belly or stomach really hurt."
+            }
+          ]
+        },
+        {
+          "en": "I couldn't finish my whole meal.",
+          "tc": "我沒能吃完整顿飯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I couldn't finish my whole meal."
+            }
+          ]
+        },
+        {
+          "en": "So I had to order it to go to take away.",
+          "tc": "所以我只好叫它去帶走。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I had to order it "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-take-away",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-063-01"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "phrase",
+              "text": "take away",
+              "targetId": "phrase-take-away",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-063-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I took my leftovers in a box.",
+          "tc": "我把剩菜放在盒子里。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I took my leftovers in a box."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "How often do you have leftovers?",
+          "tc": "您多久吃一次剩菜？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How often do you have leftovers?"
+            }
+          ]
+        },
+        {
+          "en": "Do you like taking your leftovers with you or do you prefer to not carry them with you?",
+          "tc": "您喜歡随身携帶剩菜还是不喜歡随身携帶？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like taking your leftovers with you or do you prefer to not carry them with you?"
+            }
+          ]
+        },
+        {
+          "en": "Sometimes it's a little annoying to take my leftovers with me and carry them and walk with them.",
+          "tc": "有时帶着我的剩菜并随身携帶并與它們一起散步有点烦人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Sometimes it's a little annoying to take my leftovers with me and carry them and walk with them."
+            }
+          ]
+        },
+        {
+          "en": "But I hate wasting food.",
+          "tc": "但我讨厌浪費食物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I hate wasting food."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "So I always take my leftovers with me.",
+          "tc": "所以我總是随身携帶剩菜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I always take my leftovers with me."
+            }
+          ]
+        },
+        {
+          "en": "No matter what, I won't waste any food.",
+          "tc": "無论如何，我不會浪費任何食物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "No matter what, I won't waste any food."
+            }
+          ]
+        },
+        {
+          "en": "Even my family.",
+          "tc": "甚至是我的家人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Even my family."
+            }
+          ]
+        },
+        {
+          "en": "I always eat my family's leftovers, especially my mom's leftovers.",
+          "tc": "我總是吃家里的剩菜，尤其是我媽媽的剩菜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I always eat my family's leftovers, especially my mom's leftovers."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "She doesn't eat all the chicken on the chicken bowl.",
+          "tc": "她沒有吃完雞肉碗里的所有雞肉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She doesn't eat all the chicken on the chicken bowl."
+            }
+          ]
+        },
+        {
+          "en": "So, I always eat the leftovers on the chicken bones that my mom doesn't finish.",
+          "tc": "所以，我總是吃媽媽沒吃完的雞骨頭上的剩菜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I always eat the leftovers on the chicken bones that my mom doesn't finish."
+            }
+          ]
+        },
+        {
+          "en": "But what can I say?",
+          "tc": "但我能說什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But what can I say?"
+            }
+          ]
+        },
+        {
+          "en": "I hate wasting food.",
+          "tc": "我讨厌浪費食物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hate wasting food."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "After that, my friends dropped me off back at my hostel and they told me, \"Just leave your leftovers and then come back out to party.\"",
+          "tc": "之後，我的朋友把我送回旅館，他們告诉我，“留下你的剩菜，然後再回來参加聚會。”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After that, my friends dropped me off back at my hostel and they told me, \"Just leave your leftovers and then come back out to party.\""
+            }
+          ]
+        },
+        {
+          "en": "I said, \"Yes, I will.\"",
+          "tc": "我說：“是的，我會的。”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I said, \"Yes, I will.\""
+            }
+          ]
+        },
+        {
+          "en": "But I was too sleepy.",
+          "tc": "但我太困了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I was too "
+            },
+            {
+              "type": "word",
+              "text": "sleepy",
+              "targetId": "word-sleepy",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-079-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I went straight to bed.",
+          "tc": "我直接上床睡覺了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I went straight to bed."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "I was exhausted from the walking and the intense swimming, from that scary wave.",
+          "tc": "我因步行和激烈的游泳以及那可怕的海浪而筋疲力尽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was exhausted from the walking and the intense swimming, from that scary wave."
+            }
+          ]
+        },
+        {
+          "en": "And of course, I was also exhausted from the sun.",
+          "tc": "當然，我也被太陽晒得筋疲力尽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And of course, I was also exhausted from the sun."
+            }
+          ]
+        },
+        {
+          "en": "But this morning, I felt super inspired.",
+          "tc": "但今天早上，我感到非常受啟發。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But this morning, I felt super inspired."
+            }
+          ]
+        },
+        {
+          "en": "I decided to go for a run.",
+          "tc": "我決定去跑步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I decided to go for a run."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "Around 8 or 9 a.m. But the sun here is intense.",
+          "tc": "早上八九点左右，不過這里的陽光很猛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Around 8 or 9 a.m. But the sun here is intense."
+            }
+          ]
+        },
+        {
+          "en": "Even at 800 a.m., the heat was very, very intense.",
+          "tc": "即使在上午800点，炎熱的天氣也非常非常強烈。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Even at 800 a.m., the heat was very, very intense."
+            }
+          ]
+        },
+        {
+          "en": "And when I got back, I jumped into a cold shower.",
+          "tc": "當我回來时，我跳进了冷水澡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And when I got back, I jumped into a cold shower."
+            }
+          ]
+        },
+        {
+          "en": "A freezing shower is just what I need after a long run in the burning sun.",
+          "tc": "在烈日下長时間跑步後，我需要一場冰冷的淋浴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A freezing shower is just what I need after a long run in the burning sun."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "It was so refreshing.",
+          "tc": "這真是令人耳目一新。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was so refreshing."
+            }
+          ]
+        },
+        {
+          "en": "After my freezing shower, my friend made me some avocado toast with eggs.",
+          "tc": "冰冷的淋浴後，我的朋友给我做了一些鳄梨雞蛋吐司。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After my freezing shower, my friend made me some avocado toast with eggs."
+            }
+          ]
+        },
+        {
+          "en": "I had my runny eggs and an avocado toast and it was just what I needed.",
+          "tc": "我吃了流雞蛋和鳄梨吐司，這正是我所需要的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I had my runny eggs and an avocado toast and it was just what I needed."
+            }
+          ]
+        },
+        {
+          "en": "I think it's the perfect way to start your day.",
+          "tc": "我認為這是開始新的一天的完美方式。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think it's the perfect way to start your day."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "So, I ate while I finished some work and I wrote some new scripts for my slow English podcast and I did some yoga with my friend.",
+          "tc": "所以，我一邊吃一邊完成一些工作，為我的慢速英語播客寫了一些新脚本，还和朋友做了一些瑜伽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I ate while I finished some work and I wrote some new scripts for my slow English podcast and I did some yoga with my friend."
+            }
+          ]
+        },
+        {
+          "en": "I've been eating avocado toast with eggs every day since I arrived.",
+          "tc": "自从我到達以來，我每天都吃牛油果吐司加雞蛋。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've been eating avocado toast with eggs every day since I arrived."
+            }
+          ]
+        },
+        {
+          "en": "After that, I bought a new beautiful necklace and it's amazonite stone.",
+          "tc": "之後，我買了一条新的漂亮项链，它是天河石。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After that, I bought a new beautiful necklace and it's amazonite stone."
+            }
+          ]
+        },
+        {
+          "en": "It's supposed to make me feel more calm and balanced.",
+          "tc": "它應該讓我感到更加平靜和平衡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's supposed to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-096-01"
+            },
+            {
+              "type": "text",
+              "text": " me feel more "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-096-02"
+            },
+            {
+              "type": "text",
+              "text": " and balanced."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "I love wearing stones.",
+          "tc": "我喜歡佩戴宝石。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love wearing stones."
+            }
+          ]
+        },
+        {
+          "en": "I think they're very important to balance out energy.",
+          "tc": "我認為它們對于平衡能量非常重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think they're very important to balance out "
+            },
+            {
+              "type": "word",
+              "text": "energy",
+              "targetId": "word-energy",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-098-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "We also bought an orange ankle bracelet.",
+          "tc": "我們还買了一条橙色脚链。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We also bought an orange ankle bracelet."
+            }
+          ]
+        },
+        {
+          "en": "After that, I took a long nap and I feel so good now.",
+          "tc": "之後，我睡了很長时間，現在感覺很好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After that, I took a long nap and I feel so good now."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "I feel like a brand new person, energized and ready for the day.",
+          "tc": "我感覺自己焕然一新，充滿活力，為新的一天做好了准備。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel like a brand new person, energized and ready for the day."
+            }
+          ]
+        },
+        {
+          "en": "I'm excited to continue working on making more English videos and I'm excited to continue expressing my creativity in ways that can benefit and help learn English.",
+          "tc": "我很高興能繼續制作更多英語視頻，也很高興能繼續以有益于和幫助學習英語的方式表達我的創造力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm excited to continue working on making more English videos and I'm excited to continue expressing my creativity in ways that can benefit and help learn English."
+            }
+          ]
+        },
+        {
+          "en": "I'm so excited to continue meeting you guys.",
+          "tc": "我很高興能繼續见到你們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm so excited to continue meeting you guys."
+            }
+          ]
+        },
+        {
+          "en": "So try and tell me about your day so far.",
+          "tc": "請嘗試告诉我到目前為止您的一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So try and tell me about your day "
+            },
+            {
+              "type": "phrase",
+              "text": "so far",
+              "targetId": "phrase-so-far",
+              "instanceId": "marker-a2-ch11-the-scariest-beach-day-slow-english-podcast-for-a1-a2-beginners-comprehensible-input-104-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "Something really good and maybe something not so good.",
+          "tc": "有些东西確實很好，也许有些东西不太好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Something really good and maybe something not so good."
+            }
+          ]
+        },
+        {
+          "en": "And how did you deal with it?",
+          "tc": "你是如何應對的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And how did you deal with it?"
+            }
+          ]
+        },
+        {
+          "en": "How did you get past that negative feeling?",
+          "tc": "你是如何克服這種负面情绪的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How did you get past that negative feeling?"
+            }
+          ]
+        },
+        {
+          "en": "Thank you for listening to my Slow English podcast and I'll see you next time.",
+          "tc": "感谢您收聽我的慢速英語播客，我們下次见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you for listening to my Slow English podcast and I'll see you next time."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
+      "sentences": [
+        {
+          "en": "Bye.",
+          "tc": "再见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -586,153 +1500,174 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "out",
-          "kk": "/out/",
-          "partOfSpeech": "n.",
-          "meaning": "出去",
-          "note": "看到 out 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "/podcast/",
+          "partOfSpeech": "noun",
+          "meaning": "播客",
           "highlight": true
         },
         {
-          "english": "beach",
-          "kk": "/beach/",
-          "partOfSpeech": "n.",
-          "meaning": "海灘",
-          "note": "看到 beach 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-comprehensible",
+          "lemma": "comprehensible",
+          "english": "comprehensible",
+          "kk": "/comprehensible/",
+          "partOfSpeech": "adj.",
+          "meaning": "可理解的",
           "highlight": true
         },
         {
-          "english": "friends",
-          "kk": "/friends/",
-          "partOfSpeech": "n.",
-          "meaning": "朋友們",
-          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-sleepy",
+          "lemma": "sleepy",
+          "english": "sleepy",
+          "kk": "/sleepy/",
+          "partOfSpeech": "adj.",
+          "meaning": "想睡的",
           "highlight": true
         },
         {
-          "english": "swim",
-          "kk": "/swim/",
-          "partOfSpeech": "n.",
-          "meaning": "游泳",
-          "note": "看到 swim 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-energy",
+          "lemma": "energy",
+          "english": "energy",
+          "kk": "/energy/",
+          "partOfSpeech": "noun",
+          "meaning": "精力",
+          "highlight": true
         },
         {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "wave",
-          "kk": "/wave/",
-          "partOfSpeech": "n.",
-          "meaning": "海浪",
-          "note": "看到 wave 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "current",
-          "kk": "/current/",
-          "partOfSpeech": "n.",
-          "meaning": "目前的",
-          "note": "看到 current 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "ocean",
-          "kk": "/ocean/",
-          "partOfSpeech": "n.",
-          "meaning": "海洋",
-          "note": "看到 ocean 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-calm",
+          "lemma": "calm",
+          "english": "calm",
+          "kk": "/calm/",
+          "partOfSpeech": "adj.",
+          "meaning": "平靜的",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
       "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and __welcome back__ to my __slow English podcast__.",
+          "tc": "歡迎回來"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-slow-english-podcast",
+      "phrase": "slow English podcast",
+      "meaning": "慢速英文播客",
       "examples": [
         {
-          "en": "Today I want to talk to you about my week and a story of something scary that happened to me this week.",
-          "tc": "今天我想和大家談談我的一周以及這週發生在我身上的可怕的故事。"
+          "en": "Hello and __welcome back__ to my __slow English podcast__.",
+          "tc": "慢速英文播客"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "have to",
-      "meaning": "必須",
+      "id": "phrase-to-go",
+      "phrase": "to go",
+      "meaning": "外帶",
       "examples": [
         {
-          "en": "I would have to swim under the wave so that I wouldn't get smashed.",
-          "tc": "我必須在海浪下游泳，這樣我才不會被壓碎。"
+          "en": "So I had to order it __to go__ to __take away__.",
+          "tc": "外帶"
         }
+      ]
+    },
+    {
+      "id": "phrase-take-away",
+      "phrase": "take away",
+      "meaning": "外帶",
+      "examples": [
+        {
+          "en": "So I had to order it __to go__ to __take away__.",
+          "tc": "外帶"
+        }
+      ]
+    },
+    {
+      "id": "phrase-so-far",
+      "phrase": "so far",
+      "meaning": "到目前為止",
+      "examples": [
+        {
+          "en": "So try and tell me about your day __so far__.",
+          "tc": "到目前為止"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-get-item",
+      "word": "get",
+      "familiarMeaning": "得到；到達",
+      "usage": "表示理解、取得服務或變成某種狀態",
+      "translation": "理解；取得",
+      "examples": [
+        "Then a big wave would come and I would have to swim under the wave so that I wouldn't 《get》 smashed."
+      ]
+    },
+    {
+      "id": "usage-have-item",
+      "word": "have",
+      "familiarMeaning": "有",
+      "usage": "表示吃喝、經歷或享有",
+      "translation": "喝；經歷；享有",
+      "examples": [
+        "I 《have》 so many laughs with them."
+      ]
+    },
+    {
+      "id": "usage-take-item",
+      "word": "take",
+      "familiarMeaning": "拿",
+      "usage": "表示脫下、進行或照顧",
+      "translation": "脫下；進行；照顧",
+      "examples": [
+        "If anything is aching or hurting or sore, I always 《take》 a swim in the ocean or in salt water and I immediately feel better."
+      ]
+    },
+    {
+      "id": "usage-make-item",
+      "word": "make",
+      "familiarMeaning": "製作",
+      "usage": "表示產生、犯下或做出",
+      "translation": "產生；犯下；做出",
+      "examples": [
+        "It's supposed to 《make》 me feel more **calm** and balanced."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "Hello and welcome back to my slow English podcast.",
+      "translation": "你好，歡迎回到我的慢速英語播客。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定詞片語",
+          "text": "to + 原形動詞",
+          "note": "表示目的、計畫或想做的事。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "This podcast is for English beginner listeners to practice listening to a slow comprehensible English.",
-      "translation": "此podcast適合英語初學者聽眾練習聽慢速可理解的英語。",
+      "id": "grammar-2",
+      "sentence": "Today I want to talk to you about my week and a story of something scary that happened to me this week.",
+      "translation": "今天我想和大家談談我的一周以及這周發生在我身上的可怕的故事。",
       "points": [
         {
-          "label": "listeners",
-          "text": "listeners",
-          "note": "注意 \"listeners\" 在句子中的位置，先練整句，再替換自己的內容。"
-        }
-      ]
-    },
-    {
-      "id": "breakdown-03",
-      "sentence": "Today I want to talk to you about my week and a story of something scary that happened to me this week. This week.",
-      "translation": "今天我想和大家談談我的一周以及這週發生在我身上的可怕的故事。本星期。",
-      "points": [
-        {
-          "label": "want to",
-          "text": "want to",
-          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
-        }
-      ]
-    },
-    {
-      "id": "breakdown-04",
-      "sentence": "I had a wonderful time. I met some cool people and I made some new friends.",
-      "translation": "我度過了一段美好的時光。我遇到了一些很酷的人，也認識了一些新朋友。",
-      "points": [
-        {
-          "label": "wonderful time met",
-          "text": "wonderful time met",
-          "note": "注意 \"wonderful time met\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句",
+          "text": "名詞 + who/which/that + 子句",
+          "note": "補充說明前面的名詞。"
         }
       ]
     }

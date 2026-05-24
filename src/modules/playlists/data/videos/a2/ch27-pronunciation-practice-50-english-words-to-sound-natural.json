@@ -15,550 +15,2903 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Shadow these difficult English words. I wanted to go through some words that you guys might have trouble pronouncing. I'll show you how to pronounce them slowly.",
-          "tc": "影子這些困難的英文單字。我想介紹一下你們可能發音有困難的一些單字。我會教你如何慢慢發音。"
+          "en": "Shadow these difficult English words.",
+          "tc": "影子這些困難的英語單詞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Shadow these difficult English words."
+            }
+          ]
         },
         {
-          "en": "Then as a native speaker would pronounce them. Repeat after me and repeat out loud, not in your head. Part one. Reduced sounds. Comfortable. This couch is comfortable. Vegetable.",
-          "tc": "然後以母語人士的身份發音。跟著我重複大聲重複，而不是在你的腦海裡重複。第一部分。聲音減少。舒服的。這個沙發很舒服。蔬菜。"
+          "en": "I wanted to go through some words that you guys might have trouble pronouncing.",
+          "tc": "我想介绍一下你們可能發音有困難的一些單詞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I wanted "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-002-01"
+            },
+            {
+              "type": "text",
+              "text": " through some words that you guys might "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-002-02"
+            },
+            {
+              "type": "text",
+              "text": " trouble pronouncing."
+            }
+          ]
         },
         {
-          "en": "I love that vegetable. Chocolate.",
-          "tc": "我喜歡那種蔬菜。巧克力。"
+          "en": "I'll show you how to pronounce them slowly first and then as a native speaker would pronounce them.",
+          "tc": "我将向您展示如何先缓慢地發音，然後以母語人士的方式發音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll show you how to "
+            },
+            {
+              "type": "word",
+              "text": "pronounce",
+              "targetId": "word-pronounce",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-003-01"
+            },
+            {
+              "type": "text",
+              "text": " them slowly first and then as a "
+            },
+            {
+              "type": "word",
+              "text": "native",
+              "targetId": "word-native",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-003-02"
+            },
+            {
+              "type": "text",
+              "text": " speaker would pronounce them."
+            }
+          ]
         },
         {
-          "en": "I love chocolate. Little My brother is so little. Interesting. That is so interesting. Jewelry.",
-          "tc": "我喜歡巧克力。小 我的弟弟太小了。有趣的。那太有趣了。珠寶。"
+          "en": "Repeat after me and repeat out loud, not in your head.",
+          "tc": "跟着我重複并大聲重複，而不是在你的腦海里重複。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Repeat after me and repeat out loud, not in your head."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "words",
-          "kk": "/words/",
-          "partOfSpeech": "n.",
-          "meaning": "字",
-          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "part",
-          "kk": "/part/",
-          "partOfSpeech": "n.",
-          "meaning": "部分",
-          "note": "看到 part 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I have new jewelry. Literally. That is literally awesome. legitimately. I legitimately didn't know. Uncomfortable.",
-          "tc": "我有新首飾。字面上地。這真是太棒了。合法地。我當然不知道。不舒服。"
+          "en": "Part one.",
+          "tc": "第一部分。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Part one."
+            }
+          ]
         },
         {
-          "en": "I feel uncomfortable. Comfortably I sit comfortably. You might sound unnatural because you're pronouncing every syllable and native speakers don't. Uncomfortable. Legitimately vegetable.",
-          "tc": "我覺得不舒服。我舒服地坐著。你可能聽起來不自然，因為你正在發音每個音節，而母語人士則不然。不舒服。合法的蔬菜。"
+          "en": "Reduced sounds.",
+          "tc": "减少聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Reduced sounds."
+            }
+          ]
         },
         {
-          "en": "We reduce sounds. Now this.",
-          "tc": "我們減少聲音。現在這個。"
+          "en": "Comfortable.",
+          "tc": "舒适。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Comfortable",
+              "targetId": "word-comfortable",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-007-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "You and I, You and I. Your phone is ringing. Your phone is ringing. Now some R sounds. Girl.",
-          "tc": "你和我，你和我。你的電話響了。你的電話響了。現在有一些 R 的聲音。女孩。"
+          "en": "Comfortable.",
+          "tc": "舒适。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Comfortable."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "now",
-          "kk": "/now/",
-          "partOfSpeech": "n.",
-          "meaning": "現在",
-          "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I am a girl.",
-          "tc": "我是一個女孩。"
+          "en": "This couch is comfortable.",
+          "tc": "這個沙發很舒服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This couch is comfortable."
+            }
+          ]
         },
         {
-          "en": "I'm a girl. world. This is my world. Bird. I hear the bird.",
-          "tc": "我是一個女孩。世界。這是我的世界。鳥。我聽到鳥叫聲。"
+          "en": "This couch is comfortable.",
+          "tc": "這個沙發很舒服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This couch is comfortable."
+            }
+          ]
         },
         {
-          "en": "I hear the bird. Now, some consonant clusters. Clothes. These are my clothes. Months.",
-          "tc": "我聽到鳥叫聲。現在，一些輔音簇。衣服。這些是我的衣服。幾個月。"
+          "en": "Vegetable.",
+          "tc": "蔬菜．。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Vegetable."
+            }
+          ]
         },
         {
-          "en": "I went to the doctor two months ago. Shrimp. I ate shrimp. Now some silent letters. Wednesday.",
-          "tc": "兩個月前我去看了醫生。蝦。我吃了蝦子。現在有一些無聲的信件。週三。"
+          "en": "Vegetable.",
+          "tc": "蔬菜．。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Vegetable."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "i'm",
-          "kk": "/i'm/",
-          "partOfSpeech": "n.",
-          "meaning": "我是",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "now",
-          "kk": "/now/",
-          "partOfSpeech": "n.",
-          "meaning": "現在",
-          "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I go on Wednesday. Salmon.",
-          "tc": "我星期三去。鮭魚."
+          "en": "I love that vegetable.",
+          "tc": "我喜歡那種蔬菜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love that vegetable."
+            }
+          ]
         },
         {
-          "en": "I love salmon. Honest.",
-          "tc": "我喜歡鮭魚。誠實的。"
+          "en": "Chocolate.",
+          "tc": "巧克力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Chocolate."
+            }
+          ]
         },
         {
-          "en": "I am honest.",
-          "tc": "我很誠實。"
+          "en": "Chocolate.",
+          "tc": "巧克力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Chocolate."
+            }
+          ]
         },
         {
-          "en": "I'm honest. Queue.",
-          "tc": "我很誠實。隊列。"
+          "en": "I love chocolate.",
+          "tc": "我喜歡巧克力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love chocolate."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "i'm",
-          "kk": "/i'm/",
-          "partOfSpeech": "n.",
-          "meaning": "我是",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "I'm waiting in the queue. Receipt. This is my receipt. Recipe This is the secret recipe. Don't confuse receipt with recipe, please. February.",
-          "tc": "我在隊列中等待。收據。這是我的收據。食譜 這是秘方。請不要將收據與食譜混為一談。二月。"
+          "en": "I love chocolate.",
+          "tc": "我喜歡巧克力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love chocolate."
+            }
+          ]
         },
         {
-          "en": "It is February. Island.",
-          "tc": "現在是二月。島。"
+          "en": "Little little.",
+          "tc": "一点点。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Little little."
+            }
+          ]
         },
         {
-          "en": "I want to visit an island. Castle. Look at the castle. Look at the castle. Listen. to me. Listen to the Slow English podcast. Hour. This video is 1 hour. debt.",
-          "tc": "我想去一座島嶼。城堡。看看城堡。看看城堡。聽。大部頭書。收聽慢速英語podcast。小時。本影片長度1小時。債務。"
+          "en": "My brother is so little.",
+          "tc": "我弟弟太小了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My brother is so little."
+            }
+          ]
         },
         {
-          "en": "I need to pay off my debt. Subtle. There is a subtle difference. There's a subtle difference. Part five. This.",
-          "tc": "我需要還清債務。微妙的。有一個細微的差別。有一個微妙的區別。第五部分。這。"
+          "en": "My brother is so little.",
+          "tc": "我弟弟太小了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My brother is so little."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "i'm",
-          "kk": "/i'm/",
-          "partOfSpeech": "n.",
-          "meaning": "我是",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "part",
-          "kk": "/part/",
-          "partOfSpeech": "n.",
-          "meaning": "部分",
-          "note": "看到 part 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "Next part is very important to be able to understand native speakers. Connected speech. Bottle of water. I drink from my bottle of water.",
-          "tc": "下一部分對於能夠理解母語人士來說非常重要。連結的演講。一瓶水。我用我的瓶裝水喝。"
+          "en": "Interesting.",
+          "tc": "有趣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Interesting."
+            }
+          ]
         },
         {
-          "en": "I don't know.",
-          "tc": "我不知道。"
+          "en": "Interesting.",
+          "tc": "有趣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Interesting."
+            }
+          ]
         },
         {
-          "en": "What are you?",
-          "tc": "你是做什麼的？"
+          "en": "That is so interesting.",
+          "tc": "這太有趣了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That is so interesting."
+            }
+          ]
         },
         {
-          "en": "What are you doing? Give me a second. Give me a sec. Give me a second. want to wanna want to go. Did?",
-          "tc": "你在幹什麼？等一下。等我一下。等一下。想去想去想去。做過？"
+          "en": "That is so interesting.",
+          "tc": "這太有趣了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That is so interesting."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "now",
-          "kk": "/now/",
-          "partOfSpeech": "n.",
-          "meaning": "現在",
-          "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "part",
-          "kk": "/part/",
-          "partOfSpeech": "n.",
-          "meaning": "部分",
-          "note": "看到 part 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "You Did you Did you eat? Did you eat? Let me let me let me see.",
-          "tc": "吃了嗎你吃了嗎？你吃了沒？讓我讓我讓我看看。"
+          "en": "Jewelry.",
+          "tc": "珠宝。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Jewelry."
+            }
+          ]
         },
         {
-          "en": "If you only practice individual words, you'll never sound natural. You need to practice connections.",
-          "tc": "如果你只練習單字，你的聲音永遠不會自然。你需要練習聯繫。"
+          "en": "Jewelry.",
+          "tc": "珠宝。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Jewelry."
+            }
+          ]
         },
         {
-          "en": "If you're enjoying this video, don't forget to like it so that I know and I can make more videos like this. And don't forget to subscribe for more English practice.",
-          "tc": "如果你喜歡這個視頻，請不要忘記喜歡它，以便我知道並且我可以製作更多這樣的視頻。並且不要忘記訂閱更多英語練習。"
+          "en": "I have new jewelry.",
+          "tc": "我有新珠宝。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have new jewelry."
+            }
+          ]
         },
         {
-          "en": "Next part. Th sound. Three. Think. this. Notice the difference between think and this. Think you blow. This you vibrate. But both keep the tongue between the teeth. Think this. think this.",
-          "tc": "下一部分。噝聲。三。思考。這。注意 think 和 this 之間的差異。以為你吹了。這就是你振動的地方。但兩者都將舌頭放在牙齒之間。想想這個。想想這個。"
+          "en": "I have new jewelry.",
+          "tc": "我有新珠宝。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have new jewelry."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "words",
-          "kk": "/words/",
-          "partOfSpeech": "n.",
-          "meaning": "字",
-          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：語言學習",
-      "titleEn": "Part 8: language",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "I think you are beautiful:). This is your English class. Those are beautiful flowers through. I walk through the market though.",
-          "tc": "我覺得你很漂亮:)。這是你的英文課。那些都是美麗的花朵。不過我穿過市場。"
+          "en": "Literally.",
+          "tc": "从字面上看。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Literally."
+            }
+          ]
         },
         {
-          "en": "It was hard though. throughout the year. Thought I thought about it. Although.",
-          "tc": "但這很難。全年。以為我想了一下。雖然。"
+          "en": "That is literally awesome.",
+          "tc": "這真是太棒了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That is literally awesome."
+            }
+          ]
         },
         {
-          "en": "I'm not sure. Very good. Part seven. Rhythm. unfortunately. I unfortunately couldn't go. Fortunately, I found my sweater. Especially. I especially love fish. Reliable.",
-          "tc": "我不知道。非常好。第七部分。韻律。很遺憾。遺憾的是我沒能去。幸運的是，我找到了我的毛衣。尤其。我特別喜歡魚。可靠的。"
+          "en": "Legitimately.",
+          "tc": "合法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Legitimately."
+            }
+          ]
         },
         {
-          "en": "I am a reliable person.",
-          "tc": "我是一個可靠的人。"
+          "en": "Legitimately I legitimately didn't know.",
+          "tc": "我確實不知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Legitimately I legitimately didn't know."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "good",
-          "kk": "/good/",
-          "partOfSpeech": "n.",
-          "meaning": "好的",
-          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "i'm",
-          "kk": "/i'm/",
-          "partOfSpeech": "n.",
-          "meaning": "我是",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "I'm a reliable person. Very good. Congratulations. to you. Circumstances. Those are the circumstances. Keep going. Keep going.",
-          "tc": "我是一個可靠的人。非常好。恭喜。給你。情況。就是這些情況。繼續前進。繼續前進。"
+          "en": "I legitimately didn't know.",
+          "tc": "我確實不知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I legitimately didn't know."
+            }
+          ]
         },
         {
-          "en": "You can do it. Almost done. Almost there. Now, some advanced words. Unforgettable. Yesterday was unforgettable. Infrastructure. That is good infrastructure. Entrepreneur.",
-          "tc": "你可以做到的。快完成了。快到了。現在，一些高級的話。難忘。昨天是令人難忘的。基礎設施。這是良好的基礎設施。企業家。"
+          "en": "Uncomfortable.",
+          "tc": "不舒服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Uncomfortable."
+            }
+          ]
         },
         {
-          "en": "I am an entrepreneur. That one's so difficult.",
-          "tc": "我是一名企業家。那個太難了"
+          "en": "Uncomfortable.",
+          "tc": "不舒服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Uncomfortable."
+            }
+          ]
         },
         {
-          "en": "If you got it, congratulations. Very good. Bureaucracy. Too much bureaucracy. Very good. Aneurysm.",
-          "tc": "如果你得到了，恭喜你。非常好。官僚。官僚主義太多。非常好。動脈瘤。"
+          "en": "I feel uncomfortable.",
+          "tc": "我感覺不舒服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-036-01"
+            },
+            {
+              "type": "text",
+              "text": " uncomfortable."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "words",
-          "kk": "/words/",
-          "partOfSpeech": "n.",
-          "meaning": "字",
-          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "good",
-          "kk": "/good/",
-          "partOfSpeech": "n.",
-          "meaning": "好的",
-          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "i'm",
-          "kk": "/i'm/",
-          "partOfSpeech": "n.",
-          "meaning": "我是",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "He had an Aneurysm. Very difficult. Insomnia. Last night.",
-          "tc": "他患有動脈瘤。非常困難。失眠。昨夜。"
+          "en": "Comfortably comfortably.",
+          "tc": "舒服舒服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Comfortably comfortably."
+            }
+          ]
         },
         {
-          "en": "I had insomnia. You're doing a great job. Keep going. Last one. Murderer.",
-          "tc": "我失眠了。你做得很好。繼續前進。最後一張。兇手。"
+          "en": "I sit comfortably.",
+          "tc": "我坐得很舒服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I sit comfortably."
+            }
+          ]
         },
         {
-          "en": "He is a murderer.",
-          "tc": "他是個殺人犯。"
+          "en": "I sit comfortably.",
+          "tc": "我坐得很舒服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I sit comfortably."
+            }
+          ]
         },
         {
-          "en": "He's a murderer. This video is getting too long, so I will finish the rest of the words that I wrote.",
-          "tc": "他是個殺人犯。這個影片太長了，所以我會把剩下的文字寫完。"
+          "en": "You might sound unnatural because you're pronouncing every syllable and native speakers don't.",
+          "tc": "你可能聽起來不自然，因為你每個音節都在發音，而母語人士则不然。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You might sound unnatural because you're pronouncing every syllable and native speakers don't."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "words",
-          "kk": "/words/",
-          "partOfSpeech": "n.",
-          "meaning": "字",
-          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：語言學習",
-      "titleEn": "Part 11: language",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "If you have any other words that you need help pronouncing, leave them in the comments. Native speakers reduce sounds and connect words. That's.",
-          "tc": "如果你有任何其他單字需要幫助發音，請將其留在評論中。以母語為母語的人會減少聲音並連接單字。就是這樣。"
+          "en": "Uncomfortable.",
+          "tc": "不舒服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Uncomfortable."
+            }
+          ]
         },
         {
-          "en": "What makes you sound natural. Repeat, I can't emphasize this enough. That's the only way you'll get better. Speak out loud. Practice with this video every day until it's nothing to pronounce?",
-          "tc": "是什麼讓你聽起來很自然。重複一遍，這一點我怎麼強調都不為過。這是你變得更好的唯一方法。大聲說出來。每天用這個影片練習，直到不會發音為止？"
+          "en": "Uncomfortable.",
+          "tc": "不舒服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Uncomfortable."
+            }
+          ]
         },
         {
-          "en": "I chose most of these words from my Instagram.",
-          "tc": "這些字大部分是我從 Instagram 上選擇的。"
+          "en": "Legitimately legitimately vegetable.",
+          "tc": "合法合法的蔬菜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Legitimately legitimately vegetable."
+            }
+          ]
         },
         {
-          "en": "Next video's topic and the words that I pronounce,.",
-          "tc": "下一個影片的主題和我發音的單字。"
+          "en": "Vegetable.",
+          "tc": "蔬菜．。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Vegetable."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "words",
-          "kk": "/words/",
-          "partOfSpeech": "n.",
-          "meaning": "字",
-          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：日常生活",
-      "titleEn": "Part 12: everyday life",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "Then go check my Instagram account. Like and subscribe.",
-          "tc": "然後去查看我的 Instagram 帳號。喜歡並訂閱。"
+          "en": "We reduce sounds.",
+          "tc": "我們减少聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We reduce sounds."
+            }
+          ]
         },
         {
-          "en": "If you like this video, you'll probably like these.",
-          "tc": "如果你喜歡這個視頻，你可能也會喜歡這些。"
+          "en": "Now this next part is what makes you sound native.",
+          "tc": "現在，下一部分是讓你聽起來很自然的部分。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now this next part is what makes you sound native."
+            }
+          ]
         },
         {
-          "en": "Next two that I made just for you. And remember, never stop learning. Bye. :)))).",
-          "tc": "接下来的两个是我专门为你做的。请记住，永远不要停止学习。再見。 :)）））。"
+          "en": "Of a cup of coffee.",
+          "tc": "一杯咖啡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Of a cup of coffee."
+            }
+          ]
+        },
+        {
+          "en": "A cup of coffee.",
+          "tc": "一杯咖啡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A cup of coffee."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
         {
-          "english": "words",
-          "kk": "/words/",
-          "partOfSpeech": "n.",
-          "meaning": "字",
-          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "For this is for you.",
+          "tc": "因為這是给你的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For this is for you."
+            }
+          ]
         },
         {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "This is for you.",
+          "tc": "這是给你的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is for you."
+            }
+          ]
         },
         {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "Practice the linking word and clearly.",
+          "tc": "練習连接詞andclear。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Practice the linking word and clearly."
+            }
+          ]
+        },
+        {
+          "en": "Practice the phrase you and I together.",
+          "tc": "一起練習短語“你和我”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Practice the "
+            },
+            {
+              "type": "word",
+              "text": "phrase",
+              "targetId": "word-phrase",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-052-01"
+            },
+            {
+              "type": "text",
+              "text": " you and I together."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "Your your phone is ringing.",
+          "tc": "你的電话響了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Your your phone is ringing."
+            }
+          ]
+        },
+        {
+          "en": "Your phone is ringing.",
+          "tc": "你的電话響了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Your phone is ringing."
+            }
+          ]
+        },
+        {
+          "en": "Now some R sounds.",
+          "tc": "現在有一些R的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now some R sounds."
+            }
+          ]
+        },
+        {
+          "en": "Girl.",
+          "tc": "女孩.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Girl."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "I am a girl.",
+          "tc": "我是一個女孩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am a girl."
+            }
+          ]
+        },
+        {
+          "en": "I'm a girl.",
+          "tc": "我是一個女孩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm a girl."
+            }
+          ]
+        },
+        {
+          "en": "World.",
+          "tc": "世界。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "World."
+            }
+          ]
+        },
+        {
+          "en": "This is my world.",
+          "tc": "這就是我的世界。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is my world."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "This is my world.",
+          "tc": "這就是我的世界。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is my world."
+            }
+          ]
+        },
+        {
+          "en": "Bird.",
+          "tc": "鸟.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bird."
+            }
+          ]
+        },
+        {
+          "en": "I hear the bird.",
+          "tc": "我聽到鸟叫聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear the bird."
+            }
+          ]
+        },
+        {
+          "en": "I hear the bird.",
+          "tc": "我聽到鸟叫聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hear the bird."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "Now, some consonant clusters.",
+          "tc": "現在，一些辅音簇。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, some consonant clusters."
+            }
+          ]
+        },
+        {
+          "en": "Clothes.",
+          "tc": "衣服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Clothes."
+            }
+          ]
+        },
+        {
+          "en": "Clothes.",
+          "tc": "衣服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Clothes."
+            }
+          ]
+        },
+        {
+          "en": "These are my clothes.",
+          "tc": "這是我的衣服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "These are my clothes."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "These are my clothes.",
+          "tc": "這是我的衣服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "These are my clothes."
+            }
+          ]
+        },
+        {
+          "en": "Months.",
+          "tc": "几個月。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Months."
+            }
+          ]
+        },
+        {
+          "en": "I went to the doctor two months ago.",
+          "tc": "两個月前我去看了醫生。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I went to the doctor two months ago."
+            }
+          ]
+        },
+        {
+          "en": "I went to the doctor two months ago.",
+          "tc": "两個月前我去看了醫生。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I went to the doctor two months ago."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "Shrimp.",
+          "tc": "虾.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Shrimp."
+            }
+          ]
+        },
+        {
+          "en": "Shrimp.",
+          "tc": "虾.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Shrimp."
+            }
+          ]
+        },
+        {
+          "en": "I ate shrimp.",
+          "tc": "我吃了虾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I ate shrimp."
+            }
+          ]
+        },
+        {
+          "en": "I ate shrimp.",
+          "tc": "我吃了虾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I ate shrimp."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "Now some silent letters.",
+          "tc": "現在有一些無聲的信件。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now some silent letters."
+            }
+          ]
+        },
+        {
+          "en": "Wednesday.",
+          "tc": "星期三。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Wednesday."
+            }
+          ]
+        },
+        {
+          "en": "Wednesday.",
+          "tc": "星期三.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Wednesday."
+            }
+          ]
+        },
+        {
+          "en": "I go on Wednesday.",
+          "tc": "我星期三去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I go on Wednesday."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "Salmon.",
+          "tc": "鲑魚.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Salmon."
+            }
+          ]
+        },
+        {
+          "en": "Salmon.",
+          "tc": "鲑魚.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Salmon."
+            }
+          ]
+        },
+        {
+          "en": "I love salmon.",
+          "tc": "我喜歡鲑魚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love salmon."
+            }
+          ]
+        },
+        {
+          "en": "I love salmon.",
+          "tc": "我喜歡鲑魚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love salmon."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "Honest.",
+          "tc": "誠實.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Honest."
+            }
+          ]
+        },
+        {
+          "en": "Honest.",
+          "tc": "誠實.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Honest."
+            }
+          ]
+        },
+        {
+          "en": "I am honest.",
+          "tc": "我是誠實的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am honest."
+            }
+          ]
+        },
+        {
+          "en": "I'm honest.",
+          "tc": "我是誠實的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm honest."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "Queue I'm waiting in the queue.",
+          "tc": "队列我在队列中等待。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Queue I'm waiting in the queue."
+            }
+          ]
+        },
+        {
+          "en": "Receipt.",
+          "tc": "收據。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Receipt",
+              "targetId": "word-receipt",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-090-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "This is my receipt.",
+          "tc": "這是我的收據。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is my receipt."
+            }
+          ]
+        },
+        {
+          "en": "Recipe recipe.",
+          "tc": "食谱配方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Recipe recipe."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "This is the secret recipe.",
+          "tc": "這就是秘方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is the secret recipe."
+            }
+          ]
+        },
+        {
+          "en": "This is the secret recipe.",
+          "tc": "這就是秘方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is the secret recipe."
+            }
+          ]
+        },
+        {
+          "en": "Don't confuse receipt with recipe, please.",
+          "tc": "請不要将收據與食谱混淆。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Don't confuse receipt with recipe, please."
+            }
+          ]
+        },
+        {
+          "en": "February.",
+          "tc": "二月。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "February."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "February.",
+          "tc": "二月。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "February."
+            }
+          ]
+        },
+        {
+          "en": "It is February.",
+          "tc": "現在是二月。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is February."
+            }
+          ]
+        },
+        {
+          "en": "Island.",
+          "tc": "島.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Island."
+            }
+          ]
+        },
+        {
+          "en": "I want to visit an island.",
+          "tc": "我想去一個島。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I want to visit an island."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "Castle.",
+          "tc": "城堡.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Castle."
+            }
+          ]
+        },
+        {
+          "en": "Look at the castle.",
+          "tc": "看看城堡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Look at the castle."
+            }
+          ]
+        },
+        {
+          "en": "Look at the castle.",
+          "tc": "看看城堡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Look at the castle."
+            }
+          ]
+        },
+        {
+          "en": "Listen.",
+          "tc": "聽着。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Listen."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "Listen to me.",
+          "tc": "聽我說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Listen to me."
+            }
+          ]
+        },
+        {
+          "en": "Listen to me.",
+          "tc": "聽我說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Listen to me."
+            }
+          ]
+        },
+        {
+          "en": "Listen to the Slow English podcast.",
+          "tc": "收聽慢速英語播客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Listen to the "
+            },
+            {
+              "type": "phrase",
+              "text": "Slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-107-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Hour.",
+          "tc": "小时.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hour."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
+      "sentences": [
+        {
+          "en": "This video is 1 hour.",
+          "tc": "該視頻时長1小时。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This video is 1 hour."
+            }
+          ]
+        },
+        {
+          "en": "This video is 1 hour debt.",
+          "tc": "該視頻时長為1小时。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This video is 1 hour debt."
+            }
+          ]
+        },
+        {
+          "en": "I need to pay off my debt.",
+          "tc": "我需要还清债務。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I need to pay off my debt."
+            }
+          ]
+        },
+        {
+          "en": "Subtle.",
+          "tc": "微妙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Subtle."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-29",
+      "no": "29",
+      "titleZh": "第 29 段",
+      "titleEn": "Part 29",
+      "sentences": [
+        {
+          "en": "Subtle.",
+          "tc": "微妙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Subtle."
+            }
+          ]
+        },
+        {
+          "en": "There is a subtle difference.",
+          "tc": "有一個细微的差別。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There is a subtle difference."
+            }
+          ]
+        },
+        {
+          "en": "There's a subtle difference.",
+          "tc": "有一個细微的差別。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There's a subtle difference."
+            }
+          ]
+        },
+        {
+          "en": "Part five.",
+          "tc": "第五部分。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Part five."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-30",
+      "no": "30",
+      "titleZh": "第 30 段",
+      "titleEn": "Part 30",
+      "sentences": [
+        {
+          "en": "This next part is very important to be able to understand native speakers.",
+          "tc": "下一部分對于能夠理解母語人士來說非常重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This next part is very important to be able to understand native speakers."
+            }
+          ]
+        },
+        {
+          "en": "Connected speech.",
+          "tc": "连接語音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Connected speech."
+            }
+          ]
+        },
+        {
+          "en": "Bottle of water.",
+          "tc": "一瓶水。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bottle of water."
+            }
+          ]
+        },
+        {
+          "en": "Bottle of water.",
+          "tc": "一瓶水。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bottle of water."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-31",
+      "no": "31",
+      "titleZh": "第 31 段",
+      "titleEn": "Part 31",
+      "sentences": [
+        {
+          "en": "I drink from my bottle of water.",
+          "tc": "我用我的瓶装水喝。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I drink from my bottle of water."
+            }
+          ]
+        },
+        {
+          "en": "I don't know.",
+          "tc": "我不知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know."
+            }
+          ]
+        },
+        {
+          "en": "I don't know.",
+          "tc": "我不知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know."
+            }
+          ]
+        },
+        {
+          "en": "What are you?",
+          "tc": "你是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What are you?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-32",
+      "no": "32",
+      "titleZh": "第 32 段",
+      "titleEn": "Part 32",
+      "sentences": [
+        {
+          "en": "Would you What are you doing?",
+          "tc": "你在做什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Would you What are you doing?"
+            }
+          ]
+        },
+        {
+          "en": "What are you doing?",
+          "tc": "你在做什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What are you doing?"
+            }
+          ]
+        },
+        {
+          "en": "Give me a second.",
+          "tc": "請稍等一下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Give me a second."
+            }
+          ]
+        },
+        {
+          "en": "Give me a sec.",
+          "tc": "等一下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Give me a sec."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-33",
+      "no": "33",
+      "titleZh": "第 33 段",
+      "titleEn": "Part 33",
+      "sentences": [
+        {
+          "en": "Give me a second.",
+          "tc": "等一下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Give me a second."
+            }
+          ]
+        },
+        {
+          "en": "Want to wanna want to go.",
+          "tc": "想去想去想去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Want to wanna want to go."
+            }
+          ]
+        },
+        {
+          "en": "Did you Did you Did you eat?",
+          "tc": "你吃了嗎？你吃了嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Did you Did you Did you eat?"
+            }
+          ]
+        },
+        {
+          "en": "Did you eat?",
+          "tc": "你吃飯了嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Did you eat?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-34",
+      "no": "34",
+      "titleZh": "第 34 段",
+      "titleEn": "Part 34",
+      "sentences": [
+        {
+          "en": "Let me let me let me see.",
+          "tc": "讓我讓我讓我看看。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let me let me let me see."
+            }
+          ]
+        },
+        {
+          "en": "If you only practice individual words, you'll never sound natural.",
+          "tc": "如果你只練習單個單詞，你的發音永遠不會自然。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you only practice individual words, you'll never sound natural."
+            }
+          ]
+        },
+        {
+          "en": "You need to practice connections.",
+          "tc": "你需要練習联系。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You need to practice connections."
+            }
+          ]
+        },
+        {
+          "en": "If you're enjoying this video, don't forget to like it so that I know and I can make more videos like this.",
+          "tc": "如果您喜歡這個視頻，請不要忘记喜歡它，以便我知道并且我可以制作更多這樣的視頻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you're enjoying this video, don't forget to like it so that I know and I can "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-136-01"
+            },
+            {
+              "type": "text",
+              "text": " more videos like this."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-35",
+      "no": "35",
+      "titleZh": "第 35 段",
+      "titleEn": "Part 35",
+      "sentences": [
+        {
+          "en": "And don't forget to subscribe for more English practice.",
+          "tc": "并且不要忘记訂阅更多英語練習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And don't forget to subscribe for more English practice."
+            }
+          ]
+        },
+        {
+          "en": "Next part.",
+          "tc": "下一部分。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Next part."
+            }
+          ]
+        },
+        {
+          "en": "Th sound.",
+          "tc": "Th聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Th sound."
+            }
+          ]
+        },
+        {
+          "en": "Three.",
+          "tc": "三．。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Three."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-36",
+      "no": "36",
+      "titleZh": "第 36 段",
+      "titleEn": "Part 36",
+      "sentences": [
+        {
+          "en": "Three.",
+          "tc": "三.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Three."
+            }
+          ]
+        },
+        {
+          "en": "Think.",
+          "tc": "思考。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Think."
+            }
+          ]
+        },
+        {
+          "en": "Think this.",
+          "tc": "想想這個。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Think this."
+            }
+          ]
+        },
+        {
+          "en": "This.",
+          "tc": "這個。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-37",
+      "no": "37",
+      "titleZh": "第 37 段",
+      "titleEn": "Part 37",
+      "sentences": [
+        {
+          "en": "Notice the difference between think and this.",
+          "tc": "注意think和this之間的區別。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Notice the difference between think and this."
+            }
+          ]
+        },
+        {
+          "en": "Think you blow.",
+          "tc": "以為你吹了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Think you blow."
+            }
+          ]
+        },
+        {
+          "en": "This you vibrate.",
+          "tc": "這個你振動。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This you vibrate."
+            }
+          ]
+        },
+        {
+          "en": "But both keep the tongue between the teeth.",
+          "tc": "但两者都把舌頭放在牙齿之間。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But both keep the tongue between the teeth."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-38",
+      "no": "38",
+      "titleZh": "第 38 段",
+      "titleEn": "Part 38",
+      "sentences": [
+        {
+          "en": "Think this.",
+          "tc": "想想這個。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Think this."
+            }
+          ]
+        },
+        {
+          "en": "Think this.",
+          "tc": "想想這個。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Think this."
+            }
+          ]
+        },
+        {
+          "en": "I think you are beautiful:).",
+          "tc": "我覺得你很漂亮:)。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think you are beautiful:)."
+            }
+          ]
+        },
+        {
+          "en": "This is your English class.",
+          "tc": "這是你的英語課。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is your English class."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-39",
+      "no": "39",
+      "titleZh": "第 39 段",
+      "titleEn": "Part 39",
+      "sentences": [
+        {
+          "en": "Those are beautiful flowers through.",
+          "tc": "這些都是美麗的花朵。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Those are beautiful flowers through."
+            }
+          ]
+        },
+        {
+          "en": "I walk through the market though.",
+          "tc": "不過我走過市場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I walk through the market though."
+            }
+          ]
+        },
+        {
+          "en": "It was hard though.",
+          "tc": "不過這很難。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was hard though."
+            }
+          ]
+        },
+        {
+          "en": "Throughout throughout the year.",
+          "tc": "全年。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Throughout throughout the year."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-40",
+      "no": "40",
+      "titleZh": "第 40 段",
+      "titleEn": "Part 40",
+      "sentences": [
+        {
+          "en": "Thought I thought about it.",
+          "tc": "我想我已經考慮過了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thought I thought about it."
+            }
+          ]
+        },
+        {
+          "en": "Although although I'm not sure.",
+          "tc": "雖然雖然我不確定。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Although although I'm not sure."
+            }
+          ]
+        },
+        {
+          "en": "Very good.",
+          "tc": "非常好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Very good."
+            }
+          ]
+        },
+        {
+          "en": "Part seven.",
+          "tc": "第七部分。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Part seven."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-41",
+      "no": "41",
+      "titleZh": "第 41 段",
+      "titleEn": "Part 41",
+      "sentences": [
+        {
+          "en": "Rhythm.",
+          "tc": "節奏。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Rhythm."
+            }
+          ]
+        },
+        {
+          "en": "Unfortunately.",
+          "tc": "不幸的是。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Unfortunately."
+            }
+          ]
+        },
+        {
+          "en": "Unfortunately, I unfortunately couldn't go.",
+          "tc": "遺憾的是，我沒能去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Unfortunately, I unfortunately couldn't go."
+            }
+          ]
+        },
+        {
+          "en": "Fortunately, fortunately, fortunately, I found my sweater.",
+          "tc": "幸好，幸好，幸好，我找到了我的毛衣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Fortunately, fortunately, fortunately, I found my sweater."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-42",
+      "no": "42",
+      "titleZh": "第 42 段",
+      "titleEn": "Part 42",
+      "sentences": [
+        {
+          "en": "Fortunately, I found my sweater.",
+          "tc": "幸運的是，我找到了我的毛衣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Fortunately, I found my sweater."
+            }
+          ]
+        },
+        {
+          "en": "Especially.",
+          "tc": "特別是。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Especially."
+            }
+          ]
+        },
+        {
+          "en": "Especially I especially love fish.",
+          "tc": "尤其是我特別喜歡魚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Especially I especially love fish."
+            }
+          ]
+        },
+        {
+          "en": "Reliable.",
+          "tc": "可靠。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Reliable."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-43",
+      "no": "43",
+      "titleZh": "第 43 段",
+      "titleEn": "Part 43",
+      "sentences": [
+        {
+          "en": "I am a reliable person.",
+          "tc": "我是一個值得信赖的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am a reliable person."
+            }
+          ]
+        },
+        {
+          "en": "I'm a reliable person.",
+          "tc": "我是一個可靠的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm a reliable person."
+            }
+          ]
+        },
+        {
+          "en": "Very good.",
+          "tc": "非常好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Very good."
+            }
+          ]
+        },
+        {
+          "en": "Congratulations.",
+          "tc": "恭喜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Congratulations."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-44",
+      "no": "44",
+      "titleZh": "第 44 段",
+      "titleEn": "Part 44",
+      "sentences": [
+        {
+          "en": "Congratulations.",
+          "tc": "恭喜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Congratulations."
+            }
+          ]
+        },
+        {
+          "en": "Congratulations to you.",
+          "tc": "恭喜你。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Congratulations to you."
+            }
+          ]
+        },
+        {
+          "en": "Congratulations to you.",
+          "tc": "恭喜你。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Congratulations to you."
+            }
+          ]
+        },
+        {
+          "en": "Circumstances.",
+          "tc": "情况。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Circumstances."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-45",
+      "no": "45",
+      "titleZh": "第 45 段",
+      "titleEn": "Part 45",
+      "sentences": [
+        {
+          "en": "Those are the circumstances.",
+          "tc": "情况就是如此。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Those are the circumstances."
+            }
+          ]
+        },
+        {
+          "en": "Keep going.",
+          "tc": "繼續前进。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Keep going",
+              "targetId": "phrase-keep-going",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-178-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Keep going.",
+          "tc": "繼續前进。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Keep going."
+            }
+          ]
+        },
+        {
+          "en": "You can do it.",
+          "tc": "你能做到。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can do it."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-46",
+      "no": "46",
+      "titleZh": "第 46 段",
+      "titleEn": "Part 46",
+      "sentences": [
+        {
+          "en": "Almost done.",
+          "tc": "快完成了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Almost done."
+            }
+          ]
+        },
+        {
+          "en": "Almost there.",
+          "tc": "快到了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Almost there."
+            }
+          ]
+        },
+        {
+          "en": "Now, some advanced words.",
+          "tc": "現在，一些高级詞彙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, some advanced words."
+            }
+          ]
+        },
+        {
+          "en": "Unforgettable.",
+          "tc": "令人難忘。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Unforgettable."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-47",
+      "no": "47",
+      "titleZh": "第 47 段",
+      "titleEn": "Part 47",
+      "sentences": [
+        {
+          "en": "Unforgettable.",
+          "tc": "令人難忘。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Unforgettable."
+            }
+          ]
+        },
+        {
+          "en": "Yesterday was unforgettable.",
+          "tc": "昨天是令人難忘的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yesterday was unforgettable."
+            }
+          ]
+        },
+        {
+          "en": "Infrastructure.",
+          "tc": "基础設施。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Infrastructure."
+            }
+          ]
+        },
+        {
+          "en": "That is good infrastructure.",
+          "tc": "這是良好的基础設施。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That is good infrastructure."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-48",
+      "no": "48",
+      "titleZh": "第 48 段",
+      "titleEn": "Part 48",
+      "sentences": [
+        {
+          "en": "Entrepreneur.",
+          "tc": "企業家.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Entrepreneur."
+            }
+          ]
+        },
+        {
+          "en": "I am an entrepreneur.",
+          "tc": "我是一名企業家。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am an entrepreneur."
+            }
+          ]
+        },
+        {
+          "en": "That one's so difficult.",
+          "tc": "這個太難了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That one's so difficult."
+            }
+          ]
+        },
+        {
+          "en": "If you got it, congratulations.",
+          "tc": "如果你得到了，恭喜你。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you got it, congratulations."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-49",
+      "no": "49",
+      "titleZh": "第 49 段",
+      "titleEn": "Part 49",
+      "sentences": [
+        {
+          "en": "Very good.",
+          "tc": "非常好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Very good."
+            }
+          ]
+        },
+        {
+          "en": "Bureaucracy.",
+          "tc": "官僚主義。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bureaucracy."
+            }
+          ]
+        },
+        {
+          "en": "Bureaucracy.",
+          "tc": "官僚主義。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bureaucracy."
+            }
+          ]
+        },
+        {
+          "en": "Too much bureaucracy.",
+          "tc": "官僚主義太多。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Too much bureaucracy."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-50",
+      "no": "50",
+      "titleZh": "第 50 段",
+      "titleEn": "Part 50",
+      "sentences": [
+        {
+          "en": "Very good.",
+          "tc": "非常好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Very good."
+            }
+          ]
+        },
+        {
+          "en": "Aneurysm.",
+          "tc": "動脉瘤。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Aneurysm."
+            }
+          ]
+        },
+        {
+          "en": "Aneurysm.",
+          "tc": "動脉瘤。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Aneurysm."
+            }
+          ]
+        },
+        {
+          "en": "He had an Aneurysm.",
+          "tc": "他患有動脉瘤。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He had an Aneurysm."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-51",
+      "no": "51",
+      "titleZh": "第 51 段",
+      "titleEn": "Part 51",
+      "sentences": [
+        {
+          "en": "He had an aneurysm.",
+          "tc": "他患有動脉瘤。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He had an aneurysm."
+            }
+          ]
+        },
+        {
+          "en": "Very difficult.",
+          "tc": "非常困難。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Very difficult."
+            }
+          ]
+        },
+        {
+          "en": "Insomnia.",
+          "tc": "失眠。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Insomnia."
+            }
+          ]
+        },
+        {
+          "en": "Insomnia.",
+          "tc": "失眠。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Insomnia."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-52",
+      "no": "52",
+      "titleZh": "第 52 段",
+      "titleEn": "Part 52",
+      "sentences": [
+        {
+          "en": "Last night I had insomnia.",
+          "tc": "昨晚我失眠了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Last night I had insomnia."
+            }
+          ]
+        },
+        {
+          "en": "You're doing a great job.",
+          "tc": "你做得很好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You're doing a great job."
+            }
+          ]
+        },
+        {
+          "en": "Keep going.",
+          "tc": "繼續前进。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Keep going."
+            }
+          ]
+        },
+        {
+          "en": "Last one.",
+          "tc": "最後一張。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Last one."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-53",
+      "no": "53",
+      "titleZh": "第 53 段",
+      "titleEn": "Part 53",
+      "sentences": [
+        {
+          "en": "Murderer.",
+          "tc": "凶手.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Murderer."
+            }
+          ]
+        },
+        {
+          "en": "Murderer.",
+          "tc": "凶手.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Murderer."
+            }
+          ]
+        },
+        {
+          "en": "He is a murderer.",
+          "tc": "他是一個杀人犯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He is a murderer."
+            }
+          ]
+        },
+        {
+          "en": "He's a murderer.",
+          "tc": "他是一個杀人犯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He's a murderer."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-54",
+      "no": "54",
+      "titleZh": "第 54 段",
+      "titleEn": "Part 54",
+      "sentences": [
+        {
+          "en": "This video is getting too long, so I will finish the rest of the words that I wrote next week.",
+          "tc": "這個視頻太長了，所以我會在下周寫完剩下的文字。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This video is getting too long, so I will finish the rest of the words that I wrote next week."
+            }
+          ]
+        },
+        {
+          "en": "And if you have any other words that you need help pronouncing, leave them in the comments.",
+          "tc": "如果您还有任何其他單詞需要幫助發音，請将其留在评论中。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And if you have any other words that you need help pronouncing, leave them in the comments."
+            }
+          ]
+        },
+        {
+          "en": "Native speakers reduce sounds and connect words.",
+          "tc": "母語人士减少聲音并连接單詞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Native speakers reduce sounds and connect words."
+            }
+          ]
+        },
+        {
+          "en": "That's what makes you sound natural.",
+          "tc": "這就是讓你聽起來自然的原因。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's what makes you sound natural."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-55",
+      "no": "55",
+      "titleZh": "第 55 段",
+      "titleEn": "Part 55",
+      "sentences": [
+        {
+          "en": "Repeat, repeat, repeat.",
+          "tc": "重複，重複，重複。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Repeat, repeat, repeat."
+            }
+          ]
+        },
+        {
+          "en": "I can't emphasize this enough.",
+          "tc": "這一点我怎麼強调都不為過。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can't emphasize this enough."
+            }
+          ]
+        },
+        {
+          "en": "That's the only way you'll get better.",
+          "tc": "這是你變得更好的唯一方法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's the only way you'll "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch27-pronunciation-practice-50-english-words-to-sound-natural-219-01"
+            },
+            {
+              "type": "text",
+              "text": " better."
+            }
+          ]
+        },
+        {
+          "en": "Speak out loud.",
+          "tc": "大聲說出來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Speak out loud."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-56",
+      "no": "56",
+      "titleZh": "第 56 段",
+      "titleEn": "Part 56",
+      "sentences": [
+        {
+          "en": "Practice with this video every day until it's nothing to pronounce.",
+          "tc": "每天用這個視頻練習，直到不會發音為止。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Practice with this video every day until it's nothing to pronounce."
+            }
+          ]
+        },
+        {
+          "en": "I chose most of these words from my Instagram.",
+          "tc": "這些詞大部分是我从我的Instagram上選擇的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I chose most of these words from my Instagram."
+            }
+          ]
+        },
+        {
+          "en": "So, if you want to be a part of next video's topic and the words that I pronounce, then go check my Instagram account.",
+          "tc": "所以，如果您想成為下一個視頻主题和我發音的單詞的一部分，請查看我的Instagram帐户。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, if you want to be a part of next video's topic and the words that I pronounce, then go check my Instagram account."
+            }
+          ]
+        },
+        {
+          "en": "Like and subscribe.",
+          "tc": "点讚并訂阅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like and subscribe."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-57",
+      "no": "57",
+      "titleZh": "第 57 段",
+      "titleEn": "Part 57",
+      "sentences": [
+        {
+          "en": "If you like this video, you'll probably like these next two that I made just for you.",
+          "tc": "如果您喜歡這個視頻，您可能會喜歡我專門為您制作的接下來两個視頻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you like this video, you'll probably like these next two that I made just for you."
+            }
+          ]
+        },
+        {
+          "en": "And remember, never stop learning.",
+          "tc": "請记住，永遠不要停止學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And remember, never stop learning."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "再见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        },
+        {
+          "en": ":)))).",
+          "tc": "這裡是在說：「:)))).」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": ":))))."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -566,153 +2919,176 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "words",
-          "kk": "/words/",
-          "partOfSpeech": "n.",
-          "meaning": "字",
-          "note": "看到 words 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-phrase",
+          "lemma": "phrase",
+          "english": "phrase",
+          "kk": "/phrase/",
+          "partOfSpeech": "noun",
+          "meaning": "片語",
           "highlight": true
         },
         {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-native",
+          "lemma": "native",
+          "english": "native",
+          "kk": "/native/",
+          "partOfSpeech": "adj.",
+          "meaning": "母語的",
           "highlight": true
         },
         {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-pronounce",
+          "lemma": "pronounce",
+          "english": "pronounce",
+          "kk": "/pronounce/",
+          "partOfSpeech": "verb",
+          "meaning": "發音",
           "highlight": true
         },
         {
-          "english": "good",
-          "kk": "/good/",
-          "partOfSpeech": "n.",
-          "meaning": "好的",
-          "note": "看到 good 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-receipt",
+          "lemma": "receipt",
+          "english": "Receipt",
+          "kk": "/receipt/",
+          "partOfSpeech": "noun",
+          "meaning": "收據",
+          "highlight": true
         },
         {
-          "english": "i'm",
-          "kk": "/i'm/",
-          "partOfSpeech": "n.",
-          "meaning": "我是",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "now",
-          "kk": "/now/",
-          "partOfSpeech": "n.",
-          "meaning": "現在",
-          "note": "看到 now 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "part",
-          "kk": "/part/",
-          "partOfSpeech": "n.",
-          "meaning": "部分",
-          "note": "看到 part 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "sound",
-          "kk": "/sound/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sound 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-comfortable",
+          "lemma": "comfortable",
+          "english": "Comfortable",
+          "kk": "/comfortable/",
+          "partOfSpeech": "adj.",
+          "meaning": "舒服的",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-slow-english-podcast",
+      "phrase": "slow English podcast",
+      "meaning": "慢速英文播客",
       "examples": [
         {
-          "en": "I want to visit an island.",
-          "tc": "我想去一座島嶼。"
+          "en": "Listen to the __Slow English podcast__.",
+          "tc": "慢速英文播客"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "need to",
-      "meaning": "需要",
+      "id": "phrase-to-go",
+      "phrase": "to go",
+      "meaning": "外帶",
       "examples": [
         {
-          "en": "I need to pay off my debt.",
-          "tc": "我需要還清債務。"
+          "en": "I wanted __to go__ through some words that you guys might 《have》 trouble pronouncing.",
+          "tc": "外帶"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "i think",
-      "meaning": "我認為",
+      "id": "phrase-keep-going",
+      "phrase": "keep going",
+      "meaning": "繼續下去",
       "examples": [
         {
-          "en": "I think you are beautiful:).",
-          "tc": "我覺得你很漂亮:)。"
+          "en": "__Keep going__.",
+          "tc": "繼續下去"
         }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-get-item",
+      "word": "get",
+      "familiarMeaning": "得到；到達",
+      "usage": "表示理解、取得服務或變成某種狀態",
+      "translation": "理解；取得",
+      "examples": [
+        "That's the only way you'll 《get》 better."
+      ]
+    },
+    {
+      "id": "usage-have-item",
+      "word": "have",
+      "familiarMeaning": "有",
+      "usage": "表示吃喝、經歷或享有",
+      "translation": "喝；經歷；享有",
+      "examples": [
+        "I wanted __to go__ through some words that you guys might 《have》 trouble pronouncing."
+      ]
+    },
+    {
+      "id": "usage-make-item",
+      "word": "make",
+      "familiarMeaning": "製作",
+      "usage": "表示產生、犯下或做出",
+      "translation": "產生；犯下；做出",
+      "examples": [
+        "If you're enjoying this video, don't forget to like it so that I know and I can 《make》 more videos like this."
+      ]
+    },
+    {
+      "id": "usage-feel-item",
+      "word": "feel",
+      "familiarMeaning": "摸起來",
+      "usage": "表示人的感受或狀態",
+      "translation": "感覺；覺得",
+      "examples": [
+        "I 《feel》 uncomfortable."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Shadow these difficult English words. I wanted to go through some words that you guys might have trouble pronouncing. I'll show you how to pronounce them slowly.",
-      "translation": "影子這些困難的英文單字。我想介紹一下你們可能發音有困難的一些單字。我會教你如何慢慢發音。",
+      "id": "grammar-1",
+      "sentence": "I wanted to go through some words that you guys might have trouble pronouncing.",
+      "translation": "我想介绍一下你們可能發音有困難的一些單詞。",
       "points": [
         {
-          "label": "shadow these difficult",
-          "text": "shadow these difficult",
-          "note": "注意 \"shadow these difficult\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句",
+          "text": "名詞 + who/which/that + 子句",
+          "note": "補充說明前面的名詞。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Then as a native speaker would pronounce them. Repeat after me and repeat out loud, not in your head. Part one. Reduced sounds. Comfortable. This couch is comfortable. Vegetable.",
-      "translation": "然後以母語人士的身份發音。跟著我重複大聲重複，而不是在你的腦海裡重複。第一部分。聲音減少。舒服的。這個沙發很舒服。蔬菜。",
+      "id": "grammar-2",
+      "sentence": "I'll show you how to pronounce them slowly first and then as a native speaker would pronounce them.",
+      "translation": "我将向您展示如何先缓慢地發音，然後以母語人士的方式發音。",
       "points": [
         {
-          "label": "native speaker pronounce",
-          "text": "native speaker pronounce",
-          "note": "注意 \"native speaker pronounce\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定詞片語",
+          "text": "to + 原形動詞",
+          "note": "表示目的、計畫或想做的事。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "I love that vegetable. Chocolate.",
-      "translation": "我喜歡那種蔬菜。巧克力。",
+      "id": "grammar-3",
+      "sentence": "Would you What are you doing?",
+      "translation": "你在做什麼？",
       "points": [
         {
-          "label": "love vegetable chocolate",
-          "text": "love vegetable chocolate",
-          "note": "注意 \"love vegetable chocolate\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "禮貌請求句",
+          "text": "could/would + 主詞 + 原形動詞",
+          "note": "讓請求更禮貌。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "I love chocolate. Little My brother is so little. Interesting. That is so interesting. Jewelry.",
-      "translation": "我喜歡巧克力。小 我的弟弟太小了。有趣的。那太有趣了。珠寶。",
+      "id": "grammar-4",
+      "sentence": "If you're enjoying this video, don't forget to like it so that I know and I can make more videos like this.",
+      "translation": "如果您喜歡這個視頻，請不要忘记喜歡它，以便我知道并且我可以制作更多這樣的視頻。",
       "points": [
         {
-          "label": "love chocolate little",
-          "text": "love chocolate little",
-          "note": "注意 \"love chocolate little\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "條件句",
+          "text": "if + 子句 + 主要子句",
+          "note": "說明條件成立時的結果。"
         }
       ]
     }

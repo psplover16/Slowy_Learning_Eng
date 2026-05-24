@@ -15,466 +15,2097 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and welcome back to my slow English podcast.",
+          "tc": "你好，歡迎回到我的慢速英語播客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my "
+            },
+            {
+              "type": "phrase",
+              "text": "slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-001-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Today we are reviewing abbreviations and how to pronounce them in English. Abbreviations are short forms of words or phrases in English.",
-          "tc": "今天我們回顧一下縮寫詞以及它們的英語發音。縮寫是英語單字或短語的縮寫形式。"
+          "en": "Today we are reviewing abbreviations and how to pronounce them in English.",
+          "tc": "今天我們正在複習縮寫詞以及它們的英語發音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today we are reviewing "
+            },
+            {
+              "type": "word",
+              "text": "abbreviations",
+              "targetId": "word-abbreviation",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-002-01"
+            },
+            {
+              "type": "text",
+              "text": " and how to "
+            },
+            {
+              "type": "word",
+              "text": "pronounce",
+              "targetId": "word-pronounce",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-002-02"
+            },
+            {
+              "type": "text",
+              "text": " them in English."
+            }
+          ]
         },
         {
-          "en": "We change the way.",
-          "tc": "我們改變方式。"
+          "en": "Abbreviations are short forms of words or phrases in English.",
+          "tc": "縮寫是英語單詞或短語的縮寫形式。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Abbreviations are short forms of words or "
+            },
+            {
+              "type": "word",
+              "text": "phrases",
+              "targetId": "word-phrase",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-003-01"
+            },
+            {
+              "type": "text",
+              "text": " in English."
+            }
+          ]
         },
         {
-          "en": "We say them when speaking.",
-          "tc": "我們說話時會說這些。"
+          "en": "And sometimes we change the way we say them when speaking.",
+          "tc": "有时我們會改變說话的方式。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And sometimes we change the way we say them when speaking."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "abbreviations",
-          "kk": "/abbreviations/",
-          "partOfSpeech": "n.",
-          "meaning": "縮寫",
-          "note": "看到 abbreviations 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "For example, instead of saying I will,.",
-          "tc": "例如，不要說「我會」。"
-        },
-        {
-          "en": "We would say I'll if.",
-          "tc": "我們會說我會的。"
-        },
-        {
-          "en": "We're speaking quickly or casually with friends or family.",
-          "tc": "我們與朋友或家人快速或隨意地交談。"
+          "en": "For example, instead of saying I will, we would say I'll if we're speaking quickly or casually with friends or family.",
+          "tc": "例如，如果我們與朋友或家人快速或随意地交談，我們會說“I'll”，而不是說“Iwill”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, instead of saying I will, we would say I'll if we're speaking quickly or "
+            },
+            {
+              "type": "word",
+              "text": "casually",
+              "targetId": "word-casually",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-005-01"
+            },
+            {
+              "type": "text",
+              "text": " with friends or family."
+            }
+          ]
         },
         {
           "en": "For example, I'll see you tomorrow instead of I will see you tomorrow.",
-          "tc": "例如，我明天見你而不是我明天見你。"
+          "tc": "例如，我明天见你而不是我明天见你。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, I'll see you tomorrow instead of I will see you tomorrow."
+            }
+          ]
+        },
+        {
+          "en": "For example, how would you say this sentence?",
+          "tc": "例如，這句话怎麼說？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, how would you say this sentence?"
+            }
+          ]
+        },
+        {
+          "en": "I will go to the store later.",
+          "tc": "我稍後會去商店。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I will go to the store later."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "friends",
-          "kk": "/friends/",
-          "partOfSpeech": "n.",
-          "meaning": "朋友們",
-          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "Would you say this sentence? I will go to the store later. I'll go to the store later. Another one like?",
-          "tc": "這句話你會說嗎？我稍後會去商店。我稍後會去商店。還有一個像嗎？"
+          "en": "I'll go to the store later.",
+          "tc": "我稍後去商店。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll go to the store later."
+            }
+          ]
         },
         {
-          "en": "Would you say this sentence?",
-          "tc": "這句話你會說嗎？"
+          "en": "Another one like I am.",
+          "tc": "又一個像我一樣的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Another one like I am."
+            }
+          ]
         },
         {
-          "en": "I am studying right now.",
-          "tc": "我現在正在學習。"
+          "en": "I'm I'm going to the park.",
+          "tc": "我要去公园。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm I'm going to the park."
+            }
+          ]
         },
         {
-          "en": "He is, you can just say.",
-          "tc": "他是，你可以這麼說。"
+          "en": "How would you say this sentence?",
+          "tc": "這句话怎麼說？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you say this sentence?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "store",
-          "kk": "/store/",
-          "partOfSpeech": "n.",
-          "meaning": "店鋪",
-          "note": "看到 store 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "She's going to the party tonight.",
-          "tc": "她今晚要去參加聚會。"
+          "en": "I am studying right now.",
+          "tc": "我現在正在學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am studying right now."
+            }
+          ]
         },
         {
-          "en": "She is working hard.",
-          "tc": "她正在努力工作。"
+          "en": "I'm studying right now.",
+          "tc": "我現在正在學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm studying right now."
+            }
+          ]
         },
         {
-          "en": "She's working hard.",
-          "tc": "她正在努力工作。"
+          "en": "Another abbreviation, you are would be you're very good at dancing.",
+          "tc": "另一個縮寫，youare是指你非常擅長跳舞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Another abbreviation, you are would be you're very good at dancing."
+            }
+          ]
         },
         {
-          "en": "He is going to school.",
-          "tc": "他要去上學了。"
+          "en": "You're you are my friend.",
+          "tc": "你是我的朋友。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You're you are my friend."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "去",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "party",
-          "kk": "/party/",
-          "partOfSpeech": "n.",
-          "meaning": "派對",
-          "note": "看到 party 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "He's going to school.",
-          "tc": "他要去上學了。"
+          "en": "Instead, you're my friend.",
+          "tc": "相反，你是我的朋友。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Instead, you're my friend."
+            }
+          ]
         },
         {
-          "en": "They're having lunch right now.",
-          "tc": "他們現在正在吃午餐。"
+          "en": "Also, with she is or he is, you can just say she's or he's.",
+          "tc": "另外，對于sheis或heis，你可以直接說she's或he's。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Also, with she is or he is, you can just say she's or he's."
+            }
+          ]
         },
         {
-          "en": "They are my friends.",
-          "tc": "他們是我的朋友。"
+          "en": "She's going to the party tonight.",
+          "tc": "她今晚要去参加聚會。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She's going to the party tonight."
+            }
+          ]
         },
         {
-          "en": "They're my friends.",
-          "tc": "他們是我的朋友。"
+          "en": "She is working hard.",
+          "tc": "她正在努力工作。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She is working hard."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "去",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "friends",
-          "kk": "/friends/",
-          "partOfSpeech": "n.",
-          "meaning": "朋友們",
-          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "We're going to the park.",
-          "tc": "我們要去公園。"
+          "en": "She's working hard.",
+          "tc": "她很努力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She's working hard."
+            }
+          ]
         },
         {
-          "en": "We are all going to the movies.",
-          "tc": "我們都去看電影。"
+          "en": "He is going to school.",
+          "tc": "他要去上學了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He is going to school."
+            }
+          ]
         },
         {
-          "en": "We're all going to the movies. It's easier. Another one like.",
-          "tc": "我們都去看電影。更容易了。還有一個喜歡的。"
+          "en": "He's going to school.",
+          "tc": "他要去上學了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He's going to school."
+            }
+          ]
         },
         {
-          "en": "Would you like to watch a movie?",
-          "tc": "你想看電影嗎？"
+          "en": "They are there.",
+          "tc": "他們就在那里。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They are there."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "去",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "Would you like some coffee?",
-          "tc": "你想喝點咖啡嗎？"
+          "en": "They they're having lunch right now.",
+          "tc": "他們現在正在吃午飯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They they're having lunch right now."
+            }
+          ]
         },
         {
-          "en": "Would you say?",
-          "tc": "你會說嗎？"
+          "en": "They're They are my friends.",
+          "tc": "他們是他們是我的朋友。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They're They are my friends."
+            }
+          ]
         },
         {
-          "en": "Would you help me with this?",
-          "tc": "你能幫我解決這個問題嗎？"
+          "en": "They're my friends.",
+          "tc": "他們是我的朋友。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They're my friends."
+            }
+          ]
         },
         {
-          "en": "We pronounce as gota. It's common in casual conversation instead of saying.",
-          "tc": "我們發音為 gota。常見於隨意交談中，而不是說出來。"
+          "en": "We are We're We're going to the park.",
+          "tc": "我們要去公园。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We are We're We're going to the park."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "common",
-          "kk": "/common/",
-          "partOfSpeech": "n.",
-          "meaning": "常見的",
-          "note": "看到 common 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "got",
-          "kk": "/got/",
-          "partOfSpeech": "v.",
-          "meaning": "得到",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：工作與學習",
-      "titleEn": "Part 8: work",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "I've got to go work now.",
-          "tc": "我現在得去工作了。"
+          "en": "We We are all going to the movies.",
+          "tc": "我們我們都去看電影。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We We are all going to the movies."
+            }
+          ]
         },
         {
-          "en": "I've got to finish this project.",
-          "tc": "我必須完成這個專案。"
+          "en": "We're all going to the movies.",
+          "tc": "我們都去看電影了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We're all going to the movies."
+            }
+          ]
         },
         {
-          "en": "I've got to finish this project. Want to is another very common abbreviation.",
-          "tc": "我必須完成這個專案。 Want to 是另一個非常常見的縮寫。"
+          "en": "It's easier.",
+          "tc": "更容易。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's easier."
+            }
+          ]
         },
         {
-          "en": "I want to go home. I w to go home.",
-          "tc": "我想回家。我要回家。"
+          "en": "Another one like would you would you like to watch a movie?",
+          "tc": "另外一個比如你想看電影嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Another one like would you would you like to watch a movie?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "common",
-          "kk": "/common/",
-          "partOfSpeech": "n.",
-          "meaning": "常見的",
-          "note": "看到 common 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "got",
-          "kk": "/got/",
-          "partOfSpeech": "v.",
-          "meaning": "得到",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "I have to leave soon.",
-          "tc": "我必須盡快離開。"
+          "en": "Would you is commonly said quickly, would you?",
+          "tc": "你通常會說“快点嗎”，好嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Would you is commonly said quickly, would you?"
+            }
+          ]
         },
         {
-          "en": "I have to call my friend.",
-          "tc": "我得打電話給我朋友。"
+          "en": "Instead of would you like some coffee?",
+          "tc": "你想喝点咖啡嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Instead of would you like some coffee?"
+            }
+          ]
         },
         {
-          "en": "We say going to,.",
-          "tc": "我們說要去，。"
+          "en": "Would you like some coffee?",
+          "tc": "你想喝点咖啡嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Would you like some coffee?"
+            }
+          ]
         },
         {
-          "en": "I'm going to buy an ice cream.",
-          "tc": "我要去買一個冰淇淋。"
+          "en": "How would you say would you help me with this?",
+          "tc": "你覺得你會幫我解決這個問题嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you say would you help me with this?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "去",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "i'm",
-          "kk": "/i'm/",
-          "partOfSpeech": "n.",
-          "meaning": "我是",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "I'm gonna buy an ice cream.",
-          "tc": "我要去買一個冰淇淋。"
+          "en": "Would you help me with this?",
+          "tc": "你能幫我解決這個問题嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Would you help me with this?"
+            }
+          ]
         },
         {
-          "en": "I'm going to call you later.",
-          "tc": "我稍後再給你打電話。"
+          "en": "Would you?",
+          "tc": "你愿意嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Would you?"
+            }
+          ]
         },
         {
-          "en": "I am going to go to the store? A fast way of saying that.",
-          "tc": "我要去商店嗎？這是一種快速表達方式。"
+          "en": "Then got to we pronounce as gota.",
+          "tc": "然後，我們發音為“gota”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then got to we pronounce as gota."
+            }
+          ]
         },
         {
-          "en": "I'm going to go to the store. Could have.",
-          "tc": "我要去商店。可以有。"
+          "en": "It's common in casual conversation instead of saying I've got to go work now.",
+          "tc": "這在休闲談话中很常见，而不是說我現在必須去上班了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's common in casual "
+            },
+            {
+              "type": "word",
+              "text": "conversation",
+              "targetId": "word-conversation",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-040-01"
+            },
+            {
+              "type": "text",
+              "text": " instead of saying I've got "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-040-02"
+            },
+            {
+              "type": "text",
+              "text": " work now."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "去",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "i'm",
-          "kk": "/i'm/",
-          "partOfSpeech": "n.",
-          "meaning": "我是",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "store",
-          "kk": "/store/",
-          "partOfSpeech": "n.",
-          "meaning": "店鋪",
-          "note": "看到 store 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：日常生活",
-      "titleEn": "Part 11: everyday life",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "We say could. I could have gone to the party if.",
-          "tc": "我們說可以。如果的話我本來可以去參加聚會的。"
+          "en": "I've got to go work now.",
+          "tc": "我現在得去上班了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've got to go work now."
+            }
+          ]
         },
         {
-          "en": "It was earlier. I could have gone to the party if.",
-          "tc": "那是更早的事了。如果的話我本來可以去參加聚會的。"
+          "en": "I've got to finish this project.",
+          "tc": "我必須完成這個项目。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've got to finish this project."
+            }
+          ]
         },
         {
-          "en": "We use should have,.",
-          "tc": "我們使用應該有，。"
+          "en": "I've got to finish this project.",
+          "tc": "我必須完成這個项目。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've got to finish this project."
+            }
+          ]
         },
         {
-          "en": "We abbreviate it should have.",
-          "tc": "我們縮寫它應該有。"
+          "en": "Want to is another very common abbreviation.",
+          "tc": "Wantto是另一個非常常见的縮寫。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Want to is another very common abbreviation."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "party",
-          "kk": "/party/",
-          "partOfSpeech": "n.",
-          "meaning": "派對",
-          "note": "看到 party 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：日常生活",
-      "titleEn": "Part 12: everyday life",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "I want to go home.",
+          "tc": "我想回家。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I want to go home."
+            }
+          ]
+        },
+        {
+          "en": "I w to go home.",
+          "tc": "我要回家。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I w to go home."
+            }
+          ]
+        },
+        {
+          "en": "I want to see a movie.",
+          "tc": "我想看電影。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I want to see a movie."
+            }
+          ]
+        },
+        {
+          "en": "I w to see a movie.",
+          "tc": "我想看電影。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I w to see a movie."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "Have to is another very common abbreviation.",
+          "tc": "Haveto是另一個非常常见的縮寫。",
+          "englishTokens": [
+            {
+              "type": "usage",
+              "text": "Have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-049-01"
+            },
+            {
+              "type": "text",
+              "text": " to is another very common abbreviation."
+            }
+          ]
+        },
+        {
+          "en": "Instead of saying have to, people often say hafta.",
+          "tc": "人們通常不說“必須”，而是說“哈夫塔”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Instead of saying have to, people often say hafta."
+            }
+          ]
+        },
+        {
+          "en": "I have to leave soon.",
+          "tc": "我得走了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have to leave soon."
+            }
+          ]
+        },
+        {
+          "en": "I have to leave soon.",
+          "tc": "我得走了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have to leave soon."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "I have to call my friend.",
+          "tc": "我得给我的朋友打電话。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have to call my friend."
+            }
+          ]
+        },
+        {
+          "en": "I have to call my friend.",
+          "tc": "我得给我的朋友打電话。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have to call my friend."
+            }
+          ]
+        },
+        {
+          "en": "Also, when we say going to, I'm going to buy an ice cream.",
+          "tc": "另外，當我們說要去时，我要去買冰淇淋。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Also, when we say going to, I'm going to buy an ice cream."
+            }
+          ]
+        },
+        {
+          "en": "I'm gonna buy an ice cream.",
+          "tc": "我要去買一個冰淇淋。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm gonna buy an ice cream."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "I'm going to call you later.",
+          "tc": "我稍後再给你打電话。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm going to call you later."
+            }
+          ]
+        },
+        {
+          "en": "I'm gonna call you later.",
+          "tc": "我稍後會给你打電话。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm gonna call you later."
+            }
+          ]
+        },
+        {
+          "en": "How would you say I am going to go to the store?",
+          "tc": "你覺得我要去商店怎麼樣？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you say I am going to go to the store?"
+            }
+          ]
+        },
+        {
+          "en": "A fast way of saying that I'm going to go to the store.",
+          "tc": "一種快速表達我要去商店的方式。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A fast way of saying that I'm going to go to the store."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "Could have.",
+          "tc": "可以有。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Could have."
+            }
+          ]
+        },
+        {
+          "en": "We say could.",
+          "tc": "我們說可以。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We say could."
+            }
+          ]
+        },
+        {
+          "en": "I could have gone to the party if it was earlier.",
+          "tc": "如果早点的话我本來可以去参加聚會的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I could have gone to the party if it was earlier."
+            }
+          ]
+        },
+        {
+          "en": "I could have gone to the party if it was earlier.",
+          "tc": "如果早点的话我本來可以去参加聚會的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I could have gone to the party if it was earlier."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "How would you say I could have helped you?",
+          "tc": "你覺得我可以如何幫助你？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you say I could have helped you?"
+            }
+          ]
+        },
+        {
+          "en": "I could have helped you.",
+          "tc": "我本來可以幫助你的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I could have helped you."
+            }
+          ]
+        },
+        {
+          "en": "Also, when we use should have, we abbreviate it should have.",
+          "tc": "另外，當我們使用shouldhave时，我們将其縮寫為shouldhave。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Also, when we use should have, we abbreviate it should have."
+            }
+          ]
+        },
+        {
+          "en": "She should have come to my house.",
+          "tc": "她應該來我家。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She should have come to my house."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
       "sentences": [
         {
           "en": "She should have come to my house.",
-          "tc": "她應該來我家的。"
+          "tc": "她應該來我家。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She should have come to my house."
+            }
+          ]
         },
         {
-          "en": "The party together. Let us go to the beach this weekend. Let's go to the beach this weekend.",
-          "tc": "一起聚會。這個週末我們去海灘吧。這個週末我們去海灘吧。"
+          "en": "I should have called you.",
+          "tc": "我應該给你打電话的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I should have called you."
+            }
+          ]
         },
         {
-          "en": "Would you say let us go to the party? Let's go to the party?",
-          "tc": "你願意讓我們去參加聚會嗎？我們去參加聚會吧？"
+          "en": "I should have called you.",
+          "tc": "我應該给你打電话的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I should have called you."
+            }
+          ]
         },
         {
-          "en": "We normally abbreviate as cuz I didn't go cuz I didn't know.",
-          "tc": "我們通常縮寫為“因為我沒有去，因為我不知道”。"
+          "en": "How would you say I should have studied for the test?",
+          "tc": "你認為我應該如何准備考試？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you say I should have studied for the test?"
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
         {
-          "english": "party",
-          "kk": "/party/",
-          "partOfSpeech": "n.",
-          "meaning": "派對",
-          "note": "看到 party 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I should have studied for the test.",
+          "tc": "我應該為考試而學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I should have studied for the test."
+            }
+          ]
+        },
+        {
+          "en": "Another abbreviation.",
+          "tc": "另一個縮寫。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Another abbreviation."
+            }
+          ]
+        },
+        {
+          "en": "Let us Let's Let us go to the party together.",
+          "tc": "讓我們一起去参加聚會吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let us Let's Let us go to the party together."
+            }
+          ]
+        },
+        {
+          "en": "Let's go to the party together.",
+          "tc": "我們一起去参加聚會吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let's go to the party together."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "Let us go to the beach this weekend.",
+          "tc": "這個周末我們去海滩吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let us go to the beach this weekend."
+            }
+          ]
+        },
+        {
+          "en": "Let's go to the beach this weekend.",
+          "tc": "這個周末我們去海滩吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let's go to the beach this weekend."
+            }
+          ]
+        },
+        {
+          "en": "How would you say let us go to the party?",
+          "tc": "你覺得我們去参加聚會怎麼樣？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you say let us go to the party?"
+            }
+          ]
+        },
+        {
+          "en": "Let's go to the party.",
+          "tc": "我們去参加聚會吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let's go to the party."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "Because we normally abbreviate as cuz I didn't go cuz I didn't know.",
+          "tc": "因為我們通常縮寫為因為我沒有去因為我不知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because we normally abbreviate as cuz I didn't go cuz I didn't know."
+            }
+          ]
+        },
+        {
+          "en": "I didn't go to the party because I was tired.",
+          "tc": "我沒有去参加聚會，因為我累了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I didn't go to the party because I was tired."
+            }
+          ]
+        },
+        {
+          "en": "I didn't go to the party cuz I was tired.",
+          "tc": "我沒有去参加聚會，因為我累了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I didn't go to the party cuz I was tired."
+            }
+          ]
+        },
+        {
+          "en": "How would you say I stayed home because I had to work?",
+          "tc": "你怎麼說我因為必須工作而呆在家里？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you say I stayed home because I had to work?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "I stayed home cuz I had to work.",
+          "tc": "我呆在家里因為我必須工作。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I stayed home cuz I had to work."
+            }
+          ]
+        },
+        {
+          "en": "I don't know.",
+          "tc": "我不知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know."
+            }
+          ]
+        },
+        {
+          "en": "Usually we say quickly as I don't know.",
+          "tc": "通常我們會說“我不知道”，所以很快。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Usually we say quickly as I don't know."
+            }
+          ]
+        },
+        {
+          "en": "I don't know where she went.",
+          "tc": "我不知道她去了哪里。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know where she went."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "I don't know where she went.",
+          "tc": "我不知道她去了哪里。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know where she went."
+            }
+          ]
+        },
+        {
+          "en": "I don't know the answer.",
+          "tc": "我不知道答案。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know the answer."
+            }
+          ]
+        },
+        {
+          "en": "I don't know the answer.",
+          "tc": "我不知道答案。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know the answer."
+            }
+          ]
+        },
+        {
+          "en": "How would you say I don't know how much it costs?",
+          "tc": "你怎麼說我不知道​​它要花多少錢？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you say I don't know how much it costs?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "I don't know how much it costs.",
+          "tc": "不知道要多少錢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know how much it costs."
+            }
+          ]
+        },
+        {
+          "en": "When we say probably, we normally pronounce it probably.",
+          "tc": "當我們說“可能”时，我們通常會發音“可能”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When we say probably, we normally pronounce it probably."
+            }
+          ]
+        },
+        {
+          "en": "I'll probably go to the gym later today.",
+          "tc": "今天晚些时候我可能會去健身房。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll probably go to the gym later today."
+            }
+          ]
+        },
+        {
+          "en": "I will probably visit tomorrow.",
+          "tc": "我明天可能會去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I will probably visit tomorrow."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "I will probably visit tomorrow.",
+          "tc": "我明天可能會去。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I will probably visit tomorrow."
+            }
+          ]
+        },
+        {
+          "en": "How would you say I will probably go to school?",
+          "tc": "你覺得我可能會怎樣去上學？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How would you say I will probably go to school?"
+            }
+          ]
+        },
+        {
+          "en": "I will probably go to school.",
+          "tc": "我可能會去上學。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I will probably go to school."
+            }
+          ]
+        },
+        {
+          "en": "Then could you is pronounced could you could you go to the store for me?",
+          "tc": "那麼你可以幫我去商店嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then could you is pronounced could you could you go to the store for me?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "Could you go to the store for me?",
+          "tc": "你能幫我去趟商店嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Could you go to the store for me?"
+            }
+          ]
+        },
+        {
+          "en": "Could you pass me the salt, please?",
+          "tc": "請把鹽遞给我好嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Could you pass me the salt, please?"
+            }
+          ]
+        },
+        {
+          "en": "Could you pass me the salt, please?",
+          "tc": "請把鹽遞给我好嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Could you pass me the salt, please?"
+            }
+          ]
+        },
+        {
+          "en": "And also some important abbreviations through text like btw means by the way.",
+          "tc": "还有一些重要的縮寫，如顺便說一句的意思。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And also some important abbreviations through text like btw means by the way."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "By the way, don't forget the eggs.",
+          "tc": "顺便說一句，別忘了雞蛋。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "By the way, don't forget the eggs."
+            }
+          ]
+        },
+        {
+          "en": "By the way, I won't be able to go to school tomorrow.",
+          "tc": "顺便說一句，我明天不能去學校了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "By the way, I won't be able to go to school tomorrow."
+            }
+          ]
+        },
+        {
+          "en": "Btw by the way.",
+          "tc": "顺便說一句。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Btw by the way."
+            }
+          ]
+        },
+        {
+          "en": "You are adding something on to the end.",
+          "tc": "你正在最後添加一些东西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You are adding something on to the end."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
+      "sentences": [
+        {
+          "en": "And when we say as soon as possible, you text as a P.",
+          "tc": "當我們說尽快时，你就以P的身份發短信。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And when we say as soon as possible, you text as a P."
+            }
+          ]
+        },
+        {
+          "en": "You need to call me as soon as possible.",
+          "tc": "你需要尽快给我打電话。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You need to call me as soon as possible."
+            }
+          ]
+        },
+        {
+          "en": "You need to call me ASAP through text and when speaking.",
+          "tc": "您需要尽快通過短信和語音给我打電话。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You need to call me ASAP through text and when speaking."
+            }
+          ]
+        },
+        {
+          "en": "Listen to a story of my trip while using different abbreviations in example sentences.",
+          "tc": "聽我的旅行故事，同时在例句中使用不同的縮寫。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Listen to a story of my trip while using different abbreviations in example sentences."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-29",
+      "no": "29",
+      "titleZh": "第 29 段",
+      "titleEn": "Part 29",
+      "sentences": [
+        {
+          "en": "Practice hearing them in a normal conversation.",
+          "tc": "練習在正常對话中聽到它們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Practice hearing them in a normal conversation."
+            }
+          ]
+        },
+        {
+          "en": "I'll say it once slowly and once fast.",
+          "tc": "我會說一次慢一点，一次快一点。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll say it once slowly and once fast."
+            }
+          ]
+        },
+        {
+          "en": "It's important to practice listening to slow and fast English.",
+          "tc": "練習聽慢英語和快英語很重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's important to practice listening to slow and fast English."
+            }
+          ]
+        },
+        {
+          "en": "Check out my page for more of both slow and fast English listening practice.",
+          "tc": "查看我的页面，了解更多慢速和快速英語聽力練習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Check out my page for more of both slow and fast English listening practice."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-30",
+      "no": "30",
+      "titleZh": "第 30 段",
+      "titleEn": "Part 30",
+      "sentences": [
+        {
+          "en": "I'm gonna tell you about my trip to Brazil.",
+          "tc": "我要告诉你我的巴西之旅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm gonna tell you about my trip to Brazil."
+            }
+          ]
+        },
+        {
+          "en": "I probably arrived around 100 a.m. to the international airport in Rio, Brazil.",
+          "tc": "我大概是上午100点左右抵達巴西里約國際機場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I probably arrived around 100 a.m. to the international "
+            },
+            {
+              "type": "word",
+              "text": "airport",
+              "targetId": "word-airport",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-118-01"
+            },
+            {
+              "type": "text",
+              "text": " in Rio, Brazil."
+            }
+          ]
+        },
+        {
+          "en": "I realized later that I should have booked a ticket earlier because arriving in a new city at 1:00 a.m. is not a good idea.",
+          "tc": "後來我意識到我應該早点訂票，因為凌晨1:00到達一個新城市并不是一個好主意。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I realized later that I should have booked a ticket earlier because arriving in a new city at 1:00 a.m. is not a good idea."
+            }
+          ]
+        },
+        {
+          "en": "Mostly cuz you don't know what the taxi situation is like.",
+          "tc": "主要是因為你不知道出租車的情况如何。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mostly cuz you don't know what the taxi situation is like."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-31",
+      "no": "31",
+      "titleZh": "第 31 段",
+      "titleEn": "Part 31",
+      "sentences": [
+        {
+          "en": "And it's always better to figure that out during the daytime.",
+          "tc": "最好在白天弄清楚這一点。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And it's always better to figure that out during the daytime."
+            }
+          ]
+        },
+        {
+          "en": "When you're in a new country, you have to be precautious.",
+          "tc": "當你來到一個新的國家时，你必須要小心谨慎。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When you're in a new country, you have to be precautious."
+            }
+          ]
+        },
+        {
+          "en": "No matter where you travel to or where you're coming from, you have to be careful.",
+          "tc": "無论您前往何處或來自何處，都必須小心谨慎。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "No matter where you travel to or where you're coming from, you have to be careful."
+            }
+          ]
+        },
+        {
+          "en": "Since I arrived so late, I talked to a couple of people at the airport and I said, \"I don't know where I should wait for my Uber.",
+          "tc": "由于我到得太晚了，我在機場和几個人聊了聊，我說：“我不知道應該在哪里等我的優步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Since I arrived so late, I talked to a couple of people at the airport and I said, \"I don't know where I should wait for my Uber."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-32",
+      "no": "32",
+      "titleZh": "第 32 段",
+      "titleEn": "Part 32",
+      "sentences": [
+        {
+          "en": "Could you possibly point me in the right direction?\"?",
+          "tc": "你能给我指出正確的方向嗎？”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Could you possibly "
+            },
+            {
+              "type": "phrase",
+              "text": "point me in the right direction",
+              "targetId": "phrase-point-me-in-the-right-direction",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-125-01"
+            },
+            {
+              "type": "text",
+              "text": "?\"?"
+            }
+          ]
+        },
+        {
+          "en": "I could have asked a few different people that were sitting, but I decided to ask an older lady for directions.",
+          "tc": "我本來可以問几個坐着的不同的人，但我決定向一位年長的女士問路。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I could have asked a few different people that were sitting, but I decided to ask an older lady for directions."
+            }
+          ]
+        },
+        {
+          "en": "She looked very sweet.",
+          "tc": "她看起來很可愛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She looked very sweet."
+            }
+          ]
+        },
+        {
+          "en": "She told me, \"You got to walk to the end of the airport and follow the yellow lines.",
+          "tc": "她告诉我，“你必須走到機場的尽頭并沿着黄線走。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She told me, \"You got to walk to the end of the airport and follow the yellow lines."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-33",
+      "no": "33",
+      "titleZh": "第 33 段",
+      "titleEn": "Part 33",
+      "sentences": [
+        {
+          "en": "That's where you'll find all the taxis lined up.",
+          "tc": "所有出租車都在那里排队。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's where you'll find all the taxis lined up."
+            }
+          ]
+        },
+        {
+          "en": "I told her, \"I don't want to take a taxi.",
+          "tc": "我告诉她，“我不想坐出租車。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I told her, \"I don't want to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch7-speak-like-a-native-common-abbreviations-slow-english-podcast-for-a2-beginners-130-01"
+            },
+            {
+              "type": "text",
+              "text": " a taxi."
+            }
+          ]
+        },
+        {
+          "en": "I'd prefer to take an Uber.\"",
+          "tc": "我更愿意乘坐優步。”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'd prefer to take an Uber.\""
+            }
+          ]
+        },
+        {
+          "en": "So, she pointed me in the right direction for the Ubers instead.",
+          "tc": "因此，她為我指明了Uber的正確方向。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, she pointed me in the right direction for the Ubers instead."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-34",
+      "no": "34",
+      "titleZh": "第 34 段",
+      "titleEn": "Part 34",
+      "sentences": [
+        {
+          "en": "So, I made my way over to the Uber pickup and 30 minutes later, I arrived at my hostel at the beach.",
+          "tc": "于是，我前往優步接载，30分鐘後，我到達了海滩上的旅館。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I made my way over to the Uber pickup and 30 minutes later, I arrived at my hostel at the beach."
+            }
+          ]
+        },
+        {
+          "en": "Now, once quickly, I'm going to tell you about my trip to Brazil.",
+          "tc": "現在，我要快速地告诉你我的巴西之旅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, once quickly, I'm going to tell you about my trip to Brazil."
+            }
+          ]
+        },
+        {
+          "en": "I probably arrived around 100 a.m. to the international airport of Rio, Brazil.",
+          "tc": "我大概是上午100点左右到達巴西里約國際機場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I probably arrived around 100 a.m. to the international airport of Rio, Brazil."
+            }
+          ]
+        },
+        {
+          "en": "I realize I should have booked an earlier ticket because arriving in a new city at 1 a.m. is never a good idea cuz you never know what the taxi situation is like.",
+          "tc": "我意識到我應該早点訂票，因為凌晨1点到達一個新城市从來都不是一個好主意，因為你永遠不知道出租車情况如何。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I realize I should have booked an earlier ticket because arriving in a new city at 1 a.m. is never a good idea cuz you never know what the taxi situation is like."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-35",
+      "no": "35",
+      "titleZh": "第 35 段",
+      "titleEn": "Part 35",
+      "sentences": [
+        {
+          "en": "And it's always better to figure that out during the daytime.",
+          "tc": "最好在白天弄清楚這一点。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And it's always better to figure that out during the daytime."
+            }
+          ]
+        },
+        {
+          "en": "When you're in a new country, you have to be precautious.",
+          "tc": "當你來到一個新的國家时，你必須要小心谨慎。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When you're in a new country, you have to be precautious."
+            }
+          ]
+        },
+        {
+          "en": "No matter where you are or where you're coming from, you have to be very careful.",
+          "tc": "無论你身在何處，來自哪里，你都必須非常小心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "No matter where you are or where you're coming from, you have to be very careful."
+            }
+          ]
+        },
+        {
+          "en": "Since I arrived so late, I talked to a couple of people at the airport and I said, \"I don't know where I should wait for my Uber.",
+          "tc": "由于我到達這麼晚，我在機場與几個人交談，我說：“我不知道應該在哪里等我的優步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Since I arrived so late, I talked to a couple of people at the airport and I said, \"I don't know where I should wait for my Uber."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-36",
+      "no": "36",
+      "titleZh": "第 36 段",
+      "titleEn": "Part 36",
+      "sentences": [
+        {
+          "en": "Could you possibly point me in the right direction?\"?",
+          "tc": "你能给我指出正確的方向嗎？”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Could you possibly point me in the right direction?\"?"
+            }
+          ]
+        },
+        {
+          "en": "I could have asked a few people sitting, but I decided to ask an older lady.",
+          "tc": "我本來可以問几個坐着的人，但我決定問一位年長的女士。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I could have asked a few people sitting, but I decided to ask an older lady."
+            }
+          ]
+        },
+        {
+          "en": "She seemed very sweet.",
+          "tc": "她看起來很可愛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She seemed very sweet."
+            }
+          ]
+        },
+        {
+          "en": "She told me, \"You got to walk to the end of the airport and follow the yellow lines.",
+          "tc": "她告诉我，“你必須走到機場的尽頭，沿着黄線走。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She told me, \"You got to walk to the end of the airport and follow the yellow lines."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-37",
+      "no": "37",
+      "titleZh": "第 37 段",
+      "titleEn": "Part 37",
+      "sentences": [
+        {
+          "en": "That's where you'll find all the taxis lined up.\"",
+          "tc": "那里你會發現所有出租車都在排队。”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's where you'll find all the taxis lined up.\""
+            }
+          ]
+        },
+        {
+          "en": "I told her, \"I don't want to take a taxi.",
+          "tc": "我告诉她，“我不想坐出租車。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I told her, \"I don't want to take a taxi."
+            }
+          ]
+        },
+        {
+          "en": "I'd prefer to take an Uber.\"",
+          "tc": "我更愿意乘坐優步。”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'd prefer to take an Uber.\""
+            }
+          ]
+        },
+        {
+          "en": "So, she pointed me in the right direction for the Ubers.",
+          "tc": "因此，她為我指明了Uber的正確方向。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, she pointed me in the right direction for the Ubers."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-38",
+      "no": "38",
+      "titleZh": "第 38 段",
+      "titleEn": "Part 38",
+      "sentences": [
+        {
+          "en": "So, I made my way over to the Ubers.",
+          "tc": "所以，我去了Uber。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I made my way over to the Ubers."
+            }
+          ]
+        },
+        {
+          "en": "And 30 minutes later, I was at my hostel on the beach.",
+          "tc": "30分鐘後，我回到了海滩上的旅館。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And 30 minutes later, I was at my hostel on the beach."
+            }
+          ]
+        },
+        {
+          "en": "These are just a few examples of some common abbreviations we use in English.",
+          "tc": "這些只是我們在英語中使用的一些常见縮寫的几個例子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "These are just a few examples of some common abbreviations we use in English."
+            }
+          ]
+        },
+        {
+          "en": "They can help your speech sound more natural and fluent.",
+          "tc": "它們可以幫助您的演講聽起來更自然、更流畅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They can help your speech sound more natural and fluent."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-39",
+      "no": "39",
+      "titleZh": "第 39 段",
+      "titleEn": "Part 39",
+      "sentences": [
+        {
+          "en": "I encourage you to listen for these abbreviations and phrases in every movie, show, or conversation that you hear.",
+          "tc": "我鼓勵您在聽到的每部電影、節目或對话中注意這些縮寫和短語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I encourage you to listen for these abbreviations and phrases in every movie, show, or conversation that you hear."
+            }
+          ]
+        },
+        {
+          "en": "The more you practice, the easier it will be to use them in your speech.",
+          "tc": "你練習得越多，你就越容易在演講中使用它們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The more you practice, the easier it will be to use them in your speech."
+            }
+          ]
+        },
+        {
+          "en": "Don't forget to answer the practice questions out loud and try and use these abbreviations when you talk with others.",
+          "tc": "不要忘记大聲回答練習問题，并在與他人交談时嘗試使用這些縮寫。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Don't forget to answer the practice questions out loud and try and use these abbreviations when you talk with others."
+            }
+          ]
+        },
+        {
+          "en": "Thank you for listening.",
+          "tc": "感谢您的聆聽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you for listening."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-40",
+      "no": "40",
+      "titleZh": "第 40 段",
+      "titleEn": "Part 40",
+      "sentences": [
+        {
+          "en": "See you next time.",
+          "tc": "下次见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "See you next time."
+            }
+          ]
+        },
+        {
+          "en": "If you like this video, like and subscribe.",
+          "tc": "如果您喜歡這個視頻，請点讚并訂阅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you like this video, like and subscribe."
+            }
+          ]
+        },
+        {
+          "en": "And you'll probably like these two videos as well.",
+          "tc": "您可能也會喜歡這两個視頻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And you'll probably like these two videos as well."
+            }
+          ]
+        },
+        {
+          "en": "See you next time.",
+          "tc": "下次见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "See you next time."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-41",
+      "no": "41",
+      "titleZh": "第 41 段",
+      "titleEn": "Part 41",
+      "sentences": [
+        {
+          "en": "Bye.",
+          "tc": "再见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -482,153 +2113,188 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "going",
-          "kk": "/going/",
-          "partOfSpeech": "v.",
-          "meaning": "去",
-          "note": "看到 going 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-phrase",
+          "lemma": "phrase",
+          "english": "phrases",
+          "kk": "/phrase/",
+          "partOfSpeech": "noun",
+          "meaning": "片語",
           "highlight": true
         },
         {
-          "english": "party",
-          "kk": "/party/",
-          "partOfSpeech": "n.",
-          "meaning": "派對",
-          "note": "看到 party 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-conversation",
+          "lemma": "conversation",
+          "english": "conversation",
+          "kk": "/conversation/",
+          "partOfSpeech": "noun",
+          "meaning": "對話",
           "highlight": true
         },
         {
-          "english": "i'm",
-          "kk": "/i'm/",
-          "partOfSpeech": "n.",
-          "meaning": "我是",
-          "note": "看到 i'm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "store",
-          "kk": "/store/",
-          "partOfSpeech": "n.",
-          "meaning": "店鋪",
-          "note": "看到 store 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
+          "id": "word-abbreviation",
+          "lemma": "abbreviation",
           "english": "abbreviations",
-          "kk": "/abbreviations/",
-          "partOfSpeech": "n.",
+          "kk": "/abbreviation/",
+          "partOfSpeech": "noun",
           "meaning": "縮寫",
-          "note": "看到 abbreviations 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
-          "english": "common",
-          "kk": "/common/",
-          "partOfSpeech": "n.",
-          "meaning": "常見的",
-          "note": "看到 common 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-pronounce",
+          "lemma": "pronounce",
+          "english": "pronounce",
+          "kk": "/pronounce/",
+          "partOfSpeech": "verb",
+          "meaning": "發音",
+          "highlight": true
         },
         {
-          "english": "friends",
-          "kk": "/friends/",
-          "partOfSpeech": "n.",
-          "meaning": "朋友們",
-          "note": "看到 friends 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-casually",
+          "lemma": "casually",
+          "english": "casually",
+          "kk": "/casually/",
+          "partOfSpeech": "adv.",
+          "meaning": "隨意地",
+          "highlight": true
         },
         {
-          "english": "got",
-          "kk": "/got/",
-          "partOfSpeech": "v.",
-          "meaning": "得到",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-airport",
+          "lemma": "airport",
+          "english": "airport",
+          "kk": "/airport/",
+          "partOfSpeech": "noun",
+          "meaning": "機場",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
       "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and __welcome back__ to my __slow English podcast__.",
+          "tc": "歡迎回來"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "going to",
-      "meaning": "去",
+      "id": "phrase-slow-english-podcast",
+      "phrase": "slow English podcast",
+      "meaning": "慢速英文播客",
       "examples": [
         {
-          "en": "She's going to the party tonight.",
-          "tc": "她今晚要去參加聚會。"
+          "en": "Hello and __welcome back__ to my __slow English podcast__.",
+          "tc": "慢速英文播客"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-to-go",
+      "phrase": "to go",
+      "meaning": "外帶",
       "examples": [
         {
-          "en": "Want to is another very common abbreviation.",
-          "tc": "Want to 是另一個非常常見的縮寫。"
+          "en": "It's common in casual **conversation** instead of saying I've got __to go__ work now.",
+          "tc": "外帶"
         }
+      ]
+    },
+    {
+      "id": "phrase-point-me-in-the-right-direction",
+      "phrase": "point me in the right direction",
+      "meaning": "指引我正確方向",
+      "examples": [
+        {
+          "en": "Could you possibly __point me in the right direction__?\"?",
+          "tc": "指引我正確方向"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-have-item",
+      "word": "have",
+      "familiarMeaning": "有",
+      "usage": "表示吃喝、經歷或享有",
+      "translation": "喝；經歷；享有",
+      "examples": [
+        "《Have》 to is another very common abbreviation."
+      ]
+    },
+    {
+      "id": "usage-take-item",
+      "word": "take",
+      "familiarMeaning": "拿",
+      "usage": "表示脫下、進行或照顧",
+      "translation": "脫下；進行；照顧",
+      "examples": [
+        "I told her, \"I don't want to 《take》 a taxi."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "Hello and welcome back to my slow English podcast.",
+      "translation": "你好，歡迎回到我的慢速英語播客。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定詞片語",
+          "text": "to + 原形動詞",
+          "note": "表示目的、計畫或想做的事。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Today we are reviewing abbreviations and how to pronounce them in English. Abbreviations are short forms of words or phrases in English.",
-      "translation": "今天我們回顧一下縮寫詞以及它們的英語發音。縮寫是英語單字或短語的縮寫形式。",
+      "id": "grammar-2",
+      "sentence": "For example, instead of saying I will, we would say I'll if we're speaking quickly or casually with friends or family.",
+      "translation": "例如，如果我們與朋友或家人快速或随意地交談，我們會說“I'll”，而不是說“Iwill”。",
       "points": [
         {
-          "label": "reviewing abbreviations pronounce",
-          "text": "reviewing abbreviations pronounce",
-          "note": "注意 \"reviewing abbreviations pronounce\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "instead of + 名詞/V-ing",
+          "text": "instead of + 名詞或 V-ing",
+          "note": "表示不是 A，而是 B。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "We change the way.",
-      "translation": "我們改變方式。",
+      "id": "grammar-3",
+      "sentence": "For example, how would you say this sentence?",
+      "translation": "例如，這句话怎麼說？",
       "points": [
         {
-          "label": "change",
-          "text": "change",
-          "note": "注意 \"change\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "禮貌請求句",
+          "text": "could/would + 主詞 + 原形動詞",
+          "note": "讓請求更禮貌。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "We say them when speaking.",
-      "translation": "我們說話時會說這些。",
+      "id": "grammar-4",
+      "sentence": "A fast way of saying that I'm going to go to the store.",
+      "translation": "一種快速表達我要去商店的方式。",
       "points": [
         {
-          "label": "speaking",
-          "text": "speaking",
-          "note": "注意 \"speaking\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句",
+          "text": "名詞 + who/which/that + 子句",
+          "note": "補充說明前面的名詞。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "How would you say I could have helped you?",
+      "translation": "你覺得我可以如何幫助你？",
+      "points": [
+        {
+          "label": "現在完成式",
+          "text": "have/has + 過去分詞",
+          "note": "連結過去經驗和現在。"
         }
       ]
     }

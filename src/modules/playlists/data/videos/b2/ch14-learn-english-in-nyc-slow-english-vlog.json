@@ -15,898 +15,2814 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and welcome back to my Slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and welcome back to my Slow English podcast."
+            }
+          ]
         },
         {
-          "en": "Today I will tell you about my trip to New York City, all in slow comprehensible English. Join me today.",
-          "tc": "今天我將以緩慢易懂的英語向你講述我的紐約之旅。今天就加入我吧。"
+          "en": "Today I will tell you about my trip to New York City, all in slow comprehensible English.",
+          "tc": "今天我將以緩慢易懂的英語向你講述我的紐約之旅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today I will tell you about my trip to New York City, all in slow comprehensible English."
+            }
+          ]
+        },
+        {
+          "en": "Join me today.",
+          "tc": "今天就加入我吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Join me today."
+            }
+          ]
         },
         {
           "en": "I am in Rhode Island.",
-          "tc": "我在羅德島州。"
-        },
-        {
-          "en": "I am visiting Rhode Island with my sister Brianna.",
-          "tc": "我和姐姐布麗安娜一起訪問羅德島。"
+          "tc": "我在羅德島州。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am in Rhode Island."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sister",
-          "kk": "/sister/",
-          "partOfSpeech": "n.",
-          "meaning": "姊姊",
-          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
+          "en": "I am visiting Rhode Island with my sister Brianna.",
+          "tc": "我和姐姐布麗安娜一起訪問羅德島。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am visiting Rhode Island with my sister Brianna."
+            }
+          ]
+        },
+        {
           "en": "It is cold outside.",
-          "tc": "外面很冷。"
+          "tc": "外面很冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is cold outside."
+            }
+          ]
         },
         {
           "en": "It is snowy and cold.",
-          "tc": "下雪了，而且很冷。"
+          "tc": "下雪了，而且很冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is snowy and cold."
+            }
+          ]
         },
         {
           "en": "I have been sitting here for one hour just taking in the view from my hotel room and journaling while taking in the view.",
-          "tc": "我在這裡坐了一個小時，只是從飯店房間欣賞風景，並一邊欣賞風景一邊寫日記。"
-        },
-        {
-          "en": "I write in my journal while I take in the winter sun and the peaceful view. The snow is something that.",
-          "tc": "我一邊寫日記，一邊欣賞冬日的陽光和寧靜的景色。雪就是這樣的東西。"
+          "tc": "我在這裡坐了一個小時，只是從飯店房間欣賞風景，並一邊欣賞風景一邊寫日記。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have been sitting here for one hour just taking in the view from my hotel room and journaling while taking in the view."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "cold",
-          "kk": "/cold/",
-          "partOfSpeech": "n.",
-          "meaning": "寒冷的",
-          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "snow",
-          "kk": "/snow/",
-          "partOfSpeech": "n.",
-          "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "been",
-          "kk": "/been/",
-          "partOfSpeech": "n.",
-          "meaning": "到過",
-          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I haven't seen in ages. Probably since I was 10 years old...",
-          "tc": "我已經好久沒見過了。大概是從我10歲開始吧..."
+          "en": "I write in my journal while I take in the winter sun and the peaceful view.",
+          "tc": "我一邊寫日記，一邊欣賞冬日的陽光和寧靜的景色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I write in my journal while I take in the winter sun and the peaceful view."
+            }
+          ]
         },
         {
-          "en": "I haven't seen the snow. \"So nostalgic the feeling of it.\" So last night.",
-          "tc": "我還沒看過雪呢「這種感覺太懷舊了。」所以昨晚。"
+          "en": "The snow is something that I haven't seen in ages.",
+          "tc": "雪就是這樣的東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The snow is something that I haven't seen in ages."
+            }
+          ]
         },
         {
-          "en": "I arrived at the airport, and as.",
-          "tc": "我到達機場，然後。"
+          "en": "Probably since I was 10 years old.",
+          "tc": "我已經好久沒見過了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Probably since I was 10 years old."
+            }
+          ]
         },
         {
-          "en": "We stepped outside of the airport, the breeze hit. That was so cold. It's been like 10 years since.",
-          "tc": "走出機場，微風徐徐吹來。那太冷了。距今已經過去10年了。"
+          "en": "I haven't seen the snow.",
+          "tc": "大概是從我10歲開始吧...我還沒看過雪呢「這種感覺太懷舊了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I haven't seen the snow."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "cold",
-          "kk": "/cold/",
-          "partOfSpeech": "n.",
-          "meaning": "寒冷的",
-          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "snow",
-          "kk": "/snow/",
-          "partOfSpeech": "n.",
-          "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "been",
-          "kk": "/been/",
-          "partOfSpeech": "n.",
-          "meaning": "到過",
-          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I've been in a place this cold. \"How does my headband look? It looks okay.\" I couldn't handle that much cold.",
-          "tc": "我曾經去過這麼冷的地方。 「我的頭帶看起來怎麼樣？看起來還不錯。」我受不了那麼冷。"
+          "en": "\"So nostalgic the feeling of it.\"",
+          "tc": "」所以昨晚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"So nostalgic the feeling of it.\""
+            }
+          ]
         },
         {
-          "en": "It was freezing. I was smoking like a chimney! I haven't been to a place this cold since.",
-          "tc": "天很冷。我像煙囪一樣抽煙！從那以後我就再也沒有去過這麼冷的地方了。"
+          "en": "So last night I arrived at the airport, and as we stepped outside of the airport, the breeze hit.",
+          "tc": "我到達機場，然後。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So last night I arrived at the airport, and as we stepped outside of the airport, the breeze hit."
+            }
+          ]
         },
         {
-          "en": "I maybe went to the UK... But even the UK wasn't this cold.",
-          "tc": "我可能去了英國……但即使是英國也沒有這麼冷。"
+          "en": "That was so cold.",
+          "tc": "走出機場，微風徐徐吹來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That was so cold."
+            }
+          ]
         },
         {
-          "en": "I swear I can't handle the cold.",
-          "tc": "我發誓我受不了寒冷。"
+          "en": "It's been like 10 years since I've been in a place this cold.",
+          "tc": "那太冷了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's been like 10 years since I've been in a place this cold."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "cold",
-          "kk": "/cold/",
-          "partOfSpeech": "n.",
-          "meaning": "寒冷的",
-          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "place",
-          "kk": "/place/",
-          "partOfSpeech": "n.",
-          "meaning": "地方",
-          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "I need to wear so many layers and layers of long sleeve shirts, sweaters,.",
-          "tc": "我需要穿很多層又一層的長袖襯衫、毛衣、。"
+          "en": "\"How does my headband look?",
+          "tc": "距今已經過去10年了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"How does my headband look?"
+            }
+          ]
         },
         {
-          "en": "Then a puffy jacket -- like this one. \".",
-          "tc": "然後是一件蓬鬆的夾克——就像這件。 」。"
+          "en": "It looks okay.\"",
+          "tc": "我曾經去過這麼冷的地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It looks okay.\""
+            }
+          ]
         },
         {
-          "en": "I'm wearing two hats. One, two. So cold.\" Only with all four of those layers.",
-          "tc": "我戴著兩頂帽子。一，二。太冷了。 」只有這四層。"
+          "en": "I couldn't handle that much cold.",
+          "tc": "「我的頭帶看起來怎麼樣？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I couldn't handle that much cold."
+            }
+          ]
         },
         {
-          "en": "I'm prepared to go outside.",
-          "tc": "我準備出去了。"
+          "en": "It was freezing.",
+          "tc": "看起來還不錯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was freezing."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "cold",
-          "kk": "/cold/",
-          "partOfSpeech": "n.",
-          "meaning": "寒冷的",
-          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "outside",
-          "kk": "/outside/",
-          "partOfSpeech": "n.",
-          "meaning": "外部",
-          "note": "看到 outside 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "If not, I can't handle it. Yesterday, I didn't put on my gloves right away, and my fingers felt like.",
-          "tc": "如果沒有的話我就應付不了了。昨天我沒有馬上戴上手套，手指感覺像。"
+          "en": "I was smoking like a chimney!",
+          "tc": "」我受不了那麼冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was smoking like a chimney!"
+            }
+          ]
         },
         {
-          "en": "They were going to crack and fall off! I know I couldn't live in a place like this for sure.",
-          "tc": "它們快要破裂並脫落了！我知道我絕對不能住在這樣的地方。"
+          "en": "I haven't been to a place this cold since I maybe went to the UK.",
+          "tc": "天很冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I haven't been to a place this cold since I maybe went to the UK."
+            }
+          ]
         },
         {
-          "en": "We also went to the arcade. That was really fun.",
-          "tc": "我們還去了遊樂場。那真的很有趣。"
+          "en": "But even the UK wasn't this cold.",
+          "tc": "我像煙囪一樣抽煙！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But even the UK wasn't this cold."
+            }
+          ]
         },
         {
-          "en": "We played pinball, shooting games, motorcycle games, dancing games.",
-          "tc": "我們玩彈珠台、射擊遊戲、摩托車遊戲、跳舞遊戲。"
+          "en": "I swear I can't handle the cold.",
+          "tc": "從那以後我就再也沒有去過這麼冷的地方了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I swear I can't handle the cold."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "place",
-          "kk": "/place/",
-          "partOfSpeech": "n.",
-          "meaning": "地方",
-          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "We will stay here for three more days.",
-          "tc": "我們將在這裡再待三天。"
+          "en": "So, I need to wear so many layers and layers of long sleeve shirts, sweaters, and then a puffy jacket -- like this one.",
+          "tc": "我可能去了英國……但即使是英國也沒有這麼冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I need to wear so many layers and layers of long sleeve shirts, sweaters, and then a puffy jacket -- like this one."
+            }
+          ]
         },
         {
-          "en": "We will head to New York City.",
-          "tc": "我們將前往紐約市。"
+          "en": "\"I'm wearing two hats.",
+          "tc": "我發誓我受不了寒冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"I'm wearing two hats."
+            }
+          ]
         },
         {
-          "en": "I'm really excited to see New York City during Christmas time. The big Christmas trees from movies like Elf, Rockefeller Center. You'll see it all with me.",
-          "tc": "我很高興能在聖誕節期間看到紐約市。電影《精靈》、洛克斐勒中心等電影中的大聖誕樹。你會和我一起看到這一切。"
+          "en": "One, two.",
+          "tc": "我需要穿很多層又一層的長袖襯衫、毛衣、。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "One, two."
+            }
+          ]
         },
         {
-          "en": "We're going under the bridge to get to the park. It's been so long since.",
-          "tc": "我們要從橋下走去公園。已經過去這麼久了。"
+          "en": "So cold.\"",
+          "tc": "然後是一件蓬鬆的夾克——就像這件。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So cold.\""
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "been",
-          "kk": "/been/",
-          "partOfSpeech": "n.",
-          "meaning": "到過",
-          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "I saw snow. Almost like 10 years.",
-          "tc": "我看到了雪。差不多10年了。"
+          "en": "Only with all four of those layers.",
+          "tc": "」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Only with all four of those layers."
+            }
+          ]
         },
         {
-          "en": "I think since the last time.",
-          "tc": "我想自從上次以來。"
+          "en": "Then I'm prepared to go outside.",
+          "tc": "我戴著兩頂帽子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I'm prepared to go outside."
+            }
+          ]
         },
         {
-          "en": "I saw snow.",
-          "tc": "我看到了雪。"
+          "en": "If not, I I can't handle it.",
+          "tc": "一，二。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If not, I I can't handle it."
+            }
+          ]
         },
         {
-          "en": "I'm originally from Nebraska. So I used to see snow all the time, but now I live in Mexico.",
-          "tc": "我來自內布拉斯加州。所以我以前總是看到雪，但現在我住在墨西哥。"
+          "en": "Yesterday, I didn't put on my gloves right away, and my fingers felt like they were going to crack and fall off!",
+          "tc": "太冷了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yesterday, I didn't put on my gloves right away, and my fingers felt like they were going to crack and fall off!"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "snow",
-          "kk": "/snow/",
-          "partOfSpeech": "n.",
-          "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：旅行",
-      "titleEn": "Part 9: travel",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "I've lived in Mexico for 10 years. So, the snow is a very exciting thing to see.",
-          "tc": "我在墨西哥生活了 10 年。所以說，下雪是一件非常令人興奮的事情。"
+          "en": "I know I couldn't live in a place like this for sure.",
+          "tc": "」只有這四層。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I know I couldn't live in a place like this for sure."
+            }
+          ]
         },
         {
-          "en": "I'm leaving footprints behind. Those are my footprints. Let's go sit over there on that little ledge.",
-          "tc": "我留下腳印。那是我的腳印。我們去那邊那個小壁架上坐吧。"
+          "en": "We also went to the arcade.",
+          "tc": "我準備出去了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We also went to the arcade."
+            }
+          ]
         },
         {
-          "en": "My favorite thing to do when I travel is watch people living their normal lives like running or walking their dogs just living their lives in a different place.",
-          "tc": "當我旅行時，我最喜歡做的事情就是觀察人們過著正常的生活，例如跑步或遛狗，只是在不同的地方過著他們的生活。"
+          "en": "That was really fun.",
+          "tc": "如果沒有的話我就應付不了了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That was really fun."
+            }
+          ]
         },
         {
-          "en": "For example, I could never run in weather like this.",
-          "tc": "例如，我永遠無法在這樣的天氣下跑步。"
+          "en": "We played pinball, shooting games, motorcycle games, dancing games.",
+          "tc": "昨天我沒有馬上戴上手套，手指感覺像。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We played pinball, shooting games, motorcycle games, dancing games."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "snow",
-          "kk": "/snow/",
-          "partOfSpeech": "n.",
-          "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "place",
-          "kk": "/place/",
-          "partOfSpeech": "n.",
-          "meaning": "地方",
-          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "I think my lungs would freeze if I tried. So beautiful.",
-          "tc": "我想如果我嘗試的話我的肺會結冰的。如此美麗。"
+          "en": "We will stay here for three more days and then we will head to New York City.",
+          "tc": "它們快要破裂並脫落了！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We will stay here for three more days and then we will head to New York City."
+            }
+          ]
         },
         {
-          "en": "I'm sitting on a rock. Look at the ducks.",
-          "tc": "我坐在一塊岩石上。看看鴨子。"
+          "en": "I'm really excited to see New York City during Christmas time.",
+          "tc": "我知道我絕對不能住在這樣的地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm really excited to see New York City during Christmas time."
+            }
+          ]
         },
         {
-          "en": "They're swimming in the lake.",
-          "tc": "他們正在湖裡游泳。"
+          "en": "The big Christmas trees from movies like Elf, Rockefeller Center.",
+          "tc": "我們還去了遊樂場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The big Christmas trees from movies like Elf, Rockefeller Center."
+            }
+          ]
         },
         {
-          "en": "I don't know how ducks survive living in this water. It must be freezing in there.",
-          "tc": "我不知道鴨子在這水裡是怎麼生存的。那裡一定很冷。"
+          "en": "You'll see it all with me.",
+          "tc": "那真的很有趣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You'll see it all with me."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "cold",
-          "kk": "/cold/",
-          "partOfSpeech": "n.",
-          "meaning": "寒冷的",
-          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "coat",
-          "kk": "/coat/",
-          "partOfSpeech": "n.",
-          "meaning": "外套",
-          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "snow",
-          "kk": "/snow/",
-          "partOfSpeech": "n.",
-          "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：日常生活",
-      "titleEn": "Part 11: everyday life",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "Tell me about the squirrels.",
-          "tc": "告訴我關於松鼠的事。"
+          "en": "We're going under the bridge to get to the park.",
+          "tc": "我們玩彈珠台、射擊遊戲、摩托車遊戲、跳舞遊戲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We're going under the bridge to get to the park."
+            }
+          ]
         },
         {
-          "en": "They were so fat and ready for hibernation.",
-          "tc": "它們太胖了，準備冬眠了。"
+          "en": "It's been so long since I saw snow.",
+          "tc": "我們將在這裡再待三天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's been so long since I saw snow."
+            }
+          ]
         },
         {
-          "en": "They were ready to hibernate.",
-          "tc": "他們準備冬眠了。"
+          "en": "Almost like 10 years I think since the last time I saw snow.",
+          "tc": "我們將前往紐約市。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Almost like 10 years I think since the last time I saw snow."
+            }
+          ]
         },
         {
-          "en": "She also said, \"I just saw a seal.",
-          "tc": "她還說：「我剛剛看到一隻海豹。"
+          "en": "I'm originally from Nebraska.",
+          "tc": "我很高興能在聖誕節期間看到紐約市。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm originally from Nebraska."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "cold",
-          "kk": "/cold/",
-          "partOfSpeech": "n.",
-          "meaning": "寒冷的",
-          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "coat",
-          "kk": "/coat/",
-          "partOfSpeech": "n.",
-          "meaning": "外套",
-          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "snow",
-          "kk": "/snow/",
-          "partOfSpeech": "n.",
-          "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：食物與用餐",
-      "titleEn": "Part 12: food",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "He popped his head out of the water.\" \"Yeah. Oh, that's so sweet!\"",
-          "tc": "他把頭從水裡探出來。 」 「是的。哦，真是太甜了！ 」"
+          "en": "So I used to see snow all the time, but now I live in Mexico and I've lived in Mexico for 10 years.",
+          "tc": "電影《精靈》、洛克斐勒中心等電影中的大聖誕樹。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I used to see snow all the time, but now I live in Mexico and I've lived in Mexico for 10 years."
+            }
+          ]
         },
         {
-          "en": "I made it my mission to find this seal. I walked all along the ledge, stepping carefully on each stone, keeping an eye out for the seal.",
-          "tc": "我把找到這枚印章當作我的使命。我沿著壁架走來走去，小心翼翼地踩著每塊石頭，留意著海豹。"
+          "en": "So, the snow is a very exciting thing to see.",
+          "tc": "你會和我一起看到這一切。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, the snow is a very exciting thing to see."
+            }
+          ]
         },
         {
-          "en": "First, but after zooming in with my camera, I realized.",
-          "tc": "首先，但在用相機放大後，我意識到了。"
+          "en": "I'm leaving footprints behind.",
+          "tc": "我們要從橋下走去公園。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm leaving footprints behind."
+            }
+          ]
         },
         {
-          "en": "It was indeed a seal.",
-          "tc": "這確實是一個封印。"
+          "en": "Those are my footprints.",
+          "tc": "已經過去這麼久了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Those are my footprints."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-13",
       "no": "13",
-      "titleZh": "第 13 段：日常生活",
-      "titleEn": "Part 13: everyday life",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
       "sentences": [
         {
-          "en": "Tell me, where is the coldest place you've visited? I remember the UK was super cold,.",
-          "tc": "告訴我，你去過的最冷的地方是哪裡？我記得英國超冷。"
+          "en": "Let's go sit over there on that little ledge.",
+          "tc": "我看到了雪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let's go sit over there on that little ledge."
+            }
+          ]
         },
         {
-          "en": "It was a different kind of cold.",
-          "tc": "那是一種不一樣的寒冷。"
+          "en": "My favorite thing to do when I travel is watch people living their normal lives like running or walking their dogs just living their lives in a different place.",
+          "tc": "差不多10年了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My favorite thing to do when I travel is watch people living their normal lives like running or walking their dogs just living their lives in a different place."
+            }
+          ]
         },
         {
-          "en": "It was really windy. The breeze is what made you feel cold, but here the air is just crisp.",
-          "tc": "風確實很大。微風會讓你感到寒冷，但這裡的空氣很清新。"
+          "en": "For example, I could never run in weather like this.",
+          "tc": "我想自從上次以來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, I could never run in weather like this."
+            }
+          ]
         },
         {
-          "en": "I don't think I could live here, but it's nice to visit.",
-          "tc": "我想我不能住在這裡，但參觀一下還是很不錯的。"
+          "en": "I think my lungs would freeze if I tried.",
+          "tc": "我看到了雪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think my lungs would freeze if I tried."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "cold",
-          "kk": "/cold/",
-          "partOfSpeech": "n.",
-          "meaning": "寒冷的",
-          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "place",
-          "kk": "/place/",
-          "partOfSpeech": "n.",
-          "meaning": "地方",
-          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-14",
       "no": "14",
-      "titleZh": "第 14 段：工作與學習",
-      "titleEn": "Part 14: work",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
       "sentences": [
         {
-          "en": "After walking around the park, I went to see my sister's workplace and the sky was golden yellow.",
-          "tc": "逛完公園，我去看姊姊的工作場所，天空是金黃色的。"
+          "en": "So beautiful.",
+          "tc": "我來自內布拉斯加州。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So beautiful."
+            }
+          ]
         },
         {
-          "en": "I realized my sister had bought me a big white coat. The white matched the snow and complemented perfectly with the golden sun.",
-          "tc": "我意識到姐姐買了一件大白外套給我。白色與雪色相配，與金色的陽光完美地相得益彰。"
+          "en": "I'm sitting on a rock.",
+          "tc": "所以我以前總是看到雪，但現在我住在墨西哥。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm sitting on a rock."
+            }
+          ]
         },
         {
-          "en": "I only brought one coat with me.",
-          "tc": "我只帶了一件外套。"
+          "en": "Look at the ducks.",
+          "tc": "我在墨西哥生活了10年。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Look at the ducks."
+            }
+          ]
         },
         {
-          "en": "It was my mom's coat.",
-          "tc": "那是我媽的外套。"
+          "en": "They're swimming in the lake.",
+          "tc": "所以說，下雪是一件非常令人興奮的事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They're swimming in the lake."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "coat",
-          "kk": "/coat/",
-          "partOfSpeech": "n.",
-          "meaning": "外套",
-          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "snow",
-          "kk": "/snow/",
-          "partOfSpeech": "n.",
-          "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "place",
-          "kk": "/place/",
-          "partOfSpeech": "n.",
-          "meaning": "地方",
-          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-15",
       "no": "15",
-      "titleZh": "第 15 段：日常生活",
-      "titleEn": "Part 15: everyday life",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
       "sentences": [
         {
-          "en": "I don't OWN a winter coat.",
-          "tc": "我沒有冬衣。"
+          "en": "I don't know how ducks survive living in this water.",
+          "tc": "我留下腳印。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know how ducks survive living in this water."
+            }
+          ]
         },
         {
-          "en": "I don't have a winter coat, but even with my mom's puffy coat, the cold found a way to SEEP through every layer.",
-          "tc": "我沒有冬衣，但即使穿著媽媽的蓬鬆外套，寒冷也能滲透到每一層。"
+          "en": "It must be freezing in there.",
+          "tc": "那是我的腳印。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It must be freezing in there."
+            }
+          ]
         },
         {
-          "en": "I was grateful to HAVE gotten another coat. Why use HAVE gotten instead of GET? Because it connects to the past and to the present. It happened in the past and it.",
-          "tc": "我很感激又買了一件外套。為什麼要使用 HAVE get 而不是 GET？因為它連結過去和現在。它發生在過去並且它。"
+          "en": "But they they're just bathing casually in the freezing water.",
+          "tc": "我們去那邊那個小壁架上坐吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But they they're just bathing casually in the freezing water."
+            }
+          ]
         },
         {
-          "en": "Still matters now. It happened in the past, but the result is still relevant right now. It's still important now.",
-          "tc": "現在仍然很重要。事情已經發生在過去，但結果現在仍然具有現實意義。現在仍然很重要。"
+          "en": "I always love coming to the United States.",
+          "tc": "當我旅行時，我最喜歡做的事情就是觀察人們過著正常的生活，例如跑步或遛狗，只是在不同的地方過著他們的生活。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I always love coming to the United States."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "cold",
-          "kk": "/cold/",
-          "partOfSpeech": "n.",
-          "meaning": "寒冷的",
-          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "coat",
-          "kk": "/coat/",
-          "partOfSpeech": "n.",
-          "meaning": "外套",
-          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-16",
       "no": "16",
-      "titleZh": "第 16 段：日常生活",
-      "titleEn": "Part 16: everyday life",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
       "sentences": [
         {
-          "en": "I was grateful to have gotten an extra coat.",
-          "tc": "我很慶幸多買了一件外套。"
+          "en": "Everyone is always so friendly and talkative.",
+          "tc": "例如，我永遠無法在這樣的天氣下跑步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Everyone is always so friendly and talkative."
+            }
+          ]
         },
         {
-          "en": "We head back to the hotel to watch movies and SNACK on some SNACKS that.",
-          "tc": "我們回到酒店看電影並吃點零食。"
+          "en": "This lady came up to me to tell me about the squirrels she was feeding and how they were so fat and ready for hibernation.",
+          "tc": "我想如果我嘗試的話我的肺會結冰的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This lady came up to me to tell me about the squirrels she was feeding and how they were so fat and ready for hibernation."
+            }
+          ]
         },
         {
-          "en": "I love feeling this cozy snowing outside while.",
-          "tc": "我喜歡在外面下雪的時候感受這種舒適的感覺。"
+          "en": "They were ready to hibernate.",
+          "tc": "如此美麗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They were ready to hibernate."
+            }
+          ]
         },
         {
-          "en": "I'm bundled up in lots of warm blankets while watching series and snacking with my sister. This is my happy place.",
-          "tc": "我裹著很多溫暖的毯子，一邊看電視劇，一邊和姐姐一起吃零食。這是我快樂的地方。"
+          "en": "She also said, \"I just saw a seal.",
+          "tc": "我坐在一塊岩石上。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She also said, \"I just saw a seal."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "coat",
-          "kk": "/coat/",
-          "partOfSpeech": "n.",
-          "meaning": "外套",
-          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "snow",
-          "kk": "/snow/",
-          "partOfSpeech": "n.",
-          "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "place",
-          "kk": "/place/",
-          "partOfSpeech": "n.",
-          "meaning": "地方",
-          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-17",
       "no": "17",
-      "titleZh": "第 17 段：日常作息",
-      "titleEn": "Part 17: daily routine",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
       "sentences": [
         {
-          "en": "Next morning, all the snow had melted. Breakfast was included at our hotel.",
-          "tc": "第二天早上，所有的雪都融化了。我們飯店內含早餐。"
+          "en": "He popped his head out of the water.\"",
+          "tc": "看看鴨子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He popped his head out of the water.\""
+            }
+          ]
         },
         {
-          "en": "I had a toasted bagel, a blueberry muffin, some cornflakes cereal with oat milk, some fruit, and a boiled egg. I know it's a strange combination,.",
-          "tc": "我吃了一個烤百吉餅、一個藍莓鬆餅、一些玉米片麥片、燕麥奶、一些水果和一個水煮蛋。我知道這是一個奇怪的組合。"
+          "en": "\"Yeah.",
+          "tc": "他們正在湖裡游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Yeah."
+            }
+          ]
         },
         {
-          "en": "I love taking full advantage of included breakfasts.",
-          "tc": "我喜歡充分利用包含的早餐。"
+          "en": "Oh, that's so sweet!\"",
+          "tc": "我不知道鴨子在這水裡是怎麼生存的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Oh, that's so sweet!\""
+            }
+          ]
         },
         {
-          "en": "Then I decided to get a workout in before exploring the city. I used the dumbbells and I ran on the treadmill.",
-          "tc": "然後我決定在探索這座城市之前先鍛鍊一下。我用啞鈴，然後在跑步機上跑步。"
+          "en": "So, I made it my mission to find this seal.",
+          "tc": "那裡一定很冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I made it my mission to find this seal."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "snow",
-          "kk": "/snow/",
-          "partOfSpeech": "n.",
-          "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-18",
       "no": "18",
-      "titleZh": "第 18 段：日常生活",
-      "titleEn": "Part 18: everyday life",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
       "sentences": [
         {
-          "en": "Then my sister and I went to the park. \".",
-          "tc": "然後我和姐姐去了公園。 」。"
+          "en": "I walked all along the ledge, stepping carefully on each stone, keeping an eye out for the seal.",
+          "tc": "告訴我關於松鼠的事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I walked all along the ledge, stepping carefully on each stone, keeping an eye out for the seal."
+            }
+          ]
         },
         {
-          "en": "My favorite gloves.\" It's not snowy anymore. And I noticed the weirdest thing. \"Why is that steam coming out?\" There's little steam coming out of the tree trunks.",
-          "tc": "我最喜歡的手套。 」不再下雪了。我注意到最奇怪的事情。「為什麼會冒出蒸氣？ 「樹幹裡幾乎沒有蒸氣冒出來。"
+          "en": "And I found it.",
+          "tc": "它們太胖了，準備冬眠了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I found it."
+            }
+          ]
         },
         {
-          "en": "After being outside for a while. Our cheeks and noses are red.",
-          "tc": "在外面待了一段時間後。我們的臉頰和鼻子都是紅色的。"
+          "en": "I wasn't sure at first, but after zooming in with my camera, I realized it was indeed a seal.",
+          "tc": "他們準備冬眠了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I wasn't sure at first, but after zooming in with my camera, I realized it was indeed a seal."
+            }
+          ]
         },
         {
-          "en": "Today it's sunny again. Yesterday, my sister.",
-          "tc": "今天又是晴天了。昨天，我的妹妹。"
+          "en": "Tell me, where is the coldest place you've visited?",
+          "tc": "她還說：「我剛剛看到一隻海豹。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Tell me, where is the coldest place you've visited?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "snow",
-          "kk": "/snow/",
-          "partOfSpeech": "n.",
-          "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sister",
-          "kk": "/sister/",
-          "partOfSpeech": "n.",
-          "meaning": "姊姊",
-          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "outside",
-          "kk": "/outside/",
-          "partOfSpeech": "n.",
-          "meaning": "外部",
-          "note": "看到 outside 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-19",
       "no": "19",
-      "titleZh": "第 19 段：日常生活",
-      "titleEn": "Part 19: everyday life",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
       "sentences": [
         {
-          "en": "I got so much done.",
-          "tc": "我已經完成了這麼多。"
+          "en": "I remember the UK was super cold, but it was a different kind of cold.",
+          "tc": "他把頭從水裡探出來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I remember the UK was super cold, but it was a different kind of cold."
+            }
+          ]
         },
         {
-          "en": "We managed to get so many things off our checklist.",
-          "tc": "我們設法從清單上刪除了很多事情。"
+          "en": "It was really windy.",
+          "tc": "」「是的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was really windy."
+            }
+          ]
         },
         {
-          "en": "We opened a bank account.",
-          "tc": "我們開了一個銀行帳戶。"
+          "en": "The breeze is what made you feel cold, but here the air is just crisp.",
+          "tc": "哦，真是太甜了！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The breeze is what made you feel cold, but here the air is just crisp."
+            }
+          ]
         },
         {
-          "en": "We went shopping for Christmas presents.",
-          "tc": "我們去買聖誕禮物。"
+          "en": "I don't think I could live here, but it's nice to visit.",
+          "tc": "」我把找到這枚印章當作我的使命。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't think I could live here, but it's nice to visit."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "cold",
-          "kk": "/cold/",
-          "partOfSpeech": "n.",
-          "meaning": "寒冷的",
-          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "coat",
-          "kk": "/coat/",
-          "partOfSpeech": "n.",
-          "meaning": "外套",
-          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "snow",
-          "kk": "/snow/",
-          "partOfSpeech": "n.",
-          "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-20",
       "no": "20",
-      "titleZh": "第 20 段：日常生活",
-      "titleEn": "Part 20: everyday life",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "After walking around the park, I went to see my sister's workplace and the sky was golden yellow and I realized my sister had bought me a big white coat.",
+          "tc": "我沿著壁架走來走去，小心翼翼地踩著每塊石頭，留意著海豹。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After walking around the park, I went to see my sister's workplace and the sky was golden yellow and I realized my sister had bought me a big white coat."
+            }
+          ]
+        },
+        {
+          "en": "The white matched the snow and complemented perfectly with the golden sun.",
+          "tc": "首先，但在用相機放大後，我意識到了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The white matched the snow and complemented perfectly with the golden sun."
+            }
+          ]
+        },
+        {
+          "en": "I only brought one coat with me and it was my mom's coat because I don't OWN a winter coat.",
+          "tc": "這確實是一個封印。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I only brought one coat with me and it was my mom's coat because I don't OWN a winter coat."
+            }
+          ]
+        },
+        {
+          "en": "I don't have a winter coat, but even with my mom's puffy coat, the cold found a way to SEEP through every layer.",
+          "tc": "告訴我，你去過的最冷的地方是哪裡？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't have a winter coat, but even with my mom's puffy coat, the cold found a way to SEEP through every layer."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "So, I was grateful to HAVE gotten another coat.",
+          "tc": "我記得英國超冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I was grateful to HAVE gotten another coat."
+            }
+          ]
+        },
+        {
+          "en": "Why use HAVE gotten instead of GET?",
+          "tc": "那是一種不一樣的寒冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Why use HAVE gotten instead of GET?"
+            }
+          ]
+        },
+        {
+          "en": "Because it connects to the past and to the present.",
+          "tc": "風確實很大。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because it connects to the past and to the present."
+            }
+          ]
+        },
+        {
+          "en": "It happened in the past and it still matters now.",
+          "tc": "微風會讓你感到寒冷，但這裡的空氣很清新。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It happened in the past and it still matters now."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "It happened in the past, but the result is still relevant right now.",
+          "tc": "我想我不能住在這裡，但參觀一下還是很不錯的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It happened in the past, but the result is still relevant right now."
+            }
+          ]
+        },
+        {
+          "en": "It's still important now.",
+          "tc": "逛完公園，我去看姊姊的工作場所，天空是金黃色的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's still important now."
+            }
+          ]
+        },
+        {
+          "en": "So, I was grateful to have gotten an extra coat.",
+          "tc": "我意識到姐姐買了一件大白外套給我。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I was grateful to have gotten an extra coat."
+            }
+          ]
+        },
+        {
+          "en": "Then we head back to the hotel to watch movies and SNACK on some SNACKS that we bought.",
+          "tc": "白色與雪色相配，與金色的陽光完美地相得益彰。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then we head back to the hotel to watch movies and SNACK on some SNACKS that we bought."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "I love feeling this cozy snowing outside while I'm bundled up in lots of warm blankets while watching series and snacking with my sister.",
+          "tc": "我只帶了一件外套。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love feeling this cozy snowing outside while I'm bundled up in lots of warm blankets while watching series and snacking with my sister."
+            }
+          ]
+        },
+        {
+          "en": "This is my happy place.",
+          "tc": "那是我媽的外套。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is my happy place."
+            }
+          ]
+        },
+        {
+          "en": "The next morning, all the snow had melted.",
+          "tc": "我沒有冬衣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next morning, all the snow had melted."
+            }
+          ]
+        },
+        {
+          "en": "Breakfast was included at our hotel.",
+          "tc": "我沒有冬衣，但即使穿著媽媽的蓬鬆外套，寒冷也能滲透到每一層。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Breakfast was included at our hotel."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "So, I had a toasted bagel, a blueberry muffin, some cornflakes cereal with oat milk, some fruit, and a boiled egg.",
+          "tc": "我很感激又買了一件外套。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I had a toasted bagel, a blueberry muffin, some cornflakes cereal with oat milk, some fruit, and a boiled egg."
+            }
+          ]
+        },
+        {
+          "en": "I know it's a strange combination, but I love taking full advantage of included breakfasts.",
+          "tc": "為什麼要使用HAVEget而不是GET？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I know it's a strange combination, but I love taking full advantage of included breakfasts."
+            }
+          ]
+        },
+        {
+          "en": "Then I decided to get a workout in before exploring the city.",
+          "tc": "因為它連結過去和現在。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I decided to get a workout in before exploring the city."
+            }
+          ]
+        },
+        {
+          "en": "I used the dumbbells and I ran on the treadmill.",
+          "tc": "它發生在過去並且它。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I used the dumbbells and I ran on the treadmill."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "And then my sister and I went to the park.",
+          "tc": "現在仍然很重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And then my sister and I went to the park."
+            }
+          ]
+        },
+        {
+          "en": "\"My favorite gloves.\"",
+          "tc": "事情已經發生在過去，但結果現在仍然具有現實意義。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"My favorite gloves.\""
+            }
+          ]
+        },
+        {
+          "en": "It's not snowy anymore.",
+          "tc": "現在仍然很重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's not snowy anymore."
+            }
+          ]
+        },
+        {
+          "en": "And I noticed the weirdest thing.",
+          "tc": "我很慶幸多買了一件外套。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I noticed the weirdest thing."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "\"Why is that steam coming out?\"",
+          "tc": "我們回到酒店看電影並吃點零食。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Why is that steam coming out?\""
+            }
+          ]
+        },
+        {
+          "en": "There's little steam coming out of the tree trunks after being outside for a while.",
+          "tc": "我喜歡在外面下雪的時候感受這種舒適的感覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There's little steam coming out of the tree trunks after being outside for a while."
+            }
+          ]
+        },
+        {
+          "en": "Our cheeks and noses are red.",
+          "tc": "我裹著很多溫暖的毯子，一邊看電視劇，一邊和姐姐一起吃零食。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Our cheeks and noses are red."
+            }
+          ]
+        },
+        {
+          "en": "Today it's sunny again.",
+          "tc": "這是我快樂的地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today it's sunny again."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "Yesterday, my sister and I got so much done.",
+          "tc": "第二天早上，所有的雪都融化了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yesterday, my sister and I got so much done."
+            }
+          ]
+        },
+        {
+          "en": "We managed to get so many things off our checklist.",
+          "tc": "我們飯店內含早餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We managed to get so many things off our checklist."
+            }
+          ]
+        },
+        {
+          "en": "We opened a bank account.",
+          "tc": "我吃了一個烤百吉餅、一個藍莓鬆餅、一些玉米片麥片、燕麥奶、一些水果和一個水煮蛋。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We opened a bank account."
+            }
+          ]
+        },
+        {
+          "en": "We went shopping for Christmas presents.",
+          "tc": "我知道這是一個奇怪的組合。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We went shopping for Christmas presents."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
       "sentences": [
         {
           "en": "We ate the best chicken schwarma in town.",
-          "tc": "我們吃了鎮上最好的雞肉施瓦瑪。"
+          "tc": "我喜歡充分利用包含的早餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We ate the best chicken schwarma in town."
+            }
+          ]
         },
         {
-          "en": "We saw Brown University. \".",
-          "tc": "我們看到了布朗大學。 」。"
+          "en": "We saw Brown University.",
+          "tc": "然後我決定在探索這座城市之前先鍛鍊一下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We saw Brown University."
+            }
+          ]
         },
         {
-          "en": "We are at Brown University. Brown is.",
-          "tc": "我們在布朗大學。布朗是。"
+          "en": "\"We are at Brown University.",
+          "tc": "我用啞鈴，然後在跑步機上跑步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"We are at Brown University."
+            }
+          ]
         },
         {
-          "en": "One of the Ivy League universities.\"",
-          "tc": "常春藤盟校之一。 」"
+          "en": "Brown is one of the Ivy League universities.\"",
+          "tc": "然後我和姐姐去了公園。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Brown is one of the Ivy League universities.\""
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-29",
+      "no": "29",
+      "titleZh": "第 29 段",
+      "titleEn": "Part 29",
+      "sentences": [
         {
-          "english": "cold",
-          "kk": "/cold/",
-          "partOfSpeech": "n.",
-          "meaning": "寒冷的",
-          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "Do you know what an Ivy League university is?",
+          "tc": "」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you know what an Ivy League university is?"
+            }
+          ]
         },
         {
-          "english": "coat",
-          "kk": "/coat/",
-          "partOfSpeech": "n.",
-          "meaning": "外套",
-          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "Can you think of any other examples of an Ivy League university?",
+          "tc": "我最喜歡的手套。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Can you think of any other examples of an Ivy League university?"
+            }
+          ]
         },
         {
-          "english": "snow",
-          "kk": "/snow/",
-          "partOfSpeech": "n.",
-          "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "We had a coffee at the mall and then we head back to our hotel.",
+          "tc": "」不再下雪了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We had a coffee at the mall and then we head back to our hotel."
+            }
+          ]
+        },
+        {
+          "en": "On our way back, we saw a melted snowman, lots of Christmas lights.",
+          "tc": "我注意到最奇怪的事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "On our way back, we saw a melted snowman, lots of Christmas lights."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-30",
+      "no": "30",
+      "titleZh": "第 30 段",
+      "titleEn": "Part 30",
+      "sentences": [
+        {
+          "en": "We crossed a very beautiful bridge, and when we got home, we watched movies.",
+          "tc": "「為什麼會冒出蒸氣？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We crossed a very beautiful bridge, and when we got home, we watched movies."
+            }
+          ]
+        },
+        {
+          "en": "That's always my favorite part of the day.",
+          "tc": "「樹幹裡幾乎沒有蒸氣冒出來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's always my favorite part of the day."
+            }
+          ]
+        },
+        {
+          "en": "And later we will go to my sister's Christmas party and tomorrow we will take the Amtrak train to New York City.",
+          "tc": "在外面待了一段時間後。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And later we will go to my sister's Christmas party and tomorrow we will take the Amtrak train to New York City."
+            }
+          ]
+        },
+        {
+          "en": "I'll see you guys tomorrow.",
+          "tc": "我們的臉頰和鼻子都是紅色的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll see you guys tomorrow."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-31",
+      "no": "31",
+      "titleZh": "第 31 段",
+      "titleEn": "Part 31",
+      "sentences": [
+        {
+          "en": "Before heading to the party, we decided to go on one last walk.",
+          "tc": "今天又是晴天了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Before heading to the party, we decided to go on one last walk."
+            }
+          ]
+        },
+        {
+          "en": "We crossed a bridge and since we walked, we didn't have to deal with the traffic.",
+          "tc": "昨天，我的妹妹。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We crossed a bridge and since we walked, we didn't have to deal with the traffic."
+            }
+          ]
+        },
+        {
+          "en": "There was a lot of traffic.",
+          "tc": "我已經完成了這麼多。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There was a lot of traffic."
+            }
+          ]
+        },
+        {
+          "en": "Then we went to have free pizza at the Christmas party.",
+          "tc": "我們設法從清單上刪除了很多事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then we went to have free pizza at the Christmas party."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-32",
+      "no": "32",
+      "titleZh": "第 32 段",
+      "titleEn": "Part 32",
+      "sentences": [
+        {
+          "en": "\"Yo, guys, check it out.",
+          "tc": "我們開了一個銀行帳戶。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Yo, guys, check it out."
+            }
+          ]
+        },
+        {
+          "en": "Free pizza.\"",
+          "tc": "我們去買聖誕禮物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Free pizza.\""
+            }
+          ]
+        },
+        {
+          "en": "\"FIGS.",
+          "tc": "我們吃了鎮上最好的雞肉施瓦瑪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"FIGS."
+            }
+          ]
+        },
+        {
+          "en": "It's not a party without FIGS.\"",
+          "tc": "我們看到了布朗大學。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's not a party without FIGS.\""
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-33",
+      "no": "33",
+      "titleZh": "第 33 段",
+      "titleEn": "Part 33",
+      "sentences": [
+        {
+          "en": "There was even a mechanical bull.",
+          "tc": "」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There was even a mechanical bull."
+            }
+          ]
+        },
+        {
+          "en": "I lasted a little while, but trust me, it's so much harder than it looks.",
+          "tc": "我們在布朗大學。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I lasted a little while, but trust me, it's so much harder than it looks."
+            }
+          ]
+        },
+        {
+          "en": "My sister lasted a little bit longer than I did.",
+          "tc": "布朗是。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My sister lasted a little bit longer than I did."
+            }
+          ]
+        },
+        {
+          "en": "Have you ever ridden a mechanical bull?",
+          "tc": "常春藤盟校之一。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Have you ever ridden a mechanical bull?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-34",
+      "no": "34",
+      "titleZh": "第 34 段",
+      "titleEn": "Part 34",
+      "sentences": [
+        {
+          "en": "The next morning, we woke up early to catch our train.",
+          "tc": "」",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next morning, we woke up early to catch our train."
+            }
+          ]
+        },
+        {
+          "en": "It left at 5:30 a.m. My sister was so tired.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It left at 5:30 a.m. My sister was so tired."
+            }
+          ]
+        },
+        {
+          "en": "We found our seat in car number three and we slept the whole way there.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We found our seat in car number three and we slept the whole way there."
+            }
+          ]
+        },
+        {
+          "en": "I don't mind waking up early for buses or trains because I can sleep on them after.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't mind waking up early for buses or trains because I can sleep on them after."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-35",
+      "no": "35",
+      "titleZh": "第 35 段",
+      "titleEn": "Part 35",
+      "sentences": [
+        {
+          "en": "What about you?",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What about you?"
+            }
+          ]
+        },
+        {
+          "en": "Do you prefer early morning trains or late afternoon trains?",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you prefer early morning trains or late afternoon trains?"
+            }
+          ]
+        },
+        {
+          "en": "Why?",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Why?"
+            }
+          ]
+        },
+        {
+          "en": "We finally arrived at Penn Station and we took the subway to 14th Street.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We finally arrived at Penn Station and we took the subway to 14th Street."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-36",
+      "no": "36",
+      "titleZh": "第 36 段",
+      "titleEn": "Part 36",
+      "sentences": [
+        {
+          "en": "We only had two suitcases this time, so it wasn't so stressful to carry.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We only had two suitcases this time, so it wasn't so stressful to carry."
+            }
+          ]
+        },
+        {
+          "en": "New York City is smelly, by the way.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "New York City is smelly, by the way."
+            }
+          ]
+        },
+        {
+          "en": "But I love to feel the crisp New York City air.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I love to feel the crisp New York City air."
+            }
+          ]
+        },
+        {
+          "en": "It had just rained, so the sidewalks were wet.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It had just rained, so the sidewalks were wet."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-37",
+      "no": "37",
+      "titleZh": "第 37 段",
+      "titleEn": "Part 37",
+      "sentences": [
+        {
+          "en": "We arrived at our hotel and we checked in at the checkin counter blueberry smoothie.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We arrived at our hotel and we checked in at the checkin counter blueberry smoothie."
+            }
+          ]
+        },
+        {
+          "en": "After checking in, we decided to get some breakfast.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After checking in, we decided to get some breakfast."
+            }
+          ]
+        },
+        {
+          "en": "I love getting these blueberry smoothies at the deli.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love getting these blueberry smoothies at the deli."
+            }
+          ]
+        },
+        {
+          "en": "Then we saw a Christmas tree right outside of the famous Macy's.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then we saw a Christmas tree right outside of the famous Macy's."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-38",
+      "no": "38",
+      "titleZh": "第 38 段",
+      "titleEn": "Part 38",
+      "sentences": [
+        {
+          "en": "If you don't know, Macy's is a department store in the United States.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you don't know, Macy's is a department store in the United States."
+            }
+          ]
+        },
+        {
+          "en": "A department store is where you can find a huge variety of goods.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A department store is where you can find a huge variety of goods."
+            }
+          ]
+        },
+        {
+          "en": "Goods like clothing, jewelry, toys, electronics, and furnishings.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Goods like clothing, jewelry, toys, electronics, and furnishings."
+            }
+          ]
+        },
+        {
+          "en": "You can find everything and anything at a department store.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can find everything and anything at a department store."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-39",
+      "no": "39",
+      "titleZh": "第 39 段",
+      "titleEn": "Part 39",
+      "sentences": [
+        {
+          "en": "And this Macy's specifically is famous from the movie Elf, one of my favorite movies.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And this Macy's specifically is famous from the movie Elf, one of my favorite movies."
+            }
+          ]
+        },
+        {
+          "en": "So, my sister and I decided to visit every spot that he visits in the movie, starting with these doors.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, my sister and I decided to visit every spot that he visits in the movie, starting with these doors."
+            }
+          ]
+        },
+        {
+          "en": "My family and I love this scene from the movie Elf where he spins around in these doors until he's dizzy and throws up.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My family and I love this scene from the movie Elf where he spins around in these doors until he's dizzy and throws up."
+            }
+          ]
+        },
+        {
+          "en": "Inside we got to see the famous escalator and the famous toy store from the movie Elf.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Inside we got to see the famous escalator and the famous toy store from the movie Elf."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-40",
+      "no": "40",
+      "titleZh": "第 40 段",
+      "titleEn": "Part 40",
+      "sentences": [
+        {
+          "en": "We also got to see Rockefeller Center where Elf was super impressed by the Christmas tree.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We also got to see Rockefeller Center where Elf was super impressed by the Christmas tree."
+            }
+          ]
+        },
+        {
+          "en": "We saw lots of pretty lights.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We saw lots of pretty lights."
+            }
+          ]
+        },
+        {
+          "en": "Christmas is so beautiful.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Christmas is so beautiful."
+            }
+          ]
+        },
+        {
+          "en": "And we visited Central Park at night.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And we visited Central Park at night."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-41",
+      "no": "41",
+      "titleZh": "第 41 段",
+      "titleEn": "Part 41",
+      "sentences": [
+        {
+          "en": "I can't imagine how much these people pay for rent.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can't imagine how much these people pay for rent."
+            }
+          ]
+        },
+        {
+          "en": "Then I was so excited I could barely contain myself.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I was so excited I could barely contain myself."
+            }
+          ]
+        },
+        {
+          "en": "I was so excited to finally try crumble cookies.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was so excited to finally try crumble cookies."
+            }
+          ]
+        },
+        {
+          "en": "Here's my reaction.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Here's my reaction."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-42",
+      "no": "42",
+      "titleZh": "第 42 段",
+      "titleEn": "Part 42",
+      "sentences": [
+        {
+          "en": "This is the inside of crumble cookie.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is the inside of crumble cookie."
+            }
+          ]
+        },
+        {
+          "en": "He showed me the cookie to make sure it was up to my standard.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He showed me the cookie to make sure it was up to my standard."
+            }
+          ]
+        },
+        {
+          "en": "Ew.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Ew."
+            }
+          ]
+        },
+        {
+          "en": "Stop.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Stop."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-43",
+      "no": "43",
+      "titleZh": "第 43 段",
+      "titleEn": "Part 43",
+      "sentences": [
+        {
+          "en": "Oh my god.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Oh my god."
+            }
+          ]
+        },
+        {
+          "en": "I'm going to try it.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm going to try it."
+            }
+          ]
+        },
+        {
+          "en": "It's warm.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's warm."
+            }
+          ]
+        },
+        {
+          "en": "Oh my god.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Oh my god."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-44",
+      "no": "44",
+      "titleZh": "第 44 段",
+      "titleEn": "Part 44",
+      "sentences": [
+        {
+          "en": "Soft.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Soft."
+            }
+          ]
+        },
+        {
+          "en": "Soft and crumbly.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Soft and crumbly."
+            }
+          ]
+        },
+        {
+          "en": "What was this called?",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What was this called?"
+            }
+          ]
+        },
+        {
+          "en": "Pink sugar cookie.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Pink sugar cookie."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-45",
+      "no": "45",
+      "titleZh": "第 45 段",
+      "titleEn": "Part 45",
+      "sentences": [
+        {
+          "en": "Pink sugar cookie.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Pink sugar cookie."
+            }
+          ]
+        },
+        {
+          "en": "M.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "M."
+            }
+          ]
+        },
+        {
+          "en": "Wow.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Wow."
+            }
+          ]
+        },
+        {
+          "en": "Split it in half.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Split it in half."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-46",
+      "no": "46",
+      "titleZh": "第 46 段",
+      "titleEn": "Part 46",
+      "sentences": [
+        {
+          "en": "Okay.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Okay."
+            }
+          ]
+        },
+        {
+          "en": "Yes.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yes."
+            }
+          ]
+        },
+        {
+          "en": "You have the first bite.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You have the first bite."
+            }
+          ]
+        },
+        {
+          "en": "Oh, you ready for this?",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Oh, you ready for this?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-47",
+      "no": "47",
+      "titleZh": "第 47 段",
+      "titleEn": "Part 47",
+      "sentences": [
+        {
+          "en": "That was better than I thought it was going to be.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That was better than I thought it was going to be."
+            }
+          ]
+        },
+        {
+          "en": "M.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "M."
+            }
+          ]
+        },
+        {
+          "en": "Dude, it's just it's like salty, you know?",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Dude, it's just it's like salty, you know?"
+            }
+          ]
+        },
+        {
+          "en": "It's really good, though.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's really good, though."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-48",
+      "no": "48",
+      "titleZh": "第 48 段",
+      "titleEn": "Part 48",
+      "sentences": [
+        {
+          "en": "I rate this a 10 out of 10.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I rate this a 10 out of 10."
+            }
+          ]
+        },
+        {
+          "en": "All right, see you guys in the next episode.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "All right, see you guys in the next episode."
+            }
+          ]
+        },
+        {
+          "en": "MUAH :)) That was my crumble cookie review.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "MUAH :)) That was my crumble cookie review."
+            }
+          ]
+        },
+        {
+          "en": "I hope you enjoyed it.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hope you enjoyed it."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-49",
+      "no": "49",
+      "titleZh": "第 49 段",
+      "titleEn": "Part 49",
+      "sentences": [
+        {
+          "en": "The next morning, we had lunch at a rooftop with igloos and an incredible view.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next morning, we had lunch at a rooftop with igloos and an incredible view."
+            }
+          ]
+        },
+        {
+          "en": "We enjoyed the view while we finished our hot cocoa with marshmallows.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We enjoyed the view while we finished our hot cocoa with marshmallows."
+            }
+          ]
+        },
+        {
+          "en": "Then there was a meal right in front of us.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then there was a meal right in front of us."
+            }
+          ]
+        },
+        {
+          "en": "Right in front of where my sister and I were taking pictures, but they left so much food.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Right in front of where my sister and I were taking pictures, but they left so much food."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-50",
+      "no": "50",
+      "titleZh": "第 50 段",
+      "titleEn": "Part 50",
+      "sentences": [
+        {
+          "en": "It was crazy.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was crazy."
+            }
+          ]
+        },
+        {
+          "en": "I was so angry because that's such a waste a waste of money because New York is crazy expensive.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was so angry because that's such a waste a waste of money because New York is crazy expensive."
+            }
+          ]
+        },
+        {
+          "en": "But most of all, it's a waste of food.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But most of all, it's a waste of food."
+            }
+          ]
+        },
+        {
+          "en": "I ate some of it because like I said, I hate wasting food.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I ate some of it because like I said, I hate wasting food."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-51",
+      "no": "51",
+      "titleZh": "第 51 段",
+      "titleEn": "Part 51",
+      "sentences": [
+        {
+          "en": "People can judge me, but I don't care.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "People can judge me, but I don't care."
+            }
+          ]
+        },
+        {
+          "en": "I love free food.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love free food."
+            }
+          ]
+        },
+        {
+          "en": "And they left so much of it in perfect conditions.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And they left so much of it in perfect conditions."
+            }
+          ]
+        },
+        {
+          "en": "They probably took one bite and then left.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They probably took one bite and then left."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-52",
+      "no": "52",
+      "titleZh": "第 52 段",
+      "titleEn": "Part 52",
+      "sentences": [
+        {
+          "en": "Would you do the same?",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Would you do the same?"
+            }
+          ]
+        },
+        {
+          "en": "If there was a group of people that left a full table of food, would you eat their leftovers?",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If there was a group of people that left a full table of food, would you eat their leftovers?"
+            }
+          ]
+        },
+        {
+          "en": "I would and I do.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would and I do."
+            }
+          ]
+        },
+        {
+          "en": "I've never been GROSSED OUT by other people's food or drinks.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've never been GROSSED OUT by other people's food or drinks."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-53",
+      "no": "53",
+      "titleZh": "第 53 段",
+      "titleEn": "Part 53",
+      "sentences": [
+        {
+          "en": "I obviously don't eat anything on the street that people leave, but usually at a restaurant or my house, I just hate wastefulness.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I obviously don't eat anything on the street that people leave, but usually at a restaurant or my house, I just hate wastefulness."
+            }
+          ]
+        },
+        {
+          "en": "I hate wasteful, ungrateful people because at the end of the day, there is someone out there that would do anything for what you have.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hate wasteful, ungrateful people because at the end of the day, there is someone out there that would do anything for what you have."
+            }
+          ]
+        },
+        {
+          "en": "So listen, just order less or just order take away and give it to someone who needs it.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So listen, just order less or just order take away and give it to someone who needs it."
+            }
+          ]
+        },
+        {
+          "en": "I'm certain there's someone on the streets where you live that would be very grateful for those leftovers.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm certain there's someone on the streets where you live that would be very grateful for those leftovers."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-54",
+      "no": "54",
+      "titleZh": "第 54 段",
+      "titleEn": "Part 54",
+      "sentences": [
+        {
+          "en": "We need to stop taking these things for granted and put ourselves in their shoes.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We need to stop taking these things for granted and put ourselves in their shoes."
+            }
+          ]
+        },
+        {
+          "en": "I would love to hear your take or opinion or thoughts on this.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would love to hear your take or opinion or thoughts on this."
+            }
+          ]
+        },
+        {
+          "en": "Say, let me know in the comments.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Say, let me know in the comments."
+            }
+          ]
+        },
+        {
+          "en": "We saw the carousel.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We saw the carousel."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-55",
+      "no": "55",
+      "titleZh": "第 55 段",
+      "titleEn": "Part 55",
+      "sentences": [
+        {
+          "en": "We walked around the streets and we had boba tea.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We walked around the streets and we had boba tea."
+            }
+          ]
+        },
+        {
+          "en": "We enjoyed the sunset at Central Park and we watched the people ice skating in the ice rink.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We enjoyed the sunset at Central Park and we watched the people ice skating in the ice rink."
+            }
+          ]
+        },
+        {
+          "en": "We got dinner and we saw Time Square again.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We got dinner and we saw Time Square again."
+            }
+          ]
+        },
+        {
+          "en": "It's always brighter than I remember.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's always brighter than I remember."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-56",
+      "no": "56",
+      "titleZh": "第 56 段",
+      "titleEn": "Part 56",
+      "sentences": [
+        {
+          "en": "We saw some people singing Christmas karaoke and we saw some other people selling Christmas trees.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We saw some people singing Christmas karaoke and we saw some other people selling Christmas trees."
+            }
+          ]
+        },
+        {
+          "en": "Then it was time to go home.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then it was time to go home."
+            }
+          ]
+        },
+        {
+          "en": "So we ordered our Uber to the airport.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So we ordered our Uber to the airport."
+            }
+          ]
+        },
+        {
+          "en": "You look stupid af.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You look stupid af."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-57",
+      "no": "57",
+      "titleZh": "第 57 段",
+      "titleEn": "Part 57",
+      "sentences": [
+        {
+          "en": "It took me forever to edit this video, so forgive me if it's a little bit late.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It took me forever to edit this video, so forgive me if it's a little bit late."
+            }
+          ]
+        },
+        {
+          "en": "Christmas was a long time ago, but I hope you enjoyed.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Christmas was a long time ago, but I hope you enjoyed."
+            }
+          ]
+        },
+        {
+          "en": "And remember, if you did, then like this video and subscribe for more Slow English vlogs.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And remember, if you did, then like this video and subscribe for more Slow English vlogs."
+            }
+          ]
+        },
+        {
+          "en": "I hope you learned something new today and remember NEVER STOP LEARNING.",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hope you learned something new today and remember NEVER STOP LEARNING."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-58",
+      "no": "58",
+      "titleZh": "第 58 段",
+      "titleEn": "Part 58",
+      "sentences": [
+        {
+          "en": "Byee!",
+          "tc": "講者繼續分享自己的英文學習與生活經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Byee!"
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -914,153 +2830,236 @@
       "title": "B2 重點單字",
       "items": [
         {
+          "id": "word-connect",
+          "lemma": "connect",
+          "english": "connect",
+          "kk": "/kəˈnɛkt/",
+          "partOfSpeech": "v.",
+          "meaning": "連結；交流",
+          "highlight": true
+        },
+        {
+          "id": "word-cold",
+          "lemma": "cold",
           "english": "cold",
           "kk": "/cold/",
           "partOfSpeech": "n.",
           "meaning": "寒冷的",
-          "note": "看到 cold 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
+          "id": "word-coat",
+          "lemma": "coat",
           "english": "coat",
           "kk": "/coat/",
           "partOfSpeech": "n.",
           "meaning": "外套",
-          "note": "看到 coat 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
+          "id": "word-snow",
+          "lemma": "snow",
           "english": "snow",
           "kk": "/snow/",
           "partOfSpeech": "n.",
           "meaning": "雪",
-          "note": "看到 snow 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
+          "id": "word-but",
+          "lemma": "but",
           "english": "but",
           "kk": "/but/",
           "partOfSpeech": "n.",
           "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
+          "id": "word-place",
+          "lemma": "place",
           "english": "place",
           "kk": "/place/",
           "partOfSpeech": "n.",
           "meaning": "地方",
-          "note": "看到 place 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
+          "id": "word-sister",
+          "lemma": "sister",
           "english": "sister",
           "kk": "/sister/",
           "partOfSpeech": "n.",
           "meaning": "姊姊",
-          "note": "看到 sister 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
+          "id": "word-been",
+          "lemma": "been",
           "english": "been",
           "kk": "/been/",
           "partOfSpeech": "n.",
           "meaning": "到過",
-          "note": "看到 been 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         },
         {
+          "id": "word-outside",
+          "lemma": "outside",
           "english": "outside",
           "kk": "/outside/",
           "partOfSpeech": "n.",
           "meaning": "外部",
-          "note": "看到 outside 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
       "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and welcome back to my Slow English podcast.",
+          "tc": "歡迎回來"
         }
       ]
     },
     {
-      "id": "phrase-02",
+      "id": "phrase-at-the-end-of",
+      "phrase": "at the end of",
+      "meaning": "在……最後",
+      "examples": [
+        {
+          "en": "I hate wasteful, ungrateful people because at the end of the day, there is someone out there that would do anything for what you have.",
+          "tc": "在……最後"
+        }
+      ]
+    },
+    {
+      "id": "phrase-right-now",
+      "phrase": "right now",
+      "meaning": "現在；此刻",
+      "examples": [
+        {
+          "en": "It happened in the past, but the result is still relevant right now.",
+          "tc": "現在；此刻"
+        }
+      ]
+    },
+    {
+      "id": "phrase-used-to",
       "phrase": "used to",
       "meaning": "以前曾經",
       "examples": [
         {
           "en": "So I used to see snow all the time, but now I live in Mexico.",
-          "tc": "所以我以前總是看到雪，但現在我住在墨西哥。"
+          "tc": "以前曾經"
         }
       ]
     },
     {
-      "id": "phrase-03",
+      "id": "phrase-going-to",
       "phrase": "going to",
       "meaning": "去",
       "examples": [
         {
           "en": "They were going to crack and fall off!",
-          "tc": "它們快要破裂並脫落了！"
+          "tc": "去"
         }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-right-right-now-right",
+      "word": "right",
+      "familiarMeaning": "右邊；正確的",
+      "usage": "right now 中的 right 加強「現在」的語氣。",
+      "translation": "此刻；馬上",
+      "examples": [
+        "Yesterday, I didn't put on my gloves right away, and my fingers felt like they were going to crack and fall off!"
+      ]
+    },
+    {
+      "id": "usage-make-make-mistakes",
+      "word": "make",
+      "familiarMeaning": "製作",
+      "usage": "make mistakes 表示「犯錯」，不是製作錯誤。",
+      "translation": "犯錯",
+      "examples": [
+        "He showed me the cookie to make sure it was up to my standard."
+      ]
+    },
+    {
+      "id": "usage-get-get-better",
+      "word": "get",
+      "familiarMeaning": "得到",
+      "usage": "get better 表示狀態變好。",
+      "translation": "變得更好",
+      "examples": [
+        "We're going under the bridge to get to the park."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
+      "id": "grammar-1",
+      "sentence": "Hello and welcome back to my Slow English podcast.",
       "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "to 不定詞",
+          "text": "to + 原形動詞",
+          "note": "表示目的、結果或補充前面的動作。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Today I will tell you about my trip to New York City, all in slow comprehensible English. Join me today.",
-      "translation": "今天我將以緩慢易懂的英語向你講述我的紐約之旅。今天就加入我吧。",
+      "id": "grammar-2",
+      "sentence": "The snow is something that I haven't seen in ages.",
+      "translation": "雪就是這樣的東西。",
       "points": [
         {
-          "label": "tell trip new",
-          "text": "tell trip new",
-          "note": "注意 \"tell trip new\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句或 that 子句",
+          "text": "名詞/動詞 + that/who/which + 子句",
+          "note": "用子句補充說明前面的名詞、想法或內容。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "I am in Rhode Island.",
-      "translation": "我在羅德島州。",
+      "id": "grammar-3",
+      "sentence": "If not, I I can't handle it.",
+      "translation": "一，二。",
       "points": [
         {
-          "label": "rhode island",
-          "text": "rhode island",
-          "note": "注意 \"rhode island\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "if 條件句",
+          "text": "If + 子句, 主句",
+          "note": "用 if 子句提出條件，再說明結果或想像情況。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "I am visiting Rhode Island with my sister Brianna.",
-      "translation": "我和姐姐布麗安娜一起訪問羅德島。",
+      "id": "grammar-4",
+      "sentence": "My favorite thing to do when I travel is watch people living their normal lives like running or walking their dogs just living their lives in a different place.",
+      "translation": "差不多10年了。",
       "points": [
         {
-          "label": "visiting rhode island",
-          "text": "visiting rhode island",
-          "note": "注意 \"visiting rhode island\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "when 時間子句",
+          "text": "when + 主詞 + 動詞",
+          "note": "說明事情發生的時間或情境。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "I think my lungs would freeze if I tried.",
+      "translation": "我看到了雪。",
+      "points": [
+        {
+          "label": "would 假設與委婉語氣",
+          "text": "would + 原形動詞",
+          "note": "用 would 表示假設情境、可能性或較委婉的說法。"
         }
       ]
     }

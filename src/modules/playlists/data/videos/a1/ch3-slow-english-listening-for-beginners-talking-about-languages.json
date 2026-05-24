@@ -15,174 +15,503 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast, a podcast for beginners to practice English listening.",
-          "tc": "歡迎回到我的慢速英語podcast，這是一個供初學者練習英語聽力的podcast。"
+          "en": "Hello, welcome back to my slow English podcast, a podcast for beginners to practice English listening.",
+          "tc": "你好，歡迎回到我的慢速英語 Podcast，這是一個讓初學者練習英語聽力的 Podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello, "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-001-02"
+            },
+            {
+              "type": "text",
+              "text": ", a "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-001-03"
+            },
+            {
+              "type": "text",
+              "text": " for "
+            },
+            {
+              "type": "word",
+              "text": "beginners",
+              "targetId": "word-beginner",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-001-04"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "word",
+              "text": "practice",
+              "targetId": "word-practice",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-001-05"
+            },
+            {
+              "type": "text",
+              "text": " English "
+            },
+            {
+              "type": "word",
+              "text": "listening",
+              "targetId": "word-listening",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-001-06"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Today I will be talking about languages are very interesting to me.",
-          "tc": "今天我要講的是我很有興趣的語言。"
+          "en": "Today, I will be talking about languages.",
+          "tc": "今天，我會談談語言。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today, I will be talking about languages."
+            }
+          ]
         },
         {
-          "en": "I think languages connect people from all over the world languages take time languages take time and patience but the feeling when you.",
-          "tc": "我認為語言將世界各地的人們聯繫在一起，語言需要時間，語言需要時間和耐心，但需要你的感覺。"
+          "en": "Languages are very interesting to me.",
+          "tc": "語言對我來說非常有趣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Languages are very interesting to me."
+            }
+          ]
         },
         {
-          "en": "Finally learn a new language is wonderful that feeling when you can understand a language is amazing the feeling of understanding one sentence or one word feels so good every language is.",
-          "tc": "終於學習新語言真是太棒了，當你能理解一門語言時的感覺真是太棒了，理解一個句子或一個單字的感覺真是太好了，每種語言都是如此。"
+          "en": "I think languages connect people from all over the world.",
+          "tc": "我認為語言把世界各地的人連結在一起。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think languages "
+            },
+            {
+              "type": "word",
+              "text": "connect",
+              "targetId": "word-connect",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-004-01"
+            },
+            {
+              "type": "text",
+              "text": " people "
+            },
+            {
+              "type": "phrase",
+              "text": "from all over the world",
+              "targetId": "phrase-from-all-over-the-world",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-004-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "language",
-          "kk": "/ˈlæŋɡwɪdʒ/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "languages",
-          "kk": "/languages/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 languages 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：語言學習",
-      "titleEn": "Part 2: language",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "So different every language has its own special identity every language has different tones and pronunciation.",
-          "tc": "因此，每種語言都有其特殊的身份，每種語言都有不同的聲調和發音。"
+          "en": "Languages take time.",
+          "tc": "語言需要時間。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Languages "
+            },
+            {
+              "type": "phrase",
+              "text": "take time",
+              "targetId": "phrase-take-time",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-005-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I personally love learning new languages.",
-          "tc": "我個人喜歡學習新語言。"
+          "en": "Languages take time and patience, but the feeling when you finally learn a new language is wonderful.",
+          "tc": "語言需要時間和耐心，但是當你終於學會一門新語言時，那種感覺很美好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Languages "
+            },
+            {
+              "type": "phrase",
+              "text": "take time",
+              "targetId": "phrase-take-time",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-006-01"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "patience",
+              "targetId": "word-patience",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-006-02"
+            },
+            {
+              "type": "text",
+              "text": ", but the feeling when you "
+            },
+            {
+              "type": "word",
+              "text": "finally",
+              "targetId": "word-finally",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-006-03"
+            },
+            {
+              "type": "text",
+              "text": " learn a new language is "
+            },
+            {
+              "type": "word",
+              "text": "wonderful",
+              "targetId": "word-wonderful",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-006-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I love teaching.",
-          "tc": "我熱愛教學。"
+          "en": "That feeling when you can understand a language is amazing.",
+          "tc": "當你能理解一種語言時，那種感覺很驚人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That "
+            },
+            {
+              "type": "usage",
+              "text": "feeling",
+              "targetId": "usage-feeling-that-feeling-when",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-007-01"
+            },
+            {
+              "type": "text",
+              "text": " when you can understand a language is "
+            },
+            {
+              "type": "word",
+              "text": "amazing",
+              "targetId": "word-amazing",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-007-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I love teaching students to understand new words to understand phrases idioms and eventually use them what language apart from English.",
-          "tc": "我喜歡教導學生理解新單字、理解短語、習慣用語，並最終使用英語以外的語言。"
+          "en": "The feeling of understanding one sentence or one word feels so good.",
+          "tc": "理解一個句子或一個單字的感覺非常好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The feeling of understanding one sentence or one word feels so good."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "language",
-          "kk": "/ˈlæŋɡwɪdʒ/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "languages",
-          "kk": "/languages/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 languages 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "Do you want to learn challenging question?",
-          "tc": "你想學習有挑戰性的問題嗎？"
+          "en": "Every language is so different.",
+          "tc": "每一種語言都很不同。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every language is so different."
+            }
+          ]
         },
         {
-          "en": "If you could download any language into your brain.",
-          "tc": "如果你可以將任何語言下載到你的大腦。"
+          "en": "Every language has its own special identity.",
+          "tc": "每一種語言都有它自己特別的身分特色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every language has its "
+            },
+            {
+              "type": "usage",
+              "text": "own",
+              "targetId": "usage-own-its-own-own",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-010-01"
+            },
+            {
+              "type": "text",
+              "text": " special "
+            },
+            {
+              "type": "word",
+              "text": "identity",
+              "targetId": "word-identity",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-010-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Would you do it?",
-          "tc": "你會做嗎？"
+          "en": "Every language has different tones and pronunciation.",
+          "tc": "每一種語言都有不同的聲調和發音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every language has different "
+            },
+            {
+              "type": "word",
+              "text": "tones",
+              "targetId": "word-tone",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-011-01"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "pronunciation",
+              "targetId": "word-pronunciation",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-011-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Do you enjoy the process of learning which?",
-          "tc": "你享受學習哪個的過程嗎？"
+          "en": "I personally love learning new languages.",
+          "tc": "我個人喜歡學習新的語言。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "word",
+              "text": "personally",
+              "targetId": "word-personally",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-012-01"
+            },
+            {
+              "type": "text",
+              "text": " love learning new languages."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "language",
-          "kk": "/ˈlæŋɡwɪdʒ/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "Would you prefer?",
-          "tc": "你願意嗎？"
+          "en": "I love teaching.",
+          "tc": "我喜歡教學。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love teaching."
+            }
+          ]
+        },
+        {
+          "en": "I love teaching students to understand new words, to understand phrases, idioms, and eventually use them.",
+          "tc": "我喜歡教學生理解新的單字、理解片語和慣用語，並且最後能使用它們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love teaching students to understand new words, to understand "
+            },
+            {
+              "type": "word",
+              "text": "phrases",
+              "targetId": "word-phrase",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-014-01"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "idioms",
+              "targetId": "word-idiom",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-014-02"
+            },
+            {
+              "type": "text",
+              "text": ", and "
+            },
+            {
+              "type": "word",
+              "text": "eventually",
+              "targetId": "word-eventually",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-014-03"
+            },
+            {
+              "type": "text",
+              "text": " use them."
+            }
+          ]
+        },
+        {
+          "en": "What language, apart from English, do you want to learn?",
+          "tc": "除了英語之外，你想學哪一種語言？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What language, "
+            },
+            {
+              "type": "phrase",
+              "text": "apart from",
+              "targetId": "phrase-apart-from",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-015-01"
+            },
+            {
+              "type": "text",
+              "text": " English, do you want to learn?"
+            }
+          ]
+        },
+        {
+          "en": "Challenging question.",
+          "tc": "這是個有挑戰性的問題。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Challenging",
+              "targetId": "word-challenging",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-016-01"
+            },
+            {
+              "type": "text",
+              "text": " question."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
+      "sentences": [
         {
-          "english": "language",
-          "kk": "/ˈlæŋɡwɪdʒ/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "If you could download any language into your brain, would you do it, or do you enjoy the process of learning?",
+          "tc": "如果你可以把任何一種語言下載到你的腦中，你會這麼做嗎？還是你享受學習的過程？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you could "
+            },
+            {
+              "type": "word",
+              "text": "download",
+              "targetId": "word-download",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-017-01"
+            },
+            {
+              "type": "text",
+              "text": " any language into your brain, would you do it, or do you enjoy "
+            },
+            {
+              "type": "phrase",
+              "text": "the process of learning",
+              "targetId": "phrase-the-process-of-learning",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-017-02"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         },
         {
-          "english": "languages",
-          "kk": "/languages/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 languages 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "Which would you prefer?",
+          "tc": "你會比較喜歡哪一種？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Which would you "
+            },
+            {
+              "type": "word",
+              "text": "prefer",
+              "targetId": "word-prefer",
+              "instanceId": "marker-a1-ch3-slow-english-listening-for-beginners-talking-about-languages-018-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -190,153 +519,365 @@
       "title": "A1 重點單字",
       "items": [
         {
-          "english": "language",
-          "kk": "/ˈlæŋɡwɪdʒ/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 language 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "/ˈpɑdˌkæst/",
+          "partOfSpeech": "名詞",
+          "meaning": "Podcast；播客節目",
           "highlight": true
         },
         {
-          "english": "languages",
-          "kk": "/languages/",
-          "partOfSpeech": "n.",
-          "meaning": "語言",
-          "note": "看到 languages 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-beginner",
+          "lemma": "beginner",
+          "english": "beginners",
+          "kk": "/bɪˈgɪnɚ/",
+          "partOfSpeech": "名詞",
+          "meaning": "初學者",
           "highlight": true
         },
         {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-practice",
+          "lemma": "practice",
+          "english": "practice",
+          "kk": "/ˈpræktɪs/",
+          "partOfSpeech": "動詞",
+          "meaning": "練習",
           "highlight": true
         },
         {
-          "english": "feeling",
-          "kk": "/feeling/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feeling 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-listening",
+          "lemma": "listening",
+          "english": "listening",
+          "kk": "/ˈlɪsnɪŋ/",
+          "partOfSpeech": "名詞",
+          "meaning": "聽力",
+          "highlight": true
         },
         {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-connect",
+          "lemma": "connect",
+          "english": "connect",
+          "kk": "/kəˈnɛkt/",
+          "partOfSpeech": "動詞",
+          "meaning": "連結",
+          "highlight": true
         },
         {
-          "english": "new",
-          "kk": "/new/",
-          "partOfSpeech": "n.",
-          "meaning": "新的",
-          "note": "看到 new 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-patience",
+          "lemma": "patience",
+          "english": "patience",
+          "kk": "/ˈpeʃəns/",
+          "partOfSpeech": "名詞",
+          "meaning": "耐心",
+          "highlight": true
         },
         {
-          "english": "understand",
-          "kk": "/understand/",
-          "partOfSpeech": "n.",
-          "meaning": "理解",
-          "note": "看到 understand 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-finally",
+          "lemma": "finally",
+          "english": "finally",
+          "kk": "/ˈfaɪnəli/",
+          "partOfSpeech": "副詞",
+          "meaning": "終於",
+          "highlight": true
         },
         {
-          "english": "different",
-          "kk": "/different/",
-          "partOfSpeech": "n.",
-          "meaning": "不同的",
-          "note": "看到 different 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-wonderful",
+          "lemma": "wonderful",
+          "english": "wonderful",
+          "kk": "/ˈwʌndɚfəl/",
+          "partOfSpeech": "形容詞",
+          "meaning": "美好的",
+          "highlight": true
+        },
+        {
+          "id": "word-amazing",
+          "lemma": "amazing",
+          "english": "amazing",
+          "kk": "/əˈmezɪŋ/",
+          "partOfSpeech": "形容詞",
+          "meaning": "令人驚奇的",
+          "highlight": true
+        },
+        {
+          "id": "word-identity",
+          "lemma": "identity",
+          "english": "identity",
+          "kk": "/aɪˈdɛntəti/",
+          "partOfSpeech": "名詞",
+          "meaning": "身分；特色",
+          "highlight": true
+        },
+        {
+          "id": "word-tone",
+          "lemma": "tone",
+          "english": "tones",
+          "kk": "/ton/",
+          "partOfSpeech": "名詞",
+          "meaning": "聲調；語調",
+          "highlight": true
+        },
+        {
+          "id": "word-pronunciation",
+          "lemma": "pronunciation",
+          "english": "pronunciation",
+          "kk": "/prəˌnʌnsiˈeʃən/",
+          "partOfSpeech": "名詞",
+          "meaning": "發音",
+          "highlight": true
+        },
+        {
+          "id": "word-personally",
+          "lemma": "personally",
+          "english": "personally",
+          "kk": "/ˈpɝsənəli/",
+          "partOfSpeech": "副詞",
+          "meaning": "就我個人而言",
+          "highlight": true
+        },
+        {
+          "id": "word-phrase",
+          "lemma": "phrase",
+          "english": "phrases",
+          "kk": "/frez/",
+          "partOfSpeech": "名詞",
+          "meaning": "片語",
+          "highlight": true
+        },
+        {
+          "id": "word-idiom",
+          "lemma": "idiom",
+          "english": "idioms",
+          "kk": "/ˈɪdiəm/",
+          "partOfSpeech": "名詞",
+          "meaning": "慣用語",
+          "highlight": true
+        },
+        {
+          "id": "word-eventually",
+          "lemma": "eventually",
+          "english": "eventually",
+          "kk": "/ɪˈvɛntʃuəli/",
+          "partOfSpeech": "副詞",
+          "meaning": "最後；終於",
+          "highlight": true
+        },
+        {
+          "id": "word-challenging",
+          "lemma": "challenging",
+          "english": "Challenging",
+          "kk": "/ˈtʃæləndʒɪŋ/",
+          "partOfSpeech": "形容詞",
+          "meaning": "有挑戰性的",
+          "highlight": true
+        },
+        {
+          "id": "word-download",
+          "lemma": "download",
+          "english": "download",
+          "kk": "/ˈdaʊnˌlod/",
+          "partOfSpeech": "動詞",
+          "meaning": "下載",
+          "highlight": true
+        },
+        {
+          "id": "word-prefer",
+          "lemma": "prefer",
+          "english": "prefer",
+          "kk": "/prɪˈfɝ/",
+          "partOfSpeech": "動詞",
+          "meaning": "較喜歡",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "meaning": "歡迎某人回到節目、地方或活動",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast, a podcast for beginners to practice English listening.",
-          "tc": "歡迎回到我的慢速英語podcast，這是一個供初學者練習英語聽力的podcast。"
+          "en": "Hello, __welcome back__ to my slow English **podcast**, a **podcast** for **beginners** to **practice** English **listening**.",
+          "tc": "歡迎某人回到節目、地方或活動"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-from-all-over-the-world",
+      "phrase": "from all over the world",
+      "meaning": "來自世界各地",
       "examples": [
         {
-          "en": "Do you want to learn challenging question?",
-          "tc": "你想學習有挑戰性的問題嗎？"
+          "en": "I think languages **connect** people __from all over the world__.",
+          "tc": "來自世界各地"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "i think",
-      "meaning": "我認為",
+      "id": "phrase-take-time",
+      "phrase": "take time",
+      "meaning": "需要時間才能完成或發生",
       "examples": [
         {
-          "en": "I think languages connect people from all over the world languages take time languages take time and patience but the feeling when you.",
-          "tc": "我認為語言將世界各地的人們聯繫在一起，語言需要時間，語言需要時間和耐心，但需要你的感覺。"
+          "en": "Languages __take time__.",
+          "tc": "需要時間才能完成或發生"
+        },
+        {
+          "en": "Languages __take time__ and **patience**, but the feeling when you **finally** learn a new language is **wonderful**.",
+          "tc": "需要時間才能完成或發生"
         }
+      ]
+    },
+    {
+      "id": "phrase-apart-from",
+      "phrase": "apart from",
+      "meaning": "除了某人或某事之外",
+      "examples": [
+        {
+          "en": "What language, __apart from__ English, do you want to learn?",
+          "tc": "除了某人或某事之外"
+        }
+      ]
+    },
+    {
+      "id": "phrase-the-process-of-learning",
+      "phrase": "the process of learning",
+      "meaning": "學習這件事逐步進行的過程",
+      "examples": [
+        {
+          "en": "If you could **download** any language into your brain, would you do it, or do you enjoy __the process of learning__?",
+          "tc": "學習這件事逐步進行的過程"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-feeling-that-feeling-when",
+      "word": "feeling",
+      "familiarMeaning": "感覺",
+      "usage": "用 That feeling when... 來引出「當某件事發生時的那種感受」",
+      "translation": "當……時的那種感覺",
+      "examples": [
+        "That 《feeling》 when you can understand a language is **amazing**."
+      ]
+    },
+    {
+      "id": "usage-own-its-own-own",
+      "word": "own",
+      "familiarMeaning": "擁有",
+      "usage": "its own 中的 own 用來強調「它自己獨有的」",
+      "translation": "它自己特別的",
+      "examples": [
+        "Every language has its 《own》 special **identity**."
+      ]
+    },
+    {
+      "id": "usage-take-take-time-take",
+      "word": "take",
+      "familiarMeaning": "拿；帶",
+      "usage": "take time 中的 take 表示「需要、花費」",
+      "translation": "需要時間",
+      "examples": [
+        "Languages __take time__.",
+        "Languages __take time__ and **patience**, but the feeling when you **finally** learn a new language is **wonderful**."
+      ]
+    },
+    {
+      "id": "usage-download-download-into-your-brain",
+      "word": "download",
+      "familiarMeaning": "下載電腦資料",
+      "usage": "把語言 download into your brain 是比喻，表示不用慢慢學就直接放進腦中",
+      "translation": "把語言下載到腦中",
+      "examples": [
+        "If you could **download** any language into your brain, would you do it, or do you enjoy __the process of learning__?"
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast, a podcast for beginners to practice English listening.",
-      "translation": "歡迎回到我的慢速英語podcast，這是一個供初學者練習英語聽力的podcast。",
+      "id": "grammar-1",
+      "sentence": "Today, I will be talking about languages.",
+      "translation": "今天，我會談談語言。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "未來進行式",
+          "text": "will be + V-ing",
+          "note": "用 will be talking 表示「接下來一段時間會談論」某主題，比單純 will talk 更有節目進行中的感覺。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Today I will be talking about languages are very interesting to me.",
-      "translation": "今天我要講的是我很有興趣的語言。",
+      "id": "grammar-2",
+      "sentence": "a podcast for beginners to practice English listening",
+      "translation": "一個讓初學者練習英語聽力的 Podcast",
       "points": [
         {
-          "label": "talking languages interesting",
-          "text": "talking languages interesting",
-          "note": "注意 \"talking languages interesting\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定詞片語作目的",
+          "text": "名詞 + for + 人 + to + 原形動詞",
+          "note": "to practice 說明這個 podcast 的用途，是給初學者拿來練習聽力。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "I think languages connect people from all over the world languages take time languages take time and patience but the feeling when you.",
-      "translation": "我認為語言將世界各地的人們聯繫在一起，語言需要時間，語言需要時間和耐心，但需要你的感覺。",
+      "id": "grammar-3",
+      "sentence": "The feeling of understanding one sentence or one word feels so good.",
+      "translation": "理解一個句子或一個單字的感覺非常好。",
       "points": [
         {
-          "label": "i think",
-          "text": "i think",
-          "note": "注意 \"i think\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "動名詞片語作介系詞受詞",
+          "text": "of + V-ing + 受詞",
+          "note": "介系詞 of 後面不能直接接動詞原形，所以用 understanding 形成名詞性片語。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "Finally learn a new language is wonderful that feeling when you can understand a language is amazing the feeling of understanding one sentence or one word feels so good every language is.",
-      "translation": "終於學習新語言真是太棒了，當你能理解一門語言時的感覺真是太棒了，理解一個句子或一個單字的感覺真是太好了，每種語言都是如此。",
+      "id": "grammar-4",
+      "sentence": "I personally love learning new languages.",
+      "translation": "我個人喜歡學習新的語言。",
       "points": [
         {
-          "label": "finally new language",
-          "text": "finally new language",
-          "note": "注意 \"finally new language\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "動名詞作動詞受詞",
+          "text": "love + V-ing",
+          "note": "love 後面接 V-ing，表示喜歡做某件事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "I love teaching students to understand new words, to understand phrases, idioms, and eventually use them.",
+      "translation": "我喜歡教學生理解新的單字、理解片語和慣用語，並且最後能使用它們。",
+      "points": [
+        {
+          "label": "teach + 受詞 + to V",
+          "text": "teach + someone + to + 原形動詞",
+          "note": "這個句型表示「教某人去做某事」，後面的 to understand 和 use 說明學生要學會做的事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "If you could download any language into your brain, would you do it?",
+      "translation": "如果你可以把任何一種語言下載到你的腦中，你會這麼做嗎？",
+      "points": [
+        {
+          "label": "假設語氣條件句",
+          "text": "If + 主詞 + could + 原形動詞, would + 主詞 + 原形動詞",
+          "note": "用 could 和 would 表示想像中的情況，不是在說真實現在或未來一定會發生的事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "Which would you prefer?",
+      "translation": "你會比較喜歡哪一種？",
+      "points": [
+        {
+          "label": "would 表示假設中的選擇",
+          "text": "Wh 問句 + would + 主詞 + 原形動詞",
+          "note": "would 讓問題停留在「如果可以選」的假設情境中，詢問對方偏好。"
         }
       ]
     }

@@ -15,530 +15,1887 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：日常生活",
-      "titleEn": "Opening: everyday life",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Hello... Let's learn some house essentials!",
-          "tc": "你好...讓我們來學習一些家居必需品吧！"
+          "en": "Hello...",
+          "tc": "你好...。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello..."
+            }
+          ]
         },
         {
-          "en": "I am in my new apartment.",
-          "tc": "我在我的新公寓。"
+          "en": "Let's learn some house essentials!",
+          "tc": "來學習一些居家必備品吧！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let's learn some house "
+            },
+            {
+              "type": "word",
+              "text": "essentials",
+              "targetId": "word-essential",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-002-01"
+            },
+            {
+              "type": "text",
+              "text": "!"
+            }
+          ]
         },
         {
-          "en": "I had bought so far, but now.",
-          "tc": "到目前為止我已經買了，但現在。"
+          "en": "I am in my new apartment and I need to furnish it.",
+          "tc": "我在我的新公寓里，我需要装修它。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am in my new apartment and I need to furnish it."
+            }
+          ]
         },
         {
-          "en": "I've bought even more. So, let's learn some house essentials in English. I bought a couch.",
-          "tc": "我還買了更多。那麼，讓我們用英語學習一些家居必需品。我買了一張沙發。"
+          "en": "So, join me in this slow English podcast!",
+          "tc": "那麼，加入我這個缓慢的英語播客吧！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, join me in this "
+            },
+            {
+              "type": "phrase",
+              "text": "slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-004-01"
+            },
+            {
+              "type": "text",
+              "text": "!"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I love this couch. It's so comfy. A comfy couch is very important for a home.",
-          "tc": "我喜歡這個沙發。真是太舒服了。一張舒適的沙發對一個家來說非常重要。"
+          "en": "I hope you learn some new vocabulary today.",
+          "tc": "我希望你今天學到一些新詞彙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hope you learn some new vocabulary today."
+            }
+          ]
         },
         {
-          "en": "I love the color.",
-          "tc": "我喜歡這個顏色。"
+          "en": "In my last video, I showed you guys what I had bought so far, but now I've bought even more.",
+          "tc": "在我的上一個視頻中，我向你們展示了到目前為止我買的东西，但現在我買了更多。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "In my last video, I showed you guys what I had bought "
+            },
+            {
+              "type": "phrase",
+              "text": "so far",
+              "targetId": "phrase-so-far",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-006-01"
+            },
+            {
+              "type": "text",
+              "text": ", but now I've bought even more."
+            }
+          ]
         },
         {
-          "en": "I think it really \"ties the room together\". When something ties the room together, it means it really synchronizes with everything in the room and makes it special.",
-          "tc": "我認為它確實“將房間聯繫在一起”。當某物將房間聯繫在一起時，意味著它真正與房間中的一切同步並使其變得特別。"
+          "en": "So, let's learn some house essentials in English.",
+          "tc": "那麼，讓我們用英語學習一些居家必備知識吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, let's learn some house essentials in English."
+            }
+          ]
         },
         {
-          "en": "What do you think of my new couch? Is it your style... or maybe not so much?",
-          "tc": "你覺得我的新沙發怎麼樣？這是你的風格嗎……或者也許不是那麼多？"
+          "en": "I bought a couch.",
+          "tc": "我買了一張沙發。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I bought a couch."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I got a plant. Of course, plants are the most important part of a home.",
-          "tc": "我有一株植物。當然，植物是家庭中最重要的部分。"
+          "en": "I love this couch.",
+          "tc": "我喜歡這張沙發。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love this couch."
+            }
+          ]
         },
         {
-          "en": "I want to fill this place up with plants completely. Plants bring: abundance, prosperity, and money. It's a good idea to have plants in your home.",
-          "tc": "我想讓這個地方完全被植物填滿。植物帶來：豐富、繁榮和金錢。在家裡養一些植物是個好主意。"
+          "en": "It's so comfy.",
+          "tc": "真舒服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's so comfy."
+            }
+          ]
         },
         {
-          "en": "If you don't already.",
-          "tc": "如果你還沒有。"
+          "en": "A comfy couch is very important for a home.",
+          "tc": "一張舒适的沙發對于一個家來說非常重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A comfy couch is very important for a home."
+            }
+          ]
         },
         {
-          "en": "I got a mirror, of course.",
-          "tc": "當然，我有一面鏡子。"
+          "en": "I love the color and I think it really \"ties the room together\".",
+          "tc": "我喜歡這種颜色，我認為它確實“将房間联系在一起”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love the color and I think it really \"ties the room together\"."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "plants",
-          "kk": "/plants/",
-          "partOfSpeech": "n.",
-          "meaning": "植物",
-          "note": "看到 plants 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "got",
-          "kk": "/got/",
-          "partOfSpeech": "v.",
-          "meaning": "得到",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I love how mirrors look in a space like this. I just have to be very careful. My dad says that mirror can cause a fire... supposedly.",
-          "tc": "我喜歡鏡子在這樣的空間裡的樣子。我只需要非常小心。我爸爸說鏡子可能會引起火災……據說是這樣。"
+          "en": "When something ties the room together, it means it really synchronizes with everything in the room and makes it special.",
+          "tc": "當某物将房間联系在一起时，意味着它確實與房間中的一切同步并使其變得特別。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When something ties the room together, it means it really synchronizes with everything in the room and makes it special."
+            }
+          ]
         },
         {
-          "en": "I don't know.",
-          "tc": "我不知道。"
+          "en": "What do you think of my new couch?",
+          "tc": "你覺得我的新沙發怎麼樣？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you think of my new couch?"
+            }
+          ]
         },
         {
-          "en": "I love how that mirror looks RIGHT THERE.",
-          "tc": "我喜歡那面鏡子的樣子。"
+          "en": "Is it your style...",
+          "tc": "這是你的风格嗎...。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is it your style..."
+            }
+          ]
         },
         {
-          "en": "I don't want to move it away from the sun because it looks so good right there. But my dad says the sun reflecting off of the mirror can cause a fire.",
-          "tc": "我不想把它移離太陽，因為它就在那裡看起來很好。但我爸爸說鏡子反射的陽光會引起火災。"
+          "en": "Or maybe not so much?",
+          "tc": "或者也许沒有那麼多？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Or maybe not so much?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "looks",
-          "kk": "/looks/",
-          "partOfSpeech": "n.",
-          "meaning": "看起來",
-          "note": "看到 looks 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "I'm repeating myself a lot sorry!!).",
-          "tc": "我重複了一遍，非常抱歉！ ！ ）。"
+          "en": "I got a plant.",
+          "tc": "我有一株植物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got a plant."
+            }
+          ]
         },
         {
-          "en": "I love how it looks right there.",
-          "tc": "我喜歡它就在那裡的樣子。"
+          "en": "Of course, plants are the most important part of a home.",
+          "tc": "當然，植物是家中最重要的部分。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Of course, plants are the most important part of a home."
+            }
+          ]
         },
         {
-          "en": "I don't want to move it someplace else. I also have my yoga mat... Of course!",
-          "tc": "我不想把它移到其他地方。我還有我的瑜珈墊...當然！"
+          "en": "And I want to fill this place up with plants completely.",
+          "tc": "我想讓這個地方完全長滿植物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I want to fill this place up with plants completely."
+            }
+          ]
         },
         {
-          "en": "I hide it behind the mirror just to keep things looking tidy. and clean :) with everything in its place.",
-          "tc": "我把它藏在鏡子後面只是為了保持東西看起來整齊。而且乾淨:)一切都就位。"
+          "en": "Plants bring: abundance, prosperity, and money.",
+          "tc": "植物帶來：丰富、繁榮和金錢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Plants bring: abundance, prosperity, and money."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "looks",
-          "kk": "/looks/",
-          "partOfSpeech": "n.",
-          "meaning": "看起來",
-          "note": "看到 looks 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：旅行",
-      "titleEn": "Part 6: travel",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "I also got another plant. Actually, this plant is a Brazil tree. A Brazilian tree,.",
-          "tc": "我還得到了另一種植物。事實上，這種植物就是巴西樹。巴西樹，."
+          "en": "It's a good idea to have plants in your home if you don't already.",
+          "tc": "如果您还沒有在家中種植植物，那麼這是一個好主意。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's a good idea to "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-021-01"
+            },
+            {
+              "type": "text",
+              "text": " plants in your home if you don't already."
+            }
+          ]
         },
         {
-          "en": "I think. (I'll explain the sticky notes in a minute. Don't worry.).",
-          "tc": "我認為。 （我會在一分鐘內解釋便籤。別擔心。）。"
+          "en": "I got a mirror, of course.",
+          "tc": "當然，我有一面镜子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got a mirror, of course."
+            }
+          ]
         },
         {
-          "en": "I love Brazil trees.",
-          "tc": "我喜歡巴西的樹。"
+          "en": "I love how mirrors look in a space like this.",
+          "tc": "我喜歡镜子在這樣的空間中的樣子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love how mirrors look in a space like this."
+            }
+          ]
         },
         {
-          "en": "I've always had a Brazil tree in my room.",
-          "tc": "我的房間裡一直有一棵巴西樹。"
+          "en": "I just have to be very careful.",
+          "tc": "我必須非常小心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I just have to be very careful."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "got",
-          "kk": "/got/",
-          "partOfSpeech": "v.",
-          "meaning": "得到",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "They're so pretty. The air feels so much cleaner,.",
-          "tc": "她們真漂亮。感覺空氣清新了許多，"
+          "en": "My dad says that that mirror can cause a fire...",
+          "tc": "我爸爸說那面镜子會引起火灾......。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My dad says that that mirror can cause a fire..."
+            }
+          ]
         },
         {
-          "en": "They don't need any sun,.",
-          "tc": "他們不需要任何陽光。"
+          "en": "Supposedly.",
+          "tc": "據說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Supposedly."
+            }
+          ]
         },
         {
-          "en": "They barely need water! ONLY once a week. I even keep a compost to water my two plants -- with the nutrients FROM my compost.",
-          "tc": "他們幾乎不需要水！每週一次。我甚至用堆肥來澆灌我的兩棵植物——用堆肥中的營養物質。"
+          "en": "I don't know.",
+          "tc": "我不知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know."
+            }
+          ]
         },
         {
-          "en": "Do you have any plants?",
-          "tc": "你有植物嗎？"
+          "en": "But I love how that mirror looks RIGHT THERE.",
+          "tc": "但我喜歡那面镜子就在那里的樣子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I love how that mirror looks RIGHT THERE."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "plants",
-          "kk": "/plants/",
-          "partOfSpeech": "n.",
-          "meaning": "植物",
-          "note": "看到 plants 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "Do you keep a compost for your plants?",
-          "tc": "你為你的植物保留堆肥嗎？"
+          "en": "I don't want to move it away from the sun because it looks so good right there.",
+          "tc": "我不想把它移離太陽，因為它在那里看起來很好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't want to move it away from the sun because it looks so good right there."
+            }
+          ]
         },
         {
-          "en": "I got some throw blankets. Throw blankets are smaller than the average blanket. This is what a normal blanket looks like. And this is what a throw blanket looks like. See,.",
-          "tc": "我有一些毯子。毯子比普通毯子小。這就是普通毯子的樣子。這是毯子的樣子。看，。"
+          "en": "But my dad says the sun reflecting off of the mirror can cause a fire.",
+          "tc": "但我爸爸說镜子反射的陽光會引起火灾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But my dad says the sun reflecting off of the mirror can cause a fire."
+            }
+          ]
         },
         {
-          "en": "They're much smaller. You just use them to throw on when you're watching a movie or just working, I guess.",
-          "tc": "它們要小得多。我猜你只是在看電影或工作時用它們來穿。"
+          "en": "I don't know.(I'm repeating myself a lot sorry!!) I love how it looks right there.",
+          "tc": "我不知道。（抱歉，我重複了一遍！！）我喜歡它在那里的樣子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know.(I'm repeating myself a lot sorry!!) I love how it looks right there."
+            }
+          ]
         },
         {
-          "en": "I got these side tables to keep some junk in, like my jump rope or my exercise bands. I just like these so I can set my cup on them while.",
-          "tc": "我買了這些邊桌來存放一些垃圾，像是我的跳繩或健身帶。我只是喜歡這些，這樣我就可以把杯子放在上面。"
+          "en": "I don't want to move it someplace else.",
+          "tc": "我不想把它移到其他地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't want to move it someplace else."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "plants",
-          "kk": "/plants/",
-          "partOfSpeech": "n.",
-          "meaning": "植物",
-          "note": "看到 plants 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "got",
-          "kk": "/got/",
-          "partOfSpeech": "v.",
-          "meaning": "得到",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "looks",
-          "kk": "/looks/",
-          "partOfSpeech": "n.",
-          "meaning": "看起來",
-          "note": "看到 looks 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "My favorite parts, the projector. This projector looks so nice at night. It's such a big screen.",
-          "tc": "我最喜歡的部件，投影機。這台投影機在晚上看起來非常漂亮。螢幕這麼大。"
+          "en": "I also have my yoga mat...",
+          "tc": "我还有我的瑜伽墊...。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also have my yoga mat..."
+            }
+          ]
         },
         {
-          "en": "If you're deciding between buying a TV, or considering buying a projector,.",
-          "tc": "如果你正在決定購買電視還是考慮購買投影機。"
+          "en": "Of course!",
+          "tc": "當然！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Of course!"
+            }
+          ]
         },
         {
-          "en": "I have your answer. Get the projector!",
-          "tc": "我有你的答案。拿起投影機！"
+          "en": "I hide it behind the mirror just to keep things looking tidy.",
+          "tc": "我把它藏在镜子後面只是為了保持东西看起來整潔。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hide it behind the mirror just to keep things looking tidy."
+            }
+          ]
         },
         {
-          "en": "I love mine.",
-          "tc": "我愛我的。"
+          "en": "Tidy and clean:) with everything in its place.",
+          "tc": "整潔乾淨:)一切都就位。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Tidy and clean:) with everything in its place."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "looks",
-          "kk": "/looks/",
-          "partOfSpeech": "n.",
-          "meaning": "看起來",
-          "note": "看到 looks 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "I have been watching Game of Thrones on this every night. I just started watching this series. It's so good.",
-          "tc": "我每晚都在看《權力的遊戲》。我剛開始看這個系列。太好了。"
+          "en": "I also got another plant.",
+          "tc": "我还得到了另一種植物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also got another plant."
+            }
+          ]
         },
         {
-          "en": "I have been watching Game of Thrones. What have you been watching? Remember,.",
-          "tc": "我一直在看《權力的遊戲》。你一直在看什麼？記住，。"
+          "en": "Actually, this plant is a Brazil tree.",
+          "tc": "實際上，這種植物是巴西樹。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Actually, this plant is a Brazil tree."
+            }
+          ]
         },
         {
-          "en": "We use \"have been\" when something started in the past but continues in the present.",
-          "tc": "當某件事從過去開始但現在仍在繼續時，我們使用「have be」。"
+          "en": "A Brazilian tree, I think.",
+          "tc": "我認為是一棵巴西樹。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A Brazilian tree, I think."
+            }
+          ]
         },
         {
-          "en": "I have this little whiteboard that I write down little things that.",
-          "tc": "我有一塊小白板，我可以在上面寫下一些小事。"
+          "en": "(I'll explain the sticky notes in a minute.",
+          "tc": "（我将在一分鐘內解釋便利贴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "(I'll explain the sticky notes in a minute."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：工作與學習",
-      "titleEn": "Part 11: work",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "Work to be done. But now moving on to the kitchen. I bought two swivel chairs. Swivel chairs.",
-          "tc": "工作要做。但現在轉向廚房。我買了兩張轉椅。轉椅。"
+          "en": "Don't worry.) I love Brazil trees.",
+          "tc": "別担心。）我喜歡巴西樹。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Don't worry.) I love Brazil trees."
+            }
+          ]
         },
         {
-          "en": "They swivel from side to side.",
-          "tc": "它們從一側旋轉到另一側。"
+          "en": "I've always had a Brazil tree in my room and they're so pretty.",
+          "tc": "我的房間里一直有一棵巴西樹，它們非常漂亮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've always had a Brazil tree in my room and they're so pretty."
+            }
+          ]
         },
         {
-          "en": "They are perfect for us to eat at our little kitchen bar. Also, excuse the broom.",
-          "tc": "它們非常適合我們在我們的小廚房吧台吃飯。另外，請原諒掃帚。"
+          "en": "The air feels so much cleaner, and they don't need any sun, and they barely need water!",
+          "tc": "空氣感覺乾淨多了，而且它們不需要任何陽光，几乎不需要水！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The air feels so much cleaner, and they don't need any sun, and they barely need water!"
+            }
+          ]
         },
         {
-          "en": "I was sweeping and I just left the entire mess in the corner. But speaking of brooms,.",
-          "tc": "我正在掃地，把所有亂七八糟的東西都留在角落裡了。但說到掃帚，。"
+          "en": "ONLY once a week.",
+          "tc": "每周一次。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "ONLY once a week."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：日常生活",
-      "titleEn": "Part 12: everyday life",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "I bought a mop. I can.",
-          "tc": "我買了一個拖把。我可以。"
+          "en": "I even keep a compost to water my two plants -- with the nutrients FROM my compost.",
+          "tc": "我什至用堆肥來浇灌我的两棵植物——用堆肥中的养分。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I even keep a compost to water my two plants -- with the nutrients FROM my compost."
+            }
+          ]
         },
         {
-          "en": "Finally mop. And of course, I also had to get a bucket. Now the most important part, the refrigerator.",
-          "tc": "最後拖地。當然，我還得拿一個水桶。現在最重要的部分，冰箱。"
+          "en": "Do you have any plants?",
+          "tc": "你有植物嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you have any plants?"
+            }
+          ]
+        },
+        {
+          "en": "Do you keep a compost for your plants?",
+          "tc": "你為你的植物保留堆肥嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you keep a compost for your plants?"
+            }
+          ]
+        },
+        {
+          "en": "I got some throw blankets.",
+          "tc": "我有一些毯子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got some throw blankets."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "Throw blankets are smaller than the average blanket.",
+          "tc": "毯子比普通毯子小。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Throw blankets are smaller than the average blanket."
+            }
+          ]
+        },
+        {
+          "en": "This is what a normal blanket looks like.",
+          "tc": "這就是普通毯子的樣子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is what a normal blanket looks like."
+            }
+          ]
+        },
+        {
+          "en": "And this is what a throw blanket looks like.",
+          "tc": "這就是毯子的樣子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And this is what a throw blanket looks like."
+            }
+          ]
+        },
+        {
+          "en": "See, they're much smaller.",
+          "tc": "看，它們小得多。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "See, they're much smaller."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "You just use them to throw on when you're watching a movie or just working, I guess.",
+          "tc": "我猜你只是在看電影或工作时用它們來穿。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You just use them to throw on when you're watching a movie or just working, I guess."
+            }
+          ]
+        },
+        {
+          "en": "I got these side tables to keep some junk in, like my jump rope or my exercise bands.",
+          "tc": "我買了這些邊桌來存放一些垃圾，比如我的跳繩或健身帶。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got these side tables to keep some junk in, like my jump rope or my exercise bands."
+            }
+          ]
+        },
+        {
+          "en": "I just like these so I can set my cup on them while I'm watching a movie.",
+          "tc": "我只是喜歡這些，這樣我就可以在看電影时把杯子放在上面。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I just like these so I can set my cup on them while I'm watching a movie."
+            }
+          ]
+        },
+        {
+          "en": "Now, one of my favorite parts, the projector.",
+          "tc": "現在，我最喜歡的部件之一是投影仪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, one of my favorite parts, the projector."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "This projector looks so nice at night.",
+          "tc": "這台投影機在晚上看起來非常漂亮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This projector looks so nice at night."
+            }
+          ]
+        },
+        {
+          "en": "It's such a big screen.",
+          "tc": "屏幕這麼大。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's such a big screen."
+            }
+          ]
+        },
+        {
+          "en": "If you're deciding between buying a TV, or considering buying a projector, I have your answer.",
+          "tc": "如果您正在決定購買電視还是考慮購買投影仪，我有您的答案。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you're deciding between buying a TV, or considering buying a projector, I have your answer."
+            }
+          ]
+        },
+        {
+          "en": "Get the projector!",
+          "tc": "拿起投影仪！",
+          "englishTokens": [
+            {
+              "type": "usage",
+              "text": "Get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-060-01"
+            },
+            {
+              "type": "text",
+              "text": " the projector!"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "I love mine.",
+          "tc": "我愛我的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love mine."
+            }
+          ]
+        },
+        {
+          "en": "I have been watching Game of Thrones on this every night.",
+          "tc": "我每晚都在看《权力的游戏》。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have been watching Game of Thrones on this every night."
+            }
+          ]
+        },
+        {
+          "en": "I just started watching this series.",
+          "tc": "我剛剛開始看這個系列。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I just started watching this series."
+            }
+          ]
+        },
+        {
+          "en": "It's so good.",
+          "tc": "真是太好了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's so good."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "I'm obsessed.",
+          "tc": "我很着迷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm obsessed."
+            }
+          ]
+        },
+        {
+          "en": "I have been watching Game of Thrones.",
+          "tc": "我一直在看《权力的游戏》。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have been watching Game of Thrones."
+            }
+          ]
+        },
+        {
+          "en": "What have you been watching?",
+          "tc": "你在看什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What have you been watching?"
+            }
+          ]
+        },
+        {
+          "en": "Remember, we use \"have been\" when something started in the past but continues in the present.",
+          "tc": "請记住，當某件事从過去開始但現在仍在繼續时，我們使用“已經”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Remember, we use \"have been\" when something started in the past but continues in the present."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "I have this little whiteboard that I write down little things that I have to do.",
+          "tc": "我有一块小白板，用來寫下我必須做的小事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have this little whiteboard that I write down little things that I have to do."
+            }
+          ]
+        },
+        {
+          "en": "It's my to-do list.",
+          "tc": "這是我的待办事项清單。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's my to-do list."
+            }
+          ]
+        },
+        {
+          "en": "Ignore all of this mess of boxes, and Ethernet cables, and my pile of books left in the corner.",
+          "tc": "忽略所有這些乱七八糟的盒子、以太網電缆，以及我留在角落里的一堆書。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Ignore all of this mess of boxes, and Ethernet cables, and my pile of books left in the corner."
+            }
+          ]
+        },
+        {
+          "en": "There's still a lot of work to be done.",
+          "tc": "还有很多工作要做。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There's still a lot of work to be done."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "But now moving on to the kitchen.",
+          "tc": "但現在转向廚房。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But now moving on to the kitchen."
+            }
+          ]
+        },
+        {
+          "en": "I bought two swivel chairs.",
+          "tc": "我買了两張转椅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I bought two swivel chairs."
+            }
+          ]
+        },
+        {
+          "en": "Swivel chairs because they swivel from side to side.",
+          "tc": "转椅，因為它們可以左右旋转。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Swivel chairs because they swivel from side to side."
+            }
+          ]
+        },
+        {
+          "en": "They are perfect for us to eat at our little kitchen bar.",
+          "tc": "它們非常适合我們在我們的小廚房吧台吃飯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They are perfect for us to eat at our little kitchen bar."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "Also, excuse the broom.",
+          "tc": "另外，請原諒扫帚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Also, excuse the broom."
+            }
+          ]
+        },
+        {
+          "en": "I was sweeping and I just left the entire mess in the corner.",
+          "tc": "我正在扫地，我把所有乱七八糟的东西留在了角落里。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was sweeping and I just left the entire mess in the corner."
+            }
+          ]
+        },
+        {
+          "en": "But speaking of brooms, I bought a mop.",
+          "tc": "但說到扫帚，我買了一把拖把。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But speaking of brooms, I bought a mop."
+            }
+          ]
+        },
+        {
+          "en": "I can finally mop.",
+          "tc": "我終于可以拖地了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can finally mop."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "And of course, I also had to get a bucket.",
+          "tc": "當然，我还得拿一個水桶。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And of course, I also had to get a bucket."
+            }
+          ]
+        },
+        {
+          "en": "Now the most important part, the refrigerator.",
+          "tc": "現在最重要的部分，冰箱。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now the most important part, the refrigerator."
+            }
+          ]
         },
         {
           "en": "FINALLY, I was eating tuna every day!",
-          "tc": "終於，我每天都吃鮪魚了！"
+          "tc": "終于，我每天都吃金枪魚了！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "FINALLY, I was eating tuna every day!"
+            }
+          ]
         },
         {
-          "en": "We got the refrigerator.",
-          "tc": "我們拿到冰箱了。"
+          "en": "But finally...",
+          "tc": "但最後……。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But finally..."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
         {
-          "english": "got",
-          "kk": "/got/",
-          "partOfSpeech": "v.",
-          "meaning": "得到",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "We got the refrigerator.",
+          "tc": "我們得到了冰箱。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We got the refrigerator."
+            }
+          ]
         },
         {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "It was so stressful actually, because we ordered the refrigerator...",
+          "tc": "其實壓力好大，因為我們訂了冰箱……。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was so stressful actually, because we ordered the refrigerator..."
+            }
+          ]
+        },
+        {
+          "en": "It arrived, and it was installed.",
+          "tc": "东西到了，也安装好了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It arrived, and it was installed."
+            }
+          ]
+        },
+        {
+          "en": "We waited 24 hours and then we turned on the appliance.",
+          "tc": "我們等了24小时，然後打開了設備。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We waited 24 hours and then we turned on the appliance."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "We plugged in the refrigerator and it didn't work.",
+          "tc": "我們给冰箱插上電源，但它不起作用。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We plugged in the refrigerator and it didn't work."
+            }
+          ]
+        },
+        {
+          "en": "It wouldn't get cold.",
+          "tc": "不會冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It wouldn't get cold."
+            }
+          ]
+        },
+        {
+          "en": "So, all of our food went bad.",
+          "tc": "所以，我們所有的食物都變質了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, all of our food went bad."
+            }
+          ]
+        },
+        {
+          "en": "The fruit and vegetables and milk and yogurt all went bad.",
+          "tc": "水果、蔬菜、牛奶和酸奶都變質了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The fruit and vegetables and milk and yogurt all went bad."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "So, we had to call the repair man and he came and fixed our refrigerator.",
+          "tc": "所以，我們不得不打電话给修理工，他來修好了我們的冰箱。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, we had to call the repair man and he came and fixed our refrigerator."
+            }
+          ]
+        },
+        {
+          "en": "We had to pay more, of course, but nevertheless, we have a fridge!",
+          "tc": "當然，我們必須支付更多費用，但尽管如此，我們还是有一台冰箱！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We had to pay more, of course, but nevertheless, we have a fridge!"
+            }
+          ]
+        },
+        {
+          "en": "Something else that's very important, the tuppers.",
+          "tc": "还有一件非常重要的事情，那就是礼帽。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Something else",
+              "targetId": "phrase-something-else",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-095-01"
+            },
+            {
+              "type": "text",
+              "text": " that's very important, the tuppers."
+            }
+          ]
+        },
+        {
+          "en": "The tupperware.",
+          "tc": "特百惠。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The tupperware."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "Big tuppers, small tuppers, and medium-sized tuppers.",
+          "tc": "大百樂杯、小百樂杯和中型百樂杯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Big tuppers, small tuppers, and medium-sized tuppers."
+            }
+          ]
+        },
+        {
+          "en": "Some more spices, sauces, and cooking oil.",
+          "tc": "一些更多的香料、醬汁和食用油。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Some more spices, sauces, and cooking oil."
+            }
+          ]
+        },
+        {
+          "en": "A knife holder.",
+          "tc": "刀架。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A knife holder."
+            }
+          ]
+        },
+        {
+          "en": "More plates.",
+          "tc": "更多板块。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "More plates."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "More mugs.",
+          "tc": "更多杯子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "More mugs."
+            }
+          ]
+        },
+        {
+          "en": "More spoons.",
+          "tc": "更多勺子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "More spoons."
+            }
+          ]
+        },
+        {
+          "en": "More forks.",
+          "tc": "更多叉子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "More forks."
+            }
+          ]
+        },
+        {
+          "en": "Some butter knives for spreading butter.",
+          "tc": "一些用于涂抹黄油的黄油刀。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Some butter knives for spreading butter."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "A whisk, a cutting board dirty from my berries, a cheese grater, and a lime squeezer.",
+          "tc": "一個搅拌器、一块被我的浆果弄脏的切菜板、一個奶酪刨丝器和一個酸橙榨汁機。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A whisk, a cutting board dirty from my berries, a cheese grater, and a lime squeezer."
+            }
+          ]
+        },
+        {
+          "en": "Some little things like paper towels, trash bags, a coffee machine.",
+          "tc": "一些小东西，如纸巾、垃圾袋、咖啡機。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Some little things like paper towels, trash bags, a coffee machine."
+            }
+          ]
+        },
+        {
+          "en": "Even though I don't drink coffee, my roommate does.",
+          "tc": "尽管我不喝咖啡，但我的室友却喝咖啡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Even though I don't drink coffee, my roommate does."
+            }
+          ]
+        },
+        {
+          "en": "I also got a brand new rug.",
+          "tc": "我还得到了一張全新的地毯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also got a brand new rug."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
+      "sentences": [
+        {
+          "en": "I think it ties in with the room perfectly.",
+          "tc": "我認為它與房間完美结合。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think it ties in with the room perfectly."
+            }
+          ]
+        },
+        {
+          "en": "That's my new ring light.",
+          "tc": "那是我的新環形燈。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's my new ring light."
+            }
+          ]
+        },
+        {
+          "en": "I got a toothbrush holder and a bath towel.",
+          "tc": "我有一個牙刷架和一条浴巾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got a toothbrush holder and a bath towel."
+            }
+          ]
+        },
+        {
+          "en": "And I got some new things for my videos.",
+          "tc": "我的視頻有了一些新东西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I got some new things for my videos."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-29",
+      "no": "29",
+      "titleZh": "第 29 段",
+      "titleEn": "Part 29",
+      "sentences": [
+        {
+          "en": "My mom bought me these bee lights for Miss Honey, a new tripod with a ring light and a pillow to be more comfortable recording.",
+          "tc": "我媽媽為MissHoney買了這些蜜蜂燈，一個帶有環形燈和枕頭的新三脚架，以便更舒适地錄制。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My mom bought me these bee lights for Miss Honey, a new tripod with a ring light and a pillow to be more "
+            },
+            {
+              "type": "word",
+              "text": "comfortable",
+              "targetId": "word-comfortable",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-113-01"
+            },
+            {
+              "type": "text",
+              "text": " recording."
+            }
+          ]
+        },
+        {
+          "en": "I also had to get these earplugs because it's so noisy outside.",
+          "tc": "我还必須戴上這些耳塞，因為外面太吵了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also had to get these earplugs because it's so noisy outside."
+            }
+          ]
+        },
+        {
+          "en": "I couldn't sleep without them.",
+          "tc": "沒有他們我就睡不着。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I couldn't sleep without them."
+            }
+          ]
+        },
+        {
+          "en": "This is my desk filled with lots of junk.",
+          "tc": "這是我的桌子，里面堆滿了垃圾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is my desk filled with lots of junk."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-30",
+      "no": "30",
+      "titleZh": "第 30 段",
+      "titleEn": "Part 30",
+      "sentences": [
+        {
+          "en": "My lotion.",
+          "tc": "我的乳液。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My lotion."
+            }
+          ]
+        },
+        {
+          "en": "This thing is amazing.",
+          "tc": "這件事太神奇了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This thing is amazing."
+            }
+          ]
+        },
+        {
+          "en": "Do you know what this is?",
+          "tc": "你知道這是什麼嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you know what this is?"
+            }
+          ]
+        },
+        {
+          "en": "Some sticky notes.",
+          "tc": "一些便利贴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Some sticky notes."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-31",
+      "no": "31",
+      "titleZh": "第 31 段",
+      "titleEn": "Part 31",
+      "sentences": [
+        {
+          "en": "My portable charger.",
+          "tc": "我的便携式充電器。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My portable "
+            },
+            {
+              "type": "word",
+              "text": "charger",
+              "targetId": "word-charger",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-121-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "My nail clippers.",
+          "tc": "我的指甲刀。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My nail clippers."
+            }
+          ]
+        },
+        {
+          "en": "A humidifier, a mug with some coffee, my glasses, my computer, and the mouse.",
+          "tc": "一個加濕器、一個装有咖啡的杯子、我的眼镜、我的電腦和鼠標。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A humidifier, a mug with some coffee, my glasses, my computer, and the mouse."
+            }
+          ]
+        },
+        {
+          "en": "And now, let me explain all of these sticky notes.",
+          "tc": "現在，讓我解釋一下所有這些便利贴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And now, let me explain all of these sticky notes."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-32",
+      "no": "32",
+      "titleZh": "第 32 段",
+      "titleEn": "Part 32",
+      "sentences": [
+        {
+          "en": "This one's a little bit smudged.",
+          "tc": "這個有点脏了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This one's a little bit smudged."
+            }
+          ]
+        },
+        {
+          "en": "I got a tip from a new friend of mine.",
+          "tc": "我从一位新朋友那里得到了一個建议。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got a tip from a new friend of mine."
+            }
+          ]
+        },
+        {
+          "en": "She's Chinese and when she learned English, she said that she used to put sticky notes with the names in English on every object in her house.",
+          "tc": "她是中國人，當她學習英語时，她說她曾經在家里的每件物品上贴上帶有英文名称的便籤。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She's Chinese and when she learned English, she said that she used to put sticky notes with the names in English on every object in her house."
+            }
+          ]
+        },
+        {
+          "en": "That way she learned the name of everything around her in English first, not unnecessary English words that you never use.",
+          "tc": "這樣，她首先學會了周围一切事物的英文名称，而不是那些你从不使用的不必要的英文單詞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That way she learned the name of everything around her in English first, not unnecessary English words that you never use."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-33",
+      "no": "33",
+      "titleZh": "第 33 段",
+      "titleEn": "Part 33",
+      "sentences": [
+        {
+          "en": "Therefore, you forget eventually with the sticky notes.",
+          "tc": "因此，你最終會忘记便利贴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Therefore, you forget eventually with the sticky notes."
+            }
+          ]
+        },
+        {
+          "en": "You see them all day.",
+          "tc": "你整天都能看到它們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You see them all day."
+            }
+          ]
+        },
+        {
+          "en": "Your brain is always thinking in English because of those sticky notes.",
+          "tc": "因為那些便利贴，你的大腦總是用英語思考。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Your brain is always thinking in English because of those sticky notes."
+            }
+          ]
+        },
+        {
+          "en": "So, I'm doing the same with Chinese.",
+          "tc": "所以，我對中文也做了同樣的事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I'm doing the same with Chinese."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-34",
+      "no": "34",
+      "titleZh": "第 34 段",
+      "titleEn": "Part 34",
+      "sentences": [
+        {
+          "en": "I followed my friend's advice and I wrote down every word from around my house onto a sticky note and I stuck them onto each object.",
+          "tc": "我聽从了朋友的建议，把家里的每一個字都寫在便利贴上，然後把它們贴在每個物體上。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I followed my friend's advice and I wrote down every word from around my house onto a sticky note and I stuck them onto each object."
+            }
+          ]
+        },
+        {
+          "en": "My computer, my table, my plants, and even on my kitchen chair.",
+          "tc": "我的電腦、我的桌子、我的植物，甚至我的廚房椅子上。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My computer, my table, my plants, and even on my kitchen chair."
+            }
+          ]
+        },
+        {
+          "en": "That's been a super useful tip.",
+          "tc": "這是一個非常有用的提示。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's been a super useful tip."
+            }
+          ]
+        },
+        {
+          "en": "I recommend you try it, too.",
+          "tc": "我建议你也嘗試一下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I recommend you try it, too."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-35",
+      "no": "35",
+      "titleZh": "第 35 段",
+      "titleEn": "Part 35",
+      "sentences": [
+        {
+          "en": "These were the essentials I bought for my home so far.",
+          "tc": "這些是迄今為止我為家里購買的必需品。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "These were the essentials I bought for my home so far."
+            }
+          ]
+        },
+        {
+          "en": "I still have a few things to get, but my apartment isn't fully furnished yet.",
+          "tc": "我还有一些东西要買，但我的公寓还沒有家具齐全。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I still have a few things to get, but my apartment isn't fully furnished yet."
+            }
+          ]
+        },
+        {
+          "en": "What is an essential in your home?",
+          "tc": "你家里的必需品是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What is an essential in your home?"
+            }
+          ]
+        },
+        {
+          "en": "What's the most important thing in your house?",
+          "tc": "你家里最重要的东西是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What's the most important thing in your house?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-36",
+      "no": "36",
+      "titleZh": "第 36 段",
+      "titleEn": "Part 36",
+      "sentences": [
+        {
+          "en": "Mine is the couch.",
+          "tc": "我的是沙發。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mine is the couch."
+            }
+          ]
+        },
+        {
+          "en": "It makes any space feel like a home and it lets me and my family, me and my friends -- sit down and laugh together.",
+          "tc": "它讓任何空間都像家一樣，讓我和我的家人、我和我的朋友——坐下來一起歡笑。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It makes any space "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-142-01"
+            },
+            {
+              "type": "text",
+              "text": " like a home and it lets me and my family, me and my friends -- sit down and laugh together."
+            }
+          ]
+        },
+        {
+          "en": "Don't forget to like this video if you enjoyed it, so I can focus on making more videos like these!",
+          "tc": "如果您喜歡這個視頻，請不要忘记点讚，這樣我就可以集中精力制作更多类似的視頻！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Don't forget to like this video if you enjoyed it, so I can focus on making more videos like these!"
+            }
+          ]
+        },
+        {
+          "en": "SUBSCRIBE and hit the notification bell to learn comprehensible English in fun, easy ways.",
+          "tc": "訂阅并按通知铃，以有趣、簡單的方式學習可理解的英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "SUBSCRIBE and hit the notification bell to learn "
+            },
+            {
+              "type": "word",
+              "text": "comprehensible",
+              "targetId": "word-comprehensible",
+              "instanceId": "marker-a2-ch22-learn-english-at-home-slow-english-144-01"
+            },
+            {
+              "type": "text",
+              "text": " English in fun, easy ways."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-37",
+      "no": "37",
+      "titleZh": "第 37 段",
+      "titleEn": "Part 37",
+      "sentences": [
+        {
+          "en": "Never stop learning guys.",
+          "tc": "永遠不要停止學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Never stop learning guys."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "再见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -546,153 +1903,169 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-comprehensible",
+          "lemma": "comprehensible",
+          "english": "comprehensible",
+          "kk": "/comprehensible/",
+          "partOfSpeech": "adj.",
+          "meaning": "可理解的",
           "highlight": true
         },
         {
-          "english": "plants",
-          "kk": "/plants/",
-          "partOfSpeech": "n.",
-          "meaning": "植物",
-          "note": "看到 plants 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-essential",
+          "lemma": "essential",
+          "english": "essentials",
+          "kk": "/essential/",
+          "partOfSpeech": "adj.",
+          "meaning": "必要的",
           "highlight": true
         },
         {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-charger",
+          "lemma": "charger",
+          "english": "charger",
+          "kk": "/charger/",
+          "partOfSpeech": "noun",
+          "meaning": "充電器",
           "highlight": true
         },
         {
-          "english": "got",
-          "kk": "/got/",
-          "partOfSpeech": "v.",
-          "meaning": "得到",
-          "note": "看到 got 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "looks",
-          "kk": "/looks/",
-          "partOfSpeech": "n.",
-          "meaning": "看起來",
-          "note": "看到 looks 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "mirror",
-          "kk": "/mirror/",
-          "partOfSpeech": "n.",
-          "meaning": "鏡子",
-          "note": "看到 mirror 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-comfortable",
+          "lemma": "comfortable",
+          "english": "comfortable",
+          "kk": "/comfortable/",
+          "partOfSpeech": "adj.",
+          "meaning": "舒服的",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
-      "phrase": "what do you",
-      "meaning": "你是什麼",
+      "id": "phrase-slow-english-podcast",
+      "phrase": "slow English podcast",
+      "meaning": "慢速英文播客",
       "examples": [
         {
-          "en": "What do you think of my new couch?",
-          "tc": "你覺得我的新沙發怎麼樣？"
+          "en": "So, join me in this __slow English podcast__!",
+          "tc": "慢速英文播客"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-something-else",
+      "phrase": "something else",
+      "meaning": "很特別",
       "examples": [
         {
-          "en": "I want to fill this place up with plants completely.",
-          "tc": "我想讓這個地方完全被植物填滿。"
+          "en": "__Something else__ that's very important, the tuppers.",
+          "tc": "很特別"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "have to",
-      "meaning": "必須",
+      "id": "phrase-so-far",
+      "phrase": "so far",
+      "meaning": "到目前為止",
       "examples": [
         {
-          "en": "I just have to be very careful.",
-          "tc": "我只需要非常小心。"
+          "en": "In my last video, I showed you guys what I had bought __so far__, but now I've bought even more.",
+          "tc": "到目前為止"
         }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-get-item",
+      "word": "get",
+      "familiarMeaning": "得到；到達",
+      "usage": "表示理解、取得服務或變成某種狀態",
+      "translation": "理解；取得",
+      "examples": [
+        "《Get》 the projector!"
+      ]
+    },
+    {
+      "id": "usage-have-item",
+      "word": "have",
+      "familiarMeaning": "有",
+      "usage": "表示吃喝、經歷或享有",
+      "translation": "喝；經歷；享有",
+      "examples": [
+        "It's a good idea to 《have》 plants in your home if you don't already."
+      ]
+    },
+    {
+      "id": "usage-feel-item",
+      "word": "feel",
+      "familiarMeaning": "摸起來",
+      "usage": "表示人的感受或狀態",
+      "translation": "感覺；覺得",
+      "examples": [
+        "It makes any space 《feel》 like a home and it lets me and my family, me and my friends -- sit down and laugh together."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Hello... Let's learn some house essentials!",
-      "translation": "你好...讓我們來學習一些家居必需品吧！",
+      "id": "grammar-1",
+      "sentence": "I am in my new apartment and I need to furnish it.",
+      "translation": "我在我的新公寓里，我需要装修它。",
       "points": [
         {
-          "label": "let's house essentials",
-          "text": "let's house essentials",
-          "note": "注意 \"let's house essentials\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定詞片語",
+          "text": "to + 原形動詞",
+          "note": "表示目的、計畫或想做的事。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "I am in my new apartment.",
-      "translation": "我在我的新公寓。",
+      "id": "grammar-2",
+      "sentence": "My dad says that that mirror can cause a fire...",
+      "translation": "我爸爸說那面镜子會引起火灾......。",
       "points": [
         {
-          "label": "new apartment",
-          "text": "new apartment",
-          "note": "注意 \"new apartment\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句",
+          "text": "名詞 + who/which/that + 子句",
+          "note": "補充說明前面的名詞。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "I had bought so far, but now.",
-      "translation": "到目前為止我已經買了，但現在。",
+      "id": "grammar-3",
+      "sentence": "I have been watching Game of Thrones on this every night.",
+      "translation": "我每晚都在看《权力的游戏》。",
       "points": [
         {
-          "label": "bought far but",
-          "text": "bought far but",
-          "note": "注意 \"bought far but\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "現在完成進行式",
+          "text": "have/has been + V-ing",
+          "note": "表示從過去持續到現在的動作或狀態。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "I've bought even more. So, let's learn some house essentials in English. I bought a couch.",
-      "translation": "我還買了更多。那麼，讓我們用英語學習一些家居必需品。我買了一張沙發。",
+      "id": "grammar-4",
+      "sentence": "I have been watching Game of Thrones.",
+      "translation": "我一直在看《权力的游戏》。",
       "points": [
         {
-          "label": "i've bought let's",
-          "text": "i've bought let's",
-          "note": "注意 \"i've bought let's\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "現在完成式",
+          "text": "have/has + 過去分詞",
+          "note": "連結過去經驗和現在。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "Don't forget to like this video if you enjoyed it, so I can focus on making more videos like these!",
+      "translation": "如果您喜歡這個視頻，請不要忘记点讚，這樣我就可以集中精力制作更多类似的視頻！",
+      "points": [
+        {
+          "label": "條件句",
+          "text": "if + 子句 + 主要子句",
+          "note": "說明條件成立時的結果。"
         }
       ]
     }

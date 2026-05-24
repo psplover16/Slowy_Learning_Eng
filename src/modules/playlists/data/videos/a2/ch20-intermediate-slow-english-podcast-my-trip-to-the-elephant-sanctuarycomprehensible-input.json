@@ -15,586 +15,1670 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my Slow English podcast. Learn comprehensible English with me.",
-          "tc": "歡迎回到我的慢速英語podcast。和我一起學習可理解的英語。"
+          "en": "Hello and welcome back to my Slow English podcast.",
+          "tc": "你好，歡迎回到我的慢速英語播客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my "
+            },
+            {
+              "type": "phrase",
+              "text": "Slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-001-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Today I want to tell you about my trip to the elephant sanctuary in Chiang Mai, Thailand. All in slow English with intermediate level vocabulary. Repeat any new words or phrases that.",
-          "tc": "今天我想向大家介紹我去泰國清邁大象保護區的旅行。全部都是慢速英語，詞彙量中等。重複任何新單字或短語。"
+          "en": "Learn comprehensible English with me.",
+          "tc": "和我一起學習可理解的英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Learn "
+            },
+            {
+              "type": "word",
+              "text": "comprehensible",
+              "targetId": "word-comprehensible",
+              "instanceId": "marker-a2-ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-002-01"
+            },
+            {
+              "type": "text",
+              "text": " English with me."
+            }
+          ]
         },
         {
-          "en": "You hear and comment an example sentence with that word or phrase.",
-          "tc": "你聽到並評論帶有該單字或短語的例句。"
+          "en": "Today I want to tell you about my trip to the elephant sanctuary in Chiang Mai, Thailand.",
+          "tc": "今天我想给大家講講我去泰國清迈大象保護區的旅行。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today I want to tell you about my trip to the "
+            },
+            {
+              "type": "word",
+              "text": "elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-a2-ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-003-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "sanctuary",
+              "targetId": "word-sanctuary",
+              "instanceId": "marker-a2-ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-003-02"
+            },
+            {
+              "type": "text",
+              "text": " in Chiang Mai, Thailand."
+            }
+          ]
         },
         {
-          "en": "I have always dreamed of traveling to Thailand someday to see the elephants. Ever since I was a little girl,.",
-          "tc": "我一直夢想有一天能去泰國看大象。自從我還是個小女孩的時候，。"
+          "en": "All in slow English with intermediate level vocabulary.",
+          "tc": "全部采用慢速英語，詞彙量中等。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "All in slow English with intermediate level vocabulary."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "elephants",
-          "kk": "/elephants/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephants 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "elephant",
-          "kk": "/elephant/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephant 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "dreamed",
-          "kk": "/dreamed/",
-          "partOfSpeech": "v.",
-          "meaning": "夢見",
-          "note": "看到 dreamed 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I have loved elephants. Elephant stuffed animals, elephant drawings, elephant shower curtains. I absolutely adored elephants.",
-          "tc": "我很喜歡大象。大象毛絨動物、大象圖畫、大象浴簾。我非常喜歡大象。"
+          "en": "Repeat any new words or phrases that you hear and comment an example sentence with that word or phrase.",
+          "tc": "重複您聽到的任何新單詞或短語，并用該單詞或短語评论例句。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Repeat any new words or "
+            },
+            {
+              "type": "word",
+              "text": "phrases",
+              "targetId": "word-phrase",
+              "instanceId": "marker-a2-ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-005-01"
+            },
+            {
+              "type": "text",
+              "text": " that you hear and comment an example sentence with that word or phrase."
+            }
+          ]
         },
         {
-          "en": "Then when I grew up and I realized you could see elephants, hang out with elephants and feed them in Thailand.",
-          "tc": "當我長大後，我意識到在泰國你可以看到大象，和大像一起出去玩，還可以餵它們吃。"
+          "en": "I have always dreamed of traveling to Thailand someday to see the elephants.",
+          "tc": "我一直夢想有一天能去泰國看大象。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-006-01"
+            },
+            {
+              "type": "text",
+              "text": " always dreamed of traveling to Thailand someday to see the elephants."
+            }
+          ]
         },
         {
-          "en": "I dreamed of meeting one. I dreamed of interacting close up with an elephant. sanctuaries are facilities that provide elephants with a safe and natural environment for them to stay. These facilities.",
-          "tc": "我夢想著能遇見一個人。我夢想與大象近距離互動。保護區是為大象提供安全、自然的棲息環境的設施。這些設施。"
+          "en": "Ever since I was a little girl, I have loved elephants.",
+          "tc": "从小我就喜歡大象。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Ever since I was a little girl, I have loved elephants."
+            }
+          ]
         },
         {
-          "en": "Rescue elephants from being exploited. by situations like tourism, entertainment, and logging. And by visiting these elephant sanctuaries,.",
-          "tc": "拯救大象免遭剝削。旅遊、娛樂和伐木等情況。透過參觀這些大象保護區，。"
+          "en": "Elephant stuffed animals, elephant drawings, elephant shower curtains.",
+          "tc": "大象毛絨動物、大象圖畫、大象浴帘。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Elephant stuffed animals, elephant drawings, elephant shower curtains."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "elephants",
-          "kk": "/elephants/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephants 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "elephant",
-          "kk": "/elephant/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephant 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "dreamed",
-          "kk": "/dreamed/",
-          "partOfSpeech": "v.",
-          "meaning": "夢見",
-          "note": "看到 dreamed 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "You can support these organizations and help these elephants to live a better and happier life. So, a couple years ago,.",
-          "tc": "你可以支持這些組織，幫助這些大象過上更好、更快樂的生活。所以，幾年前，。"
+          "en": "I absolutely adored elephants.",
+          "tc": "我非常喜歡大象。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I absolutely adored elephants."
+            }
+          ]
         },
         {
-          "en": "I could see one close up. and maybe even interact with one. But that last year,.",
-          "tc": "我可以近距離看到一個。甚至可能與其中之一互動。但去年，。"
+          "en": "Then when I grew up and I realized you could see elephants, hang out with elephants and feed them in Thailand.",
+          "tc": "當我長大後，我意識到在泰國你可以看到大象，和大象一起出去玩，还可以给它們喂食。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then when I grew up and I realized you could see elephants, "
+            },
+            {
+              "type": "phrase",
+              "text": "hang out",
+              "targetId": "phrase-hang-out",
+              "instanceId": "marker-a2-ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-010-01"
+            },
+            {
+              "type": "text",
+              "text": " with elephants and feed them in Thailand."
+            }
+          ]
         },
         {
-          "en": "I never got around to it. I never got around to doing it. But this year,.",
-          "tc": "我從來沒有抽出時間去做這件事。我從來沒有抽出時間去做這件事。但今年，。"
+          "en": "I dreamed of meeting one.",
+          "tc": "我夢想见到一個人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I dreamed of meeting one."
+            }
+          ]
         },
         {
-          "en": "I had planned to visit Thailand with my sister, and I knew for sure.",
-          "tc": "我本來計劃和姐姐一起去泰國，我很確定。"
+          "en": "I dreamed of interacting close up with an elephant.",
+          "tc": "我夢想與大象近距離互動。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I dreamed of interacting close up with an elephant."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "elephants",
-          "kk": "/elephants/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephants 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "elephant",
-          "kk": "/elephant/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephant 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I had to visit an elephant sanctuary. This time.",
-          "tc": "我必須參觀大象保護區。這次。"
+          "en": "Elephant sanctuaries are facilities that provide elephants with a safe and natural environment for them to stay.",
+          "tc": "大象保護區是為大象提供安全、自然的栖息環境的設施。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Elephant sanctuaries are facilities that provide elephants with a safe and natural environment for them to stay."
+            }
+          ]
         },
         {
-          "en": "I had to interact with an elephant close up this time.",
-          "tc": "這次我必須與大象近距離互動。"
+          "en": "These facilities rescue elephants from being exploited.",
+          "tc": "這些設施拯救大象免遭剥削。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "These facilities rescue elephants from being exploited."
+            }
+          ]
         },
         {
-          "en": "Is there any animal that you've always dreamed of seeing? So I booked my trip to Chili Orchid. The ride from Chiang Mai to Chilai Orchid was rough to say the least?",
-          "tc": "有沒有一種動物是你一直夢想看到的？所以我預訂了辣椒蘭花之旅。從清邁到奇萊蘭花的旅程至少可以說很艱難？"
+          "en": "Exploited by situations like tourism, entertainment, and logging.",
+          "tc": "被旅游、娱樂和伐木等情况所利用。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Exploited by situations like tourism, entertainment, and logging."
+            }
+          ]
         },
         {
-          "en": "It was super bumpy and the roads were super windy. lots of winding and bumpy roads. It made me feel a little bit dizzy.",
-          "tc": "道路非常顛簸，風也很大。許多蜿蜒崎嶇的道路。這讓我覺得有點頭暈。"
+          "en": "And by visiting these elephant sanctuaries, you can support these organizations and help these elephants to live a better and happier life.",
+          "tc": "通過参觀這些大象保護區，您可以支持這些组织并幫助這些大象過上更好、更幸福的生活。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And by visiting these elephant sanctuaries, you can support these organizations and help these elephants to live a better and happier life."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "elephant",
-          "kk": "/elephant/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephant 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "dreamed",
-          "kk": "/dreamed/",
-          "partOfSpeech": "v.",
-          "meaning": "夢見",
-          "note": "看到 dreamed 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "little",
-          "kk": "/little/",
-          "partOfSpeech": "n.",
-          "meaning": "小的",
-          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "You could see the garden from the balcony. And it had the cutest little window.",
-          "tc": "從陽台上可以看到花園。它有一個最可愛的小窗戶。"
+          "en": "So, a couple years ago, I visited Thailand for the first time, and I intended on visiting an elephant sanctuary where I could see one close up.",
+          "tc": "所以，几年前，我第一次访問泰國，我打算参觀一個大象保護區，在那里我可以近距離觀察大象。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, a couple years ago, I visited Thailand for the first time, and I intended on visiting an elephant sanctuary where I could see one close up."
+            }
+          ]
         },
         {
-          "en": "We just dropped our things off at our bungalow.",
-          "tc": "我們剛剛把東西放在我們的平房裡。"
+          "en": "And maybe even interact with one.",
+          "tc": "甚至可能與其中之一互動。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And maybe even interact with one."
+            }
+          ]
         },
         {
-          "en": "We took the shuttle up to the cafe. The restaurant at Shilai Orchid was so lovely, full of plants in the middle of a garden.",
-          "tc": "我們搭乘接駁車前往咖啡館。石萊蘭花的餐廳非常可愛，花園中央種滿了植物。"
+          "en": "But that last year, I never got around to it.",
+          "tc": "但去年我一直沒有抽出时間來做這件事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But that last year, I never got around to it."
+            }
+          ]
         },
         {
-          "en": "Where you could eat with elephants right?",
-          "tc": "哪裡可以和大像一起吃飯？"
+          "en": "I never got around to doing it.",
+          "tc": "我从來沒有抽出时間去做這件事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I never got around to doing it."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "elephants",
-          "kk": "/elephants/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephants 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "elephant",
-          "kk": "/elephant/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephant 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "eat",
-          "kk": "/eat/",
-          "partOfSpeech": "v.",
-          "meaning": "吃",
-          "note": "看到 eat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "Next to you. There was the mama elephant called Mo. Mama name, >>.",
-          "tc": "在你旁邊。有一隻大象媽媽叫莫。媽媽的名字，>>。"
+          "en": "But this year, I had planned to visit Thailand with my sister, and I knew for sure I had to visit an elephant sanctuary.",
+          "tc": "但今年，我計劃和姐姐一起去泰國，我確信我必須参觀大象保護區。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But this year, I had planned to visit Thailand with my sister, and I knew for sure I had to visit an elephant sanctuary."
+            }
+          ]
         },
         {
-          "en": "She was very imposing.",
-          "tc": "她氣勢很大。"
+          "en": "This time I had to interact with an elephant close up this time.",
+          "tc": "這次我要和大象近距離互動。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This time I had to interact with an elephant close up this time."
+            }
+          ]
         },
         {
-          "en": "She had an impressive way of standing out from all the other elephants. Even the very big elephants didn't stand out as much as.",
-          "tc": "她以一種令人印象深刻的方式從所有其他大像中脫穎而出。即使是非常大的大像也沒有那麼引人注目。"
+          "en": "Is there any animal that you've always dreamed of seeing?",
+          "tc": "有沒有什麼動物是你一直夢想看到的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is there any animal that you've always dreamed of seeing?"
+            }
+          ]
         },
         {
-          "en": "She was so strong and imposing, impressive and admirable.",
-          "tc": "她是如此的堅強和氣勢，令人印象深刻和令人欽佩。"
+          "en": "So I booked my trip to Chili Orchid.",
+          "tc": "所以我预訂了辣椒兰花之旅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I booked my trip to Chili Orchid."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "elephants",
-          "kk": "/elephants/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephants 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "elephant",
-          "kk": "/elephant/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephant 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "Then there was her.",
-          "tc": "然後就是她了。"
+          "en": "The ride from Chiang Mai to Chilai Orchid was rough to say the least.",
+          "tc": "从清迈到奇莱兰花的旅程至少可以說是艰難的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The ride from Chiang Mai to Chilai Orchid was rough to say the least."
+            }
+          ]
         },
         {
-          "en": "First calath called Moi.",
-          "tc": "第一個卡拉斯稱為 Moi。"
+          "en": "It was super bumpy and the roads were super windy.",
+          "tc": "道路非常颠簸，风很大。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was super bumpy and the roads were super windy."
+            }
+          ]
         },
         {
-          "en": "Then there was a baby calf called Dea. You could feed the elephants bananas.",
-          "tc": "然後有一頭小牛犢，名叫Dea。你可以給大象餵香蕉。"
+          "en": "Lots of winding and bumpy roads.",
+          "tc": "道路崎岖不平。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Lots of winding and bumpy roads."
+            }
+          ]
         },
         {
-          "en": "They were all super greedy. The big mama especially was so greedy.",
-          "tc": "他們都超貪婪。尤其是大媽媽，更是貪得無厭。"
+          "en": "It made me feel a little bit dizzy.",
+          "tc": "這讓我感到有点頭晕。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It made me "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-028-01"
+            },
+            {
+              "type": "text",
+              "text": " a little bit dizzy."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "elephants",
-          "kk": "/elephants/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephants 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "elephant",
-          "kk": "/elephant/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephant 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feed",
-          "kk": "/feed/",
-          "partOfSpeech": "v.",
-          "meaning": "餵食",
-          "note": "看到 feed 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "She would eat all the bananas.",
-          "tc": "她會吃掉所有的香蕉。"
+          "en": "But we eventually made it to our bungalow, a super sweet bungalow where you could see the garden [snorts] from the balcony.",
+          "tc": "但我們最終还是到達了我們的平房，這是一栋超级温馨的平房，你可以从陽台上看到花园[哼哼]。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But we eventually made it to our bungalow, a super sweet bungalow where you could see the garden [snorts] from the balcony."
+            }
+          ]
         },
         {
-          "en": "She wouldn't even leave any for her babies. Moipo and Mo wouldn't leave any bananas for poor little baby Desa.",
-          "tc": "她甚至不會給她的孩子留下任何東西。莫伊波和莫不會給可憐的小寶貝德薩留下任何香蕉。"
+          "en": "And it had the cutest little window through which you could see the elephants.",
+          "tc": "它有一個最可愛的小窗户，通過它你可以看到大象。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And it had the cutest little window through which you could see the elephants."
+            }
+          ]
         },
         {
-          "en": "He was so sad. You could tell everyone would try to feed baby Dea, but Mo and Mipo were so greedy.",
-          "tc": "他很傷心。可以看出每個人都會嘗試餵養嬰兒 Dea，但 Mo 和 Mipo 太貪婪了。"
+          "en": "We just dropped our things off at our bungalow and we took the shuttle up to the cafe.",
+          "tc": "我們剛剛把东西放在我們的平房里，然後乘坐班車去了咖啡館。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We just dropped our things off at our bungalow and we took the shuttle up to the cafe."
+            }
+          ]
         },
         {
-          "en": "It was a wonderful.",
-          "tc": "這是一個美妙的。"
+          "en": "The restaurant at Shilai Orchid was so lovely, full of plants in the middle of a garden and where you could eat with elephants right next to you.",
+          "tc": "ShilaiOrchid的餐廳非常可愛，花园中央種滿了植物，你可以和旁邊的大象一起吃飯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The restaurant at Shilai Orchid was so lovely, full of plants in the middle of a garden and where you could eat with elephants right next to you."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "eat",
-          "kk": "/eat/",
-          "partOfSpeech": "v.",
-          "meaning": "吃",
-          "note": "看到 eat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "feed",
-          "kk": "/feed/",
-          "partOfSpeech": "v.",
-          "meaning": "餵食",
-          "note": "看到 feed 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "First day at the elephant sanctuary. My sister and I ate some pad thai and drank some cute drinks.",
-          "tc": "大象保护区的第一天。我和姊姊吃了一些泰式炒河粉，喝了一些可愛的飲料。"
+          "en": "There was the mama elephant called Mo.",
+          "tc": "有一只大象媽媽，名叫莫。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There was the mama elephant called Mo."
+            }
+          ]
         },
         {
-          "en": "We head back to our bungalow to get some rest before our big day with the elephants.",
-          "tc": "在與大像一起度過的重要日子之前，我們回到平房休息一下。"
+          "en": "Mama name, >> she was very imposing.",
+          "tc": "媽媽的名字，>>她很有氣勢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mama name, >> she was very imposing."
+            }
+          ]
         },
         {
-          "en": "We woke up at 7 a.m.",
-          "tc": "我們早上7點就醒了。"
+          "en": "She had an impressive way of standing out from all the other elephants.",
+          "tc": "她以一種令人印象深刻的方式从所有其他大象中脱颖而出。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She had an impressive way of standing out from all the other elephants."
+            }
+          ]
         },
         {
-          "en": "We woke up with elephants at our door. Three huge elephants cruised past our window.",
-          "tc": "我們醒來時發現大象就在門口。三頭巨大的大象駛過我們的窗戶。"
+          "en": "Even the very big elephants didn't stand out as much as she did.",
+          "tc": "即使是非常大的大象也沒有她那麼引人注目。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Even the very big elephants didn't stand out as much as she did."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "elephants",
-          "kk": "/elephants/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephants 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "elephant",
-          "kk": "/elephant/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephant 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sanctuary",
-          "kk": "/sanctuary/",
-          "partOfSpeech": "n.",
-          "meaning": "避難所",
-          "note": "看到 sanctuary 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "They passed by our window and said.",
-          "tc": "他們經過我們的窗戶說。"
+          "en": "She was so strong and imposing, impressive and admirable.",
+          "tc": "她是如此的坚強和氣勢，令人印象深刻，令人钦佩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She was so strong and imposing, impressive and admirable."
+            }
+          ]
         },
         {
-          "en": "He started to scratch himself with the tree.",
-          "tc": "他開始用樹抓自己。"
+          "en": "Then there was her first calath called Moi.",
+          "tc": "然後是她的第一個卡拉斯，叫做Moi。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then there was her first calath called Moi."
+            }
+          ]
         },
         {
-          "en": "It was so sweet seeing his huge body scratching against a small tree.",
-          "tc": "看到他巨大的身體在小樹上刮擦，真是太甜蜜了。"
+          "en": "And then there was a baby calf called Dea.",
+          "tc": "然後有一頭名叫Dea的小牛犊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And then there was a baby calf called Dea."
+            }
+          ]
         },
         {
-          "en": "He was itchy.",
-          "tc": "他很癢。"
+          "en": "You could feed the elephants bananas.",
+          "tc": "你可以给大象喂香蕉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You could feed the elephants bananas."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "elephants",
-          "kk": "/elephants/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephants 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "elephant",
-          "kk": "/elephant/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephant 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：日常生活",
-      "titleEn": "Part 11: everyday life",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "He also scratched his feet.",
-          "tc": "他還抓傷了腳。"
+          "en": "But they were all super greedy.",
+          "tc": "但他們都超级贪婪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But they were all super greedy."
+            }
+          ]
         },
         {
-          "en": "We got to feed them a sweet treat. Bamboo. Elephants stomachs are infinite.",
-          "tc": "我們得給他們吃甜食。竹子。大象的胃是無限的。"
+          "en": "The big mama especially was so greedy.",
+          "tc": "大媽媽尤其贪心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The big mama especially was so greedy."
+            }
+          ]
         },
         {
-          "en": "They could eat all day long.",
-          "tc": "他們可以吃一整天。"
+          "en": "She would eat all the bananas and she wouldn't even leave any for her babies.",
+          "tc": "她會吃掉所有的香蕉，甚至不會给她的孩子留下任何香蕉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She would eat all the bananas and she wouldn't even leave any for her babies."
+            }
+          ]
         },
         {
-          "en": "They just never seem to get full.",
-          "tc": "他們似乎永遠不會吃飽。"
+          "en": "Moipo and Mo wouldn't leave any bananas for poor little baby Desa.",
+          "tc": "Moipo和Mo不會给可怜的小宝貝Desa留下任何香蕉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Moipo and Mo wouldn't leave any bananas for poor little baby Desa."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "elephants",
-          "kk": "/elephants/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephants 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "elephant",
-          "kk": "/elephant/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephant 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "eat",
-          "kk": "/eat/",
-          "partOfSpeech": "v.",
-          "meaning": "吃",
-          "note": "看到 eat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：日常生活",
-      "titleEn": "Part 12: everyday life",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "I get it, too.",
-          "tc": "我也明白了。"
+          "en": "He was so sad.",
+          "tc": "他很伤心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He was so sad."
+            }
+          ]
+        },
+        {
+          "en": "You could tell everyone would try to feed baby Dea, but Mo and Mipo were so greedy.",
+          "tc": "可以看出每個人都會嘗試喂养婴兒Dea，但Mo和Mipo太贪婪了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You could tell everyone would try to feed baby Dea, but Mo and Mipo were so greedy."
+            }
+          ]
+        },
+        {
+          "en": "It was a wonderful first day at the elephant sanctuary.",
+          "tc": "這是大象保護區美好的第一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a wonderful first day at the elephant sanctuary."
+            }
+          ]
+        },
+        {
+          "en": "My sister and I ate some pad thai and drank some cute drinks.",
+          "tc": "我和姐姐吃了一些泰式炒河粉，喝了一些可愛的飲料。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My sister and I ate some pad thai and drank some cute drinks."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "And then we head back to our bungalow to get [sighs and gasps] some rest before our big day with the elephants.",
+          "tc": "然後我們回到我們的平房，在與大象一起度過的重要日子之前[嘆氣]休息一下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And then we head back to our bungalow to "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-049-01"
+            },
+            {
+              "type": "text",
+              "text": " [sighs and gasps] some rest before our big day with the elephants."
+            }
+          ]
+        },
+        {
+          "en": "The next morning, we woke up at 7 a.m. We woke up with elephants at our door.",
+          "tc": "第二天早上，我們早上7点就醒了。我們醒來时發現門口有大象。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next morning, we woke up at 7 a.m. We woke up with elephants at our door."
+            }
+          ]
+        },
+        {
+          "en": "Three huge elephants cruised past our window.",
+          "tc": "三頭巨大的大象驶過我們的窗户。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Three huge elephants cruised past our window."
+            }
+          ]
+        },
+        {
+          "en": "They passed by our window and said hello.",
+          "tc": "他們經過我們的窗户并向我們打招呼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They passed by our window and said hello."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "And then he started to scratch himself with the tree.",
+          "tc": "然後他開始用樹抓自己。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And then he started to scratch himself with the tree."
+            }
+          ]
+        },
+        {
+          "en": "It was so sweet seeing his huge body scratching against a small tree.",
+          "tc": "看到他巨大的身體在小樹上刮擦，真是太甜蜜了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was so sweet seeing his huge body scratching against a small tree."
+            }
+          ]
+        },
+        {
+          "en": "I think he was itchy because he also scratched his feet.",
+          "tc": "我認為他很痒，因為他还抓了脚。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think he was itchy because he also scratched his feet."
+            }
+          ]
+        },
+        {
+          "en": "And we got to feed them a sweet treat.",
+          "tc": "我們必須给他們吃甜食。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And we got to feed them a sweet treat."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "Bamboo.",
+          "tc": "竹子.。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bamboo."
+            }
+          ]
+        },
+        {
+          "en": "Elephants stomachs are infinite.",
+          "tc": "大象的胃是無限的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Elephants stomachs are infinite."
+            }
+          ]
+        },
+        {
+          "en": "They could eat all day long.",
+          "tc": "他們可以整天吃东西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They could eat all day long."
+            }
+          ]
+        },
+        {
+          "en": "They just never seem to get full.",
+          "tc": "他們似乎永遠不會吃飽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They just never seem to get full."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "And I get it, too.",
+          "tc": "我也明白了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I get it, too."
+            }
+          ]
         },
         {
           "en": "They are huge.",
-          "tc": "它們很大。"
+          "tc": "它們很大。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They are huge."
+            }
+          ]
         },
         {
-          "en": "They eat nothing but plants.",
-          "tc": "他們只吃植物。"
+          "en": "And they eat nothing but plants.",
+          "tc": "他們只吃植物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And they eat nothing but plants."
+            }
+          ]
         },
         {
-          "en": "They must be hungry all the time.",
-          "tc": "他們一定一直很餓。"
+          "en": "So they must be hungry all the time.",
+          "tc": "所以他們一定一直在挨饿。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So they must be hungry all the time."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
         {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "Do you know anyone who is hungry all the time?",
+          "tc": "你知道有誰一直很饿嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you know anyone who is hungry all the time?"
+            }
+          ]
         },
         {
-          "english": "eat",
-          "kk": "/eat/",
-          "partOfSpeech": "v.",
-          "meaning": "吃",
-          "note": "看到 eat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "We ate breakfast on the balcony.",
+          "tc": "我們在陽台上吃早餐。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We ate breakfast on the balcony."
+            }
+          ]
+        },
+        {
+          "en": "Pancakes and sticky rice.",
+          "tc": "煎餅和糯米。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Pancakes and sticky rice."
+            }
+          ]
+        },
+        {
+          "en": "And then we took the shuttle to reception.",
+          "tc": "然後我們乘坐班車前往接待處。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And then we took the shuttle to reception."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "We had an elephant tour scheduled and our tour guide took us to the grounds.",
+          "tc": "我們安排了一次大象之旅，我們的導游帶我們去了場地。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We had an elephant tour scheduled and our tour guide took us to the grounds."
+            }
+          ]
+        },
+        {
+          "en": "The grounds where they take care of the elephants.",
+          "tc": "他們照顧大象的場地。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The grounds where they "
+            },
+            {
+              "type": "phrase",
+              "text": "take care of",
+              "targetId": "phrase-take-care-of",
+              "instanceId": "marker-a2-ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-070-01"
+            },
+            {
+              "type": "text",
+              "text": " the elephants."
+            }
+          ]
+        },
+        {
+          "en": "He explained that elephants eat all day.",
+          "tc": "他解釋說大象整天都在吃东西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He explained that elephants eat all day."
+            }
+          ]
+        },
+        {
+          "en": "They spend nearly 80% of their day eating.",
+          "tc": "他們一天中近80%的时間都在吃飯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They spend nearly 80% of their day eating."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "We saw how they ate the leaves, the bamboo, and the tree barks.",
+          "tc": "我們看到他們如何吃樹叶、竹子和樹皮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We saw how they ate the leaves, the bamboo, and the tree barks."
+            }
+          ]
+        },
+        {
+          "en": "How they peeled off all the rusty leaves to get to eat the good stuff inside.",
+          "tc": "他們如何剥掉所有生锈的叶子來吃里面的好东西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How they peeled off all the rusty leaves to get to eat the good stuff inside."
+            }
+          ]
+        },
+        {
+          "en": "They wouldn't stop flapping their ears.",
+          "tc": "他們不停地扇動耳朵。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They wouldn't stop flapping their ears."
+            }
+          ]
+        },
+        {
+          "en": "Elephants flap their ears when they are happy.",
+          "tc": "大象高興时會扇動耳朵。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Elephants flap their ears when they are happy."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "And these elephants were very happy.",
+          "tc": "這些大象非常高興。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And these elephants were very happy."
+            }
+          ]
+        },
+        {
+          "en": "It was so compelling to see how their trunks are so strong, flexible, and incredibly sensitive.",
+          "tc": "看到它們的躯乾如此強壮、靈活且極其敏感，真是令人着迷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was so compelling to see how their trunks are so strong, flexible, and incredibly sensitive."
+            }
+          ]
+        },
+        {
+          "en": "Their noses are super sensitive.",
+          "tc": "他們的鼻子非常敏感。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Their noses are super sensitive."
+            }
+          ]
+        },
+        {
+          "en": "They have 10 times more nerve endings than a human finger.",
+          "tc": "它們的神經末梢比人类手指多10倍。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They have 10 times more nerve endings than a human finger."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "They can feel a lot on their noses.",
+          "tc": "他們的鼻子有很多感覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They can feel a lot on their noses."
+            }
+          ]
+        },
+        {
+          "en": "Our tour guide also explained the type of foods they use as medicine.",
+          "tc": "我們的導游还解釋了他們用作藥物的食物类型。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Our tour guide also explained the type of foods they use as medicine."
+            }
+          ]
+        },
+        {
+          "en": "We mixed all the ingredients into one bowl and we mashed it all up.",
+          "tc": "我們将所有成分混合到一個碗中，然後将其全部捣碎。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We mixed all the ingredients into one bowl and we mashed it all up."
+            }
+          ]
+        },
+        {
+          "en": "Then we fed them these little yummy balls of nutrition.",
+          "tc": "然後我們给他們喂這些美味的小营养球。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then we fed them these little yummy balls of nutrition."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "Then for dessert, they got to eat bamboo.",
+          "tc": "然後甜点是吃竹子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then for dessert, they got to eat bamboo."
+            }
+          ]
+        },
+        {
+          "en": "And we got to feed them.",
+          "tc": "我們必須喂它們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And we got to feed them."
+            }
+          ]
+        },
+        {
+          "en": "I loved feeding the elephants.",
+          "tc": "我喜歡喂大象。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I loved feeding the elephants."
+            }
+          ]
+        },
+        {
+          "en": "But I think my favorite part was looking into their eyes.",
+          "tc": "但我認為我最喜歡的部分是看着他們的眼睛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I think my favorite part was looking into their eyes."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "Their eyes were so complex.",
+          "tc": "他們的眼神是如此複雜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Their eyes were so complex."
+            }
+          ]
+        },
+        {
+          "en": "The wrinkles around their eyes were so beautiful and detailed.",
+          "tc": "他們眼睛周围的皱纹是如此美麗和细致。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The wrinkles around their eyes were so beautiful and detailed."
+            }
+          ]
+        },
+        {
+          "en": "It was my favorite part of interacting with the elephants.",
+          "tc": "這是與大象互動中我最喜歡的部分。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was my favorite part of interacting with the elephants."
+            }
+          ]
+        },
+        {
+          "en": "What animal do you think has the most complex eyes?",
+          "tc": "你認為哪種動物的眼睛最複雜？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What animal do you think has the most complex eyes?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "And tell me why in the comments.",
+          "tc": "并在评论中告诉我原因。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And tell me why in the comments."
+            }
+          ]
+        },
+        {
+          "en": "And don't forget to like this video so I can make more videos like these.",
+          "tc": "不要忘记喜歡這個視頻，這樣我就可以制作更多這樣的視頻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And don't forget to like this video so I can "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch20-intermediate-slow-english-podcast-my-trip-to-the-elephant-sanctuarycomprehensible-input-094-01"
+            },
+            {
+              "type": "text",
+              "text": " more videos like these."
+            }
+          ]
+        },
+        {
+          "en": "The elephant keepers were so playful with the elephants.",
+          "tc": "大象饲养員和大象們玩得很開心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The elephant keepers were so playful with the elephants."
+            }
+          ]
+        },
+        {
+          "en": "You can tell this is an organization that really cares about the elephants and the workers.",
+          "tc": "你可以看出這是一個真正關心大象和工人的组织。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can tell this is an organization that really cares about the elephants and the workers."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "It's a very heartwarming thing to see.",
+          "tc": "這是一件非常温暖人心的事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's a very heartwarming thing to see."
+            }
+          ]
+        },
+        {
+          "en": "To see how happy the elephants were and how happy the workers were to be with the elephants.",
+          "tc": "看看大象有多快樂，工人們和大象在一起有多快樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "To see how happy the elephants were and how happy the workers were to be with the elephants."
+            }
+          ]
+        },
+        {
+          "en": "Everyone was incredibly kind during my whole stay.",
+          "tc": "在我整個住宿期間，每個人都非常友善。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Everyone was incredibly kind during my whole stay."
+            }
+          ]
+        },
+        {
+          "en": "Like here.",
+          "tc": "就像這里。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like here."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "This is tu.",
+          "tc": "這是你。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is tu."
+            }
+          ]
+        },
+        {
+          "en": "It means watermelon.",
+          "tc": "意思是西瓜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It means watermelon."
+            }
+          ]
+        },
+        {
+          "en": "So cute.",
+          "tc": "太可愛了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So cute."
+            }
+          ]
+        },
+        {
+          "en": "I know.",
+          "tc": "我知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I know."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "And he was like a watermelon.",
+          "tc": "他就像一個西瓜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And he was like a watermelon."
+            }
+          ]
+        },
+        {
+          "en": "So sweet.",
+          "tc": "太甜了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So sweet."
+            }
+          ]
+        },
+        {
+          "en": "He was always trying to steal the bamboo from anyone who had or maybe looked like they had bamboo.",
+          "tc": "他總是試圖从任何擁有或看起來擁有竹子的人那里偷竹子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He was always trying to steal the bamboo from anyone who had or maybe looked like they had bamboo."
+            }
+          ]
+        },
+        {
+          "en": "He also loved eating oranges and corn.",
+          "tc": "他还喜歡吃橙子和玉米。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He also loved eating oranges and corn."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
+      "sentences": [
+        {
+          "en": "Finally, we bathed and swam with the elephants in the river.",
+          "tc": "最後，我們和大象一起在河里洗澡、游泳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Finally, we bathed and swam with the elephants in the river."
+            }
+          ]
+        },
+        {
+          "en": "This interaction was super close up with the elephants and it was probably my favorite interaction with them.",
+          "tc": "這種與大象的互動非常近距離，這可能是我最喜歡與它們的互動。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This interaction was super close up with the elephants and it was probably my favorite interaction with them."
+            }
+          ]
+        },
+        {
+          "en": "But it was even more touching to see the elephants playing on their own in the river.",
+          "tc": "但看到大象在河里独自玩耍更讓人感動。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But it was even more touching to see the elephants playing on their own in the river."
+            }
+          ]
+        },
+        {
+          "en": "Just enjoying their bath time, unbothered by any humans, just being happy elephants together.",
+          "tc": "只是享受洗澡的时間，不受任何人类的打扰，只是快樂地在一起。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Just enjoying their bath time, unbothered by any humans, just being happy elephants together."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-29",
+      "no": "29",
+      "titleZh": "第 29 段",
+      "titleEn": "Part 29",
+      "sentences": [
+        {
+          "en": "This was an unforgettable experience that I will cherish in my heart forever.",
+          "tc": "這是一次難忘的經历，我将永遠铭记在心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This was an unforgettable experience that I will cherish in my heart forever."
+            }
+          ]
+        },
+        {
+          "en": "And I'm so happy I can share this with you.",
+          "tc": "我很高興能與您分享這一点。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I'm so happy I can share this with you."
+            }
+          ]
+        },
+        {
+          "en": "Hopefully you enjoyed listening to my story and you learned some new words while listening and you can be a part of protecting animals environments and giving them a better life.",
+          "tc": "希望您喜歡聽我的故事，并在聽的過程中學到一些新單詞，并且您可以成為保護動物環境并讓它們過上更好生活的一部分。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hopefully you enjoyed listening to my story and you learned some new words while listening and you can be a part of protecting animals environments and giving them a better life."
+            }
+          ]
+        },
+        {
+          "en": "Check out the foundation linked in this video.",
+          "tc": "查看該視頻中链接的基金會。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Check out the foundation linked in this video."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-30",
+      "no": "30",
+      "titleZh": "第 30 段",
+      "titleEn": "Part 30",
+      "sentences": [
+        {
+          "en": "Every little bit helps a lot.",
+          "tc": "每一点点都有很大幫助。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every little bit helps a lot."
+            }
+          ]
+        },
+        {
+          "en": "Now, if you want more from these videos, PDF transcripts, feedback from me, and extra little videos where you can practice English every day, then check out my English course.",
+          "tc": "現在，如果您想从這些視頻、PDF成绩單、我的反馈以及可以每天練習英語的額外小視頻中获得更多信息，請查看我的英語課程。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, if you want more from these videos, PDF transcripts, feedback from me, and extra little videos where you can practice English every day, then check out my English course."
+            }
+          ]
+        },
+        {
+          "en": "The link is in my bio now.",
+          "tc": "該链接現在在我的簡历中。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The link is in my bio now."
+            }
+          ]
+        },
+        {
+          "en": "Reflect on this for one moment.",
+          "tc": "思考一下這一点。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Reflect on this for one moment."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-31",
+      "no": "31",
+      "titleZh": "第 31 段",
+      "titleEn": "Part 31",
+      "sentences": [
+        {
+          "en": "Where is a place you have always wanted to visit?",
+          "tc": "你一直想去的地方是哪里？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Where is a place you have always wanted to visit?"
+            }
+          ]
+        },
+        {
+          "en": "A place you have always felt connected to for some reason.",
+          "tc": "出于某種原因你總是感覺有联系的地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A place you have always felt connected to for some reason."
+            }
+          ]
+        },
+        {
+          "en": "Let me know in the comments.",
+          "tc": "請在评论中告诉我。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let me know in the comments."
+            }
+          ]
+        },
+        {
+          "en": "I'll see you next Wednesday.",
+          "tc": "下周三见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll see you next Wednesday."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-32",
+      "no": "32",
+      "titleZh": "第 32 段",
+      "titleEn": "Part 32",
+      "sentences": [
+        {
+          "en": "Bye.",
+          "tc": "再见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        },
+        {
+          "en": ">> >> Oh,.",
+          "tc": ">>>>哦，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": ">> >> Oh,."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -602,153 +1686,178 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "elephants",
-          "kk": "/elephants/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephants 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-comprehensible",
+          "lemma": "comprehensible",
+          "english": "comprehensible",
+          "kk": "/comprehensible/",
+          "partOfSpeech": "adj.",
+          "meaning": "可理解的",
           "highlight": true
         },
         {
-          "english": "elephant",
-          "kk": "/elephant/",
-          "partOfSpeech": "n.",
-          "meaning": "大象",
-          "note": "看到 elephant 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-phrase",
+          "lemma": "phrase",
+          "english": "phrases",
+          "kk": "/phrase/",
+          "partOfSpeech": "noun",
+          "meaning": "片語",
           "highlight": true
         },
         {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "dreamed",
-          "kk": "/dreamed/",
-          "partOfSpeech": "v.",
-          "meaning": "夢見",
-          "note": "看到 dreamed 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "eat",
-          "kk": "/eat/",
-          "partOfSpeech": "v.",
-          "meaning": "吃",
-          "note": "看到 eat 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "feed",
-          "kk": "/feed/",
-          "partOfSpeech": "v.",
-          "meaning": "餵食",
-          "note": "看到 feed 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "little",
-          "kk": "/little/",
-          "partOfSpeech": "n.",
-          "meaning": "小的",
-          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
+          "id": "word-sanctuary",
+          "lemma": "sanctuary",
           "english": "sanctuary",
           "kk": "/sanctuary/",
-          "partOfSpeech": "n.",
-          "meaning": "避難所",
-          "note": "看到 sanctuary 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "partOfSpeech": "noun",
+          "meaning": "保護區",
+          "highlight": true
+        },
+        {
+          "id": "word-elephant",
+          "lemma": "elephant",
+          "english": "elephant",
+          "kk": "/elephant/",
+          "partOfSpeech": "noun",
+          "meaning": "大象",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
       "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "Welcome back to my Slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and __welcome back__ to my __Slow English podcast__.",
+          "tc": "歡迎回來"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-slow-english-podcast",
+      "phrase": "slow English podcast",
+      "meaning": "慢速英文播客",
       "examples": [
         {
-          "en": "Today I want to tell you about my trip to the elephant sanctuary in Chiang Mai, Thailand.",
-          "tc": "今天我想向大家介紹我去泰國清邁大象保護區的旅行。"
+          "en": "Hello and __welcome back__ to my __Slow English podcast__.",
+          "tc": "慢速英文播客"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "try to",
-      "meaning": "嘗試",
+      "id": "phrase-hang-out",
+      "phrase": "hang out",
+      "meaning": "出去玩",
       "examples": [
         {
-          "en": "You could tell everyone would try to feed baby Dea, but Mo and Mipo were so greedy.",
-          "tc": "可以看出每個人都會嘗試餵養嬰兒 Dea，但 Mo 和 Mipo 太貪婪了。"
+          "en": "Then when I grew up and I realized you could see elephants, __hang out__ with elephants and feed them in Thailand.",
+          "tc": "出去玩"
         }
+      ]
+    },
+    {
+      "id": "phrase-take-care-of",
+      "phrase": "take care of",
+      "meaning": "照顧",
+      "examples": [
+        {
+          "en": "The grounds where they __take care of__ the elephants.",
+          "tc": "照顧"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-get-item",
+      "word": "get",
+      "familiarMeaning": "得到；到達",
+      "usage": "表示理解、取得服務或變成某種狀態",
+      "translation": "理解；取得",
+      "examples": [
+        "And then we head back to our bungalow to 《get》 [sighs and gasps] some rest before our big day with the elephants."
+      ]
+    },
+    {
+      "id": "usage-have-item",
+      "word": "have",
+      "familiarMeaning": "有",
+      "usage": "表示吃喝、經歷或享有",
+      "translation": "喝；經歷；享有",
+      "examples": [
+        "I 《have》 always dreamed of traveling to Thailand someday to see the elephants."
+      ]
+    },
+    {
+      "id": "usage-make-item",
+      "word": "make",
+      "familiarMeaning": "製作",
+      "usage": "表示產生、犯下或做出",
+      "translation": "產生；犯下；做出",
+      "examples": [
+        "And don't forget to like this video so I can 《make》 more videos like these."
+      ]
+    },
+    {
+      "id": "usage-feel-item",
+      "word": "feel",
+      "familiarMeaning": "摸起來",
+      "usage": "表示人的感受或狀態",
+      "translation": "感覺；覺得",
+      "examples": [
+        "It made me 《feel》 a little bit dizzy."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my Slow English podcast. Learn comprehensible English with me.",
-      "translation": "歡迎回到我的慢速英語podcast。和我一起學習可理解的英語。",
+      "id": "grammar-1",
+      "sentence": "Hello and welcome back to my Slow English podcast.",
+      "translation": "你好，歡迎回到我的慢速英語播客。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定詞片語",
+          "text": "to + 原形動詞",
+          "note": "表示目的、計畫或想做的事。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Today I want to tell you about my trip to the elephant sanctuary in Chiang Mai, Thailand. All in slow English with intermediate level vocabulary. Repeat any new words or phrases that.",
-      "translation": "今天我想向大家介紹我去泰國清邁大象保護區的旅行。全部都是慢速英語，詞彙量中等。重複任何新單字或短語。",
+      "id": "grammar-2",
+      "sentence": "Repeat any new words or phrases that you hear and comment an example sentence with that word or phrase.",
+      "translation": "重複您聽到的任何新單詞或短語，并用該單詞或短語评论例句。",
       "points": [
         {
-          "label": "want to",
-          "text": "want to",
-          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句",
+          "text": "名詞 + who/which/that + 子句",
+          "note": "補充說明前面的名詞。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "You hear and comment an example sentence with that word or phrase.",
-      "translation": "你聽到並評論帶有該單字或短語的例句。",
+      "id": "grammar-3",
+      "sentence": "I have always dreamed of traveling to Thailand someday to see the elephants.",
+      "translation": "我一直夢想有一天能去泰國看大象。",
       "points": [
         {
-          "label": "hear comment example",
-          "text": "hear comment example",
-          "note": "注意 \"hear comment example\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "現在完成式",
+          "text": "have/has + 過去分詞",
+          "note": "連結過去經驗和現在。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "I have always dreamed of traveling to Thailand someday to see the elephants. Ever since I was a little girl,.",
-      "translation": "我一直夢想有一天能去泰國看大象。自從我還是個小女孩的時候，。",
+      "id": "grammar-4",
+      "sentence": "Now, if you want more from these videos, PDF transcripts, feedback from me, and extra little videos where you can practice English every day, then check out my English course.",
+      "translation": "現在，如果您想从這些視頻、PDF成绩單、我的反馈以及可以每天練習英語的額外小視頻中获得更多信息，請查看我的英語課程。",
       "points": [
         {
-          "label": "dreamed traveling thailand",
-          "text": "dreamed traveling thailand",
-          "note": "注意 \"dreamed traveling thailand\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "條件句",
+          "text": "if + 子句 + 主要子句",
+          "note": "說明條件成立時的結果。"
         }
       ]
     }

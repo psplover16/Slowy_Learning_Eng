@@ -15,930 +15,5294 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and welcome back to my Slow English podcast.",
+          "tc": "歡迎回到我的慢速英語podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and welcome back to my Slow English podcast."
+            }
+          ]
         },
         {
-          "en": "Today I have a special guest, Olivia. Hi Olivia or Yuhan. Yeah, but Olivia learned English in just three years. Three years ago,.",
-          "tc": "今天我有一位特別的客人，奧莉維亞。嗨，奧利維亞或雨涵。是的，但奧莉維亞只花了三年就學會了英語。三年前，。"
+          "en": "Today I have a special guest, Olivia.",
+          "tc": "今天我有一位特別的客人，奧莉維亞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today I have a special guest, Olivia."
+            }
+          ]
         },
         {
-          "en": "She didn't speak any English at all!",
-          "tc": "她根本不會說英語！"
+          "en": "Hi Olivia or Yuhan.",
+          "tc": "嗨，奧利維亞或雨涵。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hi Olivia or Yuhan."
+            }
+          ]
         },
         {
-          "en": "She learned English. Um,.",
-          "tc": "她學了英語。嗯，。"
+          "en": "Yeah, but Olivia learned English in just three years.",
+          "tc": "是的，但奧莉維亞只花了三年就學會了英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah, but Olivia learned English in just three years."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "yeah",
-          "kk": "/yeah/",
-          "partOfSpeech": "n.",
-          "meaning": "是的",
-          "note": "看到 yeah 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I think that my audience would love to know.",
-          "tc": "我想我的觀眾很想知道。"
+          "en": "Three years ago, she didn't speak any English at all!",
+          "tc": "三年前，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Three years ago, she didn't speak any English at all!"
+            }
+          ]
         },
         {
-          "en": "Starting to build and structure sentences?",
-          "tc": "開始建構和構造句子？"
+          "en": "So today we're going to have an interview to talk about how she did it, what her struggles were, and why she learned English.",
+          "tc": "她根本不會說英語！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So today we're going to have an interview to talk about how she did it, what her struggles were, and why she learned English."
+            }
+          ]
         },
         {
-          "en": "Is there anything you could tell? Yeah, definitely?",
-          "tc": "有什麼可以告訴你的嗎？是啊，絕對嗎？"
+          "en": "Um, I think that my audience would love to know if you have any tips, anything that got you through the hardest part of starting to speak English, which is speaking.",
+          "tc": "她學了英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, I think that my audience would love to know if you have any tips, anything that got you through the hardest part of starting to speak English, which is speaking."
+            }
+          ]
         },
         {
-          "en": "I have so many things to talk because I also teach Chinese.",
-          "tc": "我有很多話要說，因為我也教中文。"
+          "en": "Um, any tips on memorizing vocabulary, on starting to speak, on starting to build and structure sentences?",
+          "tc": "嗯，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, any tips on memorizing vocabulary, on starting to speak, on starting to build and structure sentences?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "yeah",
-          "kk": "/yeah/",
-          "partOfSpeech": "n.",
-          "meaning": "是的",
-          "note": "看到 yeah 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：語言學習",
-      "titleEn": "Part 3: language",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I know how the process goes for like teaching uh for learning language. So basically the very use of tip.",
-          "tc": "我知道這個過程是如何進行的，就像教呃學習語言一樣。所以基本上就是使用小費。"
+          "en": "Is there anything you could tell?",
+          "tc": "我想我的觀眾很想知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Is there anything you could tell?"
+            }
+          ]
         },
         {
-          "en": "I tell you before is like you put a sticker on the things for reme uh the memorizing the words. Yeah.",
-          "tc": "我之前告訴過你，就像你在東西上貼了一張貼紙，以便記住單字。是的。"
+          "en": "Yeah, definitely.",
+          "tc": "開始建構和構造句子？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah, definitely."
+            }
+          ]
         },
         {
-          "en": "For example, this is a cup. So you put the sticker on it says cup. So every time you saw it, you know it's a cup. So I at the time.",
-          "tc": "例如，這是一個杯子。所以你把貼紙貼在上面寫著杯子。所以每次你看到它，你就知道它是一個杯子。所以我當時。"
+          "en": "I have so many things to talk because I also teach Chinese.",
+          "tc": "有什麼可以告訴你的嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have so many things to talk because I also teach Chinese."
+            }
+          ]
         },
         {
-          "en": "The first time I went to the US in my room is full of stickers.",
-          "tc": "第一次去美國，我的房間裡貼滿了貼紙。"
+          "en": "So, I know how the process goes for like teaching uh for learning language.",
+          "tc": "是啊，絕對嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I know how the process goes for like teaching uh for learning language."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "put",
-          "kk": "/put/",
-          "partOfSpeech": "n.",
-          "meaning": "放",
-          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "time",
-          "kk": "/time/",
-          "partOfSpeech": "n.",
-          "meaning": "時間",
-          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "For example, window I will put window and couch I will put couch. Stove everything.",
-          "tc": "例如，窗戶我將放置窗戶，沙發我將放置沙發。把所有東西都燒起來。"
+          "en": "So basically the very use of tip I tell you before is like you put a sticker on the things for reme uh the memorizing the words.",
+          "tc": "我有很多話要說，因為我也教中文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So basically the very use of tip I tell you before is like you put a sticker on the things for reme uh the memorizing the words."
+            }
+          ]
         },
         {
-          "en": "I can see in my eyes right I will wrote it.",
-          "tc": "我可以從我的眼睛看到我會寫它。"
+          "en": "Yeah.",
+          "tc": "我知道這個過程是如何進行的，就像教呃學習語言一樣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
         },
         {
-          "en": "I will write it and I will you know just help myself to remember so every time.",
-          "tc": "我會寫下來，你知道，每次都幫助自己記得。"
+          "en": "For example, this is a cup.",
+          "tc": "所以基本上就是使用小費。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, this is a cup."
+            }
+          ]
         },
         {
-          "en": "I'm trying to say okay.",
-          "tc": "我試著說好吧。"
+          "en": "So you put the sticker on it says cup.",
+          "tc": "我之前告訴過你，就像你在東西上貼了一張貼紙，以便記住單字。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So you put the sticker on it says cup."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "put",
-          "kk": "/put/",
-          "partOfSpeech": "n.",
-          "meaning": "放",
-          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "time",
-          "kk": "/time/",
-          "partOfSpeech": "n.",
-          "meaning": "時間",
-          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "I'm going to cook today.",
-          "tc": "今天我要去做飯。"
+          "en": "So every time you saw it, you know it's a cup.",
+          "tc": "是的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So every time you saw it, you know it's a cup."
+            }
+          ]
         },
         {
-          "en": "I'm going to use the stove.",
-          "tc": "我要用爐子。"
+          "en": "So I at the time the first time I went to the US in my room is full of stickers.",
+          "tc": "例如，這是一個杯子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I at the time the first time I went to the US in my room is full of stickers."
+            }
+          ]
         },
         {
-          "en": "I'm going to use uh the boss.",
-          "tc": "我要用呃老闆。"
+          "en": "For example, window I will put window and couch I will put couch.",
+          "tc": "所以你把貼紙貼在上面寫著杯子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, window I will put window and couch I will put couch."
+            }
+          ]
         },
         {
-          "en": "I'm going to use a fork and everything it's for daily life because this is.",
-          "tc": "我將使用叉子和日常生活中的所有東西，因為這是。"
+          "en": "Stove everything everything I can see in my eyes right I will wrote it and I will write it and I will you know just help myself to remember.",
+          "tc": "所以每次你看到它，你就知道它是一個杯子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Stove everything everything I can see in my eyes right I will wrote it and I will write it and I will you know just help myself to remember."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：工作與學習",
-      "titleEn": "Part 6: work",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "How you get around how you start to you know understand like the daily life works for the basic vocabularies. Just start saying a sentence out loud?",
-          "tc": "你如何繞過你如何開始你知道理解就像日常生活中的基本詞彙。剛開始大聲說一句話嗎？"
+          "en": "So every time when I'm trying to say okay I'm going to cook today so I'm going to use the stove I'm going to use uh the boss I'm going to use a fork.",
+          "tc": "所以我當時。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So every time when I'm trying to say okay I'm going to cook today so I'm going to use the stove I'm going to use uh the boss I'm going to use a fork."
+            }
+          ]
         },
         {
-          "en": "First met you, um, I told you that I speak a little bit of Chinese and I tried to say one sentence in Chinese, but I couldn't say anything.",
-          "tc": "第一次見到你，嗯，我告訴你我會說一點中文，我試著用中文說一句話，但我什麼也說不出來。"
+          "en": "And everything it's for daily life because this is how you get around how you start to you know understand like the daily life works for the basic vocabularies.",
+          "tc": "第一次去美國，我的房間裡貼滿了貼紙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And everything it's for daily life because this is how you get around how you start to you know understand like the daily life works for the basic vocabularies."
+            }
+          ]
         },
         {
-          "en": "One thing to say because I didn't know how to say window or table or cup or anything basic that was around me. Exactly.",
-          "tc": "有一件事要說，因為我不知道如何說窗戶、桌子、杯子或我周圍的任何基本東西。確切地。"
+          "en": "Just start saying a sentence out loud.",
+          "tc": "例如，窗戶我將放置窗戶，沙發我將放置沙發。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Just start saying a sentence out loud."
+            }
+          ]
         },
         {
-          "en": "I immediately just couldn't think of anything to say. But by doing that,.",
-          "tc": "我立刻想不出該說什麼。但透過這樣做，。"
+          "en": "For example, I remember when I first met you, um, I told you that I speak a little bit of Chinese and I tried to say one sentence in Chinese, but I couldn't say anything.",
+          "tc": "把所有東西都燒起來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, I remember when I first met you, um, I told you that I speak a little bit of Chinese and I tried to say one sentence in Chinese, but I couldn't say anything."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "I mean, I put Yeah. I put stickers all over my room. I'll show.",
-          "tc": "我的意思是，我把「是的」。我把貼紙貼滿了我的房間。我會展示。"
+          "en": "And I had been studying Chinese for years, but I still couldn't think of one thing to say because I didn't know how to say window or table or cup or anything basic that was around me.",
+          "tc": "我可以從我的眼睛看到我會寫它。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I had been studying Chinese for years, but I still couldn't think of one thing to say because I didn't know how to say window or table or cup or anything basic that was around me."
+            }
+          ]
         },
         {
-          "en": "You guys like a video of all my room with stickers. And it's helped me to improve and to start speaking Chinese more confidently. That's really a useful way for me.",
-          "tc": "你們喜歡我所有房間貼有貼紙的影片。它幫助我提高並開始更有自信地說中文。這對我來說確實是一個有用的方法。"
+          "en": "Exactly.",
+          "tc": "我會寫下來，你知道，每次都幫助自己記得。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Exactly."
+            }
+          ]
         },
         {
-          "en": "I discovered this by myself because I just feel like when you're learning a new language like right now.",
-          "tc": "我自己發現了這一點，因為我感覺就像你現在正在學習新語言一樣。"
+          "en": "So, I immediately just couldn't think of anything to say.",
+          "tc": "我試著說好吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I immediately just couldn't think of anything to say."
+            }
+          ]
         },
         {
-          "en": "I'm also learning Spanish right now. You got to get into that language. You got to immerse yourself in that world. Just think in that way.",
-          "tc": "我現在也在學習西班牙語。你必須進入那種語言。你必須讓自己沉浸在那個世界裡。就這樣想吧。"
+          "en": "But by doing that, I mean, I put Yeah.",
+          "tc": "今天我要去做飯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But by doing that, I mean, I put Yeah."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "put",
-          "kk": "/put/",
-          "partOfSpeech": "n.",
-          "meaning": "放",
-          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "I like to write journals. I my all my journals are in Chinese.",
-          "tc": "我喜歡寫日記。我所有的日記都是中文的。"
+          "en": "Yeah.",
+          "tc": "我要用爐子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
         },
         {
-          "en": "Then since I start to learn English, I start to write everything in English. Even just like very short sentences. Um.",
-          "tc": "然後自從我開始學習英語，我就開始用英語寫所有的東西。即使只是像很短的句子。嗯。"
+          "en": "I put stickers all over my room.",
+          "tc": "我要用呃老闆。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I put stickers all over my room."
+            }
+          ]
         },
         {
-          "en": "I would say.",
-          "tc": "我會說。"
+          "en": "I'll show you guys like a video of all my room with stickers.",
+          "tc": "我將使用叉子和日常生活中的所有東西，因為這是。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll show you guys like a video of all my room with stickers."
+            }
+          ]
         },
         {
-          "en": "I'm happy. So maybe the day one I will say okay uh.",
-          "tc": "我很高興。所以也許第一天我會說好吧呃。"
+          "en": "And it's helped me to improve and to start speaking Chinese more confidently.",
+          "tc": "你如何繞過你如何開始你知道理解就像日常生活中的基本詞彙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And it's helped me to improve and to start speaking Chinese more confidently."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "Today I went to school.",
-          "tc": "今天我去學校了。"
+          "en": "That's really a useful way for me.",
+          "tc": "剛開始大聲說一句話嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's really a useful way for me."
+            }
+          ]
         },
         {
-          "en": "I had fun with my friends.",
-          "tc": "我和朋友們玩得很開心。"
+          "en": "I discovered this by myself because I just feel like when you're learning a new language like right now I'm also learning Spanish right now.",
+          "tc": "第一次見到你，嗯，我告訴你我會說一點中文，我試著用中文說一句話，但我什麼也說不出來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I discovered this by myself because I just feel like when you're learning a new language like right now I'm also learning Spanish right now."
+            }
+          ]
         },
         {
-          "en": "I feel happy. And tomorrow maybe I was um say a little bit like more like okay.",
-          "tc": "我感到很高興。明天也許我會說有點像好吧。"
+          "en": "You got to get into that language.",
+          "tc": "有一件事要說，因為我不知道如何說窗戶、桌子、杯子或我周圍的任何基本東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You got to get into that language."
+            }
+          ]
         },
         {
-          "en": "We did pool.",
-          "tc": "我們玩了桌球。"
+          "en": "You got to immerse yourself in that world.",
+          "tc": "確切地。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You got to immerse yourself in that world."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：食物與用餐",
-      "titleEn": "Part 10: food",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "We went to dinner.",
-          "tc": "我們去吃晚餐了。"
+          "en": "Just think in that way.",
+          "tc": "我立刻想不出該說什麼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Just think in that way."
+            }
+          ]
         },
         {
-          "en": "We talked a lot of things.",
-          "tc": "我們聊了很多事情。"
+          "en": "For example, from first beginning I like to write journals.",
+          "tc": "但透過這樣做，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, from first beginning I like to write journals."
+            }
+          ]
         },
         {
-          "en": "I feel happy. So I just wrote everything and in English and trying to build up my like way of thinking in English.",
-          "tc": "我感到很高興。所以我只是用英文寫下所有內容，並試著用英文建立我喜歡的思考方式。"
+          "en": "I my all my journals are in Chinese.",
+          "tc": "我的意思是，我把「是的」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I my all my journals are in Chinese."
+            }
+          ]
         },
         {
-          "en": "Then just like as time goes by for the last three years, it just gradually changed like even right now seriously.",
-          "tc": "然後就像過去三年時間的流逝一樣，它逐漸變得像現在一樣嚴重。"
+          "en": "And then since I start to learn English, I start to write everything in English.",
+          "tc": "我把貼紙貼滿了我的房間。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And then since I start to learn English, I start to write everything in English."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "time",
-          "kk": "/time/",
-          "partOfSpeech": "n.",
-          "meaning": "時間",
-          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：日常生活",
-      "titleEn": "Part 11: everyday life",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "I'm not a native ch.",
-          "tc": "我不是土生土長的ch。"
+          "en": "Even just like very short sentences.",
+          "tc": "我會展示。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Even just like very short sentences."
+            }
+          ]
         },
         {
-          "en": "I'm not a native English speaker.",
-          "tc": "我的母語不是英語。"
+          "en": "Um for example, I would say today I'm happy.",
+          "tc": "你們喜歡我所有房間貼有貼紙的影片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um for example, I would say today I'm happy."
+            }
+          ]
         },
         {
-          "en": "I'm thinking in English even.",
-          "tc": "我甚至用英語思考。"
+          "en": "Right?",
+          "tc": "它幫助我提高並開始更有自信地說中文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Right?"
+            }
+          ]
         },
         {
-          "en": "I don't speak perfectly but my mind is in English.",
-          "tc": "我的口語不太好，但我的腦子裡都是英文。"
+          "en": "And why I'm happy.",
+          "tc": "這對我來說確實是一個有用的方法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And why I'm happy."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：日常生活",
-      "titleEn": "Part 12: everyday life",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "I'm really think.",
-          "tc": "我真的很想"
+          "en": "So maybe the day one I will say okay uh today I went to school and I had fun with my friends.",
+          "tc": "我自己發現了這一點，因為我感覺就像你現在正在學習新語言一樣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So maybe the day one I will say okay uh today I went to school and I had fun with my friends."
+            }
+          ]
         },
         {
-          "en": "I'm not thinking about are Yeah.",
-          "tc": "我不是在想是呀。"
+          "en": "I feel happy.",
+          "tc": "我現在也在學習西班牙語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel happy."
+            }
+          ]
         },
         {
-          "en": "I'm literally just thinking in English right now. Yeah. And that's a huge step. That's something that.",
-          "tc": "我現在真的只是用英語思考。是的。這是一個巨大的進步。就是這樣的事。"
+          "en": "And tomorrow maybe I was um say a little bit like more like okay and today I went to school and I had fun with my friends.",
+          "tc": "你必須進入那種語言。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And tomorrow maybe I was um say a little bit like more like okay and today I went to school and I had fun with my friends."
+            }
+          ]
         },
         {
-          "en": "I'm sure so many of my viewers would want to reach.",
-          "tc": "我確信很多觀眾都想到達。"
+          "en": "I we did pool and then we went to dinner and we talked a lot of things and I feel happy.",
+          "tc": "你必須讓自己沉浸在那個世界裡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I we did pool and then we went to dinner and we talked a lot of things and I feel happy."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "yeah",
-          "kk": "/yeah/",
-          "partOfSpeech": "n.",
-          "meaning": "是的",
-          "note": "看到 yeah 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-13",
       "no": "13",
-      "titleZh": "第 13 段：日常生活",
-      "titleEn": "Part 13: everyday life",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
       "sentences": [
         {
-          "en": "What do you think was the biggest thing that broke through that maybe um feeling of being scared or shy to speak?",
-          "tc": "你認為最大的突破是什麼，也許是害怕或害羞的感覺？"
+          "en": "So I just wrote everything and in English and trying to build up my like way of thinking in English.",
+          "tc": "就這樣想吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I just wrote everything and in English and trying to build up my like way of thinking in English."
+            }
+          ]
         },
         {
-          "en": "What do you think got you through that hardest step of starting?",
-          "tc": "你認為是什麼讓你度過了起步階段最艱難的一步？"
+          "en": "Then just like as time goes by for the last three years.",
+          "tc": "我喜歡寫日記。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then just like as time goes by for the last three years."
+            }
+          ]
         },
         {
-          "en": "I said, don't think about what others think about you. That's the most important things because you learn it for yourself. You learn it to express yourself.",
-          "tc": "我說，不要考慮別人對你的看法。這是最重要的事情，因為這是你自己學習的。你學習它是為了表達自己。"
+          "en": "It just gradually gradually changed like even right now seriously I'm not a native ch I'm not a native English speaker but I'm thinking in English even I don't speak perfectly but my mind is in English.",
+          "tc": "我所有的日記都是中文的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It just gradually gradually changed like even right now seriously I'm not a native ch I'm not a native English speaker but I'm thinking in English even I don't speak perfectly but my mind is in English."
+            }
+          ]
         },
         {
-          "en": "The first time I was in the US, I was hanging out with a lot of people. When I was there, I just don't talk.",
-          "tc": "我第一次來美國時，和很多人一起出去玩。當我在那裡時，我只是不說話。"
+          "en": "I'm really think for example 1 plus one is equal to I'm not thinking about are Yeah.",
+          "tc": "然後自從我開始學習英語，我就開始用英語寫所有的東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm really think for example 1 plus one is equal to I'm not thinking about are Yeah."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-14",
       "no": "14",
-      "titleZh": "第 14 段：日常生活",
-      "titleEn": "Part 14: everyday life",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
       "sentences": [
         {
-          "en": "I feel like.",
-          "tc": "我覺得。"
+          "en": "So I'm literally just thinking in English right now.",
+          "tc": "即使只是像很短的句子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I'm literally just thinking in English right now."
+            }
+          ]
         },
         {
-          "en": "I'm transparent. When I was a lot of people,.",
-          "tc": "我是透明的。當我還是很多人的時候，"
+          "en": "Yeah.",
+          "tc": "嗯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
         },
         {
-          "en": "I feel nervous.",
-          "tc": "我感到緊張。"
+          "en": "Yeah.",
+          "tc": "我會說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
         },
         {
-          "en": "I feel like why should I talk?",
-          "tc": "我覺得我為什麼要說話？"
+          "en": "Yeah.",
+          "tc": "我很高興。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-15",
       "no": "15",
-      "titleZh": "第 15 段：日常生活",
-      "titleEn": "Part 15: everyday life",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
       "sentences": [
         {
-          "en": "I don't understand.",
-          "tc": "我不明白。"
+          "en": "And that's a huge step.",
+          "tc": "所以也許第一天我會說好吧呃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And that's a huge step."
+            }
+          ]
         },
         {
-          "en": "I don't know anything.",
-          "tc": "我什麼都不知道。"
+          "en": "That's something that I'm sure so many of my viewers would want to reach.",
+          "tc": "今天我去學校了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's something that I'm sure so many of my viewers would want to reach."
+            }
+          ]
         },
         {
-          "en": "I don't know the name.",
-          "tc": "我不知道名字。"
+          "en": "So, what do you think was the biggest thing that broke through that maybe um feeling of being scared or shy to speak?",
+          "tc": "我和朋友們玩得很開心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, what do you think was the biggest thing that broke through that maybe um feeling of being scared or shy to speak?"
+            }
+          ]
         },
         {
-          "en": "I don't know any vocabulary, but you know, I just don't know what to say.",
-          "tc": "我不懂任何詞彙，但你知道，我只是不知道該說什麼。"
+          "en": "What do you think got you through that hardest step of of starting?",
+          "tc": "我感到很高興。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you think got you through that hardest step of of starting?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-16",
       "no": "16",
-      "titleZh": "第 16 段：日常生活",
-      "titleEn": "Part 16: everyday life",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
       "sentences": [
         {
-          "en": "I feel so nervous, so awkward, but I put myself in that situation thousands of times. I know.",
-          "tc": "我感到很緊張，很尷尬，但我已經無數次把自己置於那種境地了。我知道。"
+          "en": "I think for me is a mindset.",
+          "tc": "明天也許我會說有點像好吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think for me is a mindset."
+            }
+          ]
         },
         {
-          "en": "I'm not comfortable, but every time.",
-          "tc": "我不太舒服，但每次都這樣。"
+          "en": "Like what I said, don't think about what others think about you.",
+          "tc": "我們玩了桌球。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like what I said, don't think about what others think about you."
+            }
+          ]
         },
         {
-          "en": "I'm trying to speak a little bit.",
-          "tc": "我試著說一點。"
+          "en": "That's the most important things because you learn it for yourself.",
+          "tc": "我們去吃晚餐了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's the most important things because you learn it for yourself."
+            }
+          ]
         },
         {
-          "en": "For example, I will ask, \"What's that cartoon?\" Oh,.",
-          "tc": "例如，我會問：「那是什麼卡通片？」哦，。"
+          "en": "You learn it to express yourself.",
+          "tc": "我們聊了很多事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You learn it to express yourself."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-17",
       "no": "17",
-      "titleZh": "第 17 段：日常生活",
-      "titleEn": "Part 17: everyday life",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
       "sentences": [
         {
-          "en": "Tell me how to spell it? Because maybe.",
-          "tc": "告訴我怎麼拼？因為也許。"
+          "en": "For example, when the first time I was in the US, I was hanging out with a lot of people.",
+          "tc": "我感到很高興。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, when the first time I was in the US, I was hanging out with a lot of people."
+            }
+          ]
         },
         {
-          "en": "I don't even know how to spell it. And maybe I will look it up on the Google.",
-          "tc": "我什至不知道如何拼寫它。也許我會在谷歌上查找它。"
+          "en": "When I was there, I just don't talk.",
+          "tc": "所以我只是用英文寫下所有內容，並試著用英文建立我喜歡的思考方式。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I was there, I just don't talk."
+            }
+          ]
         },
         {
-          "en": "I will say oh this is a cartoon maybe I will watch.",
-          "tc": "我會說哦，這是一部動畫片，也許我會去看。"
+          "en": "I feel like I'm transparent.",
+          "tc": "然後就像過去三年時間的流逝一樣，它逐漸變得像現在一樣嚴重。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel like I'm transparent."
+            }
+          ]
         },
         {
-          "en": "They talk about this cartoon I will know about it and I will know maybe I can talk about okay I know this character.",
-          "tc": "他們談論這部動畫片，我會知道它，我會知道也許我可以談論，好吧，我知道這個角色。"
+          "en": "When I was a lot of people, I feel nervous.",
+          "tc": "我不是土生土長的ch。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I was a lot of people, I feel nervous."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-18",
       "no": "18",
-      "titleZh": "第 18 段：日常生活",
-      "titleEn": "Part 18: everyday life",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
       "sentences": [
         {
-          "en": "He look like, right? it's just like slow progress but the main things is just put yourself like out of your comfort zone completely and enjoy the nervous** to be honest enjoy.",
-          "tc": "他看起來像吧？這就像緩慢的進步，但主要的事情就是讓自己完全脫離舒適區，享受緊張**說實話享受。"
+          "en": "I feel like why should I talk?",
+          "tc": "我的母語不是英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel like why should I talk?"
+            }
+          ]
         },
         {
-          "en": "You feel like okay u something like emergency you just feel like nervous.",
-          "tc": "你感覺還好，但遇到緊急情況，你只是感到緊張。"
+          "en": "I don't understand.",
+          "tc": "我甚至用英語思考。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't understand."
+            }
+          ]
         },
         {
-          "en": "You know at the time.",
-          "tc": "你當時就知道了。"
+          "en": "And they're talking about Cartoon that watched when they're young.",
+          "tc": "我的口語不太好，但我的腦子裡都是英文。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And they're talking about Cartoon that watched when they're young."
+            }
+          ]
         },
         {
-          "en": "Then you will remember better to be honest yeah mhm completely yeah.",
-          "tc": "然後你會更好地記得說實話，是的，嗯，完全是的。"
+          "en": "I don't know anything.",
+          "tc": "我真的很想我不是在想是呀。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know anything."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-19",
       "no": "19",
-      "titleZh": "第 19 段：日常生活",
-      "titleEn": "Part 19: everyday life",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
       "sentences": [
         {
-          "en": "I go to dance class.",
-          "tc": "我去上舞蹈課。"
+          "en": "I don't know the name.",
+          "tc": "我現在真的只是用英語思考。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know the name."
+            }
+          ]
         },
         {
-          "en": "Sometimes the dance is so difficult and I see everyone around me.",
-          "tc": "有時舞蹈是如此困難，我看到我周圍的每個人。"
+          "en": "I don't know any vocabulary, but you know, I just don't know what to say and I feel so nervous, so awkward, but I put myself in that situation thousands of times.",
+          "tc": "是的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know any vocabulary, but you know, I just don't know what to say and I feel so nervous, so awkward, but I put myself in that situation thousands of times."
+            }
+          ]
         },
         {
-          "en": "They can just understand it immediately and remember every step.",
-          "tc": "他們可以立即理解並記住每一步。"
+          "en": "I know I'm not comfortable, but every time I'm trying to speak a little bit.",
+          "tc": "這是一個巨大的進步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I know I'm not comfortable, but every time I'm trying to speak a little bit."
+            }
+          ]
         },
         {
-          "en": "I'm just taking a lot longer than them and it makes me feel really embarrassed and nervous.",
-          "tc": "我只是比他們花的時間長得多，這讓我感到非常尷尬和緊張。"
+          "en": "For example, I will ask, \"What's that cartoon?\"",
+          "tc": "就是這樣的事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, I will ask, \"What's that cartoon?\""
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "time",
-          "kk": "/time/",
-          "partOfSpeech": "n.",
-          "meaning": "時間",
-          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-20",
       "no": "20",
-      "titleZh": "第 20 段：日常生活",
-      "titleEn": "Part 20: everyday life",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
       "sentences": [
         {
-          "en": "Then I learn from that too.",
-          "tc": "然後我也從中學習。"
+          "en": "Oh, can you show me a picture?",
+          "tc": "我確信很多觀眾都想到達。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Oh, can you show me a picture?"
+            }
+          ]
         },
         {
-          "en": "I go home and maybe I practice that same routine so that.",
-          "tc": "我回家後也許會練習同樣的動作。"
+          "en": "Maybe, can you tell me how to spell it?",
+          "tc": "你認為最大的突破是什麼，也許是害怕或害羞的感覺？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Maybe, can you tell me how to spell it?"
+            }
+          ]
         },
         {
-          "en": "I'm better at it. Exactly. Because you don't know like maybe those dancers already learned that dance before.",
-          "tc": "我更擅長。確切地。因為你不知道也許那些舞者以前已經學過這種舞蹈。"
+          "en": "Because maybe I don't even know how to spell it.",
+          "tc": "你認為是什麼讓你度過了起步階段最艱難的一步？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because maybe I don't even know how to spell it."
+            }
+          ]
         },
         {
-          "en": "They're doing it so much better than me. So you just can't compare your progress.",
-          "tc": "他們做得比我好得多。所以你無法比較你的進步。"
+          "en": "And maybe I will look it up on the Google and I will say oh this is a cartoon maybe I will watch you a little bit later.",
+          "tc": "我說，不要考慮別人對你的看法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And maybe I will look it up on the Google and I will say oh this is a cartoon maybe I will watch you a little bit later."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
         {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "So when the next time when they talk about this cartoon I will know about it and I will know maybe I can talk about okay I know this character.",
+          "tc": "這是最重要的事情，因為這是你自己學習的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So when the next time when they talk about this cartoon I will know about it and I will know maybe I can talk about okay I know this character."
+            }
+          ]
         },
         {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "And what does he look like.",
+          "tc": "你學習它是為了表達自己。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what does he look like."
+            }
+          ]
+        },
+        {
+          "en": "Right?",
+          "tc": "我第一次來美國時，和很多人一起出去玩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Right?"
+            }
+          ]
+        },
+        {
+          "en": "It's just like slow progress but the main things is just put yourself like out of your comfort zone completely and enjoy the nervous** to be honest enjoy nervous.",
+          "tc": "當我在那裡時，我只是不說話。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's just like slow progress but the main things is just put yourself like out of your comfort zone completely and enjoy the nervous** to be honest enjoy nervous."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "That is how you learn.",
+          "tc": "我覺得。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That is how you learn."
+            }
+          ]
+        },
+        {
+          "en": "When you feel nervous in an urgent situation, you remember the language better.",
+          "tc": "我覺得。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When you feel nervous in an urgent situation, you remember the language better."
+            }
+          ]
+        },
+        {
+          "en": "To be honest, nervous moments can help you remember more clearly.",
+          "tc": "我覺得。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "To be honest, nervous moments can help you remember more clearly."
+            }
+          ]
+        },
+        {
+          "en": "When I go to dance class for example sometimes the dance is so difficult and I see everyone around me they can just understand it immediately.",
+          "tc": "我是透明的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I go to dance class for example sometimes the dance is so difficult and I see everyone around me they can just understand it immediately."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "And remember every step and I'm just taking a lot longer than them and it makes me feel really embarrassed and nervous.",
+          "tc": "當我還是很多人的時候，我感到緊張。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And remember every step and I'm just taking a lot longer than them and it makes me feel really embarrassed and nervous."
+            }
+          ]
+        },
+        {
+          "en": "But then I learn from that too.",
+          "tc": "我覺得我為什麼要說話？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But then I learn from that too."
+            }
+          ]
+        },
+        {
+          "en": "I go home and maybe I practice that same routine so that the next class I'm better at it.",
+          "tc": "我不明白。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I go home and maybe I practice that same routine so that the next class I'm better at it."
+            }
+          ]
+        },
+        {
+          "en": "Exactly.",
+          "tc": "我什麼都不知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Exactly."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "Because you don't know like maybe those dancers already learned that dance before and that's why they're doing it so much better than me.",
+          "tc": "我不知道名字。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because you don't know like maybe those dancers already learned that dance before and that's why they're doing it so much better than me."
+            }
+          ]
+        },
+        {
+          "en": "So you just can't compare your progress.",
+          "tc": "我不懂任何詞彙，但你知道，我只是不知道該說什麼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So you just can't compare your progress."
+            }
+          ]
+        },
+        {
+          "en": "You can't compare where you are because you don't really know about anyone else but yourself.",
+          "tc": "我感到很緊張，很尷尬，但我已經無數次把自己置於那種境地了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can't compare where you are because you don't really know about anyone else but yourself."
+            }
+          ]
+        },
+        {
+          "en": "Like uh you told me yesterday, you can only compete with yourself.",
+          "tc": "我知道。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like uh you told me yesterday, you can only compete with yourself."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "Yeah.",
+          "tc": "我不太舒服，但每次都這樣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "Exactly.",
+          "tc": "我試著說一點。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Exactly."
+            }
+          ]
+        },
+        {
+          "en": "Mhm.",
+          "tc": "例如，我會問：「那是什麼卡通片？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mhm."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "」哦，。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "Because what I think about is you really don't know the people where they're from, where they start, when they start.",
+          "tc": "告訴我怎麼拼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because what I think about is you really don't know the people where they're from, where they start, when they start."
+            }
+          ]
+        },
+        {
+          "en": "The only thing you can see just yourself.",
+          "tc": "因為也許。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The only thing you can see just yourself."
+            }
+          ]
+        },
+        {
+          "en": "You can see a person right now is perfect speaking English, but you really don't know how much effort she put in the back, right?",
+          "tc": "我什至不知道如何拼寫它。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can see a person right now is perfect speaking English, but you really don't know how much effort she put in the back, right?"
+            }
+          ]
+        },
+        {
+          "en": "But you know how much effort you put for yourself.",
+          "tc": "也許我會在谷歌上查找它。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But you know how much effort you put for yourself."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "So, as long as you're a little bit better than yesterday, you're doing good, you know?",
+          "tc": "我會說哦，這是一部動畫片，也許我會去看。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, as long as you're a little bit better than yesterday, you're doing good, you know?"
+            }
+          ]
+        },
+        {
+          "en": "Exactly.",
+          "tc": "他們談論這部動畫片，我會知道它，我會知道也許我可以談論，好吧，我知道這個角色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Exactly."
+            }
+          ]
+        },
+        {
+          "en": "And also, there's like people are scared they're going to be judged by others, right?",
+          "tc": "他看起來像吧？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And also, there's like people are scared they're going to be judged by others, right?"
+            }
+          ]
+        },
+        {
+          "en": "That's a big thing.",
+          "tc": "這就像緩慢的進步，但主要的事情就是讓自己完全脫離舒適區，享受緊張**說實話享受。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's a big thing."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
+      "sentences": [
+        {
+          "en": "But that's another thing that I think you just have to get past.",
+          "tc": "你感覺還好，但遇到緊急情況，你只是感到緊張。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But that's another thing that I think you just have to get past."
+            }
+          ]
+        },
+        {
+          "en": "You have to realize it's not about you.",
+          "tc": "你當時就知道了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You have to realize it's not about you."
+            }
+          ]
+        },
+        {
+          "en": "It's about them.",
+          "tc": "然後你會更好地記得說實話，是的，嗯，完全是的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's about them."
+            }
+          ]
+        },
+        {
+          "en": "And if they're judging you, that's because they maybe feel insecure about themselves.",
+          "tc": "我去上舞蹈課。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And if they're judging you, that's because they maybe feel insecure about themselves."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-29",
+      "no": "29",
+      "titleZh": "第 29 段",
+      "titleEn": "Part 29",
+      "sentences": [
+        {
+          "en": "They don't have the courage that you have of making mistakes and failing.",
+          "tc": "有時舞蹈是如此困難，我看到我周圍的每個人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They don't have the courage that you have of making mistakes and failing."
+            }
+          ]
+        },
+        {
+          "en": "Exactly.",
+          "tc": "他們可以立即理解並記住每一步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Exactly."
+            }
+          ]
+        },
+        {
+          "en": "I feel like for example, I'm talking to you right now.",
+          "tc": "我只是比他們花的時間長得多，這讓我感到非常尷尬和緊張。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel like for example, I'm talking to you right now."
+            }
+          ]
+        },
+        {
+          "en": "I'm not speaking perfect English, but I will never think about you're judging me because you are my friend and also you wanted me to improve my language, right?",
+          "tc": "然後我也從中學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm not speaking perfect English, but I will never think about you're judging me because you are my friend and also you wanted me to improve my language, right?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-30",
+      "no": "30",
+      "titleZh": "第 30 段",
+      "titleEn": "Part 30",
+      "sentences": [
+        {
+          "en": "M so I think if the person for example you are judging me right now I don't think you will become friends anymore you know.",
+          "tc": "我回家後也許會練習同樣的動作。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "M so I think if the person for example you are judging me right now I don't think you will become friends anymore you know."
+            }
+          ]
+        },
+        {
+          "en": "That means this person doesn't worth your time you know you should find someone that will love to speak with you you should find someone.",
+          "tc": "我更擅長。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That means this person doesn't worth your time you know you should find someone that will love to speak with you you should find someone."
+            }
+          ]
+        },
+        {
+          "en": "That will never judge you no matter it's for a language or for anything else is the same because you have to find the people they're you feel comfortable with you know if they're judging you.",
+          "tc": "確切地。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That will never judge you no matter it's for a language or for anything else is the same because you have to find the people they're you feel comfortable with you know if they're judging you."
+            }
+          ]
+        },
+        {
+          "en": "That means they're not a good person.",
+          "tc": "因為你不知道也許那些舞者以前已經學過這種舞蹈。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That means they're not a good person."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-31",
+      "no": "31",
+      "titleZh": "第 31 段",
+      "titleEn": "Part 31",
+      "sentences": [
+        {
+          "en": "Yeah, that's very true.",
+          "tc": "他們做得比我好得多。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah, that's very true."
+            }
+          ]
+        },
+        {
+          "en": "And that's a perfect segue into my English community.",
+          "tc": "所以你無法比較你的進步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And that's a perfect segue into my English community."
+            }
+          ]
+        },
+        {
+          "en": "That's where you can that's where you can speak without feeling judged, without feeling the pressure to to speak with someone who is maybe criticizing you or judging you.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's where you can that's where you can speak without feeling judged, without feeling the pressure to to speak with someone who is maybe criticizing you or judging you."
+            }
+          ]
+        },
+        {
+          "en": "You can practice in the community.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can practice in the community."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-32",
+      "no": "32",
+      "titleZh": "第 32 段",
+      "titleEn": "Part 32",
+      "sentences": [
+        {
+          "en": "It's a free space to talk whenever you feel like talking and to talk with teachers from all around the world and have conversations like these naturally to boost your confidence in English.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's a free space to talk whenever you feel like talking and to talk with teachers from all around the world and have conversations like these naturally to boost your confidence in English."
+            }
+          ]
+        },
+        {
+          "en": "Yeah, you can find the link in the description if you're interested.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah, you can find the link in the description if you're interested."
+            }
+          ]
+        },
+        {
+          "en": "Are there any other English learning tips just to get you speaking, get you out of that bubble?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Are there any other English learning tips just to get you speaking, get you out of that bubble?"
+            }
+          ]
+        },
+        {
+          "en": "Mhm.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mhm."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-33",
+      "no": "33",
+      "titleZh": "第 33 段",
+      "titleEn": "Part 33",
+      "sentences": [
+        {
+          "en": "I think what I did the most is shadowing.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think what I did the most is shadowing."
+            }
+          ]
+        },
+        {
+          "en": "And I told you I really like a girl like her name is Eing Goo and she gave me so many inspirations.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I told you I really like a girl like her name is Eing Goo and she gave me so many inspirations."
+            }
+          ]
+        },
+        {
+          "en": "She's like a competitor for like Olympics and she's also going for Stanford for like her university and also she's the model.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She's like a competitor for like Olympics and she's also going for Stanford for like her university and also she's the model."
+            }
+          ]
+        },
+        {
+          "en": "She was doing a lot of things at that time.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She was doing a lot of things at that time."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-34",
+      "no": "34",
+      "titleZh": "第 34 段",
+      "titleEn": "Part 34",
+      "sentences": [
+        {
+          "en": "I was watching her reels on Instagram every day.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was watching her reels on Instagram every day."
+            }
+          ]
+        },
+        {
+          "en": "I would repeat one reel 100 or 200 times and shadow what she said.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would repeat one reel 100 or 200 times and shadow what she said."
+            }
+          ]
+        },
+        {
+          "en": "And also her mindset actually will go into mine as well you know it's very interesting and I do the shadowing like every day every day.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And also her mindset actually will go into mine as well you know it's very interesting and I do the shadowing like every day every day."
+            }
+          ]
+        },
+        {
+          "en": "Because you can also imitate the tongue she's talking and then you will know how you actually react when you talk to people cuz that's a real conversation.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because you can also imitate the tongue she's talking and then you will know how you actually react when you talk to people cuz that's a real conversation."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-35",
+      "no": "35",
+      "titleZh": "第 35 段",
+      "titleEn": "Part 35",
+      "sentences": [
+        {
+          "en": "And that's real logic.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And that's real logic."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "So I think shadowing definitely is very very useful.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I think shadowing definitely is very very useful."
+            }
+          ]
+        },
+        {
+          "en": "Um also watching TV shows I watched a lot American TV shows at the time.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um also watching TV shows I watched a lot American TV shows at the time."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-36",
+      "no": "36",
+      "titleZh": "第 36 段",
+      "titleEn": "Part 36",
+      "sentences": [
+        {
+          "en": "First of all, I will have English subtitle and I will read the English subtitle uh when I'm watching it and I will choose some um very easy like a you know basic shows to watch.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "First of all, I will have English subtitle and I will read the English subtitle uh when I'm watching it and I will choose some um very easy like a you know basic shows to watch."
+            }
+          ]
+        },
+        {
+          "en": "I can't watch friends because friends has so many you know vocabularies.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can't watch friends because friends has so many you know vocabularies."
+            }
+          ]
+        },
+        {
+          "en": "At the time I watch something like you know high school stuff like for example like never had I ever some like a basic stuff.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "At the time I watch something like you know high school stuff like for example like never had I ever some like a basic stuff."
+            }
+          ]
+        },
+        {
+          "en": "Because they're just talking about things in school and I was in school like I was in my grad school at the time.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because they're just talking about things in school and I was in school like I was in my grad school at the time."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-37",
+      "no": "37",
+      "titleZh": "第 37 段",
+      "titleEn": "Part 37",
+      "sentences": [
+        {
+          "en": "So I will find some topic you know in common so I will watch it and I will shadow it as well.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I will find some topic you know in common so I will watch it and I will shadow it as well."
+            }
+          ]
+        },
+        {
+          "en": "Okay.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Okay."
+            }
+          ]
+        },
+        {
+          "en": "Shadowing that's one then.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Shadowing that's one then."
+            }
+          ]
+        },
+        {
+          "en": "And did you ever like do anything to really push yourself like speak to people in the street or embarrass yourself?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And did you ever like do anything to really push yourself like speak to people in the street or embarrass yourself?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-38",
+      "no": "38",
+      "titleZh": "第 38 段",
+      "titleEn": "Part 38",
+      "sentences": [
+        {
+          "en": "I I honestly did.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I I honestly did."
+            }
+          ]
+        },
+        {
+          "en": "Uh first of all I did you know I download some like apps for have international friend because before I don't have any international friend and living in China it's hard to find the foreigners.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Uh first of all I did you know I download some like apps for have international friend because before I don't have any international friend and living in China it's hard to find the foreigners."
+            }
+          ]
+        },
+        {
+          "en": "Even I was living in Shanghai it does has some but not too much.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Even I was living in Shanghai it does has some but not too much."
+            }
+          ]
+        },
+        {
+          "en": "Mhm.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mhm."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-39",
+      "no": "39",
+      "titleZh": "第 39 段",
+      "titleEn": "Part 39",
+      "sentences": [
+        {
+          "en": "So, uh, I was go on this apps called like Hello Talk and some like, you know, other apps and I find people from all over the world.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, uh, I was go on this apps called like Hello Talk and some like, you know, other apps and I find people from all over the world."
+            }
+          ]
+        },
+        {
+          "en": "They wanted to practice like same thing as your community right now.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They wanted to practice like same thing as your community right now."
+            }
+          ]
+        },
+        {
+          "en": "So, like I'm just uh there talking with people because people are all willing to learn.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, like I'm just uh there talking with people because people are all willing to learn."
+            }
+          ]
+        },
+        {
+          "en": "So, we're practicing together and they want to learn Chinese and I want to learn English.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, we're practicing together and they want to learn Chinese and I want to learn English."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-40",
+      "no": "40",
+      "titleZh": "第 40 段",
+      "titleEn": "Part 40",
+      "sentences": [
+        {
+          "en": "So I met this guy actually right now we're best friends right now from the app and we're exchange language and he was learning Chinese.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I met this guy actually right now we're best friends right now from the app and we're exchange language and he was learning Chinese."
+            }
+          ]
+        },
+        {
+          "en": "I was learning English at the time and so and he actually inspired me to become a Chinese teacher and also inspired me to speak better like uh English.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was learning English at the time and so and he actually inspired me to become a Chinese teacher and also inspired me to speak better like uh English."
+            }
+          ]
+        },
+        {
+          "en": "And right now her uh she's right now his uh right now his Chinese is way better than before as well.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And right now her uh she's right now his uh right now his Chinese is way better than before as well."
+            }
+          ]
+        },
+        {
+          "en": "Because he was trying to talk with a lot of people.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because he was trying to talk with a lot of people."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-41",
+      "no": "41",
+      "titleZh": "第 41 段",
+      "titleEn": "Part 41",
+      "sentences": [
+        {
+          "en": "Yeah, I think those apps are super useful for learning, especially if you don't have um maybe the um environment.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah, I think those apps are super useful for learning, especially if you don't have um maybe the um environment."
+            }
+          ]
+        },
+        {
+          "en": "Yeah, the environment or even just the if you don't have the money basically to pay to pay for the courses.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah, the environment or even just the if you don't have the money basically to pay to pay for the courses."
+            }
+          ]
+        },
+        {
+          "en": "Yeah, there's a lot of ways to pay because I didn't pay for anything.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah, there's a lot of ways to pay because I didn't pay for anything."
+            }
+          ]
+        },
+        {
+          "en": "I learned everything by myself because you're teaching but you're also learning.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I learned everything by myself because you're teaching but you're also learning."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-42",
+      "no": "42",
+      "titleZh": "第 42 段",
+      "titleEn": "Part 42",
+      "sentences": [
+        {
+          "en": "Exactly.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Exactly."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "Um Olivia, why did you learn English?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um Olivia, why did you learn English?"
+            }
+          ]
+        },
+        {
+          "en": "I think since I was young, I was fascinated by the American cultures like English songs, English movies, Hollywood.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think since I was young, I was fascinated by the American cultures like English songs, English movies, Hollywood."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-43",
+      "no": "43",
+      "titleZh": "第 43 段",
+      "titleEn": "Part 43",
+      "sentences": [
+        {
+          "en": "I liked it so much because people are always very looks very artistic or they're very free and they're always productive.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I liked it so much because people are always very looks very artistic or they're very free and they're always productive."
+            }
+          ]
+        },
+        {
+          "en": "I wanted to understand the reason.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I wanted to understand the reason."
+            }
+          ]
+        },
+        {
+          "en": "And also three years ago, I was doing my master degree.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And also three years ago, I was doing my master degree."
+            }
+          ]
+        },
+        {
+          "en": "I don't know what to do in my life.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know what to do in my life."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-44",
+      "no": "44",
+      "titleZh": "第 44 段",
+      "titleEn": "Part 44",
+      "sentences": [
+        {
+          "en": "I don't know after I graduate what kind of job can I get and where I'm going to go, where I'm going to stay.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know after I graduate what kind of job can I get and where I'm going to go, where I'm going to stay."
+            }
+          ]
+        },
+        {
+          "en": "I don't know anything but I feel like outside of China it might has answer for me.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know anything but I feel like outside of China it might has answer for me."
+            }
+          ]
+        },
+        {
+          "en": "I wanted to see what people were doing outside of China.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I wanted to see what people were doing outside of China."
+            }
+          ]
+        },
+        {
+          "en": "I wanted to travel, and English was the main thing I needed to learn.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I wanted to travel, and English was the main thing I needed to learn."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-45",
+      "no": "45",
+      "titleZh": "第 45 段",
+      "titleEn": "Part 45",
+      "sentences": [
+        {
+          "en": "I needed English to communicate with people and understand things.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I needed English to communicate with people and understand things."
+            }
+          ]
+        },
+        {
+          "en": "So that's how I started.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So that's how I started."
+            }
+          ]
+        },
+        {
+          "en": "Mhm.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mhm."
+            }
+          ]
+        },
+        {
+          "en": "You have to understand to travel the world.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You have to understand to travel the world."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-46",
+      "no": "46",
+      "titleZh": "第 46 段",
+      "titleEn": "Part 46",
+      "sentences": [
+        {
+          "en": "Exactly.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Exactly."
+            }
+          ]
+        },
+        {
+          "en": "So your inspiration was travel.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So your inspiration was travel."
+            }
+          ]
+        },
+        {
+          "en": "Yeah basically.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah basically."
+            }
+          ]
+        },
+        {
+          "en": "And I wanted to discover myself as well because I really did see a lot of people uh like when I was younger I went to Bali once I saw people.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I wanted to discover myself as well because I really did see a lot of people uh like when I was younger I went to Bali once I saw people."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-47",
+      "no": "47",
+      "titleZh": "第 47 段",
+      "titleEn": "Part 47",
+      "sentences": [
+        {
+          "en": "So afraid they're doing like cliff jumping they're like swimming with their bikini because at that time I was in China my mom always told me you shouldn't wear too exposive explosive you know.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So afraid they're doing like cliff jumping they're like swimming with their bikini because at that time I was in China my mom always told me you shouldn't wear too exposive explosive you know."
+            }
+          ]
+        },
+        {
+          "en": "So I'm like why they can do that so I wanted to know maybe I can do that too I can try the things I've never tried before.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I'm like why they can do that so I wanted to know maybe I can do that too I can try the things I've never tried before."
+            }
+          ]
+        },
+        {
+          "en": "I can try the things maybe I like, maybe I don't like.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can try the things maybe I like, maybe I don't like."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-48",
+      "no": "48",
+      "titleZh": "第 48 段",
+      "titleEn": "Part 48",
+      "sentences": [
+        {
+          "en": "But yeah, I mean I think traveling is one of the biggest motivators for people to learn English.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But yeah, I mean I think traveling is one of the biggest motivators for people to learn English."
+            }
+          ]
+        },
+        {
+          "en": "I think traveling but also job opportunities.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think traveling but also job opportunities."
+            }
+          ]
+        },
+        {
+          "en": "Exactly.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Exactly."
+            }
+          ]
+        },
+        {
+          "en": "Was that ever a reason for you to learn English?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Was that ever a reason for you to learn English?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-49",
+      "no": "49",
+      "titleZh": "第 49 段",
+      "titleEn": "Part 49",
+      "sentences": [
+        {
+          "en": "Yes.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yes."
+            }
+          ]
+        },
+        {
+          "en": "Because for me I feel like okay at the time I had my master degree even I graduate I was living in Shanghai.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because for me I feel like okay at the time I had my master degree even I graduate I was living in Shanghai."
+            }
+          ]
+        },
+        {
+          "en": "Shanghai is very expensive for the rent for everything.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Shanghai is very expensive for the rent for everything."
+            }
+          ]
+        },
+        {
+          "en": "So uh if I graduate I cannot get well paid but I noticed the foreigners in Shanghai they get well paid and the people they could speak English they get well paid.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So uh if I graduate I cannot get well paid but I noticed the foreigners in Shanghai they get well paid and the people they could speak English they get well paid."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-50",
+      "no": "50",
+      "titleZh": "第 50 段",
+      "titleEn": "Part 50",
+      "sentences": [
+        {
+          "en": "And I was like why would I why wouldn't I speak English?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I was like why would I why wouldn't I speak English?"
+            }
+          ]
+        },
+        {
+          "en": "If I speak English, I will definitely get a better opportunities.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If I speak English, I will definitely get a better opportunities."
+            }
+          ]
+        },
+        {
+          "en": "That's why also another reason I start to learn English.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's why also another reason I start to learn English."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-51",
+      "no": "51",
+      "titleZh": "第 51 段",
+      "titleEn": "Part 51",
+      "sentences": [
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "And since you learned English, how do you think that's changed your life?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And since you learned English, how do you think that's changed your life?"
+            }
+          ]
+        },
+        {
+          "en": "Honestly, I feel like learning English completely changed my life about my mindset especially cuz before I'm a little bit closminded as well.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Honestly, I feel like learning English completely changed my life about my mindset especially cuz before I'm a little bit closminded as well."
+            }
+          ]
+        },
+        {
+          "en": "I feel I'm a little bit conservative, very traditional because I grew up in China and I I have a very traditional family as well.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel I'm a little bit conservative, very traditional because I grew up in China and I I have a very traditional family as well."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-52",
+      "no": "52",
+      "titleZh": "第 52 段",
+      "titleEn": "Part 52",
+      "sentences": [
+        {
+          "en": "But because learning English let me know everything is possible.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But because learning English let me know everything is possible."
+            }
+          ]
+        },
+        {
+          "en": "Like I really understand like you can really try everything you want to try.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like I really understand like you can really try everything you want to try."
+            }
+          ]
+        },
+        {
+          "en": "Don't think about others.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Don't think about others."
+            }
+          ]
+        },
+        {
+          "en": "Don't think about the social judgment.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Don't think about the social judgment."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-53",
+      "no": "53",
+      "titleZh": "第 53 段",
+      "titleEn": "Part 53",
+      "sentences": [
+        {
+          "en": "Don't think about how does like others think about you.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Don't think about how does like others think about you."
+            }
+          ]
+        },
+        {
+          "en": "Because for me in China, I always feel like judged.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because for me in China, I always feel like judged."
+            }
+          ]
+        },
+        {
+          "en": "I feel like I do everything I have to think about what does my parent think and what does my friend think and how's everybody else think.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel like I do everything I have to think about what does my parent think and what does my friend think and how's everybody else think."
+            }
+          ]
+        },
+        {
+          "en": "But I when I start learn English and because I watch a lot of movies.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I when I start learn English and because I watch a lot of movies."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-54",
+      "no": "54",
+      "titleZh": "第 54 段",
+      "titleEn": "Part 54",
+      "sentences": [
+        {
+          "en": "So and YouTube the people are doing a lot of adventure.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So and YouTube the people are doing a lot of adventure."
+            }
+          ]
+        },
+        {
+          "en": "They go on skydiving, scuba diving, they go on all the adventures.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They go on skydiving, scuba diving, they go on all the adventures."
+            }
+          ]
+        },
+        {
+          "en": "I was like, I want to do that, too.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was like, I want to do that, too."
+            }
+          ]
+        },
+        {
+          "en": "And I don't want to care too much about what people say.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I don't want to care too much about what people say."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-55",
+      "no": "55",
+      "titleZh": "第 55 段",
+      "titleEn": "Part 55",
+      "sentences": [
+        {
+          "en": "So, yeah, that's what I started.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, yeah, that's what I started."
+            }
+          ]
+        },
+        {
+          "en": "Nice.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Nice."
+            }
+          ]
+        },
+        {
+          "en": "Yeah, I think um that little push is the first thing you need to start actually reaching your dreams.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah, I think um that little push is the first thing you need to start actually reaching your dreams."
+            }
+          ]
+        },
+        {
+          "en": "And for most people, it's English.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And for most people, it's English."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-56",
+      "no": "56",
+      "titleZh": "第 56 段",
+      "titleEn": "Part 56",
+      "sentences": [
+        {
+          "en": "And I think English is just something that can change the people you meet, the experiences you have, the jobs that you get.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I think English is just something that can change the people you meet, the experiences you have, the jobs that you get."
+            }
+          ]
+        },
+        {
+          "en": "Um, what about the the cultural difference?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, what about the the cultural difference?"
+            }
+          ]
+        },
+        {
+          "en": "Say moving from China and going to travel to a new country.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Say moving from China and going to travel to a new country."
+            }
+          ]
+        },
+        {
+          "en": "What was that like?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What was that like?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-57",
+      "no": "57",
+      "titleZh": "第 57 段",
+      "titleEn": "Part 57",
+      "sentences": [
+        {
+          "en": "Honestly, from first beginning, it was overwhelming.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Honestly, from first beginning, it was overwhelming."
+            }
+          ]
+        },
+        {
+          "en": "The first time I was in the US, I was in Louisiana out of nowhere.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The first time I was in the US, I was in Louisiana out of nowhere."
+            }
+          ]
+        },
+        {
+          "en": "And I met people there like, you know, uh they're the neighbors.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I met people there like, you know, uh they're the neighbors."
+            }
+          ]
+        },
+        {
+          "en": "They asked me, \"Hey, how are you doing?\"",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They asked me, \"Hey, how are you doing?\""
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-58",
+      "no": "58",
+      "titleZh": "第 58 段",
+      "titleEn": "Part 58",
+      "sentences": [
+        {
+          "en": "I was like, \"Huh, are you talking to me?\"",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was like, \"Huh, are you talking to me?\""
+            }
+          ]
+        },
+        {
+          "en": "Because in China, we don't have small talk.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because in China, we don't have small talk."
+            }
+          ]
+        },
+        {
+          "en": "So, I never did small talk in my whole life.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I never did small talk in my whole life."
+            }
+          ]
+        },
+        {
+          "en": "I would wonder who the person was.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I would wonder who the person was."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-59",
+      "no": "59",
+      "titleZh": "第 59 段",
+      "titleEn": "Part 59",
+      "sentences": [
+        {
+          "en": "\"Oh, me.\"",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "\"Oh, me.\""
+            }
+          ]
+        },
+        {
+          "en": "I'm like, \"Uh, okay, thank you.\"",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm like, \"Uh, okay, thank you.\""
+            }
+          ]
+        },
+        {
+          "en": "I don't know what to say.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know what to say."
+            }
+          ]
+        },
+        {
+          "en": "And I feel awkward.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I feel awkward."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-60",
+      "no": "60",
+      "titleZh": "第 60 段",
+      "titleEn": "Part 60",
+      "sentences": [
+        {
+          "en": "I feel overwhelmed because at the time I'm still thinking okay maybe they will think why this Chinese girls right here what she's doing.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel overwhelmed because at the time I'm still thinking okay maybe they will think why this Chinese girls right here what she's doing."
+            }
+          ]
+        },
+        {
+          "en": "And she doesn't even speak English I will think maybe he's judging me because I don't speak English he will think I'm dumb from first beginning that's all in my mind.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And she doesn't even speak English I will think maybe he's judging me because I don't speak English he will think I'm dumb from first beginning that's all in my mind."
+            }
+          ]
+        },
+        {
+          "en": "But later I realized I started to speak more people actually they like to get to know me and when I see they have the interest for me I will try to express myself more.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But later I realized I started to speak more people actually they like to get to know me and when I see they have the interest for me I will try to express myself more."
+            }
+          ]
+        },
+        {
+          "en": "And I stopped thinking about okay they're going to judge me because my English is not perfect and they're always being very you know supportive.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I stopped thinking about okay they're going to judge me because my English is not perfect and they're always being very you know supportive."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-61",
+      "no": "61",
+      "titleZh": "第 61 段",
+      "titleEn": "Part 61",
+      "sentences": [
+        {
+          "en": "They always inspired me and told me I should talk more.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They always inspired me and told me I should talk more."
+            }
+          ]
+        },
+        {
+          "en": "They told me my English was really good.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They told me my English was really good."
+            }
+          ]
+        },
+        {
+          "en": "Later, I stopped thinking that I was dumb or that I spoke bad English.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Later, I stopped thinking that I was dumb or that I spoke bad English."
+            }
+          ]
+        },
+        {
+          "en": "As long as I can express myself well, that is all that matters.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "As long as I can express myself well, that is all that matters."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-62",
+      "no": "62",
+      "titleZh": "第 62 段",
+      "titleEn": "Part 62",
+      "sentences": [
+        {
+          "en": "Because the grammar is just the way you know um to pract uh to Express yourself as long as people understand you no matter what you're speaking you know that's the most important.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because the grammar is just the way you know um to pract uh to Express yourself as long as people understand you no matter what you're speaking you know that's the most important."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "That is for sure.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That is for sure."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-63",
+      "no": "63",
+      "titleZh": "第 63 段",
+      "titleEn": "Part 63",
+      "sentences": [
+        {
+          "en": "So for example if I went up to someone in China and I started having small talk with them like hey how's the weather?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So for example if I went up to someone in China and I started having small talk with them like hey how's the weather?"
+            }
+          ]
+        },
+        {
+          "en": "It's nice today isn't it?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's nice today isn't it?"
+            }
+          ]
+        },
+        {
+          "en": "Then what do you think the reaction of a Chinese person would be?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then what do you think the reaction of a Chinese person would be?"
+            }
+          ]
+        },
+        {
+          "en": "You mean if it's you like a foreigner or Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You mean if it's you like a foreigner or Yeah."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-64",
+      "no": "64",
+      "titleZh": "第 64 段",
+      "titleEn": "Part 64",
+      "sentences": [
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "And they would be like wow she's talking to me.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And they would be like wow she's talking to me."
+            }
+          ]
+        },
+        {
+          "en": "I mean cuz definitely you look so like like different, right?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I mean cuz definitely you look so like like different, right?"
+            }
+          ]
+        },
+        {
+          "en": "Foreign maybe.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Foreign maybe."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-65",
+      "no": "65",
+      "titleZh": "第 65 段",
+      "titleEn": "Part 65",
+      "sentences": [
+        {
+          "en": "Yeah, foreign.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah, foreign."
+            }
+          ]
+        },
+        {
+          "en": "Very foreign.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Very foreign."
+            }
+          ]
+        },
+        {
+          "en": "What about if it was a Chinese person?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What about if it was a Chinese person?"
+            }
+          ]
+        },
+        {
+          "en": "If it's Chinese people, people people will think uh why are you talking to me?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If it's Chinese people, people people will think uh why are you talking to me?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-66",
+      "no": "66",
+      "titleZh": "第 66 段",
+      "titleEn": "Part 66",
+      "sentences": [
+        {
+          "en": "Uh like you don't have your own business to do.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Uh like you don't have your own business to do."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "But sometimes um from some region people are very talkative especially for the elderly they like to talk a lot.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But sometimes um from some region people are very talkative especially for the elderly they like to talk a lot."
+            }
+          ]
+        },
+        {
+          "en": "There was uh they will maybe you met in the elevator they will ask you oh where did you get this back?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There was uh they will maybe you met in the elevator they will ask you oh where did you get this back?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-67",
+      "no": "67",
+      "titleZh": "第 67 段",
+      "titleEn": "Part 67",
+      "sentences": [
+        {
+          "en": "You know, sometimes they do, but usually people don't do small talk with you.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You know, sometimes they do, but usually people don't do small talk with you."
+            }
+          ]
+        },
+        {
+          "en": "They don't talk with you.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They don't talk with you."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "Okay.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Okay."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-68",
+      "no": "68",
+      "titleZh": "第 68 段",
+      "titleEn": "Part 68",
+      "sentences": [
+        {
+          "en": "Okay.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Okay."
+            }
+          ]
+        },
+        {
+          "en": "They're super busy.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They're super busy."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "So, it's a big cultural difference then.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, it's a big cultural difference then."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-69",
+      "no": "69",
+      "titleZh": "第 69 段",
+      "titleEn": "Part 69",
+      "sentences": [
+        {
+          "en": "Um, you lived in the United States.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, you lived in the United States."
+            }
+          ]
+        },
+        {
+          "en": "How how long did you live in the United States?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How how long did you live in the United States?"
+            }
+          ]
+        },
+        {
+          "en": "Honestly, I was traveling in the US at the time.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Honestly, I was traveling in the US at the time."
+            }
+          ]
+        },
+        {
+          "en": "I first time I was there for like five and a half months.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I first time I was there for like five and a half months."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-70",
+      "no": "70",
+      "titleZh": "第 70 段",
+      "titleEn": "Part 70",
+      "sentences": [
+        {
+          "en": "I was traveling.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was traveling."
+            }
+          ]
+        },
+        {
+          "en": "Mhm.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mhm."
+            }
+          ]
+        },
+        {
+          "en": "And then the second time I went to visit for like three months.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And then the second time I went to visit for like three months."
+            }
+          ]
+        },
+        {
+          "en": "And the third time I actually worked there.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And the third time I actually worked there."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-71",
+      "no": "71",
+      "titleZh": "第 71 段",
+      "titleEn": "Part 71",
+      "sentences": [
+        {
+          "en": "I was doing the working holiday because at the time I really want to get an opportunity to like you know work abroad to practice more my English and also get better paid.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was doing the working holiday because at the time I really want to get an opportunity to like you know work abroad to practice more my English and also get better paid."
+            }
+          ]
+        },
+        {
+          "en": "So I work there.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I work there."
+            }
+          ]
+        },
+        {
+          "en": "So in total probably like a one year and then a little bit more.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So in total probably like a one year and then a little bit more."
+            }
+          ]
+        },
+        {
+          "en": "Okay.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Okay."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-72",
+      "no": "72",
+      "titleZh": "第 72 段",
+      "titleEn": "Part 72",
+      "sentences": [
+        {
+          "en": "And what was your first initial reaction moving from China to the United States?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what was your first initial reaction moving from China to the United States?"
+            }
+          ]
+        },
+        {
+          "en": "I was very excited though.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was very excited though."
+            }
+          ]
+        },
+        {
+          "en": "I was very excited because I still remember the first day like the plan I'm like arriving in Bon Rouge.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was very excited because I still remember the first day like the plan I'm like arriving in Bon Rouge."
+            }
+          ]
+        },
+        {
+          "en": "I was in Louisiana seriously out of nowhere.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was in Louisiana seriously out of nowhere."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-73",
+      "no": "73",
+      "titleZh": "第 73 段",
+      "titleEn": "Part 73",
+      "sentences": [
+        {
+          "en": "But I just feel like oh my god the air is so fresh because there's no factory you know so I feel the air is.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I just feel like oh my god the air is so fresh because there's no factory you know so I feel the air is."
+            }
+          ]
+        },
+        {
+          "en": "So fresh and also I feel like I don't know I feel so free because we do have a lot of restrictions back to China.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So fresh and also I feel like I don't know I feel so free because we do have a lot of restrictions back to China."
+            }
+          ]
+        },
+        {
+          "en": "Uh even like we're still very free but just like for example I cannot use Google I cannot use like you know Instagram in China.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Uh even like we're still very free but just like for example I cannot use Google I cannot use like you know Instagram in China."
+            }
+          ]
+        },
+        {
+          "en": "But here I can just use everything I wanted to use so I feel like uh and you can say whatever you want to say.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But here I can just use everything I wanted to use so I feel like uh and you can say whatever you want to say."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-74",
+      "no": "74",
+      "titleZh": "第 74 段",
+      "titleEn": "Part 74",
+      "sentences": [
+        {
+          "en": "And people will accept who you are so there was no big culture shock in a negative way I think negative way Yes.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And people will accept who you are so there was no big culture shock in a negative way I think negative way Yes."
+            }
+          ]
+        },
+        {
+          "en": "I think sometimes people are too nice, you know, cuz for Chinese, we're very direct.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think sometimes people are too nice, you know, cuz for Chinese, we're very direct."
+            }
+          ]
+        },
+        {
+          "en": "If I like you, I would tell you I like you.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If I like you, I would tell you I like you."
+            }
+          ]
+        },
+        {
+          "en": "If I don't like you, I'm just going to be polite.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If I don't like you, I'm just going to be polite."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-75",
+      "no": "75",
+      "titleZh": "第 75 段",
+      "titleEn": "Part 75",
+      "sentences": [
+        {
+          "en": "But I'm not going to say it was so nice to meet you and I had such a great time with you, I'm going to see you again.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I'm not going to say it was so nice to meet you and I had such a great time with you, I'm going to see you again."
+            }
+          ]
+        },
+        {
+          "en": "If I don't feel that way, I will never say that in Chinese.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If I don't feel that way, I will never say that in Chinese."
+            }
+          ]
+        },
+        {
+          "en": "But I noticed that when I was in the US, I thought we're friends.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I noticed that when I was in the US, I thought we're friends."
+            }
+          ]
+        },
+        {
+          "en": "We had a great time together.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We had a great time together."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-76",
+      "no": "76",
+      "titleZh": "第 76 段",
+      "titleEn": "Part 76",
+      "sentences": [
+        {
+          "en": "I said, \"Ah, it was so nice to meet you.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I said, \"Ah, it was so nice to meet you."
+            }
+          ]
+        },
+        {
+          "en": "We're going to see each other again.\"",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We're going to see each other again.\""
+            }
+          ]
+        },
+        {
+          "en": "And then you realize, \"Oh, maybe for them, they don't think the same.\"",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And then you realize, \"Oh, maybe for them, they don't think the same.\""
+            }
+          ]
+        },
+        {
+          "en": "By the time they will be like, \"Oh, I was I was so happy to meet you.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "By the time they will be like, \"Oh, I was I was so happy to meet you."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-77",
+      "no": "77",
+      "titleZh": "第 77 段",
+      "titleEn": "Part 77",
+      "sentences": [
+        {
+          "en": "It was so nice to meet you.\"",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was so nice to meet you.\""
+            }
+          ]
+        },
+        {
+          "en": "And actually, they don't mean it.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And actually, they don't mean it."
+            }
+          ]
+        },
+        {
+          "en": "But I understand because people want to be positive all the time.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I understand because people want to be positive all the time."
+            }
+          ]
+        },
+        {
+          "en": "They want to be nice.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They want to be nice."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-78",
+      "no": "78",
+      "titleZh": "第 78 段",
+      "titleEn": "Part 78",
+      "sentences": [
+        {
+          "en": "They want to be always being, you know, encouraging.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They want to be always being, you know, encouraging."
+            }
+          ]
+        },
+        {
+          "en": "But maybe they just think I'm boring at the time because I don't speak that much English and like why do they wanted to know me, you know?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But maybe they just think I'm boring at the time because I don't speak that much English and like why do they wanted to know me, you know?"
+            }
+          ]
+        },
+        {
+          "en": "But it's just sometimes I can't know if people really mean what they say.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But it's just sometimes I can't know if people really mean what they say."
+            }
+          ]
+        },
+        {
+          "en": "Mhm.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mhm."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-79",
+      "no": "79",
+      "titleZh": "第 79 段",
+      "titleEn": "Part 79",
+      "sentences": [
+        {
+          "en": "Okay.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Okay."
+            }
+          ]
+        },
+        {
+          "en": "More in the United States.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "More in the United States."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "More in the United States.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "More in the United States."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-80",
+      "no": "80",
+      "titleZh": "第 80 段",
+      "titleEn": "Part 80",
+      "sentences": [
+        {
+          "en": "Okay.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Okay."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "That's something I noticed uh when I visited China when I would approach people and they wouldn't be very enthusiastic with me.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's something I noticed uh when I visited China when I would approach people and they wouldn't be very enthusiastic with me."
+            }
+          ]
+        },
+        {
+          "en": "And I was very enthusiastic with them but it wasn't something that they gave back to me and it was strange cuz I thought maybe they really don't like me.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I was very enthusiastic with them but it wasn't something that they gave back to me and it was strange cuz I thought maybe they really don't like me."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-81",
+      "no": "81",
+      "titleZh": "第 81 段",
+      "titleEn": "Part 81",
+      "sentences": [
+        {
+          "en": "Because if someone in the United States or Mexico behaves that way with you it's because they really don't like you.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Because if someone in the United States or Mexico behaves that way with you it's because they really don't like you."
+            }
+          ]
+        },
+        {
+          "en": "If they're just completely reactionless and with no enthusiasm at all, then they're very, you think that they hate you.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If they're just completely reactionless and with no enthusiasm at all, then they're very, you think that they hate you."
+            }
+          ]
+        },
+        {
+          "en": "They probably do.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They probably do."
+            }
+          ]
+        },
+        {
+          "en": "So, for me, that was a big maybe culture shock when I visited China because they're very like, oh, you know.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, for me, that was a big maybe culture shock when I visited China because they're very like, oh, you know."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-82",
+      "no": "82",
+      "titleZh": "第 82 段",
+      "titleEn": "Part 82",
+      "sentences": [
+        {
+          "en": "But it makes it more special when they do react and when they are enthusiastic because it's like, oh, I guess you truly do like me.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But it makes it more special when they do react and when they are enthusiastic because it's like, oh, I guess you truly do like me."
+            }
+          ]
+        },
+        {
+          "en": "Cuz I think when Chinese people says like, you know, they're very welcoming, they show their like your passion to you, that means they really like you.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Cuz I think when Chinese people says like, you know, they're very welcoming, they show their like your passion to you, that means they really like you."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "Cuz usually Chinese people are very calm.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Cuz usually Chinese people are very calm."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-83",
+      "no": "83",
+      "titleZh": "第 83 段",
+      "titleEn": "Part 83",
+      "sentences": [
+        {
+          "en": "Like we're very calm.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like we're very calm."
+            }
+          ]
+        },
+        {
+          "en": "We like to observe the situation first.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We like to observe the situation first."
+            }
+          ]
+        },
+        {
+          "en": "They're very like, you know, bumping to you and say a lot of things.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They're very like, you know, bumping to you and say a lot of things."
+            }
+          ]
+        },
+        {
+          "en": "We like to watch observe and to see, okay, how's the situation right now and how should I react?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We like to watch observe and to see, okay, how's the situation right now and how should I react?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-84",
+      "no": "84",
+      "titleZh": "第 84 段",
+      "titleEn": "Part 84",
+      "sentences": [
+        {
+          "en": "Mhm.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mhm."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "I know we're more into like our own business like I what I said like we don't do small talk so we'll be like okay you do your own bit business I do mine yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I know we're more into like our own business like I what I said like we don't do small talk so we'll be like okay you do your own bit business I do mine yeah."
+            }
+          ]
+        },
+        {
+          "en": "Of course, people in Shanghai can be very curious about foreigners.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Of course, people in Shanghai can be very curious about foreigners."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-85",
+      "no": "85",
+      "titleZh": "第 85 段",
+      "titleEn": "Part 85",
+      "sentences": [
+        {
+          "en": "I think you probably experienced people wanting to take pictures of you or talk with you.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think you probably experienced people wanting to take pictures of you or talk with you."
+            }
+          ]
+        },
+        {
+          "en": "Some kids might come to you to practice their English.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Some kids might come to you to practice their English."
+            }
+          ]
+        },
+        {
+          "en": "That happens in Asia in general.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That happens in Asia in general."
+            }
+          ]
+        },
+        {
+          "en": "And so what part of learning English do you think changed your life the most?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And so what part of learning English do you think changed your life the most?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-86",
+      "no": "86",
+      "titleZh": "第 86 段",
+      "titleEn": "Part 86",
+      "sentences": [
+        {
+          "en": "I think it's I think for me it's definitely uh learning English.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think it's I think for me it's definitely uh learning English."
+            }
+          ]
+        },
+        {
+          "en": "Learning English helped me find out what my dream was.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Learning English helped me find out what my dream was."
+            }
+          ]
+        },
+        {
+          "en": "Um for me right now I'm doing my jewelry design and also colleies from over the world.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um for me right now I'm doing my jewelry design and also colleies from over the world."
+            }
+          ]
+        },
+        {
+          "en": "Yes.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yes."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-87",
+      "no": "87",
+      "titleZh": "第 87 段",
+      "titleEn": "Part 87",
+      "sentences": [
+        {
+          "en": "So because I discovered when I was traveling, when I was talking to people from all over the world, because I love the cultural things.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So because I discovered when I was traveling, when I was talking to people from all over the world, because I love the cultural things."
+            }
+          ]
+        },
+        {
+          "en": "I love the natures because I I've been so many different places.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love the natures because I I've been so many different places."
+            }
+          ]
+        },
+        {
+          "en": "I was in Maldives, Costa Rica, Korea.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was in Maldives, Costa Rica, Korea."
+            }
+          ]
+        },
+        {
+          "en": "I've been so many different places because I could speak English.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I've been so many different places because I could speak English."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-88",
+      "no": "88",
+      "titleZh": "第 88 段",
+      "titleEn": "Part 88",
+      "sentences": [
+        {
+          "en": "I could communicate with people.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I could communicate with people."
+            }
+          ]
+        },
+        {
+          "en": "I was talking to so many people.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was talking to so many people."
+            }
+          ]
+        },
+        {
+          "en": "For them for me talking to them is like you're objecting yourself you know I was like observing myself what do I really like what's my passion for what I want to do in my life.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For them for me talking to them is like you're objecting yourself you know I was like observing myself what do I really like what's my passion for what I want to do in my life."
+            }
+          ]
+        },
+        {
+          "en": "And after this two and a half years traveling solo traveling by myself I discovered I like fashion since I was young I like fashion.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And after this two and a half years traveling solo traveling by myself I discovered I like fashion since I was young I like fashion."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-89",
+      "no": "89",
+      "titleZh": "第 89 段",
+      "titleEn": "Part 89",
+      "sentences": [
+        {
+          "en": "So why don't uh why don't I just start something with fashion and because I noticed along the way I'm always making necklaces.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So why don't uh why don't I just start something with fashion and because I noticed along the way I'm always making necklaces."
+            }
+          ]
+        },
+        {
+          "en": "I'm also, you know, collecting all the beautiful jewelries.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm also, you know, collecting all the beautiful jewelries."
+            }
+          ]
+        },
+        {
+          "en": "So that's why right now I start everything and I put a lot of meaning on it.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So that's why right now I start everything and I put a lot of meaning on it."
+            }
+          ]
+        },
+        {
+          "en": "For example, some of my pieces like for example this one like the diamond one because when I was younger, I like the song from Rihana Shine like a diamond.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, some of my pieces like for example this one like the diamond one because when I was younger, I like the song from Rihana Shine like a diamond."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-90",
+      "no": "90",
+      "titleZh": "第 90 段",
+      "titleEn": "Part 90",
+      "sentences": [
+        {
+          "en": "So that's why I made this one.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So that's why I made this one."
+            }
+          ]
+        },
+        {
+          "en": "It's so beautiful.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's so beautiful."
+            }
+          ]
+        },
+        {
+          "en": "Can you see it?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Can you see it?"
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-91",
+      "no": "91",
+      "titleZh": "第 91 段",
+      "titleEn": "Part 91",
+      "sentences": [
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "I just want to make a close-up while you talk about it.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I just want to make a close-up while you talk about it."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-92",
+      "no": "92",
+      "titleZh": "第 92 段",
+      "titleEn": "Part 92",
+      "sentences": [
+        {
+          "en": "So, I continued.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I continued."
+            }
+          ]
+        },
+        {
+          "en": "I actually gave this one to my friend as a gift and at the time I didn't know I'm going to make jewelries in the future.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I actually gave this one to my friend as a gift and at the time I didn't know I'm going to make jewelries in the future."
+            }
+          ]
+        },
+        {
+          "en": "And I told her uh like you can shine like a diamond because I I feel like she's so beautiful.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I told her uh like you can shine like a diamond because I I feel like she's so beautiful."
+            }
+          ]
+        },
+        {
+          "en": "She looks a little bit like Rihanna as well.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She looks a little bit like Rihanna as well."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-93",
+      "no": "93",
+      "titleZh": "第 93 段",
+      "titleEn": "Part 93",
+      "sentences": [
+        {
+          "en": "So I give it to her and she told me why don't you just start something like you know with your fashion design with jewelries or collecting like all the beautiful things from over the world.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So I give it to her and she told me why don't you just start something like you know with your fashion design with jewelries or collecting like all the beautiful things from over the world."
+            }
+          ]
+        },
+        {
+          "en": "I'm like yeah why not?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm like yeah why not?"
+            }
+          ]
+        },
+        {
+          "en": "M so that's why right now I'm settling down in Mexico City and I'm trying to build up like everything like for my jewelries.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "M so that's why right now I'm settling down in Mexico City and I'm trying to build up like everything like for my jewelries."
+            }
+          ]
+        },
+        {
+          "en": "And also beautiful things I collect from all over the world contain all the cultural things for example for the Chinese things like Chinese design we have some you know dragons like cloud we believe in some energy.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And also beautiful things I collect from all over the world contain all the cultural things for example for the Chinese things like Chinese design we have some you know dragons like cloud we believe in some energy."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-94",
+      "no": "94",
+      "titleZh": "第 94 段",
+      "titleEn": "Part 94",
+      "sentences": [
+        {
+          "en": "And elements you know so I just wanted to let people to know different cultures and in in my way like from my perspective.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And elements you know so I just wanted to let people to know different cultures and in in my way like from my perspective."
+            }
+          ]
+        },
+        {
+          "en": "So, I want to bring the it back to them.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I want to bring the it back to them."
+            }
+          ]
+        },
+        {
+          "en": "Bring the meaning, bring the energy.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bring the meaning, bring the energy."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-95",
+      "no": "95",
+      "titleZh": "第 95 段",
+      "titleEn": "Part 95",
+      "sentences": [
+        {
+          "en": "And each one has a story behind it, too.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And each one has a story behind it, too."
+            }
+          ]
+        },
+        {
+          "en": "A story of your traveling, of your journey, of your English language journey, too.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A story of your traveling, of your journey, of your English language journey, too."
+            }
+          ]
+        },
+        {
+          "en": "Like right now, I have this flower.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like right now, I have this flower."
+            }
+          ]
+        },
+        {
+          "en": "Actually, I don't know the English name though.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Actually, I don't know the English name though."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-96",
+      "no": "96",
+      "titleZh": "第 96 段",
+      "titleEn": "Part 96",
+      "sentences": [
+        {
+          "en": "Um, in Spanish, do you know it?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, in Spanish, do you know it?"
+            }
+          ]
+        },
+        {
+          "en": "He No.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He No."
+            }
+          ]
+        },
+        {
+          "en": "Hippo.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hippo."
+            }
+          ]
+        },
+        {
+          "en": "Hippo campus.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hippo campus."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-97",
+      "no": "97",
+      "titleZh": "第 97 段",
+      "titleEn": "Part 97",
+      "sentences": [
+        {
+          "en": "Hippocampus.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hippocampus."
+            }
+          ]
+        },
+        {
+          "en": "No, that's part of the phrase.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "No, that's part of the phrase."
+            }
+          ]
+        },
+        {
+          "en": "No, he what's it called?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "No, he what's it called?"
+            }
+          ]
+        },
+        {
+          "en": "It's called Guys, I just did an unboxing video on my TikTok, but I wanted to come on here and thank you again and show you what we have.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's called Guys, I just did an unboxing video on my TikTok, but I wanted to come on here and thank you again and show you what we have."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-98",
+      "no": "98",
+      "titleZh": "第 98 段",
+      "titleEn": "Part 98",
+      "sentences": [
+        {
+          "en": "I made a video thanking you guys for 1 million subscribers already.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I made a video thanking you guys for 1 million subscribers already."
+            }
+          ]
+        },
+        {
+          "en": "Um, we did the community giveaway and I'm really excited for the 10 winners um to join the community.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, we did the community giveaway and I'm really excited for the 10 winners um to join the community."
+            }
+          ]
+        },
+        {
+          "en": "I'm excited to meet you guys.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm excited to meet you guys."
+            }
+          ]
+        },
+        {
+          "en": "And I'll be sending you an email if you were one of the lucky winners.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I'll be sending you an email if you were one of the lucky winners."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-99",
+      "no": "99",
+      "titleZh": "第 99 段",
+      "titleEn": "Part 99",
+      "sentences": [
+        {
+          "en": "And if you didn't win this time, then don't worry.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And if you didn't win this time, then don't worry."
+            }
+          ]
+        },
+        {
+          "en": "I'll be doing another giveaway hopefully soon for more English classes so that everybody gets the chance to learn.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll be doing another giveaway hopefully soon for more English classes so that everybody gets the chance to learn."
+            }
+          ]
+        },
+        {
+          "en": "Um, unfortunately, I can't open all the free spots, but I'm working on a system that can make it possible.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, unfortunately, I can't open all the free spots, but I'm working on a system that can make it possible."
+            }
+          ]
+        },
+        {
+          "en": "I'll be hanging this up right there, so you'll be seeing it in my next video.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'll be hanging this up right there, so you'll be seeing it in my next video."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-100",
+      "no": "100",
+      "titleZh": "第 100 段",
+      "titleEn": "Part 100",
+      "sentences": [
+        {
+          "en": "And thank you guys for being here.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And thank you guys for being here."
+            }
+          ]
+        },
+        {
+          "en": "Thank you guys for learning English, for staying motivated, for being a part of this English community that we have here.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you guys for learning English, for staying motivated, for being a part of this English community that we have here."
+            }
+          ]
+        },
+        {
+          "en": "A lovely, lovely English community where we support each other, where we motivate each other, and where we never stop learning.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A lovely, lovely English community where we support each other, where we motivate each other, and where we never stop learning."
+            }
+          ]
+        },
+        {
+          "en": "That's the goal.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's the goal."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-101",
+      "no": "101",
+      "titleZh": "第 101 段",
+      "titleEn": "Part 101",
+      "sentences": [
+        {
+          "en": "Thank you guys.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you guys."
+            }
+          ]
+        },
+        {
+          "en": "Back to the video.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Back to the video."
+            }
+          ]
+        },
+        {
+          "en": "To wrap up the video.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "To wrap up the video."
+            }
+          ]
+        },
+        {
+          "en": "Um, what do you think are your learning English goals now?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um, what do you think are your learning English goals now?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-102",
+      "no": "102",
+      "titleZh": "第 102 段",
+      "titleEn": "Part 102",
+      "sentences": [
+        {
+          "en": "Now that you're at this level, now that you can have a conversation naturally with me, what's your next step?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now that you're at this level, now that you can have a conversation naturally with me, what's your next step?"
+            }
+          ]
+        },
+        {
+          "en": "Mhm.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mhm."
+            }
+          ]
+        },
+        {
+          "en": "For me, right now, yeah, I'm comfortable speaking English right now, but I feel like there's still certain words, you know, I cannot express myself perfectly.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For me, right now, yeah, I'm comfortable speaking English right now, but I feel like there's still certain words, you know, I cannot express myself perfectly."
+            }
+          ]
+        },
+        {
+          "en": "I wanted to know how to become more native.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I wanted to know how to become more native."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-103",
+      "no": "103",
+      "titleZh": "第 103 段",
+      "titleEn": "Part 103",
+      "sentences": [
+        {
+          "en": "So, I would definitely still do shadowing when I'm, you know, watching like videos on YouTube.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I would definitely still do shadowing when I'm, you know, watching like videos on YouTube."
+            }
+          ]
+        },
+        {
+          "en": "I do love shadowing because it's really like a real reaction you learn from people, right?",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I do love shadowing because it's really like a real reaction you learn from people, right?"
+            }
+          ]
+        },
+        {
+          "en": "And also, I wanted to become more professional in my field like a fashion field or because I don't know any vocabularies about like jewelries before.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And also, I wanted to become more professional in my field like a fashion field or because I don't know any vocabularies about like jewelries before."
+            }
+          ]
+        },
+        {
+          "en": "So, right now I'm going to, you know, learn like get into it to learn more things about my field.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, right now I'm going to, you know, learn like get into it to learn more things about my field."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-104",
+      "no": "104",
+      "titleZh": "第 104 段",
+      "titleEn": "Part 104",
+      "sentences": [
+        {
+          "en": "Um yeah, I think this mainly my like English learning goal as for right now and I feel like you know learning a language is a lifelong journey.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Um yeah, I think this mainly my like English learning goal as for right now and I feel like you know learning a language is a lifelong journey."
+            }
+          ]
+        },
+        {
+          "en": "You got to keep learning no matter how good you can speak because it's always something out there you don't know and you want to know.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You got to keep learning no matter how good you can speak because it's always something out there you don't know and you want to know."
+            }
+          ]
+        },
+        {
+          "en": "Yeah.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yeah."
+            }
+          ]
+        },
+        {
+          "en": "So for me I would love to always keep learning.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So for me I would love to always keep learning."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-105",
+      "no": "105",
+      "titleZh": "第 105 段",
+      "titleEn": "Part 105",
+      "sentences": [
+        {
+          "en": "Perfect.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Perfect."
+            }
+          ]
+        },
+        {
+          "en": "Never stop learning.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Never stop learning."
+            }
+          ]
+        },
+        {
+          "en": "That's what I always say.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's what I always say."
+            }
+          ]
+        },
+        {
+          "en": "Yay.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Yay."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-106",
+      "no": "106",
+      "titleZh": "第 106 段",
+      "titleEn": "Part 106",
+      "sentences": [
+        {
+          "en": "All right.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "All right."
+            }
+          ]
+        },
+        {
+          "en": "Well, thank you guys for joining us.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Well, thank you guys for joining us."
+            }
+          ]
+        },
+        {
+          "en": "Thank you, Olivia, for being on the podcast with me.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you, Olivia, for being on the podcast with me."
+            }
+          ]
+        },
+        {
+          "en": "And let me know in the comments if you guys want to see more interviews with Olivia.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And let me know in the comments if you guys want to see more interviews with Olivia."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-107",
+      "no": "107",
+      "titleZh": "第 107 段",
+      "titleEn": "Part 107",
+      "sentences": [
+        {
+          "en": "She has a lot to show you, a lot to tell us.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She has a lot to show you, a lot to tell us."
+            }
+          ]
+        },
+        {
+          "en": "So, um, yeah, be sure to like and subscribe, and I'll see you guys next time.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, um, yeah, be sure to like and subscribe, and I'll see you guys next time."
+            }
+          ]
+        },
+        {
+          "en": "Subscribe and like me.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Subscribe and like me."
+            }
+          ]
+        },
+        {
+          "en": "And I'll leave Olivia's Instagram in the description if you want to go check out her jewelry.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I'll leave Olivia's Instagram in the description if you want to go check out her jewelry."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-108",
+      "no": "108",
+      "titleZh": "第 108 段",
+      "titleEn": "Part 108",
+      "sentences": [
+        {
+          "en": "Oh.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Oh."
+            }
+          ]
+        },
+        {
+          "en": "All right.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "All right."
+            }
+          ]
+        },
+        {
+          "en": "Bye, guys, guys.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye, guys, guys."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "講者繼續分享英文學習、練習與變流利的經驗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -946,153 +5310,263 @@
       "title": "B2 重點單字",
       "items": [
         {
+          "id": "word-confidence",
+          "lemma": "confidence",
+          "english": "confidence",
+          "kk": "/ˈkɑnfədəns/",
+          "partOfSpeech": "n.",
+          "meaning": "自信",
+          "highlight": true
+        },
+        {
+          "id": "word-conversation",
+          "lemma": "conversation",
+          "english": "conversation",
+          "kk": "/ˌkɑnvɚˈseʃən/",
+          "partOfSpeech": "n.",
+          "meaning": "對話",
+          "highlight": true
+        },
+        {
+          "id": "word-opportunity",
+          "lemma": "opportunity",
+          "english": "opportunity",
+          "kk": "/ˌɑpɚˈtunəti/",
+          "partOfSpeech": "n.",
+          "meaning": "機會",
+          "highlight": true
+        },
+        {
+          "id": "word-comfortable",
+          "lemma": "comfortable",
+          "english": "comfortable",
+          "kk": "/ˈkʌmftɚbəl/",
+          "partOfSpeech": "adj.",
+          "meaning": "舒服自在的",
+          "highlight": true
+        },
+        {
+          "id": "word-improve",
+          "lemma": "improve",
+          "english": "improve",
+          "kk": "/ɪmˈpruv/",
+          "partOfSpeech": "v.",
+          "meaning": "改善；進步",
+          "highlight": true
+        },
+        {
+          "id": "word-actually",
+          "lemma": "actually",
+          "english": "actually",
+          "kk": "/ˈæktʃuəli/",
+          "partOfSpeech": "adv.",
+          "meaning": "其實",
+          "highlight": true
+        },
+        {
+          "id": "word-especially",
+          "lemma": "especially",
+          "english": "especially",
+          "kk": "/əˈspɛʃəli/",
+          "partOfSpeech": "adv.",
+          "meaning": "特別是",
+          "highlight": true
+        },
+        {
+          "id": "word-natural",
+          "lemma": "natural",
+          "english": "natural",
+          "kk": "/ˈnætʃərəl/",
+          "partOfSpeech": "adj.",
+          "meaning": "自然的",
+          "highlight": true
+        },
+        {
+          "id": "word-native",
+          "lemma": "native",
+          "english": "native",
+          "kk": "/ˈnetɪv/",
+          "partOfSpeech": "adj.",
+          "meaning": "母語的；本地的",
+          "highlight": true
+        },
+        {
+          "id": "word-know",
+          "lemma": "know",
           "english": "know",
           "kk": "/know/",
           "partOfSpeech": "n.",
           "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
+          "id": "word-don-t",
+          "lemma": "don't",
           "english": "don't",
           "kk": "/don't/",
           "partOfSpeech": "n.",
           "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
+          "id": "word-feel",
+          "lemma": "feel",
           "english": "feel",
           "kk": "/feel/",
           "partOfSpeech": "v.",
           "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "put",
-          "kk": "/put/",
-          "partOfSpeech": "n.",
-          "meaning": "放",
-          "note": "看到 put 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "time",
-          "kk": "/time/",
-          "partOfSpeech": "n.",
-          "meaning": "時間",
-          "note": "看到 time 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "yeah",
-          "kk": "/yeah/",
-          "partOfSpeech": "n.",
-          "meaning": "是的",
-          "note": "看到 yeah 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-get-better",
+      "phrase": "get better",
+      "meaning": "變得更好",
+      "examples": [
+        {
+          "en": "I was doing the working holiday because at the time I really want to get an opportunity to like you know work abroad to practice more my English and also get better paid.",
+          "tc": "變得更好"
+        }
+      ]
+    },
+    {
+      "id": "phrase-right-now",
+      "phrase": "right now",
+      "meaning": "此刻",
+      "examples": [
+        {
+          "en": "I discovered this by myself because I just feel like when you're learning a new language like right now I'm also learning Spanish right now.",
+          "tc": "此刻"
+        }
+      ]
+    },
+    {
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
       "meaning": "歡迎回來",
       "examples": [
         {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "tc": "歡迎回來"
         }
       ]
     },
     {
-      "id": "phrase-02",
+      "id": "phrase-what-do-you",
       "phrase": "what do you",
       "meaning": "你會怎麼...",
       "examples": [
         {
           "en": "What do you think was the biggest thing that broke through that maybe um feeling of being scared or shy to speak?",
-          "tc": "你認為最大的突破是什麼，也許是害怕或害羞的感覺？"
+          "tc": "你會怎麼..."
         }
       ]
     },
     {
-      "id": "phrase-03",
+      "id": "phrase-look-like",
       "phrase": "look like",
       "meaning": "看起來像",
       "examples": [
         {
           "en": "He look like, right?",
-          "tc": "他看起來像吧？"
+          "tc": "看起來像"
         }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-actually-actually",
+      "word": "actually",
+      "familiarMeaning": "實際地",
+      "usage": "口語中常用 actually 表示「其實、說真的」。",
+      "translation": "其實；說真的",
+      "examples": [
+        "And also her mindset actually will go into mine as well you know it's very interesting and I do the shadowing like every day every day."
+      ]
+    },
+    {
+      "id": "usage-natural-natural-english",
+      "word": "natural",
+      "familiarMeaning": "自然的",
+      "usage": "natural English 指聽起來像日常母語者會用的英文。",
+      "translation": "自然的英文",
+      "examples": [
+        "It's a free space to talk whenever you feel like talking and to talk with teachers from all around the world and have conversations like these naturally to boost your confidence in English."
+      ]
+    },
+    {
+      "id": "usage-get-get-better",
+      "word": "get",
+      "familiarMeaning": "得到",
+      "usage": "get better 表示狀態變好。",
+      "translation": "變得更好",
+      "examples": [
+        "And everything it's for daily life because this is how you get around how you start to you know understand like the daily life works for the basic vocabularies."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
+      "id": "grammar-1",
+      "sentence": "Hello and welcome back to my Slow English podcast.",
       "translation": "歡迎回到我的慢速英語podcast。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "to 不定詞",
+          "text": "to + 原形動詞",
+          "note": "表示目的、結果或補充前面的動作。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Today I have a special guest, Olivia. Hi Olivia or Yuhan. Yeah, but Olivia learned English in just three years. Three years ago,.",
-      "translation": "今天我有一位特別的客人，奧莉維亞。嗨，奧利維亞或雨涵。是的，但奧莉維亞只花了三年就學會了英語。三年前，。",
+      "id": "grammar-2",
+      "sentence": "Um, I think that my audience would love to know if you have any tips, anything that got you through the hardest part of starting to speak English, which is speaking.",
+      "translation": "她學了英語。",
       "points": [
         {
-          "label": "special guest olivia",
-          "text": "special guest olivia",
-          "note": "注意 \"special guest olivia\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "would 假設與委婉語氣",
+          "text": "would + 原形動詞",
+          "note": "用 would 表示假設情境、可能性或較委婉的說法。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "She didn't speak any English at all!",
-      "translation": "她根本不會說英語！",
+      "id": "grammar-3",
+      "sentence": "So every time when I'm trying to say okay I'm going to cook today so I'm going to use the stove I'm going to use uh the boss I'm going to use a fork.",
+      "translation": "所以我當時。",
       "points": [
         {
-          "label": "didn't speak",
-          "text": "didn't speak",
-          "note": "注意 \"didn't speak\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "when 時間子句",
+          "text": "when + 主詞 + 動詞",
+          "note": "說明事情發生的時間或情境。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "She learned English. Um,.",
-      "translation": "她學了英語。嗯，。",
+      "id": "grammar-4",
+      "sentence": "For example, I remember when I first met you, um, I told you that I speak a little bit of Chinese and I tried to say one sentence in Chinese, but I couldn't say anything.",
+      "translation": "把所有東西都燒起來。",
       "points": [
         {
-          "label": "learned",
-          "text": "learned",
-          "note": "注意 \"learned\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句或 that 子句",
+          "text": "名詞/動詞 + that/who/which + 子句",
+          "note": "用子句補充說明前面的名詞、想法或內容。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "And if they're judging you, that's because they maybe feel insecure about themselves.",
+      "translation": "我去上舞蹈課。",
+      "points": [
+        {
+          "label": "if 條件句",
+          "text": "If + 子句, 主句",
+          "note": "用 if 子句提出條件，再說明結果或想像情況。"
         }
       ]
     }

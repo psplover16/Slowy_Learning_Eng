@@ -15,538 +15,1543 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：旅行",
-      "titleEn": "Opening: travel",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Hello. Learn English with me while I show you my trip to Thailand. Starting with our.",
-          "tc": "你好。當我向你展示我的泰國之旅時，和我一起學習英語。從我們的開始。"
+          "en": "Hello.",
+          "tc": "你好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello."
+            }
+          ]
         },
         {
-          "en": "First 30hour flight to Thailand. It's a brutal flight. But this wasn't even the longest flight.",
-          "tc": "第一個飛往泰國的 30 小時航班。這是一場殘酷的飛行。但這還不是最長的飛行。"
+          "en": "Learn English with me while I show you my trip to Thailand.",
+          "tc": "當我向您展示我的泰國之旅时，和我一起學習英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Learn English with me while I show you my trip to Thailand."
+            }
+          ]
         },
         {
-          "en": "I've been on. When I was on an extreme budget,.",
-          "tc": "我一直在。當我的預算非常緊張時。"
+          "en": "Starting with our first 30-hour flight to Thailand.",
+          "tc": "从我們飛往泰國的第一個30小时航班開始。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Starting with our first 30-hour flight to Thailand."
+            }
+          ]
         },
         {
-          "en": "I would buy the cheapest tickets I could find. And once.",
-          "tc": "我會買我能找到的最便宜的票。還有一次。"
+          "en": "It's a brutal flight.",
+          "tc": "這是一次残酷的飛行。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's a "
+            },
+            {
+              "type": "word",
+              "text": "brutal",
+              "targetId": "word-brutal",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-004-01"
+            },
+            {
+              "type": "text",
+              "text": " flight."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "flight",
-          "kk": "/flight/",
-          "partOfSpeech": "n.",
-          "meaning": "航班",
-          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hour",
-          "kk": "/hour/",
-          "partOfSpeech": "n.",
-          "meaning": "小時",
-          "note": "看到 hour 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "it's",
-          "kk": "/it's/",
-          "partOfSpeech": "n.",
-          "meaning": "它是",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I had a 50hour flight with a 12hour layover in Los Angeles,.",
-          "tc": "我搭乘了 50 小時的航班，在洛杉磯停留了 12 小時。"
+          "en": "But this was not even the longest flight I have taken.",
+          "tc": "但這甚至不是我乘坐的最長的航班。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But this was not even the longest flight I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-005-01"
+            },
+            {
+              "type": "text",
+              "text": " taken."
+            }
+          ]
         },
         {
-          "en": "Then an 8hour layover in Japan. That was a brutal flight.",
-          "tc": "然後在日本轉機8小時。那是一場殘酷的飛行。"
+          "en": "When I was on an extreme budget, I would buy the cheapest tickets I could find.",
+          "tc": "當我的预算非常緊張时，我會買我能找到的最便宜的票。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I was on an extreme "
+            },
+            {
+              "type": "word",
+              "text": "budget",
+              "targetId": "word-budget",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-006-01"
+            },
+            {
+              "type": "text",
+              "text": ", I would buy the cheapest tickets I could find."
+            }
+          ]
         },
         {
-          "en": "I think once you're on hour 13 on a plane, that's when you're just like, \"Where am I?\" That's.",
-          "tc": "我想一旦你在飛機上 13 點，你就會想，「我在哪裡？」就是這樣。"
+          "en": "And once I had a 50-hour flight with a 12-hour layover in Los Angeles, then an 8-hour layover in Japan.",
+          "tc": "有一次，我乘坐了50小时的航班，在洛杉矶中转了12小时，然後在日本中转了8小时。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And once I had a 50-hour flight with a 12-hour "
+            },
+            {
+              "type": "word",
+              "text": "layover",
+              "targetId": "word-layover",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-007-01"
+            },
+            {
+              "type": "text",
+              "text": " in Los Angeles, then an 8-hour layover in Japan."
+            }
+          ]
         },
         {
-          "en": "How do you cope with long flights? I try to sleep through them, of course?",
-          "tc": "你如何應付長途飛行？當然，我會嘗試在它們的影響下入睡，對嗎？"
+          "en": "That was a brutal flight.",
+          "tc": "那是一次残酷的飛行。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That was a brutal flight."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "flight",
-          "kk": "/flight/",
-          "partOfSpeech": "n.",
-          "meaning": "航班",
-          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hour",
-          "kk": "/hour/",
-          "partOfSpeech": "n.",
-          "meaning": "小時",
-          "note": "看到 hour 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "flights",
-          "kk": "/flights/",
-          "partOfSpeech": "n.",
-          "meaning": "航班",
-          "note": "看到 flights 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I'm curious, what other strategies.",
-          "tc": "我很好奇，還有什麼策略。"
+          "en": "I think that after 13 hours on a plane, you start to feel lost.",
+          "tc": "我認為在飛機上坐了13個小时之後，你就會開始感到失落。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think that after 13 hours on a plane, you start to "
+            },
+            {
+              "type": "usage",
+              "text": "feel",
+              "targetId": "usage-feel-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-009-01"
+            },
+            {
+              "type": "text",
+              "text": " lost."
+            }
+          ]
         },
         {
-          "en": "Do you have to cope with long flights?",
-          "tc": "你必須應付長途飛行嗎？"
+          "en": "That's when you lose all notion of time.",
+          "tc": "那是你失去所有时間概念的时候。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's when you lose all notion of time."
+            }
+          ]
         },
         {
-          "en": "I love nighttime flights because the lights are so pretty and purple and blue. I can sleep all through them. After our 30 hours of traveling,.",
-          "tc": "我喜歡夜間飛行，因為燈光非常漂亮，紫色和藍色。我可以在整個過程中入睡。經過我們30個小時的旅行，。"
+          "en": "You don't know where you are, what time it is, how long you've been on the flight.",
+          "tc": "您不知道自己在哪里、現在是什麼时間、在航班上呆了多久。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You don't know where you are, what time it is, how long you've been on the flight."
+            }
+          ]
         },
         {
-          "en": "We arrived in Bangkok very late.",
-          "tc": "我們到達曼谷已經很晚了。"
+          "en": "You're just lost.",
+          "tc": "你剛剛迷路了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You're just lost."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "flight",
-          "kk": "/flight/",
-          "partOfSpeech": "n.",
-          "meaning": "航班",
-          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hour",
-          "kk": "/hour/",
-          "partOfSpeech": "n.",
-          "meaning": "小時",
-          "note": "看到 hour 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "We took an Uber to our Airbnb.",
-          "tc": "我們打了 Uber 去我們的 Airbnb。"
+          "en": "What's the longest flight you've been on?",
+          "tc": "您乘坐過的最長的航班是哪一次？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What's the longest flight you've been on?"
+            }
+          ]
         },
         {
-          "en": "Next morning, I took my sister to eat her.",
-          "tc": "第二天早上，我帶著妹妹去吃飯。"
+          "en": "How do you cope with long flights?",
+          "tc": "您如何應對長途飛行？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How do you cope with long flights?"
+            }
+          ]
         },
         {
-          "en": "First pad thai ever.",
-          "tc": "有史以來第一次泰式炒河粉。"
+          "en": "I try to sleep through them, of course.",
+          "tc": "當然，我會嘗試在這些過程中入睡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I try to sleep through them, of course."
+            }
+          ]
         },
         {
-          "en": "She loved it.",
-          "tc": "她喜歡它。"
+          "en": "But I'm curious, what other strategies do you have to cope with long flights?",
+          "tc": "但我很好奇，你还有什麼其他策略來應對長途飛行？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I'm curious, what other strategies do you have to cope with long flights?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "We also got a massage.",
-          "tc": "我們還做了按摩。"
+          "en": "I love nighttime flights because the lights are so pretty and purple and blue.",
+          "tc": "我喜歡夜間飛行，因為燈光非常漂亮，紫色和蓝色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love nighttime flights because the lights are so pretty and purple and blue."
+            }
+          ]
         },
         {
-          "en": "They saw that.",
-          "tc": "他們看到了。"
+          "en": "I can sleep all through them.",
+          "tc": "我可以在整個過程中睡覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can sleep all through them."
+            }
+          ]
         },
         {
-          "en": "I had scraped my knee.",
-          "tc": "我擦傷了膝蓋。"
+          "en": "After our 30 hours of traveling, we arrived in Bangkok very late and we took an Uber to our Airbnb.",
+          "tc": "經過30個小时的旅行，我們很晚才到達曼谷，然後我們乘坐Uber去了我們的Airbnb。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After our 30 hours of traveling, we arrived in Bangkok very late and we took an Uber to our Airbnb."
+            }
+          ]
         },
         {
-          "en": "They helped me to cure it. Thai people are so kind. So kind.",
-          "tc": "他們幫助我治癒了它。泰國人真是太善良了。非常友善。"
+          "en": "The next morning, I took my sister to eat her first pad thai ever.",
+          "tc": "第二天早上，我帶姐姐去吃她人生中第一顿泰式炒河粉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next morning, I took my sister to eat her first pad thai ever."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "flight",
-          "kk": "/flight/",
-          "partOfSpeech": "n.",
-          "meaning": "航班",
-          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hour",
-          "kk": "/hour/",
-          "partOfSpeech": "n.",
-          "meaning": "小時",
-          "note": "看到 hour 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "it's",
-          "kk": "/it's/",
-          "partOfSpeech": "n.",
-          "meaning": "它是",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "They even offered to give me the bottle of hydrogen peroxide.",
-          "tc": "他們甚至主動提出要給我一瓶過氧化氫。"
+          "en": "She loved it.",
+          "tc": "她喜歡它。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She loved it."
+            }
+          ]
         },
         {
-          "en": "They're so sweet.",
-          "tc": "他們太甜蜜了。"
+          "en": "We also got a massage and they saw that I had scraped my knee.",
+          "tc": "我們还做了按摩，他們看到我擦伤了膝盖。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We also got a massage and they saw that I had scraped my knee."
+            }
+          ]
         },
         {
-          "en": "I love pad thai,.",
-          "tc": "我喜歡泰式炒河粉。"
+          "en": "So they helped me to cure it.",
+          "tc": "所以他們幫我治好了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So they helped me to cure it."
+            }
+          ]
         },
         {
-          "en": "I like pad see ew even more.",
-          "tc": "我更喜歡pad see ew。"
+          "en": "Thai people are so kind.",
+          "tc": "泰國人真友善。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thai people are so kind."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "I love the thick rice noodles. A couple days later,.",
-          "tc": "我喜歡粗米粉。幾天后，。"
+          "en": "So so kind.",
+          "tc": "真是太好了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So so kind."
+            }
+          ]
         },
         {
-          "en": "Then take a ferry to Koh Tao,.",
-          "tc": "然後搭乘渡輪前往濤島。"
+          "en": "They even offered to give me the bottle of hydrogen peroxide.",
+          "tc": "他們甚至主動提出给我一瓶過氧化氢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They even offered to give me the bottle of hydrogen peroxide."
+            }
+          ]
         },
         {
-          "en": "My favorite place in Thailand. You could see all the fairies from the beach. I loved seeing the sunrise with my sister.",
-          "tc": "我在泰國最喜歡的地方。你可以從海灘上看到所有的仙女。我很喜歡和姐姐一起看日出。"
+          "en": "I think they're so sweet.",
+          "tc": "我覺得他們很甜蜜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think they're so sweet."
+            }
+          ]
         },
         {
-          "en": "It was very different going with my sister than.",
-          "tc": "和我姐姐一起去的感覺非常不同。"
+          "en": "I love pad thai, but I like pad see ew even more.",
+          "tc": "我喜歡泰式炒河粉，但我更喜歡泰式炒河粉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love pad thai, but I like pad see ew even more."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "ferry",
-          "kk": "/ferry/",
-          "partOfSpeech": "n.",
-          "meaning": "渡輪",
-          "note": "看到 ferry 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "koh",
-          "kk": "/koh/",
-          "partOfSpeech": "n.",
-          "meaning": "科赫",
-          "note": "看到 koh 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "It was going alone. Of course,.",
-          "tc": "它是獨自一人去的。當然，。"
+          "en": "I love the thick rice noodles.",
+          "tc": "我喜歡粗米粉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love the thick rice noodles."
+            }
+          ]
         },
         {
-          "en": "My favorite places in the whole world,.",
-          "tc": "全世界我最喜歡的地方。"
+          "en": "A couple days later, we took the bus to Surat Thani to then take a ferry to Koh Tao, my favorite place in Thailand.",
+          "tc": "几天後，我們乘巴士前往素叻他尼，然後乘渡轮前往涛島，這是我在泰國最喜歡的地方。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A couple days later, we took the bus to Surat Thani to then "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-030-01"
+            },
+            {
+              "type": "text",
+              "text": " a ferry to Koh Tao, my favorite place in Thailand."
+            }
+          ]
         },
         {
-          "en": "We walked across the ramp to board the ferry. This fairy gets really bumpy.",
-          "tc": "我們穿過坡道登上渡輪。这仙女真是太坎坷了。"
+          "en": "You could see all the fairies from the beach.",
+          "tc": "你可以从海滩上看到所有的仙女。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You could see all the fairies from the beach."
+            }
+          ]
         },
         {
-          "en": "Sometimes. I remember some stories of some fairies that would sink on their way to Koh Tao because the current and the waves are just too intense.",
-          "tc": "有時。我记得一些仙女在前往涛岛的途中会沉没的故事，因为水流和海浪太猛烈了。"
+          "en": "I loved seeing the sunrise with my sister.",
+          "tc": "我喜歡和姐姐一起看日出。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I loved seeing the sunrise with my sister."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "ferry",
-          "kk": "/ferry/",
-          "partOfSpeech": "n.",
-          "meaning": "渡輪",
-          "note": "看到 ferry 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "koh",
-          "kk": "/koh/",
-          "partOfSpeech": "n.",
-          "meaning": "科赫",
-          "note": "看到 koh 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "I remember seeing videos of people fishing out their suitcases and bags from the ocean. It's scary for me every time.",
-          "tc": "我記得看過人們從海裡撈出手提箱和袋子的影片。每次都让我害怕。"
+          "en": "It was very different going with my sister than it was going alone.",
+          "tc": "和姐姐一起去和單独去有很大不同。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was very different going with my sister than it was going alone."
+            }
+          ]
         },
         {
-          "en": "I take that ferry because I know that.",
-          "tc": "我搭乘那艘渡輪是因為我知道這一點。"
+          "en": "Of course, I love traveling alone, but going with my sister was so special, it made me a little emotional that my lifelong dream of traveling with my sister was coming true.",
+          "tc": "當然，我喜歡一個人旅行，但和姐姐一起旅行是如此特別，這讓我有点感慨，我一生的夢想與姐姐一起旅行即将實現。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Of course, I love traveling alone, but going with my sister was so special, it made me a little emotional that my lifelong dream of traveling with my sister was coming true."
+            }
+          ]
         },
         {
-          "en": "They sink and I can swim fine. But my computer, my phone, my iPad, my microphone,.",
-          "tc": "它們會沉下去，而我卻能游得很好。但是我的電腦、我的手機、我的 iPad、我的麥克風。"
+          "en": "And in one of my favorite places in the whole world, we walked across the ramp to board the ferry.",
+          "tc": "在全世界我最喜歡的地方之一，我們穿過坡道登上渡轮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And in one of my favorite places in the whole world, we walked across the ramp to board the ferry."
+            }
+          ]
         },
         {
-          "en": "They're expensive. But I try to forget all of those worries and just enjoy the view with the fresh breeze and the soft sun. It's not too intense like in Mexico. It.",
-          "tc": "它們很貴。但我試著忘記所有這些擔憂，只是享受清新的微風和柔和的陽光下的景色。不像墨西哥太激烈。它。"
+          "en": "This fairy gets really bumpy sometimes.",
+          "tc": "這個仙女有时真的很坎坷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This fairy gets really bumpy sometimes."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "it's",
-          "kk": "/it's/",
-          "partOfSpeech": "n.",
-          "meaning": "它是",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "ferry",
-          "kk": "/ferry/",
-          "partOfSpeech": "n.",
-          "meaning": "渡輪",
-          "note": "看到 ferry 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "Makes me so grateful to be able to visit a place like this.",
-          "tc": "讓我非常感激能夠參觀這樣的地方。"
+          "en": "I remember some stories of some fairies that would sink on their way to Koh Tao because the current and the waves are just too intense.",
+          "tc": "我记得一些仙女在前往涛島的途中沉沒的故事，因為水流和海浪太猛烈了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I remember some stories of some fairies that would sink on their way to Koh Tao because the current and the waves are just too intense."
+            }
+          ]
         },
         {
-          "en": "I love Koh Tao.",
-          "tc": "我愛濤島。"
+          "en": "I remember seeing videos of people fishing out their suitcases and bags from the ocean.",
+          "tc": "我记得看過人們从海里捞出手提箱和袋子的視頻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I remember seeing videos of people fishing out their suitcases and bags from the ocean."
+            }
+          ]
         },
         {
-          "en": "We took a taxi.",
-          "tc": "我們打了一輛計程車。"
+          "en": "It's scary for me every time I take that ferry because I know that sometimes they sink and I can swim fine.",
+          "tc": "每次我乘坐那艘渡轮时，我都會感到害怕，因為我知道有时它們會下沉，而我可以游得很好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's scary for me every time I take that ferry because I know that sometimes they sink and I can swim fine."
+            }
+          ]
         },
         {
-          "en": "We sat in the back of a pickup truck.",
-          "tc": "我們坐在一輛皮卡車的後座。"
+          "en": "But my computer, my phone, my iPad, my microphone, they're expensive.",
+          "tc": "但是我的電腦、我的手機、我的iPad、我的麥克风，它們都很貴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But my computer, my phone, my iPad, my microphone, they're expensive."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "koh",
-          "kk": "/koh/",
-          "partOfSpeech": "n.",
-          "meaning": "科赫",
-          "note": "看到 koh 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：日常生活",
-      "titleEn": "Part 11: everyday life",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "We arrived at our Airbnb.",
-          "tc": "我們到達了我們的愛彼迎。"
+          "en": "But I try to forget all of those worries and just enjoy the view with the fresh breeze and the soft sun.",
+          "tc": "但我試着忘记所有這些担忧，只是享受清新的微风和柔和的陽光下的景色。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I try to forget all of those worries and just enjoy the view with the fresh breeze and the soft sun."
+            }
+          ]
         },
         {
-          "en": "I would go on morning jog.",
-          "tc": "我會去晨跑。"
+          "en": "It's not too intense like in Mexico.",
+          "tc": "不像墨西哥那樣太激烈。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's not too intense like in Mexico."
+            }
+          ]
         },
         {
-          "en": "Positivity and the beauty that I see in the world with everyone.",
-          "tc": "我與每個人一起在世界上看到的積極性和美麗。"
+          "en": "It makes me so grateful to be able to visit a place like this.",
+          "tc": "能夠参觀這樣的地方讓我感到非常感激。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It makes me so "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-043-01"
+            },
+            {
+              "type": "text",
+              "text": " to be able to visit a place like this."
+            }
+          ]
         },
         {
-          "en": "I can with you guys, with the people I meet. It's so important.",
-          "tc": "我可以和你們，和我遇到的人在一起。這非常重要。"
+          "en": "I love Koh Tao.",
+          "tc": "我愛涛島。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love Koh Tao."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "it's",
-          "kk": "/it's/",
-          "partOfSpeech": "n.",
-          "meaning": "它是",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：日常生活",
-      "titleEn": "Part 12: everyday life",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "We remember that the world is a beautiful place.",
-          "tc": "我們記得世界是一個美麗的地方。"
+          "en": "We took a taxi and we sat in the back of a pickup truck and we arrived at our Airbnb.",
+          "tc": "我們乘坐出租車，坐在一辆皮卡車的後座上，到達了我們的Airbnb。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We took a taxi and we sat in the back of a pickup truck and we arrived at our Airbnb."
+            }
+          ]
         },
         {
-          "en": "We moved Airbnbs.",
-          "tc": "我們搬家了 Airbnb。"
+          "en": "We stayed near the beach where I would go on morning jog and I would read my book on a hammock.",
+          "tc": "我們住在海滩附近，我會在那里晨跑，然後在吊床上看書。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We stayed near the beach where I would go on morning jog and I would read my book on a hammock."
+            }
+          ]
         },
         {
-          "en": "We stayed right.",
-          "tc": "我們保持正確。"
+          "en": "This is life.",
+          "tc": "這就是生活。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is life."
+            }
+          ]
         },
         {
-          "en": "Next to the bay.",
-          "tc": "毗鄰海灣。"
+          "en": "Jogging, swimming, and reading.",
+          "tc": "慢跑、游泳和阅讀。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Jogging, swimming, and reading."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
         {
-          "english": "flight",
-          "kk": "/flight/",
-          "partOfSpeech": "n.",
-          "meaning": "航班",
-          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "It makes me feel alive.",
+          "tc": "這讓我感覺自己还活着。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It makes me feel alive."
+            }
+          ]
         },
         {
-          "english": "hour",
-          "kk": "/hour/",
-          "partOfSpeech": "n.",
-          "meaning": "小時",
-          "note": "看到 hour 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "It makes me feel grateful and inspired to spread all of the positivity and the beauty that I see in the world with everyone I can with you guys, with the people I meet.",
+          "tc": "與你們、我遇到的人一起传播我在世界上看到的所有積極性和美麗，這讓我感到感激和鼓舞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It makes me feel grateful and inspired to spread all of the positivity and the beauty that I see in the world with everyone I can with you guys, with the people I meet."
+            }
+          ]
         },
         {
-          "english": "it's",
-          "kk": "/it's/",
-          "partOfSpeech": "n.",
-          "meaning": "它是",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "It's so important we remember that the world is a beautiful place.",
+          "tc": "我們要记住世界是一個美麗的地方，這一点非常重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's so important we remember that the world is a beautiful place."
+            }
+          ]
+        },
+        {
+          "en": "We moved Airbnbs and we stayed right next to the bay.",
+          "tc": "我們搬了愛彼迎，住在海湾旁邊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We moved Airbnbs and we stayed right next to the bay."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "It was such a wonderful experience to wake up with the sunrise every morning and go snorkeling.",
+          "tc": "每天早上在日出中醒來并去浮潜真是一次美妙的經历。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was such a wonderful experience to "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-053-01"
+            },
+            {
+              "type": "text",
+              "text": " with the sunrise every morning and go snorkeling."
+            }
+          ]
+        },
+        {
+          "en": "I saw the three turtles living near the bay every morning, always keeping my distance.",
+          "tc": "每天早上我都看到這三只海龜住在海湾附近，總是與我保持距離。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I saw the three turtles living near the bay every morning, always keeping my distance."
+            }
+          ]
+        },
+        {
+          "en": "You don't want to make them feel suffocated.",
+          "tc": "你不想讓他們感到窒息。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You don't want to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-055-01"
+            },
+            {
+              "type": "text",
+              "text": " them feel suffocated."
+            }
+          ]
+        },
+        {
+          "en": "And you should never touch one.",
+          "tc": "而且你永遠不應該碰它。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And you should never touch one."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "Humans have lots of bacteria on our hands that can make a turtle sick.",
+          "tc": "人类的手上有很多细菌，這些细菌會讓烏龜生病。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Humans have lots of bacteria on our hands that can make a turtle sick."
+            }
+          ]
+        },
+        {
+          "en": "I said good morning to the box fish, to the angel fish, and to my favorite, the parrot fish.",
+          "tc": "我對箱魚、天使魚和我最喜歡的鹦鹉魚說早上好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I said good morning to the box fish, to the angel fish, and to my favorite, the parrot fish."
+            }
+          ]
+        },
+        {
+          "en": "I love them all.",
+          "tc": "我愛他們所有人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love them all."
+            }
+          ]
+        },
+        {
+          "en": "It was so magical to be right next to the ocean.",
+          "tc": "毗鄰大海真是太神奇了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was so magical to be right next to the ocean."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "Watching these videos makes me miss it so bad.",
+          "tc": "觀看這些視頻讓我非常懷念。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Watching these videos makes me miss it so bad."
+            }
+          ]
+        },
+        {
+          "en": "I can't wait to go again.",
+          "tc": "我迫不及待地想再去一次。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can't wait "
+            },
+            {
+              "type": "phrase",
+              "text": "to go",
+              "targetId": "phrase-to-go",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-062-01"
+            },
+            {
+              "type": "text",
+              "text": " again."
+            }
+          ]
+        },
+        {
+          "en": "My sister and I tried lots of snacks from the 71.",
+          "tc": "我和姐姐嘗了很多71的零食。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My sister and I tried lots of snacks from the 71."
+            }
+          ]
+        },
+        {
+          "en": "We drank lots of coconuts.",
+          "tc": "我們喝了很多椰子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We drank lots of coconuts."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "We ate lots of Thai food and delicious desserts like these cinnamon buns.",
+          "tc": "我們吃了很多泰國菜和美味的甜点，比如這些肉桂面包。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We ate lots of Thai food and "
+            },
+            {
+              "type": "word",
+              "text": "delicious",
+              "targetId": "word-deliciou",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-065-01"
+            },
+            {
+              "type": "text",
+              "text": " desserts like these cinnamon buns."
+            }
+          ]
+        },
+        {
+          "en": "We saw the cutest bullfrog outside of the pharmacy.",
+          "tc": "我們在藥房外面看到了最可愛的牛蛙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We saw the cutest bullfrog outside of the pharmacy."
+            }
+          ]
+        },
+        {
+          "en": "At night, you could hear the croakkes of the bullfrogs.",
+          "tc": "晚上，你可以聽到牛蛙的叫聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "At night, you could hear the croakkes of the bullfrogs."
+            }
+          ]
+        },
+        {
+          "en": "All night long they made such a scary sound straight out of a horror movie during the scenes where something terrible is about to happen.",
+          "tc": "整個晚上，在可怕的事情即将發生的場景中，他們發出了恐怖電影中的可怕聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "All night long they made such a scary sound straight out of a horror movie during the scenes where something terrible is about to happen."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "That's what they sounded like.",
+          "tc": "這就是他們聽起來的樣子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's what they sounded like."
+            }
+          ]
+        },
+        {
+          "en": "They would lie in the gutters croaking all night long.",
+          "tc": "它們會躺在排水沟里整夜呱呱叫。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They would lie in the gutters croaking all night long."
+            }
+          ]
+        },
+        {
+          "en": "After traveling around Koh Tao for a week, we head to Chiang Mai to see the elephant sanctuary.",
+          "tc": "在涛島旅游一周後，我們前往清迈参觀大象保護區。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "After traveling around Koh Tao for a week, we head to Chiang Mai to see the "
+            },
+            {
+              "type": "word",
+              "text": "elephant",
+              "targetId": "word-elephant",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-071-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "sanctuary",
+              "targetId": "word-sanctuary",
+              "instanceId": "marker-a2-ch25-learn-english-travel-vlog-for-beginners-071-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "You can find that video linked in my description if you want to see it.",
+          "tc": "如果您想觀看，可以在我的描述中找到链接的視頻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can find that video linked in my description if you want to see it."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "So guys, I have a sad story to tell you.",
+          "tc": "各位，我有一個悲伤的故事要告诉你們。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So guys, I have a sad story to tell you."
+            }
+          ]
+        },
+        {
+          "en": "I recorded everything when I went to Thailand.",
+          "tc": "我把去泰國时的一切都记錄下來了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I recorded everything when I went to Thailand."
+            }
+          ]
+        },
+        {
+          "en": "The beautiful places I visited with my sister, the beaches, the ocean, the moments, the laughs, and I was so excited to finally start editing it.",
+          "tc": "我和姐姐一起去過的美麗地方、海滩、海洋、瞬間、歡笑，我很高興終于開始编辑它。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The beautiful places I visited with my sister, the beaches, the ocean, the moments, the laughs, and I was so excited to finally start editing it."
+            }
+          ]
+        },
+        {
+          "en": "I love editing my vlogs.",
+          "tc": "我喜歡编辑我的視頻博客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love editing my vlogs."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "I love sharing my traveling experiences with you guys.",
+          "tc": "我喜歡與你們分享我的旅行經历。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love sharing my traveling experiences with you guys."
+            }
+          ]
+        },
+        {
+          "en": "But yesterday, I was about to compile all my videos from my phone and send them to my computer so I could start editing right away.",
+          "tc": "但昨天，我正准備从手機上编译所有視頻并将它們發送到我的電腦上，以便我可以立即開始编辑。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But yesterday, I was about to compile all my videos from my phone and send them to my computer so I could start editing right away."
+            }
+          ]
+        },
+        {
+          "en": "I realized they were gone.",
+          "tc": "我意識到他們已經走了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I realized they were gone."
+            }
+          ]
+        },
+        {
+          "en": "All the recordings that I cherished from my trip were gone.",
+          "tc": "我在旅途中珍藏的所有錄音都消失了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "All the recordings that I cherished from my trip were gone."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "I was very upset.",
+          "tc": "我非常沮丧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was very upset."
+            }
+          ]
+        },
+        {
+          "en": "Not just because of the vlog, but because those were precious memories that I recorded for myself.",
+          "tc": "不仅仅是因為視頻博客，而是因為那些是我為自己记錄的珍貴回忆。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Not just because of the vlog, but because those were precious memories that I recorded for myself."
+            }
+          ]
+        },
+        {
+          "en": "Memories I thought I would be able to look back on for years to come.",
+          "tc": "我以為我可以在未來的岁月里回想起那些回忆。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Memories I thought I would be able to look back on for years to come."
+            }
+          ]
+        },
+        {
+          "en": "I broke down and I cried a lot.",
+          "tc": "我崩溃了，哭了很多次。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I broke down and I cried a lot."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "For a moment, I cried out of frustration, disappointment, and just feeling like I lost very special moments.",
+          "tc": "有那麼一刻，我因沮丧、失望而哭泣，感覺自己失去了非常特別的时刻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For a moment, I cried out of frustration, disappointment, and just feeling like I lost very special moments."
+            }
+          ]
+        },
+        {
+          "en": "But then I realized I didn't lose anything.",
+          "tc": "但後來我意識到我并沒有失去任何东西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But then I realized I didn't lose anything."
+            }
+          ]
+        },
+        {
+          "en": "Those moments were real.",
+          "tc": "那些时刻是真實的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Those moments were real."
+            }
+          ]
+        },
+        {
+          "en": "The memories I made with my sister are real.",
+          "tc": "我和姐姐的回忆是真實的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The memories I made with my sister are real."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "The sounds, the feelings, the memories, they all still live here.",
+          "tc": "聲音、感覺、记忆，它們都还存在在這里。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The sounds, the feelings, the memories, they all still live here."
+            }
+          ]
+        },
+        {
+          "en": "And I thought I would tell you guys about it because it's a good reminder for everyone to not be attached to things.",
+          "tc": "我想我應該告诉你們這件事，因為它很好地提醒每個人不要执着于事物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I thought I would tell you guys about it because it's a good reminder for everyone to not be attached to things."
+            }
+          ]
+        },
+        {
+          "en": "They are just things.",
+          "tc": "它們只是事物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They are just things."
+            }
+          ]
+        },
+        {
+          "en": "They aren't keeping me alive or necessary for my survival.",
+          "tc": "它們不能讓我活下去，也不是我生存所必需的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They aren't keeping me alive or necessary for my survival."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "I don't need photos.",
+          "tc": "我不需要照片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't need photos."
+            }
+          ]
+        },
+        {
+          "en": "I don't need a special ring.",
+          "tc": "我不需要特殊的戒指。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't need a special ring."
+            }
+          ]
+        },
+        {
+          "en": "I don't need that special bracelet, my favorite shirt.",
+          "tc": "我不需要那個特殊的手镯，我最喜歡的衬衫。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't need that special bracelet, my favorite shirt."
+            }
+          ]
+        },
+        {
+          "en": "Of course, I'll feel sad if I lose those things, but I can't rely on objects to bring me joy.",
+          "tc": "當然，如果我失去那些东西我會感到難過，但我不能依靠物品给我帶來快樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Of course, I'll feel sad if I lose those things, but I can't rely on objects to bring me joy."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "It reminded me actually of my favorite bracelet I had since I was a little girl.",
+          "tc": "它實際上讓我想起了我小时候最喜歡的手镯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It reminded me actually of my favorite bracelet I had since I was a little girl."
+            }
+          ]
+        },
+        {
+          "en": "It was so special to me because my mom gave it to me.",
+          "tc": "這對我來說非常特別，因為它是我媽媽送给我的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was so special to me because my mom gave it to me."
+            }
+          ]
+        },
+        {
+          "en": "I was wearing it in the ocean.",
+          "tc": "我在海里戴着它。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was wearing it in the ocean."
+            }
+          ]
+        },
+        {
+          "en": "I was snorkeling and I vividly remember my bracelet unlatching from my ankle and slowly falling deeper and deeper into the ocean.",
+          "tc": "我當时正在浮潜，我清楚地记得我的手镯从脚踝上松開，慢慢地越來越深地落入大海。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was snorkeling and I vividly remember my bracelet unlatching from my ankle and slowly falling deeper and deeper into the ocean."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "It just continued to sink and I was upset.",
+          "tc": "它繼續下沉，我很沮丧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It just continued to sink and I was upset."
+            }
+          ]
+        },
+        {
+          "en": "But one thing that reassured me was that it was a part of the ocean now.",
+          "tc": "但讓我放心的一件事是它現在是海洋的一部分。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But one thing that reassured me was that it was a part of the ocean now."
+            }
+          ]
+        },
+        {
+          "en": "A very special thing that I owned now would forever belong to the ocean.",
+          "tc": "我現在擁有的一件非常特別的东西将永遠屬于海洋。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A very special thing that I owned now would forever belong to the ocean."
+            }
+          ]
+        },
+        {
+          "en": "And that brought me comfort.",
+          "tc": "這给我帶來了安慰。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And that brought me comfort."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "It brought me reassurance, and I'm sure it's happened to everyone watching this video.",
+          "tc": "這讓我安心了，我相信觀看該視頻的每個人都遇到過這種情况。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It brought me reassurance, and I'm sure it's happened to everyone watching this video."
+            }
+          ]
+        },
+        {
+          "en": "When you lose something very special to you, something that's worth more than money, it hurts.",
+          "tc": "當你失去一些對你來說非常特別、比金錢更有價值的东西时，你會感到痛苦。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When you lose something very special to you, something that's worth more than money, it hurts."
+            }
+          ]
+        },
+        {
+          "en": "Ouch.",
+          "tc": "哎哟。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Ouch."
+            }
+          ]
+        },
+        {
+          "en": "But it teaches us that the feelings and the meaning that it had to you is something that now you carry inside of you.",
+          "tc": "但它告诉我們，它對你的感受和意義現在已經存在于你的內心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But it teaches us that the feelings and the meaning that it had to you is something that now you carry inside of you."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-28",
+      "no": "28",
+      "titleZh": "第 28 段",
+      "titleEn": "Part 28",
+      "sentences": [
+        {
+          "en": "But it teaches us that that feeling or meaning that it had to you is something that you carry inside with you.",
+          "tc": "但它告诉我們，它對你的感覺或意義是你随身携帶的东西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But it teaches us that that feeling or meaning that it had to you is something that you carry inside with you."
+            }
+          ]
+        },
+        {
+          "en": "I hope you guys enjoyed this very special video I made just for you with the videos that I did save which are also beautiful videos.",
+          "tc": "我希望你們喜歡我為你們制作的這段非常特別的視頻，其中包含我保存的視頻，這些視頻也是美麗的視頻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hope you guys enjoyed this very special video I made just for you with the videos that I did save which are also beautiful videos."
+            }
+          ]
+        },
+        {
+          "en": "It was a beautiful experience.",
+          "tc": "這是一次美好的經历。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It was a beautiful experience."
+            }
+          ]
+        },
+        {
+          "en": "I'm so grateful to have such a loving community who supports all of my English learning videos.",
+          "tc": "我非常感激有這樣一個充滿愛心的社區來支持我所有的英語學習視頻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm so grateful to have such a loving community who supports all of my English learning videos."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-29",
+      "no": "29",
+      "titleZh": "第 29 段",
+      "titleEn": "Part 29",
+      "sentences": [
+        {
+          "en": "And I can't wait to continue vlogging all of my trips while helping you learn English, one video at a time.",
+          "tc": "我迫不及待地想繼續錄制我所有的旅行視頻，同时幫助您學習英語，一次一個視頻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I can't wait to continue vlogging all of my trips while helping you learn English, one video at a time."
+            }
+          ]
+        },
+        {
+          "en": "And please never stop learning.",
+          "tc": "請永遠不要停止學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And please never stop learning."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "再见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -554,153 +1559,183 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "flight",
-          "kk": "/flight/",
-          "partOfSpeech": "n.",
-          "meaning": "航班",
-          "note": "看到 flight 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-deliciou",
+          "lemma": "deliciou",
+          "english": "delicious",
+          "kk": "/deliciou/",
+          "partOfSpeech": "adj.",
+          "meaning": "美味的",
           "highlight": true
         },
         {
-          "english": "hour",
-          "kk": "/hour/",
-          "partOfSpeech": "n.",
-          "meaning": "小時",
-          "note": "看到 hour 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-grateful",
+          "lemma": "grateful",
+          "english": "grateful",
+          "kk": "/grateful/",
+          "partOfSpeech": "adj.",
+          "meaning": "感激的",
           "highlight": true
         },
         {
-          "english": "it's",
-          "kk": "/it's/",
-          "partOfSpeech": "n.",
-          "meaning": "它是",
-          "note": "看到 it's 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-sanctuary",
+          "lemma": "sanctuary",
+          "english": "sanctuary",
+          "kk": "/sanctuary/",
+          "partOfSpeech": "noun",
+          "meaning": "保護區",
           "highlight": true
         },
         {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-elephant",
+          "lemma": "elephant",
+          "english": "elephant",
+          "kk": "/elephant/",
+          "partOfSpeech": "noun",
+          "meaning": "大象",
+          "highlight": true
         },
         {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-budget",
+          "lemma": "budget",
+          "english": "budget",
+          "kk": "/budget/",
+          "partOfSpeech": "noun",
+          "meaning": "預算",
+          "highlight": true
         },
         {
-          "english": "ferry",
-          "kk": "/ferry/",
-          "partOfSpeech": "n.",
-          "meaning": "渡輪",
-          "note": "看到 ferry 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-layover",
+          "lemma": "layover",
+          "english": "layover",
+          "kk": "/layover/",
+          "partOfSpeech": "noun",
+          "meaning": "轉機停留",
+          "highlight": true
         },
         {
-          "english": "flights",
-          "kk": "/flights/",
-          "partOfSpeech": "n.",
-          "meaning": "航班",
-          "note": "看到 flights 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "koh",
-          "kk": "/koh/",
-          "partOfSpeech": "n.",
-          "meaning": "科赫",
-          "note": "看到 koh 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-brutal",
+          "lemma": "brutal",
+          "english": "brutal",
+          "kk": "/brutal/",
+          "partOfSpeech": "adj.",
+          "meaning": "艱苦的",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
-      "phrase": "have to",
-      "meaning": "必須",
+      "id": "phrase-to-go",
+      "phrase": "to go",
+      "meaning": "外帶",
       "examples": [
         {
-          "en": "Do you have to cope with long flights?",
-          "tc": "你必須應付長途飛行嗎？"
+          "en": "I can't wait __to go__ again.",
+          "tc": "外帶"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "try to",
-      "meaning": "嘗試",
+      "id": "phrase-wake-up",
+      "phrase": "wake up",
+      "meaning": "醒來",
       "examples": [
         {
-          "en": "I try to sleep through them, of course?",
-          "tc": "當然，我會嘗試在它們的影響下入睡，對嗎？"
+          "en": "It was such a wonderful experience to __wake up__ with the sunrise every morning and go snorkeling.",
+          "tc": "醒來"
         }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-have-item",
+      "word": "have",
+      "familiarMeaning": "有",
+      "usage": "表示吃喝、經歷或享有",
+      "translation": "喝；經歷；享有",
+      "examples": [
+        "But this was not even the longest flight I 《have》 taken."
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "i think",
-      "meaning": "我認為",
+      "id": "usage-take-item",
+      "word": "take",
+      "familiarMeaning": "拿",
+      "usage": "表示脫下、進行或照顧",
+      "translation": "脫下；進行；照顧",
       "examples": [
-        {
-          "en": "I think once you're on hour 13 on a plane, that's when you're just like, \"Where am I?\" That's.",
-          "tc": "我想一旦你在飛機上 13 點，你就會想，「我在哪裡？」就是這樣。"
-        }
+        "A couple days later, we took the bus to Surat Thani to then 《take》 a ferry to Koh Tao, my favorite place in Thailand."
+      ]
+    },
+    {
+      "id": "usage-make-item",
+      "word": "make",
+      "familiarMeaning": "製作",
+      "usage": "表示產生、犯下或做出",
+      "translation": "產生；犯下；做出",
+      "examples": [
+        "You don't want to 《make》 them feel suffocated."
+      ]
+    },
+    {
+      "id": "usage-feel-item",
+      "word": "feel",
+      "familiarMeaning": "摸起來",
+      "usage": "表示人的感受或狀態",
+      "translation": "感覺；覺得",
+      "examples": [
+        "I think that after 13 hours on a plane, you start to 《feel》 lost."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Hello. Learn English with me while I show you my trip to Thailand. Starting with our.",
-      "translation": "你好。當我向你展示我的泰國之旅時，和我一起學習英語。從我們的開始。",
+      "id": "grammar-1",
+      "sentence": "Learn English with me while I show you my trip to Thailand.",
+      "translation": "當我向您展示我的泰國之旅时，和我一起學習英語。",
       "points": [
         {
-          "label": "while show trip",
-          "text": "while show trip",
-          "note": "注意 \"while show trip\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定詞片語",
+          "text": "to + 原形動詞",
+          "note": "表示目的、計畫或想做的事。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "First 30hour flight to Thailand. It's a brutal flight. But this wasn't even the longest flight.",
-      "translation": "第一個飛往泰國的 30 小時航班。這是一場殘酷的飛行。但這還不是最長的飛行。",
+      "id": "grammar-2",
+      "sentence": "But this was not even the longest flight I have taken.",
+      "translation": "但這甚至不是我乘坐的最長的航班。",
       "points": [
         {
-          "label": "hour flight thailand",
-          "text": "hour flight thailand",
-          "note": "注意 \"hour flight thailand\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "現在完成式",
+          "text": "have/has + 過去分詞",
+          "note": "連結過去經驗和現在。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "I've been on. When I was on an extreme budget,.",
-      "translation": "我一直在。當我的預算非常緊張時。",
+      "id": "grammar-3",
+      "sentence": "That was a brutal flight.",
+      "translation": "那是一次残酷的飛行。",
       "points": [
         {
-          "label": "i've been extreme",
-          "text": "i've been extreme",
-          "note": "注意 \"i've been extreme\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句",
+          "text": "名詞 + who/which/that + 子句",
+          "note": "補充說明前面的名詞。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "I would buy the cheapest tickets I could find. And once.",
-      "translation": "我會買我能找到的最便宜的票。還有一次。",
+      "id": "grammar-4",
+      "sentence": "Of course, I'll feel sad if I lose those things, but I can't rely on objects to bring me joy.",
+      "translation": "當然，如果我失去那些东西我會感到難過，但我不能依靠物品给我帶來快樂。",
       "points": [
         {
-          "label": "buy cheapest tickets",
-          "text": "buy cheapest tickets",
-          "note": "注意 \"buy cheapest tickets\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "條件句",
+          "text": "if + 子句 + 主要子句",
+          "note": "說明條件成立時的結果。"
         }
       ]
     }

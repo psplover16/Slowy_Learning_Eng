@@ -15,246 +15,615 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello, welcome back to my slow English podcast.",
+          "tc": "你好，歡迎回到我的慢速英語 Podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello, "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-welcome-back",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-001-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "This podcast is for English listening for beginners.",
-          "tc": "此podcast適合初學者英語聽力。"
+          "en": "This podcast is for English listening practice for beginners.",
+          "tc": "這個 Podcast 是給初學者練習英語聽力用的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-002-01"
+            },
+            {
+              "type": "text",
+              "text": " is for English "
+            },
+            {
+              "type": "word",
+              "text": "listening",
+              "targetId": "word-listening",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-002-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "practice",
+              "targetId": "word-practice",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-002-03"
+            },
+            {
+              "type": "text",
+              "text": " for "
+            },
+            {
+              "type": "word",
+              "text": "beginners",
+              "targetId": "word-beginner",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-002-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Today I will talk about my family my family is very important to me.",
-          "tc": "今天我要談談我的家庭，我的家庭對我來說非常重要。"
+          "en": "Today, I will talk about my family.",
+          "tc": "今天我要談談我的家人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today, I will talk about my family."
+            }
+          ]
         },
         {
-          "en": "I am very close to my family.",
-          "tc": "我和我的家人非常親近。"
+          "en": "My family is very important to me.",
+          "tc": "我的家人對我非常重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My family is very important to me."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "family",
-          "kk": "/ˈfæməli/",
-          "partOfSpeech": "adv.",
-          "meaning": "家人；家庭",
-          "note": "看到 family 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
+          "en": "I am very close to my family.",
+          "tc": "我和家人的感情很親近。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am very "
+            },
+            {
+              "type": "phrase",
+              "text": "close to",
+              "targetId": "phrase-close-to",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-005-01"
+            },
+            {
+              "type": "text",
+              "text": " my family."
+            }
+          ]
+        },
+        {
           "en": "I have two siblings.",
-          "tc": "我有兩個兄弟姊妹。"
+          "tc": "我有兩個兄弟姊妹。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have two "
+            },
+            {
+              "type": "word",
+              "text": "siblings",
+              "targetId": "word-sibling",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-006-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I have one sister and one brother my brother is 15 years old.",
-          "tc": "我有一個姊姊和一個弟弟，我弟弟 15 歲。"
+          "en": "I have one sister and one brother.",
+          "tc": "我有一個姊妹和一個兄弟。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have one sister and one brother."
+            }
+          ]
         },
         {
-          "en": "He loves playing video games.",
-          "tc": "他喜歡玩電子遊戲。"
-        },
-        {
-          "en": "He is much taller than me.",
-          "tc": "他比我高很多。"
+          "en": "My brother is 15 years old.",
+          "tc": "我的兄弟 15 歲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My brother is 15 years old."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "old",
-          "kk": "/old/",
-          "partOfSpeech": "n.",
-          "meaning": "老的",
-          "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "years",
-          "kk": "/years/",
-          "partOfSpeech": "n.",
-          "meaning": "年",
-          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "brother",
-          "kk": "/brother/",
-          "partOfSpeech": "n.",
-          "meaning": "兄弟",
-          "note": "看到 brother 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "He does not look grownup.",
-          "tc": "他看起來並不成熟。"
+          "en": "He loves playing video games.",
+          "tc": "他喜歡玩電玩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He loves "
+            },
+            {
+              "type": "phrase",
+              "text": "playing video games",
+              "targetId": "phrase-play-video-games",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-009-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "He still looks like a kid a very tall kid my sister is 23 years old.",
-          "tc": "他看起來仍然像個孩子，一個很高的孩子，我姐姐23歲了。"
+          "en": "He is much taller than me, but he does not look grown-up.",
+          "tc": "他比我高很多，但是他看起來不像大人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He is much taller than me, but he does not "
+            },
+            {
+              "type": "usage",
+              "text": "look",
+              "targetId": "usage-look-look",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-010-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "grown-up",
+              "targetId": "word-grown-up",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-010-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "She studies quantum physics at University.",
-          "tc": "她在大學學習量子物理學。"
+          "en": "He still looks like a kid, a very tall kid.",
+          "tc": "他看起來仍然像個小孩，一個很高的小孩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He still "
+            },
+            {
+              "type": "phrase",
+              "text": "looks like",
+              "targetId": "phrase-look-like",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-011-01"
+            },
+            {
+              "type": "text",
+              "text": " a kid, a very tall kid."
+            }
+          ]
         },
         {
-          "en": "She is also a an English teacher.",
-          "tc": "她也是一名英語老師。"
+          "en": "My sister is 23 years old.",
+          "tc": "我的姊妹 23 歲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My sister is 23 years old."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "old",
-          "kk": "/old/",
-          "partOfSpeech": "n.",
-          "meaning": "老的",
-          "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "teacher",
-          "kk": "/ˈtitʃɚ/",
-          "partOfSpeech": "n.",
-          "meaning": "老師",
-          "note": "看到 teacher 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "years",
-          "kk": "/years/",
-          "partOfSpeech": "n.",
-          "meaning": "年",
-          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
+          "en": "She studies quantum physics at university.",
+          "tc": "她在大學讀量子物理。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She studies "
+            },
+            {
+              "type": "word",
+              "text": "quantum",
+              "targetId": "word-quantum",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-013-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "physics",
+              "targetId": "word-physics",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-013-02"
+            },
+            {
+              "type": "text",
+              "text": " at "
+            },
+            {
+              "type": "word",
+              "text": "university",
+              "targetId": "word-university",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-013-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "She is also an English teacher.",
+          "tc": "她也是一位英文老師。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She is also an English teacher."
+            }
+          ]
+        },
+        {
           "en": "She is also taller than me.",
-          "tc": "她也比我高。"
+          "tc": "她也比我高。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She is also taller than me."
+            }
+          ]
         },
         {
           "en": "She likes to travel.",
-          "tc": "她喜歡旅行。"
-        },
-        {
-          "en": "She also likes to play video games.",
-          "tc": "她也喜歡玩電子遊戲。"
-        },
-        {
-          "en": "Do you have any siblings?",
-          "tc": "你有兄弟姊妹嗎？"
+          "tc": "她喜歡旅行。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She likes to "
+            },
+            {
+              "type": "word",
+              "text": "travel",
+              "targetId": "word-travel",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-016-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "games",
-          "kk": "/games/",
-          "partOfSpeech": "n.",
-          "meaning": "遊戲",
-          "note": "看到 games 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "They like to do my mom is 42 2 years old.",
-          "tc": "他們喜歡當我媽媽42歲2歲。"
+          "en": "She also likes to play video games.",
+          "tc": "她也喜歡玩電玩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She also likes to "
+            },
+            {
+              "type": "phrase",
+              "text": "play video games",
+              "targetId": "phrase-play-video-games",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-017-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "She is an English teacher.",
-          "tc": "她是一名英語老師。"
+          "en": "Do you have any siblings?",
+          "tc": "你有兄弟姊妹嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you have any "
+            },
+            {
+              "type": "word",
+              "text": "siblings",
+              "targetId": "word-sibling",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-018-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         },
         {
-          "en": "He does for work.",
-          "tc": "他是為了工作。"
+          "en": "What do they like to do?",
+          "tc": "他們喜歡做什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do they like to do?"
+            }
+          ]
         },
         {
-          "en": "He is also an English teacher.",
-          "tc": "他也是一名英語老師。"
+          "en": "My mom is 42 years old.",
+          "tc": "我媽媽 42 歲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My mom is 42 years old."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "old",
-          "kk": "/old/",
-          "partOfSpeech": "n.",
-          "meaning": "老的",
-          "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "teacher",
-          "kk": "/ˈtitʃɚ/",
-          "partOfSpeech": "n.",
-          "meaning": "老師",
-          "note": "看到 teacher 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "work",
-          "kk": "/work/",
-          "partOfSpeech": "v.",
-          "meaning": "工作",
-          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：旅行",
-      "titleEn": "Part 6: travel",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "He teaches students in Mexico.",
-          "tc": "他在墨西哥教學生。"
+          "en": "She is an English teacher.",
+          "tc": "她是一位英文老師。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She is an English teacher."
+            }
+          ]
         },
         {
-          "en": "What do your parents do for work do your parents work in construction education management or Healthcare?",
-          "tc": "你的父母從事什麼工作 你的父母從事建築教育管理或醫療保健工作？"
+          "en": "She teaches students in the United States.",
+          "tc": "她教美國的學生。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She teaches students in the United States."
+            }
+          ]
+        },
+        {
+          "en": "My dad is 51 years old.",
+          "tc": "我爸爸 51 歲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My dad is 51 years old."
+            }
+          ]
+        },
+        {
+          "en": "Guess what he does for work.",
+          "tc": "猜猜他的工作是什麼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Guess what he "
+            },
+            {
+              "type": "usage",
+              "text": "does",
+              "targetId": "usage-do-do-for-work-do",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-024-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "for work",
+              "targetId": "phrase-for-work",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-024-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
         {
-          "english": "work",
-          "kk": "/work/",
-          "partOfSpeech": "v.",
-          "meaning": "工作",
-          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "He is also an English teacher.",
+          "tc": "他也是一位英文老師。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He is also an English teacher."
+            }
+          ]
+        },
+        {
+          "en": "He teaches students in Mexico.",
+          "tc": "他教墨西哥的學生。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He teaches students in Mexico."
+            }
+          ]
+        },
+        {
+          "en": "What do your parents do for work?",
+          "tc": "你的父母做什麼工作？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do your parents "
+            },
+            {
+              "type": "usage",
+              "text": "do",
+              "targetId": "usage-do-do-for-work-do",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-027-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "for work",
+              "targetId": "phrase-for-work",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-027-02"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Do your parents work in construction, education, management, or healthcare?",
+          "tc": "你的父母從事營造、教育、管理或醫療保健方面的工作嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do your parents "
+            },
+            {
+              "type": "phrase",
+              "text": "work in",
+              "targetId": "phrase-work-in",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-028-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "construction",
+              "targetId": "word-construction",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-028-02"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "education",
+              "targetId": "word-education",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-028-03"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "management",
+              "targetId": "word-management",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-028-04"
+            },
+            {
+              "type": "text",
+              "text": ", or "
+            },
+            {
+              "type": "word",
+              "text": "healthcare",
+              "targetId": "word-healthcare",
+              "instanceId": "marker-a1-ch4-practice-slow-english-for-a1-beginners-talk-about-family-028-05"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -262,153 +631,301 @@
       "title": "A1 重點單字",
       "items": [
         {
-          "english": "family",
-          "kk": "/ˈfæməli/",
-          "partOfSpeech": "adv.",
-          "meaning": "家人；家庭",
-          "note": "看到 family 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "/ˈpɑdˌkæst/",
+          "partOfSpeech": "名詞",
+          "meaning": "Podcast；播客節目",
           "highlight": true
         },
         {
-          "english": "old",
-          "kk": "/old/",
-          "partOfSpeech": "n.",
-          "meaning": "老的",
-          "note": "看到 old 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-listening",
+          "lemma": "listening",
+          "english": "listening",
+          "kk": "/ˈlɪsnɪŋ/",
+          "partOfSpeech": "名詞",
+          "meaning": "聽力",
           "highlight": true
         },
         {
-          "english": "teacher",
-          "kk": "/ˈtitʃɚ/",
-          "partOfSpeech": "n.",
-          "meaning": "老師",
-          "note": "看到 teacher 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-practice",
+          "lemma": "practice",
+          "english": "practice",
+          "kk": "/ˈpræktɪs/",
+          "partOfSpeech": "名詞",
+          "meaning": "練習",
           "highlight": true
         },
         {
-          "english": "work",
-          "kk": "/work/",
-          "partOfSpeech": "v.",
-          "meaning": "工作",
-          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-beginner",
+          "lemma": "beginner",
+          "english": "beginners",
+          "kk": "/bɪˈɡɪnɚ/",
+          "partOfSpeech": "名詞",
+          "meaning": "初學者",
+          "highlight": true
         },
         {
-          "english": "years",
-          "kk": "/years/",
-          "partOfSpeech": "n.",
-          "meaning": "年",
-          "note": "看到 years 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-sibling",
+          "lemma": "sibling",
+          "english": "siblings",
+          "kk": "/ˈsɪblɪŋ/",
+          "partOfSpeech": "名詞",
+          "meaning": "兄弟姊妹",
+          "highlight": true
         },
         {
-          "english": "brother",
-          "kk": "/brother/",
-          "partOfSpeech": "n.",
-          "meaning": "兄弟",
-          "note": "看到 brother 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-grown-up",
+          "lemma": "grown-up",
+          "english": "grown-up",
+          "kk": "/ˈɡronˌʌp/",
+          "partOfSpeech": "形容詞",
+          "meaning": "長大成人的；像大人的",
+          "highlight": true
         },
         {
-          "english": "games",
-          "kk": "/games/",
-          "partOfSpeech": "n.",
-          "meaning": "遊戲",
-          "note": "看到 games 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-quantum",
+          "lemma": "quantum",
+          "english": "quantum",
+          "kk": "/ˈkwɑntəm/",
+          "partOfSpeech": "形容詞",
+          "meaning": "量子的",
+          "highlight": true
         },
         {
-          "english": "kid",
-          "kk": "/kid/",
-          "partOfSpeech": "n.",
-          "meaning": "孩子",
-          "note": "看到 kid 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-physics",
+          "lemma": "physics",
+          "english": "physics",
+          "kk": "/ˈfɪzɪks/",
+          "partOfSpeech": "名詞",
+          "meaning": "物理學",
+          "highlight": true
+        },
+        {
+          "id": "word-university",
+          "lemma": "university",
+          "english": "university",
+          "kk": "/ˌjunəˈvɝsəti/",
+          "partOfSpeech": "名詞",
+          "meaning": "大學",
+          "highlight": true
+        },
+        {
+          "id": "word-travel",
+          "lemma": "travel",
+          "english": "travel",
+          "kk": "/ˈtrævəl/",
+          "partOfSpeech": "動詞",
+          "meaning": "旅行",
+          "highlight": true
+        },
+        {
+          "id": "word-construction",
+          "lemma": "construction",
+          "english": "construction",
+          "kk": "/kənˈstrʌkʃən/",
+          "partOfSpeech": "名詞",
+          "meaning": "建築；營造",
+          "highlight": true
+        },
+        {
+          "id": "word-education",
+          "lemma": "education",
+          "english": "education",
+          "kk": "/ˌɛdʒəˈkeʃən/",
+          "partOfSpeech": "名詞",
+          "meaning": "教育",
+          "highlight": true
+        },
+        {
+          "id": "word-management",
+          "lemma": "management",
+          "english": "management",
+          "kk": "/ˈmænɪdʒmənt/",
+          "partOfSpeech": "名詞",
+          "meaning": "管理",
+          "highlight": true
+        },
+        {
+          "id": "word-healthcare",
+          "lemma": "healthcare",
+          "english": "healthcare",
+          "kk": "/ˈhɛlθˌkɛr/",
+          "partOfSpeech": "名詞",
+          "meaning": "醫療保健",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "meaning": "歡迎某人回到節目、地方或活動",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello, __welcome back__ to my slow English **podcast**.",
+          "tc": "歡迎某人回到節目、地方或活動"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "what do you",
-      "meaning": "你會怎麼...",
+      "id": "phrase-close-to",
+      "phrase": "close to",
+      "meaning": "和某人關係親近、感情好",
       "examples": [
         {
-          "en": "What do your parents do for work do your parents work in construction education management or Healthcare?",
-          "tc": "你的父母從事什麼工作 你的父母從事建築教育管理或醫療保健工作？"
+          "en": "I am very __close to__ my family.",
+          "tc": "和某人關係親近、感情好"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "talk about",
-      "meaning": "談論",
+      "id": "phrase-play-video-games",
+      "phrase": "play video games",
+      "meaning": "玩電玩或電子遊戲",
       "examples": [
         {
-          "en": "Today I will talk about my family my family is very important to me.",
-          "tc": "今天我要談談我的家庭，我的家庭對我來說非常重要。"
+          "en": "He loves __playing video games__.",
+          "tc": "玩電玩或電子遊戲"
+        },
+        {
+          "en": "She also likes to __play video games__.",
+          "tc": "玩電玩或電子遊戲"
         }
+      ]
+    },
+    {
+      "id": "phrase-look-like",
+      "phrase": "look like",
+      "meaning": "外表或感覺像某人、某物",
+      "examples": [
+        {
+          "en": "He still __looks like__ a kid, a very tall kid.",
+          "tc": "外表或感覺像某人、某物"
+        }
+      ]
+    },
+    {
+      "id": "phrase-for-work",
+      "phrase": "for work",
+      "meaning": "為了工作、和工作有關",
+      "examples": [
+        {
+          "en": "Guess what he 《does》 __for work__.",
+          "tc": "為了工作、和工作有關"
+        },
+        {
+          "en": "What do your parents 《do》 __for work__?",
+          "tc": "為了工作、和工作有關"
+        }
+      ]
+    },
+    {
+      "id": "phrase-work-in",
+      "phrase": "work in",
+      "meaning": "在某個產業或領域工作",
+      "examples": [
+        {
+          "en": "Do your parents __work in__ **construction**, **education**, **management**, or **healthcare**?",
+          "tc": "在某個產業或領域工作"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-close-close-to-my-family",
+      "word": "close",
+      "familiarMeaning": "關閉；近的",
+      "usage": "close to my family 表示感情上的親近，不是空間距離近",
+      "translation": "和家人感情親近",
+      "examples": [
+        "I am very __close to__ my family."
+      ]
+    },
+    {
+      "id": "usage-look-look",
+      "word": "look",
+      "familiarMeaning": "看",
+      "usage": "look + 形容詞表示「看起來……」，是在描述外表或給人的感覺",
+      "translation": "看起來不像大人",
+      "examples": [
+        "He is much taller than me, but he does not 《look》 **grown-up**."
+      ]
+    },
+    {
+      "id": "usage-do-do-for-work-do",
+      "word": "do",
+      "familiarMeaning": "做",
+      "usage": "do for work 中的 do 用來問一個人的職業或工作內容",
+      "translation": "做什麼工作",
+      "examples": [
+        "Guess what he 《does》 __for work__.",
+        "What do your parents 《do》 __for work__?"
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "He loves playing video games.",
+      "translation": "他喜歡玩電玩。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "動名詞作動詞受詞",
+          "text": "love + V-ing",
+          "note": "playing video games 放在 loves 後面，表示他喜歡做「玩電玩」這件事。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "This podcast is for English listening for beginners.",
-      "translation": "此podcast適合初學者英語聽力。",
+      "id": "grammar-2",
+      "sentence": "She likes to travel.",
+      "translation": "她喜歡旅行。",
       "points": [
         {
-          "label": "everyday English",
-          "text": "everyday English",
-          "note": "注意 \"everyday English\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定詞作動詞受詞",
+          "text": "like + to + 原形動詞",
+          "note": "to travel 放在 likes 後面，表示她喜歡去做「旅行」這件事；同一句型也出現在 likes to play video games。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "Today I will talk about my family my family is very important to me.",
-      "translation": "今天我要談談我的家庭，我的家庭對我來說非常重要。",
+      "id": "grammar-3",
+      "sentence": "He is much taller than me, but he does not look grown-up.",
+      "translation": "他比我高很多，但是他看起來不像大人。",
       "points": [
         {
-          "label": "talk about",
-          "text": "talk about",
-          "note": "注意 \"talk about\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "比較級句型",
+          "text": "be + much + 形容詞比較級 + than + 比較對象",
+          "note": "taller than me 表示「比我高」，much 用來加強比較的程度，表示「高很多」。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "I am very close to my family.",
-      "translation": "我和我的家人非常親近。",
+      "id": "grammar-4",
+      "sentence": "He does not look grown-up.",
+      "translation": "他看起來不像大人。",
       "points": [
         {
-          "label": "close family",
-          "text": "close family",
-          "note": "注意 \"close family\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "連綴動詞 look + 形容詞",
+          "text": "look + 形容詞",
+          "note": "look 後面接形容詞 grown-up，用來說明主詞看起來呈現某種狀態。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "Guess what he does for work.",
+      "translation": "猜猜他的工作是什麼。",
+      "points": [
+        {
+          "label": "嵌入式 wh 子句",
+          "text": "guess + what + 主詞 + 動詞",
+          "note": "what he does for work 放在 guess 後面當內容，語序是 what + he + does，不是疑問句語序。"
         }
       ]
     }

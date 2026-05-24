@@ -782,6 +782,16 @@ const usedToExamples = [
     note: '過去的習慣或狀態，現在已改變',
   },
   {
+    en: 'I used to live in Nebraska, United States.',
+    tc: '我以前住在美國內布拉斯加州。',
+    note: 'A1 ch5 補充：used to 說明過去的居住狀態，現在已不同',
+  },
+  {
+    en: 'I used to never get my nails done.',
+    tc: '我以前從來不會去做指甲。',
+    note: 'A1 ch18 補充：used to never 表示「以前從不……」的習慣',
+  },
+  {
     en: "There used to be a park here.",
     tc: '這裡以前有一座公園。',
     note: '過去存在的事物，現在已不存在',
@@ -813,13 +823,17 @@ const presentPerfectExamples = [
     examples: [
       { en: 'I have been obsessed with this place.', tc: '我一直對這個地方著迷（強調狀態）。' },
       { en: 'Have you ever been to New York?', tc: '你曾去過紐約嗎？（強調經驗）' },
+      { en: 'Have you ever visited another country?', tc: '你曾經去過另一個國家嗎？（A1 ch10 補充）' },
+      { en: "Maybe I've never heard of it.", tc: '也許我從來沒有聽過它。（A1 ch15 補充）' },
       { en: "The best pizza that I've ever had.", tc: '我這輩子吃過最好的披薩。' },
     ],
   },
   {
     type: '現在完成進行式：have / has been + V-ing',
     examples: [
+      { en: 'I have been feeling very tired and sleepy.', tc: '我最近一直覺得很累、很想睡。（A1 ch9 補充）' },
       { en: "I've been dreaming of this moment for so long.", tc: '我夢想著這個時刻已經好久了（強調持續進行）。' },
+      { en: "I've been slacking lately.", tc: '我最近一直有點鬆懈。（A1 ch16 補充）' },
       { en: "She's been working here since 2020.", tc: '她從 2020 年就一直在這裡工作。' },
     ],
   },
@@ -852,6 +866,8 @@ const futureFormsTable = [
     usage: '已決定的計畫；有明顯跡象的預測',
     examples: [
       { en: "I'm going to study abroad next year.", tc: '我明年打算出國讀書。（已決定的計畫）' },
+      { en: 'What are you going to do next weekend?', tc: '你下週末打算做什麼？（A1 ch16 補充）' },
+      { en: 'I am going to tell you about my weekend.', tc: '我打算跟你說說我的週末。（A1 ch18 補充）' },
       { en: "Look at those clouds — it's going to rain.", tc: '你看那些雲——要下雨了。（有跡象的預測）' },
     ],
   },
@@ -896,6 +912,16 @@ const prepositionGerundExamples = [
     en: 'Thank you for coming.',
     tc: '謝謝你來。',
     note: 'for + coming',
+  },
+  {
+    en: 'Before sleeping, I always wash my face, brush my teeth, set my alarm on my phone, and go to bed.',
+    tc: '睡前，我總是洗臉、刷牙、在手機上設定鬧鐘，然後上床睡覺。',
+    note: 'A1 ch9 補充：before 當介系詞時，後面接 V-ing',
+  },
+  {
+    en: 'Focus on losing your fear of speaking, and lose your fear of making mistakes or feeling embarrassed.',
+    tc: '專注在減少對說英文的恐懼，也減少害怕犯錯或覺得尷尬的感覺。',
+    note: 'A1 ch12 補充：on / of 後面都接 V-ing',
   },
 ]
 
@@ -947,6 +973,8 @@ const ifUsages = [
     examples: [
       { en: 'If it rains, I will stay home.', tc: '如果下雨，我就待在家。' },
       { en: 'If you go, I will go too.', tc: '如果你去，我也去。' },
+      { en: 'If I ever need to vent, I can always talk to my friends.', tc: '如果我需要發洩，我總是可以跟朋友聊聊。（A1 ch6 補充）' },
+      { en: 'If I take longer naps, I feel sleepier.', tc: '如果我午睡更久，我會覺得更想睡。（A1 ch10 補充）' },
     ],
   },
   {
@@ -968,6 +996,7 @@ const soThatUsages = [
     examples: [
       { en: 'I left early so that I could catch the bus.', tc: '我提早離開，好趕上公車。' },
       { en: 'She spoke slowly so that we could understand.', tc: '她說話放慢，好讓我們聽懂。' },
+      { en: "I'll speak slowly and clearly so that you can understand and practice listening.", tc: '我會慢慢且清楚地說，好讓你能理解並練習聽力。（A1 ch12 補充）' },
     ],
   },
   {
@@ -1025,6 +1054,16 @@ const whileExamples = [
     full: 'While she was eating, she was reading a book.',
     short: 'While eating, she was reading a book.',
     tc: '她一邊吃東西，一邊看書。',
+  },
+  {
+    full: 'Do you like listening to music while you are trying to sleep?',
+    short: 'Do you like listening to music while trying to sleep?',
+    tc: '你喜歡一邊試著睡覺一邊聽音樂嗎？（A1 ch10 補充）',
+  },
+  {
+    full: 'We watched a Christmas movie while we were playing with our new toys.',
+    short: 'We watched a Christmas movie while playing with our new toys.',
+    tc: '我們一邊玩新玩具，一邊看聖誕電影。（A1 ch15 補充）',
   },
 ]
 
@@ -1098,6 +1137,7 @@ const getUsages = [
     examples: [
       { en: 'I got scammed.', tc: '我被騙了。' },
       { en: 'She got hurt.', tc: '她受傷了。' },
+      { en: 'I got my nails done.', tc: '我去請人幫我做了指甲。（A1 ch18 補充）' },
     ],
   },
   {

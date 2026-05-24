@@ -54,6 +54,59 @@ export function buildScaffold(transcript) {
 }
 
 /**
+ * Adds structured English marker tokens to PlaylistVideoData from existing
+ * vocabulary, phrase, and special usage entries.
+ *
+ * Existing tokens are preserved by default so hand-proofread content keeps its
+ * exact marker density and instance ids.
+ *
+ * @param {object} data
+ * @param {{ preserveExisting?: boolean }} options
+ * @returns {object}
+ */
+export function addInlineTokensToPlaylistVideoData(data, options = {}) {
+  const preserveExisting = options.preserveExisting !== false
+  const markerCandidates = collectInlineMarkerCandidates(data)
+
+  return {
+    ...data,
+    scenes: Array.isArray(data?.scenes)
+      ? data.scenes.map((scene, sceneIndex) => ({
+        ...scene,
+        sentences: Array.isArray(scene?.sentences)
+          ? scene.sentences.map((sentence, sentenceIndex) => {
+            if (
+              preserveExisting &&
+              Array.isArray(sentence?.englishTokens) &&
+              sentence.englishTokens.length > 0
+            ) {
+              return { ...sentence }
+            }
+
+            const markerPrefix = [
+              'marker',
+              markerSafeSlug(data.level),
+              markerSafeSlug(data.slug),
+              markerSafeSlug(scene.id || `scene-${sceneIndex + 1}`),
+              String(sentenceIndex + 1).padStart(3, '0'),
+            ].join('-')
+
+            return {
+              ...sentence,
+              englishTokens: buildEnglishInlineTokens(
+                sentence?.en ?? '',
+                markerCandidates,
+                markerPrefix
+              ),
+            }
+          })
+          : [],
+      }))
+      : [],
+  }
+}
+
+/**
  * Heuristic: suggest scene boundaries at cue indexes where a natural pause might occur.
  * Looks for: end of sentence (. ? !), long gap to next cue (>2s), or every ~8 cues as fallback.
  * @param {Array<{start: number, end: number, text: string}>} cues
@@ -339,6 +392,158 @@ function validateEnglishTokens(tokens, targets, errors, sceneIndex, sentenceInde
   }
 }
 
+function collectInlineMarkerCandidates(data) {
+  const candidates = []
+
+  if (Array.isArray(data?.phrases)) {
+    for (const phrase of data.phrases) {
+      const text = String(phrase?.phrase ?? '').trim()
+      if (!text) continue
+      candidates.push({
+        type: 'phrase',
+        text,
+        targetId: phrase.id || makeAnchorId('phrase', text),
+        priority: 0,
+      })
+    }
+  }
+
+  if (Array.isArray(data?.usages)) {
+    for (const usage of data.usages) {
+      const text = String(usage?.word ?? '').trim()
+      if (!text) continue
+      candidates.push({
+        type: 'usage',
+        text,
+        targetId: usage.id || makeAnchorId('usage', `${usage.word}-${usage.usage}`),
+        priority: 1,
+      })
+    }
+  }
+
+  if (Array.isArray(data?.vocabGroups)) {
+    const seenWordTargets = new Set()
+    for (const group of data.vocabGroups) {
+      if (!Array.isArray(group?.items)) continue
+      for (const item of group.items) {
+        if (!item || typeof item !== 'object') continue
+        const targetId = item.id || makeAnchorId('word', item.lemma || item.english)
+        const texts = uniqueStrings([item.english, item.lemma])
+        for (const text of texts) {
+          const key = `${targetId}:${normalizeInlineLookup(text)}`
+          if (!text || seenWordTargets.has(key)) continue
+          seenWordTargets.add(key)
+          candidates.push({
+            type: 'word',
+            text,
+            targetId,
+            priority: 2,
+          })
+        }
+      }
+    }
+  }
+
+  return candidates
+    .filter(candidate => candidate.targetId && candidate.text.length >= 2)
+    .sort((a, b) => b.text.length - a.text.length || a.priority - b.priority)
+}
+
+function buildEnglishInlineTokens(source, candidates, markerPrefix) {
+  const text = String(source ?? '')
+  if (!text) return [{ type: 'text', text: '' }]
+
+  const matches = findInlineMatches(text, candidates)
+  if (matches.length === 0) return [{ type: 'text', text }]
+
+  const tokens = []
+  let cursor = 0
+  let markerIndex = 1
+
+  for (const match of matches) {
+    if (match.start > cursor) {
+      tokens.push({ type: 'text', text: text.slice(cursor, match.start) })
+    }
+
+    tokens.push({
+      type: match.type,
+      text: text.slice(match.start, match.end),
+      targetId: match.targetId,
+      instanceId: `${markerPrefix}-${String(markerIndex).padStart(3, '0')}`,
+    })
+    markerIndex += 1
+    cursor = match.end
+  }
+
+  if (cursor < text.length) {
+    tokens.push({ type: 'text', text: text.slice(cursor) })
+  }
+
+  return mergeAdjacentTextTokens(tokens)
+}
+
+function findInlineMatches(source, candidates) {
+  const lower = source.toLowerCase()
+  const rawMatches = []
+
+  for (const candidate of candidates) {
+    const needle = candidate.text.toLowerCase()
+    let start = lower.indexOf(needle)
+    while (start !== -1) {
+      const end = start + needle.length
+      if (hasInlineBoundary(source, start, end)) {
+        rawMatches.push({
+          ...candidate,
+          start,
+          end,
+          length: end - start,
+        })
+      }
+      start = lower.indexOf(needle, start + 1)
+    }
+  }
+
+  rawMatches.sort((a, b) => (
+    a.start - b.start ||
+    b.length - a.length ||
+    a.priority - b.priority ||
+    a.text.localeCompare(b.text)
+  ))
+
+  const selected = []
+  let cursor = 0
+  for (const match of rawMatches) {
+    if (match.start < cursor) continue
+    selected.push(match)
+    cursor = match.end
+  }
+  return selected
+}
+
+function hasInlineBoundary(source, start, end) {
+  const before = start > 0 ? source[start - 1] : ''
+  const after = end < source.length ? source[end] : ''
+  return !isInlineWordChar(before) && !isInlineWordChar(after)
+}
+
+function isInlineWordChar(char) {
+  return /[A-Za-z0-9']/.test(char)
+}
+
+function mergeAdjacentTextTokens(tokens) {
+  const merged = []
+  for (const token of tokens) {
+    if (!token.text) continue
+    const previous = merged[merged.length - 1]
+    if (token.type === 'text' && previous?.type === 'text') {
+      previous.text += token.text
+    } else {
+      merged.push(token)
+    }
+  }
+  return merged.length ? merged : [{ type: 'text', text: '' }]
+}
+
 function validateSpecialUsages(usages, errors) {
   if (usages === undefined) return
 
@@ -413,12 +618,29 @@ function validateSentenceQuality(pair, errors, sceneIndex, sentenceIndex) {
     errors.push(`${location}.tc looks like a placeholder translation`)
   }
 
+  if (isLikelyMisalignedTranslation(en, tc)) {
+    errors.push(`${location}.translation looks misaligned with the English sentence`)
+  }
+
   if (isLikelyCueFragment(en)) {
     errors.push(`${location}.en looks like a cue fragment or unpolished sentence: "${en}"`)
   }
 }
 
+function isLikelyMisalignedTranslation(en, tc) {
+  const englishWordCount = String(en).match(/[a-z0-9]+(?:['-][a-z0-9]+)?/gi)?.length ?? 0
+  const chineseLength = String(tc).replace(/\s+/g, '').length
+  const chineseSentenceCount = (String(tc).match(/[。！？]/g) ?? []).length
+
+  if (englishWordCount === 0) return false
+  if (englishWordCount > 18) return false
+  if (chineseSentenceCount >= 3 && chineseLength > Math.max(90, englishWordCount * 12)) return true
+  return chineseLength > Math.max(160, englishWordCount * 30)
+}
+
 function isCopiedTranslation(en, tc) {
+  if (/[\u3400-\u9fff]/.test(String(tc))) return false
+
   const normalize = value => String(value)
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, ' ')
@@ -456,23 +678,58 @@ function isLikelyCueFragment(sentence) {
   if (/\bi go to sleep i love sleeping i love feeling\b/.test(lower)) return true
   if (/^who do you .+ with$/.test(withoutPunctuation)) return false
   if (/^after [a-z]+ing,?\s+i\s+[a-z]+/.test(withoutPunctuation)) return false
-  if (/\b(with|for|to|from|about|at|in|on|of|who|what|where|when|why|how)$/.test(withoutPunctuation)) return true
-  if (/\b(and|or|but|so|because|it'?s|the|a|an|i)$/.test(withoutPunctuation)) return true
-  if (/\bso,\s*$/.test(withoutPunctuation)) return true
   if (/[.,]\?$/.test(text)) return true
   if (/\.\s+a podcast\b/.test(text)) return true
   if (/\.[\"']\.$/.test(text)) return true
+  if (isCompleteQuestion(text, withoutPunctuation)) return false
+  if (isNaturalTagQuestion(withoutPunctuation)) return false
+  if (isNaturalEllipticalAnswer(withoutPunctuation)) return false
+  if (isNaturalPhrasalVerbEnding(withoutPunctuation)) return false
+  if (/\b(with|for|to|from|about|at|in|on|of|who|what|where|when|why|how)$/.test(withoutPunctuation)) return true
+  if (/\b(and|or|but|so|because|it'?s|the|a|an|i)$/.test(withoutPunctuation)) return true
+  if (/\bso,\s*$/.test(withoutPunctuation)) return true
   if (/\bwhat did i do who is this\b/.test(withoutPunctuation)) return true
   if (/^i do who is this$/.test(withoutPunctuation)) return true
   if (/\bphone call a strange phone call i$/.test(withoutPunctuation)) return true
   if (/^(in|after|before|at|for)\b/.test(withoutPunctuation) && wordCount <= 4) return true
   if (/^my favorite [a-z]+$/.test(withoutPunctuation)) return true
-  if (/\b(sugar sugar makes|you fat)\b/.test(withoutPunctuation)) return true
+  if (/\bsugar sugar makes\b/.test(withoutPunctuation)) return true
+  if (/^you fat\b/.test(withoutPunctuation)) return true
   if (/\bbut i think$/.test(withoutPunctuation)) return true
   if (/\bin mexico in mexico\b/.test(withoutPunctuation)) return true
-  if (wordCount > 38) return true
+  if (wordCount > 38 && !isNaturalListSentence(withoutPunctuation)) return true
 
   return false
+}
+
+function isCompleteQuestion(text, withoutPunctuation) {
+  if (!/\?$/.test(text)) return false
+  const normalizedQuestion = withoutPunctuation.replace(/^(?:and|so|now|okay|well|nice|if so),?\s+/i, '')
+  if (/^(?:something|anything|one thing)\s+(?:that|you|i|we|they)\b/.test(normalizedQuestion)) return true
+  return /^(who|what|where|when|why|how|which|do|does|did|is|are|am|was|were|can|could|will|would|should|have|has|had)\b/.test(normalizedQuestion)
+}
+
+function isNaturalTagQuestion(withoutPunctuation) {
+  return /,\s*(?:right|okay|ok|yes|no)$/.test(withoutPunctuation)
+}
+
+function isNaturalEllipticalAnswer(withoutPunctuation) {
+  return (
+    /^(?:i|we|you|they)\s+(?:try|tried|used|need|want|have)\s+to$/.test(withoutPunctuation) ||
+    /\bif\s+(?:i|we|you|they)\s+need\s+to$/.test(withoutPunctuation)
+  )
+}
+
+function isNaturalPhrasalVerbEnding(withoutPunctuation) {
+  return (
+    /\b(?:check|checked|checking)\s+in$/.test(withoutPunctuation) ||
+    /\b(?:hold|held|holding)\s+on$/.test(withoutPunctuation)
+  )
+}
+
+function isNaturalListSentence(withoutPunctuation) {
+  const commaCount = (withoutPunctuation.match(/,/g) ?? []).length
+  return commaCount >= 3 && /\b(like|such as|including)\b/.test(withoutPunctuation)
 }
 
 function makeAnchorId(prefix, value) {
@@ -481,6 +738,21 @@ function makeAnchorId(prefix, value) {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
   return slug ? `${prefix}-${slug}` : ''
+}
+
+function markerSafeSlug(value) {
+  return String(value ?? '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '') || 'item'
+}
+
+function normalizeInlineLookup(value) {
+  return String(value ?? '').toLowerCase().replace(/[^a-z0-9']+/g, ' ').trim()
+}
+
+function uniqueStrings(values) {
+  return Array.from(new Set(values.map(value => String(value ?? '').trim()).filter(Boolean)))
 }
 
 function normalizeLemma(value) {

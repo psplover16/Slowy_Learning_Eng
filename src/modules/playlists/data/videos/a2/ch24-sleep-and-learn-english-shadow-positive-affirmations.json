@@ -15,538 +15,1425 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Shadow English affirmations. Speak kindly to yourself. Remind yourself of how much you've grown.",
-          "tc": "影子英語肯定句。善意地對自己說話。提醒自己你已經成長了多少。"
+          "en": "Shadow English affirmations.",
+          "tc": "影子英語肯定句。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Shadow English "
+            },
+            {
+              "type": "word",
+              "text": "affirmations",
+              "targetId": "word-affirmation",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-001-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "How strong you're becoming in slow English so you can reinforce those positive thoughts while learning English?",
-          "tc": "你的慢速英語能力有多強，以便你可以在學習英語的同時強化這些積極的想法？"
+          "en": "Speak kindly to yourself.",
+          "tc": "善意地對自己說话。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Speak kindly to yourself."
+            }
+          ]
         },
         {
-          "en": "I was talking to myself the other day. I talk to other people all the time.",
-          "tc": "那天我在自言自語。我一直在和其他人說話。"
+          "en": "Remind yourself of how much you've grown and how strong you're becoming in slow English so you can reinforce those positive thoughts while learning English.",
+          "tc": "用慢速英語提醒自己你已經成長了多少以及你變得有多強大，這樣你就可以在學習英語的同时強化這些積極的想法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Remind yourself of how much you've grown and how strong you're becoming in slow English so you can reinforce those positive thoughts while learning English."
+            }
+          ]
         },
         {
-          "en": "I tell them about my problems and I share my thoughts with them, but other people will eventually get tired, board of hearing about your problems. However,.",
-          "tc": "我告訴他們我的問題，並與他們分享我的想法，但其他人最終會厭倦，聽取你的問題。然而，。"
+          "en": "I was talking to myself the other day.",
+          "tc": "前几天我在自言自語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was talking to myself the other day."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "myself",
-          "kk": "/myself/",
-          "partOfSpeech": "n.",
-          "meaning": "我",
-          "note": "看到 myself 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "grow",
-          "kk": "/grow/",
-          "partOfSpeech": "n.",
-          "meaning": "生長",
-          "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "speak",
-          "kk": "/speak/",
-          "partOfSpeech": "v.",
-          "meaning": "說話",
-          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "When I talk with myself, I can go on for hours and I'll never get bored of listening?",
-          "tc": "當我自言自語時，我可以持續幾個小時而且永遠不會厭倦聽？"
+          "en": "I talk to other people all the time.",
+          "tc": "我一直與其他人交談。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I talk to other people all the time."
+            }
+          ]
         },
         {
-          "en": "I talked to myself and I reminded myself of all the beautiful traits.",
-          "tc": "我自言自語，提醒自己所有美麗的特質。"
+          "en": "I tell them about my problems and I share my thoughts with them, but other people will eventually get tired, bored of hearing about your problems.",
+          "tc": "我告诉他們我的問题，并與他們分享我的想法，但其他人最終會厌倦聽到你的問题。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I tell them about my problems and I share my thoughts with them, but other people will eventually "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-item",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-006-01"
+            },
+            {
+              "type": "text",
+              "text": " tired, bored of hearing about your problems."
+            }
+          ]
         },
         {
-          "en": "I have inside of me. I reminded myself of how strong.",
-          "tc": "我有我的內心。我提醒自己有多堅強。"
+          "en": "However, when I talk with myself, I can go on for hours and I'll never get bored of listening.",
+          "tc": "然而，當我自言自語时，我可以持續几個小时，而且永遠不會厌倦聆聽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "However, when I talk with myself, I can go on for hours and I'll never get bored of listening."
+            }
+          ]
         },
         {
-          "en": "I am, how smart.",
-          "tc": "我，多麼聰明。"
+          "en": "I talked to myself and I reminded myself of all the beautiful traits I have inside of me.",
+          "tc": "我自言自語，提醒自己內心擁有的所有美麗特質。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I talked to myself and I reminded myself of all the beautiful traits I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-008-01"
+            },
+            {
+              "type": "text",
+              "text": " inside of me."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "myself",
-          "kk": "/myself/",
-          "partOfSpeech": "n.",
-          "meaning": "我",
-          "note": "看到 myself 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "strong",
-          "kk": "/strong/",
-          "partOfSpeech": "n.",
-          "meaning": "強的",
-          "note": "看到 strong 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I am, how capable.",
-          "tc": "我，多麼有能力。"
+          "en": "I reminded myself that I am strong, smart, and capable of reaching any goal I choose.",
+          "tc": "我提醒自己，我坚強、聪明，有能力實現我選擇的任何目標。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I reminded myself that I am strong, smart, and "
+            },
+            {
+              "type": "word",
+              "text": "capable",
+              "targetId": "word-capable",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-009-01"
+            },
+            {
+              "type": "text",
+              "text": " of reaching any goal I choose."
+            }
+          ]
         },
         {
-          "en": "I feel so much lighter. Like I could do anything.",
-          "tc": "我感覺輕鬆多了。好像我可以做任何事。"
+          "en": "And I feel so much lighter.",
+          "tc": "我感覺輕松多了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I feel so much lighter."
+            }
+          ]
         },
         {
-          "en": "I want you to feel that way, too. So, I wanted to share some of these positive thoughts that.",
-          "tc": "我希望你也有這樣的感覺。所以，我想分享一些正面的想法。"
+          "en": "Like I could do anything.",
+          "tc": "好像我可以做任何事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like I could do anything."
+            }
+          ]
         },
         {
-          "en": "I had. Speak kindly to yourself. Remind yourself how much you've grown and how strong you're becoming. Listen to these affirmations daily and bring positive energy into everyday.",
-          "tc": "我有過。善意地對自己說話。提醒自己你已经成长了多少，你变得有多强大。每天聆听这些肯定，为日常生活注入正能量。"
+          "en": "And I want you to feel that way, too.",
+          "tc": "我希望你也有這樣的感覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I want you to feel that way, too."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "grow",
-          "kk": "/grow/",
-          "partOfSpeech": "n.",
-          "meaning": "生長",
-          "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "speak",
-          "kk": "/speak/",
-          "partOfSpeech": "v.",
-          "meaning": "說話",
-          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "anything",
-          "kk": "/anything/",
-          "partOfSpeech": "v.",
-          "meaning": "任何事物",
-          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I am strong.",
-          "tc": "我很堅強。"
+          "en": "So, I wanted to share some of these positive thoughts that I had.",
+          "tc": "所以，我想分享一些我的積極想法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I wanted to share some of these positive thoughts that I had."
+            }
+          ]
         },
         {
-          "en": "I am strong. I can do anything. I can do anything. Everyday, I grow more into my authentic self. Everyday, I grow more into my authentic self.",
-          "tc": "我很堅強。我可以做任何事。我可以做任何事。每一天，我都變得更真實的自我。每一天，我都變得更真實的自我。"
+          "en": "Speak kindly to yourself.",
+          "tc": "善意地對自己說话。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Speak kindly to yourself."
+            }
+          ]
         },
         {
-          "en": "I am proud of how far.",
-          "tc": "我為自己有多遠而感到自豪。"
+          "en": "Remind yourself how much you've grown and how strong you're becoming.",
+          "tc": "提醒自己你已經成長了多少，你變得有多坚強。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Remind yourself how much you've grown and how strong you're becoming."
+            }
+          ]
         },
         {
-          "en": "I am not the same person I was a year ago.",
-          "tc": "我已經不再是一年前的我了。"
+          "en": "Listen to these affirmations daily and bring positive energy into everyday.",
+          "tc": "每天聆聽這些肯定，為日常生活注入正能量。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Listen to these affirmations daily and bring positive "
+            },
+            {
+              "type": "word",
+              "text": "energy",
+              "targetId": "word-energy",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-016-01"
+            },
+            {
+              "type": "text",
+              "text": " into everyday."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "not",
-          "kk": "/not/",
-          "partOfSpeech": "n.",
-          "meaning": "不是",
-          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "grow",
-          "kk": "/grow/",
-          "partOfSpeech": "n.",
-          "meaning": "生長",
-          "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "anything",
-          "kk": "/anything/",
-          "partOfSpeech": "v.",
-          "meaning": "任何事物",
-          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "I am not the same person I was a year ago. I remember.",
-          "tc": "我已經不再是一年前的我了。我記得。"
+          "en": "I am strong.",
+          "tc": "我很坚強。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am strong."
+            }
+          ]
         },
         {
-          "en": "When English felt impossible. I remember when English felt impossible. Now I understand much more. Now?",
-          "tc": "當英語感覺不可能的時候。我記得當英文感覺不可能的時候。現在我明白了很多。現在？"
+          "en": "I am strong.",
+          "tc": "我很坚強。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am strong."
+            }
+          ]
         },
         {
-          "en": "I understand so much more. Every mistake helps me grow. Every mistake helps me grow.",
-          "tc": "我明白了很多。每一個錯誤都幫助我成長。每一個錯誤都幫助我成長。"
+          "en": "I can do anything.",
+          "tc": "我可以做任何事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can do anything."
+            }
+          ]
         },
         {
-          "en": "I am not behind.",
-          "tc": "我並不落後。"
+          "en": "I can do anything.",
+          "tc": "我可以做任何事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can do anything."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "not",
-          "kk": "/not/",
-          "partOfSpeech": "n.",
-          "meaning": "不是",
-          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "grow",
-          "kk": "/grow/",
-          "partOfSpeech": "n.",
-          "meaning": "生長",
-          "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "I am on my own path.",
-          "tc": "我走自己的路。"
+          "en": "Everyday, I grow more into my authentic self.",
+          "tc": "每一天，我都變得更加真實。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Everyday, I grow more into my authentic self."
+            }
+          ]
         },
         {
-          "en": "I am on my own path. I speak better than I did before. I speak better than I did before.",
-          "tc": "我走自己的路。我比以前講得更好了。我比以前講得更好了。"
+          "en": "Everyday, I grow more into my authentic self.",
+          "tc": "每一天，我都變得更加真實的自我。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Everyday, I grow more into my authentic self."
+            }
+          ]
         },
         {
-          "en": "I am building confidence every single day.",
-          "tc": "我每天都在建立信心。"
+          "en": "I am proud of how far I've come.",
+          "tc": "我為自己所取得的进步感到自豪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am proud of how far I've come."
+            }
+          ]
         },
         {
-          "en": "I am. Learning English proves that I can learn anything. Learning English proves that.",
-          "tc": "我是。學習英語證明我可以學到任何東西。學習英語證明了這一點。"
+          "en": "I am proud of how far I've come.",
+          "tc": "我為自己所取得的进步感到自豪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am proud of how far I've come."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "speak",
-          "kk": "/speak/",
-          "partOfSpeech": "v.",
-          "meaning": "說話",
-          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "anything",
-          "kk": "/anything/",
-          "partOfSpeech": "v.",
-          "meaning": "任何事物",
-          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "I can learn anything. I can handle any challenge thrown my way.",
-          "tc": "我什麼都可以學。我可以應付遇到的任何挑戰。"
+          "en": "I am not the same person I was a year ago.",
+          "tc": "我已經不再是一年前的我了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am not the same person I was a year ago."
+            }
+          ]
         },
         {
-          "en": "I can handle any challenge thrown my way. I trust the process.",
-          "tc": "我可以應付遇到的任何挑戰。我相信這個過程。"
+          "en": "I am not the same person I was a year ago.",
+          "tc": "我已經不再是一年前的我了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am not the same person I was a year ago."
+            }
+          ]
         },
         {
-          "en": "I trust the process.",
-          "tc": "我相信這個過程。"
+          "en": "I remember when English felt impossible.",
+          "tc": "我记得當英語感覺不可能的时候。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I remember when English felt impossible."
+            }
+          ]
         },
         {
-          "en": "I am becoming more confident each time I speak.",
-          "tc": "每次講話我都變得更有自信。"
+          "en": "I remember when English felt impossible.",
+          "tc": "我记得當英語感覺不可能的时候。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I remember when English felt impossible."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "speak",
-          "kk": "/speak/",
-          "partOfSpeech": "v.",
-          "meaning": "說話",
-          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "anything",
-          "kk": "/anything/",
-          "partOfSpeech": "v.",
-          "meaning": "任何事物",
-          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "I am allowed to take my time.",
-          "tc": "我可以慢慢來。"
+          "en": "Now I understand much more.",
+          "tc": "現在我明白了很多。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now I understand much more."
+            }
+          ]
         },
         {
-          "en": "I am allowed to take my time. I celebrate small progress. I celebrate small progress. is still progress. Small progress is still progress.",
-          "tc": "我可以慢慢來。我慶祝小小的進步。我慶祝小小的進步。仍然是進步。小進步仍然是進步。"
+          "en": "Now I understand so much more.",
+          "tc": "現在我明白了很多。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now I understand so much more."
+            }
+          ]
         },
         {
-          "en": "I am brave for trying.",
-          "tc": "我勇於嘗試。"
+          "en": "Every mistake helps me grow.",
+          "tc": "每一個錯誤都幫助我成長。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every mistake helps me grow."
+            }
+          ]
         },
         {
-          "en": "I am brave for trying. My voice deserves to be heard. My voice deserves to be heard.",
-          "tc": "我勇於嘗試。我的聲音值得被聽見。我的聲音值得被聽見。"
+          "en": "Every mistake helps me grow.",
+          "tc": "每一個錯誤都幫助我成長。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every mistake helps me grow."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "progress",
-          "kk": "/progress/",
-          "partOfSpeech": "n.",
-          "meaning": "進步",
-          "note": "看到 progress 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "I am creating new opportunities for myself.",
-          "tc": "我正在為自己創造新的機會。"
+          "en": "I am not behind.",
+          "tc": "我并不落後。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am not behind."
+            }
+          ]
         },
         {
-          "en": "I am not afraid of messing up, making a mistake.",
-          "tc": "我不怕搞砸、犯錯。"
+          "en": "I am not behind.",
+          "tc": "我并不落後。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am not behind."
+            }
+          ]
         },
         {
-          "en": "I am not afraid of messing up.",
-          "tc": "我不怕搞砸。"
+          "en": "I am on my own path.",
+          "tc": "我正在走我自己的路。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am on my own path."
+            }
+          ]
         },
         {
-          "en": "I am proud that I try.",
-          "tc": "我很自豪我嘗試過。"
+          "en": "I am on my own path.",
+          "tc": "我正在走我自己的路。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am on my own path."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "myself",
-          "kk": "/myself/",
-          "partOfSpeech": "n.",
-          "meaning": "我",
-          "note": "看到 myself 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "not",
-          "kk": "/not/",
-          "partOfSpeech": "n.",
-          "meaning": "不是",
-          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "I am disciplined.",
-          "tc": "我很守紀律。"
+          "en": "I speak better than I did before.",
+          "tc": "我比以前講得更好了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I speak better than I did before."
+            }
+          ]
         },
         {
-          "en": "I am disciplined. I show up even when it's hard. I show up even when it's hard. When things get difficult, it means that.",
-          "tc": "我很守紀律。即使在困難的時候我也會出現。即使在困難的時候我也會出現。當事情變得困難時，這意味著。"
+          "en": "I speak better than I did before.",
+          "tc": "我比以前講得更好了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I speak better than I did before."
+            }
+          ]
         },
         {
-          "en": "I'm growing. >> When things get difficult, it means that.",
-          "tc": "我正在成長。 >> 當事情變得困難時，這意味著。"
+          "en": "I am building confidence every single day.",
+          "tc": "我每天都在建立信心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am building "
+            },
+            {
+              "type": "word",
+              "text": "confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-039-01"
+            },
+            {
+              "type": "text",
+              "text": " every single day."
+            }
+          ]
         },
         {
-          "en": "I'm growing. Challenges are opportunities to grow and learn. Challenges are opportunities to grow and learn. English is not just a language. It's proof that.",
-          "tc": "我正在成長。挑戰是成長和學習的機會。挑戰是成長和學習的機會。英語不僅僅是一種語言。這就是證明。"
+          "en": "I am building confidence every single day.",
+          "tc": "我每天都在建立信心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am building confidence every single day."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "not",
-          "kk": "/not/",
-          "partOfSpeech": "n.",
-          "meaning": "不是",
-          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "grow",
-          "kk": "/grow/",
-          "partOfSpeech": "n.",
-          "meaning": "生長",
-          "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：語言學習",
-      "titleEn": "Part 11: language",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "I can grow. English is not just a language. It's proof that.",
-          "tc": "我可以成長。英語不僅僅是一種語言。這就是證明。"
+          "en": "My accent makes me authentic.",
+          "tc": "我的口音使我显得真實。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My accent makes me authentic."
+            }
+          ]
         },
         {
-          "en": "I can grow. That.",
-          "tc": "我可以成長。那。"
+          "en": "My accent tells a story of who I am.",
+          "tc": "我的口音講述了我是誰的故事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My accent tells a story of who I am."
+            }
+          ]
         },
         {
-          "en": "I am growing.",
-          "tc": "我正在成長。"
+          "en": "Learning English proves that I can learn anything.",
+          "tc": "學習英語證明我可以學到任何东西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Learning English proves that I can learn anything."
+            }
+          ]
         },
         {
-          "en": "I am patient with myself.",
-          "tc": "我對自己很有耐心。"
+          "en": "Learning English proves that I can learn anything.",
+          "tc": "學習英語證明我可以學到任何东西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Learning English proves that I can learn anything."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "myself",
-          "kk": "/myself/",
-          "partOfSpeech": "n.",
-          "meaning": "我",
-          "note": "看到 myself 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "not",
-          "kk": "/not/",
-          "partOfSpeech": "n.",
-          "meaning": "不是",
-          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "grow",
-          "kk": "/grow/",
-          "partOfSpeech": "n.",
-          "meaning": "生長",
-          "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：日常生活",
-      "titleEn": "Part 12: everyday life",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "I am patient with myself. I allow myself to learn at my own pace. I allow myself to learn at my own pace.",
-          "tc": "我對自己很有耐心。我允許自己按照自己的步調學習。我允許自己按照自己的步調學習。"
+          "en": "I can handle any challenge thrown my way.",
+          "tc": "我可以應對遇到的任何挑战。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can handle any "
+            },
+            {
+              "type": "word",
+              "text": "challenge",
+              "targetId": "word-challenge",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-045-01"
+            },
+            {
+              "type": "text",
+              "text": " thrown my way."
+            }
+          ]
+        },
+        {
+          "en": "I can handle any challenge thrown my way.",
+          "tc": "我可以應對遇到的任何挑战。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can handle any challenge thrown my way."
+            }
+          ]
+        },
+        {
+          "en": "I trust the process.",
+          "tc": "我相信這個過程。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I trust the process."
+            }
+          ]
+        },
+        {
+          "en": "I trust the process.",
+          "tc": "我相信這個過程。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I trust the process."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "I am becoming more confident each time I speak.",
+          "tc": "每次講话我都變得更加自信。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am becoming more confident each time I speak."
+            }
+          ]
+        },
+        {
+          "en": "I am becoming more confident each time I speak.",
+          "tc": "每次講话我都變得更加自信。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am becoming more confident each time I speak."
+            }
+          ]
+        },
+        {
+          "en": "I am allowed to take my time.",
+          "tc": "我可以慢慢來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am allowed to "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-051-01"
+            },
+            {
+              "type": "text",
+              "text": " my time."
+            }
+          ]
+        },
+        {
+          "en": "I am allowed to take my time.",
+          "tc": "我可以慢慢來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am allowed to take my time."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "I celebrate small progress.",
+          "tc": "我庆祝小小的进步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I celebrate small progress."
+            }
+          ]
+        },
+        {
+          "en": "I celebrate small progress.",
+          "tc": "我庆祝小小的进步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I celebrate small progress."
+            }
+          ]
+        },
+        {
+          "en": "Small progress is still progress.",
+          "tc": "小进步仍然是进步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Small progress is still progress."
+            }
+          ]
+        },
+        {
+          "en": "Small progress is still progress.",
+          "tc": "小进步仍然是进步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Small progress is still progress."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "I am brave for trying.",
+          "tc": "我勇于嘗試。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am brave for trying."
+            }
+          ]
+        },
+        {
+          "en": "I am brave for trying.",
+          "tc": "我勇于嘗試。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am brave for trying."
+            }
+          ]
+        },
+        {
+          "en": "My voice deserves to be heard.",
+          "tc": "我的聲音值得被聽到。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My voice deserves to be heard."
+            }
+          ]
+        },
+        {
+          "en": "My voice deserves to be heard.",
+          "tc": "我的聲音值得被聽到。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My voice deserves to be heard."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "I am creating new opportunities for myself.",
+          "tc": "我正在為自己創造新的機會。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am creating new opportunities for myself."
+            }
+          ]
+        },
+        {
+          "en": "I am creating new opportunities for myself.",
+          "tc": "我正在為自己創造新的機會。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am creating new opportunities for myself."
+            }
+          ]
+        },
+        {
+          "en": "I am not afraid of messing up, making a mistake.",
+          "tc": "我不怕搞砸，不怕犯錯誤。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am not afraid of messing up, making a mistake."
+            }
+          ]
+        },
+        {
+          "en": "I am not afraid of messing up.",
+          "tc": "我不怕搞砸。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am not afraid of messing up."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "I am proud that I try.",
+          "tc": "我為自己的嘗試感到自豪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am proud that I try."
+            }
+          ]
+        },
+        {
+          "en": "I am proud that I try.",
+          "tc": "我為自己的嘗試感到自豪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am proud that I try."
+            }
+          ]
+        },
+        {
+          "en": "I am disciplined.",
+          "tc": "我遵守纪律。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am disciplined."
+            }
+          ]
+        },
+        {
+          "en": "I am disciplined.",
+          "tc": "我遵守纪律。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am disciplined."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "I show up even when it's hard.",
+          "tc": "即使困難重重，我也會出現。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I show up even when it's hard."
+            }
+          ]
+        },
+        {
+          "en": "I show up even when it's hard.",
+          "tc": "即使困難重重，我也會出現。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I show up even when it's hard."
+            }
+          ]
+        },
+        {
+          "en": "When things get difficult, it means that I'm growing.",
+          "tc": "當事情變得困難时，意味着我在成長。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When things get difficult, it means that I'm growing."
+            }
+          ]
+        },
+        {
+          "en": ">> When things get difficult, it means that I'm growing.",
+          "tc": ">>當事情變得困難时，意味着我在成長。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": ">> When things get difficult, it means that I'm growing."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "Challenges are opportunities to grow and learn.",
+          "tc": "挑战是成長和學習的機會。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Challenges are opportunities to grow and learn."
+            }
+          ]
+        },
+        {
+          "en": "Challenges are opportunities to grow and learn.",
+          "tc": "挑战是成長和學習的機會。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Challenges are opportunities to grow and learn."
+            }
+          ]
+        },
+        {
+          "en": "English is not just a language.",
+          "tc": "英語不仅仅是一種語言。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "English is not just a language."
+            }
+          ]
+        },
+        {
+          "en": "It's proof that I can grow.",
+          "tc": "這證明我可以成長。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's proof that I can grow."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "English is not just a language.",
+          "tc": "英語不仅仅是一種語言。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "English is not just a language."
+            }
+          ]
+        },
+        {
+          "en": "It's proof that I can grow.",
+          "tc": "這證明我可以成長。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's proof that I can grow."
+            }
+          ]
+        },
+        {
+          "en": "That I am growing.",
+          "tc": "我正在成長。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That I am growing."
+            }
+          ]
+        },
+        {
+          "en": "I am patient with myself.",
+          "tc": "我對自己很有耐心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am patient with myself."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "I am patient with myself.",
+          "tc": "我對自己很有耐心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am patient with myself."
+            }
+          ]
+        },
+        {
+          "en": "I allow myself to learn at my own pace.",
+          "tc": "我允许自己按照自己的節奏學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I allow myself to learn at my own pace."
+            }
+          ]
+        },
+        {
+          "en": "I allow myself to learn at my own pace.",
+          "tc": "我允许自己按照自己的節奏學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I allow myself to learn at my own pace."
+            }
+          ]
         },
         {
           "en": "I do not compare my journey with someone else's.",
-          "tc": "我不會將我的旅程與其他人的旅程進行比較。"
+          "tc": "我不會将我的旅程與其他人的旅程进行比较。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I do not compare my journey with someone else's."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "I do not compare my journey with someone else's.",
+          "tc": "我不會将我的旅程與其他人的旅程进行比较。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I do not compare my journey with someone else's."
+            }
+          ]
         },
         {
-          "en": "I do not compare my journey with someone else's. I used to struggle with words. Now, I express my thoughts. I used to struggle with words. Now, I express my thoughts.",
-          "tc": "我不會將我的旅程與其他人的旅程進行比較。我曾經在言語上掙扎。現在，我表達一下我的想法。我曾經在言語上掙扎。現在，我表達一下我的想法。"
+          "en": "I used to struggle with words.",
+          "tc": "我曾經在言語上挣扎。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I used to struggle with words."
+            }
+          ]
+        },
+        {
+          "en": "Now, I express my thoughts.",
+          "tc": "現在我來說說我的想法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, I express my thoughts."
+            }
+          ]
+        },
+        {
+          "en": "I used to struggle with words.",
+          "tc": "我曾經在言語上挣扎。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I used to struggle with words."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "Now, I express my thoughts.",
+          "tc": "現在我來說說我的想法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, I express my thoughts."
+            }
+          ]
         },
         {
           "en": "I am proud of the courage it takes to speak.",
-          "tc": "我為說話所需的勇氣感到自豪。"
+          "tc": "我為說话所需要的勇氣感到自豪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am proud of the courage it takes to speak."
+            }
+          ]
+        },
+        {
+          "en": "I am proud of the courage it takes to speak.",
+          "tc": "我為說话所需要的勇氣感到自豪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am proud of the courage it takes to speak."
+            }
+          ]
+        },
+        {
+          "en": "I am not afraid to make mistakes.",
+          "tc": "我不怕犯錯誤。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am not afraid to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-092-01"
+            },
+            {
+              "type": "text",
+              "text": " mistakes."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
         {
-          "english": "myself",
-          "kk": "/myself/",
-          "partOfSpeech": "n.",
-          "meaning": "我",
-          "note": "看到 myself 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I am not afraid to make mistakes.",
+          "tc": "我不怕犯錯誤。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am not afraid to make mistakes."
+            }
+          ]
         },
         {
-          "english": "not",
-          "kk": "/not/",
-          "partOfSpeech": "n.",
-          "meaning": "不是",
-          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I am becoming more confident in my life, not just in English.",
+          "tc": "我對自己的生活越來越有信心，而不仅仅是在英語方面。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am becoming more confident in my life, not just in English."
+            }
+          ]
         },
         {
-          "english": "speak",
-          "kk": "/speak/",
-          "partOfSpeech": "v.",
-          "meaning": "說話",
-          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "I am becoming more confident in my life, not just in English.",
+          "tc": "我對自己的生活越來越有信心，而不仅仅是在英語方面。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am becoming more confident in my life, not just in English."
+            }
+          ]
+        },
+        {
+          "en": "Do not forget that you can do anything you decide to do.",
+          "tc": "不要忘记你可以做任何你決定做的事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do not forget that you can do anything you decide to do."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "You can live the life of your dreams.",
+          "tc": "你可以過上你夢想的生活。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can live the life of your dreams."
+            }
+          ]
+        },
+        {
+          "en": "Talk to yourself.",
+          "tc": "與自己交談。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Talk to yourself."
+            }
+          ]
+        },
+        {
+          "en": "Tell yourself, \"You can do it.",
+          "tc": "告诉自己，“你能做到。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Tell yourself, \"You can do it."
+            }
+          ]
+        },
+        {
+          "en": "You are capable of doing it.",
+          "tc": "你有能力做到這一点。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You are capable of doing it."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-26",
+      "no": "26",
+      "titleZh": "第 26 段",
+      "titleEn": "Part 26",
+      "sentences": [
+        {
+          "en": "You just have to start.\"",
+          "tc": "你必須開始。”。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You just have to start.\""
+            }
+          ]
+        },
+        {
+          "en": "Think about the first time that you tried to speak English.",
+          "tc": "回想一下你第一次嘗試說英語的情景。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Think about the first time that you tried to speak English."
+            }
+          ]
+        },
+        {
+          "en": "Now, think about today.",
+          "tc": "現在，想想今天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, think about today."
+            }
+          ]
+        },
+        {
+          "en": "And if you can learn a new language, imagine what other things you can do.",
+          "tc": "如果您可以學習一門新語言，想象一下您还可以做哪些其他事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And if you can learn a "
+            },
+            {
+              "type": "phrase",
+              "text": "new language",
+              "targetId": "phrase-new-language",
+              "instanceId": "marker-a2-ch24-sleep-and-learn-english-shadow-positive-affirmations-104-01"
+            },
+            {
+              "type": "text",
+              "text": ", imagine what other things you can do."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-27",
+      "no": "27",
+      "titleZh": "第 27 段",
+      "titleEn": "Part 27",
+      "sentences": [
+        {
+          "en": "Listen to this again tomorrow.",
+          "tc": "明天再聽一遍。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Listen to this again tomorrow."
+            }
+          ]
+        },
+        {
+          "en": "And remind yourself of who you are becoming.",
+          "tc": "并提醒自己你正在成為誰。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And remind yourself of who you are becoming."
+            }
+          ]
+        },
+        {
+          "en": "And remember, never stop learning.",
+          "tc": "請记住，永遠不要停止學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And remember, never stop learning."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "再见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -554,153 +1441,142 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "myself",
-          "kk": "/myself/",
-          "partOfSpeech": "n.",
-          "meaning": "我",
-          "note": "看到 myself 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-energy",
+          "lemma": "energy",
+          "english": "energy",
+          "kk": "/energy/",
+          "partOfSpeech": "noun",
+          "meaning": "精力",
           "highlight": true
         },
         {
-          "english": "not",
-          "kk": "/not/",
-          "partOfSpeech": "n.",
-          "meaning": "不是",
-          "note": "看到 not 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-affirmation",
+          "lemma": "affirmation",
+          "english": "affirmations",
+          "kk": "/affirmation/",
+          "partOfSpeech": "noun",
+          "meaning": "肯定語",
           "highlight": true
         },
         {
-          "english": "grow",
-          "kk": "/grow/",
-          "partOfSpeech": "n.",
-          "meaning": "生長",
-          "note": "看到 grow 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-confidence",
+          "lemma": "confidence",
+          "english": "confidence",
+          "kk": "/confidence/",
+          "partOfSpeech": "noun",
+          "meaning": "自信",
           "highlight": true
         },
         {
-          "english": "speak",
-          "kk": "/speak/",
-          "partOfSpeech": "v.",
-          "meaning": "說話",
-          "note": "看到 speak 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-capable",
+          "lemma": "capable",
+          "english": "capable",
+          "kk": "/capable/",
+          "partOfSpeech": "adj.",
+          "meaning": "有能力的",
+          "highlight": true
         },
         {
-          "english": "anything",
-          "kk": "/anything/",
-          "partOfSpeech": "v.",
-          "meaning": "任何事物",
-          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "progress",
-          "kk": "/progress/",
-          "partOfSpeech": "n.",
-          "meaning": "進步",
-          "note": "看到 progress 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "strong",
-          "kk": "/strong/",
-          "partOfSpeech": "n.",
-          "meaning": "強的",
-          "note": "看到 strong 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "thoughts",
-          "kk": "/thoughts/",
-          "partOfSpeech": "n.",
-          "meaning": "想法",
-          "note": "看到 thoughts 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-challenge",
+          "lemma": "challenge",
+          "english": "challenge",
+          "kk": "/challenge/",
+          "partOfSpeech": "noun",
+          "meaning": "挑戰",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
-      "phrase": "used to",
-      "meaning": "習慣",
+      "id": "phrase-new-language",
+      "phrase": "new language",
+      "meaning": "新語言",
       "examples": [
         {
-          "en": "I used to struggle with words.",
-          "tc": "我曾經在言語上掙扎。"
+          "en": "And if you can learn a __new language__, imagine what other things you can do.",
+          "tc": "新語言"
         }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-get-item",
+      "word": "get",
+      "familiarMeaning": "得到；到達",
+      "usage": "表示理解、取得服務或變成某種狀態",
+      "translation": "理解；取得",
+      "examples": [
+        "I tell them about my problems and I share my thoughts with them, but other people will eventually 《get》 tired, bored of hearing about your problems."
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "i feel",
-      "meaning": "我覺得",
+      "id": "usage-have-item",
+      "word": "have",
+      "familiarMeaning": "有",
+      "usage": "表示吃喝、經歷或享有",
+      "translation": "喝；經歷；享有",
       "examples": [
-        {
-          "en": "I feel so much lighter.",
-          "tc": "我感覺輕鬆多了。"
-        }
+        "I talked to myself and I reminded myself of all the beautiful traits I 《have》 inside of me."
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "i want",
-      "meaning": "我想",
+      "id": "usage-take-item",
+      "word": "take",
+      "familiarMeaning": "拿",
+      "usage": "表示脫下、進行或照顧",
+      "translation": "脫下；進行；照顧",
       "examples": [
-        {
-          "en": "I want you to feel that way, too.",
-          "tc": "我希望你也有這樣的感覺。"
-        }
+        "I am allowed to 《take》 my time."
+      ]
+    },
+    {
+      "id": "usage-make-item",
+      "word": "make",
+      "familiarMeaning": "製作",
+      "usage": "表示產生、犯下或做出",
+      "translation": "產生；犯下；做出",
+      "examples": [
+        "I am not afraid to 《make》 mistakes."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Shadow English affirmations. Speak kindly to yourself. Remind yourself of how much you've grown.",
-      "translation": "影子英語肯定句。善意地對自己說話。提醒自己你已經成長了多少。",
+      "id": "grammar-1",
+      "sentence": "Speak kindly to yourself.",
+      "translation": "善意地對自己說话。",
       "points": [
         {
-          "label": "shadow affirmations speak",
-          "text": "shadow affirmations speak",
-          "note": "注意 \"shadow affirmations speak\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定詞片語",
+          "text": "to + 原形動詞",
+          "note": "表示目的、計畫或想做的事。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "How strong you're becoming in slow English so you can reinforce those positive thoughts while learning English?",
-      "translation": "你的慢速英語能力有多強，以便你可以在學習英語的同時強化這些積極的想法？",
+      "id": "grammar-2",
+      "sentence": "I reminded myself that I am strong, smart, and capable of reaching any goal I choose.",
+      "translation": "我提醒自己，我坚強、聪明，有能力實現我選擇的任何目標。",
       "points": [
         {
-          "label": "strong you're becoming",
-          "text": "strong you're becoming",
-          "note": "注意 \"strong you're becoming\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句",
+          "text": "名詞 + who/which/that + 子句",
+          "note": "補充說明前面的名詞。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "I was talking to myself the other day. I talk to other people all the time.",
-      "translation": "那天我在自言自語。我一直在和其他人說話。",
+      "id": "grammar-3",
+      "sentence": "And if you can learn a new language, imagine what other things you can do.",
+      "translation": "如果您可以學習一門新語言，想象一下您还可以做哪些其他事情。",
       "points": [
         {
-          "label": "talking myself day",
-          "text": "talking myself day",
-          "note": "注意 \"talking myself day\" 在句子中的位置，先練整句，再替換自己的內容。"
-        }
-      ]
-    },
-    {
-      "id": "breakdown-04",
-      "sentence": "I tell them about my problems and I share my thoughts with them, but other people will eventually get tired, board of hearing about your problems. However,.",
-      "translation": "我告訴他們我的問題，並與他們分享我的想法，但其他人最終會厭倦，聽取你的問題。然而，。",
-      "points": [
-        {
-          "label": "tell problems share",
-          "text": "tell problems share",
-          "note": "注意 \"tell problems share\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "條件句",
+          "text": "if + 子句 + 主要子句",
+          "note": "說明條件成立時的結果。"
         }
       ]
     }

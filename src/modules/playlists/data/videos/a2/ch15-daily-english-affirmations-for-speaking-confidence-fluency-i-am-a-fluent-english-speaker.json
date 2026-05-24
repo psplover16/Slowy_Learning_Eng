@@ -15,378 +15,1024 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and welcome back to my slow English podcast.",
+          "tc": "你好，歡迎回到我的慢速英語播客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my "
+            },
+            {
+              "type": "phrase",
+              "text": "slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-001-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Welcome to this powerful daily practice of English fluency affirmations. Learning a language isn't just about learning vocabulary and grammar. It's also about mindset.",
-          "tc": "歡迎來到這個強大的英語流利度日常練習。學習語言不僅僅是學習詞彙和文法。這也與心態有關。"
+          "en": "Welcome to this powerful daily practice of English fluency affirmations.",
+          "tc": "歡迎來到這個強大的英語流利性肯定日常練習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Welcome to this powerful daily practice of English "
+            },
+            {
+              "type": "word",
+              "text": "fluency",
+              "targetId": "word-fluency",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-002-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "affirmations",
+              "targetId": "word-affirmation",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-002-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "If you've ever felt shy or stuck or not good enough when speaking English,.",
-          "tc": "如果你在說英語時曾經感到害羞、陷入困境或不夠好。"
+          "en": "Learning a language isn't just about learning vocabulary and grammar.",
+          "tc": "學習語言不仅仅是學習詞彙和語法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Learning a language isn't just about learning vocabulary and grammar."
+            }
+          ]
         },
         {
-          "en": "Then these affirmations are for you.",
-          "tc": "那麼這些肯定是給你的。"
+          "en": "It's also about mindset.",
+          "tc": "這也與心态有關。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's also about "
+            },
+            {
+              "type": "word",
+              "text": "mindset",
+              "targetId": "word-mindset",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-004-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "affirmations",
-          "kk": "/affirmations/",
-          "partOfSpeech": "n.",
-          "meaning": "肯定句",
-          "note": "看到 affirmations 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "fluency",
-          "kk": "/fluency/",
-          "partOfSpeech": "n.",
-          "meaning": "流暢度",
-          "note": "看到 fluency 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "daily",
-          "kk": "/daily/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常的",
-          "note": "看到 daily 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：心態與目標",
-      "titleEn": "Part 2: mindset",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "They're short positive affirmations designed to rewire your brain, build confidence in yourself, and remind you are capable, you are improving, you are fluent. Now let's take a deep breath and begin.",
-          "tc": "它們是簡短的正面肯定，旨在重新連接你的大腦，建立對自己的信心，並提醒你有能力，你正在進步，你很流利。現在讓我們深呼吸並開始吧。"
+          "en": "If you've ever felt shy or stuck or not good enough when speaking English, then these affirmations are for you.",
+          "tc": "如果您在說英語时曾經感到害羞、感到困惑或不夠好，那麼這些肯定适合您。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you've ever felt shy or stuck or not good enough when speaking English, then these affirmations are for you."
+            }
+          ]
         },
         {
-          "en": "I am a fast learner. I learn languages with ease. I learn languages with ease. I learn languages with ease.",
-          "tc": "我學得很快。我輕鬆地學習語言。我輕鬆地學習語言。我輕鬆地學習語言。"
+          "en": "They're short positive affirmations designed to rewire your brain, build confidence in yourself, and remind you you are capable, you are improving, you are fluent.",
+          "tc": "它們是簡短的積極肯定，旨在重新连接你的大腦，建立對自己的信心，并提醒你你有能力，你正在进步，你很流利。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They're short positive affirmations designed to rewire your brain, build "
+            },
+            {
+              "type": "word",
+              "text": "confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-006-01"
+            },
+            {
+              "type": "text",
+              "text": " in yourself, and remind you you are "
+            },
+            {
+              "type": "word",
+              "text": "capable",
+              "targetId": "word-capable",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-006-02"
+            },
+            {
+              "type": "text",
+              "text": ", you are improving, you are fluent."
+            }
+          ]
         },
         {
-          "en": "I am a confident speaker. I can read, speak and listen with confidence.",
-          "tc": "我是一個自信的演講者。我可以自信地閱讀、口說和聽力。"
+          "en": "Now let's take a deep breath and begin.",
+          "tc": "現在讓我們深吸一口氣，開始吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now let's "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-007-01"
+            },
+            {
+              "type": "text",
+              "text": " a deep breath and begin."
+            }
+          ]
         },
         {
-          "en": "I am proud of how far.",
-          "tc": "我為自己有多遠而感到自豪。"
+          "en": "I am a fast learner.",
+          "tc": "我學东西很快。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am a fast learner."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "affirmations",
-          "kk": "/affirmations/",
-          "partOfSpeech": "n.",
-          "meaning": "肯定句",
-          "note": "看到 affirmations 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "speaker",
-          "kk": "/speaker/",
-          "partOfSpeech": "n.",
-          "meaning": "揚聲器",
-          "note": "看到 speaker 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：工作與學習",
-      "titleEn": "Part 3: work",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I am disciplined and hardworking.",
-          "tc": "我遵守紀律，工作勤奮。"
+          "en": "I learn languages with ease.",
+          "tc": "我輕松地學習語言。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I learn languages with ease."
+            }
+          ]
         },
         {
-          "en": "I am disciplined and hardworking. I stay focused on my goals. I stay focused on my goals.",
-          "tc": "我遵守紀律，工作勤奮。我專注於我的目標。我專注於我的目標。"
+          "en": "I learn languages with ease.",
+          "tc": "我輕松地學習語言。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I learn languages with ease."
+            }
+          ]
         },
         {
-          "en": "I stay focused on my goals. I practice English every day. I practice English every day.",
-          "tc": "我專注於我的目標。我每天練習英語。我每天練習英語。"
+          "en": "I learn languages with ease.",
+          "tc": "這裡是在說：「I learn languages with ease.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I learn languages with ease."
+            }
+          ]
         },
         {
-          "en": "I practice English every day.",
-          "tc": "我每天練習英語。"
+          "en": "I am a confident speaker.",
+          "tc": "這裡是在說：「I am a confident speaker.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am a confident speaker."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "focused",
-          "kk": "/focused/",
-          "partOfSpeech": "v.",
-          "meaning": "專注的",
-          "note": "看到 focused 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I am grateful for the challenges.",
-          "tc": "我很感激這些挑戰。"
+          "en": "I can read, speak and listen with confidence.",
+          "tc": "我可以自信地讀、說和聽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can read, speak and listen with confidence."
+            }
+          ]
         },
         {
-          "en": "They make me stronger and smarter.",
-          "tc": "它們讓我變得更強壯、更聰明。"
+          "en": "I am a confident speaker.",
+          "tc": "這裡是在說：「I am a confident speaker.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am a confident speaker."
+            }
+          ]
         },
         {
-          "en": "They make me stronger and smarter. My mistakes are opportunities to learn and improve. My mistakes are opportunities to learn and improve. My mistakes are opportunities to learn and improve.",
-          "tc": "它們讓我變得更強壯、更聰明。我的錯誤是學習和改進的機會。我的錯誤是學習和改進的機會。我的錯誤是學習和改進的機會。"
+          "en": "I can read, speak and listen with confidence.",
+          "tc": "我可以自信地讀、說和聽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can read, speak and listen with confidence."
+            }
+          ]
         },
         {
-          "en": "I improve my English every day. I improve my English every day.",
-          "tc": "我每天都在進步我的英語。我每天都在進步我的英語。"
+          "en": "I am a confident speaker.",
+          "tc": "這裡是在說：「I am a confident speaker.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am a confident speaker."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "improve",
-          "kk": "/improve/",
-          "partOfSpeech": "n.",
-          "meaning": "提升",
-          "note": "看到 improve 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：語言學習",
-      "titleEn": "Part 5: language",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "I improve my English. Every day.",
-          "tc": "我提高了我的英語水平。每天。"
+          "en": "I can read, speak and listen with confidence.",
+          "tc": "我可以自信地讀、說和聽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can read, speak and listen with confidence."
+            }
+          ]
         },
         {
-          "en": "I am grateful for the opportunity to learn and communicate in another language.",
-          "tc": "我很高興有機會用另一種語言學習和溝通。"
+          "en": "I am proud of how far I've come.",
+          "tc": "這裡是在說：「I am proud of how far I've come.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am proud of how far I've come."
+            }
+          ]
         },
         {
-          "en": "I am a natural English speaker.",
-          "tc": "我是天生的英語使用者。"
+          "en": "I am proud of how far I've come.",
+          "tc": "這裡是在說：「I am proud of how far I've come.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am proud of how far I've come."
+            }
+          ]
         },
         {
-          "en": "I am a natural English speaker. My mind is focused on learning English. My mind is focused on learning English. My mind is focused on learning English. Every word.",
-          "tc": "我是天生的英語使用者。我的注意力集中在學習英語上。我的注意力集中在學習英語上。我的注意力集中在學習英語上。每一個字。"
+          "en": "I am proud of how far I've come.",
+          "tc": "我為自己所取得的进步感到自豪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am proud of how far I've come."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "focused",
-          "kk": "/focused/",
-          "partOfSpeech": "v.",
-          "meaning": "專注的",
-          "note": "看到 focused 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：語言學習",
-      "titleEn": "Part 6: language",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "I learn brings me closer to fluency. Every word I learn brings me closer to fluency. Every word.",
-          "tc": "我學習讓我更接近流利。我學到的每個單字都讓我更接近流利。每一個字。"
+          "en": "I am disciplined and hardworking.",
+          "tc": "我遵守纪律，工作勤奮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am disciplined and hardworking."
+            }
+          ]
         },
         {
-          "en": "I learn brings me closer to fluency.",
-          "tc": "我學習讓我更接近流利。"
+          "en": "I am disciplined and hardworking.",
+          "tc": "我遵守纪律，工作勤奮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am disciplined and hardworking."
+            }
+          ]
         },
         {
-          "en": "I am confident when I speak English.",
-          "tc": "當我說英語時我很有自信。"
+          "en": "I am disciplined and hardworking.",
+          "tc": "我遵守纪律，工作勤奮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am disciplined and hardworking."
+            }
+          ]
         },
         {
-          "en": "I am confident when I speak English. I express myself clearly and naturally.",
-          "tc": "當我說英語時我很有自信。我清晰、自然地表達自己。"
+          "en": "I stay focused on my goals.",
+          "tc": "我專注于我的目標。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I stay focused on my goals."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "fluency",
-          "kk": "/fluency/",
-          "partOfSpeech": "n.",
-          "meaning": "流暢度",
-          "note": "看到 fluency 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "I express myself clearly and naturally. I express myself. Clearly and naturally.",
-          "tc": "我清晰、自然地表達自己。我表達自己。清晰自然。"
+          "en": "I stay focused on my goals.",
+          "tc": "我始終專注于我的目標。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I stay focused on my goals."
+            }
+          ]
         },
         {
-          "en": "I enjoy learning English. I enjoy learning English. I enjoy learning English. is opening doors for me. English is opening doors for me.",
-          "tc": "我喜歡學習英語。我喜歡學習英語。我喜歡學習英語。正在為我敞開大門。英語為我打開了大門。"
+          "en": "I stay focused on my goals.",
+          "tc": "我專注于我的目標。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I stay focused on my goals."
+            }
+          ]
         },
         {
-          "en": "I am a fluent English speaker. I can communicate perfectly with native speakers.",
-          "tc": "我能說流利的英語。我可以與母語人士完美溝通。"
+          "en": "I practice English every day.",
+          "tc": "我每天練習英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I practice English every day."
+            }
+          ]
         },
         {
-          "en": "You want to be. Stay positive and believe in every affirmation daily. believe in your ability to be fluent in English. Comment which affirmation inspired.",
-          "tc": "你想成為。保持正面態度，每天相信每一個肯定。相信你有能力說流利的英語。評論受到肯定的啟發。"
+          "en": "I practice English every day.",
+          "tc": "我每天練習英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I practice English every day."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "speaker",
-          "kk": "/speaker/",
-          "partOfSpeech": "n.",
-          "meaning": "揚聲器",
-          "note": "看到 speaker 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "daily",
-          "kk": "/daily/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常的",
-          "note": "看到 daily 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：心態與目標",
-      "titleEn": "Part 8: mindset",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "You the most and comment down below what affirmation.",
-          "tc": "你最下面評論什麼肯定的。"
+          "en": "I practice English every day.",
+          "tc": "我每天練習英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I practice English every day."
+            }
+          ]
         },
         {
-          "en": "Would you add to this list. Like this video for more daily affirmations and I will see you in our?",
-          "tc": "你可以添加到這個清單中嗎？喜歡這個視頻以獲得更多日常肯定，我會在我們的？"
+          "en": "I am grateful for the challenges I have because they make me stronger and smarter.",
+          "tc": "我很感激我所面临的挑战，因為它們讓我變得更坚強、更聪明。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-030-01"
+            },
+            {
+              "type": "text",
+              "text": " for the "
+            },
+            {
+              "type": "word",
+              "text": "challenges",
+              "targetId": "word-challenge",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-030-02"
+            },
+            {
+              "type": "text",
+              "text": " I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-030-03"
+            },
+            {
+              "type": "text",
+              "text": " because they "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-030-04"
+            },
+            {
+              "type": "text",
+              "text": " me stronger and smarter."
+            }
+          ]
         },
         {
-          "en": "Next English podcast.",
-          "tc": "下一個英語podcast。"
+          "en": "I am grateful for the challenges I have because they make me stronger and smarter.",
+          "tc": "我很感激我所面临的挑战，因為它們讓我變得更坚強、更聪明。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am grateful for the challenges I have because they make me stronger and smarter."
+            }
+          ]
         },
         {
-          "en": "Next week. Have a lovely week. Bye.",
-          "tc": "下週。祝你有個愉快的一周。再見。"
+          "en": "I am grateful for the challenges I have because they make me stronger and smarter.",
+          "tc": "我很感激我所面临的挑战，因為它們讓我變得更坚強、更聪明。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am grateful for the challenges I have because they make me stronger and smarter."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
         {
-          "english": "affirmations",
-          "kk": "/affirmations/",
-          "partOfSpeech": "n.",
-          "meaning": "肯定句",
-          "note": "看到 affirmations 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "My mistakes are opportunities to learn and improve.",
+          "tc": "我的錯誤是學習和改进的機會。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My mistakes are opportunities to learn and improve."
+            }
+          ]
         },
         {
-          "english": "daily",
-          "kk": "/daily/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常的",
-          "note": "看到 daily 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "My mistakes are opportunities to learn and improve.",
+          "tc": "我的錯誤是學習和改进的機會。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My mistakes are opportunities to learn and improve."
+            }
+          ]
+        },
+        {
+          "en": "My mistakes are opportunities to learn and improve.",
+          "tc": "我的錯誤是學習和改进的機會。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My mistakes are opportunities to learn and improve."
+            }
+          ]
+        },
+        {
+          "en": "I improve my English every day.",
+          "tc": "我每天都在进步我的英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I improve my English every day."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "I improve my English every day.",
+          "tc": "我每天都在进步我的英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I improve my English every day."
+            }
+          ]
+        },
+        {
+          "en": "I improve my English.",
+          "tc": "我提高了我的英語水平。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I improve my English."
+            }
+          ]
+        },
+        {
+          "en": "Every day I am grateful for the opportunity to learn and communicate in another language.",
+          "tc": "每天我都很感激有機會用另一種語言學習和交流。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every day I am grateful for the opportunity to learn and communicate in another language."
+            }
+          ]
+        },
+        {
+          "en": "I am grateful for the opportunity to learn and communicate in another language.",
+          "tc": "我很感激有機會用另一種語言學習和交流。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am grateful for the opportunity to learn and communicate in another language."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-11",
+      "no": "11",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
+      "sentences": [
+        {
+          "en": "I am grateful for the opportunity to learn and communicate in another language.",
+          "tc": "我很感激有機會用另一種語言學習和交流。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am grateful for the opportunity to learn and communicate in another language."
+            }
+          ]
+        },
+        {
+          "en": "I am a natural English speaker.",
+          "tc": "我天生會說英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am a natural English speaker."
+            }
+          ]
+        },
+        {
+          "en": "I am a natural English speaker.",
+          "tc": "我天生會說英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am a natural English speaker."
+            }
+          ]
+        },
+        {
+          "en": "My mind is focused on learning English.",
+          "tc": "我的心思集中在學習英語上。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My mind is focused on learning English."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-12",
+      "no": "12",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
+      "sentences": [
+        {
+          "en": "My mind is focused on learning English.",
+          "tc": "我的心思集中在學習英語上。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My mind is focused on learning English."
+            }
+          ]
+        },
+        {
+          "en": "My mind is focused on learning English.",
+          "tc": "我的心思集中在學習英語上。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My mind is focused on learning English."
+            }
+          ]
+        },
+        {
+          "en": "Every word I learn brings me closer to fluency.",
+          "tc": "我學到的每個單詞都讓我更接近流利。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every word I learn brings me closer to fluency."
+            }
+          ]
+        },
+        {
+          "en": "Every word I learn brings me closer to fluency.",
+          "tc": "我學到的每個單詞都讓我更接近流利。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every word I learn brings me closer to fluency."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
+        {
+          "en": "Every word I learn brings me closer to fluency.",
+          "tc": "我學到的每個單詞都讓我更接近流利。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every word I learn brings me closer to fluency."
+            }
+          ]
+        },
+        {
+          "en": "I am confident when I speak English.",
+          "tc": "當我說英語时我很自信。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am confident when I speak English."
+            }
+          ]
+        },
+        {
+          "en": "I am confident when I speak English.",
+          "tc": "當我說英語时我很自信。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am confident when I speak English."
+            }
+          ]
+        },
+        {
+          "en": "I am confident when I speak English.",
+          "tc": "當我說英語时我很自信。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am confident when I speak English."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "I express myself clearly and naturally.",
+          "tc": "我清晰、自然地表達自己。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I express myself clearly and naturally."
+            }
+          ]
+        },
+        {
+          "en": "I express myself clearly and naturally.",
+          "tc": "我清晰、自然地表達自己。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I express myself clearly and naturally."
+            }
+          ]
+        },
+        {
+          "en": "I express myself.",
+          "tc": "我表達自己。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I express myself."
+            }
+          ]
+        },
+        {
+          "en": "Clearly and naturally.",
+          "tc": "清晰自然。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Clearly and naturally."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "I enjoy learning English.",
+          "tc": "我喜歡學習英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I enjoy learning English."
+            }
+          ]
+        },
+        {
+          "en": "I enjoy learning English.",
+          "tc": "我喜歡學習英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I enjoy learning English."
+            }
+          ]
+        },
+        {
+          "en": "I enjoy learning English.",
+          "tc": "我喜歡學習英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I enjoy learning English."
+            }
+          ]
+        },
+        {
+          "en": "English is opening doors for me.",
+          "tc": "英語為我打開了大門。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "English is opening doors for me."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "English is opening doors for me.",
+          "tc": "英語為我打開了大門。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "English is opening doors for me."
+            }
+          ]
+        },
+        {
+          "en": "I am a fluent English speaker.",
+          "tc": "我能說一口流利的英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am a fluent English speaker."
+            }
+          ]
+        },
+        {
+          "en": "I can communicate perfectly with native speakers.",
+          "tc": "我可以與母語人士完美沟通。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can communicate perfectly with "
+            },
+            {
+              "type": "word",
+              "text": "native",
+              "targetId": "word-native",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-063-01"
+            },
+            {
+              "type": "text",
+              "text": " speakers."
+            }
+          ]
+        },
+        {
+          "en": "I can communicate perfectly with native speakers.",
+          "tc": "我可以與母語人士完美沟通。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can communicate perfectly with native speakers."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "I can communicate perfectly with native speakers.",
+          "tc": "我可以與母語人士完美沟通。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I can communicate perfectly with native speakers."
+            }
+          ]
+        },
+        {
+          "en": "Repeat these affirmations daily and your brain will unconsciously work its hardest at being exactly who you want to be.",
+          "tc": "每天重複這些肯定，你的大腦就會無意識地尽最大努力去成為你想成為的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Repeat these affirmations daily and your brain will unconsciously work its hardest at being exactly who you want to be."
+            }
+          ]
+        },
+        {
+          "en": "Stay positive and believe in every affirmation daily.",
+          "tc": "保持積極态度，每天相信每一個肯定。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Stay positive and believe in every affirmation daily."
+            }
+          ]
+        },
+        {
+          "en": "Believe in your ability to be fluent in English.",
+          "tc": "相信你有能力說流利的英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Believe in your ability to be fluent in English."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "Comment which affirmation inspired you the most and comment down below what affirmation would you add to this list.",
+          "tc": "评论哪個肯定對您啟發最大，并在下面评论您将添加到此列表中的哪個肯定。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Comment which affirmation inspired you the most and comment down below what affirmation would you add to this list."
+            }
+          ]
+        },
+        {
+          "en": "Like this video for more daily affirmations and I will see you in our next English podcast next week.",
+          "tc": "喜歡這個視頻以获得更多日常肯定，我将在下周的下一個英語播客中见到您。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like this video for more daily affirmations and I will see you in our next English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a2-ch15-daily-english-affirmations-for-speaking-confidence-fluency-i-am-a-fluent-english-speaker-070-01"
+            },
+            {
+              "type": "text",
+              "text": " next week."
+            }
+          ]
+        },
+        {
+          "en": "Have a lovely week.",
+          "tc": "祝你度過愉快的一周。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Have a lovely week."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "再见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -394,153 +1040,179 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "/podcast/",
+          "partOfSpeech": "noun",
+          "meaning": "播客",
           "highlight": true
         },
         {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-native",
+          "lemma": "native",
+          "english": "native",
+          "kk": "/native/",
+          "partOfSpeech": "adj.",
+          "meaning": "母語的",
           "highlight": true
         },
         {
-          "english": "focused",
-          "kk": "/focused/",
-          "partOfSpeech": "v.",
-          "meaning": "專注的",
-          "note": "看到 focused 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-grateful",
+          "lemma": "grateful",
+          "english": "grateful",
+          "kk": "/grateful/",
+          "partOfSpeech": "adj.",
+          "meaning": "感激的",
           "highlight": true
         },
         {
-          "english": "improve",
-          "kk": "/improve/",
-          "partOfSpeech": "n.",
-          "meaning": "提升",
-          "note": "看到 improve 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
+          "id": "word-affirmation",
+          "lemma": "affirmation",
           "english": "affirmations",
-          "kk": "/affirmations/",
-          "partOfSpeech": "n.",
-          "meaning": "肯定句",
-          "note": "看到 affirmations 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "kk": "/affirmation/",
+          "partOfSpeech": "noun",
+          "meaning": "肯定語",
+          "highlight": true
         },
         {
+          "id": "word-confidence",
+          "lemma": "confidence",
+          "english": "confidence",
+          "kk": "/confidence/",
+          "partOfSpeech": "noun",
+          "meaning": "自信",
+          "highlight": true
+        },
+        {
+          "id": "word-fluency",
+          "lemma": "fluency",
           "english": "fluency",
           "kk": "/fluency/",
-          "partOfSpeech": "n.",
-          "meaning": "流暢度",
-          "note": "看到 fluency 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "partOfSpeech": "noun",
+          "meaning": "流利度",
+          "highlight": true
         },
         {
-          "english": "speaker",
-          "kk": "/speaker/",
-          "partOfSpeech": "n.",
-          "meaning": "揚聲器",
-          "note": "看到 speaker 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-mindset",
+          "lemma": "mindset",
+          "english": "mindset",
+          "kk": "/mindset/",
+          "partOfSpeech": "noun",
+          "meaning": "心態",
+          "highlight": true
         },
         {
-          "english": "daily",
-          "kk": "/daily/",
-          "partOfSpeech": "adv.",
-          "meaning": "日常的",
-          "note": "看到 daily 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-capable",
+          "lemma": "capable",
+          "english": "capable",
+          "kk": "/capable/",
+          "partOfSpeech": "adj.",
+          "meaning": "有能力的",
+          "highlight": true
+        },
+        {
+          "id": "word-challenge",
+          "lemma": "challenge",
+          "english": "challenges",
+          "kk": "/challenge/",
+          "partOfSpeech": "noun",
+          "meaning": "挑戰",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
       "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and __welcome back__ to my __slow English podcast__.",
+          "tc": "歡迎回來"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "welcome to",
-      "meaning": "歡迎來到",
+      "id": "phrase-slow-english-podcast",
+      "phrase": "slow English podcast",
+      "meaning": "慢速英文播客",
       "examples": [
         {
-          "en": "Welcome to this powerful daily practice of English fluency affirmations.",
-          "tc": "歡迎來到這個強大的英語流利度日常練習。"
+          "en": "Hello and __welcome back__ to my __slow English podcast__.",
+          "tc": "慢速英文播客"
         }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-have-item",
+      "word": "have",
+      "familiarMeaning": "有",
+      "usage": "表示吃喝、經歷或享有",
+      "translation": "喝；經歷；享有",
+      "examples": [
+        "I am **grateful** for the **challenges** I 《have》 because they 《make》 me stronger and smarter."
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "usage-take-item",
+      "word": "take",
+      "familiarMeaning": "拿",
+      "usage": "表示脫下、進行或照顧",
+      "translation": "脫下；進行；照顧",
       "examples": [
-        {
-          "en": "You want to be.",
-          "tc": "你想成為。"
-        }
+        "Now let's 《take》 a deep breath and begin."
+      ]
+    },
+    {
+      "id": "usage-make-item",
+      "word": "make",
+      "familiarMeaning": "製作",
+      "usage": "表示產生、犯下或做出",
+      "translation": "產生；犯下；做出",
+      "examples": [
+        "I am **grateful** for the **challenges** I 《have》 because they 《make》 me stronger and smarter."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "Hello and welcome back to my slow English podcast.",
+      "translation": "你好，歡迎回到我的慢速英語播客。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定詞片語",
+          "text": "to + 原形動詞",
+          "note": "表示目的、計畫或想做的事。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Welcome to this powerful daily practice of English fluency affirmations. Learning a language isn't just about learning vocabulary and grammar. It's also about mindset.",
-      "translation": "歡迎來到這個強大的英語流利度日常練習。學習語言不僅僅是學習詞彙和文法。這也與心態有關。",
+      "id": "grammar-2",
+      "sentence": "Repeat these affirmations daily and your brain will unconsciously work its hardest at being exactly who you want to be.",
+      "translation": "每天重複這些肯定，你的大腦就會無意識地尽最大努力去成為你想成為的人。",
       "points": [
         {
-          "label": "welcome to",
-          "text": "welcome to",
-          "note": "注意 \"welcome to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句",
+          "text": "名詞 + who/which/that + 子句",
+          "note": "補充說明前面的名詞。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "If you've ever felt shy or stuck or not good enough when speaking English,.",
-      "translation": "如果你在說英語時曾經感到害羞、陷入困境或不夠好。",
+      "id": "grammar-3",
+      "sentence": "Comment which affirmation inspired you the most and comment down below what affirmation would you add to this list.",
+      "translation": "评论哪個肯定對您啟發最大，并在下面评论您将添加到此列表中的哪個肯定。",
       "points": [
         {
-          "label": "you've felt shy",
-          "text": "you've felt shy",
-          "note": "注意 \"you've felt shy\" 在句子中的位置，先練整句，再替換自己的內容。"
-        }
-      ]
-    },
-    {
-      "id": "breakdown-04",
-      "sentence": "Then these affirmations are for you.",
-      "translation": "那麼這些肯定是給你的。",
-      "points": [
-        {
-          "label": "these affirmations",
-          "text": "these affirmations",
-          "note": "注意 \"these affirmations\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "禮貌請求句",
+          "text": "could/would + 主詞 + 原形動詞",
+          "note": "讓請求更禮貌。"
         }
       ]
     }

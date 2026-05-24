@@ -39,7 +39,7 @@
 
 ## 6. Paused 後續 rollout 任務
 
-- [ ] 6.1 Paused: 展開 A1 剩餘影片 refresh 任務，對 A1 ch2 到 A1 最後一支 ready 影片逐支套用字幕提取、`english_proofreader`、parser、JSON 寫回、validator、route smoke 流程；只在使用者明確要求 Phase 2 時執行，並以每支影片各自的 `npm run misshoney:validate-content -- --level a1` 與抽查頁面驗證。
-- [ ] 6.2 Paused: 展開 A2 全部影片 refresh 任務，逐支套用與 A1 ch1 相同流程並保留每支影片 proofread review 證據；只在使用者明確要求 Phase 3 時執行，並以 `npm run misshoney:validate-content -- --level a2` 與 A2 route smoke 驗證。
-- [ ] 6.3 Paused: 展開 B1 全部影片 refresh 任務，逐支套用與 A1 ch1 相同流程並保留每支影片 proofread review 證據；只在使用者明確要求 Phase 4 時執行，並以 `npm run misshoney:validate-content -- --level b1` 與 B1 route smoke 驗證。
-- [ ] 6.4 Paused: 展開 B2 全部影片 refresh 任務，逐支套用與 A1 ch1 相同流程並保留每支影片 proofread review 證據；只在使用者明確要求 Phase 5 時執行，並以 `npm run misshoney:validate-content -- --level b2` 與 B2 route smoke 驗證。
+- [x] 6.1 Paused: 展開 A1 剩餘影片 refresh 任務，對 A1 ch2 到 A1 最後一支 ready 影片逐支套用字幕提取、`english_proofreader`、parser、JSON 寫回、validator、route smoke 流程；只在使用者明確要求 Phase 2 時執行，並以每支影片各自的 `npm run misshoney:validate-content -- --level a1` 與抽查頁面驗證。
+- [x] 6.2 Paused: 展開 A2 全部影片 refresh 任務，逐支套用與 A1 ch1 相同流程並保留每支影片 proofread review 證據；只在使用者明確要求 Phase 3 時執行，並以 `npm run misshoney:validate-content -- --level a2` 與 A2 route smoke 驗證。
+- [x] 6.3 Paused: 展開 B1 全部影片 refresh 任務，逐支套用與 A1 ch1 相同流程並保留每支影片 proofread review 證據；只在使用者明確要求 Phase 4 時執行，並以 `npm run misshoney:validate-content -- --level b1` 與 B1 route smoke 驗證。
+- [x] 6.4 Paused: 展開 B2 全部影片 refresh 任務，逐支套用與 A1 ch1 相同流程並保留每支影片 proofread review 證據；只在使用者明確要求 Phase 5 時執行，並以 `npm run misshoney:validate-content -- --level b2` 與 B2 route smoke 驗證。

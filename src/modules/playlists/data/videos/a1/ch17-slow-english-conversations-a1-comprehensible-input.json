@@ -15,294 +15,744 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
+          "en": "Hello everyone.",
+          "tc": "大家好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello everyone."
+            }
+          ]
+        },
+        {
           "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "tc": "歡迎回到我的慢速英文 podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Welcome back to my slow English podcast."
+            }
+          ]
         },
         {
-          "en": "Today I'm here with my friend Jay.",
-          "tc": "今天我和我的朋友傑伊一起來到這裡。"
+          "en": "Today I'm here with my friend Jay, and we're going to show you guys something very exciting we've collaborated on to help you learn English.",
+          "tc": "今天我和我的朋友 Jay 在這裡，我們要向你們展示一個非常令人興奮、我們合作做出來幫助你學英文的東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today I'm here with my friend Jay, and we're going to show you "
+            },
+            {
+              "type": "usage",
+              "text": "guys",
+              "targetId": "usage-guys-item",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-003-01"
+            },
+            {
+              "type": "text",
+              "text": " something very exciting we've "
+            },
+            {
+              "type": "word",
+              "text": "collaborated",
+              "targetId": "word-collaborate",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-003-02"
+            },
+            {
+              "type": "text",
+              "text": " on to help you learn English."
+            }
+          ]
         },
         {
-          "en": "We're going to show you guys something very exciting.",
-          "tc": "我們將向你們展示一些非常令人興奮的東西。"
-        },
-        {
-          "en": "We've collaborated on to help you learn English.",
-          "tc": "我們合作幫助你學習英語。"
+          "en": "The food in Mexico is delicious.",
+          "tc": "墨西哥的食物很好吃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The food in Mexico is "
+            },
+            {
+              "type": "word",
+              "text": "delicious",
+              "targetId": "word-delicious",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-004-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "mexico",
-          "kk": "/mexico/",
-          "partOfSpeech": "n.",
-          "meaning": "墨西哥",
-          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "vietnam",
-          "kk": "/vietnam/",
-          "partOfSpeech": "n.",
-          "meaning": "越南",
-          "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "culture",
-          "kk": "/culture/",
-          "partOfSpeech": "n.",
-          "meaning": "文化",
-          "note": "看到 culture 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "Are you in the world right now?",
-          "tc": "你現在在世上嗎？"
+          "en": "It's the best in the whole world.",
+          "tc": "它是全世界最棒的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's the best "
+            },
+            {
+              "type": "phrase",
+              "text": "in the whole world",
+              "targetId": "phrase-in-the-whole-world",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-005-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Thank you, Tayanna. Right now.",
-          "tc": "謝謝你，塔亞娜。現在。"
+          "en": "It's spicy.",
+          "tc": "它很辣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's "
+            },
+            {
+              "type": "word",
+              "text": "spicy",
+              "targetId": "word-spicy",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-006-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I am in Mexico. Is not that far from my hometown. Is in the United States, Nebraska. Wow. And sorry, one question. Sure. And where in Vietnam? What city in Vietnam?",
-          "tc": "我在墨西哥。離我的家鄉並沒有那麼遠。位於美國內布拉斯加州。哇。抱歉，有一個問題。當然。那麼在越南哪裡呢？越南哪個城市？"
+          "en": "It's greasy.",
+          "tc": "它很油。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's "
+            },
+            {
+              "type": "word",
+              "text": "greasy",
+              "targetId": "word-greasy",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-007-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I am living in a city called Đà Nẵng. Đà Nẵng. Đà Nẵng is on is beautiful. Have you been to Đà Nẵng? Yes.",
-          "tc": "我住在一個叫達南的城市。 Đà Nẵng。 Đà Nẵng 很美麗。你去過 Đà Nẵng 嗎？是的。"
+          "en": "Here in Vietnam, the weather is very humid.",
+          "tc": "在越南這裡，天氣非常潮濕。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Here in Vietnam, the weather is very "
+            },
+            {
+              "type": "word",
+              "text": "humid",
+              "targetId": "word-humid",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-008-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "mexico",
-          "kk": "/mexico/",
-          "partOfSpeech": "n.",
-          "meaning": "墨西哥",
-          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "vietnam",
-          "kk": "/vietnam/",
-          "partOfSpeech": "n.",
-          "meaning": "越南",
-          "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I love Đà Nẵng.",
-          "tc": "我愛達能。"
+          "en": "It's very sweaty.",
+          "tc": "很容易流汗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's very "
+            },
+            {
+              "type": "word",
+              "text": "sweaty",
+              "targetId": "word-sweat",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-009-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I love Vietnam.",
-          "tc": "我愛越南。"
+          "en": "It's hot, and it's wet.",
+          "tc": "很熱，而且很濕。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's hot, and it's wet."
+            }
+          ]
         },
         {
-          "en": "We can make a video in person. Yeah, Together in person. Sounds good. Could you share with me a little bit about Mexico? Maybe the food, the weather, the people, the language.",
-          "tc": "我們可以親自製作影片。是的，親自在一起。聽起來不錯。可以和我分享一些關於墨西哥的事情嗎？也許是食物、天氣、人民、語言。"
+          "en": "Somebody is ringing me now.",
+          "tc": "有人現在打電話給我。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Somebody is "
+            },
+            {
+              "type": "usage",
+              "text": "ringing",
+              "targetId": "usage-ring-item",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-011-01"
+            },
+            {
+              "type": "text",
+              "text": " me now."
+            }
+          ]
         },
         {
-          "en": "Tell me about the culture. The food in Mexico is delicious. It's the best in the whole world. It's spicy. It's greasy. A lot of meat. In the south of Mexico,.",
-          "tc": "告訴我有關文化的事。墨西哥的食物很美味。這是全世界最好的。很辣。很油膩。很多肉。在墨西哥南部，。"
+          "en": "Hello there.",
+          "tc": "你好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello there."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "mexico",
-          "kk": "/mexico/",
-          "partOfSpeech": "n.",
-          "meaning": "墨西哥",
-          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "vietnam",
-          "kk": "/vietnam/",
-          "partOfSpeech": "n.",
-          "meaning": "越南",
-          "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "culture",
-          "kk": "/culture/",
-          "partOfSpeech": "n.",
-          "meaning": "文化",
-          "note": "看到 culture 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：旅行",
-      "titleEn": "Part 4: travel",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "Weather is hot. But in the north of Mexico, it's a little bit colder. And in Mexico,.",
-          "tc": "天氣很熱。但在墨西哥北部，天氣有點冷。而在墨西哥，。"
+          "en": "It's great to talk with you today.",
+          "tc": "今天很高興和你聊天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's great to talk with you today."
+            }
+          ]
         },
         {
-          "en": "They speak Spanish.",
-          "tc": "他們說西班牙語。"
+          "en": "What's on your mind?",
+          "tc": "你在想什麼？",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "What's on your mind",
+              "targetId": "phrase-what-s-on-your-mind",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-014-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         },
         {
-          "en": "We speak Spanish. The people are very loud and very warm and inviting. And Mexico is a beautiful place to visit. You should come.",
-          "tc": "我們說西班牙語。人們非常吵鬧，非常熱情和熱情。墨西哥是一個美麗的旅遊勝地。你應該來。"
+          "en": "The easiest way to practice using the vocabulary you learned in a video is by speaking.",
+          "tc": "練習使用你在影片裡學到的詞彙，最簡單的方法就是開口說。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The easiest way to practice using the "
+            },
+            {
+              "type": "word",
+              "text": "vocabulary",
+              "targetId": "word-vocabulary",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-015-01"
+            },
+            {
+              "type": "text",
+              "text": " you learned in a video is by speaking."
+            }
+          ]
         },
         {
-          "en": "I would love to visit Mexico. Yes.",
-          "tc": "我很想去墨西哥。是的。"
+          "en": "Let's build your confidence by speaking.",
+          "tc": "讓我們透過說話建立你的自信。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let's build your "
+            },
+            {
+              "type": "word",
+              "text": "confidence",
+              "targetId": "word-confidence",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-016-01"
+            },
+            {
+              "type": "text",
+              "text": " by speaking."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "mexico",
-          "kk": "/mexico/",
-          "partOfSpeech": "n.",
-          "meaning": "墨西哥",
-          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "weather",
-          "kk": "/weather/",
-          "partOfSpeech": "n.",
-          "meaning": "天氣",
-          "note": "看到 weather 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "bit",
-          "kk": "/bit/",
-          "partOfSpeech": "n.",
-          "meaning": "位元",
-          "note": "看到 bit 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "Tell me a little bit about Vietnam and the culture in Vietnam? Sure. The culture in Vietnam is very different than the culture in the UK. In England,.",
-          "tc": "請告訴我一些關於越南和越南文化的資訊嗎？當然。越南的文化與英國的文化有很大不同。在英國，."
+          "en": "I started making videos randomly one day.",
+          "tc": "有一天我很隨機地開始做影片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I started making videos "
+            },
+            {
+              "type": "word",
+              "text": "randomly",
+              "targetId": "word-randomly",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-017-01"
+            },
+            {
+              "type": "text",
+              "text": " one day."
+            }
+          ]
         },
         {
-          "en": "One thing is about the weather. Here in Vietnam, the weather is very humid. It's very sweaty. It's hot. And it's wet. Like water. There is lots of water in the air.",
-          "tc": "一件事與天氣有關。越南這裡的天氣非常潮濕。非常出汗。很熱。而且是濕的。就像水一樣。空氣中有大量的水。"
+          "en": "I was learning Chinese on a YouTube channel, and she was speaking slowly, very slowly.",
+          "tc": "我正在一個 YouTube 頻道學中文，她說得很慢、非常慢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was learning Chinese on a YouTube channel, and she was speaking slowly, very slowly."
+            }
+          ]
         },
         {
-          "en": "And it's very humid. It makes me sweat. The food is wonderful. It's delicious.",
-          "tc": "而且非常潮濕。這讓我出汗。食物很棒。很好吃。"
+          "en": "Eventually, one video took off.",
+          "tc": "最後，有一支影片起飛了。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Eventually",
+              "targetId": "word-eventually",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-019-01"
+            },
+            {
+              "type": "text",
+              "text": ", one video "
+            },
+            {
+              "type": "phrase",
+              "text": "took off",
+              "targetId": "phrase-take-off",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-019-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "My favorite food now, which is called fur. It's spelled P H O. Fur. And maybe.",
-          "tc": "我現在最喜歡的食物，叫做皮毛。拼寫為 P H O. Fur。也許吧。"
+          "en": "It took off.",
+          "tc": "它起飛了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It took off."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "vietnam",
-          "kk": "/vietnam/",
-          "partOfSpeech": "n.",
-          "meaning": "越南",
-          "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "culture",
-          "kk": "/culture/",
-          "partOfSpeech": "n.",
-          "meaning": "文化",
-          "note": "看到 culture 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "food",
-          "kk": "/fud/",
-          "partOfSpeech": "n.",
-          "meaning": "食物",
-          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "You know, but fur is a bowl of noodles with broth. Is like water but with more flavor. M. And one more thing about Vietnamese culture is that.",
-          "tc": "你知道，皮毛就是一碗湯麵。就像水一樣，但更有味道。 M. 關於越南文化的另一件事是。"
+          "en": "It blew up.",
+          "tc": "它爆開了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It "
+            },
+            {
+              "type": "phrase",
+              "text": "blew up",
+              "targetId": "phrase-blow-up",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-021-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "They are very friendly, very smiley, very happy people.",
-          "tc": "他們是非常友善、非常微笑、非常快樂的人。"
+          "en": "It exploded.",
+          "tc": "它爆炸了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It "
+            },
+            {
+              "type": "word",
+              "text": "exploded",
+              "targetId": "word-explode",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-022-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "They always want to help you.",
-          "tc": "他們總是想幫助你。"
+          "en": "It went viral like yours.",
+          "tc": "它像你的一樣爆紅。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It went viral like yours."
+            }
+          ]
         },
         {
-          "en": "They want to show you their country, show you their foods.",
-          "tc": "他們想向你展示他們的國家，向你展示他們的食物。"
+          "en": "My dream when I was young was to be a marine biologist.",
+          "tc": "我年輕時的夢想是成為海洋生物學家。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My dream when I was young was to be a "
+            },
+            {
+              "type": "phrase",
+              "text": "marine biologist",
+              "targetId": "phrase-marine-biologist",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-024-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-07",
+      "no": "07",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
+      "sentences": [
         {
-          "english": "vietnam",
-          "kk": "/vietnam/",
-          "partOfSpeech": "n.",
-          "meaning": "越南",
-          "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I was very interested in anything that had to do with the ocean.",
+          "tc": "我對任何和海洋有關的事都很感興趣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was very interested in anything that "
+            },
+            {
+              "type": "phrase",
+              "text": "had to do with",
+              "targetId": "phrase-have-to-do-with",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-025-01"
+            },
+            {
+              "type": "text",
+              "text": " the ocean."
+            }
+          ]
         },
         {
-          "english": "culture",
-          "kk": "/culture/",
-          "partOfSpeech": "n.",
-          "meaning": "文化",
-          "note": "看到 culture 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "Animals bring us here and now.",
+          "tc": "動物把我們帶回此時此地。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Animals bring us "
+            },
+            {
+              "type": "phrase",
+              "text": "here and now",
+              "targetId": "phrase-here-and-now",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-026-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "english": "food",
-          "kk": "/fud/",
-          "partOfSpeech": "n.",
-          "meaning": "食物",
-          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "They make us present.",
+          "tc": "牠們讓我們活在當下。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They make us "
+            },
+            {
+              "type": "usage",
+              "text": "present",
+              "targetId": "usage-present-item",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-027-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "What are you into?",
+          "tc": "你對什麼有興趣？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What are you "
+            },
+            {
+              "type": "phrase",
+              "text": "into",
+              "targetId": "phrase-be-into",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-028-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
+        {
+          "en": "What are you interested in?",
+          "tc": "你感興趣的是什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What are you interested in?"
+            }
+          ]
+        },
+        {
+          "en": "I like to stay active.",
+          "tc": "我喜歡保持活躍。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like to "
+            },
+            {
+              "type": "phrase",
+              "text": "stay active",
+              "targetId": "phrase-stay-active",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-030-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "It's important to me.",
+          "tc": "這對我很重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's important to me."
+            }
+          ]
+        },
+        {
+          "en": "It keeps me sharp.",
+          "tc": "它讓我保持敏銳。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It keeps me "
+            },
+            {
+              "type": "usage",
+              "text": "sharp",
+              "targetId": "usage-sharp-item",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-032-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-09",
+      "no": "09",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
+      "sentences": [
+        {
+          "en": "We say our creative juices, meaning just like our creativity.",
+          "tc": "我們說 creative juices，意思就像是我們的創造力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We say our "
+            },
+            {
+              "type": "phrase",
+              "text": "creative juices",
+              "targetId": "phrase-creative-juices",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-033-01"
+            },
+            {
+              "type": "text",
+              "text": ", meaning just like our creativity."
+            }
+          ]
+        },
+        {
+          "en": "These synonyms, similar words.",
+          "tc": "這些同義詞，相似的字。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "These "
+            },
+            {
+              "type": "word",
+              "text": "synonyms",
+              "targetId": "word-synonym",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-034-01"
+            },
+            {
+              "type": "text",
+              "text": ", similar words."
+            }
+          ]
+        },
+        {
+          "en": "Synonyms.",
+          "tc": "同義詞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Synonyms."
+            }
+          ]
+        },
+        {
+          "en": "Synonyms.",
+          "tc": "同義詞。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Synonyms."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-10",
+      "no": "10",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
+      "sentences": [
+        {
+          "en": "Sprouts is my English platform, which helps non-native speakers like you guys improve your English and immerse yourselves in the English language.",
+          "tc": "Sprouts 是我的英文平台，幫助像你們這樣的非母語者提升英文，並且讓自己沉浸在英文裡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Sprouts is my English "
+            },
+            {
+              "type": "word",
+              "text": "platform",
+              "targetId": "word-platform",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-037-01"
+            },
+            {
+              "type": "text",
+              "text": ", which helps "
+            },
+            {
+              "type": "phrase",
+              "text": "non-native speakers",
+              "targetId": "phrase-non-native-speaker",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-037-02"
+            },
+            {
+              "type": "text",
+              "text": " like you guys improve your English and "
+            },
+            {
+              "type": "word",
+              "text": "immerse",
+              "targetId": "word-immerse",
+              "instanceId": "marker-a1-ch17-slow-english-conversations-a1-comprehensible-input-037-03"
+            },
+            {
+              "type": "text",
+              "text": " yourselves in the English language."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -310,153 +760,1170 @@
       "title": "A1 重點單字",
       "items": [
         {
-          "english": "mexico",
-          "kk": "/mexico/",
-          "partOfSpeech": "n.",
-          "meaning": "墨西哥",
-          "note": "看到 mexico 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-collaborate",
+          "lemma": "collaborate",
+          "english": "collaborated",
+          "kk": "/kəˈlæbəˌret/",
+          "partOfSpeech": "v./n.",
+          "meaning": "合作；合作案",
           "highlight": true
         },
         {
-          "english": "vietnam",
-          "kk": "/vietnam/",
+          "id": "word-gesture",
+          "lemma": "gesture",
+          "english": "gestures",
+          "kk": "/ˈdʒɛstʃɚ/",
           "partOfSpeech": "n.",
-          "meaning": "越南",
-          "note": "看到 vietnam 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "手勢",
           "highlight": true
         },
         {
-          "english": "culture",
-          "kk": "/culture/",
-          "partOfSpeech": "n.",
-          "meaning": "文化",
-          "note": "看到 culture 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-delicious",
+          "lemma": "delicious",
+          "english": "delicious",
+          "kk": "/dɪˈlɪʃəs/",
+          "partOfSpeech": "adj.",
+          "meaning": "美味的",
           "highlight": true
         },
         {
-          "english": "food",
-          "kk": "/fud/",
-          "partOfSpeech": "n.",
-          "meaning": "食物",
-          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-spicy",
+          "lemma": "spicy",
+          "english": "spicy",
+          "kk": "/ˈspaɪsi/",
+          "partOfSpeech": "adj.",
+          "meaning": "辛辣的",
+          "highlight": true
         },
         {
-          "english": "weather",
-          "kk": "/weather/",
-          "partOfSpeech": "n.",
-          "meaning": "天氣",
-          "note": "看到 weather 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-greasy",
+          "lemma": "greasy",
+          "english": "greasy",
+          "kk": "/ˈɡrisi/",
+          "partOfSpeech": "adj.",
+          "meaning": "油膩的",
+          "highlight": true
         },
         {
-          "english": "bit",
-          "kk": "/bit/",
-          "partOfSpeech": "n.",
-          "meaning": "位元",
-          "note": "看到 bit 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-humid",
+          "lemma": "humid",
+          "english": "humid",
+          "kk": "/ˈhjumɪd/",
+          "partOfSpeech": "adj.",
+          "meaning": "潮濕的",
+          "highlight": true
         },
         {
-          "english": "but",
-          "kk": "/but/",
-          "partOfSpeech": "n.",
-          "meaning": "但",
-          "note": "看到 but 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-sweat",
+          "lemma": "sweat",
+          "english": "sweaty",
+          "kk": "/swɛt/",
+          "partOfSpeech": "adj./v.",
+          "meaning": "讓人流汗的；流汗",
+          "highlight": true
         },
         {
-          "english": "fur",
-          "kk": "/fur/",
+          "id": "word-broth",
+          "lemma": "broth",
+          "english": "broth",
+          "kk": "/brɔθ/",
           "partOfSpeech": "n.",
-          "meaning": "皮草",
-          "note": "看到 fur 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "湯底，高湯",
+          "highlight": true
+        },
+        {
+          "id": "word-narrow-minded",
+          "lemma": "narrow-minded",
+          "english": "narrow-minded",
+          "kk": "/ˌnæroʊˈmaɪndɪd/",
+          "partOfSpeech": "adj.",
+          "meaning": "心胸狹窄的",
+          "highlight": true
+        },
+        {
+          "id": "word-object",
+          "lemma": "object",
+          "english": "objects",
+          "kk": "/ˈɑbdʒɛkt/",
+          "partOfSpeech": "n.",
+          "meaning": "物品",
+          "highlight": true
+        },
+        {
+          "id": "word-focus",
+          "lemma": "focus",
+          "english": "focus",
+          "kk": "/ˈfoʊkəs/",
+          "partOfSpeech": "v.",
+          "meaning": "對焦",
+          "highlight": true
+        },
+        {
+          "id": "word-rhythm",
+          "lemma": "rhythm",
+          "english": "rhythms",
+          "kk": "/ˈrɪðəm/",
+          "partOfSpeech": "n.",
+          "meaning": "節奏",
+          "highlight": true
+        },
+        {
+          "id": "word-vocabulary",
+          "lemma": "vocabulary",
+          "english": "vocabulary",
+          "kk": "/voʊˈkæbjəˌlɛri/",
+          "partOfSpeech": "n.",
+          "meaning": "詞彙",
+          "highlight": true
+        },
+        {
+          "id": "word-confidence",
+          "lemma": "confidence",
+          "english": "confidence",
+          "kk": "/ˈkɑnfədəns/",
+          "partOfSpeech": "n.",
+          "meaning": "自信",
+          "highlight": true
+        },
+        {
+          "id": "word-fluent",
+          "lemma": "fluent",
+          "english": "fluent",
+          "kk": "/ˈfluənt/",
+          "partOfSpeech": "adj.",
+          "meaning": "流利的",
+          "highlight": true
+        },
+        {
+          "id": "word-repetition",
+          "lemma": "repetition",
+          "english": "Repetition",
+          "kk": "/ˌrɛpəˈtɪʃən/",
+          "partOfSpeech": "n.",
+          "meaning": "重複",
+          "highlight": true
+        },
+        {
+          "id": "word-accessible",
+          "lemma": "accessible",
+          "english": "accessible",
+          "kk": "/ækˈsɛsəbəl/",
+          "partOfSpeech": "adj.",
+          "meaning": "容易接近、容易使用的",
+          "highlight": true
+        },
+        {
+          "id": "word-creepy",
+          "lemma": "creepy",
+          "english": "creepy",
+          "kk": "/ˈkripi/",
+          "partOfSpeech": "adj.",
+          "meaning": "令人毛毛的",
+          "highlight": true
+        },
+        {
+          "id": "word-mind-blowing",
+          "lemma": "mind-blowing",
+          "english": "mind-blowing",
+          "kk": "/ˈmaɪndˌbloʊɪŋ/",
+          "partOfSpeech": "adj.",
+          "meaning": "令人震撼的",
+          "highlight": true
+        },
+        {
+          "id": "word-accurate",
+          "lemma": "accurate",
+          "english": "accurate",
+          "kk": "/ˈækjərət/",
+          "partOfSpeech": "adj.",
+          "meaning": "準確的",
+          "highlight": true
+        },
+        {
+          "id": "word-randomly",
+          "lemma": "randomly",
+          "english": "randomly",
+          "kk": "/ˈrændəmli/",
+          "partOfSpeech": "adv.",
+          "meaning": "隨機地",
+          "highlight": true
+        },
+        {
+          "id": "word-intelligence",
+          "lemma": "intelligence",
+          "english": "intelligence",
+          "kk": "/ɪnˈtɛlədʒəns/",
+          "partOfSpeech": "n.",
+          "meaning": "智力",
+          "highlight": true
+        },
+        {
+          "id": "word-engagement",
+          "lemma": "engagement",
+          "english": "engagement",
+          "kk": "/ɛnˈɡedʒmənt/",
+          "partOfSpeech": "n.",
+          "meaning": "互動量",
+          "highlight": true
+        },
+        {
+          "id": "word-approach",
+          "lemma": "approach",
+          "english": "approach",
+          "kk": "/əˈproʊtʃ/",
+          "partOfSpeech": "n.",
+          "meaning": "方法、方式",
+          "highlight": true
+        },
+        {
+          "id": "word-comprehend",
+          "lemma": "comprehend",
+          "english": "comprehend",
+          "kk": "/ˌkɑmprəˈhɛnd/",
+          "partOfSpeech": "v.",
+          "meaning": "理解",
+          "highlight": true
+        },
+        {
+          "id": "word-valuable",
+          "lemma": "valuable",
+          "english": "valuable",
+          "kk": "/ˈvæljuəbəl/",
+          "partOfSpeech": "adj.",
+          "meaning": "有價值的",
+          "highlight": true
+        },
+        {
+          "id": "word-eventually",
+          "lemma": "eventually",
+          "english": "Eventually",
+          "kk": "/ɪˈvɛntʃuəli/",
+          "partOfSpeech": "adv.",
+          "meaning": "最後、終於",
+          "highlight": true
+        },
+        {
+          "id": "word-explode",
+          "lemma": "explode",
+          "english": "exploded",
+          "kk": "/ɪkˈsploʊd/",
+          "partOfSpeech": "v.",
+          "meaning": "爆炸；暴增",
+          "highlight": true
+        },
+        {
+          "id": "word-specifically",
+          "lemma": "specifically",
+          "english": "specifically",
+          "kk": "/spəˈsɪfɪkli/",
+          "partOfSpeech": "adv.",
+          "meaning": "特別地、明確地",
+          "highlight": true
+        },
+        {
+          "id": "word-orangutan",
+          "lemma": "orangutan",
+          "english": "orangutan",
+          "kk": "/ɔˈræŋəˌtæn/",
+          "partOfSpeech": "n.",
+          "meaning": "紅毛猩猩",
+          "highlight": true
+        },
+        {
+          "id": "word-ape",
+          "lemma": "ape",
+          "english": "apes",
+          "kk": "/ep/",
+          "partOfSpeech": "n.",
+          "meaning": "猿類",
+          "highlight": true
+        },
+        {
+          "id": "word-fascinated",
+          "lemma": "fascinated",
+          "english": "fascinated",
+          "kk": "/ˈfæsəˌnetəd/",
+          "partOfSpeech": "adj.",
+          "meaning": "著迷的",
+          "highlight": true
+        },
+        {
+          "id": "word-documentary",
+          "lemma": "documentary",
+          "english": "documentary",
+          "kk": "/ˌdɑkjəˈmɛntəri/",
+          "partOfSpeech": "n.",
+          "meaning": "紀錄片",
+          "highlight": true
+        },
+        {
+          "id": "word-leopard",
+          "lemma": "leopard",
+          "english": "leopards",
+          "kk": "/ˈlɛpɚd/",
+          "partOfSpeech": "n.",
+          "meaning": "豹",
+          "highlight": true
+        },
+        {
+          "id": "word-cheetah",
+          "lemma": "cheetah",
+          "english": "cheetahs",
+          "kk": "/ˈtʃitə/",
+          "partOfSpeech": "n.",
+          "meaning": "獵豹",
+          "highlight": true
+        },
+        {
+          "id": "word-mammal",
+          "lemma": "mammal",
+          "english": "mammal",
+          "kk": "/ˈmæməl/",
+          "partOfSpeech": "n.",
+          "meaning": "哺乳動物",
+          "highlight": true
+        },
+        {
+          "id": "word-complex",
+          "lemma": "complex",
+          "english": "complex",
+          "kk": "/ˈkɑmplɛks/",
+          "partOfSpeech": "adj.",
+          "meaning": "複雜的",
+          "highlight": true
+        },
+        {
+          "id": "word-assume",
+          "lemma": "assume",
+          "english": "assumed",
+          "kk": "/əˈsum/",
+          "partOfSpeech": "v.",
+          "meaning": "以為、假設",
+          "highlight": true
+        },
+        {
+          "id": "word-wisdom",
+          "lemma": "wisdom",
+          "english": "wisdom",
+          "kk": "/ˈwɪzdəm/",
+          "partOfSpeech": "n.",
+          "meaning": "智慧",
+          "highlight": true
+        },
+        {
+          "id": "word-overwhelmed",
+          "lemma": "overwhelmed",
+          "english": "overwhelmed",
+          "kk": "/ˌoʊvɚˈwɛlmd/",
+          "partOfSpeech": "adj.",
+          "meaning": "不知所措的",
+          "highlight": true
+        },
+        {
+          "id": "word-competitive",
+          "lemma": "competitive",
+          "english": "competitive",
+          "kk": "/kəmˈpɛtətɪv/",
+          "partOfSpeech": "adj.",
+          "meaning": "有競爭心的",
+          "highlight": true
+        },
+        {
+          "id": "word-traumatic",
+          "lemma": "traumatic",
+          "english": "traumatic",
+          "kk": "/trəˈmætɪk/",
+          "partOfSpeech": "adj.",
+          "meaning": "造成創傷的",
+          "highlight": true
+        },
+        {
+          "id": "word-formal",
+          "lemma": "formal",
+          "english": "formal",
+          "kk": "/ˈfɔrməl/",
+          "partOfSpeech": "adj.",
+          "meaning": "正式的",
+          "highlight": true
+        },
+        {
+          "id": "word-gymnastics",
+          "lemma": "gymnastics",
+          "english": "gymnastics",
+          "kk": "/dʒɪmˈnæstɪks/",
+          "partOfSpeech": "n.",
+          "meaning": "體操",
+          "highlight": true
+        },
+        {
+          "id": "word-creative",
+          "lemma": "creative",
+          "english": "creative",
+          "kk": "/kriˈetɪv/",
+          "partOfSpeech": "adj.",
+          "meaning": "有創意的",
+          "highlight": true
+        },
+        {
+          "id": "word-liberating",
+          "lemma": "liberating",
+          "english": "liberating",
+          "kk": "/ˈlɪbəˌretɪŋ/",
+          "partOfSpeech": "adj.",
+          "meaning": "令人解放的",
+          "highlight": true
+        },
+        {
+          "id": "word-rhyme",
+          "lemma": "rhyme",
+          "english": "rhymes",
+          "kk": "/raɪm/",
+          "partOfSpeech": "n.",
+          "meaning": "押韻",
+          "highlight": true
+        },
+        {
+          "id": "word-improvised",
+          "lemma": "improvised",
+          "english": "improvised",
+          "kk": "/ˈɪmprəˌvaɪzd/",
+          "partOfSpeech": "adj.",
+          "meaning": "即興的",
+          "highlight": true
+        },
+        {
+          "id": "word-transition",
+          "lemma": "transition",
+          "english": "transition",
+          "kk": "/trænˈzɪʃən/",
+          "partOfSpeech": "n.",
+          "meaning": "轉換",
+          "highlight": true
+        },
+        {
+          "id": "word-synonym",
+          "lemma": "synonym",
+          "english": "synonyms",
+          "kk": "/ˈsɪnəˌnɪm/",
+          "partOfSpeech": "n.",
+          "meaning": "同義詞",
+          "highlight": true
+        },
+        {
+          "id": "word-translation",
+          "lemma": "translation",
+          "english": "translation",
+          "kk": "/trænsˈleʃən/",
+          "partOfSpeech": "n.",
+          "meaning": "翻譯",
+          "highlight": true
+        },
+        {
+          "id": "word-platform",
+          "lemma": "platform",
+          "english": "platform",
+          "kk": "/ˈplætˌfɔrm/",
+          "partOfSpeech": "n.",
+          "meaning": "平台",
+          "highlight": true
+        },
+        {
+          "id": "word-immerse",
+          "lemma": "immerse",
+          "english": "immerse",
+          "kk": "/ɪˈmɝs/",
+          "partOfSpeech": "v.",
+          "meaning": "沉浸",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
-      "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "id": "phrase-far-from",
+      "phrase": "far from",
+      "meaning": "距離遠；也可指差很多",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "__far from__ my hometown",
+          "tc": "距離遠；也可指差很多"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "going to",
-      "meaning": "去",
+      "id": "phrase-in-person",
+      "phrase": "in person",
+      "meaning": "親自、面對面",
       "examples": [
         {
-          "en": "We're going to show you guys something very exciting.",
-          "tc": "我們將向你們展示一些非常令人興奮的東西。"
+          "en": "make a video __in person__",
+          "tc": "親自、面對面"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-in-the-whole-world",
+      "phrase": "in the whole world",
+      "meaning": "全世界範圍內",
       "examples": [
         {
-          "en": "They always want to help you.",
-          "tc": "他們總是想幫助你。"
+          "en": "the best __in the whole world__",
+          "tc": "全世界範圍內"
         }
+      ]
+    },
+    {
+      "id": "phrase-closed-off",
+      "phrase": "closed off",
+      "meaning": "不願開放或交流",
+      "examples": [
+        {
+          "en": "more __closed off__",
+          "tc": "不願開放或交流"
+        }
+      ]
+    },
+    {
+      "id": "phrase-real-life",
+      "phrase": "real-life",
+      "meaning": "現實中的，不是假的或抽象的",
+      "examples": [
+        {
+          "en": "__real-life__ objects",
+          "tc": "現實中的，不是假的或抽象的"
+        }
+      ]
+    },
+    {
+      "id": "phrase-what-s-on-your-mind",
+      "phrase": "what's on your mind",
+      "meaning": "你在想什麼；有什麼想聊的",
+      "examples": [
+        {
+          "en": "__What's on your mind__?",
+          "tc": "你在想什麼；有什麼想聊的"
+        }
+      ]
+    },
+    {
+      "id": "phrase-get-used-to",
+      "phrase": "get used to",
+      "meaning": "習慣某事",
+      "examples": [
+        {
+          "en": "__get used to__ the sounds",
+          "tc": "習慣某事"
+        }
+      ]
+    },
+    {
+      "id": "phrase-use-the-link-in-the-description",
+      "phrase": "use the link in the description",
+      "meaning": "點影片說明欄連結",
+      "examples": [
+        {
+          "en": "__use the link in the description__",
+          "tc": "點影片說明欄連結"
+        }
+      ]
+    },
+    {
+      "id": "phrase-try-out",
+      "phrase": "try out",
+      "meaning": "試用、體驗",
+      "examples": [
+        {
+          "en": "__try out__ Miss Honey AI",
+          "tc": "試用、體驗"
+        }
+      ]
+    },
+    {
+      "id": "phrase-just-like",
+      "phrase": "just like",
+      "meaning": "和……一模一樣或非常相似",
+      "examples": [
+        {
+          "en": "__just like__ me",
+          "tc": "和……一模一樣或非常相似"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-viral",
+      "phrase": "go viral",
+      "meaning": "在網路上爆紅",
+      "examples": [
+        {
+          "en": "It __went viral__.",
+          "tc": "在網路上爆紅"
+        }
+      ]
+    },
+    {
+      "id": "phrase-from-the-beginning",
+      "phrase": "from the beginning",
+      "meaning": "一開始就",
+      "examples": [
+        {
+          "en": "__from the beginning__",
+          "tc": "一開始就"
+        }
+      ]
+    },
+    {
+      "id": "phrase-social-media",
+      "phrase": "social media",
+      "meaning": "社群平台與內容",
+      "examples": [
+        {
+          "en": "__social media__ videos",
+          "tc": "社群平台與內容"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-off",
+      "phrase": "take off",
+      "meaning": "突然開始成功或流行",
+      "examples": [
+        {
+          "en": "one video __took off__",
+          "tc": "突然開始成功或流行"
+        }
+      ]
+    },
+    {
+      "id": "phrase-blow-up",
+      "phrase": "blow up",
+      "meaning": "突然大紅或快速成長",
+      "examples": [
+        {
+          "en": "It __blew up__.",
+          "tc": "突然大紅或快速成長"
+        }
+      ]
+    },
+    {
+      "id": "phrase-the-rest-is-history",
+      "phrase": "the rest is history",
+      "meaning": "後來的發展大家都知道了",
+      "examples": [
+        {
+          "en": "__the rest is history__",
+          "tc": "後來的發展大家都知道了"
+        }
+      ]
+    },
+    {
+      "id": "phrase-brush-it-off",
+      "phrase": "brush it off",
+      "meaning": "不放在心上，甩開挫折",
+      "examples": [
+        {
+          "en": "__Brush it off__.",
+          "tc": "不放在心上，甩開挫折"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-the-end",
+      "phrase": "in the end",
+      "meaning": "最後、結果",
+      "examples": [
+        {
+          "en": "__in the end__",
+          "tc": "最後、結果"
+        }
+      ]
+    },
+    {
+      "id": "phrase-content-creator",
+      "phrase": "content creator",
+      "meaning": "製作網路內容的人",
+      "examples": [
+        {
+          "en": "__content creators__",
+          "tc": "製作網路內容的人"
+        }
+      ]
+    },
+    {
+      "id": "phrase-marine-biologist",
+      "phrase": "marine biologist",
+      "meaning": "研究海洋生物的科學家",
+      "examples": [
+        {
+          "en": "a __marine biologist__",
+          "tc": "研究海洋生物的科學家"
+        }
+      ]
+    },
+    {
+      "id": "phrase-have-to-do-with",
+      "phrase": "have to do with",
+      "meaning": "與……有關",
+      "examples": [
+        {
+          "en": "anything that __had to do with__ the ocean",
+          "tc": "與……有關"
+        }
+      ]
+    },
+    {
+      "id": "phrase-to-this-day",
+      "phrase": "to this day",
+      "meaning": "直到今天仍然如此",
+      "examples": [
+        {
+          "en": "__to this day__",
+          "tc": "直到今天仍然如此"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-real-life",
+      "phrase": "in real life",
+      "meaning": "現實中、親眼看到",
+      "examples": [
+        {
+          "en": "__in real life__",
+          "tc": "現實中、親眼看到"
+        }
+      ]
+    },
+    {
+      "id": "phrase-tons-of",
+      "phrase": "tons of",
+      "meaning": "非常多",
+      "examples": [
+        {
+          "en": "__tons of__ stuffed animals",
+          "tc": "非常多"
+        }
+      ]
+    },
+    {
+      "id": "phrase-dream-come-true",
+      "phrase": "dream come true",
+      "meaning": "夢想成真",
+      "examples": [
+        {
+          "en": "a __dream come true__",
+          "tc": "夢想成真"
+        }
+      ]
+    },
+    {
+      "id": "phrase-here-and-now",
+      "phrase": "here and now",
+      "meaning": "此時此地、當下",
+      "examples": [
+        {
+          "en": "__here and now__",
+          "tc": "此時此地、當下"
+        }
+      ]
+    },
+    {
+      "id": "phrase-be-into",
+      "phrase": "be into",
+      "meaning": "對……很有興趣",
+      "examples": [
+        {
+          "en": "What are you __into__?",
+          "tc": "對……很有興趣"
+        }
+      ]
+    },
+    {
+      "id": "phrase-put-on",
+      "phrase": "put on",
+      "meaning": "播放音樂；穿戴",
+      "examples": [
+        {
+          "en": "__Putting on__ music",
+          "tc": "播放音樂；穿戴"
+        }
+      ]
+    },
+    {
+      "id": "phrase-look-up",
+      "phrase": "look up",
+      "meaning": "查資料、查字",
+      "examples": [
+        {
+          "en": "__look it up__",
+          "tc": "查資料、查字"
+        }
+      ]
+    },
+    {
+      "id": "phrase-get-into-fights",
+      "phrase": "get into fights",
+      "meaning": "開始吵架或打架",
+      "examples": [
+        {
+          "en": "__getting into fights__",
+          "tc": "開始吵架或打架"
+        }
+      ]
+    },
+    {
+      "id": "phrase-as-you-please",
+      "phrase": "as you please",
+      "meaning": "隨你喜歡，隨興",
+      "examples": [
+        {
+          "en": "__as you please__",
+          "tc": "隨你喜歡，隨興"
+        }
+      ]
+    },
+    {
+      "id": "phrase-stay-active",
+      "phrase": "stay active",
+      "meaning": "維持活動量和精神",
+      "examples": [
+        {
+          "en": "__stay active__",
+          "tc": "維持活動量和精神"
+        }
+      ]
+    },
+    {
+      "id": "phrase-to-be-honest",
+      "phrase": "to be honest",
+      "meaning": "老實說",
+      "examples": [
+        {
+          "en": "__to be honest__",
+          "tc": "老實說"
+        }
+      ]
+    },
+    {
+      "id": "phrase-creative-juices",
+      "phrase": "creative juices",
+      "meaning": "創作靈感或創造力",
+      "examples": [
+        {
+          "en": "__creative juices__",
+          "tc": "創作靈感或創造力"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-back-and-forth",
+      "phrase": "go back and forth",
+      "meaning": "輪流來回進行",
+      "examples": [
+        {
+          "en": "__going back and forth__",
+          "tc": "輪流來回進行"
+        }
+      ]
+    },
+    {
+      "id": "phrase-word-association-game",
+      "phrase": "word association game",
+      "meaning": "依關聯或聯想接字的遊戲",
+      "examples": [
+        {
+          "en": "__word association game__",
+          "tc": "依關聯或聯想接字的遊戲"
+        }
+      ]
+    },
+    {
+      "id": "phrase-first-thought",
+      "phrase": "first thought",
+      "meaning": "腦中最先出現的反應",
+      "examples": [
+        {
+          "en": "your __first thought__",
+          "tc": "腦中最先出現的反應"
+        }
+      ]
+    },
+    {
+      "id": "phrase-close-to-me",
+      "phrase": "close to me",
+      "meaning": "對我重要、貼近我的心",
+      "examples": [
+        {
+          "en": "__close to me__",
+          "tc": "對我重要、貼近我的心"
+        }
+      ]
+    },
+    {
+      "id": "phrase-non-native-speaker",
+      "phrase": "non-native speaker",
+      "meaning": "非母語使用者",
+      "examples": [
+        {
+          "en": "__non-native speakers__",
+          "tc": "非母語使用者"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-guys-item",
+      "word": "guys",
+      "familiarMeaning": "男生們",
+      "usage": "非正式地稱呼一群人，不限性別",
+      "translation": "大家、你們",
+      "examples": [
+        "show you 《guys》 something"
+      ]
+    },
+    {
+      "id": "usage-warm-item",
+      "word": "warm",
+      "familiarMeaning": "溫暖的",
+      "usage": "形容人親切、熱情",
+      "translation": "熱情的",
+      "examples": [
+        "very 《warm》 and inviting"
+      ]
+    },
+    {
+      "id": "usage-open-item",
+      "word": "open",
+      "familiarMeaning": "打開的",
+      "usage": "形容人願意接納、分享、交流",
+      "translation": "開放的",
+      "examples": [
+        "very 《open》 and warm"
+      ]
+    },
+    {
+      "id": "usage-closed-item",
+      "word": "closed",
+      "familiarMeaning": "關上的",
+      "usage": "形容人比較不願交流或不外向",
+      "translation": "封閉的",
+      "examples": [
+        "people are more 《closed》"
+      ]
+    },
+    {
+      "id": "usage-ring-item",
+      "word": "ring",
+      "familiarMeaning": "鈴聲響",
+      "usage": "英式口語中指打電話給某人",
+      "translation": "打電話",
+      "examples": [
+        "Somebody is 《ringing》 me now."
+      ]
+    },
+    {
+      "id": "usage-sound-item",
+      "word": "sound",
+      "familiarMeaning": "聲音",
+      "usage": "連綴動詞，表示「聽起來像」",
+      "translation": "聽起來",
+      "examples": [
+        "who 《sounds》 just like me"
+      ]
+    },
+    {
+      "id": "usage-view-item",
+      "word": "view",
+      "familiarMeaning": "看",
+      "usage": "影片觀看次數",
+      "translation": "觀看數",
+      "examples": [
+        "the videos didn't get 《views》"
+      ]
+    },
+    {
+      "id": "usage-present-item",
+      "word": "present",
+      "familiarMeaning": "禮物；出席的",
+      "usage": "專注在當下，不被過去未來拉走",
+      "translation": "活在當下的",
+      "examples": [
+        "They make us 《present》."
+      ]
+    },
+    {
+      "id": "usage-sharp-item",
+      "word": "sharp",
+      "familiarMeaning": "尖銳的",
+      "usage": "頭腦敏銳、反應快",
+      "translation": "敏銳的",
+      "examples": [
+        "It keeps me 《sharp》."
+      ]
+    },
+    {
+      "id": "usage-fresh-item",
+      "word": "fresh",
+      "familiarMeaning": "新鮮的",
+      "usage": "讓事情保持新鮮、有變化",
+      "translation": "新鮮有趣的",
+      "examples": [
+        "keep things 《fresh》"
+      ]
+    },
+    {
+      "id": "usage-natural-item",
+      "word": "natural",
+      "familiarMeaning": "自然界的",
+      "usage": "像真實使用語言那樣，不死背",
+      "translation": "自然的",
+      "examples": [
+        "in a 《natural》 way"
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "we've collaborated on",
+      "translation": "我們已經合作完成",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "現在完成式",
+          "text": "have/has + p.p.",
+          "note": "表示過去已完成的合作，和現在要展示的成果有關"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Today I'm here with my friend Jay.",
-      "translation": "今天我和我的朋友傑伊一起來到這裡。",
+      "id": "grammar-2",
+      "sentence": "we're going to show you guys something",
+      "translation": "我們要展示給你們看",
       "points": [
         {
-          "label": "here friend jay",
-          "text": "here friend jay",
-          "note": "注意 \"here friend jay\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "be going to + 原形動詞",
+          "text": "be going to + V",
+          "note": "表示已經計畫好的未來行動"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "We're going to show you guys something very exciting.",
-      "translation": "我們將向你們展示一些非常令人興奮的東西。",
+      "id": "grammar-3",
+      "sentence": "Have you been to Đà Nẵng?",
+      "translation": "你去過峴港嗎",
       "points": [
         {
-          "label": "going to",
-          "text": "going to",
-          "note": "注意 \"going to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "現在完成式經驗用法",
+          "text": "Have/Has + S + been to + place?",
+          "note": "問對方到目前為止是否有去過某地的經驗"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "We've collaborated on to help you learn English.",
-      "translation": "我們合作幫助你學習英語。",
+      "id": "grammar-4",
+      "sentence": "Could you share with me...?",
+      "translation": "你可以跟我分享嗎",
       "points": [
         {
-          "label": "we've collaborated help",
-          "text": "we've collaborated help",
-          "note": "注意 \"we've collaborated help\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "could 禮貌請求",
+          "text": "Could + S + V...?",
+          "note": "用 could 讓請求更客氣"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "It makes me sweat.",
+      "translation": "它讓我流汗",
+      "points": [
+        {
+          "label": "make + 受詞 + 原形動詞",
+          "text": "make + object + bare verb",
+          "note": "表示某事物造成某人做某動作"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "It helps you get used to the sounds and rhythms.",
+      "translation": "它幫助你習慣聲音和節奏",
+      "points": [
+        {
+          "label": "help + 受詞 + 原形動詞",
+          "text": "help + object + V",
+          "note": "help 後面可接原形動詞，表示幫助某人做到某事"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "someone who sounds just like me",
+      "translation": "一個聽起來像我的人",
+      "points": [
+        {
+          "label": "關係子句",
+          "text": "noun + who + verb",
+          "note": "who 補充說明 someone 是什麼樣的人"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "It sounds like you're saying that...",
+      "translation": "聽起來你是在說",
+      "points": [
+        {
+          "label": "It sounds like + 子句",
+          "text": "It sounds like + S + V",
+          "note": "用來確認或轉述自己聽到的意思"
+        }
+      ]
+    },
+    {
+      "id": "grammar-9",
+      "sentence": "I used to have many soft toys.",
+      "translation": "我以前有很多絨毛玩具",
+      "points": [
+        {
+          "label": "used to + 原形動詞",
+          "text": "used to + V",
+          "note": "表示過去常常如此，但現在不一定"
+        }
+      ]
+    },
+    {
+      "id": "grammar-10",
+      "sentence": "I've been doing since I was five years old.",
+      "translation": "我從五歲開始一直在做",
+      "points": [
+        {
+          "label": "現在完成進行式",
+          "text": "have/has been + V-ing + since",
+          "note": "表示從過去開始，一直持續到現在"
+        }
+      ]
+    },
+    {
+      "id": "grammar-11",
+      "sentence": "I couldn't fail if I kept going.",
+      "translation": "如果我一直做下去，我就不會失敗",
+      "points": [
+        {
+          "label": "if 條件句",
+          "text": "if + S + 過去式, S + could/would + V",
+          "note": "用過去式描述假設條件下的可能結果"
+        }
+      ]
+    },
+    {
+      "id": "grammar-12",
+      "sentence": "Not quite as viral, but it went viral.",
+      "translation": "沒有那麼爆紅，但它爆紅了",
+      "points": [
+        {
+          "label": "not quite as...as...",
+          "text": "not quite as + adj. + as",
+          "note": "表示程度沒有另一個那麼高"
         }
       ]
     }

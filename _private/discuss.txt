@@ -1,52 +1,439 @@
-零.
-目前ch1路由，有 回頂的按鈕、回到單字的按鈕。按鈕按下後，也有smooth置頂，或 回到原始scroll位置的功能。
-a1、a2、b1、b2 的各詳細播放清單 的 各路由也要有上述相同功能。
+# MissHoney A1/A2/B1/B2 播放清單詳細頁內容重整需求
 
-一.
-針對 路由 a1、a2、b1、b2 的各詳細播放清單 全部要做 大量翻新，因為目前的品質內容很差。
-可以參考目前的UI樣式，但不一定要完全按照目前的UI製作。
+## 目標
 
-完整步驟如下，
-一.
-先從 a1開始，
-1. 針對a1播放清單的 各路由進行調整，第一次 針對  ch1-slow-english-for-beginners-a1-listening-practice 進行校稿
-2. 針對 ch1-slow-english-for-beginners-a1-listening-practice 裡面提及的 youtube影片 https://www.youtube.com/watch?v=kVNYOW3eMk4，提取字幕。
-並將該字幕文本，"覆寫"到 `@/_private/tmp.txt`
-3. 
-請用 english_proofreader 副代理，使用檔案 I/O 模式處理：
-讀取 @/_private/tmp.txt，
-輸出並覆寫到 @/_private/proofread_result.md；
-完成後回傳結果，並結束該副代理。
+針對 `/a1`、`/a2`、`/b1`、`/b2` 的各播放清單詳細頁進行全文檢查、校稿、翻譯、學習內容結構化與 UI 互動修正。
 
-4. 讀取 @/_private/proofread_result.md 並進行解析，
- @/_private/proofread_result.md 會針對 需要 講解 的單字、片語、特殊用法 進行提示，提示規則如下，
+目前這些路由的文本可能有錯，需要用已下載的原始字幕重新處理，並參考 `/ch1` 的 UI 樣式與互動功能。
+
+最終希望每支影片詳細頁都具備：
+
+- 校稿後英文全文
+- 完整繁體中文翻譯
+- 中英對照段落
+- 重點單字
+- 重點片語
+- 特殊用法
+- 句型 / 文法解析
+- 全文 inline marker 點擊後 smooth scroll 到對應講解項目
+- 講解項目可回到剛剛點擊的全文位置
+- grammar 路由補充或新增從影片中整理出的文法內容
+
+## 原始字幕來源
+
+原始字幕已下載到：
+
+```text
+_private/tmp/originalContent/
+```
+
+並依難度分成：
+
+```text
+_private/tmp/originalContent/a1/
+_private/tmp/originalContent/a2/
+_private/tmp/originalContent/b1/
+_private/tmp/originalContent/b2/
+```
+
+原始字幕檔可能是 `.md` 或 `.json`。
+
+若原始檔是 `.md`，直接把檔案內容視為字幕文本。
+
+若原始檔是 `.json`，主代理必須先用結構化方式讀取 JSON，抽出實際字幕 / transcript / text 內容，再交給 `english_proofreader`。不要把整份 JSON 語法、metadata 或無關欄位當成英文字幕交給副代理處理。
+
+若 JSON 欄位結構不明，先檢查檔案 schema，再決定要抽取哪個欄位；不可猜錯欄位後繼續批次處理。
+
+## 處理順序
+
+整體處理順序固定為：
+
+```text
+A1 全部影片
+→ A2 全部影片
+→ B1 全部影片
+→ B2 全部影片
+```
+
+每個難度播放清單是一個大 task。
+
+每支影片是一個中 task。
+
+每支影片內再拆成多個小 task：
+
+1. 準備該影片字幕輸入
+2. 呼叫 `english_proofreader` 副代理校稿
+3. 解析 proofread 結果
+4. 更新該影片詳細頁資料
+5. 抽取並累積 grammar 內容
+6. 驗證該影片路由與互動
+
+任務數量會很多，但這樣方便暫停、恢復、複測與單支影片回修。
+
+## 重要副代理生命週期規則
+
+`english_proofreader` 副代理一次只處理一篇字幕檔。
+
+每一篇字幕都必須使用新的 `english_proofreader` 副代理：
+
+```text
+開啟新的 english_proofreader
+→ 處理 1 篇字幕
+→ 寫出該字幕的 step1 結果
+→ 回報完成
+→ 關閉該 english_proofreader
+→ 下一篇字幕再開啟新的 english_proofreader
+```
+
+禁止讓同一個 `english_proofreader` 副代理連續處理多篇字幕。
+
+禁止把整個播放清單或多個字幕檔一次交給同一個 `english_proofreader`。
+
+這條規則是為了避免長文本累積造成 context 汙染、輸出截斷、跨影片內容混淆，以及後續難以追蹤是哪支影片出錯。
+
+## 全量批次處理起點
+
+此任務不是先做小範圍試跑後等待確認，而是從 A1 第一支影片開始，依序一路處理完 A1、A2、B1、B2 全部影片。
+
+A1 第一支影片只是全量批次的起點，不是暫停點，也不是只做示範用的範圍。除非遇到會阻塞後續所有影片的系統性錯誤，否則不要在完成 A1 第一支後停下來等人工確認。
+
+目標影片：
+
+```text
+level: a1
+slug: ch1-slow-english-for-beginners-a1-listening-practice
+source:
+_private/tmp/originalContent/a1/ch1-slow-english-for-beginners-a1-listening-practice.md
+proofread output:
+_private/tmp/step1/a1/ch1-slow-english-for-beginners-a1-listening-practice.md
+```
+
+### Step 1: 呼叫 english_proofreader
+
+請用 `english_proofreader` 副代理，使用檔案 I/O 模式處理：
+
+```text
+讀取：
+_private/tmp/originalContent/a1/ch1-slow-english-for-beginners-a1-listening-practice.md
+
+輸出並覆寫到：
+_private/tmp/step1/a1/ch1-slow-english-for-beginners-a1-listening-practice.md
+
+完成後只回報輸出檔案路徑與摘要，然後關閉該 english_proofreader 副代理。
+```
+
+### Step 2: 解析 proofread output
+
+讀取：
+
+```text
+_private/tmp/step1/a1/ch1-slow-english-for-beginners-a1-listening-practice.md
+```
+
+優先解析該檔案最後的 machine-readable JSON code block。
+
+若 JSON 缺失或格式錯誤，才退回解析 Markdown 區塊與表格，並把該影片列入待複測清單。
+
+`english_proofreader` 會在校稿後英文全文標記 A/B/C 三類學習重點：
+
+| 類別 | 標記 | 範例 |
+|------|------|------|
 | A 超綱單字 | `**粗體**` | `**ubiquitous**` |
 | B 超綱片語 | `__底線__` | `__take on__` |
 | C 特殊用法 | `《書名號》` | `《run》 a business` |
 
-把 相對應的內容依序塞入 全文、單字、片語、句型，
-在全文處 要有 smooth到指定 單字、片語、句型 的功能 (詳細功能可參照 路由 ch1)
+解析後要取得：
 
-5. 讀取 @/_private/proofread_result.md 並進行解析，
-文法的部分，要塞入 路由-grammar，但已經有介紹過的文法，不用再另行介紹，採用補充的方式，比如說 多給範例、例句，
-或是 比方說 關係子句 只有介紹 that，但 有介紹 which，那就把 which 添加進 關係子句 來進行介紹。
+- correctedText
+- translation
+- segments
+- words
+- phrases
+- usages
+- grammar
 
-回到步驟1. 
-針對a1播放清單的 各路由進行調整，第二次 針對  ch2-beginner-english-slow-listening-practice-talking-about-me 進行校稿
-2.針對 ch1-slow-english-for-beginners-a1-listening-practice 裡面提及的 youtube影片 https://www.youtube.com/watch?v=GcsCi5H4L_Y，提取字幕。
-並將該字幕文本，"覆寫"到 `@/_private/tmp.txt`
-重複步驟.....直到a1播放清單路由 都完成校稿，然後前往下一個步驟
+### Step 3: 寫入影片詳細頁資料
 
+將解析結果整理成 app 目前既有的影片詳細頁資料格式。
 
-二.
-從 a2開始，執行方式與 一 步驟相同 ，然後以此類推.....直到a2路由播放清單全部校稿完成，然後再執行 B1，B1 完成，再執行B2
+實作前必須先搜尋目前程式碼中的資料來源與型別，例如 `PlaylistVideoData` 或對應的 level/slug data 檔。以現有資料架構為準，不要平行新增一套未被 route 使用的資料來源。
 
+每支影片至少要更新：
 
+- 全文 / 中英對照段落
+- 重點單字
+- 重點片語
+- 特殊用法
+- 句型 / 文法解析
+- 影片來源與難度資訊若既有資料需要保留，不可覆蓋掉
 
+### Step 4: inline marker 精準跳轉
 
+全文 inline marker 只處理 A/B/C：
 
-任務會非常多，每一個 播放清單，可以當作一個大task，一個播放清單內容可以當一個中task，然後每一個中task又可以切分成多個task來執行
+- `**word**` 點擊後 smooth scroll 到對應單字講解項目
+- `__phrase__` 點擊後 smooth scroll 到對應片語講解項目
+- `《usage》` 點擊後 smooth scroll 到對應特殊用法講解項目
 
-這樣task會超級多，但方便控管
+文法 / 句型 D 類目前不在全文中做 inline marker，因為 `english_proofreader` 規則是不在正文標註 D 類文法。
 
+文法 / 句型解析應透過 quick nav 或區塊按鈕跳轉到句型 / 文法區。若未來要支援全文點擊跳文法，必須先新增 D 類 marker 規格。
 
+互動行為參考 `/ch1`：
+
+- smooth scroll
+- 目標講解項目盡量置中
+- 目標卡片短暫高亮
+- 講解項目可回到剛剛點擊的全文 marker instance
+- 同一個單字或片語多次出現時，回原文必須回到使用者剛剛點擊的那一次，不是固定回第一個
+
+建議使用：
+
+```ts
+element.scrollIntoView({
+  behavior: 'smooth',
+  block: 'center',
+})
+```
+
+## 全量影片批次處理
+
+處理完 A1 第一支影片後，立即繼續處理 A1 其他影片，不等待額外確認。
+
+例如 A1 第二支影片：
+
+```text
+level: a1
+slug: ch2-beginner-english-slow-listening-practice-talking-about-me
+source:
+_private/tmp/originalContent/a1/ch2-beginner-english-slow-listening-practice-talking-about-me.json
+proofread output:
+_private/tmp/step1/a1/ch2-beginner-english-slow-listening-practice-talking-about-me.md
+```
+
+每支影片的處理方式都與 A1 第一支影片相同，但每一支都必須重新開啟新的 `english_proofreader` 副代理，處理完後立即關閉。
+
+重複此流程直到：
+
+```text
+_private/tmp/originalContent/a1/
+```
+
+底下所有 A1 字幕檔都完成 proofread、解析、寫入與驗證。
+
+A1 完成後，依序處理：
+
+```text
+_private/tmp/originalContent/a2/
+_private/tmp/originalContent/b1/
+_private/tmp/originalContent/b2/
+```
+
+每一支影片都遵守「一篇字幕一個新的 english_proofreader 副代理」規則。
+
+## grammar.md 累積規則
+
+建立或更新：
+
+```text
+_private/tmp/grammar.md
+```
+
+用途：暫存從所有影片 proofread output 中抽出的文法內容，之後再交給 `grammar_organizer` 統一整理。
+
+每次處理完一支影片後，讀取該影片 step1 proofread output，解析 `grammar` 區塊，抽出要收納的文法。
+
+每個文法項目至少包含：
+
+- 標題：要介紹的文法主題名稱
+- 內容：文法說明、結構、原因、例句、中文翻譯
+- 來源：level、slug、source sentence
+
+`_private/tmp/grammar.md` 主要格式：
+
+```markdown
+# <文法主題>
+
+<文法內容>
+
+Sources:
+- <level>/<slug>: <source sentence>
+```
+
+如果 `_private/tmp/grammar.md` 已經有相同或高度相近的文法標題，不要重複新增大標題，而是採用補充方式加入缺少的說明、例句或變體。
+
+例如：
+
+- 既有「關係子句」只介紹 `that`
+- 新影片出現 `which`
+- 則把 `which` 補入「關係子句」主題，而不是新增另一個孤立的「which 關係子句」
+
+在 `grammar.md` 累積階段不需要做最終排序；最終排序交給 `grammar_organizer`。
+
+## grammar_organizer 整理
+
+當 A1/A2/B1/B2 全部影片都已處理完，且 `_private/tmp/grammar.md` 已累積完整文法內容後，再呼叫一次 `grammar_organizer` 副代理。
+
+請使用 `grammar_organizer` 副代理，使用檔案 I/O 模式處理：
+
+```text
+讀取：
+_private/tmp/grammar.md
+
+輸出並覆寫到：
+_private/tmp/grammar_deal.md
+```
+
+任務要求：
+
+1. 不要把全文結果直接回傳到對話中。
+2. 若文本超過 1500 字元或 800 英文單字，自動分批處理。
+3. 先萃取每批候選文法點，再做總整理。
+4. 合併重複文法點，統一術語，依由簡單到困難的學習順序排序。
+5. 保留來源例句、限制、例外與不確定處，不可憑空新增規則。
+6. 輸出 Markdown 正文與最後的 machine-readable JSON。
+7. 完成後只回報來源檔、輸出檔、批次數、文法點數、待確認問題數。
+
+`grammar_organizer` 完成後也要關閉該副代理。
+
+## 更新 /grammar 路由
+
+讀取：
+
+```text
+_private/tmp/grammar_deal.md
+```
+
+檢查整理後的每個文法點是否已經在 `/grammar` 路由中收錄。
+
+若已收錄：
+
+- 不新增重複主題
+- 用補充方式加入缺少的說明、比較、限制、例句或影片來源例句
+- 保持 `/grammar` 現有資料結構與 UI 風格
+
+若未收錄：
+
+- 新增文法主題
+- 依 `grammar_deal.md` 的由簡到難順序放入適合的位置
+- 內容格式與 `/grammar` 既有文法說明一致
+
+## step1 結果資料夾
+
+每支影片的 `english_proofreader` 結果要放在：
+
+```text
+_private/tmp/step1/a1/
+_private/tmp/step1/a2/
+_private/tmp/step1/b1/
+_private/tmp/step1/b2/
+```
+
+這些資料夾內的每個 `.md` 檔都對應一支影片。
+
+最後要把這些 `.md` 檔解析成 app 對應路由使用的資料格式，並寫回目前程式碼中既有的影片資料來源。
+
+目標不是只產生 `_private` 暫存檔，而是讓 `/a1/:videoSlug`、`/a2/:videoSlug`、`/b1/:videoSlug`、`/b2/:videoSlug` 實際顯示新的校稿、翻譯、單字、片語、特殊用法與文法解析內容。
+
+## 驗證要求
+
+全量處理過程中不可只停在 A1 第一支影片。驗證應隨批次持續進行，並在 A1、A2、B1、B2 都處理完成後做總驗證。
+
+每支影片至少要確認：
+
+- proofread output 存在且包含 JSON
+- app 能解析該 JSON
+- 對應影片詳細頁能顯示全文與中英對照
+- 單字、片語、特殊用法、文法解析區能正常顯示
+- 全文 A/B/C marker 可精準 smooth scroll 到對應講解項目
+- 講解項目可回到剛剛點擊的全文位置
+- `/grammar` 有根據 `grammar_deal.md` 補充或新增對應文法
+- 不破壞既有 `/ch1` 到 `/ch4` 行為
+
+若時間或輸出成本需要分層驗證，至少每個 level 要抽查第一支與最後一支影片，並對任何 JSON 解析失敗、資料寫回失敗或 UI 無法顯示的影片建立待修清單。
+
+驗證可以記錄問題，但除非問題會導致後續影片無法處理，否則不要因單支影片問題中止整個 A1/A2/B1/B2 批次。
+
+## 總驗證具體項目
+
+總驗證是指 A1、A2、B1、B2 全部字幕處理完成、影片資料寫回完成、`grammar_deal.md` 產出並同步到 `/grammar` 後，做一次全局檢查。
+
+總驗證至少包含下列項目：
+
+### 1. 字幕處理覆蓋率
+
+- 統計 `_private/tmp/originalContent/a1/`、`a2/`、`b1/`、`b2/` 底下的原始字幕檔數量。
+- 統計 `_private/tmp/step1/a1/`、`a2/`、`b1/`、`b2/` 底下的 proofread output 數量。
+- 每個原始字幕檔都必須有對應的 step1 `.md`。
+- 若有缺漏，列出 level、slug、source path、expected output path。
+
+### 2. proofread output 結構檢查
+
+逐一檢查所有 `_private/tmp/step1/**/*.md`：
+
+- 檔案存在且非空。
+- 包含 machine-readable JSON code block。
+- JSON 可以被解析。
+- JSON 至少包含 `correctedText`、`translation`、`segments`、`words`、`phrases`、`usages`、`grammar`。
+- `correctedText`、`translation`、`segments` 不可為空。
+- 不可出現「同上」、「下略」、「省略」、「篇幅關係」這類跳過內容的文字。
+- 若 JSON 壞掉或欄位缺失，將該影片列入待修清單。
+
+### 3. app 影片資料寫回檢查
+
+- 確認每個 step1 output 都已寫回目前程式碼中實際被 `/a1/:videoSlug`、`/a2/:videoSlug`、`/b1/:videoSlug`、`/b2/:videoSlug` 使用的資料來源。
+- 確認沒有只存在 `_private` 暫存檔、但 app route 沒有使用的孤立結果。
+- 確認每支影片頁資料至少包含全文、中英對照、單字、片語、特殊用法、文法 / 句型解析。
+- 確認既有影片 metadata，例如 title、slug、level、YouTube URL，沒有被 proofread 結果覆蓋或清空。
+
+### 4. grammar 整理與同步檢查
+
+- `_private/tmp/grammar.md` 必須存在且包含從各影片累積的文法內容。
+- `_private/tmp/grammar_deal.md` 必須存在且包含 Markdown 正文與 machine-readable JSON。
+- `grammar_deal.md` 的文法點必須由簡單到困難排序。
+- JSON 中的 `sortOrder` 必須連續且遞增。
+- 檢查每個 `grammar_deal.md` 文法點是否已同步到 `/grammar`：
+  - 既有文法：確認已補充例句、限制、變體或來源句。
+  - 新文法：確認已新增到 `/grammar` 的適當位置。
+- 若某個文法點刻意不加入 `/grammar`，必須在待修或略過清單中寫明原因。
+
+### 5. UI 互動檢查
+
+至少每個 level 抽查第一支與最後一支影片，若時間允許則逐頁檢查：
+
+- 詳細頁可以正常載入，沒有 runtime error。
+- 全文與中英對照正常顯示。
+- 單字、片語、特殊用法、文法 / 句型解析區正常顯示。
+- 點擊 `**word**` 可以 smooth scroll 到對應單字項目。
+- 點擊 `__phrase__` 可以 smooth scroll 到對應片語項目。
+- 點擊 `《usage》` 可以 smooth scroll 到對應特殊用法項目。
+- 目標項目會短暫高亮。
+- 從講解項目返回原文時，會回到剛剛點擊的 marker instance。
+- `/ch1` 到 `/ch4` 既有頁面行為沒有被破壞。
+
+### 6. 自動化與建置檢查
+
+依專案現有 scripts 執行可用的檢查，例如：
+
+```text
+npm run lint
+npm run test
+npm run build
+```
+
+若某個 script 不存在，記錄為「專案未提供該檢查」，不要臨時 invent 新 script。
+
+### 7. 總驗證報告
+
+最後產出一份簡短驗證報告，至少列出：
+
+- 原始字幕總數
+- step1 output 總數
+- 成功解析 JSON 的影片數
+- JSON 失敗或待修影片清單
+- 已寫回 app route 的影片數
+- grammar 新增主題數
+- grammar 補充主題數
+- UI 抽查頁面清單
+- lint/test/build 結果
+- 尚未解決的風險或待辦

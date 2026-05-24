@@ -15,738 +15,3001 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello, and welcome back to my slow English podcast.",
+          "tc": "哈囉，歡迎回到我的慢速英語 podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello, and welcome back to my slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-001-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Today I want to talk about certain sounds and noises that.",
-          "tc": "今天我想談談某些聲音和噪音。"
+          "en": "Today, I want to talk about certain sounds and noises that we hear every day.",
+          "tc": "今天，我想談談我們每天會聽到的某些聲音和噪音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today, I want to talk about "
+            },
+            {
+              "type": "phrase",
+              "text": "certain sounds",
+              "targetId": "phrase-certain-sounds",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-002-01"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "noises",
+              "targetId": "word-noise",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-002-02"
+            },
+            {
+              "type": "text",
+              "text": " that we hear "
+            },
+            {
+              "type": "phrase",
+              "text": "every day",
+              "targetId": "phrase-every-day",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-002-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "We hear every day. There are certain sounds and specific noises that make me feel irritated.",
-          "tc": "我們每天都會聽到。有些聲音和特定的噪音會讓我感到惱火。"
+          "en": "There are certain sounds and specific noises that make me feel irritated.",
+          "tc": "有些特定的聲音和噪音會讓我覺得煩躁。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There are "
+            },
+            {
+              "type": "phrase",
+              "text": "certain sounds",
+              "targetId": "phrase-certain-sounds",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-003-01"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "specific",
+              "targetId": "word-specific",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-003-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "noises",
+              "targetId": "word-noise",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-003-03"
+            },
+            {
+              "type": "text",
+              "text": " that make me feel "
+            },
+            {
+              "type": "word",
+              "text": "irritated",
+              "targetId": "word-irritate",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-003-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "They completely irritate me and ruin my mood. Like my happy mood, maybe my joyful mood, maybe my peaceful mood. If.",
-          "tc": "他們完全激怒了我，破壞了我的心情。喜歡我快樂的心情，也許是我愉悅的心情，也許是我平靜的心情。如果。"
+          "en": "They completely irritate me and ruin my mood.",
+          "tc": "它們會完全惹惱我，破壞我的心情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They completely "
+            },
+            {
+              "type": "word",
+              "text": "irritate",
+              "targetId": "word-irritate",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-004-01"
+            },
+            {
+              "type": "text",
+              "text": " me and "
+            },
+            {
+              "type": "phrase",
+              "text": "ruin my mood",
+              "targetId": "phrase-ruin-my-mood",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-004-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "noises",
-          "kk": "/noises/",
-          "partOfSpeech": "n.",
-          "meaning": "噪音",
-          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常生活",
-      "titleEn": "Part 2: everyday life",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I get irritated from a noise. But there are certain or specific sounds that are very soothing to me. Soothing calm sounds, gentle sounds like rain falling on a tin roof.",
-          "tc": "我對噪音感到惱火。但有些特定的聲音對我來說非常舒緩。舒緩平靜的聲音，溫柔的聲音，就像雨落在鐵皮屋頂上。"
+          "en": "My mood, like my happy mood, maybe my joyful mood, maybe my peaceful mood, if I get irritated by a noise.",
+          "tc": "我的心情，像是我開心的心情，也許是我愉快的心情，也許是我平靜的心情，如果我被某個噪音惹得煩躁。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My mood, like my happy mood, maybe my "
+            },
+            {
+              "type": "word",
+              "text": "joyful",
+              "targetId": "word-joyful",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-005-01"
+            },
+            {
+              "type": "text",
+              "text": " mood, maybe my "
+            },
+            {
+              "type": "word",
+              "text": "peaceful",
+              "targetId": "word-peaceful",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-005-02"
+            },
+            {
+              "type": "text",
+              "text": " mood, if I get "
+            },
+            {
+              "type": "word",
+              "text": "irritated",
+              "targetId": "word-irritate",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-005-03"
+            },
+            {
+              "type": "text",
+              "text": " by a noise."
+            }
+          ]
         },
         {
-          "en": "The waves crashing onto the shore. Or the sound of being underwater. In the ocean.",
-          "tc": "海浪拍打著海岸。或是水下的聲音。在海洋裡。"
+          "en": "But there are certain or specific sounds that are very soothing to me.",
+          "tc": "但也有某些或特定的聲音對我來說非常舒緩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But there are certain or "
+            },
+            {
+              "type": "word",
+              "text": "specific",
+              "targetId": "word-specific",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-006-01"
+            },
+            {
+              "type": "text",
+              "text": " sounds that are very "
+            },
+            {
+              "type": "word",
+              "text": "soothing",
+              "targetId": "word-soothing",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-006-02"
+            },
+            {
+              "type": "text",
+              "text": " to me."
+            }
+          ]
         },
         {
-          "en": "Where you can hear the crackling corals and the small bubbles popping underwater?",
-          "tc": "哪裡可以聽到水下珊瑚的劈啪聲和小氣泡的破裂聲？"
+          "en": "Soothing, calm sounds, gentle sounds like rain falling on a tin roof or the waves crashing onto the shore.",
+          "tc": "舒緩、平靜的聲音，溫柔的聲音，像是雨落在鐵皮屋頂上的聲音，或是浪拍打岸邊的聲音。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Soothing",
+              "targetId": "word-soothing",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-007-01"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-007-02"
+            },
+            {
+              "type": "text",
+              "text": " sounds, "
+            },
+            {
+              "type": "word",
+              "text": "gentle",
+              "targetId": "word-gentle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-007-03"
+            },
+            {
+              "type": "text",
+              "text": " sounds like rain falling on a "
+            },
+            {
+              "type": "word",
+              "text": "tin",
+              "targetId": "word-tin",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-007-04"
+            },
+            {
+              "type": "text",
+              "text": " roof or the waves "
+            },
+            {
+              "type": "usage",
+              "text": "crashing",
+              "targetId": "usage-crash-item",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-007-05"
+            },
+            {
+              "type": "text",
+              "text": " onto the "
+            },
+            {
+              "type": "word",
+              "text": "shore",
+              "targetId": "word-shore",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-007-06"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I love the sound of the crackling bubbles in the ocean. Or the sound of the breeze on a windy day. The breeze and the chills.",
-          "tc": "我喜歡大海中氣泡破裂的聲音。或是刮風的日子裡微風的聲音。微風和寒意。"
+          "en": "Or the sound of being underwater in the ocean, where you can hear the crackling corals and the small bubbles popping underwater.",
+          "tc": "或是在海裡水下的聲音，在那裡你可以聽到珊瑚發出的劈啪聲，還有小氣泡在水下爆開。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Or the sound of being "
+            },
+            {
+              "type": "word",
+              "text": "underwater",
+              "targetId": "word-underwater",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-008-01"
+            },
+            {
+              "type": "text",
+              "text": " in the ocean, where you can hear the "
+            },
+            {
+              "type": "word",
+              "text": "crackling",
+              "targetId": "word-crackle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-008-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "corals",
+              "targetId": "word-coral",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-008-03"
+            },
+            {
+              "type": "text",
+              "text": " and the small "
+            },
+            {
+              "type": "word",
+              "text": "bubbles",
+              "targetId": "word-bubble",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-008-04"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "popping",
+              "targetId": "word-pop",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-008-05"
+            },
+            {
+              "type": "text",
+              "text": " underwater."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "certain",
-          "kk": "/certain/",
-          "partOfSpeech": "n.",
-          "meaning": "肯定",
-          "note": "看到 certain 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I like hearing how the wind whooes and blows. The whooes and blows are very soothing to hear.",
-          "tc": "我喜歡聽著風呼嘯而過的聲音。嘶嘶聲和打擊聲聽起來非常舒緩。"
+          "en": "I love the sound of the crackling bubbles in the ocean, or the sound of the breeze on a windy day.",
+          "tc": "我喜歡海裡劈啪作響的氣泡聲，或是在有風的日子裡微風的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love the sound of the "
+            },
+            {
+              "type": "word",
+              "text": "crackling",
+              "targetId": "word-crackle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-009-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "bubbles",
+              "targetId": "word-bubble",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-009-02"
+            },
+            {
+              "type": "text",
+              "text": " in the ocean, or the sound of the "
+            },
+            {
+              "type": "word",
+              "text": "breeze",
+              "targetId": "word-breeze",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-009-03"
+            },
+            {
+              "type": "text",
+              "text": " on a "
+            },
+            {
+              "type": "word",
+              "text": "windy",
+              "targetId": "word-windy",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-009-04"
+            },
+            {
+              "type": "text",
+              "text": " day."
+            }
+          ]
         },
         {
-          "en": "I like how the wind sways the trees. The wind blows and the trees sway back and forth. The wind can even create a new song, a beautiful song with the wind.",
-          "tc": "我喜歡風吹動樹木的樣子。風吹過，樹木前後搖曳。風甚至可以創作一首新歌，一首優美的歌與風一起。"
+          "en": "The breeze and the chills.",
+          "tc": "微風和那種寒顫。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "breeze",
+              "targetId": "word-breeze",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-010-01"
+            },
+            {
+              "type": "text",
+              "text": " and the "
+            },
+            {
+              "type": "word",
+              "text": "chills",
+              "targetId": "word-chill",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-010-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Chimes. The windchimes creating soft and calming beautiful music.",
-          "tc": "編鐘。風鈴發出輕柔而平靜的美妙音樂。"
+          "en": "I like hearing how the wind whooshes and blows.",
+          "tc": "我喜歡聽風如何呼呼作響、吹過。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like hearing how the wind "
+            },
+            {
+              "type": "word",
+              "text": "whooshes",
+              "targetId": "word-whoosh",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-011-01"
+            },
+            {
+              "type": "text",
+              "text": " and blows."
+            }
+          ]
         },
         {
-          "en": "I love taking naps outside. Where I can hear the birds chirping.",
-          "tc": "我喜歡在外面小睡。在那裡我聽到鳥兒的鳴叫聲。"
+          "en": "The whooshes and blows are very soothing to hear.",
+          "tc": "那些呼呼聲和吹動聲聽起來非常舒緩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "whooshes",
+              "targetId": "word-whoosh",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-012-01"
+            },
+            {
+              "type": "text",
+              "text": " and blows are very "
+            },
+            {
+              "type": "word",
+              "text": "soothing",
+              "targetId": "word-soothing",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-012-02"
+            },
+            {
+              "type": "text",
+              "text": " to hear."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I can hear the wind chimes dangling and making music. And I can hear the breeze and the trees all creating a harmonious, beautiful sound.",
-          "tc": "我聽到風鈴晃來晃去，發出音樂聲。我可以聽到微風和樹木發出和諧、美麗的聲音。"
+          "en": "I like how the wind sways the trees.",
+          "tc": "我喜歡風如何搖動樹木。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I like how the wind "
+            },
+            {
+              "type": "word",
+              "text": "sways",
+              "targetId": "word-sway",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-013-01"
+            },
+            {
+              "type": "text",
+              "text": " the trees."
+            }
+          ]
         },
         {
-          "en": "I love the peaceful, soothing sounds of nature.",
-          "tc": "我喜歡寧靜、舒緩的大自然之聲。"
+          "en": "The wind blows, and the trees sway back and forth.",
+          "tc": "風吹著，樹木來回搖擺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The wind blows, and the trees "
+            },
+            {
+              "type": "word",
+              "text": "sway",
+              "targetId": "word-sway",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-014-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "back and forth",
+              "targetId": "phrase-back-and-forth",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-014-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I love taking naps in a hammock outside where you can hear all of these sounds while trying to fall asleep. Any water sounds in general for me are very soothing.",
-          "tc": "我喜歡在外面的吊床上小睡，在那裡你可以在嘗試入睡時聽到所有這些聲音。一般來說，任何水聲對我來說都非常舒緩。"
+          "en": "The wind can even create a new song, a beautiful song, with the wind chimes.",
+          "tc": "風甚至可以用風鈴創造出一首新的歌，一首美麗的歌。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The wind can even create a new "
+            },
+            {
+              "type": "usage",
+              "text": "song",
+              "targetId": "usage-song-item",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-015-01"
+            },
+            {
+              "type": "text",
+              "text": ", a beautiful "
+            },
+            {
+              "type": "usage",
+              "text": "song",
+              "targetId": "usage-song-item",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-015-02"
+            },
+            {
+              "type": "text",
+              "text": ", with the "
+            },
+            {
+              "type": "phrase",
+              "text": "wind chimes",
+              "targetId": "phrase-wind-chimes",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-015-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Very peaceful to listen to water sounds while just laying down. Some trickling water sounds give me goosebumps. The trickling water falling from one end to the other. It gives me chills.",
-          "tc": "躺下時聽水聲非常平靜。一些滴水聲讓我起雞皮疙瘩。滴滴答答的水從一端流到另一端。這讓我不寒而慄。"
+          "en": "The wind chimes create soft and calming, beautiful music.",
+          "tc": "風鈴創造出柔和、平靜又美麗的音樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The "
+            },
+            {
+              "type": "phrase",
+              "text": "wind chimes",
+              "targetId": "phrase-wind-chimes",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-016-01"
+            },
+            {
+              "type": "text",
+              "text": " create soft and "
+            },
+            {
+              "type": "word",
+              "text": "calming",
+              "targetId": "word-calm",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-016-02"
+            },
+            {
+              "type": "text",
+              "text": ", beautiful music."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "asleep",
-          "kk": "/asleep/",
-          "partOfSpeech": "n.",
-          "meaning": "睡著了",
-          "note": "看到 asleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "All down my spine.",
-          "tc": "都順著我的脊椎下去了。"
+          "en": "I love taking naps outside, where I can hear the birds chirping.",
+          "tc": "我喜歡在外面小睡，在那裡我可以聽到鳥兒啁啾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love "
+            },
+            {
+              "type": "phrase",
+              "text": "taking naps",
+              "targetId": "phrase-take-a-nap",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-017-01"
+            },
+            {
+              "type": "text",
+              "text": " outside, where I can hear the birds "
+            },
+            {
+              "type": "word",
+              "text": "chirping",
+              "targetId": "word-chirp",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-017-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I get goosebumps or chills if I hear something too close to my ear. Subtle sounds give me the chills. A subtle sound is something very gentle and not very noticeable.",
-          "tc": "如果聽到離耳朵太近的聲音，我會起雞皮疙瘩或發冷。微妙的聲音讓我不寒而慄。微妙的聲音是指非常輕柔且不易察覺的聲音。"
+          "en": "And I can hear the wind chimes dangling and making music.",
+          "tc": "我也可以聽到風鈴搖晃、發出音樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I can hear the "
+            },
+            {
+              "type": "phrase",
+              "text": "wind chimes",
+              "targetId": "phrase-wind-chimes",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-018-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "dangling",
+              "targetId": "word-dangle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-018-02"
+            },
+            {
+              "type": "text",
+              "text": " and making music."
+            }
+          ]
         },
         {
-          "en": "Subtle. What sounds give you goosebumps or chills?",
-          "tc": "微妙的。什麼聲音會讓你起雞皮疙瘩或發冷？"
+          "en": "And I can hear the breeze and the trees all creating a harmonious, beautiful sound.",
+          "tc": "我也可以聽到微風和樹木一起創造出和諧美麗的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I can hear the "
+            },
+            {
+              "type": "word",
+              "text": "breeze",
+              "targetId": "word-breeze",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-019-01"
+            },
+            {
+              "type": "text",
+              "text": " and the trees all creating a "
+            },
+            {
+              "type": "word",
+              "text": "harmonious",
+              "targetId": "word-harmonious",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-019-02"
+            },
+            {
+              "type": "text",
+              "text": ", beautiful sound."
+            }
+          ]
         },
         {
-          "en": "Are there any sounds that remind you of a certain person or service?",
-          "tc": "有沒有任何聲音讓你想起某個人或某項服務？"
+          "en": "I love the peaceful, soothing sounds of nature.",
+          "tc": "我喜歡大自然平靜、舒緩的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love the "
+            },
+            {
+              "type": "word",
+              "text": "peaceful",
+              "targetId": "word-peaceful",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-020-01"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "soothing",
+              "targetId": "word-soothing",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-020-02"
+            },
+            {
+              "type": "text",
+              "text": " sounds of "
+            },
+            {
+              "type": "word",
+              "text": "nature",
+              "targetId": "word-nature",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-020-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "certain",
-          "kk": "/certain/",
-          "partOfSpeech": "n.",
-          "meaning": "肯定",
-          "note": "看到 certain 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "For example, when I hear certain bells or whistles,.",
-          "tc": "例如，當我聽到某些鈴聲或口哨聲時。"
+          "en": "I love taking naps in a hammock outside, where you can hear all of these sounds while trying to fall asleep.",
+          "tc": "我喜歡在外面的吊床裡小睡，在你試著入睡時，可以聽到所有這些聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love "
+            },
+            {
+              "type": "phrase",
+              "text": "taking naps",
+              "targetId": "phrase-take-a-nap",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-021-01"
+            },
+            {
+              "type": "text",
+              "text": " in a "
+            },
+            {
+              "type": "word",
+              "text": "hammock",
+              "targetId": "word-hammock",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-021-02"
+            },
+            {
+              "type": "text",
+              "text": " outside, where you can hear all of these sounds while trying to "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-021-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "They remind me of street vendors. Street vendors that go around and sell things in Mexico.",
-          "tc": "他們讓我想起街頭小販。在墨西哥到處賣東西的街頭小販。"
+          "en": "Any water sounds in general, for me, are very soothing.",
+          "tc": "對我來說，任何水聲大致上都非常舒緩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Any water sounds "
+            },
+            {
+              "type": "phrase",
+              "text": "in general",
+              "targetId": "phrase-in-general",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-022-01"
+            },
+            {
+              "type": "text",
+              "text": ", for me, are very "
+            },
+            {
+              "type": "word",
+              "text": "soothing",
+              "targetId": "word-soothing",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-022-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "They could be selling food or toys or a service. There is this one street vendor in Mexico that goes around and blows a whistle. Every time.",
-          "tc": "他們可能正在銷售食品、玩具或服務。墨西哥有個街頭小販，到處吹口哨。每次。"
+          "en": "It's very peaceful to listen to water sounds while just lying down.",
+          "tc": "一邊只是躺著，一邊聽水聲，非常平靜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's very "
+            },
+            {
+              "type": "word",
+              "text": "peaceful",
+              "targetId": "word-peaceful",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-023-01"
+            },
+            {
+              "type": "text",
+              "text": " to listen to water sounds while just lying down."
+            }
+          ]
         },
         {
-          "en": "He comes around,.",
-          "tc": "他過來了，。"
+          "en": "Some trickling water sounds give me goosebumps.",
+          "tc": "有些潺潺的水聲會讓我起雞皮疙瘩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Some "
+            },
+            {
+              "type": "word",
+              "text": "trickling",
+              "targetId": "word-trickle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-024-01"
+            },
+            {
+              "type": "text",
+              "text": " water sounds "
+            },
+            {
+              "type": "phrase",
+              "text": "give me goosebumps",
+              "targetId": "phrase-give-someone-goosebumps",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-024-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "certain",
-          "kk": "/certain/",
-          "partOfSpeech": "n.",
-          "meaning": "肯定",
-          "note": "看到 certain 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "He blows a whistle.",
-          "tc": "他吹了一聲口哨。"
+          "en": "The trickling water falling from one end to the other gives me chills all down my spine.",
+          "tc": "潺潺的水從一端流到另一端，會讓我從脊椎一路發冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The "
+            },
+            {
+              "type": "word",
+              "text": "trickling",
+              "targetId": "word-trickle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-025-01"
+            },
+            {
+              "type": "text",
+              "text": " water falling from one end to the other "
+            },
+            {
+              "type": "phrase",
+              "text": "gives me chills",
+              "targetId": "phrase-give-someone-chills",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-025-02"
+            },
+            {
+              "type": "text",
+              "text": " all down my "
+            },
+            {
+              "type": "word",
+              "text": "spine",
+              "targetId": "word-spine",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-025-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "He sells camotees.",
-          "tc": "他賣露營服。"
+          "en": "I get goosebumps or chills if I hear something too close to my ear.",
+          "tc": "如果我聽到某個東西太靠近我的耳朵，我會起雞皮疙瘩或發冷。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I get "
+            },
+            {
+              "type": "word",
+              "text": "goosebumps",
+              "targetId": "word-goosebump",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-026-01"
+            },
+            {
+              "type": "text",
+              "text": " or "
+            },
+            {
+              "type": "word",
+              "text": "chills",
+              "targetId": "word-chill",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-026-02"
+            },
+            {
+              "type": "text",
+              "text": " if I hear something too close to my ear."
+            }
+          ]
         },
         {
-          "en": "He sells sweet potatoes, a sweet Mexican treat that.",
-          "tc": "他賣地瓜，一種墨西哥甜食。"
+          "en": "Subtle sounds give me the chills.",
+          "tc": "細微的聲音會讓我發冷。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Subtle",
+              "targetId": "word-subtle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-027-01"
+            },
+            {
+              "type": "text",
+              "text": " sounds "
+            },
+            {
+              "type": "phrase",
+              "text": "give me the chills",
+              "targetId": "phrase-give-someone-chills",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-027-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "We eat in Mexico.",
-          "tc": "我們在墨西哥吃飯。"
+          "en": "A subtle sound is something very gentle and not very noticeable.",
+          "tc": "細微的聲音就是很溫柔、不是很明顯的東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "A "
+            },
+            {
+              "type": "word",
+              "text": "subtle",
+              "targetId": "word-subtle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-028-01"
+            },
+            {
+              "type": "text",
+              "text": " sound is something very "
+            },
+            {
+              "type": "word",
+              "text": "gentle",
+              "targetId": "word-gentle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-028-02"
+            },
+            {
+              "type": "text",
+              "text": " and not very "
+            },
+            {
+              "type": "word",
+              "text": "noticeable",
+              "targetId": "word-noticeable",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-028-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "noises",
-          "kk": "/noises/",
-          "partOfSpeech": "n.",
-          "meaning": "噪音",
-          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "They blow a very loud whistle.",
-          "tc": "他們吹起非常響亮的口哨。"
+          "en": "It's subtle.",
+          "tc": "它是細微的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's "
+            },
+            {
+              "type": "word",
+              "text": "subtle",
+              "targetId": "word-subtle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-029-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Then when the garbage collectors come around,.",
-          "tc": "然後當垃圾收集器出現時，。"
+          "en": "What sounds give you goosebumps or chills?",
+          "tc": "什麼聲音會讓你起雞皮疙瘩或發冷？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What sounds "
+            },
+            {
+              "type": "phrase",
+              "text": "give you goosebumps",
+              "targetId": "phrase-give-someone-goosebumps",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-030-01"
+            },
+            {
+              "type": "text",
+              "text": " or "
+            },
+            {
+              "type": "word",
+              "text": "chills",
+              "targetId": "word-chill",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-030-02"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         },
         {
-          "en": "They ring a bell.",
-          "tc": "他們敲響了門鈴。"
+          "en": "Are there any sounds that remind you of a certain person or service?",
+          "tc": "有沒有任何聲音會讓你想起某個人或某項服務？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Are there any sounds that "
+            },
+            {
+              "type": "phrase",
+              "text": "remind you of",
+              "targetId": "phrase-remind-someone-of",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-031-01"
+            },
+            {
+              "type": "text",
+              "text": " a certain person or service?"
+            }
+          ]
         },
         {
-          "en": "They ring a very loud bell,.",
-          "tc": "他們敲響了非常響亮的鐘聲。"
+          "en": "For example, when I hear certain bells or whistles, they remind me of street vendors.",
+          "tc": "例如，當我聽到某些鈴聲或哨聲時，它們會讓我想起街頭小販。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For example, when I hear certain bells or "
+            },
+            {
+              "type": "word",
+              "text": "whistles",
+              "targetId": "word-whistle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-032-01"
+            },
+            {
+              "type": "text",
+              "text": ", they "
+            },
+            {
+              "type": "phrase",
+              "text": "remind me of",
+              "targetId": "phrase-remind-someone-of",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-032-02"
+            },
+            {
+              "type": "text",
+              "text": " street "
+            },
+            {
+              "type": "word",
+              "text": "vendors",
+              "targetId": "word-vendor",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-032-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "noises",
-          "kk": "/noises/",
-          "partOfSpeech": "n.",
-          "meaning": "噪音",
-          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "They ring a bell to let us know that.",
-          "tc": "他們敲響了鈴聲讓我們知道這一點。"
+          "en": "Street vendors go around and sell things in Mexico.",
+          "tc": "街頭小販會在墨西哥四處走動、賣東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Street "
+            },
+            {
+              "type": "word",
+              "text": "vendors",
+              "targetId": "word-vendor",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-033-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "go around",
+              "targetId": "phrase-go-around",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-033-02"
+            },
+            {
+              "type": "text",
+              "text": " and sell things in Mexico."
+            }
+          ]
         },
         {
-          "en": "They are coming to take our garbage. So when I hear that loud bell,.",
-          "tc": "他們要來拿我們的垃圾。所以當我聽到那響亮的鈴聲時。"
+          "en": "They could be selling food or toys or a service.",
+          "tc": "他們可能賣食物、玩具或某種服務。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They could be selling food or toys or a service."
+            }
+          ]
         },
         {
-          "en": "I get all of my things. My trash from the bathroom, my trash from the kitchen,.",
-          "tc": "我得到了我所有的东西。我的垃圾來自浴室，我的垃圾來自廚房。"
+          "en": "There is this one street vendor in Mexico that goes around and blows a whistle.",
+          "tc": "在墨西哥有一位街頭小販會到處走並吹哨子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There is this one street "
+            },
+            {
+              "type": "word",
+              "text": "vendor",
+              "targetId": "word-vendor",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-035-01"
+            },
+            {
+              "type": "text",
+              "text": " in Mexico that "
+            },
+            {
+              "type": "phrase",
+              "text": "goes around",
+              "targetId": "phrase-go-around",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-035-02"
+            },
+            {
+              "type": "text",
+              "text": " and blows a "
+            },
+            {
+              "type": "word",
+              "text": "whistle",
+              "targetId": "word-whistle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-035-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I put it outside for them to take. So, what sounds remind.",
-          "tc": "我把它放在外面讓他們拿走。那麼，聽起來是什麼提醒。"
+          "en": "Every time he comes around, he blows a whistle.",
+          "tc": "每次他來附近時，他都會吹哨子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every time he "
+            },
+            {
+              "type": "phrase",
+              "text": "comes around",
+              "targetId": "phrase-come-around",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-036-01"
+            },
+            {
+              "type": "text",
+              "text": ", he blows a "
+            },
+            {
+              "type": "word",
+              "text": "whistle",
+              "targetId": "word-whistle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-036-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "You of a certain person, product, or service. Lots of sounds make me feel nostalgic. Maybe not necessarily sounds, but songs. Music. The songs that.",
-          "tc": "你对某个人、产品或服务的看法。很多声音让我感到怀旧。也许不一定是声音，而是歌曲。音樂。那些歌曲。"
+          "en": "And he sells camotes.",
+          "tc": "然後他賣 camotes。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And he sells "
+            },
+            {
+              "type": "word",
+              "text": "camotes",
+              "targetId": "word-camote",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-037-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I listened to when I was younger with my sister or my cousins remind me and take me back to certain moments. Usually very fun and lovely moments. What's a sound.",
-          "tc": "當我年輕的時候，我和我的妹妹或我的表兄弟姐妹一起提醒我，並帶我回到某些時刻。通常都是非常有趣和可爱的时刻。什麼聲音。"
+          "en": "He sells sweet potatoes, a sweet Mexican treat that we eat in Mexico.",
+          "tc": "他賣甜地瓜，一種我們在墨西哥會吃的甜墨西哥點心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "He sells sweet potatoes, a sweet Mexican "
+            },
+            {
+              "type": "word",
+              "text": "treat",
+              "targetId": "word-treat",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-038-01"
+            },
+            {
+              "type": "text",
+              "text": " that we eat in Mexico."
+            }
+          ]
         },
         {
-          "en": "A song or a noise that makes you feel nostalgic? for the past. Longing for a past moment. For me, music is a huge part of my life.",
-          "tc": "一首讓你懷舊的歌曲或聲音？對於過去。懷念過去的那一刻。對我來說，音樂是我生活中的重要部分。"
+          "en": "They blow a very loud whistle.",
+          "tc": "他們會吹一個非常響亮的哨子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They blow a very loud "
+            },
+            {
+              "type": "word",
+              "text": "whistle",
+              "targetId": "word-whistle",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-039-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I listen to music every single day. All day long, I try to take the time to listen, enjoy, and sing.",
-          "tc": "我每天都聽音樂。一整天，我都試著花時間去聆聽、享受和唱歌。"
+          "en": "Then, when the garbage collectors come around, they ring a bell.",
+          "tc": "然後，當垃圾清運人員過來時，他們會搖鈴。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then, when the garbage "
+            },
+            {
+              "type": "word",
+              "text": "collectors",
+              "targetId": "word-collector",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-040-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "come around",
+              "targetId": "phrase-come-around",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-040-02"
+            },
+            {
+              "type": "text",
+              "text": ", they ring a bell."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "certain",
-          "kk": "/certain/",
-          "partOfSpeech": "n.",
-          "meaning": "肯定",
-          "note": "看到 certain 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：日常生活",
-      "titleEn": "Part 11: everyday life",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "My favorite artists right now are singers like Galuchi Ken Ilos and Danny Ocean. What's your favorite song to listen to at the moment?",
-          "tc": "我現在最喜歡的藝術家是 Galuchi Ken Ilos 和 Danny Ocean 等歌手。你目前最喜歡聽的歌曲是？"
+          "en": "They ring a very loud bell, but they ring a bell to let us know that they are coming to take our garbage.",
+          "tc": "他們會搖一個很響的鈴，但他們搖鈴是為了讓我們知道他們要來收垃圾了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They ring a very loud bell, but they ring a bell to "
+            },
+            {
+              "type": "phrase",
+              "text": "let us know",
+              "targetId": "phrase-let-someone-know",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-041-01"
+            },
+            {
+              "type": "text",
+              "text": " that they are coming to "
+            },
+            {
+              "type": "phrase",
+              "text": "take our garbage",
+              "targetId": "phrase-take-our-garbage",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-041-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Why do you like listening to it every single day?",
-          "tc": "為什麼每天都喜歡聽？"
+          "en": "So, when I hear that loud bell, I get all of my things: my trash from the bathroom, my trash from the kitchen, and I put it outside for them to take.",
+          "tc": "所以，當我聽到那個響亮的鈴聲時，我會拿好我所有的東西：浴室的垃圾、廚房的垃圾，然後把它放到外面讓他們收走。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, when I hear that loud bell, I get all of my things: my "
+            },
+            {
+              "type": "word",
+              "text": "trash",
+              "targetId": "word-trash",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-042-01"
+            },
+            {
+              "type": "text",
+              "text": " from the bathroom, my "
+            },
+            {
+              "type": "word",
+              "text": "trash",
+              "targetId": "word-trash",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-042-02"
+            },
+            {
+              "type": "text",
+              "text": " from the kitchen, and I put it outside for them to take."
+            }
+          ]
         },
         {
-          "en": "Do you think a song has the power to change different moments in your life?",
-          "tc": "你認為一首歌有能力改變你生命中的不同時刻嗎？"
+          "en": "So, what sounds remind you of a certain person, product, or service?",
+          "tc": "所以，什麼聲音會讓你想起某個人、產品或服務？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, what sounds "
+            },
+            {
+              "type": "phrase",
+              "text": "remind you of",
+              "targetId": "phrase-remind-someone-of",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-043-01"
+            },
+            {
+              "type": "text",
+              "text": " a certain person, product, or service?"
+            }
+          ]
         },
         {
-          "en": "I'm feeling sad or down, I put on sad songs.",
-          "tc": "當我感到悲傷或沮喪時，我會播放悲傷的歌曲。"
+          "en": "Lots of sounds make me feel nostalgic.",
+          "tc": "很多聲音會讓我覺得懷舊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Lots of sounds make me feel "
+            },
+            {
+              "type": "word",
+              "text": "nostalgic",
+              "targetId": "word-nostalgic",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-044-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：日常生活",
-      "titleEn": "Part 12: everyday life",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "I feel even more sad and down.",
-          "tc": "我感到更悲傷和沮喪。"
+          "en": "Maybe not necessarily sounds, but songs.",
+          "tc": "也許不一定是聲音，而是歌曲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Maybe not "
+            },
+            {
+              "type": "word",
+              "text": "necessarily",
+              "targetId": "word-necessarily",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-045-01"
+            },
+            {
+              "type": "text",
+              "text": " sounds, but songs."
+            }
+          ]
         },
         {
-          "en": "Sometimes a happy song will unintentionally play as.",
-          "tc": "有時候，一首歡快的歌曲會不經意響起。"
+          "en": "Music.",
+          "tc": "音樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Music."
+            }
+          ]
         },
         {
-          "en": "I'm feeling sad and I will instantly feel happy after feeling very sad.",
-          "tc": "我感到悲傷，在感到非常悲傷之後我會立即感到快樂。"
+          "en": "The songs that I listened to when I was younger with my sister or my cousins remind me and take me back to certain moments, usually very fun and lovely moments.",
+          "tc": "我年輕時和姊妹或表兄弟姊妹一起聽的那些歌，會提醒我，並把我帶回某些時刻，通常是非常有趣又美好的時刻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The songs that I listened to when I was younger with my sister or my cousins remind me and "
+            },
+            {
+              "type": "phrase",
+              "text": "take me back",
+              "targetId": "phrase-take-someone-back",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-047-01"
+            },
+            {
+              "type": "text",
+              "text": " to certain moments, usually very fun and lovely moments."
+            }
+          ]
         },
         {
-          "en": "I think that music can definitely affect my mood and my emotions.",
-          "tc": "我認為音樂絕對可以影響我的心情和情緒。"
+          "en": "What's a sound, or a song, or a noise that makes you feel nostalgic?",
+          "tc": "有什麼聲音、歌曲或噪音會讓你覺得懷舊？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What's a sound, or a song, or a noise that makes you feel "
+            },
+            {
+              "type": "word",
+              "text": "nostalgic",
+              "targetId": "word-nostalgic",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-048-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-13",
       "no": "13",
-      "titleZh": "第 13 段：日常生活",
-      "titleEn": "Part 13: everyday life",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
       "sentences": [
         {
-          "en": "I think so can sounds and noises. If.",
-          "tc": "我認為聲音和噪音也可以。如果。"
+          "en": "Nostalgic for the past, longing for a past moment.",
+          "tc": "對過去感到懷舊，渴望過去的某個時刻。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Nostalgic",
+              "targetId": "word-nostalgic",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-049-01"
+            },
+            {
+              "type": "text",
+              "text": " for the past, "
+            },
+            {
+              "type": "word",
+              "text": "longing",
+              "targetId": "word-longing",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-049-02"
+            },
+            {
+              "type": "text",
+              "text": " for a past moment."
+            }
+          ]
         },
         {
-          "en": "I'm listening to traffic or people yelling all day long, I will definitely feel more stressed and irritated all day whenever I listen to white noise or ASMR.",
-          "tc": "我整天聽著交通聲或人們的叫喊聲，每當我聽白噪音或 ASMR 時，我肯定會整天感到更有壓力和煩躁。"
+          "en": "For me, music is a huge part of my life.",
+          "tc": "對我來說，音樂是我生活中很大的一部分。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "For me, music is a huge part of my life."
+            }
+          ]
         },
         {
-          "en": "I feel a lot more relaxed. It's easier to fall asleep when listening to white noises. White noises like fans or like TV static or like the hum of the air conditioning.",
-          "tc": "我感覺輕鬆了很多。聽白噪音更容易入睡。白噪聲，如風扇或電視靜態或空調的嗡嗡聲。"
+          "en": "I listen to music every single day.",
+          "tc": "我每天都聽音樂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I listen to music every single day."
+            }
+          ]
         },
         {
-          "en": "How do you feel about white noises? Do?",
-          "tc": "你對白噪音有什麼感覺？做？"
+          "en": "All day long, I try to take the time to listen to, enjoy, and sing my favorite songs and dance to my favorite songs every day.",
+          "tc": "一整天，我都試著花時間聽、享受、唱我最喜歡的歌，也每天隨著我最喜歡的歌跳舞。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "All day long",
+              "targetId": "phrase-all-day-long",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-052-01"
+            },
+            {
+              "type": "text",
+              "text": ", I try to "
+            },
+            {
+              "type": "phrase",
+              "text": "take the time",
+              "targetId": "phrase-take-the-time",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-052-02"
+            },
+            {
+              "type": "text",
+              "text": " to listen to, enjoy, and sing my favorite songs and dance to my favorite songs every day."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "noises",
-          "kk": "/noises/",
-          "partOfSpeech": "n.",
-          "meaning": "噪音",
-          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-14",
       "no": "14",
-      "titleZh": "第 14 段：日常作息",
-      "titleEn": "Part 14: daily routine",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
       "sentences": [
         {
-          "en": "They help you to fall asleep? ASMR.",
-          "tc": "他們幫助你入睡嗎？ ASMR。"
+          "en": "Some of my favorite artists right now are singers like Kali Uchis, Kenia OS, and Dany Ocean.",
+          "tc": "我現在一些最喜歡的藝人，是像 Kali Uchis、Kenia OS 和 Dany Ocean 這樣的歌手。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Some of my favorite "
+            },
+            {
+              "type": "word",
+              "text": "artists",
+              "targetId": "word-artist",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-053-01"
+            },
+            {
+              "type": "text",
+              "text": " right now are singers like Kali Uchis, Kenia OS, and Dany Ocean."
+            }
+          ]
         },
         {
-          "en": "I don't use to fall asleep. However,.",
-          "tc": "我不習慣睡覺。然而，。"
+          "en": "What's your favorite song to listen to at the moment?",
+          "tc": "你現在最喜歡聽哪一首歌？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What's your favorite song to listen to "
+            },
+            {
+              "type": "phrase",
+              "text": "at the moment",
+              "targetId": "phrase-at-the-moment",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-054-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         },
         {
-          "en": "I like watching ASMR eating videos.",
-          "tc": "我喜歡看 ASMR 吃東西的影片。"
+          "en": "And why do you like listening to it every single day?",
+          "tc": "你為什麼喜歡每天都聽它？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And why do you like listening to it every single day?"
+            }
+          ]
         },
         {
-          "en": "They always make me feel hungry afterwards. And I really enjoy hearing the chewing noises. Even if that sounds weird to some people, I really like it.",
-          "tc": "他們總是讓我事後感到飢餓。我真的很喜歡聽到咀嚼聲。儘管這對某些人來說聽起來很奇怪，但我真的很喜歡。"
+          "en": "Do you think a song has the power to change different moments in your life?",
+          "tc": "你覺得一首歌有力量改變你人生中的不同時刻嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you think a song has the "
+            },
+            {
+              "type": "usage",
+              "text": "power",
+              "targetId": "usage-power-item",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-056-01"
+            },
+            {
+              "type": "text",
+              "text": " to change different moments in your life?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "noises",
-          "kk": "/noises/",
-          "partOfSpeech": "n.",
-          "meaning": "噪音",
-          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-15",
       "no": "15",
-      "titleZh": "第 15 段：日常生活",
-      "titleEn": "Part 15: everyday life",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
       "sentences": [
         {
-          "en": "Do you like listening to ASMR videos? If?",
-          "tc": "你喜歡聽 ASMR 影片嗎？如果？"
+          "en": "Do you think a song has the power to change someone's mood or emotions?",
+          "tc": "你覺得一首歌有力量改變某人的心情或情緒嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you think a song has the "
+            },
+            {
+              "type": "usage",
+              "text": "power",
+              "targetId": "usage-power-item",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-057-01"
+            },
+            {
+              "type": "text",
+              "text": " to change someone's mood or "
+            },
+            {
+              "type": "word",
+              "text": "emotions",
+              "targetId": "word-emotion",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-057-02"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         },
         {
-          "en": "I enjoy listening to the chatter, the chatter between different people in the background. Noises like people talking or people walking make me feel very at ease like there are more people.",
-          "tc": "我喜歡聽聊天，背景中不同人之間的聊天。人們說話或走路的聲音讓我覺得很安心，就像人變多了一樣。"
+          "en": "When I'm feeling sad or down, I put on sad songs.",
+          "tc": "當我覺得難過或沮喪時，我會播放悲傷的歌。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When I'm feeling sad or "
+            },
+            {
+              "type": "usage",
+              "text": "down",
+              "targetId": "usage-down-item",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-058-01"
+            },
+            {
+              "type": "text",
+              "text": ", I "
+            },
+            {
+              "type": "phrase",
+              "text": "put on",
+              "targetId": "phrase-put-on",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-058-02"
+            },
+            {
+              "type": "text",
+              "text": " sad songs."
+            }
+          ]
         },
         {
-          "en": "Around. Background noises like people talking, children laughing or playing. But background noises can also be annoying. Background noises like traffic. Can really get on my nerves. If something gets on your.",
-          "tc": "大約。背景噪音，例如人們說話、孩子們大笑或玩耍。但背景噪音也可能令人困擾。交通噪音等背景噪音。真的會讓我心煩意亂。如果有東西沾到你身上。"
+          "en": "I feel even more sad and down.",
+          "tc": "我會覺得更加難過和沮喪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I feel even more sad and "
+            },
+            {
+              "type": "usage",
+              "text": "down",
+              "targetId": "usage-down-item",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-059-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "They really annoy you. But things like traffic jams get on my nerves. Some alarm clocks even.",
-          "tc": "他們真的很煩你。但交通堵塞之類的事情卻讓我心煩意亂。甚至還有一些鬧鐘。"
+          "en": "But sometimes a happy song will unintentionally play as I'm feeling sad, and I will instantly feel happy after feeling very sad.",
+          "tc": "但有時候，當我覺得難過時，一首快樂的歌會無意間播放，然後我在非常難過之後會立刻覺得開心。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But sometimes a happy song will "
+            },
+            {
+              "type": "word",
+              "text": "unintentionally",
+              "targetId": "word-unintentionally",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-060-01"
+            },
+            {
+              "type": "text",
+              "text": " play as I'm feeling sad, and I will "
+            },
+            {
+              "type": "word",
+              "text": "instantly",
+              "targetId": "word-instantly",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-060-02"
+            },
+            {
+              "type": "text",
+              "text": " feel happy after feeling very sad."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "noises",
-          "kk": "/noises/",
-          "partOfSpeech": "n.",
-          "meaning": "噪音",
-          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "people",
-          "kk": "/people/",
-          "partOfSpeech": "n.",
-          "meaning": "人們",
-          "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-16",
       "no": "16",
-      "titleZh": "第 16 段：日常生活",
-      "titleEn": "Part 16: everyday life",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
       "sentences": [
         {
-          "en": "They go off.",
-          "tc": "他們走了。"
+          "en": "So, I think that music can definitely affect my mood and my emotions.",
+          "tc": "所以，我覺得音樂絕對會影響我的心情和情緒。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I think that music can "
+            },
+            {
+              "type": "word",
+              "text": "definitely",
+              "targetId": "word-definitely",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-061-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "affect",
+              "targetId": "word-affect",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-061-02"
+            },
+            {
+              "type": "text",
+              "text": " my mood and my "
+            },
+            {
+              "type": "word",
+              "text": "emotions",
+              "targetId": "word-emotion",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-061-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "They are so loud and some people have very obnoxious alarm clocks. It's not a good way to wake up after sleeping for so long.",
-          "tc": "它們非常吵鬧，有些人的鬧鐘非常令人討厭。睡了這麼久，醒來可不是什麼好辦法。"
+          "en": "I think sounds and noises can, too.",
+          "tc": "我覺得聲音和噪音也可以。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think sounds and "
+            },
+            {
+              "type": "word",
+              "text": "noises",
+              "targetId": "word-noise",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-062-01"
+            },
+            {
+              "type": "text",
+              "text": " can, too."
+            }
+          ]
         },
         {
-          "en": "If you sleep with someone who is snoring, a person who snores is really frustrating because it makes it really difficult to fall asleep. At least for me, I can't fall asleep.",
-          "tc": "如果你和打鼾的人一起睡覺，打鼾的人真的很令人沮喪，因為這會讓你很難入睡。至少對我來說，我無法入睡。"
+          "en": "If I'm listening to traffic or people yelling all day long, I will definitely feel more stressed and irritated.",
+          "tc": "如果我一整天都在聽車流聲或人們大喊，我肯定會一整天覺得更有壓力、更煩躁。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If I'm listening to "
+            },
+            {
+              "type": "word",
+              "text": "traffic",
+              "targetId": "word-traffic",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-063-01"
+            },
+            {
+              "type": "text",
+              "text": " or people "
+            },
+            {
+              "type": "word",
+              "text": "yelling",
+              "targetId": "word-yell",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-063-02"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "all day long",
+              "targetId": "phrase-all-day-long",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-063-03"
+            },
+            {
+              "type": "text",
+              "text": ", I will "
+            },
+            {
+              "type": "word",
+              "text": "definitely",
+              "targetId": "word-definitely",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-063-04"
+            },
+            {
+              "type": "text",
+              "text": " feel more "
+            },
+            {
+              "type": "word",
+              "text": "stressed",
+              "targetId": "word-stress",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-063-05"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "irritated",
+              "targetId": "word-irritate",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-063-06"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Next to a snorer.",
-          "tc": "旁邊有一個打呼的人。"
+          "en": "Whenever I listen to white noise or ASMR, I feel a lot more relaxed.",
+          "tc": "每當我聽白噪音或 ASMR 時，我會覺得放鬆很多。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Whenever I listen to "
+            },
+            {
+              "type": "phrase",
+              "text": "white noise",
+              "targetId": "phrase-white-noise",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-064-01"
+            },
+            {
+              "type": "text",
+              "text": " or "
+            },
+            {
+              "type": "word",
+              "text": "ASMR",
+              "targetId": "word-asmr",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-064-02"
+            },
+            {
+              "type": "text",
+              "text": ", I feel a lot more "
+            },
+            {
+              "type": "word",
+              "text": "relaxed",
+              "targetId": "word-relaxed",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-064-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
         {
-          "english": "people",
-          "kk": "/people/",
-          "partOfSpeech": "n.",
-          "meaning": "人們",
-          "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "It's easier to fall asleep when listening to white noise.",
+          "tc": "聽著白噪音時比較容易入睡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's easier to "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-065-01"
+            },
+            {
+              "type": "text",
+              "text": " when listening to "
+            },
+            {
+              "type": "phrase",
+              "text": "white noise",
+              "targetId": "phrase-white-noise",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-065-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "english": "asleep",
-          "kk": "/asleep/",
-          "partOfSpeech": "n.",
-          "meaning": "睡著了",
-          "note": "看到 asleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "White noise like fans, TV static, or the hum of the air conditioning.",
+          "tc": "像電風扇、電視雜訊或空調嗡嗡聲這樣的白噪音。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "White noise",
+              "targetId": "phrase-white-noise",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-066-01"
+            },
+            {
+              "type": "text",
+              "text": " like fans, TV "
+            },
+            {
+              "type": "word",
+              "text": "static",
+              "targetId": "word-static",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-066-02"
+            },
+            {
+              "type": "text",
+              "text": ", or the "
+            },
+            {
+              "type": "word",
+              "text": "hum",
+              "targetId": "word-hum",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-066-03"
+            },
+            {
+              "type": "text",
+              "text": " of the "
+            },
+            {
+              "type": "phrase",
+              "text": "air conditioning",
+              "targetId": "phrase-air-conditioning",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-066-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "How do you feel about white noise?",
+          "tc": "你對白噪音有什麼感覺？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How do you feel about "
+            },
+            {
+              "type": "phrase",
+              "text": "white noise",
+              "targetId": "phrase-white-noise",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-067-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Does it help you fall asleep?",
+          "tc": "它會幫助你入睡嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Does it help you "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-068-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "I don't use ASMR to fall asleep.",
+          "tc": "我不會用 ASMR 來入睡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't use "
+            },
+            {
+              "type": "word",
+              "text": "ASMR",
+              "targetId": "word-asmr",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-069-01"
+            },
+            {
+              "type": "text",
+              "text": " to "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-069-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "However, I like watching ASMR eating videos.",
+          "tc": "不過，我喜歡看 ASMR 吃東西的影片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "However, I like watching "
+            },
+            {
+              "type": "word",
+              "text": "ASMR",
+              "targetId": "word-asmr",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-070-01"
+            },
+            {
+              "type": "text",
+              "text": " eating videos."
+            }
+          ]
+        },
+        {
+          "en": "They always make me feel hungry afterward.",
+          "tc": "它們總是在之後讓我覺得餓。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They always make me feel hungry "
+            },
+            {
+              "type": "word",
+              "text": "afterward",
+              "targetId": "word-afterward",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-071-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "And I really enjoy hearing the chewing noises.",
+          "tc": "我也真的很喜歡聽咀嚼的噪音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And I really enjoy hearing the "
+            },
+            {
+              "type": "word",
+              "text": "chewing",
+              "targetId": "word-chew",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-072-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "noises",
+              "targetId": "word-noise",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-072-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "Even if that sounds weird to some people, I really like it.",
+          "tc": "即使有些人覺得那聽起來很奇怪，我還是很喜歡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Even if that sounds weird to some people, I really like it."
+            }
+          ]
+        },
+        {
+          "en": "Do you like listening to ASMR videos?",
+          "tc": "你喜歡聽 ASMR 影片嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you like listening to "
+            },
+            {
+              "type": "word",
+              "text": "ASMR",
+              "targetId": "word-asmr",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-074-01"
+            },
+            {
+              "type": "text",
+              "text": " videos?"
+            }
+          ]
+        },
+        {
+          "en": "If so, what do you like using them for: for eating, for sleeping, or just for relaxing and for fun?",
+          "tc": "如果喜歡，你喜歡用它們來做什麼：吃東西、睡覺，還是只是放鬆和好玩？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If so, what do you like using them for: for eating, for sleeping, or just for relaxing and for fun?"
+            }
+          ]
+        },
+        {
+          "en": "Even in a big city, I enjoy listening to the chatter, the chatter between different people in the background.",
+          "tc": "即使在大城市裡，我也喜歡聽人們的閒聊聲，不同人在背景中的閒聊聲。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Even in a big city, I enjoy listening to the "
+            },
+            {
+              "type": "word",
+              "text": "chatter",
+              "targetId": "word-chatter",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-076-01"
+            },
+            {
+              "type": "text",
+              "text": ", the "
+            },
+            {
+              "type": "word",
+              "text": "chatter",
+              "targetId": "word-chatter",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-076-02"
+            },
+            {
+              "type": "text",
+              "text": " between different people in the "
+            },
+            {
+              "type": "word",
+              "text": "background",
+              "targetId": "word-background",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-076-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "Background noises like people talking or people walking make me feel very at ease, like there are more people around.",
+          "tc": "像人們說話或走路這樣的背景噪音，會讓我覺得很安心，好像周圍有更多人。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Background",
+              "targetId": "word-background",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-077-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "noises",
+              "targetId": "word-noise",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-077-02"
+            },
+            {
+              "type": "text",
+              "text": " like people talking or people walking make me feel very "
+            },
+            {
+              "type": "phrase",
+              "text": "at ease",
+              "targetId": "phrase-at-ease",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-077-03"
+            },
+            {
+              "type": "text",
+              "text": ", like there are more people around."
+            }
+          ]
+        },
+        {
+          "en": "Background noises like people talking, children laughing, or playing.",
+          "tc": "像人們說話、孩子們笑或玩耍這樣的背景噪音。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Background",
+              "targetId": "word-background",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-078-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "noises",
+              "targetId": "word-noise",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-078-02"
+            },
+            {
+              "type": "text",
+              "text": " like people talking, children laughing, or playing."
+            }
+          ]
+        },
+        {
+          "en": "But background noises can also be annoying.",
+          "tc": "但背景噪音也可能很煩人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But "
+            },
+            {
+              "type": "word",
+              "text": "background",
+              "targetId": "word-background",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-079-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "noises",
+              "targetId": "word-noise",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-079-02"
+            },
+            {
+              "type": "text",
+              "text": " can also be "
+            },
+            {
+              "type": "word",
+              "text": "annoying",
+              "targetId": "word-annoy",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-079-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Background noises like traffic.",
+          "tc": "像交通聲這樣的背景噪音。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Background",
+              "targetId": "word-background",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-080-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "noises",
+              "targetId": "word-noise",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-080-02"
+            },
+            {
+              "type": "text",
+              "text": " like "
+            },
+            {
+              "type": "word",
+              "text": "traffic",
+              "targetId": "word-traffic",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-080-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "Traffic can really get on my nerves.",
+          "tc": "交通聲真的會惹毛我。",
+          "englishTokens": [
+            {
+              "type": "word",
+              "text": "Traffic",
+              "targetId": "word-traffic",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-081-01"
+            },
+            {
+              "type": "text",
+              "text": " can really "
+            },
+            {
+              "type": "phrase",
+              "text": "get on my nerves",
+              "targetId": "phrase-get-on-one-s-nerves",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-081-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "If something gets on your nerves, then it really annoys you.",
+          "tc": "如果某件事 gets on your nerves，那它就真的很惹你煩。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If something "
+            },
+            {
+              "type": "phrase",
+              "text": "gets on your nerves",
+              "targetId": "phrase-get-on-one-s-nerves",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-082-01"
+            },
+            {
+              "type": "text",
+              "text": ", then it really "
+            },
+            {
+              "type": "word",
+              "text": "annoys",
+              "targetId": "word-annoy",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-082-02"
+            },
+            {
+              "type": "text",
+              "text": " you."
+            }
+          ]
+        },
+        {
+          "en": "But things like traffic jams get on my nerves.",
+          "tc": "但像交通堵塞這樣的事情會惹毛我。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But things like "
+            },
+            {
+              "type": "phrase",
+              "text": "traffic jams",
+              "targetId": "phrase-traffic-jam",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-083-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "get on my nerves",
+              "targetId": "phrase-get-on-one-s-nerves",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-083-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Some alarm clocks, when they go off in the morning, are so loud, and some people have very obnoxious alarm clocks.",
+          "tc": "有些鬧鐘早上響起來時非常大聲，而且有些人的鬧鐘非常討厭。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Some alarm clocks, when they "
+            },
+            {
+              "type": "phrase",
+              "text": "go off",
+              "targetId": "phrase-go-off",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-084-01"
+            },
+            {
+              "type": "text",
+              "text": " in the morning, are so loud, and some people have very "
+            },
+            {
+              "type": "word",
+              "text": "obnoxious",
+              "targetId": "word-obnoxious",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-084-02"
+            },
+            {
+              "type": "text",
+              "text": " alarm clocks."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "It's not a good way to wake up after sleeping for so long.",
+          "tc": "睡了這麼久之後，這不是一個醒來的好方式。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's not a good way to "
+            },
+            {
+              "type": "phrase",
+              "text": "wake up",
+              "targetId": "phrase-wake-up",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-085-01"
+            },
+            {
+              "type": "text",
+              "text": " after sleeping for so long."
+            }
+          ]
+        },
+        {
+          "en": "And if you sleep with someone who is snoring, a person who snores is really frustrating because it makes it really difficult to fall asleep.",
+          "tc": "如果你和一個正在打呼的人一起睡，打呼的人真的很令人沮喪，因為那會讓入睡變得非常困難。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And if you sleep with someone who is "
+            },
+            {
+              "type": "word",
+              "text": "snoring",
+              "targetId": "word-snore",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-086-01"
+            },
+            {
+              "type": "text",
+              "text": ", a person who "
+            },
+            {
+              "type": "word",
+              "text": "snores",
+              "targetId": "word-snore",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-086-02"
+            },
+            {
+              "type": "text",
+              "text": " is really "
+            },
+            {
+              "type": "word",
+              "text": "frustrating",
+              "targetId": "word-frustrating",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-086-03"
+            },
+            {
+              "type": "text",
+              "text": " because it makes it really difficult to "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-086-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "At least for me, I can't fall asleep next to a snorer.",
+          "tc": "至少對我來說，我無法在打呼的人旁邊睡著。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "At least for me, I can't "
+            },
+            {
+              "type": "phrase",
+              "text": "fall asleep",
+              "targetId": "phrase-fall-asleep",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-087-01"
+            },
+            {
+              "type": "text",
+              "text": " next to a "
+            },
+            {
+              "type": "word",
+              "text": "snorer",
+              "targetId": "word-snorer",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-087-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I'm not a snorer.",
+          "tc": "我不是會打呼的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm not a "
+            },
+            {
+              "type": "word",
+              "text": "snorer",
+              "targetId": "word-snorer",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-088-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-23",
+      "no": "23",
+      "titleZh": "第 23 段",
+      "titleEn": "Part 23",
+      "sentences": [
+        {
+          "en": "At least I think I'm not a snorer.",
+          "tc": "至少我覺得我不是會打呼的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "At least I think I'm not a "
+            },
+            {
+              "type": "word",
+              "text": "snorer",
+              "targetId": "word-snorer",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-089-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Are you a snorer?",
+          "tc": "你是會打呼的人嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Are you a "
+            },
+            {
+              "type": "word",
+              "text": "snorer",
+              "targetId": "word-snorer",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-090-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "en": "Do you use really obnoxious alarm clocks in the morning?",
+          "tc": "你早上會使用很討厭的鬧鐘嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you use really "
+            },
+            {
+              "type": "word",
+              "text": "obnoxious",
+              "targetId": "word-obnoxious",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-091-01"
+            },
+            {
+              "type": "text",
+              "text": " alarm clocks in the morning?"
+            }
+          ]
+        },
+        {
+          "en": "If so, why?",
+          "tc": "如果會，為什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If so, why?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-24",
+      "no": "24",
+      "titleZh": "第 24 段",
+      "titleEn": "Part 24",
+      "sentences": [
+        {
+          "en": "How do you justify annoying alarm clocks?",
+          "tc": "你怎麼為惱人的鬧鐘找理由？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "How do you "
+            },
+            {
+              "type": "word",
+              "text": "justify",
+              "targetId": "word-justify",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-093-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "annoying",
+              "targetId": "word-annoy",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-093-02"
+            },
+            {
+              "type": "text",
+              "text": " alarm clocks?"
+            }
+          ]
+        },
+        {
+          "en": "Do you know anyone who uses obnoxious alarm clocks?",
+          "tc": "你認識任何使用討厭鬧鐘的人嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you know anyone who uses "
+            },
+            {
+              "type": "word",
+              "text": "obnoxious",
+              "targetId": "word-obnoxious",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-094-01"
+            },
+            {
+              "type": "text",
+              "text": " alarm clocks?"
+            }
+          ]
+        },
+        {
+          "en": "I think it's very important to be surrounded by peaceful and pleasant sounds.",
+          "tc": "我覺得被平靜、悅耳的聲音包圍非常重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think it's very important to be "
+            },
+            {
+              "type": "phrase",
+              "text": "surrounded by",
+              "targetId": "phrase-surrounded-by",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-095-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "peaceful",
+              "targetId": "word-peaceful",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-095-02"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "pleasant",
+              "targetId": "word-pleasant",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-095-03"
+            },
+            {
+              "type": "text",
+              "text": " sounds."
+            }
+          ]
+        },
+        {
+          "en": "What do you think?",
+          "tc": "你覺得呢？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you think?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-25",
+      "no": "25",
+      "titleZh": "第 25 段",
+      "titleEn": "Part 25",
+      "sentences": [
+        {
+          "en": "Thank you for listening to my slow English podcast.",
+          "tc": "謝謝你收聽我的慢速英語 podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Thank you for listening to my slow English "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-097-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "Like this video for more calming sounds like these.",
+          "tc": "按讚這支影片，收聽更多像這樣讓人平靜的聲音。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Like this video for more "
+            },
+            {
+              "type": "word",
+              "text": "calming",
+              "targetId": "word-calm",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-098-01"
+            },
+            {
+              "type": "text",
+              "text": " sounds like these."
+            }
+          ]
+        },
+        {
+          "en": "Don't forget to like and subscribe for more slow English.",
+          "tc": "別忘了按讚並訂閱，收看更多慢速英語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Don't forget to like and "
+            },
+            {
+              "type": "word",
+              "text": "subscribe",
+              "targetId": "word-subscribe",
+              "instanceId": "marker-b1-ch8-learn-slow-english-asmr-intermediate-b1-talking-about-sounds-and-noises-comprehensible-input-099-01"
+            },
+            {
+              "type": "text",
+              "text": " for more slow English."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -754,153 +3017,1123 @@
       "title": "B1 重點單字",
       "items": [
         {
-          "english": "sounds",
-          "kk": "/sounds/",
-          "partOfSpeech": "n.",
-          "meaning": "聲音",
-          "note": "看到 sounds 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "/ˈpɑdˌkæst/",
+          "partOfSpeech": "noun",
+          "meaning": "播客；網路音訊節目",
           "highlight": true
         },
         {
+          "id": "word-noise",
+          "lemma": "noise",
           "english": "noises",
-          "kk": "/noises/",
-          "partOfSpeech": "n.",
-          "meaning": "噪音",
-          "note": "看到 noises 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "kk": "/nɔɪz/",
+          "partOfSpeech": "noun",
+          "meaning": "噪音；聲響",
           "highlight": true
         },
         {
-          "english": "feel",
-          "kk": "/feel/",
-          "partOfSpeech": "v.",
-          "meaning": "感覺",
-          "note": "看到 feel 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-specific",
+          "lemma": "specific",
+          "english": "specific",
+          "kk": "/spəˈsɪfɪk/",
+          "partOfSpeech": "adjective",
+          "meaning": "特定的；明確的",
           "highlight": true
         },
         {
-          "english": "hear",
-          "kk": "/hear/",
-          "partOfSpeech": "n.",
-          "meaning": "聽到",
-          "note": "看到 hear 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-irritate",
+          "lemma": "irritate",
+          "english": "irritate; irritated",
+          "kk": "/ˈɪrəˌtet/",
+          "partOfSpeech": "verb/adjective",
+          "meaning": "惹惱；使煩躁；感到煩躁的",
+          "highlight": true
         },
         {
-          "english": "people",
-          "kk": "/people/",
-          "partOfSpeech": "n.",
-          "meaning": "人們",
-          "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-joyful",
+          "lemma": "joyful",
+          "english": "joyful",
+          "kk": "/ˈdʒɔɪfəl/",
+          "partOfSpeech": "adjective",
+          "meaning": "愉快的；喜悅的",
+          "highlight": true
         },
         {
-          "english": "certain",
-          "kk": "/certain/",
-          "partOfSpeech": "n.",
-          "meaning": "肯定",
-          "note": "看到 certain 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-peaceful",
+          "lemma": "peaceful",
+          "english": "peaceful",
+          "kk": "/ˈpisfəl/",
+          "partOfSpeech": "adjective",
+          "meaning": "平靜的；安寧的",
+          "highlight": true
         },
         {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-soothing",
+          "lemma": "soothing",
+          "english": "Soothing; soothing",
+          "kk": "/ˈsuðɪŋ/",
+          "partOfSpeech": "adjective",
+          "meaning": "舒緩的；讓人放鬆的",
+          "highlight": true
         },
         {
-          "english": "asleep",
-          "kk": "/asleep/",
-          "partOfSpeech": "n.",
-          "meaning": "睡著了",
-          "note": "看到 asleep 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-calm",
+          "lemma": "calm",
+          "english": "calm; calming",
+          "kk": "/kɑm/",
+          "partOfSpeech": "adjective",
+          "meaning": "平靜的；使人平靜的",
+          "highlight": true
+        },
+        {
+          "id": "word-gentle",
+          "lemma": "gentle",
+          "english": "gentle",
+          "kk": "/ˈdʒɛntəl/",
+          "partOfSpeech": "adjective",
+          "meaning": "溫柔的；輕柔的",
+          "highlight": true
+        },
+        {
+          "id": "word-tin",
+          "lemma": "tin",
+          "english": "tin",
+          "kk": "/tɪn/",
+          "partOfSpeech": "noun/adjective",
+          "meaning": "錫；鐵皮的",
+          "highlight": true
+        },
+        {
+          "id": "word-shore",
+          "lemma": "shore",
+          "english": "shore",
+          "kk": "/ʃɔr/",
+          "partOfSpeech": "noun",
+          "meaning": "岸邊；海岸",
+          "highlight": true
+        },
+        {
+          "id": "word-underwater",
+          "lemma": "underwater",
+          "english": "underwater",
+          "kk": "/ˌʌndɚˈwɔtɚ/",
+          "partOfSpeech": "adjective/adverb",
+          "meaning": "在水下的；在水下",
+          "highlight": true
+        },
+        {
+          "id": "word-crackle",
+          "lemma": "crackle",
+          "english": "crackling",
+          "kk": "/ˈkrækəl/",
+          "partOfSpeech": "adjective/noun",
+          "meaning": "劈啪作響的",
+          "highlight": true
+        },
+        {
+          "id": "word-coral",
+          "lemma": "coral",
+          "english": "corals",
+          "kk": "/ˈkɔrəl/",
+          "partOfSpeech": "noun",
+          "meaning": "珊瑚",
+          "highlight": true
+        },
+        {
+          "id": "word-bubble",
+          "lemma": "bubble",
+          "english": "bubbles",
+          "kk": "/ˈbʌbəl/",
+          "partOfSpeech": "noun",
+          "meaning": "氣泡",
+          "highlight": true
+        },
+        {
+          "id": "word-pop",
+          "lemma": "pop",
+          "english": "popping",
+          "kk": "/pɑp/",
+          "partOfSpeech": "verb",
+          "meaning": "爆開；啪地一聲響",
+          "highlight": true
+        },
+        {
+          "id": "word-breeze",
+          "lemma": "breeze",
+          "english": "breeze",
+          "kk": "/briz/",
+          "partOfSpeech": "noun",
+          "meaning": "微風",
+          "highlight": true
+        },
+        {
+          "id": "word-windy",
+          "lemma": "windy",
+          "english": "windy",
+          "kk": "/ˈwɪndi/",
+          "partOfSpeech": "adjective",
+          "meaning": "有風的",
+          "highlight": true
+        },
+        {
+          "id": "word-chill",
+          "lemma": "chill",
+          "english": "chills",
+          "kk": "/tʃɪl/",
+          "partOfSpeech": "noun",
+          "meaning": "寒顫；發冷的感覺",
+          "highlight": true
+        },
+        {
+          "id": "word-whoosh",
+          "lemma": "whoosh",
+          "english": "whooshes",
+          "kk": "/wʊʃ/",
+          "partOfSpeech": "verb/noun",
+          "meaning": "呼呼作響；呼的一聲",
+          "highlight": true
+        },
+        {
+          "id": "word-sway",
+          "lemma": "sway",
+          "english": "sways; sway",
+          "kk": "/swe/",
+          "partOfSpeech": "verb",
+          "meaning": "搖擺；搖動",
+          "highlight": true
+        },
+        {
+          "id": "word-chirp",
+          "lemma": "chirp",
+          "english": "chirping",
+          "kk": "/tʃɝp/",
+          "partOfSpeech": "verb",
+          "meaning": "鳥啁啾叫",
+          "highlight": true
+        },
+        {
+          "id": "word-dangle",
+          "lemma": "dangle",
+          "english": "dangling",
+          "kk": "/ˈdæŋɡəl/",
+          "partOfSpeech": "verb",
+          "meaning": "懸掛；搖晃",
+          "highlight": true
+        },
+        {
+          "id": "word-harmonious",
+          "lemma": "harmonious",
+          "english": "harmonious",
+          "kk": "/hɑrˈmoniəs/",
+          "partOfSpeech": "adjective",
+          "meaning": "和諧的",
+          "highlight": true
+        },
+        {
+          "id": "word-nature",
+          "lemma": "nature",
+          "english": "nature",
+          "kk": "/ˈnetʃɚ/",
+          "partOfSpeech": "noun",
+          "meaning": "大自然",
+          "highlight": true
+        },
+        {
+          "id": "word-hammock",
+          "lemma": "hammock",
+          "english": "hammock",
+          "kk": "/ˈhæmək/",
+          "partOfSpeech": "noun",
+          "meaning": "吊床",
+          "highlight": true
+        },
+        {
+          "id": "word-trickle",
+          "lemma": "trickle",
+          "english": "trickling",
+          "kk": "/ˈtrɪkəl/",
+          "partOfSpeech": "adjective/verb",
+          "meaning": "潺潺流動的；滴流的",
+          "highlight": true
+        },
+        {
+          "id": "word-goosebump",
+          "lemma": "goosebump",
+          "english": "goosebumps",
+          "kk": "/ˈɡusˌbʌmps/",
+          "partOfSpeech": "noun",
+          "meaning": "雞皮疙瘩",
+          "highlight": true
+        },
+        {
+          "id": "word-spine",
+          "lemma": "spine",
+          "english": "spine",
+          "kk": "/spaɪn/",
+          "partOfSpeech": "noun",
+          "meaning": "脊椎；背脊",
+          "highlight": true
+        },
+        {
+          "id": "word-subtle",
+          "lemma": "subtle",
+          "english": "Subtle; subtle",
+          "kk": "/ˈsʌtəl/",
+          "partOfSpeech": "adjective",
+          "meaning": "細微的；不明顯的",
+          "highlight": true
+        },
+        {
+          "id": "word-noticeable",
+          "lemma": "noticeable",
+          "english": "noticeable",
+          "kk": "/ˈnotɪsəbəl/",
+          "partOfSpeech": "adjective",
+          "meaning": "明顯的；容易注意到的",
+          "highlight": true
+        },
+        {
+          "id": "word-whistle",
+          "lemma": "whistle",
+          "english": "whistles; whistle",
+          "kk": "/ˈhwɪsəl/",
+          "partOfSpeech": "noun",
+          "meaning": "哨子；哨聲",
+          "highlight": true
+        },
+        {
+          "id": "word-vendor",
+          "lemma": "vendor",
+          "english": "vendors; vendor",
+          "kk": "/ˈvɛndɚ/",
+          "partOfSpeech": "noun",
+          "meaning": "小販；攤販",
+          "highlight": true
+        },
+        {
+          "id": "word-camote",
+          "lemma": "camote",
+          "english": "camotes",
+          "kk": "/kɑˈmoʊteɪz/",
+          "partOfSpeech": "noun",
+          "meaning": "墨西哥甜地瓜",
+          "highlight": true
+        },
+        {
+          "id": "word-treat",
+          "lemma": "treat",
+          "english": "treat",
+          "kk": "/trit/",
+          "partOfSpeech": "noun",
+          "meaning": "甜點；特別好吃的東西",
+          "highlight": true
+        },
+        {
+          "id": "word-collector",
+          "lemma": "collector",
+          "english": "collectors",
+          "kk": "/kəˈlɛktɚ/",
+          "partOfSpeech": "noun",
+          "meaning": "收集者；清運人員",
+          "highlight": true
+        },
+        {
+          "id": "word-trash",
+          "lemma": "trash",
+          "english": "trash",
+          "kk": "/træʃ/",
+          "partOfSpeech": "noun",
+          "meaning": "垃圾",
+          "highlight": true
+        },
+        {
+          "id": "word-nostalgic",
+          "lemma": "nostalgic",
+          "english": "nostalgic; Nostalgic",
+          "kk": "/nɑˈstældʒɪk/",
+          "partOfSpeech": "adjective",
+          "meaning": "懷舊的；念舊的",
+          "highlight": true
+        },
+        {
+          "id": "word-necessarily",
+          "lemma": "necessarily",
+          "english": "necessarily",
+          "kk": "/ˌnɛsəˈsɛrəli/",
+          "partOfSpeech": "adverb",
+          "meaning": "必然地；一定地",
+          "highlight": true
+        },
+        {
+          "id": "word-longing",
+          "lemma": "longing",
+          "english": "longing",
+          "kk": "/ˈlɔŋɪŋ/",
+          "partOfSpeech": "noun",
+          "meaning": "渴望；嚮往",
+          "highlight": true
+        },
+        {
+          "id": "word-artist",
+          "lemma": "artist",
+          "english": "artists",
+          "kk": "/ˈɑrtɪst/",
+          "partOfSpeech": "noun",
+          "meaning": "藝人；藝術家",
+          "highlight": true
+        },
+        {
+          "id": "word-emotion",
+          "lemma": "emotion",
+          "english": "emotions",
+          "kk": "/ɪˈmoʃənz/",
+          "partOfSpeech": "noun",
+          "meaning": "情緒",
+          "highlight": true
+        },
+        {
+          "id": "word-unintentionally",
+          "lemma": "unintentionally",
+          "english": "unintentionally",
+          "kk": "/ˌʌnɪnˈtɛnʃənəli/",
+          "partOfSpeech": "adverb",
+          "meaning": "無意地；非故意地",
+          "highlight": true
+        },
+        {
+          "id": "word-instantly",
+          "lemma": "instantly",
+          "english": "instantly",
+          "kk": "/ˈɪnstəntli/",
+          "partOfSpeech": "adverb",
+          "meaning": "立刻；馬上",
+          "highlight": true
+        },
+        {
+          "id": "word-definitely",
+          "lemma": "definitely",
+          "english": "definitely",
+          "kk": "/ˈdɛfənɪtli/",
+          "partOfSpeech": "adverb",
+          "meaning": "肯定地；絕對地",
+          "highlight": true
+        },
+        {
+          "id": "word-affect",
+          "lemma": "affect",
+          "english": "affect",
+          "kk": "/əˈfɛkt/",
+          "partOfSpeech": "verb",
+          "meaning": "影響",
+          "highlight": true
+        },
+        {
+          "id": "word-traffic",
+          "lemma": "traffic",
+          "english": "traffic; Traffic",
+          "kk": "/ˈtræfɪk/",
+          "partOfSpeech": "noun",
+          "meaning": "交通；車流",
+          "highlight": true
+        },
+        {
+          "id": "word-yell",
+          "lemma": "yell",
+          "english": "yelling",
+          "kk": "/jɛl/",
+          "partOfSpeech": "verb",
+          "meaning": "大喊；吼叫",
+          "highlight": true
+        },
+        {
+          "id": "word-stress",
+          "lemma": "stress",
+          "english": "stressed",
+          "kk": "/strɛst/",
+          "partOfSpeech": "adjective",
+          "meaning": "有壓力的；緊張的",
+          "highlight": true
+        },
+        {
+          "id": "word-asmr",
+          "lemma": "asmr",
+          "english": "ASMR",
+          "kk": "/ˌeɪ ɛs ɛm ˈɑr/",
+          "partOfSpeech": "abbreviation noun",
+          "meaning": "自發性知覺高潮反應；常指讓人放鬆的聲音影片",
+          "highlight": true
+        },
+        {
+          "id": "word-relaxed",
+          "lemma": "relaxed",
+          "english": "relaxed",
+          "kk": "/rɪˈlækst/",
+          "partOfSpeech": "adjective",
+          "meaning": "放鬆的",
+          "highlight": true
+        },
+        {
+          "id": "word-static",
+          "lemma": "static",
+          "english": "static",
+          "kk": "/ˈstætɪk/",
+          "partOfSpeech": "noun",
+          "meaning": "靜電雜訊；沙沙聲",
+          "highlight": true
+        },
+        {
+          "id": "word-hum",
+          "lemma": "hum",
+          "english": "hum",
+          "kk": "/hʌm/",
+          "partOfSpeech": "noun",
+          "meaning": "嗡嗡聲",
+          "highlight": true
+        },
+        {
+          "id": "word-afterward",
+          "lemma": "afterward",
+          "english": "afterward",
+          "kk": "/ˈæftɚwɚd/",
+          "partOfSpeech": "adverb",
+          "meaning": "之後；後來",
+          "highlight": true
+        },
+        {
+          "id": "word-chew",
+          "lemma": "chew",
+          "english": "chewing",
+          "kk": "/tʃu/",
+          "partOfSpeech": "adjective/noun",
+          "meaning": "咀嚼的；咀嚼聲",
+          "highlight": true
+        },
+        {
+          "id": "word-chatter",
+          "lemma": "chatter",
+          "english": "chatter",
+          "kk": "/ˈtʃætɚ/",
+          "partOfSpeech": "noun",
+          "meaning": "閒聊聲；嘰嘰喳喳聲",
+          "highlight": true
+        },
+        {
+          "id": "word-background",
+          "lemma": "background",
+          "english": "background; Background",
+          "kk": "/ˈbækˌɡraʊnd/",
+          "partOfSpeech": "noun/adjective",
+          "meaning": "背景；背景中的",
+          "highlight": true
+        },
+        {
+          "id": "word-annoy",
+          "lemma": "annoy",
+          "english": "annoying; annoys",
+          "kk": "/əˈnɔɪ/",
+          "partOfSpeech": "verb/adjective",
+          "meaning": "惹惱；煩人的",
+          "highlight": true
+        },
+        {
+          "id": "word-obnoxious",
+          "lemma": "obnoxious",
+          "english": "obnoxious",
+          "kk": "/əbˈnɑkʃəs/",
+          "partOfSpeech": "adjective",
+          "meaning": "令人討厭的；很煩人的",
+          "highlight": true
+        },
+        {
+          "id": "word-snore",
+          "lemma": "snore",
+          "english": "snoring; snores",
+          "kk": "/snɔr/",
+          "partOfSpeech": "verb",
+          "meaning": "打呼",
+          "highlight": true
+        },
+        {
+          "id": "word-frustrating",
+          "lemma": "frustrating",
+          "english": "frustrating",
+          "kk": "/ˈfrʌˌstretɪŋ/",
+          "partOfSpeech": "adjective",
+          "meaning": "令人沮喪的；令人挫折的",
+          "highlight": true
+        },
+        {
+          "id": "word-snorer",
+          "lemma": "snorer",
+          "english": "snorer",
+          "kk": "/ˈsnɔrɚ/",
+          "partOfSpeech": "noun",
+          "meaning": "會打呼的人",
+          "highlight": true
+        },
+        {
+          "id": "word-justify",
+          "lemma": "justify",
+          "english": "justify",
+          "kk": "/ˈdʒʌstəˌfaɪ/",
+          "partOfSpeech": "verb",
+          "meaning": "為某事提出理由；辯解",
+          "highlight": true
+        },
+        {
+          "id": "word-pleasant",
+          "lemma": "pleasant",
+          "english": "pleasant",
+          "kk": "/ˈplɛzənt/",
+          "partOfSpeech": "adjective",
+          "meaning": "令人愉快的；悅耳的",
+          "highlight": true
+        },
+        {
+          "id": "word-subscribe",
+          "lemma": "subscribe",
+          "english": "subscribe",
+          "kk": "/səbˈskraɪb/",
+          "partOfSpeech": "verb",
+          "meaning": "訂閱",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
-      "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "id": "phrase-certain-sounds",
+      "phrase": "certain sounds",
+      "meaning": "特定的一些聲音",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "I want to talk about certain sounds and noises.",
+          "tc": "特定的一些聲音"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "do you like",
-      "meaning": "你喜歡...嗎",
+      "id": "phrase-every-day",
+      "phrase": "every day",
+      "meaning": "每天",
       "examples": [
         {
-          "en": "Why do you like listening to it every single day?",
-          "tc": "為什麼每天都喜歡聽？"
+          "en": "Sounds that we hear every day.",
+          "tc": "每天"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-ruin-my-mood",
+      "phrase": "ruin my mood",
+      "meaning": "讓我的心情變差",
       "examples": [
         {
-          "en": "Today I want to talk about certain sounds and noises that.",
-          "tc": "今天我想談談某些聲音和噪音。"
+          "en": "They completely irritate me and ruin my mood.",
+          "tc": "讓我的心情變差"
         }
+      ]
+    },
+    {
+      "id": "phrase-back-and-forth",
+      "phrase": "back and forth",
+      "meaning": "來回地",
+      "examples": [
+        {
+          "en": "The trees sway back and forth.",
+          "tc": "來回地"
+        }
+      ]
+    },
+    {
+      "id": "phrase-wind-chimes",
+      "phrase": "wind chimes",
+      "meaning": "掛在風中會發出聲音的風鈴",
+      "examples": [
+        {
+          "en": "The wind chimes create soft music.",
+          "tc": "掛在風中會發出聲音的風鈴"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-a-nap",
+      "phrase": "take a nap",
+      "meaning": "小睡；打盹",
+      "examples": [
+        {
+          "en": "I love taking naps outside.",
+          "tc": "小睡；打盹"
+        }
+      ]
+    },
+    {
+      "id": "phrase-fall-asleep",
+      "phrase": "fall asleep",
+      "meaning": "入睡；睡著",
+      "examples": [
+        {
+          "en": "Trying to fall asleep.",
+          "tc": "入睡；睡著"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-general",
+      "phrase": "in general",
+      "meaning": "大致上；通常來說",
+      "examples": [
+        {
+          "en": "Any water sounds in general are very soothing.",
+          "tc": "大致上；通常來說"
+        }
+      ]
+    },
+    {
+      "id": "phrase-give-someone-goosebumps",
+      "phrase": "give someone goosebumps",
+      "meaning": "讓某人起雞皮疙瘩",
+      "examples": [
+        {
+          "en": "Some trickling water sounds give me goosebumps.",
+          "tc": "讓某人起雞皮疙瘩"
+        }
+      ]
+    },
+    {
+      "id": "phrase-give-someone-chills",
+      "phrase": "give someone chills",
+      "meaning": "讓某人發冷或起寒顫",
+      "examples": [
+        {
+          "en": "The trickling water gives me chills.",
+          "tc": "讓某人發冷或起寒顫"
+        }
+      ]
+    },
+    {
+      "id": "phrase-remind-someone-of",
+      "phrase": "remind someone of",
+      "meaning": "讓某人想起某人或某事",
+      "examples": [
+        {
+          "en": "They remind me of street vendors.",
+          "tc": "讓某人想起某人或某事"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-around",
+      "phrase": "go around",
+      "meaning": "到不同地方移動或巡迴",
+      "examples": [
+        {
+          "en": "Street vendors go around and sell things.",
+          "tc": "到不同地方移動或巡迴"
+        }
+      ]
+    },
+    {
+      "id": "phrase-come-around",
+      "phrase": "come around",
+      "meaning": "來到某處附近或巡迴到某地",
+      "examples": [
+        {
+          "en": "Every time he comes around, he blows a whistle.",
+          "tc": "來到某處附近或巡迴到某地"
+        }
+      ]
+    },
+    {
+      "id": "phrase-let-someone-know",
+      "phrase": "let someone know",
+      "meaning": "通知某人",
+      "examples": [
+        {
+          "en": "They ring a bell to let us know.",
+          "tc": "通知某人"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-our-garbage",
+      "phrase": "take our garbage",
+      "meaning": "收走垃圾",
+      "examples": [
+        {
+          "en": "They are coming to take our garbage.",
+          "tc": "收走垃圾"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-someone-back",
+      "phrase": "take someone back",
+      "meaning": "讓某人回想起過去",
+      "examples": [
+        {
+          "en": "The songs take me back to certain moments.",
+          "tc": "讓某人回想起過去"
+        }
+      ]
+    },
+    {
+      "id": "phrase-all-day-long",
+      "phrase": "all day long",
+      "meaning": "一整天",
+      "examples": [
+        {
+          "en": "All day long, I try to take the time to listen.",
+          "tc": "一整天"
+        }
+      ]
+    },
+    {
+      "id": "phrase-take-the-time",
+      "phrase": "take the time",
+      "meaning": "特地花時間做某事",
+      "examples": [
+        {
+          "en": "I try to take the time to listen.",
+          "tc": "特地花時間做某事"
+        }
+      ]
+    },
+    {
+      "id": "phrase-at-the-moment",
+      "phrase": "at the moment",
+      "meaning": "目前；現在",
+      "examples": [
+        {
+          "en": "What's your favorite song to listen to at the moment?",
+          "tc": "目前；現在"
+        }
+      ]
+    },
+    {
+      "id": "phrase-put-on",
+      "phrase": "put on",
+      "meaning": "播放音樂或影片",
+      "examples": [
+        {
+          "en": "I put on sad songs.",
+          "tc": "播放音樂或影片"
+        }
+      ]
+    },
+    {
+      "id": "phrase-white-noise",
+      "phrase": "white noise",
+      "meaning": "穩定、連續、可用來遮蓋其他聲音的背景聲",
+      "examples": [
+        {
+          "en": "Whenever I listen to white noise or ASMR.",
+          "tc": "穩定、連續、可用來遮蓋其他聲音的背景聲"
+        }
+      ]
+    },
+    {
+      "id": "phrase-air-conditioning",
+      "phrase": "air conditioning",
+      "meaning": "冷氣；空調系統",
+      "examples": [
+        {
+          "en": "The hum of the air conditioning.",
+          "tc": "冷氣；空調系統"
+        }
+      ]
+    },
+    {
+      "id": "phrase-at-ease",
+      "phrase": "at ease",
+      "meaning": "安心；自在；放鬆",
+      "examples": [
+        {
+          "en": "Background noises make me feel very at ease.",
+          "tc": "安心；自在；放鬆"
+        }
+      ]
+    },
+    {
+      "id": "phrase-get-on-one-s-nerves",
+      "phrase": "get on one's nerves",
+      "meaning": "讓某人很煩；惹惱某人",
+      "examples": [
+        {
+          "en": "Traffic can really get on my nerves.",
+          "tc": "讓某人很煩；惹惱某人"
+        }
+      ]
+    },
+    {
+      "id": "phrase-traffic-jam",
+      "phrase": "traffic jam",
+      "meaning": "塞車；交通堵塞",
+      "examples": [
+        {
+          "en": "Things like traffic jams get on my nerves.",
+          "tc": "塞車；交通堵塞"
+        }
+      ]
+    },
+    {
+      "id": "phrase-go-off",
+      "phrase": "go off",
+      "meaning": "鬧鐘響起",
+      "examples": [
+        {
+          "en": "Alarm clocks go off in the morning.",
+          "tc": "鬧鐘響起"
+        }
+      ]
+    },
+    {
+      "id": "phrase-wake-up",
+      "phrase": "wake up",
+      "meaning": "醒來；起床",
+      "examples": [
+        {
+          "en": "It's not a good way to wake up.",
+          "tc": "醒來；起床"
+        }
+      ]
+    },
+    {
+      "id": "phrase-surrounded-by",
+      "phrase": "surrounded by",
+      "meaning": "被某物包圍",
+      "examples": [
+        {
+          "en": "Be surrounded by peaceful and pleasant sounds.",
+          "tc": "被某物包圍"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-crash-item",
+      "word": "crash",
+      "familiarMeaning": "撞車；碰撞",
+      "usage": "用來描述海浪用力拍打岸邊，發出聲音",
+      "translation": "拍打；衝擊",
+      "examples": [
+        "The waves crashing onto the shore."
+      ]
+    },
+    {
+      "id": "usage-song-item",
+      "word": "song",
+      "familiarMeaning": "歌曲",
+      "usage": "比喻風和風鈴創造出的聲音像一首歌",
+      "translation": "像歌曲一樣的旋律或聲音",
+      "examples": [
+        "The wind can even create a new song."
+      ]
+    },
+    {
+      "id": "usage-power-item",
+      "word": "power",
+      "familiarMeaning": "力量；電力",
+      "usage": "抽象地表示影響或改變事情的能力",
+      "translation": "影響力；能力",
+      "examples": [
+        "A song has the power to change someone's mood."
+      ]
+    },
+    {
+      "id": "usage-down-item",
+      "word": "down",
+      "familiarMeaning": "向下；下面",
+      "usage": "形容人心情低落、難過",
+      "translation": "沮喪的；心情低落的",
+      "examples": [
+        "When I'm feeling sad or down."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "Today, I want to talk about certain sounds and noises that we hear every day.",
+      "translation": "今天，我想談談我們每天會聽到的某些聲音和噪音。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句 that",
+          "text": "noun + that + subject + verb",
+          "note": "that we hear every day 補充說明前面的 sounds and noises 是哪一種聲音。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Today I want to talk about certain sounds and noises that.",
-      "translation": "今天我想談談某些聲音和噪音。",
+      "id": "grammar-2",
+      "sentence": "There are certain sounds and specific noises that make me feel irritated.",
+      "translation": "有些特定的聲音和噪音會讓我覺得煩躁。",
       "points": [
         {
-          "label": "want to",
-          "text": "want to",
-          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "make + object + adjective/verb",
+          "text": "make + someone + feel/adjective",
+          "note": "make me feel irritated 表示某事造成我有某種感覺。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "We hear every day. There are certain sounds and specific noises that make me feel irritated.",
-      "translation": "我們每天都會聽到。有些聲音和特定的噪音會讓我感到惱火。",
+      "id": "grammar-3",
+      "sentence": "Or the sound of being underwater in the ocean, where you can hear the crackling corals.",
+      "translation": "或是在海裡水下的聲音，在那裡你可以聽到珊瑚發出的劈啪聲。",
       "points": [
         {
-          "label": "hear every day",
-          "text": "hear every day",
-          "note": "注意 \"hear every day\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "where 引導的關係副詞子句",
+          "text": "place + where + subject + verb",
+          "note": "where you can hear... 用來補充說明 in the ocean 這個地方會發生什麼。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "They completely irritate me and ruin my mood. Like my happy mood, maybe my joyful mood, maybe my peaceful mood. If.",
-      "translation": "他們完全激怒了我，破壞了我的心情。喜歡我快樂的心情，也許是我愉悅的心情，也許是我平靜的心情。如果。",
+      "id": "grammar-4",
+      "sentence": "I love taking naps outside.",
+      "translation": "我喜歡在外面小睡。",
       "points": [
         {
-          "label": "completely irritate ruin",
-          "text": "completely irritate ruin",
-          "note": "注意 \"completely irritate ruin\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "動名詞作受詞",
+          "text": "verb + V-ing",
+          "note": "love 後面接 taking，表示喜歡做小睡這件事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "The wind can even create a new song.",
+      "translation": "風甚至可以創造出一首新的歌。",
+      "points": [
+        {
+          "label": "情態助動詞 can/could",
+          "text": "can/could + base verb",
+          "note": "can create 表示有能力或可能創造；could be selling 表示可能正在賣。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "I can hear the birds chirping.",
+      "translation": "我可以聽到鳥兒啁啾。",
+      "points": [
+        {
+          "label": "感官動詞 + object + V-ing",
+          "text": "hear/listen to + object + V-ing",
+          "note": "hear the birds chirping 強調聽到鳥正在發出啁啾聲。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "You can hear all of these sounds while trying to fall asleep.",
+      "translation": "在你試著入睡時，可以聽到所有這些聲音。",
+      "points": [
+        {
+          "label": "while + V-ing",
+          "text": "while + V-ing phrase",
+          "note": "while trying to fall asleep 表示在試著入睡的同時。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "It's very peaceful to listen to water sounds.",
+      "translation": "聽水聲非常平靜。",
+      "points": [
+        {
+          "label": "It is + adjective + to V",
+          "text": "It + be + adjective + to + verb",
+          "note": "用 it 當形式主詞，真正要說明的是 to listen to water sounds 這件事。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-9",
+      "sentence": "I get goosebumps or chills if I hear something too close to my ear.",
+      "translation": "如果我聽到某個東西太靠近我的耳朵，我會起雞皮疙瘩或發冷。",
+      "points": [
+        {
+          "label": "if 條件子句",
+          "text": "main clause + if + subject + verb",
+          "note": "if 子句說明在什麼條件下會發生主句的結果。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-10",
+      "sentence": "When I'm feeling sad or down, I put on sad songs.",
+      "translation": "當我覺得難過或沮喪時，我會播放悲傷的歌。",
+      "points": [
+        {
+          "label": "when 時間副詞子句",
+          "text": "when + clause, main clause",
+          "note": "when 子句表示主句動作發生的時間或情境。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-11",
+      "sentence": "Do you think a song has the power to change someone's mood or emotions?",
+      "translation": "你覺得一首歌有力量改變某人的心情或情緒嗎？",
+      "points": [
+        {
+          "label": "名詞子句作 think 的受詞",
+          "text": "Do you think + subject + verb...?",
+          "note": "a song has the power... 是 think 的內容，也就是被詢問的想法。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-12",
+      "sentence": "I feel a lot more relaxed.",
+      "translation": "我覺得放鬆很多。",
+      "points": [
+        {
+          "label": "比較級 more",
+          "text": "more + adjective",
+          "note": "more relaxed 表示比原本更放鬆；a lot 用來加強程度。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-13",
+      "sentence": "They ring a bell to let us know that they are coming to take our garbage.",
+      "translation": "他們搖鈴是為了讓我們知道他們要來收垃圾了。",
+      "points": [
+        {
+          "label": "不定詞表示目的",
+          "text": "verb + to + base verb",
+          "note": "to let us know 說明他們搖鈴的目的。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-14",
+      "sentence": "And if you sleep with someone who is snoring, a person who snores is really frustrating.",
+      "translation": "如果你和一個正在打呼的人一起睡，打呼的人真的很令人沮喪。",
+      "points": [
+        {
+          "label": "who 關係子句",
+          "text": "person/someone + who + verb",
+          "note": "who is snoring 和 who snores 都是在補充說明前面的人。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-15",
+      "sentence": "I think it's very important to be surrounded by peaceful and pleasant sounds.",
+      "translation": "我覺得被平靜、悅耳的聲音包圍非常重要。",
+      "points": [
+        {
+          "label": "被動語態 be + past participle",
+          "text": "be + past participle + by",
+          "note": "be surrounded by 表示主詞被聲音包圍，而不是主詞主動去包圍別人。"
         }
       ]
     }

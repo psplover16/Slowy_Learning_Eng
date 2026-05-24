@@ -15,136 +15,413 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello, welcome back to my slow English podcast.",
+          "tc": "哈囉，歡迎回到我的慢速英語 podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello, welcome back to my slow English podcast."
+            }
+          ]
         },
         {
-          "en": "Today I want to talk to you about food.",
-          "tc": "今天我想和大家聊聊美食。"
+          "en": "Today, I want to talk to you about food: my favorite foods.",
+          "tc": "今天，我想跟你聊聊食物：我最喜歡的食物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today, I want to talk to you about food: my favorite foods."
+            }
+          ]
         },
         {
-          "en": "First of all I always enjoy sweets anything from cheesecake to candies to sweet bread.",
-          "tc": "首先，我總是喜歡甜食，從起司蛋糕到糖果到甜麵包。"
+          "en": "First of all, I always enjoy sweets.",
+          "tc": "首先，我總是很喜歡甜食。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "First of all",
+              "targetId": "phrase-first-of-all",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-003-01"
+            },
+            {
+              "type": "text",
+              "text": ", I always enjoy "
+            },
+            {
+              "type": "usage",
+              "text": "sweets",
+              "targetId": "usage-sweet-sweets",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-003-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I love it all but sweets are not very healthy for you.",
-          "tc": "我喜歡這一切，但甜食對你來說不太健康。"
+          "en": "Anything from cheesecake to candies to sweet bread, I love it all.",
+          "tc": "從起司蛋糕到糖果再到甜麵包，這些我全都愛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Anything from "
+            },
+            {
+              "type": "word",
+              "text": "cheesecake",
+              "targetId": "word-cheesecake",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-004-01"
+            },
+            {
+              "type": "text",
+              "text": " to candies to sweet bread, I love it all."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "food",
-          "kk": "/fud/",
-          "partOfSpeech": "n.",
-          "meaning": "食物",
-          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sweet",
-          "kk": "/swit/",
-          "partOfSpeech": "n.",
-          "meaning": "甜的",
-          "note": "看到 sweet 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sweets",
-          "kk": "/sweets/",
-          "partOfSpeech": "n.",
-          "meaning": "糖果",
-          "note": "看到 sweets 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：食物與用餐",
-      "titleEn": "Part 2: food",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I think it's worth it some people like salty food more than sweets.",
-          "tc": "我認為有些人比甜食更喜歡鹹食，這是值得的。"
+          "en": "But sweets are not very healthy for you.",
+          "tc": "不過甜食對你來說不是很健康。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But "
+            },
+            {
+              "type": "usage",
+              "text": "sweets",
+              "targetId": "usage-sweet-sweets",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-005-01"
+            },
+            {
+              "type": "text",
+              "text": " are not very "
+            },
+            {
+              "type": "word",
+              "text": "healthy",
+              "targetId": "word-healthy",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-005-02"
+            },
+            {
+              "type": "text",
+              "text": " for you."
+            }
+          ]
         },
         {
-          "en": "What do you like more salty Foods or sweet Foods?",
-          "tc": "你喜歡鹹的食物還是甜的食物？"
+          "en": "They have a lot of sugar.",
+          "tc": "它們含有很多糖。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They have a lot of sugar."
+            }
+          ]
         },
         {
-          "en": "I think people who like sweet foods are often very sweet.",
-          "tc": "我覺得喜歡吃甜食的人往往都是很甜的。"
+          "en": "Sugar makes you fat, but sugar is also very delicious, so I think it's worth it.",
+          "tc": "糖會讓你變胖，但糖也非常好吃，所以我覺得它很值得。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Sugar makes you fat, but sugar is also very delicious, so I think it's "
+            },
+            {
+              "type": "phrase",
+              "text": "worth it",
+              "targetId": "phrase-worth-it",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-007-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "We have lots of yummy foods that are spicy sweet salty sour bitter.",
-          "tc": "我們有很多美味的食物，有辣的、甜的、鹹的、酸的、苦的。"
+          "en": "Some people like salty food more than sweets.",
+          "tc": "有些人比起甜食更喜歡鹹的食物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Some people like "
+            },
+            {
+              "type": "word",
+              "text": "salty",
+              "targetId": "word-salty",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-008-01"
+            },
+            {
+              "type": "text",
+              "text": " food more than "
+            },
+            {
+              "type": "usage",
+              "text": "sweets",
+              "targetId": "usage-sweet-sweets",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-008-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "food",
-          "kk": "/fud/",
-          "partOfSpeech": "n.",
-          "meaning": "食物",
-          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "foods",
-          "kk": "/foods/",
-          "partOfSpeech": "n.",
-          "meaning": "食品",
-          "note": "看到 foods 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "sweet",
-          "kk": "/swit/",
-          "partOfSpeech": "n.",
-          "meaning": "甜的",
-          "note": "看到 sweet 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：食物與用餐",
-      "titleEn": "Part 3: food",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "We have them all Mexican food is very diverse.",
-          "tc": "我們有所有的墨西哥食物非常多樣化。"
+          "en": "What do you like more, salty foods or sweet foods?",
+          "tc": "你比較喜歡哪一種，鹹的食物還是甜的食物？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What do you like more, "
+            },
+            {
+              "type": "word",
+              "text": "salty",
+              "targetId": "word-salty",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-009-01"
+            },
+            {
+              "type": "text",
+              "text": " foods or sweet foods?"
+            }
+          ]
         },
         {
-          "en": "My favorite food is Japanese food I can't resist sushi rice anything with soy sauce is delicious for me.",
-          "tc": "我最喜歡的食物是日本菜，我無法抗拒壽司米飯，任何加醬油的東西對我來說都很美味。"
+          "en": "I think people who like sweet foods are always very sweet, but people who like salty foods usually are very direct and straightforward.",
+          "tc": "我覺得喜歡甜食的人總是很甜美，但喜歡鹹食的人通常很直接、很直率。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I think people who like sweet foods are always very sweet, but people who like "
+            },
+            {
+              "type": "word",
+              "text": "salty",
+              "targetId": "word-salty",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-010-01"
+            },
+            {
+              "type": "text",
+              "text": " foods usually are very direct and "
+            },
+            {
+              "type": "word",
+              "text": "straightforward",
+              "targetId": "word-straightforward",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-010-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I don't know; that's just my opinion.",
+          "tc": "我不知道；那只是我的看法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know; that's just my "
+            },
+            {
+              "type": "word",
+              "text": "opinion",
+              "targetId": "word-opinion",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-011-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I live in Mexico.",
+          "tc": "我住在墨西哥。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I live in Mexico."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-04",
+      "no": "04",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
+      "sentences": [
         {
-          "english": "food",
-          "kk": "/fud/",
-          "partOfSpeech": "n.",
-          "meaning": "食物",
-          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "In Mexico, we have lots of yummy foods: foods that are spicy, sweet, salty, sour, and bitter.",
+          "tc": "在墨西哥，我們有很多好吃的食物：有辣的、甜的、鹹的、酸的和苦的食物。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "In Mexico, we have lots of "
+            },
+            {
+              "type": "word",
+              "text": "yummy",
+              "targetId": "word-yummy",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-013-01"
+            },
+            {
+              "type": "text",
+              "text": " foods: foods that are "
+            },
+            {
+              "type": "word",
+              "text": "spicy",
+              "targetId": "word-spicy",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-013-02"
+            },
+            {
+              "type": "text",
+              "text": ", sweet, "
+            },
+            {
+              "type": "word",
+              "text": "salty",
+              "targetId": "word-salty",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-013-03"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "word",
+              "text": "sour",
+              "targetId": "word-sour",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-013-04"
+            },
+            {
+              "type": "text",
+              "text": ", and "
+            },
+            {
+              "type": "word",
+              "text": "bitter",
+              "targetId": "word-bitter",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-013-05"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "english": "anything",
-          "kk": "/anything/",
-          "partOfSpeech": "v.",
-          "meaning": "任何事物",
-          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "en": "We have them all.",
+          "tc": "我們全都有。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We have them all."
+            }
+          ]
+        },
+        {
+          "en": "Mexican food is very diverse, but I think my favorite food is Japanese food.",
+          "tc": "墨西哥食物非常多元，但我覺得我最喜歡的食物是日本料理。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Mexican food is very "
+            },
+            {
+              "type": "word",
+              "text": "diverse",
+              "targetId": "word-diverse",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-015-01"
+            },
+            {
+              "type": "text",
+              "text": ", but I think my favorite food is Japanese food."
+            }
+          ]
+        },
+        {
+          "en": "I can't resist sushi rice.",
+          "tc": "我忍不住喜歡壽司飯。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "can't resist",
+              "targetId": "phrase-can-t-resist",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-016-01"
+            },
+            {
+              "type": "text",
+              "text": " sushi rice."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-05",
+      "no": "05",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
+      "sentences": [
+        {
+          "en": "Anything with soy sauce is delicious to me.",
+          "tc": "任何加了醬油的東西，對我來說都很好吃。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Anything with "
+            },
+            {
+              "type": "phrase",
+              "text": "soy sauce",
+              "targetId": "phrase-soy-sauce",
+              "instanceId": "marker-a1-ch8-slow-english-podcast-chat-with-me-about-foods-017-01"
+            },
+            {
+              "type": "text",
+              "text": " is delicious to me."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -152,153 +429,235 @@
       "title": "A1 重點單字",
       "items": [
         {
-          "english": "food",
-          "kk": "/fud/",
+          "id": "word-cheesecake",
+          "lemma": "cheesecake",
+          "english": "cheesecake",
+          "kk": "[ˈtʃizˌkek]",
           "partOfSpeech": "n.",
-          "meaning": "食物",
-          "note": "看到 food 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "meaning": "起司蛋糕",
           "highlight": true
         },
         {
-          "english": "foods",
-          "kk": "/foods/",
-          "partOfSpeech": "n.",
-          "meaning": "食品",
-          "note": "看到 foods 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-healthy",
+          "lemma": "healthy",
+          "english": "healthy",
+          "kk": "[ˈhɛlθi]",
+          "partOfSpeech": "adj.",
+          "meaning": "健康的",
           "highlight": true
         },
         {
-          "english": "sweet",
-          "kk": "/swit/",
-          "partOfSpeech": "n.",
-          "meaning": "甜的",
-          "note": "看到 sweet 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
+          "id": "word-salty",
+          "lemma": "salty",
           "english": "salty",
-          "kk": "/salty/",
-          "partOfSpeech": "n.",
-          "meaning": "鹹",
-          "note": "看到 salty 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "kk": "[ˈsɔlti]",
+          "partOfSpeech": "adj.",
+          "meaning": "鹹的",
+          "highlight": true
         },
         {
-          "english": "sweets",
-          "kk": "/sweets/",
-          "partOfSpeech": "n.",
-          "meaning": "糖果",
-          "note": "看到 sweets 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-straightforward",
+          "lemma": "straightforward",
+          "english": "straightforward",
+          "kk": "[ˌstretˈfɔrwɚd]",
+          "partOfSpeech": "adj.",
+          "meaning": "直率的",
+          "highlight": true
         },
         {
-          "english": "anything",
-          "kk": "/anything/",
+          "id": "word-opinion",
+          "lemma": "opinion",
+          "english": "opinion",
+          "kk": "[əˈpɪnjən]",
+          "partOfSpeech": "n.",
+          "meaning": "意見、看法",
+          "highlight": true
+        },
+        {
+          "id": "word-yummy",
+          "lemma": "yummy",
+          "english": "yummy",
+          "kk": "[ˈjʌmi]",
+          "partOfSpeech": "adj.",
+          "meaning": "好吃的",
+          "highlight": true
+        },
+        {
+          "id": "word-spicy",
+          "lemma": "spicy",
+          "english": "spicy",
+          "kk": "[ˈspaɪsi]",
+          "partOfSpeech": "adj.",
+          "meaning": "辣的",
+          "highlight": true
+        },
+        {
+          "id": "word-sour",
+          "lemma": "sour",
+          "english": "sour",
+          "kk": "[saʊr]",
+          "partOfSpeech": "adj.",
+          "meaning": "酸的",
+          "highlight": true
+        },
+        {
+          "id": "word-bitter",
+          "lemma": "bitter",
+          "english": "bitter",
+          "kk": "[ˈbɪtɚ]",
+          "partOfSpeech": "adj.",
+          "meaning": "苦的",
+          "highlight": true
+        },
+        {
+          "id": "word-diverse",
+          "lemma": "diverse",
+          "english": "diverse",
+          "kk": "[dɪˈvɝs]",
+          "partOfSpeech": "adj.",
+          "meaning": "多元的",
+          "highlight": true
+        },
+        {
+          "id": "word-resist",
+          "lemma": "resist",
+          "english": "resist",
+          "kk": "[rɪˈzɪst]",
           "partOfSpeech": "v.",
-          "meaning": "任何事物",
-          "note": "看到 anything 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "people",
-          "kk": "/people/",
-          "partOfSpeech": "n.",
-          "meaning": "人們",
-          "note": "看到 people 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "抗拒、忍住",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
-      "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "id": "phrase-first-of-all",
+      "phrase": "first of all",
+      "meaning": "用來開始列點或說明第一件事",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "__First of all__, I always enjoy 《sweets》.",
+          "tc": "用來開始列點或說明第一件事"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "what do you",
-      "meaning": "你會怎麼...",
+      "id": "phrase-worth-it",
+      "phrase": "worth it",
+      "meaning": "某事值得付出代價或接受缺點",
       "examples": [
         {
-          "en": "What do you like more salty Foods or sweet Foods?",
-          "tc": "你喜歡鹹的食物還是甜的食物？"
+          "en": "Sugar makes you fat, but sugar is also very delicious, so I think it's __worth it__.",
+          "tc": "某事值得付出代價或接受缺點"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "do you like",
-      "meaning": "你喜歡...嗎",
+      "id": "phrase-can-t-resist",
+      "phrase": "can't resist",
+      "meaning": "忍不住想要某物或做某事",
       "examples": [
         {
-          "en": "What do you like more salty Foods or sweet Foods?",
-          "tc": "你喜歡鹹的食物還是甜的食物？"
+          "en": "I __can't resist__ sushi rice.",
+          "tc": "忍不住想要某物或做某事"
         }
+      ]
+    },
+    {
+      "id": "phrase-soy-sauce",
+      "phrase": "soy sauce",
+      "meaning": "醬油",
+      "examples": [
+        {
+          "en": "Anything with __soy sauce__ is delicious to me.",
+          "tc": "醬油"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-sweet-sweets",
+      "word": "sweet",
+      "familiarMeaning": "甜的",
+      "usage": "sweets 是複數名詞，指糖果或甜點等甜食",
+      "translation": "甜食",
+      "examples": [
+        "__First of all__, I always enjoy 《sweets》."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "Anything from cheesecake to candies to sweet bread, I love it all.",
+      "translation": "從起司蛋糕到糖果再到甜麵包，這些我全都愛。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "話題前置",
+          "text": "Anything from A to B to C + 主詞 + 動詞 + it all",
+          "note": "把喜歡的食物範圍放到句首，後面的 it all 回指前面的所有東西，用來強調「全部都愛」。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Today I want to talk to you about food.",
-      "translation": "今天我想和大家聊聊美食。",
+      "id": "grammar-2",
+      "sentence": "Sugar makes you fat, but sugar is also very delicious, so I think it's worth it.",
+      "translation": "糖會讓你變胖，但糖也非常好吃，所以我覺得它很值得。",
       "points": [
         {
-          "label": "want talk food",
-          "text": "want talk food",
-          "note": "注意 \"want talk food\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "make + 受詞 + 形容詞",
+          "text": "Sugar + makes + you + fat",
+          "note": "make 後面接受詞和形容詞，表示「使某人變得怎樣」。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "First of all I always enjoy sweets anything from cheesecake to candies to sweet bread.",
-      "translation": "首先，我總是喜歡甜食，從起司蛋糕到糖果到甜麵包。",
+      "id": "grammar-3",
+      "sentence": "Some people like salty food more than sweets.",
+      "translation": "有些人比起甜食更喜歡鹹的食物。",
       "points": [
         {
-          "label": "enjoy sweets anything",
-          "text": "enjoy sweets anything",
-          "note": "注意 \"enjoy sweets anything\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "比較結構：more than",
+          "text": "like A + more than + B",
+          "note": "用 more than 比較兩種喜好，表示比起 B 更喜歡 A。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "I love it all but sweets are not very healthy for you.",
-      "translation": "我喜歡這一切，但甜食對你來說不太健康。",
+      "id": "grammar-4",
+      "sentence": "I think people who like sweet foods are always very sweet, but people who like salty foods usually are very direct and straightforward.",
+      "translation": "我覺得喜歡甜食的人總是很甜美，但喜歡鹹食的人通常很直接、很直率。",
       "points": [
         {
-          "label": "love but sweets",
-          "text": "love but sweets",
-          "note": "注意 \"love but sweets\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "who 引導關係子句",
+          "text": "people + who + like sweet/salty foods",
+          "note": "who like... 用來補充說明是哪一種 people。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "In Mexico, we have lots of yummy foods: foods that are spicy, sweet, salty, sour, and bitter.",
+      "translation": "在墨西哥，我們有很多好吃的食物：有辣的、甜的、鹹的、酸的和苦的食物。",
+      "points": [
+        {
+          "label": "that 引導關係子句",
+          "text": "foods + that + are + 形容詞",
+          "note": "that are... 用來補充說明 foods 的種類或特色。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "Anything with soy sauce is delicious to me.",
+      "translation": "任何加了醬油的東西，對我來說都很好吃。",
+      "points": [
+        {
+          "label": "anything 作主詞",
+          "text": "Anything + with soy sauce + is + 形容詞",
+          "note": "anything 可以當單數主詞，with soy sauce 補充說明是「加了醬油的任何東西」。"
         }
       ]
     }

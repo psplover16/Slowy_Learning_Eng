@@ -141,7 +141,7 @@ export function buildPlaylistVideoDataFromProofread({ metadata, draft }) {
     index,
   })).filter(segment => segment.english && segment.translation)
 
-  const scenes = buildScenesFromSegments({ segments: sourceSegments, targets })
+  const scenes = buildScenesFromSegments({ segments: sourceSegments, targets, metadata })
   const vocabGroups = [{
     title: `${String(metadata.level).toUpperCase()} 重點單字`,
     items: words.map(word => ({
@@ -220,6 +220,7 @@ function normalizeWord(word, index) {
     ...word,
     lemma,
     surface,
+    surfaces: normalizeSurfaceAliases(word.surfaces ?? surface),
     partOfSpeech,
     kk,
     meaning,
@@ -239,6 +240,12 @@ function normalizePhrase(phrase, index) {
     ...phrase,
     phrase: text,
     meaning,
+    surfaces: uniqueStrings([
+      ...normalizePhraseAliases(text),
+      ...normalizePhraseAliases(phrase.surface, { allowSingleWord: true }),
+      ...normalizePhraseAliases(phrase.surfaces, { allowSingleWord: true }),
+      ...normalizePhraseAliases(Array.isArray(phrase.examples) ? phrase.examples : []),
+    ]),
     examples: Array.isArray(phrase.examples) ? phrase.examples : [],
   }
 }
@@ -260,6 +267,7 @@ function normalizeUsage(usage, index) {
   return {
     ...usage,
     word,
+    surfaces: normalizeUsageAliases(usage.surfaces ?? [word, ...examples]),
     familiarMeaning,
     usage: usageText,
     translation,
@@ -271,11 +279,19 @@ function normalizeGrammar(grammar, index) {
   if (!grammar || typeof grammar !== 'object') {
     throw new Error(`grammar[${index}] must be an object`)
   }
-  const title = String(grammar.title ?? grammar.label ?? grammar.topic ?? `Grammar ${index + 1}`).trim()
+  const title = String(grammar.title ?? grammar.label ?? grammar.name ?? grammar.topic ?? `Grammar ${index + 1}`).trim()
+  const sentence = String(grammar.sentence ?? grammar.sourceSentence ?? '').trim()
+  const translation = String(grammar.translation ?? '').trim()
+  const structure = String(grammar.structure ?? '').trim()
+  const explanation = String(grammar.explanation ?? grammar.text ?? grammar.note ?? '').trim()
   return {
     ...grammar,
     id: grammar.id ? String(grammar.id) : `grammar-${index + 1}`,
     title,
+    sentence,
+    translation,
+    structure,
+    explanation,
   }
 }
 
@@ -283,12 +299,13 @@ function mergeWordsByLemma(words) {
   const byLemma = new Map()
   for (const word of words) {
     const lemma = normalizedLemma(word)
+    const nextSurfaces = normalizeSurfaceAliases(word.surfaces ?? word.surface)
     if (!byLemma.has(lemma)) {
-      byLemma.set(lemma, { ...word, lemma })
+      byLemma.set(lemma, { ...word, lemma, surfaces: nextSurfaces })
       continue
     }
     const existing = byLemma.get(lemma)
-    const surfaces = new Set([existing.surface, word.surface].filter(Boolean))
+    const surfaces = new Set([...(existing.surfaces ?? []), ...nextSurfaces])
     byLemma.set(lemma, {
       ...existing,
       surface: existing.surface || word.surface,
@@ -300,15 +317,33 @@ function mergeWordsByLemma(words) {
 }
 
 function buildLearningTargets({ words, phrases, usages }) {
+  const wordSurfaceTargets = words.flatMap(word => {
+    const targetId = targetIdForWord(word)
+    return normalizeSurfaceAliases(word.surfaces ?? (word.surface || word.lemma))
+      .map(surface => [normalizeLookup(surface), targetId])
+  })
+  const phraseSurfaceTargets = phrases.flatMap(phrase => {
+    const targetId = targetIdForPhrase(phrase)
+    return normalizePhraseAliases(phrase.surfaces ?? phrase.phrase, {
+      allowSingleWord: Array.isArray(phrase.surfaces),
+    })
+      .map(surface => [normalizeLookup(surface), targetId])
+  })
+  const usageSurfaceTargets = usages.flatMap(usage => {
+    const targetId = targetIdForUsage(usage)
+    return normalizeUsageAliases(usage.surfaces ?? usage.word)
+      .map(surface => [normalizeLookup(surface), targetId])
+  })
+
   return {
-    words: new Map(words.map(word => [normalizeLookup(word.surface || word.lemma), targetIdForWord(word)])),
+    words: new Map(wordSurfaceTargets),
     wordLemmas: new Map(words.map(word => [normalizeLookup(word.lemma), targetIdForWord(word)])),
-    phrases: new Map(phrases.map(phrase => [normalizeLookup(phrase.phrase), targetIdForPhrase(phrase)])),
-    usages: new Map(usages.map(usage => [normalizeLookup(usage.word), targetIdForUsage(usage)])),
+    phrases: new Map(phraseSurfaceTargets),
+    usages: new Map(usageSurfaceTargets),
   }
 }
 
-function buildScenesFromSegments({ segments, targets }) {
+function buildScenesFromSegments({ segments, targets, metadata }) {
   const scenes = []
   const chunkSize = 4
   for (let i = 0; i < segments.length; i += chunkSize) {
@@ -322,14 +357,19 @@ function buildScenesFromSegments({ segments, targets }) {
       sentences: chunk.map((segment, offset) => {
         const sentenceIndex = i + offset + 1
         const en = stripMarkdownMarkers(segment.english)
+        const instancePrefix = [
+          String(metadata.level),
+          String(metadata.slug),
+          String(sentenceIndex).padStart(3, '0'),
+        ].join('-')
         return {
           en,
           tc: segment.translation,
           englishTokens: tokenizeMarkedEnglish({
-        markedEnglish: segment.english,
-        targets,
-        instancePrefix: `a1-ch1-${String(sentenceIndex).padStart(3, '0')}`,
-      }),
+            markedEnglish: segment.english,
+            targets,
+            instancePrefix,
+          }),
         }
       }),
       tags: [],
@@ -342,7 +382,7 @@ function splitSegmentIntoSentences({ english, translation, index }) {
   const englishSentences = splitEnglishSentences(english)
   const translationSentences = splitChineseSentences(translation)
 
-  if (englishSentences.length <= 1) {
+  if (englishSentences.length <= 1 || translationSentences.length < englishSentences.length) {
     return [{ english, translation, index }]
   }
 
@@ -354,6 +394,7 @@ function splitSegmentIntoSentences({ english, translation, index }) {
 }
 
 function splitEnglishSentences(value) {
+  const boundary = '<sentence-boundary>'
   const protectedText = String(value ?? '')
     .replace(/\ba\.m\./gi, match => match.replace(/\./g, '<dot>'))
     .replace(/\bp\.m\./gi, match => match.replace(/\./g, '<dot>'))
@@ -363,7 +404,8 @@ function splitEnglishSentences(value) {
     .replace(/\bDr\./g, 'Dr<dot>')
 
   return protectedText
-    .split(/(?<=[.!?])\s+/)
+    .replace(/([.!?]["']?)\s+/g, `$1${boundary}`)
+    .split(boundary)
     .map(sentence => sentence.replace(/<dot>/g, '.').trim())
     .filter(Boolean)
 }
@@ -511,10 +553,21 @@ function normalizeGrammarPoints(item, index) {
     })).filter(point => point.label && point.text && point.note)
   }
 
-  const text = String(item.explanation ?? item.text ?? item.note ?? '').trim()
+  const label = String(item.title ?? item.name ?? item.label ?? `Grammar ${index + 1}`).trim()
+  const structure = String(item.structure ?? '').trim()
+  const explanation = String(item.explanation ?? item.text ?? item.note ?? '').trim()
+  if (structure && explanation) {
+    return [{
+      label,
+      text: structure,
+      note: explanation,
+    }]
+  }
+
+  const text = explanation || structure
   if (!text) return []
   return [{
-    label: item.title ?? item.label ?? `Grammar ${index + 1}`,
+    label,
     text,
     note: String(item.example ?? item.translation ?? text).trim(),
   }]
@@ -552,6 +605,66 @@ function normalizeStringList(value) {
     if (typeof item === 'string') return item.trim()
     return String(item?.en ?? item?.english ?? '').trim()
   }).filter(Boolean)
+}
+
+function normalizeSurfaceAliases(value) {
+  if (Array.isArray(value)) {
+    return uniqueStrings(value.flatMap(item => normalizeSurfaceAliases(item)))
+  }
+
+  return uniqueStrings(String(value ?? '')
+    .split(/[;,/|]+|\s+\bor\b\s+/i)
+    .map(surface => surface.trim()))
+}
+
+function normalizePhraseAliases(value, options = {}) {
+  const allowSingleWord = options.allowSingleWord === true
+  if (Array.isArray(value)) {
+    return uniqueStrings(value.flatMap(item => normalizePhraseAliases(item, options)))
+  }
+
+  const text = stripMarkdownMarkers(String(value ?? '')).trim()
+  const marked = []
+  for (const match of String(value ?? '').matchAll(MARKED_TEXT_PATTERN)) {
+    marked.push(markerFromMatch(match).text)
+  }
+
+  const textAliases = allowSingleWord || normalizeLookup(text).split(/\s+/).filter(Boolean).length > 1
+    ? [text]
+    : []
+  return uniqueStrings([...textAliases, ...textAliases.flatMap(inflectPhraseHead), ...marked])
+}
+
+function inflectPhraseHead(phrase) {
+  const words = String(phrase ?? '').trim().split(/\s+/).filter(Boolean)
+  if (words.length < 2) return []
+
+  const [head, ...rest] = words
+  const variants = []
+  if (/^[a-z]+$/i.test(head)) {
+    if (/[^aeiou]y$/i.test(head)) {
+      variants.push(`${head.slice(0, -1)}ies`)
+    } else if (/(s|x|z|ch|sh|o)$/i.test(head)) {
+      variants.push(`${head}es`)
+    } else {
+      variants.push(`${head}s`)
+    }
+  }
+
+  return variants.map(variant => [variant, ...rest].join(' '))
+}
+
+function normalizeUsageAliases(value) {
+  if (Array.isArray(value)) {
+    return uniqueStrings(value.flatMap(item => normalizeUsageAliases(item)))
+  }
+
+  const marked = []
+  for (const match of String(value ?? '').matchAll(MARKED_TEXT_PATTERN)) {
+    const marker = markerFromMatch(match)
+    if (marker.type === 'usage') marked.push(marker.text)
+  }
+  return uniqueStrings([String(value ?? '').trim(), ...marked])
 }
 
 function findUnsafeHtml(value, path = 'proofread') {

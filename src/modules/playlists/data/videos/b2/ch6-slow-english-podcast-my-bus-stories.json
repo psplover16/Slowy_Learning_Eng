@@ -15,308 +15,426 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello, welcome back to my Slow English podcast.",
+          "tc": "你好，歡迎回到我的慢速英文podcast。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello, "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-b2-ch6-slow-english-podcast-my-bus-stories-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my "
+            },
+            {
+              "type": "phrase",
+              "text": "Slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-b2-ch6-slow-english-podcast-my-bus-stories-001-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Today I want to talk to you about a story.",
-          "tc": "今天我想跟大家講一個故事。"
+          "en": "Today I want to talk to you about a story I saw the other day while I was riding on the bus.",
+          "tc": "今天我想跟大家講一個我前幾天坐公車時看到的故事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today I want to talk to you about a story I saw the other day while I was riding on the bus."
+            }
+          ]
         },
         {
-          "en": "I saw the other day while I was riding on the bus I was riding on the bus with my mom.",
-          "tc": "有一天，我在搭公車時看到我和媽媽一起搭公車。"
+          "en": "I was riding on the bus with my mom.",
+          "tc": "我和媽媽一起搭公車。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I was riding on the bus with my mom."
+            }
+          ]
         },
         {
-          "en": "We were going to Starbucks to work on the bus there was a little girl maybe around four or 5 years old.",
-          "tc": "我們去星巴克上班，車上有個小女孩，大概四、五歲左右。"
+          "en": "We were going to Starbucks to work.",
+          "tc": "我們要去星巴克上班。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We were going to Starbucks to work."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "mom",
-          "kk": "/mom/",
-          "partOfSpeech": "n.",
-          "meaning": "媽媽",
-          "note": "看到 mom 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "bus",
-          "kk": "/bʌs/",
-          "partOfSpeech": "n.",
-          "meaning": "公車",
-          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "girl",
-          "kk": "/girl/",
-          "partOfSpeech": "n.",
-          "meaning": "女孩",
-          "note": "看到 girl 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：食物與用餐",
-      "titleEn": "Part 2: food",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
+          "en": "On the bus, there was a little girl, maybe around four or five years old.",
+          "tc": "公車上有個小女孩，大概四、五歲左右。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "On the bus, there was a little girl, maybe around four or five years old."
+            }
+          ]
+        },
+        {
           "en": "She looked very sweet.",
-          "tc": "她看起來很甜美。"
+          "tc": "她看起來很可愛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She looked very sweet."
+            }
+          ]
         },
         {
-          "en": "She was dressed in pink from head to toe.",
-          "tc": "她從頭到腳都穿著粉紅色的衣服。"
-        },
-        {
-          "en": "She was with her mother.",
-          "tc": "她和她母親在一起。"
+          "en": "She was dressed in pink from head to toe, and she was with her mother.",
+          "tc": "她從頭到腳都穿著粉紅色的衣服，和媽媽在一起。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She was dressed in pink from head to toe, and she was with her mother."
+            }
+          ]
         },
         {
           "en": "She was playing games and laughing with her mother.",
-          "tc": "她和媽媽玩遊戲，有說有笑。"
+          "tc": "她正在和媽媽玩遊戲，笑著。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She was playing games and laughing with her mother."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "mother",
-          "kk": "/mother/",
-          "partOfSpeech": "n.",
-          "meaning": "母親",
-          "note": "看到 mother 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "Then the mother had to leave.",
-          "tc": "然後母親只好離開。"
+          "en": "But then the mother had to leave.",
+          "tc": "但後來母親不得不離開。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But then the mother had to leave."
+            }
+          ]
         },
         {
-          "en": "She had to stop and get off for work so her mother handed over her daughter to her Grandpa and the little girl started crying and crying her eyes out.",
-          "tc": "她不得不停下來上班，所以她的母親把女兒交給了她的爺爺，小女孩開始哭，哭得眼睛都腫了。"
+          "en": "She had to stop and get off for work.",
+          "tc": "她必須停下來下車去上班。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She had to stop and "
+            },
+            {
+              "type": "usage",
+              "text": "get",
+              "targetId": "usage-get-get-ready-get-lost",
+              "instanceId": "marker-b2-ch6-slow-english-podcast-my-bus-stories-010-01"
+            },
+            {
+              "type": "text",
+              "text": " off for work."
+            }
+          ]
         },
         {
-          "en": "She didn't want her mom to leave but eventually the little girl was carried away by her Grandpa.",
-          "tc": "她不想讓媽媽離開，但最後小女孩還是被爺爺抱走了。"
+          "en": "So her mother handed over her daughter to her grandpa, and the little girl started crying and crying her eyes out.",
+          "tc": "於是她媽媽把女兒交給了爺爺，小女孩哭了起來，哭得眼睛都腫了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So her mother handed over her daughter to her grandpa, and the little girl started crying and crying her eyes out."
+            }
+          ]
         },
         {
-          "en": "She said bye to her mom.",
-          "tc": "她向媽媽說了再見。"
+          "en": "She didn't want her mom to leave.",
+          "tc": "她不想讓媽媽離開。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She didn't want her mom to leave."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "mom",
-          "kk": "/mom/",
-          "partOfSpeech": "n.",
-          "meaning": "媽媽",
-          "note": "看到 mom 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "girl",
-          "kk": "/girl/",
-          "partOfSpeech": "n.",
-          "meaning": "女孩",
-          "note": "看到 girl 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "little",
-          "kk": "/little/",
-          "partOfSpeech": "n.",
-          "meaning": "小的",
-          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "She left it reminded me of when I was a little girl.",
-          "tc": "她留下的這讓我想起了我還是個小女孩的時候。"
+          "en": "But eventually, the little girl was carried away by her grandpa.",
+          "tc": "但最終，小女孩被爺爺抱走了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But eventually, the little girl was carried away by her grandpa."
+            }
+          ]
         },
         {
-          "en": "I could sympathize with the feeling of missing your mom so much.",
-          "tc": "我非常同情你如此想念你媽媽的感覺。"
+          "en": "She said bye to her mom, and she left.",
+          "tc": "她向媽媽說了再見，然後就離開了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "She said bye to her mom, and she left."
+            }
+          ]
         },
         {
-          "en": "When your mom is literally the whole world for you when your a little girl that's the feeling?",
-          "tc": "當你還是個小女孩的時候，當你的媽媽對你來說簡直就是整個世界，那是一種感覺嗎？"
+          "en": "It reminded me of when I was a little girl, and I could sympathize with the feeling of missing your mom so much.",
+          "tc": "這讓我想起了我還是個小女孩的時候，我很同情你如此想念你媽媽的感覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It reminded me of when I was a little girl, and I could sympathize with the feeling of missing your mom so much."
+            }
+          ]
         },
         {
-          "en": "You have and you can't go even a few hours without your mom let alone a whole day without your mom.",
-          "tc": "你已經離開了你的媽媽，你甚至不能離開幾個小時，更不用說離開你的媽媽一整天了。"
+          "en": "When your mom is literally the whole world for you, when you are a little girl, that is the feeling you have.",
+          "tc": "當你還是個小女孩時，當你的媽媽對你來說就是整個世界時，這就是你的感覺。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "When your mom is literally the whole world for you, when you are a little girl, that is the feeling you have."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "mom",
-          "kk": "/mom/",
-          "partOfSpeech": "n.",
-          "meaning": "媽媽",
-          "note": "看到 mom 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "girl",
-          "kk": "/girl/",
-          "partOfSpeech": "n.",
-          "meaning": "女孩",
-          "note": "看到 girl 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "little",
-          "kk": "/little/",
-          "partOfSpeech": "n.",
-          "meaning": "小的",
-          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "When I was a little girl and it reminded me of how fast?",
-          "tc": "當我還是個小女孩的時候，它讓我想起有多快？"
+          "en": "You can't go even a few hours without your mom, let alone a whole day without your mom.",
+          "tc": "你連幾個小時都不能離開你的媽媽，更別說一整天都沒有你的媽媽了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can't go even a few hours without your mom, let alone a whole day without your mom."
+            }
+          ]
         },
         {
-          "en": "We all grow up one day you're crying because your mom went to work.",
-          "tc": "我們都會長大，有一天你會因為媽媽去上班而哭泣。"
+          "en": "So you just miss her and think about her all day long.",
+          "tc": "所以你只是想念她，整天想著她。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So you just miss her and think about her all day long."
+            }
+          ]
         },
         {
-          "en": "Next day you don't think about your mom for days or maybe even weeks our parents grow up so fast.",
-          "tc": "第二天，你幾天甚至幾週都不會想起你的媽媽，我們的父母長得很快。"
+          "en": "It made me tear up a little bit on the bus because it reminded me of when I was a little girl.",
+          "tc": "這讓我在公車上流下了一點眼淚，因為它讓我想起了我還是個小女孩的時候。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It "
+            },
+            {
+              "type": "usage",
+              "text": "made",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-b2-ch6-slow-english-podcast-my-bus-stories-019-01"
+            },
+            {
+              "type": "text",
+              "text": " me tear up a little bit on the bus because it reminded me of when I was a little girl."
+            }
+          ]
         },
         {
-          "en": "We grow up even faster before you know it.",
-          "tc": "在你不知不覺中，我們成長得更快。"
+          "en": "It reminded me of how fast we all grow up.",
+          "tc": "它讓我想起我們都成長得有多快。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It reminded me of how fast we all grow up."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "mom",
-          "kk": "/mom/",
-          "partOfSpeech": "n.",
-          "meaning": "媽媽",
-          "note": "看到 mom 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "girl",
-          "kk": "/girl/",
-          "partOfSpeech": "n.",
-          "meaning": "女孩",
-          "note": "看到 girl 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "little",
-          "kk": "/little/",
-          "partOfSpeech": "n.",
-          "meaning": "小的",
-          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "We're all grown-ups living our own lives.",
-          "tc": "我們都是成年人，過著自己的生活。"
+          "en": "One day you're crying because your mom went to work.",
+          "tc": "有一天，你因為媽媽去上班而哭了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "One day you're crying because your mom went to work."
+            }
+          ]
         },
         {
-          "en": "They had to leave for work.",
-          "tc": "他們不得不去上班。"
+          "en": "The next day, you don't think about your mom for days or maybe even weeks.",
+          "tc": "第二天，你幾天甚至幾週都不會想起你的媽媽。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The next day, you don't think about your mom for days or maybe even weeks."
+            }
+          ]
         },
         {
-          "en": "Sometimes I wish I could go back to the days where my only worry was when is mom coming home let me know.",
-          "tc": "有時我希望我能回到那些我唯一擔心的是媽媽什麼時候回家讓我知道的日子。"
+          "en": "Our parents grow up so fast, and we grow up even faster.",
+          "tc": "我們的父母長大得很快，我們也長大得更快。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Our parents grow up so fast, and we grow up even faster."
+            }
+          ]
         },
         {
-          "en": "If you enjoyed this bus story this is a more advanced level story but it's something I enjoy speaking about with you guys let me know in the comments.",
-          "tc": "如果你喜歡這個巴士故事，這是一個更高級的故事，但我喜歡和你們談論這個故事，請在評論中告訴我。"
+          "en": "Before you know it, we're all grown-ups living our own lives.",
+          "tc": "在你意識到之前，我們都是成年人，過著自己的生活。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Before you know it, we're all grown-ups living our own lives."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "mom",
-          "kk": "/mom/",
-          "partOfSpeech": "n.",
-          "meaning": "媽媽",
-          "note": "看到 mom 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "bus",
-          "kk": "/bʌs/",
-          "partOfSpeech": "n.",
-          "meaning": "公車",
-          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "If you have any nice bus stories you would like to share.",
-          "tc": "如果你有任何關於巴士的故事想分享。"
+          "en": "I'm sure every mom remembers when their daughters would cry or their sons would cry when they had to leave for work.",
+          "tc": "我相信每個媽媽都記得當他們必須去上班時，他們的女兒會哭泣，或者他們的兒子會哭泣。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm sure every mom remembers when their daughters would cry or their sons would cry when they had to leave for work."
+            }
+          ]
+        },
+        {
+          "en": "Sometimes I wish I could go back to the days where my only worry was, \"When is Mom coming home?\"",
+          "tc": "有時候我真希望能回到以前唯一擔心的是「媽媽什麼時候回家？」的日子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Sometimes I wish I could go back to the days where my only worry was, \"When is Mom coming home?\""
+            }
+          ]
+        },
+        {
+          "en": "Let me know if you enjoyed this bus story.",
+          "tc": "如果您喜歡這個巴士故事，請告訴我。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Let me know",
+              "targetId": "phrase-let-me-know",
+              "instanceId": "marker-b2-ch6-slow-english-podcast-my-bus-stories-027-01"
+            },
+            {
+              "type": "text",
+              "text": " if you enjoyed this bus story."
+            }
+          ]
+        },
+        {
+          "en": "This is a more advanced-level story, but it's something I enjoy speaking about with you guys.",
+          "tc": "這是一個更高級的故事，但我喜歡和你們談論它。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is a more "
+            },
+            {
+              "type": "word",
+              "text": "advanced",
+              "targetId": "word-advanced",
+              "instanceId": "marker-b2-ch6-slow-english-podcast-my-bus-stories-028-01"
+            },
+            {
+              "type": "text",
+              "text": "-level story, but it's something I enjoy speaking about with you guys."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-08",
+      "no": "08",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
+      "sentences": [
         {
-          "english": "bus",
-          "kk": "/bʌs/",
-          "partOfSpeech": "n.",
-          "meaning": "公車",
-          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "Let me know in the comments if you have any nice bus stories you would like to share.",
+          "tc": "如果您有任何精彩的巴士故事想分享，請在評論中告訴我。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Let me know",
+              "targetId": "phrase-let-me-know",
+              "instanceId": "marker-b2-ch6-slow-english-podcast-my-bus-stories-029-01"
+            },
+            {
+              "type": "text",
+              "text": " in the comments if you have any nice bus stories you would like to share."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -324,153 +442,144 @@
       "title": "B2 重點單字",
       "items": [
         {
-          "english": "mom",
-          "kk": "/mom/",
-          "partOfSpeech": "n.",
-          "meaning": "媽媽",
-          "note": "看到 mom 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-advanced",
+          "lemma": "advanced",
+          "english": "advanced",
+          "kk": "[ədˈvænst]",
+          "partOfSpeech": "adj.",
+          "meaning": "進階的",
           "highlight": true
-        },
-        {
-          "english": "bus",
-          "kk": "/bʌs/",
-          "partOfSpeech": "n.",
-          "meaning": "公車",
-          "note": "看到 bus 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "girl",
-          "kk": "/girl/",
-          "partOfSpeech": "n.",
-          "meaning": "女孩",
-          "note": "看到 girl 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "little",
-          "kk": "/little/",
-          "partOfSpeech": "n.",
-          "meaning": "小的",
-          "note": "看到 little 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "mother",
-          "kk": "/mother/",
-          "partOfSpeech": "n.",
-          "meaning": "母親",
-          "note": "看到 mother 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "work",
-          "kk": "/work/",
-          "partOfSpeech": "v.",
-          "meaning": "工作",
-          "note": "看到 work 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "crying",
-          "kk": "/crying/",
-          "partOfSpeech": "v.",
-          "meaning": "哭",
-          "note": "看到 crying 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
-      "meaning": "歡迎回來",
+      "meaning": "歡迎回到節目或某處",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello, __welcome back__ to my __Slow English podcast__.",
+          "tc": "歡迎回到節目或某處"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "going to",
-      "meaning": "去",
+      "id": "phrase-slow-english-podcast",
+      "phrase": "Slow English podcast",
+      "meaning": "慢速英語 podcast 節目",
       "examples": [
         {
-          "en": "We were going to Starbucks to work on the bus there was a little girl maybe around four or 5 years old.",
-          "tc": "我們去星巴克上班，車上有個小女孩，大概四、五歲左右。"
+          "en": "Hello, __welcome back__ to my __Slow English podcast__.",
+          "tc": "慢速英語 podcast 節目"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-let-me-know",
+      "phrase": "let me know",
+      "meaning": "告訴我、讓我知道",
       "examples": [
         {
-          "en": "Today I want to talk to you about a story.",
-          "tc": "今天我想跟大家講一個故事。"
+          "en": "__Let me know__ if you enjoyed this bus story.",
+          "tc": "告訴我、讓我知道"
         }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-make-item",
+      "word": "make",
+      "familiarMeaning": "製造、做",
+      "usage": "表示使某人產生某種感受或狀態",
+      "translation": "使、讓",
+      "examples": [
+        "It 《made》 me tear up a little bit on the bus because it reminded me of when I was a little girl."
+      ]
+    },
+    {
+      "id": "usage-get-get-ready-get-lost",
+      "word": "get",
+      "familiarMeaning": "得到",
+      "usage": "在 get ready/get lost 等搭配中表示「變得、進入某狀態」",
+      "translation": "變得、進入某狀態",
+      "examples": [
+        "She had to stop and 《get》 off for work."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "Hello, welcome back to my Slow English podcast.",
+      "translation": "你好，歡迎回到我的慢速英文podcast。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "to 不定詞",
+          "text": "to + 原形動詞",
+          "note": "用來表示目的、補語或接在特定動詞後。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "Today I want to talk to you about a story.",
-      "translation": "今天我想跟大家講一個故事。",
+      "id": "grammar-2",
+      "sentence": "Today I want to talk to you about a story I saw the other day while I was riding on the bus.",
+      "translation": "今天我想跟大家講一個我前幾天坐公車時看到的故事。",
       "points": [
         {
-          "label": "want to",
-          "text": "want to",
-          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "while + V-ing / 子句",
+          "text": "while + 動作",
+          "note": "表示兩個動作同時發生。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "I saw the other day while I was riding on the bus I was riding on the bus with my mom.",
-      "translation": "有一天，我在搭公車時看到我和媽媽一起搭公車。",
+      "id": "grammar-3",
+      "sentence": "It reminded me of when I was a little girl, and I could sympathize with the feeling of missing your mom so much.",
+      "translation": "這讓我想起了我還是個小女孩的時候，我很同情你如此想念你媽媽的感覺。",
       "points": [
         {
-          "label": "saw day while",
-          "text": "saw day while",
-          "note": "注意 \"saw day while\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "when 時間子句",
+          "text": "when + 主詞 + 動詞",
+          "note": "用 when 說明事情發生的時間或情境。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "We were going to Starbucks to work on the bus there was a little girl maybe around four or 5 years old.",
-      "translation": "我們去星巴克上班，車上有個小女孩，大概四、五歲左右。",
+      "id": "grammar-4",
+      "sentence": "When your mom is literally the whole world for you, when you are a little girl, that is the feeling you have.",
+      "translation": "當你還是個小女孩時，當你的媽媽對你來說就是整個世界時，這就是你的感覺。",
       "points": [
         {
-          "label": "going to",
-          "text": "going to",
-          "note": "注意 \"going to\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "that 引導名詞子句或關係子句",
+          "text": "that + 子句",
+          "note": "that 用來補充說明前面的想法或名詞。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "I'm sure every mom remembers when their daughters would cry or their sons would cry when they had to leave for work.",
+      "translation": "我相信每個媽媽都記得當他們必須去上班時，他們的女兒會哭泣，或者他們的兒子會哭泣。",
+      "points": [
+        {
+          "label": "would 表示假設或委婉語氣",
+          "text": "would + 原形動詞",
+          "note": "用來談假設、過去習慣或較委婉的說法。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "Let me know if you enjoyed this bus story.",
+      "translation": "如果您喜歡這個巴士故事，請告訴我。",
+      "points": [
+        {
+          "label": "if 條件句",
+          "text": "If + 子句, 主句",
+          "note": "用 if 帶出條件，再說明在此條件下的結果。"
         }
       ]
     }

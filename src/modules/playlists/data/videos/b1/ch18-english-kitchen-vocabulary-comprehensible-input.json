@@ -15,658 +15,2074 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：日常生活",
-      "titleEn": "Opening: everyday life",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Hello. Let's learn some kitchen essentials.",
-          "tc": "你好。讓我們來學習一些廚房必需品。"
+          "en": "Hello.",
+          "tc": "哈囉。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello."
+            }
+          ]
         },
         {
-          "en": "I am just coming back from the grocery store. Today has been a super busy day.",
-          "tc": "我剛從雜貨店回來。今天是超忙碌的一天。"
+          "en": "Let's learn some kitchen essentials.",
+          "tc": "一起來學一些廚房必需品吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let's learn some kitchen "
+            },
+            {
+              "type": "word",
+              "text": "essentials",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-002-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I am renting a new apartment and it needs to be furnished with all of the essentials it needs, that.",
-          "tc": "我正在租一套新公寓，它需要配備所有必需品。"
+          "en": "I have just come back from the grocery store.",
+          "tc": "我剛從雜貨店回來。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have just "
+            },
+            {
+              "type": "phrase",
+              "text": "come back from",
+              "targetId": "phrase-come-back-from",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-003-01"
+            },
+            {
+              "type": "text",
+              "text": " the "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-003-02"
+            },
+            {
+              "type": "text",
+              "text": " store."
+            }
+          ]
         },
         {
-          "en": "We don't even think about! So, I did some grocery shopping with the essentials that my kitchen needs.",
-          "tc": "我們想都沒想！因此，我去雜貨店購買了廚房所需的必需品。"
+          "en": "Today has been a super busy day.",
+          "tc": "今天是超級忙的一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today has been a super busy day."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "essentials",
-          "kk": "/essentials/",
-          "partOfSpeech": "n.",
-          "meaning": "必需品",
-          "note": "看到 essentials 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "kitchen",
-          "kk": "/kitchen/",
-          "partOfSpeech": "n.",
-          "meaning": "廚房",
-          "note": "看到 kitchen 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：日常作息",
-      "titleEn": "Part 2: daily routine",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "First. I moved in this morning and my room is almost finished. I already bought a mattress, a chair, and a desk for my room. The most important parts done.",
-          "tc": "第一的。我今天早上搬進來，我的房間快完工了。我已經為我的房間買了床墊、椅子和桌子。最重要的部分已經完成。"
+          "en": "I am renting a new apartment, and it needs to be furnished with all of the essentials it needs, the things we don't even think about very often!",
+          "tc": "我正在租一間新公寓，而它需要配齊所有需要的必需品，也就是那些我們平常甚至很少會想到的東西！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am renting a new "
+            },
+            {
+              "type": "word",
+              "text": "apartment",
+              "targetId": "word-apartment",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-005-01"
+            },
+            {
+              "type": "text",
+              "text": ", and it needs to be "
+            },
+            {
+              "type": "usage",
+              "text": "furnished",
+              "targetId": "usage-furnish-furnished-with",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-005-02"
+            },
+            {
+              "type": "text",
+              "text": " with all of the "
+            },
+            {
+              "type": "word",
+              "text": "essentials",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-005-03"
+            },
+            {
+              "type": "text",
+              "text": " it needs, the things we don't even "
+            },
+            {
+              "type": "phrase",
+              "text": "think about",
+              "targetId": "phrase-feel-like",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-005-04"
+            },
+            {
+              "type": "text",
+              "text": " very often!"
+            }
+          ]
         },
         {
-          "en": "Then I realized I can't eat or cook anything.",
-          "tc": "然後我意識到我不能吃或煮任何東西。"
+          "en": "So, I did some grocery shopping for the essentials that my kitchen needs first.",
+          "tc": "所以，我先去買了一些廚房需要的必需品。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I did some "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-006-01"
+            },
+            {
+              "type": "text",
+              "text": " shopping for the "
+            },
+            {
+              "type": "word",
+              "text": "essentials",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-006-02"
+            },
+            {
+              "type": "text",
+              "text": " that my kitchen needs first."
+            }
+          ]
         },
         {
-          "en": "I need to go to the store again, and buy some kitchen essentials.",
-          "tc": "我需要再次去商店，買一些廚房必需品。"
+          "en": "I moved in this morning, and my room is almost finished.",
+          "tc": "我今天早上搬進來，房間差不多整理好了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "phrase",
+              "text": "moved in",
+              "targetId": "phrase-move-in",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-007-01"
+            },
+            {
+              "type": "text",
+              "text": " this morning, and my room is almost finished."
+            }
+          ]
         },
         {
-          "en": "I don't have a car and even if I did,.",
-          "tc": "我沒有車，即使有。"
+          "en": "I already bought a mattress, a chair, and a desk for my room.",
+          "tc": "我已經為房間買了床墊、椅子和書桌。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I already bought a "
+            },
+            {
+              "type": "word",
+              "text": "mattress",
+              "targetId": "word-mattress",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-008-01"
+            },
+            {
+              "type": "text",
+              "text": ", a chair, and a desk for my room."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "essentials",
-          "kk": "/essentials/",
-          "partOfSpeech": "n.",
-          "meaning": "必需品",
-          "note": "看到 essentials 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
-          "en": "I don't know how to drive. I know! Everybody is so shocked.",
-          "tc": "我不知道怎麼開車。我知道！大家都非常震驚。"
+          "en": "The most important parts are done.",
+          "tc": "最重要的部分都完成了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The most important parts are "
+            },
+            {
+              "type": "usage",
+              "text": "done",
+              "targetId": "usage-done-be-done",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-009-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "When I tell them I can't drive, but in Mexico, I just never found it very necessary. There's public transportation to get anywhere, and it's much cheaper and much faster! Here's my?",
-          "tc": "當我告訴他們我不會開車時，但在墨西哥，我從來沒有發現這是非常必要的。有公共交通可以到達任何地方，而且更便宜、更快！這是我的？"
+          "en": "But then I realized I can't eat or cook anything.",
+          "tc": "但後來我發現我沒辦法吃東西，也沒辦法煮任何東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But then I realized I can't eat or cook anything."
+            }
+          ]
         },
         {
-          "en": "Receipt. I spent $614 Mexican Pesos on all of this.",
-          "tc": "收據。我在這一切上花了 614 美元墨西哥比索。"
+          "en": "I need to go to the store again and buy some kitchen essentials.",
+          "tc": "我需要再去一趟商店，買一些廚房必需品。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I need to go to the store again and buy some kitchen "
+            },
+            {
+              "type": "word",
+              "text": "essentials",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-011-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I had to walk to Bodega Aurrera. It's a grocery store in Mexico.",
-          "tc": "我不得不步行到奧雷拉酒莊。這是墨西哥的一家雜貨店。"
+          "en": "I don't have a car, and even if I did, I don't know how to drive.",
+          "tc": "我沒有車，而且就算我有車，我也不知道怎麼開車。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't have a car, and "
+            },
+            {
+              "type": "phrase",
+              "text": "even if",
+              "targetId": "phrase-even-if",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-012-01"
+            },
+            {
+              "type": "text",
+              "text": " I did, I don't know how to drive."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I have my tote bag. Since I walked, I could only fill one tote bag of groceries and essentials.",
-          "tc": "我有我的手提包。由於我是步行，所以我只能裝滿一手提袋的雜貨和必需品。"
+          "en": "I know!",
+          "tc": "我知道！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I know!"
+            }
+          ]
         },
         {
-          "en": "I got one bowl. Very important. I bought a kitchen towel.",
-          "tc": "我拿了一碗。非常重要。我買了一條廚房毛巾。"
+          "en": "Everybody is so shocked when I tell them I can't drive, but in Mexico, I just never found it very necessary.",
+          "tc": "每次我告訴大家我不會開車，他們都很震驚，但在墨西哥，我就是從來不覺得開車很必要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Everybody is so shocked when I tell them I can't drive, but in Mexico, I just never "
+            },
+            {
+              "type": "usage",
+              "text": "found",
+              "targetId": "usage-find-find-it-adjective",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-014-01"
+            },
+            {
+              "type": "text",
+              "text": " it very necessary."
+            }
+          ]
         },
         {
-          "en": "I'm going to need this to dry the dishes, dry my hands, wipe the table to dry my dishes on since.",
-          "tc": "從那時起我需要它來擦乾碗盤、擦乾我的手、擦桌子來擦乾我的碗碟。"
+          "en": "There is public transportation to get anywhere, and it's much cheaper and much faster!",
+          "tc": "到哪裡都有大眾運輸，而且便宜多了，也快多了！",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "There is public "
+            },
+            {
+              "type": "word",
+              "text": "transportation",
+              "targetId": "word-transportation",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-015-01"
+            },
+            {
+              "type": "text",
+              "text": " to get anywhere, and it's much cheaper and much faster!"
+            }
+          ]
         },
         {
-          "en": "I don't have a dish rack yet.",
-          "tc": "我還沒有碗盤。"
+          "en": "Here's my receipt.",
+          "tc": "這是我的收據。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Here's my "
+            },
+            {
+              "type": "word",
+              "text": "receipt",
+              "targetId": "word-receipt",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-016-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "essentials",
-          "kk": "/essentials/",
-          "partOfSpeech": "n.",
-          "meaning": "必需品",
-          "note": "看到 essentials 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "I got a bowl, of course.",
-          "tc": "當然，我有一碗。"
+          "en": "I spent $614 Mexican pesos on all of this.",
+          "tc": "這些東西總共花了我 614 墨西哥披索。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I spent $614 Mexican pesos on all of this."
+            }
+          ]
         },
         {
-          "en": "I love wooden bowls. No microlastics.",
-          "tc": "我喜歡木碗。無微塑膠。"
+          "en": "So, I had to walk to Bodega Aurrera.",
+          "tc": "所以，我只好走路去 Bodega Aurrera。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So, I had to walk to Bodega Aurrera."
+            }
+          ]
         },
         {
-          "en": "Then a glass black bowl.",
-          "tc": "然後是一個黑色的玻璃碗。"
+          "en": "It's a grocery store in Mexico.",
+          "tc": "它是墨西哥的一間雜貨店。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's a "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-019-01"
+            },
+            {
+              "type": "text",
+              "text": " store in Mexico."
+            }
+          ]
         },
         {
-          "en": "I love black dishes. And to match a black mug for my smoothies.",
-          "tc": "我喜歡黑色的菜餚。並為我的冰沙搭配黑色杯子。"
+          "en": "I have my tote bag.",
+          "tc": "我帶著我的托特包。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have my "
+            },
+            {
+              "type": "word",
+              "text": "tote bag",
+              "targetId": "word-tote-bag",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-020-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "wooden",
-          "kk": "/wooden/",
-          "partOfSpeech": "n.",
-          "meaning": "木製的",
-          "note": "看到 wooden 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "I don't drink coffee. A pan, which.",
-          "tc": "我不喝咖啡。一個平底鍋，哪個。"
+          "en": "Since I walked, I could only fill one tote bag with groceries and essentials.",
+          "tc": "因為我是走路去的，所以只能裝滿一個托特包的雜貨和必需品。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Since I walked, I could only fill one "
+            },
+            {
+              "type": "word",
+              "text": "tote bag",
+              "targetId": "word-tote-bag",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-021-01"
+            },
+            {
+              "type": "text",
+              "text": " with "
+            },
+            {
+              "type": "word",
+              "text": "groceries",
+              "targetId": "word-groceries",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-021-02"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "essentials",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-021-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I want to cook rice or pasta or soup. Anything can really be cooked in this pan. It's wide enough and deep enough. Wide and deep. To come in handy is.",
-          "tc": "我想煮飯或麵食或湯。這個鍋子裡真的什麼都能煮。它足夠寬，也足夠深。又寬又深。派上用場的是。"
+          "en": "I got one bowl, which is very important.",
+          "tc": "我買了一個碗，這非常重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got one bowl, which is very important."
+            }
+          ]
         },
         {
-          "en": "We mean something will be useful to us in the future.",
-          "tc": "我們的意思是某些東西將來對我們有用。"
+          "en": "I bought a kitchen towel.",
+          "tc": "我買了一條廚房毛巾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I bought a kitchen "
+            },
+            {
+              "type": "word",
+              "text": "towel",
+              "targetId": "word-towel",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-023-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I got dish soap. I almost forgot about this one. It's so important.",
-          "tc": "我有洗潔精。我差點忘了這件事了。這非常重要。"
+          "en": "I'm going to need this to dry the dishes, dry my hands, wipe the table, and use as a place for drying my dishes, since I don't have a dish rack yet.",
+          "tc": "我會需要用它來擦乾碗盤、擦乾手、擦桌子，也把它當作晾乾碗盤的地方，因為我還沒有碗盤架。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I'm going to need this to dry the dishes, dry my hands, wipe the table, and use as a place for drying my dishes, since I don't have a dish "
+            },
+            {
+              "type": "word",
+              "text": "rack",
+              "targetId": "word-rack",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-024-01"
+            },
+            {
+              "type": "text",
+              "text": " yet."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "important",
-          "kk": "/important/",
-          "partOfSpeech": "n.",
-          "meaning": "重要的",
-          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "I feel like you don't really think about it. You think about your couch, your fridge, your bed, your desk, your TV, your dishes,.",
-          "tc": "我感覺你根本就沒有認真思考過這個問題。你會想到你的沙發、你的冰箱、你的床、你的桌子、你的電視、你的盤子。"
+          "en": "I got a bowl, of course.",
+          "tc": "我買了一個碗，當然。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got a bowl, of course."
+            }
+          ]
         },
         {
-          "en": "You don't think about your broom, your sponge, your dish soap, your trash can.",
-          "tc": "你不會想到你的掃帚、你的海綿、你的潔淨精、你的垃圾桶。"
+          "en": "I love wooden bowls: no microplastics.",
+          "tc": "我喜歡木碗，沒有微塑膠。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love wooden bowls: no "
+            },
+            {
+              "type": "word",
+              "text": "microplastics",
+              "targetId": "word-microplastic",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-026-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "They're super important,.",
-          "tc": "它們非常重要，。"
+          "en": "Then I got a black glass bowl.",
+          "tc": "然後我買了一個黑色玻璃碗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Then I got a black glass bowl."
+            }
+          ]
         },
         {
-          "en": "We seem to forget about them.",
-          "tc": "我們似乎忘記了他們。"
+          "en": "I love black dishes.",
+          "tc": "我喜歡黑色餐具。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love black dishes."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "important",
-          "kk": "/important/",
-          "partOfSpeech": "n.",
-          "meaning": "重要的",
-          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "They're a little bit boring, but nevertheless, very important. Definitely a kitchen essential. Of course, I couldn't forget my sponge and a potato peeler.",
-          "tc": "它們有點無聊，但仍然非常重要。絕對是廚房必備品。當然，我不能忘記我的海綿和馬鈴薯削皮器。"
+          "en": "And, to match, I got a black mug for my smoothies because I don't drink coffee.",
+          "tc": "然後，為了搭配，我買了一個黑色馬克杯裝我的冰沙，因為我不喝咖啡。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And, "
+            },
+            {
+              "type": "phrase",
+              "text": "to match",
+              "targetId": "phrase-to-match",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-029-01"
+            },
+            {
+              "type": "text",
+              "text": ", I got a black "
+            },
+            {
+              "type": "word",
+              "text": "mug",
+              "targetId": "word-mug",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-029-02"
+            },
+            {
+              "type": "text",
+              "text": " for my "
+            },
+            {
+              "type": "word",
+              "text": "smoothies",
+              "targetId": "word-smoothie",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-029-03"
+            },
+            {
+              "type": "text",
+              "text": " because I don't drink coffee."
+            }
+          ]
         },
         {
-          "en": "We call this a potato peeler because it peels potatoes. You can also peel carrots or apples. Let me know in the comments what else.",
-          "tc": "我們稱之為馬鈴薯削皮器，因為它可以削馬鈴薯皮。你也可以削胡蘿蔔或蘋果皮。請在評論中告訴我還有什麼。"
+          "en": "I got a pan, which I think will come in handy when I want to cook rice, pasta, or soup.",
+          "tc": "我買了一個平底鍋，我想它以後在我想煮飯、義大利麵或湯時會派上用場。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got a "
+            },
+            {
+              "type": "word",
+              "text": "pan",
+              "targetId": "word-pan",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-030-01"
+            },
+            {
+              "type": "text",
+              "text": ", which I think will "
+            },
+            {
+              "type": "phrase",
+              "text": "come in handy",
+              "targetId": "phrase-come-in-handy",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-030-02"
+            },
+            {
+              "type": "text",
+              "text": " when I want to cook rice, "
+            },
+            {
+              "type": "word",
+              "text": "pasta",
+              "targetId": "word-pasta",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-030-03"
+            },
+            {
+              "type": "text",
+              "text": ", or soup."
+            }
+          ]
         },
         {
-          "en": "Can you peel! I also bought a knife and I bought a broom. As?",
-          "tc": "可以剥皮吗！我还买了一把刀，还买了一把扫帚。作為？"
+          "en": "Anything can really be cooked in this pan.",
+          "tc": "任何東西其實都可以用這個鍋子煮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Anything can really be cooked in this "
+            },
+            {
+              "type": "word",
+              "text": "pan",
+              "targetId": "word-pan",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-031-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I was walking home, I realized I forgot to buy a dust pan. Also, something that.",
-          "tc": "我走在回家的路上，我發現我忘了買簸箕。還有，某事。"
+          "en": "It's wide enough and deep enough.",
+          "tc": "它夠寬，也夠深。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's wide enough and deep enough."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "important",
-          "kk": "/important/",
-          "partOfSpeech": "n.",
-          "meaning": "重要的",
-          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "kitchen",
-          "kk": "/kitchen/",
-          "partOfSpeech": "n.",
-          "meaning": "廚房",
-          "note": "看到 kitchen 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "You easily forget because it's a little bit boring. I also got a strainer. This is super important for me,.",
-          "tc": "你很容易忘記，因為它有點無聊。我還得到了一個過濾器。這對我來說非常重要。"
+          "en": "It is wide and deep.",
+          "tc": "它又寬又深。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is wide and deep."
+            }
+          ]
         },
         {
-          "en": "I drink kefir every day. This is kefir.",
-          "tc": "我每天都喝開菲爾。這是開菲爾。"
+          "en": "Come in handy is an expression we use when we mean something will be useful to us in the future.",
+          "tc": "「Come in handy」是我們用來表示某個東西將來會對我們有用的說法。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Come in handy",
+              "targetId": "phrase-come-in-handy",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-034-01"
+            },
+            {
+              "type": "text",
+              "text": " is an "
+            },
+            {
+              "type": "word",
+              "text": "expression",
+              "targetId": "word-expression",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-034-02"
+            },
+            {
+              "type": "text",
+              "text": " we use when we mean something will be useful to us in the future."
+            }
+          ]
         },
         {
-          "en": "Do you know what kefir is? Let me know in the comments?",
-          "tc": "你知道開菲爾是什麼嗎？在評論中讓我知道嗎？"
+          "en": "I got dish soap.",
+          "tc": "我買了洗碗精。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I got "
+            },
+            {
+              "type": "word",
+              "text": "dish soap",
+              "targetId": "word-dish-soap",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-035-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I bought chopsticks. These are all from my trip to Thailand. In Thailand,.",
-          "tc": "我買了筷子。這些都是我泰國之旅的經驗。在泰國，."
+          "en": "I almost forgot about this one.",
+          "tc": "我差點忘了這個。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I almost "
+            },
+            {
+              "type": "phrase",
+              "text": "forgot about",
+              "targetId": "phrase-forget-about",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-036-01"
+            },
+            {
+              "type": "text",
+              "text": " this one."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "important",
-          "kk": "/important/",
-          "partOfSpeech": "n.",
-          "meaning": "重要的",
-          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "I bought so many wooden utensils. Wooden spoons, wooden little spoons.",
-          "tc": "我買了很多木器皿。木勺子，木小勺子。"
+          "en": "It's so important.",
+          "tc": "它非常重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It's so important."
+            }
+          ]
         },
         {
-          "en": "I don't know what these are for,.",
-          "tc": "我不知道這些是做什麼用的，"
+          "en": "But I feel like you don't really think about it.",
+          "tc": "但我覺得你真的不太會想到它。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "But I "
+            },
+            {
+              "type": "phrase",
+              "text": "feel like",
+              "targetId": "phrase-feel-like",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-038-01"
+            },
+            {
+              "type": "text",
+              "text": " you don't really "
+            },
+            {
+              "type": "phrase",
+              "text": "think about",
+              "targetId": "phrase-feel-like",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-038-02"
+            },
+            {
+              "type": "text",
+              "text": " it."
+            }
+          ]
         },
         {
-          "en": "They were cute. Wooden forks and more wooden spoons. I also brought along my coconut oil. To cook with. And in my cupboards, I keep a glass of honey.",
-          "tc": "他們很可愛。木叉和更多木湯匙。我還帶了椰子油。用來做菜。在我的櫥櫃裡，我放著一杯蜂蜜。"
+          "en": "You think about your couch, your fridge, your bed, your desk, your TV, and your dishes, but you don't think about your broom, your sponge, your dish soap, or your trash can.",
+          "tc": "你會想到沙發、冰箱、床、書桌、電視和碗盤，但你不會想到掃把、海綿、洗碗精或垃圾桶。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You think about your "
+            },
+            {
+              "type": "word",
+              "text": "couch",
+              "targetId": "word-couch",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-039-01"
+            },
+            {
+              "type": "text",
+              "text": ", your "
+            },
+            {
+              "type": "word",
+              "text": "fridge",
+              "targetId": "word-fridge",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-039-02"
+            },
+            {
+              "type": "text",
+              "text": ", your bed, your desk, your TV, and your dishes, but you don't think about your "
+            },
+            {
+              "type": "word",
+              "text": "broom",
+              "targetId": "word-broom",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-039-03"
+            },
+            {
+              "type": "text",
+              "text": ", your "
+            },
+            {
+              "type": "word",
+              "text": "sponge",
+              "targetId": "word-sponge",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-039-04"
+            },
+            {
+              "type": "text",
+              "text": ", your "
+            },
+            {
+              "type": "word",
+              "text": "dish soap",
+              "targetId": "word-dish-soap",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-039-05"
+            },
+            {
+              "type": "text",
+              "text": ", or your "
+            },
+            {
+              "type": "word",
+              "text": "trash can",
+              "targetId": "word-trash-can",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-039-06"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I love honey. Now, some unrelated things I bought today. Some hangers. That's also something.",
-          "tc": "我愛蜂蜜。現在，我今天買了一些不相關的東西。一些衣架。這也是一件事。"
+          "en": "They're super important, but we seem to forget about them because I think they're a little bit boring; nevertheless, they are very important.",
+          "tc": "它們超級重要，但我們似乎會忘記它們，因為我覺得它們有點無聊；不過它們仍然非常重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "They're super important, but we "
+            },
+            {
+              "type": "usage",
+              "text": "seem",
+              "targetId": "usage-seem-seem-to-v",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-040-01"
+            },
+            {
+              "type": "text",
+              "text": " to forget about them because I think they're a little bit boring; "
+            },
+            {
+              "type": "word",
+              "text": "nevertheless",
+              "targetId": "word-nevertheless",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-040-02"
+            },
+            {
+              "type": "text",
+              "text": ", they are very important."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：日常生活",
-      "titleEn": "Part 11: everyday life",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "I think you don't realize you need until you're in a new apartment.",
-          "tc": "這裡是在描述日常生活，可以把重點放在整句的主詞和動作。"
+          "en": "It is definitely a kitchen essential.",
+          "tc": "它絕對是廚房必需品。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is definitely a kitchen "
+            },
+            {
+              "type": "word",
+              "text": "essential",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-041-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "One thing that you always forget about? You're at the grocery store shopping for essentials... And you head home,.",
-          "tc": "這裡是在描述食物與用餐，可以把重點放在整句的主詞和動作。"
+          "en": "Of course, I couldn't forget my sponge and a potato peeler.",
+          "tc": "當然，我不能忘了我的海綿和馬鈴薯削皮器。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Of course, I couldn't forget my "
+            },
+            {
+              "type": "word",
+              "text": "sponge",
+              "targetId": "word-sponge",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-042-01"
+            },
+            {
+              "type": "text",
+              "text": " and a potato "
+            },
+            {
+              "type": "word",
+              "text": "peeler",
+              "targetId": "word-peeler",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-042-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Then you realize, UGH I forgot again. And what's your favorite thing to buy at the grocery store? Now, let me show.",
-          "tc": "然後你意識到，呃，我又忘了。你最喜歡在雜貨店買什麼？現在，讓我展示一下。"
+          "en": "We call this a potato peeler because it peels potatoes.",
+          "tc": "我們叫它馬鈴薯削皮器，因為它會削馬鈴薯皮。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "We call this a potato "
+            },
+            {
+              "type": "word",
+              "text": "peeler",
+              "targetId": "word-peeler",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-043-01"
+            },
+            {
+              "type": "text",
+              "text": " because it "
+            },
+            {
+              "type": "word",
+              "text": "peels",
+              "targetId": "word-peel",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-043-02"
+            },
+            {
+              "type": "text",
+              "text": " potatoes."
+            }
+          ]
         },
         {
-          "en": "You a little bit of what I did today. Some things I already bought for my apartment. Please excuse the mess.",
-          "tc": "你稍微了解一下我今天所做的事情。我已經為我的公寓買了一些東西。請原諒混亂。"
+          "en": "You can also peel carrots or apples.",
+          "tc": "你也可以削紅蘿蔔或蘋果。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You can also "
+            },
+            {
+              "type": "word",
+              "text": "peel",
+              "targetId": "word-peel",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-044-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "word",
+              "text": "carrots",
+              "targetId": "word-carrot",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-044-02"
+            },
+            {
+              "type": "text",
+              "text": " or apples."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "essentials",
-          "kk": "/essentials/",
-          "partOfSpeech": "n.",
-          "meaning": "必需品",
-          "note": "看到 essentials 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：日常生活",
-      "titleEn": "Part 12: everyday life",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "I already bought a mattress for my room. I also bought some toothpaste, some hand soap, a new toothbrush, and a 30 pack of toilet paper.",
-          "tc": "我已經為我的房間買了床墊。我還買了一些牙膏，一些洗手液，一把新牙刷，還有30包衛生紙。"
+          "en": "Let me know in the comments what else you can peel!",
+          "tc": "請在留言區告訴我，你還可以削什麼！",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Let me know",
+              "targetId": "phrase-in-the-comments",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-045-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "in the comments",
+              "targetId": "phrase-in-the-comments",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-045-02"
+            },
+            {
+              "type": "text",
+              "text": " what else you can "
+            },
+            {
+              "type": "word",
+              "text": "peel",
+              "targetId": "word-peel",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-045-03"
+            },
+            {
+              "type": "text",
+              "text": "!"
+            }
+          ]
         },
         {
-          "en": "I forgot while I was editing my video to mention. I also got one more kitchen essential, a blender. Very important for me.",
-          "tc": "我在編輯影片時忘了提及。我還買了一件廚房必需品，攪拌機。對我來說非常重要。"
+          "en": "I also bought a knife, and I bought a broom.",
+          "tc": "我也買了一把刀，也買了一支掃把。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also bought a "
+            },
+            {
+              "type": "word",
+              "text": "knife",
+              "targetId": "word-knife",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-046-01"
+            },
+            {
+              "type": "text",
+              "text": ", and I bought a "
+            },
+            {
+              "type": "word",
+              "text": "broom",
+              "targetId": "word-broom",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-046-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I need my smoothies every morning. Kefir, milk. Hi. Bananas, milk, kefir, and honey. Also, I forgot to mention. I bought detergent to wash my clothes. Now,.",
-          "tc": "我每天早上都需要冰沙。克菲爾，牛奶。你好。香蕉、牛奶、克菲爾和蜂蜜。另外，我忘了提及。我買了洗衣粉來洗衣服。現在，。"
+          "en": "As I was walking home, I realized I forgot to buy a dustpan.",
+          "tc": "我走回家的時候，才發現我忘了買畚斗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "As I was walking home, I realized I forgot to buy a "
+            },
+            {
+              "type": "word",
+              "text": "dustpan",
+              "targetId": "word-dustpan",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-047-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I think those are all the essentials I bought today, but stick around for more videos to come about essentials in your house. This is my.",
-          "tc": "我想這些就是我今天買的所有必需品，但請繼續觀看更多有關你家裡必需品的影片。這是我的。"
+          "en": "It is also something that you easily forget because it's a little bit boring.",
+          "tc": "這也是你很容易忘記的東西，因為它有點無聊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is also something that you easily forget because it's a little bit boring."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "essentials",
-          "kk": "/essentials/",
-          "partOfSpeech": "n.",
-          "meaning": "必需品",
-          "note": "看到 essentials 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "important",
-          "kk": "/important/",
-          "partOfSpeech": "n.",
-          "meaning": "重要的",
-          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-13",
       "no": "13",
-      "titleZh": "第 13 段：日常生活",
-      "titleEn": "Part 13: everyday life",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
       "sentences": [
         {
-          "en": "First time living alone,.",
-          "tc": "第一次一個人住，。"
+          "en": "I also got a strainer.",
+          "tc": "我也買了一個濾網。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also got a "
+            },
+            {
+              "type": "word",
+              "text": "strainer",
+              "targetId": "word-strainer",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-049-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I'm going to be buying lots of essentials that I never had to buy before. Let me know in the comments.",
-          "tc": "我將購買許多以前從未購買過的必需品。請在評論中告訴我。"
+          "en": "This is super important for me because I drink kefir every day.",
+          "tc": "這對我來說超級重要，因為我每天都喝克菲爾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is super important for me because I drink "
+            },
+            {
+              "type": "word",
+              "text": "kefir",
+              "targetId": "word-kefir",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-050-01"
+            },
+            {
+              "type": "text",
+              "text": " every day."
+            }
+          ]
         },
         {
-          "en": "If you enjoyed this video. Don't forget to subscribe and turn on the bell notifications.",
-          "tc": "如果你喜歡這個視頻。不要忘記訂閱並打開鈴聲通知。"
+          "en": "This is kefir.",
+          "tc": "這就是克菲爾。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is "
+            },
+            {
+              "type": "word",
+              "text": "kefir",
+              "targetId": "word-kefir",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-051-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "You can be notified every time I post a new video. Remember guys, never stop learning.",
-          "tc": "每次我發布新影片時你都會收到通知。記住夥計們，永遠不要停止學習。"
+          "en": "Do you know what kefir is?",
+          "tc": "你知道克菲爾是什麼嗎？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Do you know what "
+            },
+            {
+              "type": "word",
+              "text": "kefir",
+              "targetId": "word-kefir",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-052-01"
+            },
+            {
+              "type": "text",
+              "text": " is?"
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "essentials",
-          "kk": "/essentials/",
-          "partOfSpeech": "n.",
-          "meaning": "必需品",
-          "note": "看到 essentials 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-14",
       "no": "14",
-      "titleZh": "第 14 段：心態與目標",
-      "titleEn": "Part 14: mindset",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
       "sentences": [
         {
-          "en": "I hope you learned something today. Have an amazing rest of your day. Bye.",
-          "tc": "我希望你今天學到了一些東西。度過愉快的一天。再見。"
+          "en": "Let me know in the comments.",
+          "tc": "請在留言區告訴我。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Let me know",
+              "targetId": "phrase-in-the-comments",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-053-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "in the comments",
+              "targetId": "phrase-in-the-comments",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-053-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "I bought chopsticks.",
+          "tc": "我買了筷子。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I bought "
+            },
+            {
+              "type": "word",
+              "text": "chopsticks",
+              "targetId": "word-chopsticks",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-054-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "These are all from my trip to Thailand.",
+          "tc": "這些都是我去泰國旅行時帶回來的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "These are all from my trip to Thailand."
+            }
+          ]
+        },
+        {
+          "en": "In Thailand, I bought so many wooden utensils: wooden spoons and little wooden spoons.",
+          "tc": "在泰國，我買了好多木製餐具：木湯匙和小木湯匙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "In Thailand, I bought so many wooden "
+            },
+            {
+              "type": "word",
+              "text": "utensils",
+              "targetId": "word-utensil",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-056-01"
+            },
+            {
+              "type": "text",
+              "text": ": wooden spoons and little wooden spoons."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
         {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I don't know the purpose of these, but they were cute.",
+          "tc": "我不知道這些的用途是什麼，但它們很可愛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I don't know the purpose of these, but they were cute."
+            }
+          ]
         },
         {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I bought wooden forks and more wooden spoons.",
+          "tc": "我買了木叉子和更多木湯匙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I bought wooden forks and more wooden spoons."
+            }
+          ]
         },
         {
-          "english": "essentials",
-          "kk": "/essentials/",
-          "partOfSpeech": "n.",
-          "meaning": "必需品",
-          "note": "看到 essentials 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I also brought along my coconut oil for cooking.",
+          "tc": "我也帶了我的椰子油來煮東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also "
+            },
+            {
+              "type": "phrase",
+              "text": "brought along",
+              "targetId": "phrase-bring-along",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-059-01"
+            },
+            {
+              "type": "text",
+              "text": " my "
+            },
+            {
+              "type": "word",
+              "text": "coconut oil",
+              "targetId": "word-coconut-oil",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-059-02"
+            },
+            {
+              "type": "text",
+              "text": " for cooking."
+            }
+          ]
+        },
+        {
+          "en": "In my cupboards, I keep a jar of honey.",
+          "tc": "在我的櫥櫃裡，我放了一罐蜂蜜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "In my "
+            },
+            {
+              "type": "word",
+              "text": "cupboards",
+              "targetId": "word-cupboard",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-060-01"
+            },
+            {
+              "type": "text",
+              "text": ", I keep a "
+            },
+            {
+              "type": "word",
+              "text": "jar",
+              "targetId": "word-jar",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-060-02"
+            },
+            {
+              "type": "text",
+              "text": " of honey."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "I love honey.",
+          "tc": "我喜歡蜂蜜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love honey."
+            }
+          ]
+        },
+        {
+          "en": "Now, here are some unrelated things I bought today: some hangers.",
+          "tc": "接著，是我今天買的一些無關的東西：一些衣架。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, here are some "
+            },
+            {
+              "type": "word",
+              "text": "unrelated",
+              "targetId": "word-unrelated",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-062-01"
+            },
+            {
+              "type": "text",
+              "text": " things I bought today: some "
+            },
+            {
+              "type": "word",
+              "text": "hangers",
+              "targetId": "word-hanger",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-062-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "That's also something I think you don't realize you need until you're in a new apartment.",
+          "tc": "那也是我覺得你到新公寓之前不會發現自己需要的東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "That's also something I think you don't realize you need until you're in a new "
+            },
+            {
+              "type": "word",
+              "text": "apartment",
+              "targetId": "word-apartment",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-063-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "What is one thing that you always forget about?",
+          "tc": "有哪一樣東西是你總是會忘記的？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What is one thing that you always "
+            },
+            {
+              "type": "phrase",
+              "text": "forget about",
+              "targetId": "phrase-forget-about",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-064-01"
+            },
+            {
+              "type": "text",
+              "text": "?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "You're at the grocery store shopping for essentials, and you head home, and then you realize, \"Ugh, I forgot again.\"",
+          "tc": "你在雜貨店買必需品，然後你回家，接著你發現：「唉，我又忘了。」",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "You're at the "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-065-01"
+            },
+            {
+              "type": "text",
+              "text": " store shopping for "
+            },
+            {
+              "type": "word",
+              "text": "essentials",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-065-02"
+            },
+            {
+              "type": "text",
+              "text": ", and you "
+            },
+            {
+              "type": "usage",
+              "text": "head",
+              "targetId": "usage-head-head-home",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-065-03"
+            },
+            {
+              "type": "text",
+              "text": " home, and then you realize, \"Ugh, I forgot again.\""
+            }
+          ]
+        },
+        {
+          "en": "And what's your favorite thing to buy at the grocery store?",
+          "tc": "那你最喜歡在雜貨店買什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And what's your favorite thing to buy at the "
+            },
+            {
+              "type": "word",
+              "text": "grocery",
+              "targetId": "word-grocery",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-066-01"
+            },
+            {
+              "type": "text",
+              "text": " store?"
+            }
+          ]
+        },
+        {
+          "en": "Now, let me show you a little bit of what I did today.",
+          "tc": "現在，讓我給你看一點我今天做了什麼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, let me show you a little bit of what I did today."
+            }
+          ]
+        },
+        {
+          "en": "Here are some things I already bought for my apartment.",
+          "tc": "這些是我已經為公寓買的一些東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Here are some things I already bought for my "
+            },
+            {
+              "type": "word",
+              "text": "apartment",
+              "targetId": "word-apartment",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-068-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "Please excuse the mess.",
+          "tc": "請原諒這裡有點亂。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Please excuse the mess."
+            }
+          ]
+        },
+        {
+          "en": "I already bought a mattress for my room.",
+          "tc": "我已經為房間買了一張床墊。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I already bought a "
+            },
+            {
+              "type": "word",
+              "text": "mattress",
+              "targetId": "word-mattress",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-070-01"
+            },
+            {
+              "type": "text",
+              "text": " for my room."
+            }
+          ]
+        },
+        {
+          "en": "I also bought some toothpaste, some hand soap, a new toothbrush, and a 30-pack of toilet paper.",
+          "tc": "我也買了一些牙膏、洗手乳、一支新牙刷，還有一包 30 入的衛生紙。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I also bought some "
+            },
+            {
+              "type": "word",
+              "text": "toothpaste",
+              "targetId": "word-toothpaste",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-071-01"
+            },
+            {
+              "type": "text",
+              "text": ", some "
+            },
+            {
+              "type": "word",
+              "text": "hand soap",
+              "targetId": "word-hand-soap",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-071-02"
+            },
+            {
+              "type": "text",
+              "text": ", a new "
+            },
+            {
+              "type": "word",
+              "text": "toothbrush",
+              "targetId": "word-toothbrush",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-071-03"
+            },
+            {
+              "type": "text",
+              "text": ", and a 30-pack of toilet paper."
+            }
+          ]
+        },
+        {
+          "en": "While I was editing my video, I forgot to mention that I also got one more kitchen essential: a blender.",
+          "tc": "我在剪影片時忘了提到，我還買了一樣廚房必需品：一台果汁機。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "While I was "
+            },
+            {
+              "type": "word",
+              "text": "editing",
+              "targetId": "word-edit",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-072-01"
+            },
+            {
+              "type": "text",
+              "text": " my video, I forgot to mention that I also got one more kitchen "
+            },
+            {
+              "type": "word",
+              "text": "essential",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-072-02"
+            },
+            {
+              "type": "text",
+              "text": ": a "
+            },
+            {
+              "type": "word",
+              "text": "blender",
+              "targetId": "word-blender",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-072-03"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "It is very important for me.",
+          "tc": "它對我來說非常重要。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "It is very important for me."
+            }
+          ]
+        },
+        {
+          "en": "I need my smoothies every morning: kefir and milk.",
+          "tc": "我每天早上都需要我的冰沙：克菲爾和牛奶。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I need my "
+            },
+            {
+              "type": "word",
+              "text": "smoothies",
+              "targetId": "word-smoothie",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-074-01"
+            },
+            {
+              "type": "text",
+              "text": " every morning: "
+            },
+            {
+              "type": "word",
+              "text": "kefir",
+              "targetId": "word-kefir",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-074-02"
+            },
+            {
+              "type": "text",
+              "text": " and milk."
+            }
+          ]
+        },
+        {
+          "en": "Hi.",
+          "tc": "嗨。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hi."
+            }
+          ]
+        },
+        {
+          "en": "I use bananas, milk, kefir, and honey.",
+          "tc": "我會用香蕉、牛奶、克菲爾和蜂蜜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I use bananas, milk, "
+            },
+            {
+              "type": "word",
+              "text": "kefir",
+              "targetId": "word-kefir",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-076-01"
+            },
+            {
+              "type": "text",
+              "text": ", and honey."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "Also, I forgot to mention that I bought detergent to wash my clothes.",
+          "tc": "還有，我忘了提到我買了洗衣精來洗衣服。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Also, I forgot to mention that I bought "
+            },
+            {
+              "type": "word",
+              "text": "detergent",
+              "targetId": "word-detergent",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-077-01"
+            },
+            {
+              "type": "text",
+              "text": " to wash my clothes."
+            }
+          ]
+        },
+        {
+          "en": "Now, I think those are all the essentials I bought today, but stick around for more videos to come about essentials in your house.",
+          "tc": "現在，我想這些就是我今天買的所有必需品，但請繼續關注之後更多關於家中必需品的影片。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Now, I think those are all the "
+            },
+            {
+              "type": "word",
+              "text": "essentials",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-078-01"
+            },
+            {
+              "type": "text",
+              "text": " I bought today, but "
+            },
+            {
+              "type": "phrase",
+              "text": "stick around",
+              "targetId": "phrase-stick-around",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-078-02"
+            },
+            {
+              "type": "text",
+              "text": " for more videos to come about "
+            },
+            {
+              "type": "word",
+              "text": "essentials",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-078-03"
+            },
+            {
+              "type": "text",
+              "text": " in your house."
+            }
+          ]
+        },
+        {
+          "en": "This is my first time living alone, so I'm going to be buying lots of essentials that I never had to buy before.",
+          "tc": "這是我第一次獨居，所以我會買很多以前從來不需要自己買的必需品。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This is my first time living alone, so I'm going to be buying lots of "
+            },
+            {
+              "type": "word",
+              "text": "essentials",
+              "targetId": "word-essential",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-079-01"
+            },
+            {
+              "type": "text",
+              "text": " that I never had to buy before."
+            }
+          ]
+        },
+        {
+          "en": "Let me know in the comments if you enjoyed this video.",
+          "tc": "如果你喜歡這支影片，請在留言區告訴我。",
+          "englishTokens": [
+            {
+              "type": "phrase",
+              "text": "Let me know",
+              "targetId": "phrase-in-the-comments",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-080-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "phrase",
+              "text": "in the comments",
+              "targetId": "phrase-in-the-comments",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-080-02"
+            },
+            {
+              "type": "text",
+              "text": " if you enjoyed this video."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-21",
+      "no": "21",
+      "titleZh": "第 21 段",
+      "titleEn": "Part 21",
+      "sentences": [
+        {
+          "en": "Don't forget to subscribe and turn on the bell notifications so you can be notified every time I post a new video.",
+          "tc": "別忘了訂閱並開啟鈴鐺通知，這樣每次我發布新影片時，你都能收到通知。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Don't forget to "
+            },
+            {
+              "type": "word",
+              "text": "subscribe",
+              "targetId": "word-subscribe",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-081-01"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "phrase",
+              "text": "turn on",
+              "targetId": "phrase-turn-on",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-081-02"
+            },
+            {
+              "type": "text",
+              "text": " the bell "
+            },
+            {
+              "type": "word",
+              "text": "notifications",
+              "targetId": "word-notification",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-081-03"
+            },
+            {
+              "type": "text",
+              "text": " so you can be "
+            },
+            {
+              "type": "word",
+              "text": "notified",
+              "targetId": "word-notify",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-081-04"
+            },
+            {
+              "type": "text",
+              "text": " every time I "
+            },
+            {
+              "type": "usage",
+              "text": "post",
+              "targetId": "usage-post-item",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-081-05"
+            },
+            {
+              "type": "text",
+              "text": " a new video."
+            }
+          ]
+        },
+        {
+          "en": "Remember, guys, never stop learning.",
+          "tc": "大家記得，永遠不要停止學習。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Remember, guys, never stop learning."
+            }
+          ]
+        },
+        {
+          "en": "I hope you learned something today.",
+          "tc": "希望你今天學到了一些東西。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I hope you learned something today."
+            }
+          ]
+        },
+        {
+          "en": "Have an amazing rest of your day.",
+          "tc": "祝你今天剩下的時間非常美好。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Have an "
+            },
+            {
+              "type": "word",
+              "text": "amazing",
+              "targetId": "word-amazing",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-084-01"
+            },
+            {
+              "type": "text",
+              "text": " "
+            },
+            {
+              "type": "usage",
+              "text": "rest",
+              "targetId": "usage-rest-the-rest-of",
+              "instanceId": "marker-b1-ch18-english-kitchen-vocabulary-comprehensible-input-084-02"
+            },
+            {
+              "type": "text",
+              "text": " of your day."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-22",
+      "no": "22",
+      "titleZh": "第 22 段",
+      "titleEn": "Part 22",
+      "sentences": [
+        {
+          "en": "Bye.",
+          "tc": "掰掰。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -674,153 +2090,782 @@
       "title": "B1 重點單字",
       "items": [
         {
-          "english": "bought",
-          "kk": "/bought/",
-          "partOfSpeech": "n.",
-          "meaning": "買",
-          "note": "看到 bought 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "don't",
-          "kk": "/don't/",
-          "partOfSpeech": "n.",
-          "meaning": "不",
-          "note": "看到 don't 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
+          "id": "word-essential",
+          "lemma": "essential",
           "english": "essentials",
-          "kk": "/essentials/",
-          "partOfSpeech": "n.",
+          "kk": "/ɪˈsɛnʃəl/",
+          "partOfSpeech": "noun",
           "meaning": "必需品",
-          "note": "看到 essentials 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "important",
-          "kk": "/important/",
-          "partOfSpeech": "n.",
-          "meaning": "重要的",
-          "note": "看到 important 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-grocery",
+          "lemma": "grocery",
+          "english": "grocery",
+          "kk": "/ˈɡroʊsəri/",
+          "partOfSpeech": "noun/adjective",
+          "meaning": "雜貨；食品雜貨的",
+          "highlight": true
         },
         {
-          "english": "kitchen",
-          "kk": "/kitchen/",
-          "partOfSpeech": "n.",
-          "meaning": "廚房",
-          "note": "看到 kitchen 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-apartment",
+          "lemma": "apartment",
+          "english": "apartment",
+          "kk": "/əˈpɑrtmənt/",
+          "partOfSpeech": "noun",
+          "meaning": "公寓",
+          "highlight": true
         },
         {
-          "english": "know",
-          "kk": "/know/",
-          "partOfSpeech": "n.",
-          "meaning": "知道",
-          "note": "看到 know 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-mattress",
+          "lemma": "mattress",
+          "english": "mattress",
+          "kk": "/ˈmætrəs/",
+          "partOfSpeech": "noun",
+          "meaning": "床墊",
+          "highlight": true
         },
         {
-          "english": "think",
-          "kk": "/think/",
-          "partOfSpeech": "v.",
-          "meaning": "思考",
-          "note": "看到 think 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-transportation",
+          "lemma": "transportation",
+          "english": "transportation",
+          "kk": "/ˌtrænspɚˈteʃən/",
+          "partOfSpeech": "noun",
+          "meaning": "交通運輸",
+          "highlight": true
         },
         {
-          "english": "wooden",
-          "kk": "/wooden/",
-          "partOfSpeech": "n.",
-          "meaning": "木製的",
-          "note": "看到 wooden 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-receipt",
+          "lemma": "receipt",
+          "english": "receipt",
+          "kk": "/rɪˈsit/",
+          "partOfSpeech": "noun",
+          "meaning": "收據",
+          "highlight": true
+        },
+        {
+          "id": "word-tote-bag",
+          "lemma": "tote bag",
+          "english": "tote bag",
+          "kk": "/ˈtoʊt ˌbæɡ/",
+          "partOfSpeech": "noun",
+          "meaning": "托特包；大手提袋",
+          "highlight": true
+        },
+        {
+          "id": "word-groceries",
+          "lemma": "groceries",
+          "english": "groceries",
+          "kk": "/ˈɡroʊsəriz/",
+          "partOfSpeech": "noun",
+          "meaning": "雜貨；食品用品",
+          "highlight": true
+        },
+        {
+          "id": "word-towel",
+          "lemma": "towel",
+          "english": "towel",
+          "kk": "/ˈtaʊəl/",
+          "partOfSpeech": "noun",
+          "meaning": "毛巾",
+          "highlight": true
+        },
+        {
+          "id": "word-rack",
+          "lemma": "rack",
+          "english": "rack",
+          "kk": "/ræk/",
+          "partOfSpeech": "noun",
+          "meaning": "架子",
+          "highlight": true
+        },
+        {
+          "id": "word-microplastic",
+          "lemma": "microplastic",
+          "english": "microplastics",
+          "kk": "/ˌmaɪkroʊˈplæstɪks/",
+          "partOfSpeech": "noun",
+          "meaning": "微塑膠",
+          "highlight": true
+        },
+        {
+          "id": "word-mug",
+          "lemma": "mug",
+          "english": "mug",
+          "kk": "/mʌɡ/",
+          "partOfSpeech": "noun",
+          "meaning": "馬克杯",
+          "highlight": true
+        },
+        {
+          "id": "word-smoothie",
+          "lemma": "smoothie",
+          "english": "smoothies",
+          "kk": "/ˈsmuðiz/",
+          "partOfSpeech": "noun",
+          "meaning": "冰沙；果昔",
+          "highlight": true
+        },
+        {
+          "id": "word-pan",
+          "lemma": "pan",
+          "english": "pan",
+          "kk": "/pæn/",
+          "partOfSpeech": "noun",
+          "meaning": "平底鍋；鍋子",
+          "highlight": true
+        },
+        {
+          "id": "word-pasta",
+          "lemma": "pasta",
+          "english": "pasta",
+          "kk": "/ˈpɑstə/",
+          "partOfSpeech": "noun",
+          "meaning": "義大利麵",
+          "highlight": true
+        },
+        {
+          "id": "word-expression",
+          "lemma": "expression",
+          "english": "expression",
+          "kk": "/ɪkˈsprɛʃən/",
+          "partOfSpeech": "noun",
+          "meaning": "表達；說法",
+          "highlight": true
+        },
+        {
+          "id": "word-dish-soap",
+          "lemma": "dish soap",
+          "english": "dish soap",
+          "kk": "/ˈdɪʃ ˌsoʊp/",
+          "partOfSpeech": "noun",
+          "meaning": "洗碗精",
+          "highlight": true
+        },
+        {
+          "id": "word-couch",
+          "lemma": "couch",
+          "english": "couch",
+          "kk": "/kaʊtʃ/",
+          "partOfSpeech": "noun",
+          "meaning": "沙發",
+          "highlight": true
+        },
+        {
+          "id": "word-fridge",
+          "lemma": "fridge",
+          "english": "fridge",
+          "kk": "/frɪdʒ/",
+          "partOfSpeech": "noun",
+          "meaning": "冰箱",
+          "highlight": true
+        },
+        {
+          "id": "word-broom",
+          "lemma": "broom",
+          "english": "broom",
+          "kk": "/brum/",
+          "partOfSpeech": "noun",
+          "meaning": "掃把",
+          "highlight": true
+        },
+        {
+          "id": "word-sponge",
+          "lemma": "sponge",
+          "english": "sponge",
+          "kk": "/spʌndʒ/",
+          "partOfSpeech": "noun",
+          "meaning": "海綿",
+          "highlight": true
+        },
+        {
+          "id": "word-trash-can",
+          "lemma": "trash can",
+          "english": "trash can",
+          "kk": "/ˈtræʃ ˌkæn/",
+          "partOfSpeech": "noun",
+          "meaning": "垃圾桶",
+          "highlight": true
+        },
+        {
+          "id": "word-nevertheless",
+          "lemma": "nevertheless",
+          "english": "nevertheless",
+          "kk": "/ˌnɛvɚðəˈlɛs/",
+          "partOfSpeech": "adverb",
+          "meaning": "然而；儘管如此",
+          "highlight": true
+        },
+        {
+          "id": "word-peeler",
+          "lemma": "peeler",
+          "english": "peeler",
+          "kk": "/ˈpilɚ/",
+          "partOfSpeech": "noun",
+          "meaning": "削皮器",
+          "highlight": true
+        },
+        {
+          "id": "word-peel",
+          "lemma": "peel",
+          "english": "peel",
+          "kk": "/pil/",
+          "partOfSpeech": "verb",
+          "meaning": "削皮；剝皮",
+          "highlight": true
+        },
+        {
+          "id": "word-carrot",
+          "lemma": "carrot",
+          "english": "carrots",
+          "kk": "/ˈkærəts/",
+          "partOfSpeech": "noun",
+          "meaning": "紅蘿蔔",
+          "highlight": true
+        },
+        {
+          "id": "word-knife",
+          "lemma": "knife",
+          "english": "knife",
+          "kk": "/naɪf/",
+          "partOfSpeech": "noun",
+          "meaning": "刀子",
+          "highlight": true
+        },
+        {
+          "id": "word-dustpan",
+          "lemma": "dustpan",
+          "english": "dustpan",
+          "kk": "/ˈdʌstˌpæn/",
+          "partOfSpeech": "noun",
+          "meaning": "畚斗；簸箕",
+          "highlight": true
+        },
+        {
+          "id": "word-strainer",
+          "lemma": "strainer",
+          "english": "strainer",
+          "kk": "/ˈstrenɚ/",
+          "partOfSpeech": "noun",
+          "meaning": "濾網；濾器",
+          "highlight": true
+        },
+        {
+          "id": "word-kefir",
+          "lemma": "kefir",
+          "english": "kefir",
+          "kk": "/kəˈfɪr/",
+          "partOfSpeech": "noun",
+          "meaning": "克菲爾；發酵乳飲品",
+          "highlight": true
+        },
+        {
+          "id": "word-chopsticks",
+          "lemma": "chopsticks",
+          "english": "chopsticks",
+          "kk": "/ˈtʃɑpˌstɪks/",
+          "partOfSpeech": "noun",
+          "meaning": "筷子",
+          "highlight": true
+        },
+        {
+          "id": "word-utensil",
+          "lemma": "utensil",
+          "english": "utensils",
+          "kk": "/juˈtɛnsəlz/",
+          "partOfSpeech": "noun",
+          "meaning": "器具；餐具",
+          "highlight": true
+        },
+        {
+          "id": "word-coconut-oil",
+          "lemma": "coconut oil",
+          "english": "coconut oil",
+          "kk": "/ˈkoʊkənʌt ɔɪl/",
+          "partOfSpeech": "noun",
+          "meaning": "椰子油",
+          "highlight": true
+        },
+        {
+          "id": "word-cupboard",
+          "lemma": "cupboard",
+          "english": "cupboards",
+          "kk": "/ˈkʌbɚdz/",
+          "partOfSpeech": "noun",
+          "meaning": "櫥櫃",
+          "highlight": true
+        },
+        {
+          "id": "word-jar",
+          "lemma": "jar",
+          "english": "jar",
+          "kk": "/dʒɑr/",
+          "partOfSpeech": "noun",
+          "meaning": "罐子",
+          "highlight": true
+        },
+        {
+          "id": "word-unrelated",
+          "lemma": "unrelated",
+          "english": "unrelated",
+          "kk": "/ˌʌnrɪˈletɪd/",
+          "partOfSpeech": "adjective",
+          "meaning": "無關的",
+          "highlight": true
+        },
+        {
+          "id": "word-hanger",
+          "lemma": "hanger",
+          "english": "hangers",
+          "kk": "/ˈhæŋɚz/",
+          "partOfSpeech": "noun",
+          "meaning": "衣架",
+          "highlight": true
+        },
+        {
+          "id": "word-toothpaste",
+          "lemma": "toothpaste",
+          "english": "toothpaste",
+          "kk": "/ˈtuθˌpest/",
+          "partOfSpeech": "noun",
+          "meaning": "牙膏",
+          "highlight": true
+        },
+        {
+          "id": "word-hand-soap",
+          "lemma": "hand soap",
+          "english": "hand soap",
+          "kk": "/ˈhænd ˌsoʊp/",
+          "partOfSpeech": "noun",
+          "meaning": "洗手乳；洗手皂",
+          "highlight": true
+        },
+        {
+          "id": "word-toothbrush",
+          "lemma": "toothbrush",
+          "english": "toothbrush",
+          "kk": "/ˈtuθˌbrʌʃ/",
+          "partOfSpeech": "noun",
+          "meaning": "牙刷",
+          "highlight": true
+        },
+        {
+          "id": "word-edit",
+          "lemma": "edit",
+          "english": "editing",
+          "kk": "/ˈɛdətɪŋ/",
+          "partOfSpeech": "gerund/verb",
+          "meaning": "剪輯；編輯",
+          "highlight": true
+        },
+        {
+          "id": "word-blender",
+          "lemma": "blender",
+          "english": "blender",
+          "kk": "/ˈblɛndɚ/",
+          "partOfSpeech": "noun",
+          "meaning": "果汁機；攪拌機",
+          "highlight": true
+        },
+        {
+          "id": "word-detergent",
+          "lemma": "detergent",
+          "english": "detergent",
+          "kk": "/dɪˈtɝdʒənt/",
+          "partOfSpeech": "noun",
+          "meaning": "洗衣精；清潔劑",
+          "highlight": true
+        },
+        {
+          "id": "word-subscribe",
+          "lemma": "subscribe",
+          "english": "subscribe",
+          "kk": "/səbˈskraɪb/",
+          "partOfSpeech": "verb",
+          "meaning": "訂閱",
+          "highlight": true
+        },
+        {
+          "id": "word-notification",
+          "lemma": "notification",
+          "english": "notifications",
+          "kk": "/ˌnoʊtəfəˈkeʃənz/",
+          "partOfSpeech": "noun",
+          "meaning": "通知",
+          "highlight": true
+        },
+        {
+          "id": "word-notify",
+          "lemma": "notify",
+          "english": "notified",
+          "kk": "/ˈnoʊtəˌfaɪd/",
+          "partOfSpeech": "verb, past participle",
+          "meaning": "收到通知；被通知",
+          "highlight": true
+        },
+        {
+          "id": "word-amazing",
+          "lemma": "amazing",
+          "english": "amazing",
+          "kk": "/əˈmezɪŋ/",
+          "partOfSpeech": "adjective",
+          "meaning": "很棒的；令人驚喜的",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
-      "phrase": "going to",
-      "meaning": "去",
+      "id": "phrase-come-back-from",
+      "phrase": "come back from",
+      "meaning": "從某個地方返回，常和 just 表示剛回來",
       "examples": [
         {
-          "en": "I'm going to need this to dry the dishes, dry my hands, wipe the table to dry my dishes on since.",
-          "tc": "從那時起我需要它來擦乾碗盤、擦乾我的手、擦桌子來擦乾我的碗碟。"
+          "en": "I have just __come back from__ the **grocery** store.",
+          "tc": "從某個地方返回，常和 just 表示剛回來"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-think-about",
+      "phrase": "think about",
+      "meaning": "想到；考慮",
       "examples": [
         {
-          "en": "I want to cook rice or pasta or soup.",
-          "tc": "我想煮飯或麵食或湯。"
+          "en": "I am renting a new **apartment**, and it needs to be 《furnished》 with all of the **essentials** it needs, the things we don't even __think about__!",
+          "tc": "想到；考慮"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "need to",
-      "meaning": "需要",
+      "id": "phrase-move-in",
+      "phrase": "move in",
+      "meaning": "搬進新住處",
       "examples": [
         {
-          "en": "I need to go to the store again, and buy some kitchen essentials.",
-          "tc": "我需要再次去商店，買一些廚房必需品。"
+          "en": "I __moved in__ this morning, and my room is almost finished.",
+          "tc": "搬進新住處"
         }
+      ]
+    },
+    {
+      "id": "phrase-even-if",
+      "phrase": "even if",
+      "meaning": "即使；就算某情況是真的",
+      "examples": [
+        {
+          "en": "I don't have a car, and __even if__ I did, I don't know how to drive.",
+          "tc": "即使；就算某情況是真的"
+        }
+      ]
+    },
+    {
+      "id": "phrase-to-match",
+      "phrase": "to match",
+      "meaning": "為了搭配前面提到的東西",
+      "examples": [
+        {
+          "en": "And, __to match__, I got a black **mug** for my **smoothies** because I don't drink coffee.",
+          "tc": "為了搭配前面提到的東西"
+        }
+      ]
+    },
+    {
+      "id": "phrase-come-in-handy",
+      "phrase": "come in handy",
+      "meaning": "派上用場；變得有用",
+      "examples": [
+        {
+          "en": "I got a **pan**, which I think will __come in handy__ when I want to cook rice, **pasta**, or soup.",
+          "tc": "派上用場；變得有用"
+        }
+      ]
+    },
+    {
+      "id": "phrase-forget-about",
+      "phrase": "forget about",
+      "meaning": "忘了某個東西或某件事的存在",
+      "examples": [
+        {
+          "en": "I almost __forgot about__ this one.",
+          "tc": "忘了某個東西或某件事的存在"
+        },
+        {
+          "en": "What is one thing that you always __forget about__?",
+          "tc": "忘了某個東西或某件事的存在"
+        }
+      ]
+    },
+    {
+      "id": "phrase-feel-like",
+      "phrase": "feel like",
+      "meaning": "覺得；認為",
+      "examples": [
+        {
+          "en": "But I __feel like__ you don't really __think about__ it.",
+          "tc": "覺得；認為"
+        }
+      ]
+    },
+    {
+      "id": "phrase-let-me-know",
+      "phrase": "let me know",
+      "meaning": "告訴我；留言讓我知道",
+      "examples": [
+        {
+          "en": "__Let me know__ __in the comments__ what else you can **peel**!",
+          "tc": "告訴我；留言讓我知道"
+        }
+      ]
+    },
+    {
+      "id": "phrase-in-the-comments",
+      "phrase": "in the comments",
+      "meaning": "在影片或貼文的留言區",
+      "examples": [
+        {
+          "en": "__Let me know__ __in the comments__ what else you can **peel**!",
+          "tc": "在影片或貼文的留言區"
+        }
+      ]
+    },
+    {
+      "id": "phrase-bring-along",
+      "phrase": "bring along",
+      "meaning": "順便帶上；隨身帶來",
+      "examples": [
+        {
+          "en": "I also __brought along__ my **coconut oil** for cooking.",
+          "tc": "順便帶上；隨身帶來"
+        }
+      ]
+    },
+    {
+      "id": "phrase-stick-around",
+      "phrase": "stick around",
+      "meaning": "留下來繼續看或繼續關注",
+      "examples": [
+        {
+          "en": "Now, I think those are all the **essentials** I bought today, but __stick around__ for more videos to come about **essentials** in your house.",
+          "tc": "留下來繼續看或繼續關注"
+        }
+      ]
+    },
+    {
+      "id": "phrase-turn-on",
+      "phrase": "turn on",
+      "meaning": "開啟機器、功能或通知",
+      "examples": [
+        {
+          "en": "Don't forget to **subscribe** and __turn on__ the bell **notifications** so you can be **notified** every time I 《post》 a new video.",
+          "tc": "開啟機器、功能或通知"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-furnish-furnished-with",
+      "word": "furnish",
+      "familiarMeaning": "和 furniture（家具）相關",
+      "usage": "《furnished》 with 表示房子或空間被配備、布置好需要的東西",
+      "translation": "配齊；布置好",
+      "examples": [
+        "I am renting a new **apartment**, and it needs to be 《furnished》 with all of the **essentials** it needs, the things we don't even __think about__!"
+      ]
+    },
+    {
+      "id": "usage-done-be-done",
+      "word": "done",
+      "familiarMeaning": "do 的過去分詞，表示做了",
+      "usage": "be done 表示事情已經完成",
+      "translation": "完成了",
+      "examples": [
+        "The most important parts are 《done》."
+      ]
+    },
+    {
+      "id": "usage-find-find-it-adjective",
+      "word": "find",
+      "familiarMeaning": "找到",
+      "usage": "find it + adjective 表示覺得某事是某種狀態",
+      "translation": "覺得；認為",
+      "examples": [
+        "I know! Everybody is so shocked when I tell them I can't drive, but in Mexico, I just never 《found》 it very necessary."
+      ]
+    },
+    {
+      "id": "usage-seem-seem-to-v",
+      "word": "seem",
+      "familiarMeaning": "看起來；似乎",
+      "usage": "seem to + V 表示某人或某事似乎會做某動作",
+      "translation": "似乎會",
+      "examples": [
+        "They're super important, but we 《seem》 to forget about them because I think they're a little bit boring; **nevertheless**, they are very important."
+      ]
+    },
+    {
+      "id": "usage-head-head-home",
+      "word": "head",
+      "familiarMeaning": "頭",
+      "usage": "作動詞時，head home 表示往家裡去、回家",
+      "translation": "前往；回家",
+      "examples": [
+        "You're at the **grocery** store shopping for **essentials**, and you 《head》 home, and then you realize, \"Ugh, I forgot again.\""
+      ]
+    },
+    {
+      "id": "usage-post-item",
+      "word": "post",
+      "familiarMeaning": "郵寄；柱子",
+      "usage": "在網路或社群平台上發布內容",
+      "translation": "發布；貼出",
+      "examples": [
+        "Don't forget to **subscribe** and __turn on__ the bell **notifications** so you can be **notified** every time I 《post》 a new video."
+      ]
+    },
+    {
+      "id": "usage-rest-the-rest-of",
+      "word": "rest",
+      "familiarMeaning": "休息",
+      "usage": "the rest of 表示剩下的部分",
+      "translation": "剩下的部分",
+      "examples": [
+        "Have an **amazing** 《rest》 of your day."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Hello. Let's learn some kitchen essentials.",
-      "translation": "你好。讓我們來學習一些廚房必需品。",
+      "id": "grammar-1",
+      "sentence": "I have just come back from the grocery store.",
+      "translation": "我剛從雜貨店回來。",
       "points": [
         {
-          "label": "let's kitchen essentials",
-          "text": "let's kitchen essentials",
-          "note": "注意 \"let's kitchen essentials\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "現在完成式（have/has + p.p.）",
+          "text": "主詞 + have/has + just + 過去分詞",
+          "note": "用來表示剛完成的動作，並且和現在的狀態有關。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "I am just coming back from the grocery store. Today has been a super busy day.",
-      "translation": "我剛從雜貨店回來。今天是超忙碌的一天。",
+      "id": "grammar-2",
+      "sentence": "It needs to be furnished with all of the essentials it needs.",
+      "translation": "它需要配齊所有需要的必需品。",
       "points": [
         {
-          "label": "coming grocery store",
-          "text": "coming grocery store",
-          "note": "注意 \"coming grocery store\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "need + to be + 過去分詞",
+          "text": "主詞 + needs + to be + past participle",
+          "note": "公寓是被布置、被配備的對象，所以用 to be furnished 表示被動。"
         }
       ]
     },
     {
-      "id": "breakdown-03",
-      "sentence": "I am renting a new apartment and it needs to be furnished with all of the essentials it needs, that.",
-      "translation": "我正在租一套新公寓，它需要配備所有必需品。",
+      "id": "grammar-3",
+      "sentence": "So, I did some grocery shopping for the essentials that my kitchen needs first.",
+      "translation": "所以，我先去買了一些廚房需要的必需品。",
       "points": [
         {
-          "label": "renting new apartment",
-          "text": "renting new apartment",
-          "note": "注意 \"renting new apartment\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句 that + 主詞 + 動詞",
+          "text": "名詞 + that + 主詞 + 動詞",
+          "note": "that my kitchen needs 用來補充說明 essentials 是哪一些必需品。"
         }
       ]
     },
     {
-      "id": "breakdown-04",
-      "sentence": "We don't even think about! So, I did some grocery shopping with the essentials that my kitchen needs.",
-      "translation": "我們想都沒想！因此，我去雜貨店購買了廚房所需的必需品。",
+      "id": "grammar-4",
+      "sentence": "I don't have a car, and even if I did, I don't know how to drive.",
+      "translation": "我沒有車，而且就算我有車，我也不知道怎麼開車。",
       "points": [
         {
-          "label": "don't think grocery",
-          "text": "don't think grocery",
-          "note": "注意 \"don't think grocery\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "even if 條件子句與助動詞替代",
+          "text": "even if + 主詞 + did, 主詞 + 動詞",
+          "note": "did 代替前面的 had a car，用簡短方式表示假設情況。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-5",
+      "sentence": "Anything can really be cooked in this pan.",
+      "translation": "任何東西其實都可以用這個鍋子煮。",
+      "points": [
+        {
+          "label": "情態助動詞被動語態",
+          "text": "情態助動詞 can + be + 過去分詞",
+          "note": "焦點在東西被煮，而不是誰煮，所以用被動語態。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-6",
+      "sentence": "It's wide enough and deep enough.",
+      "translation": "它夠寬，也夠深。",
+      "points": [
+        {
+          "label": "形容詞 + enough",
+          "text": "形容詞 + enough",
+          "note": "enough 修飾形容詞時放在形容詞後面，表示程度足夠。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-7",
+      "sentence": "As I was walking home, I realized I forgot to buy a dustpan.",
+      "translation": "我走回家的時候，才發現我忘了買畚斗。",
+      "points": [
+        {
+          "label": "過去進行式時間子句",
+          "text": "As/While + 主詞 + was/were + V-ing, 主詞 + 過去式動詞",
+          "note": "用過去進行式描述當時正在發生的背景動作，再接另一個發生的動作。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-8",
+      "sentence": "Let me know in the comments what else you can peel!",
+      "translation": "請在留言區告訴我，你還可以削什麼！",
+      "points": [
+        {
+          "label": "間接問句語序",
+          "text": "疑問詞 + 主詞 + 助動詞 + 原形動詞",
+          "note": "what else you can peel 是嵌入在句子裡的問題，所以用 you can，不用 can you。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-9",
+      "sentence": "This is my first time living alone.",
+      "translation": "這是我第一次獨居。",
+      "points": [
+        {
+          "label": "This is my first time + V-ing",
+          "text": "This is + 所有格 + first time + V-ing",
+          "note": "用來表示某人第一次做某件事或有某種經驗。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-10",
+      "sentence": "I'm going to be buying lots of essentials that I never had to buy before.",
+      "translation": "我會買很多以前從來不需要自己買的必需品。",
+      "points": [
+        {
+          "label": "be going to be + V-ing（未來進行）",
+          "text": "主詞 + be going to + be + V-ing",
+          "note": "表示未來一段時間會持續或反覆進行的動作。"
+        }
+      ]
+    },
+    {
+      "id": "grammar-11",
+      "sentence": "Turn on the bell notifications so you can be notified every time I post a new video.",
+      "translation": "開啟鈴鐺通知，這樣每次我發布新影片時，你都能收到通知。",
+      "points": [
+        {
+          "label": "so + can + 被動語態",
+          "text": "so + 主詞 + can + be + 過去分詞",
+          "note": "so 引出目的或結果；can be notified 表示你能被通知。"
         }
       ]
     }

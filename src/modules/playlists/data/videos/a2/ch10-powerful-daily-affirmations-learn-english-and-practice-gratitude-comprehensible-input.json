@@ -15,598 +15,1172 @@
     {
       "id": "scene-01",
       "no": "01",
-      "titleZh": "開場：語言學習",
-      "titleEn": "Opening: language",
+      "titleZh": "第 1 段",
+      "titleEn": "Part 1",
       "sentences": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and welcome back to my slow English podcast.",
+          "tc": "你好，歡迎回到我的慢速英語播客。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Hello and "
+            },
+            {
+              "type": "phrase",
+              "text": "welcome back",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-001-01"
+            },
+            {
+              "type": "text",
+              "text": " to my "
+            },
+            {
+              "type": "phrase",
+              "text": "slow English podcast",
+              "targetId": "phrase-slow-english-podcast",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-001-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
           "en": "This podcast is for English beginner listeners to relax and learn at the same time.",
-          "tc": "該podcast適合英語初學者聽眾，讓他們放鬆並同時學習。"
+          "tc": "這個播客是為了英語初學者聽眾放松和同时學習而設計的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "This "
+            },
+            {
+              "type": "word",
+              "text": "podcast",
+              "targetId": "word-podcast",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-002-01"
+            },
+            {
+              "type": "text",
+              "text": " is for English beginner listeners to relax and learn "
+            },
+            {
+              "type": "phrase",
+              "text": "at the same time",
+              "targetId": "phrase-at-the-same-time",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-002-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Today I want to talk about gratitude, about feeling grateful and appreciative, about the little things in life. Gratitude means to say.",
-          "tc": "今天我想談談感恩，關於感恩和欣賞，關於生活中的小事。感恩的意思是說。"
+          "en": "Today I want to talk about gratitude, about feeling grateful and appreciative, about the little things in life.",
+          "tc": "今天我想談談感恩，關于感恩和欣赏，關于生活中的小事。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Today I want to talk about "
+            },
+            {
+              "type": "word",
+              "text": "gratitude",
+              "targetId": "word-gratitude",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-003-01"
+            },
+            {
+              "type": "text",
+              "text": ", about feeling "
+            },
+            {
+              "type": "word",
+              "text": "grateful",
+              "targetId": "word-grateful",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-003-02"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "word",
+              "text": "appreciative",
+              "targetId": "word-appreciative",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-003-03"
+            },
+            {
+              "type": "text",
+              "text": ", about the "
+            },
+            {
+              "type": "phrase",
+              "text": "little things in life",
+              "targetId": "phrase-little-things-in-life",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-003-04"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "Thank you for good things in your life. some daily affirmations and statements of gratitude that.",
-          "tc": "感謝你生活中的美好事物。一些日常的肯定和感謝的陳述。"
+          "en": "Gratitude means to say thank you for good things in your life.",
+          "tc": "感恩意味着對生活中的美好事物表示感谢。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Gratitude means to say thank you for good things in your life."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "grateful",
-          "kk": "/grateful/",
-          "partOfSpeech": "adj.",
-          "meaning": "感激的",
-          "note": "看到 grateful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "gratitude",
-          "kk": "/gratitude/",
-          "partOfSpeech": "n.",
-          "meaning": "感激",
-          "note": "看到 gratitude 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-02",
       "no": "02",
-      "titleZh": "第 2 段：語言學習",
-      "titleEn": "Part 2: language",
+      "titleZh": "第 2 段",
+      "titleEn": "Part 2",
       "sentences": [
         {
-          "en": "I like to repeat every day. So you can practice gratitude with me every day while practicing your English listening and speaking. Let's start.",
-          "tc": "我喜歡每天重複。所以你可以每天和我一起練習感恩，同時練習你的英文聽力和口說。讓我們開始吧。"
+          "en": "Some daily affirmations and statements of gratitude that I like to repeat every day.",
+          "tc": "我喜歡每天重複的一些日常肯定和感激之情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Some daily "
+            },
+            {
+              "type": "word",
+              "text": "affirmations",
+              "targetId": "word-affirmation",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-005-01"
+            },
+            {
+              "type": "text",
+              "text": " and statements of gratitude that I like to repeat every day."
+            }
+          ]
+        },
+        {
+          "en": "So you can practice gratitude with me every day while practicing your English listening and speaking.",
+          "tc": "所以你可以每天和我一起練習感恩，同时練習你的英語聽力和口語。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "So you can practice gratitude with me every day while practicing your English listening and speaking."
+            }
+          ]
+        },
+        {
+          "en": "Let's start.",
+          "tc": "讓我們開始吧。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Let's start."
+            }
+          ]
         },
         {
           "en": "I am doing my best.",
-          "tc": "我正在盡力而為。"
-        },
-        {
-          "en": "I am enough.",
-          "tc": "我就夠了。"
-        },
-        {
-          "en": "I am doing my best. And that is enough.",
-          "tc": "我正在盡力而為。這就足夠了。"
+          "tc": "我正在尽力而為。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am doing my best."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "gratitude",
-          "kk": "/gratitude/",
-          "partOfSpeech": "n.",
-          "meaning": "感激",
-          "note": "看到 gratitude 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-03",
       "no": "03",
-      "titleZh": "第 3 段：日常生活",
-      "titleEn": "Part 3: everyday life",
+      "titleZh": "第 3 段",
+      "titleEn": "Part 3",
       "sentences": [
         {
+          "en": "I am enough.",
+          "tc": "我就夠了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am enough."
+            }
+          ]
+        },
+        {
+          "en": "I am doing my best.",
+          "tc": "我正在尽力而為。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am doing my best."
+            }
+          ]
+        },
+        {
+          "en": "And that is enough.",
+          "tc": "這就足夠了。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And that is enough."
+            }
+          ]
+        },
+        {
           "en": "I am worthy of love and kindness.",
-          "tc": "我值得被愛和善良。"
-        },
-        {
-          "en": "I am worthy of love and kindness. I trust myself. I trust myself to make the right decisions. I trust myself to make the right decisions.",
-          "tc": "我值得被愛和善良。我相信我自己。我相信自己能夠做出正確的決定。我相信自己能夠做出正確的決定。"
-        },
-        {
-          "en": "I have the power to create a great day.",
-          "tc": "我有能力創造美好的一天。"
-        },
-        {
-          "en": "I am calm.",
-          "tc": "我很平靜。"
+          "tc": "這裡是在說：「I am worthy of love and kindness.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "worthy",
+              "targetId": "word-worthy",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-012-01"
+            },
+            {
+              "type": "text",
+              "text": " of love and "
+            },
+            {
+              "type": "word",
+              "text": "kindness",
+              "targetId": "word-kindnes",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-012-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "calm",
-          "kk": "/calm/",
-          "partOfSpeech": "n.",
-          "meaning": "冷靜的",
-          "note": "看到 calm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-04",
       "no": "04",
-      "titleZh": "第 4 段：日常生活",
-      "titleEn": "Part 4: everyday life",
+      "titleZh": "第 4 段",
+      "titleEn": "Part 4",
       "sentences": [
         {
-          "en": "I am strong.",
-          "tc": "我很堅強。"
+          "en": "I am worthy of love and kindness.",
+          "tc": "這裡是在說：「I am worthy of love and kindness.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am worthy of love and kindness."
+            }
+          ]
         },
         {
-          "en": "I am focused.",
-          "tc": "我很專注。"
+          "en": "I trust myself.",
+          "tc": "我相信自己。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I trust myself."
+            }
+          ]
         },
         {
-          "en": "I am peaceful. I let go of what I can't control. I let go of what I can't control. I believe in myself. I believe in myself.",
-          "tc": "我很平靜。我放棄了我無法控制的事。我放棄了我無法控制的事。我相信自己。我相信自己。"
+          "en": "I trust myself to make the right decisions.",
+          "tc": "這裡是在說：「I trust myself to make the right decisions.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I trust myself to "
+            },
+            {
+              "type": "phrase",
+              "text": "make the right decisions",
+              "targetId": "phrase-make-the-right-decisions",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-015-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I am growing, learning, and improving. Every day.",
-          "tc": "我在成長、在學習、進步。每天。"
+          "en": "I trust myself to make the right decisions.",
+          "tc": "這裡是在說：「I trust myself to make the right decisions.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I trust myself to "
+            },
+            {
+              "type": "usage",
+              "text": "make",
+              "targetId": "usage-make-item",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-016-01"
+            },
+            {
+              "type": "text",
+              "text": " the right "
+            },
+            {
+              "type": "word",
+              "text": "decisions",
+              "targetId": "word-decision",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-016-02"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "peaceful",
-          "kk": "/peaceful/",
-          "partOfSpeech": "adj.",
-          "meaning": "和平",
-          "note": "看到 peaceful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-05",
       "no": "05",
-      "titleZh": "第 5 段：日常生活",
-      "titleEn": "Part 5: everyday life",
+      "titleZh": "第 5 段",
+      "titleEn": "Part 5",
       "sentences": [
         {
-          "en": "I am proud of how far.",
-          "tc": "我為自己有多遠而感到自豪。"
+          "en": "I have the power to create a great day.",
+          "tc": "這裡是在說：「I have the power to create a great day.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I "
+            },
+            {
+              "type": "usage",
+              "text": "have",
+              "targetId": "usage-have-item",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-017-01"
+            },
+            {
+              "type": "text",
+              "text": " the power to create a great day."
+            }
+          ]
         },
         {
-          "en": "I am grateful for this new day.",
-          "tc": "我很感激這新的一天。"
+          "en": "I have the power to create a great day.",
+          "tc": "這裡是在說：「I have the power to create a great day.」。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I have the power to create a great day."
+            }
+          ]
         },
         {
-          "en": "I am grateful for the people.",
-          "tc": "我對人民心存感激。"
+          "en": "I am calm.",
+          "tc": "我很平靜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am "
+            },
+            {
+              "type": "word",
+              "text": "calm",
+              "targetId": "word-calm",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-019-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
         },
         {
-          "en": "I am grateful for the people who love and support me.",
-          "tc": "我感謝那些愛我和支持我的人。"
+          "en": "I am strong.",
+          "tc": "我很坚強。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am strong."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "grateful",
-          "kk": "/grateful/",
-          "partOfSpeech": "adj.",
-          "meaning": "感激的",
-          "note": "看到 grateful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-06",
       "no": "06",
-      "titleZh": "第 6 段：日常生活",
-      "titleEn": "Part 6: everyday life",
+      "titleZh": "第 6 段",
+      "titleEn": "Part 6",
       "sentences": [
         {
-          "en": "I am grateful for the people who love and support me. I appreciate the small moments of joy. I appreciate the small moments of joy.",
-          "tc": "我感謝那些愛我和支持我的人。我很欣賞那些微小的快樂時刻。我很欣賞那些微小的快樂時刻。"
+          "en": "I am focused.",
+          "tc": "我很專注。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am focused."
+            }
+          ]
         },
         {
-          "en": "I am thankful for my body and all it does for me.",
-          "tc": "我感謝我的身體以及它為我所做的一切。"
+          "en": "I am peaceful.",
+          "tc": "我很平靜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am peaceful."
+            }
+          ]
         },
         {
-          "en": "I am thankful for the lessons that I learn every day. I find beauty in the small things, in the simple things.",
-          "tc": "我很感謝我每天學到的教訓。我在小事、簡單的事中發現美。"
+          "en": "I let go of what I can't control.",
+          "tc": "我放弃了我無法控制的事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I let go of what I can't control."
+            }
+          ]
         },
         {
-          "en": "I see beauty in the trees, in the plants, in the sky.",
-          "tc": "我在樹木、植物和天空中看到美麗。"
+          "en": "I let go of what I can't control.",
+          "tc": "我放弃了我無法控制的事情。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I let go of what I can't control."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "body",
-          "kk": "/body/",
-          "partOfSpeech": "n.",
-          "meaning": "身體",
-          "note": "看到 body 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "grateful",
-          "kk": "/grateful/",
-          "partOfSpeech": "adj.",
-          "meaning": "感激的",
-          "note": "看到 grateful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-07",
       "no": "07",
-      "titleZh": "第 7 段：日常生活",
-      "titleEn": "Part 7: everyday life",
+      "titleZh": "第 7 段",
+      "titleEn": "Part 7",
       "sentences": [
         {
-          "en": "I see beauty in everything. and in everyone.",
-          "tc": "我在一切事物中看到美麗。並在每個人身上。"
+          "en": "I believe in myself.",
+          "tc": "我相信自己。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I believe in myself."
+            }
+          ]
         },
         {
-          "en": "I am lucky to be alive today.",
-          "tc": "我很幸運今天還活著。"
+          "en": "I believe in myself.",
+          "tc": "我相信自己。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I believe in myself."
+            }
+          ]
         },
         {
-          "en": "I am grateful for the food that.",
-          "tc": "我很感激那裡的食物。"
+          "en": "I am growing, learning, and improving.",
+          "tc": "我在成長、學習、进步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am growing, learning, and improving."
+            }
+          ]
         },
         {
-          "en": "I eat, the air that I breathe, and the love that I receive from everyone around me. The love from my neighbors, my family, my friends, and just people. The love.",
-          "tc": "我吃東西，我呼吸空氣，我從周圍的每個人那裡得到愛。來自我的鄰居、我的家人、我的朋友和普通人的愛。愛。"
+          "en": "Every day I am growing, learning, and improving.",
+          "tc": "每一天我都在成長、學習和进步。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every day I am growing, learning, and improving."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "grateful",
-          "kk": "/grateful/",
-          "partOfSpeech": "adj.",
-          "meaning": "感激的",
-          "note": "看到 grateful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-08",
       "no": "08",
-      "titleZh": "第 8 段：日常生活",
-      "titleEn": "Part 8: everyday life",
+      "titleZh": "第 8 段",
+      "titleEn": "Part 8",
       "sentences": [
         {
-          "en": "I receive from everything. My mind is clear, focused, and open. My mind is clear, focused, and open.",
-          "tc": "我從一切事物中得到。我的頭腦清晰、專注、開放。我的頭腦清晰、專注、開放。"
+          "en": "Every day I am proud of how far I've come.",
+          "tc": "每天我都為自己所取得的进步感到自豪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every day I am proud of how far I've come."
+            }
+          ]
         },
         {
-          "en": "I release all the thoughts that don't serve me. I release and let go of all the thoughts that don't serve me.",
-          "tc": "我釋放所有對我無益的想法。我釋放並放棄所有對我無益的想法。"
+          "en": "I am proud of how far I've come.",
+          "tc": "我為自己所取得的进步感到自豪。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am proud of how far I've come."
+            }
+          ]
         },
         {
-          "en": "I am calm, centered, and in control.",
-          "tc": "我很冷靜、集中、有控制力。"
+          "en": "I am grateful for this new day.",
+          "tc": "我很感激這新的一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am grateful for this new day."
+            }
+          ]
         },
         {
-          "en": "I am calm, centered, and in control. My thoughts are peaceful and positive. My thoughts are peaceful and positive. I honor my body. I respect my body.",
-          "tc": "我很冷靜、集中、有控制力。我的想法是平靜和積極的。我的想法是平靜和積極的。我尊重我的身體。我尊重我的身體。"
+          "en": "I am grateful for this new day.",
+          "tc": "我很感激這新的一天。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am grateful for this new day."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "body",
-          "kk": "/body/",
-          "partOfSpeech": "n.",
-          "meaning": "身體",
-          "note": "看到 body 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "peaceful",
-          "kk": "/peaceful/",
-          "partOfSpeech": "adj.",
-          "meaning": "和平",
-          "note": "看到 peaceful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-09",
       "no": "09",
-      "titleZh": "第 9 段：日常生活",
-      "titleEn": "Part 9: everyday life",
+      "titleZh": "第 9 段",
+      "titleEn": "Part 9",
       "sentences": [
         {
-          "en": "I love my body. is strong and full of energy. My body is strong and full of energy.",
-          "tc": "我愛我的身體。身體強壯，充滿活力。我的身體強壯且充滿活力。"
+          "en": "I am grateful for the people.",
+          "tc": "我對人民心存感激。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am grateful for the people."
+            }
+          ]
         },
         {
-          "en": "I listen to what my body needs. I listen to what my body needs. Every breath.",
-          "tc": "我傾聽我的身體需要什麼。我傾聽我的身體需要什麼。每一次呼吸。"
+          "en": "I am grateful for the people who love and support me.",
+          "tc": "我感谢那些愛我、支持我的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am grateful for the people who love and support me."
+            }
+          ]
         },
         {
-          "en": "I take fills my body with calm. Every breath I take fills my body with calm.",
-          "tc": "我讓我的身體充滿平靜。我的每一次呼吸都讓我的身體充滿平靜。"
+          "en": "I am grateful for the people who love and support me.",
+          "tc": "我感谢那些愛我、支持我的人。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am grateful for the people who love and support me."
+            }
+          ]
         },
         {
-          "en": "I am grateful for my healthy body and all that it does for me.",
-          "tc": "我感謝我的健康身體以及它為我所做的一切。"
+          "en": "I appreciate the small moments of joy.",
+          "tc": "我很欣赏那些微小的快樂时刻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I appreciate the small moments of joy."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "body",
-          "kk": "/body/",
-          "partOfSpeech": "n.",
-          "meaning": "身體",
-          "note": "看到 body 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "grateful",
-          "kk": "/grateful/",
-          "partOfSpeech": "adj.",
-          "meaning": "感激的",
-          "note": "看到 grateful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-10",
       "no": "10",
-      "titleZh": "第 10 段：日常生活",
-      "titleEn": "Part 10: everyday life",
+      "titleZh": "第 10 段",
+      "titleEn": "Part 10",
       "sentences": [
         {
-          "en": "I am grateful for my healthy body and all that it does for me. My soul is peaceful and light. My soul is peaceful and full of light. My soul is peaceful.",
-          "tc": "我感謝我的健康身體以及它為我所做的一切。我的靈魂平靜而輕鬆。我的靈魂平靜而充滿光明。我的靈魂很平靜。"
+          "en": "I appreciate the small moments of joy.",
+          "tc": "我很欣赏那些微小的快樂时刻。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I appreciate the small moments of joy."
+            }
+          ]
         },
         {
-          "en": "And full of light.",
-          "tc": "並且充滿光明。"
+          "en": "I am thankful for my body and all it does for me.",
+          "tc": "我感谢我的身體以及它為我所做的一切。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am thankful for my body and all it does for me."
+            }
+          ]
         },
         {
-          "en": "I am connected.",
-          "tc": "我已連接。"
+          "en": "I am thankful for my body and all it does for me.",
+          "tc": "我感谢我的身體以及它為我所做的一切。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am thankful for my body and all it does for me."
+            }
+          ]
         },
         {
-          "en": "I am connected with the energy of the universe.",
-          "tc": "我與宇宙的能量相連。"
+          "en": "I am thankful for the lessons that I learn every day.",
+          "tc": "我很感谢我每天學到的教训。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am thankful for the lessons that I learn every day."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "body",
-          "kk": "/body/",
-          "partOfSpeech": "n.",
-          "meaning": "身體",
-          "note": "看到 body 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "grateful",
-          "kk": "/grateful/",
-          "partOfSpeech": "adj.",
-          "meaning": "感激的",
-          "note": "看到 grateful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "peaceful",
-          "kk": "/peaceful/",
-          "partOfSpeech": "adj.",
-          "meaning": "和平",
-          "note": "看到 peaceful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-11",
       "no": "11",
-      "titleZh": "第 11 段：日常生活",
-      "titleEn": "Part 11: everyday life",
+      "titleZh": "第 11 段",
+      "titleEn": "Part 11",
       "sentences": [
         {
-          "en": "I am connected with the energy of the universe. I trust the journey of my life. I radiate love, compassion and peace. I radiate love, compassion and peace.",
-          "tc": "我與宇宙的能量相連。我相信我的人生旅程。我散發著愛、慈悲與和平。我散發著愛、慈悲與和平。"
+          "en": "I find beauty in the small things, in the simple things.",
+          "tc": "我在小事、簡單事中發現美。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I find beauty in the small things, in the simple things."
+            }
+          ]
         },
         {
-          "en": "What are you grateful for today?",
-          "tc": "今天你有什麼感恩的事？"
+          "en": "I see beauty in the trees, in the plants, in the sky.",
+          "tc": "我在樹木、植物和天空中看到了美麗。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I see beauty in the trees, in the plants, in the sky."
+            }
+          ]
         },
         {
-          "en": "I am most grateful for my health, for my strength, and for my joy and happiness.",
-          "tc": "我非常感謝我的健康、我的力量、我的快樂和幸福。"
+          "en": "I see beauty in everything.",
+          "tc": "我在一切事物中看到美。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I see beauty in everything."
+            }
+          ]
         },
         {
-          "en": "If you liked this type of slow English with positive affirmations to say and listen to every day,.",
-          "tc": "如果你喜歡這種帶有積極肯定語的慢速英語，每天都說和聽。"
+          "en": "And in everyone I am lucky to be alive today.",
+          "tc": "對于每個人來說，我今天能活着都是幸運的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "And in everyone I am lucky to be alive today."
+            }
+          ]
         }
       ],
-      "tags": [
-        {
-          "english": "grateful",
-          "kk": "/grateful/",
-          "partOfSpeech": "adj.",
-          "meaning": "感激的",
-          "note": "看到 grateful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        }
-      ]
+      "tags": []
     },
     {
       "id": "scene-12",
       "no": "12",
-      "titleZh": "第 12 段：日常生活",
-      "titleEn": "Part 12: everyday life",
+      "titleZh": "第 12 段",
+      "titleEn": "Part 12",
       "sentences": [
         {
-          "en": "Then like this video and leave a comment.",
-          "tc": "然後喜歡這個視頻並發表評論。"
+          "en": "I am grateful for the food that I eat, the air that I breathe, and the love that I receive from everyone around me.",
+          "tc": "我感谢我吃的食物，我呼吸的空氣，以及我周围每個人给我的愛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am grateful for the food that I eat, the air that I breathe, and the love that I receive from everyone around me."
+            }
+          ]
         },
         {
-          "en": "If you want more videos like these. See you.",
-          "tc": "如果你想要更多這樣的影片。再見。"
+          "en": "The love from my neighbors, my family, my friends, and just people.",
+          "tc": "來自我的鄰居、我的家人、我的朋友和普通人的愛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The love from my neighbors, my family, my friends, and just people."
+            }
+          ]
         },
         {
-          "en": "Next time. Bye.",
-          "tc": "下次。再見。"
+          "en": "The love I receive from everything.",
+          "tc": "我从一切事物中得到的愛。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "The love I receive from everything."
+            }
+          ]
+        },
+        {
+          "en": "My mind is clear, focused, and open.",
+          "tc": "我的頭腦清晰、專注且開放。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My mind is clear, focused, and open."
+            }
+          ]
         }
       ],
-      "tags": [
+      "tags": []
+    },
+    {
+      "id": "scene-13",
+      "no": "13",
+      "titleZh": "第 13 段",
+      "titleEn": "Part 13",
+      "sentences": [
         {
-          "english": "body",
-          "kk": "/body/",
-          "partOfSpeech": "n.",
-          "meaning": "身體",
-          "note": "看到 body 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "My mind is clear, focused, and open.",
+          "tc": "我的頭腦清晰、專注且開放。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My mind is clear, focused, and open."
+            }
+          ]
         },
         {
-          "english": "grateful",
-          "kk": "/grateful/",
-          "partOfSpeech": "adj.",
-          "meaning": "感激的",
-          "note": "看到 grateful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I release all the thoughts that don't serve me.",
+          "tc": "我釋放所有對我無益的想法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I release all the thoughts that don't serve me."
+            }
+          ]
         },
         {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
+          "en": "I release and let go of all the thoughts that don't serve me.",
+          "tc": "我釋放并放弃所有對我無益的想法。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I release and let go of all the thoughts that don't serve me."
+            }
+          ]
+        },
+        {
+          "en": "I am calm, centered, and in control.",
+          "tc": "我很冷靜、集中且能掌控一切。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am calm, centered, and in control."
+            }
+          ]
         }
-      ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-14",
+      "no": "14",
+      "titleZh": "第 14 段",
+      "titleEn": "Part 14",
+      "sentences": [
+        {
+          "en": "I am calm, centered, and in control.",
+          "tc": "我很冷靜、集中且能掌控一切。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am calm, centered, and in control."
+            }
+          ]
+        },
+        {
+          "en": "My thoughts are peaceful and positive.",
+          "tc": "我的思想是平靜和積極的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My thoughts are peaceful and positive."
+            }
+          ]
+        },
+        {
+          "en": "My thoughts are peaceful and positive.",
+          "tc": "我的思想是平靜和積極的。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My thoughts are peaceful and positive."
+            }
+          ]
+        },
+        {
+          "en": "I honor my body.",
+          "tc": "我尊重我的身體。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I honor my body."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-15",
+      "no": "15",
+      "titleZh": "第 15 段",
+      "titleEn": "Part 15",
+      "sentences": [
+        {
+          "en": "I respect my body.",
+          "tc": "我尊重我的身體。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I respect my body."
+            }
+          ]
+        },
+        {
+          "en": "I love my body.",
+          "tc": "我愛我的身體。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I love my body."
+            }
+          ]
+        },
+        {
+          "en": "My body is strong and full of energy.",
+          "tc": "我的身體強壮，充滿活力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My body is strong and full of "
+            },
+            {
+              "type": "word",
+              "text": "energy",
+              "targetId": "word-energy",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-059-01"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "en": "My body is strong and full of energy.",
+          "tc": "我的身體強壮，充滿活力。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My body is strong and full of energy."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-16",
+      "no": "16",
+      "titleZh": "第 16 段",
+      "titleEn": "Part 16",
+      "sentences": [
+        {
+          "en": "I listen to what my body needs.",
+          "tc": "我倾聽我的身體需要什麼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I listen to what my body needs."
+            }
+          ]
+        },
+        {
+          "en": "I listen to what my body needs.",
+          "tc": "我倾聽我的身體需要什麼。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I listen to what my body needs."
+            }
+          ]
+        },
+        {
+          "en": "Every breath I take fills my body with calm.",
+          "tc": "我的每一次呼吸都讓我的身體充滿平靜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every breath I "
+            },
+            {
+              "type": "usage",
+              "text": "take",
+              "targetId": "usage-take-item",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-063-01"
+            },
+            {
+              "type": "text",
+              "text": " fills my body with calm."
+            }
+          ]
+        },
+        {
+          "en": "Every breath I take fills my body with calm.",
+          "tc": "我的每一次呼吸都讓我的身體充滿平靜。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Every breath I take fills my body with calm."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-17",
+      "no": "17",
+      "titleZh": "第 17 段",
+      "titleEn": "Part 17",
+      "sentences": [
+        {
+          "en": "I am grateful for my healthy body and all that it does for me.",
+          "tc": "我很感激我的健康身體以及它為我所做的一切。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am grateful for my healthy body and all that it does for me."
+            }
+          ]
+        },
+        {
+          "en": "I am grateful for my healthy body and all that it does for me.",
+          "tc": "我很感激我的健康身體以及它為我所做的一切。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am grateful for my healthy body and all that it does for me."
+            }
+          ]
+        },
+        {
+          "en": "My soul is peaceful and light.",
+          "tc": "我的靈魂平靜而輕松。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My "
+            },
+            {
+              "type": "word",
+              "text": "soul",
+              "targetId": "word-soul",
+              "instanceId": "marker-a2-ch10-powerful-daily-affirmations-learn-english-and-practice-gratitude-comprehensible-input-067-01"
+            },
+            {
+              "type": "text",
+              "text": " is peaceful and light."
+            }
+          ]
+        },
+        {
+          "en": "My soul is peaceful and full of light.",
+          "tc": "我的靈魂平靜且充滿光明。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My soul is peaceful and full of light."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-18",
+      "no": "18",
+      "titleZh": "第 18 段",
+      "titleEn": "Part 18",
+      "sentences": [
+        {
+          "en": "My soul is peaceful and full of light.",
+          "tc": "我的靈魂平靜且充滿光明。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "My soul is peaceful and full of light."
+            }
+          ]
+        },
+        {
+          "en": "I am connected.",
+          "tc": "我已连接。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am connected."
+            }
+          ]
+        },
+        {
+          "en": "I am connected with the energy of the universe.",
+          "tc": "我與宇宙的能量相连。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am connected with the energy of the universe."
+            }
+          ]
+        },
+        {
+          "en": "I am connected with the energy of the universe.",
+          "tc": "我與宇宙的能量相连。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am connected with the energy of the universe."
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-19",
+      "no": "19",
+      "titleZh": "第 19 段",
+      "titleEn": "Part 19",
+      "sentences": [
+        {
+          "en": "I trust the journey of my life.",
+          "tc": "我相信我的人生旅程。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I trust the journey of my life."
+            }
+          ]
+        },
+        {
+          "en": "I radiate love, compassion and peace.",
+          "tc": "我散發着愛、慈悲與和平。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I radiate love, compassion and peace."
+            }
+          ]
+        },
+        {
+          "en": "I radiate love, compassion and peace.",
+          "tc": "我散發着愛、慈悲與和平。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I radiate love, compassion and peace."
+            }
+          ]
+        },
+        {
+          "en": "What are you grateful for today?",
+          "tc": "今天你感谢什麼？",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "What are you grateful for today?"
+            }
+          ]
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "scene-20",
+      "no": "20",
+      "titleZh": "第 20 段",
+      "titleEn": "Part 20",
+      "sentences": [
+        {
+          "en": "I am most grateful for my health, for my strength, and for my joy and happiness.",
+          "tc": "我非常感谢我的健康、我的力量、我的快樂和幸福。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "I am most grateful for my health, for my strength, and for my joy and happiness."
+            }
+          ]
+        },
+        {
+          "en": "If you liked this type of slow English with positive affirmations to say and listen to every day, then like this video and leave a comment if you want more videos like these.",
+          "tc": "如果您喜歡這種每天都會說和聽的慢速英語，那麼請喜歡這個視頻，如果您想要更多這樣的視頻，請發表评论。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "If you liked this type of slow English with positive affirmations to say and listen to every day, then like this video and leave a comment if you want more videos like these."
+            }
+          ]
+        },
+        {
+          "en": "See you next time.",
+          "tc": "下次见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "See you next time."
+            }
+          ]
+        },
+        {
+          "en": "Bye.",
+          "tc": "再见。",
+          "englishTokens": [
+            {
+              "type": "text",
+              "text": "Bye."
+            }
+          ]
+        }
+      ],
+      "tags": []
     }
   ],
   "vocabGroups": [
@@ -614,153 +1188,218 @@
       "title": "A2 重點單字",
       "items": [
         {
-          "english": "body",
-          "kk": "/body/",
-          "partOfSpeech": "n.",
-          "meaning": "身體",
-          "note": "看到 body 時，先聽它前後搭配的字，再練習放進自己的句子。",
+          "id": "word-podcast",
+          "lemma": "podcast",
+          "english": "podcast",
+          "kk": "/podcast/",
+          "partOfSpeech": "noun",
+          "meaning": "播客",
           "highlight": true
         },
         {
+          "id": "word-energy",
+          "lemma": "energy",
+          "english": "energy",
+          "kk": "/energy/",
+          "partOfSpeech": "noun",
+          "meaning": "精力",
+          "highlight": true
+        },
+        {
+          "id": "word-gratitude",
+          "lemma": "gratitude",
+          "english": "gratitude",
+          "kk": "/gratitude/",
+          "partOfSpeech": "noun",
+          "meaning": "感恩",
+          "highlight": true
+        },
+        {
+          "id": "word-grateful",
+          "lemma": "grateful",
           "english": "grateful",
           "kk": "/grateful/",
           "partOfSpeech": "adj.",
           "meaning": "感激的",
-          "note": "看到 grateful 時，先聽它前後搭配的字，再練習放進自己的句子。",
           "highlight": true
         },
         {
-          "english": "love",
-          "kk": "/love/",
-          "partOfSpeech": "n.",
-          "meaning": "愛",
-          "note": "看到 love 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": true
-        },
-        {
-          "english": "day",
-          "kk": "/day/",
-          "partOfSpeech": "n.",
-          "meaning": "天",
-          "note": "看到 day 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "every",
-          "kk": "/every/",
-          "partOfSpeech": "n.",
-          "meaning": "每一個",
-          "note": "看到 every 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
-        },
-        {
-          "english": "peaceful",
-          "kk": "/peaceful/",
+          "id": "word-appreciative",
+          "lemma": "appreciative",
+          "english": "appreciative",
+          "kk": "/appreciative/",
           "partOfSpeech": "adj.",
-          "meaning": "和平",
-          "note": "看到 peaceful 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "meaning": "感激欣賞的",
+          "highlight": true
         },
         {
+          "id": "word-affirmation",
+          "lemma": "affirmation",
+          "english": "affirmations",
+          "kk": "/affirmation/",
+          "partOfSpeech": "noun",
+          "meaning": "肯定語",
+          "highlight": true
+        },
+        {
+          "id": "word-worthy",
+          "lemma": "worthy",
+          "english": "worthy",
+          "kk": "/worthy/",
+          "partOfSpeech": "adj.",
+          "meaning": "值得的",
+          "highlight": true
+        },
+        {
+          "id": "word-kindnes",
+          "lemma": "kindnes",
+          "english": "kindness",
+          "kk": "/kindnes/",
+          "partOfSpeech": "noun",
+          "meaning": "善意",
+          "highlight": true
+        },
+        {
+          "id": "word-decision",
+          "lemma": "decision",
+          "english": "decisions",
+          "kk": "/decision/",
+          "partOfSpeech": "noun",
+          "meaning": "決定",
+          "highlight": true
+        },
+        {
+          "id": "word-calm",
+          "lemma": "calm",
           "english": "calm",
           "kk": "/calm/",
-          "partOfSpeech": "n.",
-          "meaning": "冷靜的",
-          "note": "看到 calm 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "partOfSpeech": "adj.",
+          "meaning": "平靜的",
+          "highlight": true
         },
         {
-          "english": "gratitude",
-          "kk": "/gratitude/",
-          "partOfSpeech": "n.",
-          "meaning": "感激",
-          "note": "看到 gratitude 時，先聽它前後搭配的字，再練習放進自己的句子。",
-          "highlight": false
+          "id": "word-soul",
+          "lemma": "soul",
+          "english": "soul",
+          "kk": "/soul/",
+          "partOfSpeech": "noun",
+          "meaning": "靈魂",
+          "highlight": true
         }
       ]
     }
   ],
   "phrases": [
     {
-      "id": "phrase-01",
+      "id": "phrase-welcome-back",
       "phrase": "welcome back",
       "meaning": "歡迎回來",
       "examples": [
         {
-          "en": "Welcome back to my slow English podcast.",
-          "tc": "歡迎回到我的慢速英語podcast。"
+          "en": "Hello and __welcome back__ to my __slow English podcast__.",
+          "tc": "歡迎回來"
         }
       ]
     },
     {
-      "id": "phrase-02",
-      "phrase": "want to",
-      "meaning": "想要",
+      "id": "phrase-slow-english-podcast",
+      "phrase": "slow English podcast",
+      "meaning": "慢速英文播客",
       "examples": [
         {
-          "en": "Today I want to talk about gratitude, about feeling grateful and appreciative, about the little things in life.",
-          "tc": "今天我想談談感恩，關於感恩和欣賞，關於生活中的小事。"
+          "en": "Hello and __welcome back__ to my __slow English podcast__.",
+          "tc": "慢速英文播客"
         }
       ]
     },
     {
-      "id": "phrase-03",
-      "phrase": "talk about",
-      "meaning": "談論",
+      "id": "phrase-at-the-same-time",
+      "phrase": "at the same time",
+      "meaning": "同時",
       "examples": [
         {
-          "en": "Today I want to talk about gratitude, about feeling grateful and appreciative, about the little things in life.",
-          "tc": "今天我想談談感恩，關於感恩和欣賞，關於生活中的小事。"
+          "en": "This **podcast** is for English beginner listeners to relax and learn __at the same time__.",
+          "tc": "同時"
         }
+      ]
+    },
+    {
+      "id": "phrase-little-things-in-life",
+      "phrase": "little things in life",
+      "meaning": "生活中的小事",
+      "examples": [
+        {
+          "en": "Today I want to talk about **gratitude**, about feeling **grateful** and **appreciative**, about the __little things in life__.",
+          "tc": "生活中的小事"
+        }
+      ]
+    },
+    {
+      "id": "phrase-make-the-right-decisions",
+      "phrase": "make the right decisions",
+      "meaning": "做出正確決定",
+      "examples": [
+        {
+          "en": "I trust myself to __make the right decisions__.",
+          "tc": "做出正確決定"
+        }
+      ]
+    }
+  ],
+  "usages": [
+    {
+      "id": "usage-have-item",
+      "word": "have",
+      "familiarMeaning": "有",
+      "usage": "表示吃喝、經歷或享有",
+      "translation": "喝；經歷；享有",
+      "examples": [
+        "I 《have》 the power to create a great day."
+      ]
+    },
+    {
+      "id": "usage-take-item",
+      "word": "take",
+      "familiarMeaning": "拿",
+      "usage": "表示脫下、進行或照顧",
+      "translation": "脫下；進行；照顧",
+      "examples": [
+        "Every breath I 《take》 fills my body with calm."
+      ]
+    },
+    {
+      "id": "usage-make-item",
+      "word": "make",
+      "familiarMeaning": "製作",
+      "usage": "表示產生、犯下或做出",
+      "translation": "產生；犯下；做出",
+      "examples": [
+        "I trust myself to 《make》 the right **decisions**."
       ]
     }
   ],
   "breakdowns": [
     {
-      "id": "breakdown-01",
-      "sentence": "Welcome back to my slow English podcast.",
-      "translation": "歡迎回到我的慢速英語podcast。",
+      "id": "grammar-1",
+      "sentence": "Hello and welcome back to my slow English podcast.",
+      "translation": "你好，歡迎回到我的慢速英語播客。",
       "points": [
         {
-          "label": "welcome back",
-          "text": "welcome back",
-          "note": "注意 \"welcome back\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "不定詞片語",
+          "text": "to + 原形動詞",
+          "note": "表示目的、計畫或想做的事。"
         }
       ]
     },
     {
-      "id": "breakdown-02",
-      "sentence": "This podcast is for English beginner listeners to relax and learn at the same time.",
-      "translation": "該podcast適合英語初學者聽眾，讓他們放鬆並同時學習。",
+      "id": "grammar-2",
+      "sentence": "Some daily affirmations and statements of gratitude that I like to repeat every day.",
+      "translation": "我喜歡每天重複的一些日常肯定和感激之情。",
       "points": [
         {
-          "label": "listeners relax time",
-          "text": "listeners relax time",
-          "note": "注意 \"listeners relax time\" 在句子中的位置，先練整句，再替換自己的內容。"
-        }
-      ]
-    },
-    {
-      "id": "breakdown-03",
-      "sentence": "Today I want to talk about gratitude, about feeling grateful and appreciative, about the little things in life. Gratitude means to say.",
-      "translation": "今天我想談談感恩，關於感恩和欣賞，關於生活中的小事。感恩的意思是說。",
-      "points": [
-        {
-          "label": "want to",
-          "text": "want to",
-          "note": "注意 \"want to\" 在句子中的位置，先練整句，再替換自己的內容。"
-        }
-      ]
-    },
-    {
-      "id": "breakdown-04",
-      "sentence": "Thank you for good things in your life. some daily affirmations and statements of gratitude that.",
-      "translation": "感謝你生活中的美好事物。一些日常的肯定和感謝的陳述。",
-      "points": [
-        {
-          "label": "good life daily",
-          "text": "good life daily",
-          "note": "注意 \"good life daily\" 在句子中的位置，先練整句，再替換自己的內容。"
+          "label": "關係子句",
+          "text": "名詞 + who/which/that + 子句",
+          "note": "補充說明前面的名詞。"
         }
       ]
     }

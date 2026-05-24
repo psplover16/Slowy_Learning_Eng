@@ -110,4 +110,15 @@ describe('GrammarView', () => {
     expect(wrapper.text()).not.toContain('This is + 名詞（MissHoney）')
     expect(wrapper.findAll('[data-testid="grammar-card"]')).toHaveLength(19)
   })
+
+  it('conservatively includes clear A1 rollout grammar supplements in existing cards', () => {
+    const wrapper = mountGrammar()
+    const text = wrapper.text()
+
+    expect(text).toContain('I used to live in Nebraska, United States.')
+    expect(text).toContain('Do you like listening to music while trying to sleep?')
+    expect(text).toContain('If I ever need to vent, I can always talk to my friends.')
+    expect(text).toContain('I got my nails done.')
+    expect(wrapper.findAll('[data-testid="grammar-card"]')).toHaveLength(19)
+  })
 })

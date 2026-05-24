@@ -9,7 +9,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { basename, dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { validatePlaylistVideoData } from './content-core.mjs'
+import { addInlineTokensToPlaylistVideoData, validatePlaylistVideoData } from './content-core.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const REPO_ROOT = resolve(__dirname, '../..')
@@ -133,7 +133,7 @@ async function buildContent(scaffold) {
     highlight: index < 3,
   }))
 
-  return {
+  return addInlineTokensToPlaylistVideoData({
     videoId: scaffold.videoId,
     slug: scaffold.slug,
     level: scaffold.level,
@@ -165,7 +165,7 @@ async function buildContent(scaffold) {
       ],
     })),
     breakdowns: buildBreakdowns(sceneSentences, translations, phrases),
-  }
+  })
 }
 
 function buildTranscriptText(scaffold) {
